@@ -6,7 +6,7 @@ import sys
 import time
 import transifex
 
-from BeautifulSoup import BeautifulSoup
+from bs4 import BeautifulSoup
 import requests 
 
 PROJECT_PATH = 'projects/p/%(project)s'
@@ -39,7 +39,7 @@ def get_timeline_page(config, session, project='tippr', pagenum=1):
     if response.ok:
         return BeautifulSoup(response.content)
     else:
-        raise StandardError('Something went wrong', response)
+        raise RuntimeError(f'Something went wrong: {response}')
 
 
 def iter_timeline(config, session, start_at=1, end_at=None, sleep=2):
@@ -98,7 +98,7 @@ def get_lang(row):
         text = text.split()
         start = len('A translation for'.split())
         end = text.index('was')
-        return u' '.join(text[start:end])
+        return ' '.join(text[start:end])
     elif 'submitted a ' in text and ' translation ' in text:
         text = text.partition('submitted a ')[2]
         text = text.partition(' translation')[0]

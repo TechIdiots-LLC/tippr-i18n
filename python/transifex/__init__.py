@@ -1,5 +1,5 @@
 #!/usr/bin/python
-from ConfigParser import RawConfigParser as Parser
+from configparser import RawConfigParser as Parser
 import logging
 import os
 import sys
@@ -15,7 +15,8 @@ USERAGENT = ('Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:16.0; scraping '
 
 def config_from_filepath(path):
     config = Parser()
-    config.readfp(open(path))
+    with open(path) as f:
+        config.read_file(f)
     config.get('credentials', 'user')
     config.get('credentials', 'password')
     config.get('site', 'remote')
