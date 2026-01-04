@@ -93,11 +93,11 @@ msgstr "v41!|)47!0n 3rr0r5"
 
 #: r2/controllers/api.py:1165 r2/controllers/api.py:1879 r2/lib/menus.py:157
 #: r2/templates/printablebuttons.html:33
-#: r2/templates/subredditstylesheet.html:246
+#: r2/templates/subtipprstylesheet.html:246
 msgid "deleted"
 msgstr "d3|373d"
 
-#: r2/controllers/api.py:1215 r2/templates/subredditstylesheet.html:199
+#: r2/controllers/api.py:1215 r2/templates/subtipprstylesheet.html:199
 msgid "bad image name"
 msgstr "84) !m463 n@m3"
 
@@ -139,11 +139,11 @@ msgid "max flair templates reached"
 msgstr ""
 
 #: r2/controllers/buttons.py:201 r2/controllers/buttons.py:209
-msgid "reddit buttons"
+msgid "tippr buttons"
 msgstr "r3dd17 bu770n5"
 
 #: r2/controllers/buttons.py:215
-msgid "reddit widget"
+msgid "tippr widget"
 msgstr "r3dd17 w1d637"
 
 #: r2/controllers/buttons.py:220
@@ -178,7 +178,7 @@ msgid "forbidden (%(domain)s)"
 msgstr "ph0r81)|)3n (%(domain)s)"
 
 #: r2/controllers/error.py:162
-msgid "this reddit has been banned"
+msgid "this tippr has been banned"
 msgstr "7h!$ r3)|)17 h@$ 833n 84nn3|)"
 
 #: r2/controllers/errors.py:27
@@ -304,11 +304,11 @@ msgid "that link has already been submitted"
 msgstr "7h47 £1n|{ h4$ 4£r34Ð¥ b33n $µbm1773Ð"
 
 #: r2/controllers/errors.py:57
-msgid "that reddit already exists"
+msgid "that tippr already exists"
 msgstr "7h47 r3))17 @1r34|)y 3x!$75"
 
 #: r2/controllers/errors.py:58
-msgid "that reddit doesn't exist"
+msgid "that tippr doesn't exist"
 msgstr "7h@7 r3|)|)17 )03$n'7 3x157"
 
 #: r2/controllers/errors.py:59
@@ -316,7 +316,7 @@ msgid "you aren't allowed to post there."
 msgstr "y0u @r3n'7 @110w3) 70 p0$7 7h3r3."
 
 #: r2/controllers/errors.py:60
-msgid "you must specify a subreddit"
+msgid "you must specify a subtippr"
 msgstr ""
 
 #: r2/controllers/errors.py:61
@@ -357,8 +357,8 @@ msgstr "p134$3 0n1y $h@r3 70 %(num)s 3m4!15 47 4 7!m3."
 #: r2/controllers/errors.py:73
 #, python-format
 msgid ""
-"that reddit has already been oversold on %(start)s to %(end)s. Please pick "
-"another reddit or date."
+"that tippr has already been oversold on %(start)s to %(end)s. Please pick "
+"another tippr or date."
 msgstr ""
 "7h@7 r3)|)!7 h4$ 41r3@)y 833n 0v3r$01) 0n %(start)s 70 %(end)s. p134$3 p!(X "
 "@n07h3r r3)|)17 0r |)473."
@@ -366,7 +366,7 @@ msgstr ""
 #: r2/controllers/errors.py:74
 #, python-format
 msgid ""
-"reddit advertising is blacked out from %(start)s to %(end)s. please select "
+"tippr advertising is blacked out from %(start)s to %(end)s. please select "
 "different dates."
 msgstr ""
 
@@ -416,11 +416,11 @@ msgid "that code has already been claimed -- perhaps by you?"
 msgstr "7h47 (0)3 h4$ 41r3@|)y 833n (1@1m3|) -- p3rh@p$ 8y y0u?"
 
 #: r2/controllers/errors.py:85
-msgid "that reddit doesn't allow text posts"
+msgid "that tippr doesn't allow text posts"
 msgstr "7h@7 r3|))17 |)035n'7 @110w 73x7 p0$7$"
 
 #: r2/controllers/errors.py:86
-msgid "that reddit only allows text posts"
+msgid "that tippr only allows text posts"
 msgstr "7h47 r3)|)!7 0n1y 4110w5 73x7 p057$"
 
 #: r2/controllers/errors.py:87
@@ -480,10 +480,10 @@ msgid "show %d"
 msgstr "5h0w %d"
 
 #: r2/controllers/front.py:346
-msgid "create a reddit"
+msgid "create a tippr"
 msgstr "(r3473 4 r3ÐÐ17"
 
-#: r2/controllers/front.py:348 r2/templates/createsubreddit.html:49
+#: r2/controllers/front.py:348 r2/templates/createsubtippr.html:49
 msgid "create a community"
 msgstr "(r3@73 4 (0mmun!7y"
 
@@ -549,7 +549,7 @@ msgstr "7h4nX5"
 
 #: r2/controllers/front.py:1127 r2/controllers/front.py:1149
 #: r2/lib/menus.py:101 r2/templates/gold.html:84
-msgid "reddit gold"
+msgid "tippr gold"
 msgstr "r3|))!7 601|)"
 
 #: r2/controllers/ipn.py:228
@@ -561,11 +561,11 @@ msgid "the gold has been delivered!"
 msgstr "7h3 601|) h45 833n )311v3r3)!"
 
 #: r2/controllers/ipn.py:449
-msgid "thanks for buying reddit gold!"
+msgid "thanks for buying tippr gold!"
 msgstr ""
 
 #: r2/controllers/ipn.py:459 r2/templates/thanks.html:32
-msgid "thanks for buying creddits!"
+msgid "thanks for buying ctipprs!"
 msgstr ""
 
 #: r2/controllers/ipn.py:460
@@ -573,7 +573,7 @@ msgid "To spend them, visit [/gold](/gold) or your favorite person's userpage."
 msgstr ""
 
 #: r2/controllers/ipn.py:473
-msgid "thanks for giving reddit gold!"
+msgid "thanks for giving tippr gold!"
 msgstr ""
 
 #: r2/controllers/ipn.py:474
@@ -646,16 +646,16 @@ msgstr "(0mm3n7 r3p1135"
 msgid "post replies"
 msgstr "p057 r3p1!3$"
 
-#: r2/controllers/listingcontroller.py:638 r2/templates/redditheader.html:94
+#: r2/controllers/listingcontroller.py:638 r2/templates/tipprheader.html:94
 msgid "messages"
 msgstr "m3$$493$"
 
 #: r2/controllers/listingcontroller.py:785 r2/templates/pagenamenav.html:36
-msgid "reddits"
+msgid "tipprs"
 msgstr "r3ÐÐ17$"
 
 #: r2/controllers/listingcontroller.py:835
-msgid "reddits: "
+msgid "tipprs: "
 msgstr "r3ÐÐ17$:"
 
 #: r2/controllers/listingcontroller.py:871
@@ -667,7 +667,7 @@ msgid "My Identity"
 msgstr ""
 
 #: r2/controllers/oauth2.py:43
-msgid "Access my reddit username and signup date."
+msgid "Access my tippr username and signup date."
 msgstr ""
 
 #: r2/controllers/post.py:135
@@ -686,7 +686,7 @@ msgstr "ph@!13|) 70 @u7h3n71(473 (@r).  $0rry."
 msgid "bad image"
 msgstr "8@) 1m463"
 
-#: r2/controllers/reddit_base.py:879
+#: r2/controllers/tippr_base.py:879
 msgid "search failed"
 msgstr "$34r(h ph4113)"
 
@@ -903,7 +903,7 @@ msgid "advertise"
 msgstr ""
 
 #: r2/lib/menus.py:102
-msgid "subreddits"
+msgid "subtipprs"
 msgstr ""
 
 #: r2/lib/menus.py:105 r2/templates/promotelinkform.html:318
@@ -922,7 +922,7 @@ msgstr "ƒr13nÐ$"
 msgid "password/email"
 msgstr "p4$$w0rÐ/3m41£"
 
-#: r2/lib/menus.py:109 r2/templates/createsubreddit.html:288
+#: r2/lib/menus.py:109 r2/templates/createsubtippr.html:288
 #: r2/templates/printablebuttons.html:33
 msgid "delete"
 msgstr "d3|373"
@@ -970,7 +970,7 @@ msgid "edit subscriptions"
 msgstr "3|)!7 $u85(r1p710n5"
 
 #: r2/lib/menus.py:127 r2/lib/pages/pages.py:1045
-#: r2/templates/createsubreddit.html:39
+#: r2/templates/createsubtippr.html:39
 msgid "community settings"
 msgstr "(0mmun!7y $3771n6$"
 
@@ -1002,19 +1002,19 @@ msgstr ""
 msgid "popular"
 msgstr "p0pµ£4r"
 
-#: r2/lib/menus.py:137 r2/templates/createsubreddit.html:312
+#: r2/lib/menus.py:137 r2/templates/createsubtippr.html:312
 msgid "create"
 msgstr "(r3473"
 
 #: r2/lib/menus.py:138 r2/lib/pages/pages.py:1338
-msgid "my reddits"
+msgid "my tipprs"
 msgstr "m¥ r3ÐÐ17$"
 
 #: r2/lib/menus.py:140
 msgid "help translate"
 msgstr "h31p 7r@n51473"
 
-#: r2/lib/menus.py:141 r2/templates/subredditstylesheet.html:88
+#: r2/lib/menus.py:141 r2/templates/subtipprstylesheet.html:88
 msgid "errors"
 msgstr "3rr0r$"
 
@@ -1204,121 +1204,121 @@ msgstr "phunny 500 p@63 m355@63 10"
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas)
 #: r2/lib/rand_strings.py:22
-msgid "Reason to create a reddit 1"
+msgid "Reason to create a tippr 1"
 msgstr "r3@$0n 70 (r3473 4 r3))17 1"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas)
 #: r2/lib/rand_strings.py:24
-msgid "Reason to create a reddit 2"
+msgid "Reason to create a tippr 2"
 msgstr "r3450n 70 (r3473 @ r3|))!7 2"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas)
 #: r2/lib/rand_strings.py:26
-msgid "Reason to create a reddit 3"
+msgid "Reason to create a tippr 3"
 msgstr "r3450n 70 (r3473 @ r3))17 3"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas)
 #: r2/lib/rand_strings.py:28
-msgid "Reason to create a reddit 4"
+msgid "Reason to create a tippr 4"
 msgstr "r34$0n 70 (r3@73 4 r3)|)!7 4"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas)
 #: r2/lib/rand_strings.py:30
-msgid "Reason to create a reddit 5"
+msgid "Reason to create a tippr 5"
 msgstr "r3450n 70 (r3473 @ r3)|)!7 5"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas)
 #: r2/lib/rand_strings.py:32
-msgid "Reason to create a reddit 6"
+msgid "Reason to create a tippr 6"
 msgstr "r34$0n 70 (r3@73 4 r3|)|)17 6"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas)
 #: r2/lib/rand_strings.py:34
-msgid "Reason to create a reddit 7"
+msgid "Reason to create a tippr 7"
 msgstr "r3450n 70 (r3473 @ r3))!7 7"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas)
 #: r2/lib/rand_strings.py:36
-msgid "Reason to create a reddit 8"
+msgid "Reason to create a tippr 8"
 msgstr "r3450n 70 (r3@73 @ r3)|)17 8"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas)
 #: r2/lib/rand_strings.py:38
-msgid "Reason to create a reddit 9"
+msgid "Reason to create a tippr 9"
 msgstr "r3450n 70 (r3@73 4 r3))17 9"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas)
 #: r2/lib/rand_strings.py:40
-msgid "Reason to create a reddit 10"
+msgid "Reason to create a tippr 10"
 msgstr "r3@50n 70 (r3@73 4 r3|))17 10"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas)
 #: r2/lib/rand_strings.py:42
-msgid "Reason to create a reddit 11"
+msgid "Reason to create a tippr 11"
 msgstr "r34$0n 70 (r3@73 @ r3))!7 11"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas)
 #: r2/lib/rand_strings.py:44
-msgid "Reason to create a reddit 12"
+msgid "Reason to create a tippr 12"
 msgstr "r3@$0n 70 (r3@73 4 r3|)|)!7 12"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas)
 #: r2/lib/rand_strings.py:46
-msgid "Reason to create a reddit 13"
+msgid "Reason to create a tippr 13"
 msgstr "r3@50n 70 (r3473 4 r3|))17 13"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas)
 #: r2/lib/rand_strings.py:48
-msgid "Reason to create a reddit 14"
+msgid "Reason to create a tippr 14"
 msgstr "r34$0n 70 (r3@73 4 r3))!7 14"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas)
 #: r2/lib/rand_strings.py:50
-msgid "Reason to create a reddit 15"
+msgid "Reason to create a tippr 15"
 msgstr "r3@50n 70 (r3@73 @ r3)|)!7 15"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas)
 #: r2/lib/rand_strings.py:52
-msgid "Reason to create a reddit 16"
+msgid "Reason to create a tippr 16"
 msgstr "r34$0n 70 (r3@73 @ r3))!7 16"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas)
 #: r2/lib/rand_strings.py:54
-msgid "Reason to create a reddit 17"
+msgid "Reason to create a tippr 17"
 msgstr "r3@50n 70 (r3473 @ r3))17 17"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas)
 #: r2/lib/rand_strings.py:56
-msgid "Reason to create a reddit 18"
+msgid "Reason to create a tippr 18"
 msgstr "r3@50n 70 (r3@73 4 r3))!7 18"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas)
 #: r2/lib/rand_strings.py:58
-msgid "Reason to create a reddit 19"
+msgid "Reason to create a tippr 19"
 msgstr "r34$0n 70 (r3@73 @ r3)|)!7 19"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas)
 #: r2/lib/rand_strings.py:60
-msgid "Reason to create a reddit 20"
+msgid "Reason to create a tippr 20"
 msgstr "r34$0n 70 (r3@73 4 r3|)|)!7 20"
 
 #: r2/lib/strings.py:48 r2/lib/template_helpers.py:138
@@ -1353,7 +1353,7 @@ msgstr ""
 
 #: r2/lib/strings.py:65
 msgid ""
-"reddit is a source for what's new and popular online. vote on links that you "
+"tippr is a source for what's new and popular online. vote on links that you "
 "like or dislike and help decide what's popular, or submit your own!"
 msgstr ""
 "r3))17 15 4 $0ur(3 ph0r wh@7'5 n3w @n) p0pu14r 0n11n3. v073 0n 1!nX5 7h@7 "
@@ -1371,7 +1371,7 @@ msgstr ""
 #: r2/lib/strings.py:69
 #, python-format
 msgid ""
-"that link has been submitted to multiple reddits. you can try to [submit it "
+"that link has been submitted to multiple tipprs. you can try to [submit it "
 "again](%s)."
 msgstr ""
 "7h@7 11nX h@5 833n 5u8m1773|) 70 mu171p13 r3|))!75. y0u (@n 7ry 70 [$u8m!7 !"
@@ -1392,7 +1392,7 @@ msgstr "()0n'7 w0rry, !7 0n1y 74X3$ 4 ph3w 53(0n)$)"
 #: r2/lib/strings.py:76
 #, python-format
 msgid ""
-"Log in or register to connect your reddit account with [%(app_name)s]"
+"Log in or register to connect your tippr account with [%(app_name)s]"
 "(%(app_about_url)s)."
 msgstr ""
 
@@ -1408,14 +1408,14 @@ msgstr ""
 #: r2/lib/strings.py:80
 #, python-format
 msgid ""
-"to view reddit with only submissions from your friends, use [reddit.com/r/"
+"to view tippr with only submissions from your friends, use [tippr.com/r/"
 "friends](%s)"
 msgstr ""
 "70 v13w r3|)|)!7 w17h 0n1y $u8m15$10n5 phr0m y0ur phr!3n|)5, u$3 [r3)|)!7."
 "(0m/r/phr!3n|)5](%s)"
 
 #: r2/lib/strings.py:82
-msgid "your reddit has been created"
+msgid "your tippr has been created"
 msgstr "y0ur r3|))!7 h45 833n (r3@73|)"
 
 #: r2/lib/strings.py:84
@@ -1481,35 +1481,35 @@ msgid "you can view traffic on a promoted link"
 msgstr "y0u (4n v13w 7r@phph!( 0n @ pr0m073) 1!nX"
 
 #: r2/lib/strings.py:105
-msgid "you have not subscribed to any reddits."
+msgid "you have not subscribed to any tipprs."
 msgstr "¥0µ h4v3 n07 $µb$(r1b3Ð 70 4n¥ r3ÐÐ17$."
 
 #: r2/lib/strings.py:106
-msgid "below are the reddits you have subscribed to"
+msgid "below are the tipprs you have subscribed to"
 msgstr "b3£0w 4r3 7h3 r3ÐÐ17$ ¥0µ h4v3 $µb$(r1b3Ð 70"
 
 #: r2/lib/strings.py:107
-msgid "below are the reddits that you are an approved submitter on."
+msgid "below are the tipprs that you are an approved submitter on."
 msgstr "8310w @r3 7h3 r3))!75 7h@7 y0u 4r3 @n @ppr0v3|) $u8m1773r 0n."
 
 #: r2/lib/strings.py:108
-msgid "below are the reddits that you have moderator access to."
+msgid "below are the tipprs that you have moderator access to."
 msgstr "b3£0w 4r3 7h3 r3ÐÐ17$ 7h47 ¥0µ h4v3 m0Ð3r470r 4((3$$ 70."
 
 #: r2/lib/strings.py:111
 msgid ""
-"click the `subscribe` or `unsubscribe` buttons to choose which reddits "
+"click the `subscribe` or `unsubscribe` buttons to choose which tipprs "
 "appear on your front page."
 msgstr ""
 
 #: r2/lib/strings.py:113
 #, python-format
 msgid ""
-"you're searching within the [%(reddit_name)s](%(reddit_link)s) reddit. you "
-"can also search within [all reddits](%(all_reddits_link)s)"
+"you're searching within the [%(tippr_name)s](%(tippr_link)s) tippr. you "
+"can also search within [all tipprs](%(all_tipprs_link)s)"
 msgstr ""
-"y0u'r3 53@r(h1n6 w17h1n 7h3 [%(reddit_name)s](%(reddit_link)s) r3|)|)17. y0u "
-"(4n 4150 534r(h w17h1n [411 r3))175](%(all_reddits_link)s)"
+"y0u'r3 53@r(h1n6 w17h1n 7h3 [%(tippr_name)s](%(tippr_link)s) r3|)|)17. y0u "
+"(4n 4150 534r(h w17h1n [411 r3))175](%(all_tipprs_link)s)"
 
 #: r2/lib/strings.py:117
 #, python-format
@@ -1556,11 +1556,11 @@ msgid "to anything interesting: news article, blog entry, video, picture..."
 msgstr "70 4ny7h!n6 !n73r357!n6: n3w$ 4r71(13, 8106 3n7ry, v1)30, p1(7ur3..."
 
 #: r2/lib/strings.py:127
-msgid "submission in this subreddit is restricted to approved submitters."
+msgid "submission in this subtippr is restricted to approved submitters."
 msgstr ""
 
 #: r2/lib/strings.py:128
-msgid "this subreddit is archived and no longer accepting submissions."
+msgid "this subtippr is archived and no longer accepting submissions."
 msgstr ""
 
 #: r2/lib/strings.py:129
@@ -1576,18 +1576,18 @@ msgstr "%(title)s : %(site)s"
 #: r2/lib/strings.py:131
 #, python-format
 msgid ""
-"**this reddit has been banned**\n"
+"**this tippr has been banned**\n"
 "\n"
 "most likely this was done automatically by our spam filtering program. the "
 "program is still learning, and may even have some bugs, so if you feel the "
-"ban was a mistake, please submit a link to our [request a reddit listing]"
-"(%(link)s) and be sure to include the **exact name of the reddit**."
+"ban was a mistake, please submit a link to our [request a tippr listing]"
+"(%(link)s) and be sure to include the **exact name of the tippr**."
 msgstr ""
 
 #: r2/lib/strings.py:132
 #, python-format
 msgid ""
-"The following is a sample of what Reddit users had to say about this page. "
+"The following is a sample of what Tippr users had to say about this page. "
 "The full discussion is available [here](%(fd_link)s); you can also get there "
 "by clicking the link's title (in the middle of the toolbar, to the right of "
 "the comments button)."
@@ -1617,7 +1617,7 @@ msgstr ""
 
 #: r2/lib/strings.py:136
 msgid ""
-"You should consider using [reddit's mobile interface](http://i.reddit.com/)."
+"You should consider using [tippr's mobile interface](http://i.tippr.com/)."
 msgstr ""
 "y0u $h0u1|) (0n$!)3r u51n6 [r3|))17'5 m08113 !n73rph4(3](h77p://!.r3)|)!7."
 "(0m/)."
@@ -1668,7 +1668,7 @@ msgstr "y0u'v3 5u8m1773) 700 m@ny 1!nX5 r3(3n71y. p13@$3 7ry @6@1n !n @n h0ur."
 msgid ""
 "You've submitted several links recently that haven't been doing very well. "
 "You'll have to wait a while before you can submit again, or [write to the "
-"moderators of this reddit](%(link)s) and ask for an exemption."
+"moderators of this tippr](%(link)s) and ask for an exemption."
 msgstr ""
 "y0u'v3 $u8m!773) $3v3r@1 11nX$ r3(3n71y 7h@7 h4v3n'7 833n |)0!n6 v3ry w311. "
 "y0u'11 h4v3 70 w@!7 4 wh113 83ph0r3 y0u (@n $u8m17 @641n, 0r [wr!73 70 7h3 "
@@ -1680,7 +1680,7 @@ msgid ""
 "You haven't [verified your email address](%(link1)s); until you do, your "
 "submitting privileges will be severely limited. Please try again in an hour "
 "or verify your email address. If you'd like an exemption from this rule, "
-"please [write to the moderators of this reddit](%(link2)s)."
+"please [write to the moderators of this tippr](%(link2)s)."
 msgstr ""
 "y0u h@v3n'7 [v3r!ph13) y0ur 3m411 4)|)r3$5](%(link1)s); un711 y0u )0, y0ur "
 "$u8m!77!n6 pr1v11363$ w!11 83 $3v3r31y 1!m!73). p13453 7ry 4641n 1n 4n h0ur "
@@ -1689,7 +1689,7 @@ msgstr ""
 
 #: r2/lib/strings.py:147
 msgid ""
-"reddit is in \"emergency read-only mode\" right now. :( you won't be able to "
+"tippr is in \"emergency read-only mode\" right now. :( you won't be able to "
 "log in. we're sorry, and are working frantically to fix the problem."
 msgstr ""
 "r3))!7 15 !n \"3m3r63n(y r3@|)-0n1y m0)3\" r!6h7 n0w. :( y0u w0n'7 83 @813 "
@@ -1718,7 +1718,7 @@ msgstr ""
 #, python-format
 msgid ""
 "Sorry, the maximum number of comments is %(max)d. (However, if you subscribe "
-"to reddit gold, it goes up to %(goldmax)d.)"
+"to tippr gold, it goes up to %(goldmax)d.)"
 msgstr ""
 "$0rry, 7h3 m@x1mum num83r 0ph (0mm3n75 1$ %(max)d. (h0w3v3r, 1ph y0u "
 "$u8$(r183 70 r3)|)!7 601), 17 603$ up 70 %(goldmax)d.)"
@@ -1730,7 +1730,7 @@ msgstr "50rry, 7h3 m4x!mum num83r 0ph (0mm3n7$ !$ %d."
 
 #: r2/lib/strings.py:153
 #, python-format
-msgid "%(sender)s just sent you %(amount)s of reddit gold! Wasn't that nice?"
+msgid "%(sender)s just sent you %(amount)s of tippr gold! Wasn't that nice?"
 msgstr ""
 
 #: r2/lib/strings.py:154
@@ -1744,36 +1744,36 @@ msgstr ""
 #: r2/lib/strings.py:155
 #, python-format
 msgid ""
-"You're about to set up an ongoing, autorenewing subscription to reddit gold "
+"You're about to set up an ongoing, autorenewing subscription to tippr gold "
 "for yourself (%(user)s)."
 msgstr ""
 
 #: r2/lib/strings.py:156
 #, python-format
 msgid ""
-"You're about to make a one-time purchase of %(amount)s of reddit gold for "
+"You're about to make a one-time purchase of %(amount)s of tippr gold for "
 "yourself (%(user)s)."
 msgstr ""
 
 #: r2/lib/strings.py:157
 #, python-format
 msgid ""
-"You're about to purchase %(amount)s of reddit gold creddits. They work like "
-"gift certificates: each creddit you have will allow you to give one month of "
-"reddit gold to someone else."
+"You're about to purchase %(amount)s of tippr gold ctipprs. They work like "
+"gift certificates: each ctippr you have will allow you to give one month of "
+"tippr gold to someone else."
 msgstr ""
 
 #: r2/lib/strings.py:158
 #, python-format
 msgid ""
-"You're about to give %(amount)s of reddit gold to %(recipient)s, who will be "
+"You're about to give %(amount)s of tippr gold to %(recipient)s, who will be "
 "told that it came from you."
 msgstr ""
 
 #: r2/lib/strings.py:159
 #, python-format
 msgid ""
-"You're about to give %(amount)s of reddit gold to %(recipient)s. It will be "
+"You're about to give %(amount)s of tippr gold to %(recipient)s. It will be "
 "an anonymous gift."
 msgstr ""
 
@@ -1791,11 +1791,11 @@ msgstr ""
 
 #: r2/lib/strings.py:162
 #, python-format
-msgid "You are currently accessing reddit from this IP address: %(address)s."
+msgid "You are currently accessing tippr from this IP address: %(address)s."
 msgstr ""
 
 #: r2/lib/strings.py:229 r2/lib/strings.py:234 r2/lib/template_helpers.py:232
-#: r2/templates/subredditstylesheet.html:280
+#: r2/templates/subtipprstylesheet.html:280
 msgid "comment"
 msgid_plural "comments"
 msgstr[0] "(0mm3n7"
@@ -1822,14 +1822,14 @@ msgstr[0] "m3$$463"
 msgstr[1] "m3$$4635"
 
 #: r2/lib/strings.py:236
-msgid "subreddit"
-msgid_plural "subreddits"
+msgid "subtippr"
+msgid_plural "subtipprs"
 msgstr[0] "5u8r3))17"
 msgstr[1] "5u8r3)|)!7$"
 
 #: r2/lib/strings.py:237
-msgid "creddit"
-msgid_plural "creddits"
+msgid "ctippr"
+msgid_plural "ctipprs"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -1845,14 +1845,14 @@ msgid_plural "subscribers"
 msgstr[0] "$µb$(r1b3r"
 msgstr[1] "$µb$(r1b3r5"
 
-#: r2/lib/strings.py:242 r2/templates/subreddit.html:82
-#: r2/templates/subreddit.html:83
+#: r2/lib/strings.py:242 r2/templates/subtippr.html:82
+#: r2/templates/subtippr.html:83
 msgid "approved submitter"
 msgid_plural "approved submitters"
 msgstr[0] "4ppr0v3) 5u8m!773r"
 msgstr[1] "4ppr0v3) 5u8m!773r$"
 
-#: r2/lib/strings.py:243 r2/templates/subreddit.html:76
+#: r2/lib/strings.py:243 r2/templates/subtippr.html:76
 msgid "moderator"
 msgid_plural "moderators"
 msgstr[0] "m0)3r@70r"
@@ -1915,7 +1915,7 @@ msgid "submitter"
 msgstr "5u8m1773r"
 
 #: r2/lib/template_helpers.py:467
-msgid "reddit admin, speaking officially"
+msgid "tippr admin, speaking officially"
 msgstr "r3))!7 4)m!n, 5p3@X1n6 0phph!(!411y"
 
 #: r2/lib/pages/pages.py:74
@@ -1924,7 +1924,7 @@ msgid "%d %b %Y"
 msgstr "%d %b %Y"
 
 #: r2/lib/pages/pages.py:238
-msgid "these reddits"
+msgid "these tipprs"
 msgstr "7h3$3 r3|))175"
 
 #: r2/lib/pages/pages.py:250
@@ -1964,15 +1964,15 @@ msgid "tools"
 msgstr ""
 
 #: r2/lib/pages/pages.py:443
-msgid "redditgifts"
+msgid "tipprgifts"
 msgstr ""
 
 #: r2/lib/pages/pages.py:444
-msgid "reddit.tv"
+msgid "tippr.tv"
 msgstr ""
 
 #: r2/lib/pages/pages.py:445
-msgid "radio reddit"
+msgid "radio tippr"
 msgstr ""
 
 #: r2/lib/pages/pages.py:447
@@ -1984,7 +1984,7 @@ msgstr ""
 msgid "%(site)s mail"
 msgstr "%(site)s m@!1"
 
-#: r2/lib/pages/pages.py:696 r2/templates/redditheader.html:72
+#: r2/lib/pages/pages.py:696 r2/templates/tipprheader.html:72
 msgid "login or register"
 msgstr "1061n 0r r361$73r"
 
@@ -2006,15 +2006,15 @@ msgid "about %(site)s"
 msgstr "4b0µ7 %(site)s"
 
 #: r2/lib/pages/pages.py:1072
-msgid "search reddits"
+msgid "search tipprs"
 msgstr "53@r(h r3|))!7$"
 
 #: r2/lib/pages/pages.py:1103
 #, python-format
-msgid "your front page reddits (%s)"
+msgid "your front page tipprs (%s)"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1164 r2/templates/createsubreddit.html:196
+#: r2/lib/pages/pages.py:1164 r2/templates/createsubtippr.html:196
 #: r2/templates/spotlightlisting.html:54
 msgid "what's this?"
 msgstr "wh47'$ 7h!$?"
@@ -2033,15 +2033,15 @@ msgstr "135$ 7h@n 4 |)@y"
 
 #: r2/lib/pages/pages.py:1230
 #, python-format
-msgid "buy %(user)s a month of reddit gold"
+msgid "buy %(user)s a month of tippr gold"
 msgstr ""
 
 #: r2/lib/pages/pages.py:1233
-msgid "renew your reddit gold"
+msgid "renew your tippr gold"
 msgstr ""
 
 #: r2/lib/pages/pages.py:1236
-msgid "treat yourself to reddit gold"
+msgid "treat yourself to tippr gold"
 msgstr ""
 
 #: r2/lib/pages/pages.py:1271
@@ -2064,7 +2064,7 @@ msgstr ""
 
 #: r2/lib/pages/pages.py:1419
 #, python-format
-msgid "%(bonus)s bonus reddits"
+msgid "%(bonus)s bonus tipprs"
 msgstr ""
 
 #: r2/lib/pages/pages.py:1605
@@ -2118,8 +2118,8 @@ msgstr "@)) 4ppr0v3|) $u8m!773r"
 
 #: r2/lib/pages/pages.py:2700
 #, python-format
-msgid "approved submitters for %(reddit)s"
-msgstr "4ppr0v3|) 5u8m!773r5 ph0r %(reddit)s"
+msgid "approved submitters for %(tippr)s"
+msgstr "4ppr0v3|) 5u8m!773r5 ph0r %(tippr)s"
 
 #: r2/lib/pages/pages.py:2716 r2/models/modaction.py:37
 msgid "add moderator"
@@ -2127,7 +2127,7 @@ msgstr "4ÐÐ m0Ð3r470r"
 
 #: r2/lib/pages/pages.py:2720
 #, python-format
-msgid "moderators of %(reddit)s"
+msgid "moderators of %(tippr)s"
 msgstr ""
 
 #: r2/lib/pages/pages.py:2743
@@ -2151,13 +2151,13 @@ msgid "ancient history"
 msgstr ""
 
 #: r2/models/account.py:185
-msgid "really obscure karma from before it was cool to track per-subreddit"
+msgid "really obscure karma from before it was cool to track per-subtippr"
 msgstr ""
 
 #: r2/models/builder.py:103
 #, python-format
-msgid "moderator of /r/%(reddit)s, speaking officially"
-msgstr "m0)3r470r 0ph /r/%(reddit)s, 5p3@X!n6 0phph1(1411y"
+msgid "moderator of /r/%(tippr)s, speaking officially"
+msgstr "m0)3r470r 0ph /r/%(tippr)s, 5p3@X!n6 0phph1(1411y"
 
 #: r2/models/builder.py:169
 msgid "label_template"
@@ -2198,7 +2198,7 @@ msgstr ""
 
 #: r2/models/mail_queue.py:308
 #, python-format
-msgid "[reddit] %(user)s has shared a link with you"
+msgid "[tippr] %(user)s has shared a link with you"
 msgstr "[r3|)|)17] %(user)s h@5 $h4r3) 4 1!nX w17h y0u"
 
 #: r2/models/mail_queue.py:309
@@ -2212,47 +2212,47 @@ msgid "[ad_inq] feedback from '%(user)s'"
 msgstr "[@)_1n0_] ph33|)84(X phr0m '%(user)s'"
 
 #: r2/models/mail_queue.py:311
-msgid "[reddit] email removal notice"
+msgid "[tippr] email removal notice"
 msgstr "[r3)|)!7] 3m@11 r3m0v@1 n071(3"
 
 #: r2/models/mail_queue.py:312
-msgid "[reddit] email addition notice"
+msgid "[tippr] email addition notice"
 msgstr "[r3|))!7] 3m411 @|))!7!0n n07!(3"
 
 #: r2/models/mail_queue.py:313
-msgid "[reddit] reset your password"
+msgid "[tippr] reset your password"
 msgstr "[r3))17] r3$37 y0ur p@5$w0r|)"
 
 #: r2/models/mail_queue.py:314
-msgid "[reddit] verify your email address"
+msgid "[tippr] verify your email address"
 msgstr "[r3))17] v3r!phy y0ur 3m@11 4))r3$5"
 
 #: r2/models/mail_queue.py:315
-msgid "[reddit] your bid has been accepted"
+msgid "[tippr] your bid has been accepted"
 msgstr "[r3|))!7] y0ur 8!|) h@$ 833n 4((3p73)"
 
 #: r2/models/mail_queue.py:316
-msgid "[reddit] your promotion has been accepted"
+msgid "[tippr] your promotion has been accepted"
 msgstr "[r3))!7] y0ur pr0m0710n h@$ 833n 4((3p73)"
 
 #: r2/models/mail_queue.py:317
-msgid "[reddit] your promotion has been rejected"
+msgid "[tippr] your promotion has been rejected"
 msgstr "[r3|)|)17] y0ur pr0m0710n h4$ 833n r3_/3(73|)"
 
 #: r2/models/mail_queue.py:318
-msgid "[reddit] your promotion has been charged"
+msgid "[tippr] your promotion has been charged"
 msgstr "[r3|)|)!7] y0ur pr0m07!0n h@5 833n (h@r63|)"
 
 #: r2/models/mail_queue.py:319
-msgid "[reddit] your promotion is now live"
+msgid "[tippr] your promotion is now live"
 msgstr "[r3|)|)!7] y0ur pr0m07!0n 15 n0w 1!v3"
 
 #: r2/models/mail_queue.py:320
-msgid "[reddit] your promotion has finished"
+msgid "[tippr] your promotion has finished"
 msgstr "[r3|)|)17] y0ur pr0m0710n h@5 ph1n!5h3|)"
 
 #: r2/models/mail_queue.py:321
-msgid "[reddit] your promotion has been created"
+msgid "[tippr] your promotion has been created"
 msgstr "[r3|))17] y0ur pr0m0710n h45 833n (r3@73|)"
 
 #: r2/models/mail_queue.py:322
@@ -2261,11 +2261,11 @@ msgid "[i18n] translation offer from '%(user)s'"
 msgstr "[118n] 7r4n$147!0n 0phph3r phr0m '%(user)s'"
 
 #: r2/models/mail_queue.py:323
-msgid "[reddit] hey, nerd!"
+msgid "[tippr] hey, nerd!"
 msgstr "[r3|))!7] h3y, n3r)!"
 
 #: r2/models/mail_queue.py:324
-msgid "[reddit] reddit gold activation link"
+msgid "[tippr] tippr gold activation link"
 msgstr "[r3|))!7] r3|))17 601) @(7!v47!0n 1!nX"
 
 #: r2/models/modaction.py:31
@@ -2308,7 +2308,7 @@ msgstr ""
 msgid "edit settings"
 msgstr ""
 
-#: r2/models/modaction.py:44 r2/templates/subredditinfobar.html:90
+#: r2/models/modaction.py:44 r2/templates/subtipprinfobar.html:90
 #: r2/templates/subscriptionbox.html:57
 msgid "banned"
 msgstr "b4nn3Ð"
@@ -2361,20 +2361,20 @@ msgstr ""
 msgid "removed self"
 msgstr ""
 
-#: r2/models/modaction.py:60 r2/templates/createsubreddit.html:69
+#: r2/models/modaction.py:60 r2/templates/createsubtippr.html:69
 #: r2/templates/newlink.html:61 r2/templates/promotelinkform.html:258
 msgid "title"
 msgstr "7!713"
 
-#: r2/models/modaction.py:61 r2/templates/createsubreddit.html:81
+#: r2/models/modaction.py:61 r2/templates/createsubtippr.html:81
 msgid "description"
 msgstr "|)3$(r1p710n"
 
-#: r2/models/modaction.py:62 r2/templates/createsubreddit.html:90
+#: r2/models/modaction.py:62 r2/templates/createsubtippr.html:90
 msgid "language"
 msgstr "14n6u463"
 
-#: r2/models/modaction.py:63 r2/templates/createsubreddit.html:101
+#: r2/models/modaction.py:63 r2/templates/createsubtippr.html:101
 msgid "type"
 msgstr "7yp3"
 
@@ -2394,7 +2394,7 @@ msgstr ""
 msgid "toggle show thumbnail images of content"
 msgstr ""
 
-#: r2/models/modaction.py:68 r2/templates/createsubreddit.html:170
+#: r2/models/modaction.py:68 r2/templates/createsubtippr.html:170
 msgid "domain"
 msgstr "|)0m4!n"
 
@@ -2410,7 +2410,7 @@ msgstr ""
 msgid "header title"
 msgstr ""
 
-#: r2/models/modaction.py:72 r2/templates/subredditstylesheet.html:42
+#: r2/models/modaction.py:72 r2/templates/subtipprstylesheet.html:42
 msgid "stylesheet"
 msgstr "$7y13$h337"
 
@@ -2422,7 +2422,7 @@ msgstr ""
 msgid "delete image"
 msgstr ""
 
-#: r2/models/modaction.py:75 r2/templates/createsubreddit.html:223
+#: r2/models/modaction.py:75 r2/templates/createsubtippr.html:223
 msgid "upload header image"
 msgstr "up10@) h3@|)3r 1m463"
 
@@ -2475,8 +2475,8 @@ msgstr ""
 msgid "on"
 msgstr "0n"
 
-#: r2/models/subreddit.py:952
-msgid "on reddit.com"
+#: r2/models/subtippr.py:952
+msgid "on tippr.com"
 msgstr "0n r3|)|)17.(0m"
 
 #: r2/templates/base.html:51
@@ -2500,7 +2500,7 @@ msgstr "1n$74££ 7h3 %(site)s b00|{m4r|{£37 $37"
 #: r2/templates/bookmarklets.html:34
 msgid ""
 "once added to your bookmark bar, you can click these buttons from any site "
-"to get quick access to reddit functionality."
+"to get quick access to tippr functionality."
 msgstr ""
 "0n(3 4)|)3|) 70 y0ur 800Xm4rX 84r, y0u (@n (11(X 7h353 8u770n$ phr0m 4ny "
 "$173 70 637 0_u1(X 4((35$ 70 r3))17 phun(710n41!7y."
@@ -2545,8 +2545,8 @@ msgstr "pµ7 %(site)s bµ770n$ 0n ¥0µr $173"
 
 #: r2/templates/buttondemopanel.html:30
 msgid ""
-"the reddit button is the smart way to get your content submitted to      and "
-"discussed on reddit.  pick the button you like from below, and then      "
+"the tippr button is the smart way to get your content submitted to      and "
+"discussed on tippr.  pick the button you like from below, and then      "
 "copy/paste the code into your HTML editor."
 msgstr ""
 "7h3 r3|)|)17 8u770n 15 7h3 $m@r7 w4y 70 637 y0ur (0n73n7 5u8m!773) 70      "
@@ -2559,7 +2559,7 @@ msgstr "(0mm0n1y u$3|) 8u770n5"
 
 #: r2/templates/buttondemopanel.html:35
 msgid ""
-"use one of these buttons to quickly add reddit links to your site, or       "
+"use one of these buttons to quickly add tippr links to your site, or       "
 "see below for more options."
 msgstr ""
 "u$3 0n3 0ph 7h353 8u770n5 70 0_u!(X1y @|)|) r3)|)!7 11nX$ 70 y0ur $!73, "
@@ -2683,12 +2683,12 @@ msgstr "v073 0n 7h!$ @r71(13"
 
 #: r2/templates/buttontypes.html:217
 #, python-format
-msgid "Discuss at the %(name)s reddit"
+msgid "Discuss at the %(name)s tippr"
 msgstr "|)!5(u$5 @7 7h3 %(name)s r3))!7"
 
 #: r2/templates/buttontypes.html:219
 #, python-format
-msgid "Submit to the %(name)s reddit"
+msgid "Submit to the %(name)s tippr"
 msgstr "5u8m17 70 7h3 %(name)s r3|))!7"
 
 #: r2/templates/captcha.html:49
@@ -2759,163 +2759,163 @@ msgstr ""
 msgid "no highlighting"
 msgstr "n0 h16h116h71n6"
 
-#: r2/templates/createsubreddit.html:47
-msgid "that subreddit doesn't exist, but you can create it here."
+#: r2/templates/createsubtippr.html:47
+msgid "that subtippr doesn't exist, but you can create it here."
 msgstr "7h47 $µbr3ÐÐ17 Ð03$n'7 3x1$7, bµ7 ¥0µ (4n (r3473 17 h3r3."
 
-#: r2/templates/createsubreddit.html:55
+#: r2/templates/createsubtippr.html:55
 msgid "no spaces, e.g., slashdot"
 msgstr "n0 $p4(35, 3.6., $1@$h|)07"
 
-#: r2/templates/createsubreddit.html:55
+#: r2/templates/createsubtippr.html:55
 msgid "name"
 msgstr "n@m3"
 
-#: r2/templates/createsubreddit.html:69
+#: r2/templates/createsubtippr.html:69
 msgid "e.g., slashdot: news for nerds, stuff that matters"
 msgstr "3.6., 51@5h)07: n3w5 ph0r n3r|)5, 57uphph 7h47 m4773r5"
 
-#: r2/templates/createsubreddit.html:81
+#: r2/templates/createsubtippr.html:81
 msgid "500 characters max.  Make them count."
 msgstr "500 (h@r4(73r5 m4x.  m4X3 7h3m (0un7."
 
-#: r2/templates/createsubreddit.html:104
+#: r2/templates/createsubtippr.html:104
 msgid "public"
 msgstr "pu81!("
 
-#: r2/templates/createsubreddit.html:105
+#: r2/templates/createsubtippr.html:105
 msgid "anyone can view and submit"
 msgstr "@ny0n3 (@n v!3w 4n) 5u8m17"
 
-#: r2/templates/createsubreddit.html:107
+#: r2/templates/createsubtippr.html:107
 msgid "restricted"
 msgstr "r3$7r!(73)"
 
-#: r2/templates/createsubreddit.html:108
+#: r2/templates/createsubtippr.html:108
 msgid "anyone can view, but only some are approved to submit links"
 msgstr "4ny0n3 (@n v!3w, 8u7 0n1y 50m3 @r3 4ppr0v3|) 70 $u8m17 1!nX$"
 
-#: r2/templates/createsubreddit.html:110 r2/templates/subreddit.html:94
+#: r2/templates/createsubtippr.html:110 r2/templates/subtippr.html:94
 msgid "private"
 msgstr "pr1v473"
 
-#: r2/templates/createsubreddit.html:111
+#: r2/templates/createsubtippr.html:111
 msgid "only approved members can view and submit"
 msgstr "0n1y @ppr0v3|) m3m83r5 (4n v13w @n) 5u8m17"
 
-#: r2/templates/createsubreddit.html:116
+#: r2/templates/createsubtippr.html:116
 msgid "archived"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:117
+#: r2/templates/createsubtippr.html:117
 msgid "anyone can view, but submissions are no longer accepted"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:124 r2/templates/prefoptions.html:243
+#: r2/templates/createsubtippr.html:124 r2/templates/prefoptions.html:243
 msgid "content options"
 msgstr "(0n73n7 0p710n5"
 
-#: r2/templates/createsubreddit.html:127
+#: r2/templates/createsubtippr.html:127
 msgid "any"
 msgstr "4ny"
 
-#: r2/templates/createsubreddit.html:128
+#: r2/templates/createsubtippr.html:128
 msgid "any link type is allowed"
 msgstr "@ny 11nX 7yp3 !$ @110w3|)"
 
-#: r2/templates/createsubreddit.html:130
+#: r2/templates/createsubtippr.html:130
 msgid "links only"
 msgstr "11nX5 0n1y"
 
-#: r2/templates/createsubreddit.html:131
+#: r2/templates/createsubtippr.html:131
 msgid "only links to external sites are allowed"
 msgstr "0n1y 11nX$ 70 3x73rn41 $173$ @r3 @110w3|)"
 
-#: r2/templates/createsubreddit.html:133
+#: r2/templates/createsubtippr.html:133
 msgid "text posts only"
 msgstr "73x7 p0$75 0n1y"
 
-#: r2/templates/createsubreddit.html:134
+#: r2/templates/createsubtippr.html:134
 msgid "only text/self posts are allowed"
 msgstr "0n1y 73x7/$31ph p0575 @r3 4110w3|)"
 
-#: r2/templates/createsubreddit.html:140
+#: r2/templates/createsubtippr.html:140
 msgid "other options"
 msgstr "07h3r 0p710n$"
 
-#: r2/templates/createsubreddit.html:147
+#: r2/templates/createsubtippr.html:147
 msgid "viewers must be over eighteen years old"
 msgstr "v13w3r5 mu$7 83 0v3r 3!6h733n y3@r$ 01)"
 
-#: r2/templates/createsubreddit.html:155
-msgid "allow this reddit to be shown in the default set"
+#: r2/templates/createsubtippr.html:155
+msgid "allow this tippr to be shown in the default set"
 msgstr "@110w 7h!$ r3)|)!7 70 83 $h0wn 1n 7h3 )3ph4u17 $37"
 
-#: r2/templates/createsubreddit.html:163
+#: r2/templates/createsubtippr.html:163
 msgid "show thumbnail images of content"
 msgstr "5h0w 7hum8n@!1 1m4635 0ph (0n73n7"
 
-#: r2/templates/createsubreddit.html:177
+#: r2/templates/createsubtippr.html:177
 msgid "make custom CSS styles apply only when accessed from the cname."
 msgstr "m@X3 (u570m (5$ $7y135 @pp1y 0n1y wh3n 4((35$3) phr0m 7h3 (n@m3."
 
-#: r2/templates/createsubreddit.html:184
+#: r2/templates/createsubtippr.html:184
 msgid "show sidebar when accessed from the cname."
 msgstr ""
 
-#: r2/templates/createsubreddit.html:196 r2/templates/usertext.html:72
+#: r2/templates/createsubtippr.html:196 r2/templates/usertext.html:72
 msgid "hide help"
 msgstr "h!)3 h31p"
 
-#: r2/templates/createsubreddit.html:200
+#: r2/templates/createsubtippr.html:200
 msgid ""
 "Own a domain?  Enter it here and then go to your DNS provider and add a "
-"CNAME record aliasing your domain to rhs.reddit.com. You will be able to "
-"access your reddit through your domain."
+"CNAME record aliasing your domain to rhs.tippr.com. You will be able to "
+"access your tippr through your domain."
 msgstr ""
 "0wn 4 )0m41n?  3n73r 17 h3r3 @n|) 7h3n 60 70 y0ur )n5 pr0v1)3r 4n|) @|)|) @ "
 "(n4m3 r3(0r|) @1!@51n6 y0ur |)0m41n 70 rh5.r3))17.(0m. y0u w!11 83 @813 70 @"
 "((3$5 y0ur r3|))17 7hr0u6h y0ur |)0m41n."
 
-#: r2/templates/createsubreddit.html:207 r2/templates/promotelinkform.html:298
+#: r2/templates/createsubtippr.html:207 r2/templates/promotelinkform.html:298
 msgid "look and feel"
 msgstr "100X 4n) ph331"
 
-#: r2/templates/createsubreddit.html:210
+#: r2/templates/createsubtippr.html:210
 msgid "edit the stylesheet"
 msgstr "3|)17 7h3 $7y13$h337"
 
-#: r2/templates/createsubreddit.html:214
+#: r2/templates/createsubtippr.html:214
 msgid "leaves this page"
 msgstr "134v3$ 7h15 p463"
 
-#: r2/templates/createsubreddit.html:233
+#: r2/templates/createsubtippr.html:233
 msgid "restore default header"
 msgstr "r3570r3 )3ph@u17 h3@|)3r"
 
-#: r2/templates/createsubreddit.html:251
+#: r2/templates/createsubtippr.html:251
 msgid "sponsorship"
 msgstr "$p0n50r$h1p"
 
-#: r2/templates/createsubreddit.html:263
+#: r2/templates/createsubtippr.html:263
 msgid "name this campaign (for traffic)"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:272
+#: r2/templates/createsubtippr.html:272
 msgid "enter link url here"
 msgstr ""
 
-#: r2/templates/createsubreddit.html:277
+#: r2/templates/createsubtippr.html:277
 msgid "upload sponsorship image"
 msgstr "up104) $p0n50r5h1p !m463"
 
-#: r2/templates/createsubreddit.html:309 r2/templates/flairpane.html:64
+#: r2/templates/createsubtippr.html:309 r2/templates/flairpane.html:64
 #: r2/templates/prefoptions.html:321 r2/templates/promotelinkform.html:396
 msgid "save options"
 msgstr "5@v3 0p7!0n$"
 
 #: r2/templates/dart_ad.html:67 r2/templates/housead.html:32
-msgid "reddit this ad"
+msgid "tippr this ad"
 msgstr "r3|))17 7h15 @)"
 
 #: r2/templates/feedback.html:46 r2/templates/sharelink.html:33
@@ -2936,7 +2936,7 @@ msgid "send"
 msgstr "$3nÐ"
 
 #: r2/templates/feedbackblurb.html:67
-msgid "send reddit feedback"
+msgid "send tippr feedback"
 msgstr "53n) r3))!7 ph33|)8@(X"
 
 #: r2/templates/flairlist.html:26
@@ -2966,7 +2966,7 @@ msgstr ""
 #: r2/templates/flairlistrow.html:45 r2/templates/flairselector.html:48
 #: r2/templates/frametoolbar.html:199 r2/templates/prefupdate.html:98
 #: r2/templates/printablebuttons.html:174
-#: r2/templates/subredditstylesheet.html:78
+#: r2/templates/subtipprstylesheet.html:78
 msgid "save"
 msgstr "$4v3"
 
@@ -2989,7 +2989,7 @@ msgid "flair options"
 msgstr ""
 
 #: r2/templates/flairpane.html:39
-msgid "enable user flair in this subreddit"
+msgid "enable user flair in this subtippr"
 msgstr ""
 
 #: r2/templates/flairpane.html:50
@@ -3017,7 +3017,7 @@ msgid "position flair to the right of the username"
 msgstr ""
 
 #: r2/templates/flairprefs.html:30
-msgid "Show my flair on this reddit. It looks like:"
+msgid "Show my flair on this tippr. It looks like:"
 msgstr ""
 
 #: r2/templates/flairselector.html:23
@@ -3073,7 +3073,7 @@ msgid "click to visit the main page for this submission"
 msgstr "(11(X 70 v!517 7h3 m4!n p463 ph0r 7h1$ 5u8m15510n"
 
 #: r2/templates/frametoolbar.html:133
-msgid "click to submit this link to reddit"
+msgid "click to submit this link to tippr"
 msgstr "(11(X 70 5u8m17 7h!5 1!nX 70 r3)|)!7"
 
 #: r2/templates/frametoolbar.html:171
@@ -3123,11 +3123,11 @@ msgid "Buy for yourself, as a one-time purchase"
 msgstr ""
 
 #: r2/templates/gold.html:93
-msgid "Give reddit gold to someone else"
+msgid "Give tippr gold to someone else"
 msgstr ""
 
 #: r2/templates/gold.html:95
-msgid "Buy reddit gold \"creddits\""
+msgid "Buy tippr gold \"ctipprs\""
 msgstr ""
 
 #: r2/templates/gold.html:103
@@ -3138,7 +3138,7 @@ msgstr ""
 msgid "$29.99 / year (which works out to just $2.50 / month!)"
 msgstr ""
 
-#: r2/templates/gold.html:106 r2/templates/subreddit.html:65
+#: r2/templates/gold.html:106 r2/templates/subtippr.html:65
 msgid "subscribe"
 msgstr ""
 
@@ -3158,7 +3158,7 @@ msgstr ""
 #, python-format
 msgid ""
 "Note: If you want to give more than %(number)d, you'll need to buy more "
-"creddits."
+"ctipprs."
 msgstr ""
 
 #: r2/templates/gold.html:138
@@ -3187,8 +3187,8 @@ msgstr "61v3"
 
 #: r2/templates/gold.html:173
 msgid ""
-"How many creddits would you like to buy? (each will allow you to give one "
-"month of reddit gold)"
+"How many ctipprs would you like to buy? (each will allow you to give one "
+"month of tippr gold)"
 msgstr ""
 
 #: r2/templates/goldpayment.html:38
@@ -3233,8 +3233,8 @@ msgstr "%(score)s $u8m1773|) %(when)s @60"
 
 #: r2/templates/link.html:207
 #, python-format
-msgid "by %(author)s to %(reddit)s"
-msgstr "8y %(author)s 70 %(reddit)s"
+msgid "by %(author)s to %(tippr)s"
+msgstr "8y %(author)s 70 %(tippr)s"
 
 #: r2/templates/link.html:209
 #, python-format
@@ -3243,8 +3243,8 @@ msgstr "8y %(author)s"
 
 #: r2/templates/link.html:211
 #, python-format
-msgid "submitted %(when)s ago by %(author)s to %(reddit)s"
-msgstr "5u8m1773) %(when)s @60 8y %(author)s 70 %(reddit)s"
+msgid "submitted %(when)s ago by %(author)s to %(tippr)s"
+msgstr "5u8m1773) %(when)s @60 8y %(author)s 70 %(tippr)s"
 
 #: r2/templates/link.html:213
 #, python-format
@@ -3277,7 +3277,7 @@ msgid "comments from %(site)s"
 msgstr "(0mm3n7$ phr0m %(site)s"
 
 #: r2/templates/linkontrial.html:44
-msgid "reddit's spam filter needs your help!"
+msgid "tippr's spam filter needs your help!"
 msgstr "r3|))!7'$ 5p4m ph1173r n33)5 y0ur h31p!"
 
 #: r2/templates/linkontrial.html:51
@@ -3388,8 +3388,8 @@ msgstr "70 %(dest)s ƒr0m %(author)s $3n7 %(when)s 490"
 
 #: r2/templates/message.html:65 r2/templates/message.xml:47
 #, python-format
-msgid "%(author)s via %(subreddit)s"
-msgstr "%(author)s v14 %(subreddit)s"
+msgid "%(author)s via %(subtippr)s"
+msgstr "%(author)s v14 %(subtippr)s"
 
 #: r2/templates/message.html:103
 msgid "expand all"
@@ -3408,7 +3408,7 @@ msgid "send a message"
 msgstr "send a message"
 
 #: r2/templates/messagecompose.html:52
-msgid "(username, or /r/ followed by the reddit name)"
+msgid "(username, or /r/ followed by the tippr name)"
 msgstr ""
 
 #: r2/templates/messagecompose.html:52
@@ -3438,7 +3438,7 @@ msgid "continue this thread"
 msgstr "(0n7!nu3 7h!$ 7hr3@|)"
 
 #: r2/templates/newlink.html:36
-msgid "reddit"
+msgid "tippr"
 msgstr "r3|))!7"
 
 #: r2/templates/newlink.html:38
@@ -3465,13 +3465,13 @@ msgid "text"
 msgstr "73x7"
 
 #: r2/templates/newlink.html:100
-msgid "choose a subreddit"
+msgid "choose a subtippr"
 msgstr ""
 
 #: r2/templates/oauth2authorization.html:28
 #, python-format
 msgid ""
-"#[%(app_name)s](%(app_about_url)s) requests to connect with your reddit "
+"#[%(app_name)s](%(app_about_url)s) requests to connect with your tippr "
 "account."
 msgstr ""
 
@@ -3482,7 +3482,7 @@ msgstr ""
 
 #: r2/templates/oauth2authorization.html:35
 #, python-format
-msgid "%(app_name)s will not be able to access your reddit password."
+msgid "%(app_name)s will not be able to access your tippr password."
 msgstr ""
 
 #: r2/templates/oauth2authorization.html:43
@@ -3534,7 +3534,7 @@ msgid "Allow '%(email)s' to receive email from us?"
 msgstr "4110w '%(email)s' 70 r3(3!v3 3m@11 phr0m u$?"
 
 #: r2/templates/over18.html:27
-msgid "you must be at least eighteen to view this reddit"
+msgid "you must be at least eighteen to view this tippr"
 msgstr "y0u mu$7 83 @7 13@$7 316h733n 70 v!3w 7h15 r3|)|)17"
 
 #: r2/templates/over18.html:35
@@ -3669,7 +3669,7 @@ msgid "view the rest of the comments"
 msgstr "v!3w 7h3 r3$7 0ph 7h3 (0mm3n75"
 
 #: r2/templates/prefdelete.html:28
-msgid "delete your reddit account"
+msgid "delete your tippr account"
 msgstr ""
 
 #: r2/templates/prefdelete.html:31
@@ -3682,10 +3682,10 @@ msgstr ""
 
 #: r2/templates/prefdelete.html:36
 msgid ""
-" * if you're having a problem on reddit, please consider [contacting us](/"
+" * if you're having a problem on tippr, please consider [contacting us](/"
 "feedback) about it before deleting your account.\n"
 " * deleting your account will not delete the content of posts and comments "
-"you've made on reddit. to do so, please delete them individually."
+"you've made on tippr. to do so, please delete them individually."
 msgstr ""
 
 #: r2/templates/prefdelete.html:45
@@ -3803,7 +3803,7 @@ msgid "clicking options"
 msgstr "(11(X!n6 0p7!0n$"
 
 #: r2/templates/prefoptions.html:107
-msgid "display links with a reddit toolbar"
+msgid "display links with a tippr toolbar"
 msgstr "Ð1$p£4¥ £1n|{$ w17h 4 r3ÐÐ17 700£b4r"
 
 #: r2/templates/prefoptions.html:113 r2/templates/promotelinkform.html:353
@@ -3819,7 +3819,7 @@ msgid "don't show thumbnails next to links"
 msgstr ")0n'7 5h0w 7hum8n4!1$ n3x7 70 11nX5"
 
 #: r2/templates/prefoptions.html:118
-msgid "show thumbnails based on that reddit's media preferences"
+msgid "show thumbnails based on that tippr's media preferences"
 msgstr "$h0w 7hum8n4!1$ 8453) 0n 7h47 r3|))!7'$ m3|)!4 pr3ph3r3n(35"
 
 #: r2/templates/prefoptions.html:119
@@ -3959,7 +3959,7 @@ msgid "display options"
 msgstr ")1$p14y 0p710n$"
 
 #: r2/templates/prefoptions.html:232
-msgid "allow reddits to show me custom styles"
+msgid "allow tipprs to show me custom styles"
 msgstr "4110w r3|)|)175 70 $h0w m3 (u$70m $7y13$"
 
 #: r2/templates/prefoptions.html:234
@@ -3975,7 +3975,7 @@ msgid "i am over eighteen years old and willing to view adult content"
 msgstr "1 4m 0v3r 316h733n y34r5 01|) @n) w111!n6 70 v!3w @|)u17 (0n73n7"
 
 #: r2/templates/prefoptions.html:246
-msgid "required to view some reddits"
+msgid "required to view some tipprs"
 msgstr "r30_u!r3) 70 v13w 50m3 r3|))!75"
 
 #: r2/templates/prefoptions.html:248
@@ -4012,7 +4012,7 @@ msgid "don't allow search engines to index my user profile"
 msgstr ""
 
 #: r2/templates/prefoptions.html:285
-msgid "load core JS libraries from reddit servers"
+msgid "load core JS libraries from tippr servers"
 msgstr ""
 
 #: r2/templates/prefoptions.html:299
@@ -4024,7 +4024,7 @@ msgid "show the right sidebar ad box"
 msgstr "$h0w 7h3 r16h7 $!)38@r @) 80x"
 
 #: r2/templates/prefoptions.html:302
-msgid "the attractive 300x250 one that usually only has reddit t-shirts in it"
+msgid "the attractive 300x250 one that usually only has tippr t-shirts in it"
 msgstr "7h3 @77r4(7!v3 300x250 0n3 7h47 u5u411y 0n1y h@5 r3))17 7-5h1r7$ 1n !7"
 
 #: r2/templates/prefoptions.html:304
@@ -4137,7 +4137,7 @@ msgstr "@ppr0v3"
 
 #: r2/templates/printablebuttons.html:52
 #: r2/templates/printablebuttons.html:143
-#: r2/templates/subredditinfobar.html:82
+#: r2/templates/subtipprinfobar.html:82
 msgid "approved"
 msgstr "@ppr0v3)"
 
@@ -4297,7 +4297,7 @@ msgid "comment karma"
 msgstr "(0mm3n7 X@rm4"
 
 #: r2/templates/profilebar.html:125
-msgid "of reddit gold remaining"
+msgid "of tippr gold remaining"
 msgstr "0ph r3))17 601|) r3m41n1n6"
 
 #: r2/templates/profilebar.html:133
@@ -4309,7 +4309,7 @@ msgid "send message"
 msgstr "$3nÐ m3$$493"
 
 #: r2/templates/profilebar.html:158
-msgid "redditor for"
+msgid "tippror for"
 msgstr ""
 
 #: r2/templates/promote_graph.html:171
@@ -4406,11 +4406,11 @@ msgstr "pr0m0710n h1570ry"
 msgid "bidding history"
 msgstr "81)|)!n6 h1570ry"
 
-#: r2/templates/reddit.html:157 r2/templates/reddit.html:169
+#: r2/templates/tippr.html:157 r2/templates/tippr.html:169
 msgid "close this window"
 msgstr "(1053 7h15 w!n)0w"
 
-#: r2/templates/redditfooter.html:47
+#: r2/templates/tipprfooter.html:47
 #, python-format
 msgid ""
 "Use of this site constitutes acceptance of our %(user_agreement)s and "
@@ -4419,61 +4419,61 @@ msgstr ""
 "µ$3 0ƒ 7h1$ $173 (0n$717µ73$ 4((3p74n(3 0ƒ 0µr %(user_agreement)s 4nÐ "
 "%(privacy_policy)s."
 
-#: r2/templates/redditfooter.html:49
+#: r2/templates/tipprfooter.html:49
 msgid "User Agreement {Genitive}"
 msgstr "u$3r @6r33m3n7 {63n!7!v3}"
 
-#: r2/templates/redditfooter.html:51
+#: r2/templates/tipprfooter.html:51
 msgid "Privacy Policy {Genitive}"
 msgstr "pr1v@(y p011(y {63n!7!v3}"
 
-#: r2/templates/redditfooter.html:53
+#: r2/templates/tipprfooter.html:53
 #, python-format
-msgid "%(year)d reddit inc. All rights reserved."
+msgid "%(year)d tippr inc. All rights reserved."
 msgstr ""
 
-#: r2/templates/redditheader.html:32
+#: r2/templates/tipprheader.html:32
 msgid "jump to content"
 msgstr "_/ump 70 (0n73n7"
 
-#: r2/templates/redditheader.html:71
+#: r2/templates/tipprheader.html:71
 #, python-format
 msgid "want to join? %(login_or_register)s in seconds"
 msgstr ""
 
-#: r2/templates/redditheader.html:109
+#: r2/templates/tipprheader.html:109
 msgid "mod messages"
 msgstr "m0|) m3$$@63$"
 
-#: r2/templates/reddittraffic.html:48 r2/templates/reddittraffic.html:55
-#: r2/templates/reddittraffic.html:86 r2/templates/reddittraffic.html:185
-#: r2/templates/reddittraffic.html:204
+#: r2/templates/tipprtraffic.html:48 r2/templates/tipprtraffic.html:55
+#: r2/templates/tipprtraffic.html:86 r2/templates/tipprtraffic.html:185
+#: r2/templates/tipprtraffic.html:204
 msgid "date"
 msgstr ")473"
 
-#: r2/templates/reddittraffic.html:49 r2/templates/reddittraffic.html:51
-#: r2/templates/reddittraffic.html:56 r2/templates/reddittraffic.html:87
-#: r2/templates/reddittraffic.html:186 r2/templates/reddittraffic.html:205
-#: r2/templates/reddittraffic.html:207
+#: r2/templates/tipprtraffic.html:49 r2/templates/tipprtraffic.html:51
+#: r2/templates/tipprtraffic.html:56 r2/templates/tipprtraffic.html:87
+#: r2/templates/tipprtraffic.html:186 r2/templates/tipprtraffic.html:205
+#: r2/templates/tipprtraffic.html:207
 msgid "uniques"
 msgstr "un!0_u3$"
 
-#: r2/templates/reddittraffic.html:50 r2/templates/reddittraffic.html:52
-#: r2/templates/reddittraffic.html:57 r2/templates/reddittraffic.html:88
-#: r2/templates/reddittraffic.html:187 r2/templates/reddittraffic.html:206
-#: r2/templates/reddittraffic.html:208
+#: r2/templates/tipprtraffic.html:50 r2/templates/tipprtraffic.html:52
+#: r2/templates/tipprtraffic.html:57 r2/templates/tipprtraffic.html:88
+#: r2/templates/tipprtraffic.html:187 r2/templates/tipprtraffic.html:206
+#: r2/templates/tipprtraffic.html:208
 msgid "impressions"
 msgstr "!mpr3$$!0n5"
 
-#: r2/templates/reddittraffic.html:53 r2/templates/reddittraffic.html:59
+#: r2/templates/tipprtraffic.html:53 r2/templates/tipprtraffic.html:59
 msgid "subscriptions"
 msgstr "5u8$(r1p710n$"
 
-#: r2/templates/reddittraffic.html:103
+#: r2/templates/tipprtraffic.html:103
 msgid "Daily Mean"
 msgstr ")411y m3@n"
 
-#: r2/templates/reddittraffic.html:132
+#: r2/templates/tipprtraffic.html:132
 msgid ""
 "There doesn't seem to be any traffic data at the moment.  Please check back "
 "later."
@@ -4481,11 +4481,11 @@ msgstr ""
 "7h3r3 )035n'7 533m 70 83 4ny 7r@phph!( |)@7@ @7 7h3 m0m3n7.  p13@53 (h3(X 84"
 "(X 1@73r."
 
-#: r2/templates/reddittraffic.html:201
+#: r2/templates/tipprtraffic.html:201
 msgid "cnamed"
 msgstr "(n4m3)"
 
-#: r2/templates/reddittraffic.html:209
+#: r2/templates/tipprtraffic.html:209
 msgid "cname"
 msgstr "(n4m3"
 
@@ -4535,7 +4535,7 @@ msgid "include or exclude self posts"
 msgstr ""
 
 #: r2/templates/searchform.html:46
-msgid "include or exclude results from nsfw reddits"
+msgid "include or exclude results from nsfw tipprs"
 msgstr ""
 
 #: r2/templates/searchform.html:50
@@ -4547,7 +4547,7 @@ msgid "advanced search: by author, community..."
 msgstr ""
 
 #: r2/templates/searchform.html:61
-msgid "search reddit"
+msgid "search tippr"
 msgstr "53@r(h r3)|)17"
 
 #: r2/templates/searchform.html:67 r2/templates/searchform.html:79
@@ -4595,7 +4595,7 @@ msgstr "h3r3"
 
 #: r2/templates/spotlightlisting.html:68
 msgid ""
-"Sometimes reddit needs to ask the community to help fight spam. This is your "
+"Sometimes tippr needs to ask the community to help fight spam. This is your "
 "chance to take part in that."
 msgstr ""
 "$0m371m3$ r3|)|)!7 n33)$ 70 @5X 7h3 (0mmun!7y 70 h31p ph!6h7 $p4m. 7h15 !$ "
@@ -4628,100 +4628,100 @@ msgstr ""
 "7h3 n3w 11nX @r3@ w!11 n0 10n63r @pp3@r ph0r y0u. 70 r3-3n@813 !7, v1$17 "
 "y0ur pr3ph3r3n(35."
 
-#: r2/templates/subreddit.html:60
+#: r2/templates/subtippr.html:60
 #, python-format
 msgid "a community for %(time)s"
 msgstr "@ (0mmun!7y ph0r %(time)s"
 
-#: r2/templates/subreddit.html:65
+#: r2/templates/subtippr.html:65
 msgid "unsubscribe"
 msgstr ""
 
-#: r2/templates/subreddit.html:86 r2/templates/subreddit.html:87
+#: r2/templates/subtippr.html:86 r2/templates/subtippr.html:87
 msgid "not approved"
 msgstr "n07 @ppr0v3)"
 
-#: r2/templates/subreddit.html:98
+#: r2/templates/subtippr.html:98
 msgid "over18"
 msgstr "0v3r18"
 
-#: r2/templates/subredditinfobar.html:34
+#: r2/templates/subtipprinfobar.html:34
 msgid "leave"
 msgstr "£34v3"
 
-#: r2/templates/subredditinfobar.html:48
+#: r2/templates/subtipprinfobar.html:48
 #, python-format
-msgid "you are a moderator of this reddit. (%(leave)s)"
+msgid "you are a moderator of this tippr. (%(leave)s)"
 msgstr "y0u 4r3 @ m0)3r470r 0ph 7h!$ r3)|)!7. (%(leave)s)"
 
-#: r2/templates/subredditinfobar.html:49
+#: r2/templates/subtipprinfobar.html:49
 msgid "stop being a moderator?"
 msgstr "$70p 83!n6 @ m0)3r@70r?"
 
-#: r2/templates/subredditinfobar.html:50
+#: r2/templates/subtipprinfobar.html:50
 msgid "you are no longer a moderator"
 msgstr "y0u 4r3 n0 10n63r 4 m0|)3r@70r"
 
-#: r2/templates/subredditinfobar.html:56
+#: r2/templates/subtipprinfobar.html:56
 #, python-format
-msgid "you are an approved submitter on this reddit. (%(leave)s)"
+msgid "you are an approved submitter on this tippr. (%(leave)s)"
 msgstr "y0u @r3 @n 4ppr0v3) $u8m1773r 0n 7h15 r3|)|)17. (%(leave)s)"
 
-#: r2/templates/subredditinfobar.html:57
+#: r2/templates/subtipprinfobar.html:57
 msgid "stop being an approved submitter?"
 msgstr "570p 831n6 4n @ppr0v3|) 5u8m!773r?"
 
-#: r2/templates/subredditinfobar.html:58
+#: r2/templates/subtipprinfobar.html:58
 msgid "you are no longer an approved submitter"
 msgstr "y0u @r3 n0 10n63r @n @ppr0v3|) 5u8m!773r"
 
-#: r2/templates/subredditinfobar.html:71
+#: r2/templates/subtipprinfobar.html:71
 #, python-format
 msgid "created by&#32;%(user)s"
 msgstr ""
 
-#: r2/templates/subredditinfobar.html:75
+#: r2/templates/subtipprinfobar.html:75
 msgid "a community for"
 msgstr ""
 
-#: r2/templates/subredditinfobar.html:81
-msgid "approve this reddit"
+#: r2/templates/subtipprinfobar.html:81
+msgid "approve this tippr"
 msgstr "4ppr0v3 7h1$ r3|)|)17"
 
-#: r2/templates/subredditinfobar.html:89
-msgid "ban this reddit"
+#: r2/templates/subtipprinfobar.html:89
+msgid "ban this tippr"
 msgstr "8@n 7h1$ r3)|)!7"
 
-#: r2/templates/subredditstylesheet.html:71
+#: r2/templates/subtipprstylesheet.html:71
 msgid "show the default stylesheet"
 msgstr "5h0w 7h3 |)3ph4u17 $7y135h337"
 
-#: r2/templates/subredditstylesheet.html:72
+#: r2/templates/subtipprstylesheet.html:72
 msgid "hide the default stylesheet"
 msgstr "h1)3 7h3 |)3ph@u17 $7y13$h337"
 
-#: r2/templates/subredditstylesheet.html:82
-#: r2/templates/subredditstylesheet.html:265
+#: r2/templates/subtipprstylesheet.html:82
+#: r2/templates/subtipprstylesheet.html:265
 msgid "preview"
 msgstr "pr3v13w"
 
-#: r2/templates/subredditstylesheet.html:97
+#: r2/templates/subtipprstylesheet.html:97
 msgid "images"
 msgstr "!m@635"
 
-#: r2/templates/subredditstylesheet.html:101
+#: r2/templates/subtipprstylesheet.html:101
 msgid "image file"
 msgstr "!m463 ph113"
 
-#: r2/templates/subredditstylesheet.html:104
+#: r2/templates/subtipprstylesheet.html:104
 msgid "new image name:"
 msgstr "n3w 1m463 n4m3:"
 
-#: r2/templates/subredditstylesheet.html:109
+#: r2/templates/subtipprstylesheet.html:109
 msgid "(image names should consist of alphanumeric characters and '-' only)"
 msgstr "(!m463 n@m3$ $h0u1) (0n$!57 0ph 41ph4num3r!( (h@r4(73r$ 4n) '-' 0n1y)"
 
-#: r2/templates/subredditstylesheet.html:113
+#: r2/templates/subtipprstylesheet.html:113
 msgid ""
 "Note: any changes to images here will be reflected immediately on reload and "
 "cannot be undone."
@@ -4729,27 +4729,27 @@ msgstr ""
 "n073: @ny (h4n635 70 1m@635 h3r3 w111 83 r3ph13(73|) 1mm3|)1@731y 0n r310@) "
 "4n|) (4nn07 83 un|)0n3."
 
-#: r2/templates/subredditstylesheet.html:208
+#: r2/templates/subtipprstylesheet.html:208
 msgid "please select an image"
 msgstr "p13453 5313(7 4n 1m463"
 
-#: r2/templates/subredditstylesheet.html:243
+#: r2/templates/subtipprstylesheet.html:243
 msgid "paste into stylesheet"
 msgstr "p4$73 1n70 57y13$h337"
 
-#: r2/templates/subredditstylesheet.html:246
+#: r2/templates/subtipprstylesheet.html:246
 msgid "delete this image"
 msgstr "|)31373 7h1$ 1m463"
 
-#: r2/templates/subredditstylesheet.html:268
+#: r2/templates/subtipprstylesheet.html:268
 msgid "normal link"
 msgstr "n0rm@1 1!nX"
 
-#: r2/templates/subredditstylesheet.html:272
+#: r2/templates/subtipprstylesheet.html:272
 msgid "compressed link"
 msgstr "(0mpr3$53) 11nX"
 
-#: r2/templates/subredditstylesheet.html:276
+#: r2/templates/subtipprstylesheet.html:276
 msgid "link with thumbnail"
 msgstr "1!nX w!7h 7hum8n411"
 
@@ -4762,19 +4762,19 @@ msgid "thanks for subscribing!"
 msgstr "7h4nX$ ph0r 5u8$(r181n6!"
 
 #: r2/templates/thanks.html:39
-msgid "enter your confirmation code below to claim your gift creddits"
+msgid "enter your confirmation code below to claim your gift ctipprs"
 msgstr ""
 
 #: r2/templates/thanks.html:41
-msgid "enter your confirmation code below to activate reddit gold"
+msgid "enter your confirmation code below to activate tippr gold"
 msgstr "3n73r y0ur (0nph1rm4710n (0)3 8310w 70 4(7!v@73 r3)|)17 601)"
 
 #: r2/templates/thanks.html:44
-msgid "You claimed a reddit gold subscription in the last few minutes."
+msgid "You claimed a tippr gold subscription in the last few minutes."
 msgstr "y0u (141m3|) @ r3)|)17 601|) $u85(r!p710n !n 7h3 1@$7 ph3w m1nu73$."
 
 #: r2/templates/thanks.html:46
-msgid "You're already a reddit gold subscriber."
+msgid "You're already a tippr gold subscriber."
 msgstr "y0u'r3 41r34|)y 4 r3)|)17 601) $u85(r!83r."
 
 #: r2/templates/thanks.html:49
@@ -5030,7 +5030,7 @@ msgstr "4ÐÐ 7h1$ 1n70 ¥0µr H7M£ wh3r3 ¥0µ w4n7 7h3 %(site)s £1n|{$ Ð1$p
 #~ msgid "error (sorry)"
 #~ msgstr "3rr0r ($0rry)"
 
-#~ msgid "help translate reddit into your language"
+#~ msgid "help translate tippr into your language"
 #~ msgstr "h31p 7r@n51473 r3|))17 1n70 y0ur 1@n6u463"
 
 #~ msgid "shirt"
@@ -5073,7 +5073,7 @@ msgstr "4ÐÐ 7h1$ 1n70 ¥0µr H7M£ wh3r3 ¥0µ w4n7 7h3 %(site)s £1n|{$ Ð1$p
 #~ msgid "sorry.  That title is too long to fit on a t-shirt."
 #~ msgstr "50rry.  7h@7 7!713 15 700 10n6 70 ph17 0n @ 7-$h1r7."
 
-#~ msgid "Your reddit headline shirt"
+#~ msgid "Your tippr headline shirt"
 #~ msgstr "y0ur r3))17 h3@|)11n3 $h!r7"
 
 #~ msgid "Color"
@@ -5091,7 +5091,7 @@ msgstr "4ÐÐ 7h1$ 1n70 ¥0µr H7M£ wh3r3 ¥0µ w4n7 7h3 %(site)s £1n|{$ Ð1$p
 #~ msgid "see? you don't really want to leave"
 #~ msgstr "$33? ¥0µ Ð0n'7 r34££¥ w4n7 70 £34v3"
 
-#~ msgid "delete your reddit account? hope you have a good reason."
+#~ msgid "delete your tippr account? hope you have a good reason."
 #~ msgstr "Ð3£373 ¥0µr r3ÐÐ17 4((0µn7? h0p3 ¥0µ h4v3 4 900Ð r34$0n."
 
 #~ msgid "thanks for nothing."
@@ -5100,7 +5100,7 @@ msgstr "4ÐÐ 7h1$ 1n70 ¥0µr H7M£ wh3r3 ¥0µ w4n7 7h3 %(site)s £1n|{$ Ð1$p
 #~ msgid "you can't give that many months"
 #~ msgstr "y0u (@n'7 61v3 7h@7 m4ny m0n7h$"
 
-#~ msgid "you must specify a reddit"
+#~ msgid "you must specify a tippr"
 #~ msgstr "y0u mu57 $p3(!phy @ r3|))17"
 
 #~ msgid "you are trying to submit too fast. try again in %(time)s."
@@ -5109,13 +5109,13 @@ msgstr "4ÐÐ 7h1$ 1n70 ¥0µr H7M£ wh3r3 ¥0µ w4n7 7h3 %(site)s £1n|{$ Ð1$p
 #~ msgid "rally"
 #~ msgstr "r411y"
 
-#~ msgid "give the gift of reddit gold"
+#~ msgid "give the gift of tippr gold"
 #~ msgstr "61v3 7h3 61ph7 0ph r3|))17 601)"
 
 #~ msgid "apply"
 #~ msgstr "4pp1y"
 
-#~ msgid "the reddit blog"
+#~ msgid "the tippr blog"
 #~ msgstr "7h3 r3|)|)17 8106"
 
 #~ msgid "feedback"
@@ -5134,19 +5134,19 @@ msgstr "4ÐÐ 7h1$ 1n70 ¥0µr H7M£ wh3r3 ¥0µ w4n7 7h3 %(site)s £1n|{$ Ð1$p
 #~ msgstr "!ph0n3 @pp"
 
 #~ msgid ""
-#~ "click the `+frontpage` or `-frontpage` buttons to choose which reddits "
+#~ "click the `+frontpage` or `-frontpage` buttons to choose which tipprs "
 #~ "appear on your front page."
 #~ msgstr ""
 #~ "(11(X 7h3 `+phr0n7p@63` 0r `-phr0n7p463` 8u770n5 70 (h00$3 wh!(h r3|)|)"
 #~ "17$ 4pp3@r 0n y0ur phr0n7 p@63."
 
 #~ msgid ""
-#~ "**this reddit has been banned**\n"
+#~ "**this tippr has been banned**\n"
 #~ "most likely this was done automatically by our spam filtering program. "
 #~ "the program is still learning, and may even have some bugs, so if you "
-#~ "feel the ban was a mistake, please submit a link to our [request a reddit "
+#~ "feel the ban was a mistake, please submit a link to our [request a tippr "
 #~ "listing](%(link)s) and be sure to include the **exact name of the "
-#~ "reddit**.\n"
+#~ "tippr**.\n"
 #~ msgstr ""
 #~ "**7h!$ r3)|)!7 h@5 833n 8@nn3)**\n"
 #~ "m057 1!X31y 7h15 w4$ )0n3 4u70m47!(411y 8y 0ur 5p4m ph!173r1n6 pr06r4m. "
@@ -5159,10 +5159,10 @@ msgstr "4ÐÐ 7h1$ 1n70 ¥0µr H7M£ wh3r3 ¥0µ w4n7 7h3 %(site)s £1n|{$ Ð1$p
 #~ msgstr "p13@53 6r48 4 |)r1nX @n|) _/0!n u5 1n [7h3 10un63](%(link)s)"
 
 #~ msgid ""
-#~ "%(sender)s just sent you %(amount)s of reddit gold! Wasn't that nice?\n"
+#~ "%(sender)s just sent you %(amount)s of tippr gold! Wasn't that nice?\n"
 #~ "----\n"
 #~ "*This is a system account whose mail we don't read very often, so please "
-#~ "address all feedback to 912@reddit.com.*\n"
+#~ "address all feedback to 912@tippr.com.*\n"
 #~ msgstr ""
 #~ "%(sender)s _/u57 53n7 y0u %(amount)s 0ph r3|)|)17 601|)! w45n'7 7h47 n1"
 #~ "(3?\n"
@@ -5170,13 +5170,13 @@ msgstr "4ÐÐ 7h1$ 1n70 ¥0µr H7M£ wh3r3 ¥0µ w4n7 7h3 %(site)s £1n|{$ Ð1$p
 #~ "*7h1$ !5 @ 5y$73m 4((0un7 wh053 m4!1 w3 )0n'7 r34|) v3ry 0ph73n, $0 "
 #~ "p13453 @|))r3$5 411 ph33)8@(X 70 912@r3)|)!7.(0m.*\n"
 
-#~ msgid "reddit gold weekend bonus"
+#~ msgid "tippr gold weekend bonus"
 #~ msgstr "r3)|)!7 601|) w33X3n) 80nu5"
 
 #~ msgid "site links"
 #~ msgstr "5173 11nX$"
 
-#~ msgid "reddit tools"
+#~ msgid "tippr tools"
 #~ msgstr "r3))!7 7001$"
 
 #~ msgid "about us"
@@ -5188,16 +5188,16 @@ msgstr "4ÐÐ 7h1$ 1n70 ¥0µr H7M£ wh3r3 ¥0µ w4n7 7h3 %(site)s £1n|{$ Ð1$p
 #~ msgid "sisters"
 #~ msgstr "51573r5"
 
-#~ msgid "your front page reddits"
+#~ msgid "your front page tipprs"
 #~ msgstr "y0ur phr0n7 p@63 r3|))175"
 
-#~ msgid "give %(user)s the gift of reddit gold"
+#~ msgid "give %(user)s the gift of tippr gold"
 #~ msgstr "6!v3 %(user)s 7h3 61ph7 0ph r3|))17 601)"
 
-#~ msgid "moderators to %(reddit)s"
-#~ msgstr "m0|)3r470r$ 70 %(reddit)s"
+#~ msgid "moderators to %(tippr)s"
+#~ msgstr "m0|)3r470r$ 70 %(tippr)s"
 
-#~ msgid "reddit: the voice of the internet -- news before it happens"
+#~ msgid "tippr: the voice of the internet -- news before it happens"
 #~ msgstr "r3|)|)!7: 7h3 v01(3 0ph 7h3 !n73rn37 -- n3w$ 83ph0r3 17 h@pp3n5"
 
 #~ msgid "type the letters from the image above"
@@ -5211,7 +5211,7 @@ msgstr "4ÐÐ 7h1$ 1n70 ¥0µr H7M£ wh3r3 ¥0µ w4n7 7h3 %(site)s £1n|{$ Ð1$p
 
 #~ msgid ""
 #~ "This feature is still in beta. If you'd like to participate, see the "
-#~ "reddit blog."
+#~ "tippr blog."
 #~ msgstr ""
 #~ "7h15 ph347ur3 1$ $7111 1n 8374. !ph y0u') 1!X3 70 p@r7!(!p473, 533 7h3 "
 #~ "r3)|)!7 8106."
@@ -5219,22 +5219,22 @@ msgstr "4ÐÐ 7h1$ 1n70 ¥0µr H7M£ wh3r3 ¥0µ w4n7 7h3 %(site)s £1n|{$ Ð1$p
 #~ msgid "well, aren't you nice?"
 #~ msgstr "w311, @r3n'7 y0u n1(3?"
 
-#~ msgid "You can give one month of reddit gold."
+#~ msgid "You can give one month of tippr gold."
 #~ msgstr "y0u (4n 61v3 0n3 m0n7h 0ph r3))17 601|)."
 
-#~ msgid "You can give up to %s months of reddit gold."
+#~ msgid "You can give up to %s months of tippr gold."
 #~ msgstr "y0u (@n 6!v3 up 70 %s m0n7h$ 0ph r3))17 601|)."
 
 #~ msgid "how many months?"
 #~ msgstr "h0w m4ny m0n7h5?"
 
-#~ msgid "who's the lucky redditor?"
+#~ msgid "who's the lucky tippror?"
 #~ msgstr "wh0'5 7h3 1u(Xy r3|)|)170r?"
 
-#~ msgid "submit to reddit"
+#~ msgid "submit to tippr"
 #~ msgstr "5u8m17 70 r3|))17"
 
-#~ msgid "redditor for %(time)s"
+#~ msgid "tippror for %(time)s"
 #~ msgstr "r3|)|)170r ph0r %(time)s"
 
 #~ msgid "NOTE: interdomain redirects are not allowed."
@@ -5253,7 +5253,7 @@ msgstr "4ÐÐ 7h1$ 1n70 ¥0µr H7M£ wh3r3 ¥0µ w4n7 7h3 %(site)s £1n|{$ Ð1$p
 #~ msgid "(c) %(year)d Conde Nast Digital. All rights reserved."
 #~ msgstr "(() %(year)d (0n)3 n457 )!6!741. 411 r16h75 r353rv3|)."
 
-#~ msgid "inquire about advertising on reddit"
+#~ msgid "inquire about advertising on tippr"
 #~ msgstr "1nqµ1r3 4b0µ7 4Ðv3r71$1n9 0n r3ÐÐ17"
 
 #~ msgid "+ frontpage"

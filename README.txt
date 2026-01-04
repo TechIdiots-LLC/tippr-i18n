@@ -1,4 +1,4 @@
-reddit uses Crowdin for translations.
+tippr uses Crowdin for translations.
 
 See the getting started guide for more information:
-	http://www.reddit.com/r/i18n/wiki/getting_started
+	http://www.tippr.net/v/i18n/wiki/getting_started

@@ -9,7 +9,7 @@ import requests
 
 SIGNIN_PATH = '/signin/'
 USERAGENT = ('Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:16.0; scraping '
-             'contributors for reddit trophies; email %(email)s with '
+             'contributors for tippr trophies; email %(email)s with '
              'concerns) Gecko/20100101 Firefox/16.0')
 
 

@@ -30,7 +30,7 @@ def get_cookie():
     return {'cookie': os.environ['TXCOOKIE']}
 
 
-def get_timeline_page(config, session, project='reddit', pagenum=1):
+def get_timeline_page(config, session, project='tippr', pagenum=1):
     site = config.get('site', 'remote')
     path = '/'.join([site, PROJECT_PATH, TIMELINE]) % {'project': project}
     params = {'page': pagenum}

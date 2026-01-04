@@ -20,7 +20,7 @@
 # CondeNet, Inc. All Rights Reserved.
 ################################################################################
 
-PO_FILES = $(wildcard reddit_i18n/*/LC_MESSAGES/r2.po)
+PO_FILES = $(wildcard tippr_i18n/*/LC_MESSAGES/r2.po)
 MO_FILES = $(PO_FILES:.po=.mo)
 DATA_FILES = $(PO_FILES:.po=.data)
 
@@ -28,7 +28,7 @@ DATA_FILES = $(PO_FILES:.po=.data)
 
 all: $(DATA_FILES) $(MO_FILES)
 
-$(DATA_FILES): reddit_i18n/%/LC_MESSAGES/r2.data: reddit_i18n/%/LC_MESSAGES/r2.mo
+$(DATA_FILES): tippr_i18n/%/LC_MESSAGES/r2.data: tippr_i18n/%/LC_MESSAGES/r2.mo
 	python gendata.py $@
 
 $(MO_FILES): %.mo : %.po
