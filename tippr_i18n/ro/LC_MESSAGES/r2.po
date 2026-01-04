@@ -27,7 +27,7 @@ msgstr "culoare nevalidă"
 msgid "unknown or missing dressings"
 msgstr "îmbrăcăminte lipsă sau inexistentă"
 
-#: ../../gold/tippr_gold/controllers.py:40 r2/models/subtippr.py:386
+#: ../../gold/tippr_gold/controllers.py:40 r2/models/vault.py:386
 msgid "gold"
 msgstr "aur"
 
@@ -305,8 +305,8 @@ msgid "**comments can be posted on every story** on tippr. comments add informat
 msgstr "**comentariile pot fi postate la fiecare istorie** pe tippr. comentariile adaugă informație, context și umor."
 
 #: ../../about/tippr_about/templates/about.html:84
-msgid "**anyone can create a community** (called \"subtipprs\"). each subtippr is independent and moderated by a team of volunteers."
-msgstr "**oricine poate crea o comunitate** (numită \"subtippre\"). fiecare subtippr este independent și este moderat de o echipă de voluntari."
+msgid "**anyone can create a community** (called \"vaults\"). each vault is independent and moderated by a team of volunteers."
+msgstr "**oricine poate crea o comunitate** (numită \"vaulte\"). fiecare vault este independent și este moderat de o echipă de voluntari."
 
 #: ../../about/tippr_about/templates/about.html:85
 msgid "**tippr is open source**. community members are constantly tinkering and contributing features, bug fixes, and translations back to the site."
@@ -474,8 +474,8 @@ msgstr "erori de validare"
 #: r2/controllers/listingcontroller.py:1096 r2/lib/menus.py:178
 #: r2/public/static/js/tippr.js:272 r2/templates/deleteduserinterstitial.html:31
 #: r2/templates/printablebuttons.html:36 r2/templates/printablebuttons.html:572
-#: r2/templates/subtipprstylesheetbase.html:45
-#: r2/templates/subtipprstylesheetbase.html:72
+#: r2/templates/vaultstylesheetbase.html:45
+#: r2/templates/vaultstylesheetbase.html:72
 #: ../../liveupdate/tippr_liveupdate/public/static/js/liveupdate/listings.js:203
 msgid "deleted"
 msgstr "şters"
@@ -665,16 +665,16 @@ msgid "show %d"
 msgstr "arată %d"
 
 #: r2/controllers/front.py:652 r2/controllers/front.py:654
-msgid "create a subtippr"
-msgstr "creează un subtippr"
+msgid "create a vault"
+msgstr "creează un vault"
 
 #: r2/controllers/front.py:763 r2/controllers/front.py:769
 #: r2/controllers/listingcontroller.py:847 r2/controllers/listingcontroller.py:867
 #: r2/controllers/listingcontroller.py:1260
 #: r2/controllers/listingcontroller.py:1271 r2/lib/menus.py:186 r2/lib/menus.py:440
 #: r2/lib/menus.py:703 r2/lib/pages/pages.py:5267 r2/lib/pages/pages.py:5276
-#: r2/templates/createsubtippr.html:295 r2/templates/createsubtippr.html:306
-#: r2/templates/createsubtippr.html:317
+#: r2/templates/createvault.html:295 r2/templates/createvault.html:306
+#: r2/templates/createvault.html:317
 msgid "all"
 msgstr "toate"
 
@@ -700,7 +700,7 @@ msgid "posts"
 msgstr "postări"
 
 #: r2/controllers/front.py:974 r2/controllers/listingcontroller.py:1869
-#: r2/lib/pages/pages.py:6154 r2/templates/createsubtippr.html:311
+#: r2/lib/pages/pages.py:6154 r2/templates/createvault.html:311
 #: r2/templates/link.xml:93
 msgid "comments"
 msgstr "comentarii"
@@ -723,7 +723,7 @@ msgstr "Numai comentarii"
 
 #: r2/controllers/front.py:1073
 #, python-format
-msgid "Rules for %(subtippr)s"
+msgid "Rules for %(vault)s"
 msgstr ""
 
 #: r2/controllers/front.py:1113 r2/lib/menus.py:163
@@ -741,8 +741,8 @@ msgstr "rezultate căutare"
 #: r2/controllers/front.py:1349 r2/controllers/front.py:1361
 #: r2/controllers/listingcontroller.py:1609 r2/lib/menus.py:94
 #: r2/templates/pagenamenav.html:59 r2/templates/promotelinkbase.html:912
-msgid "subtipprs"
-msgstr "subtippre"
+msgid "vaults"
+msgstr "vaulte"
 
 #: r2/controllers/front.py:1383
 #, python-format
@@ -753,11 +753,11 @@ msgstr "rezultatele căutării - %(query)s"
 msgid "seen it"
 msgstr "l-am văzut"
 
-#: r2/controllers/front.py:1533 r2/models/subtippr.py:3011
+#: r2/controllers/front.py:1533 r2/models/vault.py:3011
 #: r2/templates/multiinfobar.html:34
 #, python-format
-msgid "%s subtipprs"
-msgstr "%s subtippre"
+msgid "%s vaults"
+msgstr "%s vaulte"
 
 #: r2/controllers/front.py:1563 r2/lib/menus.py:81
 #: r2/templates/accountrecovery.html:65 r2/templates/fraudform.html:42
@@ -1142,8 +1142,8 @@ msgid "you're really bored now, eh?"
 msgstr "acum chiar ești plictisit, nu-i așa?"
 
 #: r2/controllers/listingcontroller.py:860
-msgid "filter by subtippr"
-msgstr "filtrează după subtippr"
+msgid "filter by vault"
+msgstr "filtrează după vault"
 
 #: r2/controllers/listingcontroller.py:874
 msgid "filter by category"
@@ -1235,8 +1235,8 @@ msgid "messages"
 msgstr "mesaje"
 
 #: r2/controllers/listingcontroller.py:1751
-msgid "subtipprs: "
-msgstr "subtippre: "
+msgid "vaults: "
+msgstr "vaulte: "
 
 #: r2/controllers/listingcontroller.py:1917
 #: r2/controllers/listingcontroller.py:2081
@@ -1253,8 +1253,8 @@ msgstr "aurit"
 
 #: r2/controllers/listingcontroller.py:2255
 #, python-format
-msgid "gildings in this subtippr have paid for %(time)s of server time"
-msgstr "aurul donat în acest subtippr au plătit pentru %(time)s de server"
+msgid "gildings in this vault have paid for %(time)s of server time"
+msgstr "aurul donat în acest vault au plătit pentru %(time)s de server"
 
 #: r2/controllers/multi.py:313
 #, python-format
@@ -1297,7 +1297,7 @@ msgid "over 18?"
 msgstr "peste 18 ani?"
 
 #: r2/controllers/post.py:95 r2/templates/quarantineinterstitial.html:34
-#: r2/templates/subtippr.html:91
+#: r2/templates/vault.html:91
 msgid "quarantined"
 msgstr "în carantină"
 
@@ -1421,7 +1421,7 @@ msgstr ""
 
 #: r2/controllers/tippr_base.py:1623 r2/lib/pages/pages.py:4775
 #: r2/models/modaction.py:116 r2/templates/bannedinterstitial.html:33
-#: r2/templates/subtippr.html:74 r2/templates/subtipprinfobar.html:168
+#: r2/templates/vault.html:74 r2/templates/vaultinfobar.html:168
 #: r2/templates/subscriptionbox.html:63
 msgid "banned"
 msgstr "blocat"
@@ -1430,9 +1430,9 @@ msgstr "blocat"
 msgid "gold members only"
 msgstr "doar membrii gold"
 
-#: r2/controllers/tippr_base.py:1663 r2/templates/createsubtippr.html:156
+#: r2/controllers/tippr_base.py:1663 r2/templates/createvault.html:156
 #: r2/templates/multiinfobar.html:40 r2/templates/privateinterstitial.html:37
-#: r2/templates/searchresultsubtippr.html:98 r2/templates/subtippr.html:87
+#: r2/templates/searchresultvault.html:98 r2/templates/vault.html:87
 msgid "private"
 msgstr "privat"
 
@@ -1441,24 +1441,24 @@ msgid "search failed"
 msgstr "căutare eșuată"
 
 #: r2/controllers/wiki.py:95
-msgid "This page is the subtippr stylesheet, changes here apply to the subtippr css"
-msgstr "Această pagină este o foaie de stil subtippr, modificările de aici se aplică subtippr-ului CSS"
+msgid "This page is the vault stylesheet, changes here apply to the vault css"
+msgstr "Această pagină este o foaie de stil vault, modificările de aici se aplică vault-ului CSS"
 
 #: r2/controllers/wiki.py:96
 msgid "The contents of this page appear on the submit page"
 msgstr "Conținutul acestei pagini apare pe pagina de postare"
 
 #: r2/controllers/wiki.py:97
-msgid "The contents of this page appear on the subtippr sidebar"
-msgstr "Conținuturile acestei pagini apar în bara laterală a subtippr-ului"
+msgid "The contents of this page appear on the vault sidebar"
+msgstr "Conținuturile acestei pagini apar în bara laterală a vault-ului"
 
 #: r2/controllers/wiki.py:98
-msgid "The contents of this page appear in the public subtippr description and when the user does not have access to the subtippr"
-msgstr "Conținutul acestei pagini apare în descrierea publică a subtippr-ului și când utilizatorul nu are acces la subtippr"
+msgid "The contents of this page appear in the public vault description and when the user does not have access to the vault"
+msgstr "Conținutul acestei pagini apare în descrierea publică a vault-ului și când utilizatorul nu are acces la vault"
 
 #: r2/controllers/wiki.py:99
-msgid "This page is used to configure AutoModerator for the subtippr, please see [the full documentation](/wiki/automoderator/full-documentation) for information"
-msgstr "Această pagină este folosită pentru a configura AutoModerator-ul pentru subtippr, vă rugăm uitați-vă la [documentarea întreagă](/wiki/automoderator/full-documentation) pentru informații"
+msgid "This page is used to configure AutoModerator for the vault, please see [the full documentation](/wiki/automoderator/full-documentation) for information"
+msgstr "Această pagină este folosită pentru a configura AutoModerator-ul pentru vault, vă rugăm uitați-vă la [documentarea întreagă](/wiki/automoderator/full-documentation) pentru informații"
 
 #: r2/controllers/wiki.py:165
 #, python-format
@@ -1487,8 +1487,8 @@ msgid "this wiki cannot handle page names of that magnitude!  please select a pa
 msgstr "acest wiki nu suportă denumiri de pagină atît de lungi. vă rugăm să alegeți un nume de pagină mai scurt decît %d caractere"
 
 #: r2/controllers/wiki.py:223
-msgid "this page is a special page, please go into the subtippr settings and save the field once to create this special page"
-msgstr "aceasta este o pagină specială, vă rugăm să mergeți la setările subtippr-ului și să salvați cîmpurile de vreme ce creați această pagină specială"
+msgid "this page is a special page, please go into the vault settings and save the field once to create this special page"
+msgstr "aceasta este o pagină specială, vă rugăm să mergeți la setările vault-ului și să salvați cîmpurile de vreme ce creați această pagină specială"
 
 #: r2/controllers/wiki.py:225
 #, python-format
@@ -1767,39 +1767,39 @@ msgid "that link has already been submitted"
 msgstr "acea legătură a fost trimisă deja"
 
 #: r2/lib/errors.py:79
-msgid "that subtippr already exists"
-msgstr "subtipprul deja există"
+msgid "that vault already exists"
+msgstr "vaultul deja există"
 
 #: r2/lib/errors.py:80
-msgid "that subtippr doesn't exist"
-msgstr "subtipprul nu există"
+msgid "that vault doesn't exist"
+msgstr "vaultul nu există"
 
 #: r2/lib/errors.py:81
 msgid "you aren't allowed to post there."
 msgstr "nu ai voie să scrii acolo."
 
 #: r2/lib/errors.py:83
-msgid "Image submissions aren't allowed in this subtippr"
+msgid "Image submissions aren't allowed in this vault"
 msgstr ""
 
 #: r2/lib/errors.py:84
-msgid "you aren't allowed access to this subtippr"
-msgstr "nu ai permisiunea de a accesa acest subtippr"
+msgid "you aren't allowed access to this vault"
+msgstr "nu ai permisiunea de a accesa acest vault"
 
 #: r2/lib/errors.py:85
-msgid "you must specify a subtippr"
-msgstr "trebuie să specifici un subtippr"
+msgid "you must specify a vault"
+msgstr "trebuie să specifici un vault"
 
 #: r2/lib/errors.py:86
-msgid "this subtippr has chosen to disable their ads at this time"
-msgstr "acest subtippr a ales să-și dezactiveze reclamele momentan"
+msgid "this vault has chosen to disable their ads at this time"
+msgstr "acest vault a ales să-și dezactiveze reclamele momentan"
 
 #: r2/lib/errors.py:87
 msgid "this link already has a promoted post"
 msgstr ""
 
 #: r2/lib/errors.py:88
-msgid "that subtippr is private"
+msgid "that vault is private"
 msgstr ""
 
 #: r2/lib/errors.py:89 r2/lib/validator/validator.py:3314
@@ -1807,7 +1807,7 @@ msgid "that name isn't going to work"
 msgstr "acel nume nu are cum să meargă"
 
 #: r2/lib/errors.py:90
-msgid "that subtippr can't be used as a theme"
+msgid "that vault can't be used as a theme"
 msgstr ""
 
 #: r2/lib/errors.py:91
@@ -1823,7 +1823,7 @@ msgid "that target type is not valid"
 msgstr "tipul țintă este nevalid"
 
 #: r2/lib/errors.py:94
-msgid "targeting too many subtipprs"
+msgid "targeting too many vaults"
 msgstr ""
 
 #: r2/lib/errors.py:95
@@ -1883,8 +1883,8 @@ msgstr "Email-ul acela nu a putut fi adăugat. Verificați-vă email-ul pentru u
 
 #: r2/lib/errors.py:111
 #, python-format
-msgid "that subtippr has already been oversold on %(start)s to %(end)s. Please pick another subtippr or date."
-msgstr "acest subtippr a fost deja vîndut de la %(start)s pînă la %(end)s. Vă rugăm să alegeți un alt subtippr sau dată."
+msgid "that vault has already been oversold on %(start)s to %(end)s. Please pick another vault or date."
+msgstr "acest vault a fost deja vîndut de la %(start)s pînă la %(end)s. Vă rugăm să alegeți un alt vault sau dată."
 
 #: r2/lib/errors.py:112
 #, python-format
@@ -1950,12 +1950,12 @@ msgid "that code has already been claimed -- perhaps by you?"
 msgstr "codul a fost deja revendicat - poate de dumneavoastră?"
 
 #: r2/lib/errors.py:126
-msgid "that subtippr doesn't allow text posts"
-msgstr "subtipprul nu permite postarea de text"
+msgid "that vault doesn't allow text posts"
+msgstr "vaultul nu permite postarea de text"
 
 #: r2/lib/errors.py:127
-msgid "that subtippr only allows text posts"
-msgstr "subtipprul permite doar postarea de text"
+msgid "that vault only allows text posts"
+msgstr "vaultul permite doar postarea de text"
 
 #: r2/lib/errors.py:128
 msgid "that's a piece of history now; it's too late to reply to it"
@@ -2075,8 +2075,8 @@ msgid "You can't perform that action because that user is a moderator."
 msgstr "Nu poți face această acțiune pentru că utilizatorul este un moderator."
 
 #: r2/lib/errors.py:160
-msgid "there is no pending invite for that subtippr"
-msgstr "nu există nici o invitație în așteptare pentru subtippr"
+msgid "there is no pending invite for that vault"
+msgstr "nu există nici o invitație în așteptare pentru vault"
 
 #: r2/lib/errors.py:161
 msgid "you cannot edit the budget of a live ad"
@@ -2120,18 +2120,18 @@ msgid "you can't change that multitippr"
 msgstr "nu poți schimba multitipprul"
 
 #: r2/lib/errors.py:171
-msgid "no more space for subtipprs in that multitippr"
-msgstr "nu mai există spațiu pentru subtippre în acest multitippr"
+msgid "no more space for vaults in that multitippr"
+msgstr "nu mai există spațiu pentru vaulte în acest multitippr"
 
 #: r2/lib/errors.py:172
 #, python-format
-msgid "can't add special subtippr %(path)s"
-msgstr "nu se pot adăuga subtippre speciale %(path)s"
+msgid "can't add special vault %(path)s"
+msgstr "nu se pot adăuga vaulte speciale %(path)s"
 
 #: r2/lib/errors.py:173
 #, python-format
-msgid "maximum %(max)s subtipprs"
-msgstr "maxim %(max)s subtippre"
+msgid "maximum %(max)s vaults"
+msgstr "maxim %(max)s vaulte"
 
 #: r2/lib/errors.py:174
 msgid "unable to parse JSON data"
@@ -2164,8 +2164,8 @@ msgid "frequency cap must be at least %(min)d"
 msgstr ""
 
 #: r2/lib/errors.py:181
-msgid "that user is banned from the subtippr"
-msgstr "utilizatorul este banat pe acest subtippr"
+msgid "that user is banned from the vault"
+msgstr "utilizatorul este banat pe acest vault"
 
 #: r2/lib/errors.py:182
 msgid "You can't do that while suspended."
@@ -2184,16 +2184,16 @@ msgid "insufficient ctipprs"
 msgstr "ctippre insuficiente"
 
 #: r2/lib/errors.py:186
-msgid "gilding is not allowed in this subtippr"
-msgstr "aurirea nu este permisă în acest subtippr"
+msgid "gilding is not allowed in this vault"
+msgstr "aurirea nu este permisă în acest vault"
 
 #: r2/lib/errors.py:187
 msgid "unable to scrape provided url"
 msgstr "recupera url-ului furnizat nu este posibilă"
 
 #: r2/lib/errors.py:188
-msgid "can't send a message from a subtippr to another subtippr"
-msgstr "nu poţi trimite mesajul de pe un subtippr pe altul"
+msgid "can't send a message from a vault to another vault"
+msgstr "nu poţi trimite mesajul de pe un vault pe altul"
 
 #: r2/lib/errors.py:189
 msgid "can't send message to that user"
@@ -2205,15 +2205,15 @@ msgstr "trebuie să fii în modul admin pentru asta"
 
 #: r2/lib/errors.py:191
 #, python-format
-msgid "to convert an existing subtippr to gold only, send a message to %(admin_modmail)s"
-msgstr "pentru a converti un subtippr existent la doar aur, trimiteți un mesaj la %(admin_modmail)s"
+msgid "to convert an existing vault to gold only, send a message to %(admin_modmail)s"
+msgstr "pentru a converti un vault existent la doar aur, trimiteți un mesaj la %(admin_modmail)s"
 
 #: r2/lib/errors.py:193
-msgid "this subtippr must be 'gold only' to select this"
-msgstr "acest subtippr trebuie să fie 'doar aur' pentru a selecta asta"
+msgid "this vault must be 'gold only' to select this"
+msgstr "acest vault trebuie să fie 'doar aur' pentru a selecta asta"
 
 #: r2/lib/errors.py:194
-msgid "Your account is too new, you do not have enough karma to create a subtippr, or you are otherwise unable to create a subtippr. Please contact the admins to request an exemption."
+msgid "Your account is too new, you do not have enough karma to create a vault, or you are otherwise unable to create a vault. Please contact the admins to request an exemption."
 msgstr ""
 
 #: r2/lib/errors.py:195
@@ -2225,23 +2225,23 @@ msgid "you must select at least one device per OS to target"
 msgstr "trebuie să selectezi cel puțin un device per OS"
 
 #: r2/lib/errors.py:197
-msgid "You have been muted from this subtippr."
-msgstr "Ai fost ignorat de pe acest subtippr."
+msgid "You have been muted from this vault."
+msgstr "Ai fost ignorat de pe acest vault."
 
 #: r2/lib/errors.py:198
-msgid "This user has been muted from the subtippr."
-msgstr "Utilizatorul a fost redus la tăcere de pe subtippr."
+msgid "This user has been muted from the vault."
+msgstr "Utilizatorul a fost redus la tăcere de pe vault."
 
 #: r2/lib/errors.py:199 r2/public/static/js/errors.js:7
-msgid "A subtippr rule by that name already exists."
+msgid "A vault rule by that name already exists."
 msgstr ""
 
 #: r2/lib/errors.py:200
-msgid "No subtippr rule by that name exists."
+msgid "No vault rule by that name exists."
 msgstr ""
 
 #: r2/lib/errors.py:201 r2/public/static/js/errors.js:8
-msgid "This subtippr already has the maximum number of rules."
+msgid "This vault already has the maximum number of rules."
 msgstr ""
 
 #: r2/lib/errors.py:202
@@ -2269,7 +2269,7 @@ msgid "Invalid conversation id."
 msgstr ""
 
 #: r2/lib/errors.py:208
-msgid "The subtippr does not have this feature enabled."
+msgid "The vault does not have this feature enabled."
 msgstr ""
 
 #: r2/lib/errors.py:209
@@ -2293,7 +2293,7 @@ msgid "You do not have the correct moderator permissions."
 msgstr ""
 
 #: r2/lib/errors.py:214
-msgid "The requested subtippr was not found."
+msgid "The requested vault was not found."
 msgstr ""
 
 #: r2/lib/errors.py:215
@@ -2667,7 +2667,7 @@ msgid "preferences"
 msgstr "preferinţe"
 
 #: r2/lib/menus.py:82 r2/lib/permissions.py:97
-#: r2/templates/createsubtippr.html:245
+#: r2/templates/createvault.html:245
 msgid "wiki"
 msgstr "wiki"
 
@@ -2784,7 +2784,7 @@ msgid "traffic stats"
 msgstr "statistici trafic"
 
 #: r2/lib/menus.py:125 r2/models/modaction.py:191
-#: r2/templates/subtipprstylesheet.html:43
+#: r2/templates/vaultstylesheet.html:43
 msgid "stylesheet"
 msgstr "foaie de stil"
 
@@ -2802,8 +2802,8 @@ msgid "edit subscriptions"
 msgstr "editează abonamentele"
 
 #: r2/lib/menus.py:131 r2/lib/pages/pages.py:2790
-msgid "subtippr settings"
-msgstr "setările subtipprului"
+msgid "vault settings"
+msgstr "setările vaultului"
 
 #: r2/lib/menus.py:132
 msgid "edit stylesheet"
@@ -2886,15 +2886,15 @@ msgid "popular"
 msgstr "populare"
 
 #: r2/lib/menus.py:156 r2/public/static/js/sponsored.js:88
-#: r2/public/static/js/sponsored.js:98 r2/templates/createsubtippr.html:743
+#: r2/public/static/js/sponsored.js:98 r2/templates/createvault.html:743
 #: r2/templates/listingchooser.html:62
 #: ../../liveupdate/tippr_liveupdate/templates/liveupdatecreate.html:6
 msgid "create"
 msgstr "crează"
 
 #: r2/lib/menus.py:157 r2/lib/pages/pages.py:3474
-msgid "my subtipprs"
-msgstr "subtipprele mele"
+msgid "my vaults"
+msgstr "vaultele mele"
 
 #: r2/lib/menus.py:158
 msgid "quarantine"
@@ -2908,7 +2908,7 @@ msgstr ""
 msgid "help translate"
 msgstr "ajută la traducere"
 
-#: r2/lib/menus.py:162 r2/templates/subtipprstylesheet.html:78
+#: r2/lib/menus.py:162 r2/templates/vaultstylesheet.html:78
 msgid "errors"
 msgstr "erori"
 
@@ -3052,7 +3052,7 @@ msgstr ""
 msgid "mod"
 msgstr "mod"
 
-#. TRANSLATORS: Gold feature, "myrandom", a random subtippr from your
+#. TRANSLATORS: Gold feature, "myrandom", a random vault from your
 #. subscriptions
 #: r2/lib/menus.py:443
 msgid "myrandom"
@@ -3136,7 +3136,7 @@ msgstr "descoperire"
 
 #: r2/lib/recommender.py:58 r2/lib/strings.py:267 r2/lib/strings.py:272
 #: r2/lib/template_helpers.py:480 r2/templates/searchresultlink.html:97
-#: r2/templates/subtipprstylesheet.html:106
+#: r2/templates/vaultstylesheet.html:106
 #: ../../liveupdate/tippr_liveupdate/pages.py:505
 msgid "comment"
 msgid_plural "comments"
@@ -3180,8 +3180,8 @@ msgstr "acea legătură a fost trimisă deja, dar poţi încerca să o [trimiţi
 
 #: r2/lib/strings.py:75
 #, python-format
-msgid "that link has been submitted to multiple subtipprs. you can try to [submit it again](%s)."
-msgstr "acest link a fost trimis mai multor subtippre. puteți încerca să [trimite din nou](%s)."
+msgid "that link has been submitted to multiple vaults. you can try to [submit it again](%s)."
+msgstr "acest link a fost trimis mai multor vaulte. puteți încerca să [trimite din nou](%s)."
 
 #: r2/lib/strings.py:77
 msgid "your account has been deactivated, but we won't judge you for it."
@@ -3203,8 +3203,8 @@ msgid "to view tippr with only submissions from your friends, use [tippr.com/r/f
 msgstr "dacă vrei să vezi doar tipprurile prietenilor, du-te la [tippr.com/r/friends]( %s )"
 
 #: r2/lib/strings.py:86
-msgid "your subtippr has been created"
-msgstr "subtipprul tău a fost creat"
+msgid "your vault has been created"
+msgstr "vaultul tău a fost creat"
 
 #: r2/lib/strings.py:88
 #, python-format
@@ -3212,29 +3212,29 @@ msgid "visit [%(link)s](%(link)s) for more information"
 msgstr "du-te la [ %(link)s ]( %(link)s ) pentru mai multe informații"
 
 #: r2/lib/strings.py:91
-msgid "you have not subscribed to any subtipprs."
-msgstr "nu te-ai abonat la niciun subtippr."
+msgid "you have not subscribed to any vaults."
+msgstr "nu te-ai abonat la niciun vault."
 
 #: r2/lib/strings.py:92
-msgid "below are the subtipprs you have subscribed to."
-msgstr "mai jos sunt subtipprele la care te-ai abonat."
+msgid "below are the vaults you have subscribed to."
+msgstr "mai jos sunt vaultele la care te-ai abonat."
 
 #: r2/lib/strings.py:93
-msgid "below are the subtipprs that you are an approved submitter on."
+msgid "below are the vaults that you are an approved submitter on."
 msgstr "mai jos sunt subreditele la care sunteți un emitent aprobat."
 
 #: r2/lib/strings.py:94
-msgid "below are the subtipprs that you have moderator access to."
-msgstr "mai jos sunt subtippr-urile la care aveți acces ca moderator."
+msgid "below are the vaults that you have moderator access to."
+msgstr "mai jos sunt vault-urile la care aveți acces ca moderator."
 
 #: r2/lib/strings.py:97
-msgid "click the `subscribe` or `unsubscribe` buttons to choose which subtipprs appear on the home feed."
+msgid "click the `subscribe` or `unsubscribe` buttons to choose which vaults appear on the home feed."
 msgstr ""
 
 #: r2/lib/strings.py:99
 #, python-format
-msgid "you're searching within the [%(tippr_name)s](%(tippr_link)s) subtippr. you can also search within [all subtipprs](%(all_tipprs_link)s)"
-msgstr "căutați în sutipprul [%(tippr_name)s](%(tippr_link)s). de asemenea, puteți cătuta în [all subtipprs](%(all_tipprs_link)s)"
+msgid "you're searching within the [%(tippr_name)s](%(tippr_link)s) vault. you can also search within [all vaults](%(all_tipprs_link)s)"
+msgstr "căutați în sutipprul [%(tippr_name)s](%(tippr_link)s). de asemenea, puteți cătuta în [all vaults](%(all_tipprs_link)s)"
 
 #: r2/lib/strings.py:102
 #, python-format
@@ -3472,11 +3472,11 @@ msgstr "Aveți întrebări? Adresa de email al suportului de autodeservire: %(em
 #: r2/lib/strings.py:174
 #, python-format
 msgid "\n"
-"Below are the traffic statistics for your subtippr. Each graph represents one of the following over the interval specified.\n\n"
-"* **pageviews** are all hits to %(subtippr)s, including both listing pages and comment pages.\n"
+"Below are the traffic statistics for your vault. Each graph represents one of the following over the interval specified.\n\n"
+"* **pageviews** are all hits to %(vault)s, including both listing pages and comment pages.\n"
 "* **uniques** are the total number of unique visitors (determined by a combination of their IP address and User Agent string) that generate the above pageviews. This is independent of whether or not they are signed in.\n"
 "* **subscriptions** is the number of new subscriptions that have been generated in a given day. This number is less accurate than the first two metrics, as, though we can track new subscriptions, we have no way to track unsubscriptions.\n\n"
-"Note: there are a couple of places outside of your subtippr where someone can click \"subscribe\", so it is possible (though unlikely) that the subscription count can exceed the unique count on a given day.\n"
+"Note: there are a couple of places outside of your vault where someone can click \"subscribe\", so it is possible (though unlikely) that the subscription count can exceed the unique count on a given day.\n"
 msgstr ""
 
 #: r2/lib/strings.py:184
@@ -3484,16 +3484,16 @@ msgid "multitippr of your subscriptions"
 msgstr "multitippr de-al abonărilor tale"
 
 #: r2/lib/strings.py:185
-msgid "multitippr of subtipprs you moderate"
-msgstr "multitippr al subtipprelor pe care le moderezi"
+msgid "multitippr of vaults you moderate"
+msgstr "multitippr al vaultelor pe care le moderezi"
 
 #: r2/lib/strings.py:187
-msgid "/r/all displays content from all of tippr, including subtipprs you aren't subscribed to. Some subtipprs have chosen to exclude themselves from /r/all."
-msgstr "În /r/all poţi găsi conţinut din întreg tippr-ul, chair şi subtippr-uri la care nu eşti abonat. Unele subtippr-uri au ales să nu apară in /r/all."
+msgid "/r/all displays content from all of tippr, including vaults you aren't subscribed to. Some vaults have chosen to exclude themselves from /r/all."
+msgstr "În /r/all poţi găsi conţinut din întreg tippr-ul, chair şi vault-uri la care nu eşti abonat. Unele vault-uri au ales să nu apară in /r/all."
 
 #: r2/lib/strings.py:188
 #, python-format
-msgid "Displaying content from %(subtippr)s, except the following subtipprs:"
+msgid "Displaying content from %(vault)s, except the following vaults:"
 msgstr ""
 
 #: r2/lib/strings.py:189
@@ -3524,12 +3524,12 @@ msgstr[2] "de linkuri"
 #: r2/lib/strings.py:274 r2/lib/pages/admin_pages.py:99
 #: r2/lib/pages/trafficpages.py:972 r2/templates/allminusinfobar.html:35
 #: r2/templates/filteredinfobar.html:37 r2/templates/sitewidetraffic.html:36
-#: r2/templates/subtipprtrafficreport.html:42
-msgid "subtippr"
-msgid_plural "subtipprs"
-msgstr[0] "subtippr"
-msgstr[1] "subtippre"
-msgstr[2] "de subtippre"
+#: r2/templates/vaulttrafficreport.html:42
+msgid "vault"
+msgid_plural "vaults"
+msgstr[0] "vault"
+msgstr[1] "vaulte"
+msgstr[2] "de vaulte"
 
 #: r2/lib/strings.py:275
 msgid "ctippr"
@@ -3545,21 +3545,21 @@ msgstr[0] "cititor"
 msgstr[1] "cititori"
 msgstr[2] "de cititori"
 
-#: r2/lib/strings.py:279 r2/templates/searchresultsubtippr.html:62
+#: r2/lib/strings.py:279 r2/templates/searchresultvault.html:62
 msgid "subscriber"
 msgid_plural "subscribers"
 msgstr[0] "abonat"
 msgstr[1] "abonați"
 msgstr[2] "de abonați"
 
-#: r2/lib/strings.py:280 r2/templates/subtippr.html:80
+#: r2/lib/strings.py:280 r2/templates/vault.html:80
 msgid "approved submitter"
 msgid_plural "approved submitters"
 msgstr[0] "redactor aprobat"
 msgstr[1] "redactori aprobați"
 msgstr[2] "de redactori aprobați"
 
-#: r2/lib/strings.py:281 r2/templates/subtippr.html:77 r2/templates/utils.html:811
+#: r2/lib/strings.py:281 r2/templates/vault.html:77 r2/templates/utils.html:811
 msgid "moderator"
 msgid_plural "moderators"
 msgstr[0] "moderator"
@@ -3739,15 +3739,15 @@ msgid "No notes for this IP address"
 msgstr "Nicio notă pentru această adresă IP"
 
 #: r2/lib/pages/admin_pages.py:92
-msgid "No notes for this subtippr"
-msgstr "Nicio notă pentru acest subtippr"
+msgid "No notes for this vault"
+msgstr "Nicio notă pentru acest vault"
 
 #: r2/lib/pages/admin_pages.py:93
 msgid "No notes for this user"
 msgstr "Nicio notă pentru acest utilizator"
 
 #: r2/lib/pages/admin_pages.py:97 r2/models/modaction.py:187
-#: r2/templates/createsubtippr.html:466
+#: r2/templates/createvault.html:466
 msgid "domain"
 msgstr "domeniu"
 
@@ -3773,12 +3773,12 @@ msgid "moderation tools"
 msgstr "unelte de moderare"
 
 #: r2/lib/pages/pages.py:856
-msgid "these subtipprs"
-msgstr "aceste subtippre"
+msgid "these vaults"
+msgstr "aceste vaulte"
 
 #: r2/lib/pages/pages.py:873
-msgid "this subtippr is archived and no longer accepting submissions."
-msgstr "acest subtippr este arhivat și nu mai acceptă depuneri."
+msgid "this vault is archived and no longer accepting submissions."
+msgstr "acest vault este arhivat și nu mai acceptă depuneri."
 
 #: r2/lib/pages/pages.py:875
 msgid "Submissions disabled"
@@ -3797,8 +3797,8 @@ msgid "Submissions restricted"
 msgstr "Trimiterea articolelor este restricționată"
 
 #: r2/lib/pages/pages.py:990
-msgid "Create your own subtippr"
-msgstr "Creează-ți propriul subtippr"
+msgid "Create your own vault"
+msgstr "Creează-ți propriul vault"
 
 #: r2/lib/pages/pages.py:1020
 #, python-format
@@ -3809,7 +3809,7 @@ msgstr "...și încă %d"
 msgid "about moderation team"
 msgstr "despre echipa de moderare"
 
-#: r2/lib/pages/pages.py:1027 r2/templates/createsubtippr.html:643
+#: r2/lib/pages/pages.py:1027 r2/templates/createvault.html:643
 msgid "message the admins"
 msgstr "trimite un mesaj adminilor"
 
@@ -3900,15 +3900,15 @@ msgid "about %(site)s"
 msgstr "despre %(site)s"
 
 #: r2/lib/pages/pages.py:2815
-msgid "search subtipprs by name"
-msgstr "caută subtippre după nume"
+msgid "search vaults by name"
+msgstr "caută vaulte după nume"
 
 #: r2/lib/pages/pages.py:2859
 #, python-format
-msgid "home feed subtipprs (%s)"
+msgid "home feed vaults (%s)"
 msgstr ""
 
-#: r2/lib/pages/pages.py:2947 r2/templates/createsubtippr.html:475
+#: r2/lib/pages/pages.py:2947 r2/templates/createvault.html:475
 msgid "what's this?"
 msgstr "ce-i asta?"
 
@@ -3994,13 +3994,13 @@ msgid "where your votes shape what the world is talking about."
 msgstr "în cazul în care voturile dvs. confirmă ceea ce vorbește lumea."
 
 #: r2/lib/pages/pages.py:3552 r2/lib/pages/pages.py:3686
-msgid "add subtippr"
-msgstr "adaugă subtippr"
+msgid "add vault"
+msgstr "adaugă vault"
 
 #: r2/lib/pages/pages.py:3594
 #, python-format
-msgid "%(bonus)s bonus subtipprs"
-msgstr "%(bonus)s subtippre bonus"
+msgid "%(bonus)s bonus vaults"
+msgstr "%(bonus)s vaulte bonus"
 
 #: r2/lib/pages/pages.py:3597 r2/lib/pages/pages.py:3604
 #, python-format
@@ -4064,7 +4064,7 @@ msgstr "data de început"
 msgid "end date"
 msgstr "data de sfârșit"
 
-#: r2/lib/pages/pages.py:6149 r2/templates/createsubtippr.html:289
+#: r2/lib/pages/pages.py:6149 r2/templates/createvault.html:289
 msgid "links"
 msgstr "linkuri"
 
@@ -4139,12 +4139,12 @@ msgid "frontpage impressions"
 msgstr "impresii de pe pagina principală"
 
 #: r2/lib/pages/pages.py:6175
-msgid "subtippr clicks"
-msgstr "clickuri subtippr"
+msgid "vault clicks"
+msgstr "clickuri vault"
 
 #: r2/lib/pages/pages.py:6176
-msgid "subtippr impressions"
-msgstr "impresiile subtipprului"
+msgid "vault impressions"
+msgstr "impresiile vaultului"
 
 #: r2/lib/pages/pages.py:6176 r2/lib/pages/trafficpages.py:417
 msgid "total clicks"
@@ -4168,16 +4168,16 @@ msgid "everything"
 msgstr "tot"
 
 #: r2/lib/pages/pages.py:6535 r2/lib/pages/pages.py:6538
-msgid "from all subtipprs"
-msgstr "de pe toate subtipprele"
+msgid "from all vaults"
+msgstr "de pe toate vaultele"
 
 #: r2/lib/pages/pages.py:6540
 msgid "moderating"
 msgstr "moderate"
 
 #: r2/lib/pages/pages.py:6541
-msgid "subtipprs you mod"
-msgstr "subtippre pe care le moderezi"
+msgid "vaults you mod"
+msgstr "vaulte pe care le moderezi"
 
 #: r2/lib/pages/pages.py:6547
 msgid "gold perks"
@@ -4188,8 +4188,8 @@ msgid "explore multis"
 msgstr "explorează multis"
 
 #: r2/lib/pages/pages.py:6699
-msgid "your subscribed subtipprs"
-msgstr "subtipprele la care te-ai abonat"
+msgid "your subscribed vaults"
+msgstr "vaultele la care te-ai abonat"
 
 #: r2/lib/pages/pages.py:6795
 #, python-format
@@ -4209,7 +4209,7 @@ msgstr "unici pe %s"
 #: r2/lib/pages/trafficpages.py:140 r2/lib/pages/trafficpages.py:973
 #: r2/templates/adverttrafficsummary.html:35
 #: r2/templates/languagetrafficsummary.html:34 r2/templates/tipprtraffic.html:99
-#: r2/templates/sitewidetraffic.html:37 r2/templates/subtipprtrafficreport.html:43
+#: r2/templates/sitewidetraffic.html:37 r2/templates/vaulttrafficreport.html:43
 msgid "uniques"
 msgstr "unici"
 
@@ -4220,7 +4220,7 @@ msgstr "vizualizări pe %s"
 
 #: r2/lib/pages/trafficpages.py:143 r2/lib/pages/trafficpages.py:974
 #: r2/templates/languagetrafficsummary.html:35 r2/templates/tipprtraffic.html:100
-#: r2/templates/sitewidetraffic.html:38 r2/templates/subtipprtrafficreport.html:44
+#: r2/templates/sitewidetraffic.html:38 r2/templates/vaulttrafficreport.html:44
 msgid "pageviews"
 msgstr "vizualizări"
 
@@ -4325,8 +4325,8 @@ msgstr "această pagină nu conține înregistrări, editați-o pentru a adăuga
 
 #: r2/lib/pages/wiki.py:168 r2/lib/pages/wiki.py:174
 #, python-format
-msgid "page %s does not exist in this subtippr"
-msgstr "pagina %s nu există în acest subtippr"
+msgid "page %s does not exist in this vault"
+msgstr "pagina %s nu există în acest vault"
 
 #: r2/lib/pages/wiki.py:182
 msgid "editing"
@@ -4351,8 +4351,8 @@ msgid "Viewing pages for %s"
 msgstr ""
 
 #: r2/lib/pages/wiki.py:215
-msgid "Below is a list of pages in this wiki visible to you in this subtippr."
-msgstr "Mai jos este lista paginilor din acest wiki vizibil dvs. în acest subtippr."
+msgid "Below is a list of pages in this wiki visible to you in this vault."
+msgstr "Mai jos este lista paginilor din acest wiki vizibil dvs. în acest vault."
 
 #: r2/lib/pages/wiki.py:221
 #: ../../liveupdate/tippr_liveupdate/templates/liveupdateeventapp.html:53
@@ -4626,7 +4626,7 @@ msgstr ""
 
 #: r2/models/link.py:1601
 #, python-format
-msgid "submitted %(when)s by %(link_subtippr)s"
+msgid "submitted %(when)s by %(link_vault)s"
 msgstr ""
 
 #: r2/models/link.py:2137
@@ -4636,8 +4636,8 @@ msgstr ""
 
 #: r2/models/link.py:2139
 #, python-format
-msgid "%(link)s by %(author)s in %(subtippr)s"
-msgstr "%(link)s de către %(author)s în %(subtippr)s"
+msgid "%(link)s by %(author)s in %(vault)s"
+msgstr "%(link)s de către %(author)s în %(vault)s"
 
 #: r2/models/link.py:2166
 msgid "comment score below threshold"
@@ -4653,36 +4653,36 @@ msgstr "mențiunea utilizatorului"
 
 #: r2/models/link.py:2781 r2/models/link.py:2844
 #, python-format
-msgid "from %(author)s via %(subtippr)s sent %(when)s"
+msgid "from %(author)s via %(vault)s sent %(when)s"
 msgstr ""
 
 #: r2/models/link.py:2795
-msgid "[message from blocked subtippr]"
-msgstr "[mesaj de la un subtippr blocat]"
+msgid "[message from blocked vault]"
+msgstr "[mesaj de la un vault blocat]"
 
 #: r2/models/link.py:2816 r2/models/link.py:2822
 #, python-format
-msgid "subtippr message via %(subtippr)s sent %(when)s"
+msgid "vault message via %(vault)s sent %(when)s"
 msgstr ""
 
 #: r2/models/link.py:2826 r2/models/link.py:2849
 #, python-format
-msgid "to %(dest)s via %(subtippr)s sent %(when)s"
+msgid "to %(dest)s via %(vault)s sent %(when)s"
 msgstr ""
 
 #: r2/models/link.py:2830 r2/models/link.py:2855
 #, python-format
-msgid "from %(author)s via %(subtippr)s to %(dest)s sent %(when)s"
+msgid "from %(author)s via %(vault)s to %(dest)s sent %(when)s"
 msgstr ""
 
 #: r2/models/link.py:2847
 #, python-format
-msgid "to %(subtippr)s sent %(when)s"
-msgstr "trimis %(when)s pentru %(subtippr)s"
+msgid "to %(vault)s sent %(when)s"
+msgstr "trimis %(when)s pentru %(vault)s"
 
 #: r2/models/link.py:2852
 #, python-format
-msgid "from %(author)s to %(subtippr)s sent %(when)s"
+msgid "from %(author)s to %(vault)s sent %(when)s"
 msgstr ""
 
 #: r2/models/link.py:2871
@@ -4730,12 +4730,12 @@ msgstr "utilizatori blocați"
 
 #: r2/models/listing.py:247
 #, python-format
-msgid "users banned from %(subtippr)s"
+msgid "users banned from %(vault)s"
 msgstr ""
 
 #: r2/models/listing.py:278
 #, python-format
-msgid "users muted from %(subtippr)s"
+msgid "users muted from %(vault)s"
 msgstr ""
 
 #: r2/models/listing.py:296
@@ -4744,12 +4744,12 @@ msgstr "banează colaboratorii wiki"
 
 #: r2/models/listing.py:300
 #, python-format
-msgid "wiki contibutors banned from %(subtippr)s"
+msgid "wiki contibutors banned from %(vault)s"
 msgstr ""
 
 #: r2/models/listing.py:308
 #, python-format
-msgid "approved submitters for %(subtippr)s"
+msgid "approved submitters for %(vault)s"
 msgstr ""
 
 #: r2/models/listing.py:313
@@ -4758,7 +4758,7 @@ msgstr "adaugă un redactor aprobat"
 
 #: r2/models/listing.py:320
 #, python-format
-msgid "approved wiki contributors for %(subtippr)s"
+msgid "approved wiki contributors for %(vault)s"
 msgstr ""
 
 #: r2/models/listing.py:325
@@ -4771,13 +4771,13 @@ msgstr "invită moderator"
 
 #: r2/models/listing.py:330 r2/templates/modlisting.html:33
 #, python-format
-msgid "you are a moderator of this subtippr. %(action)s"
-msgstr "sunteţi moderator al acestui subtippr. %(action)s"
+msgid "you are a moderator of this vault. %(action)s"
+msgstr "sunteţi moderator al acestui vault. %(action)s"
 
 #: r2/models/listing.py:346
 #, python-format
-msgid "invited moderators for %(subtippr)s"
-msgstr "moderatori invitați pentru %(subtippr)s"
+msgid "invited moderators for %(vault)s"
+msgstr "moderatori invitați pentru %(vault)s"
 
 #: r2/models/listing.py:351
 msgid "force add moderator"
@@ -4785,7 +4785,7 @@ msgstr "adaugă cu forța un moderator"
 
 #: r2/models/listing.py:373
 #, python-format
-msgid "moderators of %(subtippr)s"
+msgid "moderators of %(vault)s"
 msgstr ""
 
 #: r2/models/mail_queue.py:356
@@ -5112,7 +5112,7 @@ msgstr "șters"
 
 #: r2/models/modaction.py:124 r2/models/modaction.py:127 r2/models/modaction.py:164
 #: r2/templates/printablebuttons.html:53 r2/templates/printablebuttons.html:267
-#: r2/templates/renderablecampaign.html:193 r2/templates/subtipprinfobar.html:138
+#: r2/templates/renderablecampaign.html:193 r2/templates/vaultinfobar.html:138
 msgid "approved"
 msgstr "aprobat"
 
@@ -5257,29 +5257,29 @@ msgstr "spam înlăturat"
 msgid "removed self"
 msgstr "self șters"
 
-#: r2/models/modaction.py:172 r2/templates/createsubtippr.html:73
+#: r2/models/modaction.py:172 r2/templates/createvault.html:73
 #: r2/templates/newlink.html:209 r2/templates/newlink.html:233
 #: r2/templates/promotelinkbase.html:78
 #: ../../liveupdate/tippr_liveupdate/templates/liveupdateutils.html:25
 msgid "title"
 msgstr "titlu"
 
-#: r2/models/modaction.py:173 r2/templates/createsubtippr.html:88
+#: r2/models/modaction.py:173 r2/templates/createvault.html:88
 #: r2/templates/prefapps.html:147 r2/templates/prefapps.html:342
 #: ../../liveupdate/tippr_liveupdate/templates/liveupdateutils.html:31
 msgid "description"
 msgstr "descriere"
 
-#: r2/models/modaction.py:174 r2/templates/createsubtippr.html:106
+#: r2/models/modaction.py:174 r2/templates/createvault.html:106
 msgid "sidebar"
 msgstr "bară laterală"
 
-#: r2/models/modaction.py:175 r2/templates/createsubtippr.html:130
+#: r2/models/modaction.py:175 r2/templates/createvault.html:130
 #: r2/templates/languagetrafficsummary.html:33
 msgid "language"
 msgstr "limbă"
 
-#: r2/models/modaction.py:176 r2/templates/createsubtippr.html:141
+#: r2/models/modaction.py:176 r2/templates/createvault.html:141
 msgid "type"
 msgstr "tapează"
 
@@ -5351,7 +5351,7 @@ msgstr "șterge pictograma"
 msgid "delete banner image"
 msgstr "șterge imaginea bannerului"
 
-#: r2/models/modaction.py:196 r2/templates/createsubtippr.html:530
+#: r2/models/modaction.py:196 r2/templates/createvault.html:530
 msgid "upload header image"
 msgstr "încarcă imagine antentului"
 
@@ -5412,7 +5412,7 @@ msgid "clear flair templates"
 msgstr "curăță modelele de insignă"
 
 #: r2/models/modaction.py:213 r2/public/static/js/link-websockets.js:261
-#: r2/templates/createsubtippr.html:566 r2/templates/createsubtippr.html:572
+#: r2/templates/createvault.html:566 r2/templates/createvault.html:572
 #: r2/templates/filteredinfobar.html:49 r2/templates/multiinfobar.html:133
 #: r2/templates/prefapps.html:79 r2/templates/printablebuttons.html:45
 #: r2/templates/printablebuttons.html:244 r2/templates/trophycase.html:48
@@ -5498,90 +5498,90 @@ msgstr "încalcă regulile"
 msgid "Personal and confidential information"
 msgstr ""
 
-#: r2/models/subtippr.py:374
+#: r2/models/vault.py:374
 msgid "red"
 msgstr ""
 
-#: r2/models/subtippr.py:375
+#: r2/models/vault.py:375
 msgid "orangered"
 msgstr "roșu-portocaliu"
 
-#: r2/models/subtippr.py:376
+#: r2/models/vault.py:376
 msgid "orange"
 msgstr "portocaliu"
 
-#: r2/models/subtippr.py:377
+#: r2/models/vault.py:377
 msgid "mango"
 msgstr "mango"
 
-#: r2/models/subtippr.py:378
+#: r2/models/vault.py:378
 msgid "lime"
 msgstr "verde deschis"
 
-#: r2/models/subtippr.py:379
+#: r2/models/vault.py:379
 msgid "green"
 msgstr "verde"
 
-#: r2/models/subtippr.py:380
+#: r2/models/vault.py:380
 msgid "mint"
 msgstr ""
 
-#: r2/models/subtippr.py:381
+#: r2/models/vault.py:381
 msgid "teal"
 msgstr ""
 
-#: r2/models/subtippr.py:382
+#: r2/models/vault.py:382
 msgid "blue"
 msgstr "albastru"
 
-#: r2/models/subtippr.py:383
+#: r2/models/vault.py:383
 msgid "alien blue"
 msgstr "extraterestru albastru"
 
-#: r2/models/subtippr.py:384
+#: r2/models/vault.py:384
 msgid "pink"
 msgstr ""
 
-#: r2/models/subtippr.py:385
+#: r2/models/vault.py:385
 msgid "purple"
 msgstr ""
 
-#: r2/models/subtippr.py:387
+#: r2/models/vault.py:387
 msgid "brown"
 msgstr ""
 
-#: r2/models/subtippr.py:388
+#: r2/models/vault.py:388
 msgid "pale grey"
 msgstr ""
 
-#: r2/models/subtippr.py:389
+#: r2/models/vault.py:389
 msgid "grey"
 msgstr ""
 
-#: r2/models/subtippr.py:390
+#: r2/models/vault.py:390
 msgid "dark grey"
 msgstr ""
 
-#: r2/models/subtippr.py:391
+#: r2/models/vault.py:391
 msgid "semi black"
 msgstr ""
 
-#: r2/models/subtippr.py:2272 r2/models/subtippr.py:2350
+#: r2/models/vault.py:2272 r2/models/vault.py:2350
 #, python-format
 msgid "%s (filtered)"
 msgstr "%s (filtrat)"
 
-#: r2/models/subtippr.py:2619
+#: r2/models/vault.py:2619
 #, python-format
 msgid "posts from %s"
 msgstr "postări de la %s"
 
-#: r2/models/subtippr.py:3010
+#: r2/models/vault.py:3010
 #, python-format
-msgid "%s subtipprs curated by /u/%s"
-msgstr "%s subtippre create de /u/%s"
+msgid "%s vaults curated by /u/%s"
+msgstr "%s vaulte create de /u/%s"
 
-#: r2/models/subtippr.py:3336
+#: r2/models/vault.py:3336
 #, python-format
 msgid "%(domain)s on %(tippr.com)s"
 msgstr "%(domain)s pe %(tippr.com)s"
@@ -5639,8 +5639,8 @@ msgid "Manage My Flair"
 msgstr "Gestionează insigna mea"
 
 #: r2/models/token.py:160
-msgid "Select my subtippr flair. Change link flair on my submissions."
-msgstr "Selectează insigna mea pe subtippr. Schimbă insigna legăturilor pe postările mele."
+msgid "Select my vault flair. Change link flair on my submissions."
+msgstr "Selectează insigna mea pe vault. Schimbă insigna legăturilor pe postările mele."
 
 #: r2/models/token.py:165
 msgid "History"
@@ -5663,7 +5663,7 @@ msgid "Approve submitters and ban users"
 msgstr "Acceptă redactori și banează utiizatori"
 
 #: r2/models/token.py:178
-msgid "Add/remove users to approved submitter lists and ban/unban or mute/unmute users from subtipprs I moderate."
+msgid "Add/remove users to approved submitter lists and ban/unban or mute/unmute users from vaults I moderate."
 msgstr ""
 
 #: r2/models/token.py:185
@@ -5671,8 +5671,8 @@ msgid "Moderate Flair"
 msgstr "Moderează insigna"
 
 #: r2/models/token.py:186
-msgid "Manage and assign flair in subtipprs I moderate."
-msgstr "Gestionează și atribuie insigne în subtipprele pe care le moderez."
+msgid "Manage and assign flair in vaults I moderate."
+msgstr "Gestionează și atribuie insigne în vaultele pe care le moderez."
 
 #: r2/models/token.py:191
 msgid "New Modmail"
@@ -5687,64 +5687,64 @@ msgid "Moderate Posts"
 msgstr "Moderează postări"
 
 #: r2/models/token.py:198
-msgid "Approve, remove, mark nsfw, and distinguish content in subtipprs I moderate."
-msgstr "Aprobă, înlătură, marchează NSFW și distinge conținutul în subtipprele pe care le moderez."
+msgid "Approve, remove, mark nsfw, and distinguish content in vaults I moderate."
+msgstr "Aprobă, înlătură, marchează NSFW și distinge conținutul în vaultele pe care le moderez."
 
 #: r2/models/token.py:204
-msgid "Moderate Subtippr Configuration"
-msgstr "Moderează configurarea subtipprului"
+msgid "Moderate Vault Configuration"
+msgstr "Moderează configurarea vaultului"
 
 #: r2/models/token.py:205
-msgid "Manage the configuration, sidebar, and CSS of subtipprs I moderate."
-msgstr "Gestionează configurarea, bara laterală și CSS subtipprelor pe care le moderez."
+msgid "Manage the configuration, sidebar, and CSS of vaults I moderate."
+msgstr "Gestionează configurarea, bara laterală și CSS vaultelor pe care le moderez."
 
 #: r2/models/token.py:211
 msgid "Moderation Log"
 msgstr "Jurnalul moderărilor"
 
 #: r2/models/token.py:212
-msgid "Access the moderation log in subtipprs I moderate."
-msgstr "Acceseaza jurnalul moderarilor in subtipprs moderate de mine."
+msgid "Access the moderation log in vaults I moderate."
+msgstr "Acceseaza jurnalul moderarilor in vaults moderate de mine."
 
 #: r2/models/token.py:217
 msgid "Invite or remove other moderators"
 msgstr "Invită sau elimină alți moderatori"
 
 #: r2/models/token.py:218
-msgid "Invite or remove other moderators from subtipprs I moderate."
+msgid "Invite or remove other moderators from vaults I moderate."
 msgstr ""
 
 #: r2/models/token.py:224
-msgid "Make changes to your subtippr moderator and contributor status"
+msgid "Make changes to your vault moderator and contributor status"
 msgstr ""
 
 #: r2/models/token.py:226
-msgid "Accept invitations to moderate a subtippr. Remove myself as a moderator or contributor of subtipprs I moderate or contribute to."
+msgid "Accept invitations to moderate a vault. Remove myself as a moderator or contributor of vaults I moderate or contribute to."
 msgstr ""
 
 #: r2/models/token.py:234
-msgid "Subtippr Traffic"
-msgstr "Traficul subtipprului"
+msgid "Vault Traffic"
+msgstr "Traficul vaultului"
 
 #: r2/models/token.py:235
-msgid "Access traffic stats in subtipprs I moderate."
-msgstr "Accesează statisticile traficului în subtipprele pe care le moderez."
+msgid "Access traffic stats in vaults I moderate."
+msgstr "Accesează statisticile traficului în vaultele pe care le moderez."
 
 #: r2/models/token.py:239
 msgid "Moderate Wiki"
 msgstr "Moderează Wiki"
 
 #: r2/models/token.py:240
-msgid "Change editors and visibility of wiki pages in subtipprs I moderate."
-msgstr "Schimbă editorii și vizibilitatea paginilor wiki in subtipprele pe care le moderez."
+msgid "Change editors and visibility of wiki pages in vaults I moderate."
+msgstr "Schimbă editorii și vizibilitatea paginilor wiki in vaultele pe care le moderez."
 
 #: r2/models/token.py:246
-msgid "My Subtipprs"
-msgstr "Subtipprele mele"
+msgid "My Vaults"
+msgstr "Vaultele mele"
 
 #: r2/models/token.py:247
-msgid "Access the list of subtipprs I moderate, contribute to, and subscribe to."
-msgstr "Accesează lista subtipprelor pe care le moderez, la care contribui și sunt abonat."
+msgid "Access the list of vaults I moderate, contribute to, and subscribe to."
+msgstr "Accesează lista vaultelor pe care le moderez, la care contribui și sunt abonat."
 
 #: r2/models/token.py:253
 msgid "Private Messages"
@@ -5791,8 +5791,8 @@ msgid "Edit My Subscriptions"
 msgstr "Editează abonamentele mele"
 
 #: r2/models/token.py:281
-msgid "Manage my subtippr subscriptions. Manage \"friends\" - users whose content I follow."
-msgstr "Administrează subtippr-urile la care m-am abonat. Administrează \"prietenii\" - utilizatorii căror conţinut mă interesează."
+msgid "Manage my vault subscriptions. Manage \"friends\" - users whose content I follow."
+msgstr "Administrează vault-urile la care m-am abonat. Administrează \"prietenii\" - utilizatorii căror conţinut mă interesează."
 
 #: r2/models/token.py:286 r2/templates/listing.html:75
 msgid "Vote"
@@ -5953,7 +5953,7 @@ msgid "parent"
 msgstr "părinte"
 
 #: r2/public/static/js/link-websockets.js:262 r2/templates/printablebuttons.html:68
-#: r2/templates/promotelinkbase.html:1012 r2/templates/subtipprreportform.html:43
+#: r2/templates/promotelinkbase.html:1012 r2/templates/vaultreportform.html:43
 #: ../../liveupdate/tippr_liveupdate/templates/liveupdateeventapp.html:92
 msgid "report"
 msgstr "inadecvat"
@@ -6008,7 +6008,7 @@ msgid "You need to be logged in to give gold."
 msgstr "Trebuie să fii conectat pentru a oferi aur."
 
 #: r2/public/static/js/login.js:139
-msgid "You need to be logged in to subscribe to subtipprs."
+msgid "You need to be logged in to subscribe to vaults."
 msgstr ""
 
 #: r2/public/static/js/login.js:144 r2/public/static/js/login.js:149
@@ -6044,8 +6044,8 @@ msgid "awesomeness goes here"
 msgstr "lucrurile tari merg aici"
 
 #: r2/public/static/js/multi.js:535
-msgid "add a subtippr to your multi."
-msgstr "adaugă un subtippr la propriul multi."
+msgid "add a vault to your multi."
+msgstr "adaugă un vault la propriul multi."
 
 #: r2/public/static/js/multi.js:588
 msgid "categorize"
@@ -6156,7 +6156,7 @@ msgstr "trimite"
 #: r2/templates/linkcommentssettings.html:75 r2/templates/printablebuttons.html:405
 #: r2/templates/promotelinkedit.html:140 r2/templates/renderablecampaign.html:258
 #: r2/templates/reportform.html:68 r2/templates/rules.html:144
-#: r2/templates/subtipprreportform.html:40
+#: r2/templates/vaultreportform.html:40
 msgid "cancel"
 msgstr "anulează"
 
@@ -6222,7 +6222,7 @@ msgstr "fără categorie"
 #: r2/templates/prefupdate.html:53 r2/templates/prefupdate.html:147
 #: r2/templates/prefupdate.html:204 r2/templates/printablebuttons.html:360
 #: r2/templates/printablebuttons.html:475 r2/templates/promotelinkedit.html:245
-#: r2/templates/subtipprstylesheet.html:68
+#: r2/templates/vaultstylesheet.html:68
 #: ../../liveupdate/tippr_liveupdate/templates/liveupdatecontributorpermissions.html:29
 msgid "save"
 msgstr "salvează"
@@ -6304,7 +6304,7 @@ msgid "we have insufficient available inventory targeting %(target)s to fulfill 
 msgstr ""
 
 #: r2/public/static/js/sponsored.js:398
-msgid "please select at least one subtippr"
+msgid "please select at least one vault"
 msgstr ""
 
 #: r2/public/static/js/sponsored.js:399
@@ -6340,7 +6340,7 @@ msgstr "Campanie nouă creată!"
 
 #: r2/public/static/js/sr-autocomplete.js:494
 #, python-format
-msgid "the maximum number of subtipprs you can target is %(num)s"
+msgid "the maximum number of vaults you can target is %(num)s"
 msgstr ""
 
 #: r2/public/static/js/sr-autocomplete.js:500
@@ -6388,8 +6388,8 @@ msgstr[1] "acum %(num)s minute"
 msgstr[2] "acum %(num)s de minute"
 
 #: r2/public/static/js/traffic.js:11
-msgid "view subtippr traffic"
-msgstr "vezi traficul subtipprului"
+msgid "view vault traffic"
+msgstr "vezi traficul vaultului"
 
 #: r2/public/static/js/traffic.js:13 r2/templates/flairlist.html:31
 #: r2/templates/userlisting.html:170
@@ -6633,8 +6633,8 @@ msgid "ad"
 msgstr "reclamă"
 
 #: r2/templates/allinfobar.html:29
-msgid "Exclude your subscribed subtipprs"
-msgstr "Exclude subtipprele tale abonate"
+msgid "Exclude your subscribed vaults"
+msgstr "Exclude vaultele tale abonate"
 
 #: r2/templates/allinfobar.html:35
 msgid "See gilded comments and submissions"
@@ -6644,8 +6644,8 @@ msgstr "Vezi comentariile și postările aurite"
 msgid "This endpoint expects JSON data of this format"
 msgstr "Acest punct final se aşteaptă la date JSON în acest format"
 
-#: r2/templates/archivedinterstitial.html:31 r2/templates/createsubtippr.html:162
-#: r2/templates/searchresultsubtippr.html:102
+#: r2/templates/archivedinterstitial.html:31 r2/templates/createvault.html:162
+#: r2/templates/searchresultvault.html:102
 msgid "archived"
 msgstr "arhivat"
 
@@ -6825,15 +6825,15 @@ msgstr ""
 
 #: r2/templates/comment.html:121
 #, python-format
-msgid "this subtippr hides comment scores for %d minutes"
-msgstr "acest subtippr ascunde scorurile cometariilor pentru %d minute"
+msgid "this vault hides comment scores for %d minutes"
+msgstr "acest vault ascunde scorurile cometariilor pentru %d minute"
 
 #: r2/templates/comment.html:126 r2/templates/comment.htmllite:57
 msgid "score hidden"
 msgstr "scor ascuns"
 
 #: r2/templates/comment.html:138
-msgid "selected by this subtippr's moderators"
+msgid "selected by this vault's moderators"
 msgstr ""
 
 #: r2/templates/comment.html:138
@@ -6890,363 +6890,363 @@ msgstr "Da, te rog!"
 msgid "\"In 5-billion years the Sun will expand and engulf our orbit as the charred ember that was once Earth vaporizes. Have a nice day.\""
 msgstr "În 5 miliarde de ani, soarele va creşte în dimensiuni şi va înghite toată orbita noastră, în timp ce tăciunii care au fost odată planeta Pământ se vor vaporiza. O zi bună!"
 
-#: r2/templates/createsubtippr.html:41
+#: r2/templates/createvault.html:41
 msgid "\n"
-"# your account is too new to create a subtippr\n"
+"# your account is too new to create a vault\n"
 "    \n"
 "try participating in other communities on tippr for a little while first before creating your own. please post to /r/help if you need more information about this restriction, or if you require a specific exemption you can [contact the admins](/contact) to request one.\n"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:57
+#: r2/templates/createvault.html:57
 msgid "no spaces, e.g., \"books\" or \"bookclub\". avoid using solely trademarked names, e.g. use \"FansOfAcme\" instead of \"Acme\". once chosen, this name cannot be changed."
 msgstr ""
 
-#: r2/templates/createsubtippr.html:57 r2/templates/goldpayment.html:171
+#: r2/templates/createvault.html:57 r2/templates/goldpayment.html:171
 #: r2/templates/listingchooser.html:60 r2/templates/prefapps.html:140
 #: r2/templates/prefapps.html:334
 msgid "name"
 msgstr "nume"
 
-#: r2/templates/createsubtippr.html:73
+#: r2/templates/createvault.html:73
 msgid "e.g., books: made from trees or pixels. recommendations, news, or thoughts"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:88
+#: r2/templates/createvault.html:88
 msgid "Appears in search results and social media links. 500 characters max."
 msgstr ""
 
-#: r2/templates/createsubtippr.html:105
+#: r2/templates/createvault.html:105
 #, python-format
-msgid "shown in the sidebar of your subtippr. %d characters max.config/sidebar"
+msgid "shown in the sidebar of your vault. %d characters max.config/sidebar"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:118
+#: r2/templates/createvault.html:118
 msgid "text to show on submission page. 1024 characters max."
 msgstr "text de afișat pe pagina postării. max. 1024 de caractere."
 
-#: r2/templates/createsubtippr.html:118
+#: r2/templates/createvault.html:118
 msgid "submission text"
 msgstr "textul articolului"
 
-#: r2/templates/createsubtippr.html:146
-msgid "profile subtippr"
+#: r2/templates/createvault.html:146
+msgid "profile vault"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:147
-msgid "this is the subtippr for your profile page"
+#: r2/templates/createvault.html:147
+msgid "this is the vault for your profile page"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:150 r2/templates/multiinfobar.html:41
+#: r2/templates/createvault.html:150 r2/templates/multiinfobar.html:41
 msgid "public"
 msgstr "public"
 
-#: r2/templates/createsubtippr.html:151
+#: r2/templates/createvault.html:151
 msgid "anyone can view and submit"
 msgstr "oricine poate vedea și trimite"
 
-#: r2/templates/createsubtippr.html:153
-#: r2/templates/searchresultsubtippr.html:100
+#: r2/templates/createvault.html:153
+#: r2/templates/searchresultvault.html:100
 msgid "restricted"
 msgstr "restricționat"
 
-#: r2/templates/createsubtippr.html:154
+#: r2/templates/createvault.html:154
 msgid "anyone can view, but only some are approved to submit links"
 msgstr "oricine poate vedea, însă doar unii au aprobarea să trimită linkuri"
 
-#: r2/templates/createsubtippr.html:157
+#: r2/templates/createvault.html:157
 msgid "only approved members can view and submit"
 msgstr "doar membrii aprobați pot vedea și trimite"
 
-#: r2/templates/createsubtippr.html:163
+#: r2/templates/createvault.html:163
 msgid "anyone can view, but submissions are no longer accepted"
 msgstr "oricine poate vedea, dar articolele nu mai sunt acceptate"
 
-#: r2/templates/createsubtippr.html:169
+#: r2/templates/createvault.html:169
 msgid "gold restricted"
 msgstr "aur restricționat"
 
-#: r2/templates/createsubtippr.html:170
+#: r2/templates/createvault.html:170
 msgid "anyone can view, but only tippr gold members can submit or comment"
 msgstr "oricine poate vedea, însă doar membrii tippr gold pot trimite sau comenta"
 
-#: r2/templates/createsubtippr.html:176
+#: r2/templates/createvault.html:176
 msgid "employees only"
 msgstr "doar angajați"
 
-#: r2/templates/createsubtippr.html:177
+#: r2/templates/createvault.html:177
 msgid "only tippr employees can view; the employee list is pulled from live config"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:187
-msgid "If you switch this subtippr to another type, you will not be able to switch back to \"gold only\" without the assistance of an admin"
+#: r2/templates/createvault.html:187
+msgid "If you switch this vault to another type, you will not be able to switch back to \"gold only\" without the assistance of an admin"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:192 r2/templates/goldonlyinterstitial.html:33
+#: r2/templates/createvault.html:192 r2/templates/goldonlyinterstitial.html:33
 msgid "gold only"
 msgstr "doar cu aur"
 
-#: r2/templates/createsubtippr.html:193
+#: r2/templates/createvault.html:193
 msgid "only tippr gold members can view and submit"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:205 r2/templates/prefoptions.html:343
+#: r2/templates/createvault.html:205 r2/templates/prefoptions.html:343
 msgid "content options"
 msgstr "opțiuni de conținut"
 
-#: r2/templates/createsubtippr.html:208
+#: r2/templates/createvault.html:208
 msgid "any"
 msgstr "orice"
 
-#: r2/templates/createsubtippr.html:209
+#: r2/templates/createvault.html:209
 msgid "any link type is allowed"
 msgstr "orice tip de link este permis"
 
-#: r2/templates/createsubtippr.html:211
+#: r2/templates/createvault.html:211
 msgid "links only"
 msgstr "doar linkuri"
 
-#: r2/templates/createsubtippr.html:212
+#: r2/templates/createvault.html:212
 msgid "only links to external sites are allowed"
 msgstr "sunt permise dor linkuri spre site-uri externe"
 
-#: r2/templates/createsubtippr.html:214
+#: r2/templates/createvault.html:214
 msgid "text posts only"
 msgstr "doar postările text"
 
-#: r2/templates/createsubtippr.html:215
+#: r2/templates/createvault.html:215
 msgid "only text/self posts are allowed"
 msgstr "sunt permise doar texte/postări proprii"
 
-#: r2/templates/createsubtippr.html:222
+#: r2/templates/createvault.html:222
 msgid "Custom label for submit link button (blank for default):"
 msgstr "Personalizează eticheta pentru butonul de postare a unei legături (gol pentru textul implicit):"
 
-#: r2/templates/createsubtippr.html:233
+#: r2/templates/createvault.html:233
 msgid "Custom label for submit text post button (blank for default):"
 msgstr "Personalizează eticheta pentru butonul de postare a unui text (gol pentru textul implicit):"
 
-#: r2/templates/createsubtippr.html:248
+#: r2/templates/createvault.html:248
 msgid "disabled"
 msgstr "dezactivat"
 
-#: r2/templates/createsubtippr.html:249
+#: r2/templates/createvault.html:249
 msgid "Wiki is disabled for all users except mods"
 msgstr "Wiki este dezactivat pentru toți utilizatorii cu excepția moderatorilor"
 
-#: r2/templates/createsubtippr.html:251
+#: r2/templates/createvault.html:251
 msgid "mod editing"
 msgstr "editarea moderatorului"
 
-#: r2/templates/createsubtippr.html:252
+#: r2/templates/createvault.html:252
 msgid "Only mods, approved wiki contributors, or those on a page's edit list may edit"
 msgstr "Doar moderatorii, contribuitorii wiki aprobați sau acei din lista de editare a paginii pot edita"
 
-#: r2/templates/createsubtippr.html:254
+#: r2/templates/createvault.html:254
 msgid "anyone"
 msgstr "oricine"
 
-#: r2/templates/createsubtippr.html:255
-msgid "Anyone who can submit to the subtippr may edit"
-msgstr "Oricine poate trimite observații către subtippr, poate edita"
+#: r2/templates/createvault.html:255
+msgid "Anyone who can submit to the vault may edit"
+msgstr "Oricine poate trimite observații către vault, poate edita"
 
-#: r2/templates/createsubtippr.html:262
-msgid "Subtippr karma required to edit and create wiki pages:"
-msgstr "Pentru editarea și crearea paginilor wiki este necesară karma subtipprului:"
+#: r2/templates/createvault.html:262
+msgid "Vault karma required to edit and create wiki pages:"
+msgstr "Pentru editarea și crearea paginilor wiki este necesară karma vaultului:"
 
-#: r2/templates/createsubtippr.html:272
+#: r2/templates/createvault.html:272
 msgid "Account age (days) required to edit and create wiki pages:"
 msgstr "Vechimea contului (zile) necesara pentru editarea si crearea paginilor wiki:"
 
-#: r2/templates/createsubtippr.html:284
+#: r2/templates/createvault.html:284
 msgid "spam filter strength"
 msgstr "nivelul filtrului de spam"
 
-#: r2/templates/createsubtippr.html:286
+#: r2/templates/createvault.html:286
 msgid "high is the standard filter, low disables most filtering, all will filter every post initially and they will need to be approved manually to be visible."
 msgstr "nivelul înalt de filtrare este standard, nivelul jos dezactivează majoritatea filtrelor, toate vor filtra inițial fiecare postare și va fi necesară aprobarea lor în mod manual pentru a fi vizibile."
 
-#: r2/templates/createsubtippr.html:291 r2/templates/createsubtippr.html:302
-#: r2/templates/createsubtippr.html:313
+#: r2/templates/createvault.html:291 r2/templates/createvault.html:302
+#: r2/templates/createvault.html:313
 msgid "low"
 msgstr "scăzut"
 
-#: r2/templates/createsubtippr.html:293 r2/templates/createsubtippr.html:304
-#: r2/templates/createsubtippr.html:315
+#: r2/templates/createvault.html:293 r2/templates/createvault.html:304
+#: r2/templates/createvault.html:315
 msgid "high"
 msgstr "înalt"
 
-#: r2/templates/createsubtippr.html:300
+#: r2/templates/createvault.html:300
 msgid "self posts"
 msgstr "postări proprii"
 
-#: r2/templates/createsubtippr.html:325
+#: r2/templates/createvault.html:325
 #: ../../liveupdate/tippr_liveupdate/templates/liveupdateeventconfiguration.html:12
 msgid "other options"
 msgstr "alte opțiuni"
 
-#: r2/templates/createsubtippr.html:336
+#: r2/templates/createvault.html:336
 #: ../../liveupdate/tippr_liveupdate/templates/liveupdateeventconfiguration.html:20
 msgid "viewers must be over eighteen years old"
 msgstr "vizitatorii trebuie să aibă mai mult de optsprezece ani"
 
-#: r2/templates/createsubtippr.html:348
-msgid "allow this subtippr to be included in /r/all, /r/popular, default, and trending lists"
+#: r2/templates/createvault.html:348
+msgid "allow this vault to be included in /r/all, /r/popular, default, and trending lists"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:359
+#: r2/templates/createvault.html:359
 msgid "enable marking posts as containing spoilers"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:370
+#: r2/templates/createvault.html:370
 msgid "show thumbnail images of content"
 msgstr "arată pictograma imaginilor din conținut"
 
-#: r2/templates/createsubtippr.html:381
+#: r2/templates/createvault.html:381
 msgid "expand media previews on comments pages"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:392
+#: r2/templates/createvault.html:392
 msgid "allow image uploads and links to image hosting sites"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:404
+#: r2/templates/createvault.html:404
 msgid "exclude posts by site-wide banned users from modqueue/unmoderated"
 msgstr "nu include postări ale utilizatorilor interzişi pe întregul site din coada de moderatori/nemoderate"
 
-#: r2/templates/createsubtippr.html:412
+#: r2/templates/createvault.html:412
 msgid "make the traffic stats page available to everyone"
 msgstr "permite tuturor accesul la pagina de statistici a traficului"
 
-#: r2/templates/createsubtippr.html:423
+#: r2/templates/createvault.html:423
 msgid "collapse deleted and removed comments"
 msgstr "ascunde comentariile șterse și ascunse"
 
-#: r2/templates/createsubtippr.html:435
-msgid "hide ads (only available for gold only subtipprs)"
+#: r2/templates/createvault.html:435
+msgid "hide ads (only available for gold only vaults)"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:442
+#: r2/templates/createvault.html:442
 msgid "suggested comment sort"
 msgstr "sortarea sugerată a comentariilor"
 
-#: r2/templates/createsubtippr.html:442
+#: r2/templates/createvault.html:442
 msgid "(all comment threads will use this sorting method by default)"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:444
-msgid "none (recommended for most subtipprs)"
-msgstr "niciunul (recomandat pentru majoritatea subtipprelor)"
+#: r2/templates/createvault.html:444
+msgid "none (recommended for most vaults)"
+msgstr "niciunul (recomandat pentru majoritatea vaultelor)"
 
-#: r2/templates/createsubtippr.html:453
+#: r2/templates/createvault.html:453
 msgid "Minutes to hide comment scores:"
 msgstr "Minute până la ascunderea scorurilor comentariilor:"
 
-#: r2/templates/createsubtippr.html:475 r2/templates/usertext.html:155
+#: r2/templates/createvault.html:475 r2/templates/usertext.html:155
 #: r2/templates/wikieditpage.html:46
 msgid "hide help"
 msgstr "ascunde ajutor"
 
-#: r2/templates/createsubtippr.html:479
+#: r2/templates/createvault.html:479
 msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.tippr.com. You will be able to access your tippr through your domain."
 msgstr "Ai un domeniu? Adaugă-l aici și apoi mergi la furnizorul DNS și crează o înregistrare de tip CNAME setînd domeniul tău ca pseudonim pentru rhs.tippr.com. Vei putea accesa reddditul tău după numele domeniului."
 
-#: r2/templates/createsubtippr.html:486
+#: r2/templates/createvault.html:486
 msgid "look and feel"
 msgstr "privește și simte"
 
-#: r2/templates/createsubtippr.html:493
-msgid "subtippr name to use as theme"
+#: r2/templates/createvault.html:493
+msgid "vault name to use as theme"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:501
-msgid "There is a newer version of your subtippr theme available. Update to the latest version?"
+#: r2/templates/createvault.html:501
+msgid "There is a newer version of your vault theme available. Update to the latest version?"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:506
+#: r2/templates/createvault.html:506
 msgid "update theme"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:516
+#: r2/templates/createvault.html:516
 msgid "edit the stylesheet"
 msgstr "editează foaia de stil"
 
-#: r2/templates/createsubtippr.html:520
+#: r2/templates/createvault.html:520
 msgid "leaves this page"
 msgstr "părăsește această pagină"
 
-#: r2/templates/createsubtippr.html:540
+#: r2/templates/createvault.html:540
 msgid "restore default header"
 msgstr "restabilește antetul implicit"
 
-#: r2/templates/createsubtippr.html:560
-msgid "related subtipprs"
-msgstr "subtippre similare"
+#: r2/templates/createvault.html:560
+msgid "related vaults"
+msgstr "vaulte similare"
 
-#: r2/templates/createsubtippr.html:562
-msgid "similar or related subtipprs."
-msgstr "subtippre similare sau înrudite."
+#: r2/templates/createvault.html:562
+msgid "similar or related vaults."
+msgstr "vaulte similare sau înrudite."
 
-#: r2/templates/createsubtippr.html:638
+#: r2/templates/createvault.html:638
 msgid "new modmail enrollment"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:642
+#: r2/templates/createvault.html:642
 msgid "You have enrolled in the new modmail, if you wish to unenroll please"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:648
+#: r2/templates/createvault.html:648
 msgid "Once chosen this can not be undone, please make sure your entire team is ready."
 msgstr ""
 
-#: r2/templates/createsubtippr.html:657
+#: r2/templates/createvault.html:657
 msgid "Enroll"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:667
+#: r2/templates/createvault.html:667
 msgid "mobile look and feel"
 msgstr "versiunea mobilă"
 
-#: r2/templates/createsubtippr.html:671
+#: r2/templates/createvault.html:671
 msgid "icon image"
 msgstr "imagine-pictogramă"
 
-#: r2/templates/createsubtippr.html:671
+#: r2/templates/createvault.html:671
 msgid "icon must be 256x256 pixels. PNG or JPG only."
 msgstr ""
 
-#: r2/templates/createsubtippr.html:680
+#: r2/templates/createvault.html:680
 msgid "remove custom icon image"
 msgstr "șterge pictograma personalizată"
 
-#: r2/templates/createsubtippr.html:689
+#: r2/templates/createvault.html:689
 msgid "header image"
 msgstr "imaginea antetului"
 
-#: r2/templates/createsubtippr.html:689
+#: r2/templates/createvault.html:689
 msgid "header should have 10:3 aspect ratio. PNG or JPG only."
 msgstr ""
 
-#: r2/templates/createsubtippr.html:690
+#: r2/templates/createvault.html:690
 msgid "minimum size: 640x192px"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:690
+#: r2/templates/createvault.html:690
 msgid "maximum size: 1280x384px"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:699
+#: r2/templates/createvault.html:699
 msgid "remove custom header image"
 msgstr "șterge imaginea de antet personalizată"
 
-#: r2/templates/createsubtippr.html:709
+#: r2/templates/createvault.html:709
 msgid "color"
 msgstr "culoare"
 
-#: r2/templates/createsubtippr.html:709
-msgid "used as a thematic color for your subtippr on mobile"
+#: r2/templates/createvault.html:709
+msgid "used as a thematic color for your vault on mobile"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:740 r2/templates/flairpane.html:88
+#: r2/templates/createvault.html:740 r2/templates/flairpane.html:88
 #: r2/templates/personalizedads.html:79 r2/templates/prefoptions.html:497
 #: r2/templates/usermessagingprefs.html:26
 msgid "save options"
@@ -7313,11 +7313,11 @@ msgid "try again"
 msgstr "încearcă din nou"
 
 #: r2/templates/filteredinfobar.html:41
-msgid "filter subtippr"
-msgstr "filtru subtippr"
+msgid "filter vault"
+msgstr "filtru vault"
 
 #: r2/templates/filteredinfobar.html:41 r2/templates/modlisting.html:55
-#: r2/templates/subtipprselector.html:36 r2/templates/userlisting.html:96
+#: r2/templates/vaultselector.html:36 r2/templates/userlisting.html:96
 #: r2/templates/wikipagesettings.html:67
 msgid "add"
 msgstr "adaugă"
@@ -7372,8 +7372,8 @@ msgid "flair options"
 msgstr "opțiuni insignă"
 
 #: r2/templates/flairpane.html:39
-msgid "enable user flair in this subtippr"
-msgstr "activează insigna utilizatorului în acest subtippr"
+msgid "enable user flair in this vault"
+msgstr "activează insigna utilizatorului în acest vault"
 
 #: r2/templates/flairpane.html:50
 msgid "allow users to assign their own flair"
@@ -7420,8 +7420,8 @@ msgid "position flair to the right of the link"
 msgstr "poziționează insigna în dreapta linkului"
 
 #: r2/templates/flairprefs.html:31
-msgid "Show my flair on this subtippr. It looks like:"
-msgstr "Arată insigna mea pe acest subtippr. Arată astfel:"
+msgid "Show my flair on this vault. It looks like:"
+msgstr "Arată insigna mea pe acest vault. Arată astfel:"
 
 #: r2/templates/flairselector.html:23
 msgid "select flair"
@@ -7624,7 +7624,7 @@ msgid "You must be a Tippr Gold member to view this super secret community"
 msgstr ""
 
 #: r2/templates/goldonlyinterstitial.html:41
-msgid "The moderators of this community have set it to [Tippr Gold only](/gold/about#gold-only-subtipprs). You must be a [Tippr Gold member](/gold/about) to visit."
+msgid "The moderators of this community have set it to [Tippr Gold only](/gold/about#gold-only-vaults). You must be a [Tippr Gold member](/gold/about) to visit."
 msgstr ""
 
 #: r2/templates/goldonlyinterstitial.html:47
@@ -7749,13 +7749,13 @@ msgstr "Obiectivul de aur tippr de ieri"
 
 #: r2/templates/interestbar.html:27
 #, python-format
-msgid "ready for something new? %s subscribe %s to some new subtipprs."
-msgstr "sunteți pregătit pentru ceva nou? %s subscribe %s la cîteva subtippre noi."
+msgid "ready for something new? %s subscribe %s to some new vaults."
+msgstr "sunteți pregătit pentru ceva nou? %s subscribe %s la cîteva vaulte noi."
 
 #: r2/templates/interestbar.html:29
 #, python-format
-msgid "it looks like you haven't %s subscribed %s to any subtipprs yet. want some ideas?"
-msgstr "se pare că nu v-ați %s abonat %s la nici un subtippr încă. aveți nevoie de sugestii?"
+msgid "it looks like you haven't %s subscribed %s to any vaults yet. want some ideas?"
+msgstr "se pare că nu v-ați %s abonat %s la nici un vault încă. aveți nevoie de sugestii?"
 
 #: r2/templates/interestbar.html:35
 msgid "what are you interested in?"
@@ -7922,7 +7922,7 @@ msgid "Welcome!"
 msgstr ""
 
 #: r2/templates/listing.html:70
-msgid "Tippr is home to many subtippr communities, dedicated to every topic imaginable"
+msgid "Tippr is home to many vault communities, dedicated to every topic imaginable"
 msgstr ""
 
 #: r2/templates/listing.html:74
@@ -7950,7 +7950,7 @@ msgid "Explore Popular"
 msgstr ""
 
 #: r2/templates/listing.html:88 r2/templates/searchlisting.html:68
-#: r2/templates/subtipprstylesheetsource.html:52 r2/templates/tablelisting.html:64
+#: r2/templates/vaultstylesheetsource.html:52 r2/templates/tablelisting.html:64
 msgid "there doesn't seem to be anything here"
 msgstr "nu pare a fi nimic aici"
 
@@ -7983,8 +7983,8 @@ msgid "multitipprs"
 msgstr "multitippre"
 
 #: r2/templates/listingchooser.html:48
-msgid "new! create sets of subtipprs to view together."
-msgstr "nou! crează seturi de subtippre pentru a le vedea împreună."
+msgid "new! create sets of vaults to view together."
+msgstr "nou! crează seturi de vaulte pentru a le vedea împreună."
 
 #: r2/templates/listingchooser.html:49
 msgid "for starters, try one of these:"
@@ -8000,8 +8000,8 @@ msgstr ""
 
 #: r2/templates/locationbar.html:24
 #, python-format
-msgid "using the default subtipprs for your location (%(location)s)"
-msgstr "folosind subtippr-urile normale pentru locaţia ta (%(location)s)"
+msgid "using the default vaults for your location (%(location)s)"
+msgstr "folosind vault-urile normale pentru locaţia ta (%(location)s)"
 
 #: r2/templates/locationbar.html:27
 msgid "use global defaults"
@@ -8141,7 +8141,7 @@ msgid "to"
 msgstr "la"
 
 #: r2/templates/messagecompose.html:64
-msgid "(username, or /r/name for that subtippr's moderators)"
+msgid "(username, or /r/name for that vault's moderators)"
 msgstr ""
 
 #: r2/templates/messagecompose.html:82
@@ -8167,7 +8167,7 @@ msgstr "link „%(link_title)s” de %(link_author)s"
 msgid "from"
 msgstr "de la"
 
-#: r2/templates/modlisting.html:30 r2/templates/subtipprinfobar.html:86
+#: r2/templates/modlisting.html:30 r2/templates/vaultinfobar.html:86
 #: ../../liveupdate/tippr_liveupdate/templates/liveupdatecontributorlisting.html:8
 msgid "leave"
 msgstr "pleacă"
@@ -8200,12 +8200,12 @@ msgid "you are invited to become a moderator. %(action)s"
 msgstr "sunteți invitat să deveniți moderator. %(action)s"
 
 #: r2/templates/modsrinfobar.html:31
-msgid "/r/mod shows only subtipprs you moderate."
-msgstr "/r/mod arată doar subtipprele pe care le moderezi."
+msgid "/r/mod shows only vaults you moderate."
+msgstr "/r/mod arată doar vaultele pe care le moderezi."
 
 #: r2/templates/modsrinfobar.html:34
-msgid "filter out subtipprs"
-msgstr "filtrează subtipprele"
+msgid "filter out vaults"
+msgstr "filtrează vaultele"
 
 #: r2/templates/morechildren.html:37
 msgid "load more comments"
@@ -8277,10 +8277,10 @@ msgstr "editează descrierea"
 
 #: r2/templates/multiinfobar.html:120
 #, python-format
-msgid "%(count)s subtipprs in this multi:"
-msgstr "%(count)s subtippre în acest multi:"
+msgid "%(count)s vaults in this multi:"
+msgstr "%(count)s vaulte în acest multi:"
 
-#: r2/templates/multiinfobar.html:140 r2/templates/subtipprinfobar.html:119
+#: r2/templates/multiinfobar.html:140 r2/templates/vaultinfobar.html:119
 #, python-format
 msgid "created by %(user)s"
 msgstr "creat de %(user)s"
@@ -8306,12 +8306,12 @@ msgid "would you like to..."
 msgstr "ai dori să..."
 
 #: r2/templates/multiinfobar.html:166
-msgid "check out subtipprs by category"
-msgstr "verifică subtipprele după categorie"
+msgid "check out vaults by category"
+msgstr "verifică vaultele după categorie"
 
 #: r2/templates/multiinfobar.html:171
-msgid "explore a random subtippr"
-msgstr "explorează un subtippr aleator"
+msgid "explore a random vault"
+msgstr "explorează un vault aleator"
 
 #: r2/templates/multiinfobar.html:176
 msgid "see the suggestions again"
@@ -8358,15 +8358,15 @@ msgid "choose where to post"
 msgstr ""
 
 #: r2/templates/newlink.html:279
-msgid "choose a subtippr"
-msgstr "alege un subtippr"
+msgid "choose a vault"
+msgstr "alege un vault"
 
 #: r2/templates/newlink.html:283
 msgid "Your profile"
 msgstr ""
 
 #: r2/templates/newlink.html:285
-msgid "A subtippr:"
+msgid "A vault:"
 msgstr ""
 
 #: r2/templates/newlink.html:294
@@ -8675,7 +8675,7 @@ msgid "Ads you see on Tippr will be delivered based on your prior use of our Ser
 msgstr ""
 
 #: r2/templates/personalizedads.html:43
-msgid "For example: If you frequently visit gaming subtipprs, you're more likely to see an ad for a game rather than an ad for celebrity news."
+msgid "For example: If you frequently visit gaming vaults, you're more likely to see an ad for a game rather than an ad for celebrity news."
 msgstr ""
 
 #: r2/templates/personalizedads.html:46
@@ -8785,8 +8785,8 @@ msgid "Only in:"
 msgstr "Doar la:"
 
 #: r2/templates/prefapps.html:235
-msgid "Only in the subtipprs:"
-msgstr "Doar în subtipprele:"
+msgid "Only in the vaults:"
+msgstr "Doar în vaultele:"
 
 #: r2/templates/prefapps.html:253 r2/templates/prefapps.html:264
 msgid "Expires in:"
@@ -8980,7 +8980,7 @@ msgid "location options"
 msgstr "opțiuni de localizare"
 
 #: r2/templates/prefoptions.html:133
-msgid "use the global default subtipprs for the home feed"
+msgid "use the global default vaults for the home feed"
 msgstr ""
 
 #: r2/templates/prefoptions.html:135
@@ -9008,8 +9008,8 @@ msgid "don't show thumbnails next to links"
 msgstr "nu afișa pictograme lângă linkuri"
 
 #: r2/templates/prefoptions.html:153
-msgid "show thumbnails based on that subtippr's media preferences"
-msgstr "arată pictogramele bazate pe preferințele media ale acestui subtippr"
+msgid "show thumbnails based on that vault's media preferences"
+msgstr "arată pictogramele bazate pe preferințele media ale acestui vault"
 
 #: r2/templates/prefoptions.html:155
 msgid "to enable thumbnails, disable compressed link display"
@@ -9028,7 +9028,7 @@ msgid "don't auto-expand media previews on comments pages"
 msgstr ""
 
 #: r2/templates/prefoptions.html:163
-msgid "expand media previews based on that subtippr's media preferences"
+msgid "expand media previews based on that vault's media preferences"
 msgstr ""
 
 #: r2/templates/prefoptions.html:166
@@ -9056,12 +9056,12 @@ msgid "(it shows new and promoted links, and gives you a say in what's spam and 
 msgstr "(prezintă linkuri noi și promovate și vă oferă cuvîntul în a decide ce e spam și ce nu)"
 
 #: r2/templates/prefoptions.html:185
-msgid "show trending subtipprs on the home feed"
+msgid "show trending vaults on the home feed"
 msgstr ""
 
 #: r2/templates/prefoptions.html:188
-msgid "(a list of popular and notable subtipprs to check out)"
-msgstr "(o listă cu subtippr-uri populare şi semnificative)"
+msgid "(a list of popular and notable vaults to check out)"
+msgstr "(o listă cu vault-uri populare şi semnificative)"
 
 #: r2/templates/prefoptions.html:192
 msgid "show me links I've recently viewed"
@@ -9076,8 +9076,8 @@ msgid "show additional details in the domain text when available"
 msgstr "arată detalii în plus în domeniul text-ului când se poate"
 
 #: r2/templates/prefoptions.html:197
-msgid "(such as the source subtippr or the content author's url/name)"
-msgstr "(cum ar fi subtippr-ul din care provine sau numele/URL-ul autorului conţinutului)"
+msgid "(such as the source vault or the content author's url/name)"
+msgstr "(cum ar fi vault-ul din care provine sau numele/URL-ul autorului conţinutului)"
 
 #: r2/templates/prefoptions.html:200
 msgid "don't show me submissions after I've upvoted them"
@@ -9119,7 +9119,7 @@ msgid "ignore suggested sorts"
 msgstr "ignoră sortările sugerate"
 
 #: r2/templates/prefoptions.html:229
-msgid "(suggested sorts may be set by community moderators for specific threads or subtipprs, like Q&As)"
+msgid "(suggested sorts may be set by community moderators for specific threads or vaults, like Q&As)"
 msgstr ""
 
 #: r2/templates/prefoptions.html:232
@@ -9221,11 +9221,11 @@ msgid "display options"
 msgstr "opțiuni de afișare"
 
 #: r2/templates/prefoptions.html:321
-msgid "allow subtipprs to show me custom themes"
-msgstr "permite subtipprelor să îmi arate modele personalizate"
+msgid "allow vaults to show me custom themes"
+msgstr "permite vaultelor să îmi arate modele personalizate"
 
 #: r2/templates/prefoptions.html:324
-msgid "(you can also choose which subtippr themes to disable on an individual level)"
+msgid "(you can also choose which vault themes to disable on an individual level)"
 msgstr ""
 
 #: r2/templates/prefoptions.html:328
@@ -9249,8 +9249,8 @@ msgid "I am over eighteen years old and willing to view adult content"
 msgstr "Am peste optsprezece ani și doresc să văd conținutul pentru adulți"
 
 #: r2/templates/prefoptions.html:346
-msgid "required to view some subtipprs"
-msgstr "necesară pentru vizualizarea unor subtippre"
+msgid "required to view some vaults"
+msgstr "necesară pentru vizualizarea unor vaulte"
 
 #: r2/templates/prefoptions.html:348
 msgid "label posts that are not safe for work (NSFW)"
@@ -9353,7 +9353,7 @@ msgstr "foloseşte un %(ctippr_link)s pentru a-mi reînnoi aurul dacă expiră"
 
 #: r2/templates/prefoptions.html:443
 #, python-format
-msgid "since you don't have %(gold_link)s, this will only apply in subtipprs you moderate"
+msgid "since you don't have %(gold_link)s, this will only apply in vaults you moderate"
 msgstr ""
 
 #: r2/templates/prefoptions.html:451
@@ -9644,16 +9644,16 @@ msgid "reply {verb}"
 msgstr "răspunde"
 
 #: r2/templates/printablebuttons.html:582
-msgid "unblock subtippr"
-msgstr "deblochează subtipprul"
+msgid "unblock vault"
+msgstr "deblochează vaultul"
 
 #: r2/templates/printablebuttons.html:582
 msgid "unblocked"
 msgstr "deblocat"
 
 #: r2/templates/printablebuttons.html:585
-msgid "block subtippr"
-msgstr "blochează subtipprul"
+msgid "block vault"
+msgstr "blochează vaultul"
 
 #: r2/templates/printablebuttons.html:592
 msgid "block user"
@@ -9668,7 +9668,7 @@ msgid "You must be invited to visit this community"
 msgstr ""
 
 #: r2/templates/privateinterstitial.html:46
-msgid "The moderators of this subtippr have set it to private. You must be a moderator or approved submitter to visit."
+msgid "The moderators of this vault have set it to private. You must be a moderator or approved submitter to visit."
 msgstr ""
 
 #: r2/templates/profilebar.html:44
@@ -9696,8 +9696,8 @@ msgid "comment karma"
 msgstr "karma comentariului"
 
 #: r2/templates/profilebar.html:88
-msgid "really obscure karma from before it was cool to track per-subtippr"
-msgstr "karma foarte obscura de dinainte a fost interesant de urmarit per-subtippr"
+msgid "really obscure karma from before it was cool to track per-vault"
+msgstr "karma foarte obscura de dinainte a fost interesant de urmarit per-vault"
 
 #: r2/templates/profilebar.html:114
 msgid "View/edit my snoovatar"
@@ -10141,11 +10141,11 @@ msgid "collections"
 msgstr ""
 
 #: r2/templates/promotelinkbase.html:900
-msgid "targets a collection of similar subtipprs"
-msgstr "destinat unei colecții de subtippre similare"
+msgid "targets a collection of similar vaults"
+msgstr "destinat unei colecții de vaulte similare"
 
 #: r2/templates/promotelinkbase.html:913
-msgid "targets a subtippr and its users"
+msgid "targets a vault and its users"
 msgstr ""
 
 #: r2/templates/promotelinkbase.html:924
@@ -10153,16 +10153,16 @@ msgid "interest topic"
 msgstr ""
 
 #: r2/templates/promotelinkbase.html:938
-msgid "subtippr collection"
+msgid "vault collection"
 msgstr ""
 
 #: r2/templates/promotelinkbase.html:947
-msgid "subtipprs included on the frontpage are based on users' subscriptions"
-msgstr "subtipprele incluse pe pagina principală sunt bazate pe abonamentele utilizatorilor"
+msgid "vaults included on the frontpage are based on users' subscriptions"
+msgstr "vaultele incluse pe pagina principală sunt bazate pe abonamentele utilizatorilor"
 
 #: r2/templates/promotelinkbase.html:950
-msgid "includes these subtipprs"
-msgstr "include aceste subtippre"
+msgid "includes these vaults"
+msgstr "include aceste vaulte"
 
 #: r2/templates/promotelinkbase.html:951
 msgid "and more!"
@@ -10189,8 +10189,8 @@ msgid "metro"
 msgstr "metrou"
 
 #: r2/templates/promotelinkbase.html:1000
-msgid "subtippr targeting"
-msgstr "ținta subtipprelor"
+msgid "vault targeting"
+msgstr "ținta vaultelor"
 
 #: r2/templates/promotelinkbase.html:1014
 msgid "link ids"
@@ -10491,7 +10491,7 @@ msgstr "gratuit"
 msgid "pay"
 msgstr "plătește"
 
-#: r2/templates/renderablecampaign.html:104 r2/templates/subtipprinfobar.html:79
+#: r2/templates/renderablecampaign.html:104 r2/templates/vaultinfobar.html:79
 #: r2/templates/userlisting.html:93 r2/templates/usertableitem.html:95
 msgid "change"
 msgstr "schimbă"
@@ -10623,8 +10623,8 @@ msgid "converted query to %(syntax)s syntax: %(converted)s"
 msgstr "cerinta convertita la sintaxa %(syntax)s: %(converted)s"
 
 #: r2/templates/searchform.html:35
-msgid "find submissions in \"subtippr\""
-msgstr "caută articole în „subtippr”"
+msgid "find submissions in \"vault\""
+msgstr "caută articole în „vault”"
 
 #: r2/templates/searchform.html:37
 msgid "find submissions by \"username\""
@@ -10655,8 +10655,8 @@ msgid "see the search faq for details."
 msgstr "vezi întrebarile frecvente legate de căutare pentru mai multe detalii."
 
 #: r2/templates/searchform.html:54
-msgid "advanced search: by author, subtippr..."
-msgstr "căutare avansată: după autor, subtippr..."
+msgid "advanced search: by author, vault..."
+msgstr "căutare avansată: după autor, vault..."
 
 #: r2/templates/searchform.html:67
 msgid "Search"
@@ -10680,24 +10680,24 @@ msgstr "la %s"
 msgid "less"
 msgstr "mai puține"
 
-#: r2/templates/searchresultsubtippr.html:64 r2/templates/subtippr.html:62
+#: r2/templates/searchresultvault.html:64 r2/templates/vault.html:62
 #, python-format
 msgid "a community for %(time)s"
 msgstr "o comunitate de %(time)s"
 
-#: r2/templates/searchresultsubtippr.html:81
+#: r2/templates/searchresultvault.html:81
 #, python-format
-msgid "search within %(subtippr)s"
-msgstr "caută în %(subtippr)s"
+msgid "search within %(vault)s"
+msgstr "caută în %(vault)s"
 
-#: r2/templates/searchresultsubtippr.html:85
+#: r2/templates/searchresultvault.html:85
 #, python-format
-msgid "search in %(subtippr)s"
-msgstr "caută în %(subtippr)s"
+msgid "search in %(vault)s"
+msgstr "caută în %(vault)s"
 
 #: r2/templates/seocommentspage.html:35
 #, python-format
-msgid "More from %(subtippr)s"
+msgid "More from %(vault)s"
 msgstr ""
 
 #: r2/templates/seocommentspage.html:39
@@ -10725,186 +10725,186 @@ msgid "note: you will only be eligible for a gilding trophy if this is set to \"
 msgstr "atenţie: vei putea auri un trofeu doar atunci când această opţiune e setată pe \"toată lumea\""
 
 #: r2/templates/sitewidetraffic.html:33
-msgid "top subtipprs"
-msgstr "cele mai bune subtippre"
+msgid "top vaults"
+msgstr "cele mai bune vaulte"
 
-#: r2/templates/sitewidetraffic.html:33 r2/templates/subtipprtrafficreport.html:33
+#: r2/templates/sitewidetraffic.html:33 r2/templates/vaulttrafficreport.html:33
 msgid "make report"
 msgstr "raportează"
 
-#: r2/templates/subtippr.html:82
+#: r2/templates/vault.html:82
 msgid "not approved"
 msgstr "neaprobat"
 
-#: r2/templates/subtippr.html:95 r2/templates/utils.html:793
+#: r2/templates/vault.html:95 r2/templates/utils.html:793
 msgid "NSFW"
 msgstr "XXX"
 
-#: r2/templates/subtippr.xml:48
+#: r2/templates/vault.xml:48
 msgid "[link]"
 msgstr ""
 
-#: r2/templates/subtipprfacets.html:29
-msgid "too many results? narrow it down to a subtippr!"
-msgstr "prea multe rezultate? restrânge la un subtippr!"
+#: r2/templates/vaultfacets.html:29
+msgid "too many results? narrow it down to a vault!"
+msgstr "prea multe rezultate? restrânge la un vault!"
 
-#: r2/templates/subtipprinfobar.html:43
+#: r2/templates/vaultinfobar.html:43
 #, python-format
 msgid "This community is [quarantined](%(link)s) because of its shocking or highly offensive content."
 msgstr ""
 
-#: r2/templates/subtipprinfobar.html:50
+#: r2/templates/vaultinfobar.html:50
 msgid "Leave this community"
 msgstr "Părăsește această comunitate"
 
-#: r2/templates/subtipprinfobar.html:61
-msgid "logged-in users viewing this subtippr in the past 15 minutes"
-msgstr "utilizatori inregistrati care au vizualizat acest subtippr in ultimele 15 minute"
+#: r2/templates/vaultinfobar.html:61
+msgid "logged-in users viewing this vault in the past 15 minutes"
+msgstr "utilizatori inregistrati care au vizualizat acest vault in ultimele 15 minute"
 
-#: r2/templates/subtipprinfobar.html:67
-msgid "logged-out users viewing this subtippr in the past 15 minutes"
+#: r2/templates/vaultinfobar.html:67
+msgid "logged-out users viewing this vault in the past 15 minutes"
 msgstr ""
 
-#: r2/templates/subtipprinfobar.html:87
+#: r2/templates/vaultinfobar.html:87
 msgid "you are no longer an approved submitter"
 msgstr "nu mai ești redactor"
 
-#: r2/templates/subtipprinfobar.html:88
+#: r2/templates/vaultinfobar.html:88
 msgid "stop being an approved submitter?"
 msgstr "nu mai vrei să fii redactor?"
 
-#: r2/templates/subtipprinfobar.html:89
+#: r2/templates/vaultinfobar.html:89
 #, python-format
-msgid "you are an approved submitter on this subtippr. (%(leave)s)"
-msgstr "ești un redactor aprobat al acestui subtippr. (%(leave)s)"
+msgid "you are an approved submitter on this vault. (%(leave)s)"
+msgstr "ești un redactor aprobat al acestui vault. (%(leave)s)"
 
-#: r2/templates/subtipprinfobar.html:103
-msgid "Show this subtippr's theme"
-msgstr "Arată modelul acestui subtippr"
+#: r2/templates/vaultinfobar.html:103
+msgid "Show this vault's theme"
+msgstr "Arată modelul acestui vault"
 
-#: r2/templates/subtipprinfobar.html:123
+#: r2/templates/vaultinfobar.html:123
 msgid "a community for"
 msgstr "o comunitate pentru"
 
-#: r2/templates/subtipprinfobar.html:137
-msgid "approve this subtippr"
-msgstr "aprobă acest subtippr"
+#: r2/templates/vaultinfobar.html:137
+msgid "approve this vault"
+msgstr "aprobă acest vault"
 
-#: r2/templates/subtipprinfobar.html:167
-msgid "ban this subtippr"
-msgstr "banează acest subtippr"
+#: r2/templates/vaultinfobar.html:167
+msgid "ban this vault"
+msgstr "banează acest vault"
 
-#: r2/templates/subtipprreportform.html:32
-#: r2/templates/subtipprreportform.html:33
+#: r2/templates/vaultreportform.html:32
+#: r2/templates/vaultreportform.html:33
 msgid "View the community rules"
 msgstr ""
 
-#: r2/templates/subtipprreportform.html:78
+#: r2/templates/vaultreportform.html:78
 #, python-format
 msgid "Tippr rule: %(rule_name)s"
 msgstr ""
 
-#: r2/templates/subtipprreportform.html:87
-#: r2/templates/subtipprreportform.html:106
+#: r2/templates/vaultreportform.html:87
+#: r2/templates/vaultreportform.html:106
 msgid "Reports go to community moderators anonymously"
 msgstr ""
 
-#: r2/templates/subtipprreportform.html:108
+#: r2/templates/vaultreportform.html:108
 msgid "Reports go to Tippr admins"
 msgstr ""
 
-#: r2/templates/subtipprreportform.html:122
+#: r2/templates/vaultreportform.html:122
 #, python-format
 msgid "Other (max %(num)s characters):"
 msgstr ""
 
-#: r2/templates/subtipprselector.html:61
+#: r2/templates/vaultselector.html:61
 msgid "Type in a community and hit \"Enter.\" Press backspace to delete"
 msgstr ""
 
-#: r2/templates/subtipprstylesheet.html:56 r2/templates/wikieditpage.html:49
+#: r2/templates/vaultstylesheet.html:56 r2/templates/wikieditpage.html:49
 msgid "reason for revision"
 msgstr "motivul reviziei"
 
-#: r2/templates/subtipprstylesheet.html:59
+#: r2/templates/vaultstylesheet.html:59
 msgid "see previous versions"
 msgstr "vezi versiunile precedente"
 
-#: r2/templates/subtipprstylesheet.html:72
-#: r2/templates/subtipprstylesheet.html:87
+#: r2/templates/vaultstylesheet.html:72
+#: r2/templates/vaultstylesheet.html:87
 msgid "preview"
 msgstr "previzualizează"
 
-#: r2/templates/subtipprstylesheet.html:90
+#: r2/templates/vaultstylesheet.html:90
 msgid "normal link"
 msgstr "link normal"
 
-#: r2/templates/subtipprstylesheet.html:94
+#: r2/templates/vaultstylesheet.html:94
 msgid "compressed link"
 msgstr "link comprimat"
 
-#: r2/templates/subtipprstylesheet.html:98
+#: r2/templates/vaultstylesheet.html:98
 msgid "link with thumbnail"
 msgstr "link cu pictogramă"
 
-#: r2/templates/subtipprstylesheet.html:102
+#: r2/templates/vaultstylesheet.html:102
 msgid "stickied link"
 msgstr "link fixat"
 
-#: r2/templates/subtipprstylesheet.html:110
+#: r2/templates/vaultstylesheet.html:110
 msgid "gilded comment"
 msgstr "comentariu aurit"
 
-#: r2/templates/subtipprstylesheet.html:118
-#: r2/templates/subtipprstylesheetsource.html:43
+#: r2/templates/vaultstylesheet.html:118
+#: r2/templates/vaultstylesheetsource.html:43
 msgid "images"
 msgstr "imagini"
 
-#: r2/templates/subtipprstylesheet.html:122
+#: r2/templates/vaultstylesheet.html:122
 msgid "image file"
 msgstr "fișierul imaginii"
 
-#: r2/templates/subtipprstylesheet.html:125
+#: r2/templates/vaultstylesheet.html:125
 msgid "new image name:"
 msgstr "numele noii imagini:"
 
-#: r2/templates/subtipprstylesheet.html:130
+#: r2/templates/vaultstylesheet.html:130
 msgid "(image names should consist of alphanumeric characters and '-' only)"
 msgstr "(numele imaginilor ar trebuie să fie constituite doar din caractere alfanumerice și '-')"
 
-#: r2/templates/subtipprstylesheet.html:134
+#: r2/templates/vaultstylesheet.html:134
 msgid "Note: any changes to images here will be reflected immediately on reload and cannot be undone."
 msgstr "Notă: orice modificare a imaginilor de aici se va reflecta imediat la reîncărcare și nu va putea fi refăcută."
 
-#: r2/templates/subtipprstylesheetbase.html:42
+#: r2/templates/vaultstylesheetbase.html:42
 msgid "paste into stylesheet"
 msgstr "lipește în foaia de stil"
 
-#: r2/templates/subtipprstylesheetbase.html:45
+#: r2/templates/vaultstylesheetbase.html:45
 msgid "delete this image"
 msgstr "șterge această imagine"
 
-#: r2/templates/subtipprstylesheetbase.html:77
+#: r2/templates/vaultstylesheetbase.html:77
 msgid "undelete this image"
 msgstr ""
 
-#: r2/templates/subtipprstylesheetbase.html:77
+#: r2/templates/vaultstylesheetbase.html:77
 msgid "undeleted"
 msgstr ""
 
-#: r2/templates/subtipprtraffic.html:34
+#: r2/templates/vaulttraffic.html:34
 msgid "All times are in [UTC](http://en.wikipedia.org/wiki/UTC)."
 msgstr "Toate orele sunt în [UTC](http://en.wikipedia.org/wiki/UTC)."
 
-#: r2/templates/subtipprtrafficreport.html:29
-msgid "Enter one subtippr per line. Traffic numbers shown are for the last full month."
-msgstr "Indroduceți un subtippr per linie. Numele de trafic arătate sunt pentru ultima lună."
+#: r2/templates/vaulttrafficreport.html:29
+msgid "Enter one vault per line. Traffic numbers shown are for the last full month."
+msgstr "Indroduceți un vault per linie. Numele de trafic arătate sunt pentru ultima lună."
 
-#: r2/templates/subtipprtrafficreport.html:39
-msgid "subtippr traffic"
-msgstr "traficul subtipprului"
+#: r2/templates/vaulttrafficreport.html:39
+msgid "vault traffic"
+msgstr "traficul vaultului"
 
-#: r2/templates/subtipprtrafficreport.html:63
+#: r2/templates/vaulttrafficreport.html:63
 msgid "not found"
 msgstr "nu a fost găsit"
 
@@ -10952,9 +10952,9 @@ msgstr "Dar daca tocmai ne-ati dat si mai multi bani, introduceti mai jos noul c
 msgid "claim"
 msgstr "revendică"
 
-#: r2/templates/trendingsubtipprsbar.html:31
-msgid "trending subtipprs"
-msgstr "subtippre populare"
+#: r2/templates/trendingvaultsbar.html:31
+msgid "trending vaults"
+msgstr "vaulte populare"
 
 #: r2/templates/trophycase.html:57
 msgid "dust"
@@ -11090,7 +11090,7 @@ msgid "Only trusted users."
 msgstr ""
 
 #: r2/templates/usermessagingprefs.html:24
-msgid "Admins and moderators of subtipprs you have participated in will always be able to message you."
+msgid "Admins and moderators of vaults you have participated in will always be able to message you."
 msgstr ""
 
 #: r2/templates/usermessagingprefs.html:31
@@ -11203,7 +11203,7 @@ msgid "Quarantined"
 msgstr "În carantină"
 
 #: r2/templates/utils.html:810
-msgid "Moderator of subtippr"
+msgid "Moderator of vault"
 msgstr ""
 
 #: r2/templates/utils.html:816
@@ -11368,8 +11368,8 @@ msgstr "trimite o discuție"
 
 #: r2/templates/wikipagenotfound.html:23
 #, python-format
-msgid "The page \"%s\" was not found in this subtippr."
-msgstr "Pagina \"%s\" nu a fost găsită în acest subtippr."
+msgid "The page \"%s\" was not found in this vault."
+msgstr "Pagina \"%s\" nu a fost găsită în acest vault."
 
 #: r2/templates/wikipagenotfound.html:24
 #, python-format
@@ -11385,8 +11385,8 @@ msgid "who can edit this page?"
 msgstr "cine poate edita această pagină?"
 
 #: r2/templates/wikipagesettings.html:40
-msgid "use subtippr wiki permissions"
-msgstr "folosește permisiunile wiki ale subtipprului"
+msgid "use vault wiki permissions"
+msgstr "folosește permisiunile wiki ale vaultului"
 
 #: r2/templates/wikipagesettings.html:45
 msgid "only approved wiki contributors for this page may edit"

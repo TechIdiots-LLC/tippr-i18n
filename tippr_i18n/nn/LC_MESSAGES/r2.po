@@ -27,7 +27,7 @@ msgstr "ugyldig farge"
 msgid "unknown or missing dressings"
 msgstr "ukjent eller manglende påkledninger"
 
-#: ../../gold/tippr_gold/controllers.py:40 r2/models/subtippr.py:331
+#: ../../gold/tippr_gold/controllers.py:40 r2/models/vault.py:331
 msgid "gold"
 msgstr "gull"
 
@@ -306,8 +306,8 @@ msgid "**comments can be posted on every story** on tippr. comments add informat
 msgstr "**kommentarer kan poster på alle saker** på tippr. kommentarer tilfører informasjon, sammenheng og humor."
 
 #: ../../about/tippr_about/templates/about.html:84
-msgid "**anyone can create a community** (called \"subtipprs\"). each subtippr is independent and moderated by a team of volunteers."
-msgstr "**alle kan opprette et samfunn** (kalt «subtipprer»). hver subtippr er uavhengig, og modereres av en gruppe frivillige."
+msgid "**anyone can create a community** (called \"vaults\"). each vault is independent and moderated by a team of volunteers."
+msgstr "**alle kan opprette et samfunn** (kalt «vaulter»). hver vault er uavhengig, og modereres av en gruppe frivillige."
 
 #: ../../about/tippr_about/templates/about.html:85
 msgid "**tippr is open source**. community members are constantly tinkering and contributing features, bug fixes, and translations back to the site."
@@ -471,8 +471,8 @@ msgstr "gildskapsfeil"
 #: r2/controllers/listingcontroller.py:1077 r2/lib/menus.py:179
 #: r2/public/static/js/tippr.js:272 r2/templates/deleteduserinterstitial.html:31
 #: r2/templates/printablebuttons.html:36 r2/templates/printablebuttons.html:572
-#: r2/templates/subtipprstylesheetbase.html:45
-#: r2/templates/subtipprstylesheetbase.html:72
+#: r2/templates/vaultstylesheetbase.html:45
+#: r2/templates/vaultstylesheetbase.html:72
 #: ../../liveupdate/tippr_liveupdate/public/static/js/liveupdate/listings.js:203
 msgid "deleted"
 msgstr "sletta"
@@ -662,16 +662,16 @@ msgid "show %d"
 msgstr "vis %d"
 
 #: r2/controllers/front.py:643 r2/controllers/front.py:645
-msgid "create a subtippr"
-msgstr "opprett ein subtippr"
+msgid "create a vault"
+msgstr "opprett ein vault"
 
 #: r2/controllers/front.py:751 r2/controllers/front.py:757
 #: r2/controllers/listingcontroller.py:886 r2/controllers/listingcontroller.py:901
 #: r2/controllers/listingcontroller.py:1215
 #: r2/controllers/listingcontroller.py:1226 r2/lib/menus.py:187 r2/lib/menus.py:441
 #: r2/lib/menus.py:696 r2/lib/pages/pages.py:5034 r2/lib/pages/pages.py:5043
-#: r2/templates/createsubtippr.html:273 r2/templates/createsubtippr.html:284
-#: r2/templates/createsubtippr.html:295
+#: r2/templates/createvault.html:273 r2/templates/createvault.html:284
+#: r2/templates/createvault.html:295
 msgid "all"
 msgstr "alle"
 
@@ -697,7 +697,7 @@ msgid "posts"
 msgstr "postar"
 
 #: r2/controllers/front.py:962 r2/controllers/listingcontroller.py:1803
-#: r2/lib/pages/pages.py:5916 r2/templates/createsubtippr.html:289
+#: r2/lib/pages/pages.py:5916 r2/templates/createvault.html:289
 #: r2/templates/link.xml:93
 msgid "comments"
 msgstr "innlegg"
@@ -720,7 +720,7 @@ msgstr ""
 
 #: r2/controllers/front.py:1056
 #, python-format
-msgid "Rules for r/%(subtippr)s"
+msgid "Rules for r/%(vault)s"
 msgstr ""
 
 #: r2/controllers/front.py:1094 r2/lib/menus.py:164
@@ -738,8 +738,8 @@ msgstr "søkjeresultat"
 #: r2/controllers/front.py:1319 r2/controllers/front.py:1328
 #: r2/controllers/listingcontroller.py:1564 r2/lib/menus.py:94
 #: r2/templates/pagenamenav.html:59 r2/templates/promotelinkbase.html:912
-msgid "subtipprs"
-msgstr "subtipprar"
+msgid "vaults"
+msgstr "vaultar"
 
 #: r2/controllers/front.py:1350
 #, python-format
@@ -750,11 +750,11 @@ msgstr ""
 msgid "seen it"
 msgstr "sett det"
 
-#: r2/controllers/front.py:1486 r2/models/subtippr.py:2537
+#: r2/controllers/front.py:1486 r2/models/vault.py:2537
 #: r2/templates/multiinfobar.html:34
 #, python-format
-msgid "%s subtipprs"
-msgstr "%s subtipprs"
+msgid "%s vaults"
+msgstr "%s vaults"
 
 #: r2/controllers/front.py:1509 r2/lib/menus.py:81
 #: r2/templates/accountrecovery.html:65 r2/templates/fraudform.html:42
@@ -1139,8 +1139,8 @@ msgid "you're really bored now, eh?"
 msgstr "du keiar deg skikkeleg no, ikkje sant?"
 
 #: r2/controllers/listingcontroller.py:894
-msgid "filter by subtippr"
-msgstr "filtrer etter subtippr"
+msgid "filter by vault"
+msgstr "filtrer etter vault"
 
 #: r2/controllers/listingcontroller.py:908
 msgid "filter by category"
@@ -1232,8 +1232,8 @@ msgid "messages"
 msgstr "meldingar"
 
 #: r2/controllers/listingcontroller.py:1707
-msgid "subtipprs: "
-msgstr "subtipprs: "
+msgid "vaults: "
+msgstr "vaults: "
 
 #: r2/controllers/listingcontroller.py:1851
 #: r2/controllers/listingcontroller.py:2015
@@ -1250,8 +1250,8 @@ msgstr "forgyllet"
 
 #: r2/controllers/listingcontroller.py:2192
 #, python-format
-msgid "gildings in this subtippr have paid for %(time)s of server time"
-msgstr "Forgylling i denne subtippren har betalt for %(time)s servertid"
+msgid "gildings in this vault have paid for %(time)s of server time"
+msgstr "Forgylling i denne vaulten har betalt for %(time)s servertid"
 
 #: r2/controllers/multi.py:324
 #, python-format
@@ -1290,7 +1290,7 @@ msgid "over 18?"
 msgstr "over 18?"
 
 #: r2/controllers/post.py:95 r2/templates/quarantineinterstitial.html:34
-#: r2/templates/subtippr.html:91
+#: r2/templates/vault.html:91
 msgid "quarantined"
 msgstr "karantene"
 
@@ -1410,7 +1410,7 @@ msgstr ""
 
 #: r2/controllers/tippr_base.py:1574 r2/lib/pages/pages.py:4556
 #: r2/models/modaction.py:113 r2/templates/bannedinterstitial.html:33
-#: r2/templates/subtippr.html:74 r2/templates/subtipprinfobar.html:168
+#: r2/templates/vault.html:74 r2/templates/vaultinfobar.html:168
 #: r2/templates/subscriptionbox.html:63
 msgid "banned"
 msgstr "bannlyst"
@@ -1419,9 +1419,9 @@ msgstr "bannlyst"
 msgid "gold members only"
 msgstr "kun for gull medlemmer"
 
-#: r2/controllers/tippr_base.py:1606 r2/templates/createsubtippr.html:141
+#: r2/controllers/tippr_base.py:1606 r2/templates/createvault.html:141
 #: r2/templates/multiinfobar.html:40 r2/templates/privateinterstitial.html:37
-#: r2/templates/searchresultsubtippr.html:98 r2/templates/subtippr.html:87
+#: r2/templates/searchresultvault.html:98 r2/templates/vault.html:87
 msgid "private"
 msgstr "privat"
 
@@ -1430,24 +1430,24 @@ msgid "search failed"
 msgstr "søk mislykka"
 
 #: r2/controllers/wiki.py:95
-msgid "This page is the subtippr stylesheet, changes here apply to the subtippr css"
-msgstr "Denne sida er stilarket for subtippren, og endringar vil bli lagra til CSS-fila. "
+msgid "This page is the vault stylesheet, changes here apply to the vault css"
+msgstr "Denne sida er stilarket for vaulten, og endringar vil bli lagra til CSS-fila. "
 
 #: r2/controllers/wiki.py:96
 msgid "The contents of this page appear on the submit page"
 msgstr "Innholdet på denne siden vises på siden for posting"
 
 #: r2/controllers/wiki.py:97
-msgid "The contents of this page appear on the subtippr sidebar"
-msgstr "Innhaldet i sida her vil hamne i sidefeltet til subtippren"
+msgid "The contents of this page appear on the vault sidebar"
+msgstr "Innhaldet i sida her vil hamne i sidefeltet til vaulten"
 
 #: r2/controllers/wiki.py:98
-msgid "The contents of this page appear in the public subtippr description and when the user does not have access to the subtippr"
-msgstr "Innholdet på denne siden vises til offentligheten i subtipprens beskrivelse og når brukere ikke har tilgang"
+msgid "The contents of this page appear in the public vault description and when the user does not have access to the vault"
+msgstr "Innholdet på denne siden vises til offentligheten i vaultens beskrivelse og når brukere ikke har tilgang"
 
 #: r2/controllers/wiki.py:99
-msgid "This page is used to configure AutoModerator for the subtippr, please see [the full documentation](/wiki/automoderator/full-documentation) for information"
-msgstr "Denne siden brukes til å konfigurere AutoModerator for subtippren, vennligst les [fullstendig dokumentasjon](/wiki/automoderator/full-documentation) for mer informasjon"
+msgid "This page is used to configure AutoModerator for the vault, please see [the full documentation](/wiki/automoderator/full-documentation) for information"
+msgstr "Denne siden brukes til å konfigurere AutoModerator for vaulten, vennligst les [fullstendig dokumentasjon](/wiki/automoderator/full-documentation) for mer informasjon"
 
 #: r2/controllers/wiki.py:165
 #, python-format
@@ -1476,8 +1476,8 @@ msgid "this wiki cannot handle page names of that magnitude!  please select a pa
 msgstr "wikien klarer ikkje å handtere sidenamn av den storleiken!  vel eit sidenamn kortare enn %d teikn"
 
 #: r2/controllers/wiki.py:223
-msgid "this page is a special page, please go into the subtippr settings and save the field once to create this special page"
-msgstr "det her er ei spesiell side. gå inn på innstillingane for subtippren og lagre feltet for å opprette denne sida"
+msgid "this page is a special page, please go into the vault settings and save the field once to create this special page"
+msgstr "det her er ei spesiell side. gå inn på innstillingane for vaulten og lagre feltet for å opprette denne sida"
 
 #: r2/controllers/wiki.py:225
 #, python-format
@@ -1755,39 +1755,39 @@ msgid "that link has already been submitted"
 msgstr "den lenkja er allereie sendt inn"
 
 #: r2/lib/errors.py:79
-msgid "that subtippr already exists"
-msgstr "Denne subtippren eksisterer allereie"
+msgid "that vault already exists"
+msgstr "Denne vaulten eksisterer allereie"
 
 #: r2/lib/errors.py:80
-msgid "that subtippr doesn't exist"
-msgstr "denne subtippren eksisterer ikkje"
+msgid "that vault doesn't exist"
+msgstr "denne vaulten eksisterer ikkje"
 
 #: r2/lib/errors.py:81
 msgid "you aren't allowed to post there."
 msgstr "du har ikkje lov til å poste der."
 
 #: r2/lib/errors.py:83
-msgid "Image submissions aren't allowed in this subtippr"
+msgid "Image submissions aren't allowed in this vault"
 msgstr ""
 
 #: r2/lib/errors.py:84
-msgid "you aren't allowed access to this subtippr"
-msgstr "du har ikke tilgang til denne subtippren"
+msgid "you aren't allowed access to this vault"
+msgstr "du har ikke tilgang til denne vaulten"
 
 #: r2/lib/errors.py:85
-msgid "you must specify a subtippr"
-msgstr "du må spesifisere ein subtippr"
+msgid "you must specify a vault"
+msgstr "du må spesifisere ein vault"
 
 #: r2/lib/errors.py:86
-msgid "this subtippr has chosen to disable their ads at this time"
-msgstr "denne subtippren har valgt å skru av annonsering for nå"
+msgid "this vault has chosen to disable their ads at this time"
+msgstr "denne vaulten har valgt å skru av annonsering for nå"
 
 #: r2/lib/errors.py:87
 msgid "this link already has a promoted post"
 msgstr ""
 
 #: r2/lib/errors.py:88
-msgid "that subtippr is private"
+msgid "that vault is private"
 msgstr ""
 
 #: r2/lib/errors.py:89 r2/lib/validator/validator.py:3285
@@ -1795,7 +1795,7 @@ msgid "that name isn't going to work"
 msgstr "det namnet der kjem ikkje til å fungere"
 
 #: r2/lib/errors.py:90
-msgid "that subtippr can't be used as a theme"
+msgid "that vault can't be used as a theme"
 msgstr ""
 
 #: r2/lib/errors.py:91
@@ -1811,7 +1811,7 @@ msgid "that target type is not valid"
 msgstr "Den måltypen er ikke gyldig"
 
 #: r2/lib/errors.py:94
-msgid "targeting too many subtipprs"
+msgid "targeting too many vaults"
 msgstr ""
 
 #: r2/lib/errors.py:95
@@ -1871,8 +1871,8 @@ msgstr "Mailen kunne ikke legges til. Sjekk mailen din for eksisterende bekrefte
 
 #: r2/lib/errors.py:111
 #, python-format
-msgid "that subtippr has already been oversold on %(start)s to %(end)s. Please pick another subtippr or date."
-msgstr "den subtippren har allereie vorte oversolgt på %(start)s til %(end)s. Vennligst vel ei anna subtippr eller dato."
+msgid "that vault has already been oversold on %(start)s to %(end)s. Please pick another vault or date."
+msgstr "den vaulten har allereie vorte oversolgt på %(start)s til %(end)s. Vennligst vel ei anna vault eller dato."
 
 #: r2/lib/errors.py:112
 #, python-format
@@ -1938,12 +1938,12 @@ msgid "that code has already been claimed -- perhaps by you?"
 msgstr "den koden er allereie tinga -- kanskje av deg?"
 
 #: r2/lib/errors.py:126
-msgid "that subtippr doesn't allow text posts"
-msgstr "den subtippren tillater ikke tekstposter"
+msgid "that vault doesn't allow text posts"
+msgstr "den vaulten tillater ikke tekstposter"
 
 #: r2/lib/errors.py:127
-msgid "that subtippr only allows text posts"
-msgstr "den subtippren tillater kun tekstposter"
+msgid "that vault only allows text posts"
+msgstr "den vaulten tillater kun tekstposter"
 
 #: r2/lib/errors.py:128
 msgid "that's a piece of history now; it's too late to reply to it"
@@ -2059,8 +2059,8 @@ msgid "You can't perform that action because that user is a moderator."
 msgstr "Du kan ikke utføre handlingen før brukeren er moderator."
 
 #: r2/lib/errors.py:159
-msgid "there is no pending invite for that subtippr"
-msgstr "det er inga ventande invitasjon for den subtippren"
+msgid "there is no pending invite for that vault"
+msgstr "det er inga ventande invitasjon for den vaulten"
 
 #: r2/lib/errors.py:160
 msgid "you cannot edit the budget of a live ad"
@@ -2104,18 +2104,18 @@ msgid "you can't change that multitippr"
 msgstr "du kan ikke forandre den multitippren"
 
 #: r2/lib/errors.py:170
-msgid "no more space for subtipprs in that multitippr"
-msgstr "den multitippren har ikke noe mer plass for subtipprer"
+msgid "no more space for vaults in that multitippr"
+msgstr "den multitippren har ikke noe mer plass for vaulter"
 
 #: r2/lib/errors.py:171
 #, python-format
-msgid "can't add special subtippr %(path)s"
-msgstr "kan ikke legge til spesiell subtippr %(path)s"
+msgid "can't add special vault %(path)s"
+msgstr "kan ikke legge til spesiell vault %(path)s"
 
 #: r2/lib/errors.py:172
 #, python-format
-msgid "maximum %(max)s subtipprs"
-msgstr "maks antall %(max)s subtipprer"
+msgid "maximum %(max)s vaults"
+msgstr "maks antall %(max)s vaulter"
 
 #: r2/lib/errors.py:173
 msgid "unable to parse JSON data"
@@ -2148,8 +2148,8 @@ msgid "frequency cap must be at least %(min)d"
 msgstr ""
 
 #: r2/lib/errors.py:180
-msgid "that user is banned from the subtippr"
-msgstr "den brukeren er utestengt fra denne subtippren"
+msgid "that user is banned from the vault"
+msgstr "den brukeren er utestengt fra denne vaulten"
 
 #: r2/lib/errors.py:181
 msgid "You can't do that while suspended."
@@ -2168,16 +2168,16 @@ msgid "insufficient ctipprs"
 msgstr "utilstrekkelige ctipprs"
 
 #: r2/lib/errors.py:185
-msgid "gilding is not allowed in this subtippr"
-msgstr "det er ikke lov å gi gull i denne subtippren"
+msgid "gilding is not allowed in this vault"
+msgstr "det er ikke lov å gi gull i denne vaulten"
 
 #: r2/lib/errors.py:186
 msgid "unable to scrape provided url"
 msgstr "kunne ikke skrape angitt URL"
 
 #: r2/lib/errors.py:187
-msgid "can't send a message from a subtippr to another subtippr"
-msgstr "Kan ikke sende melding fra et subtippr til et annet subtippr"
+msgid "can't send a message from a vault to another vault"
+msgstr "Kan ikke sende melding fra et vault til et annet vault"
 
 #: r2/lib/errors.py:188
 msgid "can't send message to that user"
@@ -2189,15 +2189,15 @@ msgstr "du må være administrator for dette"
 
 #: r2/lib/errors.py:190
 #, python-format
-msgid "to convert an existing subtippr to gold only, send a message to %(admin_modmail)s"
-msgstr "for å endre en eksisterende subtippr til kun gullbrukere, send em melding til %(admin_modmail)s"
+msgid "to convert an existing vault to gold only, send a message to %(admin_modmail)s"
+msgstr "for å endre en eksisterende vault til kun gullbrukere, send em melding til %(admin_modmail)s"
 
 #: r2/lib/errors.py:192
-msgid "this subtippr must be 'gold only' to select this"
-msgstr "denne subtippren må være satt til 'kun for gullbrukere' for å velge dette"
+msgid "this vault must be 'gold only' to select this"
+msgstr "denne vaulten må være satt til 'kun for gullbrukere' for å velge dette"
 
 #: r2/lib/errors.py:193
-msgid "your account is too new or you do not have enough karma to create a subtippr. please contact the admins to request an exemption."
+msgid "your account is too new or you do not have enough karma to create a vault. please contact the admins to request an exemption."
 msgstr ""
 
 #: r2/lib/errors.py:194
@@ -2209,23 +2209,23 @@ msgid "you must select at least one device per OS to target"
 msgstr "du må velge minst én enhet per plattform"
 
 #: r2/lib/errors.py:196
-msgid "You have been muted from this subtippr."
-msgstr "Du har blitt dempet i denne subtippren."
+msgid "You have been muted from this vault."
+msgstr "Du har blitt dempet i denne vaulten."
 
 #: r2/lib/errors.py:197
-msgid "This user has been muted from the subtippr."
-msgstr "Brukere har blitt dempet fra subtippren."
+msgid "This user has been muted from the vault."
+msgstr "Brukere har blitt dempet fra vaulten."
 
 #: r2/lib/errors.py:198 r2/public/static/js/errors.js:7
-msgid "A subtippr rule by that name already exists."
+msgid "A vault rule by that name already exists."
 msgstr ""
 
 #: r2/lib/errors.py:199
-msgid "No subtippr rule by that name exists."
+msgid "No vault rule by that name exists."
 msgstr ""
 
 #: r2/lib/errors.py:200 r2/public/static/js/errors.js:8
-msgid "This subtippr already has the maximum number of rules."
+msgid "This vault already has the maximum number of rules."
 msgstr ""
 
 #: r2/lib/errors.py:201
@@ -2253,7 +2253,7 @@ msgid "Invalid conversation id."
 msgstr ""
 
 #: r2/lib/errors.py:207
-msgid "The subtippr does not have this feature enabled."
+msgid "The vault does not have this feature enabled."
 msgstr ""
 
 #: r2/lib/errors.py:208
@@ -2277,7 +2277,7 @@ msgid "You do not have the correct moderator permissions."
 msgstr ""
 
 #: r2/lib/errors.py:213
-msgid "The requested subtippr was not found."
+msgid "The requested vault was not found."
 msgstr ""
 
 #: r2/lib/errors.py:215
@@ -2642,7 +2642,7 @@ msgid "preferences"
 msgstr "innstillingar"
 
 #: r2/lib/menus.py:82 r2/lib/permissions.py:97
-#: r2/templates/createsubtippr.html:223
+#: r2/templates/createvault.html:223
 msgid "wiki"
 msgstr "wiki"
 
@@ -2763,7 +2763,7 @@ msgid "traffic stats"
 msgstr "trafikktal"
 
 #: r2/lib/menus.py:126 r2/models/modaction.py:186
-#: r2/templates/subtipprstylesheet.html:43
+#: r2/templates/vaultstylesheet.html:43
 msgid "stylesheet"
 msgstr "stilark"
 
@@ -2780,8 +2780,8 @@ msgid "edit subscriptions"
 msgstr "endre tingingar"
 
 #: r2/lib/menus.py:132 r2/lib/pages/pages.py:2668
-msgid "subtippr settings"
-msgstr "subtipprinstillingar"
+msgid "vault settings"
+msgstr "vaultinstillingar"
 
 #: r2/lib/menus.py:133
 msgid "edit stylesheet"
@@ -2864,15 +2864,15 @@ msgid "popular"
 msgstr "populær"
 
 #: r2/lib/menus.py:157 r2/public/static/js/sponsored.js:88
-#: r2/public/static/js/sponsored.js:98 r2/templates/createsubtippr.html:721
+#: r2/public/static/js/sponsored.js:98 r2/templates/createvault.html:721
 #: r2/templates/listingchooser.html:62
 #: ../../liveupdate/tippr_liveupdate/templates/liveupdatecreate.html:6
 msgid "create"
 msgstr "lag ny"
 
 #: r2/lib/menus.py:158 r2/lib/pages/pages.py:3316
-msgid "my subtipprs"
-msgstr "mine subtipprer"
+msgid "my vaults"
+msgstr "mine vaulter"
 
 #: r2/lib/menus.py:159
 msgid "quarantine"
@@ -2886,7 +2886,7 @@ msgstr ""
 msgid "help translate"
 msgstr "hjelp til med å setje om"
 
-#: r2/lib/menus.py:163 r2/templates/subtipprstylesheet.html:78
+#: r2/lib/menus.py:163 r2/templates/vaultstylesheet.html:78
 msgid "errors"
 msgstr "feil"
 
@@ -3035,7 +3035,7 @@ msgstr "mod"
 msgid "front"
 msgstr "fram"
 
-#. TRANSLATORS: Gold feature, "myrandom", a random subtippr from your
+#. TRANSLATORS: Gold feature, "myrandom", a random vault from your
 #. subscriptions
 #: r2/lib/menus.py:444
 msgid "myrandom"
@@ -3119,7 +3119,7 @@ msgstr "oppdagelse"
 
 #: r2/lib/recommender.py:58 r2/lib/strings.py:266 r2/lib/strings.py:271
 #: r2/lib/template_helpers.py:463 r2/templates/searchresultlink.html:97
-#: r2/templates/subtipprstylesheet.html:106
+#: r2/templates/vaultstylesheet.html:106
 #: ../../liveupdate/tippr_liveupdate/pages.py:505
 msgid "comment"
 msgid_plural "comments"
@@ -3162,8 +3162,8 @@ msgstr "den lenkja har allereie vorte posta, men du kan prøve å [sende ho inn 
 
 #: r2/lib/strings.py:75
 #, python-format
-msgid "that link has been submitted to multiple subtipprs. you can try to [submit it again](%s)."
-msgstr "den linken er allerede innsendt til flere subtipprer. du kan prøve å [sende den inn igjen](%s)."
+msgid "that link has been submitted to multiple vaults. you can try to [submit it again](%s)."
+msgstr "den linken er allerede innsendt til flere vaulter. du kan prøve å [sende den inn igjen](%s)."
 
 #: r2/lib/strings.py:77
 msgid "your account has been deactivated, but we won't judge you for it."
@@ -3185,8 +3185,8 @@ msgid "to view tippr with only submissions from your friends, use [tippr.com/r/f
 msgstr "vitj [tippr.com/r/friends](%s) for å sjå innlegg frå berre venene dine"
 
 #: r2/lib/strings.py:86
-msgid "your subtippr has been created"
-msgstr "subtippren din har blitt opprettet"
+msgid "your vault has been created"
+msgstr "vaulten din har blitt opprettet"
 
 #: r2/lib/strings.py:88
 #, python-format
@@ -3194,29 +3194,29 @@ msgid "visit [%(link)s](%(link)s) for more information"
 msgstr "vitj [%(link)s](%(link)s) for meir informasjon"
 
 #: r2/lib/strings.py:91
-msgid "you have not subscribed to any subtipprs."
-msgstr "du har ikke abonnert på noen subtipprer."
+msgid "you have not subscribed to any vaults."
+msgstr "du har ikke abonnert på noen vaulter."
 
 #: r2/lib/strings.py:92
-msgid "below are the subtipprs you have subscribed to."
-msgstr "nedenfor er subtipprene du abonnerer på."
+msgid "below are the vaults you have subscribed to."
+msgstr "nedenfor er vaultene du abonnerer på."
 
 #: r2/lib/strings.py:93
-msgid "below are the subtipprs that you are an approved submitter on."
-msgstr "nedenfor er de subtipprene som du er en godkjent innsender på."
+msgid "below are the vaults that you are an approved submitter on."
+msgstr "nedenfor er de vaultene som du er en godkjent innsender på."
 
 #: r2/lib/strings.py:94
-msgid "below are the subtipprs that you have moderator access to."
-msgstr "nedenfor er de subtipprene du har moderatortilgang til."
+msgid "below are the vaults that you have moderator access to."
+msgstr "nedenfor er de vaultene du har moderatortilgang til."
 
 #: r2/lib/strings.py:97
-msgid "click the `subscribe` or `unsubscribe` buttons to choose which subtipprs appear on your front page."
-msgstr "klikk på `abonner` eller `opphev abonnement` knappene for å velge hvilke subtipprer som vises på forsiden din."
+msgid "click the `subscribe` or `unsubscribe` buttons to choose which vaults appear on your front page."
+msgstr "klikk på `abonner` eller `opphev abonnement` knappene for å velge hvilke vaulter som vises på forsiden din."
 
 #: r2/lib/strings.py:99
 #, python-format
-msgid "you're searching within the [%(tippr_name)s](%(tippr_link)s) subtippr. you can also search within [all subtipprs](%(all_tipprs_link)s)"
-msgstr "du søker innen følgende [%(tippr_name)s](%(tippr_link)s) subtippr. du kan også søke innen [alle subtipprer](%(all_tipprs_link)s)"
+msgid "you're searching within the [%(tippr_name)s](%(tippr_link)s) vault. you can also search within [all vaults](%(all_tipprs_link)s)"
+msgstr "du søker innen følgende [%(tippr_name)s](%(tippr_link)s) vault. du kan også søke innen [alle vaulter](%(all_tipprs_link)s)"
 
 #: r2/lib/strings.py:102
 #, python-format
@@ -3457,33 +3457,33 @@ msgstr "Spørsmål? Send e-post til vår selvbetjeningssupport: %(email)s"
 #: r2/lib/strings.py:174
 #, python-format
 msgid "\n"
-"Below are the traffic statistics for your subtippr. Each graph represents one of the following over the interval specified.\n\n"
-"* **pageviews** are all hits to %(subtippr)s, including both listing pages and comment pages.\n"
+"Below are the traffic statistics for your vault. Each graph represents one of the following over the interval specified.\n\n"
+"* **pageviews** are all hits to %(vault)s, including both listing pages and comment pages.\n"
 "* **uniques** are the total number of unique visitors (determined by a combination of their IP address and User Agent string) that generate the above pageviews. This is independent of whether or not they are signed in.\n"
 "* **subscriptions** is the number of new subscriptions that have been generated in a given day. This number is less accurate than the first two metrics, as, though we can track new subscriptions, we have no way to track unsubscriptions.\n\n"
-"Note: there are a couple of places outside of your subtippr where someone can click \"subscribe\", so it is possible (though unlikely) that the subscription count can exceed the unique count on a given day.\n"
+"Note: there are a couple of places outside of your vault where someone can click \"subscribe\", so it is possible (though unlikely) that the subscription count can exceed the unique count on a given day.\n"
 msgstr "\n"
-"Nedenfor er trafikkstatistikken for din subtippr. Hver graf representerer en av de følgende over det spesifiserte intervallet.\n\n"
-"* **sidevisninger** er alle besøk til %(subtippr)s, inkludert hovedlisten og kommentarer.\n"
+"Nedenfor er trafikkstatistikken for din vault. Hver graf representerer en av de følgende over det spesifiserte intervallet.\n\n"
+"* **sidevisninger** er alle besøk til %(vault)s, inkludert hovedlisten og kommentarer.\n"
 "* **unike** er det totale antallet unike besøkende (bestemt av en kombinasjon av deres IP-adresse og nettleseridentifikasjon) som genererer sidevisningene nevnt ovenfor. Dette er uavhengig av om brukeren er innlogget eller ikke.\n"
 "* **abonnement** er antallet nye abonnementer som har blitt generert i løpet av en gitt dag. Dette er ikke like nøyaktig som de to statistikkene ovenfor, ettersom vi kan spore nye abonnementer, men ikke avslutninger av abonnement.\n\n"
-"Merk: det er noen få plasser utenfor din subtippr hvor noen kan trykke på «abonner», så muligheten for at antall nye abonnementer overstiger antallet unike besøkende i løpet av en dag, (selv om den er lav) er tilstede.\n"
+"Merk: det er noen få plasser utenfor din vault hvor noen kan trykke på «abonner», så muligheten for at antall nye abonnementer overstiger antallet unike besøkende i løpet av en dag, (selv om den er lav) er tilstede.\n"
 
 #: r2/lib/strings.py:184
 msgid "multitippr of your subscriptions"
 msgstr "multitippr av tingingane dine"
 
 #: r2/lib/strings.py:185
-msgid "multitippr of subtipprs you moderate"
-msgstr "multitippr av subtipprane du modererer"
+msgid "multitippr of vaults you moderate"
+msgstr "multitippr av vaultane du modererer"
 
 #: r2/lib/strings.py:187
-msgid "/r/all displays content from all of tippr, including subtipprs you aren't subscribed to. Some subtipprs have chosen to exclude themselves from /r/all."
-msgstr "/r/all viser innhold fra hele tippr, inkludert subtipprer du ikke abonnerer på. Noen subtipprer har valgt å utelate seg selv fra /r/all."
+msgid "/r/all displays content from all of tippr, including vaults you aren't subscribed to. Some vaults have chosen to exclude themselves from /r/all."
+msgstr "/r/all viser innhold fra hele tippr, inkludert vaulter du ikke abonnerer på. Noen vaulter har valgt å utelate seg selv fra /r/all."
 
 #: r2/lib/strings.py:188
 #, python-format
-msgid "Displaying content from %(subtippr)s, except the following subtipprs:"
+msgid "Displaying content from %(vault)s, except the following vaults:"
 msgstr ""
 
 #: r2/lib/strings.py:189
@@ -3508,11 +3508,11 @@ msgstr[1] "lenkjer"
 #: r2/lib/strings.py:273 r2/lib/pages/admin_pages.py:99
 #: r2/lib/pages/trafficpages.py:969 r2/templates/allminusinfobar.html:35
 #: r2/templates/filteredinfobar.html:36 r2/templates/sitewidetraffic.html:36
-#: r2/templates/subtipprtrafficreport.html:42
-msgid "subtippr"
-msgid_plural "subtipprs"
-msgstr[0] "subtippr"
-msgstr[1] "subtipprar"
+#: r2/templates/vaulttrafficreport.html:42
+msgid "vault"
+msgid_plural "vaults"
+msgstr[0] "vault"
+msgstr[1] "vaultar"
 
 #: r2/lib/strings.py:274
 msgid "ctippr"
@@ -3526,19 +3526,19 @@ msgid_plural "readers"
 msgstr[0] "lesar"
 msgstr[1] "lesarar"
 
-#: r2/lib/strings.py:278 r2/templates/searchresultsubtippr.html:62
+#: r2/lib/strings.py:278 r2/templates/searchresultvault.html:62
 msgid "subscriber"
 msgid_plural "subscribers"
 msgstr[0] "tingar"
 msgstr[1] "tingarar"
 
-#: r2/lib/strings.py:279 r2/templates/subtippr.html:80
+#: r2/lib/strings.py:279 r2/templates/vault.html:80
 msgid "approved submitter"
 msgid_plural "approved submitters"
 msgstr[0] "godkjend innsendar"
 msgstr[1] "godkjende innsendarar"
 
-#: r2/lib/strings.py:280 r2/templates/subtippr.html:77
+#: r2/lib/strings.py:280 r2/templates/vault.html:77
 msgid "moderator"
 msgid_plural "moderators"
 msgstr[0] "moderator"
@@ -3708,15 +3708,15 @@ msgid "No notes for this IP address"
 msgstr "Ingen notater for denne IP-adressen"
 
 #: r2/lib/pages/admin_pages.py:92
-msgid "No notes for this subtippr"
-msgstr "Ingen notater for denne subtippr"
+msgid "No notes for this vault"
+msgstr "Ingen notater for denne vault"
 
 #: r2/lib/pages/admin_pages.py:93
 msgid "No notes for this user"
 msgstr "Ingen notater for denne brukeren"
 
 #: r2/lib/pages/admin_pages.py:97 r2/models/modaction.py:182
-#: r2/templates/createsubtippr.html:444
+#: r2/templates/createvault.html:444
 msgid "domain"
 msgstr "domene"
 
@@ -3742,12 +3742,12 @@ msgid "moderation tools"
 msgstr "modereringsverktøy"
 
 #: r2/lib/pages/pages.py:801
-msgid "these subtipprs"
-msgstr "dei subtipprane her"
+msgid "these vaults"
+msgstr "dei vaultane her"
 
 #: r2/lib/pages/pages.py:815
-msgid "this subtippr is archived and no longer accepting submissions."
-msgstr "den subtippren her er arkivert, og kan ikkje ta fleire bidrag"
+msgid "this vault is archived and no longer accepting submissions."
+msgstr "den vaulten her er arkivert, og kan ikkje ta fleire bidrag"
 
 #: r2/lib/pages/pages.py:817
 msgid "Submissions disabled"
@@ -3766,8 +3766,8 @@ msgid "Submissions restricted"
 msgstr "innlegg begrenset"
 
 #: r2/lib/pages/pages.py:923
-msgid "Create your own subtippr"
-msgstr "Opprett din egen subtippr"
+msgid "Create your own vault"
+msgstr "Opprett din egen vault"
 
 #: r2/lib/pages/pages.py:952
 #, python-format
@@ -3778,7 +3778,7 @@ msgstr "… og %d til"
 msgid "about moderation team"
 msgstr "om moderasjonslaget"
 
-#: r2/lib/pages/pages.py:959 r2/templates/createsubtippr.html:621
+#: r2/lib/pages/pages.py:959 r2/templates/createvault.html:621
 msgid "message the admins"
 msgstr "send melding til administratorene"
 
@@ -3865,15 +3865,15 @@ msgid "about %(site)s"
 msgstr "om %(site)s"
 
 #: r2/lib/pages/pages.py:2692
-msgid "search subtipprs by name"
-msgstr "søk subtipprar etter namn"
+msgid "search vaults by name"
+msgstr "søk vaultar etter namn"
 
 #: r2/lib/pages/pages.py:2736
 #, python-format
-msgid "your front page subtipprs (%s)"
-msgstr "dine forside subtipprer (%s)"
+msgid "your front page vaults (%s)"
+msgstr "dine forside vaulter (%s)"
 
-#: r2/lib/pages/pages.py:2824 r2/templates/createsubtippr.html:453
+#: r2/lib/pages/pages.py:2824 r2/templates/createvault.html:453
 msgid "what's this?"
 msgstr "kva er det her?"
 
@@ -3953,8 +3953,8 @@ msgid "where your votes shape what the world is talking about."
 msgstr "kor dine stemmer former kva verda snakkar om."
 
 #: r2/lib/pages/pages.py:3387 r2/lib/pages/pages.py:3511
-msgid "add subtippr"
-msgstr "legg til subtippr"
+msgid "add vault"
+msgstr "legg til vault"
 
 #: r2/lib/pages/pages.py:3425
 #, python-format
@@ -3968,8 +3968,8 @@ msgstr "%s synlege"
 
 #: r2/lib/pages/pages.py:3434
 #, python-format
-msgid "%(bonus)s bonus subtipprs"
-msgstr "%(bonus)s bonus subtipprer"
+msgid "%(bonus)s bonus vaults"
+msgstr "%(bonus)s bonus vaulter"
 
 #: r2/lib/pages/pages.py:3837
 #, python-format
@@ -4023,7 +4023,7 @@ msgstr "startdato"
 msgid "end date"
 msgstr "sluttdato"
 
-#: r2/lib/pages/pages.py:5911 r2/templates/createsubtippr.html:267
+#: r2/lib/pages/pages.py:5911 r2/templates/createvault.html:267
 msgid "links"
 msgstr "lenkjer"
 
@@ -4098,12 +4098,12 @@ msgid "frontpage impressions"
 msgstr "forsidevisninger"
 
 #: r2/lib/pages/pages.py:5937
-msgid "subtippr clicks"
-msgstr "subtipprklikk"
+msgid "vault clicks"
+msgstr "vaultklikk"
 
 #: r2/lib/pages/pages.py:5938
-msgid "subtippr impressions"
-msgstr "subtipprvisninger"
+msgid "vault impressions"
+msgstr "vaultvisninger"
 
 #: r2/lib/pages/pages.py:5938 r2/lib/pages/trafficpages.py:414
 msgid "total clicks"
@@ -4131,16 +4131,16 @@ msgid "everything"
 msgstr "alt"
 
 #: r2/lib/pages/pages.py:6288 r2/lib/pages/pages.py:6291
-msgid "from all subtipprs"
-msgstr "fra alle subtipprs"
+msgid "from all vaults"
+msgstr "fra alle vaults"
 
 #: r2/lib/pages/pages.py:6293
 msgid "moderating"
 msgstr "modererer"
 
 #: r2/lib/pages/pages.py:6294
-msgid "subtipprs you mod"
-msgstr "subtipprer du moderèrer"
+msgid "vaults you mod"
+msgstr "vaulter du moderèrer"
 
 #: r2/lib/pages/pages.py:6300
 msgid "gold perks"
@@ -4151,8 +4151,8 @@ msgid "explore multis"
 msgstr "utforsk multi-tipprer"
 
 #: r2/lib/pages/pages.py:6448
-msgid "your subscribed subtipprs"
-msgstr "dine abonnerte subtipprer"
+msgid "your subscribed vaults"
+msgstr "dine abonnerte vaulter"
 
 #: r2/lib/pages/pages.py:6561
 #, python-format
@@ -4172,7 +4172,7 @@ msgstr "unike etter %s"
 #: r2/lib/pages/trafficpages.py:140 r2/lib/pages/trafficpages.py:970
 #: r2/templates/adverttrafficsummary.html:35
 #: r2/templates/languagetrafficsummary.html:34 r2/templates/tipprtraffic.html:99
-#: r2/templates/sitewidetraffic.html:37 r2/templates/subtipprtrafficreport.html:43
+#: r2/templates/sitewidetraffic.html:37 r2/templates/vaulttrafficreport.html:43
 msgid "uniques"
 msgstr "unike"
 
@@ -4183,7 +4183,7 @@ msgstr "sidevisingar etter %s"
 
 #: r2/lib/pages/trafficpages.py:143 r2/lib/pages/trafficpages.py:971
 #: r2/templates/languagetrafficsummary.html:35 r2/templates/tipprtraffic.html:100
-#: r2/templates/sitewidetraffic.html:38 r2/templates/subtipprtrafficreport.html:44
+#: r2/templates/sitewidetraffic.html:38 r2/templates/vaulttrafficreport.html:44
 msgid "pageviews"
 msgstr "sidevisingar"
 
@@ -4288,8 +4288,8 @@ msgstr "denne sida er tom - rediger ho for å leggje til innhald"
 
 #: r2/lib/pages/wiki.py:168 r2/lib/pages/wiki.py:174
 #, python-format
-msgid "page %s does not exist in this subtippr"
-msgstr "sida %s finst ikkje i den her subtippren"
+msgid "page %s does not exist in this vault"
+msgstr "sida %s finst ikkje i den her vaulten"
 
 #: r2/lib/pages/wiki.py:182
 msgid "editing"
@@ -4314,8 +4314,8 @@ msgid "Viewing pages for /r/%s"
 msgstr "viser sider for /r/%s"
 
 #: r2/lib/pages/wiki.py:209
-msgid "Below is a list of pages in this wiki visible to you in this subtippr."
-msgstr "Nedanfor ser du ei liste med sider som er synlege for deg i den her subtippren."
+msgid "Below is a list of pages in this wiki visible to you in this vault."
+msgstr "Nedanfor ser du ei liste med sider som er synlege for deg i den her vaulten."
 
 #: r2/lib/pages/wiki.py:215
 #: ../../liveupdate/tippr_liveupdate/templates/liveupdateeventapp.html:53
@@ -4583,7 +4583,7 @@ msgstr ""
 
 #: r2/models/link.py:2060
 #, python-format
-msgid "%(link)s by %(author)s in %(subtippr)s"
+msgid "%(link)s by %(author)s in %(vault)s"
 msgstr ""
 
 #: r2/models/link.py:2087
@@ -4600,36 +4600,36 @@ msgstr "omtale av brukernavn"
 
 #: r2/models/link.py:2684 r2/models/link.py:2746
 #, python-format
-msgid "from %(author)s via %(subtippr)s sent %(when)s"
+msgid "from %(author)s via %(vault)s sent %(when)s"
 msgstr ""
 
 #: r2/models/link.py:2698
-msgid "[message from blocked subtippr]"
-msgstr "[beskjed fra blokkert subtippr]"
+msgid "[message from blocked vault]"
+msgstr "[beskjed fra blokkert vault]"
 
 #: r2/models/link.py:2718 r2/models/link.py:2724
 #, python-format
-msgid "subtippr message via %(subtippr)s sent %(when)s"
+msgid "vault message via %(vault)s sent %(when)s"
 msgstr ""
 
 #: r2/models/link.py:2728 r2/models/link.py:2751
 #, python-format
-msgid "to %(dest)s via %(subtippr)s sent %(when)s"
+msgid "to %(dest)s via %(vault)s sent %(when)s"
 msgstr ""
 
 #: r2/models/link.py:2732 r2/models/link.py:2757
 #, python-format
-msgid "from %(author)s via %(subtippr)s to %(dest)s sent %(when)s"
+msgid "from %(author)s via %(vault)s to %(dest)s sent %(when)s"
 msgstr ""
 
 #: r2/models/link.py:2749
 #, python-format
-msgid "to %(subtippr)s sent %(when)s"
+msgid "to %(vault)s sent %(when)s"
 msgstr ""
 
 #: r2/models/link.py:2754
 #, python-format
-msgid "from %(author)s to %(subtippr)s sent %(when)s"
+msgid "from %(author)s to %(vault)s sent %(when)s"
 msgstr ""
 
 #: r2/models/link.py:2773
@@ -4677,12 +4677,12 @@ msgstr "blokka brukarar"
 
 #: r2/models/listing.py:238
 #, python-format
-msgid "users banned from /r/%(subtippr)s"
-msgstr "brukere utestengt fra /r/%(subtippr)s"
+msgid "users banned from /r/%(vault)s"
+msgstr "brukere utestengt fra /r/%(vault)s"
 
 #: r2/models/listing.py:269
 #, python-format
-msgid "users muted from /r/%(subtippr)s"
+msgid "users muted from /r/%(vault)s"
 msgstr ""
 
 #: r2/models/listing.py:287
@@ -4691,13 +4691,13 @@ msgstr "utesteng wiki bidragsyter"
 
 #: r2/models/listing.py:291
 #, python-format
-msgid "wiki contibutors banned from /r/%(subtippr)s"
-msgstr "bidragsytere utestengt fra /r/%(subtippr)s"
+msgid "wiki contibutors banned from /r/%(vault)s"
+msgstr "bidragsytere utestengt fra /r/%(vault)s"
 
 #: r2/models/listing.py:299
 #, python-format
-msgid "approved submitters for /r/%(subtippr)s"
-msgstr "godkjente innsendere for /r/%(subtippr)s"
+msgid "approved submitters for /r/%(vault)s"
+msgstr "godkjente innsendere for /r/%(vault)s"
 
 #: r2/models/listing.py:304
 msgid "add approved submitter"
@@ -4705,8 +4705,8 @@ msgstr "legg til ein godkjend innsendar"
 
 #: r2/models/listing.py:311
 #, python-format
-msgid "approved wiki contributors for /r/%(subtippr)s"
-msgstr "godkjente bidragsytere for /r/%(subtippr)s"
+msgid "approved wiki contributors for /r/%(vault)s"
+msgstr "godkjente bidragsytere for /r/%(vault)s"
 
 #: r2/models/listing.py:316
 msgid "add approved wiki contributor"
@@ -4718,13 +4718,13 @@ msgstr "inviter moderator"
 
 #: r2/models/listing.py:321 r2/templates/modlisting.html:33
 #, python-format
-msgid "you are a moderator of this subtippr. %(action)s"
-msgstr "du er ein moderator for denne subtippren. %(action)s"
+msgid "you are a moderator of this vault. %(action)s"
+msgstr "du er ein moderator for denne vaulten. %(action)s"
 
 #: r2/models/listing.py:337
 #, python-format
-msgid "invited moderators for %(subtippr)s"
-msgstr "inviterte moderatorer for %(subtippr)s"
+msgid "invited moderators for %(vault)s"
+msgstr "inviterte moderatorer for %(vault)s"
 
 #: r2/models/listing.py:342
 msgid "force add moderator"
@@ -4732,8 +4732,8 @@ msgstr "legg til moderator ved tvang"
 
 #: r2/models/listing.py:358
 #, python-format
-msgid "moderators of /r/%(subtippr)s"
-msgstr "moderatorer av /r/%(subtippr)s"
+msgid "moderators of /r/%(vault)s"
+msgstr "moderatorer av /r/%(vault)s"
 
 #: r2/models/mail_queue.py:356
 #, python-format
@@ -5051,7 +5051,7 @@ msgstr "fjerna"
 
 #: r2/models/modaction.py:120 r2/models/modaction.py:122 r2/models/modaction.py:159
 #: r2/templates/printablebuttons.html:53 r2/templates/printablebuttons.html:267
-#: r2/templates/renderablecampaign.html:193 r2/templates/subtipprinfobar.html:138
+#: r2/templates/renderablecampaign.html:193 r2/templates/vaultinfobar.html:138
 msgid "approved"
 msgstr "godkjend"
 
@@ -5196,29 +5196,29 @@ msgstr "fjerna søppel"
 msgid "removed self"
 msgstr "fjerna sjølv"
 
-#: r2/models/modaction.py:167 r2/templates/createsubtippr.html:72
+#: r2/models/modaction.py:167 r2/templates/createvault.html:72
 #: r2/templates/newlink.html:208 r2/templates/newlink.html:232
 #: r2/templates/promotelinkbase.html:78
 #: ../../liveupdate/tippr_liveupdate/templates/liveupdateutils.html:25
 msgid "title"
 msgstr "tittel"
 
-#: r2/models/modaction.py:168 r2/templates/createsubtippr.html:86
+#: r2/models/modaction.py:168 r2/templates/createvault.html:86
 #: r2/templates/prefapps.html:147 r2/templates/prefapps.html:342
 #: ../../liveupdate/tippr_liveupdate/templates/liveupdateutils.html:31
 msgid "description"
 msgstr "skildring"
 
-#: r2/models/modaction.py:169 r2/templates/createsubtippr.html:103
+#: r2/models/modaction.py:169 r2/templates/createvault.html:103
 msgid "sidebar"
 msgstr "sidefelt"
 
-#: r2/models/modaction.py:170 r2/templates/createsubtippr.html:121
+#: r2/models/modaction.py:170 r2/templates/createvault.html:121
 #: r2/templates/languagetrafficsummary.html:33
 msgid "language"
 msgstr "språk"
 
-#: r2/models/modaction.py:171 r2/templates/createsubtippr.html:132
+#: r2/models/modaction.py:171 r2/templates/createvault.html:132
 msgid "type"
 msgstr "type"
 
@@ -5290,7 +5290,7 @@ msgstr "slett ikon bildet"
 msgid "delete banner image"
 msgstr ""
 
-#: r2/models/modaction.py:191 r2/templates/createsubtippr.html:508
+#: r2/models/modaction.py:191 r2/templates/createvault.html:508
 msgid "upload header image"
 msgstr "last opp hovudbilete"
 
@@ -5351,7 +5351,7 @@ msgid "clear flair templates"
 msgstr "tøm skiltmalar"
 
 #: r2/models/modaction.py:208 r2/public/static/js/link-websockets.js:260
-#: r2/templates/createsubtippr.html:544 r2/templates/createsubtippr.html:550
+#: r2/templates/createvault.html:544 r2/templates/createvault.html:550
 #: r2/templates/filteredinfobar.html:43 r2/templates/multiinfobar.html:125
 #: r2/templates/prefapps.html:79 r2/templates/printablebuttons.html:45
 #: r2/templates/printablebuttons.html:244 r2/templates/trophycase.html:48
@@ -5437,90 +5437,90 @@ msgstr ""
 msgid "Threatening, harassing, or inciting violence"
 msgstr ""
 
-#: r2/models/subtippr.py:319
+#: r2/models/vault.py:319
 msgid "red"
 msgstr ""
 
-#: r2/models/subtippr.py:320
+#: r2/models/vault.py:320
 msgid "orangered"
 msgstr ""
 
-#: r2/models/subtippr.py:321
+#: r2/models/vault.py:321
 msgid "orange"
 msgstr "oransje"
 
-#: r2/models/subtippr.py:322
+#: r2/models/vault.py:322
 msgid "mango"
 msgstr "mango"
 
-#: r2/models/subtippr.py:323
+#: r2/models/vault.py:323
 msgid "lime"
 msgstr "lime grønn"
 
-#: r2/models/subtippr.py:324
+#: r2/models/vault.py:324
 msgid "green"
 msgstr "grønn"
 
-#: r2/models/subtippr.py:325
+#: r2/models/vault.py:325
 msgid "mint"
 msgstr "mint"
 
-#: r2/models/subtippr.py:326
+#: r2/models/vault.py:326
 msgid "teal"
 msgstr ""
 
-#: r2/models/subtippr.py:327
+#: r2/models/vault.py:327
 msgid "blue"
 msgstr "blå"
 
-#: r2/models/subtippr.py:328
+#: r2/models/vault.py:328
 msgid "alien blue"
 msgstr "alien Blue"
 
-#: r2/models/subtippr.py:329
+#: r2/models/vault.py:329
 msgid "pink"
 msgstr ""
 
-#: r2/models/subtippr.py:330
+#: r2/models/vault.py:330
 msgid "purple"
 msgstr ""
 
-#: r2/models/subtippr.py:332
+#: r2/models/vault.py:332
 msgid "brown"
 msgstr ""
 
-#: r2/models/subtippr.py:333
+#: r2/models/vault.py:333
 msgid "pale grey"
 msgstr ""
 
-#: r2/models/subtippr.py:334
+#: r2/models/vault.py:334
 msgid "grey"
 msgstr ""
 
-#: r2/models/subtippr.py:335
+#: r2/models/vault.py:335
 msgid "dark grey"
 msgstr ""
 
-#: r2/models/subtippr.py:336
+#: r2/models/vault.py:336
 msgid "semi black"
 msgstr ""
 
-#: r2/models/subtippr.py:1918 r2/models/subtippr.py:1961
+#: r2/models/vault.py:1918 r2/models/vault.py:1961
 #, python-format
 msgid "%s (filtered)"
 msgstr "%s (filtrert)"
 
-#: r2/models/subtippr.py:2174
+#: r2/models/vault.py:2174
 #, python-format
 msgid "posts from %s"
 msgstr "poster fra %s"
 
-#: r2/models/subtippr.py:2536
+#: r2/models/vault.py:2536
 #, python-format
-msgid "%s subtipprs curated by /u/%s"
-msgstr "%s subtipprs blir passet på av /u/%s"
+msgid "%s vaults curated by /u/%s"
+msgstr "%s vaults blir passet på av /u/%s"
 
-#: r2/models/subtippr.py:2862
+#: r2/models/vault.py:2862
 #, python-format
 msgid "%(domain)s on %(tippr.com)s"
 msgstr "%(domain)s på %(tippr.com)s"
@@ -5562,8 +5562,8 @@ msgid "Manage My Flair"
 msgstr "Administrer preg"
 
 #: r2/models/token.py:145
-msgid "Select my subtippr flair. Change link flair on my submissions."
-msgstr "Velg subtippr flair/preg. Bytt link flair/preg på mine tråder."
+msgid "Select my vault flair. Change link flair on my submissions."
+msgstr "Velg vault flair/preg. Bytt link flair/preg på mine tråder."
 
 #: r2/models/token.py:150
 msgid "History"
@@ -5586,7 +5586,7 @@ msgid "Approve submitters and ban users"
 msgstr "Godkjenn bidragsytere og bannlys brukere"
 
 #: r2/models/token.py:163
-msgid "Add/remove users to approved submitter lists and ban/unban or mute/unmute users from subtipprs I moderate."
+msgid "Add/remove users to approved submitter lists and ban/unban or mute/unmute users from vaults I moderate."
 msgstr ""
 
 #: r2/models/token.py:170
@@ -5594,8 +5594,8 @@ msgid "Moderate Flair"
 msgstr "Moderer skilt"
 
 #: r2/models/token.py:171
-msgid "Manage and assign flair in subtipprs I moderate."
-msgstr "Handsam og tildel skilt i subtipprane eg modererer."
+msgid "Manage and assign flair in vaults I moderate."
+msgstr "Handsam og tildel skilt i vaultane eg modererer."
 
 #: r2/models/token.py:176
 msgid "New Modmail"
@@ -5610,64 +5610,64 @@ msgid "Moderate Posts"
 msgstr "Moderer postar"
 
 #: r2/models/token.py:183
-msgid "Approve, remove, mark nsfw, and distinguish content in subtipprs I moderate."
-msgstr "Godkjenn, fjern, merk nsfw og skil ut innhald i subtipprane eg modererer."
+msgid "Approve, remove, mark nsfw, and distinguish content in vaults I moderate."
+msgstr "Godkjenn, fjern, merk nsfw og skil ut innhald i vaultane eg modererer."
 
 #: r2/models/token.py:189
-msgid "Moderate Subtippr Configuration"
-msgstr "Moderer subtipproppsettet"
+msgid "Moderate Vault Configuration"
+msgstr "Moderer vaultoppsettet"
 
 #: r2/models/token.py:190
-msgid "Manage the configuration, sidebar, and CSS of subtipprs I moderate."
-msgstr "Handsam oppsettet, sidefeltet og CSS-en for subtipprar som eg modererer."
+msgid "Manage the configuration, sidebar, and CSS of vaults I moderate."
+msgstr "Handsam oppsettet, sidefeltet og CSS-en for vaultar som eg modererer."
 
 #: r2/models/token.py:196
 msgid "Moderation Log"
 msgstr "Modereringslogg"
 
 #: r2/models/token.py:197
-msgid "Access the moderation log in subtipprs I moderate."
-msgstr "Sjå modereringsloggen i subtipprar som eg modererer."
+msgid "Access the moderation log in vaults I moderate."
+msgstr "Sjå modereringsloggen i vaultar som eg modererer."
 
 #: r2/models/token.py:202
 msgid "Invite or remove other moderators"
 msgstr "Inviter eller fjern andre moderatorer"
 
 #: r2/models/token.py:203
-msgid "Invite or remove other moderators from subtipprs I moderate."
-msgstr "Inviter eller fjern andre moderatorer fra subtipprer jeg modererer."
+msgid "Invite or remove other moderators from vaults I moderate."
+msgstr "Inviter eller fjern andre moderatorer fra vaulter jeg modererer."
 
 #: r2/models/token.py:209
-msgid "Make changes to your subtippr moderator and contributor status"
+msgid "Make changes to your vault moderator and contributor status"
 msgstr ""
 
 #: r2/models/token.py:211
-msgid "Accept invitations to moderate a subtippr. Remove myself as a moderator or contributor of subtipprs I moderate or contribute to."
+msgid "Accept invitations to moderate a vault. Remove myself as a moderator or contributor of vaults I moderate or contribute to."
 msgstr ""
 
 #: r2/models/token.py:219
-msgid "Subtippr Traffic"
-msgstr "Subtipprtrafikk"
+msgid "Vault Traffic"
+msgstr "Vaulttrafikk"
 
 #: r2/models/token.py:220
-msgid "Access traffic stats in subtipprs I moderate."
-msgstr "Sjå trafikkstatistikk i subtipprane som eg modererer"
+msgid "Access traffic stats in vaults I moderate."
+msgstr "Sjå trafikkstatistikk i vaultane som eg modererer"
 
 #: r2/models/token.py:224
 msgid "Moderate Wiki"
 msgstr "Moderator-Wiki"
 
 #: r2/models/token.py:225
-msgid "Change editors and visibility of wiki pages in subtipprs I moderate."
-msgstr "Administrer bidragsytere og wiki-siders synlighet i subtipprer jeg modererer."
+msgid "Change editors and visibility of wiki pages in vaults I moderate."
+msgstr "Administrer bidragsytere og wiki-siders synlighet i vaulter jeg modererer."
 
 #: r2/models/token.py:231
-msgid "My Subtipprs"
-msgstr "Subtipprane mine"
+msgid "My Vaults"
+msgstr "Vaultane mine"
 
 #: r2/models/token.py:232
-msgid "Access the list of subtipprs I moderate, contribute to, and subscribe to."
-msgstr "Sjå lista over subtipprar som eg modererer, medverkar til og tingar på. "
+msgid "Access the list of vaults I moderate, contribute to, and subscribe to."
+msgstr "Sjå lista over vaultar som eg modererer, medverkar til og tingar på. "
 
 #: r2/models/token.py:238
 msgid "Private Messages"
@@ -5714,8 +5714,8 @@ msgid "Edit My Subscriptions"
 msgstr "Endre tingingane mine"
 
 #: r2/models/token.py:266
-msgid "Manage my subtippr subscriptions. Manage \"friends\" - users whose content I follow."
-msgstr "Administrer subtipprabonnementene mine. Administrer \"venner\" - brukere hvis innhold jeg følger."
+msgid "Manage my vault subscriptions. Manage \"friends\" - users whose content I follow."
+msgstr "Administrer vaultabonnementene mine. Administrer \"venner\" - brukere hvis innhold jeg følger."
 
 #: r2/models/token.py:271
 msgid "Vote"
@@ -5876,7 +5876,7 @@ msgid "parent"
 msgstr "forelder"
 
 #: r2/public/static/js/link-websockets.js:261 r2/templates/printablebuttons.html:68
-#: r2/templates/promotelinkbase.html:1012 r2/templates/subtipprreportform.html:46
+#: r2/templates/promotelinkbase.html:1012 r2/templates/vaultreportform.html:46
 #: ../../liveupdate/tippr_liveupdate/templates/liveupdateeventapp.html:92
 msgid "report"
 msgstr "rapporter"
@@ -5930,7 +5930,7 @@ msgid "You need to be logged in to give gold."
 msgstr ""
 
 #: r2/public/static/js/login.js:139
-msgid "You need to be logged in to subscribe to subtipprs."
+msgid "You need to be logged in to subscribe to vaults."
 msgstr ""
 
 #: r2/public/static/js/login.js:144 r2/public/static/js/login.js:149
@@ -5966,8 +5966,8 @@ msgid "awesomeness goes here"
 msgstr "alt det kule skal her"
 
 #: r2/public/static/js/multi.js:520
-msgid "add a subtippr to your multi."
-msgstr "legg til denne subtippren til din multi."
+msgid "add a vault to your multi."
+msgstr "legg til denne vaulten til din multi."
 
 #: r2/public/static/js/multi.js:573
 msgid "categorize"
@@ -6078,7 +6078,7 @@ msgstr "send"
 #: r2/templates/linkcommentssettings.html:75 r2/templates/printablebuttons.html:405
 #: r2/templates/promotelinkedit.html:133 r2/templates/renderablecampaign.html:258
 #: r2/templates/reportform.html:68 r2/templates/rules.html:134
-#: r2/templates/subtipprreportform.html:43
+#: r2/templates/vaultreportform.html:43
 msgid "cancel"
 msgstr "avbryt"
 
@@ -6144,7 +6144,7 @@ msgstr "ingen kategori"
 #: r2/templates/prefupdate.html:53 r2/templates/prefupdate.html:147
 #: r2/templates/prefupdate.html:204 r2/templates/printablebuttons.html:360
 #: r2/templates/printablebuttons.html:475 r2/templates/promotelinkedit.html:237
-#: r2/templates/subtipprstylesheet.html:68
+#: r2/templates/vaultstylesheet.html:68
 #: ../../liveupdate/tippr_liveupdate/templates/liveupdatecontributorpermissions.html:29
 msgid "save"
 msgstr "lagre"
@@ -6226,7 +6226,7 @@ msgid "we have insufficient available inventory targeting %(target)s to fulfill 
 msgstr ""
 
 #: r2/public/static/js/sponsored.js:398
-msgid "please select at least one subtippr"
+msgid "please select at least one vault"
 msgstr ""
 
 #: r2/public/static/js/sponsored.js:399
@@ -6262,7 +6262,7 @@ msgstr "Opprettet en ny kampanje!"
 
 #: r2/public/static/js/sr-autocomplete.js:494
 #, python-format
-msgid "the maximum number of subtipprs you can target is %(num)s"
+msgid "the maximum number of vaults you can target is %(num)s"
 msgstr ""
 
 #: r2/public/static/js/sr-autocomplete.js:500
@@ -6305,8 +6305,8 @@ msgstr[0] "et minutt siden"
 msgstr[1] "%(num)s minutter siden"
 
 #: r2/public/static/js/traffic.js:11
-msgid "view subtippr traffic"
-msgstr "sjå subtipprtrafikk"
+msgid "view vault traffic"
+msgstr "sjå vaulttrafikk"
 
 #: r2/public/static/js/traffic.js:13 r2/templates/flairlist.html:31
 #: r2/templates/userlisting.html:170
@@ -6545,8 +6545,8 @@ msgid "ad"
 msgstr "reklame"
 
 #: r2/templates/allinfobar.html:29
-msgid "Exclude your subscribed subtipprs"
-msgstr "Ekskluder dine abonnerte  subtipprer"
+msgid "Exclude your subscribed vaults"
+msgstr "Ekskluder dine abonnerte  vaulter"
 
 #: r2/templates/allinfobar.html:35
 msgid "See gilded comments and submissions"
@@ -6556,8 +6556,8 @@ msgstr "Se forgylte kommentarer og innleveringer"
 msgid "This endpoint expects JSON data of this format"
 msgstr "Dette endepunktet forventer JSON data av denne formaten"
 
-#: r2/templates/archivedinterstitial.html:31 r2/templates/createsubtippr.html:147
-#: r2/templates/searchresultsubtippr.html:102
+#: r2/templates/archivedinterstitial.html:31 r2/templates/createvault.html:147
+#: r2/templates/searchresultvault.html:102
 msgid "archived"
 msgstr "arkivert"
 
@@ -6737,15 +6737,15 @@ msgstr ""
 
 #: r2/templates/comment.html:120
 #, python-format
-msgid "this subtippr hides comment scores for %d minutes"
-msgstr "denne subtippren gjemmer kommentarpoeng i %d minutter"
+msgid "this vault hides comment scores for %d minutes"
+msgstr "denne vaulten gjemmer kommentarpoeng i %d minutter"
 
 #: r2/templates/comment.html:125 r2/templates/comment.htmllite:57
 msgid "score hidden"
 msgstr "poeng gjemt"
 
 #: r2/templates/comment.html:137
-msgid "selected by this subtippr's moderators"
+msgid "selected by this vault's moderators"
 msgstr ""
 
 #: r2/templates/comment.html:137
@@ -6798,355 +6798,355 @@ msgstr "Ja takk!"
 msgid "\"In 5-billion years the Sun will expand and engulf our orbit as the charred ember that was once Earth vaporizes. Have a nice day.\""
 msgstr "«Om fem milliarder år vil solen utvide seg og omslutte jordas bane mens den glødende flekken som tidligere var vår planet blir til støv. Ha en fin dag.»"
 
-#: r2/templates/createsubtippr.html:41
+#: r2/templates/createvault.html:41
 msgid "\n"
-"# your account is too new to create a subtippr\n"
+"# your account is too new to create a vault\n"
 "    \n"
 "try participating in other communities on tippr for a little while first before creating your own. please post to /r/help if you need more information about this restriction, or if you require a specific exemption you can [contact the admins](/contact) to request one.\n"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:57
+#: r2/templates/createvault.html:57
 msgid "no spaces, e.g., \"books\" or \"bookclub\". avoid using solely trademarked names, e.g. use \"FansOfAcme\" instead of \"Acme\". once chosen, this name cannot be changed."
 msgstr ""
 
-#: r2/templates/createsubtippr.html:57 r2/templates/goldpayment.html:171
+#: r2/templates/createvault.html:57 r2/templates/goldpayment.html:171
 #: r2/templates/listingchooser.html:60 r2/templates/prefapps.html:140
 #: r2/templates/prefapps.html:334
 msgid "name"
 msgstr "namn"
 
-#: r2/templates/createsubtippr.html:72
+#: r2/templates/createvault.html:72
 msgid "e.g., books: made from trees or pixels. recommendations, news, or thoughts"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:86
+#: r2/templates/createvault.html:86
 msgid "Appears in search results and social media links. 500 characters max."
 msgstr ""
 
-#: r2/templates/createsubtippr.html:102
+#: r2/templates/createvault.html:102
 #, python-format
-msgid "shown in the sidebar of your subtippr. %d characters max.config/sidebar"
+msgid "shown in the sidebar of your vault. %d characters max.config/sidebar"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:112
+#: r2/templates/createvault.html:112
 msgid "text to show on submission page. 1024 characters max."
 msgstr "tekst å vise på innsendingssiden. maks 1024 tegn."
 
-#: r2/templates/createsubtippr.html:112
+#: r2/templates/createvault.html:112
 msgid "submission text"
 msgstr "innleggstekst"
 
-#: r2/templates/createsubtippr.html:135 r2/templates/multiinfobar.html:41
+#: r2/templates/createvault.html:135 r2/templates/multiinfobar.html:41
 msgid "public"
 msgstr "offentleg"
 
-#: r2/templates/createsubtippr.html:136
+#: r2/templates/createvault.html:136
 msgid "anyone can view and submit"
 msgstr "kven som helst kan lesa og sende inn"
 
-#: r2/templates/createsubtippr.html:138
-#: r2/templates/searchresultsubtippr.html:100
+#: r2/templates/createvault.html:138
+#: r2/templates/searchresultvault.html:100
 msgid "restricted"
 msgstr "avgrensa"
 
-#: r2/templates/createsubtippr.html:139
+#: r2/templates/createvault.html:139
 msgid "anyone can view, but only some are approved to submit links"
 msgstr "alle kan lese, men berre somme er godkjende til å sende inn lenkjer"
 
-#: r2/templates/createsubtippr.html:142
+#: r2/templates/createvault.html:142
 msgid "only approved members can view and submit"
 msgstr "berre godkjende medlemmer kan lesa og sende inn"
 
-#: r2/templates/createsubtippr.html:148
+#: r2/templates/createvault.html:148
 msgid "anyone can view, but submissions are no longer accepted"
 msgstr "alle kan sjå, men bidrag er ikkje lenger tillatne"
 
-#: r2/templates/createsubtippr.html:154
+#: r2/templates/createvault.html:154
 msgid "gold restricted"
 msgstr "forbeholdt gull"
 
-#: r2/templates/createsubtippr.html:155
+#: r2/templates/createvault.html:155
 msgid "anyone can view, but only tippr gold members can submit or comment"
 msgstr "alle kan se, men kun tippr-gullmedlemmer kan sende eller kommentere"
 
-#: r2/templates/createsubtippr.html:161
+#: r2/templates/createvault.html:161
 msgid "employees only"
 msgstr "kun for ansatte"
 
-#: r2/templates/createsubtippr.html:162
+#: r2/templates/createvault.html:162
 msgid "only tippr employees can view; the employee list is pulled from live config"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:172
-msgid "If you switch this subtippr to another type, you will not be able to switch back to \"gold only\" without the assistance of an admin"
+#: r2/templates/createvault.html:172
+msgid "If you switch this vault to another type, you will not be able to switch back to \"gold only\" without the assistance of an admin"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:177 r2/templates/goldonlyinterstitial.html:33
+#: r2/templates/createvault.html:177 r2/templates/goldonlyinterstitial.html:33
 msgid "gold only"
 msgstr "kun gull"
 
-#: r2/templates/createsubtippr.html:178
+#: r2/templates/createvault.html:178
 msgid "only tippr gold members can view and submit"
 msgstr "kun gullbrukere kan se og bidra"
 
-#: r2/templates/createsubtippr.html:189 r2/templates/prefoptions.html:339
+#: r2/templates/createvault.html:189 r2/templates/prefoptions.html:339
 msgid "content options"
 msgstr "innhaldsval"
 
-#: r2/templates/createsubtippr.html:192
+#: r2/templates/createvault.html:192
 msgid "any"
 msgstr "kva som helst"
 
-#: r2/templates/createsubtippr.html:193
+#: r2/templates/createvault.html:193
 msgid "any link type is allowed"
 msgstr "alle typar lenkjer er tillatne"
 
-#: r2/templates/createsubtippr.html:195
+#: r2/templates/createvault.html:195
 msgid "links only"
 msgstr "berre lenkjer"
 
-#: r2/templates/createsubtippr.html:196
+#: r2/templates/createvault.html:196
 msgid "only links to external sites are allowed"
 msgstr "berre lenkjer til eksterne sider er tillatne"
 
-#: r2/templates/createsubtippr.html:198
+#: r2/templates/createvault.html:198
 msgid "text posts only"
 msgstr "berre tekstpostar"
 
-#: r2/templates/createsubtippr.html:199
+#: r2/templates/createvault.html:199
 msgid "only text/self posts are allowed"
 msgstr "berre tekst-/sjølvpostar er tillatne"
 
-#: r2/templates/createsubtippr.html:206
+#: r2/templates/createvault.html:206
 msgid "Custom label for submit link button (blank for default):"
 msgstr "Egendefinert merking på knapp for posting av lenker (blank for standard):"
 
-#: r2/templates/createsubtippr.html:214
+#: r2/templates/createvault.html:214
 msgid "Custom label for submit text post button (blank for default):"
 msgstr "Egendefinert merking på knapp for posting av tekst (blank for standard):"
 
-#: r2/templates/createsubtippr.html:226
+#: r2/templates/createvault.html:226
 msgid "disabled"
 msgstr "slegen av"
 
-#: r2/templates/createsubtippr.html:227
+#: r2/templates/createvault.html:227
 msgid "Wiki is disabled for all users except mods"
 msgstr "wikien er utilgjengeleg for alle utanom moderatorar"
 
-#: r2/templates/createsubtippr.html:229
+#: r2/templates/createvault.html:229
 msgid "mod editing"
 msgstr "moderatorendring"
 
-#: r2/templates/createsubtippr.html:230
+#: r2/templates/createvault.html:230
 msgid "Only mods, approved wiki contributors, or those on a page's edit list may edit"
 msgstr "Berre moderatorar, godkjende wikiinnsendarar eller dei med løyve kan gjere endreingar"
 
-#: r2/templates/createsubtippr.html:232
+#: r2/templates/createvault.html:232
 msgid "anyone"
 msgstr "kven som helst"
 
-#: r2/templates/createsubtippr.html:233
-msgid "Anyone who can submit to the subtippr may edit"
-msgstr "Dei som kan sende inn til subtippren kan endre"
+#: r2/templates/createvault.html:233
+msgid "Anyone who can submit to the vault may edit"
+msgstr "Dei som kan sende inn til vaulten kan endre"
 
-#: r2/templates/createsubtippr.html:240
-msgid "Subtippr karma required to edit and create wiki pages:"
-msgstr "Subtipprkarma er påkravd for kunne endre og opprette wikisider"
+#: r2/templates/createvault.html:240
+msgid "Vault karma required to edit and create wiki pages:"
+msgstr "Vaultkarma er påkravd for kunne endre og opprette wikisider"
 
-#: r2/templates/createsubtippr.html:250
+#: r2/templates/createvault.html:250
 msgid "Account age (days) required to edit and create wiki pages:"
 msgstr "Ein kontoalder (dagar) er påkravd for å kunne endre og opprette wikisider"
 
-#: r2/templates/createsubtippr.html:262
+#: r2/templates/createvault.html:262
 msgid "spam filter strength"
 msgstr "styrke på søppelfiltrering"
 
-#: r2/templates/createsubtippr.html:264
+#: r2/templates/createvault.html:264
 msgid "high is the standard filter, low disables most filtering, all will filter every post initially and they will need to be approved manually to be visible."
 msgstr "«høy» er standardfilteret, mens «lav» deaktiver mesteparten av filtreringen og «alt» vil filtrere alle innlegg slik at de må manuelt godkjennes før de blir synlige."
 
-#: r2/templates/createsubtippr.html:269 r2/templates/createsubtippr.html:280
-#: r2/templates/createsubtippr.html:291
+#: r2/templates/createvault.html:269 r2/templates/createvault.html:280
+#: r2/templates/createvault.html:291
 msgid "low"
 msgstr "lav"
 
-#: r2/templates/createsubtippr.html:271 r2/templates/createsubtippr.html:282
-#: r2/templates/createsubtippr.html:293
+#: r2/templates/createvault.html:271 r2/templates/createvault.html:282
+#: r2/templates/createvault.html:293
 msgid "high"
 msgstr "høy"
 
-#: r2/templates/createsubtippr.html:278
+#: r2/templates/createvault.html:278
 msgid "self posts"
 msgstr "selv-innlegg"
 
-#: r2/templates/createsubtippr.html:303
+#: r2/templates/createvault.html:303
 #: ../../liveupdate/tippr_liveupdate/templates/liveupdateeventconfiguration.html:12
 msgid "other options"
 msgstr "andre val"
 
-#: r2/templates/createsubtippr.html:314
+#: r2/templates/createvault.html:314
 #: ../../liveupdate/tippr_liveupdate/templates/liveupdateeventconfiguration.html:20
 msgid "viewers must be over eighteen years old"
 msgstr "lesarar må vera over atten år gamle"
 
-#: r2/templates/createsubtippr.html:326
-msgid "allow this subtippr to be included /r/all as well as the default and trending lists"
-msgstr "tillatt at denne subtippren kan bli inkludert i /r/all så vel som standard- og populærlistene"
+#: r2/templates/createvault.html:326
+msgid "allow this vault to be included /r/all as well as the default and trending lists"
+msgstr "tillatt at denne vaulten kan bli inkludert i /r/all så vel som standard- og populærlistene"
 
-#: r2/templates/createsubtippr.html:337
+#: r2/templates/createvault.html:337
 msgid "enable marking posts as containing spoilers"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:348
+#: r2/templates/createvault.html:348
 msgid "show thumbnail images of content"
 msgstr "Vis miniatyrbilete av innhaldet"
 
-#: r2/templates/createsubtippr.html:359
+#: r2/templates/createvault.html:359
 msgid "expand media previews on comments pages"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:370
+#: r2/templates/createvault.html:370
 msgid "allow image uploads and links to image hosting sites"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:382
+#: r2/templates/createvault.html:382
 msgid "exclude posts by site-wide banned users from modqueue/unmoderated"
 msgstr "ekskluder innlegg fra total-utestengte brukere i moderasjonskøen"
 
-#: r2/templates/createsubtippr.html:390
+#: r2/templates/createvault.html:390
 msgid "make the traffic stats page available to everyone"
 msgstr "tilgjengeliggjør trafikkstatistikken for alle"
 
-#: r2/templates/createsubtippr.html:401
+#: r2/templates/createvault.html:401
 msgid "collapse deleted and removed comments"
 msgstr "minimer slettede og fjernede kommentarer"
 
-#: r2/templates/createsubtippr.html:413
-msgid "hide ads (only available for gold only subtipprs)"
+#: r2/templates/createvault.html:413
+msgid "hide ads (only available for gold only vaults)"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:420
+#: r2/templates/createvault.html:420
 msgid "suggested comment sort"
 msgstr "foreslått kommentarsortering"
 
-#: r2/templates/createsubtippr.html:420
+#: r2/templates/createvault.html:420
 msgid "(all comment threads will use this sorting method by default)"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:422
-msgid "none (recommended for most subtipprs)"
+#: r2/templates/createvault.html:422
+msgid "none (recommended for most vaults)"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:431
+#: r2/templates/createvault.html:431
 msgid "Minutes to hide comment scores:"
 msgstr "Antall minutter hvor kommentarpoeng skjules:"
 
-#: r2/templates/createsubtippr.html:453 r2/templates/usertext.html:155
+#: r2/templates/createvault.html:453 r2/templates/usertext.html:155
 #: r2/templates/wikieditpage.html:46
 msgid "hide help"
 msgstr "gøym hjelpa"
 
-#: r2/templates/createsubtippr.html:457
+#: r2/templates/createvault.html:457
 msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.tippr.com. You will be able to access your tippr through your domain."
 msgstr "Eig du eit domene?    Skriv det inn her, gå til DNS-leverandøren din og legg til ei CNAME-oppføring som lenkjer domenet ditt til rhs.tippr.com. Du vil få tilkomst til tippren din gjennom domenet ditt."
 
-#: r2/templates/createsubtippr.html:464
+#: r2/templates/createvault.html:464
 msgid "look and feel"
 msgstr "utsjånad"
 
-#: r2/templates/createsubtippr.html:471
-msgid "subtippr name to use as theme"
+#: r2/templates/createvault.html:471
+msgid "vault name to use as theme"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:479
-msgid "There is a newer version of your subtippr theme available. Update to the latest version?"
+#: r2/templates/createvault.html:479
+msgid "There is a newer version of your vault theme available. Update to the latest version?"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:484
+#: r2/templates/createvault.html:484
 msgid "update theme"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:494
+#: r2/templates/createvault.html:494
 msgid "edit the stylesheet"
 msgstr "endre stilarket"
 
-#: r2/templates/createsubtippr.html:498
+#: r2/templates/createvault.html:498
 msgid "leaves this page"
 msgstr "forlèt denne sida"
 
-#: r2/templates/createsubtippr.html:518
+#: r2/templates/createvault.html:518
 msgid "restore default header"
 msgstr "tilbakestill hovudbilete"
 
-#: r2/templates/createsubtippr.html:538
-msgid "related subtipprs"
+#: r2/templates/createvault.html:538
+msgid "related vaults"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:540
-msgid "similar or related subtipprs."
+#: r2/templates/createvault.html:540
+msgid "similar or related vaults."
 msgstr ""
 
-#: r2/templates/createsubtippr.html:616
+#: r2/templates/createvault.html:616
 msgid "new modmail enrollment"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:620
+#: r2/templates/createvault.html:620
 msgid "You have enrolled in the new modmail, if you wish to unenroll please"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:626
+#: r2/templates/createvault.html:626
 msgid "Once chosen this can not be undone, please make sure your entire team is ready."
 msgstr ""
 
-#: r2/templates/createsubtippr.html:635
+#: r2/templates/createvault.html:635
 msgid "Enroll"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:645
+#: r2/templates/createvault.html:645
 msgid "mobile look and feel"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:649
+#: r2/templates/createvault.html:649
 msgid "icon image"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:649
+#: r2/templates/createvault.html:649
 msgid "icon must be 256x256 pixels. PNG or JPG only."
 msgstr ""
 
-#: r2/templates/createsubtippr.html:658
+#: r2/templates/createvault.html:658
 msgid "remove custom icon image"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:667
+#: r2/templates/createvault.html:667
 msgid "header image"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:667
+#: r2/templates/createvault.html:667
 msgid "header should have 10:3 aspect ratio. PNG or JPG only."
 msgstr ""
 
-#: r2/templates/createsubtippr.html:668
+#: r2/templates/createvault.html:668
 msgid "minimum size: 640x192px"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:668
+#: r2/templates/createvault.html:668
 msgid "maximum size: 1280x384px"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:677
+#: r2/templates/createvault.html:677
 msgid "remove custom header image"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:687
+#: r2/templates/createvault.html:687
 msgid "color"
 msgstr "farge"
 
-#: r2/templates/createsubtippr.html:687
-msgid "used as a thematic color for your subtippr on mobile"
+#: r2/templates/createvault.html:687
+msgid "used as a thematic color for your vault on mobile"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:718 r2/templates/flairpane.html:88
+#: r2/templates/createvault.html:718 r2/templates/flairpane.html:88
 #: r2/templates/personalizedads.html:79 r2/templates/prefoptions.html:493
 #: r2/templates/usermessagingprefs.html:26
 msgid "save options"
@@ -7213,11 +7213,11 @@ msgid "try again"
 msgstr "prøv igjen"
 
 #: r2/templates/filteredinfobar.html:49
-msgid "filter subtippr"
-msgstr "filtrere subtippr"
+msgid "filter vault"
+msgstr "filtrere vault"
 
 #: r2/templates/filteredinfobar.html:49 r2/templates/modlisting.html:55
-#: r2/templates/subtipprselector.html:33 r2/templates/userlisting.html:96
+#: r2/templates/vaultselector.html:33 r2/templates/userlisting.html:96
 #: r2/templates/wikipagesettings.html:67
 msgid "add"
 msgstr "legg til"
@@ -7272,8 +7272,8 @@ msgid "flair options"
 msgstr "skiltval"
 
 #: r2/templates/flairpane.html:39
-msgid "enable user flair in this subtippr"
-msgstr "skru på brukarskilt i den subtippren her"
+msgid "enable user flair in this vault"
+msgstr "skru på brukarskilt i den vaulten her"
 
 #: r2/templates/flairpane.html:50
 msgid "allow users to assign their own flair"
@@ -7320,8 +7320,8 @@ msgid "position flair to the right of the link"
 msgstr "plasser skiltet til høgre for lenkja"
 
 #: r2/templates/flairprefs.html:31
-msgid "Show my flair on this subtippr. It looks like:"
-msgstr "Vis min flair på denne subtippren. Den ser slik ut:"
+msgid "Show my flair on this vault. It looks like:"
+msgstr "Vis min flair på denne vaulten. Den ser slik ut:"
 
 #: r2/templates/flairselector.html:23
 msgid "select flair"
@@ -7524,7 +7524,7 @@ msgid "You must be a Tippr Gold member to view this super secret community"
 msgstr ""
 
 #: r2/templates/goldonlyinterstitial.html:41
-msgid "The moderators of this community have set it to [Tippr Gold only](/gold/about#gold-only-subtipprs). You must be a [Tippr Gold member](/gold/about) to visit."
+msgid "The moderators of this community have set it to [Tippr Gold only](/gold/about#gold-only-vaults). You must be a [Tippr Gold member](/gold/about) to visit."
 msgstr ""
 
 #: r2/templates/goldonlyinterstitial.html:47
@@ -7649,13 +7649,13 @@ msgstr "Gårsdagens tippr gull-mål"
 
 #: r2/templates/interestbar.html:27
 #, python-format
-msgid "ready for something new? %s subscribe %s to some new subtipprs."
-msgstr "klar for noko nytt? %s ting på %s nokre nye subtipprar"
+msgid "ready for something new? %s subscribe %s to some new vaults."
+msgstr "klar for noko nytt? %s ting på %s nokre nye vaultar"
 
 #: r2/templates/interestbar.html:29
 #, python-format
-msgid "it looks like you haven't %s subscribed %s to any subtipprs yet. want some ideas?"
-msgstr "det ser ikkje ut som du har %s tinga på %s nokon subtipprar enno. treng du nokre idear?"
+msgid "it looks like you haven't %s subscribed %s to any vaults yet. want some ideas?"
+msgstr "det ser ikkje ut som du har %s tinga på %s nokon vaultar enno. treng du nokre idear?"
 
 #: r2/templates/interestbar.html:35
 msgid "what are you interested in?"
@@ -7814,7 +7814,7 @@ msgid "comments from %(site)s"
 msgstr "innlegg frå %(site)s"
 
 #: r2/templates/listing.html:64 r2/templates/searchlisting.html:68
-#: r2/templates/subtipprstylesheetsource.html:52 r2/templates/tablelisting.html:64
+#: r2/templates/vaultstylesheetsource.html:52 r2/templates/tablelisting.html:64
 msgid "there doesn't seem to be anything here"
 msgstr "det ser ikkje ut til å vera noko her"
 
@@ -7835,8 +7835,8 @@ msgid "multitipprs"
 msgstr "multitipprer"
 
 #: r2/templates/listingchooser.html:48
-msgid "new! create sets of subtipprs to view together."
-msgstr "nytt! opprett sett av subtipprer for enkel visning i lag."
+msgid "new! create sets of vaults to view together."
+msgstr "nytt! opprett sett av vaulter for enkel visning i lag."
 
 #: r2/templates/listingchooser.html:49
 msgid "for starters, try one of these:"
@@ -7847,8 +7847,8 @@ msgid "to hide these samples, create a multi of your own:"
 msgstr "for å skjule disse eksemplene, opprett en multi for deg selv:"
 
 #: r2/templates/listingsuggestions.html:30
-msgid "explore some new subtipprs"
-msgstr "utforsk noen nye subtipprs"
+msgid "explore some new vaults"
+msgstr "utforsk noen nye vaults"
 
 #: r2/templates/listingsuggestions.html:32
 msgid "or try a multi:"
@@ -7856,12 +7856,12 @@ msgstr "eller prøv en multi:"
 
 #: r2/templates/listingsuggestions.html:38
 #, python-format
-msgid "or try a %(random_subtippr)s"
-msgstr "eller prøv en %(random_subtippr)s"
+msgid "or try a %(random_vault)s"
+msgstr "eller prøv en %(random_vault)s"
 
 #: r2/templates/listingsuggestions.html:39
-msgid "random subtippr"
-msgstr "tilfeldig subtippr"
+msgid "random vault"
+msgstr "tilfeldig vault"
 
 #: r2/templates/livecomments.html:24
 msgid "Show new comments!"
@@ -7869,8 +7869,8 @@ msgstr "Vis nye kommentarer!"
 
 #: r2/templates/locationbar.html:24
 #, python-format
-msgid "using the default subtipprs for your location (%(location)s)"
-msgstr "bruk standardsubtipprene for din beliggenhet (%(location)s)"
+msgid "using the default vaults for your location (%(location)s)"
+msgstr "bruk standardvaultene for din beliggenhet (%(location)s)"
 
 #: r2/templates/locationbar.html:27
 msgid "use global defaults"
@@ -8009,7 +8009,7 @@ msgid "to"
 msgstr "til"
 
 #: r2/templates/messagecompose.html:64
-msgid "(username, or /r/name for that subtippr's moderators)"
+msgid "(username, or /r/name for that vault's moderators)"
 msgstr ""
 
 #: r2/templates/messagecompose.html:82
@@ -8035,7 +8035,7 @@ msgstr "Lenken \"%(link_title)s av %(link_author)s"
 msgid "from"
 msgstr "fra"
 
-#: r2/templates/modlisting.html:30 r2/templates/subtipprinfobar.html:86
+#: r2/templates/modlisting.html:30 r2/templates/vaultinfobar.html:86
 #: ../../liveupdate/tippr_liveupdate/templates/liveupdatecontributorlisting.html:8
 msgid "leave"
 msgstr "gå ut"
@@ -8068,12 +8068,12 @@ msgid "you are invited to become a moderator. %(action)s"
 msgstr "du er invitert til å bli ein moderator. %(action)s"
 
 #: r2/templates/modsrinfobar.html:31
-msgid "/r/mod shows only subtipprs you moderate."
-msgstr "/r/mod viser kun subtipprer hvor du er en moderator."
+msgid "/r/mod shows only vaults you moderate."
+msgstr "/r/mod viser kun vaulter hvor du er en moderator."
 
 #: r2/templates/modsrinfobar.html:34
-msgid "filter out subtipprs"
-msgstr "filtrer ut subtipprer"
+msgid "filter out vaults"
+msgstr "filtrer ut vaulter"
 
 #: r2/templates/morechildren.html:37
 msgid "load more comments"
@@ -8145,10 +8145,10 @@ msgstr "rediger beskrivelse"
 
 #: r2/templates/multiinfobar.html:120
 #, python-format
-msgid "%(count)s subtipprs in this multi:"
-msgstr "%(count)s subtipprer i denne multien: "
+msgid "%(count)s vaults in this multi:"
+msgstr "%(count)s vaulter i denne multien: "
 
-#: r2/templates/multiinfobar.html:139 r2/templates/subtipprinfobar.html:119
+#: r2/templates/multiinfobar.html:139 r2/templates/vaultinfobar.html:119
 #, python-format
 msgid "created by %(user)s"
 msgstr "Laget av %(user)s"
@@ -8174,12 +8174,12 @@ msgid "would you like to..."
 msgstr "vil du..."
 
 #: r2/templates/multiinfobar.html:165
-msgid "check out subtipprs by category"
-msgstr "sjekk ut subtipprene sortert etter kategori"
+msgid "check out vaults by category"
+msgstr "sjekk ut vaultene sortert etter kategori"
 
 #: r2/templates/multiinfobar.html:170
-msgid "explore a random subtippr"
-msgstr "utforsk en tifeldig subtippr"
+msgid "explore a random vault"
+msgstr "utforsk en tifeldig vault"
 
 #: r2/templates/multiinfobar.html:175
 msgid "see the suggestions again"
@@ -8222,8 +8222,8 @@ msgid "suggest title"
 msgstr "føreslå tittel"
 
 #: r2/templates/newlink.html:274
-msgid "choose a subtippr"
-msgstr "vel ein subtippr"
+msgid "choose a vault"
+msgstr "vel ein vault"
 
 #: r2/templates/newlink.html:281
 #, python-format
@@ -8531,7 +8531,7 @@ msgid "Ads you see on Tippr will be delivered based on your prior use of our Ser
 msgstr ""
 
 #: r2/templates/personalizedads.html:43
-msgid "For example: If you frequently visit gaming subtipprs, you're more likely to see an ad for a game rather than an ad for celebrity news."
+msgid "For example: If you frequently visit gaming vaults, you're more likely to see an ad for a game rather than an ad for celebrity news."
 msgstr ""
 
 #: r2/templates/personalizedads.html:46
@@ -8641,8 +8641,8 @@ msgid "Only in:"
 msgstr "Berre i:"
 
 #: r2/templates/prefapps.html:235
-msgid "Only in the subtipprs:"
-msgstr "Berre i subtipprane:"
+msgid "Only in the vaults:"
+msgstr "Berre i vaultane:"
 
 #: r2/templates/prefapps.html:253 r2/templates/prefapps.html:264
 msgid "Expires in:"
@@ -8832,8 +8832,8 @@ msgid "location options"
 msgstr "beliggenhetsvalg"
 
 #: r2/templates/prefoptions.html:133
-msgid "use the global default subtipprs for my front page"
-msgstr "bruk de globale standardsubtipprene på forsiden min"
+msgid "use the global default vaults for my front page"
+msgstr "bruk de globale standardvaultene på forsiden min"
 
 #: r2/templates/prefoptions.html:135
 msgid "hide the location information bar"
@@ -8860,8 +8860,8 @@ msgid "don't show thumbnails next to links"
 msgstr "ikkje vis miniatyrar attmed lenkjer"
 
 #: r2/templates/prefoptions.html:153
-msgid "show thumbnails based on that subtippr's media preferences"
-msgstr "vis forhåndsbilder basert på den valgte subtipprens innholdsinnstillinger"
+msgid "show thumbnails based on that vault's media preferences"
+msgstr "vis forhåndsbilder basert på den valgte vaultens innholdsinnstillinger"
 
 #: r2/templates/prefoptions.html:155
 msgid "to enable thumbnails, disable compressed link display"
@@ -8880,7 +8880,7 @@ msgid "don't auto-expand media previews on comments pages"
 msgstr ""
 
 #: r2/templates/prefoptions.html:163
-msgid "expand media previews based on that subtippr's media preferences"
+msgid "expand media previews based on that vault's media preferences"
 msgstr ""
 
 #: r2/templates/prefoptions.html:166
@@ -8908,12 +8908,12 @@ msgid "(it shows new and promoted links, and gives you a say in what's spam and 
 msgstr "(han viser nyhende og fremja lenkjer, og lèt deg få eit ord i kva som er søppel eller ikkje.)"
 
 #: r2/templates/prefoptions.html:185
-msgid "show trending subtipprs on the front page"
-msgstr "vis subtipprs med stigende trend på forsiden"
+msgid "show trending vaults on the front page"
+msgstr "vis vaults med stigende trend på forsiden"
 
 #: r2/templates/prefoptions.html:188
-msgid "(a list of popular and notable subtipprs to check out)"
-msgstr "(en liste med subtipprs som er populære og verdt å få med seg)"
+msgid "(a list of popular and notable vaults to check out)"
+msgstr "(en liste med vaults som er populære og verdt å få med seg)"
 
 #: r2/templates/prefoptions.html:192
 msgid "show me links I've recently viewed"
@@ -8928,8 +8928,8 @@ msgid "show additional details in the domain text when available"
 msgstr "vis tilleggsdetaljer i domeneteksten, når det er tilgjengelig"
 
 #: r2/templates/prefoptions.html:197
-msgid "(such as the source subtippr or the content author's url/name)"
-msgstr "(sånn som kilde-subtippren eller innholdsforfatterens URL eller navn)"
+msgid "(such as the source vault or the content author's url/name)"
+msgstr "(sånn som kilde-vaulten eller innholdsforfatterens URL eller navn)"
 
 #: r2/templates/prefoptions.html:200
 msgid "don't show me submissions after I've upvoted them"
@@ -8971,8 +8971,8 @@ msgid "ignore suggested sorts"
 msgstr "ignorer forslåtte sorteringer"
 
 #: r2/templates/prefoptions.html:229
-msgid "(suggested sorts may be set by community moderators for specific threads or subtipprs, like Q&As)"
-msgstr "(foreslåtte sorteringer kan bli satt av samfunnets moderator for spesifikke tråder eller subtipprer, som Q&As)"
+msgid "(suggested sorts may be set by community moderators for specific threads or vaults, like Q&As)"
+msgstr "(foreslåtte sorteringer kan bli satt av samfunnets moderator for spesifikke tråder eller vaulter, som Q&As)"
 
 #: r2/templates/prefoptions.html:232
 msgid "show a dagger (†) on comments voted controversial"
@@ -9069,11 +9069,11 @@ msgid "display options"
 msgstr "visingsval"
 
 #: r2/templates/prefoptions.html:317
-msgid "allow subtipprs to show me custom themes"
+msgid "allow vaults to show me custom themes"
 msgstr ""
 
 #: r2/templates/prefoptions.html:320
-msgid "(you can also choose which subtippr themes to disable on an individual level)"
+msgid "(you can also choose which vault themes to disable on an individual level)"
 msgstr ""
 
 #: r2/templates/prefoptions.html:324
@@ -9097,8 +9097,8 @@ msgid "I am over eighteen years old and willing to view adult content"
 msgstr "Eg er over atten år og viljug til å sjå vaksent innhald"
 
 #: r2/templates/prefoptions.html:342
-msgid "required to view some subtipprs"
-msgstr "påkrevd for å vise noen subtipprer"
+msgid "required to view some vaults"
+msgstr "påkrevd for å vise noen vaulter"
 
 #: r2/templates/prefoptions.html:344
 msgid "label posts that are not safe for work (NSFW)"
@@ -9201,7 +9201,7 @@ msgstr "bruk en %(ctippr_link)s for å automatisk fornye mitt gull-abonnement om
 
 #: r2/templates/prefoptions.html:439
 #, python-format
-msgid "since you don't have %(gold_link)s, this will only apply in subtipprs you moderate"
+msgid "since you don't have %(gold_link)s, this will only apply in vaults you moderate"
 msgstr ""
 
 #: r2/templates/prefoptions.html:447
@@ -9492,16 +9492,16 @@ msgid "reply {verb}"
 msgstr "svar"
 
 #: r2/templates/printablebuttons.html:582
-msgid "unblock subtippr"
-msgstr "fjern blokkering av subtippr"
+msgid "unblock vault"
+msgstr "fjern blokkering av vault"
 
 #: r2/templates/printablebuttons.html:582
 msgid "unblocked"
 msgstr "blokkering fjernet"
 
 #: r2/templates/printablebuttons.html:585
-msgid "block subtippr"
-msgstr "blokkér subtippr"
+msgid "block vault"
+msgstr "blokkér vault"
 
 #: r2/templates/printablebuttons.html:592
 msgid "block user"
@@ -9516,7 +9516,7 @@ msgid "You must be invited to visit this community"
 msgstr ""
 
 #: r2/templates/privateinterstitial.html:46
-msgid "The moderators of this subtippr have set it to private. You must be a moderator or approved submitter to visit."
+msgid "The moderators of this vault have set it to private. You must be a moderator or approved submitter to visit."
 msgstr ""
 
 #: r2/templates/profilebar.html:44
@@ -9544,8 +9544,8 @@ msgid "comment karma"
 msgstr "innleggskarma"
 
 #: r2/templates/profilebar.html:88
-msgid "really obscure karma from before it was cool to track per-subtippr"
-msgstr "skikkeleg obskur karma frå før det var kult å merkje det etter subtippr"
+msgid "really obscure karma from before it was cool to track per-vault"
+msgstr "skikkeleg obskur karma frå før det var kult å merkje det etter vault"
 
 #: r2/templates/profilebar.html:114
 msgid "View/edit my snoovatar"
@@ -9989,11 +9989,11 @@ msgid "collections"
 msgstr ""
 
 #: r2/templates/promotelinkbase.html:900
-msgid "targets a collection of similar subtipprs"
-msgstr "rettes mot en samling av lignende subtipprer"
+msgid "targets a collection of similar vaults"
+msgstr "rettes mot en samling av lignende vaulter"
 
 #: r2/templates/promotelinkbase.html:913
-msgid "targets a subtippr and its users"
+msgid "targets a vault and its users"
 msgstr ""
 
 #: r2/templates/promotelinkbase.html:924
@@ -10001,16 +10001,16 @@ msgid "interest topic"
 msgstr ""
 
 #: r2/templates/promotelinkbase.html:938
-msgid "subtippr collection"
+msgid "vault collection"
 msgstr ""
 
 #: r2/templates/promotelinkbase.html:947
-msgid "subtipprs included on the frontpage are based on users' subscriptions"
-msgstr "subtipprer inkludert på forsiden er basert på abonnementene til brukere"
+msgid "vaults included on the frontpage are based on users' subscriptions"
+msgstr "vaulter inkludert på forsiden er basert på abonnementene til brukere"
 
 #: r2/templates/promotelinkbase.html:950
-msgid "includes these subtipprs"
-msgstr "inkluderer disse subtipprer"
+msgid "includes these vaults"
+msgstr "inkluderer disse vaulter"
 
 #: r2/templates/promotelinkbase.html:951
 msgid "and more!"
@@ -10037,8 +10037,8 @@ msgid "metro"
 msgstr "metro"
 
 #: r2/templates/promotelinkbase.html:1000
-msgid "subtippr targeting"
-msgstr "subtippr-målgivning"
+msgid "vault targeting"
+msgstr "vault-målgivning"
 
 #: r2/templates/promotelinkbase.html:1014
 msgid "link ids"
@@ -10319,7 +10319,7 @@ msgstr "gratis"
 msgid "pay"
 msgstr "betal"
 
-#: r2/templates/renderablecampaign.html:104 r2/templates/subtipprinfobar.html:79
+#: r2/templates/renderablecampaign.html:104 r2/templates/vaultinfobar.html:79
 #: r2/templates/userlisting.html:93 r2/templates/usertableitem.html:95
 msgid "change"
 msgstr "endre"
@@ -10442,8 +10442,8 @@ msgid "converted query to %(syntax)s syntax: %(converted)s"
 msgstr "konverterte spørringa til %(syntax)s-syntaks: %(converted)s"
 
 #: r2/templates/searchform.html:35
-msgid "find submissions in \"subtippr\""
-msgstr "finn bidrag i \"subtippr\""
+msgid "find submissions in \"vault\""
+msgstr "finn bidrag i \"vault\""
 
 #: r2/templates/searchform.html:37
 msgid "find submissions by \"username\""
@@ -10474,8 +10474,8 @@ msgid "see the search faq for details."
 msgstr "sjå søkje-oss-en for detaljar."
 
 #: r2/templates/searchform.html:54
-msgid "advanced search: by author, subtippr..."
-msgstr "avansert søk: etter forfattar, subtippr ..."
+msgid "advanced search: by author, vault..."
+msgstr "avansert søk: etter forfattar, vault ..."
 
 #: r2/templates/searchform.html:67
 msgid "Search"
@@ -10499,24 +10499,24 @@ msgstr ""
 msgid "less"
 msgstr "mindre"
 
-#: r2/templates/searchresultsubtippr.html:64 r2/templates/subtippr.html:62
+#: r2/templates/searchresultvault.html:64 r2/templates/vault.html:62
 #, python-format
 msgid "a community for %(time)s"
 msgstr "eit samfunn for %(time)s"
 
-#: r2/templates/searchresultsubtippr.html:81
+#: r2/templates/searchresultvault.html:81
 #, python-format
-msgid "search within %(subtippr)s"
+msgid "search within %(vault)s"
 msgstr ""
 
-#: r2/templates/searchresultsubtippr.html:85
+#: r2/templates/searchresultvault.html:85
 #, python-format
-msgid "search in %(subtippr)s"
+msgid "search in %(vault)s"
 msgstr ""
 
 #: r2/templates/seocommentspage.html:35
 #, python-format
-msgid "More from %(subtippr)s"
+msgid "More from %(vault)s"
 msgstr ""
 
 #: r2/templates/seocommentspage.html:39
@@ -10544,190 +10544,190 @@ msgid "note: you will only be eligible for a gilding trophy if this is set to \"
 msgstr "NB: du vil bare kunne motta forgjyllingstrofé om dette er satt til \"alle\""
 
 #: r2/templates/sitewidetraffic.html:33
-msgid "top subtipprs"
-msgstr "topp subtipprar"
+msgid "top vaults"
+msgstr "topp vaultar"
 
-#: r2/templates/sitewidetraffic.html:33 r2/templates/subtipprtrafficreport.html:33
+#: r2/templates/sitewidetraffic.html:33 r2/templates/vaulttrafficreport.html:33
 msgid "make report"
 msgstr "lag rapport"
 
-#: r2/templates/subtippr.html:82
+#: r2/templates/vault.html:82
 msgid "not approved"
 msgstr "ikkje godteken"
 
-#: r2/templates/subtippr.html:95 r2/templates/utils.html:716
+#: r2/templates/vault.html:95 r2/templates/utils.html:716
 msgid "NSFW"
 msgstr "NSFW"
 
-#: r2/templates/subtippr.xml:48
+#: r2/templates/vault.xml:48
 msgid "[link]"
 msgstr ""
 
-#: r2/templates/subtipprfacets.html:29
-msgid "too many results? narrow it down to a subtippr!"
-msgstr "for mange treff? snevre inn søket til ein subtippr"
+#: r2/templates/vaultfacets.html:29
+msgid "too many results? narrow it down to a vault!"
+msgstr "for mange treff? snevre inn søket til ein vault"
 
-#: r2/templates/subtipprinfobar.html:43
+#: r2/templates/vaultinfobar.html:43
 #, python-format
 msgid "This community is [quarantined](%(link)s) because of its shocking or highly offensive content."
 msgstr ""
 
-#: r2/templates/subtipprinfobar.html:50
+#: r2/templates/vaultinfobar.html:50
 msgid "Leave this community"
 msgstr ""
 
-#: r2/templates/subtipprinfobar.html:61
-msgid "logged-in users viewing this subtippr in the past 15 minutes"
-msgstr "innlogga brukarar som loka rundt på subtippren det siste kvarteret"
+#: r2/templates/vaultinfobar.html:61
+msgid "logged-in users viewing this vault in the past 15 minutes"
+msgstr "innlogga brukarar som loka rundt på vaulten det siste kvarteret"
 
-#: r2/templates/subtipprinfobar.html:67
-msgid "logged-out users viewing this subtippr in the past 15 minutes"
+#: r2/templates/vaultinfobar.html:67
+msgid "logged-out users viewing this vault in the past 15 minutes"
 msgstr ""
 
-#: r2/templates/subtipprinfobar.html:87
+#: r2/templates/vaultinfobar.html:87
 msgid "you are no longer an approved submitter"
 msgstr "du er ikkje lenger ein godkjend innsendar"
 
-#: r2/templates/subtipprinfobar.html:88
+#: r2/templates/vaultinfobar.html:88
 msgid "stop being an approved submitter?"
 msgstr "slutte å vere ein godkjend innsendar?"
 
-#: r2/templates/subtipprinfobar.html:89
+#: r2/templates/vaultinfobar.html:89
 #, python-format
-msgid "you are an approved submitter on this subtippr. (%(leave)s)"
-msgstr "du er en godkjent innsender på denne subtippren. (%(leave)s)"
+msgid "you are an approved submitter on this vault. (%(leave)s)"
+msgstr "du er en godkjent innsender på denne vaulten. (%(leave)s)"
 
-#: r2/templates/subtipprinfobar.html:103
-msgid "Show this subtippr's theme"
+#: r2/templates/vaultinfobar.html:103
+msgid "Show this vault's theme"
 msgstr ""
 
-#: r2/templates/subtipprinfobar.html:123
+#: r2/templates/vaultinfobar.html:123
 msgid "a community for"
 msgstr "eit fellesskap for"
 
-#: r2/templates/subtipprinfobar.html:137
-msgid "approve this subtippr"
-msgstr "godkjenn denne subtippren"
+#: r2/templates/vaultinfobar.html:137
+msgid "approve this vault"
+msgstr "godkjenn denne vaulten"
 
-#: r2/templates/subtipprinfobar.html:167
-msgid "ban this subtippr"
+#: r2/templates/vaultinfobar.html:167
+msgid "ban this vault"
 msgstr "sperr denne subreditten"
 
-#: r2/templates/subtipprreportform.html:32
-#: r2/templates/subtipprreportform.html:33
+#: r2/templates/vaultreportform.html:32
+#: r2/templates/vaultreportform.html:33
 msgid "View the community rules"
 msgstr ""
 
-#: r2/templates/subtipprreportform.html:36
+#: r2/templates/vaultreportform.html:36
 msgid "What rule does this break?"
 msgstr ""
 
-#: r2/templates/subtipprreportform.html:77
+#: r2/templates/vaultreportform.html:77
 #, python-format
 msgid "Tippr rule: %(rule_name)s"
 msgstr ""
 
-#: r2/templates/subtipprreportform.html:86
-#: r2/templates/subtipprreportform.html:105
+#: r2/templates/vaultreportform.html:86
+#: r2/templates/vaultreportform.html:105
 msgid "Reports go to community moderators anonymously"
 msgstr ""
 
-#: r2/templates/subtipprreportform.html:107
+#: r2/templates/vaultreportform.html:107
 msgid "Reports go to Tippr admins"
 msgstr ""
 
-#: r2/templates/subtipprreportform.html:121
+#: r2/templates/vaultreportform.html:121
 #, python-format
 msgid "Other (max %(num)s characters):"
 msgstr ""
 
-#: r2/templates/subtipprselector.html:58
+#: r2/templates/vaultselector.html:58
 msgid "Type in a community and hit \"Enter.\" Press backspace to delete"
 msgstr ""
 
-#: r2/templates/subtipprstylesheet.html:56 r2/templates/wikieditpage.html:49
+#: r2/templates/vaultstylesheet.html:56 r2/templates/wikieditpage.html:49
 msgid "reason for revision"
 msgstr "grunnen for revisjonen"
 
-#: r2/templates/subtipprstylesheet.html:59
+#: r2/templates/vaultstylesheet.html:59
 msgid "see previous versions"
 msgstr "se tidligere versjoner"
 
-#: r2/templates/subtipprstylesheet.html:72
-#: r2/templates/subtipprstylesheet.html:87
+#: r2/templates/vaultstylesheet.html:72
+#: r2/templates/vaultstylesheet.html:87
 msgid "preview"
 msgstr "førehandsvis"
 
-#: r2/templates/subtipprstylesheet.html:90
+#: r2/templates/vaultstylesheet.html:90
 msgid "normal link"
 msgstr "vanleg lenkje"
 
-#: r2/templates/subtipprstylesheet.html:94
+#: r2/templates/vaultstylesheet.html:94
 msgid "compressed link"
 msgstr "komprimert lenkje"
 
-#: r2/templates/subtipprstylesheet.html:98
+#: r2/templates/vaultstylesheet.html:98
 msgid "link with thumbnail"
 msgstr "lenkje med miniatyr"
 
-#: r2/templates/subtipprstylesheet.html:102
+#: r2/templates/vaultstylesheet.html:102
 msgid "stickied link"
 msgstr "festet lenke"
 
-#: r2/templates/subtipprstylesheet.html:110
+#: r2/templates/vaultstylesheet.html:110
 msgid "gilded comment"
 msgstr "forgylt kommentar"
 
-#: r2/templates/subtipprstylesheet.html:118
-#: r2/templates/subtipprstylesheetsource.html:43
+#: r2/templates/vaultstylesheet.html:118
+#: r2/templates/vaultstylesheetsource.html:43
 msgid "images"
 msgstr "bilete"
 
-#: r2/templates/subtipprstylesheet.html:122
+#: r2/templates/vaultstylesheet.html:122
 msgid "image file"
 msgstr "biletfil"
 
-#: r2/templates/subtipprstylesheet.html:125
+#: r2/templates/vaultstylesheet.html:125
 msgid "new image name:"
 msgstr "nytt biletnamn:"
 
-#: r2/templates/subtipprstylesheet.html:130
+#: r2/templates/vaultstylesheet.html:130
 msgid "(image names should consist of alphanumeric characters and '-' only)"
 msgstr "(biletnamn kan berre innehalde tal, bokstavar og bindestrek)"
 
-#: r2/templates/subtipprstylesheet.html:134
+#: r2/templates/vaultstylesheet.html:134
 msgid "Note: any changes to images here will be reflected immediately on reload and cannot be undone."
 msgstr "Merk: alle endringar som du gjer her blir gjeldande straks du oppfriskar, og kan ikkje angrast."
 
-#: r2/templates/subtipprstylesheetbase.html:42
+#: r2/templates/vaultstylesheetbase.html:42
 msgid "paste into stylesheet"
 msgstr "lim inn i stilarket"
 
-#: r2/templates/subtipprstylesheetbase.html:45
+#: r2/templates/vaultstylesheetbase.html:45
 msgid "delete this image"
 msgstr "slett det her biletet"
 
-#: r2/templates/subtipprstylesheetbase.html:77
+#: r2/templates/vaultstylesheetbase.html:77
 msgid "undelete this image"
 msgstr ""
 
-#: r2/templates/subtipprstylesheetbase.html:77
+#: r2/templates/vaultstylesheetbase.html:77
 msgid "undeleted"
 msgstr ""
 
-#: r2/templates/subtipprtraffic.html:34
+#: r2/templates/vaulttraffic.html:34
 msgid "All times are in [UTC](http://en.wikipedia.org/wiki/UTC)."
 msgstr "Alle klokkeslett er i [UTC](http://en.wikipedia.org/wiki/UTC)."
 
-#: r2/templates/subtipprtrafficreport.html:29
-msgid "Enter one subtippr per line. Traffic numbers shown are for the last full month."
-msgstr "Legg til én subtippr per linje. Trafikken som vises er for siste hele måned."
+#: r2/templates/vaulttrafficreport.html:29
+msgid "Enter one vault per line. Traffic numbers shown are for the last full month."
+msgstr "Legg til én vault per linje. Trafikken som vises er for siste hele måned."
 
-#: r2/templates/subtipprtrafficreport.html:39
-msgid "subtippr traffic"
-msgstr "subtipprtrafikk"
+#: r2/templates/vaulttrafficreport.html:39
+msgid "vault traffic"
+msgstr "vaulttrafikk"
 
-#: r2/templates/subtipprtrafficreport.html:63
+#: r2/templates/vaulttrafficreport.html:63
 msgid "not found"
 msgstr "ikke funnet"
 
@@ -10767,9 +10767,9 @@ msgstr "Men viss du berre gav oss meir pengar, så skriv inn stadfestingskoden u
 msgid "claim"
 msgstr "hent ut"
 
-#: r2/templates/trendingsubtipprsbar.html:31
-msgid "trending subtipprs"
-msgstr "subtipprs med stigende trend"
+#: r2/templates/trendingvaultsbar.html:31
+msgid "trending vaults"
+msgstr "vaults med stigende trend"
 
 #: r2/templates/trophycase.html:57
 msgid "dust"
@@ -10896,7 +10896,7 @@ msgid "Only trusted users."
 msgstr ""
 
 #: r2/templates/usermessagingprefs.html:24
-msgid "Admins and moderators of subtipprs you have participated in will always be able to message you."
+msgid "Admins and moderators of vaults you have participated in will always be able to message you."
 msgstr ""
 
 #: r2/templates/usermessagingprefs.html:31
@@ -11166,8 +11166,8 @@ msgstr "start eit ordskifte"
 
 #: r2/templates/wikipagenotfound.html:23
 #, python-format
-msgid "The page \"%s\" was not found in this subtippr."
-msgstr "Sida \"%s\" vart ikkje funne i den her subtippren."
+msgid "The page \"%s\" was not found in this vault."
+msgstr "Sida \"%s\" vart ikkje funne i den her vaulten."
 
 #: r2/templates/wikipagenotfound.html:24
 #, python-format
@@ -11183,8 +11183,8 @@ msgid "who can edit this page?"
 msgstr "kven kan endre den her sida?"
 
 #: r2/templates/wikipagesettings.html:40
-msgid "use subtippr wiki permissions"
-msgstr "bruk løyve frå subtipprwikien"
+msgid "use vault wiki permissions"
+msgstr "bruk løyve frå vaultwikien"
 
 #: r2/templates/wikipagesettings.html:45
 msgid "only approved wiki contributors for this page may edit"

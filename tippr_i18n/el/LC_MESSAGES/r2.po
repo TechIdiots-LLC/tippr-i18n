@@ -27,7 +27,7 @@ msgstr "μη έγκυρο χρώμα"
 msgid "unknown or missing dressings"
 msgstr ""
 
-#: ../../gold/tippr_gold/controllers.py:40 r2/models/subtippr.py:331
+#: ../../gold/tippr_gold/controllers.py:40 r2/models/vault.py:331
 msgid "gold"
 msgstr "χρυσό "
 
@@ -306,7 +306,7 @@ msgid "**comments can be posted on every story** on tippr. comments add informat
 msgstr "**σχόλια μπορούν να αναρτηθούν για κάθε ιστορία** στο tippr. τα σχόλια προσθέτουν πληροφορία, συμφραζόμενα, και χιούμορ."
 
 #: ../../about/tippr_about/templates/about.html:84
-msgid "**anyone can create a community** (called \"subtipprs\"). each subtippr is independent and moderated by a team of volunteers."
+msgid "**anyone can create a community** (called \"vaults\"). each vault is independent and moderated by a team of volunteers."
 msgstr "**ο οποιοσδήποτε μπορεί να δημιουργήσει μια κοινότητα** (που λέγονται \"υποtippr\"). κάθε υποtippr είανι ανεξάρτητο και συντονίζεται από μια ομάδα εθελοντών."
 
 #: ../../about/tippr_about/templates/about.html:85
@@ -471,8 +471,8 @@ msgstr "λάθη επικύρωσης"
 #: r2/controllers/listingcontroller.py:1077 r2/lib/menus.py:179
 #: r2/public/static/js/tippr.js:272 r2/templates/deleteduserinterstitial.html:31
 #: r2/templates/printablebuttons.html:36 r2/templates/printablebuttons.html:572
-#: r2/templates/subtipprstylesheetbase.html:45
-#: r2/templates/subtipprstylesheetbase.html:72
+#: r2/templates/vaultstylesheetbase.html:45
+#: r2/templates/vaultstylesheetbase.html:72
 #: ../../liveupdate/tippr_liveupdate/public/static/js/liveupdate/listings.js:203
 msgid "deleted"
 msgstr "διαγραμμένα"
@@ -662,7 +662,7 @@ msgid "show %d"
 msgstr "δείξε %d"
 
 #: r2/controllers/front.py:643 r2/controllers/front.py:645
-msgid "create a subtippr"
+msgid "create a vault"
 msgstr "δημιούργησε ένα υποtippr"
 
 #: r2/controllers/front.py:751 r2/controllers/front.py:757
@@ -670,8 +670,8 @@ msgstr "δημιούργησε ένα υποtippr"
 #: r2/controllers/listingcontroller.py:1215
 #: r2/controllers/listingcontroller.py:1226 r2/lib/menus.py:187 r2/lib/menus.py:441
 #: r2/lib/menus.py:696 r2/lib/pages/pages.py:5034 r2/lib/pages/pages.py:5043
-#: r2/templates/createsubtippr.html:273 r2/templates/createsubtippr.html:284
-#: r2/templates/createsubtippr.html:295
+#: r2/templates/createvault.html:273 r2/templates/createvault.html:284
+#: r2/templates/createvault.html:295
 msgid "all"
 msgstr "όλα"
 
@@ -697,7 +697,7 @@ msgid "posts"
 msgstr "αναρτήσεις"
 
 #: r2/controllers/front.py:962 r2/controllers/listingcontroller.py:1803
-#: r2/lib/pages/pages.py:5916 r2/templates/createsubtippr.html:289
+#: r2/lib/pages/pages.py:5916 r2/templates/createvault.html:289
 #: r2/templates/link.xml:93
 msgid "comments"
 msgstr "σχόλια"
@@ -720,8 +720,8 @@ msgstr "Μόνο σχόλια"
 
 #: r2/controllers/front.py:1056
 #, python-format
-msgid "Rules for r/%(subtippr)s"
-msgstr "Κανόνες για r/%(subtippr)s"
+msgid "Rules for r/%(vault)s"
+msgstr "Κανόνες για r/%(vault)s"
 
 #: r2/controllers/front.py:1094 r2/lib/menus.py:164
 msgid "awards"
@@ -738,7 +738,7 @@ msgstr "αποτελέσματα αναζήτησης"
 #: r2/controllers/front.py:1319 r2/controllers/front.py:1328
 #: r2/controllers/listingcontroller.py:1564 r2/lib/menus.py:94
 #: r2/templates/pagenamenav.html:59 r2/templates/promotelinkbase.html:912
-msgid "subtipprs"
+msgid "vaults"
 msgstr " υποtippr"
 
 #: r2/controllers/front.py:1350
@@ -750,11 +750,11 @@ msgstr "αποτελέσματα αναζήτησης - %(query)s"
 msgid "seen it"
 msgstr "το είδα"
 
-#: r2/controllers/front.py:1486 r2/models/subtippr.py:2537
+#: r2/controllers/front.py:1486 r2/models/vault.py:2537
 #: r2/templates/multiinfobar.html:34
 #, python-format
-msgid "%s subtipprs"
-msgstr "%s subtipprs"
+msgid "%s vaults"
+msgstr "%s vaults"
 
 #: r2/controllers/front.py:1509 r2/lib/menus.py:81
 #: r2/templates/accountrecovery.html:65 r2/templates/fraudform.html:42
@@ -1146,7 +1146,7 @@ msgid "you're really bored now, eh?"
 msgstr "βαριέσαι πολύ τώρα, ε;"
 
 #: r2/controllers/listingcontroller.py:894
-msgid "filter by subtippr"
+msgid "filter by vault"
 msgstr "φίλτρο ανά υποtippr"
 
 #: r2/controllers/listingcontroller.py:908
@@ -1239,7 +1239,7 @@ msgid "messages"
 msgstr "μηνύματα"
 
 #: r2/controllers/listingcontroller.py:1707
-msgid "subtipprs: "
+msgid "vaults: "
 msgstr " υποtippr:"
 
 #: r2/controllers/listingcontroller.py:1851
@@ -1257,7 +1257,7 @@ msgstr "επιχρυσωμένα"
 
 #: r2/controllers/listingcontroller.py:2192
 #, python-format
-msgid "gildings in this subtippr have paid for %(time)s of server time"
+msgid "gildings in this vault have paid for %(time)s of server time"
 msgstr "οι επιχρυσώσεις σε αυτό το υποtippr έχουν πληρώσει %(time)s ώρες λειτουργίας του διακομιστή(server)"
 
 #: r2/controllers/multi.py:324
@@ -1297,7 +1297,7 @@ msgid "over 18?"
 msgstr "πάνω από 18;"
 
 #: r2/controllers/post.py:95 r2/templates/quarantineinterstitial.html:34
-#: r2/templates/subtippr.html:91
+#: r2/templates/vault.html:91
 msgid "quarantined"
 msgstr "σε καραντίνα"
 
@@ -1417,7 +1417,7 @@ msgstr "η εικόνα πρέπει να είναι jpg ή png"
 
 #: r2/controllers/tippr_base.py:1574 r2/lib/pages/pages.py:4556
 #: r2/models/modaction.py:113 r2/templates/bannedinterstitial.html:33
-#: r2/templates/subtippr.html:74 r2/templates/subtipprinfobar.html:168
+#: r2/templates/vault.html:74 r2/templates/vaultinfobar.html:168
 #: r2/templates/subscriptionbox.html:63
 msgid "banned"
 msgstr "απαγορευμένα"
@@ -1426,9 +1426,9 @@ msgstr "απαγορευμένα"
 msgid "gold members only"
 msgstr "μόνο για χρυσά μέλη"
 
-#: r2/controllers/tippr_base.py:1606 r2/templates/createsubtippr.html:141
+#: r2/controllers/tippr_base.py:1606 r2/templates/createvault.html:141
 #: r2/templates/multiinfobar.html:40 r2/templates/privateinterstitial.html:37
-#: r2/templates/searchresultsubtippr.html:98 r2/templates/subtippr.html:87
+#: r2/templates/searchresultvault.html:98 r2/templates/vault.html:87
 msgid "private"
 msgstr "ιδιωτικό"
 
@@ -1437,7 +1437,7 @@ msgid "search failed"
 msgstr "η αναζήτηση απέτυχε"
 
 #: r2/controllers/wiki.py:95
-msgid "This page is the subtippr stylesheet, changes here apply to the subtippr css"
+msgid "This page is the vault stylesheet, changes here apply to the vault css"
 msgstr "Αυτή η σελίδα περιέχει το στυλτου υποtippr, τυχόν αλλαγές εδώ εφαμόζονται στο css του υποtippr"
 
 #: r2/controllers/wiki.py:96
@@ -1445,15 +1445,15 @@ msgid "The contents of this page appear on the submit page"
 msgstr "Το περιεχόμενο αυτής της σελίδας εμφανίζεται στην σελίδα υποβολής"
 
 #: r2/controllers/wiki.py:97
-msgid "The contents of this page appear on the subtippr sidebar"
+msgid "The contents of this page appear on the vault sidebar"
 msgstr "Το περιεχόμενο αυτής της σελίδας εμφανίζεται στην πλαϊνή περιοχή του υποtippr"
 
 #: r2/controllers/wiki.py:98
-msgid "The contents of this page appear in the public subtippr description and when the user does not have access to the subtippr"
+msgid "The contents of this page appear in the public vault description and when the user does not have access to the vault"
 msgstr "Τα περιεχόμενα αυτής της σελίδας εμφανίζονται στην περιγραφή του δημόσιου υποtippr και όταν ο χρήστης δεν έχει πρόσβαση σε αυτό"
 
 #: r2/controllers/wiki.py:99
-msgid "This page is used to configure AutoModerator for the subtippr, please see [the full documentation](/wiki/automoderator/full-documentation) for information"
+msgid "This page is used to configure AutoModerator for the vault, please see [the full documentation](/wiki/automoderator/full-documentation) for information"
 msgstr "Αυτή η σελίδα χρησιμοποιείται για να ρυθμίσετε τον αυτόματο συντονισμό του υποtippr, παρακαλούμε δείτε [την ολοκληρωμένη απόδειξη με έγγραφα](/εγκυκλοπαίδεια/αυτόματο συντονισμό/πλήρη απόδειξη με έγγραφα) για περαιτέρω πληροφορίες"
 
 #: r2/controllers/wiki.py:165
@@ -1483,7 +1483,7 @@ msgid "this wiki cannot handle page names of that magnitude!  please select a pa
 msgstr "αυτό το βίκι δεν μπορεί να χειριστεί ονόματα σελίδων τέτοιου μεγέθους!  παρακαλώ επέλεξε ένα όνομα σελίδας μικρότερο απο %d χαρακτήρες"
 
 #: r2/controllers/wiki.py:223
-msgid "this page is a special page, please go into the subtippr settings and save the field once to create this special page"
+msgid "this page is a special page, please go into the vault settings and save the field once to create this special page"
 msgstr "αυτή η σελίδα είναι ειδική, πήγαινε στις ρυθμίσεις του υποtippr και αποθήκευσε το πεδίο για να δημιουργήσεις αυτή την ειδική σελίδα"
 
 #: r2/controllers/wiki.py:225
@@ -1762,11 +1762,11 @@ msgid "that link has already been submitted"
 msgstr "αυτό το άρθρο έχει ήδη υποβληθεί"
 
 #: r2/lib/errors.py:79
-msgid "that subtippr already exists"
+msgid "that vault already exists"
 msgstr "αυτό το υποtippr υπάρχει ήδη"
 
 #: r2/lib/errors.py:80
-msgid "that subtippr doesn't exist"
+msgid "that vault doesn't exist"
 msgstr "αυτό το υποtippr δεν υπάρχει"
 
 #: r2/lib/errors.py:81
@@ -1774,27 +1774,27 @@ msgid "you aren't allowed to post there."
 msgstr "δεν επιτρέπεται να αναρτάς εδώ."
 
 #: r2/lib/errors.py:83
-msgid "Image submissions aren't allowed in this subtippr"
+msgid "Image submissions aren't allowed in this vault"
 msgstr ""
 
 #: r2/lib/errors.py:84
-msgid "you aren't allowed access to this subtippr"
-msgstr "δεν έχετε άδεια πρόσβασης σε αυτό το subtippr"
+msgid "you aren't allowed access to this vault"
+msgstr "δεν έχετε άδεια πρόσβασης σε αυτό το vault"
 
 #: r2/lib/errors.py:85
-msgid "you must specify a subtippr"
+msgid "you must specify a vault"
 msgstr "πρέπει να επιλέξετε ένα υποtippr"
 
 #: r2/lib/errors.py:86
-msgid "this subtippr has chosen to disable their ads at this time"
-msgstr "αυτό το subtippr έχει επιλέξει να απενεργοποιήσει τις διαφημίσεις αυτή τη στιγμή"
+msgid "this vault has chosen to disable their ads at this time"
+msgstr "αυτό το vault έχει επιλέξει να απενεργοποιήσει τις διαφημίσεις αυτή τη στιγμή"
 
 #: r2/lib/errors.py:87
 msgid "this link already has a promoted post"
 msgstr ""
 
 #: r2/lib/errors.py:88
-msgid "that subtippr is private"
+msgid "that vault is private"
 msgstr "αυτό το υποtippr είναι ιδιωτικό"
 
 #: r2/lib/errors.py:89 r2/lib/validator/validator.py:3285
@@ -1802,7 +1802,7 @@ msgid "that name isn't going to work"
 msgstr "αυτό το όνομα δε μας κάνει"
 
 #: r2/lib/errors.py:90
-msgid "that subtippr can't be used as a theme"
+msgid "that vault can't be used as a theme"
 msgstr ""
 
 #: r2/lib/errors.py:91
@@ -1818,7 +1818,7 @@ msgid "that target type is not valid"
 msgstr ""
 
 #: r2/lib/errors.py:94
-msgid "targeting too many subtipprs"
+msgid "targeting too many vaults"
 msgstr ""
 
 #: r2/lib/errors.py:95
@@ -1878,7 +1878,7 @@ msgstr "Αυτό το email δεν μπορούσε να προστεθεί. Ε�
 
 #: r2/lib/errors.py:111
 #, python-format
-msgid "that subtippr has already been oversold on %(start)s to %(end)s. Please pick another subtippr or date."
+msgid "that vault has already been oversold on %(start)s to %(end)s. Please pick another vault or date."
 msgstr "αυτό το υποtippr έχει ήδη ξεπεράσει τις πωλήσεις από %(start)s ως %(end)s. Παρακαλώ επιλέξτε άλλο υποtippr ή ημερομηνία."
 
 #: r2/lib/errors.py:112
@@ -1945,11 +1945,11 @@ msgid "that code has already been claimed -- perhaps by you?"
 msgstr "αυτός ο κωδικός έχει ήδη εξαργυρωθεί -- ίσως από εσένα;"
 
 #: r2/lib/errors.py:126
-msgid "that subtippr doesn't allow text posts"
+msgid "that vault doesn't allow text posts"
 msgstr "αυτό το υποtippr δεν επιτρέπει αναρτήσεις κειμένου"
 
 #: r2/lib/errors.py:127
-msgid "that subtippr only allows text posts"
+msgid "that vault only allows text posts"
 msgstr "αυτό το υποtippr επιτρέπει μόνο αναρτήσεις κειμένου"
 
 #: r2/lib/errors.py:128
@@ -2066,7 +2066,7 @@ msgid "You can't perform that action because that user is a moderator."
 msgstr "δεν μπορείτε να εκτελέσετε αυτήν την επιλογή επειδή ο χρήστης είναι διαχειριστής."
 
 #: r2/lib/errors.py:159
-msgid "there is no pending invite for that subtippr"
+msgid "there is no pending invite for that vault"
 msgstr "δεν υπάρχει εκκρεμής πρόσκληση για αυτό το υποtippr"
 
 #: r2/lib/errors.py:160
@@ -2111,18 +2111,18 @@ msgid "you can't change that multitippr"
 msgstr "δεν μπορείς να αλλάξεις αυτό το πολυtippr"
 
 #: r2/lib/errors.py:170
-msgid "no more space for subtipprs in that multitippr"
+msgid "no more space for vaults in that multitippr"
 msgstr "δεν υπάρχει άλλος χώρος για υποtippr σε αυτό το πολυtippr"
 
 #: r2/lib/errors.py:171
 #, python-format
-msgid "can't add special subtippr %(path)s"
+msgid "can't add special vault %(path)s"
 msgstr "δεν μπορείς να προσθέσεις το ειδικό υποtippr %(path)s"
 
 #: r2/lib/errors.py:172
 #, python-format
-msgid "maximum %(max)s subtipprs"
-msgstr "μέγιστα %(max)s subtipprs"
+msgid "maximum %(max)s vaults"
+msgstr "μέγιστα %(max)s vaults"
 
 #: r2/lib/errors.py:173
 msgid "unable to parse JSON data"
@@ -2155,7 +2155,7 @@ msgid "frequency cap must be at least %(min)d"
 msgstr ""
 
 #: r2/lib/errors.py:180
-msgid "that user is banned from the subtippr"
+msgid "that user is banned from the vault"
 msgstr "αυτός ο χρήστης έχει απαγορευτεί από αυτό το υποtippr"
 
 #: r2/lib/errors.py:181
@@ -2175,7 +2175,7 @@ msgid "insufficient ctipprs"
 msgstr "Ανεπαρκής χρηματική μονάδα του tippr"
 
 #: r2/lib/errors.py:185
-msgid "gilding is not allowed in this subtippr"
+msgid "gilding is not allowed in this vault"
 msgstr "η επιχρύσωση απαγορεύετε σε αυτό το υποtippr"
 
 #: r2/lib/errors.py:186
@@ -2183,7 +2183,7 @@ msgid "unable to scrape provided url"
 msgstr ""
 
 #: r2/lib/errors.py:187
-msgid "can't send a message from a subtippr to another subtippr"
+msgid "can't send a message from a vault to another vault"
 msgstr "δεν μπορείτε να στείλετε μήνυμα από ένα υπόtippr σε ένα άλλο"
 
 #: r2/lib/errors.py:188
@@ -2196,17 +2196,17 @@ msgstr "πρέπει να είσαι σε λειτουργία διαχειρι�
 
 #: r2/lib/errors.py:190
 #, python-format
-msgid "to convert an existing subtippr to gold only, send a message to %(admin_modmail)s"
+msgid "to convert an existing vault to gold only, send a message to %(admin_modmail)s"
 msgstr "για να μετατρέψετε ένα υπάρχων υπόtippr σε επιχρυσωμένο, στείλτε ένα μήνυμα στο%(admin_modmail)s\n"
 " \n"
 "Context | Request Context"
 
 #: r2/lib/errors.py:192
-msgid "this subtippr must be 'gold only' to select this"
+msgid "this vault must be 'gold only' to select this"
 msgstr "αυτό το υπόtippr πρέπει να είναι 'επιχρυσωμένο μόνο' για να κάνετε αυτήν την επιλογη"
 
 #: r2/lib/errors.py:193
-msgid "your account is too new or you do not have enough karma to create a subtippr. please contact the admins to request an exemption."
+msgid "your account is too new or you do not have enough karma to create a vault. please contact the admins to request an exemption."
 msgstr ""
 
 #: r2/lib/errors.py:194
@@ -2218,23 +2218,23 @@ msgid "you must select at least one device per OS to target"
 msgstr ""
 
 #: r2/lib/errors.py:196
-msgid "You have been muted from this subtippr."
+msgid "You have been muted from this vault."
 msgstr "έχετε μπλοκαριστεί από αυτό το υποtippr."
 
 #: r2/lib/errors.py:197
-msgid "This user has been muted from the subtippr."
+msgid "This user has been muted from the vault."
 msgstr "αυτός ο χρήστης έχει απαγορευτεί από αυτό το υποtippr."
 
 #: r2/lib/errors.py:198 r2/public/static/js/errors.js:7
-msgid "A subtippr rule by that name already exists."
+msgid "A vault rule by that name already exists."
 msgstr ""
 
 #: r2/lib/errors.py:199
-msgid "No subtippr rule by that name exists."
+msgid "No vault rule by that name exists."
 msgstr ""
 
 #: r2/lib/errors.py:200 r2/public/static/js/errors.js:8
-msgid "This subtippr already has the maximum number of rules."
+msgid "This vault already has the maximum number of rules."
 msgstr ""
 
 #: r2/lib/errors.py:201
@@ -2262,7 +2262,7 @@ msgid "Invalid conversation id."
 msgstr "Εσφαλμένο id συνομιλίας."
 
 #: r2/lib/errors.py:207
-msgid "The subtippr does not have this feature enabled."
+msgid "The vault does not have this feature enabled."
 msgstr "Το υποtippr δεν έχει ενεργοποιημένο αυτό το χαρακτηριστικό."
 
 #: r2/lib/errors.py:208
@@ -2286,7 +2286,7 @@ msgid "You do not have the correct moderator permissions."
 msgstr ""
 
 #: r2/lib/errors.py:213
-msgid "The requested subtippr was not found."
+msgid "The requested vault was not found."
 msgstr ""
 
 #: r2/lib/errors.py:215
@@ -2651,7 +2651,7 @@ msgid "preferences"
 msgstr "προτιμήσεις"
 
 #: r2/lib/menus.py:82 r2/lib/permissions.py:97
-#: r2/templates/createsubtippr.html:223
+#: r2/templates/createvault.html:223
 msgid "wiki"
 msgstr "βίκι"
 
@@ -2772,7 +2772,7 @@ msgid "traffic stats"
 msgstr "στατιστικά κίνησης"
 
 #: r2/lib/menus.py:126 r2/models/modaction.py:186
-#: r2/templates/subtipprstylesheet.html:43
+#: r2/templates/vaultstylesheet.html:43
 msgid "stylesheet"
 msgstr "στυλ"
 
@@ -2789,7 +2789,7 @@ msgid "edit subscriptions"
 msgstr "επεξεργασία συνδρομών"
 
 #: r2/lib/menus.py:132 r2/lib/pages/pages.py:2668
-msgid "subtippr settings"
+msgid "vault settings"
 msgstr "ρυθμίσεις υποtippr"
 
 #: r2/lib/menus.py:133
@@ -2873,14 +2873,14 @@ msgid "popular"
 msgstr "δημοφιλή"
 
 #: r2/lib/menus.py:157 r2/public/static/js/sponsored.js:88
-#: r2/public/static/js/sponsored.js:98 r2/templates/createsubtippr.html:721
+#: r2/public/static/js/sponsored.js:98 r2/templates/createvault.html:721
 #: r2/templates/listingchooser.html:62
 #: ../../liveupdate/tippr_liveupdate/templates/liveupdatecreate.html:6
 msgid "create"
 msgstr "δημιουργία"
 
 #: r2/lib/menus.py:158 r2/lib/pages/pages.py:3316
-msgid "my subtipprs"
+msgid "my vaults"
 msgstr "τα υποtippr μου"
 
 #: r2/lib/menus.py:159
@@ -2895,7 +2895,7 @@ msgstr ""
 msgid "help translate"
 msgstr "βοηθήστε στη μετάφραση"
 
-#: r2/lib/menus.py:163 r2/templates/subtipprstylesheet.html:78
+#: r2/lib/menus.py:163 r2/templates/vaultstylesheet.html:78
 msgid "errors"
 msgstr "λάθη"
 
@@ -3044,7 +3044,7 @@ msgstr "συντονιστής"
 msgid "front"
 msgstr "αρχική"
 
-#. TRANSLATORS: Gold feature, "myrandom", a random subtippr from your
+#. TRANSLATORS: Gold feature, "myrandom", a random vault from your
 #. subscriptions
 #: r2/lib/menus.py:444
 msgid "myrandom"
@@ -3128,7 +3128,7 @@ msgstr "ανακάλυψη"
 
 #: r2/lib/recommender.py:58 r2/lib/strings.py:266 r2/lib/strings.py:271
 #: r2/lib/template_helpers.py:463 r2/templates/searchresultlink.html:97
-#: r2/templates/subtipprstylesheet.html:106
+#: r2/templates/vaultstylesheet.html:106
 #: ../../liveupdate/tippr_liveupdate/pages.py:505
 msgid "comment"
 msgid_plural "comments"
@@ -3171,7 +3171,7 @@ msgstr "αυτό το άρθρο έχει ήδη υποβληθεί, αλλά α
 
 #: r2/lib/strings.py:75
 #, python-format
-msgid "that link has been submitted to multiple subtipprs. you can try to [submit it again](%s)."
+msgid "that link has been submitted to multiple vaults. you can try to [submit it again](%s)."
 msgstr "αυτός ο σύνδεσμος έχει υποβληθεί σε πολλαπλά υποtippr. μπορείς να προσπαθήσεις να το [ξαναϋποβάλλεις](%s)."
 
 #: r2/lib/strings.py:77
@@ -3194,7 +3194,7 @@ msgid "to view tippr with only submissions from your friends, use [tippr.com/r/f
 msgstr "Για να δείτε το tippr μόνο με άρθρα που έχουν υποβληθεί από φίλους σου, χρησιμοποιήστε το [tippr.com/r/friends](%s)"
 
 #: r2/lib/strings.py:86
-msgid "your subtippr has been created"
+msgid "your vault has been created"
 msgstr "το υποtippr σου δημιουργήθηκε"
 
 #: r2/lib/strings.py:88
@@ -3203,28 +3203,28 @@ msgid "visit [%(link)s](%(link)s) for more information"
 msgstr "επισκέψου το [%(link)s](%(link)s) για περισσότερες πληροφορίες"
 
 #: r2/lib/strings.py:91
-msgid "you have not subscribed to any subtipprs."
+msgid "you have not subscribed to any vaults."
 msgstr "δεν έχεις εγγραφεί σε κανένα υποtippr."
 
 #: r2/lib/strings.py:92
-msgid "below are the subtipprs you have subscribed to."
+msgid "below are the vaults you have subscribed to."
 msgstr "παρακάτω ειναι τα υποtippr στα οποία είσαι συνδρομητής."
 
 #: r2/lib/strings.py:93
-msgid "below are the subtipprs that you are an approved submitter on."
+msgid "below are the vaults that you are an approved submitter on."
 msgstr "παρακάτω είναι τα υποtippr που είσαι εγκεκριμένος υποβολέας."
 
 #: r2/lib/strings.py:94
-msgid "below are the subtipprs that you have moderator access to."
+msgid "below are the vaults that you have moderator access to."
 msgstr "παρακάτω είναι τα υποtippr στα οποία έχεις πρόσβαση συντονιστή."
 
 #: r2/lib/strings.py:97
-msgid "click the `subscribe` or `unsubscribe` buttons to choose which subtipprs appear on your front page."
+msgid "click the `subscribe` or `unsubscribe` buttons to choose which vaults appear on your front page."
 msgstr "πάτα το κουμπί `εγγραφή` ή `διαγραφή` για να επιλέξεις ποιά υποtippr εμφανίζονται στην πρώτη σου σελίδα."
 
 #: r2/lib/strings.py:99
 #, python-format
-msgid "you're searching within the [%(tippr_name)s](%(tippr_link)s) subtippr. you can also search within [all subtipprs](%(all_tipprs_link)s)"
+msgid "you're searching within the [%(tippr_name)s](%(tippr_link)s) vault. you can also search within [all vaults](%(all_tipprs_link)s)"
 msgstr "Ψάχνεις στο [%(tippr_name)s](%(tippr_link)s) υποtippr. Μπορείτε επίσης να ψάξεις και σε [όλα τα υποtippr](%(all_tipprs_link)s)"
 
 #: r2/lib/strings.py:102
@@ -3463,11 +3463,11 @@ msgstr "Ερωτήσεις; Στείλτε email στην υποστήριξη s
 #: r2/lib/strings.py:174
 #, python-format
 msgid "\n"
-"Below are the traffic statistics for your subtippr. Each graph represents one of the following over the interval specified.\n\n"
-"* **pageviews** are all hits to %(subtippr)s, including both listing pages and comment pages.\n"
+"Below are the traffic statistics for your vault. Each graph represents one of the following over the interval specified.\n\n"
+"* **pageviews** are all hits to %(vault)s, including both listing pages and comment pages.\n"
 "* **uniques** are the total number of unique visitors (determined by a combination of their IP address and User Agent string) that generate the above pageviews. This is independent of whether or not they are signed in.\n"
 "* **subscriptions** is the number of new subscriptions that have been generated in a given day. This number is less accurate than the first two metrics, as, though we can track new subscriptions, we have no way to track unsubscriptions.\n\n"
-"Note: there are a couple of places outside of your subtippr where someone can click \"subscribe\", so it is possible (though unlikely) that the subscription count can exceed the unique count on a given day.\n"
+"Note: there are a couple of places outside of your vault where someone can click \"subscribe\", so it is possible (though unlikely) that the subscription count can exceed the unique count on a given day.\n"
 msgstr ""
 
 #: r2/lib/strings.py:184
@@ -3475,16 +3475,16 @@ msgid "multitippr of your subscriptions"
 msgstr "πολλαπλό tippr των συνδρομών σου"
 
 #: r2/lib/strings.py:185
-msgid "multitippr of subtipprs you moderate"
+msgid "multitippr of vaults you moderate"
 msgstr "πολυtippr από τα υποtippr που συντονίζεις"
 
 #: r2/lib/strings.py:187
-msgid "/r/all displays content from all of tippr, including subtipprs you aren't subscribed to. Some subtipprs have chosen to exclude themselves from /r/all."
+msgid "/r/all displays content from all of tippr, including vaults you aren't subscribed to. Some vaults have chosen to exclude themselves from /r/all."
 msgstr "/r/all παρουσιάζει περιεχόμενο από όλο το tippr, ακόμα και από τα υπόtippr στα οποία δεν έχετε γραφτεί. Ορισμένα υπotippr έχουν επιλέξει να εξαιρεθούν από το /r/all."
 
 #: r2/lib/strings.py:188
 #, python-format
-msgid "Displaying content from %(subtippr)s, except the following subtipprs:"
+msgid "Displaying content from %(vault)s, except the following vaults:"
 msgstr ""
 
 #: r2/lib/strings.py:189
@@ -3509,9 +3509,9 @@ msgstr[1] "σύνδεσμοι"
 #: r2/lib/strings.py:273 r2/lib/pages/admin_pages.py:99
 #: r2/lib/pages/trafficpages.py:969 r2/templates/allminusinfobar.html:35
 #: r2/templates/filteredinfobar.html:36 r2/templates/sitewidetraffic.html:36
-#: r2/templates/subtipprtrafficreport.html:42
-msgid "subtippr"
-msgid_plural "subtipprs"
+#: r2/templates/vaulttrafficreport.html:42
+msgid "vault"
+msgid_plural "vaults"
 msgstr[0] " υποtippr"
 msgstr[1] " υποtippr"
 
@@ -3527,19 +3527,19 @@ msgid_plural "readers"
 msgstr[0] "αναγνώστης"
 msgstr[1] "αναγνώστες"
 
-#: r2/lib/strings.py:278 r2/templates/searchresultsubtippr.html:62
+#: r2/lib/strings.py:278 r2/templates/searchresultvault.html:62
 msgid "subscriber"
 msgid_plural "subscribers"
 msgstr[0] "συνδρομητής"
 msgstr[1] "συνδρομητές"
 
-#: r2/lib/strings.py:279 r2/templates/subtippr.html:80
+#: r2/lib/strings.py:279 r2/templates/vault.html:80
 msgid "approved submitter"
 msgid_plural "approved submitters"
 msgstr[0] "εγκεκριμένος αποστολέας"
 msgstr[1] "εγκεκριμένοι αποστολείς"
 
-#: r2/lib/strings.py:280 r2/templates/subtippr.html:77
+#: r2/lib/strings.py:280 r2/templates/vault.html:77
 msgid "moderator"
 msgid_plural "moderators"
 msgstr[0] "επιβλέπων"
@@ -3709,7 +3709,7 @@ msgid "No notes for this IP address"
 msgstr "Καμιά σημείωση για αυτήν την διεύθυνση IP"
 
 #: r2/lib/pages/admin_pages.py:92
-msgid "No notes for this subtippr"
+msgid "No notes for this vault"
 msgstr "Καμιά σημείωση για αυτό το υποtippr"
 
 #: r2/lib/pages/admin_pages.py:93
@@ -3717,7 +3717,7 @@ msgid "No notes for this user"
 msgstr "Καμιά σημείωση για αυτόν τον χρήστη"
 
 #: r2/lib/pages/admin_pages.py:97 r2/models/modaction.py:182
-#: r2/templates/createsubtippr.html:444
+#: r2/templates/createvault.html:444
 msgid "domain"
 msgstr "ιστοτόπος"
 
@@ -3743,11 +3743,11 @@ msgid "moderation tools"
 msgstr "εργαλεία συντονιστή"
 
 #: r2/lib/pages/pages.py:801
-msgid "these subtipprs"
+msgid "these vaults"
 msgstr "αυτά τα υποtippr"
 
 #: r2/lib/pages/pages.py:815
-msgid "this subtippr is archived and no longer accepting submissions."
+msgid "this vault is archived and no longer accepting submissions."
 msgstr "αυτό το υποtippr έχει αρχειοθετηθεί και δεν δέχεται νέες υποβολές πλέον."
 
 #: r2/lib/pages/pages.py:817
@@ -3767,7 +3767,7 @@ msgid "Submissions restricted"
 msgstr "Υποβολές περιορισμένες"
 
 #: r2/lib/pages/pages.py:923
-msgid "Create your own subtippr"
+msgid "Create your own vault"
 msgstr "Φτιάξε το δικό σου υποtippr"
 
 #: r2/lib/pages/pages.py:952
@@ -3779,7 +3779,7 @@ msgstr "...και %d ακόμα"
 msgid "about moderation team"
 msgstr "σχετικά με την ομάδα συντονισμού"
 
-#: r2/lib/pages/pages.py:959 r2/templates/createsubtippr.html:621
+#: r2/lib/pages/pages.py:959 r2/templates/createvault.html:621
 msgid "message the admins"
 msgstr "μήνυμα στους διαχειριστές"
 
@@ -3866,15 +3866,15 @@ msgid "about %(site)s"
 msgstr "περί του %(site)s"
 
 #: r2/lib/pages/pages.py:2692
-msgid "search subtipprs by name"
+msgid "search vaults by name"
 msgstr "αναζήτηση υποtippr με όνομα"
 
 #: r2/lib/pages/pages.py:2736
 #, python-format
-msgid "your front page subtipprs (%s)"
+msgid "your front page vaults (%s)"
 msgstr "τα (%s) υποtippr της πρώτης σου σελίδας"
 
-#: r2/lib/pages/pages.py:2824 r2/templates/createsubtippr.html:453
+#: r2/lib/pages/pages.py:2824 r2/templates/createvault.html:453
 msgid "what's this?"
 msgstr "τι είναι αυτό;"
 
@@ -3954,7 +3954,7 @@ msgid "where your votes shape what the world is talking about."
 msgstr "Εκεί όπου η ψήφος σου σμιλεύει τι λέει ο κόσμος."
 
 #: r2/lib/pages/pages.py:3387 r2/lib/pages/pages.py:3511
-msgid "add subtippr"
+msgid "add vault"
 msgstr "πρόσθεσε υποtippr"
 
 #: r2/lib/pages/pages.py:3425
@@ -3969,7 +3969,7 @@ msgstr "%s ορατά"
 
 #: r2/lib/pages/pages.py:3434
 #, python-format
-msgid "%(bonus)s bonus subtipprs"
+msgid "%(bonus)s bonus vaults"
 msgstr "%(bonus)s επιπλέον υποtippr"
 
 #: r2/lib/pages/pages.py:3837
@@ -4026,7 +4026,7 @@ msgstr "ημερομηνία έναρξης"
 msgid "end date"
 msgstr "ημερομηνία λήξης"
 
-#: r2/lib/pages/pages.py:5911 r2/templates/createsubtippr.html:267
+#: r2/lib/pages/pages.py:5911 r2/templates/createvault.html:267
 msgid "links"
 msgstr "σύνδεσμοι"
 
@@ -4101,11 +4101,11 @@ msgid "frontpage impressions"
 msgstr "εντυπώσεις από την πρώτη σελίδα"
 
 #: r2/lib/pages/pages.py:5937
-msgid "subtippr clicks"
+msgid "vault clicks"
 msgstr "κλικ υποtippr"
 
 #: r2/lib/pages/pages.py:5938
-msgid "subtippr impressions"
+msgid "vault impressions"
 msgstr "εντυπώσεις υποtippr"
 
 #: r2/lib/pages/pages.py:5938 r2/lib/pages/trafficpages.py:414
@@ -4134,7 +4134,7 @@ msgid "everything"
 msgstr "όλα"
 
 #: r2/lib/pages/pages.py:6288 r2/lib/pages/pages.py:6291
-msgid "from all subtipprs"
+msgid "from all vaults"
 msgstr "από όλα τα υποtippr"
 
 #: r2/lib/pages/pages.py:6293
@@ -4142,7 +4142,7 @@ msgid "moderating"
 msgstr "συντονίζει"
 
 #: r2/lib/pages/pages.py:6294
-msgid "subtipprs you mod"
+msgid "vaults you mod"
 msgstr "υποtippr που συντονίζεις"
 
 #: r2/lib/pages/pages.py:6300
@@ -4154,7 +4154,7 @@ msgid "explore multis"
 msgstr "εξερεύνήσε πολυtippr"
 
 #: r2/lib/pages/pages.py:6448
-msgid "your subscribed subtipprs"
+msgid "your subscribed vaults"
 msgstr "τα εγγεγραμμένα υποtippr σου"
 
 #: r2/lib/pages/pages.py:6561
@@ -4175,7 +4175,7 @@ msgstr "μοναδικοί ανά %s"
 #: r2/lib/pages/trafficpages.py:140 r2/lib/pages/trafficpages.py:970
 #: r2/templates/adverttrafficsummary.html:35
 #: r2/templates/languagetrafficsummary.html:34 r2/templates/tipprtraffic.html:99
-#: r2/templates/sitewidetraffic.html:37 r2/templates/subtipprtrafficreport.html:43
+#: r2/templates/sitewidetraffic.html:37 r2/templates/vaulttrafficreport.html:43
 msgid "uniques"
 msgstr "μοναδικές"
 
@@ -4186,7 +4186,7 @@ msgstr "προβολές ανά %s"
 
 #: r2/lib/pages/trafficpages.py:143 r2/lib/pages/trafficpages.py:971
 #: r2/templates/languagetrafficsummary.html:35 r2/templates/tipprtraffic.html:100
-#: r2/templates/sitewidetraffic.html:38 r2/templates/subtipprtrafficreport.html:44
+#: r2/templates/sitewidetraffic.html:38 r2/templates/vaulttrafficreport.html:44
 msgid "pageviews"
 msgstr "προβολές σελίδας"
 
@@ -4291,7 +4291,7 @@ msgstr "αυτή η σελίδα είναι κενή, επεξεργαστείτ
 
 #: r2/lib/pages/wiki.py:168 r2/lib/pages/wiki.py:174
 #, python-format
-msgid "page %s does not exist in this subtippr"
+msgid "page %s does not exist in this vault"
 msgstr "η σελίδα %s δεν υπάρχει στο υποtippr"
 
 #: r2/lib/pages/wiki.py:182
@@ -4317,7 +4317,7 @@ msgid "Viewing pages for /r/%s"
 msgstr "Προβολή σελίδων του /r/%s"
 
 #: r2/lib/pages/wiki.py:209
-msgid "Below is a list of pages in this wiki visible to you in this subtippr."
+msgid "Below is a list of pages in this wiki visible to you in this vault."
 msgstr "Παρακάτω είναι μία λίστα από σελίδες βίκι που είναι εμφανείς σε εσας σε αυτό το υποtippr."
 
 #: r2/lib/pages/wiki.py:215
@@ -4586,8 +4586,8 @@ msgstr ""
 
 #: r2/models/link.py:2060
 #, python-format
-msgid "%(link)s by %(author)s in %(subtippr)s"
-msgstr "%(link)s από τον/την %(author)s στο %(subtippr)s"
+msgid "%(link)s by %(author)s in %(vault)s"
+msgstr "%(link)s από τον/την %(author)s στο %(vault)s"
 
 #: r2/models/link.py:2087
 msgid "comment score below threshold"
@@ -4603,37 +4603,37 @@ msgstr "αναφορές ονόματος χρήστη"
 
 #: r2/models/link.py:2684 r2/models/link.py:2746
 #, python-format
-msgid "from %(author)s via %(subtippr)s sent %(when)s"
-msgstr "από τον/την %(author)s μέσω του %(subtippr)s στάλθηκαν %(when)s"
+msgid "from %(author)s via %(vault)s sent %(when)s"
+msgstr "από τον/την %(author)s μέσω του %(vault)s στάλθηκαν %(when)s"
 
 #: r2/models/link.py:2698
-msgid "[message from blocked subtippr]"
+msgid "[message from blocked vault]"
 msgstr "[μήνυμα από μπλοκαρισμένο υποtippr]"
 
 #: r2/models/link.py:2718 r2/models/link.py:2724
 #, python-format
-msgid "subtippr message via %(subtippr)s sent %(when)s"
-msgstr "μήνυμα υποtippr μέσω του %(subtippr)s εστάλη %(when)s"
+msgid "vault message via %(vault)s sent %(when)s"
+msgstr "μήνυμα υποtippr μέσω του %(vault)s εστάλη %(when)s"
 
 #: r2/models/link.py:2728 r2/models/link.py:2751
 #, python-format
-msgid "to %(dest)s via %(subtippr)s sent %(when)s"
-msgstr "προς τον/την %(dest)s μέσω του %(subtippr)s εστάλη %(when)s"
+msgid "to %(dest)s via %(vault)s sent %(when)s"
+msgstr "προς τον/την %(dest)s μέσω του %(vault)s εστάλη %(when)s"
 
 #: r2/models/link.py:2732 r2/models/link.py:2757
 #, python-format
-msgid "from %(author)s via %(subtippr)s to %(dest)s sent %(when)s"
-msgstr "από τον/την %(author)s μέσω του %(subtippr)s προς τον/την %(dest)s εστάλη %(when)s"
+msgid "from %(author)s via %(vault)s to %(dest)s sent %(when)s"
+msgstr "από τον/την %(author)s μέσω του %(vault)s προς τον/την %(dest)s εστάλη %(when)s"
 
 #: r2/models/link.py:2749
 #, python-format
-msgid "to %(subtippr)s sent %(when)s"
-msgstr "προς το %(subtippr)s εστάλη %(when)s"
+msgid "to %(vault)s sent %(when)s"
+msgstr "προς το %(vault)s εστάλη %(when)s"
 
 #: r2/models/link.py:2754
 #, python-format
-msgid "from %(author)s to %(subtippr)s sent %(when)s"
-msgstr "από τον/την %(author)s προς το %(subtippr)s εστάλη %(when)s"
+msgid "from %(author)s to %(vault)s sent %(when)s"
+msgstr "από τον/την %(author)s προς το %(vault)s εστάλη %(when)s"
 
 #: r2/models/link.py:2773
 #, python-format
@@ -4680,13 +4680,13 @@ msgstr "μπλοκαρισμένοι χρήστες"
 
 #: r2/models/listing.py:238
 #, python-format
-msgid "users banned from /r/%(subtippr)s"
-msgstr "αποκλεισμένοι χρήστες από το /r/%(subtippr)s"
+msgid "users banned from /r/%(vault)s"
+msgstr "αποκλεισμένοι χρήστες από το /r/%(vault)s"
 
 #: r2/models/listing.py:269
 #, python-format
-msgid "users muted from /r/%(subtippr)s"
-msgstr "αποκλεισμένοι χρήστες από το /r/%(subtippr)s"
+msgid "users muted from /r/%(vault)s"
+msgstr "αποκλεισμένοι χρήστες από το /r/%(vault)s"
 
 #: r2/models/listing.py:287
 msgid "ban wiki contibutors"
@@ -4694,13 +4694,13 @@ msgstr "απαγόρευε τους συμβάλλοντες βίκι"
 
 #: r2/models/listing.py:291
 #, python-format
-msgid "wiki contibutors banned from /r/%(subtippr)s"
-msgstr "συμβάλλοντες βίκι αποκλεισμένοι από το /r/%(subtippr)s"
+msgid "wiki contibutors banned from /r/%(vault)s"
+msgstr "συμβάλλοντες βίκι αποκλεισμένοι από το /r/%(vault)s"
 
 #: r2/models/listing.py:299
 #, python-format
-msgid "approved submitters for /r/%(subtippr)s"
-msgstr "εγκεκριμένοι υποβάλλοντες για το /r/%(subtippr)s"
+msgid "approved submitters for /r/%(vault)s"
+msgstr "εγκεκριμένοι υποβάλλοντες για το /r/%(vault)s"
 
 #: r2/models/listing.py:304
 msgid "add approved submitter"
@@ -4708,8 +4708,8 @@ msgstr "προσθήκη εγκεκριμένου αποστολέας"
 
 #: r2/models/listing.py:311
 #, python-format
-msgid "approved wiki contributors for /r/%(subtippr)s"
-msgstr "εγκεκριμένοι συμβάλλοντες βίκι για το /r/%(subtippr)s"
+msgid "approved wiki contributors for /r/%(vault)s"
+msgstr "εγκεκριμένοι συμβάλλοντες βίκι για το /r/%(vault)s"
 
 #: r2/models/listing.py:316
 msgid "add approved wiki contributor"
@@ -4721,13 +4721,13 @@ msgstr "πρόσκληση επιβλέποντα"
 
 #: r2/models/listing.py:321 r2/templates/modlisting.html:33
 #, python-format
-msgid "you are a moderator of this subtippr. %(action)s"
+msgid "you are a moderator of this vault. %(action)s"
 msgstr "είσαι συντονιστής για αυτό το υποtippr. %(action)s"
 
 #: r2/models/listing.py:337
 #, python-format
-msgid "invited moderators for %(subtippr)s"
-msgstr "προσκληθέντες συντονιστές για %(subtippr)s"
+msgid "invited moderators for %(vault)s"
+msgstr "προσκληθέντες συντονιστές για %(vault)s"
 
 #: r2/models/listing.py:342
 msgid "force add moderator"
@@ -4735,8 +4735,8 @@ msgstr "εξαναγκασμένη προσθήκη διαχειρηστή"
 
 #: r2/models/listing.py:358
 #, python-format
-msgid "moderators of /r/%(subtippr)s"
-msgstr "διαχειριστές του /r/%(subtippr)s"
+msgid "moderators of /r/%(vault)s"
+msgstr "διαχειριστές του /r/%(vault)s"
 
 #: r2/models/mail_queue.py:356
 #, python-format
@@ -5054,7 +5054,7 @@ msgstr "αφαιρέθηκε"
 
 #: r2/models/modaction.py:120 r2/models/modaction.py:122 r2/models/modaction.py:159
 #: r2/templates/printablebuttons.html:53 r2/templates/printablebuttons.html:267
-#: r2/templates/renderablecampaign.html:193 r2/templates/subtipprinfobar.html:138
+#: r2/templates/renderablecampaign.html:193 r2/templates/vaultinfobar.html:138
 msgid "approved"
 msgstr "εγκεκριμένο"
 
@@ -5199,29 +5199,29 @@ msgstr "αφαίρεση ανεπιθύμητου"
 msgid "removed self"
 msgstr "αφαίρεση εαυτού"
 
-#: r2/models/modaction.py:167 r2/templates/createsubtippr.html:72
+#: r2/models/modaction.py:167 r2/templates/createvault.html:72
 #: r2/templates/newlink.html:208 r2/templates/newlink.html:232
 #: r2/templates/promotelinkbase.html:78
 #: ../../liveupdate/tippr_liveupdate/templates/liveupdateutils.html:25
 msgid "title"
 msgstr "τίτλος"
 
-#: r2/models/modaction.py:168 r2/templates/createsubtippr.html:86
+#: r2/models/modaction.py:168 r2/templates/createvault.html:86
 #: r2/templates/prefapps.html:147 r2/templates/prefapps.html:342
 #: ../../liveupdate/tippr_liveupdate/templates/liveupdateutils.html:31
 msgid "description"
 msgstr "περιγραφή"
 
-#: r2/models/modaction.py:169 r2/templates/createsubtippr.html:103
+#: r2/models/modaction.py:169 r2/templates/createvault.html:103
 msgid "sidebar"
 msgstr "πλαϊνή περιοχή"
 
-#: r2/models/modaction.py:170 r2/templates/createsubtippr.html:121
+#: r2/models/modaction.py:170 r2/templates/createvault.html:121
 #: r2/templates/languagetrafficsummary.html:33
 msgid "language"
 msgstr "γλώσσα"
 
-#: r2/models/modaction.py:171 r2/templates/createsubtippr.html:132
+#: r2/models/modaction.py:171 r2/templates/createvault.html:132
 msgid "type"
 msgstr "τύπος"
 
@@ -5293,7 +5293,7 @@ msgstr "διαγραφή εικόνας"
 msgid "delete banner image"
 msgstr "διαγραφή εικόνας επικεφαλίδας"
 
-#: r2/models/modaction.py:191 r2/templates/createsubtippr.html:508
+#: r2/models/modaction.py:191 r2/templates/createvault.html:508
 msgid "upload header image"
 msgstr "ανέβασμα εικόνας κεφαλίδας"
 
@@ -5354,7 +5354,7 @@ msgid "clear flair templates"
 msgstr "καθαρισμός προτύπων εμβλημάτων"
 
 #: r2/models/modaction.py:208 r2/public/static/js/link-websockets.js:260
-#: r2/templates/createsubtippr.html:544 r2/templates/createsubtippr.html:550
+#: r2/templates/createvault.html:544 r2/templates/createvault.html:550
 #: r2/templates/filteredinfobar.html:43 r2/templates/multiinfobar.html:125
 #: r2/templates/prefapps.html:79 r2/templates/printablebuttons.html:45
 #: r2/templates/printablebuttons.html:244 r2/templates/trophycase.html:48
@@ -5440,90 +5440,90 @@ msgstr ""
 msgid "Threatening, harassing, or inciting violence"
 msgstr ""
 
-#: r2/models/subtippr.py:319
+#: r2/models/vault.py:319
 msgid "red"
 msgstr "κόκκινο"
 
-#: r2/models/subtippr.py:320
+#: r2/models/vault.py:320
 msgid "orangered"
 msgstr "πορτοκαλοειδές"
 
-#: r2/models/subtippr.py:321
+#: r2/models/vault.py:321
 msgid "orange"
 msgstr "πορτοκαλί"
 
-#: r2/models/subtippr.py:322
+#: r2/models/vault.py:322
 msgid "mango"
 msgstr "μάνγκο"
 
-#: r2/models/subtippr.py:323
+#: r2/models/vault.py:323
 msgid "lime"
 msgstr "λεμονί"
 
-#: r2/models/subtippr.py:324
+#: r2/models/vault.py:324
 msgid "green"
 msgstr "πράσινο"
 
-#: r2/models/subtippr.py:325
+#: r2/models/vault.py:325
 msgid "mint"
 msgstr "μέντα"
 
-#: r2/models/subtippr.py:326
+#: r2/models/vault.py:326
 msgid "teal"
 msgstr "γαλαζοπράσινο"
 
-#: r2/models/subtippr.py:327
+#: r2/models/vault.py:327
 msgid "blue"
 msgstr "μπλέ"
 
-#: r2/models/subtippr.py:328
+#: r2/models/vault.py:328
 msgid "alien blue"
 msgstr "alien μπλε"
 
-#: r2/models/subtippr.py:329
+#: r2/models/vault.py:329
 msgid "pink"
 msgstr "ροζ"
 
-#: r2/models/subtippr.py:330
+#: r2/models/vault.py:330
 msgid "purple"
 msgstr "μωβ"
 
-#: r2/models/subtippr.py:332
+#: r2/models/vault.py:332
 msgid "brown"
 msgstr "καφέ"
 
-#: r2/models/subtippr.py:333
+#: r2/models/vault.py:333
 msgid "pale grey"
 msgstr "απαλό γκρι"
 
-#: r2/models/subtippr.py:334
+#: r2/models/vault.py:334
 msgid "grey"
 msgstr "γκρι"
 
-#: r2/models/subtippr.py:335
+#: r2/models/vault.py:335
 msgid "dark grey"
 msgstr "σκούρο γκρι"
 
-#: r2/models/subtippr.py:336
+#: r2/models/vault.py:336
 msgid "semi black"
 msgstr ""
 
-#: r2/models/subtippr.py:1918 r2/models/subtippr.py:1961
+#: r2/models/vault.py:1918 r2/models/vault.py:1961
 #, python-format
 msgid "%s (filtered)"
 msgstr "%s (φιλτραρισμένο)"
 
-#: r2/models/subtippr.py:2174
+#: r2/models/vault.py:2174
 #, python-format
 msgid "posts from %s"
 msgstr "αναρτήσεις από %s"
 
-#: r2/models/subtippr.py:2536
+#: r2/models/vault.py:2536
 #, python-format
-msgid "%s subtipprs curated by /u/%s"
+msgid "%s vaults curated by /u/%s"
 msgstr "%s υποtippr υπό την επιμέλεια του /u/%s"
 
-#: r2/models/subtippr.py:2862
+#: r2/models/vault.py:2862
 #, python-format
 msgid "%(domain)s on %(tippr.com)s"
 msgstr "%(domain)s στο %(tippr.com)s"
@@ -5565,7 +5565,7 @@ msgid "Manage My Flair"
 msgstr "Διαχείριση του εμβλήματος μου"
 
 #: r2/models/token.py:145
-msgid "Select my subtippr flair. Change link flair on my submissions."
+msgid "Select my vault flair. Change link flair on my submissions."
 msgstr ""
 
 #: r2/models/token.py:150
@@ -5589,7 +5589,7 @@ msgid "Approve submitters and ban users"
 msgstr ""
 
 #: r2/models/token.py:163
-msgid "Add/remove users to approved submitter lists and ban/unban or mute/unmute users from subtipprs I moderate."
+msgid "Add/remove users to approved submitter lists and ban/unban or mute/unmute users from vaults I moderate."
 msgstr ""
 
 #: r2/models/token.py:170
@@ -5597,7 +5597,7 @@ msgid "Moderate Flair"
 msgstr "Συντόνισε τα Εμβλήματα"
 
 #: r2/models/token.py:171
-msgid "Manage and assign flair in subtipprs I moderate."
+msgid "Manage and assign flair in vaults I moderate."
 msgstr "Διαχείριση εμβλημάτων στα υποtipprs που συντονίζω."
 
 #: r2/models/token.py:176
@@ -5613,15 +5613,15 @@ msgid "Moderate Posts"
 msgstr "Συντόνισε Αναρτήσεις"
 
 #: r2/models/token.py:183
-msgid "Approve, remove, mark nsfw, and distinguish content in subtipprs I moderate."
+msgid "Approve, remove, mark nsfw, and distinguish content in vaults I moderate."
 msgstr "Έγκριση, απόρριψη, μαρκάρισμα ως ακατάλληλο και ανάδειξη περιεχομένου στα υποtippr που είμαι συντονιστής."
 
 #: r2/models/token.py:189
-msgid "Moderate Subtippr Configuration"
+msgid "Moderate Vault Configuration"
 msgstr "Συντόνισε τις Ρυθμίσεις του Υποtippr"
 
 #: r2/models/token.py:190
-msgid "Manage the configuration, sidebar, and CSS of subtipprs I moderate."
+msgid "Manage the configuration, sidebar, and CSS of vaults I moderate."
 msgstr "Διαχείριση της ρύθμισης, πλαϊνής περιοχής και css των υποtippr τα οποία συντονίζω."
 
 #: r2/models/token.py:196
@@ -5629,7 +5629,7 @@ msgid "Moderation Log"
 msgstr "Αρχείο Συντονισμού"
 
 #: r2/models/token.py:197
-msgid "Access the moderation log in subtipprs I moderate."
+msgid "Access the moderation log in vaults I moderate."
 msgstr "Πρόσβαση στο αρχείο συντονισμού στα υποtippr που συντονίζω."
 
 #: r2/models/token.py:202
@@ -5637,23 +5637,23 @@ msgid "Invite or remove other moderators"
 msgstr ""
 
 #: r2/models/token.py:203
-msgid "Invite or remove other moderators from subtipprs I moderate."
+msgid "Invite or remove other moderators from vaults I moderate."
 msgstr ""
 
 #: r2/models/token.py:209
-msgid "Make changes to your subtippr moderator and contributor status"
+msgid "Make changes to your vault moderator and contributor status"
 msgstr ""
 
 #: r2/models/token.py:211
-msgid "Accept invitations to moderate a subtippr. Remove myself as a moderator or contributor of subtipprs I moderate or contribute to."
+msgid "Accept invitations to moderate a vault. Remove myself as a moderator or contributor of vaults I moderate or contribute to."
 msgstr ""
 
 #: r2/models/token.py:219
-msgid "Subtippr Traffic"
+msgid "Vault Traffic"
 msgstr "Κίνηση Υποtippr"
 
 #: r2/models/token.py:220
-msgid "Access traffic stats in subtipprs I moderate."
+msgid "Access traffic stats in vaults I moderate."
 msgstr "Πρόσβαση στα στατιστικά των υποtipprs που συντονίζω."
 
 #: r2/models/token.py:224
@@ -5661,15 +5661,15 @@ msgid "Moderate Wiki"
 msgstr ""
 
 #: r2/models/token.py:225
-msgid "Change editors and visibility of wiki pages in subtipprs I moderate."
+msgid "Change editors and visibility of wiki pages in vaults I moderate."
 msgstr ""
 
 #: r2/models/token.py:231
-msgid "My Subtipprs"
+msgid "My Vaults"
 msgstr "Τα Υποtippr μου"
 
 #: r2/models/token.py:232
-msgid "Access the list of subtipprs I moderate, contribute to, and subscribe to."
+msgid "Access the list of vaults I moderate, contribute to, and subscribe to."
 msgstr "Πρόσβαση στη λίστα των υποtippr που επιβλέπω, συνεισφέρω και έχω γραφτεί."
 
 #: r2/models/token.py:238
@@ -5717,7 +5717,7 @@ msgid "Edit My Subscriptions"
 msgstr "Επεξεργασία των Συνδρομών Μου"
 
 #: r2/models/token.py:266
-msgid "Manage my subtippr subscriptions. Manage \"friends\" - users whose content I follow."
+msgid "Manage my vault subscriptions. Manage \"friends\" - users whose content I follow."
 msgstr ""
 
 #: r2/models/token.py:271
@@ -5879,7 +5879,7 @@ msgid "parent"
 msgstr "γονέας"
 
 #: r2/public/static/js/link-websockets.js:261 r2/templates/printablebuttons.html:68
-#: r2/templates/promotelinkbase.html:1012 r2/templates/subtipprreportform.html:46
+#: r2/templates/promotelinkbase.html:1012 r2/templates/vaultreportform.html:46
 #: ../../liveupdate/tippr_liveupdate/templates/liveupdateeventapp.html:92
 msgid "report"
 msgstr "αναφορά"
@@ -5933,7 +5933,7 @@ msgid "You need to be logged in to give gold."
 msgstr ""
 
 #: r2/public/static/js/login.js:139
-msgid "You need to be logged in to subscribe to subtipprs."
+msgid "You need to be logged in to subscribe to vaults."
 msgstr ""
 
 #: r2/public/static/js/login.js:144 r2/public/static/js/login.js:149
@@ -5969,7 +5969,7 @@ msgid "awesomeness goes here"
 msgstr "η τελειότητα πάει εδώ"
 
 #: r2/public/static/js/multi.js:520
-msgid "add a subtippr to your multi."
+msgid "add a vault to your multi."
 msgstr "πρόσθεσε ένα υποtippr στο πολυtippr σου"
 
 #: r2/public/static/js/multi.js:573
@@ -6081,7 +6081,7 @@ msgstr "αποστολή"
 #: r2/templates/linkcommentssettings.html:75 r2/templates/printablebuttons.html:405
 #: r2/templates/promotelinkedit.html:133 r2/templates/renderablecampaign.html:258
 #: r2/templates/reportform.html:68 r2/templates/rules.html:134
-#: r2/templates/subtipprreportform.html:43
+#: r2/templates/vaultreportform.html:43
 msgid "cancel"
 msgstr "άκυρο"
 
@@ -6147,7 +6147,7 @@ msgstr "καμία κατηγορία"
 #: r2/templates/prefupdate.html:53 r2/templates/prefupdate.html:147
 #: r2/templates/prefupdate.html:204 r2/templates/printablebuttons.html:360
 #: r2/templates/printablebuttons.html:475 r2/templates/promotelinkedit.html:237
-#: r2/templates/subtipprstylesheet.html:68
+#: r2/templates/vaultstylesheet.html:68
 #: ../../liveupdate/tippr_liveupdate/templates/liveupdatecontributorpermissions.html:29
 msgid "save"
 msgstr "αποθήκευση"
@@ -6229,7 +6229,7 @@ msgid "we have insufficient available inventory targeting %(target)s to fulfill 
 msgstr ""
 
 #: r2/public/static/js/sponsored.js:398
-msgid "please select at least one subtippr"
+msgid "please select at least one vault"
 msgstr ""
 
 #: r2/public/static/js/sponsored.js:399
@@ -6265,7 +6265,7 @@ msgstr ""
 
 #: r2/public/static/js/sr-autocomplete.js:494
 #, python-format
-msgid "the maximum number of subtipprs you can target is %(num)s"
+msgid "the maximum number of vaults you can target is %(num)s"
 msgstr ""
 
 #: r2/public/static/js/sr-autocomplete.js:500
@@ -6308,7 +6308,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: r2/public/static/js/traffic.js:11
-msgid "view subtippr traffic"
+msgid "view vault traffic"
 msgstr "προβολή κίνησης υποtippr"
 
 #: r2/public/static/js/traffic.js:13 r2/templates/flairlist.html:31
@@ -6548,7 +6548,7 @@ msgid "ad"
 msgstr "διαφήμιση"
 
 #: r2/templates/allinfobar.html:29
-msgid "Exclude your subscribed subtipprs"
+msgid "Exclude your subscribed vaults"
 msgstr "Eξαίρεσε τα υποtippr που έχεις εγγραφεί"
 
 #: r2/templates/allinfobar.html:35
@@ -6559,8 +6559,8 @@ msgstr "Δείτε επιχρυσωμένα σχόλια και αναρτήσε
 msgid "This endpoint expects JSON data of this format"
 msgstr ""
 
-#: r2/templates/archivedinterstitial.html:31 r2/templates/createsubtippr.html:147
-#: r2/templates/searchresultsubtippr.html:102
+#: r2/templates/archivedinterstitial.html:31 r2/templates/createvault.html:147
+#: r2/templates/searchresultvault.html:102
 msgid "archived"
 msgstr "αρχειοθετημένο"
 
@@ -6743,7 +6743,7 @@ msgstr ""
 
 #: r2/templates/comment.html:120
 #, python-format
-msgid "this subtippr hides comment scores for %d minutes"
+msgid "this vault hides comment scores for %d minutes"
 msgstr "αυτό το υποtippr κρύβει τους βαθμούς σχολίων για %d λεπτά"
 
 #: r2/templates/comment.html:125 r2/templates/comment.htmllite:57
@@ -6751,7 +6751,7 @@ msgid "score hidden"
 msgstr "κρυμμένη βαθμολογία"
 
 #: r2/templates/comment.html:137
-msgid "selected by this subtippr's moderators"
+msgid "selected by this vault's moderators"
 msgstr ""
 
 #: r2/templates/comment.html:137
@@ -6804,355 +6804,355 @@ msgstr "Ναι, παρακαλώ!"
 msgid "\"In 5-billion years the Sun will expand and engulf our orbit as the charred ember that was once Earth vaporizes. Have a nice day.\""
 msgstr ""
 
-#: r2/templates/createsubtippr.html:41
+#: r2/templates/createvault.html:41
 msgid "\n"
-"# your account is too new to create a subtippr\n"
+"# your account is too new to create a vault\n"
 "    \n"
 "try participating in other communities on tippr for a little while first before creating your own. please post to /r/help if you need more information about this restriction, or if you require a specific exemption you can [contact the admins](/contact) to request one.\n"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:57
+#: r2/templates/createvault.html:57
 msgid "no spaces, e.g., \"books\" or \"bookclub\". avoid using solely trademarked names, e.g. use \"FansOfAcme\" instead of \"Acme\". once chosen, this name cannot be changed."
 msgstr ""
 
-#: r2/templates/createsubtippr.html:57 r2/templates/goldpayment.html:171
+#: r2/templates/createvault.html:57 r2/templates/goldpayment.html:171
 #: r2/templates/listingchooser.html:60 r2/templates/prefapps.html:140
 #: r2/templates/prefapps.html:334
 msgid "name"
 msgstr "όνομα"
 
-#: r2/templates/createsubtippr.html:72
+#: r2/templates/createvault.html:72
 msgid "e.g., books: made from trees or pixels. recommendations, news, or thoughts"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:86
+#: r2/templates/createvault.html:86
 msgid "Appears in search results and social media links. 500 characters max."
 msgstr ""
 
-#: r2/templates/createsubtippr.html:102
+#: r2/templates/createvault.html:102
 #, python-format
-msgid "shown in the sidebar of your subtippr. %d characters max.config/sidebar"
+msgid "shown in the sidebar of your vault. %d characters max.config/sidebar"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:112
+#: r2/templates/createvault.html:112
 msgid "text to show on submission page. 1024 characters max."
 msgstr ""
 
-#: r2/templates/createsubtippr.html:112
+#: r2/templates/createvault.html:112
 msgid "submission text"
 msgstr "κείμενο υποβολής"
 
-#: r2/templates/createsubtippr.html:135 r2/templates/multiinfobar.html:41
+#: r2/templates/createvault.html:135 r2/templates/multiinfobar.html:41
 msgid "public"
 msgstr "δημόσιο"
 
-#: r2/templates/createsubtippr.html:136
+#: r2/templates/createvault.html:136
 msgid "anyone can view and submit"
 msgstr "όλοι μπορούν να το δουν και να υποβάλλουν συνδέσμους"
 
-#: r2/templates/createsubtippr.html:138
-#: r2/templates/searchresultsubtippr.html:100
+#: r2/templates/createvault.html:138
+#: r2/templates/searchresultvault.html:100
 msgid "restricted"
 msgstr "περιορισμένο"
 
-#: r2/templates/createsubtippr.html:139
+#: r2/templates/createvault.html:139
 msgid "anyone can view, but only some are approved to submit links"
 msgstr "όλοι μπορούν να το δουν, αλλά μόνο ορισμένοι μπορούν να υποβάλλουν συνδέσμους"
 
-#: r2/templates/createsubtippr.html:142
+#: r2/templates/createvault.html:142
 msgid "only approved members can view and submit"
 msgstr "μόνο εγκεκριμένα μέλη μπορούν να δουν και να υποβάλλουν συνδέσμους"
 
-#: r2/templates/createsubtippr.html:148
+#: r2/templates/createvault.html:148
 msgid "anyone can view, but submissions are no longer accepted"
 msgstr "όλοι μπορούν να δουν, αλλά δεν επιτρέπονται πια υποβολές"
 
-#: r2/templates/createsubtippr.html:154
+#: r2/templates/createvault.html:154
 msgid "gold restricted"
 msgstr "μόνο για χρυσά μέλη tippr"
 
-#: r2/templates/createsubtippr.html:155
+#: r2/templates/createvault.html:155
 msgid "anyone can view, but only tippr gold members can submit or comment"
 msgstr "οποιοσδήποτε μπορεί να το δει, αλλά μόνο χρυσά μέλη μπορούν να υποβάλλουν συνδέσμους και να σχολιάσουν."
 
-#: r2/templates/createsubtippr.html:161
+#: r2/templates/createvault.html:161
 msgid "employees only"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:162
+#: r2/templates/createvault.html:162
 msgid "only tippr employees can view; the employee list is pulled from live config"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:172
-msgid "If you switch this subtippr to another type, you will not be able to switch back to \"gold only\" without the assistance of an admin"
+#: r2/templates/createvault.html:172
+msgid "If you switch this vault to another type, you will not be able to switch back to \"gold only\" without the assistance of an admin"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:177 r2/templates/goldonlyinterstitial.html:33
+#: r2/templates/createvault.html:177 r2/templates/goldonlyinterstitial.html:33
 msgid "gold only"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:178
+#: r2/templates/createvault.html:178
 msgid "only tippr gold members can view and submit"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:189 r2/templates/prefoptions.html:339
+#: r2/templates/createvault.html:189 r2/templates/prefoptions.html:339
 msgid "content options"
 msgstr "επιλογές περιεχομένου"
 
-#: r2/templates/createsubtippr.html:192
+#: r2/templates/createvault.html:192
 msgid "any"
 msgstr "οτιδήποτε"
 
-#: r2/templates/createsubtippr.html:193
+#: r2/templates/createvault.html:193
 msgid "any link type is allowed"
 msgstr "οτιδήποτε είδος συνδέσμου επιτρέπεται"
 
-#: r2/templates/createsubtippr.html:195
+#: r2/templates/createvault.html:195
 msgid "links only"
 msgstr "μόνο εξωτερικοί σύνδεσμοι"
 
-#: r2/templates/createsubtippr.html:196
+#: r2/templates/createvault.html:196
 msgid "only links to external sites are allowed"
 msgstr "μόνο σύνδεσμοι σε άλλα site επιτρέπονται"
 
-#: r2/templates/createsubtippr.html:198
+#: r2/templates/createvault.html:198
 msgid "text posts only"
 msgstr "μόνο αναρτήσεις κειμένου"
 
-#: r2/templates/createsubtippr.html:199
+#: r2/templates/createvault.html:199
 msgid "only text/self posts are allowed"
 msgstr "μόνο δημοσιεύσεις κειμένου/σχολίων επιτρέπονται"
 
-#: r2/templates/createsubtippr.html:206
+#: r2/templates/createvault.html:206
 msgid "Custom label for submit link button (blank for default):"
 msgstr "Προσαρμοσμένη ετικέτα για το κουμπί υποβολής συνδέσμου (κενό για το εξ' ορισμού):"
 
-#: r2/templates/createsubtippr.html:214
+#: r2/templates/createvault.html:214
 msgid "Custom label for submit text post button (blank for default):"
 msgstr "Προσαρμοσμένη ετικέτα για το κουμπί υποβολής ανάρτησης κειμένου (κενό για το εξ' ορισμού):"
 
-#: r2/templates/createsubtippr.html:226
+#: r2/templates/createvault.html:226
 msgid "disabled"
 msgstr "απενεργοποιημένο"
 
-#: r2/templates/createsubtippr.html:227
+#: r2/templates/createvault.html:227
 msgid "Wiki is disabled for all users except mods"
 msgstr "το βίκι έχει απενεργοποιηθεί για όλους τους χρήστες εκτός από τους συντονιστές"
 
-#: r2/templates/createsubtippr.html:229
+#: r2/templates/createvault.html:229
 msgid "mod editing"
 msgstr "επεξεργασία συντονιστών"
 
-#: r2/templates/createsubtippr.html:230
+#: r2/templates/createvault.html:230
 msgid "Only mods, approved wiki contributors, or those on a page's edit list may edit"
 msgstr "Μόνο οι επιβλέποντες, οι εγκεκριμένοι συνεργάτες βίκι, ή αυτοί που βρίσκονται στη λίστα επεξεργασίας της σελίδας μπορούν να επεξεργαστούν"
 
-#: r2/templates/createsubtippr.html:232
+#: r2/templates/createvault.html:232
 msgid "anyone"
 msgstr "οποιοσδήποτε"
 
-#: r2/templates/createsubtippr.html:233
-msgid "Anyone who can submit to the subtippr may edit"
+#: r2/templates/createvault.html:233
+msgid "Anyone who can submit to the vault may edit"
 msgstr "Όποιος μπορεί να υποβάλει στο υποtippr μπορεί να το επεξεργαστεί"
 
-#: r2/templates/createsubtippr.html:240
-msgid "Subtippr karma required to edit and create wiki pages:"
+#: r2/templates/createvault.html:240
+msgid "Vault karma required to edit and create wiki pages:"
 msgstr "Κάρμα υποtippr που χρειάζεται για να επεξεργαστείς και να δημιουργήσεις σελίδες βίκι:"
 
-#: r2/templates/createsubtippr.html:250
+#: r2/templates/createvault.html:250
 msgid "Account age (days) required to edit and create wiki pages:"
 msgstr "Ηλικία λογαριασμού (σε μέρες) που χρειάζεται για να επεξεργαστείς και να δημιουργήσεις σελίδες βίκι:"
 
-#: r2/templates/createsubtippr.html:262
+#: r2/templates/createvault.html:262
 msgid "spam filter strength"
 msgstr "δύναμη φίλτρου spam"
 
-#: r2/templates/createsubtippr.html:264
+#: r2/templates/createvault.html:264
 msgid "high is the standard filter, low disables most filtering, all will filter every post initially and they will need to be approved manually to be visible."
 msgstr ""
 
-#: r2/templates/createsubtippr.html:269 r2/templates/createsubtippr.html:280
-#: r2/templates/createsubtippr.html:291
+#: r2/templates/createvault.html:269 r2/templates/createvault.html:280
+#: r2/templates/createvault.html:291
 msgid "low"
 msgstr "χαμηλό"
 
-#: r2/templates/createsubtippr.html:271 r2/templates/createsubtippr.html:282
-#: r2/templates/createsubtippr.html:293
+#: r2/templates/createvault.html:271 r2/templates/createvault.html:282
+#: r2/templates/createvault.html:293
 msgid "high"
 msgstr "υψηλό"
 
-#: r2/templates/createsubtippr.html:278
+#: r2/templates/createvault.html:278
 msgid "self posts"
 msgstr "αναρτήσεις κειμένου"
 
-#: r2/templates/createsubtippr.html:303
+#: r2/templates/createvault.html:303
 #: ../../liveupdate/tippr_liveupdate/templates/liveupdateeventconfiguration.html:12
 msgid "other options"
 msgstr "άλλες επιλογές"
 
-#: r2/templates/createsubtippr.html:314
+#: r2/templates/createvault.html:314
 #: ../../liveupdate/tippr_liveupdate/templates/liveupdateeventconfiguration.html:20
 msgid "viewers must be over eighteen years old"
 msgstr "όσοι το βλέπουν πρέπει να είναι πάνω από 18 χρονών"
 
-#: r2/templates/createsubtippr.html:326
-msgid "allow this subtippr to be included /r/all as well as the default and trending lists"
+#: r2/templates/createvault.html:326
+msgid "allow this vault to be included /r/all as well as the default and trending lists"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:337
+#: r2/templates/createvault.html:337
 msgid "enable marking posts as containing spoilers"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:348
+#: r2/templates/createvault.html:348
 msgid "show thumbnail images of content"
 msgstr "προβολή μικρών εικόνων για το περιεχόμενο"
 
-#: r2/templates/createsubtippr.html:359
+#: r2/templates/createvault.html:359
 msgid "expand media previews on comments pages"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:370
+#: r2/templates/createvault.html:370
 msgid "allow image uploads and links to image hosting sites"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:382
+#: r2/templates/createvault.html:382
 msgid "exclude posts by site-wide banned users from modqueue/unmoderated"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:390
+#: r2/templates/createvault.html:390
 msgid "make the traffic stats page available to everyone"
 msgstr "κάνε την σελίδα στατιστικών κίνησης διαθέσιμη σε όλους"
 
-#: r2/templates/createsubtippr.html:401
+#: r2/templates/createvault.html:401
 msgid "collapse deleted and removed comments"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:413
-msgid "hide ads (only available for gold only subtipprs)"
+#: r2/templates/createvault.html:413
+msgid "hide ads (only available for gold only vaults)"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:420
+#: r2/templates/createvault.html:420
 msgid "suggested comment sort"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:420
+#: r2/templates/createvault.html:420
 msgid "(all comment threads will use this sorting method by default)"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:422
-msgid "none (recommended for most subtipprs)"
+#: r2/templates/createvault.html:422
+msgid "none (recommended for most vaults)"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:431
+#: r2/templates/createvault.html:431
 msgid "Minutes to hide comment scores:"
 msgstr "Λεπτά απόκρυψης του σκορ των σχολίων:"
 
-#: r2/templates/createsubtippr.html:453 r2/templates/usertext.html:155
+#: r2/templates/createvault.html:453 r2/templates/usertext.html:155
 #: r2/templates/wikieditpage.html:46
 msgid "hide help"
 msgstr "απόκρυψη βοήθειας"
 
-#: r2/templates/createsubtippr.html:457
+#: r2/templates/createvault.html:457
 msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.tippr.com. You will be able to access your tippr through your domain."
 msgstr "Σου ανήκει ένας ιστοτόπος;  Βάλτο εδώ και μετά πήγαινε στον παροχέα  DNS σου και πρόσθεσε μια εγγραφή CNAME που θα προωθεί τον ιστοτόπο σου στο rhs.tippr.com. Θα μπορείς να συνδεθείς με το tippr σου μέσα από τον ιστοτόπο σου."
 
-#: r2/templates/createsubtippr.html:464
+#: r2/templates/createvault.html:464
 msgid "look and feel"
 msgstr "εμφάνιση"
 
-#: r2/templates/createsubtippr.html:471
-msgid "subtippr name to use as theme"
+#: r2/templates/createvault.html:471
+msgid "vault name to use as theme"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:479
-msgid "There is a newer version of your subtippr theme available. Update to the latest version?"
+#: r2/templates/createvault.html:479
+msgid "There is a newer version of your vault theme available. Update to the latest version?"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:484
+#: r2/templates/createvault.html:484
 msgid "update theme"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:494
+#: r2/templates/createvault.html:494
 msgid "edit the stylesheet"
 msgstr "επεξεργασία του στυλ"
 
-#: r2/templates/createsubtippr.html:498
+#: r2/templates/createvault.html:498
 msgid "leaves this page"
 msgstr "φεύγει από αυτή τη σελίδα"
 
-#: r2/templates/createsubtippr.html:518
+#: r2/templates/createvault.html:518
 msgid "restore default header"
 msgstr "επαναφορά εξ' ορισμού επικεφαλίδας"
 
-#: r2/templates/createsubtippr.html:538
-msgid "related subtipprs"
+#: r2/templates/createvault.html:538
+msgid "related vaults"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:540
-msgid "similar or related subtipprs."
+#: r2/templates/createvault.html:540
+msgid "similar or related vaults."
 msgstr ""
 
-#: r2/templates/createsubtippr.html:616
+#: r2/templates/createvault.html:616
 msgid "new modmail enrollment"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:620
+#: r2/templates/createvault.html:620
 msgid "You have enrolled in the new modmail, if you wish to unenroll please"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:626
+#: r2/templates/createvault.html:626
 msgid "Once chosen this can not be undone, please make sure your entire team is ready."
 msgstr ""
 
-#: r2/templates/createsubtippr.html:635
+#: r2/templates/createvault.html:635
 msgid "Enroll"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:645
+#: r2/templates/createvault.html:645
 msgid "mobile look and feel"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:649
+#: r2/templates/createvault.html:649
 msgid "icon image"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:649
+#: r2/templates/createvault.html:649
 msgid "icon must be 256x256 pixels. PNG or JPG only."
 msgstr ""
 
-#: r2/templates/createsubtippr.html:658
+#: r2/templates/createvault.html:658
 msgid "remove custom icon image"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:667
+#: r2/templates/createvault.html:667
 msgid "header image"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:667
+#: r2/templates/createvault.html:667
 msgid "header should have 10:3 aspect ratio. PNG or JPG only."
 msgstr ""
 
-#: r2/templates/createsubtippr.html:668
+#: r2/templates/createvault.html:668
 msgid "minimum size: 640x192px"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:668
+#: r2/templates/createvault.html:668
 msgid "maximum size: 1280x384px"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:677
+#: r2/templates/createvault.html:677
 msgid "remove custom header image"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:687
+#: r2/templates/createvault.html:687
 msgid "color"
 msgstr "χρώμα"
 
-#: r2/templates/createsubtippr.html:687
-msgid "used as a thematic color for your subtippr on mobile"
+#: r2/templates/createvault.html:687
+msgid "used as a thematic color for your vault on mobile"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:718 r2/templates/flairpane.html:88
+#: r2/templates/createvault.html:718 r2/templates/flairpane.html:88
 #: r2/templates/personalizedads.html:79 r2/templates/prefoptions.html:493
 #: r2/templates/usermessagingprefs.html:26
 msgid "save options"
@@ -7219,11 +7219,11 @@ msgid "try again"
 msgstr "δοκίμασε ξανά"
 
 #: r2/templates/filteredinfobar.html:49
-msgid "filter subtippr"
+msgid "filter vault"
 msgstr ""
 
 #: r2/templates/filteredinfobar.html:49 r2/templates/modlisting.html:55
-#: r2/templates/subtipprselector.html:33 r2/templates/userlisting.html:96
+#: r2/templates/vaultselector.html:33 r2/templates/userlisting.html:96
 #: r2/templates/wikipagesettings.html:67
 msgid "add"
 msgstr "προσθήκη"
@@ -7278,7 +7278,7 @@ msgid "flair options"
 msgstr "επιλογές εμβλημάτων"
 
 #: r2/templates/flairpane.html:39
-msgid "enable user flair in this subtippr"
+msgid "enable user flair in this vault"
 msgstr "επέτρεψε εμβλήματα χρηστών σε αυτό το υποtippr"
 
 #: r2/templates/flairpane.html:50
@@ -7326,7 +7326,7 @@ msgid "position flair to the right of the link"
 msgstr "έμβλημα δεξιά από την ανάρτηση"
 
 #: r2/templates/flairprefs.html:31
-msgid "Show my flair on this subtippr. It looks like:"
+msgid "Show my flair on this vault. It looks like:"
 msgstr "Προβολή του εμβλήματός μου σε αυτό το υποtippr. Φαίνεται ως εξής:"
 
 #: r2/templates/flairselector.html:23
@@ -7530,7 +7530,7 @@ msgid "You must be a Tippr Gold member to view this super secret community"
 msgstr ""
 
 #: r2/templates/goldonlyinterstitial.html:41
-msgid "The moderators of this community have set it to [Tippr Gold only](/gold/about#gold-only-subtipprs). You must be a [Tippr Gold member](/gold/about) to visit."
+msgid "The moderators of this community have set it to [Tippr Gold only](/gold/about#gold-only-vaults). You must be a [Tippr Gold member](/gold/about) to visit."
 msgstr ""
 
 #: r2/templates/goldonlyinterstitial.html:47
@@ -7655,12 +7655,12 @@ msgstr "Χθεσινός στόχος χρυσού του tippr"
 
 #: r2/templates/interestbar.html:27
 #, python-format
-msgid "ready for something new? %s subscribe %s to some new subtipprs."
+msgid "ready for something new? %s subscribe %s to some new vaults."
 msgstr "έτοιμος για κάτι νέο; %s γράψου %s σε μερικά υποtippr."
 
 #: r2/templates/interestbar.html:29
 #, python-format
-msgid "it looks like you haven't %s subscribed %s to any subtipprs yet. want some ideas?"
+msgid "it looks like you haven't %s subscribed %s to any vaults yet. want some ideas?"
 msgstr "φαίνεται ότι δεν έχεις %s γραφτεί %s σε κανένα υποtippr ακόμα. θες μερικές ιδέες;"
 
 #: r2/templates/interestbar.html:35
@@ -7820,7 +7820,7 @@ msgid "comments from %(site)s"
 msgstr "σχόλια από %(site)s"
 
 #: r2/templates/listing.html:64 r2/templates/searchlisting.html:68
-#: r2/templates/subtipprstylesheetsource.html:52 r2/templates/tablelisting.html:64
+#: r2/templates/vaultstylesheetsource.html:52 r2/templates/tablelisting.html:64
 msgid "there doesn't seem to be anything here"
 msgstr "δεν φαίνεται να υπάρχει κάτι εδώ"
 
@@ -7841,7 +7841,7 @@ msgid "multitipprs"
 msgstr "πολυtippr"
 
 #: r2/templates/listingchooser.html:48
-msgid "new! create sets of subtipprs to view together."
+msgid "new! create sets of vaults to view together."
 msgstr "νέο! δημιούργησε σύνολα από υποtipprs για να τα βλέπεις μαζί."
 
 #: r2/templates/listingchooser.html:49
@@ -7853,7 +7853,7 @@ msgid "to hide these samples, create a multi of your own:"
 msgstr "για να κρύψεις αυτά τα δείγματα, δημιουργείστε ένα δικό σας πολυtippr: "
 
 #: r2/templates/listingsuggestions.html:30
-msgid "explore some new subtipprs"
+msgid "explore some new vaults"
 msgstr ""
 
 #: r2/templates/listingsuggestions.html:32
@@ -7862,11 +7862,11 @@ msgstr ""
 
 #: r2/templates/listingsuggestions.html:38
 #, python-format
-msgid "or try a %(random_subtippr)s"
-msgstr "ή δοκίμασε ένα %(random_subtippr)s"
+msgid "or try a %(random_vault)s"
+msgstr "ή δοκίμασε ένα %(random_vault)s"
 
 #: r2/templates/listingsuggestions.html:39
-msgid "random subtippr"
+msgid "random vault"
 msgstr "τυχαίο υποtippr"
 
 #: r2/templates/livecomments.html:24
@@ -7875,7 +7875,7 @@ msgstr ""
 
 #: r2/templates/locationbar.html:24
 #, python-format
-msgid "using the default subtipprs for your location (%(location)s)"
+msgid "using the default vaults for your location (%(location)s)"
 msgstr "προεπιλεγμένα υποtippr για την τοποθεσία σου (%(location)s)"
 
 #: r2/templates/locationbar.html:27
@@ -8015,7 +8015,7 @@ msgid "to"
 msgstr "προς"
 
 #: r2/templates/messagecompose.html:64
-msgid "(username, or /r/name for that subtippr's moderators)"
+msgid "(username, or /r/name for that vault's moderators)"
 msgstr ""
 
 #: r2/templates/messagecompose.html:82
@@ -8041,7 +8041,7 @@ msgstr ""
 msgid "from"
 msgstr ""
 
-#: r2/templates/modlisting.html:30 r2/templates/subtipprinfobar.html:86
+#: r2/templates/modlisting.html:30 r2/templates/vaultinfobar.html:86
 #: ../../liveupdate/tippr_liveupdate/templates/liveupdatecontributorlisting.html:8
 msgid "leave"
 msgstr "αποχώρηση"
@@ -8074,11 +8074,11 @@ msgid "you are invited to become a moderator. %(action)s"
 msgstr "έχεις προσκληθεί να γίνεις συντονιστής. %(action)s"
 
 #: r2/templates/modsrinfobar.html:31
-msgid "/r/mod shows only subtipprs you moderate."
+msgid "/r/mod shows only vaults you moderate."
 msgstr "το /r/mod δείχνει μόνο υποtippr που συντονίζεις."
 
 #: r2/templates/modsrinfobar.html:34
-msgid "filter out subtipprs"
+msgid "filter out vaults"
 msgstr ""
 
 #: r2/templates/morechildren.html:37
@@ -8151,10 +8151,10 @@ msgstr "επεξεργασία περιγραφής"
 
 #: r2/templates/multiinfobar.html:120
 #, python-format
-msgid "%(count)s subtipprs in this multi:"
+msgid "%(count)s vaults in this multi:"
 msgstr "%(count)s υποtippr σε αυτό το πολλαπλό:"
 
-#: r2/templates/multiinfobar.html:139 r2/templates/subtipprinfobar.html:119
+#: r2/templates/multiinfobar.html:139 r2/templates/vaultinfobar.html:119
 #, python-format
 msgid "created by %(user)s"
 msgstr "δημιουργήθηκε από %(user)s"
@@ -8180,11 +8180,11 @@ msgid "would you like to..."
 msgstr "θα ήθελες..."
 
 #: r2/templates/multiinfobar.html:165
-msgid "check out subtipprs by category"
+msgid "check out vaults by category"
 msgstr "Δες τα υποtippr ανα κατηγορία"
 
 #: r2/templates/multiinfobar.html:170
-msgid "explore a random subtippr"
+msgid "explore a random vault"
 msgstr "εξερεύνησε ένα τυχαίο υποtippr"
 
 #: r2/templates/multiinfobar.html:175
@@ -8228,7 +8228,7 @@ msgid "suggest title"
 msgstr "πρότεινε τίτλο"
 
 #: r2/templates/newlink.html:274
-msgid "choose a subtippr"
+msgid "choose a vault"
 msgstr "επιλέξτε ένα υποtippr"
 
 #: r2/templates/newlink.html:281
@@ -8537,7 +8537,7 @@ msgid "Ads you see on Tippr will be delivered based on your prior use of our Ser
 msgstr ""
 
 #: r2/templates/personalizedads.html:43
-msgid "For example: If you frequently visit gaming subtipprs, you're more likely to see an ad for a game rather than an ad for celebrity news."
+msgid "For example: If you frequently visit gaming vaults, you're more likely to see an ad for a game rather than an ad for celebrity news."
 msgstr ""
 
 #: r2/templates/personalizedads.html:46
@@ -8647,7 +8647,7 @@ msgid "Only in:"
 msgstr "Μόνο σε:"
 
 #: r2/templates/prefapps.html:235
-msgid "Only in the subtipprs:"
+msgid "Only in the vaults:"
 msgstr "Μόνο στα υποtippr:"
 
 #: r2/templates/prefapps.html:253 r2/templates/prefapps.html:264
@@ -8838,7 +8838,7 @@ msgid "location options"
 msgstr ""
 
 #: r2/templates/prefoptions.html:133
-msgid "use the global default subtipprs for my front page"
+msgid "use the global default vaults for my front page"
 msgstr "χρησιμοποίησε τα παγκόσμια προεπιλεγμένα υποtippr για την αρχική μου σελίδα"
 
 #: r2/templates/prefoptions.html:135
@@ -8866,7 +8866,7 @@ msgid "don't show thumbnails next to links"
 msgstr "μην δείχνεις μικρογραφίες δίπλα στους συνδέσμους"
 
 #: r2/templates/prefoptions.html:153
-msgid "show thumbnails based on that subtippr's media preferences"
+msgid "show thumbnails based on that vault's media preferences"
 msgstr "δείξε μικρογραφίες ανάλογα με τις ρυθμίσεις μέσων του συγκεγκριμένου υποtippr"
 
 #: r2/templates/prefoptions.html:155
@@ -8886,7 +8886,7 @@ msgid "don't auto-expand media previews on comments pages"
 msgstr ""
 
 #: r2/templates/prefoptions.html:163
-msgid "expand media previews based on that subtippr's media preferences"
+msgid "expand media previews based on that vault's media preferences"
 msgstr ""
 
 #: r2/templates/prefoptions.html:166
@@ -8914,11 +8914,11 @@ msgid "(it shows new and promoted links, and gives you a say in what's spam and 
 msgstr "(δείχνει νέους και διαφημιζόμενους συνδέσμους και σου δίνει τη δυνατότητα να έχεις άποψη για το τι είναι ανεπιθύμητo και τι όχι.) "
 
 #: r2/templates/prefoptions.html:185
-msgid "show trending subtipprs on the front page"
+msgid "show trending vaults on the front page"
 msgstr "εμφάνιζε τις τάσεις υποtippr στην αρχική σελίδα"
 
 #: r2/templates/prefoptions.html:188
-msgid "(a list of popular and notable subtipprs to check out)"
+msgid "(a list of popular and notable vaults to check out)"
 msgstr ""
 
 #: r2/templates/prefoptions.html:192
@@ -8934,7 +8934,7 @@ msgid "show additional details in the domain text when available"
 msgstr ""
 
 #: r2/templates/prefoptions.html:197
-msgid "(such as the source subtippr or the content author's url/name)"
+msgid "(such as the source vault or the content author's url/name)"
 msgstr ""
 
 #: r2/templates/prefoptions.html:200
@@ -8977,7 +8977,7 @@ msgid "ignore suggested sorts"
 msgstr ""
 
 #: r2/templates/prefoptions.html:229
-msgid "(suggested sorts may be set by community moderators for specific threads or subtipprs, like Q&As)"
+msgid "(suggested sorts may be set by community moderators for specific threads or vaults, like Q&As)"
 msgstr ""
 
 #: r2/templates/prefoptions.html:232
@@ -9075,11 +9075,11 @@ msgid "display options"
 msgstr "επιλογές εμφάνισης"
 
 #: r2/templates/prefoptions.html:317
-msgid "allow subtipprs to show me custom themes"
+msgid "allow vaults to show me custom themes"
 msgstr ""
 
 #: r2/templates/prefoptions.html:320
-msgid "(you can also choose which subtippr themes to disable on an individual level)"
+msgid "(you can also choose which vault themes to disable on an individual level)"
 msgstr ""
 
 #: r2/templates/prefoptions.html:324
@@ -9103,7 +9103,7 @@ msgid "I am over eighteen years old and willing to view adult content"
 msgstr "είμαι πάνω από 18 χρονών και προτίθεμαι να δω περιεχόμενο για ενήλικες"
 
 #: r2/templates/prefoptions.html:342
-msgid "required to view some subtipprs"
+msgid "required to view some vaults"
 msgstr "υποχρεωτικό για να δεις κάποια υποtippr"
 
 #: r2/templates/prefoptions.html:344
@@ -9207,7 +9207,7 @@ msgstr ""
 
 #: r2/templates/prefoptions.html:439
 #, python-format
-msgid "since you don't have %(gold_link)s, this will only apply in subtipprs you moderate"
+msgid "since you don't have %(gold_link)s, this will only apply in vaults you moderate"
 msgstr ""
 
 #: r2/templates/prefoptions.html:447
@@ -9498,7 +9498,7 @@ msgid "reply {verb}"
 msgstr "απάντησε"
 
 #: r2/templates/printablebuttons.html:582
-msgid "unblock subtippr"
+msgid "unblock vault"
 msgstr ""
 
 #: r2/templates/printablebuttons.html:582
@@ -9506,7 +9506,7 @@ msgid "unblocked"
 msgstr ""
 
 #: r2/templates/printablebuttons.html:585
-msgid "block subtippr"
+msgid "block vault"
 msgstr ""
 
 #: r2/templates/printablebuttons.html:592
@@ -9522,7 +9522,7 @@ msgid "You must be invited to visit this community"
 msgstr ""
 
 #: r2/templates/privateinterstitial.html:46
-msgid "The moderators of this subtippr have set it to private. You must be a moderator or approved submitter to visit."
+msgid "The moderators of this vault have set it to private. You must be a moderator or approved submitter to visit."
 msgstr ""
 
 #: r2/templates/profilebar.html:44
@@ -9550,7 +9550,7 @@ msgid "comment karma"
 msgstr "κάρμα σχολίων"
 
 #: r2/templates/profilebar.html:88
-msgid "really obscure karma from before it was cool to track per-subtippr"
+msgid "really obscure karma from before it was cool to track per-vault"
 msgstr "πολύ αφανές κάρμα από πριν γίνει cool να γίνεται καταγραφή ανά υποtippr"
 
 #: r2/templates/profilebar.html:114
@@ -9995,11 +9995,11 @@ msgid "collections"
 msgstr ""
 
 #: r2/templates/promotelinkbase.html:900
-msgid "targets a collection of similar subtipprs"
+msgid "targets a collection of similar vaults"
 msgstr ""
 
 #: r2/templates/promotelinkbase.html:913
-msgid "targets a subtippr and its users"
+msgid "targets a vault and its users"
 msgstr ""
 
 #: r2/templates/promotelinkbase.html:924
@@ -10007,15 +10007,15 @@ msgid "interest topic"
 msgstr ""
 
 #: r2/templates/promotelinkbase.html:938
-msgid "subtippr collection"
+msgid "vault collection"
 msgstr ""
 
 #: r2/templates/promotelinkbase.html:947
-msgid "subtipprs included on the frontpage are based on users' subscriptions"
+msgid "vaults included on the frontpage are based on users' subscriptions"
 msgstr ""
 
 #: r2/templates/promotelinkbase.html:950
-msgid "includes these subtipprs"
+msgid "includes these vaults"
 msgstr ""
 
 #: r2/templates/promotelinkbase.html:951
@@ -10043,7 +10043,7 @@ msgid "metro"
 msgstr "μετρό"
 
 #: r2/templates/promotelinkbase.html:1000
-msgid "subtippr targeting"
+msgid "vault targeting"
 msgstr ""
 
 #: r2/templates/promotelinkbase.html:1014
@@ -10325,7 +10325,7 @@ msgstr "δωρεάν"
 msgid "pay"
 msgstr "πληρωμή"
 
-#: r2/templates/renderablecampaign.html:104 r2/templates/subtipprinfobar.html:79
+#: r2/templates/renderablecampaign.html:104 r2/templates/vaultinfobar.html:79
 #: r2/templates/userlisting.html:93 r2/templates/usertableitem.html:95
 msgid "change"
 msgstr "αλλαγή"
@@ -10448,7 +10448,7 @@ msgid "converted query to %(syntax)s syntax: %(converted)s"
 msgstr "μετατροπή ερώτησης σε σύνταξη %(syntax)s: %(converted)s"
 
 #: r2/templates/searchform.html:35
-msgid "find submissions in \"subtippr\""
+msgid "find submissions in \"vault\""
 msgstr "βρες υποβολές σε \"υποtippr\" "
 
 #: r2/templates/searchform.html:37
@@ -10480,7 +10480,7 @@ msgid "see the search faq for details."
 msgstr "για λεπτομέρειες, δείτε τις συχνές ερωτήσεις εύρεσης."
 
 #: r2/templates/searchform.html:54
-msgid "advanced search: by author, subtippr..."
+msgid "advanced search: by author, vault..."
 msgstr "σύνθετη αναζήτηση: ανά συγγραφέα, υποtippr..."
 
 #: r2/templates/searchform.html:67
@@ -10505,24 +10505,24 @@ msgstr ""
 msgid "less"
 msgstr ""
 
-#: r2/templates/searchresultsubtippr.html:64 r2/templates/subtippr.html:62
+#: r2/templates/searchresultvault.html:64 r2/templates/vault.html:62
 #, python-format
 msgid "a community for %(time)s"
 msgstr "κοινότητα για %(time)s"
 
-#: r2/templates/searchresultsubtippr.html:81
+#: r2/templates/searchresultvault.html:81
 #, python-format
-msgid "search within %(subtippr)s"
+msgid "search within %(vault)s"
 msgstr ""
 
-#: r2/templates/searchresultsubtippr.html:85
+#: r2/templates/searchresultvault.html:85
 #, python-format
-msgid "search in %(subtippr)s"
+msgid "search in %(vault)s"
 msgstr ""
 
 #: r2/templates/seocommentspage.html:35
 #, python-format
-msgid "More from %(subtippr)s"
+msgid "More from %(vault)s"
 msgstr ""
 
 #: r2/templates/seocommentspage.html:39
@@ -10550,190 +10550,190 @@ msgid "note: you will only be eligible for a gilding trophy if this is set to \"
 msgstr ""
 
 #: r2/templates/sitewidetraffic.html:33
-msgid "top subtipprs"
+msgid "top vaults"
 msgstr "κορυφαία υποtippr"
 
-#: r2/templates/sitewidetraffic.html:33 r2/templates/subtipprtrafficreport.html:33
+#: r2/templates/sitewidetraffic.html:33 r2/templates/vaulttrafficreport.html:33
 msgid "make report"
 msgstr "κάνε αναφορά"
 
-#: r2/templates/subtippr.html:82
+#: r2/templates/vault.html:82
 msgid "not approved"
 msgstr "μη εγκεκριμένο"
 
-#: r2/templates/subtippr.html:95 r2/templates/utils.html:716
+#: r2/templates/vault.html:95 r2/templates/utils.html:716
 msgid "NSFW"
 msgstr "ακατάλληλο"
 
-#: r2/templates/subtippr.xml:48
+#: r2/templates/vault.xml:48
 msgid "[link]"
 msgstr ""
 
-#: r2/templates/subtipprfacets.html:29
-msgid "too many results? narrow it down to a subtippr!"
+#: r2/templates/vaultfacets.html:29
+msgid "too many results? narrow it down to a vault!"
 msgstr "πάρα πολλά αποτελέσματα; περιορίσε το σε ένα υποtippr!"
 
-#: r2/templates/subtipprinfobar.html:43
+#: r2/templates/vaultinfobar.html:43
 #, python-format
 msgid "This community is [quarantined](%(link)s) because of its shocking or highly offensive content."
 msgstr ""
 
-#: r2/templates/subtipprinfobar.html:50
+#: r2/templates/vaultinfobar.html:50
 msgid "Leave this community"
 msgstr ""
 
-#: r2/templates/subtipprinfobar.html:61
-msgid "logged-in users viewing this subtippr in the past 15 minutes"
+#: r2/templates/vaultinfobar.html:61
+msgid "logged-in users viewing this vault in the past 15 minutes"
 msgstr "συνδεμένοι χρήστες που είδαν αυτό το υποtippr τα τελευταία 15 λεπτά"
 
-#: r2/templates/subtipprinfobar.html:67
-msgid "logged-out users viewing this subtippr in the past 15 minutes"
+#: r2/templates/vaultinfobar.html:67
+msgid "logged-out users viewing this vault in the past 15 minutes"
 msgstr ""
 
-#: r2/templates/subtipprinfobar.html:87
+#: r2/templates/vaultinfobar.html:87
 msgid "you are no longer an approved submitter"
 msgstr "δεν είσαι πλέον εγκεκριμένος αποστολέας"
 
-#: r2/templates/subtipprinfobar.html:88
+#: r2/templates/vaultinfobar.html:88
 msgid "stop being an approved submitter?"
 msgstr "να σταματήσεις να είσαι εγκεκριμένος αποστολέας;"
 
-#: r2/templates/subtipprinfobar.html:89
+#: r2/templates/vaultinfobar.html:89
 #, python-format
-msgid "you are an approved submitter on this subtippr. (%(leave)s)"
+msgid "you are an approved submitter on this vault. (%(leave)s)"
 msgstr "είστε εγκεκριμένος υποβολέας σε αυτό το υποtippr (%(leave)s)"
 
-#: r2/templates/subtipprinfobar.html:103
-msgid "Show this subtippr's theme"
+#: r2/templates/vaultinfobar.html:103
+msgid "Show this vault's theme"
 msgstr ""
 
-#: r2/templates/subtipprinfobar.html:123
+#: r2/templates/vaultinfobar.html:123
 msgid "a community for"
 msgstr "κοινότητα για"
 
-#: r2/templates/subtipprinfobar.html:137
-msgid "approve this subtippr"
+#: r2/templates/vaultinfobar.html:137
+msgid "approve this vault"
 msgstr "έγκρινε αυτό το υποtippr"
 
-#: r2/templates/subtipprinfobar.html:167
-msgid "ban this subtippr"
+#: r2/templates/vaultinfobar.html:167
+msgid "ban this vault"
 msgstr "απαγόρεψε αυτό το υποtippr"
 
-#: r2/templates/subtipprreportform.html:32
-#: r2/templates/subtipprreportform.html:33
+#: r2/templates/vaultreportform.html:32
+#: r2/templates/vaultreportform.html:33
 msgid "View the community rules"
 msgstr ""
 
-#: r2/templates/subtipprreportform.html:36
+#: r2/templates/vaultreportform.html:36
 msgid "What rule does this break?"
 msgstr ""
 
-#: r2/templates/subtipprreportform.html:77
+#: r2/templates/vaultreportform.html:77
 #, python-format
 msgid "Tippr rule: %(rule_name)s"
 msgstr ""
 
-#: r2/templates/subtipprreportform.html:86
-#: r2/templates/subtipprreportform.html:105
+#: r2/templates/vaultreportform.html:86
+#: r2/templates/vaultreportform.html:105
 msgid "Reports go to community moderators anonymously"
 msgstr ""
 
-#: r2/templates/subtipprreportform.html:107
+#: r2/templates/vaultreportform.html:107
 msgid "Reports go to Tippr admins"
 msgstr ""
 
-#: r2/templates/subtipprreportform.html:121
+#: r2/templates/vaultreportform.html:121
 #, python-format
 msgid "Other (max %(num)s characters):"
 msgstr ""
 
-#: r2/templates/subtipprselector.html:58
+#: r2/templates/vaultselector.html:58
 msgid "Type in a community and hit \"Enter.\" Press backspace to delete"
 msgstr ""
 
-#: r2/templates/subtipprstylesheet.html:56 r2/templates/wikieditpage.html:49
+#: r2/templates/vaultstylesheet.html:56 r2/templates/wikieditpage.html:49
 msgid "reason for revision"
 msgstr "αιτιολογία αναθεώρησης"
 
-#: r2/templates/subtipprstylesheet.html:59
+#: r2/templates/vaultstylesheet.html:59
 msgid "see previous versions"
 msgstr "δες προηγούμενες εκδόσεις"
 
-#: r2/templates/subtipprstylesheet.html:72
-#: r2/templates/subtipprstylesheet.html:87
+#: r2/templates/vaultstylesheet.html:72
+#: r2/templates/vaultstylesheet.html:87
 msgid "preview"
 msgstr "προεπισκόπηση"
 
-#: r2/templates/subtipprstylesheet.html:90
+#: r2/templates/vaultstylesheet.html:90
 msgid "normal link"
 msgstr "κανονικός σύνδεσμος"
 
-#: r2/templates/subtipprstylesheet.html:94
+#: r2/templates/vaultstylesheet.html:94
 msgid "compressed link"
 msgstr "συμπιεσμένος σύνδεσμος"
 
-#: r2/templates/subtipprstylesheet.html:98
+#: r2/templates/vaultstylesheet.html:98
 msgid "link with thumbnail"
 msgstr "χρήση μικρογραφίας για σύνδεσμο"
 
-#: r2/templates/subtipprstylesheet.html:102
+#: r2/templates/vaultstylesheet.html:102
 msgid "stickied link"
 msgstr "κολλημένος σύνδεσμος"
 
-#: r2/templates/subtipprstylesheet.html:110
+#: r2/templates/vaultstylesheet.html:110
 msgid "gilded comment"
 msgstr "επιχρυσωμένο σχόλιο"
 
-#: r2/templates/subtipprstylesheet.html:118
-#: r2/templates/subtipprstylesheetsource.html:43
+#: r2/templates/vaultstylesheet.html:118
+#: r2/templates/vaultstylesheetsource.html:43
 msgid "images"
 msgstr "εικόνες"
 
-#: r2/templates/subtipprstylesheet.html:122
+#: r2/templates/vaultstylesheet.html:122
 msgid "image file"
 msgstr "αρχείο εικόνας"
 
-#: r2/templates/subtipprstylesheet.html:125
+#: r2/templates/vaultstylesheet.html:125
 msgid "new image name:"
 msgstr "νέο όνομα εικόνας:"
 
-#: r2/templates/subtipprstylesheet.html:130
+#: r2/templates/vaultstylesheet.html:130
 msgid "(image names should consist of alphanumeric characters and '-' only)"
 msgstr "(τα ονόματα εικόνας πρέπει να αποτελούνται μόνο από αλφαριθμητικούς χαρακτήρες και '-')"
 
-#: r2/templates/subtipprstylesheet.html:134
+#: r2/templates/vaultstylesheet.html:134
 msgid "Note: any changes to images here will be reflected immediately on reload and cannot be undone."
 msgstr "Σημείωση: οποιεσδήποτε αλλαγές σε εικόνες εδώ θα εφαρμοστούν άμεσα με την ανανέωση και δεν μπορούν να αναιρεθούν."
 
-#: r2/templates/subtipprstylesheetbase.html:42
+#: r2/templates/vaultstylesheetbase.html:42
 msgid "paste into stylesheet"
 msgstr "επικόλληση στο στυλ"
 
-#: r2/templates/subtipprstylesheetbase.html:45
+#: r2/templates/vaultstylesheetbase.html:45
 msgid "delete this image"
 msgstr "διαγραφή αυτής της εικόνας"
 
-#: r2/templates/subtipprstylesheetbase.html:77
+#: r2/templates/vaultstylesheetbase.html:77
 msgid "undelete this image"
 msgstr ""
 
-#: r2/templates/subtipprstylesheetbase.html:77
+#: r2/templates/vaultstylesheetbase.html:77
 msgid "undeleted"
 msgstr ""
 
-#: r2/templates/subtipprtraffic.html:34
+#: r2/templates/vaulttraffic.html:34
 msgid "All times are in [UTC](http://en.wikipedia.org/wiki/UTC)."
 msgstr "Όλες οι ώρες είναι σε [UTC](http://en.wikipedia.org/wiki/UTC)."
 
-#: r2/templates/subtipprtrafficreport.html:29
-msgid "Enter one subtippr per line. Traffic numbers shown are for the last full month."
+#: r2/templates/vaulttrafficreport.html:29
+msgid "Enter one vault per line. Traffic numbers shown are for the last full month."
 msgstr ""
 
-#: r2/templates/subtipprtrafficreport.html:39
-msgid "subtippr traffic"
+#: r2/templates/vaulttrafficreport.html:39
+msgid "vault traffic"
 msgstr "κίνηση υποtippr"
 
-#: r2/templates/subtipprtrafficreport.html:63
+#: r2/templates/vaulttrafficreport.html:63
 msgid "not found"
 msgstr "δεν βρέθηκε"
 
@@ -10773,8 +10773,8 @@ msgstr "Αλλά αν μόλις μας δώσατε ακόμα περισσότ
 msgid "claim"
 msgstr "εξαργύρωση"
 
-#: r2/templates/trendingsubtipprsbar.html:31
-msgid "trending subtipprs"
+#: r2/templates/trendingvaultsbar.html:31
+msgid "trending vaults"
 msgstr "τάσεις υποtippr"
 
 #: r2/templates/trophycase.html:57
@@ -10902,7 +10902,7 @@ msgid "Only trusted users."
 msgstr ""
 
 #: r2/templates/usermessagingprefs.html:24
-msgid "Admins and moderators of subtipprs you have participated in will always be able to message you."
+msgid "Admins and moderators of vaults you have participated in will always be able to message you."
 msgstr ""
 
 #: r2/templates/usermessagingprefs.html:31
@@ -11172,7 +11172,7 @@ msgstr "υποβολή συζήτησης"
 
 #: r2/templates/wikipagenotfound.html:23
 #, python-format
-msgid "The page \"%s\" was not found in this subtippr."
+msgid "The page \"%s\" was not found in this vault."
 msgstr "Η σελίδα \"%s\" δε βρέθηκε σε αυτό το υποtippr."
 
 #: r2/templates/wikipagenotfound.html:24
@@ -11189,7 +11189,7 @@ msgid "who can edit this page?"
 msgstr "ποιός μπορεί να επεξεργαστεί αυτή τη σελίδα;"
 
 #: r2/templates/wikipagesettings.html:40
-msgid "use subtippr wiki permissions"
+msgid "use vault wiki permissions"
 msgstr "χρησιμοποίησε τα δικαιώματα του βίκι του υποtippr"
 
 #: r2/templates/wikipagesettings.html:45

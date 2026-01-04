@@ -27,7 +27,7 @@ msgstr "невірний колір"
 msgid "unknown or missing dressings"
 msgstr "невідомий або відсутній колір сну-аватара"
 
-#: ../../gold/tippr_gold/controllers.py:40 r2/models/subtippr.py:331
+#: ../../gold/tippr_gold/controllers.py:40 r2/models/vault.py:331
 msgid "gold"
 msgstr "золото"
 
@@ -306,7 +306,7 @@ msgid "**comments can be posted on every story** on tippr. comments add informat
 msgstr "**коментарі можуть бути розміщені для будь-якої історії** на Реддіті. коментарі додають інформації, контексту та гумору."
 
 #: ../../about/tippr_about/templates/about.html:84
-msgid "**anyone can create a community** (called \"subtipprs\"). each subtippr is independent and moderated by a team of volunteers."
+msgid "**anyone can create a community** (called \"vaults\"). each vault is independent and moderated by a team of volunteers."
 msgstr "**хто завгодно може створити спільноту** (зветься «сабреддіт»). кожен сабреддіт є незалежним і модерується командою добровольців."
 
 #: ../../about/tippr_about/templates/about.html:85
@@ -471,8 +471,8 @@ msgstr "помилки перевірки"
 #: r2/controllers/listingcontroller.py:1077 r2/lib/menus.py:179
 #: r2/public/static/js/tippr.js:272 r2/templates/deleteduserinterstitial.html:31
 #: r2/templates/printablebuttons.html:36 r2/templates/printablebuttons.html:572
-#: r2/templates/subtipprstylesheetbase.html:45
-#: r2/templates/subtipprstylesheetbase.html:72
+#: r2/templates/vaultstylesheetbase.html:45
+#: r2/templates/vaultstylesheetbase.html:72
 #: ../../liveupdate/tippr_liveupdate/public/static/js/liveupdate/listings.js:203
 msgid "deleted"
 msgstr "видалено"
@@ -662,7 +662,7 @@ msgid "show %d"
 msgstr "показати %d"
 
 #: r2/controllers/front.py:643 r2/controllers/front.py:645
-msgid "create a subtippr"
+msgid "create a vault"
 msgstr "створити сабреддіт"
 
 #: r2/controllers/front.py:751 r2/controllers/front.py:757
@@ -670,8 +670,8 @@ msgstr "створити сабреддіт"
 #: r2/controllers/listingcontroller.py:1215
 #: r2/controllers/listingcontroller.py:1226 r2/lib/menus.py:187 r2/lib/menus.py:441
 #: r2/lib/menus.py:696 r2/lib/pages/pages.py:5034 r2/lib/pages/pages.py:5043
-#: r2/templates/createsubtippr.html:273 r2/templates/createsubtippr.html:284
-#: r2/templates/createsubtippr.html:295
+#: r2/templates/createvault.html:273 r2/templates/createvault.html:284
+#: r2/templates/createvault.html:295
 msgid "all"
 msgstr "всі"
 
@@ -697,7 +697,7 @@ msgid "posts"
 msgstr "публікації"
 
 #: r2/controllers/front.py:962 r2/controllers/listingcontroller.py:1803
-#: r2/lib/pages/pages.py:5916 r2/templates/createsubtippr.html:289
+#: r2/lib/pages/pages.py:5916 r2/templates/createvault.html:289
 #: r2/templates/link.xml:93
 msgid "comments"
 msgstr "коментарі"
@@ -720,7 +720,7 @@ msgstr ""
 
 #: r2/controllers/front.py:1056
 #, python-format
-msgid "Rules for r/%(subtippr)s"
+msgid "Rules for r/%(vault)s"
 msgstr ""
 
 #: r2/controllers/front.py:1094 r2/lib/menus.py:164
@@ -738,7 +738,7 @@ msgstr "результати пошуку"
 #: r2/controllers/front.py:1319 r2/controllers/front.py:1328
 #: r2/controllers/listingcontroller.py:1564 r2/lib/menus.py:94
 #: r2/templates/pagenamenav.html:59 r2/templates/promotelinkbase.html:912
-msgid "subtipprs"
+msgid "vaults"
 msgstr "сабреддіти"
 
 #: r2/controllers/front.py:1350
@@ -750,10 +750,10 @@ msgstr ""
 msgid "seen it"
 msgstr "бачили це"
 
-#: r2/controllers/front.py:1486 r2/models/subtippr.py:2537
+#: r2/controllers/front.py:1486 r2/models/vault.py:2537
 #: r2/templates/multiinfobar.html:34
 #, python-format
-msgid "%s subtipprs"
+msgid "%s vaults"
 msgstr "%s сабреддіти"
 
 #: r2/controllers/front.py:1509 r2/lib/menus.py:81
@@ -1139,7 +1139,7 @@ msgid "you're really bored now, eh?"
 msgstr "тепер тобі дійсно нудно, так?"
 
 #: r2/controllers/listingcontroller.py:894
-msgid "filter by subtippr"
+msgid "filter by vault"
 msgstr "фільтрувати за сабреддітом"
 
 #: r2/controllers/listingcontroller.py:908
@@ -1232,7 +1232,7 @@ msgid "messages"
 msgstr "повідомлення"
 
 #: r2/controllers/listingcontroller.py:1707
-msgid "subtipprs: "
+msgid "vaults: "
 msgstr "сабреддіти:"
 
 #: r2/controllers/listingcontroller.py:1851
@@ -1250,7 +1250,7 @@ msgstr "позолочено"
 
 #: r2/controllers/listingcontroller.py:2192
 #, python-format
-msgid "gildings in this subtippr have paid for %(time)s of server time"
+msgid "gildings in this vault have paid for %(time)s of server time"
 msgstr "подароване в цьому сабреддіті золото допомогло нам сплатили за %(time)s серверного часу"
 
 #: r2/controllers/multi.py:324
@@ -1290,7 +1290,7 @@ msgid "over 18?"
 msgstr "більше 18 років?"
 
 #: r2/controllers/post.py:95 r2/templates/quarantineinterstitial.html:34
-#: r2/templates/subtippr.html:91
+#: r2/templates/vault.html:91
 msgid "quarantined"
 msgstr "у карантині"
 
@@ -1410,7 +1410,7 @@ msgstr ""
 
 #: r2/controllers/tippr_base.py:1574 r2/lib/pages/pages.py:4556
 #: r2/models/modaction.py:113 r2/templates/bannedinterstitial.html:33
-#: r2/templates/subtippr.html:74 r2/templates/subtipprinfobar.html:168
+#: r2/templates/vault.html:74 r2/templates/vaultinfobar.html:168
 #: r2/templates/subscriptionbox.html:63
 msgid "banned"
 msgstr "заблоковано"
@@ -1419,9 +1419,9 @@ msgstr "заблоковано"
 msgid "gold members only"
 msgstr "лише для золотих учасників"
 
-#: r2/controllers/tippr_base.py:1606 r2/templates/createsubtippr.html:141
+#: r2/controllers/tippr_base.py:1606 r2/templates/createvault.html:141
 #: r2/templates/multiinfobar.html:40 r2/templates/privateinterstitial.html:37
-#: r2/templates/searchresultsubtippr.html:98 r2/templates/subtippr.html:87
+#: r2/templates/searchresultvault.html:98 r2/templates/vault.html:87
 msgid "private"
 msgstr "приватний"
 
@@ -1430,7 +1430,7 @@ msgid "search failed"
 msgstr "пошук не вдався"
 
 #: r2/controllers/wiki.py:95
-msgid "This page is the subtippr stylesheet, changes here apply to the subtippr css"
+msgid "This page is the vault stylesheet, changes here apply to the vault css"
 msgstr "Ця сторінка є таблицею стилів сабреддіту, зміни на ній вплинуть на стиль сабреддіту"
 
 #: r2/controllers/wiki.py:96
@@ -1438,15 +1438,15 @@ msgid "The contents of this page appear on the submit page"
 msgstr "Вміст цієї сторінки з'явиться на сторінці публікації"
 
 #: r2/controllers/wiki.py:97
-msgid "The contents of this page appear on the subtippr sidebar"
+msgid "The contents of this page appear on the vault sidebar"
 msgstr "Вміст цієї сторінки з’явиться на боковій панелі сабреддіту"
 
 #: r2/controllers/wiki.py:98
-msgid "The contents of this page appear in the public subtippr description and when the user does not have access to the subtippr"
+msgid "The contents of this page appear in the public vault description and when the user does not have access to the vault"
 msgstr "Вміст цієї сторінки з'явиться в описі публічного сабреддіта, а також коли користувач не має доступу до сабреддіта"
 
 #: r2/controllers/wiki.py:99
-msgid "This page is used to configure AutoModerator for the subtippr, please see [the full documentation](/wiki/automoderator/full-documentation) for information"
+msgid "This page is used to configure AutoModerator for the vault, please see [the full documentation](/wiki/automoderator/full-documentation) for information"
 msgstr "Ця сторінка використовується для налаштування АвтоМодератора для сабреддіта, будь ласка дивіться [повну документацію](/wiki/automoderator/full-documentation) для інформації"
 
 #: r2/controllers/wiki.py:165
@@ -1476,7 +1476,7 @@ msgid "this wiki cannot handle page names of that magnitude!  please select a pa
 msgstr "ця вікі не може обробити імена сторінок такого масштабу!  будь ласка виберіть ім’я сторінки коротше ніж %d символів"
 
 #: r2/controllers/wiki.py:223
-msgid "this page is a special page, please go into the subtippr settings and save the field once to create this special page"
+msgid "this page is a special page, please go into the vault settings and save the field once to create this special page"
 msgstr "ця сторінка є спеціальною, будь ласка перейдіть в налаштування сабреддіту і збережіть поле один раз, щоб створити цю спеціальну сторінку"
 
 #: r2/controllers/wiki.py:225
@@ -1756,11 +1756,11 @@ msgid "that link has already been submitted"
 msgstr "дане посилання вже було опубліковане"
 
 #: r2/lib/errors.py:79
-msgid "that subtippr already exists"
+msgid "that vault already exists"
 msgstr "такий сабреддіт вже існує"
 
 #: r2/lib/errors.py:80
-msgid "that subtippr doesn't exist"
+msgid "that vault doesn't exist"
 msgstr "такий сабреддіт не існує"
 
 #: r2/lib/errors.py:81
@@ -1768,19 +1768,19 @@ msgid "you aren't allowed to post there."
 msgstr "вам не дозволено писати тут"
 
 #: r2/lib/errors.py:83
-msgid "Image submissions aren't allowed in this subtippr"
+msgid "Image submissions aren't allowed in this vault"
 msgstr ""
 
 #: r2/lib/errors.py:84
-msgid "you aren't allowed access to this subtippr"
+msgid "you aren't allowed access to this vault"
 msgstr "у Вас немає доступу до цього сабреддіта"
 
 #: r2/lib/errors.py:85
-msgid "you must specify a subtippr"
+msgid "you must specify a vault"
 msgstr "ви повинні вказати сабреддіт"
 
 #: r2/lib/errors.py:86
-msgid "this subtippr has chosen to disable their ads at this time"
+msgid "this vault has chosen to disable their ads at this time"
 msgstr "у цьому сабреддіті зараз вимкнена реклама"
 
 #: r2/lib/errors.py:87
@@ -1788,7 +1788,7 @@ msgid "this link already has a promoted post"
 msgstr ""
 
 #: r2/lib/errors.py:88
-msgid "that subtippr is private"
+msgid "that vault is private"
 msgstr ""
 
 #: r2/lib/errors.py:89 r2/lib/validator/validator.py:3285
@@ -1796,7 +1796,7 @@ msgid "that name isn't going to work"
 msgstr "таке ім'я не спрацює"
 
 #: r2/lib/errors.py:90
-msgid "that subtippr can't be used as a theme"
+msgid "that vault can't be used as a theme"
 msgstr ""
 
 #: r2/lib/errors.py:91
@@ -1812,7 +1812,7 @@ msgid "that target type is not valid"
 msgstr "такий тип цілі не є дійсним"
 
 #: r2/lib/errors.py:94
-msgid "targeting too many subtipprs"
+msgid "targeting too many vaults"
 msgstr ""
 
 #: r2/lib/errors.py:95
@@ -1872,7 +1872,7 @@ msgstr "Цю електронну пошту не вдалося додати. �
 
 #: r2/lib/errors.py:111
 #, python-format
-msgid "that subtippr has already been oversold on %(start)s to %(end)s. Please pick another subtippr or date."
+msgid "that vault has already been oversold on %(start)s to %(end)s. Please pick another vault or date."
 msgstr "такий сабреддіт вже був розпроданий з %(start)s до %(end)s. Виберіть інший сабреддіт або діапазон дат."
 
 #: r2/lib/errors.py:112
@@ -1939,11 +1939,11 @@ msgid "that code has already been claimed -- perhaps by you?"
 msgstr "цей код вже було використано... можливо вами?"
 
 #: r2/lib/errors.py:126
-msgid "that subtippr doesn't allow text posts"
+msgid "that vault doesn't allow text posts"
 msgstr "той сабреддіт не дозволяє текстові публікації"
 
 #: r2/lib/errors.py:127
-msgid "that subtippr only allows text posts"
+msgid "that vault only allows text posts"
 msgstr "той сабреддіт дозволяє лише текстові публікації"
 
 #: r2/lib/errors.py:128
@@ -2060,7 +2060,7 @@ msgid "You can't perform that action because that user is a moderator."
 msgstr "Ви не можете виконати цю дію, бо цей користувач — модератор."
 
 #: r2/lib/errors.py:159
-msgid "there is no pending invite for that subtippr"
+msgid "there is no pending invite for that vault"
 msgstr "немає неприйнятих запрошень в цей сабреддіт"
 
 #: r2/lib/errors.py:160
@@ -2105,17 +2105,17 @@ msgid "you can't change that multitippr"
 msgstr "ви не можете змінити той мультиреддит"
 
 #: r2/lib/errors.py:170
-msgid "no more space for subtipprs in that multitippr"
+msgid "no more space for vaults in that multitippr"
 msgstr "немає місця для нових сабреддітів в тому мультиреддіті"
 
 #: r2/lib/errors.py:171
 #, python-format
-msgid "can't add special subtippr %(path)s"
+msgid "can't add special vault %(path)s"
 msgstr "не можу додати особливий сабреддіт %(path)s"
 
 #: r2/lib/errors.py:172
 #, python-format
-msgid "maximum %(max)s subtipprs"
+msgid "maximum %(max)s vaults"
 msgstr "максимум %(max)s сабреддітів"
 
 #: r2/lib/errors.py:173
@@ -2149,7 +2149,7 @@ msgid "frequency cap must be at least %(min)d"
 msgstr ""
 
 #: r2/lib/errors.py:180
-msgid "that user is banned from the subtippr"
+msgid "that user is banned from the vault"
 msgstr "той користувач заблокований на сабреддіті"
 
 #: r2/lib/errors.py:181
@@ -2169,7 +2169,7 @@ msgid "insufficient ctipprs"
 msgstr "недостатньо креддитів"
 
 #: r2/lib/errors.py:185
-msgid "gilding is not allowed in this subtippr"
+msgid "gilding is not allowed in this vault"
 msgstr "дарування золота не дозволене у цьому сабреддіті"
 
 #: r2/lib/errors.py:186
@@ -2177,7 +2177,7 @@ msgid "unable to scrape provided url"
 msgstr "не вдалося завантажити сторінку з заданого адресу"
 
 #: r2/lib/errors.py:187
-msgid "can't send a message from a subtippr to another subtippr"
+msgid "can't send a message from a vault to another vault"
 msgstr "переслати повідомлення з одного сабреддіта до іншого неможливо"
 
 #: r2/lib/errors.py:188
@@ -2190,15 +2190,15 @@ msgstr "ви маєте бути в режимі адміністратора д
 
 #: r2/lib/errors.py:190
 #, python-format
-msgid "to convert an existing subtippr to gold only, send a message to %(admin_modmail)s"
+msgid "to convert an existing vault to gold only, send a message to %(admin_modmail)s"
 msgstr "щоб наявний сабреддіт став доступним лише для золотих підписників, надішліть повідомлення на %(admin_modmail)s"
 
 #: r2/lib/errors.py:192
-msgid "this subtippr must be 'gold only' to select this"
+msgid "this vault must be 'gold only' to select this"
 msgstr "цей сабреддіт має бути «лише для золотих». щоб таке вибрати"
 
 #: r2/lib/errors.py:193
-msgid "your account is too new or you do not have enough karma to create a subtippr. please contact the admins to request an exemption."
+msgid "your account is too new or you do not have enough karma to create a vault. please contact the admins to request an exemption."
 msgstr ""
 
 #: r2/lib/errors.py:194
@@ -2210,23 +2210,23 @@ msgid "you must select at least one device per OS to target"
 msgstr "Ви повинні обрати принаймні один цільовий пристрій для ОС"
 
 #: r2/lib/errors.py:196
-msgid "You have been muted from this subtippr."
+msgid "You have been muted from this vault."
 msgstr "Вам заборонили висловлюватися у цьому сабреддіті."
 
 #: r2/lib/errors.py:197
-msgid "This user has been muted from the subtippr."
+msgid "This user has been muted from the vault."
 msgstr "Цьому користувачеві заборонили висловлюватися у сабреддіті."
 
 #: r2/lib/errors.py:198 r2/public/static/js/errors.js:7
-msgid "A subtippr rule by that name already exists."
+msgid "A vault rule by that name already exists."
 msgstr ""
 
 #: r2/lib/errors.py:199
-msgid "No subtippr rule by that name exists."
+msgid "No vault rule by that name exists."
 msgstr ""
 
 #: r2/lib/errors.py:200 r2/public/static/js/errors.js:8
-msgid "This subtippr already has the maximum number of rules."
+msgid "This vault already has the maximum number of rules."
 msgstr ""
 
 #: r2/lib/errors.py:201
@@ -2254,7 +2254,7 @@ msgid "Invalid conversation id."
 msgstr ""
 
 #: r2/lib/errors.py:207
-msgid "The subtippr does not have this feature enabled."
+msgid "The vault does not have this feature enabled."
 msgstr ""
 
 #: r2/lib/errors.py:208
@@ -2278,7 +2278,7 @@ msgid "You do not have the correct moderator permissions."
 msgstr ""
 
 #: r2/lib/errors.py:213
-msgid "The requested subtippr was not found."
+msgid "The requested vault was not found."
 msgstr ""
 
 #: r2/lib/errors.py:215
@@ -2643,7 +2643,7 @@ msgid "preferences"
 msgstr "налаштування"
 
 #: r2/lib/menus.py:82 r2/lib/permissions.py:97
-#: r2/templates/createsubtippr.html:223
+#: r2/templates/createvault.html:223
 msgid "wiki"
 msgstr "вікі"
 
@@ -2764,7 +2764,7 @@ msgid "traffic stats"
 msgstr "статистика трафіку"
 
 #: r2/lib/menus.py:126 r2/models/modaction.py:186
-#: r2/templates/subtipprstylesheet.html:43
+#: r2/templates/vaultstylesheet.html:43
 msgid "stylesheet"
 msgstr "таблиця стилів"
 
@@ -2781,7 +2781,7 @@ msgid "edit subscriptions"
 msgstr "редагувати підписки"
 
 #: r2/lib/menus.py:132 r2/lib/pages/pages.py:2668
-msgid "subtippr settings"
+msgid "vault settings"
 msgstr "налаштування сабреддіту"
 
 #: r2/lib/menus.py:133
@@ -2865,14 +2865,14 @@ msgid "popular"
 msgstr "популярні"
 
 #: r2/lib/menus.py:157 r2/public/static/js/sponsored.js:88
-#: r2/public/static/js/sponsored.js:98 r2/templates/createsubtippr.html:721
+#: r2/public/static/js/sponsored.js:98 r2/templates/createvault.html:721
 #: r2/templates/listingchooser.html:62
 #: ../../liveupdate/tippr_liveupdate/templates/liveupdatecreate.html:6
 msgid "create"
 msgstr "створити"
 
 #: r2/lib/menus.py:158 r2/lib/pages/pages.py:3316
-msgid "my subtipprs"
+msgid "my vaults"
 msgstr "мої сабреддіти"
 
 #: r2/lib/menus.py:159
@@ -2887,7 +2887,7 @@ msgstr ""
 msgid "help translate"
 msgstr "допоможіть перекладати"
 
-#: r2/lib/menus.py:163 r2/templates/subtipprstylesheet.html:78
+#: r2/lib/menus.py:163 r2/templates/vaultstylesheet.html:78
 msgid "errors"
 msgstr "помилки"
 
@@ -3036,7 +3036,7 @@ msgstr "мод"
 msgid "front"
 msgstr "головна"
 
-#. TRANSLATORS: Gold feature, "myrandom", a random subtippr from your
+#. TRANSLATORS: Gold feature, "myrandom", a random vault from your
 #. subscriptions
 #: r2/lib/menus.py:444
 msgid "myrandom"
@@ -3120,7 +3120,7 @@ msgstr "відкриття"
 
 #: r2/lib/recommender.py:58 r2/lib/strings.py:266 r2/lib/strings.py:271
 #: r2/lib/template_helpers.py:463 r2/templates/searchresultlink.html:97
-#: r2/templates/subtipprstylesheet.html:106
+#: r2/templates/vaultstylesheet.html:106
 #: ../../liveupdate/tippr_liveupdate/pages.py:505
 msgid "comment"
 msgid_plural "comments"
@@ -3164,7 +3164,7 @@ msgstr "дане посилання уже було опубліковане, а
 
 #: r2/lib/strings.py:75
 #, python-format
-msgid "that link has been submitted to multiple subtipprs. you can try to [submit it again](%s)."
+msgid "that link has been submitted to multiple vaults. you can try to [submit it again](%s)."
 msgstr "це посилання вже було опубліковане в багатьох сабреддітах. ви можете спробувати [опублікувати ще раз](%s)."
 
 #: r2/lib/strings.py:77
@@ -3187,7 +3187,7 @@ msgid "to view tippr with only submissions from your friends, use [tippr.com/r/f
 msgstr "щоб переглядати Реддіт тільки з посиланнями від ваших друзів використовуйте [tippr.com/r/friends](%s)"
 
 #: r2/lib/strings.py:86
-msgid "your subtippr has been created"
+msgid "your vault has been created"
 msgstr "ваш сабреддіт було створено"
 
 #: r2/lib/strings.py:88
@@ -3196,28 +3196,28 @@ msgid "visit [%(link)s](%(link)s) for more information"
 msgstr "відвідайте [%(link)s](%(link)s) щоб отримати більше інформації"
 
 #: r2/lib/strings.py:91
-msgid "you have not subscribed to any subtipprs."
+msgid "you have not subscribed to any vaults."
 msgstr "ви не підписані на жоден сабреддіт."
 
 #: r2/lib/strings.py:92
-msgid "below are the subtipprs you have subscribed to."
+msgid "below are the vaults you have subscribed to."
 msgstr "нижче список сабреддітів, на які ви підписані."
 
 #: r2/lib/strings.py:93
-msgid "below are the subtipprs that you are an approved submitter on."
+msgid "below are the vaults that you are an approved submitter on."
 msgstr "нижче перераховані сабреддіти, де ви є схваленим автором."
 
 #: r2/lib/strings.py:94
-msgid "below are the subtipprs that you have moderator access to."
+msgid "below are the vaults that you have moderator access to."
 msgstr "нижче перераховані сабреддіти, в яких ви маєте дозвіл модератора"
 
 #: r2/lib/strings.py:97
-msgid "click the `subscribe` or `unsubscribe` buttons to choose which subtipprs appear on your front page."
+msgid "click the `subscribe` or `unsubscribe` buttons to choose which vaults appear on your front page."
 msgstr "натисніть «підписатись» або «відписатись» для того, щоб вибрати які сабреддіти з’являться на вашій головній сторінці"
 
 #: r2/lib/strings.py:99
 #, python-format
-msgid "you're searching within the [%(tippr_name)s](%(tippr_link)s) subtippr. you can also search within [all subtipprs](%(all_tipprs_link)s)"
+msgid "you're searching within the [%(tippr_name)s](%(tippr_link)s) vault. you can also search within [all vaults](%(all_tipprs_link)s)"
 msgstr "ви виконуєте пошук в сабреддіті [%(tippr_name)s](%(tippr_link)s). ви також можете шукати в [усіх сабреддітах](%(all_tipprs_link)s)"
 
 #: r2/lib/strings.py:102
@@ -3459,14 +3459,14 @@ msgstr "Питання? Пишіть у службу підтримки само
 #: r2/lib/strings.py:174
 #, python-format
 msgid "\n"
-"Below are the traffic statistics for your subtippr. Each graph represents one of the following over the interval specified.\n\n"
-"* **pageviews** are all hits to %(subtippr)s, including both listing pages and comment pages.\n"
+"Below are the traffic statistics for your vault. Each graph represents one of the following over the interval specified.\n\n"
+"* **pageviews** are all hits to %(vault)s, including both listing pages and comment pages.\n"
 "* **uniques** are the total number of unique visitors (determined by a combination of their IP address and User Agent string) that generate the above pageviews. This is independent of whether or not they are signed in.\n"
 "* **subscriptions** is the number of new subscriptions that have been generated in a given day. This number is less accurate than the first two metrics, as, though we can track new subscriptions, we have no way to track unsubscriptions.\n\n"
-"Note: there are a couple of places outside of your subtippr where someone can click \"subscribe\", so it is possible (though unlikely) that the subscription count can exceed the unique count on a given day.\n"
+"Note: there are a couple of places outside of your vault where someone can click \"subscribe\", so it is possible (though unlikely) that the subscription count can exceed the unique count on a given day.\n"
 msgstr "\n"
 "Нижче показано статистику трафіку для вашого сабреддіта. Кожен графік відображає наступну інформацію за вказаний період часу.\n\n"
-"* **перегляди сторінок** це всі відкриття сторінок %(subtippr)s, включаючи сторінки з переліком матеріалів та коментарі.\n"
+"* **перегляди сторінок** це всі відкриття сторінок %(vault)s, включаючи сторінки з переліком матеріалів та коментарі.\n"
 "* **унікальні** це кількість унікальних відвідувачів (визначається комбінацією їх IP-адреси та рядку User Agent) що прийняли участь в переглядах сторінок (вказаних вище). Ця кількість не залежить від того, чи були відвідувачі авторизовані на Реддіті чи зайшли анонімно.\n"
 "* **підписані** це кількість нових підписок, які з’явилися на даний період часу. Ця кількість менш точна ніж перші дві метрики — хоча ми можемо відслідити нові підписки, ми не маємо можливості відслідити відписки.\n\n"
 "Примітка: є пара місць за межами вашого сабреддіту, де хтось може натиснуті «підписатись», тобто є можливим (хоч і не дуже ймовірним), що рахунок підписок може перевищити кількість унікальних відвідувачів за якийсь день.\n"
@@ -3476,16 +3476,16 @@ msgid "multitippr of your subscriptions"
 msgstr "мультиреддіт ваших підписок"
 
 #: r2/lib/strings.py:185
-msgid "multitippr of subtipprs you moderate"
+msgid "multitippr of vaults you moderate"
 msgstr "мультиреддіт сабреддітів, які ви модеруєте"
 
 #: r2/lib/strings.py:187
-msgid "/r/all displays content from all of tippr, including subtipprs you aren't subscribed to. Some subtipprs have chosen to exclude themselves from /r/all."
+msgid "/r/all displays content from all of tippr, including vaults you aren't subscribed to. Some vaults have chosen to exclude themselves from /r/all."
 msgstr "/r/all показує новини з усього реддіту, включаючи сабредіти, на які ви не підписані. Деякі з сабредітів добровільно виключили себе з потоку новин на /r/all."
 
 #: r2/lib/strings.py:188
 #, python-format
-msgid "Displaying content from %(subtippr)s, except the following subtipprs:"
+msgid "Displaying content from %(vault)s, except the following vaults:"
 msgstr ""
 
 #: r2/lib/strings.py:189
@@ -3512,9 +3512,9 @@ msgstr[2] "посилань"
 #: r2/lib/strings.py:273 r2/lib/pages/admin_pages.py:99
 #: r2/lib/pages/trafficpages.py:969 r2/templates/allminusinfobar.html:35
 #: r2/templates/filteredinfobar.html:36 r2/templates/sitewidetraffic.html:36
-#: r2/templates/subtipprtrafficreport.html:42
-msgid "subtippr"
-msgid_plural "subtipprs"
+#: r2/templates/vaulttrafficreport.html:42
+msgid "vault"
+msgid_plural "vaults"
 msgstr[0] "підреддит"
 msgstr[1] "підреддити"
 msgstr[2] "сабреддітів"
@@ -3533,21 +3533,21 @@ msgstr[0] "читач"
 msgstr[1] "читачі"
 msgstr[2] "читачів"
 
-#: r2/lib/strings.py:278 r2/templates/searchresultsubtippr.html:62
+#: r2/lib/strings.py:278 r2/templates/searchresultvault.html:62
 msgid "subscriber"
 msgid_plural "subscribers"
 msgstr[0] "підписник"
 msgstr[1] "підписники"
 msgstr[2] "підписників"
 
-#: r2/lib/strings.py:279 r2/templates/subtippr.html:80
+#: r2/lib/strings.py:279 r2/templates/vault.html:80
 msgid "approved submitter"
 msgid_plural "approved submitters"
 msgstr[0] "схвалений автор"
 msgstr[1] "схвалені автори"
 msgstr[2] " схвалених авторів"
 
-#: r2/lib/strings.py:280 r2/templates/subtippr.html:77
+#: r2/lib/strings.py:280 r2/templates/vault.html:77
 msgid "moderator"
 msgid_plural "moderators"
 msgstr[0] "модератор"
@@ -3727,7 +3727,7 @@ msgid "No notes for this IP address"
 msgstr "Немає записів щодо цієї IP-адреси"
 
 #: r2/lib/pages/admin_pages.py:92
-msgid "No notes for this subtippr"
+msgid "No notes for this vault"
 msgstr "Немає записів щодо цього сабреддіту"
 
 #: r2/lib/pages/admin_pages.py:93
@@ -3735,7 +3735,7 @@ msgid "No notes for this user"
 msgstr "Немає записів щодо цього користувача"
 
 #: r2/lib/pages/admin_pages.py:97 r2/models/modaction.py:182
-#: r2/templates/createsubtippr.html:444
+#: r2/templates/createvault.html:444
 msgid "domain"
 msgstr "домен"
 
@@ -3761,11 +3761,11 @@ msgid "moderation tools"
 msgstr "інструменти модерації"
 
 #: r2/lib/pages/pages.py:801
-msgid "these subtipprs"
+msgid "these vaults"
 msgstr "ці сабреддіти"
 
 #: r2/lib/pages/pages.py:815
-msgid "this subtippr is archived and no longer accepting submissions."
+msgid "this vault is archived and no longer accepting submissions."
 msgstr "цей сабреддіт був архівований і більше не приймає публикацій."
 
 #: r2/lib/pages/pages.py:817
@@ -3785,7 +3785,7 @@ msgid "Submissions restricted"
 msgstr "Публікація матеріалів обмежена"
 
 #: r2/lib/pages/pages.py:923
-msgid "Create your own subtippr"
+msgid "Create your own vault"
 msgstr "Створити свій сабреддіт"
 
 #: r2/lib/pages/pages.py:952
@@ -3797,7 +3797,7 @@ msgstr "...і ще %d"
 msgid "about moderation team"
 msgstr "про команду модераторів"
 
-#: r2/lib/pages/pages.py:959 r2/templates/createsubtippr.html:621
+#: r2/lib/pages/pages.py:959 r2/templates/createvault.html:621
 msgid "message the admins"
 msgstr "написати адмінам"
 
@@ -3884,15 +3884,15 @@ msgid "about %(site)s"
 msgstr "про %(site)s"
 
 #: r2/lib/pages/pages.py:2692
-msgid "search subtipprs by name"
+msgid "search vaults by name"
 msgstr "пошук сабреддітів за назвою"
 
 #: r2/lib/pages/pages.py:2736
 #, python-format
-msgid "your front page subtipprs (%s)"
+msgid "your front page vaults (%s)"
 msgstr "сабреддіти вашої головної сторінки (%s)"
 
-#: r2/lib/pages/pages.py:2824 r2/templates/createsubtippr.html:453
+#: r2/lib/pages/pages.py:2824 r2/templates/createvault.html:453
 msgid "what's this?"
 msgstr "що це?"
 
@@ -3974,7 +3974,7 @@ msgid "where your votes shape what the world is talking about."
 msgstr "де ваш голос може змінити про що зараз говорить весь світ"
 
 #: r2/lib/pages/pages.py:3387 r2/lib/pages/pages.py:3511
-msgid "add subtippr"
+msgid "add vault"
 msgstr "додати сабреддіт"
 
 #: r2/lib/pages/pages.py:3425
@@ -3989,7 +3989,7 @@ msgstr "%s видиме"
 
 #: r2/lib/pages/pages.py:3434
 #, python-format
-msgid "%(bonus)s bonus subtipprs"
+msgid "%(bonus)s bonus vaults"
 msgstr "%(bonus)s бонусні сабреддіти"
 
 #: r2/lib/pages/pages.py:3837
@@ -4044,7 +4044,7 @@ msgstr "дата початку"
 msgid "end date"
 msgstr "кінцева дата"
 
-#: r2/lib/pages/pages.py:5911 r2/templates/createsubtippr.html:267
+#: r2/lib/pages/pages.py:5911 r2/templates/createvault.html:267
 msgid "links"
 msgstr "посилання"
 
@@ -4119,11 +4119,11 @@ msgid "frontpage impressions"
 msgstr "перегляди на головній сторінці"
 
 #: r2/lib/pages/pages.py:5937
-msgid "subtippr clicks"
+msgid "vault clicks"
 msgstr "переходи з сабреддітів"
 
 #: r2/lib/pages/pages.py:5938
-msgid "subtippr impressions"
+msgid "vault impressions"
 msgstr "перегляди у сабреддітах"
 
 #: r2/lib/pages/pages.py:5938 r2/lib/pages/trafficpages.py:414
@@ -4152,7 +4152,7 @@ msgid "everything"
 msgstr "все"
 
 #: r2/lib/pages/pages.py:6288 r2/lib/pages/pages.py:6291
-msgid "from all subtipprs"
+msgid "from all vaults"
 msgstr "з усіх сабреддітів"
 
 #: r2/lib/pages/pages.py:6293
@@ -4160,7 +4160,7 @@ msgid "moderating"
 msgstr "модерується"
 
 #: r2/lib/pages/pages.py:6294
-msgid "subtipprs you mod"
+msgid "vaults you mod"
 msgstr "сабреддіти, які ви модеруєте"
 
 #: r2/lib/pages/pages.py:6300
@@ -4172,7 +4172,7 @@ msgid "explore multis"
 msgstr "ознайомитись з мульти"
 
 #: r2/lib/pages/pages.py:6448
-msgid "your subscribed subtipprs"
+msgid "your subscribed vaults"
 msgstr "ваші підписки на сабреддіти"
 
 #: r2/lib/pages/pages.py:6561
@@ -4193,7 +4193,7 @@ msgstr "унікальні за %s"
 #: r2/lib/pages/trafficpages.py:140 r2/lib/pages/trafficpages.py:970
 #: r2/templates/adverttrafficsummary.html:35
 #: r2/templates/languagetrafficsummary.html:34 r2/templates/tipprtraffic.html:99
-#: r2/templates/sitewidetraffic.html:37 r2/templates/subtipprtrafficreport.html:43
+#: r2/templates/sitewidetraffic.html:37 r2/templates/vaulttrafficreport.html:43
 msgid "uniques"
 msgstr "унікальних"
 
@@ -4204,7 +4204,7 @@ msgstr "переглядів від %s"
 
 #: r2/lib/pages/trafficpages.py:143 r2/lib/pages/trafficpages.py:971
 #: r2/templates/languagetrafficsummary.html:35 r2/templates/tipprtraffic.html:100
-#: r2/templates/sitewidetraffic.html:38 r2/templates/subtipprtrafficreport.html:44
+#: r2/templates/sitewidetraffic.html:38 r2/templates/vaulttrafficreport.html:44
 msgid "pageviews"
 msgstr "переглядів"
 
@@ -4309,7 +4309,7 @@ msgstr "ця сторінка порожня, редагуйте щоб дода
 
 #: r2/lib/pages/wiki.py:168 r2/lib/pages/wiki.py:174
 #, python-format
-msgid "page %s does not exist in this subtippr"
+msgid "page %s does not exist in this vault"
 msgstr "сторінка %s відсутня у цьому сабреддіті"
 
 #: r2/lib/pages/wiki.py:182
@@ -4335,7 +4335,7 @@ msgid "Viewing pages for /r/%s"
 msgstr "Перегляд сторінок для /r/%s"
 
 #: r2/lib/pages/wiki.py:209
-msgid "Below is a list of pages in this wiki visible to you in this subtippr."
+msgid "Below is a list of pages in this wiki visible to you in this vault."
 msgstr "Нижче показаний перелік сторінок цієї вікі, які ви бачите в цьому сабреддіті."
 
 #: r2/lib/pages/wiki.py:215
@@ -4610,8 +4610,8 @@ msgstr ""
 
 #: r2/models/link.py:2060
 #, python-format
-msgid "%(link)s by %(author)s in %(subtippr)s"
-msgstr "%(link)s від %(author)s у %(subtippr)s"
+msgid "%(link)s by %(author)s in %(vault)s"
+msgstr "%(link)s від %(author)s у %(vault)s"
 
 #: r2/models/link.py:2087
 msgid "comment score below threshold"
@@ -4627,37 +4627,37 @@ msgstr "згадування імені учасника"
 
 #: r2/models/link.py:2684 r2/models/link.py:2746
 #, python-format
-msgid "from %(author)s via %(subtippr)s sent %(when)s"
-msgstr "від %(author)s через %(subtippr)s надіслано %(when)s"
+msgid "from %(author)s via %(vault)s sent %(when)s"
+msgstr "від %(author)s через %(vault)s надіслано %(when)s"
 
 #: r2/models/link.py:2698
-msgid "[message from blocked subtippr]"
+msgid "[message from blocked vault]"
 msgstr "[повідомлення з заблокованого сабреддіта]"
 
 #: r2/models/link.py:2718 r2/models/link.py:2724
 #, python-format
-msgid "subtippr message via %(subtippr)s sent %(when)s"
-msgstr "повідомлення сабреддіта через %(subtippr)s надіслано %(when)s"
+msgid "vault message via %(vault)s sent %(when)s"
+msgstr "повідомлення сабреддіта через %(vault)s надіслано %(when)s"
 
 #: r2/models/link.py:2728 r2/models/link.py:2751
 #, python-format
-msgid "to %(dest)s via %(subtippr)s sent %(when)s"
-msgstr "до %(dest)s через %(subtippr)s надіслано %(when)s"
+msgid "to %(dest)s via %(vault)s sent %(when)s"
+msgstr "до %(dest)s через %(vault)s надіслано %(when)s"
 
 #: r2/models/link.py:2732 r2/models/link.py:2757
 #, python-format
-msgid "from %(author)s via %(subtippr)s to %(dest)s sent %(when)s"
-msgstr "від %(author)s через %(subtippr)s до %(dest)s надіслано %(when)s"
+msgid "from %(author)s via %(vault)s to %(dest)s sent %(when)s"
+msgstr "від %(author)s через %(vault)s до %(dest)s надіслано %(when)s"
 
 #: r2/models/link.py:2749
 #, python-format
-msgid "to %(subtippr)s sent %(when)s"
-msgstr "до %(subtippr)s надіслано %(when)s"
+msgid "to %(vault)s sent %(when)s"
+msgstr "до %(vault)s надіслано %(when)s"
 
 #: r2/models/link.py:2754
 #, python-format
-msgid "from %(author)s to %(subtippr)s sent %(when)s"
-msgstr "від %(author)s до %(subtippr)s надіслано %(when)s"
+msgid "from %(author)s to %(vault)s sent %(when)s"
+msgstr "від %(author)s до %(vault)s надіслано %(when)s"
 
 #: r2/models/link.py:2773
 #, python-format
@@ -4704,13 +4704,13 @@ msgstr "заблоковані користувачі"
 
 #: r2/models/listing.py:238
 #, python-format
-msgid "users banned from /r/%(subtippr)s"
-msgstr "учасники, що були заблоковані на /r/%(subtippr)s"
+msgid "users banned from /r/%(vault)s"
+msgstr "учасники, що були заблоковані на /r/%(vault)s"
 
 #: r2/models/listing.py:269
 #, python-format
-msgid "users muted from /r/%(subtippr)s"
-msgstr "користувачів приглушено у /r/%(subtippr)s"
+msgid "users muted from /r/%(vault)s"
+msgstr "користувачів приглушено у /r/%(vault)s"
 
 #: r2/models/listing.py:287
 msgid "ban wiki contibutors"
@@ -4718,13 +4718,13 @@ msgstr "блокування авторів вікі"
 
 #: r2/models/listing.py:291
 #, python-format
-msgid "wiki contibutors banned from /r/%(subtippr)s"
-msgstr "автори вікі, заблоковані на /r/%(subtippr)s"
+msgid "wiki contibutors banned from /r/%(vault)s"
+msgstr "автори вікі, заблоковані на /r/%(vault)s"
 
 #: r2/models/listing.py:299
 #, python-format
-msgid "approved submitters for /r/%(subtippr)s"
-msgstr "схвалені автори для /r/%(subtippr)s"
+msgid "approved submitters for /r/%(vault)s"
+msgstr "схвалені автори для /r/%(vault)s"
 
 #: r2/models/listing.py:304
 msgid "add approved submitter"
@@ -4732,8 +4732,8 @@ msgstr "додати автора до списку схвалених"
 
 #: r2/models/listing.py:311
 #, python-format
-msgid "approved wiki contributors for /r/%(subtippr)s"
-msgstr "схвалені автори вікі для /r/%(subtippr)s"
+msgid "approved wiki contributors for /r/%(vault)s"
+msgstr "схвалені автори вікі для /r/%(vault)s"
 
 #: r2/models/listing.py:316
 msgid "add approved wiki contributor"
@@ -4745,13 +4745,13 @@ msgstr "запросити модератора"
 
 #: r2/models/listing.py:321 r2/templates/modlisting.html:33
 #, python-format
-msgid "you are a moderator of this subtippr. %(action)s"
+msgid "you are a moderator of this vault. %(action)s"
 msgstr "ви модератор цього сабреддіту %(action)s"
 
 #: r2/models/listing.py:337
 #, python-format
-msgid "invited moderators for %(subtippr)s"
-msgstr "запрошені модератори для %(subtippr)s"
+msgid "invited moderators for %(vault)s"
+msgstr "запрошені модератори для %(vault)s"
 
 #: r2/models/listing.py:342
 msgid "force add moderator"
@@ -4759,8 +4759,8 @@ msgstr "додати модератора без запрошення"
 
 #: r2/models/listing.py:358
 #, python-format
-msgid "moderators of /r/%(subtippr)s"
-msgstr "модератори /r/%(subtippr)s"
+msgid "moderators of /r/%(vault)s"
+msgstr "модератори /r/%(vault)s"
 
 #: r2/models/mail_queue.py:356
 #, python-format
@@ -5078,7 +5078,7 @@ msgstr "видалено"
 
 #: r2/models/modaction.py:120 r2/models/modaction.py:122 r2/models/modaction.py:159
 #: r2/templates/printablebuttons.html:53 r2/templates/printablebuttons.html:267
-#: r2/templates/renderablecampaign.html:193 r2/templates/subtipprinfobar.html:138
+#: r2/templates/renderablecampaign.html:193 r2/templates/vaultinfobar.html:138
 msgid "approved"
 msgstr "схвалено"
 
@@ -5223,29 +5223,29 @@ msgstr "видалено спам"
 msgid "removed self"
 msgstr "видалено себе"
 
-#: r2/models/modaction.py:167 r2/templates/createsubtippr.html:72
+#: r2/models/modaction.py:167 r2/templates/createvault.html:72
 #: r2/templates/newlink.html:208 r2/templates/newlink.html:232
 #: r2/templates/promotelinkbase.html:78
 #: ../../liveupdate/tippr_liveupdate/templates/liveupdateutils.html:25
 msgid "title"
 msgstr "назва"
 
-#: r2/models/modaction.py:168 r2/templates/createsubtippr.html:86
+#: r2/models/modaction.py:168 r2/templates/createvault.html:86
 #: r2/templates/prefapps.html:147 r2/templates/prefapps.html:342
 #: ../../liveupdate/tippr_liveupdate/templates/liveupdateutils.html:31
 msgid "description"
 msgstr "опис"
 
-#: r2/models/modaction.py:169 r2/templates/createsubtippr.html:103
+#: r2/models/modaction.py:169 r2/templates/createvault.html:103
 msgid "sidebar"
 msgstr "бокова панель"
 
-#: r2/models/modaction.py:170 r2/templates/createsubtippr.html:121
+#: r2/models/modaction.py:170 r2/templates/createvault.html:121
 #: r2/templates/languagetrafficsummary.html:33
 msgid "language"
 msgstr "мова"
 
-#: r2/models/modaction.py:171 r2/templates/createsubtippr.html:132
+#: r2/models/modaction.py:171 r2/templates/createvault.html:132
 msgid "type"
 msgstr "тип"
 
@@ -5317,7 +5317,7 @@ msgstr "вилучити зображення іконки"
 msgid "delete banner image"
 msgstr "видалити зображення банеру"
 
-#: r2/models/modaction.py:191 r2/templates/createsubtippr.html:508
+#: r2/models/modaction.py:191 r2/templates/createvault.html:508
 msgid "upload header image"
 msgstr "завантажити зображення заголовку"
 
@@ -5378,7 +5378,7 @@ msgid "clear flair templates"
 msgstr "очистити шаблони флаір"
 
 #: r2/models/modaction.py:208 r2/public/static/js/link-websockets.js:260
-#: r2/templates/createsubtippr.html:544 r2/templates/createsubtippr.html:550
+#: r2/templates/createvault.html:544 r2/templates/createvault.html:550
 #: r2/templates/filteredinfobar.html:43 r2/templates/multiinfobar.html:125
 #: r2/templates/prefapps.html:79 r2/templates/printablebuttons.html:45
 #: r2/templates/printablebuttons.html:244 r2/templates/trophycase.html:48
@@ -5464,90 +5464,90 @@ msgstr ""
 msgid "Threatening, harassing, or inciting violence"
 msgstr ""
 
-#: r2/models/subtippr.py:319
+#: r2/models/vault.py:319
 msgid "red"
 msgstr ""
 
-#: r2/models/subtippr.py:320
+#: r2/models/vault.py:320
 msgid "orangered"
 msgstr "червоно-помаранчевий"
 
-#: r2/models/subtippr.py:321
+#: r2/models/vault.py:321
 msgid "orange"
 msgstr "помаранчевий"
 
-#: r2/models/subtippr.py:322
+#: r2/models/vault.py:322
 msgid "mango"
 msgstr "манго"
 
-#: r2/models/subtippr.py:323
+#: r2/models/vault.py:323
 msgid "lime"
 msgstr "лайм"
 
-#: r2/models/subtippr.py:324
+#: r2/models/vault.py:324
 msgid "green"
 msgstr "зелений"
 
-#: r2/models/subtippr.py:325
+#: r2/models/vault.py:325
 msgid "mint"
 msgstr "мінт"
 
-#: r2/models/subtippr.py:326
+#: r2/models/vault.py:326
 msgid "teal"
 msgstr ""
 
-#: r2/models/subtippr.py:327
+#: r2/models/vault.py:327
 msgid "blue"
 msgstr "синій"
 
-#: r2/models/subtippr.py:328
+#: r2/models/vault.py:328
 msgid "alien blue"
 msgstr "фірмовий інопланетно-синій"
 
-#: r2/models/subtippr.py:329
+#: r2/models/vault.py:329
 msgid "pink"
 msgstr ""
 
-#: r2/models/subtippr.py:330
+#: r2/models/vault.py:330
 msgid "purple"
 msgstr ""
 
-#: r2/models/subtippr.py:332
+#: r2/models/vault.py:332
 msgid "brown"
 msgstr ""
 
-#: r2/models/subtippr.py:333
+#: r2/models/vault.py:333
 msgid "pale grey"
 msgstr ""
 
-#: r2/models/subtippr.py:334
+#: r2/models/vault.py:334
 msgid "grey"
 msgstr ""
 
-#: r2/models/subtippr.py:335
+#: r2/models/vault.py:335
 msgid "dark grey"
 msgstr ""
 
-#: r2/models/subtippr.py:336
+#: r2/models/vault.py:336
 msgid "semi black"
 msgstr ""
 
-#: r2/models/subtippr.py:1918 r2/models/subtippr.py:1961
+#: r2/models/vault.py:1918 r2/models/vault.py:1961
 #, python-format
 msgid "%s (filtered)"
 msgstr "%s (фільтрується)"
 
-#: r2/models/subtippr.py:2174
+#: r2/models/vault.py:2174
 #, python-format
 msgid "posts from %s"
 msgstr "публікації від %s"
 
-#: r2/models/subtippr.py:2536
+#: r2/models/vault.py:2536
 #, python-format
-msgid "%s subtipprs curated by /u/%s"
+msgid "%s vaults curated by /u/%s"
 msgstr "%s сабреддіти, під наглядом /u/%s"
 
-#: r2/models/subtippr.py:2862
+#: r2/models/vault.py:2862
 #, python-format
 msgid "%(domain)s on %(tippr.com)s"
 msgstr "%(domain)s на сайті %(tippr.com)s"
@@ -5589,7 +5589,7 @@ msgid "Manage My Flair"
 msgstr "Керування Моїм Флаіром"
 
 #: r2/models/token.py:145
-msgid "Select my subtippr flair. Change link flair on my submissions."
+msgid "Select my vault flair. Change link flair on my submissions."
 msgstr "Вибрати мій флаір на сабреддіті. Змінити флаір посилання в моїх публікаціях."
 
 #: r2/models/token.py:150
@@ -5613,7 +5613,7 @@ msgid "Approve submitters and ban users"
 msgstr "Підтвердити авторів та блокувати користувачів"
 
 #: r2/models/token.py:163
-msgid "Add/remove users to approved submitter lists and ban/unban or mute/unmute users from subtipprs I moderate."
+msgid "Add/remove users to approved submitter lists and ban/unban or mute/unmute users from vaults I moderate."
 msgstr "Додати/вилучити користувачів зі списків ухвалених авторів та забанити/розбанити або заборонити/дозволити висловлюватися користувачам у сабреддітах, які я модерую."
 
 #: r2/models/token.py:170
@@ -5621,7 +5621,7 @@ msgid "Moderate Flair"
 msgstr "Модерувати Флаір"
 
 #: r2/models/token.py:171
-msgid "Manage and assign flair in subtipprs I moderate."
+msgid "Manage and assign flair in vaults I moderate."
 msgstr "Керувати та призначити флаіри в сабреддітах, які я модерую."
 
 #: r2/models/token.py:176
@@ -5637,15 +5637,15 @@ msgid "Moderate Posts"
 msgstr "Модерація Публікацій"
 
 #: r2/models/token.py:183
-msgid "Approve, remove, mark nsfw, and distinguish content in subtipprs I moderate."
+msgid "Approve, remove, mark nsfw, and distinguish content in vaults I moderate."
 msgstr "Схвалити, видалити, відмітити як «не для офісу», та розрізнити матеріали в сабреддітах, які я модерую."
 
 #: r2/models/token.py:189
-msgid "Moderate Subtippr Configuration"
+msgid "Moderate Vault Configuration"
 msgstr "Модерація налаштувань Сабреддіту"
 
 #: r2/models/token.py:190
-msgid "Manage the configuration, sidebar, and CSS of subtipprs I moderate."
+msgid "Manage the configuration, sidebar, and CSS of vaults I moderate."
 msgstr "Керувати конфігурацією, боковою панеллю та стилями CSS сабреддітів, які я модерую."
 
 #: r2/models/token.py:196
@@ -5653,7 +5653,7 @@ msgid "Moderation Log"
 msgstr "Лог Модерації"
 
 #: r2/models/token.py:197
-msgid "Access the moderation log in subtipprs I moderate."
+msgid "Access the moderation log in vaults I moderate."
 msgstr "Доступ до логу модерації сабреддітів у яких я модератор."
 
 #: r2/models/token.py:202
@@ -5661,23 +5661,23 @@ msgid "Invite or remove other moderators"
 msgstr "Запросити чи видалити інших модераторів"
 
 #: r2/models/token.py:203
-msgid "Invite or remove other moderators from subtipprs I moderate."
+msgid "Invite or remove other moderators from vaults I moderate."
 msgstr "Запросити чи вилучити інших модераторів із сабреддітів, які я модерую."
 
 #: r2/models/token.py:209
-msgid "Make changes to your subtippr moderator and contributor status"
+msgid "Make changes to your vault moderator and contributor status"
 msgstr "Внести зміни у свій статус модератора і дописувача сабреддіта"
 
 #: r2/models/token.py:211
-msgid "Accept invitations to moderate a subtippr. Remove myself as a moderator or contributor of subtipprs I moderate or contribute to."
+msgid "Accept invitations to moderate a vault. Remove myself as a moderator or contributor of vaults I moderate or contribute to."
 msgstr "Прийняти запрошення модерувати сабреддіт. Вилучити себе з модераторів чи дописувачів сабреддітів, які модерую чи до яких пишу."
 
 #: r2/models/token.py:219
-msgid "Subtippr Traffic"
+msgid "Vault Traffic"
 msgstr "Трафік Сабреддіту"
 
 #: r2/models/token.py:220
-msgid "Access traffic stats in subtipprs I moderate."
+msgid "Access traffic stats in vaults I moderate."
 msgstr "Доступ до статистики трафіку в сабреддітах, які я модерую."
 
 #: r2/models/token.py:224
@@ -5685,15 +5685,15 @@ msgid "Moderate Wiki"
 msgstr "Модерувати Вікі"
 
 #: r2/models/token.py:225
-msgid "Change editors and visibility of wiki pages in subtipprs I moderate."
+msgid "Change editors and visibility of wiki pages in vaults I moderate."
 msgstr "Змінити редактори та видимість сторінок вікі в сабреддітах, які я модерую."
 
 #: r2/models/token.py:231
-msgid "My Subtipprs"
+msgid "My Vaults"
 msgstr "Мої Сабреддіти"
 
 #: r2/models/token.py:232
-msgid "Access the list of subtipprs I moderate, contribute to, and subscribe to."
+msgid "Access the list of vaults I moderate, contribute to, and subscribe to."
 msgstr "Доступ до переліку сабреддітів які я модерую, в які я пишу и на які я підписаний."
 
 #: r2/models/token.py:238
@@ -5741,7 +5741,7 @@ msgid "Edit My Subscriptions"
 msgstr "Редагувати Мої Підписки"
 
 #: r2/models/token.py:266
-msgid "Manage my subtippr subscriptions. Manage \"friends\" - users whose content I follow."
+msgid "Manage my vault subscriptions. Manage \"friends\" - users whose content I follow."
 msgstr "Керування моїми підписками на сабреддіти. Керування «друзями» — користувачами, за чиїми публікаціями я слідкую."
 
 #: r2/models/token.py:271
@@ -5903,7 +5903,7 @@ msgid "parent"
 msgstr "вище"
 
 #: r2/public/static/js/link-websockets.js:261 r2/templates/printablebuttons.html:68
-#: r2/templates/promotelinkbase.html:1012 r2/templates/subtipprreportform.html:46
+#: r2/templates/promotelinkbase.html:1012 r2/templates/vaultreportform.html:46
 #: ../../liveupdate/tippr_liveupdate/templates/liveupdateeventapp.html:92
 msgid "report"
 msgstr "поскаржитись"
@@ -5958,7 +5958,7 @@ msgid "You need to be logged in to give gold."
 msgstr "Вам треба увійти в систему, щоб давати золото."
 
 #: r2/public/static/js/login.js:139
-msgid "You need to be logged in to subscribe to subtipprs."
+msgid "You need to be logged in to subscribe to vaults."
 msgstr "Вам треба увійти в систему, щоб підписуватися на сабреддіти."
 
 #: r2/public/static/js/login.js:144 r2/public/static/js/login.js:149
@@ -5994,7 +5994,7 @@ msgid "awesomeness goes here"
 msgstr "тут класно"
 
 #: r2/public/static/js/multi.js:520
-msgid "add a subtippr to your multi."
+msgid "add a vault to your multi."
 msgstr "додати сабреддіт до вашого мульти."
 
 #: r2/public/static/js/multi.js:573
@@ -6106,7 +6106,7 @@ msgstr "надіслати"
 #: r2/templates/linkcommentssettings.html:75 r2/templates/printablebuttons.html:405
 #: r2/templates/promotelinkedit.html:133 r2/templates/renderablecampaign.html:258
 #: r2/templates/reportform.html:68 r2/templates/rules.html:134
-#: r2/templates/subtipprreportform.html:43
+#: r2/templates/vaultreportform.html:43
 msgid "cancel"
 msgstr "відміна"
 
@@ -6172,7 +6172,7 @@ msgstr "без категорії"
 #: r2/templates/prefupdate.html:53 r2/templates/prefupdate.html:147
 #: r2/templates/prefupdate.html:204 r2/templates/printablebuttons.html:360
 #: r2/templates/printablebuttons.html:475 r2/templates/promotelinkedit.html:237
-#: r2/templates/subtipprstylesheet.html:68
+#: r2/templates/vaultstylesheet.html:68
 #: ../../liveupdate/tippr_liveupdate/templates/liveupdatecontributorpermissions.html:29
 msgid "save"
 msgstr "зберегти"
@@ -6254,7 +6254,7 @@ msgid "we have insufficient available inventory targeting %(target)s to fulfill 
 msgstr ""
 
 #: r2/public/static/js/sponsored.js:398
-msgid "please select at least one subtippr"
+msgid "please select at least one vault"
 msgstr ""
 
 #: r2/public/static/js/sponsored.js:399
@@ -6290,7 +6290,7 @@ msgstr "Нова кампанія створена!"
 
 #: r2/public/static/js/sr-autocomplete.js:494
 #, python-format
-msgid "the maximum number of subtipprs you can target is %(num)s"
+msgid "the maximum number of vaults you can target is %(num)s"
 msgstr ""
 
 #: r2/public/static/js/sr-autocomplete.js:500
@@ -6338,7 +6338,7 @@ msgstr[1] "%(num)s хвилини тому"
 msgstr[2] "%(num)s хвилин тому"
 
 #: r2/public/static/js/traffic.js:11
-msgid "view subtippr traffic"
+msgid "view vault traffic"
 msgstr "переглянути трафік сабреддіту"
 
 #: r2/public/static/js/traffic.js:13 r2/templates/flairlist.html:31
@@ -6578,7 +6578,7 @@ msgid "ad"
 msgstr "реклама"
 
 #: r2/templates/allinfobar.html:29
-msgid "Exclude your subscribed subtipprs"
+msgid "Exclude your subscribed vaults"
 msgstr "Виключити сабреддіти, на які ви підписані"
 
 #: r2/templates/allinfobar.html:35
@@ -6589,8 +6589,8 @@ msgstr "Дивитись позолочені коментарі та публі
 msgid "This endpoint expects JSON data of this format"
 msgstr "Ця кінцева точка очікує JSON дані в такому форматі"
 
-#: r2/templates/archivedinterstitial.html:31 r2/templates/createsubtippr.html:147
-#: r2/templates/searchresultsubtippr.html:102
+#: r2/templates/archivedinterstitial.html:31 r2/templates/createvault.html:147
+#: r2/templates/searchresultvault.html:102
 msgid "archived"
 msgstr "заархівовано"
 
@@ -6770,7 +6770,7 @@ msgstr ""
 
 #: r2/templates/comment.html:120
 #, python-format
-msgid "this subtippr hides comment scores for %d minutes"
+msgid "this vault hides comment scores for %d minutes"
 msgstr "цей сабреддіт приховує кількість голосів протягом %d хвилин"
 
 #: r2/templates/comment.html:125 r2/templates/comment.htmllite:57
@@ -6778,7 +6778,7 @@ msgid "score hidden"
 msgstr "голоси приховані"
 
 #: r2/templates/comment.html:137
-msgid "selected by this subtippr's moderators"
+msgid "selected by this vault's moderators"
 msgstr ""
 
 #: r2/templates/comment.html:137
@@ -6831,9 +6831,9 @@ msgstr "Звісно так!"
 msgid "\"In 5-billion years the Sun will expand and engulf our orbit as the charred ember that was once Earth vaporizes. Have a nice day.\""
 msgstr "\"За 5 мільярдів років Сонце сильно розшириться і охопить орбіту Землі, і вугілець, який недавно був Землею, випарується. Щасливого вам дня.\""
 
-#: r2/templates/createsubtippr.html:41
+#: r2/templates/createvault.html:41
 msgid "\n"
-"# your account is too new to create a subtippr\n"
+"# your account is too new to create a vault\n"
 "    \n"
 "try participating in other communities on tippr for a little while first before creating your own. please post to /r/help if you need more information about this restriction, or if you require a specific exemption you can [contact the admins](/contact) to request one.\n"
 msgstr "\n"
@@ -6841,348 +6841,348 @@ msgstr "\n"
 "    \n"
 "спробуйте для початку взяти участь в інших спільнотах на реддіті, перш ніж створювати свій. будь ласка, пишіть на /r/help, якщо треба більше інформації про це обмеження, або якщо для Вас треба зробити виняток, можете [зв'язатися з адмінами](/contact) і попросити їх.\n"
 
-#: r2/templates/createsubtippr.html:57
+#: r2/templates/createvault.html:57
 msgid "no spaces, e.g., \"books\" or \"bookclub\". avoid using solely trademarked names, e.g. use \"FansOfAcme\" instead of \"Acme\". once chosen, this name cannot be changed."
 msgstr ""
 
-#: r2/templates/createsubtippr.html:57 r2/templates/goldpayment.html:171
+#: r2/templates/createvault.html:57 r2/templates/goldpayment.html:171
 #: r2/templates/listingchooser.html:60 r2/templates/prefapps.html:140
 #: r2/templates/prefapps.html:334
 msgid "name"
 msgstr "ім'я"
 
-#: r2/templates/createsubtippr.html:72
+#: r2/templates/createvault.html:72
 msgid "e.g., books: made from trees or pixels. recommendations, news, or thoughts"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:86
+#: r2/templates/createvault.html:86
 msgid "Appears in search results and social media links. 500 characters max."
 msgstr "З'являється у результатах пошуку і посилання соціальних мереж. Макс. 500 символів."
 
-#: r2/templates/createsubtippr.html:102
+#: r2/templates/createvault.html:102
 #, python-format
-msgid "shown in the sidebar of your subtippr. %d characters max.config/sidebar"
+msgid "shown in the sidebar of your vault. %d characters max.config/sidebar"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:112
+#: r2/templates/createvault.html:112
 msgid "text to show on submission page. 1024 characters max."
 msgstr "текст, який буде показано на сторінці публікації. До 1024 символів довжиною"
 
-#: r2/templates/createsubtippr.html:112
+#: r2/templates/createvault.html:112
 msgid "submission text"
 msgstr "текст публікації"
 
-#: r2/templates/createsubtippr.html:135 r2/templates/multiinfobar.html:41
+#: r2/templates/createvault.html:135 r2/templates/multiinfobar.html:41
 msgid "public"
 msgstr "публічний"
 
-#: r2/templates/createsubtippr.html:136
+#: r2/templates/createvault.html:136
 msgid "anyone can view and submit"
 msgstr "будь-який користувач може переглядати і публікувати"
 
-#: r2/templates/createsubtippr.html:138
-#: r2/templates/searchresultsubtippr.html:100
+#: r2/templates/createvault.html:138
+#: r2/templates/searchresultvault.html:100
 msgid "restricted"
 msgstr "обмежений"
 
-#: r2/templates/createsubtippr.html:139
+#: r2/templates/createvault.html:139
 msgid "anyone can view, but only some are approved to submit links"
 msgstr "будь-який користувач може переглядати, але лише деякі схвалені автори можуть публікувати"
 
-#: r2/templates/createsubtippr.html:142
+#: r2/templates/createvault.html:142
 msgid "only approved members can view and submit"
 msgstr "лише схвалені учасники можуть переглядати і публікувати"
 
-#: r2/templates/createsubtippr.html:148
+#: r2/templates/createvault.html:148
 msgid "anyone can view, but submissions are no longer accepted"
 msgstr "кожен може переглядати, але підписка більше неможлива"
 
-#: r2/templates/createsubtippr.html:154
+#: r2/templates/createvault.html:154
 msgid "gold restricted"
 msgstr "лише для золотих учасників"
 
-#: r2/templates/createsubtippr.html:155
+#: r2/templates/createvault.html:155
 msgid "anyone can view, but only tippr gold members can submit or comment"
 msgstr "хто завгодно може переглядати, але лише Золоті учасники можуть публікувати або коментувати"
 
-#: r2/templates/createsubtippr.html:161
+#: r2/templates/createvault.html:161
 msgid "employees only"
 msgstr "тільки для співробітників"
 
-#: r2/templates/createsubtippr.html:162
+#: r2/templates/createvault.html:162
 msgid "only tippr employees can view; the employee list is pulled from live config"
 msgstr "лише працівники реддіта можуть переглядати; список працівників задається на сервері адміном"
 
-#: r2/templates/createsubtippr.html:172
-msgid "If you switch this subtippr to another type, you will not be able to switch back to \"gold only\" without the assistance of an admin"
+#: r2/templates/createvault.html:172
+msgid "If you switch this vault to another type, you will not be able to switch back to \"gold only\" without the assistance of an admin"
 msgstr "Якщо Ви перемкнете цей реддіт на інший тим, Вам не вдасться перемкнути його назад на «лише для золотих» без допомоги адміна"
 
-#: r2/templates/createsubtippr.html:177 r2/templates/goldonlyinterstitial.html:33
+#: r2/templates/createvault.html:177 r2/templates/goldonlyinterstitial.html:33
 msgid "gold only"
 msgstr "тільки для золотої підписки"
 
-#: r2/templates/createsubtippr.html:178
+#: r2/templates/createvault.html:178
 msgid "only tippr gold members can view and submit"
 msgstr "лише золоті користувачі реддіта можуть переглядати і дописувати"
 
-#: r2/templates/createsubtippr.html:189 r2/templates/prefoptions.html:339
+#: r2/templates/createvault.html:189 r2/templates/prefoptions.html:339
 msgid "content options"
 msgstr "налаштування вмісту"
 
-#: r2/templates/createsubtippr.html:192
+#: r2/templates/createvault.html:192
 msgid "any"
 msgstr "будь-що"
 
-#: r2/templates/createsubtippr.html:193
+#: r2/templates/createvault.html:193
 msgid "any link type is allowed"
 msgstr "дозволено будь-який тип посилань"
 
-#: r2/templates/createsubtippr.html:195
+#: r2/templates/createvault.html:195
 msgid "links only"
 msgstr "лише посилання"
 
-#: r2/templates/createsubtippr.html:196
+#: r2/templates/createvault.html:196
 msgid "only links to external sites are allowed"
 msgstr "допустимі тільки посилання на зовнішні сайти"
 
-#: r2/templates/createsubtippr.html:198
+#: r2/templates/createvault.html:198
 msgid "text posts only"
 msgstr "дозволені лише текстові публікації"
 
-#: r2/templates/createsubtippr.html:199
+#: r2/templates/createvault.html:199
 msgid "only text/self posts are allowed"
 msgstr "дозволені лише текстові/власні публікації"
 
-#: r2/templates/createsubtippr.html:206
+#: r2/templates/createvault.html:206
 msgid "Custom label for submit link button (blank for default):"
 msgstr "Свій напис для кнопки публікації посилання (або залиште порожнім):"
 
-#: r2/templates/createsubtippr.html:214
+#: r2/templates/createvault.html:214
 msgid "Custom label for submit text post button (blank for default):"
 msgstr "Свій напис для кнопки публікації тексту (або залиште порожнім):"
 
-#: r2/templates/createsubtippr.html:226
+#: r2/templates/createvault.html:226
 msgid "disabled"
 msgstr "вимкнено"
 
-#: r2/templates/createsubtippr.html:227
+#: r2/templates/createvault.html:227
 msgid "Wiki is disabled for all users except mods"
 msgstr "Вікі вимкнено для усіх користувачів окрім модераторів"
 
-#: r2/templates/createsubtippr.html:229
+#: r2/templates/createvault.html:229
 msgid "mod editing"
 msgstr "редагування модератором"
 
-#: r2/templates/createsubtippr.html:230
+#: r2/templates/createvault.html:230
 msgid "Only mods, approved wiki contributors, or those on a page's edit list may edit"
 msgstr "Лише модератори, схвалені автори вікі або учасники в переліку редакторів цієї сторінки можуть редагувати"
 
-#: r2/templates/createsubtippr.html:232
+#: r2/templates/createvault.html:232
 msgid "anyone"
 msgstr "будь-хто"
 
-#: r2/templates/createsubtippr.html:233
-msgid "Anyone who can submit to the subtippr may edit"
+#: r2/templates/createvault.html:233
+msgid "Anyone who can submit to the vault may edit"
 msgstr "Будь-хто хто може підписатись на сабреддіт може редагувати"
 
-#: r2/templates/createsubtippr.html:240
-msgid "Subtippr karma required to edit and create wiki pages:"
+#: r2/templates/createvault.html:240
+msgid "Vault karma required to edit and create wiki pages:"
 msgstr "Сабреддіт карма необхідна для редагування чи створення сторінок вікі:"
 
-#: r2/templates/createsubtippr.html:250
+#: r2/templates/createvault.html:250
 msgid "Account age (days) required to edit and create wiki pages:"
 msgstr "Необхідний певний вік (у днях) вашого профілю, щоб редагувати чи створити сторінку вікі:"
 
-#: r2/templates/createsubtippr.html:262
+#: r2/templates/createvault.html:262
 msgid "spam filter strength"
 msgstr "сила дії спамфільтру"
 
-#: r2/templates/createsubtippr.html:264
+#: r2/templates/createvault.html:264
 msgid "high is the standard filter, low disables most filtering, all will filter every post initially and they will need to be approved manually to be visible."
 msgstr "високий — стандартний фільтр, низький — забороняє майже всю фільтрацію, всі — фільтруватиме кожну публікацію і доведеться кожну з них схвалювати вручну."
 
-#: r2/templates/createsubtippr.html:269 r2/templates/createsubtippr.html:280
-#: r2/templates/createsubtippr.html:291
+#: r2/templates/createvault.html:269 r2/templates/createvault.html:280
+#: r2/templates/createvault.html:291
 msgid "low"
 msgstr "низький"
 
-#: r2/templates/createsubtippr.html:271 r2/templates/createsubtippr.html:282
-#: r2/templates/createsubtippr.html:293
+#: r2/templates/createvault.html:271 r2/templates/createvault.html:282
+#: r2/templates/createvault.html:293
 msgid "high"
 msgstr "високий"
 
-#: r2/templates/createsubtippr.html:278
+#: r2/templates/createvault.html:278
 msgid "self posts"
 msgstr "свої публікації"
 
-#: r2/templates/createsubtippr.html:303
+#: r2/templates/createvault.html:303
 #: ../../liveupdate/tippr_liveupdate/templates/liveupdateeventconfiguration.html:12
 msgid "other options"
 msgstr "інші налаштування"
 
-#: r2/templates/createsubtippr.html:314
+#: r2/templates/createvault.html:314
 #: ../../liveupdate/tippr_liveupdate/templates/liveupdateeventconfiguration.html:20
 msgid "viewers must be over eighteen years old"
 msgstr "відвідувачі повинні бути не молодші 18 років"
 
-#: r2/templates/createsubtippr.html:326
-msgid "allow this subtippr to be included /r/all as well as the default and trending lists"
+#: r2/templates/createvault.html:326
+msgid "allow this vault to be included /r/all as well as the default and trending lists"
 msgstr "дозволити включати цей сабреддіт у потік новин /r/all, а також у списки по замовчанню та ті, що популярні в цей час"
 
-#: r2/templates/createsubtippr.html:337
+#: r2/templates/createvault.html:337
 msgid "enable marking posts as containing spoilers"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:348
+#: r2/templates/createvault.html:348
 msgid "show thumbnail images of content"
 msgstr "показати мініатюру змісту"
 
-#: r2/templates/createsubtippr.html:359
+#: r2/templates/createvault.html:359
 msgid "expand media previews on comments pages"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:370
+#: r2/templates/createvault.html:370
 msgid "allow image uploads and links to image hosting sites"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:382
+#: r2/templates/createvault.html:382
 msgid "exclude posts by site-wide banned users from modqueue/unmoderated"
 msgstr "сховати з черги на модерацію та немодерованих публікації користувачів, які були заблоковані глобально"
 
-#: r2/templates/createsubtippr.html:390
+#: r2/templates/createvault.html:390
 msgid "make the traffic stats page available to everyone"
 msgstr "зробити сторінку статистики трафіку доступною для всіх"
 
-#: r2/templates/createsubtippr.html:401
+#: r2/templates/createvault.html:401
 msgid "collapse deleted and removed comments"
 msgstr "згорнути вилучені та прибрані коментарі"
 
-#: r2/templates/createsubtippr.html:413
-msgid "hide ads (only available for gold only subtipprs)"
+#: r2/templates/createvault.html:413
+msgid "hide ads (only available for gold only vaults)"
 msgstr "приховати рекламу (доступно лише для сабреддітів «лише для золотих»)"
 
-#: r2/templates/createsubtippr.html:420
+#: r2/templates/createvault.html:420
 msgid "suggested comment sort"
 msgstr "рекомендоване сортування коментарів"
 
-#: r2/templates/createsubtippr.html:420
+#: r2/templates/createvault.html:420
 msgid "(all comment threads will use this sorting method by default)"
 msgstr "(всі ланцюжки обговорень будуть використовувати цей метод сортування за промовчанням)"
 
-#: r2/templates/createsubtippr.html:422
-msgid "none (recommended for most subtipprs)"
+#: r2/templates/createvault.html:422
+msgid "none (recommended for most vaults)"
 msgstr "жодне (рекомендовано для більшості сабреддітів)"
 
-#: r2/templates/createsubtippr.html:431
+#: r2/templates/createvault.html:431
 msgid "Minutes to hide comment scores:"
 msgstr "Скільки хвилин приховувати голоси коментарів:"
 
-#: r2/templates/createsubtippr.html:453 r2/templates/usertext.html:155
+#: r2/templates/createvault.html:453 r2/templates/usertext.html:155
 #: r2/templates/wikieditpage.html:46
 msgid "hide help"
 msgstr "сховати довідку"
 
-#: r2/templates/createsubtippr.html:457
+#: r2/templates/createvault.html:457
 msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.tippr.com. You will be able to access your tippr through your domain."
 msgstr "Маєте свій домен?  Введіть його тут і зверніться до вашого DNS провайдера і додайте CNAME запис який буде псевдонімом вашого домену до rhs.tippr.com. Тоді ви матимете доступ до вашого сабреддіту через ваш домен."
 
-#: r2/templates/createsubtippr.html:464
+#: r2/templates/createvault.html:464
 msgid "look and feel"
 msgstr "зовнішній вигляд та почуття"
 
-#: r2/templates/createsubtippr.html:471
-msgid "subtippr name to use as theme"
+#: r2/templates/createvault.html:471
+msgid "vault name to use as theme"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:479
-msgid "There is a newer version of your subtippr theme available. Update to the latest version?"
+#: r2/templates/createvault.html:479
+msgid "There is a newer version of your vault theme available. Update to the latest version?"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:484
+#: r2/templates/createvault.html:484
 msgid "update theme"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:494
+#: r2/templates/createvault.html:494
 msgid "edit the stylesheet"
 msgstr "редагувати таблицю стилів"
 
-#: r2/templates/createsubtippr.html:498
+#: r2/templates/createvault.html:498
 msgid "leaves this page"
 msgstr "залишити сторінку"
 
-#: r2/templates/createsubtippr.html:518
+#: r2/templates/createvault.html:518
 msgid "restore default header"
 msgstr "відновити заголовок за вмовчанням"
 
-#: r2/templates/createsubtippr.html:538
-msgid "related subtipprs"
+#: r2/templates/createvault.html:538
+msgid "related vaults"
 msgstr "пов'язані сабреддіти"
 
-#: r2/templates/createsubtippr.html:540
-msgid "similar or related subtipprs."
+#: r2/templates/createvault.html:540
+msgid "similar or related vaults."
 msgstr "подібні або пов'язані сабреддіти."
 
-#: r2/templates/createsubtippr.html:616
+#: r2/templates/createvault.html:616
 msgid "new modmail enrollment"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:620
+#: r2/templates/createvault.html:620
 msgid "You have enrolled in the new modmail, if you wish to unenroll please"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:626
+#: r2/templates/createvault.html:626
 msgid "Once chosen this can not be undone, please make sure your entire team is ready."
 msgstr ""
 
-#: r2/templates/createsubtippr.html:635
+#: r2/templates/createvault.html:635
 msgid "Enroll"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:645
+#: r2/templates/createvault.html:645
 msgid "mobile look and feel"
 msgstr "мобільний вигляд"
 
-#: r2/templates/createsubtippr.html:649
+#: r2/templates/createvault.html:649
 msgid "icon image"
 msgstr "зображення іконки"
 
-#: r2/templates/createsubtippr.html:649
+#: r2/templates/createvault.html:649
 msgid "icon must be 256x256 pixels. PNG or JPG only."
 msgstr ""
 
-#: r2/templates/createsubtippr.html:658
+#: r2/templates/createvault.html:658
 msgid "remove custom icon image"
 msgstr "вилучити власне зображення іконки"
 
-#: r2/templates/createsubtippr.html:667
+#: r2/templates/createvault.html:667
 msgid "header image"
 msgstr "зображення шапки"
 
-#: r2/templates/createsubtippr.html:667
+#: r2/templates/createvault.html:667
 msgid "header should have 10:3 aspect ratio. PNG or JPG only."
 msgstr ""
 
-#: r2/templates/createsubtippr.html:668
+#: r2/templates/createvault.html:668
 msgid "minimum size: 640x192px"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:668
+#: r2/templates/createvault.html:668
 msgid "maximum size: 1280x384px"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:677
+#: r2/templates/createvault.html:677
 msgid "remove custom header image"
 msgstr "вилучити власне зображення шапки"
 
-#: r2/templates/createsubtippr.html:687
+#: r2/templates/createvault.html:687
 msgid "color"
 msgstr "колір"
 
-#: r2/templates/createsubtippr.html:687
-msgid "used as a thematic color for your subtippr on mobile"
+#: r2/templates/createvault.html:687
+msgid "used as a thematic color for your vault on mobile"
 msgstr "використано як тематичний колір для Вашого сабреддіта на мобільному"
 
-#: r2/templates/createsubtippr.html:718 r2/templates/flairpane.html:88
+#: r2/templates/createvault.html:718 r2/templates/flairpane.html:88
 #: r2/templates/personalizedads.html:79 r2/templates/prefoptions.html:493
 #: r2/templates/usermessagingprefs.html:26
 msgid "save options"
@@ -7249,11 +7249,11 @@ msgid "try again"
 msgstr "спробуйте ще раз"
 
 #: r2/templates/filteredinfobar.html:49
-msgid "filter subtippr"
+msgid "filter vault"
 msgstr "фільтрувати сабреддіт"
 
 #: r2/templates/filteredinfobar.html:49 r2/templates/modlisting.html:55
-#: r2/templates/subtipprselector.html:33 r2/templates/userlisting.html:96
+#: r2/templates/vaultselector.html:33 r2/templates/userlisting.html:96
 #: r2/templates/wikipagesettings.html:67
 msgid "add"
 msgstr "додати"
@@ -7308,7 +7308,7 @@ msgid "flair options"
 msgstr "варіанти флаіру"
 
 #: r2/templates/flairpane.html:39
-msgid "enable user flair in this subtippr"
+msgid "enable user flair in this vault"
 msgstr "використовувати флаіри в цьому сабреддіті"
 
 #: r2/templates/flairpane.html:50
@@ -7356,7 +7356,7 @@ msgid "position flair to the right of the link"
 msgstr "розмістити флаір справа від посилання"
 
 #: r2/templates/flairprefs.html:31
-msgid "Show my flair on this subtippr. It looks like:"
+msgid "Show my flair on this vault. It looks like:"
 msgstr "Показати мій флаір в цьому сабреддіті. Він виглядає так:"
 
 #: r2/templates/flairselector.html:23
@@ -7560,8 +7560,8 @@ msgid "You must be a Tippr Gold member to view this super secret community"
 msgstr "Ви повинні бути золотим учасником Реддіта, щоб переглядати цю суперсекретну спільноту"
 
 #: r2/templates/goldonlyinterstitial.html:41
-msgid "The moderators of this community have set it to [Tippr Gold only](/gold/about#gold-only-subtipprs). You must be a [Tippr Gold member](/gold/about) to visit."
-msgstr "Модератори цієї спільноти встановили доступ [тільки для золотої підписки](/gold/about#gold-only-subtipprs). Ви маєте мати [золоту підписку](/gold/about) щоб завітати."
+msgid "The moderators of this community have set it to [Tippr Gold only](/gold/about#gold-only-vaults). You must be a [Tippr Gold member](/gold/about) to visit."
+msgstr "Модератори цієї спільноти встановили доступ [тільки для золотої підписки](/gold/about#gold-only-vaults). Ви маєте мати [золоту підписку](/gold/about) щоб завітати."
 
 #: r2/templates/goldonlyinterstitial.html:47
 msgid "get gold"
@@ -7685,12 +7685,12 @@ msgstr "Вчорашня мета продажу Золотих підписок
 
 #: r2/templates/interestbar.html:27
 #, python-format
-msgid "ready for something new? %s subscribe %s to some new subtipprs."
+msgid "ready for something new? %s subscribe %s to some new vaults."
 msgstr "готові до чогось нового? %s підпишіться %s на якісь нові сабреддіти."
 
 #: r2/templates/interestbar.html:29
 #, python-format
-msgid "it looks like you haven't %s subscribed %s to any subtipprs yet. want some ideas?"
+msgid "it looks like you haven't %s subscribed %s to any vaults yet. want some ideas?"
 msgstr "схоже на те, що ви не %s підписались %s на жоден сабреддіт. хочете кілька ідей?"
 
 #: r2/templates/interestbar.html:35
@@ -7850,7 +7850,7 @@ msgid "comments from %(site)s"
 msgstr "коментарів із %(site)s"
 
 #: r2/templates/listing.html:64 r2/templates/searchlisting.html:68
-#: r2/templates/subtipprstylesheetsource.html:52 r2/templates/tablelisting.html:64
+#: r2/templates/vaultstylesheetsource.html:52 r2/templates/tablelisting.html:64
 msgid "there doesn't seem to be anything here"
 msgstr "здається тут немає нічого"
 
@@ -7871,7 +7871,7 @@ msgid "multitipprs"
 msgstr "мультиреддіти"
 
 #: r2/templates/listingchooser.html:48
-msgid "new! create sets of subtipprs to view together."
+msgid "new! create sets of vaults to view together."
 msgstr "новина! створіть набори сабреддітів які можна переглядати разом."
 
 #: r2/templates/listingchooser.html:49
@@ -7883,7 +7883,7 @@ msgid "to hide these samples, create a multi of your own:"
 msgstr "щоб сховати ці приклади, створіть власний мульти:"
 
 #: r2/templates/listingsuggestions.html:30
-msgid "explore some new subtipprs"
+msgid "explore some new vaults"
 msgstr "розвідайте кілька нових сабреддітів"
 
 #: r2/templates/listingsuggestions.html:32
@@ -7892,11 +7892,11 @@ msgstr "або спробуйте мульти:"
 
 #: r2/templates/listingsuggestions.html:38
 #, python-format
-msgid "or try a %(random_subtippr)s"
-msgstr "або спробуйте %(random_subtippr)s"
+msgid "or try a %(random_vault)s"
+msgstr "або спробуйте %(random_vault)s"
 
 #: r2/templates/listingsuggestions.html:39
-msgid "random subtippr"
+msgid "random vault"
 msgstr "випадковий сабреддіт"
 
 #: r2/templates/livecomments.html:24
@@ -7905,7 +7905,7 @@ msgstr ""
 
 #: r2/templates/locationbar.html:24
 #, python-format
-msgid "using the default subtipprs for your location (%(location)s)"
+msgid "using the default vaults for your location (%(location)s)"
 msgstr "використовуються сабреддіти по замовчуванню, обрані для вашого місцезнаходження (%(location)s)"
 
 #: r2/templates/locationbar.html:27
@@ -8045,7 +8045,7 @@ msgid "to"
 msgstr "для"
 
 #: r2/templates/messagecompose.html:64
-msgid "(username, or /r/name for that subtippr's moderators)"
+msgid "(username, or /r/name for that vault's moderators)"
 msgstr ""
 
 #: r2/templates/messagecompose.html:82
@@ -8071,7 +8071,7 @@ msgstr "посилання \"%(link_title)s» від %(link_author)s"
 msgid "from"
 msgstr "від"
 
-#: r2/templates/modlisting.html:30 r2/templates/subtipprinfobar.html:86
+#: r2/templates/modlisting.html:30 r2/templates/vaultinfobar.html:86
 #: ../../liveupdate/tippr_liveupdate/templates/liveupdatecontributorlisting.html:8
 msgid "leave"
 msgstr "вийти"
@@ -8104,11 +8104,11 @@ msgid "you are invited to become a moderator. %(action)s"
 msgstr "вас запрошено стати модератором. %(action)s"
 
 #: r2/templates/modsrinfobar.html:31
-msgid "/r/mod shows only subtipprs you moderate."
+msgid "/r/mod shows only vaults you moderate."
 msgstr "/r/mod покаже лише сабреддіти де ви є модератором."
 
 #: r2/templates/modsrinfobar.html:34
-msgid "filter out subtipprs"
+msgid "filter out vaults"
 msgstr "фільтрувати сабреддіти"
 
 #: r2/templates/morechildren.html:37
@@ -8181,10 +8181,10 @@ msgstr "редагувати опис"
 
 #: r2/templates/multiinfobar.html:120
 #, python-format
-msgid "%(count)s subtipprs in this multi:"
+msgid "%(count)s vaults in this multi:"
 msgstr "%(count)s сабреддітів в цьому мульти:"
 
-#: r2/templates/multiinfobar.html:139 r2/templates/subtipprinfobar.html:119
+#: r2/templates/multiinfobar.html:139 r2/templates/vaultinfobar.html:119
 #, python-format
 msgid "created by %(user)s"
 msgstr "створив %(user)s"
@@ -8210,11 +8210,11 @@ msgid "would you like to..."
 msgstr "чи не бажаєте..."
 
 #: r2/templates/multiinfobar.html:165
-msgid "check out subtipprs by category"
+msgid "check out vaults by category"
 msgstr "подивіться на сабреддіти за категорією"
 
 #: r2/templates/multiinfobar.html:170
-msgid "explore a random subtippr"
+msgid "explore a random vault"
 msgstr "подивіться на випадковий сабреддіт"
 
 #: r2/templates/multiinfobar.html:175
@@ -8258,7 +8258,7 @@ msgid "suggest title"
 msgstr "підказати заголовок"
 
 #: r2/templates/newlink.html:274
-msgid "choose a subtippr"
+msgid "choose a vault"
 msgstr "оберіть сабреддіт"
 
 #: r2/templates/newlink.html:281
@@ -8567,7 +8567,7 @@ msgid "Ads you see on Tippr will be delivered based on your prior use of our Ser
 msgstr ""
 
 #: r2/templates/personalizedads.html:43
-msgid "For example: If you frequently visit gaming subtipprs, you're more likely to see an ad for a game rather than an ad for celebrity news."
+msgid "For example: If you frequently visit gaming vaults, you're more likely to see an ad for a game rather than an ad for celebrity news."
 msgstr ""
 
 #: r2/templates/personalizedads.html:46
@@ -8677,7 +8677,7 @@ msgid "Only in:"
 msgstr "Лише в:"
 
 #: r2/templates/prefapps.html:235
-msgid "Only in the subtipprs:"
+msgid "Only in the vaults:"
 msgstr "Лише в сабреддітах:"
 
 #: r2/templates/prefapps.html:253 r2/templates/prefapps.html:264
@@ -8868,7 +8868,7 @@ msgid "location options"
 msgstr "налаштування географічного місцезнаходження"
 
 #: r2/templates/prefoptions.html:133
-msgid "use the global default subtipprs for my front page"
+msgid "use the global default vaults for my front page"
 msgstr "показати глобальний набір сабреддітів по замовчуванню на моїй головній сторінці"
 
 #: r2/templates/prefoptions.html:135
@@ -8896,7 +8896,7 @@ msgid "don't show thumbnails next to links"
 msgstr "не показувати зменшені зображення до посилань"
 
 #: r2/templates/prefoptions.html:153
-msgid "show thumbnails based on that subtippr's media preferences"
+msgid "show thumbnails based on that vault's media preferences"
 msgstr "показувати зменшені зображення на основі медіа-налаштувань того сабреддіта"
 
 #: r2/templates/prefoptions.html:155
@@ -8916,7 +8916,7 @@ msgid "don't auto-expand media previews on comments pages"
 msgstr ""
 
 #: r2/templates/prefoptions.html:163
-msgid "expand media previews based on that subtippr's media preferences"
+msgid "expand media previews based on that vault's media preferences"
 msgstr ""
 
 #: r2/templates/prefoptions.html:166
@@ -8944,11 +8944,11 @@ msgid "(it shows new and promoted links, and gives you a say in what's spam and 
 msgstr "(показує нові та рекламовані посилання, і дає вам змогу визначити що є спамом, а що ні)"
 
 #: r2/templates/prefoptions.html:185
-msgid "show trending subtipprs on the front page"
+msgid "show trending vaults on the front page"
 msgstr "показати сабреддіти, які популярні в цей час, на головній сторінці"
 
 #: r2/templates/prefoptions.html:188
-msgid "(a list of popular and notable subtipprs to check out)"
+msgid "(a list of popular and notable vaults to check out)"
 msgstr "(список популярних та вартих уваги сабреддітів, які слід переглянути)"
 
 #: r2/templates/prefoptions.html:192
@@ -8964,7 +8964,7 @@ msgid "show additional details in the domain text when available"
 msgstr "показати додаткові деталі в тексті домену, якщо є"
 
 #: r2/templates/prefoptions.html:197
-msgid "(such as the source subtippr or the content author's url/name)"
+msgid "(such as the source vault or the content author's url/name)"
 msgstr "(такі як сабреддіт-джерело або посилання на автора/ім’я)"
 
 #: r2/templates/prefoptions.html:200
@@ -9007,7 +9007,7 @@ msgid "ignore suggested sorts"
 msgstr "ігнорувати запропоноване сортування"
 
 #: r2/templates/prefoptions.html:229
-msgid "(suggested sorts may be set by community moderators for specific threads or subtipprs, like Q&As)"
+msgid "(suggested sorts may be set by community moderators for specific threads or vaults, like Q&As)"
 msgstr "(запропоноване сортування може бути встановлене модераторами спільноти для окремих ланцюжків обговорень або сабреддітів, таких як FAQ)"
 
 #: r2/templates/prefoptions.html:232
@@ -9105,11 +9105,11 @@ msgid "display options"
 msgstr "опції відображення"
 
 #: r2/templates/prefoptions.html:317
-msgid "allow subtipprs to show me custom themes"
+msgid "allow vaults to show me custom themes"
 msgstr "дозволити сабреддітам використовувати власні теми"
 
 #: r2/templates/prefoptions.html:320
-msgid "(you can also choose which subtippr themes to disable on an individual level)"
+msgid "(you can also choose which vault themes to disable on an individual level)"
 msgstr "(Ви також можете обрати, які теми сабреддітів вимкнути на індивідуальному рівні)"
 
 #: r2/templates/prefoptions.html:324
@@ -9133,7 +9133,7 @@ msgid "I am over eighteen years old and willing to view adult content"
 msgstr "Мені більше ніж вісімнадцять років і я хочу дивитися вміст для дорослих"
 
 #: r2/templates/prefoptions.html:342
-msgid "required to view some subtipprs"
+msgid "required to view some vaults"
 msgstr "потрібно для перегляду деяких сабреддітів"
 
 #: r2/templates/prefoptions.html:344
@@ -9237,7 +9237,7 @@ msgstr "використовуйте %(ctippr_link)s для автоматичн
 
 #: r2/templates/prefoptions.html:439
 #, python-format
-msgid "since you don't have %(gold_link)s, this will only apply in subtipprs you moderate"
+msgid "since you don't have %(gold_link)s, this will only apply in vaults you moderate"
 msgstr "оскільки у Вас нема %(gold_link)s, це застосується лише для сабреддітів, які Ви модеруєте"
 
 #: r2/templates/prefoptions.html:447
@@ -9528,7 +9528,7 @@ msgid "reply {verb}"
 msgstr "відповісти"
 
 #: r2/templates/printablebuttons.html:582
-msgid "unblock subtippr"
+msgid "unblock vault"
 msgstr "розблокувати сабреддіт"
 
 #: r2/templates/printablebuttons.html:582
@@ -9536,7 +9536,7 @@ msgid "unblocked"
 msgstr "розблоковано"
 
 #: r2/templates/printablebuttons.html:585
-msgid "block subtippr"
+msgid "block vault"
 msgstr "заблокувати сабреддіт"
 
 #: r2/templates/printablebuttons.html:592
@@ -9552,7 +9552,7 @@ msgid "You must be invited to visit this community"
 msgstr "Ви маєте бути запрошені, щоб відвідати цю спільноту"
 
 #: r2/templates/privateinterstitial.html:46
-msgid "The moderators of this subtippr have set it to private. You must be a moderator or approved submitter to visit."
+msgid "The moderators of this vault have set it to private. You must be a moderator or approved submitter to visit."
 msgstr "Модератори цього сабреддіта зробили його приватним. Треба бути модератором або ухваленим автором, щоб відвідати його."
 
 #: r2/templates/profilebar.html:44
@@ -9580,7 +9580,7 @@ msgid "comment karma"
 msgstr "карма зароблена коментуванням"
 
 #: r2/templates/profilebar.html:88
-msgid "really obscure karma from before it was cool to track per-subtippr"
+msgid "really obscure karma from before it was cool to track per-vault"
 msgstr "таємнича модель карми з тих часів, коли ще не було модним рахувати її по кожному сабреддіту"
 
 #: r2/templates/profilebar.html:114
@@ -10025,11 +10025,11 @@ msgid "collections"
 msgstr ""
 
 #: r2/templates/promotelinkbase.html:900
-msgid "targets a collection of similar subtipprs"
+msgid "targets a collection of similar vaults"
 msgstr "націлена на колекцію подібних сабредітів"
 
 #: r2/templates/promotelinkbase.html:913
-msgid "targets a subtippr and its users"
+msgid "targets a vault and its users"
 msgstr ""
 
 #: r2/templates/promotelinkbase.html:924
@@ -10037,15 +10037,15 @@ msgid "interest topic"
 msgstr ""
 
 #: r2/templates/promotelinkbase.html:938
-msgid "subtippr collection"
+msgid "vault collection"
 msgstr ""
 
 #: r2/templates/promotelinkbase.html:947
-msgid "subtipprs included on the frontpage are based on users' subscriptions"
+msgid "vaults included on the frontpage are based on users' subscriptions"
 msgstr "сабреддіти, показані на головній сторінці, базуються на підписках користувача"
 
 #: r2/templates/promotelinkbase.html:950
-msgid "includes these subtipprs"
+msgid "includes these vaults"
 msgstr "включає в себе такі сабреддіти"
 
 #: r2/templates/promotelinkbase.html:951
@@ -10073,7 +10073,7 @@ msgid "metro"
 msgstr "мегаполіс або місто"
 
 #: r2/templates/promotelinkbase.html:1000
-msgid "subtippr targeting"
+msgid "vault targeting"
 msgstr "націлити на сабреддіт"
 
 #: r2/templates/promotelinkbase.html:1014
@@ -10355,7 +10355,7 @@ msgstr "безкоштовно"
 msgid "pay"
 msgstr "сплатити"
 
-#: r2/templates/renderablecampaign.html:104 r2/templates/subtipprinfobar.html:79
+#: r2/templates/renderablecampaign.html:104 r2/templates/vaultinfobar.html:79
 #: r2/templates/userlisting.html:93 r2/templates/usertableitem.html:95
 msgid "change"
 msgstr "змінити"
@@ -10478,7 +10478,7 @@ msgid "converted query to %(syntax)s syntax: %(converted)s"
 msgstr "запит був перекладений на синтаксис %(syntax)s так: %(converted)s"
 
 #: r2/templates/searchform.html:35
-msgid "find submissions in \"subtippr\""
+msgid "find submissions in \"vault\""
 msgstr "знайти публікації в «сабреддіті»"
 
 #: r2/templates/searchform.html:37
@@ -10510,7 +10510,7 @@ msgid "see the search faq for details."
 msgstr "для підробиць читайте запитання та відповіді, що стосуються пошуку."
 
 #: r2/templates/searchform.html:54
-msgid "advanced search: by author, subtippr..."
+msgid "advanced search: by author, vault..."
 msgstr "розширений пошук: за автором, сабреддітом..."
 
 #: r2/templates/searchform.html:67
@@ -10535,24 +10535,24 @@ msgstr "до %s"
 msgid "less"
 msgstr "менше"
 
-#: r2/templates/searchresultsubtippr.html:64 r2/templates/subtippr.html:62
+#: r2/templates/searchresultvault.html:64 r2/templates/vault.html:62
 #, python-format
 msgid "a community for %(time)s"
 msgstr "спільнота заснована %(time)s тому"
 
-#: r2/templates/searchresultsubtippr.html:81
+#: r2/templates/searchresultvault.html:81
 #, python-format
-msgid "search within %(subtippr)s"
-msgstr "шукати в межах %(subtippr)s"
+msgid "search within %(vault)s"
+msgstr "шукати в межах %(vault)s"
 
-#: r2/templates/searchresultsubtippr.html:85
+#: r2/templates/searchresultvault.html:85
 #, python-format
-msgid "search in %(subtippr)s"
-msgstr "шукати у %(subtippr)s"
+msgid "search in %(vault)s"
+msgstr "шукати у %(vault)s"
 
 #: r2/templates/seocommentspage.html:35
 #, python-format
-msgid "More from %(subtippr)s"
+msgid "More from %(vault)s"
 msgstr ""
 
 #: r2/templates/seocommentspage.html:39
@@ -10580,190 +10580,190 @@ msgid "note: you will only be eligible for a gilding trophy if this is set to \"
 msgstr "примітка: ви зможете претендувати на отримання трофейної Золотої підписки, якщо цей параметр встановлений у «всі»"
 
 #: r2/templates/sitewidetraffic.html:33
-msgid "top subtipprs"
+msgid "top vaults"
 msgstr "топ сабреддітів"
 
-#: r2/templates/sitewidetraffic.html:33 r2/templates/subtipprtrafficreport.html:33
+#: r2/templates/sitewidetraffic.html:33 r2/templates/vaulttrafficreport.html:33
 msgid "make report"
 msgstr "створити звіт"
 
-#: r2/templates/subtippr.html:82
+#: r2/templates/vault.html:82
 msgid "not approved"
 msgstr "не схвалено"
 
-#: r2/templates/subtippr.html:95 r2/templates/utils.html:716
+#: r2/templates/vault.html:95 r2/templates/utils.html:716
 msgid "NSFW"
 msgstr "НЕ ДЛЯ ОФІСУ"
 
-#: r2/templates/subtippr.xml:48
+#: r2/templates/vault.xml:48
 msgid "[link]"
 msgstr ""
 
-#: r2/templates/subtipprfacets.html:29
-msgid "too many results? narrow it down to a subtippr!"
+#: r2/templates/vaultfacets.html:29
+msgid "too many results? narrow it down to a vault!"
 msgstr "забагато результатів? спробуйте звузити пошук до сабреддіта!"
 
-#: r2/templates/subtipprinfobar.html:43
+#: r2/templates/vaultinfobar.html:43
 #, python-format
 msgid "This community is [quarantined](%(link)s) because of its shocking or highly offensive content."
 msgstr "Ця спільнота [quarantined](%(link)s) через свій шокуючий або дуже неприємний вміст."
 
-#: r2/templates/subtipprinfobar.html:50
+#: r2/templates/vaultinfobar.html:50
 msgid "Leave this community"
 msgstr "Залишити цю спільноту"
 
-#: r2/templates/subtipprinfobar.html:61
-msgid "logged-in users viewing this subtippr in the past 15 minutes"
+#: r2/templates/vaultinfobar.html:61
+msgid "logged-in users viewing this vault in the past 15 minutes"
 msgstr "ідентифіковані користувачі, які переглядали цей сабреддіт в останні 15 хвилин"
 
-#: r2/templates/subtipprinfobar.html:67
-msgid "logged-out users viewing this subtippr in the past 15 minutes"
+#: r2/templates/vaultinfobar.html:67
+msgid "logged-out users viewing this vault in the past 15 minutes"
 msgstr ""
 
-#: r2/templates/subtipprinfobar.html:87
+#: r2/templates/vaultinfobar.html:87
 msgid "you are no longer an approved submitter"
 msgstr "ви більше не є схваленим автором"
 
-#: r2/templates/subtipprinfobar.html:88
+#: r2/templates/vaultinfobar.html:88
 msgid "stop being an approved submitter?"
 msgstr "перестати бути схваленим автором?"
 
-#: r2/templates/subtipprinfobar.html:89
+#: r2/templates/vaultinfobar.html:89
 #, python-format
-msgid "you are an approved submitter on this subtippr. (%(leave)s)"
+msgid "you are an approved submitter on this vault. (%(leave)s)"
 msgstr "ви є схваленим автором у цьому сабреддіті. (%(leave)s)"
 
-#: r2/templates/subtipprinfobar.html:103
-msgid "Show this subtippr's theme"
+#: r2/templates/vaultinfobar.html:103
+msgid "Show this vault's theme"
 msgstr "Показати цю тему сабраддіта"
 
-#: r2/templates/subtipprinfobar.html:123
+#: r2/templates/vaultinfobar.html:123
 msgid "a community for"
 msgstr "спільнота для"
 
-#: r2/templates/subtipprinfobar.html:137
-msgid "approve this subtippr"
+#: r2/templates/vaultinfobar.html:137
+msgid "approve this vault"
 msgstr "схвалити цей сабреддіт"
 
-#: r2/templates/subtipprinfobar.html:167
-msgid "ban this subtippr"
+#: r2/templates/vaultinfobar.html:167
+msgid "ban this vault"
 msgstr "заблокувати цей сабреддіт"
 
-#: r2/templates/subtipprreportform.html:32
-#: r2/templates/subtipprreportform.html:33
+#: r2/templates/vaultreportform.html:32
+#: r2/templates/vaultreportform.html:33
 msgid "View the community rules"
 msgstr ""
 
-#: r2/templates/subtipprreportform.html:36
+#: r2/templates/vaultreportform.html:36
 msgid "What rule does this break?"
 msgstr ""
 
-#: r2/templates/subtipprreportform.html:77
+#: r2/templates/vaultreportform.html:77
 #, python-format
 msgid "Tippr rule: %(rule_name)s"
 msgstr ""
 
-#: r2/templates/subtipprreportform.html:86
-#: r2/templates/subtipprreportform.html:105
+#: r2/templates/vaultreportform.html:86
+#: r2/templates/vaultreportform.html:105
 msgid "Reports go to community moderators anonymously"
 msgstr ""
 
-#: r2/templates/subtipprreportform.html:107
+#: r2/templates/vaultreportform.html:107
 msgid "Reports go to Tippr admins"
 msgstr ""
 
-#: r2/templates/subtipprreportform.html:121
+#: r2/templates/vaultreportform.html:121
 #, python-format
 msgid "Other (max %(num)s characters):"
 msgstr ""
 
-#: r2/templates/subtipprselector.html:58
+#: r2/templates/vaultselector.html:58
 msgid "Type in a community and hit \"Enter.\" Press backspace to delete"
 msgstr ""
 
-#: r2/templates/subtipprstylesheet.html:56 r2/templates/wikieditpage.html:49
+#: r2/templates/vaultstylesheet.html:56 r2/templates/wikieditpage.html:49
 msgid "reason for revision"
 msgstr "причина редагування"
 
-#: r2/templates/subtipprstylesheet.html:59
+#: r2/templates/vaultstylesheet.html:59
 msgid "see previous versions"
 msgstr "переглянути попередні версії"
 
-#: r2/templates/subtipprstylesheet.html:72
-#: r2/templates/subtipprstylesheet.html:87
+#: r2/templates/vaultstylesheet.html:72
+#: r2/templates/vaultstylesheet.html:87
 msgid "preview"
 msgstr "попередній перегляд"
 
-#: r2/templates/subtipprstylesheet.html:90
+#: r2/templates/vaultstylesheet.html:90
 msgid "normal link"
 msgstr "звичайне посилання"
 
-#: r2/templates/subtipprstylesheet.html:94
+#: r2/templates/vaultstylesheet.html:94
 msgid "compressed link"
 msgstr "стисле посилання"
 
-#: r2/templates/subtipprstylesheet.html:98
+#: r2/templates/vaultstylesheet.html:98
 msgid "link with thumbnail"
 msgstr "посилання з мініатюрою"
 
-#: r2/templates/subtipprstylesheet.html:102
+#: r2/templates/vaultstylesheet.html:102
 msgid "stickied link"
 msgstr "закріплене посилання"
 
-#: r2/templates/subtipprstylesheet.html:110
+#: r2/templates/vaultstylesheet.html:110
 msgid "gilded comment"
 msgstr "позолочений коментар"
 
-#: r2/templates/subtipprstylesheet.html:118
-#: r2/templates/subtipprstylesheetsource.html:43
+#: r2/templates/vaultstylesheet.html:118
+#: r2/templates/vaultstylesheetsource.html:43
 msgid "images"
 msgstr "зображення"
 
-#: r2/templates/subtipprstylesheet.html:122
+#: r2/templates/vaultstylesheet.html:122
 msgid "image file"
 msgstr "файл зображення"
 
-#: r2/templates/subtipprstylesheet.html:125
+#: r2/templates/vaultstylesheet.html:125
 msgid "new image name:"
 msgstr "назва нового зображення:"
 
-#: r2/templates/subtipprstylesheet.html:130
+#: r2/templates/vaultstylesheet.html:130
 msgid "(image names should consist of alphanumeric characters and '-' only)"
 msgstr "(імена зображень мають містити лише літери, цифри та \"-\")"
 
-#: r2/templates/subtipprstylesheet.html:134
+#: r2/templates/vaultstylesheet.html:134
 msgid "Note: any changes to images here will be reflected immediately on reload and cannot be undone."
 msgstr "Зауважте: будь-які зміни до зображень стануть доступними одразу після перезавантаження, та не можуть бути скасовані."
 
-#: r2/templates/subtipprstylesheetbase.html:42
+#: r2/templates/vaultstylesheetbase.html:42
 msgid "paste into stylesheet"
 msgstr "вставити до таблиці стилю"
 
-#: r2/templates/subtipprstylesheetbase.html:45
+#: r2/templates/vaultstylesheetbase.html:45
 msgid "delete this image"
 msgstr "видалити це зображення"
 
-#: r2/templates/subtipprstylesheetbase.html:77
+#: r2/templates/vaultstylesheetbase.html:77
 msgid "undelete this image"
 msgstr ""
 
-#: r2/templates/subtipprstylesheetbase.html:77
+#: r2/templates/vaultstylesheetbase.html:77
 msgid "undeleted"
 msgstr ""
 
-#: r2/templates/subtipprtraffic.html:34
+#: r2/templates/vaulttraffic.html:34
 msgid "All times are in [UTC](http://en.wikipedia.org/wiki/UTC)."
 msgstr "Час завжди вказано в форматі [всесвітнього часу (UTC)](http://uk.wikipedia.org/wiki/%D0%92%D1%81%D0%B5%D1%81%D0%B2%D1%96%D1%82%D0%BD%D1%96%D0%B9_%D0%BA%D0%BE%D0%BE%D1%80%D0%B4%D0%B8%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B9_%D1%87%D0%B0%D1%81)."
 
-#: r2/templates/subtipprtrafficreport.html:29
-msgid "Enter one subtippr per line. Traffic numbers shown are for the last full month."
+#: r2/templates/vaulttrafficreport.html:29
+msgid "Enter one vault per line. Traffic numbers shown are for the last full month."
 msgstr "Введіть один сабреддіт на рядок. Цифри трафіку показуються за останній повний місяць."
 
-#: r2/templates/subtipprtrafficreport.html:39
-msgid "subtippr traffic"
+#: r2/templates/vaulttrafficreport.html:39
+msgid "vault traffic"
 msgstr "трафік по сабреддіту"
 
-#: r2/templates/subtipprtrafficreport.html:63
+#: r2/templates/vaulttrafficreport.html:63
 msgid "not found"
 msgstr "не знайдено"
 
@@ -10803,8 +10803,8 @@ msgstr "Але якщо ви дали нам ще більше грошей, в�
 msgid "claim"
 msgstr "активувати"
 
-#: r2/templates/trendingsubtipprsbar.html:31
-msgid "trending subtipprs"
+#: r2/templates/trendingvaultsbar.html:31
+msgid "trending vaults"
 msgstr "сабреддіти, що набирають популярність"
 
 #: r2/templates/trophycase.html:57
@@ -10932,7 +10932,7 @@ msgid "Only trusted users."
 msgstr ""
 
 #: r2/templates/usermessagingprefs.html:24
-msgid "Admins and moderators of subtipprs you have participated in will always be able to message you."
+msgid "Admins and moderators of vaults you have participated in will always be able to message you."
 msgstr ""
 
 #: r2/templates/usermessagingprefs.html:31
@@ -11203,7 +11203,7 @@ msgstr "почати обговорення"
 
 #: r2/templates/wikipagenotfound.html:23
 #, python-format
-msgid "The page \"%s\" was not found in this subtippr."
+msgid "The page \"%s\" was not found in this vault."
 msgstr "Сторінка \"%s\" не знайдена в цьому сабреддіті."
 
 #: r2/templates/wikipagenotfound.html:24
@@ -11220,7 +11220,7 @@ msgid "who can edit this page?"
 msgstr "хто може редагувати цю сторінку?"
 
 #: r2/templates/wikipagesettings.html:40
-msgid "use subtippr wiki permissions"
+msgid "use vault wiki permissions"
 msgstr "використовувати дозволи вікі сабреддіту"
 
 #: r2/templates/wikipagesettings.html:45

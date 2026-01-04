@@ -93,11 +93,11 @@ msgstr "v41!|)47!0n 3rr0r5"
 
 #: r2/controllers/api.py:1165 r2/controllers/api.py:1879 r2/lib/menus.py:157
 #: r2/templates/printablebuttons.html:33
-#: r2/templates/subtipprstylesheet.html:246
+#: r2/templates/vaultstylesheet.html:246
 msgid "deleted"
 msgstr "d3|373d"
 
-#: r2/controllers/api.py:1215 r2/templates/subtipprstylesheet.html:199
+#: r2/controllers/api.py:1215 r2/templates/vaultstylesheet.html:199
 msgid "bad image name"
 msgstr "84) !m463 n@m3"
 
@@ -316,7 +316,7 @@ msgid "you aren't allowed to post there."
 msgstr "y0u @r3n'7 @110w3) 70 p0$7 7h3r3."
 
 #: r2/controllers/errors.py:60
-msgid "you must specify a subtippr"
+msgid "you must specify a vault"
 msgstr ""
 
 #: r2/controllers/errors.py:61
@@ -483,7 +483,7 @@ msgstr "5h0w %d"
 msgid "create a tippr"
 msgstr "(r3473 4 r3ÐÐ17"
 
-#: r2/controllers/front.py:348 r2/templates/createsubtippr.html:49
+#: r2/controllers/front.py:348 r2/templates/createvault.html:49
 msgid "create a community"
 msgstr "(r3@73 4 (0mmun!7y"
 
@@ -903,7 +903,7 @@ msgid "advertise"
 msgstr ""
 
 #: r2/lib/menus.py:102
-msgid "subtipprs"
+msgid "vaults"
 msgstr ""
 
 #: r2/lib/menus.py:105 r2/templates/promotelinkform.html:318
@@ -922,7 +922,7 @@ msgstr "ƒr13nÐ$"
 msgid "password/email"
 msgstr "p4$$w0rÐ/3m41£"
 
-#: r2/lib/menus.py:109 r2/templates/createsubtippr.html:288
+#: r2/lib/menus.py:109 r2/templates/createvault.html:288
 #: r2/templates/printablebuttons.html:33
 msgid "delete"
 msgstr "d3|373"
@@ -970,7 +970,7 @@ msgid "edit subscriptions"
 msgstr "3|)!7 $u85(r1p710n5"
 
 #: r2/lib/menus.py:127 r2/lib/pages/pages.py:1045
-#: r2/templates/createsubtippr.html:39
+#: r2/templates/createvault.html:39
 msgid "community settings"
 msgstr "(0mmun!7y $3771n6$"
 
@@ -1002,7 +1002,7 @@ msgstr ""
 msgid "popular"
 msgstr "p0pµ£4r"
 
-#: r2/lib/menus.py:137 r2/templates/createsubtippr.html:312
+#: r2/lib/menus.py:137 r2/templates/createvault.html:312
 msgid "create"
 msgstr "(r3473"
 
@@ -1014,7 +1014,7 @@ msgstr "m¥ r3ÐÐ17$"
 msgid "help translate"
 msgstr "h31p 7r@n51473"
 
-#: r2/lib/menus.py:141 r2/templates/subtipprstylesheet.html:88
+#: r2/lib/menus.py:141 r2/templates/vaultstylesheet.html:88
 msgid "errors"
 msgstr "3rr0r$"
 
@@ -1556,11 +1556,11 @@ msgid "to anything interesting: news article, blog entry, video, picture..."
 msgstr "70 4ny7h!n6 !n73r357!n6: n3w$ 4r71(13, 8106 3n7ry, v1)30, p1(7ur3..."
 
 #: r2/lib/strings.py:127
-msgid "submission in this subtippr is restricted to approved submitters."
+msgid "submission in this vault is restricted to approved submitters."
 msgstr ""
 
 #: r2/lib/strings.py:128
-msgid "this subtippr is archived and no longer accepting submissions."
+msgid "this vault is archived and no longer accepting submissions."
 msgstr ""
 
 #: r2/lib/strings.py:129
@@ -1795,7 +1795,7 @@ msgid "You are currently accessing tippr from this IP address: %(address)s."
 msgstr ""
 
 #: r2/lib/strings.py:229 r2/lib/strings.py:234 r2/lib/template_helpers.py:232
-#: r2/templates/subtipprstylesheet.html:280
+#: r2/templates/vaultstylesheet.html:280
 msgid "comment"
 msgid_plural "comments"
 msgstr[0] "(0mm3n7"
@@ -1822,8 +1822,8 @@ msgstr[0] "m3$$463"
 msgstr[1] "m3$$4635"
 
 #: r2/lib/strings.py:236
-msgid "subtippr"
-msgid_plural "subtipprs"
+msgid "vault"
+msgid_plural "vaults"
 msgstr[0] "5u8r3))17"
 msgstr[1] "5u8r3)|)!7$"
 
@@ -1845,14 +1845,14 @@ msgid_plural "subscribers"
 msgstr[0] "$µb$(r1b3r"
 msgstr[1] "$µb$(r1b3r5"
 
-#: r2/lib/strings.py:242 r2/templates/subtippr.html:82
-#: r2/templates/subtippr.html:83
+#: r2/lib/strings.py:242 r2/templates/vault.html:82
+#: r2/templates/vault.html:83
 msgid "approved submitter"
 msgid_plural "approved submitters"
 msgstr[0] "4ppr0v3) 5u8m!773r"
 msgstr[1] "4ppr0v3) 5u8m!773r$"
 
-#: r2/lib/strings.py:243 r2/templates/subtippr.html:76
+#: r2/lib/strings.py:243 r2/templates/vault.html:76
 msgid "moderator"
 msgid_plural "moderators"
 msgstr[0] "m0)3r@70r"
@@ -2014,7 +2014,7 @@ msgstr "53@r(h r3|))!7$"
 msgid "your front page tipprs (%s)"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1164 r2/templates/createsubtippr.html:196
+#: r2/lib/pages/pages.py:1164 r2/templates/createvault.html:196
 #: r2/templates/spotlightlisting.html:54
 msgid "what's this?"
 msgstr "wh47'$ 7h!$?"
@@ -2151,7 +2151,7 @@ msgid "ancient history"
 msgstr ""
 
 #: r2/models/account.py:185
-msgid "really obscure karma from before it was cool to track per-subtippr"
+msgid "really obscure karma from before it was cool to track per-vault"
 msgstr ""
 
 #: r2/models/builder.py:103
@@ -2308,7 +2308,7 @@ msgstr ""
 msgid "edit settings"
 msgstr ""
 
-#: r2/models/modaction.py:44 r2/templates/subtipprinfobar.html:90
+#: r2/models/modaction.py:44 r2/templates/vaultinfobar.html:90
 #: r2/templates/subscriptionbox.html:57
 msgid "banned"
 msgstr "b4nn3Ð"
@@ -2361,20 +2361,20 @@ msgstr ""
 msgid "removed self"
 msgstr ""
 
-#: r2/models/modaction.py:60 r2/templates/createsubtippr.html:69
+#: r2/models/modaction.py:60 r2/templates/createvault.html:69
 #: r2/templates/newlink.html:61 r2/templates/promotelinkform.html:258
 msgid "title"
 msgstr "7!713"
 
-#: r2/models/modaction.py:61 r2/templates/createsubtippr.html:81
+#: r2/models/modaction.py:61 r2/templates/createvault.html:81
 msgid "description"
 msgstr "|)3$(r1p710n"
 
-#: r2/models/modaction.py:62 r2/templates/createsubtippr.html:90
+#: r2/models/modaction.py:62 r2/templates/createvault.html:90
 msgid "language"
 msgstr "14n6u463"
 
-#: r2/models/modaction.py:63 r2/templates/createsubtippr.html:101
+#: r2/models/modaction.py:63 r2/templates/createvault.html:101
 msgid "type"
 msgstr "7yp3"
 
@@ -2394,7 +2394,7 @@ msgstr ""
 msgid "toggle show thumbnail images of content"
 msgstr ""
 
-#: r2/models/modaction.py:68 r2/templates/createsubtippr.html:170
+#: r2/models/modaction.py:68 r2/templates/createvault.html:170
 msgid "domain"
 msgstr "|)0m4!n"
 
@@ -2410,7 +2410,7 @@ msgstr ""
 msgid "header title"
 msgstr ""
 
-#: r2/models/modaction.py:72 r2/templates/subtipprstylesheet.html:42
+#: r2/models/modaction.py:72 r2/templates/vaultstylesheet.html:42
 msgid "stylesheet"
 msgstr "$7y13$h337"
 
@@ -2422,7 +2422,7 @@ msgstr ""
 msgid "delete image"
 msgstr ""
 
-#: r2/models/modaction.py:75 r2/templates/createsubtippr.html:223
+#: r2/models/modaction.py:75 r2/templates/createvault.html:223
 msgid "upload header image"
 msgstr "up10@) h3@|)3r 1m463"
 
@@ -2475,7 +2475,7 @@ msgstr ""
 msgid "on"
 msgstr "0n"
 
-#: r2/models/subtippr.py:952
+#: r2/models/vault.py:952
 msgid "on tippr.com"
 msgstr "0n r3|)|)17.(0m"
 
@@ -2759,115 +2759,115 @@ msgstr ""
 msgid "no highlighting"
 msgstr "n0 h16h116h71n6"
 
-#: r2/templates/createsubtippr.html:47
-msgid "that subtippr doesn't exist, but you can create it here."
+#: r2/templates/createvault.html:47
+msgid "that vault doesn't exist, but you can create it here."
 msgstr "7h47 $µbr3ÐÐ17 Ð03$n'7 3x1$7, bµ7 ¥0µ (4n (r3473 17 h3r3."
 
-#: r2/templates/createsubtippr.html:55
+#: r2/templates/createvault.html:55
 msgid "no spaces, e.g., slashdot"
 msgstr "n0 $p4(35, 3.6., $1@$h|)07"
 
-#: r2/templates/createsubtippr.html:55
+#: r2/templates/createvault.html:55
 msgid "name"
 msgstr "n@m3"
 
-#: r2/templates/createsubtippr.html:69
+#: r2/templates/createvault.html:69
 msgid "e.g., slashdot: news for nerds, stuff that matters"
 msgstr "3.6., 51@5h)07: n3w5 ph0r n3r|)5, 57uphph 7h47 m4773r5"
 
-#: r2/templates/createsubtippr.html:81
+#: r2/templates/createvault.html:81
 msgid "500 characters max.  Make them count."
 msgstr "500 (h@r4(73r5 m4x.  m4X3 7h3m (0un7."
 
-#: r2/templates/createsubtippr.html:104
+#: r2/templates/createvault.html:104
 msgid "public"
 msgstr "pu81!("
 
-#: r2/templates/createsubtippr.html:105
+#: r2/templates/createvault.html:105
 msgid "anyone can view and submit"
 msgstr "@ny0n3 (@n v!3w 4n) 5u8m17"
 
-#: r2/templates/createsubtippr.html:107
+#: r2/templates/createvault.html:107
 msgid "restricted"
 msgstr "r3$7r!(73)"
 
-#: r2/templates/createsubtippr.html:108
+#: r2/templates/createvault.html:108
 msgid "anyone can view, but only some are approved to submit links"
 msgstr "4ny0n3 (@n v!3w, 8u7 0n1y 50m3 @r3 4ppr0v3|) 70 $u8m17 1!nX$"
 
-#: r2/templates/createsubtippr.html:110 r2/templates/subtippr.html:94
+#: r2/templates/createvault.html:110 r2/templates/vault.html:94
 msgid "private"
 msgstr "pr1v473"
 
-#: r2/templates/createsubtippr.html:111
+#: r2/templates/createvault.html:111
 msgid "only approved members can view and submit"
 msgstr "0n1y @ppr0v3|) m3m83r5 (4n v13w @n) 5u8m17"
 
-#: r2/templates/createsubtippr.html:116
+#: r2/templates/createvault.html:116
 msgid "archived"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:117
+#: r2/templates/createvault.html:117
 msgid "anyone can view, but submissions are no longer accepted"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:124 r2/templates/prefoptions.html:243
+#: r2/templates/createvault.html:124 r2/templates/prefoptions.html:243
 msgid "content options"
 msgstr "(0n73n7 0p710n5"
 
-#: r2/templates/createsubtippr.html:127
+#: r2/templates/createvault.html:127
 msgid "any"
 msgstr "4ny"
 
-#: r2/templates/createsubtippr.html:128
+#: r2/templates/createvault.html:128
 msgid "any link type is allowed"
 msgstr "@ny 11nX 7yp3 !$ @110w3|)"
 
-#: r2/templates/createsubtippr.html:130
+#: r2/templates/createvault.html:130
 msgid "links only"
 msgstr "11nX5 0n1y"
 
-#: r2/templates/createsubtippr.html:131
+#: r2/templates/createvault.html:131
 msgid "only links to external sites are allowed"
 msgstr "0n1y 11nX$ 70 3x73rn41 $173$ @r3 @110w3|)"
 
-#: r2/templates/createsubtippr.html:133
+#: r2/templates/createvault.html:133
 msgid "text posts only"
 msgstr "73x7 p0$75 0n1y"
 
-#: r2/templates/createsubtippr.html:134
+#: r2/templates/createvault.html:134
 msgid "only text/self posts are allowed"
 msgstr "0n1y 73x7/$31ph p0575 @r3 4110w3|)"
 
-#: r2/templates/createsubtippr.html:140
+#: r2/templates/createvault.html:140
 msgid "other options"
 msgstr "07h3r 0p710n$"
 
-#: r2/templates/createsubtippr.html:147
+#: r2/templates/createvault.html:147
 msgid "viewers must be over eighteen years old"
 msgstr "v13w3r5 mu$7 83 0v3r 3!6h733n y3@r$ 01)"
 
-#: r2/templates/createsubtippr.html:155
+#: r2/templates/createvault.html:155
 msgid "allow this tippr to be shown in the default set"
 msgstr "@110w 7h!$ r3)|)!7 70 83 $h0wn 1n 7h3 )3ph4u17 $37"
 
-#: r2/templates/createsubtippr.html:163
+#: r2/templates/createvault.html:163
 msgid "show thumbnail images of content"
 msgstr "5h0w 7hum8n@!1 1m4635 0ph (0n73n7"
 
-#: r2/templates/createsubtippr.html:177
+#: r2/templates/createvault.html:177
 msgid "make custom CSS styles apply only when accessed from the cname."
 msgstr "m@X3 (u570m (5$ $7y135 @pp1y 0n1y wh3n 4((35$3) phr0m 7h3 (n@m3."
 
-#: r2/templates/createsubtippr.html:184
+#: r2/templates/createvault.html:184
 msgid "show sidebar when accessed from the cname."
 msgstr ""
 
-#: r2/templates/createsubtippr.html:196 r2/templates/usertext.html:72
+#: r2/templates/createvault.html:196 r2/templates/usertext.html:72
 msgid "hide help"
 msgstr "h!)3 h31p"
 
-#: r2/templates/createsubtippr.html:200
+#: r2/templates/createvault.html:200
 msgid ""
 "Own a domain?  Enter it here and then go to your DNS provider and add a "
 "CNAME record aliasing your domain to rhs.tippr.com. You will be able to "
@@ -2877,39 +2877,39 @@ msgstr ""
 "(n4m3 r3(0r|) @1!@51n6 y0ur |)0m41n 70 rh5.r3))17.(0m. y0u w!11 83 @813 70 @"
 "((3$5 y0ur r3|))17 7hr0u6h y0ur |)0m41n."
 
-#: r2/templates/createsubtippr.html:207 r2/templates/promotelinkform.html:298
+#: r2/templates/createvault.html:207 r2/templates/promotelinkform.html:298
 msgid "look and feel"
 msgstr "100X 4n) ph331"
 
-#: r2/templates/createsubtippr.html:210
+#: r2/templates/createvault.html:210
 msgid "edit the stylesheet"
 msgstr "3|)17 7h3 $7y13$h337"
 
-#: r2/templates/createsubtippr.html:214
+#: r2/templates/createvault.html:214
 msgid "leaves this page"
 msgstr "134v3$ 7h15 p463"
 
-#: r2/templates/createsubtippr.html:233
+#: r2/templates/createvault.html:233
 msgid "restore default header"
 msgstr "r3570r3 )3ph@u17 h3@|)3r"
 
-#: r2/templates/createsubtippr.html:251
+#: r2/templates/createvault.html:251
 msgid "sponsorship"
 msgstr "$p0n50r$h1p"
 
-#: r2/templates/createsubtippr.html:263
+#: r2/templates/createvault.html:263
 msgid "name this campaign (for traffic)"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:272
+#: r2/templates/createvault.html:272
 msgid "enter link url here"
 msgstr ""
 
-#: r2/templates/createsubtippr.html:277
+#: r2/templates/createvault.html:277
 msgid "upload sponsorship image"
 msgstr "up104) $p0n50r5h1p !m463"
 
-#: r2/templates/createsubtippr.html:309 r2/templates/flairpane.html:64
+#: r2/templates/createvault.html:309 r2/templates/flairpane.html:64
 #: r2/templates/prefoptions.html:321 r2/templates/promotelinkform.html:396
 msgid "save options"
 msgstr "5@v3 0p7!0n$"
@@ -2966,7 +2966,7 @@ msgstr ""
 #: r2/templates/flairlistrow.html:45 r2/templates/flairselector.html:48
 #: r2/templates/frametoolbar.html:199 r2/templates/prefupdate.html:98
 #: r2/templates/printablebuttons.html:174
-#: r2/templates/subtipprstylesheet.html:78
+#: r2/templates/vaultstylesheet.html:78
 msgid "save"
 msgstr "$4v3"
 
@@ -2989,7 +2989,7 @@ msgid "flair options"
 msgstr ""
 
 #: r2/templates/flairpane.html:39
-msgid "enable user flair in this subtippr"
+msgid "enable user flair in this vault"
 msgstr ""
 
 #: r2/templates/flairpane.html:50
@@ -3138,7 +3138,7 @@ msgstr ""
 msgid "$29.99 / year (which works out to just $2.50 / month!)"
 msgstr ""
 
-#: r2/templates/gold.html:106 r2/templates/subtippr.html:65
+#: r2/templates/gold.html:106 r2/templates/vault.html:65
 msgid "subscribe"
 msgstr ""
 
@@ -3388,8 +3388,8 @@ msgstr "70 %(dest)s ƒr0m %(author)s $3n7 %(when)s 490"
 
 #: r2/templates/message.html:65 r2/templates/message.xml:47
 #, python-format
-msgid "%(author)s via %(subtippr)s"
-msgstr "%(author)s v14 %(subtippr)s"
+msgid "%(author)s via %(vault)s"
+msgstr "%(author)s v14 %(vault)s"
 
 #: r2/templates/message.html:103
 msgid "expand all"
@@ -3465,7 +3465,7 @@ msgid "text"
 msgstr "73x7"
 
 #: r2/templates/newlink.html:100
-msgid "choose a subtippr"
+msgid "choose a vault"
 msgstr ""
 
 #: r2/templates/oauth2authorization.html:28
@@ -4137,7 +4137,7 @@ msgstr "@ppr0v3"
 
 #: r2/templates/printablebuttons.html:52
 #: r2/templates/printablebuttons.html:143
-#: r2/templates/subtipprinfobar.html:82
+#: r2/templates/vaultinfobar.html:82
 msgid "approved"
 msgstr "@ppr0v3)"
 
@@ -4628,100 +4628,100 @@ msgstr ""
 "7h3 n3w 11nX @r3@ w!11 n0 10n63r @pp3@r ph0r y0u. 70 r3-3n@813 !7, v1$17 "
 "y0ur pr3ph3r3n(35."
 
-#: r2/templates/subtippr.html:60
+#: r2/templates/vault.html:60
 #, python-format
 msgid "a community for %(time)s"
 msgstr "@ (0mmun!7y ph0r %(time)s"
 
-#: r2/templates/subtippr.html:65
+#: r2/templates/vault.html:65
 msgid "unsubscribe"
 msgstr ""
 
-#: r2/templates/subtippr.html:86 r2/templates/subtippr.html:87
+#: r2/templates/vault.html:86 r2/templates/vault.html:87
 msgid "not approved"
 msgstr "n07 @ppr0v3)"
 
-#: r2/templates/subtippr.html:98
+#: r2/templates/vault.html:98
 msgid "over18"
 msgstr "0v3r18"
 
-#: r2/templates/subtipprinfobar.html:34
+#: r2/templates/vaultinfobar.html:34
 msgid "leave"
 msgstr "£34v3"
 
-#: r2/templates/subtipprinfobar.html:48
+#: r2/templates/vaultinfobar.html:48
 #, python-format
 msgid "you are a moderator of this tippr. (%(leave)s)"
 msgstr "y0u 4r3 @ m0)3r470r 0ph 7h!$ r3)|)!7. (%(leave)s)"
 
-#: r2/templates/subtipprinfobar.html:49
+#: r2/templates/vaultinfobar.html:49
 msgid "stop being a moderator?"
 msgstr "$70p 83!n6 @ m0)3r@70r?"
 
-#: r2/templates/subtipprinfobar.html:50
+#: r2/templates/vaultinfobar.html:50
 msgid "you are no longer a moderator"
 msgstr "y0u 4r3 n0 10n63r 4 m0|)3r@70r"
 
-#: r2/templates/subtipprinfobar.html:56
+#: r2/templates/vaultinfobar.html:56
 #, python-format
 msgid "you are an approved submitter on this tippr. (%(leave)s)"
 msgstr "y0u @r3 @n 4ppr0v3) $u8m1773r 0n 7h15 r3|)|)17. (%(leave)s)"
 
-#: r2/templates/subtipprinfobar.html:57
+#: r2/templates/vaultinfobar.html:57
 msgid "stop being an approved submitter?"
 msgstr "570p 831n6 4n @ppr0v3|) 5u8m!773r?"
 
-#: r2/templates/subtipprinfobar.html:58
+#: r2/templates/vaultinfobar.html:58
 msgid "you are no longer an approved submitter"
 msgstr "y0u @r3 n0 10n63r @n @ppr0v3|) 5u8m!773r"
 
-#: r2/templates/subtipprinfobar.html:71
+#: r2/templates/vaultinfobar.html:71
 #, python-format
 msgid "created by&#32;%(user)s"
 msgstr ""
 
-#: r2/templates/subtipprinfobar.html:75
+#: r2/templates/vaultinfobar.html:75
 msgid "a community for"
 msgstr ""
 
-#: r2/templates/subtipprinfobar.html:81
+#: r2/templates/vaultinfobar.html:81
 msgid "approve this tippr"
 msgstr "4ppr0v3 7h1$ r3|)|)17"
 
-#: r2/templates/subtipprinfobar.html:89
+#: r2/templates/vaultinfobar.html:89
 msgid "ban this tippr"
 msgstr "8@n 7h1$ r3)|)!7"
 
-#: r2/templates/subtipprstylesheet.html:71
+#: r2/templates/vaultstylesheet.html:71
 msgid "show the default stylesheet"
 msgstr "5h0w 7h3 |)3ph4u17 $7y135h337"
 
-#: r2/templates/subtipprstylesheet.html:72
+#: r2/templates/vaultstylesheet.html:72
 msgid "hide the default stylesheet"
 msgstr "h1)3 7h3 |)3ph@u17 $7y13$h337"
 
-#: r2/templates/subtipprstylesheet.html:82
-#: r2/templates/subtipprstylesheet.html:265
+#: r2/templates/vaultstylesheet.html:82
+#: r2/templates/vaultstylesheet.html:265
 msgid "preview"
 msgstr "pr3v13w"
 
-#: r2/templates/subtipprstylesheet.html:97
+#: r2/templates/vaultstylesheet.html:97
 msgid "images"
 msgstr "!m@635"
 
-#: r2/templates/subtipprstylesheet.html:101
+#: r2/templates/vaultstylesheet.html:101
 msgid "image file"
 msgstr "!m463 ph113"
 
-#: r2/templates/subtipprstylesheet.html:104
+#: r2/templates/vaultstylesheet.html:104
 msgid "new image name:"
 msgstr "n3w 1m463 n4m3:"
 
-#: r2/templates/subtipprstylesheet.html:109
+#: r2/templates/vaultstylesheet.html:109
 msgid "(image names should consist of alphanumeric characters and '-' only)"
 msgstr "(!m463 n@m3$ $h0u1) (0n$!57 0ph 41ph4num3r!( (h@r4(73r$ 4n) '-' 0n1y)"
 
-#: r2/templates/subtipprstylesheet.html:113
+#: r2/templates/vaultstylesheet.html:113
 msgid ""
 "Note: any changes to images here will be reflected immediately on reload and "
 "cannot be undone."
@@ -4729,27 +4729,27 @@ msgstr ""
 "n073: @ny (h4n635 70 1m@635 h3r3 w111 83 r3ph13(73|) 1mm3|)1@731y 0n r310@) "
 "4n|) (4nn07 83 un|)0n3."
 
-#: r2/templates/subtipprstylesheet.html:208
+#: r2/templates/vaultstylesheet.html:208
 msgid "please select an image"
 msgstr "p13453 5313(7 4n 1m463"
 
-#: r2/templates/subtipprstylesheet.html:243
+#: r2/templates/vaultstylesheet.html:243
 msgid "paste into stylesheet"
 msgstr "p4$73 1n70 57y13$h337"
 
-#: r2/templates/subtipprstylesheet.html:246
+#: r2/templates/vaultstylesheet.html:246
 msgid "delete this image"
 msgstr "|)31373 7h1$ 1m463"
 
-#: r2/templates/subtipprstylesheet.html:268
+#: r2/templates/vaultstylesheet.html:268
 msgid "normal link"
 msgstr "n0rm@1 1!nX"
 
-#: r2/templates/subtipprstylesheet.html:272
+#: r2/templates/vaultstylesheet.html:272
 msgid "compressed link"
 msgstr "(0mpr3$53) 11nX"
 
-#: r2/templates/subtipprstylesheet.html:276
+#: r2/templates/vaultstylesheet.html:276
 msgid "link with thumbnail"
 msgstr "1!nX w!7h 7hum8n411"
 
