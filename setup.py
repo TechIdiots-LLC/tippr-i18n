@@ -8,7 +8,7 @@ except ImportError:
 
 setup(
     name='tippr_i18n',
-    version="",
+    version="0.1.0",
     install_requires=["r2"],
     packages=find_packages(exclude=['ez_setup']),
     include_package_data=True,
