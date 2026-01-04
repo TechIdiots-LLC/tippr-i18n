@@ -1,4 +1,4 @@
-#!/usr/bin/env python2.5
+#!/usr/bin/env python3
 try:
     from setuptools import setup, find_packages
 except ImportError:
@@ -14,6 +14,7 @@ setup(
     include_package_data=True,
     test_suite='nose.collector',
     package_data={'tippr_i18n': ['i18n/*/LC_MESSAGES/*.mo']},
+    python_requires='>=3.8',
     entry_points="""
     [paste.app_factory]
     main = tippr_i18n.config.middleware:make_app

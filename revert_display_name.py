@@ -11,7 +11,7 @@ import sys
 
 COMMAND = "git show HEAD:%s | grep -i display-name"
 def get_display_name(filename):
-    lines = subprocess.check_output(COMMAND % filename, shell=True)
+    lines = subprocess.check_output(COMMAND % filename, shell=True, text=True)
     return lines
 
 
@@ -24,7 +24,7 @@ def has_display_name(filename):
 def write_display_name_lines(filename, lines):
     written = False
     if has_display_name(filename):
-        print "%s already has Display-Name lines" % filename
+        print("%s already has Display-Name lines" % filename)
         return
     for line in fileinput.input(filename, inplace=1, backup=".dn.bak"):
         if not written and line.startswith('"Content-Transfer-Encoding'):

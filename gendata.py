@@ -3,7 +3,7 @@ import collections
 import gettext
 import json
 import os
-import cPickle as pickle
+import pickle
 import subprocess
 import sys
 
@@ -18,8 +18,8 @@ def completion_info(pofile, lang_info=None):
     
     '''
     cmd = "msgattrib  %s --no-obsolete --no-wrap %s | grep '^msgid' | wc"
-    translated = subprocess.check_output(cmd % ("--translated", pofile), shell=True)
-    untranslated = subprocess.check_output(cmd % ("--untranslated", pofile), shell=True)
+    translated = subprocess.check_output(cmd % ("--translated", pofile), shell=True, text=True)
+    untranslated = subprocess.check_output(cmd % ("--untranslated", pofile), shell=True, text=True)
     # `wc` returns three values: line count, word count, character count
     # The lines printed by msgattrib are of the form:
     #     msgid "some string"
@@ -50,7 +50,7 @@ def get_lang_info(pofile):
     lang_dir = os.path.dirname(os.path.dirname(pofile))
     lang = os.path.basename(lang_dir)
     directory = os.path.dirname(lang_dir)
-    print '%s %s' % (directory, lang)
+    print('%s %s' % (directory, lang))
     translator = gettext.translation("r2", directory, [lang])
     return translator.info()
 
@@ -67,7 +67,7 @@ def build_data(datafilename, verbose=False):
     lang_info = get_lang_info(pofile)
     info = completion_info(pofile)
     if verbose:
-        print "%s: appears %i%% complete" % (info.lang, completion_percent(info))
+        print("%s: appears %i%% complete" % (info.lang, completion_percent(info)))
     
     en_name = lang_info['display-name-en']
     if not en_name:
@@ -90,8 +90,8 @@ if __name__ == '__main__':
     verbose = '-v' in sys.argv
     if '--csv' in sys.argv:
         if '--header' in sys.argv:
-            print ','.join(Completion._fields)
+            print(','.join(Completion._fields))
         else:
-            print csv_summary(sys.argv[-1])
+            print(csv_summary(sys.argv[-1]))
     else:
         build_data(sys.argv[-1], verbose=verbose)

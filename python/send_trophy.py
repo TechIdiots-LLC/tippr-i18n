@@ -8,7 +8,7 @@ import time
 try:
     from r2.models import admintools
 except ImportError:
-    print >> sys.stderr, "Unable to import admintools"
+    print("Unable to import admintools", file=sys.stderr)
 
 import transifex
 import transifex.history

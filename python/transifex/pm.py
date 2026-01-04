@@ -26,7 +26,7 @@ def post_message(config, session, recipient, subject, message):
     response = session.post(path, data=params, headers=headers)
     logging.info(response)
     if not response.ok:
-        raise StandardError("Something went wrong", response)
+        raise RuntimeError("Something went wrong: %s" % (response,))
     else:
         return response
 
