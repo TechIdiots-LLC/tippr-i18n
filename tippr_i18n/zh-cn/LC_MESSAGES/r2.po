@@ -775,7 +775,7 @@ msgid "Claimed! Enjoy your tippr gold membership."
 msgstr "已认领！享受你的tippr黄金会员身份吧。"
 
 #: r2/controllers/front.py:1636
-msgid "Your gold ctipprs have been claimed! Now go to someone's userpage and give them a present!"
+msgid "Your gold coins have been claimed! Now go to someone's userpage and give them a present!"
 msgstr "你的黄金tippr点数已经认领！现在前往某个用户的用户页面赠送他们礼物吧！"
 
 #: r2/controllers/front.py:1639
@@ -865,7 +865,7 @@ msgid "tippr gold"
 msgstr "tippr黄金"
 
 #: r2/controllers/front.py:2228 r2/templates/gilding.html:76
-msgid "purchase ctipprs"
+msgid "purchase coins"
 msgstr "购买tippr点数"
 
 #: r2/controllers/front.py:2238 r2/controllers/ipn.py:1148
@@ -943,11 +943,11 @@ msgid "Thank you for buying tippr gold. Your patronage supports the site and mak
 msgstr "谢谢您买tippr金。您的光顾会帮助这个网站，也会帮助未来的发展。买一个月的tippr金就能付服务器的5个小时的费用钱。"
 
 #: r2/controllers/ipn.py:582
-msgid "Eureka! Thank you for investing in tippr gold ctipprs!"
+msgid "Eureka! Thank you for investing in tippr gold coins!"
 msgstr "真棒！感谢你资助tippr金tippr点数！"
 
 #: r2/controllers/ipn.py:585
-msgid "Thank you for buying ctipprs. Your patronage supports the site and makes future development possible. To spend your ctipprs and spread tippr gold, visit [/gold](/gold) or your favorite person's user page."
+msgid "Thank you for buying coins. Your patronage supports the site and makes future development possible. To spend your coins and spread tippr gold, visit [/gold](/gold) or your favorite person's user page."
 msgstr "感谢购买tippr点数。你的资助支持了网站并让未来的开发成为可能。要花费你的tippr点数与分发tippr黄金，请访问[/gold](/gold)或你喜爱的用户的用户页面。"
 
 #: r2/controllers/ipn.py:591 r2/controllers/ipn.py:613
@@ -2185,7 +2185,7 @@ msgid "you must have an active tippr gold subscription to do that"
 msgstr "你需要拥有有效的Tippr金账户才可以这样做"
 
 #: r2/lib/errors.py:185
-msgid "insufficient ctipprs"
+msgid "insufficient coins"
 msgstr "tippr点数不足"
 
 #: r2/lib/errors.py:186
@@ -3389,7 +3389,7 @@ msgstr "您将要一次性购买%(amount)s数量的tippr金币(%(user)s). 为此
 
 #: r2/lib/strings.py:150
 #, python-format
-msgid "You're about to purchase %(amount)s. They work like gift certificates: each ctippr you have will allow you to give one month of tippr gold to someone else. You'll pay a total of %(price)s for this."
+msgid "You're about to purchase %(amount)s. They work like gift certificates: each coin you have will allow you to give one month of tippr gold to someone else. You'll pay a total of %(price)s for this."
 msgstr "你将要购买%(amount)s。它们的使用方式类似礼品兑换券：你拥有的每个tippr点数允许你赠送他人一个月的tippr黄金。你需要为此支付共计%(price)s。"
 
 #: r2/lib/strings.py:151
@@ -3534,8 +3534,8 @@ msgid_plural "vaults"
 msgstr[0] "版块"
 
 #: r2/lib/strings.py:275
-msgid "ctippr"
-msgid_plural "ctipprs"
+msgid "coin"
+msgid_plural "coins"
 msgstr[0] "tippr点数"
 
 #: r2/lib/strings.py:278
@@ -3912,9 +3912,9 @@ msgstr "少于一天"
 
 #: r2/lib/pages/pages.py:3105
 #, python-format
-msgid "%(ctipprs)s gold ctippr to give"
-msgid_plural "%(ctipprs)s gold ctipprs to give"
-msgstr[0] "%(ctipprs)s黄金tippr点数可赠送"
+msgid "%(coins)s gold coin to give"
+msgid_plural "%(coins)s gold coins to give"
+msgstr[0] "%(coins)s黄金tippr点数可赠送"
 
 #: r2/lib/pages/pages.py:3112
 #, python-format
@@ -5570,11 +5570,11 @@ msgid "Update preferences and related account information. Will not have access 
 msgstr "更新设置和相关账户信息。不会获得权限访问你的电子邮件或密码。"
 
 #: r2/models/token.py:142
-msgid "Spend tippr gold ctipprs"
+msgid "Spend tippr gold coins"
 msgstr "花费tippr黄金tippr点数"
 
 #: r2/models/token.py:143
-msgid "Spend my tippr gold ctipprs on giving gold to other users."
+msgid "Spend my tippr gold coins on giving gold to other users."
 msgstr "花费我的tippr黄金tippr点数赠送黄金给其他用户。"
 
 #: r2/models/token.py:148
@@ -6523,7 +6523,7 @@ msgid "hide"
 msgstr "隐藏"
 
 #: r2/templates/adminctipprs.html:25
-msgid "give ctipprs to a user"
+msgid "give coins to a user"
 msgstr "赠送tippr点数给用户"
 
 #: r2/templates/adminctipprs.html:32 r2/templates/admingold.html:32
@@ -6532,7 +6532,7 @@ msgstr "受赠人"
 
 #: r2/templates/adminctipprs.html:40 r2/templates/gold.html:109
 #: r2/templates/goldpayment.html:130
-msgid "ctipprs"
+msgid "coins"
 msgstr "tippr点数"
 
 #: r2/templates/adminctipprs.html:43 r2/templates/admingold.html:44
@@ -7424,27 +7424,27 @@ msgstr "赠金的花费是多少？"
 
 #: r2/templates/gilding.html:57
 #, python-format
-msgid "A single gilding costs %(price)s. If you plan to do a lot you can get a discount if you purchase some [ctipprs](/ctipprs)."
-msgstr "单次赠金花费%(price)s。如果你计划多次赠金，你可以购买一些[tippr点数](/ctipprs)来获得折扣。"
+msgid "A single gilding costs %(price)s. If you plan to do a lot you can get a discount if you purchase some [coins](/coins)."
+msgstr "单次赠金花费%(price)s。如果你计划多次赠金，你可以购买一些[tippr点数](/coins)来获得折扣。"
 
 #: r2/templates/gilding.html:60
-msgid "What are ctipprs?"
+msgid "What are coins?"
 msgstr "什么是tippr点数？"
 
 #: r2/templates/gilding.html:61
-msgid "Each ctippr you have can be converted into one month of tippr gold. Stored as a balance on your account, ctipprs allow you to give gold without having to enter payment information."
+msgid "Each coin you have can be converted into one month of tippr gold. Stored as a balance on your account, coins allow you to give gold without having to enter payment information."
 msgstr "你拥有的每个tippr点数可以兑换为一个月的tippr黄金。作为你的账户上的储值余额，tippr点数允许你无需输入支付信息赠送黄金。"
 
 #: r2/templates/gilding.html:61
-msgid "Additionally, buying ctipprs in bulk lowers the cost of each gilding."
+msgid "Additionally, buying coins in bulk lowers the cost of each gilding."
 msgstr "另外，批量购买tippr点数降低每次赠金的花费。"
 
 #: r2/templates/gilding.html:64
-msgid "How do I use ctipprs?"
+msgid "How do I use coins?"
 msgstr "怎样使用tippr点数？"
 
 #: r2/templates/gilding.html:65
-msgid "Your ctipprs are listed as a payment method on the checkout page."
+msgid "Your coins are listed as a payment method on the checkout page."
 msgstr "你的tippr点数被列为结帐页面上的支付方式。"
 
 #: r2/templates/gold.html:38
@@ -7488,15 +7488,15 @@ msgid "ongoing subscription"
 msgstr "连续订阅"
 
 #: r2/templates/gold.html:115
-msgid "How many ctipprs would you like to buy?"
+msgid "How many coins would you like to buy?"
 msgstr "你想要购买多少tippr点数？"
 
 #: r2/templates/gold.html:119
-msgid "Stored as a balance on your account, ctipprs allow you to give gold without having to enter payment information. Each ctippr you have can be converted into one month of tippr gold."
+msgid "Stored as a balance on your account, coins allow you to give gold without having to enter payment information. Each coin you have can be converted into one month of tippr gold."
 msgstr "作为你的账户上的储值余额，tippr点数允许你无需输入支付信息赠送黄金。你拥有的每个tippr点数可以兑换为一个月的tippr黄金。"
 
 #: r2/templates/gold.html:120
-msgid "Learn more about using ctipprs"
+msgid "Learn more about using coins"
 msgstr "了解更多关于使用tippr点数"
 
 #: r2/templates/gold.html:125
@@ -7596,8 +7596,8 @@ msgstr "请选择付款方式。"
 
 #: r2/templates/goldpayment.html:110
 #, python-format
-msgid "Give gold often? Consider [buying ctipprs to use](/ctipprs), they're 40% cheaper if purchased in a set of 12."
-msgstr "经常赠送黄金？可以[购买tippr点数来使用](/ctipprs)，以12个一组购买可以节省40%。"
+msgid "Give gold often? Consider [buying coins to use](/coins), they're 40% cheaper if purchased in a set of 12."
+msgstr "经常赠送黄金？可以[购买tippr点数来使用](/coins)，以12个一组购买可以节省40%。"
 
 #: r2/templates/goldpayment.html:112
 msgid "Would you like to [learn more about giving gold](/gilding)?"
@@ -7605,7 +7605,7 @@ msgstr "你想要[了解更多关于赠送黄金](/gilding)吗？"
 
 #: r2/templates/goldpayment.html:132
 #, python-format
-msgid "(use %(current)s of your %(total)s ctipprs)"
+msgid "(use %(current)s of your %(total)s coins)"
 msgstr "（使用你%(total)stippr点数中的%(current)s）"
 
 #: r2/templates/goldpayment.html:148
@@ -9297,8 +9297,8 @@ msgstr "在你的用户页面上显示你剩余的黄金数量"
 
 #: r2/templates/prefoptions.html:433
 #, python-format
-msgid "use a %(ctippr_link)s to automatically renew my gold if it expires"
-msgstr "当我的黄金过期时使用%(ctippr_link)s自动续期"
+msgid "use a %(coin_link)s to automatically renew my gold if it expires"
+msgstr "当我的黄金过期时使用%(coin_link)s自动续期"
 
 #: r2/templates/prefoptions.html:443
 #, python-format
@@ -10874,7 +10874,7 @@ msgid "first"
 msgstr "首先"
 
 #: r2/templates/thanks.html:32
-msgid "thanks for buying ctipprs!"
+msgid "thanks for buying coins!"
 msgstr "感谢购买tippr点数！"
 
 #: r2/templates/thanks.html:34
@@ -10882,7 +10882,7 @@ msgid "thanks for subscribing!"
 msgstr "感谢订阅！"
 
 #: r2/templates/thanks.html:39
-msgid "enter your confirmation code below to claim your gift ctipprs"
+msgid "enter your confirmation code below to claim your gift coins"
 msgstr "请在下面输入你的确认码以认领你的tippr点数赠礼"
 
 #: r2/templates/thanks.html:41

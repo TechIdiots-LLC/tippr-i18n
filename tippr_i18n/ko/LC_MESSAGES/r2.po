@@ -770,7 +770,7 @@ msgid "Claimed! Enjoy your tippr gold membership."
 msgstr "등록되었습니다! 레딧 골드 멤버십을 즐기세요."
 
 #: r2/controllers/front.py:1582
-msgid "Your gold ctipprs have been claimed! Now go to someone's userpage and give them a present!"
+msgid "Your gold coins have been claimed! Now go to someone's userpage and give them a present!"
 msgstr "골드 크레딧이 충전되었습니다! 다른 사용자의 사용자 페이지에 가서 선물을 주세요!"
 
 #: r2/controllers/front.py:1585
@@ -860,7 +860,7 @@ msgid "tippr gold"
 msgstr "레딧 골드"
 
 #: r2/controllers/front.py:2174 r2/templates/gilding.html:76
-msgid "purchase ctipprs"
+msgid "purchase coins"
 msgstr "크레딧 사기"
 
 #: r2/controllers/front.py:2184 r2/controllers/ipn.py:1147
@@ -936,11 +936,11 @@ msgid "Thank you for buying tippr gold. Your patronage supports the site and mak
 msgstr "레딧 골드를 구매해 주셔서 감사합니다. 당신의 기부금은 사이트를 후원하며 레딧의 차후 개발을 가능하게 만들어 줍니다. 예를 들어, 1개월의 레딧 골드는 레딧 서버의 5시간에 해당하는 금액입니다."
 
 #: r2/controllers/ipn.py:582
-msgid "Eureka! Thank you for investing in tippr gold ctipprs!"
+msgid "Eureka! Thank you for investing in tippr gold coins!"
 msgstr "유레카! 레딧 골드 크레딧에 투자해주셔서 감사합니다!"
 
 #: r2/controllers/ipn.py:585
-msgid "Thank you for buying ctipprs. Your patronage supports the site and makes future development possible. To spend your ctipprs and spread tippr gold, visit [/gold](/gold) or your favorite person's user page."
+msgid "Thank you for buying coins. Your patronage supports the site and makes future development possible. To spend your coins and spread tippr gold, visit [/gold](/gold) or your favorite person's user page."
 msgstr "크레딧을 구매해 주셔서 감사합니다. 당신의 기부금은 사이트를 후원하며 레딧의 차후 개발을 가능하게 만들어 줍니다. 크레딧을 사용하고 레딧 골드를 퍼뜨리려면, [/gold](/gold) 문서나 좋아하는 사람의 사용자 페이지에 가세요."
 
 #: r2/controllers/ipn.py:591 r2/controllers/ipn.py:613
@@ -2161,7 +2161,7 @@ msgid "you must have an active tippr gold subscription to do that"
 msgstr "레딧 골드 구독자에게 한정된 기능입니다."
 
 #: r2/lib/errors.py:184
-msgid "insufficient ctipprs"
+msgid "insufficient coins"
 msgstr "크레딧이 부족합니다"
 
 #: r2/lib/errors.py:185
@@ -3360,7 +3360,7 @@ msgstr ""
 
 #: r2/lib/strings.py:150
 #, python-format
-msgid "You're about to purchase %(amount)s. They work like gift certificates: each ctippr you have will allow you to give one month of tippr gold to someone else. You'll pay a total of %(price)s for this."
+msgid "You're about to purchase %(amount)s. They work like gift certificates: each coin you have will allow you to give one month of tippr gold to someone else. You'll pay a total of %(price)s for this."
 msgstr ""
 
 #: r2/lib/strings.py:151
@@ -3500,8 +3500,8 @@ msgid_plural "vaults"
 msgstr[0] "하위 레딧"
 
 #: r2/lib/strings.py:274
-msgid "ctippr"
-msgid_plural "ctipprs"
+msgid "coin"
+msgid_plural "coins"
 msgstr[0] "크레딧"
 
 #: r2/lib/strings.py:277
@@ -3870,9 +3870,9 @@ msgstr "하루도 안됀"
 
 #: r2/lib/pages/pages.py:2947
 #, python-format
-msgid "%(ctipprs)s gold ctippr to give"
-msgid_plural "%(ctipprs)s gold ctipprs to give"
-msgstr[0] "선물할 수 있는 %(ctipprs)s 골드 크레딧"
+msgid "%(coins)s gold coin to give"
+msgid_plural "%(coins)s gold coins to give"
+msgstr[0] "선물할 수 있는 %(coins)s 골드 크레딧"
 
 #: r2/lib/pages/pages.py:2954
 #, python-format
@@ -5505,11 +5505,11 @@ msgid "Update preferences and related account information. Will not have access 
 msgstr ""
 
 #: r2/models/token.py:133
-msgid "Spend tippr gold ctipprs"
+msgid "Spend tippr gold coins"
 msgstr ""
 
 #: r2/models/token.py:134
-msgid "Spend my tippr gold ctipprs on giving gold to other users."
+msgid "Spend my tippr gold coins on giving gold to other users."
 msgstr ""
 
 #: r2/models/token.py:139
@@ -6445,7 +6445,7 @@ msgid "hide"
 msgstr "숨기기"
 
 #: r2/templates/adminctipprs.html:25
-msgid "give ctipprs to a user"
+msgid "give coins to a user"
 msgstr ""
 
 #: r2/templates/adminctipprs.html:32 r2/templates/admingold.html:32
@@ -6454,7 +6454,7 @@ msgstr ""
 
 #: r2/templates/adminctipprs.html:40 r2/templates/gold.html:109
 #: r2/templates/goldpayment.html:130
-msgid "ctipprs"
+msgid "coins"
 msgstr ""
 
 #: r2/templates/adminctipprs.html:43 r2/templates/admingold.html:44
@@ -7334,27 +7334,27 @@ msgstr "돈이 얼마나 드나요?"
 
 #: r2/templates/gilding.html:57
 #, python-format
-msgid "A single gilding costs %(price)s. If you plan to do a lot you can get a discount if you purchase some [ctipprs](/ctipprs)."
-msgstr "한번 길딩하는데는 %(price)s 가 듭니다. 만약 길딩을 엄청나게 많이 하실 생각이라면 [크레딧](/ctipprs)을 좀 사서 할인을 받으실 수 있습니다."
+msgid "A single gilding costs %(price)s. If you plan to do a lot you can get a discount if you purchase some [coins](/coins)."
+msgstr "한번 길딩하는데는 %(price)s 가 듭니다. 만약 길딩을 엄청나게 많이 하실 생각이라면 [크레딧](/coins)을 좀 사서 할인을 받으실 수 있습니다."
 
 #: r2/templates/gilding.html:60
-msgid "What are ctipprs?"
+msgid "What are coins?"
 msgstr "크레딧은 또 뭔가요?"
 
 #: r2/templates/gilding.html:61
-msgid "Each ctippr you have can be converted into one month of tippr gold. Stored as a balance on your account, ctipprs allow you to give gold without having to enter payment information."
+msgid "Each coin you have can be converted into one month of tippr gold. Stored as a balance on your account, coins allow you to give gold without having to enter payment information."
 msgstr "각각의 크레딧 하나마다 1달치 레딧 골드로 변환이 가능합니다. 계정에 잔고로 저장하실수도 있고, 지불 정보 없이 다른 사람에게 골드를 주는것을 가능하게 합니다."
 
 #: r2/templates/gilding.html:61
-msgid "Additionally, buying ctipprs in bulk lowers the cost of each gilding."
+msgid "Additionally, buying coins in bulk lowers the cost of each gilding."
 msgstr ""
 
 #: r2/templates/gilding.html:64
-msgid "How do I use ctipprs?"
+msgid "How do I use coins?"
 msgstr ""
 
 #: r2/templates/gilding.html:65
-msgid "Your ctipprs are listed as a payment method on the checkout page."
+msgid "Your coins are listed as a payment method on the checkout page."
 msgstr ""
 
 #: r2/templates/gold.html:38
@@ -7398,15 +7398,15 @@ msgid "ongoing subscription"
 msgstr ""
 
 #: r2/templates/gold.html:115
-msgid "How many ctipprs would you like to buy?"
+msgid "How many coins would you like to buy?"
 msgstr ""
 
 #: r2/templates/gold.html:119
-msgid "Stored as a balance on your account, ctipprs allow you to give gold without having to enter payment information. Each ctippr you have can be converted into one month of tippr gold."
+msgid "Stored as a balance on your account, coins allow you to give gold without having to enter payment information. Each coin you have can be converted into one month of tippr gold."
 msgstr ""
 
 #: r2/templates/gold.html:120
-msgid "Learn more about using ctipprs"
+msgid "Learn more about using coins"
 msgstr ""
 
 #: r2/templates/gold.html:125
@@ -7506,7 +7506,7 @@ msgstr "지불 수단을 선택하세요"
 
 #: r2/templates/goldpayment.html:110
 #, python-format
-msgid "Give gold often? Consider [buying ctipprs to use](/ctipprs), they're 40% cheaper if purchased in a set of 12."
+msgid "Give gold often? Consider [buying coins to use](/coins), they're 40% cheaper if purchased in a set of 12."
 msgstr ""
 
 #: r2/templates/goldpayment.html:112
@@ -7515,7 +7515,7 @@ msgstr "[골드를 선물하는 것](/길딩)에 대해 더 알아보시겠어�
 
 #: r2/templates/goldpayment.html:132
 #, python-format
-msgid "(use %(current)s of your %(total)s ctipprs)"
+msgid "(use %(current)s of your %(total)s coins)"
 msgstr ""
 
 #: r2/templates/goldpayment.html:148
@@ -9153,7 +9153,7 @@ msgstr ""
 
 #: r2/templates/prefoptions.html:429
 #, python-format
-msgid "use a %(ctippr_link)s to automatically renew my gold if it expires"
+msgid "use a %(coin_link)s to automatically renew my gold if it expires"
 msgstr ""
 
 #: r2/templates/prefoptions.html:439
@@ -10697,7 +10697,7 @@ msgid "first"
 msgstr "처음"
 
 #: r2/templates/thanks.html:32
-msgid "thanks for buying ctipprs!"
+msgid "thanks for buying coins!"
 msgstr "크레딧을 구매하여 주셔서 감사합니다!"
 
 #: r2/templates/thanks.html:34
@@ -10705,7 +10705,7 @@ msgid "thanks for subscribing!"
 msgstr "구독해 주셔서 감사합니다!"
 
 #: r2/templates/thanks.html:39
-msgid "enter your confirmation code below to claim your gift ctipprs"
+msgid "enter your confirmation code below to claim your gift coins"
 msgstr "기프트 크레딧을 받기 위해서 확인코드를 입력해 주십시오"
 
 #: r2/templates/thanks.html:41

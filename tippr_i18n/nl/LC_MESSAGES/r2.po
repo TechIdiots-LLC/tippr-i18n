@@ -772,8 +772,8 @@ msgid "Claimed! Enjoy your tippr gold membership."
 msgstr "Geclaimd! Veel plezier met je tippr gold-lidmaatschap."
 
 #: r2/controllers/front.py:1582
-msgid "Your gold ctipprs have been claimed! Now go to someone's userpage and give them a present!"
-msgstr "Je gold ctipprs zijn geclaimd! Ga naar iemands profiel en geef ze een cadeautje!"
+msgid "Your gold coins have been claimed! Now go to someone's userpage and give them a present!"
+msgstr "Je gold coins zijn geclaimd! Ga naar iemands profiel en geef ze een cadeautje!"
 
 #: r2/controllers/front.py:1585
 msgid "Thanks for buying tippr gold! Your transaction has been completed."
@@ -862,8 +862,8 @@ msgid "tippr gold"
 msgstr "tippr gold"
 
 #: r2/controllers/front.py:2174 r2/templates/gilding.html:76
-msgid "purchase ctipprs"
-msgstr "Koop ctipprs"
+msgid "purchase coins"
+msgstr "Koop coins"
 
 #: r2/controllers/front.py:2184 r2/controllers/ipn.py:1147
 msgid "tippr gold subscription"
@@ -940,12 +940,12 @@ msgid "Thank you for buying tippr gold. Your patronage supports the site and mak
 msgstr "Bedankt voor het kopen van tippr Gold. Je aankoop ondersteunt de website en maakt toekomstig onderhoud mogelijk. Als voorbeeld, één maand tippr Gol betaalt 5 uur tippr."
 
 #: r2/controllers/ipn.py:582
-msgid "Eureka! Thank you for investing in tippr gold ctipprs!"
-msgstr "Bedankt voor het investeren in tippr Gold ctipprs!"
+msgid "Eureka! Thank you for investing in tippr gold coins!"
+msgstr "Bedankt voor het investeren in tippr Gold coins!"
 
 #: r2/controllers/ipn.py:585
-msgid "Thank you for buying ctipprs. Your patronage supports the site and makes future development possible. To spend your ctipprs and spread tippr gold, visit [/gold](/gold) or your favorite person's user page."
-msgstr "Bedankt voor het kopen van ctipprs. Je aankoop ondersteunt de website en maakt toekomstig onderhoud mogelijk. Om je ctipprs te gebruiken en tippr gold te verspreiden, bezoek [/gold](/gold), of je favoriete persoon zijn profielpagina."
+msgid "Thank you for buying coins. Your patronage supports the site and makes future development possible. To spend your coins and spread tippr gold, visit [/gold](/gold) or your favorite person's user page."
+msgstr "Bedankt voor het kopen van coins. Je aankoop ondersteunt de website en maakt toekomstig onderhoud mogelijk. Om je coins te gebruiken en tippr gold te verspreiden, bezoek [/gold](/gold), of je favoriete persoon zijn profielpagina."
 
 #: r2/controllers/ipn.py:591 r2/controllers/ipn.py:613
 #: r2/templates/goldgiftcodeemail.email:25
@@ -2171,8 +2171,8 @@ msgid "you must have an active tippr gold subscription to do that"
 msgstr "je hebt een tippr-goldabbonement nodig om dat te kunnen doen"
 
 #: r2/lib/errors.py:184
-msgid "insufficient ctipprs"
-msgstr "onvoldoende ctipprs"
+msgid "insufficient coins"
+msgstr "onvoldoende coins"
 
 #: r2/lib/errors.py:185
 msgid "gilding is not allowed in this vault"
@@ -3378,8 +3378,8 @@ msgstr "Je staat op het punt om een eenmalige aankoop van %(amount)s tippr gold 
 
 #: r2/lib/strings.py:150
 #, python-format
-msgid "You're about to purchase %(amount)s. They work like gift certificates: each ctippr you have will allow you to give one month of tippr gold to someone else. You'll pay a total of %(price)s for this."
-msgstr "Je staat op het punt om %(amount)s aan te schaffen. Je kunt deze vergelijken met cadeaubonnen: met elke ctippr kun je één maand tippr gold aan iemand anders geven. Hiervoor betaal je %(price)s in totaal."
+msgid "You're about to purchase %(amount)s. They work like gift certificates: each coin you have will allow you to give one month of tippr gold to someone else. You'll pay a total of %(price)s for this."
+msgstr "Je staat op het punt om %(amount)s aan te schaffen. Je kunt deze vergelijken met cadeaubonnen: met elke coin kun je één maand tippr gold aan iemand anders geven. Hiervoor betaal je %(price)s in totaal."
 
 #: r2/lib/strings.py:151
 #, python-format
@@ -3529,10 +3529,10 @@ msgstr[0] "vault"
 msgstr[1] "vaults"
 
 #: r2/lib/strings.py:274
-msgid "ctippr"
-msgid_plural "ctipprs"
-msgstr[0] "ctippr"
-msgstr[1] "ctipprs"
+msgid "coin"
+msgid_plural "coins"
+msgstr[0] "coin"
+msgstr[1] "coins"
 
 #: r2/lib/strings.py:277
 msgid "reader"
@@ -3913,10 +3913,10 @@ msgstr "minder dan een dag"
 
 #: r2/lib/pages/pages.py:2947
 #, python-format
-msgid "%(ctipprs)s gold ctippr to give"
-msgid_plural "%(ctipprs)s gold ctipprs to give"
-msgstr[0] "%(ctipprs)s gold-ctippr om te geven"
-msgstr[1] "%(ctipprs)s gold-ctipprs om te geven"
+msgid "%(coins)s gold coin to give"
+msgid_plural "%(coins)s gold coins to give"
+msgstr[0] "%(coins)s gold-coin om te geven"
+msgstr[1] "%(coins)s gold-coins om te geven"
 
 #: r2/lib/pages/pages.py:2954
 #, python-format
@@ -5557,12 +5557,12 @@ msgid "Update preferences and related account information. Will not have access 
 msgstr "Update voorkeuren en gerelateerde accountinformatie. Heeft geen toegang tot e-mailadres of wachtwoord."
 
 #: r2/models/token.py:133
-msgid "Spend tippr gold ctipprs"
-msgstr "tippr gold-ctipprs uitgeven"
+msgid "Spend tippr gold coins"
+msgstr "tippr gold-coins uitgeven"
 
 #: r2/models/token.py:134
-msgid "Spend my tippr gold ctipprs on giving gold to other users."
-msgstr "Gebruik mijn tippr-goldctipprs om gold aan andere gebruikers te geven."
+msgid "Spend my tippr gold coins on giving gold to other users."
+msgstr "Gebruik mijn tippr-goldcoins om gold aan andere gebruikers te geven."
 
 #: r2/models/token.py:139
 msgid "Edit Posts"
@@ -6503,8 +6503,8 @@ msgid "hide"
 msgstr "verbergen"
 
 #: r2/templates/adminctipprs.html:25
-msgid "give ctipprs to a user"
-msgstr "geef ctipprs aan een gebruiker"
+msgid "give coins to a user"
+msgstr "geef coins aan een gebruiker"
 
 #: r2/templates/adminctipprs.html:32 r2/templates/admingold.html:32
 msgid "recipient"
@@ -6512,8 +6512,8 @@ msgstr "ontvanger"
 
 #: r2/templates/adminctipprs.html:40 r2/templates/gold.html:109
 #: r2/templates/goldpayment.html:130
-msgid "ctipprs"
-msgstr "ctipprs"
+msgid "coins"
+msgstr "coins"
 
 #: r2/templates/adminctipprs.html:43 r2/templates/admingold.html:44
 msgid "(negative to take away)"
@@ -7395,28 +7395,28 @@ msgstr "Hoeveel kost het?"
 
 #: r2/templates/gilding.html:57
 #, python-format
-msgid "A single gilding costs %(price)s. If you plan to do a lot you can get a discount if you purchase some [ctipprs](/ctipprs)."
-msgstr "Eén vergulding kost %(price)s. Wil je dat vaker gaan doen, dan kun je korting krijgen bij aanschaf van wat [ctipprs](/ctipprs)."
+msgid "A single gilding costs %(price)s. If you plan to do a lot you can get a discount if you purchase some [coins](/coins)."
+msgstr "Eén vergulding kost %(price)s. Wil je dat vaker gaan doen, dan kun je korting krijgen bij aanschaf van wat [coins](/coins)."
 
 #: r2/templates/gilding.html:60
-msgid "What are ctipprs?"
-msgstr "Wat zijn ctipprs?"
+msgid "What are coins?"
+msgstr "Wat zijn coins?"
 
 #: r2/templates/gilding.html:61
-msgid "Each ctippr you have can be converted into one month of tippr gold. Stored as a balance on your account, ctipprs allow you to give gold without having to enter payment information."
-msgstr "Elke ctippr kan omgezet worden in een tippr gold-abonnement van een maand. De ctipprs worden in je account opgeslagen. Deze ctipprs geven je de mogelijkheid om iemand gold-abonnement te geven zonder je betaalgegevens op te geven."
+msgid "Each coin you have can be converted into one month of tippr gold. Stored as a balance on your account, coins allow you to give gold without having to enter payment information."
+msgstr "Elke coin kan omgezet worden in een tippr gold-abonnement van een maand. De coins worden in je account opgeslagen. Deze coins geven je de mogelijkheid om iemand gold-abonnement te geven zonder je betaalgegevens op te geven."
 
 #: r2/templates/gilding.html:61
-msgid "Additionally, buying ctipprs in bulk lowers the cost of each gilding."
-msgstr "Bovendien, het kopen van veel ctipprs zorgt voor een lagere prijs van elke gulding."
+msgid "Additionally, buying coins in bulk lowers the cost of each gilding."
+msgstr "Bovendien, het kopen van veel coins zorgt voor een lagere prijs van elke gulding."
 
 #: r2/templates/gilding.html:64
-msgid "How do I use ctipprs?"
-msgstr "Hoe gebruik ik ctipprs?"
+msgid "How do I use coins?"
+msgstr "Hoe gebruik ik coins?"
 
 #: r2/templates/gilding.html:65
-msgid "Your ctipprs are listed as a payment method on the checkout page."
-msgstr "Je ctipprs staan als betaalmethode op de betaalpagina."
+msgid "Your coins are listed as a payment method on the checkout page."
+msgstr "Je coins staan als betaalmethode op de betaalpagina."
 
 #: r2/templates/gold.html:38
 msgid "What is tippr gold?"
@@ -7459,16 +7459,16 @@ msgid "ongoing subscription"
 msgstr "doorlopend abonnement"
 
 #: r2/templates/gold.html:115
-msgid "How many ctipprs would you like to buy?"
-msgstr "Hoeveel ctipprs wil je kopen?"
+msgid "How many coins would you like to buy?"
+msgstr "Hoeveel coins wil je kopen?"
 
 #: r2/templates/gold.html:119
-msgid "Stored as a balance on your account, ctipprs allow you to give gold without having to enter payment information. Each ctippr you have can be converted into one month of tippr gold."
-msgstr "Met ctipprs, die als saldo op je account staan, kun je zonder betaalinformatie te hoeven opgeven tippr gold aan anderen schenken. Elke ctippr die je hebt kan in één maand tippr gold worden omgezet."
+msgid "Stored as a balance on your account, coins allow you to give gold without having to enter payment information. Each coin you have can be converted into one month of tippr gold."
+msgstr "Met coins, die als saldo op je account staan, kun je zonder betaalinformatie te hoeven opgeven tippr gold aan anderen schenken. Elke coin die je hebt kan in één maand tippr gold worden omgezet."
 
 #: r2/templates/gold.html:120
-msgid "Learn more about using ctipprs"
-msgstr "Meer info over het gebruik van ctipprs"
+msgid "Learn more about using coins"
+msgstr "Meer info over het gebruik van coins"
 
 #: r2/templates/gold.html:125
 msgid "What type of subscription would you like?"
@@ -7567,8 +7567,8 @@ msgstr "Selecteer een betaalmethode."
 
 #: r2/templates/goldpayment.html:110
 #, python-format
-msgid "Give gold often? Consider [buying ctipprs to use](/ctipprs), they're 40% cheaper if purchased in a set of 12."
-msgstr "Verguld je vaak iemand? Overweeg dan om [ctipprs voor gebruik te kopen](/ctipprs), deze zijn 40% goedkoper als je ze in een set van twaalf koopt."
+msgid "Give gold often? Consider [buying coins to use](/coins), they're 40% cheaper if purchased in a set of 12."
+msgstr "Verguld je vaak iemand? Overweeg dan om [coins voor gebruik te kopen](/coins), deze zijn 40% goedkoper als je ze in een set van twaalf koopt."
 
 #: r2/templates/goldpayment.html:112
 msgid "Would you like to [learn more about giving gold](/gilding)?"
@@ -7576,8 +7576,8 @@ msgstr "Wil je [meer weten over gold geven](/gilding)?"
 
 #: r2/templates/goldpayment.html:132
 #, python-format
-msgid "(use %(current)s of your %(total)s ctipprs)"
-msgstr "(gebruik %(current)s van je %(total)s ctipprs)"
+msgid "(use %(current)s of your %(total)s coins)"
+msgstr "(gebruik %(current)s van je %(total)s coins)"
 
 #: r2/templates/goldpayment.html:148
 msgid "PayPal"
@@ -9215,8 +9215,8 @@ msgstr "laat op je gebruikerspagina zien hoeveel goud je nog over hebt"
 
 #: r2/templates/prefoptions.html:429
 #, python-format
-msgid "use a %(ctippr_link)s to automatically renew my gold if it expires"
-msgstr "gebruik een %(ctippr_link)s om mijn gold automatisch te verlengen als deze verloopt"
+msgid "use a %(coin_link)s to automatically renew my gold if it expires"
+msgstr "gebruik een %(coin_link)s om mijn gold automatisch te verlengen als deze verloopt"
 
 #: r2/templates/prefoptions.html:439
 #, python-format
@@ -10759,16 +10759,16 @@ msgid "first"
 msgstr "eerste"
 
 #: r2/templates/thanks.html:32
-msgid "thanks for buying ctipprs!"
-msgstr "bedankt dat je ctipprs hebt gekocht!"
+msgid "thanks for buying coins!"
+msgstr "bedankt dat je coins hebt gekocht!"
 
 #: r2/templates/thanks.html:34
 msgid "thanks for subscribing!"
 msgstr "bedankt voor het abonneren!"
 
 #: r2/templates/thanks.html:39
-msgid "enter your confirmation code below to claim your gift ctipprs"
-msgstr "vul je bevestigingscode hieronder in om je cadeauctipprs in ontvangst te nemen"
+msgid "enter your confirmation code below to claim your gift coins"
+msgstr "vul je bevestigingscode hieronder in om je cadeaucoins in ontvangst te nemen"
 
 #: r2/templates/thanks.html:41
 msgid "enter your confirmation code below to activate tippr gold"

@@ -775,8 +775,8 @@ msgid "Claimed! Enjoy your tippr gold membership."
 msgstr "Air a thagradh! an dòchas gun còrd a' bhallrachd òir ann an tippr riut."
 
 #: r2/controllers/front.py:1636
-msgid "Your gold ctipprs have been claimed! Now go to someone's userpage and give them a present!"
-msgstr "Thagair thu na ctipprs òir agad! nise, tadhail air duilleag cleachdaiche eile is thoir preusant dhaibh!"
+msgid "Your gold coins have been claimed! Now go to someone's userpage and give them a present!"
+msgstr "Thagair thu na coins òir agad! nise, tadhail air duilleag cleachdaiche eile is thoir preusant dhaibh!"
 
 #: r2/controllers/front.py:1639
 msgid "Thanks for buying tippr gold! Your transaction has been completed."
@@ -865,8 +865,8 @@ msgid "tippr gold"
 msgstr "tippr òir"
 
 #: r2/controllers/front.py:2228 r2/templates/gilding.html:76
-msgid "purchase ctipprs"
-msgstr "ceannaich ctipprs"
+msgid "purchase coins"
+msgstr "ceannaich coins"
 
 #: r2/controllers/front.py:2238 r2/controllers/ipn.py:1148
 msgid "tippr gold subscription"
@@ -939,12 +939,12 @@ msgid "Thank you for buying tippr gold. Your patronage supports the site and mak
 msgstr "Mòran taing airson òr tippr a cheannach. Tha do phàtranachd a' cur taic ris na làraich agus a' toirt comas dhuinn a leasachadh san àm ri teachd. Mar eisimpleir, pàighidh mìos de dh'òr tippr airson 5 uairean ionstans aig frithealaichean tippr."
 
 #: r2/controllers/ipn.py:582
-msgid "Eureka! Thank you for investing in tippr gold ctipprs!"
-msgstr "Eureka! Gun robh math agad airson seilbh a chur ann an ctipprs òir tippr!"
+msgid "Eureka! Thank you for investing in tippr gold coins!"
+msgstr "Eureka! Gun robh math agad airson seilbh a chur ann an coins òir tippr!"
 
 #: r2/controllers/ipn.py:585
-msgid "Thank you for buying ctipprs. Your patronage supports the site and makes future development possible. To spend your ctipprs and spread tippr gold, visit [/gold](/gold) or your favorite person's user page."
-msgstr "Tapadh leat airson ctipprs a cheannach. Tha do phàtranachd a' cur taic ris na làraich agus a' toirt comas dhuinn a leasachadh san àm ri teachd. Gus na ctipprs agad a chosg agus òr tippr a sgaoileadh, tadhail air [/gold](/gold) no duilleag a' chleachdaiche as fhearr leat."
+msgid "Thank you for buying coins. Your patronage supports the site and makes future development possible. To spend your coins and spread tippr gold, visit [/gold](/gold) or your favorite person's user page."
+msgstr "Tapadh leat airson coins a cheannach. Tha do phàtranachd a' cur taic ris na làraich agus a' toirt comas dhuinn a leasachadh san àm ri teachd. Gus na coins agad a chosg agus òr tippr a sgaoileadh, tadhail air [/gold](/gold) no duilleag a' chleachdaiche as fhearr leat."
 
 #: r2/controllers/ipn.py:591 r2/controllers/ipn.py:613
 #: r2/templates/goldgiftcodeemail.email:25
@@ -2179,8 +2179,8 @@ msgid "you must have an active tippr gold subscription to do that"
 msgstr "feumaidh fo-sgrìobhadh tippr òir gnìomhach a bhith agad mus urrainn dhut sin a dhèanamh"
 
 #: r2/lib/errors.py:185
-msgid "insufficient ctipprs"
-msgstr "chan eil ctipprs gu leòr agad"
+msgid "insufficient coins"
+msgstr "chan eil coins gu leòr agad"
 
 #: r2/lib/errors.py:186
 msgid "gilding is not allowed in this vault"
@@ -3382,7 +3382,7 @@ msgstr "Tha thu an impis fo-sgrìobhadh %(amount)s a tippr òir a cheannach dhut
 
 #: r2/lib/strings.py:150
 #, python-format
-msgid "You're about to purchase %(amount)s. They work like gift certificates: each ctippr you have will allow you to give one month of tippr gold to someone else. You'll pay a total of %(price)s for this."
+msgid "You're about to purchase %(amount)s. They work like gift certificates: each coin you have will allow you to give one month of tippr gold to someone else. You'll pay a total of %(price)s for this."
 msgstr ""
 
 #: r2/lib/strings.py:151
@@ -3543,12 +3543,12 @@ msgstr[2] "vaults"
 msgstr[3] "vaults"
 
 #: r2/lib/strings.py:275
-msgid "ctippr"
-msgid_plural "ctipprs"
-msgstr[0] "ctippr"
-msgstr[1] "ctipprs"
-msgstr[2] "ctipprs"
-msgstr[3] "ctipprs"
+msgid "coin"
+msgid_plural "coins"
+msgstr[0] "coin"
+msgstr[1] "coins"
+msgstr[2] "coins"
+msgstr[3] "coins"
 
 #: r2/lib/strings.py:278
 msgid "reader"
@@ -3963,12 +3963,12 @@ msgstr "nas lugha na latha"
 
 #: r2/lib/pages/pages.py:3105
 #, python-format
-msgid "%(ctipprs)s gold ctippr to give"
-msgid_plural "%(ctipprs)s gold ctipprs to give"
-msgstr[0] "%(ctipprs)s ctippr a dh'òr a thèid a thoirt"
-msgstr[1] "%(ctipprs)s ctippr a dh'òr a thèid a thoirt"
-msgstr[2] "%(ctipprs)s ctippr a dh'òr a thèid a thoirt"
-msgstr[3] "%(ctipprs)s ctippr a dh'òr a thèid a thoirt"
+msgid "%(coins)s gold coin to give"
+msgid_plural "%(coins)s gold coins to give"
+msgstr[0] "%(coins)s coin a dh'òr a thèid a thoirt"
+msgstr[1] "%(coins)s coin a dh'òr a thèid a thoirt"
+msgstr[2] "%(coins)s coin a dh'òr a thèid a thoirt"
+msgstr[3] "%(coins)s coin a dh'òr a thèid a thoirt"
 
 #: r2/lib/pages/pages.py:3112
 #, python-format
@@ -5644,12 +5644,12 @@ msgid "Update preferences and related account information. Will not have access 
 msgstr "Ùraich roghainnean is fiosrachadh co-cheangailte a' chunntais. Cha bhi cothrom aige air a' phost-d 's air an fhacal-fhaire agad."
 
 #: r2/models/token.py:142
-msgid "Spend tippr gold ctipprs"
-msgstr "Cuir gu feum ctipprs tippr òir"
+msgid "Spend tippr gold coins"
+msgstr "Cuir gu feum coins tippr òir"
 
 #: r2/models/token.py:143
-msgid "Spend my tippr gold ctipprs on giving gold to other users."
-msgstr "Cosg na ctipprs tippr òir agam air cleachdaichean eile."
+msgid "Spend my tippr gold coins on giving gold to other users."
+msgstr "Cosg na coins tippr òir agam air cleachdaichean eile."
 
 #: r2/models/token.py:148
 msgid "Edit Posts"
@@ -6615,7 +6615,7 @@ msgid "hide"
 msgstr "falaich"
 
 #: r2/templates/adminctipprs.html:25
-msgid "give ctipprs to a user"
+msgid "give coins to a user"
 msgstr ""
 
 #: r2/templates/adminctipprs.html:32 r2/templates/admingold.html:32
@@ -6624,8 +6624,8 @@ msgstr "faightear"
 
 #: r2/templates/adminctipprs.html:40 r2/templates/gold.html:109
 #: r2/templates/goldpayment.html:130
-msgid "ctipprs"
-msgstr "ctipprs"
+msgid "coins"
+msgstr "coins"
 
 #: r2/templates/adminctipprs.html:43 r2/templates/admingold.html:44
 msgid "(negative to take away)"
@@ -7519,27 +7519,27 @@ msgstr "Dè na chosgas e?"
 
 #: r2/templates/gilding.html:57
 #, python-format
-msgid "A single gilding costs %(price)s. If you plan to do a lot you can get a discount if you purchase some [ctipprs](/ctipprs)."
+msgid "A single gilding costs %(price)s. If you plan to do a lot you can get a discount if you purchase some [coins](/coins)."
 msgstr ""
 
 #: r2/templates/gilding.html:60
-msgid "What are ctipprs?"
-msgstr "Dè tha ann an ctipprs?"
+msgid "What are coins?"
+msgstr "Dè tha ann an coins?"
 
 #: r2/templates/gilding.html:61
-msgid "Each ctippr you have can be converted into one month of tippr gold. Stored as a balance on your account, ctipprs allow you to give gold without having to enter payment information."
-msgstr "'S urrainn dhut gach ctippr a tha agad iompachadh 'na mhìos de tippr òir. 'S iad na ctipprs a tha a' sealltainn dhut na tha agad sa chunntas agad agus gheibh thu òr air an son gun fheum air fiosrachadh pàighidh."
+msgid "Each coin you have can be converted into one month of tippr gold. Stored as a balance on your account, coins allow you to give gold without having to enter payment information."
+msgstr "'S urrainn dhut gach coin a tha agad iompachadh 'na mhìos de tippr òir. 'S iad na coins a tha a' sealltainn dhut na tha agad sa chunntas agad agus gheibh thu òr air an son gun fheum air fiosrachadh pàighidh."
 
 #: r2/templates/gilding.html:61
-msgid "Additionally, buying ctipprs in bulk lowers the cost of each gilding."
-msgstr "Ma cheannaicheas tu mòran ctipprs aig an aon àm, cosgaidh an t-òradh nas lugha."
+msgid "Additionally, buying coins in bulk lowers the cost of each gilding."
+msgstr "Ma cheannaicheas tu mòran coins aig an aon àm, cosgaidh an t-òradh nas lugha."
 
 #: r2/templates/gilding.html:64
-msgid "How do I use ctipprs?"
+msgid "How do I use coins?"
 msgstr ""
 
 #: r2/templates/gilding.html:65
-msgid "Your ctipprs are listed as a payment method on the checkout page."
+msgid "Your coins are listed as a payment method on the checkout page."
 msgstr ""
 
 #: r2/templates/gold.html:38
@@ -7583,16 +7583,16 @@ msgid "ongoing subscription"
 msgstr "fo-sgrìobhadh buan"
 
 #: r2/templates/gold.html:115
-msgid "How many ctipprs would you like to buy?"
-msgstr "Co mheud ctippr bu mhath leat ceannach?"
+msgid "How many coins would you like to buy?"
+msgstr "Co mheud coin bu mhath leat ceannach?"
 
 #: r2/templates/gold.html:119
-msgid "Stored as a balance on your account, ctipprs allow you to give gold without having to enter payment information. Each ctippr you have can be converted into one month of tippr gold."
+msgid "Stored as a balance on your account, coins allow you to give gold without having to enter payment information. Each coin you have can be converted into one month of tippr gold."
 msgstr ""
 
 #: r2/templates/gold.html:120
-msgid "Learn more about using ctipprs"
-msgstr "Barrachd fiosrachaidh air ctipprs"
+msgid "Learn more about using coins"
+msgstr "Barrachd fiosrachaidh air coins"
 
 #: r2/templates/gold.html:125
 msgid "What type of subscription would you like?"
@@ -7691,8 +7691,8 @@ msgstr "Tagh dòigh pàighidh."
 
 #: r2/templates/goldpayment.html:110
 #, python-format
-msgid "Give gold often? Consider [buying ctipprs to use](/ctipprs), they're 40% cheaper if purchased in a set of 12."
-msgstr "Am bi thu a' toirt òr gu tric? Saoil am b' fheairrde dhut [ctipprs a cheannach](/ctipprs), bidh iad 40% nas saoir ma cheannaicheas tu iad ann an dusanan."
+msgid "Give gold often? Consider [buying coins to use](/coins), they're 40% cheaper if purchased in a set of 12."
+msgstr "Am bi thu a' toirt òr gu tric? Saoil am b' fheairrde dhut [coins a cheannach](/coins), bidh iad 40% nas saoir ma cheannaicheas tu iad ann an dusanan."
 
 #: r2/templates/goldpayment.html:112
 msgid "Would you like to [learn more about giving gold](/gilding)?"
@@ -7700,7 +7700,7 @@ msgstr ""
 
 #: r2/templates/goldpayment.html:132
 #, python-format
-msgid "(use %(current)s of your %(total)s ctipprs)"
+msgid "(use %(current)s of your %(total)s coins)"
 msgstr ""
 
 #: r2/templates/goldpayment.html:148
@@ -9390,7 +9390,7 @@ msgstr ""
 
 #: r2/templates/prefoptions.html:433
 #, python-format
-msgid "use a %(ctippr_link)s to automatically renew my gold if it expires"
+msgid "use a %(coin_link)s to automatically renew my gold if it expires"
 msgstr ""
 
 #: r2/templates/prefoptions.html:443
@@ -10967,16 +10967,16 @@ msgid "first"
 msgstr "an toiseach"
 
 #: r2/templates/thanks.html:32
-msgid "thanks for buying ctipprs!"
-msgstr "gun robh math agad airson ctipprs a cheannach!"
+msgid "thanks for buying coins!"
+msgstr "gun robh math agad airson coins a cheannach!"
 
 #: r2/templates/thanks.html:34
 msgid "thanks for subscribing!"
 msgstr "gun robh math agad airson fo-sgrìobhadh!"
 
 #: r2/templates/thanks.html:39
-msgid "enter your confirmation code below to claim your gift ctipprs"
-msgstr "cuir a-steach an còd dearbhaidh agad gu h-ìosal gus greim fhaighinn air na ctipprs a fhuair thu mar phreusant"
+msgid "enter your confirmation code below to claim your gift coins"
+msgstr "cuir a-steach an còd dearbhaidh agad gu h-ìosal gus greim fhaighinn air na coins a fhuair thu mar phreusant"
 
 #: r2/templates/thanks.html:41
 msgid "enter your confirmation code below to activate tippr gold"

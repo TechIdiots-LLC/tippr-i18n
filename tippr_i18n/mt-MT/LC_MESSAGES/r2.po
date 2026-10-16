@@ -772,7 +772,7 @@ msgid "Claimed! Enjoy your tippr gold membership."
 msgstr "Irrivendikat! Gawdi l-abbonament ta' tippr gold tiegħek."
 
 #: r2/controllers/front.py:1582
-msgid "Your gold ctipprs have been claimed! Now go to someone's userpage and give them a present!"
+msgid "Your gold coins have been claimed! Now go to someone's userpage and give them a present!"
 msgstr "Il-ktippri tal-gold tiegħek ġew irrivendikati! Issa mur fil-paġna tal-profil ta' xi ħadd w agħmel għotja!"
 
 #: r2/controllers/front.py:1585
@@ -862,7 +862,7 @@ msgid "tippr gold"
 msgstr "tippr gold"
 
 #: r2/controllers/front.py:2174 r2/templates/gilding.html:76
-msgid "purchase ctipprs"
+msgid "purchase coins"
 msgstr "ixtri l-ktippri"
 
 #: r2/controllers/front.py:2184 r2/controllers/ipn.py:1147
@@ -936,11 +936,11 @@ msgid "Thank you for buying tippr gold. Your patronage supports the site and mak
 msgstr "Grazzi talli xtrajt ir-tippr gold. Il-patroċinju tiegħek isostni is-sit u jwitti t-triq għal aktar żvilupp. Per eżempju, xahar ta' tippr gold iħallas 5 sigħat servizz tas-servers ta' tippr."
 
 #: r2/controllers/ipn.py:582
-msgid "Eureka! Thank you for investing in tippr gold ctipprs!"
+msgid "Eureka! Thank you for investing in tippr gold coins!"
 msgstr "Ewreka! Grazzi talli investejt fil-ktippri tar-tippr gold!"
 
 #: r2/controllers/ipn.py:585
-msgid "Thank you for buying ctipprs. Your patronage supports the site and makes future development possible. To spend your ctipprs and spread tippr gold, visit [/gold](/gold) or your favorite person's user page."
+msgid "Thank you for buying coins. Your patronage supports the site and makes future development possible. To spend your coins and spread tippr gold, visit [/gold](/gold) or your favorite person's user page."
 msgstr "Grazzi talli xtrajt il-ktippri. Il-patroċinju tiegħek isostni s-sit u jippermetti ż-żvilupp tagħha fiż-żmien li ġej. Biex tonfoq il-ktippri tiegħek u xxerred ir-tippr gold, żur [/gold](/gold) jew il-paġna tal-utent favorit tiegħek."
 
 #: r2/controllers/ipn.py:591 r2/controllers/ipn.py:613
@@ -2164,7 +2164,7 @@ msgid "you must have an active tippr gold subscription to do that"
 msgstr "jeħtieġ ikollok abbonament tar-tippr gold sabiex tagħmel hekk"
 
 #: r2/lib/errors.py:184
-msgid "insufficient ctipprs"
+msgid "insufficient coins"
 msgstr "m'għandekx ktippri biżżejjed"
 
 #: r2/lib/errors.py:185
@@ -3366,7 +3366,7 @@ msgstr "Se tixtri ammont ta' %(amount)s ta' tippr gold għalik (utent%(user)s). 
 
 #: r2/lib/strings.py:150
 #, python-format
-msgid "You're about to purchase %(amount)s. They work like gift certificates: each ctippr you have will allow you to give one month of tippr gold to someone else. You'll pay a total of %(price)s for this."
+msgid "You're about to purchase %(amount)s. They work like gift certificates: each coin you have will allow you to give one month of tippr gold to someone else. You'll pay a total of %(price)s for this."
 msgstr "Int se tixtri ammont ta' %(amount)s. Jaħdmu bħala vawċers: kull ktippru li għandek jippermettilek tagħti xahar ta' tippr gold lil xi ħadd ieħor. Se tħallas total ta' %(price)s."
 
 #: r2/lib/strings.py:151
@@ -3523,8 +3523,8 @@ msgstr[2] "vaults"
 msgstr[3] "vaults"
 
 #: r2/lib/strings.py:274
-msgid "ctippr"
-msgid_plural "ctipprs"
+msgid "coin"
+msgid_plural "coins"
 msgstr[0] "ktippr"
 msgstr[1] "ktippri"
 msgstr[2] "ktippru"
@@ -3935,9 +3935,9 @@ msgstr "anqas minn ġurnata"
 
 #: r2/lib/pages/pages.py:2947
 #, python-format
-msgid "%(ctipprs)s gold ctippr to give"
-msgid_plural "%(ctipprs)s gold ctipprs to give"
-msgstr[0] "%(ctipprs)s ta' gold x'jingħata"
+msgid "%(coins)s gold coin to give"
+msgid_plural "%(coins)s gold coins to give"
+msgstr[0] "%(coins)s ta' gold x'jingħata"
 msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
@@ -5594,11 +5594,11 @@ msgid "Update preferences and related account information. Will not have access 
 msgstr "Aġġorna l-preferenzi u d-dettalji relatati tal-kont. Dan ma' jagħtix aċċess għall-indirizz tal-email jew il-password."
 
 #: r2/models/token.py:133
-msgid "Spend tippr gold ctipprs"
+msgid "Spend tippr gold coins"
 msgstr "Onfoq ktippri tar-tippr gold"
 
 #: r2/models/token.py:134
-msgid "Spend my tippr gold ctipprs on giving gold to other users."
+msgid "Spend my tippr gold coins on giving gold to other users."
 msgstr "Sarraf ktippri tar-tippr gold tiegħi bħala għotja ta' gold lil utenti oħrajn."
 
 #: r2/models/token.py:139
@@ -6553,7 +6553,7 @@ msgid "hide"
 msgstr "aħbi"
 
 #: r2/templates/adminctipprs.html:25
-msgid "give ctipprs to a user"
+msgid "give coins to a user"
 msgstr "agħti il-ktippri lil utent"
 
 #: r2/templates/adminctipprs.html:32 r2/templates/admingold.html:32
@@ -6562,7 +6562,7 @@ msgstr "reċipjent"
 
 #: r2/templates/adminctipprs.html:40 r2/templates/gold.html:109
 #: r2/templates/goldpayment.html:130
-msgid "ctipprs"
+msgid "coins"
 msgstr "ktippri"
 
 #: r2/templates/adminctipprs.html:43 r2/templates/admingold.html:44
@@ -7445,27 +7445,27 @@ msgstr "Kemm jiswa?"
 
 #: r2/templates/gilding.html:57
 #, python-format
-msgid "A single gilding costs %(price)s. If you plan to do a lot you can get a discount if you purchase some [ctipprs](/ctipprs)."
-msgstr "Induratura waħda tiswa %(price)s. Jekk qed tippjana li tagħmel ħafna, jaqbillek tikseb skont billi tixtri xi [ctipprs](/ctipprs)."
+msgid "A single gilding costs %(price)s. If you plan to do a lot you can get a discount if you purchase some [coins](/coins)."
+msgstr "Induratura waħda tiswa %(price)s. Jekk qed tippjana li tagħmel ħafna, jaqbillek tikseb skont billi tixtri xi [coins](/coins)."
 
 #: r2/templates/gilding.html:60
-msgid "What are ctipprs?"
+msgid "What are coins?"
 msgstr "X'inhuma l-ktippri?"
 
 #: r2/templates/gilding.html:61
-msgid "Each ctippr you have can be converted into one month of tippr gold. Stored as a balance on your account, ctipprs allow you to give gold without having to enter payment information."
+msgid "Each coin you have can be converted into one month of tippr gold. Stored as a balance on your account, coins allow you to give gold without having to enter payment information."
 msgstr "Kull ktippru li għandek jista' jissarraf f'xahar ta' tippr gold. Dawn jinżammu f'bilanċ monetarju fil-kont tiegħek u jippermettuk tagħti gold mingħir ma' ddaħħal dettalji tal-ħlas."
 
 #: r2/templates/gilding.html:61
-msgid "Additionally, buying ctipprs in bulk lowers the cost of each gilding."
+msgid "Additionally, buying coins in bulk lowers the cost of each gilding."
 msgstr "Barra minn hekk, ix-xiri ta' ktipprs in massa jnaqqas il-prezz ta' kull induratura."
 
 #: r2/templates/gilding.html:64
-msgid "How do I use ctipprs?"
+msgid "How do I use coins?"
 msgstr "Kif nuża l-ktippri?"
 
 #: r2/templates/gilding.html:65
-msgid "Your ctipprs are listed as a payment method on the checkout page."
+msgid "Your coins are listed as a payment method on the checkout page."
 msgstr "Il-ktippri tiegħek elenkati bħala mezz ta' ħlas fil-paġna tax-xiri."
 
 #: r2/templates/gold.html:38
@@ -7509,15 +7509,15 @@ msgid "ongoing subscription"
 msgstr "abbonament rikorrenti"
 
 #: r2/templates/gold.html:115
-msgid "How many ctipprs would you like to buy?"
+msgid "How many coins would you like to buy?"
 msgstr "Kemm tixtieq tixtri ktippri?"
 
 #: r2/templates/gold.html:119
-msgid "Stored as a balance on your account, ctipprs allow you to give gold without having to enter payment information. Each ctippr you have can be converted into one month of tippr gold."
+msgid "Stored as a balance on your account, coins allow you to give gold without having to enter payment information. Each coin you have can be converted into one month of tippr gold."
 msgstr "Il-ktippri huma miżmuma bħala bilanċ monetarju fil-kont tiegħek, u jippermettuk tagħti l-gold mingħir ma' ddaħħal dettalji tal-ħlas. Kull ktippru tiegħek jista jinqaleb f'xahar sħieħ ta' tippr gold."
 
 #: r2/templates/gold.html:120
-msgid "Learn more about using ctipprs"
+msgid "Learn more about using coins"
 msgstr "Kun af aktar dwar l-użu tal-ktippri"
 
 #: r2/templates/gold.html:125
@@ -7617,8 +7617,8 @@ msgstr "Jekk jogħġbok agħżel metodu ta' ħlas."
 
 #: r2/templates/goldpayment.html:110
 #, python-format
-msgid "Give gold often? Consider [buying ctipprs to use](/ctipprs), they're 40% cheaper if purchased in a set of 12."
-msgstr "Tagħti l-gold ta' spiss? Ikkonsidra [x-xiri ta' ktippri](/ctipprs), huma 40% orħos jekk tixtrihom f'pakkett ta' 12."
+msgid "Give gold often? Consider [buying coins to use](/coins), they're 40% cheaper if purchased in a set of 12."
+msgstr "Tagħti l-gold ta' spiss? Ikkonsidra [x-xiri ta' ktippri](/coins), huma 40% orħos jekk tixtrihom f'pakkett ta' 12."
 
 #: r2/templates/goldpayment.html:112
 msgid "Would you like to [learn more about giving gold](/gilding)?"
@@ -7626,7 +7626,7 @@ msgstr "Tixtieq [tkun taf aktar dwar l-għotja ta' gold](/gilding)?"
 
 #: r2/templates/goldpayment.html:132
 #, python-format
-msgid "(use %(current)s of your %(total)s ctipprs)"
+msgid "(use %(current)s of your %(total)s coins)"
 msgstr "(uża %(current)s mill-%(total)s ktippri tiegħek)"
 
 #: r2/templates/goldpayment.html:148
@@ -9264,8 +9264,8 @@ msgstr "uri kemm baqalek gold fil-paġna tal-profil tiegħek"
 
 #: r2/templates/prefoptions.html:429
 #, python-format
-msgid "use a %(ctippr_link)s to automatically renew my gold if it expires"
-msgstr "uża %(ctippr_link)s sabiex iġġedded il-gold tiegħi jekk jiskadi"
+msgid "use a %(coin_link)s to automatically renew my gold if it expires"
+msgstr "uża %(coin_link)s sabiex iġġedded il-gold tiegħi jekk jiskadi"
 
 #: r2/templates/prefoptions.html:439
 #, python-format
@@ -10808,7 +10808,7 @@ msgid "first"
 msgstr "l-ewwel"
 
 #: r2/templates/thanks.html:32
-msgid "thanks for buying ctipprs!"
+msgid "thanks for buying coins!"
 msgstr "grazzi talli xtrajt il-ktippri!"
 
 #: r2/templates/thanks.html:34
@@ -10816,7 +10816,7 @@ msgid "thanks for subscribing!"
 msgstr "grazzi talli abbonajt!"
 
 #: r2/templates/thanks.html:39
-msgid "enter your confirmation code below to claim your gift ctipprs"
+msgid "enter your confirmation code below to claim your gift coins"
 msgstr "daħħal il-kodiċi tal-konferma tiegħek hawn taħt sabiex tirrivendika l-ktippri tal-għotja tiegħek"
 
 #: r2/templates/thanks.html:41

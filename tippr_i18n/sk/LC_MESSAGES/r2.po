@@ -773,7 +773,7 @@ msgid "Claimed! Enjoy your tippr gold membership."
 msgstr "Nárok uplatnený! Užite si svoje tippr - zlaté členstvo."
 
 #: r2/controllers/front.py:1636
-msgid "Your gold ctipprs have been claimed! Now go to someone's userpage and give them a present!"
+msgid "Your gold coins have been claimed! Now go to someone's userpage and give them a present!"
 msgstr "Získal si zlaté ktippry! Teraz môžeš ísť na niekoho userpage a dať mu darček!"
 
 #: r2/controllers/front.py:1639
@@ -863,7 +863,7 @@ msgid "tippr gold"
 msgstr "zlatý tippr"
 
 #: r2/controllers/front.py:2228 r2/templates/gilding.html:76
-msgid "purchase ctipprs"
+msgid "purchase coins"
 msgstr "zakúpenie kreditov"
 
 #: r2/controllers/front.py:2238 r2/controllers/ipn.py:1148
@@ -939,11 +939,11 @@ msgid "Thank you for buying tippr gold. Your patronage supports the site and mak
 msgstr "Ďakujeme za kúpenie zlatého tippra. Vaša priazeň podporuje stránku a umožňuje jej ďalší rozvoj. Napríklad, jeden mesiac zlatého tippra zaplatí 5 hodín inštancie serverov tippr."
 
 #: r2/controllers/ipn.py:582
-msgid "Eureka! Thank you for investing in tippr gold ctipprs!"
+msgid "Eureka! Thank you for investing in tippr gold coins!"
 msgstr "Heuréka! Ďakujeme Vám za investovanie do ktipprov zlatého tippra!"
 
 #: r2/controllers/ipn.py:585
-msgid "Thank you for buying ctipprs. Your patronage supports the site and makes future development possible. To spend your ctipprs and spread tippr gold, visit [/gold](/gold) or your favorite person's user page."
+msgid "Thank you for buying coins. Your patronage supports the site and makes future development possible. To spend your coins and spread tippr gold, visit [/gold](/gold) or your favorite person's user page."
 msgstr "Ďakujeme za zakúpenie kreditov. Tvojou kúpou ste podporili prevádzku stránky a jej budúci vývoj. Tvoje kredity a zlatého tippra môžete minúť, ak navštivíte [/gold](/gold) alebo stránku vašeho obľúbeného užívateľa."
 
 #: r2/controllers/ipn.py:591 r2/controllers/ipn.py:613
@@ -2178,8 +2178,8 @@ msgid "you must have an active tippr gold subscription to do that"
 msgstr "musíš mať aktívny tippr gold aby si to mohol urobiť"
 
 #: r2/lib/errors.py:185
-msgid "insufficient ctipprs"
-msgstr "nedostatok ctipprov"
+msgid "insufficient coins"
+msgstr "nedostatok coinov"
 
 #: r2/lib/errors.py:186
 msgid "gilding is not allowed in this vault"
@@ -3380,7 +3380,7 @@ msgstr "Ideš si jednorazovo zakúpiť %(amount)s tippr gold sebe (%(user)s). Sp
 
 #: r2/lib/strings.py:150
 #, python-format
-msgid "You're about to purchase %(amount)s. They work like gift certificates: each ctippr you have will allow you to give one month of tippr gold to someone else. You'll pay a total of %(price)s for this."
+msgid "You're about to purchase %(amount)s. They work like gift certificates: each coin you have will allow you to give one month of tippr gold to someone else. You'll pay a total of %(price)s for this."
 msgstr "Ideš kúpiť %(amount)s. Fungujú ako darčekové poukazy: každým ktipprom čo máš, môžeš venovať mesiac tippr gold niekomu inému. Zaplatíš celkom %(price)s."
 
 #: r2/lib/strings.py:151
@@ -3534,8 +3534,8 @@ msgstr[1] "podtippry"
 msgstr[2] "podtipprov"
 
 #: r2/lib/strings.py:275
-msgid "ctippr"
-msgid_plural "ctipprs"
+msgid "coin"
+msgid_plural "coins"
 msgstr[0] "kredit"
 msgstr[1] "kredity"
 msgstr[2] "kreditov"
@@ -3940,11 +3940,11 @@ msgstr "menej ako deň"
 
 #: r2/lib/pages/pages.py:3105
 #, python-format
-msgid "%(ctipprs)s gold ctippr to give"
-msgid_plural "%(ctipprs)s gold ctipprs to give"
-msgstr[0] "%(ctipprs)s zlatý kredit na darovanie"
-msgstr[1] "%(ctipprs)s zlaté kredity na darovanie"
-msgstr[2] "%(ctipprs)s zlatých kreditov na darovanie"
+msgid "%(coins)s gold coin to give"
+msgid_plural "%(coins)s gold coins to give"
+msgstr[0] "%(coins)s zlatý kredit na darovanie"
+msgstr[1] "%(coins)s zlaté kredity na darovanie"
+msgstr[2] "%(coins)s zlatých kreditov na darovanie"
 
 #: r2/lib/pages/pages.py:3112
 #, python-format
@@ -5613,11 +5613,11 @@ msgid "Update preferences and related account information. Will not have access 
 msgstr ""
 
 #: r2/models/token.py:142
-msgid "Spend tippr gold ctipprs"
+msgid "Spend tippr gold coins"
 msgstr ""
 
 #: r2/models/token.py:143
-msgid "Spend my tippr gold ctipprs on giving gold to other users."
+msgid "Spend my tippr gold coins on giving gold to other users."
 msgstr ""
 
 #: r2/models/token.py:148
@@ -6578,7 +6578,7 @@ msgid "hide"
 msgstr "skryť"
 
 #: r2/templates/adminctipprs.html:25
-msgid "give ctipprs to a user"
+msgid "give coins to a user"
 msgstr "daruj ktippry používateľovi"
 
 #: r2/templates/adminctipprs.html:32 r2/templates/admingold.html:32
@@ -6587,8 +6587,8 @@ msgstr "príjemca"
 
 #: r2/templates/adminctipprs.html:40 r2/templates/gold.html:109
 #: r2/templates/goldpayment.html:130
-msgid "ctipprs"
-msgstr "ctippry"
+msgid "coins"
+msgstr "coiny"
 
 #: r2/templates/adminctipprs.html:43 r2/templates/admingold.html:44
 msgid "(negative to take away)"
@@ -7479,27 +7479,27 @@ msgstr ""
 
 #: r2/templates/gilding.html:57
 #, python-format
-msgid "A single gilding costs %(price)s. If you plan to do a lot you can get a discount if you purchase some [ctipprs](/ctipprs)."
+msgid "A single gilding costs %(price)s. If you plan to do a lot you can get a discount if you purchase some [coins](/coins)."
 msgstr ""
 
 #: r2/templates/gilding.html:60
-msgid "What are ctipprs?"
-msgstr "Čo sú to ctippry?"
+msgid "What are coins?"
+msgstr "Čo sú to coiny?"
 
 #: r2/templates/gilding.html:61
-msgid "Each ctippr you have can be converted into one month of tippr gold. Stored as a balance on your account, ctipprs allow you to give gold without having to enter payment information."
-msgstr "Každý ctippr môže byť konvertovaný na jeden mesiac tippr goldu. Ctippry sú viazané s tvojim účtom. Umožňujú ti rozdávať tippr gold bez nutnosti uvádzať informácie o platbe."
+msgid "Each coin you have can be converted into one month of tippr gold. Stored as a balance on your account, coins allow you to give gold without having to enter payment information."
+msgstr "Každý coin môže byť konvertovaný na jeden mesiac tippr goldu. Coiny sú viazané s tvojim účtom. Umožňujú ti rozdávať tippr gold bez nutnosti uvádzať informácie o platbe."
 
 #: r2/templates/gilding.html:61
-msgid "Additionally, buying ctipprs in bulk lowers the cost of each gilding."
+msgid "Additionally, buying coins in bulk lowers the cost of each gilding."
 msgstr ""
 
 #: r2/templates/gilding.html:64
-msgid "How do I use ctipprs?"
+msgid "How do I use coins?"
 msgstr "Ako môžem využiť ktippry?"
 
 #: r2/templates/gilding.html:65
-msgid "Your ctipprs are listed as a payment method on the checkout page."
+msgid "Your coins are listed as a payment method on the checkout page."
 msgstr ""
 
 #: r2/templates/gold.html:38
@@ -7543,16 +7543,16 @@ msgid "ongoing subscription"
 msgstr ""
 
 #: r2/templates/gold.html:115
-msgid "How many ctipprs would you like to buy?"
-msgstr "Koľko ctipprov si želáte kúpiť?"
+msgid "How many coins would you like to buy?"
+msgstr "Koľko coinov si želáte kúpiť?"
 
 #: r2/templates/gold.html:119
-msgid "Stored as a balance on your account, ctipprs allow you to give gold without having to enter payment information. Each ctippr you have can be converted into one month of tippr gold."
+msgid "Stored as a balance on your account, coins allow you to give gold without having to enter payment information. Each coin you have can be converted into one month of tippr gold."
 msgstr ""
 
 #: r2/templates/gold.html:120
-msgid "Learn more about using ctipprs"
-msgstr "Nauč sa viac o používaní ctipprov"
+msgid "Learn more about using coins"
+msgstr "Nauč sa viac o používaní coinov"
 
 #: r2/templates/gold.html:125
 msgid "What type of subscription would you like?"
@@ -7651,7 +7651,7 @@ msgstr "Vyberte prosím metódu zaplatenia."
 
 #: r2/templates/goldpayment.html:110
 #, python-format
-msgid "Give gold often? Consider [buying ctipprs to use](/ctipprs), they're 40% cheaper if purchased in a set of 12."
+msgid "Give gold often? Consider [buying coins to use](/coins), they're 40% cheaper if purchased in a set of 12."
 msgstr ""
 
 #: r2/templates/goldpayment.html:112
@@ -7660,7 +7660,7 @@ msgstr ""
 
 #: r2/templates/goldpayment.html:132
 #, python-format
-msgid "(use %(current)s of your %(total)s ctipprs)"
+msgid "(use %(current)s of your %(total)s coins)"
 msgstr ""
 
 #: r2/templates/goldpayment.html:148
@@ -9350,7 +9350,7 @@ msgstr ""
 
 #: r2/templates/prefoptions.html:433
 #, python-format
-msgid "use a %(ctippr_link)s to automatically renew my gold if it expires"
+msgid "use a %(coin_link)s to automatically renew my gold if it expires"
 msgstr ""
 
 #: r2/templates/prefoptions.html:443
@@ -10927,7 +10927,7 @@ msgid "first"
 msgstr "prvý"
 
 #: r2/templates/thanks.html:32
-msgid "thanks for buying ctipprs!"
+msgid "thanks for buying coins!"
 msgstr "ďakujeme, že ste si kúpili kredity!"
 
 #: r2/templates/thanks.html:34
@@ -10935,7 +10935,7 @@ msgid "thanks for subscribing!"
 msgstr "ďakujeme za predplatenie!"
 
 #: r2/templates/thanks.html:39
-msgid "enter your confirmation code below to claim your gift ctipprs"
+msgid "enter your confirmation code below to claim your gift coins"
 msgstr "zadajte svoj potvrdzovací kód pre získanie darčekových kreditov"
 
 #: r2/templates/thanks.html:41

@@ -689,13 +689,13 @@ msgid ""
 msgstr ""
 
 #: r2/controllers/ipn.py:509
-msgid "Eureka! Thank you for investing in tippr gold ctipprs!"
+msgid "Eureka! Thank you for investing in tippr gold coins!"
 msgstr ""
 
 #: r2/controllers/ipn.py:512
 msgid ""
-"Thank you for buying ctipprs. Your patronage supports the site and makes "
-"future development possible. To spend your ctipprs and spread tippr gold, "
+"Thank you for buying coins. Your patronage supports the site and makes "
+"future development possible. To spend your coins and spread tippr gold, "
 "visit [/gold](/gold) or your favorite person's user page."
 msgstr ""
 
@@ -2830,8 +2830,8 @@ msgstr[0] "vault"
 msgstr[1] "vaults"
 
 #: r2/lib/strings.py:270
-msgid "ctippr"
-msgid_plural "ctipprs"
+msgid "coin"
+msgid_plural "coins"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -3184,8 +3184,8 @@ msgstr ""
 
 #: r2/lib/pages/pages.py:1752
 #, python-format
-msgid "%(ctipprs)s gold ctippr to give"
-msgid_plural "%(ctipprs)s gold ctipprs to give"
+msgid "%(coins)s gold coin to give"
+msgid_plural "%(coins)s gold coins to give"
 msgstr[0] ""
 msgstr[1] ""
 
@@ -7960,7 +7960,7 @@ msgid "first"
 msgstr ""
 
 #: r2/templates/thanks.html:32
-msgid "thanks for buying ctipprs!"
+msgid "thanks for buying coins!"
 msgstr ""
 
 #: r2/templates/thanks.html:34
@@ -7968,7 +7968,7 @@ msgid "thanks for subscribing!"
 msgstr ""
 
 #: r2/templates/thanks.html:39
-msgid "enter your confirmation code below to claim your gift ctipprs"
+msgid "enter your confirmation code below to claim your gift coins"
 msgstr ""
 
 #: r2/templates/thanks.html:41

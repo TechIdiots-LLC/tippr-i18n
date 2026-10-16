@@ -772,8 +772,8 @@ msgid "Claimed! Enjoy your tippr gold membership."
 msgstr "主張！あなたのtipprのゴールドメンバーシップをお楽しみください。"
 
 #: r2/controllers/front.py:1582
-msgid "Your gold ctipprs have been claimed! Now go to someone's userpage and give them a present!"
-msgstr "あなたの金のctipprsが主張されている！今誰かのuserpageに行って、彼らにプレゼントを与える！"
+msgid "Your gold coins have been claimed! Now go to someone's userpage and give them a present!"
+msgstr "あなたの金のcoinsが主張されている！今誰かのuserpageに行って、彼らにプレゼントを与える！"
 
 #: r2/controllers/front.py:1585
 msgid "Thanks for buying tippr gold! Your transaction has been completed."
@@ -862,8 +862,8 @@ msgid "tippr gold"
 msgstr "tippr gold"
 
 #: r2/controllers/front.py:2174 r2/templates/gilding.html:76
-msgid "purchase ctipprs"
-msgstr "購入ctipprs"
+msgid "purchase coins"
+msgstr "購入coins"
 
 #: r2/controllers/front.py:2184 r2/controllers/ipn.py:1147
 msgid "tippr gold subscription"
@@ -940,11 +940,11 @@ msgid "Thank you for buying tippr gold. Your patronage supports the site and mak
 msgstr "tipprゴールドの購入ありがとうございます。あなたの御支援によってサイトの開発が可能になります。例えば、一ヶ月分のゴールドは5時間ほどのtipprサーバーの支払いに相当します。"
 
 #: r2/controllers/ipn.py:582
-msgid "Eureka! Thank you for investing in tippr gold ctipprs!"
+msgid "Eureka! Thank you for investing in tippr gold coins!"
 msgstr "エウレカ！　tipprゴールドクレジットを買ってくれてありがとう！"
 
 #: r2/controllers/ipn.py:585
-msgid "Thank you for buying ctipprs. Your patronage supports the site and makes future development possible. To spend your ctipprs and spread tippr gold, visit [/gold](/gold) or your favorite person's user page."
+msgid "Thank you for buying coins. Your patronage supports the site and makes future development possible. To spend your coins and spread tippr gold, visit [/gold](/gold) or your favorite person's user page."
 msgstr "クレジットの購入ありがとうございます。あなたの御支援によってサイトの開発が可能になります。クレジットを使うことで tipprゴールドの輪を広げましょう。 [/gold](/gold) を訪問するかあなたのお気に入りのユーザーのページで。"
 
 #: r2/controllers/ipn.py:591 r2/controllers/ipn.py:613
@@ -2170,7 +2170,7 @@ msgid "you must have an active tippr gold subscription to do that"
 msgstr "tipprゴールド会員である必要があります"
 
 #: r2/lib/errors.py:184
-msgid "insufficient ctipprs"
+msgid "insufficient coins"
 msgstr "クレジットが足りません"
 
 #: r2/lib/errors.py:185
@@ -3370,7 +3370,7 @@ msgstr ""
 
 #: r2/lib/strings.py:150
 #, python-format
-msgid "You're about to purchase %(amount)s. They work like gift certificates: each ctippr you have will allow you to give one month of tippr gold to someone else. You'll pay a total of %(price)s for this."
+msgid "You're about to purchase %(amount)s. They work like gift certificates: each coin you have will allow you to give one month of tippr gold to someone else. You'll pay a total of %(price)s for this."
 msgstr ""
 
 #: r2/lib/strings.py:151
@@ -3516,9 +3516,9 @@ msgid_plural "vaults"
 msgstr[0] "vault"
 
 #: r2/lib/strings.py:274
-msgid "ctippr"
-msgid_plural "ctipprs"
-msgstr[0] "ctippr"
+msgid "coin"
+msgid_plural "coins"
+msgstr[0] "coin"
 
 #: r2/lib/strings.py:277
 msgid "reader"
@@ -3886,9 +3886,9 @@ msgstr "一日以内"
 
 #: r2/lib/pages/pages.py:2947
 #, python-format
-msgid "%(ctipprs)s gold ctippr to give"
-msgid_plural "%(ctipprs)s gold ctipprs to give"
-msgstr[0] "与えるための%(ctipprs)sのゴールドクレジット"
+msgid "%(coins)s gold coin to give"
+msgid_plural "%(coins)s gold coins to give"
+msgstr[0] "与えるための%(coins)sのゴールドクレジット"
 
 #: r2/lib/pages/pages.py:2954
 #, python-format
@@ -5523,11 +5523,11 @@ msgid "Update preferences and related account information. Will not have access 
 msgstr "個人設定とアカウント情報を更新してください。電子メールもしくはパスワードにアクセスができなくなる可能性があります。"
 
 #: r2/models/token.py:133
-msgid "Spend tippr gold ctipprs"
-msgstr "tipprゴールドctipprで払う"
+msgid "Spend tippr gold coins"
+msgstr "tipprゴールドcoinで払う"
 
 #: r2/models/token.py:134
-msgid "Spend my tippr gold ctipprs on giving gold to other users."
+msgid "Spend my tippr gold coins on giving gold to other users."
 msgstr ""
 
 #: r2/models/token.py:139
@@ -6463,8 +6463,8 @@ msgid "hide"
 msgstr "非表示"
 
 #: r2/templates/adminctipprs.html:25
-msgid "give ctipprs to a user"
-msgstr "ユーザーにctipprsを与える"
+msgid "give coins to a user"
+msgstr "ユーザーにcoinsを与える"
 
 #: r2/templates/adminctipprs.html:32 r2/templates/admingold.html:32
 msgid "recipient"
@@ -6472,8 +6472,8 @@ msgstr "受信者"
 
 #: r2/templates/adminctipprs.html:40 r2/templates/gold.html:109
 #: r2/templates/goldpayment.html:130
-msgid "ctipprs"
-msgstr "ctippr"
+msgid "coins"
+msgstr "coin"
 
 #: r2/templates/adminctipprs.html:43 r2/templates/admingold.html:44
 msgid "(negative to take away)"
@@ -7353,27 +7353,27 @@ msgstr "幾らですか？"
 
 #: r2/templates/gilding.html:57
 #, python-format
-msgid "A single gilding costs %(price)s. If you plan to do a lot you can get a discount if you purchase some [ctipprs](/ctipprs)."
+msgid "A single gilding costs %(price)s. If you plan to do a lot you can get a discount if you purchase some [coins](/coins)."
 msgstr ""
 
 #: r2/templates/gilding.html:60
-msgid "What are ctipprs?"
+msgid "What are coins?"
 msgstr "クレッヂトは何ですか？"
 
 #: r2/templates/gilding.html:61
-msgid "Each ctippr you have can be converted into one month of tippr gold. Stored as a balance on your account, ctipprs allow you to give gold without having to enter payment information."
+msgid "Each coin you have can be converted into one month of tippr gold. Stored as a balance on your account, coins allow you to give gold without having to enter payment information."
 msgstr ""
 
 #: r2/templates/gilding.html:61
-msgid "Additionally, buying ctipprs in bulk lowers the cost of each gilding."
+msgid "Additionally, buying coins in bulk lowers the cost of each gilding."
 msgstr ""
 
 #: r2/templates/gilding.html:64
-msgid "How do I use ctipprs?"
-msgstr "ctipprはどのように使えますか？"
+msgid "How do I use coins?"
+msgstr "coinはどのように使えますか？"
 
 #: r2/templates/gilding.html:65
-msgid "Your ctipprs are listed as a payment method on the checkout page."
+msgid "Your coins are listed as a payment method on the checkout page."
 msgstr ""
 
 #: r2/templates/gold.html:38
@@ -7417,16 +7417,16 @@ msgid "ongoing subscription"
 msgstr ""
 
 #: r2/templates/gold.html:115
-msgid "How many ctipprs would you like to buy?"
-msgstr "いくらctipprを購入しますか？"
+msgid "How many coins would you like to buy?"
+msgstr "いくらcoinを購入しますか？"
 
 #: r2/templates/gold.html:119
-msgid "Stored as a balance on your account, ctipprs allow you to give gold without having to enter payment information. Each ctippr you have can be converted into one month of tippr gold."
+msgid "Stored as a balance on your account, coins allow you to give gold without having to enter payment information. Each coin you have can be converted into one month of tippr gold."
 msgstr ""
 
 #: r2/templates/gold.html:120
-msgid "Learn more about using ctipprs"
-msgstr "ctipprの使い方についてもっと知る"
+msgid "Learn more about using coins"
+msgstr "coinの使い方についてもっと知る"
 
 #: r2/templates/gold.html:125
 msgid "What type of subscription would you like?"
@@ -7525,8 +7525,8 @@ msgstr "支払い手段を選択してください"
 
 #: r2/templates/goldpayment.html:110
 #, python-format
-msgid "Give gold often? Consider [buying ctipprs to use](/ctipprs), they're 40% cheaper if purchased in a set of 12."
-msgstr "ゴールドをよく贈る？　[使用するクレジットの購入](/ctipprs)を検討してください。12個セットで購入した場合、40％安くなります。"
+msgid "Give gold often? Consider [buying coins to use](/coins), they're 40% cheaper if purchased in a set of 12."
+msgstr "ゴールドをよく贈る？　[使用するクレジットの購入](/coins)を検討してください。12個セットで購入した場合、40％安くなります。"
 
 #: r2/templates/goldpayment.html:112
 msgid "Would you like to [learn more about giving gold](/gilding)?"
@@ -7534,7 +7534,7 @@ msgstr "[ゴールドの贈呈について詳しく知りたい](/gilding)?で�
 
 #: r2/templates/goldpayment.html:132
 #, python-format
-msgid "(use %(current)s of your %(total)s ctipprs)"
+msgid "(use %(current)s of your %(total)s coins)"
 msgstr "(あなたの%(total)sクレジットのうち%(current)sを使う)"
 
 #: r2/templates/goldpayment.html:148
@@ -9172,8 +9172,8 @@ msgstr ""
 
 #: r2/templates/prefoptions.html:429
 #, python-format
-msgid "use a %(ctippr_link)s to automatically renew my gold if it expires"
-msgstr "自分のゴールドの期間が満了したとき、自動的に延長するために 1 %(ctippr_link)s を使用する"
+msgid "use a %(coin_link)s to automatically renew my gold if it expires"
+msgstr "自分のゴールドの期間が満了したとき、自動的に延長するために 1 %(coin_link)s を使用する"
 
 #: r2/templates/prefoptions.html:439
 #, python-format
@@ -10717,15 +10717,15 @@ msgid "first"
 msgstr "初め"
 
 #: r2/templates/thanks.html:32
-msgid "thanks for buying ctipprs!"
-msgstr "ctipprのご購入、ありがとうございました！"
+msgid "thanks for buying coins!"
+msgstr "coinのご購入、ありがとうございました！"
 
 #: r2/templates/thanks.html:34
 msgid "thanks for subscribing!"
 msgstr "購読ありがとう！"
 
 #: r2/templates/thanks.html:39
-msgid "enter your confirmation code below to claim your gift ctipprs"
+msgid "enter your confirmation code below to claim your gift coins"
 msgstr "ギフトクレジットを要求するために以下に確認コードを入力"
 
 #: r2/templates/thanks.html:41
