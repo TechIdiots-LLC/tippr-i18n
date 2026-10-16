@@ -4536,8 +4536,8 @@ msgstr "[deleted]"
 
 #: r2/models/gold.py:551
 #, python-format
-msgid "a tippror gifted you a month of tippr gold for this comment."
-msgid_plural "tipprors have gifted you %(months)d months of tippr gold for this comment."
+msgid "a user gifted you a month of tippr gold for this comment."
+msgid_plural "users have gifted you %(months)d months of tippr gold for this comment."
 msgstr[0] "xi tipprur tak xahar ta' tippr gold ta' dal-kumment."
 msgstr[1] ""
 msgstr[2] ""
@@ -4545,8 +4545,8 @@ msgstr[3] ""
 
 #: r2/models/gold.py:559
 #, python-format
-msgid "a tippror gifted you a month of tippr gold for this submission."
-msgid_plural "tipprors have gifted you %(months)d months of tippr gold for this submission."
+msgid "a user gifted you a month of tippr gold for this submission."
+msgid_plural "users have gifted you %(months)d months of tippr gold for this submission."
 msgstr[0] "xi tipprur tak xahar ta' tippr gold għal din l-impostazzjoni."
 msgstr[1] "xi tipprur tak %(months)d xuhur ta' tippr gold għal din l-impostazzjoni."
 msgstr[2] "xi tipprur tak %(months)d xahar ta' tippr gold għal din l-impostazzjoni."
@@ -4572,8 +4572,8 @@ msgstr[3] "inthom tajtu %(months)d xuhur ta' tippr gold lil %(recipient)s għal 
 
 #: r2/models/gold.py:585
 #, python-format
-msgid "a tippror has gifted tippr gold to %(recipient)s for this comment."
-msgid_plural "tipprors have gifted %(months)d months of tippr gold to %(recipient)s for this comment."
+msgid "a user has gifted tippr gold to %(recipient)s for this comment."
+msgid_plural "users have gifted %(months)d months of tippr gold to %(recipient)s for this comment."
 msgstr[0] "xi tipprur għamel għotja ta' tippr gold lil %(recipient)s ta' dal-kumment."
 msgstr[1] "xi tippruri għamlu għotja ta' %(months)d xuhur ta' tippr gold lil %(recipient)s ta' dal-kumment."
 msgstr[2] "xi tippruri għamlu għotja ta' %(months)d xahar ta' tippr gold lil %(recipient)s ta' dal-kumment."
@@ -4581,8 +4581,8 @@ msgstr[3] "xi tippruri għamlu għotja ta' %(months)d xahar ta' tippr gold lil %
 
 #: r2/models/gold.py:593
 #, python-format
-msgid "a tippror has gifted tippr gold to %(recipient)s for this submission."
-msgid_plural "tipprors have gifted %(months)d months of tippr gold to %(recipient)s for this submission."
+msgid "a user has gifted tippr gold to %(recipient)s for this submission."
+msgid_plural "users have gifted %(months)d months of tippr gold to %(recipient)s for this submission."
 msgstr[0] "xi tipprur għamel għotja ta' tippr gold lil %(recipient)s ta' din l-impostazzjoni."
 msgstr[1] "xi tippruri għamlu għotja ta' %(months)d xuhur ta' tippr gold lil %(recipient)s ta' din l-impostazzjoni."
 msgstr[2] "xi tippruri għamlu għotja ta' %(months)d xahar ta' tippr gold lil %(recipient)s ta' din l-impostazzjoni."
@@ -9641,7 +9641,7 @@ msgid "manage recurring subscription"
 msgstr "iġġestixxi l-abbonament rikorrenti"
 
 #: r2/templates/profilebar.html:190
-msgid "tippror for"
+msgid "user for"
 msgstr "tipprur minn"
 
 #: r2/templates/promotedlink.html:41

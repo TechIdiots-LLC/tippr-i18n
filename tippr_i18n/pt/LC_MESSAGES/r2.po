@@ -3827,9 +3827,9 @@ msgstr "[excluído]"
 
 #: r2/models/link.py:717
 #, python-format
-msgid "a tippror gifted you a month of tippr gold for this comment."
+msgid "a user gifted you a month of tippr gold for this comment."
 msgid_plural ""
-"tipprors have gifted you %(months)d months of tippr gold for this comment."
+"users have gifted you %(months)d months of tippr gold for this comment."
 msgstr[0] ""
 msgstr[1] ""
 
@@ -3844,9 +3844,9 @@ msgstr[1] ""
 
 #: r2/models/link.py:731
 #, python-format
-msgid "a tippror has gifted tippr gold to %(recipient)s for this comment."
+msgid "a user has gifted tippr gold to %(recipient)s for this comment."
 msgid_plural ""
-"tipprors have gifted %(months)d months of tippr gold to %(recipient)s for "
+"users have gifted %(months)d months of tippr gold to %(recipient)s for "
 "this comment."
 msgstr[0] ""
 msgstr[1] ""
@@ -7236,7 +7236,7 @@ msgid "send message"
 msgstr "enviar mensagem"
 
 #: r2/templates/profilebar.html:172
-msgid "tippror for"
+msgid "user for"
 msgstr ""
 
 #: r2/templates/promotedlink.html:37

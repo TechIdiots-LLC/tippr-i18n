@@ -4496,15 +4496,15 @@ msgstr "[sletta]"
 
 #: r2/models/gold.py:551
 #, python-format
-msgid "a tippror gifted you a month of tippr gold for this comment."
-msgid_plural "tipprors have gifted you %(months)d months of tippr gold for this comment."
+msgid "a user gifted you a month of tippr gold for this comment."
+msgid_plural "users have gifted you %(months)d months of tippr gold for this comment."
 msgstr[0] "ein tipprør gav deg ein månads gulltippr for det her innlegget."
 msgstr[1] "tipprørar har gitt deg %(months)d månaders gulltippr for det her innlegget."
 
 #: r2/models/gold.py:559
 #, python-format
-msgid "a tippror gifted you a month of tippr gold for this submission."
-msgid_plural "tipprors have gifted you %(months)d months of tippr gold for this submission."
+msgid "a user gifted you a month of tippr gold for this submission."
+msgid_plural "users have gifted you %(months)d months of tippr gold for this submission."
 msgstr[0] "En tippror har gitt deg en måned med tippr gull for dette bidraget."
 msgstr[1] "tipprorer har gitt deg %(months)d måneder med tippr gull for denne bidraget."
 
@@ -4524,15 +4524,15 @@ msgstr[1] "du og andre tipprorer har gitt %(months)d måneder med tippr gull til
 
 #: r2/models/gold.py:585
 #, python-format
-msgid "a tippror has gifted tippr gold to %(recipient)s for this comment."
-msgid_plural "tipprors have gifted %(months)d months of tippr gold to %(recipient)s for this comment."
+msgid "a user has gifted tippr gold to %(recipient)s for this comment."
+msgid_plural "users have gifted %(months)d months of tippr gold to %(recipient)s for this comment."
 msgstr[0] "Ein tipprør har gitt %(recipient)s gulltippr for det her innlegget."
 msgstr[1] "tipprørar har gitt %(recipient)s %(months)d månader gulltippr for det her innlegget."
 
 #: r2/models/gold.py:593
 #, python-format
-msgid "a tippror has gifted tippr gold to %(recipient)s for this submission."
-msgid_plural "tipprors have gifted %(months)d months of tippr gold to %(recipient)s for this submission."
+msgid "a user has gifted tippr gold to %(recipient)s for this submission."
+msgid_plural "users have gifted %(months)d months of tippr gold to %(recipient)s for this submission."
 msgstr[0] "en tippror har gitt tippr gull til %(recipient)s for dette bidraget."
 msgstr[1] "tipprorer har gitt %(months)d måneder med tippr gull til %(recipient)s for dette bidraget."
 
@@ -9573,7 +9573,7 @@ msgid "manage recurring subscription"
 msgstr "behandle løpende abonnement"
 
 #: r2/templates/profilebar.html:190
-msgid "tippror for"
+msgid "user for"
 msgstr "tippror i"
 
 #: r2/templates/promotedlink.html:41

@@ -4533,16 +4533,16 @@ msgstr "[șters]"
 
 #: r2/models/gold.py:551
 #, python-format
-msgid "a tippror gifted you a month of tippr gold for this comment."
-msgid_plural "tipprors have gifted you %(months)d months of tippr gold for this comment."
+msgid "a user gifted you a month of tippr gold for this comment."
+msgid_plural "users have gifted you %(months)d months of tippr gold for this comment."
 msgstr[0] "un tipprot v-a dăruit o lună de aur tippr pentru acest comentariu."
 msgstr[1] "tipprori v-au dăruit %(months)d luni de aur tippr pentru acest comentariu."
 msgstr[2] "tipprori v-au dăruit %(months)d de luni de aur tippr pentru acest comentariu."
 
 #: r2/models/gold.py:559
 #, python-format
-msgid "a tippror gifted you a month of tippr gold for this submission."
-msgid_plural "tipprors have gifted you %(months)d months of tippr gold for this submission."
+msgid "a user gifted you a month of tippr gold for this submission."
+msgid_plural "users have gifted you %(months)d months of tippr gold for this submission."
 msgstr[0] "un tippror ți-a oferit o lună de aur tippr pentru acest articol."
 msgstr[1] "tipprorii ți-au oferit %(months)d luni de aur tippr pentru acest articol."
 msgstr[2] "tipprorii ți-au oferit %(months)d de luni de aur tippr pentru acest articol."
@@ -4565,16 +4565,16 @@ msgstr[2] "tu și alți tipprori i-ați oferit %(months)d de luni de aur tippr l
 
 #: r2/models/gold.py:585
 #, python-format
-msgid "a tippror has gifted tippr gold to %(recipient)s for this comment."
-msgid_plural "tipprors have gifted %(months)d months of tippr gold to %(recipient)s for this comment."
+msgid "a user has gifted tippr gold to %(recipient)s for this comment."
+msgid_plural "users have gifted %(months)d months of tippr gold to %(recipient)s for this comment."
 msgstr[0] "un tippror a dăruit aur tippr lui %(recipient)s pentru acest comentariu."
 msgstr[1] "reddditorii le-au dăruit %(months)d luni de aur tippr %(recipient)s pentru acest comentariu."
 msgstr[2] "reddditorii le-au dăruit %(months)d de luni de aur tippr %(recipient)s pentru acest comentariu."
 
 #: r2/models/gold.py:593
 #, python-format
-msgid "a tippror has gifted tippr gold to %(recipient)s for this submission."
-msgid_plural "tipprors have gifted %(months)d months of tippr gold to %(recipient)s for this submission."
+msgid "a user has gifted tippr gold to %(recipient)s for this submission."
+msgid_plural "users have gifted %(months)d months of tippr gold to %(recipient)s for this submission."
 msgstr[0] "un tippror i-a oferit aur tippr lui %(recipient)s pentru această postare."
 msgstr[1] "tipprorii i-au oferit %(months)d luni de aur tippr lui %(recipient)s pentru această postare."
 msgstr[2] "tipprorii i-au oferit %(months)d de luni de aur tippr lui %(recipient)s pentru această postare."
@@ -9725,7 +9725,7 @@ msgid "manage recurring subscription"
 msgstr "administrează abonamentul recurent"
 
 #: r2/templates/profilebar.html:190
-msgid "tippror for"
+msgid "user for"
 msgstr "tippror pentru"
 
 #: r2/templates/promotedlink.html:41

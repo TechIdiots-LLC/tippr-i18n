@@ -4401,15 +4401,15 @@ msgstr "[deletum]"
 
 #: r2/models/gold.py:550
 #, python-format
-msgid "a tippror gifted you a month of tippr gold for this comment."
-msgid_plural "tipprors have gifted you %(months)d months of tippr gold for this comment."
+msgid "a user gifted you a month of tippr gold for this comment."
+msgid_plural "users have gifted you %(months)d months of tippr gold for this comment."
 msgstr[0] ""
 msgstr[1] ""
 
 #: r2/models/gold.py:558
 #, python-format
-msgid "a tippror gifted you a month of tippr gold for this submission."
-msgid_plural "tipprors have gifted you %(months)d months of tippr gold for this submission."
+msgid "a user gifted you a month of tippr gold for this submission."
+msgid_plural "users have gifted you %(months)d months of tippr gold for this submission."
 msgstr[0] ""
 msgstr[1] ""
 
@@ -4429,15 +4429,15 @@ msgstr[1] ""
 
 #: r2/models/gold.py:584
 #, python-format
-msgid "a tippror has gifted tippr gold to %(recipient)s for this comment."
-msgid_plural "tipprors have gifted %(months)d months of tippr gold to %(recipient)s for this comment."
+msgid "a user has gifted tippr gold to %(recipient)s for this comment."
+msgid_plural "users have gifted %(months)d months of tippr gold to %(recipient)s for this comment."
 msgstr[0] "tippror tipprum aurum ad %(recipient)s propter hoc commentum donavit."
 msgstr[1] "tipprores %(months)d menses tippri auri ad %(recipient)s propter hoc commentum donaverunt."
 
 #: r2/models/gold.py:592
 #, python-format
-msgid "a tippror has gifted tippr gold to %(recipient)s for this submission."
-msgid_plural "tipprors have gifted %(months)d months of tippr gold to %(recipient)s for this submission."
+msgid "a user has gifted tippr gold to %(recipient)s for this submission."
+msgid_plural "users have gifted %(months)d months of tippr gold to %(recipient)s for this submission."
 msgstr[0] ""
 msgstr[1] ""
 
@@ -9330,7 +9330,7 @@ msgid "manage recurring subscription"
 msgstr ""
 
 #: r2/templates/profilebar.html:181
-msgid "tippror for"
+msgid "user for"
 msgstr "tippror fuit abhinc"
 
 #: r2/templates/promotedlink.html:41

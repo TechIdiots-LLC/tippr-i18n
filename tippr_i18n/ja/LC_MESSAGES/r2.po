@@ -4481,14 +4481,14 @@ msgstr "[削除されました]"
 
 #: r2/models/gold.py:551
 #, python-format
-msgid "a tippror gifted you a month of tippr gold for this comment."
-msgid_plural "tipprors have gifted you %(months)d months of tippr gold for this comment."
+msgid "a user gifted you a month of tippr gold for this comment."
+msgid_plural "users have gifted you %(months)d months of tippr gold for this comment."
 msgstr[0] "tipprorたちがこのコメントを見てあなたにtippr gold%(months)dヶ月分を贈りました。"
 
 #: r2/models/gold.py:559
 #, python-format
-msgid "a tippror gifted you a month of tippr gold for this submission."
-msgid_plural "tipprors have gifted you %(months)d months of tippr gold for this submission."
+msgid "a user gifted you a month of tippr gold for this submission."
+msgid_plural "users have gifted you %(months)d months of tippr gold for this submission."
 msgstr[0] "この投稿について、レディターから1か月分の tippr  ゴールドが贈られました。"
 
 #: r2/models/gold.py:568
@@ -4506,14 +4506,14 @@ msgstr[0] "この投稿の %(recipient)s に対して、あなたから tippr �
 
 #: r2/models/gold.py:585
 #, python-format
-msgid "a tippror has gifted tippr gold to %(recipient)s for this comment."
-msgid_plural "tipprors have gifted %(months)d months of tippr gold to %(recipient)s for this comment."
+msgid "a user has gifted tippr gold to %(recipient)s for this comment."
+msgid_plural "users have gifted %(months)d months of tippr gold to %(recipient)s for this comment."
 msgstr[0] "tipprorたちがこのコメントを見て、%(recipient)sにtippr gold %(months)dヶ月分を贈りました。"
 
 #: r2/models/gold.py:593
 #, python-format
-msgid "a tippror has gifted tippr gold to %(recipient)s for this submission."
-msgid_plural "tipprors have gifted %(months)d months of tippr gold to %(recipient)s for this submission."
+msgid "a user has gifted tippr gold to %(recipient)s for this submission."
+msgid_plural "users have gifted %(months)d months of tippr gold to %(recipient)s for this submission."
 msgstr[0] "この投稿の %(recipient)s に対して、レディターが tippr ゴールドを贈りました。\n"
 "この投稿の %(recipient)s に対して、レディターたちが %(months)d か月分の tippr ゴールドを贈りました。"
 
@@ -9549,7 +9549,7 @@ msgid "manage recurring subscription"
 msgstr "定期課金を管理する"
 
 #: r2/templates/profilebar.html:190
-msgid "tippror for"
+msgid "user for"
 msgstr "tippr利用歴"
 
 #: r2/templates/promotedlink.html:41

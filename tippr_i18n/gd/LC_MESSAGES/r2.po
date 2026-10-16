@@ -4560,8 +4560,8 @@ msgstr "[air sguabadh às]"
 
 #: r2/models/gold.py:551
 #, python-format
-msgid "a tippror gifted you a month of tippr gold for this comment."
-msgid_plural "tipprors have gifted you %(months)d months of tippr gold for this comment."
+msgid "a user gifted you a month of tippr gold for this comment."
+msgid_plural "users have gifted you %(months)d months of tippr gold for this comment."
 msgstr[0] "thug tipprair %(months)d mhìos a tippr òir dhut airson a' bheachd seo."
 msgstr[1] "thug tipprair %(months)d mhìos a tippr òir dhut airson a' bheachd seo."
 msgstr[2] "thug tipprair %(months)d mìosan a tippr òir dhut airson a' bheachd seo."
@@ -4569,8 +4569,8 @@ msgstr[3] "thug tipprair %(months)d mìos a tippr òir dhut airson a' bheachd se
 
 #: r2/models/gold.py:559
 #, python-format
-msgid "a tippror gifted you a month of tippr gold for this submission."
-msgid_plural "tipprors have gifted you %(months)d months of tippr gold for this submission."
+msgid "a user gifted you a month of tippr gold for this submission."
+msgid_plural "users have gifted you %(months)d months of tippr gold for this submission."
 msgstr[0] "thug tipprair %(months)d mhìos a tippr òir dhut airson na chuir thu."
 msgstr[1] "thug tipprairean %(months)d mhìos a tippr òir dhut airson na chuir thu."
 msgstr[2] "thug tipprairean %(months)d mhìos a tippr òir dhut airson na chuir thu."
@@ -4596,8 +4596,8 @@ msgstr[3] "thug thusa agus readditairean eile %(months)d mhìos a tippr òir dha
 
 #: r2/models/gold.py:585
 #, python-format
-msgid "a tippror has gifted tippr gold to %(recipient)s for this comment."
-msgid_plural "tipprors have gifted %(months)d months of tippr gold to %(recipient)s for this comment."
+msgid "a user has gifted tippr gold to %(recipient)s for this comment."
+msgid_plural "users have gifted %(months)d months of tippr gold to %(recipient)s for this comment."
 msgstr[0] "thug tipprair %(months)d mhìos a tippr òir dha %(recipient)s airson a' bheachd seo."
 msgstr[1] "thug tipprair %(months)d mhìos a tippr òir dha %(recipient)s airson a' bheachd seo."
 msgstr[2] "thug tipprair %(months)d mìosan a tippr òir dha %(recipient)s airson a' bheachd seo."
@@ -4605,8 +4605,8 @@ msgstr[3] "thug tipprair %(months)d mìos a tippr òir dha %(recipient)s airson 
 
 #: r2/models/gold.py:593
 #, python-format
-msgid "a tippror has gifted tippr gold to %(recipient)s for this submission."
-msgid_plural "tipprors have gifted %(months)d months of tippr gold to %(recipient)s for this submission."
+msgid "a user has gifted tippr gold to %(recipient)s for this submission."
+msgid_plural "users have gifted %(months)d months of tippr gold to %(recipient)s for this submission."
 msgstr[0] "thug tipprair tippr òir dha %(recipient)s airson na chuir iad an-seo."
 msgstr[1] "thug tipprairean %(months)d mhìos a tippr òir dha %(recipient)s airson na chuir iad an-seo."
 msgstr[2] "thug tipprairean %(months)d mhìos a tippr òir dha %(recipient)s airson na chuir iad an-seo."
@@ -9767,7 +9767,7 @@ msgid "manage recurring subscription"
 msgstr "stiùirich fo-sgrìobhadh ath-chùrsach"
 
 #: r2/templates/profilebar.html:190
-msgid "tippror for"
+msgid "user for"
 msgstr "'na tipprair fad"
 
 #: r2/templates/promotedlink.html:41

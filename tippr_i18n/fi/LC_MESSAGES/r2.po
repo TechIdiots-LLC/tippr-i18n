@@ -4485,15 +4485,15 @@ msgstr "[poistettu]"
 
 #: r2/models/gold.py:551
 #, python-format
-msgid "a tippror gifted you a month of tippr gold for this comment."
-msgid_plural "tipprors have gifted you %(months)d months of tippr gold for this comment."
+msgid "a user gifted you a month of tippr gold for this comment."
+msgid_plural "users have gifted you %(months)d months of tippr gold for this comment."
 msgstr[0] "tipprori lahjoitti sinulle kuukauden tipprkultaa tästä kommentista"
 msgstr[1] "tipproria on lahjoittanut sinulle %(months)d kuukautta tipprkultaa tästä kommentista"
 
 #: r2/models/gold.py:559
 #, python-format
-msgid "a tippror gifted you a month of tippr gold for this submission."
-msgid_plural "tipprors have gifted you %(months)d months of tippr gold for this submission."
+msgid "a user gifted you a month of tippr gold for this submission."
+msgid_plural "users have gifted you %(months)d months of tippr gold for this submission."
 msgstr[0] ""
 msgstr[1] ""
 
@@ -4513,15 +4513,15 @@ msgstr[1] ""
 
 #: r2/models/gold.py:585
 #, python-format
-msgid "a tippror has gifted tippr gold to %(recipient)s for this comment."
-msgid_plural "tipprors have gifted %(months)d months of tippr gold to %(recipient)s for this comment."
+msgid "a user has gifted tippr gold to %(recipient)s for this comment."
+msgid_plural "users have gifted %(months)d months of tippr gold to %(recipient)s for this comment."
 msgstr[0] "tipprori on lahjoittanut tipprkultaa %(recipient)s :lle tästä kommentista"
 msgstr[1] "tipprorit ovat lahjoittaneet %(months)d kuukautta tipprkultaa %(recipient)s :lle tästä kommentista"
 
 #: r2/models/gold.py:593
 #, python-format
-msgid "a tippror has gifted tippr gold to %(recipient)s for this submission."
-msgid_plural "tipprors have gifted %(months)d months of tippr gold to %(recipient)s for this submission."
+msgid "a user has gifted tippr gold to %(recipient)s for this submission."
+msgid_plural "users have gifted %(months)d months of tippr gold to %(recipient)s for this submission."
 msgstr[0] ""
 msgstr[1] ""
 
@@ -9562,7 +9562,7 @@ msgid "manage recurring subscription"
 msgstr "hallitse jatkuvaa tilaamista"
 
 #: r2/templates/profilebar.html:190
-msgid "tippror for"
+msgid "user for"
 msgstr "rekisteröityi tipproriksi"
 
 #: r2/templates/promotedlink.html:41

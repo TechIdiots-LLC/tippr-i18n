@@ -4499,15 +4499,15 @@ msgstr "[διαγραμμένο]"
 
 #: r2/models/gold.py:551
 #, python-format
-msgid "a tippror gifted you a month of tippr gold for this comment."
-msgid_plural "tipprors have gifted you %(months)d months of tippr gold for this comment."
+msgid "a user gifted you a month of tippr gold for this comment."
+msgid_plural "users have gifted you %(months)d months of tippr gold for this comment."
 msgstr[0] "ένας μέλος του tippr σου δώρισε ένα μήνα χρυσού γι' αυτό το σχόλιο."
 msgstr[1] "μέλη του tippr σου έκαναν δώρο %(months)d μήνες χρυσού γι'αυτό το σχόλιο."
 
 #: r2/models/gold.py:559
 #, python-format
-msgid "a tippror gifted you a month of tippr gold for this submission."
-msgid_plural "tipprors have gifted you %(months)d months of tippr gold for this submission."
+msgid "a user gifted you a month of tippr gold for this submission."
+msgid_plural "users have gifted you %(months)d months of tippr gold for this submission."
 msgstr[0] "ένας tippror σου έκανε δώρο ένα μήνα από χρυσό tippr για αυτή την ανάρτηση."
 msgstr[1] "κάποιοι tippror σου έκαναν δώρο %(months)d μήνες από χρυσό tippr για αυτή την ανάρτηση."
 
@@ -4527,15 +4527,15 @@ msgstr[1] "εσύ και άλλα μέλη του tippr έχετε δωρήσε�
 
 #: r2/models/gold.py:585
 #, python-format
-msgid "a tippror has gifted tippr gold to %(recipient)s for this comment."
-msgid_plural "tipprors have gifted %(months)d months of tippr gold to %(recipient)s for this comment."
+msgid "a user has gifted tippr gold to %(recipient)s for this comment."
+msgid_plural "users have gifted %(months)d months of tippr gold to %(recipient)s for this comment."
 msgstr[0] "ένα μέλος του tippr έκανε δώρο χρυσό tippr στο μέλος %(recipient)s για αυτό το σχόλιο."
 msgstr[1] "μέλη του tippr έκαναν δώρο %(months)d χρυσού tippr στο μέλος %(recipient)s για αυτό το σχόλιο."
 
 #: r2/models/gold.py:593
 #, python-format
-msgid "a tippror has gifted tippr gold to %(recipient)s for this submission."
-msgid_plural "tipprors have gifted %(months)d months of tippr gold to %(recipient)s for this submission."
+msgid "a user has gifted tippr gold to %(recipient)s for this submission."
+msgid_plural "users have gifted %(months)d months of tippr gold to %(recipient)s for this submission."
 msgstr[0] "ένας tippror δώρισε χρυσό tippr στον/στην %(recipient)s για αυτή την ανάρτηση."
 msgstr[1] "tippror έκαναν δώρο %(months)d χρυσού tippr στον/στην %(recipient)s για αυτή την ανάρτηση."
 
@@ -9579,7 +9579,7 @@ msgid "manage recurring subscription"
 msgstr ""
 
 #: r2/templates/profilebar.html:190
-msgid "tippror for"
+msgid "user for"
 msgstr "μέλος του tippr για"
 
 #: r2/templates/promotedlink.html:41

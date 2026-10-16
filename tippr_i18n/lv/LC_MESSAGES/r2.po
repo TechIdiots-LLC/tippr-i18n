@@ -4016,16 +4016,16 @@ msgstr "[dzēsts]"
 
 #: r2/models/gold.py:544
 #, python-format
-msgid "a tippror gifted you a month of tippr gold for this comment."
-msgid_plural "tipprors have gifted you %(months)d months of tippr gold for this comment."
+msgid "a user gifted you a month of tippr gold for this comment."
+msgid_plural "users have gifted you %(months)d months of tippr gold for this comment."
 msgstr[0] "tipprors have gifted you %(months)d months of tippr gold for this comment."
 msgstr[1] "a tippror gifted you a month of tippr gold for this comment."
 msgstr[2] "tipprors have gifted you %(months)d months of tippr gold for this comment."
 
 #: r2/models/gold.py:552
 #, python-format
-msgid "a tippror gifted you a month of tippr gold for this submission."
-msgid_plural "tipprors have gifted you %(months)d months of tippr gold for this submission."
+msgid "a user gifted you a month of tippr gold for this submission."
+msgid_plural "users have gifted you %(months)d months of tippr gold for this submission."
 msgstr[0] "reditors tev uzdāvināja %(months)d mēnešus zelta biedra statusa par šo iesūtījumu."
 msgstr[1] "reditors tev uzdāvināja mēnesi zelta biedra statusa par šo iesūtījumu."
 msgstr[2] "reditors tev uzdāvināja %(months)d mēnešus zelta biedra statusa par šo iesūtījumu."
@@ -4048,16 +4048,16 @@ msgstr[2] "tu uzdāvināji %(months)d mēnešus redita zelta %(recipient)s par �
 
 #: r2/models/gold.py:578
 #, python-format
-msgid "a tippror has gifted tippr gold to %(recipient)s for this comment."
-msgid_plural "tipprors have gifted %(months)d months of tippr gold to %(recipient)s for this comment."
+msgid "a user has gifted tippr gold to %(recipient)s for this comment."
+msgid_plural "users have gifted %(months)d months of tippr gold to %(recipient)s for this comment."
 msgstr[0] "tipprors have gifted %(months)d months of tippr gold to %(recipient)s for this comment."
 msgstr[1] "a tippror has gifted tippr gold to %(recipient)s for this comment."
 msgstr[2] "tipprors have gifted %(months)d months of tippr gold to %(recipient)s for this comment."
 
 #: r2/models/gold.py:586
 #, python-format
-msgid "a tippror has gifted tippr gold to %(recipient)s for this submission."
-msgid_plural "tipprors have gifted %(months)d months of tippr gold to %(recipient)s for this submission."
+msgid "a user has gifted tippr gold to %(recipient)s for this submission."
+msgid_plural "users have gifted %(months)d months of tippr gold to %(recipient)s for this submission."
 msgstr[0] "reditors uzdāvināja %(months)d mēnešus redita zelta %(recipient)s par šo iesūtījumu."
 msgstr[1] "reditors uzdāvināja mēnesi redita zelta %(recipient)s par šo iesūtījumu."
 msgstr[2] "reditors uzdāvināja %(months)d mēnešus redita zelta %(recipient)s par šo iesūtījumu."
@@ -8353,7 +8353,7 @@ msgid "send message"
 msgstr "nosūtīt ziņu"
 
 #: r2/templates/profilebar.html:175
-msgid "tippror for"
+msgid "user for"
 msgstr "reditors"
 
 #: r2/templates/promotedlink.html:39

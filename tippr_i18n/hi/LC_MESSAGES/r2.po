@@ -4483,15 +4483,15 @@ msgstr "[मिटाया हुआ]"
 
 #: r2/models/gold.py:551
 #, python-format
-msgid "a tippror gifted you a month of tippr gold for this comment."
-msgid_plural "tipprors have gifted you %(months)d months of tippr gold for this comment."
+msgid "a user gifted you a month of tippr gold for this comment."
+msgid_plural "users have gifted you %(months)d months of tippr gold for this comment."
 msgstr[0] "इस टिप्पणी के लिए एक प्रयोक्ता ने आपको एक माह का गोल्ड उपहार स्वरूप दिया है ।"
 msgstr[1] "इस टिप्पणी के लिए रेडिटवासियों ने आपको %(months)d महीनों का गोल्ड उपहार स्वरूप दिया है ।"
 
 #: r2/models/gold.py:559
 #, python-format
-msgid "a tippror gifted you a month of tippr gold for this submission."
-msgid_plural "tipprors have gifted you %(months)d months of tippr gold for this submission."
+msgid "a user gifted you a month of tippr gold for this submission."
+msgid_plural "users have gifted you %(months)d months of tippr gold for this submission."
 msgstr[0] ""
 msgstr[1] ""
 
@@ -4511,15 +4511,15 @@ msgstr[1] ""
 
 #: r2/models/gold.py:585
 #, python-format
-msgid "a tippror has gifted tippr gold to %(recipient)s for this comment."
-msgid_plural "tipprors have gifted %(months)d months of tippr gold to %(recipient)s for this comment."
+msgid "a user has gifted tippr gold to %(recipient)s for this comment."
+msgid_plural "users have gifted %(months)d months of tippr gold to %(recipient)s for this comment."
 msgstr[0] "किसी प्रयोक्ता ने इस टिप्पणी के लिए %(recipient)s को रेडिट गोल्ड उपहार स्वरूप दिया है ।"
 msgstr[1] "रेडिटवासियों ने इस टिप्पणी के लिए %(recipient)s को %(months)d महीनों का रेडिट गोल्ड उपहार स्वरूप दिया है ।"
 
 #: r2/models/gold.py:593
 #, python-format
-msgid "a tippror has gifted tippr gold to %(recipient)s for this submission."
-msgid_plural "tipprors have gifted %(months)d months of tippr gold to %(recipient)s for this submission."
+msgid "a user has gifted tippr gold to %(recipient)s for this submission."
+msgid_plural "users have gifted %(months)d months of tippr gold to %(recipient)s for this submission."
 msgstr[0] ""
 msgstr[1] ""
 
@@ -9560,7 +9560,7 @@ msgid "manage recurring subscription"
 msgstr ""
 
 #: r2/templates/profilebar.html:190
-msgid "tippror for"
+msgid "user for"
 msgstr "से रेडिटवासी"
 
 #: r2/templates/promotedlink.html:41
