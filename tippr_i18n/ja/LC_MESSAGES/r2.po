@@ -4486,7 +4486,7 @@ msgid_plural "users have gifted you %(months)d months of tippr gold for this com
 msgstr[0] "tipprorたちがこのコメントを見てあなたにtippr gold%(months)dヶ月分を贈りました。"
 
 #: r2/models/gold.py:559
-#, python-format
+#, fuzzy, python-format
 msgid "a user gifted you a month of tippr gold for this submission."
 msgid_plural "users have gifted you %(months)d months of tippr gold for this submission."
 msgstr[0] "この投稿について、レディターから1か月分の tippr  ゴールドが贈られました。"
@@ -4543,7 +4543,7 @@ msgid "submitted %(when)s %(lastedited)s by %(author)s"
 msgstr "%(author)s が %(when)s  %(lastedited)s 投稿"
 
 #: r2/models/link.py:1093
-#, python-format
+#, fuzzy, python-format
 msgid "%(score)s submitted %(when)s"
 msgstr "%(score)s  %(when)s  %(lastedited)s 投稿"
 
