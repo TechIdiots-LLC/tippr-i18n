@@ -2348,8 +2348,8 @@ msgstr "Eu entendo e concordo que o registro neste site ou o uso do mesmo consti
 #, python-format
 msgid ""
 "to view tippr with only submissions from your friends, use "
-"[tippr.com/r/friends](%s)"
-msgstr "para ver o tippr apenas com os envios de seus amigos, use [tippr.com/r/friends](%s)"
+"[tippr.net/v/friends](%s)"
+msgstr "para ver o tippr apenas com os envios de seus amigos, use [tippr.net/v/friends](%s)"
 
 #: r2/lib/strings.py:84
 msgid "your vault has been created"
@@ -2791,13 +2791,13 @@ msgstr ""
 
 #: r2/lib/strings.py:184
 msgid ""
-"Displaying content from /r/all of tippr, except the following vaults:"
+"Displaying content from /v/all of tippr, except the following vaults:"
 msgstr ""
 
 #: r2/lib/strings.py:185
 msgid ""
-"Filtering /r/all is a feature only available to [tippr gold](/gold/about) "
-"subscribers. Displaying unfiltered results from /r/all."
+"Filtering /v/all is a feature only available to [tippr gold](/gold/about) "
+"subscribers. Displaying unfiltered results from /v/all."
 msgstr ""
 
 #: r2/lib/strings.py:263 r2/templates/comment.htmllite:58
@@ -3573,12 +3573,12 @@ msgstr ""
 
 #: r2/lib/pages/wiki.py:192
 #, python-format
-msgid "Viewing recent revisions for /r/%s"
+msgid "Viewing recent revisions for /v/%s"
 msgstr ""
 
 #: r2/lib/pages/wiki.py:198
 #, python-format
-msgid "Viewing pages for /r/%s"
+msgid "Viewing pages for /v/%s"
 msgstr ""
 
 #: r2/lib/pages/wiki.py:199
@@ -3756,8 +3756,8 @@ msgstr ""
 
 #: r2/models/builder.py:122
 #, python-format
-msgid "moderator of /r/%(tippr)s, speaking officially"
-msgstr "moderador de /r/%(tippr)s, falando oficialmente"
+msgid "moderator of /v/%(tippr)s, speaking officially"
+msgstr "moderador de /v/%(tippr)s, falando oficialmente"
 
 #: r2/models/builder.py:184
 #, python-format
@@ -3931,7 +3931,7 @@ msgstr ""
 
 #: r2/models/listing.py:178
 #, python-format
-msgid "users banned from /r/%(vault)s"
+msgid "users banned from /v/%(vault)s"
 msgstr ""
 
 #: r2/models/listing.py:186
@@ -3940,12 +3940,12 @@ msgstr ""
 
 #: r2/models/listing.py:190
 #, python-format
-msgid "wiki contibutors banned from /r/%(vault)s"
+msgid "wiki contibutors banned from /v/%(vault)s"
 msgstr ""
 
 #: r2/models/listing.py:198
 #, python-format
-msgid "approved submitters for /r/%(vault)s"
+msgid "approved submitters for /v/%(vault)s"
 msgstr ""
 
 #: r2/models/listing.py:203
@@ -3954,7 +3954,7 @@ msgstr ""
 
 #: r2/models/listing.py:210
 #, python-format
-msgid "approved wiki contributors for /r/%(vault)s"
+msgid "approved wiki contributors for /v/%(vault)s"
 msgstr ""
 
 #: r2/models/listing.py:215
@@ -3981,7 +3981,7 @@ msgstr ""
 
 #: r2/models/listing.py:259
 #, python-format
-msgid "moderators of /r/%(vault)s"
+msgid "moderators of /v/%(vault)s"
 msgstr ""
 
 #: r2/models/mail_queue.py:310
@@ -4503,7 +4503,7 @@ msgstr ""
 
 #: r2/models/vault.py:1607
 #, python-format
-msgid "%(domain)s on %(tippr.com)s"
+msgid "%(domain)s on %(tippr.net)s"
 msgstr ""
 
 #: r2/models/token.py:106
@@ -5358,7 +5358,7 @@ msgstr "ocultar ajuda"
 #: r2/templates/createvault.html:386
 msgid ""
 "Own a domain?  Enter it here and then go to your DNS provider and add a "
-"CNAME record aliasing your domain to rhs.tippr.com. You will be able to "
+"CNAME record aliasing your domain to rhs.tippr.net. You will be able to "
 "access your tippr through your domain."
 msgstr ""
 
@@ -5385,7 +5385,7 @@ msgstr "salvar opções"
 
 #: r2/templates/errorpage.html:41
 #, python-format
-msgid "a message from the moderators of /r/%s"
+msgid "a message from the moderators of /v/%s"
 msgstr ""
 
 #: r2/templates/exploreitem.html:42
@@ -7774,7 +7774,7 @@ msgstr ""
 #: r2/templates/spotlightlisting.html:71
 #, python-format
 msgid ""
-"Use of this tool is open to all members of tippr.com, and for as little as "
+"Use of this tool is open to all members of tippr.net, and for as little as "
 "%(price)s you can advertise in this area. %%(get_started)s"
 msgstr ""
 

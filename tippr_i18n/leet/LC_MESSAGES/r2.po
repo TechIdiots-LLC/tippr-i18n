@@ -1408,11 +1408,11 @@ msgstr ""
 #: r2/lib/strings.py:80
 #, python-format
 msgid ""
-"to view tippr with only submissions from your friends, use [tippr.com/r/"
+"to view tippr with only submissions from your friends, use [tippr.net/v/"
 "friends](%s)"
 msgstr ""
 "70 v13w r3|)|)!7 w17h 0n1y $u8m15$10n5 phr0m y0ur phr!3n|)5, u$3 [r3)|)!7."
-"(0m/r/phr!3n|)5](%s)"
+"(0m/v/phr!3n|)5](%s)"
 
 #: r2/lib/strings.py:82
 msgid "your tippr has been created"
@@ -2156,8 +2156,8 @@ msgstr ""
 
 #: r2/models/builder.py:103
 #, python-format
-msgid "moderator of /r/%(tippr)s, speaking officially"
-msgstr "m0)3r470r 0ph /r/%(tippr)s, 5p3@X!n6 0phph1(1411y"
+msgid "moderator of /v/%(tippr)s, speaking officially"
+msgstr "m0)3r470r 0ph /v/%(tippr)s, 5p3@X!n6 0phph1(1411y"
 
 #: r2/models/builder.py:169
 msgid "label_template"
@@ -2870,7 +2870,7 @@ msgstr "h!)3 h31p"
 #: r2/templates/createvault.html:200
 msgid ""
 "Own a domain?  Enter it here and then go to your DNS provider and add a "
-"CNAME record aliasing your domain to rhs.tippr.com. You will be able to "
+"CNAME record aliasing your domain to rhs.tippr.net. You will be able to "
 "access your tippr through your domain."
 msgstr ""
 "0wn 4 )0m41n?  3n73r 17 h3r3 @n|) 7h3n 60 70 y0ur )n5 pr0v1)3r 4n|) @|)|) @ "

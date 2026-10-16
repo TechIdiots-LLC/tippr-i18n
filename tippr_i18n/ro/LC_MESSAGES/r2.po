@@ -906,10 +906,10 @@ msgstr "Codul tău cadou pentru aur a fost generat!"
 #, python-format
 msgid "Here is your gift code for %(amount)s of tippr gold:\n\n"
 "%(code)s\n\n"
-"The recipient (or you!) can enter it at https://www.tippr.com/gold or go directly to https://www.tippr.com/thanks/%(code)s to claim it."
+"The recipient (or you!) can enter it at https://www.tippr.net/gold or go directly to https://www.tippr.net/thanks/%(code)s to claim it."
 msgstr "Aici este codul tău cadou pentru %(amount)s aur tippr:\n\n"
 "%(code)s\n\n"
-"Destinatarul (sau tu!) îl poate introduce pe https://www.tippr.com/gold sau direct pe https://tippr.com/thanks/%(code)s pentru a-l revendica."
+"Destinatarul (sau tu!) îl poate introduce pe https://www.tippr.net/gold sau direct pe https://tippr.net/thanks/%(code)s pentru a-l revendica."
 
 #: r2/controllers/ipn.py:373
 msgid "nice try."
@@ -3199,8 +3199,8 @@ msgstr "Înţeleg şi sunt de acord că înregistrarea pe acest sait şi utiliza
 
 #: r2/lib/strings.py:84
 #, python-format
-msgid "to view tippr with only submissions from your friends, use [tippr.com/r/friends](%s)"
-msgstr "dacă vrei să vezi doar tipprurile prietenilor, du-te la [tippr.com/r/friends]( %s )"
+msgid "to view tippr with only submissions from your friends, use [tippr.net/v/friends](%s)"
+msgstr "dacă vrei să vezi doar tipprurile prietenilor, du-te la [tippr.net/v/friends]( %s )"
 
 #: r2/lib/strings.py:86
 msgid "your vault has been created"
@@ -3488,8 +3488,8 @@ msgid "multivault of vaults you moderate"
 msgstr "multivault al vaultelor pe care le moderezi"
 
 #: r2/lib/strings.py:187
-msgid "/r/all displays content from all of tippr, including vaults you aren't subscribed to. Some vaults have chosen to exclude themselves from /r/all."
-msgstr "În /r/all poţi găsi conţinut din întreg tippr-ul, chair şi vault-uri la care nu eşti abonat. Unele vault-uri au ales să nu apară in /r/all."
+msgid "/v/all displays content from all of tippr, including vaults you aren't subscribed to. Some vaults have chosen to exclude themselves from /v/all."
+msgstr "În /v/all poţi găsi conţinut din întreg tippr-ul, chair şi vault-uri la care nu eşti abonat. Unele vault-uri au ales să nu apară in /v/all."
 
 #: r2/lib/strings.py:188
 #, python-format
@@ -3497,7 +3497,7 @@ msgid "Displaying content from %(vault)s, except the following vaults:"
 msgstr ""
 
 #: r2/lib/strings.py:189
-msgid "Filtering /r/all is a feature only available to [tippr gold](/gold/about) subscribers. Displaying unfiltered results from /r/all."
+msgid "Filtering /v/all is a feature only available to [tippr gold](/gold/about) subscribers. Displaying unfiltered results from /v/all."
 msgstr "Filtrarea r/all este o funcționalitate disponibilă doar abonaților [tippr gold](/gold/about). Se afișează rezultatele nefiltrate din r/all."
 
 #: r2/lib/strings.py:190
@@ -4053,7 +4053,7 @@ msgstr "sugestii:"
 
 #: r2/lib/pages/pages.py:5412
 #, python-format
-msgid "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/r/selfserve](%(selfserve)s)."
+msgid "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/v/selfserve](%(selfserve)s)."
 msgstr ""
 
 #: r2/lib/pages/pages.py:6146
@@ -5583,8 +5583,8 @@ msgstr "%s vaulte create de /u/%s"
 
 #: r2/models/vault.py:3336
 #, python-format
-msgid "%(domain)s on %(tippr.com)s"
-msgstr "%(domain)s pe %(tippr.com)s"
+msgid "%(domain)s on %(tippr.net)s"
+msgstr "%(domain)s pe %(tippr.net)s"
 
 #: r2/models/token.py:120
 msgid "Any Scope"
@@ -6894,7 +6894,7 @@ msgstr "În 5 miliarde de ani, soarele va creşte în dimensiuni şi va înghite
 msgid "\n"
 "# your account is too new to create a vault\n"
 "    \n"
-"try participating in other communities on tippr for a little while first before creating your own. please post to /r/help if you need more information about this restriction, or if you require a specific exemption you can [contact the admins](/contact) to request one.\n"
+"try participating in other communities on tippr for a little while first before creating your own. please post to /v/help if you need more information about this restriction, or if you require a specific exemption you can [contact the admins](/contact) to request one.\n"
 msgstr ""
 
 #: r2/templates/createvault.html:57
@@ -7147,8 +7147,8 @@ msgid "hide help"
 msgstr "ascunde ajutor"
 
 #: r2/templates/createvault.html:479
-msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.tippr.com. You will be able to access your tippr through your domain."
-msgstr "Ai un domeniu? Adaugă-l aici și apoi mergi la furnizorul DNS și crează o înregistrare de tip CNAME setînd domeniul tău ca pseudonim pentru rhs.tippr.com. Vei putea accesa reddditul tău după numele domeniului."
+msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.tippr.net. You will be able to access your tippr through your domain."
+msgstr "Ai un domeniu? Adaugă-l aici și apoi mergi la furnizorul DNS și crează o înregistrare de tip CNAME setînd domeniul tău ca pseudonim pentru rhs.tippr.net. Vei putea accesa reddditul tău după numele domeniului."
 
 #: r2/templates/createvault.html:486
 msgid "look and feel"
@@ -8141,7 +8141,7 @@ msgid "to"
 msgstr "la"
 
 #: r2/templates/messagecompose.html:64
-msgid "(username, or /r/name for that vault's moderators)"
+msgid "(username, or /v/name for that vault's moderators)"
 msgstr ""
 
 #: r2/templates/messagecompose.html:82
@@ -8200,8 +8200,8 @@ msgid "you are invited to become a moderator. %(action)s"
 msgstr "sunteți invitat să deveniți moderator. %(action)s"
 
 #: r2/templates/modsrinfobar.html:31
-msgid "/r/mod shows only vaults you moderate."
-msgstr "/r/mod arată doar vaultele pe care le moderezi."
+msgid "/v/mod shows only vaults you moderate."
+msgstr "/v/mod arată doar vaultele pe care le moderezi."
 
 #: r2/templates/modsrinfobar.html:34
 msgid "filter out vaults"

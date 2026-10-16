@@ -905,10 +905,10 @@ msgstr "Ο κωδικός σου για χρυσό δώρο έχει δημιο�
 #, python-format
 msgid "Here is your gift code for %(amount)s of tippr gold:\n\n"
 "%(code)s\n\n"
-"The recipient (or you!) can enter it at https://www.tippr.com/gold or go directly to https://www.tippr.com/thanks/%(code)s to claim it."
+"The recipient (or you!) can enter it at https://www.tippr.net/gold or go directly to https://www.tippr.net/thanks/%(code)s to claim it."
 msgstr "Ορίστε ο κωδικός δώρου σας για %(amount)s χρυσό tippr:\n\n"
 "%(code)s\n\n"
-"Ο παραλήπτης (ή εσείς!) μπορεί να τον εισάγει στην διεύθυνση https://www.tippr.com/gold η να μεταφερθεί στο https://www.tippr.com/thanks/%(code)s για να γίνει η εξαργύρωση."
+"Ο παραλήπτης (ή εσείς!) μπορεί να τον εισάγει στην διεύθυνση https://www.tippr.net/gold η να μεταφερθεί στο https://www.tippr.net/thanks/%(code)s για να γίνει η εξαργύρωση."
 
 #: r2/controllers/ipn.py:373
 msgid "nice try."
@@ -3190,8 +3190,8 @@ msgstr "Κατανοώ και συμφωνώ ότι η εγγραφή ή η χρ
 
 #: r2/lib/strings.py:84
 #, python-format
-msgid "to view tippr with only submissions from your friends, use [tippr.com/r/friends](%s)"
-msgstr "Για να δείτε το tippr μόνο με άρθρα που έχουν υποβληθεί από φίλους σου, χρησιμοποιήστε το [tippr.com/r/friends](%s)"
+msgid "to view tippr with only submissions from your friends, use [tippr.net/v/friends](%s)"
+msgstr "Για να δείτε το tippr μόνο με άρθρα που έχουν υποβληθεί από φίλους σου, χρησιμοποιήστε το [tippr.net/v/friends](%s)"
 
 #: r2/lib/strings.py:86
 msgid "your vault has been created"
@@ -3479,8 +3479,8 @@ msgid "multivault of vaults you moderate"
 msgstr "πολυtippr από τα υποtippr που συντονίζεις"
 
 #: r2/lib/strings.py:187
-msgid "/r/all displays content from all of tippr, including vaults you aren't subscribed to. Some vaults have chosen to exclude themselves from /r/all."
-msgstr "/r/all παρουσιάζει περιεχόμενο από όλο το tippr, ακόμα και από τα υπόtippr στα οποία δεν έχετε γραφτεί. Ορισμένα υπotippr έχουν επιλέξει να εξαιρεθούν από το /r/all."
+msgid "/v/all displays content from all of tippr, including vaults you aren't subscribed to. Some vaults have chosen to exclude themselves from /v/all."
+msgstr "/v/all παρουσιάζει περιεχόμενο από όλο το tippr, ακόμα και από τα υπόtippr στα οποία δεν έχετε γραφτεί. Ορισμένα υπotippr έχουν επιλέξει να εξαιρεθούν από το /v/all."
 
 #: r2/lib/strings.py:188
 #, python-format
@@ -3488,8 +3488,8 @@ msgid "Displaying content from %(vault)s, except the following vaults:"
 msgstr ""
 
 #: r2/lib/strings.py:189
-msgid "Filtering /r/all is a feature only available to [tippr gold](/gold/about) subscribers. Displaying unfiltered results from /r/all."
-msgstr "Το φιλτράρισμα του /r/all είναι ένα χαρακτηριστικό διαθέσιμο για τους συνδρομητές [χρυσού tippr](/gold/about) . Εμφάνιση αφιλτράριστων αποτελεσμάτων από το /r/all."
+msgid "Filtering /v/all is a feature only available to [tippr gold](/gold/about) subscribers. Displaying unfiltered results from /v/all."
+msgstr "Το φιλτράρισμα του /v/all είναι ένα χαρακτηριστικό διαθέσιμο για τους συνδρομητές [χρυσού tippr](/gold/about) . Εμφάνιση αφιλτράριστων αποτελεσμάτων από το /v/all."
 
 #: r2/lib/strings.py:267 r2/public/static/js/link-websockets.js:243
 #: r2/templates/comment.htmllite:59 r2/templates/linkinfobar.html:50
@@ -3687,8 +3687,8 @@ msgstr "διαχειριστής tippr, μιλάει επίσημα"
 
 #: r2/lib/template_helpers.py:783
 #, python-format
-msgid "moderator of /r/%(tippr)s, speaking officially"
-msgstr "συντονιστής του /r/%(tippr)s, μιλάει επίσημα"
+msgid "moderator of /v/%(tippr)s, speaking officially"
+msgstr "συντονιστής του /v/%(tippr)s, μιλάει επίσημα"
 
 #: r2/lib/template_helpers.py:797
 #, python-format
@@ -4013,8 +4013,8 @@ msgstr "προτάσεις:"
 
 #: r2/lib/pages/pages.py:5179
 #, python-format
-msgid "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/r/selfserve](%(selfserve)s)."
-msgstr "Δημιουργήστε την διαφήμιση σας σε αυτήν την σελίδα. Έχετε ερωτήσεις; Ρίξτε μια μάτια στο [Κέντρο Βοήθειας]%(help_center)s ή στο [/r/selfserve](%(selfserve)s).\n"
+msgid "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/v/selfserve](%(selfserve)s)."
+msgstr "Δημιουργήστε την διαφήμιση σας σε αυτήν την σελίδα. Έχετε ερωτήσεις; Ρίξτε μια μάτια στο [Κέντρο Βοήθειας]%(help_center)s ή στο [/v/selfserve](%(selfserve)s).\n"
 " \n"
 "Context | Request Context."
 
@@ -4308,13 +4308,13 @@ msgstr "αναθεωρήσεις"
 
 #: r2/lib/pages/wiki.py:202
 #, python-format
-msgid "Viewing recent revisions for /r/%s"
-msgstr "Προβολή των τελευταίων αναθεωρήσεων του /r/%s"
+msgid "Viewing recent revisions for /v/%s"
+msgstr "Προβολή των τελευταίων αναθεωρήσεων του /v/%s"
 
 #: r2/lib/pages/wiki.py:208
 #, python-format
-msgid "Viewing pages for /r/%s"
-msgstr "Προβολή σελίδων του /r/%s"
+msgid "Viewing pages for /v/%s"
+msgstr "Προβολή σελίδων του /v/%s"
 
 #: r2/lib/pages/wiki.py:209
 msgid "Below is a list of pages in this wiki visible to you in this vault."
@@ -4680,13 +4680,13 @@ msgstr "μπλοκαρισμένοι χρήστες"
 
 #: r2/models/listing.py:238
 #, python-format
-msgid "users banned from /r/%(vault)s"
-msgstr "αποκλεισμένοι χρήστες από το /r/%(vault)s"
+msgid "users banned from /v/%(vault)s"
+msgstr "αποκλεισμένοι χρήστες από το /v/%(vault)s"
 
 #: r2/models/listing.py:269
 #, python-format
-msgid "users muted from /r/%(vault)s"
-msgstr "αποκλεισμένοι χρήστες από το /r/%(vault)s"
+msgid "users muted from /v/%(vault)s"
+msgstr "αποκλεισμένοι χρήστες από το /v/%(vault)s"
 
 #: r2/models/listing.py:287
 msgid "ban wiki contibutors"
@@ -4694,13 +4694,13 @@ msgstr "απαγόρευε τους συμβάλλοντες βίκι"
 
 #: r2/models/listing.py:291
 #, python-format
-msgid "wiki contibutors banned from /r/%(vault)s"
-msgstr "συμβάλλοντες βίκι αποκλεισμένοι από το /r/%(vault)s"
+msgid "wiki contibutors banned from /v/%(vault)s"
+msgstr "συμβάλλοντες βίκι αποκλεισμένοι από το /v/%(vault)s"
 
 #: r2/models/listing.py:299
 #, python-format
-msgid "approved submitters for /r/%(vault)s"
-msgstr "εγκεκριμένοι υποβάλλοντες για το /r/%(vault)s"
+msgid "approved submitters for /v/%(vault)s"
+msgstr "εγκεκριμένοι υποβάλλοντες για το /v/%(vault)s"
 
 #: r2/models/listing.py:304
 msgid "add approved submitter"
@@ -4708,8 +4708,8 @@ msgstr "προσθήκη εγκεκριμένου αποστολέας"
 
 #: r2/models/listing.py:311
 #, python-format
-msgid "approved wiki contributors for /r/%(vault)s"
-msgstr "εγκεκριμένοι συμβάλλοντες βίκι για το /r/%(vault)s"
+msgid "approved wiki contributors for /v/%(vault)s"
+msgstr "εγκεκριμένοι συμβάλλοντες βίκι για το /v/%(vault)s"
 
 #: r2/models/listing.py:316
 msgid "add approved wiki contributor"
@@ -4735,8 +4735,8 @@ msgstr "εξαναγκασμένη προσθήκη διαχειρηστή"
 
 #: r2/models/listing.py:358
 #, python-format
-msgid "moderators of /r/%(vault)s"
-msgstr "διαχειριστές του /r/%(vault)s"
+msgid "moderators of /v/%(vault)s"
+msgstr "διαχειριστές του /v/%(vault)s"
 
 #: r2/models/mail_queue.py:356
 #, python-format
@@ -5525,8 +5525,8 @@ msgstr "%s υποtippr υπό την επιμέλεια του /u/%s"
 
 #: r2/models/vault.py:2862
 #, python-format
-msgid "%(domain)s on %(tippr.com)s"
-msgstr "%(domain)s στο %(tippr.com)s"
+msgid "%(domain)s on %(tippr.net)s"
+msgstr "%(domain)s στο %(tippr.net)s"
 
 #: r2/models/token.py:120
 msgid "Any Scope"
@@ -6808,7 +6808,7 @@ msgstr ""
 msgid "\n"
 "# your account is too new to create a vault\n"
 "    \n"
-"try participating in other communities on tippr for a little while first before creating your own. please post to /r/help if you need more information about this restriction, or if you require a specific exemption you can [contact the admins](/contact) to request one.\n"
+"try participating in other communities on tippr for a little while first before creating your own. please post to /v/help if you need more information about this restriction, or if you require a specific exemption you can [contact the admins](/contact) to request one.\n"
 msgstr ""
 
 #: r2/templates/createvault.html:57
@@ -6996,7 +6996,7 @@ msgid "viewers must be over eighteen years old"
 msgstr "όσοι το βλέπουν πρέπει να είναι πάνω από 18 χρονών"
 
 #: r2/templates/createvault.html:326
-msgid "allow this vault to be included /r/all as well as the default and trending lists"
+msgid "allow this vault to be included /v/all as well as the default and trending lists"
 msgstr ""
 
 #: r2/templates/createvault.html:337
@@ -7053,8 +7053,8 @@ msgid "hide help"
 msgstr "απόκρυψη βοήθειας"
 
 #: r2/templates/createvault.html:457
-msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.tippr.com. You will be able to access your tippr through your domain."
-msgstr "Σου ανήκει ένας ιστοτόπος;  Βάλτο εδώ και μετά πήγαινε στον παροχέα  DNS σου και πρόσθεσε μια εγγραφή CNAME που θα προωθεί τον ιστοτόπο σου στο rhs.tippr.com. Θα μπορείς να συνδεθείς με το tippr σου μέσα από τον ιστοτόπο σου."
+msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.tippr.net. You will be able to access your tippr through your domain."
+msgstr "Σου ανήκει ένας ιστοτόπος;  Βάλτο εδώ και μετά πήγαινε στον παροχέα  DNS σου και πρόσθεσε μια εγγραφή CNAME που θα προωθεί τον ιστοτόπο σου στο rhs.tippr.net. Θα μπορείς να συνδεθείς με το tippr σου μέσα από τον ιστοτόπο σου."
 
 #: r2/templates/createvault.html:464
 msgid "look and feel"
@@ -7172,8 +7172,8 @@ msgstr ""
 
 #: r2/templates/errorpage.html:41
 #, python-format
-msgid "a message from the moderators of /r/%s"
-msgstr "ένα μήνυμα από τους συντονιστές του /r/%s"
+msgid "a message from the moderators of /v/%s"
+msgstr "ένα μήνυμα από τους συντονιστές του /v/%s"
 
 #: r2/templates/errorpage.html:48
 msgid "send a message to the moderators"
@@ -8015,7 +8015,7 @@ msgid "to"
 msgstr "προς"
 
 #: r2/templates/messagecompose.html:64
-msgid "(username, or /r/name for that vault's moderators)"
+msgid "(username, or /v/name for that vault's moderators)"
 msgstr ""
 
 #: r2/templates/messagecompose.html:82
@@ -8074,8 +8074,8 @@ msgid "you are invited to become a moderator. %(action)s"
 msgstr "έχεις προσκληθεί να γίνεις συντονιστής. %(action)s"
 
 #: r2/templates/modsrinfobar.html:31
-msgid "/r/mod shows only vaults you moderate."
-msgstr "το /r/mod δείχνει μόνο υποtippr που συντονίζεις."
+msgid "/v/mod shows only vaults you moderate."
+msgstr "το /v/mod δείχνει μόνο υποtippr που συντονίζεις."
 
 #: r2/templates/modsrinfobar.html:34
 msgid "filter out vaults"

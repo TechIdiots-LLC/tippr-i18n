@@ -905,10 +905,10 @@ msgstr "Din presentkod för guld har genererats!"
 #, python-format
 msgid "Here is your gift code for %(amount)s of tippr gold:\n\n"
 "%(code)s\n\n"
-"The recipient (or you!) can enter it at https://www.tippr.com/gold or go directly to https://www.tippr.com/thanks/%(code)s to claim it."
+"The recipient (or you!) can enter it at https://www.tippr.net/gold or go directly to https://www.tippr.net/thanks/%(code)s to claim it."
 msgstr "Här är din presentkod %(amount)s för tippr guld:\n\n"
 "%(code)s\n\n"
-"Mottagarna (eller du!) kan skriva in den på https://www.tippr.com/gold eller gå direkt till https://www.tippr.com/thanks/%(code)s för att ta emot den."
+"Mottagarna (eller du!) kan skriva in den på https://www.tippr.net/gold eller gå direkt till https://www.tippr.net/thanks/%(code)s för att ta emot den."
 
 #: r2/controllers/ipn.py:373
 msgid "nice try."
@@ -3183,8 +3183,8 @@ msgstr "Jag förstår och går med på att registrering av konto eller användni
 
 #: r2/lib/strings.py:84
 #, python-format
-msgid "to view tippr with only submissions from your friends, use [tippr.com/r/friends](%s)"
-msgstr "för att se tippr med enbart bidrag från dina vänner, använd [tippr.com/r/friends](%s)"
+msgid "to view tippr with only submissions from your friends, use [tippr.net/v/friends](%s)"
+msgstr "för att se tippr med enbart bidrag från dina vänner, använd [tippr.net/v/friends](%s)"
 
 #: r2/lib/strings.py:86
 msgid "your vault has been created"
@@ -3480,8 +3480,8 @@ msgid "multivault of vaults you moderate"
 msgstr "multivault för vaultar du modererar"
 
 #: r2/lib/strings.py:187
-msgid "/r/all displays content from all of tippr, including vaults you aren't subscribed to. Some vaults have chosen to exclude themselves from /r/all."
-msgstr "/r/all visar material ifrån hela tippr, inklusive vaultar som du inte prenumererar på. Vissa vaultar har valt att inte synas på /r/all."
+msgid "/v/all displays content from all of tippr, including vaults you aren't subscribed to. Some vaults have chosen to exclude themselves from /v/all."
+msgstr "/v/all visar material ifrån hela tippr, inklusive vaultar som du inte prenumererar på. Vissa vaultar har valt att inte synas på /v/all."
 
 #: r2/lib/strings.py:188
 #, python-format
@@ -3489,8 +3489,8 @@ msgid "Displaying content from %(vault)s, except the following vaults:"
 msgstr ""
 
 #: r2/lib/strings.py:189
-msgid "Filtering /r/all is a feature only available to [tippr gold](/gold/about) subscribers. Displaying unfiltered results from /r/all."
-msgstr "Filtrering av /r/all är en funktion som endast är tillgänglig för [tippr guld](gold/about)-prenumeranter. Visar ofiltrerat resultat från /r/all."
+msgid "Filtering /v/all is a feature only available to [tippr gold](/gold/about) subscribers. Displaying unfiltered results from /v/all."
+msgstr "Filtrering av /v/all är en funktion som endast är tillgänglig för [tippr guld](gold/about)-prenumeranter. Visar ofiltrerat resultat från /v/all."
 
 #: r2/lib/strings.py:267 r2/public/static/js/link-websockets.js:243
 #: r2/templates/comment.htmllite:59 r2/templates/linkinfobar.html:50
@@ -3688,8 +3688,8 @@ msgstr "tippr-administratör, talar officiellt"
 
 #: r2/lib/template_helpers.py:783
 #, python-format
-msgid "moderator of /r/%(tippr)s, speaking officially"
-msgstr "moderator för /r/%(tippr)s, talar officiellt"
+msgid "moderator of /v/%(tippr)s, speaking officially"
+msgstr "moderator för /v/%(tippr)s, talar officiellt"
 
 #: r2/lib/template_helpers.py:797
 #, python-format
@@ -4014,8 +4014,8 @@ msgstr "förslag:"
 
 #: r2/lib/pages/pages.py:5179
 #, python-format
-msgid "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/r/selfserve](%(selfserve)s)."
-msgstr "Skapa din annons på denna sida. Har du frågor? Kolla på [Hjälpcentret](%(help_center)s) eller [/r/selfserve](%(selfserve)s)."
+msgid "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/v/selfserve](%(selfserve)s)."
+msgstr "Skapa din annons på denna sida. Har du frågor? Kolla på [Hjälpcentret](%(help_center)s) eller [/v/selfserve](%(selfserve)s)."
 
 #: r2/lib/pages/pages.py:5908
 msgid "start date"
@@ -4307,13 +4307,13 @@ msgstr "revisioner"
 
 #: r2/lib/pages/wiki.py:202
 #, python-format
-msgid "Viewing recent revisions for /r/%s"
-msgstr "Visar senaste revisionerna för /r/%s"
+msgid "Viewing recent revisions for /v/%s"
+msgstr "Visar senaste revisionerna för /v/%s"
 
 #: r2/lib/pages/wiki.py:208
 #, python-format
-msgid "Viewing pages for /r/%s"
-msgstr "Visar sidorna för /r/%s"
+msgid "Viewing pages for /v/%s"
+msgstr "Visar sidorna för /v/%s"
 
 #: r2/lib/pages/wiki.py:209
 msgid "Below is a list of pages in this wiki visible to you in this vault."
@@ -4679,13 +4679,13 @@ msgstr "blockerade användare"
 
 #: r2/models/listing.py:238
 #, python-format
-msgid "users banned from /r/%(vault)s"
-msgstr "användare som bannlysts från /r/%(vault)s"
+msgid "users banned from /v/%(vault)s"
+msgstr "användare som bannlysts från /v/%(vault)s"
 
 #: r2/models/listing.py:269
 #, python-format
-msgid "users muted from /r/%(vault)s"
-msgstr "bannlysta användare från /r/%(vault)s"
+msgid "users muted from /v/%(vault)s"
+msgstr "bannlysta användare från /v/%(vault)s"
 
 #: r2/models/listing.py:287
 msgid "ban wiki contibutors"
@@ -4693,13 +4693,13 @@ msgstr "banna wikibidragsgivare"
 
 #: r2/models/listing.py:291
 #, python-format
-msgid "wiki contibutors banned from /r/%(vault)s"
-msgstr "wikibidragsgivare bannlysta från /r/%(vault)s"
+msgid "wiki contibutors banned from /v/%(vault)s"
+msgstr "wikibidragsgivare bannlysta från /v/%(vault)s"
 
 #: r2/models/listing.py:299
 #, python-format
-msgid "approved submitters for /r/%(vault)s"
-msgstr "godkända uppladdare för /r/%(vault)s"
+msgid "approved submitters for /v/%(vault)s"
+msgstr "godkända uppladdare för /v/%(vault)s"
 
 #: r2/models/listing.py:304
 msgid "add approved submitter"
@@ -4707,8 +4707,8 @@ msgstr "lägg till godkänd uppladdare"
 
 #: r2/models/listing.py:311
 #, python-format
-msgid "approved wiki contributors for /r/%(vault)s"
-msgstr "godkända wikibidragsgivare för /r/%(vault)s"
+msgid "approved wiki contributors for /v/%(vault)s"
+msgstr "godkända wikibidragsgivare för /v/%(vault)s"
 
 #: r2/models/listing.py:316
 msgid "add approved wiki contributor"
@@ -4734,8 +4734,8 @@ msgstr "tvinga moderatorstilläggning"
 
 #: r2/models/listing.py:358
 #, python-format
-msgid "moderators of /r/%(vault)s"
-msgstr "moderatorer i /r/%(vault)s"
+msgid "moderators of /v/%(vault)s"
+msgstr "moderatorer i /v/%(vault)s"
 
 #: r2/models/mail_queue.py:356
 #, python-format
@@ -5524,8 +5524,8 @@ msgstr "%s vaultar sammanställda av /u/%s"
 
 #: r2/models/vault.py:2862
 #, python-format
-msgid "%(domain)s on %(tippr.com)s"
-msgstr "%(domain)s på %(tippr.com)s"
+msgid "%(domain)s on %(tippr.net)s"
+msgstr "%(domain)s på %(tippr.net)s"
 
 #: r2/models/token.py:120
 msgid "Any Scope"
@@ -6804,11 +6804,11 @@ msgstr "\"Om 5 miljarder år kommer solen expandera och uppsluka vår omloppsban
 msgid "\n"
 "# your account is too new to create a vault\n"
 "    \n"
-"try participating in other communities on tippr for a little while first before creating your own. please post to /r/help if you need more information about this restriction, or if you require a specific exemption you can [contact the admins](/contact) to request one.\n"
+"try participating in other communities on tippr for a little while first before creating your own. please post to /v/help if you need more information about this restriction, or if you require a specific exemption you can [contact the admins](/contact) to request one.\n"
 msgstr "\n"
 "# ditt konto är för nytt för att skapa en vault\n"
 " \n"
-"försök att delta i andra gemenskaper på tippr ett litet tag innan du startar din egen. var vänlig och gör ett inlägg i /r/help om du behöver mer information om den här restriktionen, eller om du behöver ett särskilt undantag kan du [kontakta administratörerna](/contact) för att efterfråga det.\n"
+"försök att delta i andra gemenskaper på tippr ett litet tag innan du startar din egen. var vänlig och gör ett inlägg i /v/help om du behöver mer information om den här restriktionen, eller om du behöver ett särskilt undantag kan du [kontakta administratörerna](/contact) för att efterfråga det.\n"
 
 #: r2/templates/createvault.html:57
 msgid "no spaces, e.g., \"books\" or \"bookclub\". avoid using solely trademarked names, e.g. use \"FansOfAcme\" instead of \"Acme\". once chosen, this name cannot be changed."
@@ -6995,8 +6995,8 @@ msgid "viewers must be over eighteen years old"
 msgstr "läsare måste vara över arton år"
 
 #: r2/templates/createvault.html:326
-msgid "allow this vault to be included /r/all as well as the default and trending lists"
-msgstr "tillåt att denna vault inkluderas i /r/all och i standard- och trendlistorna"
+msgid "allow this vault to be included /v/all as well as the default and trending lists"
+msgstr "tillåt att denna vault inkluderas i /v/all och i standard- och trendlistorna"
 
 #: r2/templates/createvault.html:337
 msgid "enable marking posts as containing spoilers"
@@ -7052,8 +7052,8 @@ msgid "hide help"
 msgstr "göm hjälp"
 
 #: r2/templates/createvault.html:457
-msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.tippr.com. You will be able to access your tippr through your domain."
-msgstr "Äger du en domän? Ange den här och gå sedan till din DNS-leverantör och lägg till en CNAME-post som ger aliaset rhs.tippr.com för din domän. Du kommer åt din tippr via din domän."
+msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.tippr.net. You will be able to access your tippr through your domain."
+msgstr "Äger du en domän? Ange den här och gå sedan till din DNS-leverantör och lägg till en CNAME-post som ger aliaset rhs.tippr.net för din domän. Du kommer åt din tippr via din domän."
 
 #: r2/templates/createvault.html:464
 msgid "look and feel"
@@ -7171,8 +7171,8 @@ msgstr "Denna användare har tagit bort sitt konto."
 
 #: r2/templates/errorpage.html:41
 #, python-format
-msgid "a message from the moderators of /r/%s"
-msgstr "ett meddelande från moderatorerna i /r/%s"
+msgid "a message from the moderators of /v/%s"
+msgstr "ett meddelande från moderatorerna i /v/%s"
 
 #: r2/templates/errorpage.html:48
 msgid "send a message to the moderators"
@@ -8014,8 +8014,8 @@ msgid "to"
 msgstr "till"
 
 #: r2/templates/messagecompose.html:64
-msgid "(username, or /r/name for that vault's moderators)"
-msgstr "(användarnamn, eller /r/namn för den vaultens moderatorer)"
+msgid "(username, or /v/name for that vault's moderators)"
+msgstr "(användarnamn, eller /v/namn för den vaultens moderatorer)"
 
 #: r2/templates/messagecompose.html:82
 msgid "subject"
@@ -8073,8 +8073,8 @@ msgid "you are invited to become a moderator. %(action)s"
 msgstr "du är inbjuden att bli moderator. %(action)s"
 
 #: r2/templates/modsrinfobar.html:31
-msgid "/r/mod shows only vaults you moderate."
-msgstr "/r/mod visar endast vaultar du modererar."
+msgid "/v/mod shows only vaults you moderate."
+msgstr "/v/mod visar endast vaultar du modererar."
 
 #: r2/templates/modsrinfobar.html:34
 msgid "filter out vaults"

@@ -903,7 +903,7 @@ msgstr "Tippr-kulta lahjakoodisi on luotu!"
 #, python-format
 msgid "Here is your gift code for %(amount)s of tippr gold:\n\n"
 "%(code)s\n\n"
-"The recipient (or you!) can enter it at https://www.tippr.com/gold or go directly to https://www.tippr.com/thanks/%(code)s to claim it."
+"The recipient (or you!) can enter it at https://www.tippr.net/gold or go directly to https://www.tippr.net/thanks/%(code)s to claim it."
 msgstr ""
 
 #: r2/controllers/ipn.py:373
@@ -3180,8 +3180,8 @@ msgstr "ymmärrän ja hyväksyn että kirjautuminen tai sivuston käyttö pitä�
 
 #: r2/lib/strings.py:84
 #, python-format
-msgid "to view tippr with only submissions from your friends, use [tippr.com/r/friends](%s)"
-msgstr "nähdäksesi tipprin, jossa näkyy vain kavereidesi lisäykset, käytä [tippr.com/r/friends] ( %s )"
+msgid "to view tippr with only submissions from your friends, use [tippr.net/v/friends](%s)"
+msgstr "nähdäksesi tipprin, jossa näkyy vain kavereidesi lisäykset, käytä [tippr.net/v/friends] ( %s )"
 
 #: r2/lib/strings.py:86
 msgid "your vault has been created"
@@ -3469,8 +3469,8 @@ msgid "multivault of vaults you moderate"
 msgstr "multivault alitippreistä joissa olet moderaattorina"
 
 #: r2/lib/strings.py:187
-msgid "/r/all displays content from all of tippr, including vaults you aren't subscribed to. Some vaults have chosen to exclude themselves from /r/all."
-msgstr "/r/all näyttää sisältöä koko tippristä, myös alitippreistä, joita et ole tilannut. Jotkut alitipprit ovat päättäneet olla kuulumatta /r/all :iin."
+msgid "/v/all displays content from all of tippr, including vaults you aren't subscribed to. Some vaults have chosen to exclude themselves from /v/all."
+msgstr "/v/all näyttää sisältöä koko tippristä, myös alitippreistä, joita et ole tilannut. Jotkut alitipprit ovat päättäneet olla kuulumatta /v/all :iin."
 
 #: r2/lib/strings.py:188
 #, python-format
@@ -3478,8 +3478,8 @@ msgid "Displaying content from %(vault)s, except the following vaults:"
 msgstr ""
 
 #: r2/lib/strings.py:189
-msgid "Filtering /r/all is a feature only available to [tippr gold](/gold/about) subscribers. Displaying unfiltered results from /r/all."
-msgstr "/r/all:n filtteröinti on saatavilla vain [tippr gold](/gold/about)-käyttäjille. Näytetään filtteröimättömät tulokset /r/all:sta."
+msgid "Filtering /v/all is a feature only available to [tippr gold](/gold/about) subscribers. Displaying unfiltered results from /v/all."
+msgstr "/v/all:n filtteröinti on saatavilla vain [tippr gold](/gold/about)-käyttäjille. Näytetään filtteröimättömät tulokset /v/all:sta."
 
 #: r2/lib/strings.py:267 r2/public/static/js/link-websockets.js:243
 #: r2/templates/comment.htmllite:59 r2/templates/linkinfobar.html:50
@@ -3675,8 +3675,8 @@ msgstr "tipprin virallinen ylläpitäjä"
 
 #: r2/lib/template_helpers.py:783
 #, python-format
-msgid "moderator of /r/%(tippr)s, speaking officially"
-msgstr "/r/%(tippr)s moderaattorina sanottu"
+msgid "moderator of /v/%(tippr)s, speaking officially"
+msgstr "/v/%(tippr)s moderaattorina sanottu"
 
 #: r2/lib/template_helpers.py:797
 #, python-format
@@ -4001,8 +4001,8 @@ msgstr "ehdotuksia:"
 
 #: r2/lib/pages/pages.py:5179
 #, python-format
-msgid "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/r/selfserve](%(selfserve)s)."
-msgstr "Luo mainos tälle sivulle. Kysymyksiä? Katso [Help Center](%(help_center)s) tai [/r/selfserve](%(selfserve)s)."
+msgid "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/v/selfserve](%(selfserve)s)."
+msgstr "Luo mainos tälle sivulle. Kysymyksiä? Katso [Help Center](%(help_center)s) tai [/v/selfserve](%(selfserve)s)."
 
 #: r2/lib/pages/pages.py:5908
 msgid "start date"
@@ -4294,13 +4294,13 @@ msgstr "tarkistukset"
 
 #: r2/lib/pages/wiki.py:202
 #, python-format
-msgid "Viewing recent revisions for /r/%s"
+msgid "Viewing recent revisions for /v/%s"
 msgstr ""
 
 #: r2/lib/pages/wiki.py:208
 #, python-format
-msgid "Viewing pages for /r/%s"
-msgstr "sivujen katselua /r/%s :lle"
+msgid "Viewing pages for /v/%s"
+msgstr "sivujen katselua /v/%s :lle"
 
 #: r2/lib/pages/wiki.py:209
 msgid "Below is a list of pages in this wiki visible to you in this vault."
@@ -4666,13 +4666,13 @@ msgstr "estetyt käyttäjät"
 
 #: r2/models/listing.py:238
 #, python-format
-msgid "users banned from /r/%(vault)s"
-msgstr "alitippristä /r/%(vault)s estetyt käyttäjät"
+msgid "users banned from /v/%(vault)s"
+msgstr "alitippristä /v/%(vault)s estetyt käyttäjät"
 
 #: r2/models/listing.py:269
 #, python-format
-msgid "users muted from /r/%(vault)s"
-msgstr "mykistetyt käyttäjät /r/%(vault)s :sta"
+msgid "users muted from /v/%(vault)s"
+msgstr "mykistetyt käyttäjät /v/%(vault)s :sta"
 
 #: r2/models/listing.py:287
 msgid "ban wiki contibutors"
@@ -4680,13 +4680,13 @@ msgstr ""
 
 #: r2/models/listing.py:291
 #, python-format
-msgid "wiki contibutors banned from /r/%(vault)s"
+msgid "wiki contibutors banned from /v/%(vault)s"
 msgstr ""
 
 #: r2/models/listing.py:299
 #, python-format
-msgid "approved submitters for /r/%(vault)s"
-msgstr "/r/%(vault)s:n hyväksytyt lisääjät"
+msgid "approved submitters for /v/%(vault)s"
+msgstr "/v/%(vault)s:n hyväksytyt lisääjät"
 
 #: r2/models/listing.py:304
 msgid "add approved submitter"
@@ -4694,7 +4694,7 @@ msgstr "lisää hyväksytty lisääjä"
 
 #: r2/models/listing.py:311
 #, python-format
-msgid "approved wiki contributors for /r/%(vault)s"
+msgid "approved wiki contributors for /v/%(vault)s"
 msgstr ""
 
 #: r2/models/listing.py:316
@@ -4721,8 +4721,8 @@ msgstr ""
 
 #: r2/models/listing.py:358
 #, python-format
-msgid "moderators of /r/%(vault)s"
-msgstr "/r/%(vault)s :n moderaattorit"
+msgid "moderators of /v/%(vault)s"
+msgstr "/v/%(vault)s :n moderaattorit"
 
 #: r2/models/mail_queue.py:356
 #, python-format
@@ -5511,7 +5511,7 @@ msgstr "%s alitipprit, joita hoitaa /u/%s"
 
 #: r2/models/vault.py:2862
 #, python-format
-msgid "%(domain)s on %(tippr.com)s"
+msgid "%(domain)s on %(tippr.net)s"
 msgstr ""
 
 #: r2/models/token.py:120
@@ -6791,7 +6791,7 @@ msgstr "\"5 miljardin vuoden sisällä Aurinko laajenee, peittää linnunratamme
 msgid "\n"
 "# your account is too new to create a vault\n"
 "    \n"
-"try participating in other communities on tippr for a little while first before creating your own. please post to /r/help if you need more information about this restriction, or if you require a specific exemption you can [contact the admins](/contact) to request one.\n"
+"try participating in other communities on tippr for a little while first before creating your own. please post to /v/help if you need more information about this restriction, or if you require a specific exemption you can [contact the admins](/contact) to request one.\n"
 msgstr ""
 
 #: r2/templates/createvault.html:57
@@ -6979,8 +6979,8 @@ msgid "viewers must be over eighteen years old"
 msgstr "katsojien pitää olla täysi-ikäisiä"
 
 #: r2/templates/createvault.html:326
-msgid "allow this vault to be included /r/all as well as the default and trending lists"
-msgstr "salli tämän alitipprin sisällyttäminen /r/all:iin sekä vakiovaultiksi ja nousevat alitipprit -listalle"
+msgid "allow this vault to be included /v/all as well as the default and trending lists"
+msgstr "salli tämän alitipprin sisällyttäminen /v/all:iin sekä vakiovaultiksi ja nousevat alitipprit -listalle"
 
 #: r2/templates/createvault.html:337
 msgid "enable marking posts as containing spoilers"
@@ -7036,8 +7036,8 @@ msgid "hide help"
 msgstr "piilota ohjeet"
 
 #: r2/templates/createvault.html:457
-msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.tippr.com. You will be able to access your tippr through your domain."
-msgstr "Omistatko verkkotunnuksen? Syötä se tähän ja lisää DNS palveluusi CNAME tietue osoittamaan osoitteeseen rhs.tippr.com. Tällöin pystyt käyttämään tippriä verkkotunnuksesi kautta."
+msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.tippr.net. You will be able to access your tippr through your domain."
+msgstr "Omistatko verkkotunnuksen? Syötä se tähän ja lisää DNS palveluusi CNAME tietue osoittamaan osoitteeseen rhs.tippr.net. Tällöin pystyt käyttämään tippriä verkkotunnuksesi kautta."
 
 #: r2/templates/createvault.html:464
 msgid "look and feel"
@@ -7155,8 +7155,8 @@ msgstr ""
 
 #: r2/templates/errorpage.html:41
 #, python-format
-msgid "a message from the moderators of /r/%s"
-msgstr "viesti /r/%s :n moderaattoreilta"
+msgid "a message from the moderators of /v/%s"
+msgstr "viesti /v/%s :n moderaattoreilta"
 
 #: r2/templates/errorpage.html:48
 msgid "send a message to the moderators"
@@ -7998,7 +7998,7 @@ msgid "to"
 msgstr "johonkin"
 
 #: r2/templates/messagecompose.html:64
-msgid "(username, or /r/name for that vault's moderators)"
+msgid "(username, or /v/name for that vault's moderators)"
 msgstr ""
 
 #: r2/templates/messagecompose.html:82
@@ -8057,8 +8057,8 @@ msgid "you are invited to become a moderator. %(action)s"
 msgstr "sinut on kutsuttu ryhtymään moderaattoriksi. %(action)s"
 
 #: r2/templates/modsrinfobar.html:31
-msgid "/r/mod shows only vaults you moderate."
-msgstr "/r/mod näyttää vain alitipprit, joita sinä moderoit."
+msgid "/v/mod shows only vaults you moderate."
+msgstr "/v/mod näyttää vain alitipprit, joita sinä moderoit."
 
 #: r2/templates/modsrinfobar.html:34
 msgid "filter out vaults"

@@ -903,7 +903,7 @@ msgstr "Tvoj kupon za tippr zlato je generiran!"
 #, python-format
 msgid "Here is your gift code for %(amount)s of tippr gold:\n\n"
 "%(code)s\n\n"
-"The recipient (or you!) can enter it at https://www.tippr.com/gold or go directly to https://www.tippr.com/thanks/%(code)s to claim it."
+"The recipient (or you!) can enter it at https://www.tippr.net/gold or go directly to https://www.tippr.net/thanks/%(code)s to claim it."
 msgstr ""
 
 #: r2/controllers/ipn.py:373
@@ -3181,8 +3181,8 @@ msgstr "Razumijem i prihvaćam da registracija i uporaba ove stranice podrazumij
 
 #: r2/lib/strings.py:84
 #, python-format
-msgid "to view tippr with only submissions from your friends, use [tippr.com/r/friends](%s)"
-msgstr "za prikaz objava koje dodaju tvoji prijatelji, upotrijebi [tippr.com/r/friends](%s)"
+msgid "to view tippr with only submissions from your friends, use [tippr.net/v/friends](%s)"
+msgstr "za prikaz objava koje dodaju tvoji prijatelji, upotrijebi [tippr.net/v/friends](%s)"
 
 #: r2/lib/strings.py:86
 msgid "your vault has been created"
@@ -3478,8 +3478,8 @@ msgid "multivault of vaults you moderate"
 msgstr "multivault podtippra koje moderiraš"
 
 #: r2/lib/strings.py:187
-msgid "/r/all displays content from all of tippr, including vaults you aren't subscribed to. Some vaults have chosen to exclude themselves from /r/all."
-msgstr "/r/all prikazuje sadržaj cijelog tippra što uključuje i podtippre na koje niste pretplaćeni. Neki podtippri su donijeli odluku da ih se ne prikazuje na /r/all."
+msgid "/v/all displays content from all of tippr, including vaults you aren't subscribed to. Some vaults have chosen to exclude themselves from /v/all."
+msgstr "/v/all prikazuje sadržaj cijelog tippra što uključuje i podtippre na koje niste pretplaćeni. Neki podtippri su donijeli odluku da ih se ne prikazuje na /v/all."
 
 #: r2/lib/strings.py:188
 #, python-format
@@ -3487,8 +3487,8 @@ msgid "Displaying content from %(vault)s, except the following vaults:"
 msgstr ""
 
 #: r2/lib/strings.py:189
-msgid "Filtering /r/all is a feature only available to [tippr gold](/gold/about) subscribers. Displaying unfiltered results from /r/all."
-msgstr "Filtriranje /r/all je značajka dostupna samo pretplatnicima na [tippr zlato](/gold/about). Prikazuju se nefiltrirani rezultati."
+msgid "Filtering /v/all is a feature only available to [tippr gold](/gold/about) subscribers. Displaying unfiltered results from /v/all."
+msgstr "Filtriranje /v/all je značajka dostupna samo pretplatnicima na [tippr zlato](/gold/about). Prikazuju se nefiltrirani rezultati."
 
 #: r2/lib/strings.py:267 r2/public/static/js/link-websockets.js:243
 #: r2/templates/comment.htmllite:59 r2/templates/linkinfobar.html:50
@@ -3703,8 +3703,8 @@ msgstr "tippr administrator, službeno"
 
 #: r2/lib/template_helpers.py:783
 #, python-format
-msgid "moderator of /r/%(tippr)s, speaking officially"
-msgstr "/r/%(tippr)s moderator, službeno"
+msgid "moderator of /v/%(tippr)s, speaking officially"
+msgstr "/v/%(tippr)s moderator, službeno"
 
 #: r2/lib/template_helpers.py:797
 #, python-format
@@ -4031,7 +4031,7 @@ msgstr "prijedlozi:"
 
 #: r2/lib/pages/pages.py:5179
 #, python-format
-msgid "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/r/selfserve](%(selfserve)s)."
+msgid "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/v/selfserve](%(selfserve)s)."
 msgstr ""
 
 #: r2/lib/pages/pages.py:5908
@@ -4324,13 +4324,13 @@ msgstr "redakture"
 
 #: r2/lib/pages/wiki.py:202
 #, python-format
-msgid "Viewing recent revisions for /r/%s"
-msgstr "Prikaz nedavnih redaktura za /r/%s"
+msgid "Viewing recent revisions for /v/%s"
+msgstr "Prikaz nedavnih redaktura za /v/%s"
 
 #: r2/lib/pages/wiki.py:208
 #, python-format
-msgid "Viewing pages for /r/%s"
-msgstr "Prikaz stranica za /r/%s"
+msgid "Viewing pages for /v/%s"
+msgstr "Prikaz stranica za /v/%s"
 
 #: r2/lib/pages/wiki.py:209
 msgid "Below is a list of pages in this wiki visible to you in this vault."
@@ -4702,12 +4702,12 @@ msgstr "blokirani korisnici"
 
 #: r2/models/listing.py:238
 #, python-format
-msgid "users banned from /r/%(vault)s"
-msgstr "korisnici koji su prognani iz /r/%(vault)s"
+msgid "users banned from /v/%(vault)s"
+msgstr "korisnici koji su prognani iz /v/%(vault)s"
 
 #: r2/models/listing.py:269
 #, python-format
-msgid "users muted from /r/%(vault)s"
+msgid "users muted from /v/%(vault)s"
 msgstr ""
 
 #: r2/models/listing.py:287
@@ -4716,13 +4716,13 @@ msgstr "prognaj wiki suradnike"
 
 #: r2/models/listing.py:291
 #, python-format
-msgid "wiki contibutors banned from /r/%(vault)s"
-msgstr "wiki suradnici prognani s /r/%(vault)s"
+msgid "wiki contibutors banned from /v/%(vault)s"
+msgstr "wiki suradnici prognani s /v/%(vault)s"
 
 #: r2/models/listing.py:299
 #, python-format
-msgid "approved submitters for /r/%(vault)s"
-msgstr "odobreni objavljivači na /r/%(vault)s"
+msgid "approved submitters for /v/%(vault)s"
+msgstr "odobreni objavljivači na /v/%(vault)s"
 
 #: r2/models/listing.py:304
 msgid "add approved submitter"
@@ -4730,8 +4730,8 @@ msgstr "dodaj odobrenog objavljivača"
 
 #: r2/models/listing.py:311
 #, python-format
-msgid "approved wiki contributors for /r/%(vault)s"
-msgstr "odobreni wiki suradnici na /r/%(vault)s"
+msgid "approved wiki contributors for /v/%(vault)s"
+msgstr "odobreni wiki suradnici na /v/%(vault)s"
 
 #: r2/models/listing.py:316
 msgid "add approved wiki contributor"
@@ -4757,8 +4757,8 @@ msgstr "prisilno dodaj moderatora"
 
 #: r2/models/listing.py:358
 #, python-format
-msgid "moderators of /r/%(vault)s"
-msgstr "moderatori u /r/%(vault)s"
+msgid "moderators of /v/%(vault)s"
+msgstr "moderatori u /v/%(vault)s"
 
 #: r2/models/mail_queue.py:356
 #, python-format
@@ -5547,8 +5547,8 @@ msgstr "%s podtippri koje uređuje /u/%s"
 
 #: r2/models/vault.py:2862
 #, python-format
-msgid "%(domain)s on %(tippr.com)s"
-msgstr "%(domain)s na %(tippr.com)s"
+msgid "%(domain)s on %(tippr.net)s"
+msgstr "%(domain)s na %(tippr.net)s"
 
 #: r2/models/token.py:120
 msgid "Any Scope"
@@ -6833,7 +6833,7 @@ msgstr "\"Za 5 milijardi godina Sunce će se proširiti i progutati našu orbitu
 msgid "\n"
 "# your account is too new to create a vault\n"
 "    \n"
-"try participating in other communities on tippr for a little while first before creating your own. please post to /r/help if you need more information about this restriction, or if you require a specific exemption you can [contact the admins](/contact) to request one.\n"
+"try participating in other communities on tippr for a little while first before creating your own. please post to /v/help if you need more information about this restriction, or if you require a specific exemption you can [contact the admins](/contact) to request one.\n"
 msgstr ""
 
 #: r2/templates/createvault.html:57
@@ -7021,8 +7021,8 @@ msgid "viewers must be over eighteen years old"
 msgstr "posjetitelji moraju biti stariji od 18 godina"
 
 #: r2/templates/createvault.html:326
-msgid "allow this vault to be included /r/all as well as the default and trending lists"
-msgstr "omogući prikaz ovog podtippra u /r/all, na zadanom popisu podtippra te na popisu popularnih podtippra"
+msgid "allow this vault to be included /v/all as well as the default and trending lists"
+msgstr "omogući prikaz ovog podtippra u /v/all, na zadanom popisu podtippra te na popisu popularnih podtippra"
 
 #: r2/templates/createvault.html:337
 msgid "enable marking posts as containing spoilers"
@@ -7078,8 +7078,8 @@ msgid "hide help"
 msgstr "skrij pomoć"
 
 #: r2/templates/createvault.html:457
-msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.tippr.com. You will be able to access your tippr through your domain."
-msgstr "Vlasnik si domene? Tu je unesi a onda trk do DNS davatelja i izmijeni CNAME postavke da vode prema rhs.tippr.com. Onda ćeš moći pristupiti tippru putem vlastite domene."
+msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.tippr.net. You will be able to access your tippr through your domain."
+msgstr "Vlasnik si domene? Tu je unesi a onda trk do DNS davatelja i izmijeni CNAME postavke da vode prema rhs.tippr.net. Onda ćeš moći pristupiti tippru putem vlastite domene."
 
 #: r2/templates/createvault.html:464
 msgid "look and feel"
@@ -7197,8 +7197,8 @@ msgstr ""
 
 #: r2/templates/errorpage.html:41
 #, python-format
-msgid "a message from the moderators of /r/%s"
-msgstr "poruka od moderatora /r/%s"
+msgid "a message from the moderators of /v/%s"
+msgstr "poruka od moderatora /v/%s"
 
 #: r2/templates/errorpage.html:48
 msgid "send a message to the moderators"
@@ -8040,7 +8040,7 @@ msgid "to"
 msgstr "prima"
 
 #: r2/templates/messagecompose.html:64
-msgid "(username, or /r/name for that vault's moderators)"
+msgid "(username, or /v/name for that vault's moderators)"
 msgstr ""
 
 #: r2/templates/messagecompose.html:82
@@ -8099,8 +8099,8 @@ msgid "you are invited to become a moderator. %(action)s"
 msgstr "pozvan si da budeš moderator. %(action)s"
 
 #: r2/templates/modsrinfobar.html:31
-msgid "/r/mod shows only vaults you moderate."
-msgstr "/r/mod prikazuje samo one podtippre koje moderirate."
+msgid "/v/mod shows only vaults you moderate."
+msgstr "/v/mod prikazuje samo one podtippre koje moderirate."
 
 #: r2/templates/modsrinfobar.html:34
 msgid "filter out vaults"

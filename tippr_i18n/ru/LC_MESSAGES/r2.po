@@ -908,10 +908,10 @@ msgstr "Ваш золотой подарочный код был сгенери�
 #, python-format
 msgid "Here is your gift code for %(amount)s of tippr gold:\n\n"
 "%(code)s\n\n"
-"The recipient (or you!) can enter it at https://www.tippr.com/gold or go directly to https://www.tippr.com/thanks/%(code)s to claim it."
+"The recipient (or you!) can enter it at https://www.tippr.net/gold or go directly to https://www.tippr.net/thanks/%(code)s to claim it."
 msgstr "Здесь ваш подарочный код для %(amount)s золотой подписки:\n\n"
 "%(code)s\n\n"
-"Получатель (или вы!) может ввести его на https://www.tippr.com/gold или перейти прямо в https://www.tippr.com/thanks/%(code)s чтобы активировать его."
+"Получатель (или вы!) может ввести его на https://www.tippr.net/gold или перейти прямо в https://www.tippr.net/thanks/%(code)s чтобы активировать его."
 
 #: r2/controllers/ipn.py:373
 msgid "nice try."
@@ -3203,8 +3203,8 @@ msgstr "Я понимаю и согласен с тем, что регистра
 
 #: r2/lib/strings.py:84
 #, python-format
-msgid "to view tippr with only submissions from your friends, use [tippr.com/r/friends](%s)"
-msgstr "чтобы просматривать только публикации друзей, используйте [tippr.com/r/friends](%s)"
+msgid "to view tippr with only submissions from your friends, use [tippr.net/v/friends](%s)"
+msgstr "чтобы просматривать только публикации друзей, используйте [tippr.net/v/friends](%s)"
 
 #: r2/lib/strings.py:86
 msgid "your vault has been created"
@@ -3500,8 +3500,8 @@ msgid "multivault of vaults you moderate"
 msgstr "мультиреддит из модерируемых вами сабреддитов"
 
 #: r2/lib/strings.py:187
-msgid "/r/all displays content from all of tippr, including vaults you aren't subscribed to. Some vaults have chosen to exclude themselves from /r/all."
-msgstr "/r/all показывает материалы со всего tippr, включая сабреддиты, на которые вы не подписаны. Некоторые сообщества предпочли не входить в /r/all."
+msgid "/v/all displays content from all of tippr, including vaults you aren't subscribed to. Some vaults have chosen to exclude themselves from /v/all."
+msgstr "/v/all показывает материалы со всего tippr, включая сабреддиты, на которые вы не подписаны. Некоторые сообщества предпочли не входить в /v/all."
 
 #: r2/lib/strings.py:188
 #, python-format
@@ -3509,8 +3509,8 @@ msgid "Displaying content from %(vault)s, except the following vaults:"
 msgstr ""
 
 #: r2/lib/strings.py:189
-msgid "Filtering /r/all is a feature only available to [tippr gold](/gold/about) subscribers. Displaying unfiltered results from /r/all."
-msgstr "Фильтрация /r/all доступна только [золотым подписчикам](/gold/about). Сейчас результаты из /r/all неотфильтрованны."
+msgid "Filtering /v/all is a feature only available to [tippr gold](/gold/about) subscribers. Displaying unfiltered results from /v/all."
+msgstr "Фильтрация /v/all доступна только [золотым подписчикам](/gold/about). Сейчас результаты из /v/all неотфильтрованны."
 
 #: r2/lib/strings.py:190
 msgid "Comment may be offensive"
@@ -4065,8 +4065,8 @@ msgstr "предложения:"
 
 #: r2/lib/pages/pages.py:5412
 #, python-format
-msgid "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/r/selfserve](%(selfserve)s)."
-msgstr "Создайте свою рекламу на этой странице. Есть вопросы? Посетите [центр поддержки](%(help_center)s) или [/r/selfserve](%(selfserve)s)."
+msgid "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/v/selfserve](%(selfserve)s)."
+msgstr "Создайте свою рекламу на этой странице. Есть вопросы? Посетите [центр поддержки](%(help_center)s) или [/v/selfserve](%(selfserve)s)."
 
 #: r2/lib/pages/pages.py:6146
 msgid "start date"
@@ -5595,8 +5595,8 @@ msgstr "%s сабреддиты, за которыми присматривае�
 
 #: r2/models/vault.py:3336
 #, python-format
-msgid "%(domain)s on %(tippr.com)s"
-msgstr "%(domain)s на %(tippr.com)s"
+msgid "%(domain)s on %(tippr.net)s"
+msgstr "%(domain)s на %(tippr.net)s"
 
 #: r2/models/token.py:120
 msgid "Any Scope"
@@ -6906,11 +6906,11 @@ msgstr "\"Через 5 миллиардов лет Солнце расширит
 msgid "\n"
 "# your account is too new to create a vault\n"
 "    \n"
-"try participating in other communities on tippr for a little while first before creating your own. please post to /r/help if you need more information about this restriction, or if you require a specific exemption you can [contact the admins](/contact) to request one.\n"
+"try participating in other communities on tippr for a little while first before creating your own. please post to /v/help if you need more information about this restriction, or if you require a specific exemption you can [contact the admins](/contact) to request one.\n"
 msgstr "\n"
 "# Ваша учетная запись слишком нова для создания сабреддита\n"
 " \n"
-"попробуйте поучаствовать в других сообществах на tippr перед тем, как создавать свое собственное. Для получения более подробной информации о данном ограничении, напишите в /r/help. Если вы считаете, что ваш случай исключительный, вы можете  [связаться с администрацией](/contact).\n"
+"попробуйте поучаствовать в других сообществах на tippr перед тем, как создавать свое собственное. Для получения более подробной информации о данном ограничении, напишите в /v/help. Если вы считаете, что ваш случай исключительный, вы можете  [связаться с администрацией](/contact).\n"
 
 #: r2/templates/createvault.html:57
 msgid "no spaces, e.g., \"books\" or \"bookclub\". avoid using solely trademarked names, e.g. use \"FansOfAcme\" instead of \"Acme\". once chosen, this name cannot be changed."
@@ -7162,8 +7162,8 @@ msgid "hide help"
 msgstr "убрать справку"
 
 #: r2/templates/createvault.html:479
-msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.tippr.com. You will be able to access your tippr through your domain."
-msgstr "Имеете собственный домен? Введите его здесь и обратитесь к вашему DNS провайдеру для добавления записи CNAME в ваш домен на rhs.tippr.com. Вы сможете заходить на реддит через ваш домен."
+msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.tippr.net. You will be able to access your tippr through your domain."
+msgstr "Имеете собственный домен? Введите его здесь и обратитесь к вашему DNS провайдеру для добавления записи CNAME в ваш домен на rhs.tippr.net. Вы сможете заходить на реддит через ваш домен."
 
 #: r2/templates/createvault.html:486
 msgid "look and feel"
@@ -8156,8 +8156,8 @@ msgid "to"
 msgstr "к"
 
 #: r2/templates/messagecompose.html:64
-msgid "(username, or /r/name for that vault's moderators)"
-msgstr "(имя пользователя или /r/имясабреддита для модераторов этого сообщества)"
+msgid "(username, or /v/name for that vault's moderators)"
+msgstr "(имя пользователя или /v/имясабреддита для модераторов этого сообщества)"
 
 #: r2/templates/messagecompose.html:82
 msgid "subject"
@@ -8215,8 +8215,8 @@ msgid "you are invited to become a moderator. %(action)s"
 msgstr "вы приглашены стать модератором. %(action)s"
 
 #: r2/templates/modsrinfobar.html:31
-msgid "/r/mod shows only vaults you moderate."
-msgstr "/r/mod показывает только модерируемые вами сабреддиты."
+msgid "/v/mod shows only vaults you moderate."
+msgstr "/v/mod показывает только модерируемые вами сабреддиты."
 
 #: r2/templates/modsrinfobar.html:34
 msgid "filter out vaults"

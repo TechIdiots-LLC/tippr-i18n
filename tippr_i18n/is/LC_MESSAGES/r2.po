@@ -2585,8 +2585,8 @@ msgstr "I understand and agree that registration on or use of this site constitu
 
 #: r2/lib/strings.py:83
 #, python-format
-msgid "to view tippr with only submissions from your friends, use [tippr.com/r/friends](%s)"
-msgstr "to view tippr with only submissions from your friends, use [tippr.com/r/friends](%s)"
+msgid "to view tippr with only submissions from your friends, use [tippr.net/v/friends](%s)"
+msgstr "to view tippr with only submissions from your friends, use [tippr.net/v/friends](%s)"
 
 #: r2/lib/strings.py:85
 msgid "your vault has been created"
@@ -2934,16 +2934,16 @@ msgid "multivault of vaults you moderate"
 msgstr "multivault of vaults you moderate"
 
 #: r2/lib/strings.py:185
-msgid "/r/all displays content from all of tippr, including vaults you aren't subscribed to. Some vaults have chosen to exclude themselves from /r/all."
-msgstr "/r/all displays content from all of tippr, including vaults you aren't subscribed to. Some vaults have chosen to exclude themselves from /r/all."
+msgid "/v/all displays content from all of tippr, including vaults you aren't subscribed to. Some vaults have chosen to exclude themselves from /v/all."
+msgstr "/v/all displays content from all of tippr, including vaults you aren't subscribed to. Some vaults have chosen to exclude themselves from /v/all."
 
 #: r2/lib/strings.py:186
-msgid "Displaying content from /r/all of tippr, except the following vaults:"
-msgstr "Displaying content from /r/all of tippr, except the following vaults:"
+msgid "Displaying content from /v/all of tippr, except the following vaults:"
+msgstr "Displaying content from /v/all of tippr, except the following vaults:"
 
 #: r2/lib/strings.py:187
-msgid "Filtering /r/all is a feature only available to [tippr gold](/gold/about) subscribers. Displaying unfiltered results from /r/all."
-msgstr "Filtering /r/all is a feature only available to [tippr gold](/gold/about) subscribers. Displaying unfiltered results from /r/all."
+msgid "Filtering /v/all is a feature only available to [tippr gold](/gold/about) subscribers. Displaying unfiltered results from /v/all."
+msgstr "Filtering /v/all is a feature only available to [tippr gold](/gold/about) subscribers. Displaying unfiltered results from /v/all."
 
 #: r2/lib/strings.py:265 r2/templates/comment.htmllite:58
 #: r2/templates/linkinfobar.html:48 r2/templates/searchresultlink.html:89
@@ -3509,8 +3509,8 @@ msgstr "suggestions:"
 
 #: r2/lib/pages/pages.py:4143
 #, python-format
-msgid "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/r/selfserve](%(selfserve)s)."
-msgstr "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/r/selfserve](%(selfserve)s)."
+msgid "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/v/selfserve](%(selfserve)s)."
+msgstr "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/v/selfserve](%(selfserve)s)."
 
 #: r2/lib/pages/pages.py:4640
 msgid "start date"
@@ -3793,13 +3793,13 @@ msgstr "revisions"
 
 #: r2/lib/pages/wiki.py:202
 #, python-format
-msgid "Viewing recent revisions for /r/%s"
-msgstr "Viewing recent revisions for /r/%s"
+msgid "Viewing recent revisions for /v/%s"
+msgstr "Viewing recent revisions for /v/%s"
 
 #: r2/lib/pages/wiki.py:208
 #, python-format
-msgid "Viewing pages for /r/%s"
-msgstr "Viewing pages for /r/%s"
+msgid "Viewing pages for /v/%s"
+msgstr "Viewing pages for /v/%s"
 
 #: r2/lib/pages/wiki.py:209
 msgid "Below is a list of pages in this wiki visible to you in this vault."
@@ -3964,8 +3964,8 @@ msgstr "Your subscription to tippr gold will be expiring soon."
 
 #: r2/models/builder.py:124 r2/templates/message.html:76
 #, python-format
-msgid "moderator of /r/%(tippr)s, speaking officially"
-msgstr "moderator of /r/%(tippr)s, speaking officially"
+msgid "moderator of /v/%(tippr)s, speaking officially"
+msgstr "moderator of /v/%(tippr)s, speaking officially"
 
 #: r2/models/builder.py:195
 #, python-format
@@ -4172,8 +4172,8 @@ msgstr "blocked users"
 
 #: r2/models/listing.py:192
 #, python-format
-msgid "users banned from /r/%(vault)s"
-msgstr "users banned from /r/%(vault)s"
+msgid "users banned from /v/%(vault)s"
+msgstr "users banned from /v/%(vault)s"
 
 #: r2/models/listing.py:210
 msgid "ban wiki contibutors"
@@ -4181,13 +4181,13 @@ msgstr "ban wiki contibutors"
 
 #: r2/models/listing.py:214
 #, python-format
-msgid "wiki contibutors banned from /r/%(vault)s"
-msgstr "wiki contibutors banned from /r/%(vault)s"
+msgid "wiki contibutors banned from /v/%(vault)s"
+msgstr "wiki contibutors banned from /v/%(vault)s"
 
 #: r2/models/listing.py:222
 #, python-format
-msgid "approved submitters for /r/%(vault)s"
-msgstr "approved submitters for /r/%(vault)s"
+msgid "approved submitters for /v/%(vault)s"
+msgstr "approved submitters for /v/%(vault)s"
 
 #: r2/models/listing.py:227
 msgid "add approved submitter"
@@ -4195,8 +4195,8 @@ msgstr "add approved submitter"
 
 #: r2/models/listing.py:234
 #, python-format
-msgid "approved wiki contributors for /r/%(vault)s"
-msgstr "approved wiki contributors for /r/%(vault)s"
+msgid "approved wiki contributors for /v/%(vault)s"
+msgstr "approved wiki contributors for /v/%(vault)s"
 
 #: r2/models/listing.py:239
 msgid "add approved wiki contributor"
@@ -4222,8 +4222,8 @@ msgstr "force add moderator"
 
 #: r2/models/listing.py:281
 #, python-format
-msgid "moderators of /r/%(vault)s"
-msgstr "moderators of /r/%(vault)s"
+msgid "moderators of /v/%(vault)s"
+msgstr "moderators of /v/%(vault)s"
 
 #: r2/models/mail_queue.py:336
 #, python-format
@@ -4841,8 +4841,8 @@ msgstr "%s vaults curated by /u/%s"
 
 #: r2/models/vault.py:2420
 #, python-format
-msgid "%(domain)s on %(tippr.com)s"
-msgstr "%(domain)s on %(tippr.com)s"
+msgid "%(domain)s on %(tippr.net)s"
+msgstr "%(domain)s on %(tippr.net)s"
 
 #: r2/models/token.py:107
 msgid "Any Scope"
@@ -5780,11 +5780,11 @@ msgstr "\"In 5-billion years the Sun will expand and engulf our orbit as the cha
 msgid "\n"
 "# your account is too new to create a vault\n"
 "    \n"
-"try participating in other communities on tippr for a little while first before creating your own. please post to /r/help if you need more information about this restriction, or if you require a specific exemption you can [contact the admins](/contact) to request one.\n"
+"try participating in other communities on tippr for a little while first before creating your own. please post to /v/help if you need more information about this restriction, or if you require a specific exemption you can [contact the admins](/contact) to request one.\n"
 msgstr "\n"
 "# your account is too new to create a vault\n"
 "    \n"
-"try participating in other communities on tippr for a little while first before creating your own. please post to /r/help if you need more information about this restriction, or if you require a specific exemption you can [contact the admins](/contact) to request one.\n"
+"try participating in other communities on tippr for a little while first before creating your own. please post to /v/help if you need more information about this restriction, or if you require a specific exemption you can [contact the admins](/contact) to request one.\n"
 
 #: r2/templates/createvault.html:53
 msgid "no spaces, e.g., slashdot"
@@ -5980,8 +5980,8 @@ msgid "viewers must be over eighteen years old"
 msgstr "viewers must be over eighteen years old"
 
 #: r2/templates/createvault.html:313
-msgid "allow this vault to be included /r/all as well as the default and trending lists"
-msgstr "allow this vault to be included /r/all as well as the default and trending lists"
+msgid "allow this vault to be included /v/all as well as the default and trending lists"
+msgstr "allow this vault to be included /v/all as well as the default and trending lists"
 
 #: r2/templates/createvault.html:324
 msgid "show thumbnail images of content"
@@ -6033,8 +6033,8 @@ msgid "hide help"
 msgstr "hide help"
 
 #: r2/templates/createvault.html:435
-msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.tippr.com. You will be able to access your tippr through your domain."
-msgstr "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.tippr.com. You will be able to access your tippr through your domain."
+msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.tippr.net. You will be able to access your tippr through your domain."
+msgstr "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.tippr.net. You will be able to access your tippr through your domain."
 
 #: r2/templates/createvault.html:442
 msgid "look and feel"
@@ -6127,8 +6127,8 @@ msgstr "Felicitations on this momentous occasion!"
 
 #: r2/templates/errorpage.html:41
 #, python-format
-msgid "a message from the moderators of /r/%s"
-msgstr "a message from the moderators of /r/%s"
+msgid "a message from the moderators of /v/%s"
+msgstr "a message from the moderators of /v/%s"
 
 #: r2/templates/errorpage.html:48
 msgid "send a message to the moderators"
@@ -7021,8 +7021,8 @@ msgid "you are invited to become a moderator. %(action)s"
 msgstr "you are invited to become a moderator. %(action)s"
 
 #: r2/templates/modsrinfobar.html:31
-msgid "/r/mod shows only vaults you moderate."
-msgstr "/r/mod shows only vaults you moderate."
+msgid "/v/mod shows only vaults you moderate."
+msgstr "/v/mod shows only vaults you moderate."
 
 #: r2/templates/modsrinfobar.html:34
 msgid "filter out vaults"
@@ -9033,8 +9033,8 @@ msgstr "self-serve advertisement tool"
 
 #: r2/templates/spotlightlisting.html:68
 #, python-format
-msgid "Use of this tool is open to all members of tippr.com, and for as little as %(price)s you can advertise in this area. %%(get_started)s"
-msgstr "Use of this tool is open to all members of tippr.com, and for as little as %(price)s you can advertise in this area. %%(get_started)s"
+msgid "Use of this tool is open to all members of tippr.net, and for as little as %(price)s you can advertise in this area. %%(get_started)s"
+msgstr "Use of this tool is open to all members of tippr.net, and for as little as %(price)s you can advertise in this area. %%(get_started)s"
 
 #: r2/templates/spotlightlisting.html:69
 msgid "Get started"
