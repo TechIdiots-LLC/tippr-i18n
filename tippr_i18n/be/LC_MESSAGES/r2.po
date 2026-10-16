@@ -2108,19 +2108,19 @@ msgid "%(reason)s"
 msgstr "%(reason)s"
 
 #: r2/lib/errors.py:168
-msgid "that multitippr doesn't exist"
+msgid "that multivault doesn't exist"
 msgstr "гэты мультырэддыт не існуе"
 
 #: r2/lib/errors.py:169
-msgid "that multitippr already exists"
+msgid "that multivault already exists"
 msgstr "гэты мультырэддыт ужо існуе"
 
 #: r2/lib/errors.py:170
-msgid "you can't change that multitippr"
+msgid "you can't change that multivault"
 msgstr "вы не можаце зьмяніць гэты мультырэддыт"
 
 #: r2/lib/errors.py:171
-msgid "no more space for vaults in that multitippr"
+msgid "no more space for vaults in that multivault"
 msgstr "гэты мультырэддыт больш ня мае месца для сабрэддытаў"
 
 #: r2/lib/errors.py:172
@@ -3488,11 +3488,11 @@ msgstr "\n"
 "Заўвага: есьць некалькі месцаў знадворку вашага сабрэддыта, дзе хтосьці можа клікнуць \"падпісацца\", таму магчыма (але не дужа), што колькасьць падпісак можа быць больш за колькасьць унікальных наведваньняў за якісьці дзень.\n"
 
 #: r2/lib/strings.py:184
-msgid "multitippr of your subscriptions"
+msgid "multivault of your subscriptions"
 msgstr "мультырэддыт з вашых падпісак"
 
 #: r2/lib/strings.py:185
-msgid "multitippr of vaults you moderate"
+msgid "multivault of vaults you moderate"
 msgstr "мультырэддыт з сабрэддытаў, якія вы мадэруеце"
 
 #: r2/lib/strings.py:187
@@ -3925,11 +3925,11 @@ msgid "trophy case"
 msgstr "палічка трафэяў"
 
 #: r2/lib/pages/pages.py:2958
-msgid "public multitipprs"
+msgid "public multivaults"
 msgstr "публічныя мультырэддыты"
 
 #: r2/lib/pages/pages.py:2965
-msgid "hidden multitipprs"
+msgid "hidden multivaults"
 msgstr "схаваныя мультырэддыты"
 
 #: r2/lib/pages/pages.py:2988
@@ -7987,7 +7987,7 @@ msgid "No Thanks"
 msgstr ""
 
 #: r2/templates/listingchooser.html:45
-msgid "multitipprs"
+msgid "multivaults"
 msgstr ""
 
 #: r2/templates/listingchooser.html:48
@@ -8294,7 +8294,7 @@ msgid "created by %(user)s"
 msgstr ""
 
 #: r2/templates/multiinfobar.html:144
-msgid "a multitippr for"
+msgid "a multivault for"
 msgstr ""
 
 #: r2/templates/multiinfobar.html:153

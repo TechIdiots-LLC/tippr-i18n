@@ -2112,19 +2112,19 @@ msgid "%(reason)s"
 msgstr "%(reason)s"
 
 #: r2/lib/errors.py:168
-msgid "that multitippr doesn't exist"
+msgid "that multivault doesn't exist"
 msgstr "такого мультиреддита не существует"
 
 #: r2/lib/errors.py:169
-msgid "that multitippr already exists"
+msgid "that multivault already exists"
 msgstr "такой мультиреддит уже существует"
 
 #: r2/lib/errors.py:170
-msgid "you can't change that multitippr"
+msgid "you can't change that multivault"
 msgstr "вы не можете изменить этот мультиреддит"
 
 #: r2/lib/errors.py:171
-msgid "no more space for vaults in that multitippr"
+msgid "no more space for vaults in that multivault"
 msgstr "в этом мультиреддите больше нет места для сабреддитов"
 
 #: r2/lib/errors.py:172
@@ -3492,11 +3492,11 @@ msgstr "\n"
 "Примечание: вне вашего сабреддита есть несколько мест, где пользователь может нажать ссылку \"подписаться\", поэтому возможна (хоть и маловероятна) ситуация, когда количество подписок за день превышает количество уникальных посетителей.\n"
 
 #: r2/lib/strings.py:184
-msgid "multitippr of your subscriptions"
+msgid "multivault of your subscriptions"
 msgstr "мультиреддит из ваших подписок"
 
 #: r2/lib/strings.py:185
-msgid "multitippr of vaults you moderate"
+msgid "multivault of vaults you moderate"
 msgstr "мультиреддит из модерируемых вами сабреддитов"
 
 #: r2/lib/strings.py:187
@@ -3929,11 +3929,11 @@ msgid "trophy case"
 msgstr "трофеи"
 
 #: r2/lib/pages/pages.py:2958
-msgid "public multitipprs"
+msgid "public multivaults"
 msgstr "публичные мультиреддиты"
 
 #: r2/lib/pages/pages.py:2965
-msgid "hidden multitipprs"
+msgid "hidden multivaults"
 msgstr "скрытые мультиреддиты"
 
 #: r2/lib/pages/pages.py:2988
@@ -7994,7 +7994,7 @@ msgid "No Thanks"
 msgstr ""
 
 #: r2/templates/listingchooser.html:45
-msgid "multitipprs"
+msgid "multivaults"
 msgstr "мультиреддиты"
 
 #: r2/templates/listingchooser.html:48
@@ -8301,7 +8301,7 @@ msgid "created by %(user)s"
 msgstr "создано %(user)s"
 
 #: r2/templates/multiinfobar.html:144
-msgid "a multitippr for"
+msgid "a multivault for"
 msgstr "мультиреддит существует"
 
 #: r2/templates/multiinfobar.html:153

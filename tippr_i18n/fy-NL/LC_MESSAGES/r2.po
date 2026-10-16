@@ -2088,20 +2088,20 @@ msgid "%(reason)s"
 msgstr "%(reason)s"
 
 #: r2/lib/errors.py:167
-msgid "that multitippr doesn't exist"
-msgstr "dy multitippr bestiet net"
+msgid "that multivault doesn't exist"
+msgstr "dy multivault bestiet net"
 
 #: r2/lib/errors.py:168
-msgid "that multitippr already exists"
-msgstr "dy multitippr bestiet al"
+msgid "that multivault already exists"
+msgstr "dy multivault bestiet al"
 
 #: r2/lib/errors.py:169
-msgid "you can't change that multitippr"
-msgstr "dy multitippr kinsto net oanpasse"
+msgid "you can't change that multivault"
+msgstr "dy multivault kinsto net oanpasse"
 
 #: r2/lib/errors.py:170
-msgid "no more space for vaults in that multitippr"
-msgstr "gjin romte mear foar vaults in dy multitippr"
+msgid "no more space for vaults in that multivault"
+msgstr "gjin romte mear foar vaults in dy multivault"
 
 #: r2/lib/errors.py:171
 #, python-format
@@ -3466,12 +3466,12 @@ msgstr "\n"
 "Opmerking: Der binne en in pear plakken buten dyn vault dêr't it mooglik is in abonnemint te nimmen, it soe hjirtroch kinne (al is de kâns net grut) dat it oantal nije abonneminten grutter is as it oantal unike besites op in beskate dei.\n"
 
 #: r2/lib/strings.py:184
-msgid "multitippr of your subscriptions"
-msgstr "multitippr fan dyn abonneminten"
+msgid "multivault of your subscriptions"
+msgstr "multivault fan dyn abonneminten"
 
 #: r2/lib/strings.py:185
-msgid "multitippr of vaults you moderate"
-msgstr "multitippr fan de vaults wêrsto bedimmer bist"
+msgid "multivault of vaults you moderate"
+msgstr "multivault fan de vaults wêrsto bedimmer bist"
 
 #: r2/lib/strings.py:187
 msgid "/r/all displays content from all of tippr, including vaults you aren't subscribed to. Some vaults have chosen to exclude themselves from /r/all."
@@ -3878,12 +3878,12 @@ msgid "trophy case"
 msgstr "trofeekast"
 
 #: r2/lib/pages/pages.py:2835
-msgid "public multitipprs"
-msgstr "publike multitipprs"
+msgid "public multivaults"
+msgstr "publike multivaults"
 
 #: r2/lib/pages/pages.py:2842
-msgid "hidden multitipprs"
-msgstr "ferside multitipprs"
+msgid "hidden multivaults"
+msgstr "ferside multivaults"
 
 #: r2/lib/pages/pages.py:2864
 msgid "moderator of"
@@ -7827,8 +7827,8 @@ msgid "No thanks"
 msgstr ""
 
 #: r2/templates/listingchooser.html:45
-msgid "multitipprs"
-msgstr "multitipprs"
+msgid "multivaults"
+msgstr "multivaults"
 
 #: r2/templates/listingchooser.html:48
 msgid "new! create sets of vaults to view together."
@@ -8150,7 +8150,7 @@ msgid "created by %(user)s"
 msgstr ""
 
 #: r2/templates/multiinfobar.html:143
-msgid "a multitippr for"
+msgid "a multivault for"
 msgstr ""
 
 #: r2/templates/multiinfobar.html:152

@@ -2092,20 +2092,20 @@ msgid "%(reason)s"
 msgstr "%(reason)s"
 
 #: r2/lib/errors.py:167
-msgid "that multitippr doesn't exist"
-msgstr "det multitippr eksisterer ikke"
+msgid "that multivault doesn't exist"
+msgstr "det multivault eksisterer ikke"
 
 #: r2/lib/errors.py:168
-msgid "that multitippr already exists"
-msgstr "det multitippr eksisterer allerede"
+msgid "that multivault already exists"
+msgstr "det multivault eksisterer allerede"
 
 #: r2/lib/errors.py:169
-msgid "you can't change that multitippr"
-msgstr "du kan ikke ændre det multitippr"
+msgid "you can't change that multivault"
+msgstr "du kan ikke ændre det multivault"
 
 #: r2/lib/errors.py:170
-msgid "no more space for vaults in that multitippr"
-msgstr "ikke mere plads til vaults i den multitippr"
+msgid "no more space for vaults in that multivault"
+msgstr "ikke mere plads til vaults i den multivault"
 
 #: r2/lib/errors.py:171
 #, python-format
@@ -3471,12 +3471,12 @@ msgstr "\n"
 "Bemærk: Der er et par steder udenfor dit vault, hvor nogen vil kunne klikke \"abonnér\", så er muligt (men dog usandsynligt) at abonnementsantallet kan overskride det unikke antal på en given dag.\n"
 
 #: r2/lib/strings.py:184
-msgid "multitippr of your subscriptions"
-msgstr "multitippr af dine abonnementer"
+msgid "multivault of your subscriptions"
+msgstr "multivault af dine abonnementer"
 
 #: r2/lib/strings.py:185
-msgid "multitippr of vaults you moderate"
-msgstr "multitippr af vaults du modererer"
+msgid "multivault of vaults you moderate"
+msgstr "multivault af vaults du modererer"
 
 #: r2/lib/strings.py:187
 msgid "/r/all displays content from all of tippr, including vaults you aren't subscribed to. Some vaults have chosen to exclude themselves from /r/all."
@@ -3883,12 +3883,12 @@ msgid "trophy case"
 msgstr "trofæer"
 
 #: r2/lib/pages/pages.py:2835
-msgid "public multitipprs"
-msgstr "offentlige multitipprs"
+msgid "public multivaults"
+msgstr "offentlige multivaults"
 
 #: r2/lib/pages/pages.py:2842
-msgid "hidden multitipprs"
-msgstr "skjulte multitipprs"
+msgid "hidden multivaults"
+msgstr "skjulte multivaults"
 
 #: r2/lib/pages/pages.py:2864
 msgid "moderator of"
@@ -7832,8 +7832,8 @@ msgid "No thanks"
 msgstr ""
 
 #: r2/templates/listingchooser.html:45
-msgid "multitipprs"
-msgstr "multitipprs"
+msgid "multivaults"
+msgstr "multivaults"
 
 #: r2/templates/listingchooser.html:48
 msgid "new! create sets of vaults to view together."
@@ -8155,8 +8155,8 @@ msgid "created by %(user)s"
 msgstr "oprettet af %(user)s"
 
 #: r2/templates/multiinfobar.html:143
-msgid "a multitippr for"
-msgstr "en multitippr i"
+msgid "a multivault for"
+msgstr "en multivault i"
 
 #: r2/templates/multiinfobar.html:152
 msgid "people also added:"

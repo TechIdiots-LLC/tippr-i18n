@@ -2098,20 +2098,20 @@ msgid "%(reason)s"
 msgstr "%(reason)s"
 
 #: r2/lib/errors.py:167
-msgid "that multitippr doesn't exist"
-msgstr "そのmultitipprは存在しません"
+msgid "that multivault doesn't exist"
+msgstr "そのmultivaultは存在しません"
 
 #: r2/lib/errors.py:168
-msgid "that multitippr already exists"
-msgstr "そのmultitipprは既に存在します"
+msgid "that multivault already exists"
+msgstr "そのmultivaultは既に存在します"
 
 #: r2/lib/errors.py:169
-msgid "you can't change that multitippr"
-msgstr "あなたはそのmultitipprを変更できません"
+msgid "you can't change that multivault"
+msgstr "あなたはそのmultivaultを変更できません"
 
 #: r2/lib/errors.py:170
-msgid "no more space for vaults in that multitippr"
-msgstr "このmultitipprにはvaultのための空きスペースがありません。"
+msgid "no more space for vaults in that multivault"
+msgstr "このmultivaultにはvaultのための空きスペースがありません。"
 
 #: r2/lib/errors.py:171
 #, python-format
@@ -3474,12 +3474,12 @@ msgstr "\n"
 "注記: このvaultの外部で「登録」ボタンをクリックできる場所がいくつか存在します、そのためその日の登録数として計上された数を超えている場合が(普通は起こりえませんが)あります。\n"
 
 #: r2/lib/strings.py:184
-msgid "multitippr of your subscriptions"
-msgstr "あなたの登録するmultitippr"
+msgid "multivault of your subscriptions"
+msgstr "あなたの登録するmultivault"
 
 #: r2/lib/strings.py:185
-msgid "multitippr of vaults you moderate"
-msgstr "あなたがモデレートしているvaultのmultitippr"
+msgid "multivault of vaults you moderate"
+msgstr "あなたがモデレートしているvaultのmultivault"
 
 #: r2/lib/strings.py:187
 msgid "/r/all displays content from all of tippr, including vaults you aren't subscribed to. Some vaults have chosen to exclude themselves from /r/all."
@@ -3869,11 +3869,11 @@ msgid "trophy case"
 msgstr "トロフィーケース"
 
 #: r2/lib/pages/pages.py:2835
-msgid "public multitipprs"
+msgid "public multivaults"
 msgstr "公開中のマルチレディット"
 
 #: r2/lib/pages/pages.py:2842
-msgid "hidden multitipprs"
+msgid "hidden multivaults"
 msgstr "非公開のマルチレディット"
 
 #: r2/lib/pages/pages.py:2864
@@ -7807,7 +7807,7 @@ msgid "No thanks"
 msgstr ""
 
 #: r2/templates/listingchooser.html:45
-msgid "multitipprs"
+msgid "multivaults"
 msgstr "マルチレディット"
 
 #: r2/templates/listingchooser.html:48
@@ -8130,8 +8130,8 @@ msgid "created by %(user)s"
 msgstr "%(user)s が作成"
 
 #: r2/templates/multiinfobar.html:143
-msgid "a multitippr for"
-msgstr "次への multitippr :"
+msgid "a multivault for"
+msgstr "次への multivault :"
 
 #: r2/templates/multiinfobar.html:152
 msgid "people also added:"

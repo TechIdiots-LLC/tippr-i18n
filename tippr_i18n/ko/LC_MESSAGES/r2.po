@@ -2089,19 +2089,19 @@ msgid "%(reason)s"
 msgstr "%(reason)s"
 
 #: r2/lib/errors.py:167
-msgid "that multitippr doesn't exist"
-msgstr "Multitippr이 존재하지 않습니다."
+msgid "that multivault doesn't exist"
+msgstr "Multivault이 존재하지 않습니다."
 
 #: r2/lib/errors.py:168
-msgid "that multitippr already exists"
-msgstr "이미 존재하는 Multitippr입니다."
+msgid "that multivault already exists"
+msgstr "이미 존재하는 Multivault입니다."
 
 #: r2/lib/errors.py:169
-msgid "you can't change that multitippr"
-msgstr "바꿀 수 없는 Multitippr입니다."
+msgid "you can't change that multivault"
+msgstr "바꿀 수 없는 Multivault입니다."
 
 #: r2/lib/errors.py:170
-msgid "no more space for vaults in that multitippr"
+msgid "no more space for vaults in that multivault"
 msgstr "더 이상 멀티레딧에 서브레딧을 추가할 공간이 없습니다."
 
 #: r2/lib/errors.py:171
@@ -3458,11 +3458,11 @@ msgid "\n"
 msgstr ""
 
 #: r2/lib/strings.py:184
-msgid "multitippr of your subscriptions"
+msgid "multivault of your subscriptions"
 msgstr "당신의 구독사항의 멀티레딧"
 
 #: r2/lib/strings.py:185
-msgid "multitippr of vaults you moderate"
+msgid "multivault of vaults you moderate"
 msgstr "당신의 관리하는 서브레딧들의 멀티레딧"
 
 #: r2/lib/strings.py:187
@@ -3853,11 +3853,11 @@ msgid "trophy case"
 msgstr "트로피 케이스"
 
 #: r2/lib/pages/pages.py:2835
-msgid "public multitipprs"
+msgid "public multivaults"
 msgstr "공용 멀티레딧"
 
 #: r2/lib/pages/pages.py:2842
-msgid "hidden multitipprs"
+msgid "hidden multivaults"
 msgstr "숨겨진 멀티레딧"
 
 #: r2/lib/pages/pages.py:2864
@@ -7788,7 +7788,7 @@ msgid "No thanks"
 msgstr ""
 
 #: r2/templates/listingchooser.html:45
-msgid "multitipprs"
+msgid "multivaults"
 msgstr "멀티레딧"
 
 #: r2/templates/listingchooser.html:48
@@ -8111,7 +8111,7 @@ msgid "created by %(user)s"
 msgstr ""
 
 #: r2/templates/multiinfobar.html:143
-msgid "a multitippr for"
+msgid "a multivault for"
 msgstr ""
 
 #: r2/templates/multiinfobar.html:152

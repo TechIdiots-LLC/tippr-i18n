@@ -2103,19 +2103,19 @@ msgid "%(reason)s"
 msgstr "%(reason)s"
 
 #: r2/lib/errors.py:168
-msgid "that multitippr doesn't exist"
+msgid "that multivault doesn't exist"
 msgstr "এই মাল্টিরেডিটের অস্তিত্ব নেই"
 
 #: r2/lib/errors.py:169
-msgid "that multitippr already exists"
+msgid "that multivault already exists"
 msgstr "এই মাল্টিরেডিটটির অস্তিত্ব আগে থেকেই আছে"
 
 #: r2/lib/errors.py:170
-msgid "you can't change that multitippr"
+msgid "you can't change that multivault"
 msgstr "আপনি এই মাল্টিরেডিট বদলাতে পারবেন না"
 
 #: r2/lib/errors.py:171
-msgid "no more space for vaults in that multitippr"
+msgid "no more space for vaults in that multivault"
 msgstr "এই মাল্টিরেডিটে আর সাবরেডিটের জন্য যায়গা নেই"
 
 #: r2/lib/errors.py:172
@@ -3474,11 +3474,11 @@ msgid "\n"
 msgstr ""
 
 #: r2/lib/strings.py:184
-msgid "multitippr of your subscriptions"
+msgid "multivault of your subscriptions"
 msgstr "আপনার সাবস্ক্রিপশনগুলির মাল্টিরেডিট"
 
 #: r2/lib/strings.py:185
-msgid "multitippr of vaults you moderate"
+msgid "multivault of vaults you moderate"
 msgstr "সাবরেডিটগুলির মাল্টিরেডিট যেগুলির আপনি মডারেটর"
 
 #: r2/lib/strings.py:187
@@ -3894,11 +3894,11 @@ msgid "trophy case"
 msgstr "জয়চিহ্নর যায়গা"
 
 #: r2/lib/pages/pages.py:2958
-msgid "public multitipprs"
+msgid "public multivaults"
 msgstr "সার্বজনিক মাল্টিরেডিট"
 
 #: r2/lib/pages/pages.py:2965
-msgid "hidden multitipprs"
+msgid "hidden multivaults"
 msgstr ""
 
 #: r2/lib/pages/pages.py:2988
@@ -7942,7 +7942,7 @@ msgid "No Thanks"
 msgstr ""
 
 #: r2/templates/listingchooser.html:45
-msgid "multitipprs"
+msgid "multivaults"
 msgstr ""
 
 #: r2/templates/listingchooser.html:48
@@ -8249,7 +8249,7 @@ msgid "created by %(user)s"
 msgstr ""
 
 #: r2/templates/multiinfobar.html:144
-msgid "a multitippr for"
+msgid "a multivault for"
 msgstr ""
 
 #: r2/templates/multiinfobar.html:153

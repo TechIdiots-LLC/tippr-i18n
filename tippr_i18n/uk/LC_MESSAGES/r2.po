@@ -2093,19 +2093,19 @@ msgid "%(reason)s"
 msgstr "%(reason)s"
 
 #: r2/lib/errors.py:167
-msgid "that multitippr doesn't exist"
+msgid "that multivault doesn't exist"
 msgstr "такий мультиреддіт не існує"
 
 #: r2/lib/errors.py:168
-msgid "that multitippr already exists"
+msgid "that multivault already exists"
 msgstr "такий мультиреддіт уже існує"
 
 #: r2/lib/errors.py:169
-msgid "you can't change that multitippr"
+msgid "you can't change that multivault"
 msgstr "ви не можете змінити той мультиреддит"
 
 #: r2/lib/errors.py:170
-msgid "no more space for vaults in that multitippr"
+msgid "no more space for vaults in that multivault"
 msgstr "немає місця для нових сабреддітів в тому мультиреддіті"
 
 #: r2/lib/errors.py:171
@@ -3472,11 +3472,11 @@ msgstr "\n"
 "Примітка: є пара місць за межами вашого сабреддіту, де хтось може натиснуті «підписатись», тобто є можливим (хоч і не дуже ймовірним), що рахунок підписок може перевищити кількість унікальних відвідувачів за якийсь день.\n"
 
 #: r2/lib/strings.py:184
-msgid "multitippr of your subscriptions"
+msgid "multivault of your subscriptions"
 msgstr "мультиреддіт ваших підписок"
 
 #: r2/lib/strings.py:185
-msgid "multitippr of vaults you moderate"
+msgid "multivault of vaults you moderate"
 msgstr "мультиреддіт сабреддітів, які ви модеруєте"
 
 #: r2/lib/strings.py:187
@@ -3901,11 +3901,11 @@ msgid "trophy case"
 msgstr "панель трофеїв"
 
 #: r2/lib/pages/pages.py:2835
-msgid "public multitipprs"
+msgid "public multivaults"
 msgstr "загальнодоступні мультиреддіти"
 
 #: r2/lib/pages/pages.py:2842
-msgid "hidden multitipprs"
+msgid "hidden multivaults"
 msgstr "приховані мультиреддіти"
 
 #: r2/lib/pages/pages.py:2864
@@ -7867,7 +7867,7 @@ msgid "No thanks"
 msgstr ""
 
 #: r2/templates/listingchooser.html:45
-msgid "multitipprs"
+msgid "multivaults"
 msgstr "мультиреддіти"
 
 #: r2/templates/listingchooser.html:48
@@ -8190,7 +8190,7 @@ msgid "created by %(user)s"
 msgstr "створив %(user)s"
 
 #: r2/templates/multiinfobar.html:143
-msgid "a multitippr for"
+msgid "a multivault for"
 msgstr "мультиреддіт для"
 
 #: r2/templates/multiinfobar.html:152

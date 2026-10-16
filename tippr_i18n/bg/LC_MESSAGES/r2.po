@@ -2105,19 +2105,19 @@ msgid "%(reason)s"
 msgstr "%(reason)s"
 
 #: r2/lib/errors.py:168
-msgid "that multitippr doesn't exist"
-msgstr "този multitippr не съществува"
+msgid "that multivault doesn't exist"
+msgstr "този multivault не съществува"
 
 #: r2/lib/errors.py:169
-msgid "that multitippr already exists"
-msgstr "този multitippr вече съществува"
+msgid "that multivault already exists"
+msgstr "този multivault вече съществува"
 
 #: r2/lib/errors.py:170
-msgid "you can't change that multitippr"
-msgstr "не можете да промените този multitippr"
+msgid "you can't change that multivault"
+msgstr "не можете да промените този multivault"
 
 #: r2/lib/errors.py:171
-msgid "no more space for vaults in that multitippr"
+msgid "no more space for vaults in that multivault"
 msgstr "няма повече място за събредити в този мултиредит"
 
 #: r2/lib/errors.py:172
@@ -3476,11 +3476,11 @@ msgid "\n"
 msgstr ""
 
 #: r2/lib/strings.py:184
-msgid "multitippr of your subscriptions"
+msgid "multivault of your subscriptions"
 msgstr "мултиредит с твоите абонаменти"
 
 #: r2/lib/strings.py:185
-msgid "multitippr of vaults you moderate"
+msgid "multivault of vaults you moderate"
 msgstr "мултиредит със събредити, които модерираш"
 
 #: r2/lib/strings.py:187
@@ -3896,11 +3896,11 @@ msgid "trophy case"
 msgstr "трофеи"
 
 #: r2/lib/pages/pages.py:2958
-msgid "public multitipprs"
+msgid "public multivaults"
 msgstr "публични мултиредити"
 
 #: r2/lib/pages/pages.py:2965
-msgid "hidden multitipprs"
+msgid "hidden multivaults"
 msgstr "скрити мултиреддити"
 
 #: r2/lib/pages/pages.py:2988
@@ -7944,8 +7944,8 @@ msgid "No Thanks"
 msgstr ""
 
 #: r2/templates/listingchooser.html:45
-msgid "multitipprs"
-msgstr "multitippr-и"
+msgid "multivaults"
+msgstr "multivault-и"
 
 #: r2/templates/listingchooser.html:48
 msgid "new! create sets of vaults to view together."
@@ -8251,8 +8251,8 @@ msgid "created by %(user)s"
 msgstr ""
 
 #: r2/templates/multiinfobar.html:144
-msgid "a multitippr for"
-msgstr "multitippr за"
+msgid "a multivault for"
+msgstr "multivault за"
 
 #: r2/templates/multiinfobar.html:153
 msgid "people also added:"

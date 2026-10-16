@@ -2107,20 +2107,20 @@ msgid "%(reason)s"
 msgstr "%(reason)s"
 
 #: r2/lib/errors.py:168
-msgid "that multitippr doesn't exist"
-msgstr "chan eil am multitippr sin ann"
+msgid "that multivault doesn't exist"
+msgstr "chan eil am multivault sin ann"
 
 #: r2/lib/errors.py:169
-msgid "that multitippr already exists"
-msgstr "tha am multitippr seo ann mu thràth"
+msgid "that multivault already exists"
+msgstr "tha am multivault seo ann mu thràth"
 
 #: r2/lib/errors.py:170
-msgid "you can't change that multitippr"
-msgstr "chan urrainn dhut am multitippr sin atharrachadh"
+msgid "you can't change that multivault"
+msgstr "chan urrainn dhut am multivault sin atharrachadh"
 
 #: r2/lib/errors.py:171
-msgid "no more space for vaults in that multitippr"
-msgstr "chan eil àite airson barrachd vaults sa multitippr sin"
+msgid "no more space for vaults in that multivault"
+msgstr "chan eil àite airson barrachd vaults sa multivault sin"
 
 #: r2/lib/errors.py:172
 #, python-format
@@ -3488,12 +3488,12 @@ msgstr "\n"
 "An aire: tha grunnan àitichean ann taobh a-muigh an t-vault agad far an urrainnear briogadh air \"sguir dhen fho-sgrìobhadh\" agus dh'fhaoidte, ged nach eil seo ro chumanta, gum bi àireamh nam fo-sgrìobhaidhean nas àirde na an cunntas àraidh air latha air choireigin.\n"
 
 #: r2/lib/strings.py:184
-msgid "multitippr of your subscriptions"
-msgstr "multitippr nam fo-sgrìobhaidhean agad"
+msgid "multivault of your subscriptions"
+msgstr "multivault nam fo-sgrìobhaidhean agad"
 
 #: r2/lib/strings.py:185
-msgid "multitippr of vaults you moderate"
-msgstr "multitippr nan vaults a tha fo mhodarataireachd agad"
+msgid "multivault of vaults you moderate"
+msgstr "multivault nan vaults a tha fo mhodarataireachd agad"
 
 #: r2/lib/strings.py:187
 msgid "/r/all displays content from all of tippr, including vaults you aren't subscribed to. Some vaults have chosen to exclude themselves from /r/all."
@@ -3942,11 +3942,11 @@ msgid "trophy case"
 msgstr "preas nan geall-dùbhlain"
 
 #: r2/lib/pages/pages.py:2958
-msgid "public multitipprs"
-msgstr "multitipprs poblach"
+msgid "public multivaults"
+msgstr "multivaults poblach"
 
 #: r2/lib/pages/pages.py:2965
-msgid "hidden multitipprs"
+msgid "hidden multivaults"
 msgstr ""
 
 #: r2/lib/pages/pages.py:2988
@@ -8021,8 +8021,8 @@ msgid "No Thanks"
 msgstr ""
 
 #: r2/templates/listingchooser.html:45
-msgid "multitipprs"
-msgstr "multitipprs"
+msgid "multivaults"
+msgstr "multivaults"
 
 #: r2/templates/listingchooser.html:48
 msgid "new! create sets of vaults to view together."
@@ -8328,8 +8328,8 @@ msgid "created by %(user)s"
 msgstr ""
 
 #: r2/templates/multiinfobar.html:144
-msgid "a multitippr for"
-msgstr "multitippr airson"
+msgid "a multivault for"
+msgstr "multivault airson"
 
 #: r2/templates/multiinfobar.html:153
 msgid "people also added:"

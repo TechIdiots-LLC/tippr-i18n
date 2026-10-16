@@ -2106,20 +2106,20 @@ msgid "%(reason)s"
 msgstr "%(reason)s"
 
 #: r2/lib/errors.py:168
-msgid "that multitippr doesn't exist"
-msgstr "tento multitippr neexistuje"
+msgid "that multivault doesn't exist"
+msgstr "tento multivault neexistuje"
 
 #: r2/lib/errors.py:169
-msgid "that multitippr already exists"
-msgstr "tento multitippr už existuje"
+msgid "that multivault already exists"
+msgstr "tento multivault už existuje"
 
 #: r2/lib/errors.py:170
-msgid "you can't change that multitippr"
-msgstr "tento multitippr nemôžeš zmeniť"
+msgid "you can't change that multivault"
+msgstr "tento multivault nemôžeš zmeniť"
 
 #: r2/lib/errors.py:171
-msgid "no more space for vaults in that multitippr"
-msgstr "nezostáva žiadne voľné miesto pre vaulty v tomto multitippre"
+msgid "no more space for vaults in that multivault"
+msgstr "nezostáva žiadne voľné miesto pre vaulty v tomto multivaulte"
 
 #: r2/lib/errors.py:172
 #, python-format
@@ -3482,12 +3482,12 @@ msgid "\n"
 msgstr ""
 
 #: r2/lib/strings.py:184
-msgid "multitippr of your subscriptions"
-msgstr "multitippr tvojich odberov"
+msgid "multivault of your subscriptions"
+msgstr "multivault tvojich odberov"
 
 #: r2/lib/strings.py:185
-msgid "multitippr of vaults you moderate"
-msgstr "multitippr subredittov ktoré moderuješ"
+msgid "multivault of vaults you moderate"
+msgstr "multivault subredittov ktoré moderuješ"
 
 #: r2/lib/strings.py:187
 msgid "/r/all displays content from all of tippr, including vaults you aren't subscribed to. Some vaults have chosen to exclude themselves from /r/all."
@@ -3919,12 +3919,12 @@ msgid "trophy case"
 msgstr "vitrína trofejí"
 
 #: r2/lib/pages/pages.py:2958
-msgid "public multitipprs"
-msgstr "verejné multitippry"
+msgid "public multivaults"
+msgstr "verejné multivaulty"
 
 #: r2/lib/pages/pages.py:2965
-msgid "hidden multitipprs"
-msgstr "skryté multitippry"
+msgid "hidden multivaults"
+msgstr "skryté multivaulty"
 
 #: r2/lib/pages/pages.py:2988
 msgid "creator of"
@@ -7981,7 +7981,7 @@ msgid "No Thanks"
 msgstr ""
 
 #: r2/templates/listingchooser.html:45
-msgid "multitipprs"
+msgid "multivaults"
 msgstr ""
 
 #: r2/templates/listingchooser.html:48
@@ -8288,8 +8288,8 @@ msgid "created by %(user)s"
 msgstr "vytvoril %(user)s"
 
 #: r2/templates/multiinfobar.html:144
-msgid "a multitippr for"
-msgstr "multitippr pre"
+msgid "a multivault for"
+msgstr "multivault pre"
 
 #: r2/templates/multiinfobar.html:153
 msgid "people also added:"

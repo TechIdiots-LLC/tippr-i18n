@@ -2114,20 +2114,20 @@ msgid "%(reason)s"
 msgstr "%(reason)s"
 
 #: r2/lib/errors.py:168
-msgid "that multitippr doesn't exist"
-msgstr "ese multitippr no existe"
+msgid "that multivault doesn't exist"
+msgstr "ese multivault no existe"
 
 #: r2/lib/errors.py:169
-msgid "that multitippr already exists"
-msgstr "ese multitippr ya existe"
+msgid "that multivault already exists"
+msgstr "ese multivault ya existe"
 
 #: r2/lib/errors.py:170
-msgid "you can't change that multitippr"
-msgstr "no puedes cambiar ese multitippr"
+msgid "you can't change that multivault"
+msgstr "no puedes cambiar ese multivault"
 
 #: r2/lib/errors.py:171
-msgid "no more space for vaults in that multitippr"
-msgstr "no queda espacio para más vaults en ese multitippr"
+msgid "no more space for vaults in that multivault"
+msgstr "no queda espacio para más vaults en ese multivault"
 
 #: r2/lib/errors.py:172
 #, python-format
@@ -3498,12 +3498,12 @@ msgstr "\n"
 "Nota: hay un par de sitios fuera de tu vault donde la gente puede suscribirse, así que aunque improbable, es posible que las suscripciones sean mayores que las visitas para un día concreto.\n"
 
 #: r2/lib/strings.py:184
-msgid "multitippr of your subscriptions"
-msgstr "multitippr de tus suscripciones"
+msgid "multivault of your subscriptions"
+msgstr "multivault de tus suscripciones"
 
 #: r2/lib/strings.py:185
-msgid "multitippr of vaults you moderate"
-msgstr "multitippr de los vaults que moderas"
+msgid "multivault of vaults you moderate"
+msgstr "multivault de los vaults que moderas"
 
 #: r2/lib/strings.py:187
 msgid "/r/all displays content from all of tippr, including vaults you aren't subscribed to. Some vaults have chosen to exclude themselves from /r/all."
@@ -3916,11 +3916,11 @@ msgid "trophy case"
 msgstr "vitrina de trofeos"
 
 #: r2/lib/pages/pages.py:2958
-msgid "public multitipprs"
-msgstr "multitipprs públicos"
+msgid "public multivaults"
+msgstr "multivaults públicos"
 
 #: r2/lib/pages/pages.py:2965
-msgid "hidden multitipprs"
+msgid "hidden multivaults"
 msgstr "multihilos ocultos"
 
 #: r2/lib/pages/pages.py:2988
@@ -7969,8 +7969,8 @@ msgid "No Thanks"
 msgstr ""
 
 #: r2/templates/listingchooser.html:45
-msgid "multitipprs"
-msgstr "multitipprs"
+msgid "multivaults"
+msgstr "multivaults"
 
 #: r2/templates/listingchooser.html:48
 msgid "new! create sets of vaults to view together."
@@ -8276,7 +8276,7 @@ msgid "created by %(user)s"
 msgstr "creado por %(user)s"
 
 #: r2/templates/multiinfobar.html:144
-msgid "a multitippr for"
+msgid "a multivault for"
 msgstr "creado hace"
 
 #: r2/templates/multiinfobar.html:153

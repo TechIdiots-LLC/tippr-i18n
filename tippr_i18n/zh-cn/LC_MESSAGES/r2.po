@@ -2113,19 +2113,19 @@ msgid "%(reason)s"
 msgstr "%(reason)s"
 
 #: r2/lib/errors.py:168
-msgid "that multitippr doesn't exist"
+msgid "that multivault doesn't exist"
 msgstr "该版块组不存在"
 
 #: r2/lib/errors.py:169
-msgid "that multitippr already exists"
+msgid "that multivault already exists"
 msgstr "该版块组已经存在"
 
 #: r2/lib/errors.py:170
-msgid "you can't change that multitippr"
+msgid "you can't change that multivault"
 msgstr "你不能更改该版块组"
 
 #: r2/lib/errors.py:171
-msgid "no more space for vaults in that multitippr"
+msgid "no more space for vaults in that multivault"
 msgstr "板面组没有更多空间"
 
 #: r2/lib/errors.py:172
@@ -3488,11 +3488,11 @@ msgid "\n"
 msgstr ""
 
 #: r2/lib/strings.py:184
-msgid "multitippr of your subscriptions"
+msgid "multivault of your subscriptions"
 msgstr "你的订阅的版块组"
 
 #: r2/lib/strings.py:185
-msgid "multitippr of vaults you moderate"
+msgid "multivault of vaults you moderate"
 msgstr "你管理的版块的版块组"
 
 #: r2/lib/strings.py:187
@@ -3891,11 +3891,11 @@ msgid "trophy case"
 msgstr "奖品展示柜"
 
 #: r2/lib/pages/pages.py:2958
-msgid "public multitipprs"
+msgid "public multivaults"
 msgstr "公开版块组"
 
 #: r2/lib/pages/pages.py:2965
-msgid "hidden multitipprs"
+msgid "hidden multivaults"
 msgstr "隐藏版块组"
 
 #: r2/lib/pages/pages.py:2988
@@ -7927,7 +7927,7 @@ msgid "No Thanks"
 msgstr ""
 
 #: r2/templates/listingchooser.html:45
-msgid "multitipprs"
+msgid "multivaults"
 msgstr "版块组"
 
 #: r2/templates/listingchooser.html:48
@@ -8234,7 +8234,7 @@ msgid "created by %(user)s"
 msgstr "%(user)s创建"
 
 #: r2/templates/multiinfobar.html:144
-msgid "a multitippr for"
+msgid "a multivault for"
 msgstr "版块组已创建"
 
 #: r2/templates/multiinfobar.html:153

@@ -2099,19 +2099,19 @@ msgid "%(reason)s"
 msgstr "%(reason)s"
 
 #: r2/lib/errors.py:167
-msgid "that multitippr doesn't exist"
-msgstr "esse multitippr não existe"
+msgid "that multivault doesn't exist"
+msgstr "esse multivault não existe"
 
 #: r2/lib/errors.py:168
-msgid "that multitippr already exists"
-msgstr "esse multitippr já existe"
+msgid "that multivault already exists"
+msgstr "esse multivault já existe"
 
 #: r2/lib/errors.py:169
-msgid "you can't change that multitippr"
-msgstr "não podes modificar este multitippr"
+msgid "you can't change that multivault"
+msgstr "não podes modificar este multivault"
 
 #: r2/lib/errors.py:170
-msgid "no more space for vaults in that multitippr"
+msgid "no more space for vaults in that multivault"
 msgstr "não existe mais espaço para sub-tipprs nesse multi-tippr"
 
 #: r2/lib/errors.py:171
@@ -3478,11 +3478,11 @@ msgstr "\n"
 "Nota: há uns quantos sítios fora do teu  sub-tippr em que alguém pode clicar em \"assinar\", por isso é possível (embora improvável) que a contagem de subscrições possa exceder o número de visitantes num determinado dia.\n"
 
 #: r2/lib/strings.py:184
-msgid "multitippr of your subscriptions"
+msgid "multivault of your subscriptions"
 msgstr "multi-tippr das tuas subscrições"
 
 #: r2/lib/strings.py:185
-msgid "multitippr of vaults you moderate"
+msgid "multivault of vaults you moderate"
 msgstr "multi-tippr de sub-tipprs que moderas"
 
 #: r2/lib/strings.py:187
@@ -3890,11 +3890,11 @@ msgid "trophy case"
 msgstr "estante de troféus"
 
 #: r2/lib/pages/pages.py:2835
-msgid "public multitipprs"
+msgid "public multivaults"
 msgstr "multi-tipprs públicos"
 
 #: r2/lib/pages/pages.py:2842
-msgid "hidden multitipprs"
+msgid "hidden multivaults"
 msgstr "multi-tipprs  escondidos"
 
 #: r2/lib/pages/pages.py:2864
@@ -7842,7 +7842,7 @@ msgid "No thanks"
 msgstr "Não obrigado"
 
 #: r2/templates/listingchooser.html:45
-msgid "multitipprs"
+msgid "multivaults"
 msgstr "multi-tipprs"
 
 #: r2/templates/listingchooser.html:48
@@ -8165,7 +8165,7 @@ msgid "created by %(user)s"
 msgstr "criado por %(user)s"
 
 #: r2/templates/multiinfobar.html:143
-msgid "a multitippr for"
+msgid "a multivault for"
 msgstr "um multi-tippr para"
 
 #: r2/templates/multiinfobar.html:152

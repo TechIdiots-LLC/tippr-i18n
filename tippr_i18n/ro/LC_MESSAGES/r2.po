@@ -2108,20 +2108,20 @@ msgid "%(reason)s"
 msgstr "%(reason)s"
 
 #: r2/lib/errors.py:168
-msgid "that multitippr doesn't exist"
-msgstr "multitipprul nu există"
+msgid "that multivault doesn't exist"
+msgstr "multivaultul nu există"
 
 #: r2/lib/errors.py:169
-msgid "that multitippr already exists"
-msgstr "multitipprul deja există"
+msgid "that multivault already exists"
+msgstr "multivaultul deja există"
 
 #: r2/lib/errors.py:170
-msgid "you can't change that multitippr"
-msgstr "nu poți schimba multitipprul"
+msgid "you can't change that multivault"
+msgstr "nu poți schimba multivaultul"
 
 #: r2/lib/errors.py:171
-msgid "no more space for vaults in that multitippr"
-msgstr "nu mai există spațiu pentru vaulte în acest multitippr"
+msgid "no more space for vaults in that multivault"
+msgstr "nu mai există spațiu pentru vaulte în acest multivault"
 
 #: r2/lib/errors.py:172
 #, python-format
@@ -3480,12 +3480,12 @@ msgid "\n"
 msgstr ""
 
 #: r2/lib/strings.py:184
-msgid "multitippr of your subscriptions"
-msgstr "multitippr de-al abonărilor tale"
+msgid "multivault of your subscriptions"
+msgstr "multivault de-al abonărilor tale"
 
 #: r2/lib/strings.py:185
-msgid "multitippr of vaults you moderate"
-msgstr "multitippr al vaultelor pe care le moderezi"
+msgid "multivault of vaults you moderate"
+msgstr "multivault al vaultelor pe care le moderezi"
 
 #: r2/lib/strings.py:187
 msgid "/r/all displays content from all of tippr, including vaults you aren't subscribed to. Some vaults have chosen to exclude themselves from /r/all."
@@ -3917,12 +3917,12 @@ msgid "trophy case"
 msgstr "trofee"
 
 #: r2/lib/pages/pages.py:2958
-msgid "public multitipprs"
-msgstr "multitippre publice"
+msgid "public multivaults"
+msgstr "multivaulte publice"
 
 #: r2/lib/pages/pages.py:2965
-msgid "hidden multitipprs"
-msgstr "multitippre ascunse"
+msgid "hidden multivaults"
+msgstr "multivaulte ascunse"
 
 #: r2/lib/pages/pages.py:2988
 msgid "creator of"
@@ -7979,8 +7979,8 @@ msgid "No Thanks"
 msgstr ""
 
 #: r2/templates/listingchooser.html:45
-msgid "multitipprs"
-msgstr "multitippre"
+msgid "multivaults"
+msgstr "multivaulte"
 
 #: r2/templates/listingchooser.html:48
 msgid "new! create sets of vaults to view together."
@@ -8286,8 +8286,8 @@ msgid "created by %(user)s"
 msgstr "creat de %(user)s"
 
 #: r2/templates/multiinfobar.html:144
-msgid "a multitippr for"
-msgstr "un multitippr pentru"
+msgid "a multivault for"
+msgstr "un multivault pentru"
 
 #: r2/templates/multiinfobar.html:153
 msgid "people also added:"

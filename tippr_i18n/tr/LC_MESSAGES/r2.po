@@ -2099,20 +2099,20 @@ msgid "%(reason)s"
 msgstr "%(reason)s"
 
 #: r2/lib/errors.py:167
-msgid "that multitippr doesn't exist"
+msgid "that multivault doesn't exist"
 msgstr "böyle bir çoklu tippr yok"
 
 #: r2/lib/errors.py:168
-msgid "that multitippr already exists"
-msgstr "bu multitippr zaten var"
+msgid "that multivault already exists"
+msgstr "bu multivault zaten var"
 
 #: r2/lib/errors.py:169
-msgid "you can't change that multitippr"
-msgstr "bu multitippr'i değiştiremezsin"
+msgid "you can't change that multivault"
+msgstr "bu multivault'i değiştiremezsin"
 
 #: r2/lib/errors.py:170
-msgid "no more space for vaults in that multitippr"
-msgstr "Bu multitippr'te vault'ler için yer kalmadı"
+msgid "no more space for vaults in that multivault"
+msgstr "Bu multivault'te vault'ler için yer kalmadı"
 
 #: r2/lib/errors.py:171
 #, python-format
@@ -3477,12 +3477,12 @@ msgstr "\n"
 "Not: vault'inin dışında insanların \"abone ol\"a tıklayabileceği bir iki yer daha vardır; yani bu sayı (çok mümkün olmasa bile) bir gündeki gerçek abonelikleri aşabilir.\n"
 
 #: r2/lib/strings.py:184
-msgid "multitippr of your subscriptions"
-msgstr "aboneliklerinin multitippr'i"
+msgid "multivault of your subscriptions"
+msgstr "aboneliklerinin multivault'i"
 
 #: r2/lib/strings.py:185
-msgid "multitippr of vaults you moderate"
-msgstr "yönettiğin vault'lerin multitippr'i"
+msgid "multivault of vaults you moderate"
+msgstr "yönettiğin vault'lerin multivault'i"
 
 #: r2/lib/strings.py:187
 msgid "/r/all displays content from all of tippr, including vaults you aren't subscribed to. Some vaults have chosen to exclude themselves from /r/all."
@@ -3891,12 +3891,12 @@ msgid "trophy case"
 msgstr "ödül dolabı"
 
 #: r2/lib/pages/pages.py:2835
-msgid "public multitipprs"
+msgid "public multivaults"
 msgstr "açık çoklu tippr'ler"
 
 #: r2/lib/pages/pages.py:2842
-msgid "hidden multitipprs"
-msgstr "gizli multitippr'ler"
+msgid "hidden multivaults"
+msgstr "gizli multivault'ler"
 
 #: r2/lib/pages/pages.py:2864
 msgid "moderator of"
@@ -7840,8 +7840,8 @@ msgid "No thanks"
 msgstr ""
 
 #: r2/templates/listingchooser.html:45
-msgid "multitipprs"
-msgstr "multitippr'ler"
+msgid "multivaults"
+msgstr "multivault'ler"
 
 #: r2/templates/listingchooser.html:48
 msgid "new! create sets of vaults to view together."
@@ -8163,8 +8163,8 @@ msgid "created by %(user)s"
 msgstr "%(user)s tarafından oluşturuldu"
 
 #: r2/templates/multiinfobar.html:143
-msgid "a multitippr for"
-msgstr "şunun için bir multitippr"
+msgid "a multivault for"
+msgstr "şunun için bir multivault"
 
 #: r2/templates/multiinfobar.html:152
 msgid "people also added:"

@@ -1705,20 +1705,20 @@ msgid "%(reason)s"
 msgstr "%(reason)s"
 
 #: r2/lib/errors.py:148
-msgid "that multitippr doesn't exist"
-msgstr "that multitippr doesn't exist"
+msgid "that multivault doesn't exist"
+msgstr "that multivault doesn't exist"
 
 #: r2/lib/errors.py:149
-msgid "that multitippr already exists"
-msgstr "that multitippr already exists"
+msgid "that multivault already exists"
+msgstr "that multivault already exists"
 
 #: r2/lib/errors.py:150
-msgid "you can't change that multitippr"
-msgstr "you can't change that multitippr"
+msgid "you can't change that multivault"
+msgstr "you can't change that multivault"
 
 #: r2/lib/errors.py:151
-msgid "no more space for vaults in that multitippr"
-msgstr "no more space for vaults in that multitippr"
+msgid "no more space for vaults in that multivault"
+msgstr "no more space for vaults in that multivault"
 
 #: r2/lib/errors.py:152
 #, python-format
@@ -2973,11 +2973,11 @@ msgstr "\n"
 "Note: there are a couple of places outside of your vault where someone can click \"subscribe\", so it is possible (though unlikely) that the subscription count can exceed the unique count on a given day.\n"
 
 #: r2/lib/strings.py:175
-msgid "multitippr of your subscriptions"
+msgid "multivault of your subscriptions"
 msgstr "ನಿಮ್ಮ ಬಹು ರೆಡ್ದಿಟ್ ವರ್ಗಣಿಗಳು "
 
 #: r2/lib/strings.py:176
-msgid "multitippr of vaults you moderate"
+msgid "multivault of vaults you moderate"
 msgstr "ನೀವು ನಿಯಂತ್ರಕರಾಗಿರುವ ಬಹು ಸಬ್ ರೆಡ್ಡಿಟ್ ಗಳು "
 
 #: r2/lib/strings.py:178
@@ -3397,12 +3397,12 @@ msgid "trophy case"
 msgstr "ಟ್ರೋಫಿ ಕಪಾಟು"
 
 #: r2/lib/pages/pages.py:2221
-msgid "public multitipprs"
-msgstr "public multitipprs"
+msgid "public multivaults"
+msgstr "public multivaults"
 
 #: r2/lib/pages/pages.py:2228
-msgid "hidden multitipprs"
-msgstr "hidden multitipprs"
+msgid "hidden multivaults"
+msgstr "hidden multivaults"
 
 #: r2/lib/pages/pages.py:2248
 msgid "moderator of"
@@ -6891,8 +6891,8 @@ msgid "there doesn't seem to be anything here"
 msgstr "ಇಲ್ಲಿ ಏನೂ ಇರುವಂತೆ ಕಾಣುತ್ತಿಲ್ಲ"
 
 #: r2/templates/listingchooser.html:45
-msgid "multitipprs"
-msgstr "multitipprs"
+msgid "multivaults"
+msgstr "multivaults"
 
 #: r2/templates/listingchooser.html:48
 msgid "new! create sets of vaults to view together."
@@ -7268,8 +7268,8 @@ msgid "created by %(user)s"
 msgstr "created by %(user)s"
 
 #: r2/templates/multiinfobar.html:148
-msgid "a multitippr for"
-msgstr "a multitippr for"
+msgid "a multivault for"
+msgstr "a multivault for"
 
 #: r2/templates/multiinfobar.html:157
 msgid "people also added:"
