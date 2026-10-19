@@ -2930,8 +2930,7 @@ msgid "q&a"
 msgstr "Q&A"
 
 #: r2/lib/menus.py:64
-#, fuzzy, python-brace-format
-#| msgid "saved {toolbar}"
+#, python-brace-format
 msgid "saved {toolbar}"
 msgstr "salvati"
 
@@ -3074,8 +3073,7 @@ msgid "sent"
 msgstr "spediti"
 
 #: r2/lib/menus.py:122
-#, fuzzy, python-brace-format
-#| msgid "comments {toolbar}"
+#, python-brace-format
 msgid "comments {toolbar}"
 msgstr "commenti"
 
@@ -3329,8 +3327,7 @@ msgid "downvoted"
 msgstr "votato negativamente"
 
 #: r2/lib/menus.py:190
-#, fuzzy, python-brace-format
-#| msgid "hidden {toolbar}"
+#, python-brace-format
 msgid "hidden {toolbar}"
 msgstr "nascosto"
 
@@ -4247,8 +4244,7 @@ msgid "loading..."
 msgstr "sto caricando..."
 
 #: r2/lib/template_helpers.py:345
-#, fuzzy, python-brace-format
-#| msgid "comment {verb}"
+#, python-brace-format
 msgid "comment {verb}"
 msgstr "commenta"
 
@@ -11967,8 +11963,7 @@ msgid "parent"
 msgstr "riferimento"
 
 #: r2/templates/printablebuttons.html:531 r2/templates/printablebuttons.html:533 r2/templates/printablebuttons.html:626
-#, fuzzy, python-brace-format
-#| msgid "reply {verb}"
+#, python-brace-format
 msgid "reply {verb}"
 msgstr "rispondi"
 

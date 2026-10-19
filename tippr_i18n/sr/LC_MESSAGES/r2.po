@@ -2860,8 +2860,7 @@ msgid "q&a"
 msgstr ""
 
 #: r2/lib/menus.py:64
-#, fuzzy, python-brace-format
-#| msgid "saved {toolbar}"
+#, python-brace-format
 msgid "saved {toolbar}"
 msgstr "сачувано"
 
@@ -3002,8 +3001,7 @@ msgid "sent"
 msgstr "послате поруке"
 
 #: r2/lib/menus.py:122
-#, fuzzy, python-brace-format
-#| msgid "comments {toolbar}"
+#, python-brace-format
 msgid "comments {toolbar}"
 msgstr "коментари"
 
@@ -3257,8 +3255,7 @@ msgid "downvoted"
 msgstr ""
 
 #: r2/lib/menus.py:190
-#, fuzzy, python-brace-format
-#| msgid "hidden {toolbar}"
+#, python-brace-format
 msgid "hidden {toolbar}"
 msgstr "скривено"
 
@@ -4165,8 +4162,7 @@ msgid "loading..."
 msgstr "учитавам..."
 
 #: r2/lib/template_helpers.py:345
-#, fuzzy, python-brace-format
-#| msgid "comment {verb}"
+#, python-brace-format
 msgid "comment {verb}"
 msgstr "коментариши"
 
@@ -11811,8 +11807,7 @@ msgid "parent"
 msgstr "почетни коментар"
 
 #: r2/templates/printablebuttons.html:531 r2/templates/printablebuttons.html:533 r2/templates/printablebuttons.html:626
-#, fuzzy, python-brace-format
-#| msgid "reply {verb}"
+#, python-brace-format
 msgid "reply {verb}"
 msgstr "одговори"
 

@@ -59,12 +59,16 @@ FIXES = [
     (re.compile(r"\bReddit\b"), "Tippr"),
     (re.compile(r"\breddit\b"), "tippr"),
 ]
+# "saved {toolbar}", "reply {verb}": hints telling translators which sense
+# of the word is meant; translations leave them out
+CONTEXT_HINTS = {"{toolbar}", "{verb}"}
 DROP_HEADERS = ("X-Crowdin-Project", "X-Crowdin-File", "X-Crowdin-Language",
                 "X-Generator", "Generated-By")
 
 
 def placeholders(text):
-    return sorted(PLACEHOLDER.findall(text or ""))
+    return sorted(p for p in PLACEHOLDER.findall(text or "")
+                  if p not in CONTEXT_HINTS)
 
 
 def fix(text):

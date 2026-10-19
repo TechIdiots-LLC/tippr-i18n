@@ -4195,8 +4195,7 @@ msgid "loading..."
 msgstr "ладуецца..."
 
 #: r2/lib/template_helpers.py:345
-#, fuzzy, python-brace-format
-#| msgid "comment {verb}"
+#, python-brace-format
 msgid "comment {verb}"
 msgstr "comment"
 
@@ -11790,8 +11789,7 @@ msgid "parent"
 msgstr ""
 
 #: r2/templates/printablebuttons.html:531 r2/templates/printablebuttons.html:533 r2/templates/printablebuttons.html:626
-#, fuzzy, python-brace-format
-#| msgid "reply {verb}"
+#, python-brace-format
 msgid "reply {verb}"
 msgstr "reply"
 
