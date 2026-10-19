@@ -609,14 +609,12 @@ msgid "api documentation"
 msgstr "АПИ документација"
 
 #: r2/controllers/buttons.py:113
-#, fuzzy
 msgid "tippr buttons"
-msgstr "реддит дугмад"
+msgstr "tippr дугмад"
 
 #: r2/controllers/buttons.py:118
-#, fuzzy
 msgid "tippr widget"
-msgstr "реддит виџет"
+msgstr "tippr виџет"
 
 #: r2/controllers/embed.py:74 r2/controllers/policies.py:75 r2/lib/pages/pages.py:1122 r2/lib/pages/pages.py:6015 r2/templates/printablebuttons.html:150
 msgid "help"
@@ -836,9 +834,8 @@ msgid "welcome back"
 msgstr "добро дошли назад"
 
 #: r2/controllers/front.py:1875 r2/controllers/front.py:1963 r2/controllers/front.py:2002 r2/lib/menus.py:95 r2/templates/contactus.html:117 r2/templates/contactus.html:119 r2/templates/creditgild.html:34 r2/templates/gold.html:30 r2/templates/goldpayment.html:40 r2/templates/goldthanks.html:29 r2/templates/prefoptions.html:431
-#, fuzzy
 msgid "tippr gold"
-msgstr "реддит златo"
+msgstr "tippr златo"
 
 #: r2/controllers/front.py:2012 r2/templates/gilding.html:79
 msgid "purchase coins"
@@ -849,9 +846,8 @@ msgid "tippr gold subscription"
 msgstr ""
 
 #: r2/controllers/ipn.py:348
-#, fuzzy
 msgid "Your gold gift code has been generated!"
-msgstr "Ваш реддит поклон код је генеризован!"
+msgstr "Ваш tippr поклон код је генеризован!"
 
 #: r2/controllers/ipn.py:349
 #, python-format
@@ -885,19 +881,16 @@ msgid "the gift code has been messaged to you!"
 msgstr "поклон код је послат!"
 
 #: r2/controllers/ipn.py:572
-#, fuzzy
 msgid "Eureka! Thank you for investing in tippr gold!"
-msgstr "Еурека! Хвала што сте инвестирали у реддит злато!"
+msgstr "Еурека! Хвала што сте инвестирали у tippr злато!"
 
 #: r2/controllers/ipn.py:573
-#, fuzzy
 msgid "Thank you for buying tippr gold. Your patronage supports the site and makes future development possible. For example, one month of tippr gold pays for 5 instance hours of tippr's servers."
-msgstr "Хвала што сте купили реддит злато. Ваше спонзорство подржава и одржава наш сајт и омогућава будући развој. на пример: један месец реддит злата је довољан да плати 5 сати рада наших сервера."
+msgstr "Хвала што сте купили tippr злато. Ваше спонзорство подржава и одржава наш сајт и омогућава будући развој. на пример: један месец tippr злата је довољан да плати 5 сати рада наших сервера."
 
 #: r2/controllers/ipn.py:586
-#, fuzzy
 msgid "Eureka! Thank you for investing in tippr gold coins!"
-msgstr "Еурека! Хвала што сте инвестирали у кредит за реддит злато!"
+msgstr "Еурека! Хвала што сте инвестирали у кредит за tippr злато!"
 
 #: r2/controllers/ipn.py:589
 msgid "Thank you for buying coins. Your patronage supports the site and makes future development possible. To spend your coins and spread tippr gold, visit [/gold](/gold) or your favorite person's user page."
@@ -908,9 +901,8 @@ msgid "Thank you again for your support, and have fun spreading gold!"
 msgstr "Хвала још једном на Вашој подршци и забављајте се трошећи злато!"
 
 #: r2/controllers/ipn.py:611
-#, fuzzy
 msgid "Thanks for giving the gift of tippr gold!"
-msgstr "Хвала што поклањате реддит злато!"
+msgstr "Хвала што поклањате tippr злато!"
 
 #: r2/controllers/ipn.py:612
 #, python-format
@@ -921,24 +913,22 @@ msgid ""
 msgstr ""
 
 #: r2/controllers/ipn.py:741
-#, fuzzy
 msgid "tippr gold payment cancelled"
-msgstr "плаћање реддит злата је отказано"
+msgstr "плаћање tippr злата је отказано"
 
 #: r2/controllers/ipn.py:742
-#, python-format, fuzzy
+#, python-format
 msgid "Your tippr gold payment has been cancelled, contact %(gold_email)s for details"
-msgstr "Ваше плаћање реддит злата је отказано, обратите се на %(gold_email)s за детаље"
+msgstr "Ваше плаћање tippr злата је отказано, обратите се на %(gold_email)s за детаље"
 
 #: r2/controllers/ipn.py:757
-#, fuzzy
 msgid "tippr gold payment failed"
-msgstr "плаћање реддит злата није успело"
+msgstr "плаћање tippr злата није успело"
 
 #: r2/controllers/ipn.py:758
-#, python-format, fuzzy
+#, python-format
 msgid "Your tippr gold payment has failed, contact %(gold_email)s for details"
-msgstr "Ваше уплата реддит злата није успела, обратите се на %(gold_email)s за детаље"
+msgstr "Ваше уплата tippr злата није успела, обратите се на %(gold_email)s за детаље"
 
 #: r2/controllers/ipn.py:766
 msgid "tippr gold subscription cancelled"
@@ -950,14 +940,13 @@ msgid "Your tippr gold subscription has been cancelled because your credit card 
 msgstr ""
 
 #: r2/controllers/ipn.py:777
-#, fuzzy
 msgid "tippr gold refund"
-msgstr "повраћај новца за реддит злато"
+msgstr "повраћај новца за tippr злато"
 
 #: r2/controllers/ipn.py:778
-#, python-format, fuzzy
+#, python-format
 msgid "Your tippr gold payment has been refunded, contact %(gold_email)s for details"
-msgstr "Враћен је новац за Вашу уплату за реддит злато, обратите се на %(gold_email)s за детаље"
+msgstr "Враћен је новац за Вашу уплату за tippr злато, обратите се на %(gold_email)s за детаље"
 
 #: r2/controllers/ipn.py:889
 #, python-format
@@ -1022,9 +1011,8 @@ msgid "payment submitted"
 msgstr "уплата извршена"
 
 #: r2/controllers/ipn.py:1159
-#, fuzzy
 msgid "tippr gold payment"
-msgstr "уплата за реддит злато"
+msgstr "уплата за tippr злато"
 
 #: r2/controllers/ipn.py:1160
 msgid "Your payment is being processed and tippr gold will be delivered shortly."
@@ -2247,9 +2235,9 @@ msgid "that's not a Google Analytics 4 measurement ID (G-…)"
 msgstr ""
 
 #: r2/lib/errors.py:149
-#, python-format, fuzzy
+#, python-format
 msgid "%(domain)s is not allowed on tippr: %(reason)s"
-msgstr "%(domain)s није дозвољен на реддиту: %(reason)s"
+msgstr "%(domain)s није дозвољен на tippr: %(reason)s"
 
 #: r2/lib/errors.py:150
 msgid "you must enable two-factor authentication"
@@ -3504,9 +3492,9 @@ msgid "I understand and agree that registration on or use of this site constitut
 msgstr "Разумем и слажем се да регистрација на или коришћење овог сајта подразумева да се слажем са његовим %(user_agreement)s и %(privacy_policy)s"
 
 #: r2/lib/strings.py:84
-#, python-format, fuzzy
+#, python-format
 msgid "to view tippr with only submissions from your friends, use [tippr.net/v/friends](%s)"
-msgstr "да бисте видели реддит само са постовима ваших пријатеља, користите [tippr.net/v/friends](%s)"
+msgstr "да бисте видели tippr само са постовима ваших пријатеља, користите [tippr.net/v/friends](%s)"
 
 #: r2/lib/strings.py:86
 msgid "your vault has been created"
@@ -3640,9 +3628,9 @@ msgid "You sent us a postcard! (Or something similar.) When we run out of room o
 msgstr "Послали сте нам разгледницу! (Или нешто слично.) Кад нам понестане места на фрижидеру, можда ћемо да продамо ствари које су нам људи послали. Да ли бисмо могли да искористимо и вашу пошиљку?"
 
 #: r2/lib/strings.py:127
-#, python-format, fuzzy
+#, python-format
 msgid "Sorry, the maximum number of comments is %(max)d. (However, if you subscribe to tippr gold, it goes up to %(goldmax)d.)"
-msgstr "Нажалост, највише можемо да прикажемо %(max)d коментара. (Ако се пријавите за реддит златo, можемо да прикажемо %(goldmax)d.)"
+msgstr "Нажалост, највише можемо да прикажемо %(max)d коментара. (Ако се пријавите за tippr златo, можемо да прикажемо %(goldmax)d.)"
 
 #: r2/lib/strings.py:128
 #, python-format
@@ -3744,9 +3732,9 @@ msgid "This page shows a history of recent activity on your account. If you noti
 msgstr ""
 
 #: r2/lib/strings.py:152
-#, python-format, fuzzy
+#, python-format
 msgid "You are currently accessing tippr from this IP address: %(address)s."
-msgstr "Тренутно приступате реддиту са ове ИП адресе: %(address)s."
+msgstr "Тренутно приступате tippr са ове ИП адресе: %(address)s."
 
 #: r2/lib/strings.py:153
 msgid ""
@@ -3783,14 +3771,12 @@ msgid ""
 msgstr ""
 
 #: r2/lib/strings.py:174
-#, fuzzy
 msgid "multivault of your subscriptions"
-msgstr "вишеструки реддит ваших пријава"
+msgstr "вишеструки tippr ваших пријава"
 
 #: r2/lib/strings.py:175
-#, fuzzy
 msgid "multivault of vaults you moderate"
-msgstr "вишеструки реддит подредита који модерирате"
+msgstr "вишеструки tippr подредита који модерирате"
 
 #: r2/lib/strings.py:177
 msgid "/v/all displays content from all of tippr, including vaults you aren't subscribed to. Some vaults have chosen to exclude themselves from /v/all."
@@ -4196,9 +4182,8 @@ msgid "submitter"
 msgstr "уредник"
 
 #: r2/lib/template_helpers.py:597
-#, fuzzy
 msgid "tippr admin, speaking officially"
-msgstr "реддит админ, говори званично"
+msgstr "tippr админ, говори званично"
 
 #: r2/lib/template_helpers.py:618
 msgid "a bot: posts new items from a feed automatically"
@@ -4411,14 +4396,12 @@ msgid "give tippr gold to %(user)s to show your appreciation"
 msgstr "дајте tippr злато %(user)s да искажете своју захвалност"
 
 #: r2/lib/pages/pages.py:2486
-#, fuzzy
 msgid "get extra features and help support tippr with a tippr gold subscription"
-msgstr "добијте додатне погодности и подржите реддит са претплатом на реддит злато."
+msgstr "добијте додатне погодности и подржите tippr са претплатом на tippr злато."
 
 #: r2/lib/pages/pages.py:2490
-#, fuzzy
 msgid "renew your tippr gold"
-msgstr "обновите реддит злато"
+msgstr "обновите tippr злато"
 
 #: r2/lib/pages/pages.py:2500
 #, python-format
@@ -4441,9 +4424,8 @@ msgid "gifts on behalf of /u/%(user)s have helped pay for *%%(time)s* of tippr s
 msgstr ""
 
 #: r2/lib/pages/pages.py:2586
-#, fuzzy
 msgid "tippr is a platform for internet communities"
-msgstr "реддит је платформа за интернет заједнице"
+msgstr "tippr је платформа за интернет заједнице"
 
 #: r2/lib/pages/pages.py:2587
 msgid "where your votes shape what the world is talking about."
@@ -4464,9 +4446,9 @@ msgid "%s visible"
 msgstr "%s видљиво"
 
 #: r2/lib/pages/pages.py:2933
-#, python-format, fuzzy
+#, python-format
 msgid "%(bonus)s bonus vaults"
-msgstr "%(bonus)s додатних субредита"
+msgstr "%(bonus)s додатних волта"
 
 #: r2/lib/pages/pages.py:3309
 #, python-format
@@ -4965,24 +4947,20 @@ msgid ""
 msgstr ""
 
 #: r2/models/admintools.py:312
-#, fuzzy
 msgid "Your tippr gold subscription has expired."
-msgstr "Ваша претплата на реддит злато је истекла."
+msgstr "Ваша претплата на tippr злато је истекла."
 
 #: r2/models/admintools.py:313
-#, fuzzy
 msgid "Your subscription to tippr gold has expired."
-msgstr "Ваша претплата на реддит злато је истекла."
+msgstr "Ваша претплата на tippr злато је истекла."
 
 #: r2/models/admintools.py:325
-#, fuzzy
 msgid "Your tippr gold subscription is about to expire!"
-msgstr "Ваша претплата на реддит злато само што није истекла!"
+msgstr "Ваша претплата на tippr злато само што није истекла!"
 
 #: r2/models/admintools.py:327
-#, fuzzy
 msgid "Your subscription to tippr gold will be expiring soon."
-msgstr "Ваша претплата на реддит злато ће ускоро истекћи."
+msgstr "Ваша претплата на tippr злато ће ускоро истекћи."
 
 #: r2/models/builder.py:308
 msgid "a moderator"
@@ -5244,9 +5222,9 @@ msgid "invite moderator"
 msgstr "позови модератора"
 
 #: r2/models/listing.py:285 r2/templates/modlisting.html:36
-#, python-format, fuzzy
+#, python-format
 msgid "you are a moderator of this vault. %(action)s"
-msgstr "ви сте модератор овог реддита. %(action)s"
+msgstr "ви сте модератор овог tippr. %(action)s"
 
 #: r2/models/listing.py:301
 #, python-format
@@ -5331,9 +5309,8 @@ msgid "[tippr] hey, nerd!"
 msgstr "[tippr] хеј, штреберу!"
 
 #: r2/models/mail_queue.py:347
-#, fuzzy
 msgid "[tippr] tippr gold activation link"
-msgstr "[tippr] линк за активирање реддит злата"
+msgstr "[tippr] линк за активирање tippr злата"
 
 #: r2/models/mail_queue.py:348
 msgid "[tippr] your password has been changed"
@@ -5959,9 +5936,8 @@ msgid "My Identity"
 msgstr "Мој идентитет"
 
 #: r2/models/token.py:151
-#, fuzzy
 msgid "Access my tippr username and signup date."
-msgstr "Приступи мом реддит корисничком имену и датуму учлањења."
+msgstr "Приступи мом tippr корисничком имену и датуму учлањења."
 
 #: r2/models/token.py:155
 msgid "Approve submitters and ban users"
@@ -8936,18 +8912,16 @@ msgid "put %(site)s buttons on your site"
 msgstr "ставите %(site)s дугмад на свој сајт"
 
 #: r2/templates/buttondemopanel.html:36
-#, fuzzy
 msgid "the tippr button is the smart way to get your content submitted to      and discussed on tippr.  pick the button you like from below, and then      copy/paste the code into your HTML editor."
-msgstr "реддит дугме је добар начин да садржај објавите на и дискутујете о њему на реддиту. изаберите испод које дугме желите, а затим копирајте код у HTML едитор."
+msgstr "tippr дугме је добар начин да садржај објавите на и дискутујете о њему на tippr. изаберите испод које дугме желите, а затим копирајте код у HTML едитор."
 
 #: r2/templates/buttondemopanel.html:40
 msgid "commonly used buttons"
 msgstr "често коришћена дугмад"
 
 #: r2/templates/buttondemopanel.html:41
-#, fuzzy
 msgid "use one of these buttons to quickly add tippr links to your site, or       see below for more options."
-msgstr "користите ову дугмад за брзо додавање реддит линкова на ваш сајт, односно погледајте испод за још опција"
+msgstr "користите ову дугмад за брзо додавање tippr линкова на ваш сајт, односно погледајте испод за још опција"
 
 #: r2/templates/buttondemopanel.html:52
 msgid "buttons with points"
@@ -9567,9 +9541,8 @@ msgid "hide help"
 msgstr "сакриј помоћ"
 
 #: r2/templates/createvault.html:449
-#, fuzzy
 msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.tippr.net. You will be able to access your tippr through your domain."
-msgstr "Поседујете домен?  Унесите га овде и додајте CNAME унос који повезује ваш домен са rhs.tippr.net. Онда ћете моћи да приступите свом реддиту преко свог домена."
+msgstr "Поседујете домен?  Унесите га овде и додајте CNAME унос који повезује ваш домен са rhs.tippr.net. Онда ћете моћи да приступите свом tippr преко свог домена."
 
 #: r2/templates/createvault.html:456
 msgid "look and feel"
@@ -9909,9 +9882,8 @@ msgid "(We'll send a code to your email address you can then give to your recipi
 msgstr ""
 
 #: r2/templates/gold.html:85
-#, fuzzy
 msgid "buy tippr gold"
-msgstr "купи реддит злато"
+msgstr "купи tippr злато"
 
 #: r2/templates/gold.html:109
 msgid "What type of tippr gold would you like to purchase?"
@@ -10703,9 +10675,8 @@ msgid "see the suggestions again"
 msgstr "опет прегледај предлоге"
 
 #: r2/templates/newlink.html:41
-#, fuzzy
 msgid "tippr"
-msgstr "реддит"
+msgstr "tippr"
 
 #: r2/templates/newlink.html:44
 #, fuzzy, python-format
@@ -10800,9 +10771,9 @@ msgid "Allow %(app)s to:"
 msgstr "Дозволи %(app)s да:"
 
 #: r2/templates/oauth2authorization.html:67
-#, python-format, fuzzy
+#, python-format
 msgid "%(app)s will not be able to access your tippr password."
-msgstr "%(app)s неће моћи да приступе реддит лозинци."
+msgstr "%(app)s неће моћи да приступе tippr лозинци."
 
 #: r2/templates/oauth2authorization.html:79
 msgid "Allow"
@@ -11898,9 +11869,8 @@ msgid "%(username)s's avatar"
 msgstr ""
 
 #: r2/templates/profilebar.html:125
-#, fuzzy
 msgid "of tippr gold remaining"
-msgstr "реддит злата преостало"
+msgstr "tippr злата преостало"
 
 #: r2/templates/profilebar.html:127
 msgid "view gold features/benefits"
@@ -11915,9 +11885,8 @@ msgid "manage recurring subscription"
 msgstr ""
 
 #: r2/templates/profilebar.html:184
-#, fuzzy
 msgid "user for"
-msgstr "реддитор за"
+msgstr "tippr за"
 
 #: r2/templates/promotedlink.html:42
 #, python-format
@@ -12030,9 +11999,8 @@ msgid "download as csv"
 msgstr ""
 
 #: r2/templates/promotelinkbase.html:82
-#, fuzzy
 msgid "A good title is important to the success of your campaign. tippr users are an intelligent, thoughtful group, and reward those who engage them."
-msgstr "Добар наслов је кључ успеха кампање. Корисници реддита су интелигентна, промишљена група и награђују оне који их заинтересују."
+msgstr "Добар наслов је кључ успеха кампање. Корисници tippr су интелигентна, промишљена група и награђују оне који их заинтересују."
 
 #: r2/templates/promotelinkbase.html:93
 msgid "post type"
@@ -12726,14 +12694,12 @@ msgid "enter your confirmation code below to claim your gift coins"
 msgstr "унесите код за потврду испод да бисте приступили поклоњеним креддитима"
 
 #: r2/templates/thanks.html:44
-#, fuzzy
 msgid "enter your confirmation code below to activate tippr gold"
-msgstr "унесите код за потврду да бисте активирали реддит злато"
+msgstr "унесите код за потврду да бисте активирали tippr злато"
 
 #: r2/templates/thanks.html:46
-#, fuzzy
 msgid "You're already a tippr gold subscriber."
-msgstr "Већ сте претплаћени на реддит злато."
+msgstr "Већ сте претплаћени на tippr злато."
 
 #: r2/templates/thanks.html:48
 msgid "But if you just gave us even more money, enter the new confirmation code below and we'll add the extra credit to your account."
