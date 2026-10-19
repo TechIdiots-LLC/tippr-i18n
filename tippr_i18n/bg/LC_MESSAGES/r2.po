@@ -687,6 +687,7 @@ msgid "show %d"
 msgstr "покажи %d"
 
 #: r2/controllers/front.py:568 r2/controllers/front.py:571 r2/templates/adminvaults.html:25
+#, fuzzy
 msgid "create a vault"
 msgstr "създай събреддит"
 
@@ -752,6 +753,7 @@ msgid "search results"
 msgstr "резултати от търсенето"
 
 #: r2/controllers/front.py:1247 r2/controllers/listingcontroller.py:1529 r2/lib/menus.py:96 r2/lib/menus.py:173 r2/templates/adminvault.html:23 r2/templates/adminvaults.html:22 r2/templates/pagenamenav.html:62 r2/templates/promotelinkbase.html:765
+#, fuzzy
 msgid "vaults"
 msgstr "събреддити"
 
@@ -777,14 +779,17 @@ msgid "Claimed! Enjoy your tippr gold membership."
 msgstr "Потвърдено!Насладете се на своето tippr gold членство."
 
 #: r2/controllers/front.py:1500
+#, fuzzy
 msgid "Your gold coins have been claimed! Now go to someone's userpage and give them a present!"
 msgstr "Вашите златни кредити бяха потвърдени! Сега отидете на нечия потребителска страница и им дайте подарък!"
 
 #: r2/controllers/front.py:1503
+#, fuzzy
 msgid "Thanks for buying tippr gold! Your transaction has been completed."
 msgstr "Благодарим ви, че закупихте реддит злато! Вашата транзакция беше завършена."
 
 #: r2/controllers/front.py:1506
+#, fuzzy
 msgid "Thanks for buying tippr gold! Your transaction has been completed and emailed to you. You can check the details by signing into your account at:"
 msgstr "Благодарим ви за закупуването на реддит злато! Вашата разплата е завършена и изпратена на електронната ви поща. Можете да проверите подробностите като влезете във потребителската си сметка на:"
 
@@ -843,14 +848,17 @@ msgid "welcome back"
 msgstr "Добре дошли отново"
 
 #: r2/controllers/front.py:1875 r2/controllers/front.py:1963 r2/controllers/front.py:2002 r2/lib/menus.py:95 r2/templates/contactus.html:117 r2/templates/contactus.html:119 r2/templates/creditgild.html:34 r2/templates/gold.html:30 r2/templates/goldpayment.html:40 r2/templates/goldthanks.html:29 r2/templates/prefoptions.html:431
+#, fuzzy
 msgid "tippr gold"
 msgstr "реддит злато"
 
 #: r2/controllers/front.py:2012 r2/templates/gilding.html:79
+#, fuzzy
 msgid "purchase coins"
 msgstr "Купете кредити"
 
 #: r2/controllers/front.py:2022 r2/controllers/ipn.py:1149
+#, fuzzy
 msgid "tippr gold subscription"
 msgstr "абонамент за реддит злато"
 
@@ -890,18 +898,22 @@ msgid "the gift code has been messaged to you!"
 msgstr "Гифт кодът Ви беше изпратен успешно!"
 
 #: r2/controllers/ipn.py:572
+#, fuzzy
 msgid "Eureka! Thank you for investing in tippr gold!"
 msgstr "Ура! Благодаря, че инвестирахте в реддит злато!"
 
 #: r2/controllers/ipn.py:573
+#, fuzzy
 msgid "Thank you for buying tippr gold. Your patronage supports the site and makes future development possible. For example, one month of tippr gold pays for 5 instance hours of tippr's servers."
 msgstr "Благодарим Ви за закупуването на редит злато. Вашата подкрепа поддържа сайта и прави възможно бъдещото му развитие. Например, закупуването на реддит злато за един месец покрива разходите за сървърите ни за 5 часа."
 
 #: r2/controllers/ipn.py:586
+#, fuzzy
 msgid "Eureka! Thank you for investing in tippr gold coins!"
 msgstr "Ура! Благодарим Ви, че инвестирахте в реддит злато кредити!"
 
 #: r2/controllers/ipn.py:589
+#, fuzzy
 msgid "Thank you for buying coins. Your patronage supports the site and makes future development possible. To spend your coins and spread tippr gold, visit [/gold](/gold) or your favorite person's user page."
 msgstr "Благодарим Ви, че купихте креддити. Вашата подкрепа подпомага сайта и прави бъдещото му развитие възможно. За да харчите кредитите си и да раздавате редит злато, посетете [/gold](/gold) или потребителската страница на любимия Ви автор."
 
@@ -910,11 +922,12 @@ msgid "Thank you again for your support, and have fun spreading gold!"
 msgstr "Отново Ви благодарим за подкрепата, забавлявайте се раздавайки злато!"
 
 #: r2/controllers/ipn.py:611
+#, fuzzy
 msgid "Thanks for giving the gift of tippr gold!"
 msgstr "Благодарим Ви, че дадохте редит злато за подарък!"
 
 #: r2/controllers/ipn.py:612
-#, python-format
+#, python-format, fuzzy
 msgid ""
 "Your classy gift to %s has been delivered.\n"
 "\n"
@@ -925,20 +938,22 @@ msgstr ""
 "Благодарим, че подарихте реддит злато. Подкрепата Ви поддържа сайта и прави възможно бъдещото му развитие."
 
 #: r2/controllers/ipn.py:741
+#, fuzzy
 msgid "tippr gold payment cancelled"
 msgstr "плащането със редит злато е отменено"
 
 #: r2/controllers/ipn.py:742
-#, python-format
+#, python-format, fuzzy
 msgid "Your tippr gold payment has been cancelled, contact %(gold_email)s for details"
 msgstr "Плащането Ви със редит злато е спряно, свържете се с %(gold_email)s за детайли"
 
 #: r2/controllers/ipn.py:757
+#, fuzzy
 msgid "tippr gold payment failed"
 msgstr "плащането със реддит злато бе неуспешно"
 
 #: r2/controllers/ipn.py:758
-#, python-format
+#, python-format, fuzzy
 msgid "Your tippr gold payment has failed, contact %(gold_email)s for details"
 msgstr "Плащането Ви със редит злато беше неуспешно, свържете се с %(gold_email)s за детайли"
 
@@ -947,16 +962,17 @@ msgid "tippr gold subscription cancelled"
 msgstr "tippr златен абонамент отказан/спрян"
 
 #: r2/controllers/ipn.py:767
-#, python-format
+#, python-format, fuzzy
 msgid "Your tippr gold subscription has been cancelled because your credit card could not be charged. Contact %(gold_email)s for details"
 msgstr "Вашият tippr златен абонамент бе отказан, тъй като не може да се направи транзакция от кредитната Ви карта. Свържете се с %(gold_email)s за повече информация"
 
 #: r2/controllers/ipn.py:777
+#, fuzzy
 msgid "tippr gold refund"
 msgstr "възстановяване на плащане със редит злато"
 
 #: r2/controllers/ipn.py:778
-#, python-format
+#, python-format, fuzzy
 msgid "Your tippr gold payment has been refunded, contact %(gold_email)s for details"
 msgstr "Плащането ви със редит злато беше възстановено, свържете се с %(gold_email)s за подробности"
 
@@ -1016,6 +1032,7 @@ msgid "subscription created"
 msgstr "абонаментът е създаден"
 
 #: r2/controllers/ipn.py:1150
+#, fuzzy
 msgid "Your subscription is being processed and tippr gold will be delivered shortly."
 msgstr "В момента обработваме Вашия абонамент, реддит златото Ви ще бъде достъпно в най-скоро време."
 
@@ -1028,6 +1045,7 @@ msgid "tippr gold payment"
 msgstr "плащане за tippr злато"
 
 #: r2/controllers/ipn.py:1160
+#, fuzzy
 msgid "Your payment is being processed and tippr gold will be delivered shortly."
 msgstr "Плащането Ви се обработва и реддит златото ще бъде доставено скоро."
 
@@ -1117,6 +1135,7 @@ msgid "you're really bored now, eh?"
 msgstr "Mай Ви е много скучно, а?"
 
 #: r2/controllers/listingcontroller.py:806
+#, fuzzy
 msgid "filter by vault"
 msgstr "филтрирай по събреддит"
 
@@ -1212,6 +1231,7 @@ msgid "messages"
 msgstr "съобщения"
 
 #: r2/controllers/listingcontroller.py:1672
+#, fuzzy
 msgid "vaults: "
 msgstr "събреддити:"
 
@@ -1547,6 +1567,7 @@ msgid "fraud suspected promoted links"
 msgstr "подпомогнати връзки заподозрени за измама"
 
 #: r2/controllers/promotecontroller.py:608
+#, fuzzy
 msgid "promos on tippr"
 msgstr "промоции във реддит"
 
@@ -1621,6 +1642,7 @@ msgid "search failed"
 msgstr "Търсенето се провали"
 
 #: r2/controllers/wiki.py:93
+#, fuzzy
 msgid "This page is the vault stylesheet, changes here apply to the vault css"
 msgstr "Тази страница е стайлшийт за събредита. Промени тук се прилагат върху css на събредита. "
 
@@ -1629,6 +1651,7 @@ msgid "The contents of this page appear on the submit page"
 msgstr "Съдържанието на тази страница се показва на страницата за публикуване."
 
 #: r2/controllers/wiki.py:95
+#, fuzzy
 msgid "The contents of this page appear on the vault sidebar"
 msgstr "Съдържанието на тази страница се показва в страничната лента на събреддита"
 
@@ -1666,6 +1689,7 @@ msgid "this wiki cannot handle page names of that magnitude!  please select a pa
 msgstr "тази уики страница не поддържа толкова дълги имена! Моля, избере име, което е по-късо от %d символа"
 
 #: r2/controllers/wiki.py:221
+#, fuzzy
 msgid "this page is a special page, please go into the vault settings and save the field once to create this special page"
 msgstr "тази страница е специална, моля, отидете в настройките на събредита и запазете полето веднъж, за да създадете тази специална страница"
 
@@ -1983,10 +2007,12 @@ msgid "that link has already been submitted"
 msgstr "този линк вече е подаден"
 
 #: r2/lib/errors.py:82
+#, fuzzy
 msgid "that vault already exists"
 msgstr "този събреддит вече съществува"
 
 #: r2/lib/errors.py:83
+#, fuzzy
 msgid "that vault doesn't exist"
 msgstr "този събреддит не съществува"
 
@@ -1995,14 +2021,17 @@ msgid "you aren't allowed to post there."
 msgstr "не Ви е разрешено да публикувате там."
 
 #: r2/lib/errors.py:85
+#, fuzzy
 msgid "you aren't allowed access to this vault"
 msgstr "Достъпът до този събреддит не е позволен"
 
 #: r2/lib/errors.py:86
+#, fuzzy
 msgid "you must specify a vault"
 msgstr "трябва да избереш събреддит"
 
 #: r2/lib/errors.py:87
+#, fuzzy
 msgid "this vault has chosen to disable their ads at this time"
 msgstr "този под-реддит е избрал да забрани рекламите в момента"
 
@@ -2164,10 +2193,12 @@ msgid "that code has already been claimed -- perhaps by you?"
 msgstr "този код вече е усвоен, може би от вас?"
 
 #: r2/lib/errors.py:126
+#, fuzzy
 msgid "that vault doesn't allow text posts"
 msgstr "този събредит не позволява текстови постове"
 
 #: r2/lib/errors.py:127
+#, fuzzy
 msgid "that vault only allows text posts"
 msgstr "този събредит позволява единствено текстови постове"
 
@@ -2252,7 +2283,7 @@ msgid "that's not a Google Analytics 4 measurement ID (G-…)"
 msgstr ""
 
 #: r2/lib/errors.py:149
-#, python-format
+#, python-format, fuzzy
 msgid "%(domain)s is not allowed on tippr: %(reason)s"
 msgstr "%(domain)s не е позволен в реддит: %(reason)s"
 
@@ -2293,6 +2324,7 @@ msgid "You can't perform that action because that user is a moderator."
 msgstr ""
 
 #: r2/lib/errors.py:160
+#, fuzzy
 msgid "there is no pending invite for that vault"
 msgstr "няма текуща покана за този събредит"
 
@@ -2338,16 +2370,17 @@ msgid "you can't change that multivault"
 msgstr "не можете да промените този multivault"
 
 #: r2/lib/errors.py:171
+#, fuzzy
 msgid "no more space for vaults in that multivault"
 msgstr "няма повече място за събредити в този мултиредит"
 
 #: r2/lib/errors.py:172
-#, python-format
+#, python-format, fuzzy
 msgid "can't add special vault %(path)s"
 msgstr "не може да бъде добавен специален събредит %(path)s"
 
 #: r2/lib/errors.py:173
-#, python-format
+#, python-format, fuzzy
 msgid "maximum %(max)s vaults"
 msgstr "най-много  %(max)s под-реддити"
 
@@ -2382,6 +2415,7 @@ msgid "frequency cap must be at least %(min)d"
 msgstr ""
 
 #: r2/lib/errors.py:181
+#, fuzzy
 msgid "that user is banned from the vault"
 msgstr "този потребител е забранен от събреддита"
 
@@ -2394,6 +2428,7 @@ msgid "you must have an active tippr gold subscription to do that"
 msgstr "трябва да имате активен tippr златен абонамент за да направите това"
 
 #: r2/lib/errors.py:184
+#, fuzzy
 msgid "insufficient coins"
 msgstr "недостатъчно кредити"
 
@@ -2406,6 +2441,7 @@ msgid "unable to scrape provided url"
 msgstr "Този интернет адрес не може да бъде обработен за извличане на полезна информация"
 
 #: r2/lib/errors.py:187
+#, fuzzy
 msgid "can't send a message from a vault to another vault"
 msgstr "изпращането на съобщение от един под-реддит до друг под-реддит е невъзможно"
 
@@ -2418,11 +2454,12 @@ msgid "you must be in admin mode for this"
 msgstr "трябва да сте в администраторски режим за това"
 
 #: r2/lib/errors.py:190
-#, python-format
+#, python-format, fuzzy
 msgid "to convert an existing vault to gold only, send a message to %(admin_modmail)s"
 msgstr "за да конвертирате съществуващите под-реддити към само златни, изпратете съобщение до %(admin_modmail)s"
 
 #: r2/lib/errors.py:192
+#, fuzzy
 msgid "this vault must be 'gold only' to select this"
 msgstr "този под-реддит трябва да е 'само златни' за да се избере"
 
@@ -3142,6 +3179,7 @@ msgid "create"
 msgstr "създаване"
 
 #: r2/lib/menus.py:158 r2/lib/pages/pages.py:2815
+#, fuzzy
 msgid "my vaults"
 msgstr "моите събреддити"
 
@@ -3491,7 +3529,7 @@ msgid "that link has already been submitted, but you can try to [submit it again
 msgstr "този линк вече е подаван, но можеш да опиташ да [постнеш отново](%s)"
 
 #: r2/lib/strings.py:75
-#, python-format
+#, python-format, fuzzy
 msgid "that link has been submitted to multiple vaults. you can try to [submit it again](%s)."
 msgstr "този линк вече е изпратен в няколко събредита. може да опиташ да го [изпратиш отново](%s)."
 
@@ -3515,6 +3553,7 @@ msgid "to view tippr with only submissions from your friends, use [tippr.net/v/f
 msgstr "за да виждаш публикации само на приятелите си, отиди на [tippr.net/v/friends](%s)"
 
 #: r2/lib/strings.py:86
+#, fuzzy
 msgid "your vault has been created"
 msgstr "твоят събредит беше създаден"
 
@@ -3524,18 +3563,22 @@ msgid "visit [%(link)s](%(link)s) for more information"
 msgstr "посети [%(link)s](%(link)s) за повече информация"
 
 #: r2/lib/strings.py:91
+#, fuzzy
 msgid "you have not subscribed to any vaults."
 msgstr "не си абониран за никакви събредити."
 
 #: r2/lib/strings.py:92
+#, fuzzy
 msgid "below are the vaults you have subscribed to."
 msgstr "по-долу са под-реддитите за които сте абониран."
 
 #: r2/lib/strings.py:93
+#, fuzzy
 msgid "below are the vaults that you are an approved submitter on."
 msgstr "по-долу са събредитите, в които си одобрен подател. "
 
 #: r2/lib/strings.py:94
+#, fuzzy
 msgid "below are the vaults that you have moderator access to."
 msgstr "по-долу са събредитие, в които имаш модераторски достъп."
 
@@ -3560,7 +3603,7 @@ msgid "%(title)s : %(site)s"
 msgstr "%(title)s:%(site)s"
 
 #: r2/lib/strings.py:104
-#, python-format
+#, python-format, fuzzy
 msgid "%(score)s points and %(num_comments)s comments so far on tippr"
 msgstr "%(score)s точки и %(num_comments)s коментари до сега в реддит"
 
@@ -3646,7 +3689,7 @@ msgid "You sent us a postcard! (Or something similar.) When we run out of room o
 msgstr "Пратихте ни картичка! (Или нещо от сорта..) Когато ни свърши мястото на хладилника, може един ден да изтъргуваме нещата, които хората са ни пращали. Как ще се чувставе, ако и вашето нещо бъде продадено?"
 
 #: r2/lib/strings.py:127
-#, python-format
+#, python-format, fuzzy
 msgid "Sorry, the maximum number of comments is %(max)d. (However, if you subscribe to tippr gold, it goes up to %(goldmax)d.)"
 msgstr "Простете, максималният видим брой коментари е %(max)d. (Обаче, ако се абонирате за реддит злато, отива до %(goldmax)d.)"
 
@@ -3662,6 +3705,7 @@ msgid ""
 msgstr ""
 
 #: r2/lib/strings.py:136
+#, fuzzy
 msgid ""
 "Thanks for claiming a tippr gold code.\n"
 "\n"
@@ -3690,7 +3734,7 @@ msgid ""
 msgstr ""
 
 #: r2/lib/strings.py:139
-#, python-format
+#, python-format, fuzzy
 msgid "You're about to make a one-time purchase of %(amount)s of tippr gold for yourself (%(user)s). You'll pay a total of %(price)s for this."
 msgstr "Вие сте на път да направите една покупка на %(amount)s редит злато за себе си (%(user)s).Вашата цена е общо %(price)s за това."
 
@@ -3715,12 +3759,12 @@ msgid "You're about to give %(amount)s of tippr gold to %(recipient)s. It will b
 msgstr ""
 
 #: r2/lib/strings.py:144
-#, python-format
+#, python-format, fuzzy
 msgid "Want to say thanks to *%(recipient)s* for this comment? Give them a month of [tippr gold](/gold/about)."
 msgstr "Искаш да благодариш на *%(recipient)s* за този коментар? Дай им месец [редит злато](/gold/about)."
 
 #: r2/lib/strings.py:145
-#, python-format
+#, python-format, fuzzy
 msgid "Want to say thanks to *%(recipient)s* for this submission? Give them a month of [tippr gold](/gold/about)."
 msgstr "Искате да благодарите на  %(recipient)s за този коментар? Дайте им месец [реддит злато](gold/about)."
 
@@ -3752,7 +3796,7 @@ msgid "This page shows a history of recent activity on your account. If you noti
 msgstr ""
 
 #: r2/lib/strings.py:152
-#, python-format
+#, python-format, fuzzy
 msgid "You are currently accessing tippr from this IP address: %(address)s."
 msgstr "Влизате в реддит през този IP адрес: %(address)s."
 
@@ -3791,10 +3835,12 @@ msgid ""
 msgstr ""
 
 #: r2/lib/strings.py:174
+#, fuzzy
 msgid "multivault of your subscriptions"
 msgstr "мултиредит с твоите абонаменти"
 
 #: r2/lib/strings.py:175
+#, fuzzy
 msgid "multivault of vaults you moderate"
 msgstr "мултиредит със събредити, които модерираш"
 
@@ -3807,6 +3853,7 @@ msgid "Displaying content from /v/all of tippr, except the following vaults:"
 msgstr ""
 
 #: r2/lib/strings.py:179
+#, fuzzy
 msgid "Filtering /v/all is a feature only available to [tippr gold](/gold/about) subscribers. Displaying unfiltered results from /v/all."
 msgstr "Филтрирането на /v/all е опция, достъпна само за абонирани за [редит злато](/gold/about). Ще бъдат показани нефилтрирани резултати от /v/all. "
 
@@ -3829,12 +3876,14 @@ msgstr[0] "съобщение"
 msgstr[1] "съобщения"
 
 #: r2/lib/pages/admin_pages.py:113 r2/lib/pages/trafficpages.py:815 r2/lib/strings.py:263 r2/templates/adminfeeds.html:44 r2/templates/adminfeeds.html:73 r2/templates/adminvaults.html:49 r2/templates/sitewidetraffic.html:39 r2/templates/vaulttrafficreport.html:45
+#, fuzzy
 msgid "vault"
 msgid_plural "vaults"
 msgstr[0] "събреддит"
 msgstr[1] "събреддити"
 
 #: r2/lib/strings.py:264
+#, fuzzy
 msgid "coin"
 msgid_plural "coins"
 msgstr[0] "креддит"
@@ -4200,7 +4249,7 @@ msgid "moderator of /v/%(tippr)s, speaking officially"
 msgstr "администратор, говорещ официално"
 
 #: r2/lib/template_helpers.py:655
-#, python-format
+#, python-format, fuzzy
 msgid "%(user)s just celebrated a tippr birthday!"
 msgstr "%(user)s току що празнува реддит рожденият си ден!"
 
@@ -4217,6 +4266,7 @@ msgid "No notes for this IP address"
 msgstr "Няма бележки за този IP адрес"
 
 #: r2/lib/pages/admin_pages.py:106
+#, fuzzy
 msgid "No notes for this vault"
 msgstr "Няма бележки за този събреддит"
 
@@ -4274,6 +4324,7 @@ msgid "Submissions restricted"
 msgstr "Публикуването ограничено"
 
 #: r2/lib/pages/pages.py:820
+#, fuzzy
 msgid "Create your own vault"
 msgstr "Създай собствен събредит"
 
@@ -4363,10 +4414,12 @@ msgid "trophy case"
 msgstr "трофеи"
 
 #: r2/lib/pages/pages.py:2358
+#, fuzzy
 msgid "public multivaults"
 msgstr "публични мултиредити"
 
 #: r2/lib/pages/pages.py:2365
+#, fuzzy
 msgid "hidden multivaults"
 msgstr "скрити мултиреддити"
 
@@ -4379,7 +4432,7 @@ msgid "less than a day"
 msgstr "по-малко от ден"
 
 #: r2/lib/pages/pages.py:2466
-#, python-format
+#, python-format, fuzzy
 msgid "%(coins)s gold coin to give"
 msgid_plural "%(coins)s gold coins to give"
 msgstr[0] "%(coins)s златен креддит за даване"
@@ -4393,15 +4446,17 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: r2/lib/pages/pages.py:2482
-#, python-format
+#, python-format, fuzzy
 msgid "give tippr gold to %(user)s to show your appreciation"
 msgstr "дай редит злато на %(user)s в знак на признателност"
 
 #: r2/lib/pages/pages.py:2486
+#, fuzzy
 msgid "get extra features and help support tippr with a tippr gold subscription"
 msgstr "получи допълнителни функции и допринеси към редит с абонамент за редит злато"
 
 #: r2/lib/pages/pages.py:2490
+#, fuzzy
 msgid "renew your tippr gold"
 msgstr "обнови своето реддит злато"
 
@@ -4421,11 +4476,12 @@ msgid "gifts on your behalf have helped pay for *%(time)s* of tippr server time.
 msgstr "Подаръците, закупени от вас, са помогнали да платят %(time)s сървър време."
 
 #: r2/lib/pages/pages.py:2506
-#, python-format
+#, python-format, fuzzy
 msgid "gifts on behalf of /u/%(user)s have helped pay for *%%(time)s* of tippr server time."
 msgstr "Подаръците, закупени от /u/%(user)s са помогнали да платаят за %%(time)s реддит сървър време."
 
 #: r2/lib/pages/pages.py:2586
+#, fuzzy
 msgid "tippr is a platform for internet communities"
 msgstr "редит е платформа за интернет общности"
 
@@ -4448,12 +4504,12 @@ msgid "%s visible"
 msgstr "%s видими"
 
 #: r2/lib/pages/pages.py:2933
-#, python-format
+#, python-format, fuzzy
 msgid "%(bonus)s bonus vaults"
 msgstr "%(bonus)s бонус събреддити"
 
 #: r2/lib/pages/pages.py:3309
-#, python-format
+#, python-format, fuzzy
 msgid "you have a credit card gold subscription. your card (ending in %(last4)s) will be charged %(amount)s on %(date)s."
 msgstr "имате златен абонамент на кредитна карта. Картата (която изтича на %(last4)s) ще бъде таксувана %(amount)s на %(date)s."
 
@@ -4575,10 +4631,12 @@ msgid "frontpage impressions"
 msgstr "виждания на началната страница"
 
 #: r2/lib/pages/pages.py:5559
+#, fuzzy
 msgid "vault clicks"
 msgstr "кликове в събредити"
 
 #: r2/lib/pages/pages.py:5559
+#, fuzzy
 msgid "vault impressions"
 msgstr "виждания в събредити"
 
@@ -4761,7 +4819,7 @@ msgid "this page is empty, edit it to add some content."
 msgstr "тази страница е празна, редактирайте, за да добавите съдържание"
 
 #: r2/lib/pages/wiki.py:171 r2/lib/pages/wiki.py:177
-#, python-format
+#, python-format, fuzzy
 msgid "page %s does not exist in this vault"
 msgstr "страницата %s не съществува в този събредит"
 
@@ -4790,6 +4848,7 @@ msgid "Viewing pages for /v/%s"
 msgstr "разглеждане на редакция от %s"
 
 #: r2/lib/pages/wiki.py:212
+#, fuzzy
 msgid "Below is a list of pages in this wiki visible to you in this vault."
 msgstr "По-долу е даден списък със страници в това уики, видими за теб в този събредит."
 
@@ -4867,6 +4926,7 @@ msgid "max length %d characters"
 msgstr "максимална дължина %d символа"
 
 #: r2/lib/validator/validator.py:2839
+#, fuzzy
 msgid "credit card numbers should be 13 to 16 digits"
 msgstr "номерата на кредитните карти трябва да са от 13 до 16 писмени знака"
 
@@ -5237,7 +5297,7 @@ msgid "moderators of /v/%(vault)s"
 msgstr "от %(value)s"
 
 #: r2/models/mail_queue.py:331
-#, python-format
+#, python-format, fuzzy
 msgid "[tippr] %(user)s has shared a link with you"
 msgstr "[реддит]%(user)s сподели линк с вас"
 
@@ -5252,10 +5312,12 @@ msgid "[advertising] feedback from '%(user)s'"
 msgstr ""
 
 #: r2/models/mail_queue.py:334
+#, fuzzy
 msgid "[tippr] email removal notice"
 msgstr "[реддит] и-мейл известие за премахване"
 
 #: r2/models/mail_queue.py:335
+#, fuzzy
 msgid "[tippr] email addition notice"
 msgstr "[реддит] и-мйел известие за добавяне"
 
@@ -5264,6 +5326,7 @@ msgid "[tippr] reset your password"
 msgstr "{"
 
 #: r2/models/mail_queue.py:337
+#, fuzzy
 msgid "[tippr] verify your email address"
 msgstr "[реддит] потвърди вашия и-мейл адрес"
 
@@ -5272,10 +5335,12 @@ msgid "[tippr] your budget has been accepted"
 msgstr ""
 
 #: r2/models/mail_queue.py:339
+#, fuzzy
 msgid "[tippr] your promotion has been accepted"
 msgstr "[реддит] вашата подкрепа беше приета"
 
 #: r2/models/mail_queue.py:340
+#, fuzzy
 msgid "[tippr] your promotion has been rejected"
 msgstr "[реддит] вашата подкрепа беше отхвърлена"
 
@@ -5300,10 +5365,12 @@ msgid "[tippr] your promotion edit is being approved"
 msgstr ""
 
 #: r2/models/mail_queue.py:346
+#, fuzzy
 msgid "[tippr] hey, nerd!"
 msgstr "[реддит] Хей, маниак!"
 
 #: r2/models/mail_queue.py:347
+#, fuzzy
 msgid "[tippr] tippr gold activation link"
 msgstr "[реддит] линк за активиране на реддит злато"
 
@@ -5863,6 +5930,7 @@ msgid "sexualizing minors"
 msgstr "сексуално съдържание с непълнолетни"
 
 #: r2/models/rules.py:41
+#, fuzzy
 msgid "breaking tippr"
 msgstr "разваля реддит"
 
@@ -5895,10 +5963,12 @@ msgid "Update preferences and related account information. Will not have access 
 msgstr "Обновете предпочитанията и свързаната с тях информация в акаунта Ви. Няма да промени имейла или паролата Ви."
 
 #: r2/models/token.py:126
+#, fuzzy
 msgid "Spend tippr gold coins"
 msgstr "Харчене на tippr златни кредити"
 
 #: r2/models/token.py:127
+#, fuzzy
 msgid "Spend my tippr gold coins on giving gold to other users."
 msgstr "Похарчи моите tippr златни кредити, давайки злато на други потребители."
 
@@ -5915,6 +5985,7 @@ msgid "Manage My Flair"
 msgstr "Управлявайте значката си"
 
 #: r2/models/token.py:138
+#, fuzzy
 msgid "Select my vault flair. Change link flair on my submissions."
 msgstr "Избери мой събреддит етикет. Промени линка към етикета на моите подавания."
 
@@ -5931,6 +6002,7 @@ msgid "My Identity"
 msgstr "мойта личност"
 
 #: r2/models/token.py:151
+#, fuzzy
 msgid "Access my tippr username and signup date."
 msgstr "Достъп до моето реддит потребителско име и дата на записване."
 
@@ -5947,6 +6019,7 @@ msgid "Moderate Flair"
 msgstr "Флеър за Модериране"
 
 #: r2/models/token.py:165
+#, fuzzy
 msgid "Manage and assign flair in vaults I moderate."
 msgstr "Управление и определяне на флеър в събредити, които модерирам."
 
@@ -5955,14 +6028,17 @@ msgid "Moderate Posts"
 msgstr "Модериране на постове"
 
 #: r2/models/token.py:171
+#, fuzzy
 msgid "Approve, remove, mark nsfw, and distinguish content in vaults I moderate."
 msgstr "Одобрение, премахване, маркиране като nsfw и отличаване на съдържание в събредити, които модерирам."
 
 #: r2/models/token.py:176
+#, fuzzy
 msgid "Moderate Vault Configuration"
 msgstr "Модериране на конфигурация на събредита"
 
 #: r2/models/token.py:178
+#, fuzzy
 msgid "Manage the configuration, sidebar, and CSS of vaults I moderate."
 msgstr "Управление на конфигурацията, страничната лента и CSS на събредити, които модерирам."
 
@@ -5971,6 +6047,7 @@ msgid "Moderation Log"
 msgstr "лог на модерирането"
 
 #: r2/models/token.py:185
+#, fuzzy
 msgid "Access the moderation log in vaults I moderate."
 msgstr "Достъп до лога на модерирането на събредити, които модерирам."
 
@@ -5991,10 +6068,12 @@ msgid "Accept invitations to moderate a vault. Remove myself as a moderator or c
 msgstr ""
 
 #: r2/models/token.py:206
+#, fuzzy
 msgid "Vault Traffic"
 msgstr "Трафик на събредита"
 
 #: r2/models/token.py:207
+#, fuzzy
 msgid "Access traffic stats in vaults I moderate."
 msgstr "Достъп до трафик статистика за събредити, които модерирам."
 
@@ -6003,6 +6082,7 @@ msgid "Moderate Wiki"
 msgstr "Модерирайте уики"
 
 #: r2/models/token.py:213
+#, fuzzy
 msgid "Change editors and visibility of wiki pages in vaults I moderate."
 msgstr "Промени редакторите и видимостта на уики страниците във събреддите, които аз модерирам."
 
@@ -6011,6 +6091,7 @@ msgid "My Vaults"
 msgstr "Моите vault-и"
 
 #: r2/models/token.py:220
+#, fuzzy
 msgid "Access the list of vaults I moderate, contribute to, and subscribe to."
 msgstr "Достъп до списъка на събредитите, за които съм абониран, допринасям и модерирам."
 
@@ -6212,6 +6293,7 @@ msgid "missing name"
 msgstr "липсващо име"
 
 #: r2/public/static/js/gold.js:298
+#, fuzzy
 msgid "invalid credit card number"
 msgstr "невалиден номер на кредитната карта"
 
@@ -7453,6 +7535,7 @@ msgid "hide"
 msgstr "скрий"
 
 #: r2/templates/admincoins.html:28
+#, fuzzy
 msgid "give coins to a user"
 msgstr "дай кредити на потребител"
 
@@ -7461,6 +7544,7 @@ msgid "recipient"
 msgstr "получател"
 
 #: r2/templates/admincoins.html:43 r2/templates/gold.html:112 r2/templates/goldpayment.html:133
+#, fuzzy
 msgid "coins"
 msgstr "кредити"
 
@@ -8845,6 +8929,7 @@ msgid "ad"
 msgstr "реклама "
 
 #: r2/templates/allinfobar.html:40
+#, fuzzy
 msgid "Exclude your subscribed vaults"
 msgstr "Изключи събредитите, за които съм абониран"
 
@@ -8916,6 +9001,7 @@ msgid "put %(site)s buttons on your site"
 msgstr "сложете %(site)s бутони на вашия сайт"
 
 #: r2/templates/buttondemopanel.html:36
+#, fuzzy
 msgid "the tippr button is the smart way to get your content submitted to      and discussed on tippr.  pick the button you like from below, and then      copy/paste the code into your HTML editor."
 msgstr "Реддит бутона е хитър начин вашето неща да бъдат качвани и дискутирани в реддит. Изберете бутона, който ви харесва отдолу, и после копирайте/поставете кода във вашие html редактор."
 
@@ -8924,6 +9010,7 @@ msgid "commonly used buttons"
 msgstr "често използвани бутони"
 
 #: r2/templates/buttondemopanel.html:41
+#, fuzzy
 msgid "use one of these buttons to quickly add tippr links to your site, or       see below for more options."
 msgstr "Използвайте един от тези бутони, за да добавите бързо всякакви реддит линкове към вашия сайт, или вижте долу за повече опции."
 
@@ -9046,7 +9133,7 @@ msgid "deleted comment from"
 msgstr "изтрит коментар от"
 
 #: r2/templates/comment.html:115
-#, python-format
+#, python-format, fuzzy
 msgid "this vault hides comment scores for %d minutes"
 msgstr "този събредит скрива резултатите на коментарите за %d минути"
 
@@ -9451,10 +9538,12 @@ msgid "anyone"
 msgstr "всеки"
 
 #: r2/templates/createvault.html:232
+#, fuzzy
 msgid "Anyone who can submit to the vault may edit"
 msgstr "Всеки, който може да поства в събредита, може да редактира"
 
 #: r2/templates/createvault.html:239
+#, fuzzy
 msgid "Vault karma required to edit and create wiki pages:"
 msgstr "Събредит карма нужна, за да редактираш и създаваш уики страници: "
 
@@ -9684,6 +9773,7 @@ msgid "Displaying content from %s, except the following vaults: "
 msgstr ""
 
 #: r2/templates/filteredinfobar.html:48
+#, fuzzy
 msgid "filter vault"
 msgstr "Филтрирай събредитите"
 
@@ -9733,6 +9823,7 @@ msgid "flair options"
 msgstr "флеър опции"
 
 #: r2/templates/flairpane.html:42
+#, fuzzy
 msgid "enable user flair in this vault"
 msgstr "позволи потребителски флеър в този събреддит"
 
@@ -9781,6 +9872,7 @@ msgid "position flair to the right of the link"
 msgstr "сложи флеъра отдясно на линка"
 
 #: r2/templates/flairprefs.html:34
+#, fuzzy
 msgid "Show my flair on this vault. It looks like:"
 msgstr "Покажи флеъра ми в този събредит. Ще изглежда така:"
 
@@ -9842,10 +9934,12 @@ msgid "A single gilding costs %(price)s. If you plan to do a lot you can get a d
 msgstr ""
 
 #: r2/templates/gilding.html:63
+#, fuzzy
 msgid "What are coins?"
 msgstr "Какво са кредити?"
 
 #: r2/templates/gilding.html:64
+#, fuzzy
 msgid "Each coin you have can be converted into one month of tippr gold. Stored as a balance on your account, coins allow you to give gold without having to enter payment information."
 msgstr "Всеки кредит, който имате ще бъде конвентиран в едномесечно реддит злато.Запазен като баланс на вашият акаунт, кредитите ви позволяват да давате злато без да вписвате платежната информация."
 
@@ -9890,6 +9984,7 @@ msgid "(We'll send a code to your email address you can then give to your recipi
 msgstr "(Ще  изпратим код до имейл адресът ви, който след това ще може да дадете на получателя)"
 
 #: r2/templates/gold.html:85
+#, fuzzy
 msgid "buy tippr gold"
 msgstr "купи редит злато"
 
@@ -9906,6 +10001,7 @@ msgid "ongoing subscription"
 msgstr ""
 
 #: r2/templates/gold.html:118
+#, fuzzy
 msgid "How many coins would you like to buy?"
 msgstr "Колко кредита ще желаете да закупите?"
 
@@ -9914,6 +10010,7 @@ msgid "Stored as a balance on your account, coins allow you to give gold without
 msgstr ""
 
 #: r2/templates/gold.html:123
+#, fuzzy
 msgid "Learn more about using coins"
 msgstr "Научете повече за използването на кредитите"
 
@@ -10030,6 +10127,7 @@ msgid "PayPal"
 msgstr ""
 
 #: r2/templates/goldpayment.html:157
+#, fuzzy
 msgid "Credit Card"
 msgstr "Кредитна Карта"
 
@@ -10682,6 +10780,7 @@ msgid "see the suggestions again"
 msgstr "предложения"
 
 #: r2/templates/newlink.html:41
+#, fuzzy
 msgid "tippr"
 msgstr "реддит"
 
@@ -10700,6 +10799,7 @@ msgid "(optional)"
 msgstr "(по избор)"
 
 #: r2/templates/newlink.html:107
+#, fuzzy
 msgid "choose a vault"
 msgstr "избери събреддит"
 
@@ -10778,7 +10878,7 @@ msgid "Allow %(app)s to:"
 msgstr "Позволи на %(app)s да:"
 
 #: r2/templates/oauth2authorization.html:67
-#, python-format
+#, python-format, fuzzy
 msgid "%(app)s will not be able to access your tippr password."
 msgstr "%(app)s няма да получи достъп до реддит паролата ти."
 
@@ -10865,6 +10965,7 @@ msgid "Your current budget is %(budget)s"
 msgstr "Текущия ви бюджет е %(budget)s"
 
 #: r2/templates/paymentform.html:44
+#, fuzzy
 msgid "Please pick your credit card:"
 msgstr "Моля изберете вашата кредитна карта."
 
@@ -11014,6 +11115,7 @@ msgid "Only in:"
 msgstr "Само в:"
 
 #: r2/templates/prefapps.html:249
+#, fuzzy
 msgid "Only in the vaults:"
 msgstr "Само в събреддитите:"
 
@@ -11229,6 +11331,7 @@ msgid "don't show thumbnails next to links"
 msgstr "не показвай преглед до връзките"
 
 #: r2/templates/prefoptions.html:163
+#, fuzzy
 msgid "show thumbnails based on that vault's media preferences"
 msgstr "показвай преглед според медия настройките на този съб-реддит"
 
@@ -11468,6 +11571,7 @@ msgid "I am over eighteen years old and willing to view adult content"
 msgstr "Аз съм над 18 години и искам да виждам съдържанието за възрастни"
 
 #: r2/templates/prefoptions.html:342
+#, fuzzy
 msgid "required to view some vaults"
 msgstr "необходим, за да разглеждаш някои събредити"
 
@@ -11892,6 +11996,7 @@ msgid "manage recurring subscription"
 msgstr ""
 
 #: r2/templates/profilebar.html:184
+#, fuzzy
 msgid "user for"
 msgstr "Реддитор за"
 
@@ -12580,6 +12685,7 @@ msgid "see the search faq for details."
 msgstr "виж често задаваните въпроси относно търсене за детайли"
 
 #: r2/templates/searchform.html:57
+#, fuzzy
 msgid "advanced search: by author, vault..."
 msgstr "разширено търсене: по автор, събредит..."
 
@@ -12693,6 +12799,7 @@ msgid "first"
 msgstr "пръв"
 
 #: r2/templates/thanks.html:35
+#, fuzzy
 msgid "thanks for buying coins!"
 msgstr "Благодаря че купихте кредити!"
 
@@ -12713,6 +12820,7 @@ msgid "You're already a tippr gold subscriber."
 msgstr "Все още сте tippr gold абонат."
 
 #: r2/templates/thanks.html:48
+#, fuzzy
 msgid "But if you just gave us even more money, enter the new confirmation code below and we'll add the extra credit to your account."
 msgstr "Но ако си ни дал още повече пари, въведи новия код за потвърждение по-долу и ние ще добавим допълнителния кредит към профила ти."
 
@@ -12777,6 +12885,7 @@ msgid "daily mean"
 msgstr "средно за деня"
 
 #: r2/templates/trendingvaultsbar.html:34
+#, fuzzy
 msgid "trending vaults"
 msgstr "модерни събреддити"
 
@@ -13030,6 +13139,7 @@ msgid "Leave this community"
 msgstr ""
 
 #: r2/templates/vaultinfobar.html:64
+#, fuzzy
 msgid "logged-in users viewing this vault in the past 15 minutes"
 msgstr "регистрирани потребители преглеждащи този суб-редит през последните 15 минути"
 
@@ -13042,7 +13152,7 @@ msgid "stop being an approved submitter?"
 msgstr "престани да бъдеш одобрен подател?"
 
 #: r2/templates/vaultinfobar.html:86
-#, python-format
+#, python-format, fuzzy
 msgid "you are an approved submitter on this vault. (%(leave)s)"
 msgstr "ти си одобрен подател в този събредит. (%(leave)s)"
 
@@ -13145,10 +13255,12 @@ msgid "All times are in [UTC](http://en.wikipedia.org/wiki/UTC)."
 msgstr "Всички часове са в [UTC](http://en.wikipedia.org/wiki/UTC)."
 
 #: r2/templates/vaulttrafficreport.html:32
+#, fuzzy
 msgid "Enter one vault per line. Traffic numbers shown are for the last full month."
 msgstr "По един събредит на ред. Трафик данните показвани тук са за последния пълен месец."
 
 #: r2/templates/vaulttrafficreport.html:42
+#, fuzzy
 msgid "vault traffic"
 msgstr "събредит трафик"
 
@@ -13319,6 +13431,7 @@ msgid "who can edit this page?"
 msgstr "кой може да редактира тази страница?"
 
 #: r2/templates/wikipagesettings.html:43
+#, fuzzy
 msgid "use vault wiki permissions"
 msgstr "използвай разрешенията на уики страницата на събредита"
 

@@ -1259,7 +1259,7 @@ msgid "gilded"
 msgstr "ゴールド"
 
 #: r2/controllers/listingcontroller.py:2094
-#, python-format
+#, python-format, fuzzy
 msgid "gildings in this vault have paid for %(time)s of server time"
 msgstr "このサブレディットのゴールド贈呈は、サーバー時間 %(time)s のために支払われました。"
 
@@ -1674,6 +1674,7 @@ msgid "The contents of this page appear on the vault sidebar"
 msgstr "このページの内容はvaultのサイドバーに表示されます。"
 
 #: r2/controllers/wiki.py:96
+#, fuzzy
 msgid "The contents of this page appear in the public vault description and when the user does not have access to the vault"
 msgstr "このページのコンテンツはサブレディットの説明に表示され、また、ユーザーがサブレディットを閲覧する権限がない場合に表示されます。"
 
@@ -2038,6 +2039,7 @@ msgid "you aren't allowed to post there."
 msgstr "ここへ投稿することは許可されていません。"
 
 #: r2/lib/errors.py:85
+#, fuzzy
 msgid "you aren't allowed access to this vault"
 msgstr "あなたはこのサブレディットへアクセスする許可がありません"
 
@@ -2207,10 +2209,12 @@ msgid "that code has already been claimed -- perhaps by you?"
 msgstr "そのコードはすでに要求されています。おそらくあなたによって？"
 
 #: r2/lib/errors.py:126
+#, fuzzy
 msgid "that vault doesn't allow text posts"
 msgstr "そのサブレディットはテキスト投稿が許されていません"
 
 #: r2/lib/errors.py:127
+#, fuzzy
 msgid "that vault only allows text posts"
 msgstr "そのサブレディットはテキスト投稿のみ受け付けています"
 
@@ -2390,7 +2394,7 @@ msgid "can't add special vault %(path)s"
 msgstr "特別な vault %(path)s を追加できません"
 
 #: r2/lib/errors.py:173
-#, python-format
+#, python-format, fuzzy
 msgid "maximum %(max)s vaults"
 msgstr "最大%(max)s個のサブレディット"
 
@@ -2441,6 +2445,7 @@ msgid "insufficient coins"
 msgstr "クレジットが足りません"
 
 #: r2/lib/errors.py:185
+#, fuzzy
 msgid "gilding is not allowed in this vault"
 msgstr "このサブレディットではギルディングは禁止されています"
 
@@ -2449,6 +2454,7 @@ msgid "unable to scrape provided url"
 msgstr "そのurlはスクレイピングすることができません"
 
 #: r2/lib/errors.py:187
+#, fuzzy
 msgid "can't send a message from a vault to another vault"
 msgstr "あるサブレディットから別のサブレディットへメッセージを送ることはできません"
 
@@ -2466,6 +2472,7 @@ msgid "to convert an existing vault to gold only, send a message to %(admin_modm
 msgstr ""
 
 #: r2/lib/errors.py:192
+#, fuzzy
 msgid "this vault must be 'gold only' to select this"
 msgstr "このサブレディットはゴールドメンバーしか選べません"
 
@@ -2504,10 +2511,12 @@ msgid "This comment is not stickyable. Ensure that it is a top level comment."
 msgstr ""
 
 #: r2/lib/errors.py:201 r2/public/static/js/errors.js:7
+#, fuzzy
 msgid "A vault rule by that name already exists."
 msgstr "この名前は他のサブレディットルールが使用しています"
 
 #: r2/lib/errors.py:202
+#, fuzzy
 msgid "No vault rule by that name exists."
 msgstr "その名前はどのサブレディットも使っていません。"
 
@@ -2586,6 +2595,7 @@ msgstr ""
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:22
+#, fuzzy
 msgid "Reason to create a tippr 1"
 msgstr "レディットを作らなくちゃいけてない"
 
@@ -2604,12 +2614,14 @@ msgstr "tippr 3 にしなきゃダメなわけ"
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:28
+#, fuzzy
 msgid "Reason to create a tippr 4"
 msgstr "レディットじゃなきゃ刺さらない"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:30
+#, fuzzy
 msgid "Reason to create a tippr 5"
 msgstr "レディットがあれば繋がれる"
 
@@ -2634,12 +2646,14 @@ msgstr ""
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:38
+#, fuzzy
 msgid "Reason to create a tippr 9"
 msgstr "レディットだったら後悔しない"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:40
+#, fuzzy
 msgid "Reason to create a tippr 10"
 msgstr "レディットないのって言いたくない"
 
@@ -4260,6 +4274,7 @@ msgid "No notes for this IP address"
 msgstr "この IP アドレスには注意書きがありません。"
 
 #: r2/lib/pages/admin_pages.py:106
+#, fuzzy
 msgid "No notes for this vault"
 msgstr "このサブレディットにはメモはありません。"
 
@@ -4405,10 +4420,12 @@ msgid "trophy case"
 msgstr "トロフィーケース"
 
 #: r2/lib/pages/pages.py:2358
+#, fuzzy
 msgid "public multivaults"
 msgstr "公開中のマルチレディット"
 
 #: r2/lib/pages/pages.py:2365
+#, fuzzy
 msgid "hidden multivaults"
 msgstr "非公開のマルチレディット"
 
@@ -4663,6 +4680,7 @@ msgid "gold perks"
 msgstr "金の特典."
 
 #: r2/lib/pages/pages.py:5930
+#, fuzzy
 msgid "explore multis"
 msgstr "マルチレディットを探す"
 
@@ -4677,6 +4695,7 @@ msgid "formatting"
 msgstr "フォーマットに関してのヘルプ"
 
 #: r2/lib/pages/pages.py:6086
+#, fuzzy
 msgid "your subscribed vaults"
 msgstr "購読済みのサブレディット"
 
@@ -5145,6 +5164,7 @@ msgid "from %(author)s via %(vault)s sent %(when)s"
 msgstr ""
 
 #: r2/models/link.py:2385
+#, fuzzy
 msgid "[message from blocked vault]"
 msgstr "[ブロックされているサブレディットからのメッセージ]"
 
@@ -5951,6 +5971,7 @@ msgid "Manage My Flair"
 msgstr "フレアーを管理する"
 
 #: r2/models/token.py:138
+#, fuzzy
 msgid "Select my vault flair. Change link flair on my submissions."
 msgstr "自分のサブレディットフレアーを選択します。投稿のリンクフレアーを変更します。"
 
@@ -9356,6 +9377,7 @@ msgid "\"In 5-billion years the Sun will expand and engulf our orbit as the char
 msgstr "「50億年で、太陽は膨張し、地球の軌道を飲み込みながら、かつて地球だった黒焦げの燃えさしが蒸発するでしょう。良い一日を。」"
 
 #: r2/templates/createvault.html:41
+#, fuzzy
 msgid ""
 "\n"
 "# your account is too new to create a vault\n"
@@ -9434,6 +9456,7 @@ msgid "only tippr employees can view; the employee list is pulled from live conf
 msgstr ""
 
 #: r2/templates/createvault.html:171
+#, fuzzy
 msgid "If you switch this vault to another type, you will not be able to switch back to \"gold only\" without the assistance of an admin"
 msgstr "このサブレディットを他のタイプに変更すると、管理者の助け無しに\"gold only\"に戻すことは出来ません"
 
@@ -9576,6 +9599,7 @@ msgid "collapse deleted and removed comments"
 msgstr "削除・除去されたコメントを折りたたむ"
 
 #: r2/templates/createvault.html:405
+#, fuzzy
 msgid "hide ads (only available for gold only vaults)"
 msgstr "広告を隠す(ゴールドメンバーのみのサブレディットだけが利用可能)"
 
@@ -9620,10 +9644,12 @@ msgid "restore default header"
 msgstr "ディフォルトのヘッダーに戻す"
 
 #: r2/templates/createvault.html:503
+#, fuzzy
 msgid "related vaults"
 msgstr "関連のあるサブレディット"
 
 #: r2/templates/createvault.html:505
+#, fuzzy
 msgid "similar or related vaults."
 msgstr "似ているか関連しているサブレディット"
 
@@ -9734,6 +9760,7 @@ msgid "Displaying content from %s, except the following vaults: "
 msgstr ""
 
 #: r2/templates/filteredinfobar.html:48
+#, fuzzy
 msgid "filter vault"
 msgstr "サブレディットを漉す"
 
@@ -9871,6 +9898,7 @@ msgid "Giving [tippr gold](/gold/about) is referred to as 'gilding'. You can eit
 msgstr "[ゴールド](/gold/about)を贈ることは 'ギルド' と呼ばれます。特定のユーザーに直接ゴールドを贈ることも、ユーザーの投稿やコメントに対してギルドすることもできます。"
 
 #: r2/templates/gilding.html:41
+#, fuzzy
 msgid "How do I gild someone?"
 msgstr "だれかにレディットゴールドをあげるにはどうすれば？"
 
@@ -10372,6 +10400,7 @@ msgid "browse all vaults"
 msgstr "全部のvaultより"
 
 #: r2/templates/listingchooser.html:51
+#, fuzzy
 msgid "multivaults"
 msgstr "マルチレディット"
 
@@ -10380,6 +10409,7 @@ msgid "hide multivaults (turn them back on in preferences)"
 msgstr ""
 
 #: r2/templates/listingchooser.html:57
+#, fuzzy
 msgid "new! create sets of vaults to view together."
 msgstr "複数のサブレディットをまとめて見られるセットを作成できます。"
 
@@ -10388,6 +10418,7 @@ msgid "for starters, try one of these:"
 msgstr "はじめに次のサンプルを試してみてください："
 
 #: r2/templates/listingchooser.html:62
+#, fuzzy
 msgid "to hide these samples, create a multi of your own:"
 msgstr "マルチレディットを作成すると、この説明は表示されなくなります"
 
@@ -10617,10 +10648,12 @@ msgid "you are invited to become a moderator. %(action)s"
 msgstr "あなたはモデレータになる招待を受けました。%(action)s"
 
 #: r2/templates/modsrinfobar.html:34
+#, fuzzy
 msgid "/v/mod shows only vaults you moderate."
 msgstr "/v/mod にはあなたのモデレートするサブレディットのみが表示されます。"
 
 #: r2/templates/modsrinfobar.html:37
+#, fuzzy
 msgid "filter out vaults"
 msgstr "サブレディットをフィルターします。"
 
@@ -11364,6 +11397,7 @@ msgid "show additional details in the domain text when available"
 msgstr "利用可能ならドメインテキスト括弧内に追加情報を表示"
 
 #: r2/templates/prefoptions.html:221
+#, fuzzy
 msgid "(such as the source vault or the content author's url/name)"
 msgstr "(そのソースのサブレディット名、そのコンテンツ作者のURL/名前など)"
 

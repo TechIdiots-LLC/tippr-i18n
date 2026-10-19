@@ -693,6 +693,7 @@ msgid "show %d"
 msgstr "показать %d"
 
 #: r2/controllers/front.py:568 r2/controllers/front.py:571 r2/templates/adminvaults.html:25
+#, fuzzy
 msgid "create a vault"
 msgstr "создать сабреддит"
 
@@ -758,6 +759,7 @@ msgid "search results"
 msgstr "результаты поиска"
 
 #: r2/controllers/front.py:1247 r2/controllers/listingcontroller.py:1529 r2/lib/menus.py:96 r2/lib/menus.py:173 r2/templates/adminvault.html:23 r2/templates/adminvaults.html:22 r2/templates/pagenamenav.html:62 r2/templates/promotelinkbase.html:765
+#, fuzzy
 msgid "vaults"
 msgstr "сабреддиты"
 
@@ -766,7 +768,7 @@ msgid "seen it"
 msgstr "уже видел"
 
 #: r2/controllers/front.py:1412 r2/models/vault.py:2414 r2/templates/multiinfobar.html:37
-#, python-format
+#, fuzzy, python-format
 msgid "%s vaults"
 msgstr "%s сабреддитов"
 
@@ -783,6 +785,7 @@ msgid "Claimed! Enjoy your tippr gold membership."
 msgstr "Активировано! Наслаждайтесь вашей золотой подписки tippr."
 
 #: r2/controllers/front.py:1500
+#, fuzzy
 msgid "Your gold coins have been claimed! Now go to someone's userpage and give them a present!"
 msgstr "Ваши золотые креддиты получены! Теперь зайдите на чью-нибудь страницу и сделайте им подарок!"
 
@@ -853,6 +856,7 @@ msgid "tippr gold"
 msgstr "золотая подписка"
 
 #: r2/controllers/front.py:2012 r2/templates/gilding.html:79
+#, fuzzy
 msgid "purchase coins"
 msgstr "приобрести креддиты"
 
@@ -915,10 +919,12 @@ msgid "Thank you for buying tippr gold. Your patronage supports the site and mak
 msgstr "Спасибо за покупку золота tippr. Ваш вклад помогает сайту и делает возможным его дальнейшее развитие. К примеру, один месяц золотой подписки оплачивает 5 часов работы наших серверов."
 
 #: r2/controllers/ipn.py:586
+#, fuzzy
 msgid "Eureka! Thank you for investing in tippr gold coins!"
 msgstr "Эврика! Спасибо за ваш вклад в золотые креддиты!"
 
 #: r2/controllers/ipn.py:589
+#, fuzzy
 msgid "Thank you for buying coins. Your patronage supports the site and makes future development possible. To spend your coins and spread tippr gold, visit [/gold](/gold) or your favorite person's user page."
 msgstr "Спасибо за покупку креддитов. Ваш вклад помогает сайту и делает возможным его дальнейшее развитие. Чтобы потратить ваши креддиты и подарить кому-нибудь золотую подписку, посетите [/gold](/gold) или страничку вашего любимого пользователя."
 
@@ -964,7 +970,7 @@ msgid "tippr gold subscription cancelled"
 msgstr "золотая подписка tippr отменена"
 
 #: r2/controllers/ipn.py:767
-#, python-format
+#, fuzzy, python-format
 msgid "Your tippr gold subscription has been cancelled because your credit card could not be charged. Contact %(gold_email)s for details"
 msgstr "Ваша золотая подписка tippr отменена, потому что мы не смогли получить деньги с вашей кредитной карты. Пишите на %(gold_email)s, если возникли вопросы."
 
@@ -1142,6 +1148,7 @@ msgid "you're really bored now, eh?"
 msgstr "вам действительно скучно, а?"
 
 #: r2/controllers/listingcontroller.py:806
+#, fuzzy
 msgid "filter by vault"
 msgstr "фильтровать по сабреддитам"
 
@@ -1237,6 +1244,7 @@ msgid "messages"
 msgstr "сообщения"
 
 #: r2/controllers/listingcontroller.py:1672
+#, fuzzy
 msgid "vaults: "
 msgstr "сабреддиты: "
 
@@ -1249,7 +1257,7 @@ msgid "gilded"
 msgstr "позолоченное"
 
 #: r2/controllers/listingcontroller.py:2094
-#, python-format
+#, fuzzy, python-format
 msgid "gildings in this vault have paid for %(time)s of server time"
 msgstr "Золочения в этом сабреддите помогли нам оплатить %(time)s серверного времени"
 
@@ -1652,6 +1660,7 @@ msgid "search failed"
 msgstr "поиск не удался"
 
 #: r2/controllers/wiki.py:93
+#, fuzzy
 msgid "This page is the vault stylesheet, changes here apply to the vault css"
 msgstr "Это страница стилей сабреддита, изменения здесь будут применены к CSS сабреддита"
 
@@ -1660,14 +1669,17 @@ msgid "The contents of this page appear on the submit page"
 msgstr "Содержание этой страницы появится на странице публикации материала"
 
 #: r2/controllers/wiki.py:95
+#, fuzzy
 msgid "The contents of this page appear on the vault sidebar"
 msgstr "Содержание этой страницы появится на боковой панели сабреддита"
 
 #: r2/controllers/wiki.py:96
+#, fuzzy
 msgid "The contents of this page appear in the public vault description and when the user does not have access to the vault"
 msgstr "Содержание этой страницы появится в публичном описании сабреддита, а также когда пользователь не будет иметь доступа к сабреддиту"
 
 #: r2/controllers/wiki.py:97
+#, fuzzy
 msgid "This page is used to configure AutoModerator for the vault, please see [the full documentation](/wiki/automoderator/full-documentation) for information"
 msgstr "Эта страница настройки Автомодератора для сабреддита. Пожалуйста, ознакомьтесь с [документацией](/wiki/automoderator/full-documentation)."
 
@@ -1697,6 +1709,7 @@ msgid "this wiki cannot handle page names of that magnitude!  please select a pa
 msgstr "в этой вики нельзя использовать названия страниц такой длины! пожалуйста, выберите название страницы не длиннее %d символов"
 
 #: r2/controllers/wiki.py:221
+#, fuzzy
 msgid "this page is a special page, please go into the vault settings and save the field once to create this special page"
 msgstr "Это специальная страница, нажмите \"сохранить\" в настройках сабреддита, чтобы создать ее"
 
@@ -2014,10 +2027,12 @@ msgid "that link has already been submitted"
 msgstr "эта ссылка уже была опубликована"
 
 #: r2/lib/errors.py:82
+#, fuzzy
 msgid "that vault already exists"
 msgstr "такой сабреддит уже существует"
 
 #: r2/lib/errors.py:83
+#, fuzzy
 msgid "that vault doesn't exist"
 msgstr "такого сабреддита не существует"
 
@@ -2026,14 +2041,17 @@ msgid "you aren't allowed to post there."
 msgstr "у вас нет разрешения на публикацию здесь."
 
 #: r2/lib/errors.py:85
+#, fuzzy
 msgid "you aren't allowed access to this vault"
 msgstr "у вас нет доступа к этому сабреддиту"
 
 #: r2/lib/errors.py:86
+#, fuzzy
 msgid "you must specify a vault"
 msgstr "Нужно указать сабреддит"
 
 #: r2/lib/errors.py:87
+#, fuzzy
 msgid "this vault has chosen to disable their ads at this time"
 msgstr "в данный момент в этом сабреддите отключен показ рекламы"
 
@@ -2109,7 +2127,7 @@ msgid "That email could not be added. Check your email for an existing confirmat
 msgstr "Данная эл. почта не может быть добавлена. Проверьте вашу почту на наличие письма подтверждения."
 
 #: r2/lib/errors.py:108
-#, python-format
+#, fuzzy, python-format
 msgid "that vault has already been oversold on %(start)s to %(end)s. Please pick another vault or date."
 msgstr "ресурсы на этом сабреддите уже распроданы с %(start)s по %(end)s. пожалуйста, выберите другой сабреддит или дату."
 
@@ -2195,10 +2213,12 @@ msgid "that code has already been claimed -- perhaps by you?"
 msgstr "этот код уже был использован. возможно, вами?"
 
 #: r2/lib/errors.py:126
+#, fuzzy
 msgid "that vault doesn't allow text posts"
 msgstr "этот сабреддит не допускает текстовые посты"
 
 #: r2/lib/errors.py:127
+#, fuzzy
 msgid "that vault only allows text posts"
 msgstr "этот сабреддит допускает только текстовые посты"
 
@@ -2324,6 +2344,7 @@ msgid "You can't perform that action because that user is a moderator."
 msgstr "Вы не можете выполнить это действие, так как этот пользователь является модератором."
 
 #: r2/lib/errors.py:160
+#, fuzzy
 msgid "there is no pending invite for that vault"
 msgstr "для этого сабреддита нет приглашений, ожидающих принятия"
 
@@ -2357,28 +2378,32 @@ msgid "%(reason)s"
 msgstr ""
 
 #: r2/lib/errors.py:168
+#, fuzzy
 msgid "that multivault doesn't exist"
 msgstr "такого мультиреддита не существует"
 
 #: r2/lib/errors.py:169
+#, fuzzy
 msgid "that multivault already exists"
 msgstr "такой мультиреддит уже существует"
 
 #: r2/lib/errors.py:170
+#, fuzzy
 msgid "you can't change that multivault"
 msgstr "вы не можете изменить этот мультиреддит"
 
 #: r2/lib/errors.py:171
+#, fuzzy
 msgid "no more space for vaults in that multivault"
 msgstr "в этом мультиреддите больше нет места для сабреддитов"
 
 #: r2/lib/errors.py:172
-#, python-format
+#, fuzzy, python-format
 msgid "can't add special vault %(path)s"
 msgstr "нельзя добавить особый сабреддит %(path)s"
 
 #: r2/lib/errors.py:173
-#, python-format
+#, fuzzy, python-format
 msgid "maximum %(max)s vaults"
 msgstr "максимум %(max)s сабреддитов"
 
@@ -2413,6 +2438,7 @@ msgid "frequency cap must be at least %(min)d"
 msgstr ""
 
 #: r2/lib/errors.py:181
+#, fuzzy
 msgid "that user is banned from the vault"
 msgstr "этот пользователь изгнан из сабреддита"
 
@@ -2425,10 +2451,12 @@ msgid "you must have an active tippr gold subscription to do that"
 msgstr "для этого у вас должна быть активная золотая подписка tippr"
 
 #: r2/lib/errors.py:184
+#, fuzzy
 msgid "insufficient coins"
 msgstr "недостаточно креддитов"
 
 #: r2/lib/errors.py:185
+#, fuzzy
 msgid "gilding is not allowed in this vault"
 msgstr "золочение в этом сабреддите запрещено"
 
@@ -2437,6 +2465,7 @@ msgid "unable to scrape provided url"
 msgstr "не удалось распознать url"
 
 #: r2/lib/errors.py:187
+#, fuzzy
 msgid "can't send a message from a vault to another vault"
 msgstr "невозможно отправить сообщение из одного сабреддита в другой"
 
@@ -2449,11 +2478,12 @@ msgid "you must be in admin mode for this"
 msgstr "для этого вы должны быть в режиме администрирования"
 
 #: r2/lib/errors.py:190
-#, python-format
+#, fuzzy, python-format
 msgid "to convert an existing vault to gold only, send a message to %(admin_modmail)s"
 msgstr "для того, чтобы существующий сабреддит стал доступен только золотым подписчикам, отправьте сообщение на %(admin_modmail)s"
 
 #: r2/lib/errors.py:192
+#, fuzzy
 msgid "this vault must be 'gold only' to select this"
 msgstr "для этого данный сабреддит должен быть доступен только золотым подписчикам"
 
@@ -2470,10 +2500,12 @@ msgid "you must select at least one device per OS to target"
 msgstr "вы должны выбрать целью хотя бы одно устройство на ОС"
 
 #: r2/lib/errors.py:196
+#, fuzzy
 msgid "You have been muted from this vault."
 msgstr "Вы были заглушены в этом сабреддите."
 
 #: r2/lib/errors.py:197
+#, fuzzy
 msgid "This user has been muted from the vault."
 msgstr "Данный пользователь был заглушен в этом сабреддите."
 
@@ -2515,61 +2547,61 @@ msgstr ""
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:2
 msgid "Funny 500 page message 1"
-msgstr "Кажется, сегодня вам придется общаться с настоящими людьми. Приносим свои извинения."
+msgstr ""
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:4
 msgid "Funny 500 page message 2"
-msgstr "Не стоит забывать, что жизнь полна разочарований. Не благодарите за напоминание."
+msgstr ""
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:6
 msgid "Funny 500 page message 3"
-msgstr "В настоящее время наш сервер переживает тяжелый экзистенциальный кризис. Если вы не знаете, как ему помочь, просто уходите."
+msgstr ""
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:8
 msgid "Funny 500 page message 4"
-msgstr "Сервер вернется через пять минут. Если они уже прошли, прочитайте первое предложение снова."
+msgstr ""
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:10
 msgid "Funny 500 page message 5"
-msgstr "Наш сервер пожертвовал собой, чтобы сэкономить ваше драгоценное время. Иди работай!"
+msgstr ""
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:12
 msgid "Funny 500 page message 6"
-msgstr "Сожалеем, но у вас закончились талоны на интернет."
+msgstr ""
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:14
 msgid "Funny 500 page message 7"
-msgstr "Идет восстание машин… (62% complete)"
+msgstr ""
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:16
 msgid "Funny 500 page message 8"
-msgstr "Сколько ты не обновляй, сервер от этого не починится."
+msgstr ""
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:18
 msgid "Funny 500 page message 9"
-msgstr "Кажется, сегодня вам придется общаться с настоящими людьми. Приносим свои извинения."
+msgstr ""
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:20
 msgid "Funny 500 page message 10"
-msgstr "Сервер вернется через пять минут. Если они уже прошли, прочитайте первое предложение снова."
+msgstr ""
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
@@ -3085,6 +3117,7 @@ msgid "edit subscriptions"
 msgstr "редактировать подписки"
 
 #: r2/lib/menus.py:132 r2/lib/pages/pages.py:2191
+#, fuzzy
 msgid "vault settings"
 msgstr "настройки сабреддита"
 
@@ -3173,6 +3206,7 @@ msgid "create"
 msgstr "создать"
 
 #: r2/lib/menus.py:158 r2/lib/pages/pages.py:2815
+#, fuzzy
 msgid "my vaults"
 msgstr "мои сабреддиты"
 
@@ -3523,7 +3557,7 @@ msgid "that link has already been submitted, but you can try to [submit it again
 msgstr "эту ссылку уже публиковали, но вы можете попробовать [опубликовать ее повторно](%s)."
 
 #: r2/lib/strings.py:75
-#, python-format
+#, fuzzy, python-format
 msgid "that link has been submitted to multiple vaults. you can try to [submit it again](%s)."
 msgstr "эта ссылка уже была размещена в нескольких сабреддитах. вы можете попробовать [опубликовать ее повторно](%s)."
 
@@ -3547,6 +3581,7 @@ msgid "to view tippr with only submissions from your friends, use [tippr.net/v/f
 msgstr "чтобы просматривать только публикации друзей, используйте [tippr.net/v/friends](%s)"
 
 #: r2/lib/strings.py:86
+#, fuzzy
 msgid "your vault has been created"
 msgstr "ваш сабреддит был создан"
 
@@ -3556,18 +3591,22 @@ msgid "visit [%(link)s](%(link)s) for more information"
 msgstr "посетите [%(link)s](%(link)s), чтобы узнать подробности"
 
 #: r2/lib/strings.py:91
+#, fuzzy
 msgid "you have not subscribed to any vaults."
 msgstr "вы не подписаны ни на один сабреддит."
 
 #: r2/lib/strings.py:92
+#, fuzzy
 msgid "below are the vaults you have subscribed to."
 msgstr "ниже приведены сабреддиты, на которые вы подписаны."
 
 #: r2/lib/strings.py:93
+#, fuzzy
 msgid "below are the vaults that you are an approved submitter on."
 msgstr "ниже приведены сабреддиты, в которых вы являетесь одобренным автором."
 
 #: r2/lib/strings.py:94
+#, fuzzy
 msgid "below are the vaults that you have moderator access to."
 msgstr "ниже приведены сабреддиты, в которых вы являетесь модератором."
 
@@ -3729,7 +3768,7 @@ msgid "You're about to make a one-time purchase of %(amount)s of tippr gold for 
 msgstr "Вы собираетесь единовременно приобрести %(amount)s золотой подписки для себя (%(user)s). В сумме это будет стоить %(price)s."
 
 #: r2/lib/strings.py:140
-#, python-format
+#, fuzzy, python-format
 msgid "You're about to purchase %(amount)s. They work like gift certificates: each coin you have will allow you to give one month of tippr gold to someone else. You'll pay a total of %(price)s for this."
 msgstr "Вы собираетесь приобрести %(amount)s. Они работают как подарочные сертификаты: каждый креддит позволяет вам подарить кому-нибудь месяц золотой подписки. Вы заплатите %(price)s."
 
@@ -3846,14 +3885,17 @@ msgstr ""
 "Примечание: вне вашего сабреддита есть несколько мест, где пользователь может нажать ссылку \"подписаться\", поэтому возможна (хоть и маловероятна) ситуация, когда количество подписок за день превышает количество уникальных посетителей.\n"
 
 #: r2/lib/strings.py:174
+#, fuzzy
 msgid "multivault of your subscriptions"
 msgstr "мультиреддит из ваших подписок"
 
 #: r2/lib/strings.py:175
+#, fuzzy
 msgid "multivault of vaults you moderate"
 msgstr "мультиреддит из модерируемых вами сабреддитов"
 
 #: r2/lib/strings.py:177
+#, fuzzy
 msgid "/v/all displays content from all of tippr, including vaults you aren't subscribed to. Some vaults have chosen to exclude themselves from /v/all."
 msgstr "/v/all показывает материалы со всего tippr, включая сабреддиты, на которые вы не подписаны. Некоторые сообщества предпочли не входить в /v/all."
 
@@ -3887,6 +3929,7 @@ msgstr[1] "сообщения"
 msgstr[2] "сообщений"
 
 #: r2/lib/pages/admin_pages.py:113 r2/lib/pages/trafficpages.py:815 r2/lib/strings.py:263 r2/templates/adminfeeds.html:44 r2/templates/adminfeeds.html:73 r2/templates/adminvaults.html:49 r2/templates/sitewidetraffic.html:39 r2/templates/vaulttrafficreport.html:45
+#, fuzzy
 msgid "vault"
 msgid_plural "vaults"
 msgstr[0] "сабреддит"
@@ -3894,6 +3937,7 @@ msgstr[1] "сабреддита"
 msgstr[2] "сабреддитов"
 
 #: r2/lib/strings.py:264
+#, fuzzy
 msgid "coin"
 msgid_plural "coins"
 msgstr[0] "креддит"
@@ -4291,6 +4335,7 @@ msgid "No notes for this IP address"
 msgstr "Нет заметок об этом IP-адресе"
 
 #: r2/lib/pages/admin_pages.py:106
+#, fuzzy
 msgid "No notes for this vault"
 msgstr "Нет заметок об этом сабреддите"
 
@@ -4324,10 +4369,12 @@ msgid "moderation tools"
 msgstr "инструменты модератора"
 
 #: r2/lib/pages/pages.py:703
+#, fuzzy
 msgid "these vaults"
 msgstr "следующие сабреддиты"
 
 #: r2/lib/pages/pages.py:717
+#, fuzzy
 msgid "this vault is archived and no longer accepting submissions."
 msgstr "этот сабреддит заархивирован и больше не принимает публикации."
 
@@ -4348,6 +4395,7 @@ msgid "Submissions restricted"
 msgstr "Публикации ограничены"
 
 #: r2/lib/pages/pages.py:820
+#, fuzzy
 msgid "Create your own vault"
 msgstr "Создать свой сабреддит"
 
@@ -4419,6 +4467,7 @@ msgid "about %(site)s"
 msgstr "о %(site)s"
 
 #: r2/lib/pages/pages.py:2215
+#, fuzzy
 msgid "search vaults by name"
 msgstr "искать сабреддиты по названию"
 
@@ -4437,10 +4486,12 @@ msgid "trophy case"
 msgstr "трофеи"
 
 #: r2/lib/pages/pages.py:2358
+#, fuzzy
 msgid "public multivaults"
 msgstr "публичные мультиреддиты"
 
 #: r2/lib/pages/pages.py:2365
+#, fuzzy
 msgid "hidden multivaults"
 msgstr "скрытые мультиреддиты"
 
@@ -4453,7 +4504,7 @@ msgid "less than a day"
 msgstr "менее одного дня"
 
 #: r2/lib/pages/pages.py:2466
-#, python-format
+#, fuzzy, python-format
 msgid "%(coins)s gold coin to give"
 msgid_plural "%(coins)s gold coins to give"
 msgstr[0] "доступен %(coins)s золотой креддит"
@@ -4510,6 +4561,7 @@ msgid "where your votes shape what the world is talking about."
 msgstr "где ваш голос определяет то, о чем говорит мир."
 
 #: r2/lib/pages/pages.py:2886 r2/lib/pages/pages.py:2996
+#, fuzzy
 msgid "add vault"
 msgstr "добавить сабреддит"
 
@@ -4524,12 +4576,12 @@ msgid "%s visible"
 msgstr "%s видимое"
 
 #: r2/lib/pages/pages.py:2933
-#, python-format
+#, fuzzy, python-format
 msgid "%(bonus)s bonus vaults"
 msgstr "%(bonus)s бонусные сабреддиты"
 
 #: r2/lib/pages/pages.py:3309
-#, python-format
+#, fuzzy, python-format
 msgid "you have a credit card gold subscription. your card (ending in %(last4)s) will be charged %(amount)s on %(date)s."
 msgstr "на вашу кредитную карту оформлена золотая подписка. с вашей карты (оканчивающейся цифрами %(last4)s) будет списано %(amount)s %(date)s."
 
@@ -4651,10 +4703,12 @@ msgid "frontpage impressions"
 msgstr "показы на главной"
 
 #: r2/lib/pages/pages.py:5559
+#, fuzzy
 msgid "vault clicks"
 msgstr "клики в сабреддитах"
 
 #: r2/lib/pages/pages.py:5559
+#, fuzzy
 msgid "vault impressions"
 msgstr "показы в сабреддитах"
 
@@ -4683,6 +4737,7 @@ msgid "everything"
 msgstr "все"
 
 #: r2/lib/pages/pages.py:5902 r2/lib/pages/pages.py:5905
+#, fuzzy
 msgid "from all vaults"
 msgstr "все сабреддиты"
 
@@ -4713,6 +4768,7 @@ msgid "formatting"
 msgstr "помощь в форматировании текста"
 
 #: r2/lib/pages/pages.py:6086
+#, fuzzy
 msgid "your subscribed vaults"
 msgstr "Сабреддиты, на которые вы подписаны"
 
@@ -4837,7 +4893,7 @@ msgid "this page is empty, edit it to add some content."
 msgstr "эта страница пуста, отредактируйте ее, чтобы добавить контент."
 
 #: r2/lib/pages/wiki.py:171 r2/lib/pages/wiki.py:177
-#, python-format
+#, fuzzy, python-format
 msgid "page %s does not exist in this vault"
 msgstr "страница %s не существует в этом сабреддите"
 
@@ -4866,6 +4922,7 @@ msgid "Viewing pages for /v/%s"
 msgstr "просмотр правки от %s"
 
 #: r2/lib/pages/wiki.py:212
+#, fuzzy
 msgid "Below is a list of pages in this wiki visible to you in this vault."
 msgstr "Ниже приведен список видимых для вас страниц вики в этом сабреддите."
 
@@ -4944,6 +5001,7 @@ msgid "max length %d characters"
 msgstr "макс. длина - %d знаков"
 
 #: r2/lib/validator/validator.py:2839
+#, fuzzy
 msgid "credit card numbers should be 13 to 16 digits"
 msgstr "номера кредитных карт должны состоять из 13-16 цифр"
 
@@ -5195,11 +5253,12 @@ msgid "from %(author)s via %(vault)s sent %(when)s"
 msgstr "от %(author)s через %(vault)s отправлено %(when)s"
 
 #: r2/models/link.py:2385
+#, fuzzy
 msgid "[message from blocked vault]"
 msgstr "[сообщение от заблокированного сабреддита]"
 
 #: r2/models/link.py:2406 r2/models/link.py:2411
-#, python-format
+#, fuzzy, python-format
 msgid "vault message via %(vault)s sent %(when)s"
 msgstr "сабреддит-сообщение через %(vault)s отправлено %(when)s"
 
@@ -5309,7 +5368,7 @@ msgid "invite moderator"
 msgstr "пригласить модератора"
 
 #: r2/models/listing.py:285 r2/templates/modlisting.html:36
-#, python-format
+#, fuzzy, python-format
 msgid "you are a moderator of this vault. %(action)s"
 msgstr "вы - модератор этого сабреддита. %(action)s"
 
@@ -5352,6 +5411,7 @@ msgid "[tippr] email addition notice"
 msgstr "[tippr] уведомление о добавлении адреса электронной почты"
 
 #: r2/models/mail_queue.py:336
+#, fuzzy
 msgid "[tippr] reset your password"
 msgstr "[реддит] сбросить ваш пароль"
 
@@ -5408,6 +5468,7 @@ msgid "[tippr] your email address has been changed"
 msgstr "[tippr] ваш адрес эл. почты был изменен"
 
 #: r2/models/mail_queue.py:350
+#, fuzzy
 msgid "[tippr] your campaign didn't get enough impressions"
 msgstr "[реддит] ваша рекламная кампания не получила достаточное количество показов"
 
@@ -5987,10 +6048,12 @@ msgid "Update preferences and related account information. Will not have access 
 msgstr "Обновить предпочтения и остальную информацию об учётной записи. Не даёт доступа к вашим электронной почте и паролю."
 
 #: r2/models/token.py:126
+#, fuzzy
 msgid "Spend tippr gold coins"
 msgstr "Потратить золотые креддиты tippr"
 
 #: r2/models/token.py:127
+#, fuzzy
 msgid "Spend my tippr gold coins on giving gold to other users."
 msgstr "Потратить мои креддиты на золочение других пользователей."
 
@@ -6007,6 +6070,7 @@ msgid "Manage My Flair"
 msgstr "Управление моим флейром"
 
 #: r2/models/token.py:138
+#, fuzzy
 msgid "Select my vault flair. Change link flair on my submissions."
 msgstr "Выбор флейра моего сабреддита. Изменение флейра ссылок моих публикаций."
 
@@ -6031,6 +6095,7 @@ msgid "Approve submitters and ban users"
 msgstr "Одобрение авторов и изгнание пользователей"
 
 #: r2/models/token.py:157
+#, fuzzy
 msgid "Add/remove users to approved submitter lists and ban/unban or mute/unmute users from vaults I moderate."
 msgstr "Добавление/удаление пользователей в одобренные авторы и изгнание/заглушение или восстановление пользователей сабреддитов, которые я модерирую."
 
@@ -6039,6 +6104,7 @@ msgid "Moderate Flair"
 msgstr "Модерация флейра"
 
 #: r2/models/token.py:165
+#, fuzzy
 msgid "Manage and assign flair in vaults I moderate."
 msgstr "Изменение и назначение флейра в сабреддитах, которые я модерирую."
 
@@ -6047,14 +6113,17 @@ msgid "Moderate Posts"
 msgstr "Модерация постов"
 
 #: r2/models/token.py:171
+#, fuzzy
 msgid "Approve, remove, mark nsfw, and distinguish content in vaults I moderate."
 msgstr "Одобрение, удаление, пометка nsfw и различение контента в сабреддитах, которые я модерирую."
 
 #: r2/models/token.py:176
+#, fuzzy
 msgid "Moderate Vault Configuration"
 msgstr "Модерация конфигурации сабреддита"
 
 #: r2/models/token.py:178
+#, fuzzy
 msgid "Manage the configuration, sidebar, and CSS of vaults I moderate."
 msgstr "Управление конфигурацией, боковой панелью и CSS сабреддитов, которые я модерирую."
 
@@ -6063,6 +6132,7 @@ msgid "Moderation Log"
 msgstr "Журнал модерации"
 
 #: r2/models/token.py:185
+#, fuzzy
 msgid "Access the moderation log in vaults I moderate."
 msgstr "Доступ к журналу модерации сабреддитов, которые я модерирую."
 
@@ -6071,22 +6141,27 @@ msgid "Invite or remove other moderators"
 msgstr "Добавление или удаление других модераторов"
 
 #: r2/models/token.py:191
+#, fuzzy
 msgid "Invite or remove other moderators from vaults I moderate."
 msgstr "Добавление или удаление других модераторов из сабреддитов, которые я модерирую."
 
 #: r2/models/token.py:196
+#, fuzzy
 msgid "Make changes to your vault moderator and contributor status"
 msgstr "Внести изменения в свой статус модератора и участника сабреддита"
 
 #: r2/models/token.py:199
+#, fuzzy
 msgid "Accept invitations to moderate a vault. Remove myself as a moderator or contributor of vaults I moderate or contribute to."
 msgstr "Приняние приглашений стать модератором. Снятие с себя полномочий модератора или участника сабреддитов, в которых я состою или модерирую."
 
 #: r2/models/token.py:206
+#, fuzzy
 msgid "Vault Traffic"
 msgstr "Трафик сабреддитов"
 
 #: r2/models/token.py:207
+#, fuzzy
 msgid "Access traffic stats in vaults I moderate."
 msgstr "Смотреть трафик сабреддитов, которые я модерирую."
 
@@ -6095,14 +6170,17 @@ msgid "Moderate Wiki"
 msgstr "Модерировать вики"
 
 #: r2/models/token.py:213
+#, fuzzy
 msgid "Change editors and visibility of wiki pages in vaults I moderate."
 msgstr "Управление редакторами и видимостью страниц вики в сабреддитах, которые я модерирую."
 
 #: r2/models/token.py:218
+#, fuzzy
 msgid "My Vaults"
 msgstr "Мои сабреддиты"
 
 #: r2/models/token.py:220
+#, fuzzy
 msgid "Access the list of vaults I moderate, contribute to, and subscribe to."
 msgstr "Доступ к списку сабреддитов, которые я модерирую, в которых публикую и на которые подписан."
 
@@ -6257,7 +6335,7 @@ msgid "posts from %s"
 msgstr "посты от %s"
 
 #: r2/models/vault.py:2413
-#, python-format
+#, fuzzy, python-format
 msgid "%s vaults curated by /u/%s"
 msgstr "%s сабреддиты, за которыми присматривает /u/%s"
 
@@ -6283,6 +6361,7 @@ msgid "Learn more"
 msgstr "Узнать больше"
 
 #: r2/public/static/js/embed.js:31
+#, fuzzy
 msgid "When checked, if an embedded comment is later edited, the embedded comment text will be replaced by a link back to the current version of the comment on tippr."
 msgstr "Когда включено, если вложенный комментарий будет изменен, текст комментария будет заменен ссылкой на текущую версию комментария на реддите."
 
@@ -6304,6 +6383,7 @@ msgid "missing name"
 msgstr "не указано имя"
 
 #: r2/public/static/js/gold.js:298
+#, fuzzy
 msgid "invalid credit card number"
 msgstr "неверный номер кредитной карты"
 
@@ -6361,6 +6441,7 @@ msgid "You need to be logged in to give gold."
 msgstr "Вы должны войти в аккаунт, чтобы дарить золотую подписку."
 
 #: r2/public/static/js/login.js:139
+#, fuzzy
 msgid "You need to be logged in to subscribe to vaults."
 msgstr "Вы должны войти в аккаунт, чтобы подписываться на сабреддиты."
 
@@ -6513,6 +6594,7 @@ msgid "awesomeness goes here"
 msgstr "тут будет что-то охренительное"
 
 #: r2/public/static/js/multi.js:510
+#, fuzzy
 msgid "add a vault to your multi."
 msgstr "добавить сабреддит в ваш мульти."
 
@@ -6699,6 +6781,7 @@ msgid "inventory for %(target)s is sold out for your requested dates. please try
 msgstr "ресурсы %(target)s за указанный вами период распроданы. пожалуйста, выберите другую цель или даты."
 
 #: r2/public/static/js/sponsored.js:1001
+#, fuzzy
 msgid "house campaigns, man."
 msgstr "собственные рекламные кампании реддита."
 
@@ -6774,6 +6857,7 @@ msgid "an error occurred (status: %(status)s)"
 msgstr "произошла ошибка (статус: %(status)s)"
 
 #: r2/public/static/js/traffic.js:11
+#, fuzzy
 msgid "view vault traffic"
 msgstr "посмотреть трафик сабреддита"
 
@@ -7564,6 +7648,7 @@ msgid "hide"
 msgstr "скрыть"
 
 #: r2/templates/admincoins.html:28
+#, fuzzy
 msgid "give coins to a user"
 msgstr "дать креддиты пользователю"
 
@@ -7572,6 +7657,7 @@ msgid "recipient"
 msgstr "получатель"
 
 #: r2/templates/admincoins.html:43 r2/templates/gold.html:112 r2/templates/goldpayment.html:133
+#, fuzzy
 msgid "coins"
 msgstr "креддиты"
 
@@ -8969,6 +9055,7 @@ msgid "ad"
 msgstr "реклама"
 
 #: r2/templates/allinfobar.html:40
+#, fuzzy
 msgid "Exclude your subscribed vaults"
 msgstr "Исключить сабреддиты, на которые вы подписаны"
 
@@ -9170,7 +9257,7 @@ msgid "deleted comment from"
 msgstr "удаленный комментарий из"
 
 #: r2/templates/comment.html:115
-#, python-format
+#, fuzzy, python-format
 msgid "this vault hides comment scores for %d minutes"
 msgstr "этот сабреддит скрывает рейтинг комментариев в течение %d мин."
 
@@ -9433,6 +9520,7 @@ msgid "\"In 5-billion years the Sun will expand and engulf our orbit as the char
 msgstr "\"Через 5 миллиардов лет Солнце расширится и поглотит нашу орбиту, превратив Землю в обугленный уголек. Хорошего вам дня.\""
 
 #: r2/templates/createvault.html:41
+#, fuzzy
 msgid ""
 "\n"
 "# your account is too new to create a vault\n"
@@ -9513,6 +9601,7 @@ msgid "only tippr employees can view; the employee list is pulled from live conf
 msgstr "просматривать могут только сотрудники tippr; список работников берется из актуальных настроек"
 
 #: r2/templates/createvault.html:171
+#, fuzzy
 msgid "If you switch this vault to another type, you will not be able to switch back to \"gold only\" without the assistance of an admin"
 msgstr "Если вы измените тип вашего сабреддита, то не сможете снова поменять обратно на «только для золотых подписчиков» без помощи администратора"
 
@@ -9585,6 +9674,7 @@ msgid "Anyone who can submit to the vault may edit"
 msgstr "правки могут вносить все, у кого есть право публикации"
 
 #: r2/templates/createvault.html:239
+#, fuzzy
 msgid "Vault karma required to edit and create wiki pages:"
 msgstr "минимальная карма сабреддита для правки и создания страниц вики:"
 
@@ -9655,6 +9745,7 @@ msgid "collapse deleted and removed comments"
 msgstr "сворачивать удаленные комментарии"
 
 #: r2/templates/createvault.html:405
+#, fuzzy
 msgid "hide ads (only available for gold only vaults)"
 msgstr "скрыть рекламу (доступно только сабреддитам для золотых подписчиков)"
 
@@ -9667,6 +9758,7 @@ msgid "(all comment threads will use this sorting method by default)"
 msgstr "(все обсуждения будут использовать это упорядочивание по умолчанию)"
 
 #: r2/templates/createvault.html:414
+#, fuzzy
 msgid "none (recommended for most vaults)"
 msgstr "нет (рекомендуется для большинства сабреддитов)"
 
@@ -9679,6 +9771,7 @@ msgid "hide help"
 msgstr "убрать справку"
 
 #: r2/templates/createvault.html:449
+#, fuzzy
 msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.tippr.net. You will be able to access your tippr through your domain."
 msgstr "Имеете собственный домен? Введите его здесь и обратитесь к вашему DNS провайдеру для добавления записи CNAME в ваш домен на rhs.tippr.net. Вы сможете заходить на реддит через ваш домен."
 
@@ -9699,10 +9792,12 @@ msgid "restore default header"
 msgstr "восстановить вид шапки по умолчанию"
 
 #: r2/templates/createvault.html:503
+#, fuzzy
 msgid "related vaults"
 msgstr "связанные сабреддиты"
 
 #: r2/templates/createvault.html:505
+#, fuzzy
 msgid "similar or related vaults."
 msgstr "схожие или связанные сабреддиты."
 
@@ -9747,6 +9842,7 @@ msgid "color"
 msgstr "цвет"
 
 #: r2/templates/createvault.html:623
+#, fuzzy
 msgid "used as a thematic color for your vault on mobile"
 msgstr "использован как цвет темы вашего сабреддита для мобильной версии"
 
@@ -9814,6 +9910,7 @@ msgid "Displaying content from %s, except the following vaults: "
 msgstr ""
 
 #: r2/templates/filteredinfobar.html:48
+#, fuzzy
 msgid "filter vault"
 msgstr "фильтровать сабреддит"
 
@@ -9863,6 +9960,7 @@ msgid "flair options"
 msgstr "параметры флейра"
 
 #: r2/templates/flairpane.html:42
+#, fuzzy
 msgid "enable user flair in this vault"
 msgstr "включить флейры пользователей в этом сабреддите"
 
@@ -9911,6 +10009,7 @@ msgid "position flair to the right of the link"
 msgstr "поместить флейр справа от ссылки"
 
 #: r2/templates/flairprefs.html:34
+#, fuzzy
 msgid "Show my flair on this vault. It looks like:"
 msgstr "Показать мой флейр в этом сабреддите. Он выглядит так:"
 
@@ -9967,27 +10066,32 @@ msgid "How much does it cost?"
 msgstr "Сколько это стоит?"
 
 #: r2/templates/gilding.html:60
-#, python-format
+#, fuzzy, python-format
 msgid "A single gilding costs %(price)s. If you plan to do a lot you can get a discount if you purchase some [coins](/coins)."
 msgstr "Одно золочение стоит %(price)s. Если вы собираетесь дарить много золота, вы можете получить скидку, купив несколько [креддитов](/coins)."
 
 #: r2/templates/gilding.html:63
+#, fuzzy
 msgid "What are coins?"
 msgstr "Что такое креддиты?"
 
 #: r2/templates/gilding.html:64
+#, fuzzy
 msgid "Each coin you have can be converted into one month of tippr gold. Stored as a balance on your account, coins allow you to give gold without having to enter payment information."
 msgstr "Каждый ваш креддит может быть превращен в один месяц золотой подписки tippr. Хранящиеся на балансе вашей учетной записи креддиты позволяют дарить золото без необходимости вводить платежную информацию."
 
 #: r2/templates/gilding.html:64
+#, fuzzy
 msgid "Additionally, buying coins in bulk lowers the cost of each gilding."
 msgstr "К тому же, оптовая покупка креддитов делает каждое золочение дешевле."
 
 #: r2/templates/gilding.html:67
+#, fuzzy
 msgid "How do I use coins?"
 msgstr "Как использовать креддиты?"
 
 #: r2/templates/gilding.html:68
+#, fuzzy
 msgid "Your coins are listed as a payment method on the checkout page."
 msgstr "Ваши креддиты указаны в качестве валюты на странице оплаты."
 
@@ -10036,14 +10140,17 @@ msgid "ongoing subscription"
 msgstr "текущая подписка"
 
 #: r2/templates/gold.html:118
+#, fuzzy
 msgid "How many coins would you like to buy?"
 msgstr "Сколько креддитов желаете приобрести?"
 
 #: r2/templates/gold.html:122
+#, fuzzy
 msgid "Stored as a balance on your account, coins allow you to give gold without having to enter payment information. Each coin you have can be converted into one month of tippr gold."
 msgstr "Хранящихся на вашей учетной записи креддиты позволяют подарить золотую подписку без необходимости вводить платежную информацию. На каждый ваш креддит вы можете приобрести один месяц золотой подписки."
 
 #: r2/templates/gold.html:123
+#, fuzzy
 msgid "Learn more about using coins"
 msgstr "Узнайте больше об использовании креддитов"
 
@@ -10142,7 +10249,7 @@ msgid "Please select a payment method."
 msgstr "Пожалуйста, выберите способ оплаты."
 
 #: r2/templates/goldpayment.html:113
-#, python-format
+#, fuzzy, python-format
 msgid "Give gold often? Consider [buying coins to use](/coins), they're 40% cheaper if purchased in a set of 12."
 msgstr "Часто дарите золото? Рассмотрите вариант [покупки креддитов для использования](/coins), они будут стоить на 40% дешевле, если купить сразу 12."
 
@@ -10151,7 +10258,7 @@ msgid "Would you like to [learn more about giving gold](/gilding)?"
 msgstr "Хотели бы вы [узнать больше о дарении золотой подписки](/gilding)?"
 
 #: r2/templates/goldpayment.html:135
-#, python-format
+#, fuzzy, python-format
 msgid "(use %(current)s of your %(total)s coins)"
 msgstr "(использовать %(current)s из %(total)s креддитов)"
 
@@ -10160,6 +10267,7 @@ msgid "PayPal"
 msgstr ""
 
 #: r2/templates/goldpayment.html:157
+#, fuzzy
 msgid "Credit Card"
 msgstr "кредитная карта"
 
@@ -10259,12 +10367,12 @@ msgid "Contact the admins."
 msgstr "отправить сообщение админам"
 
 #: r2/templates/interestbar.html:30
-#, python-format
+#, fuzzy, python-format
 msgid "ready for something new? %s subscribe %s to some new vaults."
 msgstr "Готовы к чему-нибудь новому? %s Подпишитесь %s на несколько сабреддитов."
 
 #: r2/templates/interestbar.html:32
-#, python-format
+#, fuzzy, python-format
 msgid "it looks like you haven't %s subscribed %s to any vaults yet. want some ideas?"
 msgstr "похоже вы еще не %s подписаны %s ни на один сабреддит. мы можем помочь!"
 
@@ -10452,6 +10560,7 @@ msgid "browse all vaults"
 msgstr "все сабреддиты"
 
 #: r2/templates/listingchooser.html:51
+#, fuzzy
 msgid "multivaults"
 msgstr "мультиреддиты"
 
@@ -10460,6 +10569,7 @@ msgid "hide multivaults (turn them back on in preferences)"
 msgstr ""
 
 #: r2/templates/listingchooser.html:57
+#, fuzzy
 msgid "new! create sets of vaults to view together."
 msgstr "новинка! создайте набор сабреддитов, чтобы смотреть их вместе."
 
@@ -10496,7 +10606,7 @@ msgid "random vault"
 msgstr "добавить сабреддит"
 
 #: r2/templates/locationbar.html:32
-#, python-format
+#, fuzzy, python-format
 msgid "using the default vaults for your location (%(location)s)"
 msgstr "используются сабреддиты по умолчанию для вашего местоположения (%(location)s)"
 
@@ -10643,6 +10753,7 @@ msgid "[full conversation]"
 msgstr ""
 
 #: r2/templates/messagecompose.html:67
+#, fuzzy
 msgid "(username, or /v/name for that vault's moderators)"
 msgstr "(имя пользователя или /v/имясабреддита для модераторов этого сообщества)"
 
@@ -10706,10 +10817,12 @@ msgid "you are invited to become a moderator. %(action)s"
 msgstr "вы приглашены стать модератором. %(action)s"
 
 #: r2/templates/modsrinfobar.html:34
+#, fuzzy
 msgid "/v/mod shows only vaults you moderate."
 msgstr "/v/mod показывает только модерируемые вами сабреддиты."
 
 #: r2/templates/modsrinfobar.html:37
+#, fuzzy
 msgid "filter out vaults"
 msgstr "отфильтровать сабреддиты"
 
@@ -10774,7 +10887,7 @@ msgid "edit description"
 msgstr "изменить описание"
 
 #: r2/templates/multiinfobar.html:114
-#, python-format
+#, fuzzy, python-format
 msgid "%(count)s vaults in this multi:"
 msgstr "в этом мультиреддите %(count)s сабреддитов:"
 
@@ -10784,6 +10897,7 @@ msgid "created by %(user)s"
 msgstr "создано %(user)s"
 
 #: r2/templates/multiinfobar.html:137
+#, fuzzy
 msgid "a multivault for"
 msgstr "мультиреддит существует"
 
@@ -10804,10 +10918,12 @@ msgid "would you like to..."
 msgstr "не хотели бы вы..."
 
 #: r2/templates/multiinfobar.html:159
+#, fuzzy
 msgid "check out vaults by category"
 msgstr "просмотреть сабреддиты по категориям"
 
 #: r2/templates/multiinfobar.html:164
+#, fuzzy
 msgid "explore a random vault"
 msgstr "исследовать случайный сабреддит"
 
@@ -10834,6 +10950,7 @@ msgid "(optional)"
 msgstr "(необязательно)"
 
 #: r2/templates/newlink.html:107
+#, fuzzy
 msgid "choose a vault"
 msgstr "Выберите сабреддит"
 
@@ -11001,6 +11118,7 @@ msgid "Your current budget is %(budget)s"
 msgstr "Ваш текущий бюджет составляет %(budget)s"
 
 #: r2/templates/paymentform.html:44
+#, fuzzy
 msgid "Please pick your credit card:"
 msgstr "Пожалуйста, выберите кредитную карту:"
 
@@ -11150,6 +11268,7 @@ msgid "Only in:"
 msgstr "Только в:"
 
 #: r2/templates/prefapps.html:249
+#, fuzzy
 msgid "Only in the vaults:"
 msgstr "Только в сабреддитах:"
 
@@ -11367,6 +11486,7 @@ msgid "don't show thumbnails next to links"
 msgstr "не показывать миниатюры изображений возле ссылок"
 
 #: r2/templates/prefoptions.html:163
+#, fuzzy
 msgid "show thumbnails based on that vault's media preferences"
 msgstr "показывать миниатюры изображений согласно медиа-настройкам сабреддита"
 
@@ -11431,6 +11551,7 @@ msgid "show trending vaults on the front page"
 msgstr ""
 
 #: r2/templates/prefoptions.html:205
+#, fuzzy
 msgid "(a list of popular and notable vaults to check out)"
 msgstr "(список успешных и выдающихся сабреддитов, которые стоит посетить)"
 
@@ -11457,6 +11578,7 @@ msgid "show additional details in the domain text when available"
 msgstr "показывать дополнительные детали в тексте домена (когда доступны)"
 
 #: r2/templates/prefoptions.html:221
+#, fuzzy
 msgid "(such as the source vault or the content author's url/name)"
 msgstr "(например, исходный сабреддит или ссылка/имя автора материала)"
 
@@ -11500,6 +11622,7 @@ msgid "ignore suggested sorts"
 msgstr "игнорировать предложенные сортировки"
 
 #: r2/templates/prefoptions.html:253
+#, fuzzy
 msgid "(suggested sorts may be set by community moderators for specific threads or vaults, like Q&As)"
 msgstr "(предложенные сортировки могут быть установлены модераторами сообщества для отдельных обсуждений или сабреддитов, например, вопросы и ответы)"
 
@@ -11578,10 +11701,12 @@ msgid "display options"
 msgstr "параметры отображения"
 
 #: r2/templates/prefoptions.html:317
+#, fuzzy
 msgid "allow vaults to show me custom themes"
 msgstr "отображать индивидуальные темы каждого сабреддита"
 
 #: r2/templates/prefoptions.html:320
+#, fuzzy
 msgid "(you can also choose which vault themes to disable on an individual level)"
 msgstr "(вы также можете отключать индивидуальные темы оформления сабреддитов)"
 
@@ -11606,6 +11731,7 @@ msgid "I am over eighteen years old and willing to view adult content"
 msgstr "мне больше 18 лет и я хочу смотреть материалы для взрослых"
 
 #: r2/templates/prefoptions.html:342
+#, fuzzy
 msgid "required to view some vaults"
 msgstr "требуется для просмотра некоторых сабреддитов"
 
@@ -11704,7 +11830,7 @@ msgid "use a %(coin_link)s to automatically renew my gold if it expires"
 msgstr "использовать %(coin_link)s, дабы автоматически продлить мою золотую подписку"
 
 #: r2/templates/prefoptions.html:433
-#, python-format
+#, fuzzy, python-format
 msgid "since you don't have %(gold_link)s, this will only apply in vaults you moderate"
 msgstr "так как у вас нет %(gold_link)s, изменения затронут только модерируемые вами сабреддиты"
 
@@ -11959,6 +12085,7 @@ msgid "reply {verb}"
 msgstr "ответить"
 
 #: r2/templates/printablebuttons.html:588
+#, fuzzy
 msgid "unblock vault"
 msgstr "разблокировать сабреддит"
 
@@ -11967,6 +12094,7 @@ msgid "unblocked"
 msgstr "разблокировано"
 
 #: r2/templates/printablebuttons.html:591
+#, fuzzy
 msgid "block vault"
 msgstr "заблокировать сабреддит"
 
@@ -11983,6 +12111,7 @@ msgid "You must be invited to visit this community"
 msgstr "Для посещения этого сообщества требуется приглашение."
 
 #: r2/templates/privateinterstitial.html:43
+#, fuzzy
 msgid "The moderators of this vault have set it to private. You must be a moderator or approved submitter to visit."
 msgstr "Модераторы этого сабреддита сделали его приватным. Вы должны быть модератором или одобренным участникам, чтобы посещать его."
 
@@ -12003,6 +12132,7 @@ msgid "comment karma"
 msgstr "карма комментариев"
 
 #: r2/templates/profilebar.html:82
+#, fuzzy
 msgid "really obscure karma from before it was cool to track per-vault"
 msgstr "странные правила подсчёта кармы, оставшиеся с тех времён, когда ещё не было модным считать её отдельно в каждом сабреддите"
 
@@ -12402,6 +12532,7 @@ msgid "interests"
 msgstr "интересы"
 
 #: r2/templates/promotelinkbase.html:753
+#, fuzzy
 msgid "targets a collection of similar vaults"
 msgstr "ориентирована на коллекцию подобных сабреддитов"
 
@@ -12414,10 +12545,12 @@ msgid "interest audience group"
 msgstr ""
 
 #: r2/templates/promotelinkbase.html:785
+#, fuzzy
 msgid "vaults included on the frontpage are based on users' subscriptions"
 msgstr "показываемые на главной странице сабреддиты основаны на подписках пользователей"
 
 #: r2/templates/promotelinkbase.html:788
+#, fuzzy
 msgid "includes these vaults"
 msgstr "включает эти сабреддиты"
 
@@ -12446,6 +12579,7 @@ msgid "metro"
 msgstr "город или мегаполис"
 
 #: r2/templates/promotelinkbase.html:837
+#, fuzzy
 msgid "vault targeting"
 msgstr "показы в сабреддитах"
 
@@ -12540,7 +12674,7 @@ msgid "You must log in and have a verified email to view this community"
 msgstr "Чтобы просматривать данное сообщество, вы должны войти в свой аккаунт с подтвержденной эл. почтой"
 
 #: r2/templates/quarantineinterstitial.html:57
-#, python-format
+#, fuzzy, python-format
 msgid "Communities that are dedicated to shocking or highly offensive content are [quarantined](%(link)s). Content in this community may be upsetting. Are you certain you want to continue?"
 msgstr "Сообщества, посвященные шокирующему или оскорбительному контенту, находятся [на карантине](%(link)s). Содержание этого сабреддита может вас обидеть. Вы уверены, что хотите продолжить?"
 
@@ -12695,6 +12829,7 @@ msgid "converted query to %(syntax)s syntax: %(converted)s"
 msgstr "ваш запрос переведен в синтаксис %(syntax)s: %(converted)s"
 
 #: r2/templates/searchform.html:38
+#, fuzzy
 msgid "find submissions in \"vault\""
 msgstr "искать публикации в \"сабреддите\""
 
@@ -12727,6 +12862,7 @@ msgid "see the search faq for details."
 msgstr "почитайте ЧаВо о поиске"
 
 #: r2/templates/searchform.html:57
+#, fuzzy
 msgid "advanced search: by author, vault..."
 msgstr "расширенный поиск: по авторам, сабреддитам..."
 
@@ -12776,6 +12912,7 @@ msgid "note: you will only be eligible for a gilding trophy if this is set to \"
 msgstr "примечание: вы получите право на трофейную Золотую подписку, только если здесь указано «для всех»"
 
 #: r2/templates/sitewidetraffic.html:36
+#, fuzzy
 msgid "top vaults"
 msgstr "топ сабреддитов"
 
@@ -12841,6 +12978,7 @@ msgid "first"
 msgstr "первый"
 
 #: r2/templates/thanks.html:35
+#, fuzzy
 msgid "thanks for buying coins!"
 msgstr "благодарим за покупку креддитов!"
 
@@ -12849,6 +12987,7 @@ msgid "thanks for subscribing!"
 msgstr "благодарим за подписку!"
 
 #: r2/templates/thanks.html:42
+#, fuzzy
 msgid "enter your confirmation code below to claim your gift coins"
 msgstr "введите ваш код подтверждения ниже, чтобы получить подарочные креддиты"
 
@@ -12861,6 +13000,7 @@ msgid "You're already a tippr gold subscriber."
 msgstr "У вас уже есть золотая подписка tippr."
 
 #: r2/templates/thanks.html:48
+#, fuzzy
 msgid "But if you just gave us even more money, enter the new confirmation code below and we'll add the extra credit to your account."
 msgstr "Если вы дали нам ещё больше денег, введите новый код подтверждения ниже и мы добавим на ваш аккаунт дополнительные креддиты."
 
@@ -12925,6 +13065,7 @@ msgid "daily mean"
 msgstr "среднесуточное значение"
 
 #: r2/templates/trendingvaultsbar.html:34
+#, fuzzy
 msgid "trending vaults"
 msgstr "сабреддиты с растущей популярностью"
 
@@ -13168,6 +13309,7 @@ msgid "[link]"
 msgstr ""
 
 #: r2/templates/vaultfacets.html:32
+#, fuzzy
 msgid "too many results? narrow it down to a vault!"
 msgstr "слишком много результатов? сузьте поиск до сабреддита!"
 
@@ -13181,6 +13323,7 @@ msgid "Leave this community"
 msgstr "Покинуть это сообщество"
 
 #: r2/templates/vaultinfobar.html:64
+#, fuzzy
 msgid "logged-in users viewing this vault in the past 15 minutes"
 msgstr "вошедшие в аккаунт пользователи, просматривавшие этот сабреддит за последние 15 минут"
 
@@ -13193,11 +13336,12 @@ msgid "stop being an approved submitter?"
 msgstr "перестать быть одобренным автором?"
 
 #: r2/templates/vaultinfobar.html:86
-#, python-format
+#, fuzzy, python-format
 msgid "you are an approved submitter on this vault. (%(leave)s)"
 msgstr "вы - одобренный автор в этом сабреддите. (%(leave)s)"
 
 #: r2/templates/vaultinfobar.html:100
+#, fuzzy
 msgid "Show this vault's theme"
 msgstr "Отображать тему этого сабреддита"
 
@@ -13206,10 +13350,12 @@ msgid "a community for"
 msgstr "сообщество существует"
 
 #: r2/templates/vaultinfobar.html:134
+#, fuzzy
 msgid "approve this vault"
 msgstr "одобрить этот сабреддит"
 
 #: r2/templates/vaultinfobar.html:164
+#, fuzzy
 msgid "ban this vault"
 msgstr "изгнать этот сабреддит"
 
@@ -13296,10 +13442,12 @@ msgid "All times are in [UTC](http://en.wikipedia.org/wiki/UTC)."
 msgstr "Все время отображается в формате [UTC](http://ru.wikipedia.org/wiki/%D0%92%D1%81%D0%B5%D0%BC%D0%B8%D1%80%D0%BD%D0%BE%D0%B5_%D0%BA%D0%BE%D0%BE%D1%80%D0%B4%D0%B8%D0%BD%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%BD%D0%BE%D0%B5_%D0%B2%D1%80%D0%B5%D0%BC%D1%8F)."
 
 #: r2/templates/vaulttrafficreport.html:32
+#, fuzzy
 msgid "Enter one vault per line. Traffic numbers shown are for the last full month."
 msgstr "Введите по одному сабреддиту на строку. Показывается трафик за последний месяц."
 
 #: r2/templates/vaulttrafficreport.html:42
+#, fuzzy
 msgid "vault traffic"
 msgstr "трафик сабреддитов"
 
@@ -13452,7 +13600,7 @@ msgid "submit a discussion"
 msgstr "начать обсуждение"
 
 #: r2/templates/wikipagenotfound.html:26
-#, python-format
+#, fuzzy, python-format
 msgid "The page \"%s\" was not found in this vault."
 msgstr "Страница \"%s\" в этом сабреддите не найдена."
 
@@ -13470,6 +13618,7 @@ msgid "who can edit this page?"
 msgstr "кто может редактировать эту страницу?"
 
 #: r2/templates/wikipagesettings.html:43
+#, fuzzy
 msgid "use vault wiki permissions"
 msgstr "использовать права доступа сабреддита в вики"
 

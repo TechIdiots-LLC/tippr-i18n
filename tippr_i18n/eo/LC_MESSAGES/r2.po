@@ -1105,6 +1105,7 @@ msgid "you're really bored now, eh?"
 msgstr "vi vere enuegas nun, ĉu?"
 
 #: r2/controllers/listingcontroller.py:806
+#, fuzzy
 msgid "filter by vault"
 msgstr "filtri laŭ subredito"
 
@@ -8936,7 +8937,7 @@ msgid "deleted comment from"
 msgstr "forviŝita komento el"
 
 #: r2/templates/comment.html:115
-#, python-format
+#, python-format, fuzzy
 msgid "this vault hides comment scores for %d minutes"
 msgstr "ĉi tiu subredito kaŝas komentajn poentojn dum %d minutoj"
 
@@ -9328,6 +9329,7 @@ msgid "anyone"
 msgstr "iu ajn"
 
 #: r2/templates/createvault.html:232
+#, fuzzy
 msgid "Anyone who can submit to the vault may edit"
 msgstr "iu ajn kiu rajtas afiŝi en la subredito rajtas redakti"
 
@@ -10229,6 +10231,7 @@ msgid "or try a %(random_vault)s"
 msgstr ""
 
 #: r2/templates/listingsuggestions.html:42
+#, fuzzy
 msgid "random vault"
 msgstr "hazarda subredito"
 

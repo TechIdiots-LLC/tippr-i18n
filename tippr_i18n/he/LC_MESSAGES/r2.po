@@ -679,6 +679,7 @@ msgid "show %d"
 msgstr "הראה %d"
 
 #: r2/controllers/front.py:568 r2/controllers/front.py:571 r2/templates/adminvaults.html:25
+#, fuzzy
 msgid "create a vault"
 msgstr "צור תת-רדיט"
 
@@ -745,6 +746,7 @@ msgid "search results"
 msgstr "תוצאות החיפוש"
 
 #: r2/controllers/front.py:1247 r2/controllers/listingcontroller.py:1529 r2/lib/menus.py:96 r2/lib/menus.py:173 r2/templates/adminvault.html:23 r2/templates/adminvaults.html:22 r2/templates/pagenamenav.html:62 r2/templates/promotelinkbase.html:765
+#, fuzzy
 msgid "vaults"
 msgstr "תת-רדיטים"
 
@@ -753,7 +755,7 @@ msgid "seen it"
 msgstr "ראיתי"
 
 #: r2/controllers/front.py:1412 r2/models/vault.py:2414 r2/templates/multiinfobar.html:37
-#, python-format
+#, python-format, fuzzy
 msgid "%s vaults"
 msgstr "%s תת-רדיט"
 
@@ -766,18 +768,22 @@ msgid "contact us"
 msgstr "צור קשר איתנו"
 
 #: r2/controllers/front.py:1496
+#, fuzzy
 msgid "Claimed! Enjoy your tippr gold membership."
 msgstr "הצלחה! תיהנה/י מחברות ה\"רדיט זהב\" שלך."
 
 #: r2/controllers/front.py:1500
+#, fuzzy
 msgid "Your gold coins have been claimed! Now go to someone's userpage and give them a present!"
 msgstr "קיבלת את קרדיטי הזהב שלך! עכשיו לך לעמוד המשתמש של מישהו ותן להם מתנה!"
 
 #: r2/controllers/front.py:1503
+#, fuzzy
 msgid "Thanks for buying tippr gold! Your transaction has been completed."
 msgstr "תודה שקנית רדיט זהב! ההעברה הושלמה בהצלחה."
 
 #: r2/controllers/front.py:1506
+#, fuzzy
 msgid "Thanks for buying tippr gold! Your transaction has been completed and emailed to you. You can check the details by signing into your account at:"
 msgstr "תודה שקנית רדיט זהב! ההעברה הושלמה בהצלחה ונשלחה לחשבון האי-מייל שלך. את/ה יכול/ה לבדוק את הפרטים אם תיכנס/י לחשבון שלך ב:"
 
@@ -836,14 +842,17 @@ msgid "welcome back"
 msgstr "ברוך שובך"
 
 #: r2/controllers/front.py:1875 r2/controllers/front.py:1963 r2/controllers/front.py:2002 r2/lib/menus.py:95 r2/templates/contactus.html:117 r2/templates/contactus.html:119 r2/templates/creditgild.html:34 r2/templates/gold.html:30 r2/templates/goldpayment.html:40 r2/templates/goldthanks.html:29 r2/templates/prefoptions.html:431
+#, fuzzy
 msgid "tippr gold"
 msgstr "רדיט זהב"
 
 #: r2/controllers/front.py:2012 r2/templates/gilding.html:79
+#, fuzzy
 msgid "purchase coins"
 msgstr "רכוש קרדיטים"
 
 #: r2/controllers/front.py:2022 r2/controllers/ipn.py:1149
+#, fuzzy
 msgid "tippr gold subscription"
 msgstr "מנוי רדיט גולד"
 
@@ -897,14 +906,17 @@ msgid "the gift code has been messaged to you!"
 msgstr "מישהו שלך לך קוד מתנה!"
 
 #: r2/controllers/ipn.py:572
+#, fuzzy
 msgid "Eureka! Thank you for investing in tippr gold!"
 msgstr "אאוריקה! תודה שהשקעת ברדיט זהב!"
 
 #: r2/controllers/ipn.py:573
+#, fuzzy
 msgid "Thank you for buying tippr gold. Your patronage supports the site and makes future development possible. For example, one month of tippr gold pays for 5 instance hours of tippr's servers."
 msgstr "תודה שקנית רדיט זהב! החסות שהנעקת לנו תומכת באתר והופכת פיתוח עתידי לאפשרי. לדוגמה, חודש אחד של רדיט זהב משלם בשביל 5 שעות של השרתים של רדיט."
 
 #: r2/controllers/ipn.py:586
+#, fuzzy
 msgid "Eureka! Thank you for investing in tippr gold coins!"
 msgstr "אאוריקה! תודה שהשקעת בקרדיטי רדיט זהב!"
 
@@ -917,11 +929,12 @@ msgid "Thank you again for your support, and have fun spreading gold!"
 msgstr "תודה על תמיכתך, תיהנה לתת זהב!"
 
 #: r2/controllers/ipn.py:611
+#, fuzzy
 msgid "Thanks for giving the gift of tippr gold!"
 msgstr "תודה על נתינת המתנה של רדיט זהב!"
 
 #: r2/controllers/ipn.py:612
-#, python-format
+#, python-format, fuzzy
 msgid ""
 "Your classy gift to %s has been delivered.\n"
 "\n"
@@ -932,20 +945,22 @@ msgstr ""
 " תודה לך על שנתת רדיט זהב. התרומה שלך תומכת באתר והפכת פיתוח עתידי לאפשרי."
 
 #: r2/controllers/ipn.py:741
+#, fuzzy
 msgid "tippr gold payment cancelled"
 msgstr "תשלום רדיט זהב בוטל"
 
 #: r2/controllers/ipn.py:742
-#, python-format
+#, python-format, fuzzy
 msgid "Your tippr gold payment has been cancelled, contact %(gold_email)s for details"
 msgstr "תשלום הרדיט זהב שלך בוטל, צור קשר עם %(gold_email)s לפרטים"
 
 #: r2/controllers/ipn.py:757
+#, fuzzy
 msgid "tippr gold payment failed"
 msgstr "תשלום רדיט זהב נכשל"
 
 #: r2/controllers/ipn.py:758
-#, python-format
+#, python-format, fuzzy
 msgid "Your tippr gold payment has failed, contact %(gold_email)s for details"
 msgstr "תשלום הרדיט זהב שלך נכשל, צור קשר עם %(gold_email)s לפרטים"
 
@@ -954,16 +969,17 @@ msgid "tippr gold subscription cancelled"
 msgstr "מנוי הזהב ל Tippr בוטל"
 
 #: r2/controllers/ipn.py:767
-#, python-format
+#, python-format, fuzzy
 msgid "Your tippr gold subscription has been cancelled because your credit card could not be charged. Contact %(gold_email)s for details"
 msgstr "מנוי הרדיט זהב שלך בוטל כי לא היה ניתן לגבות מכרטיס האשראי שלך. צור קשר עם %(gold_email)s לפרטים"
 
 #: r2/controllers/ipn.py:777
+#, fuzzy
 msgid "tippr gold refund"
 msgstr "החזר כספי של רדיט זהב"
 
 #: r2/controllers/ipn.py:778
-#, python-format
+#, python-format, fuzzy
 msgid "Your tippr gold payment has been refunded, contact %(gold_email)s for details"
 msgstr "תשלום הרדיט זהב שלך הוחזר, צור קשר עם %(gold_email)s לפרטים"
 
@@ -997,6 +1013,7 @@ msgid "error: cvc check failed"
 msgstr ""
 
 #: r2/controllers/ipn.py:1086
+#, fuzzy
 msgid "your gold subscription has been cancelled"
 msgstr "המנוי שלך לרדיט זהב בוטל"
 
@@ -1023,6 +1040,7 @@ msgid "subscription created"
 msgstr "מנוי נוצר"
 
 #: r2/controllers/ipn.py:1150
+#, fuzzy
 msgid "Your subscription is being processed and tippr gold will be delivered shortly."
 msgstr "המנוי שלך מעובד כרגע ובעוד כמה רגעים תקבל רדיט זהב."
 
@@ -1031,10 +1049,12 @@ msgid "payment submitted"
 msgstr "תשלום נשלח"
 
 #: r2/controllers/ipn.py:1159
+#, fuzzy
 msgid "tippr gold payment"
 msgstr "תשלום לרדיט זהב"
 
 #: r2/controllers/ipn.py:1160
+#, fuzzy
 msgid "Your payment is being processed and tippr gold will be delivered shortly."
 msgstr "התשלום שלך מעובד כרגע ובעוד כמה רגעים תקבל רדיט זהב."
 
@@ -1124,6 +1144,7 @@ msgid "you're really bored now, eh?"
 msgstr "אתה משועמם בטרוף עכשיו, אה?"
 
 #: r2/controllers/listingcontroller.py:806
+#, fuzzy
 msgid "filter by vault"
 msgstr "סנן לפי תת-רדיט"
 
@@ -1132,10 +1153,12 @@ msgid "filter by category"
 msgstr "סנן לפי קטגוריה"
 
 #: r2/controllers/listingcontroller.py:826
+#, fuzzy
 msgid "gildings received"
 msgstr "כמות פעמים שקיבל רדיט זהב"
 
 #: r2/controllers/listingcontroller.py:827
+#, fuzzy
 msgid "gildings given"
 msgstr "רדיט זהב ניתן"
 
@@ -1155,7 +1178,7 @@ msgid "submitted by %(user)s"
 msgstr "נשלח ע\"י %(user)s"
 
 #: r2/controllers/listingcontroller.py:836
-#, python-format
+#, python-format, fuzzy
 msgid "gilded by %(user)s"
 msgstr "קיבל רדיט זהב על ידי %(user)s"
 
@@ -1185,7 +1208,7 @@ msgid "promoted by %(user)s"
 msgstr "קודם ע\"י %(user)s"
 
 #: r2/controllers/listingcontroller.py:843
-#, python-format
+#, python-format, fuzzy
 msgid "gildings given by %(user)s"
 msgstr "נתינות רדיט זהב על ידי %(user)s"
 
@@ -1219,6 +1242,7 @@ msgid "messages"
 msgstr "הודעות"
 
 #: r2/controllers/listingcontroller.py:1672
+#, fuzzy
 msgid "vaults: "
 msgstr "תת-רדיטים:"
 
@@ -1231,7 +1255,7 @@ msgid "gilded"
 msgstr "מוזהב"
 
 #: r2/controllers/listingcontroller.py:2094
-#, python-format
+#, python-format, fuzzy
 msgid "gildings in this vault have paid for %(time)s of server time"
 msgstr "נתינות רדיט זהב בתת רדיט הזה שילמו עבור %(time)s של זמן סרברים"
 
@@ -1544,6 +1568,7 @@ msgid "reported promoted links"
 msgstr "קישורים מקודמים מדווחים"
 
 #: r2/controllers/promotecontroller.py:601
+#, fuzzy
 msgid "house promoted links"
 msgstr "קישורים מקודמים על ידי רדיט"
 
@@ -1552,6 +1577,7 @@ msgid "fraud suspected promoted links"
 msgstr "קישורים מקודמים החשודים בהונאה"
 
 #: r2/controllers/promotecontroller.py:608
+#, fuzzy
 msgid "promos on tippr"
 msgstr "פרומואים ברדיט"
 
@@ -1626,6 +1652,7 @@ msgid "search failed"
 msgstr "חיפוש נכשל"
 
 #: r2/controllers/wiki.py:93
+#, fuzzy
 msgid "This page is the vault stylesheet, changes here apply to the vault css"
 msgstr "העמוד הזה הוא הstylesheet של תת הרדיט, שינויים כאן מוחלים לCSS של תת הרדיט"
 
@@ -1634,14 +1661,17 @@ msgid "The contents of this page appear on the submit page"
 msgstr "התוכן של העמוד הזה מופיעים בעמוד הפירסון"
 
 #: r2/controllers/wiki.py:95
+#, fuzzy
 msgid "The contents of this page appear on the vault sidebar"
 msgstr "התוכן של העמוד הזה מופיעים בסרגל הצד של תת הרדיט"
 
 #: r2/controllers/wiki.py:96
+#, fuzzy
 msgid "The contents of this page appear in the public vault description and when the user does not have access to the vault"
 msgstr "התוכן של העמוד הזה מופיעים בתיאור תת הרדיט הציבורי וכשלמשתמש אין גישה לתת הרדיט"
 
 #: r2/controllers/wiki.py:97
+#, fuzzy
 msgid "This page is used to configure AutoModerator for the vault, please see [the full documentation](/wiki/automoderator/full-documentation) for information"
 msgstr ""
 "עמוד זה משומש כדי להגדיר את הפקח האוטומטי (AutoModerator) לתת הרדיט, בבקשה קרא את \n"
@@ -1674,6 +1704,7 @@ msgid "this wiki cannot handle page names of that magnitude!  please select a pa
 msgstr "הויקי לא יכולה להתמודד עם שמות דפים מהגודל הזה! אנא בחר לדף שם קצר יותר מ-%d תווים"
 
 #: r2/controllers/wiki.py:221
+#, fuzzy
 msgid "this page is a special page, please go into the vault settings and save the field once to create this special page"
 msgstr "העמוד הוא עמוד מיוחד, אנא גש להגדרות התת-רדיט ושמור את השדה פעם אחת כדי ליצור דף מיוחד זה"
 
@@ -1990,10 +2021,12 @@ msgid "that link has already been submitted"
 msgstr "הלינק הזה כבר נשלח אלינו"
 
 #: r2/lib/errors.py:82
+#, fuzzy
 msgid "that vault already exists"
 msgstr "תת-רדיט זה כבר קיים"
 
 #: r2/lib/errors.py:83
+#, fuzzy
 msgid "that vault doesn't exist"
 msgstr "תת-רדיט זה לא קיים"
 
@@ -2002,14 +2035,17 @@ msgid "you aren't allowed to post there."
 msgstr "אינך מורשה להגיב כאן."
 
 #: r2/lib/errors.py:85
+#, fuzzy
 msgid "you aren't allowed access to this vault"
 msgstr "אין לך הרשאה להיכנס לסאברדיט הזה"
 
 #: r2/lib/errors.py:86
+#, fuzzy
 msgid "you must specify a vault"
 msgstr "את/ה חייב/ת לציין תת-רדיט"
 
 #: r2/lib/errors.py:87
+#, fuzzy
 msgid "this vault has chosen to disable their ads at this time"
 msgstr "הסאברדיט הזה בחר להשבית את הפרסומות בזמן זה"
 
@@ -2171,10 +2207,12 @@ msgid "that code has already been claimed -- perhaps by you?"
 msgstr "הקוד הזה נתבע כבר -- יתכן שעל ידך?"
 
 #: r2/lib/errors.py:126
+#, fuzzy
 msgid "that vault doesn't allow text posts"
 msgstr "תת-רדיט זה לא מרשה פוסטים עצמיים"
 
 #: r2/lib/errors.py:127
+#, fuzzy
 msgid "that vault only allows text posts"
 msgstr "תת-רדיט זה מרשה רק פוסטים עצמיים"
 
@@ -2259,7 +2297,7 @@ msgid "that's not a Google Analytics 4 measurement ID (G-…)"
 msgstr ""
 
 #: r2/lib/errors.py:149
-#, python-format
+#, python-format, fuzzy
 msgid "%(domain)s is not allowed on tippr: %(reason)s"
 msgstr "%(domain)s אינו מורשה ברדיט: %(reason)s"
 
@@ -2413,6 +2451,7 @@ msgid "unable to scrape provided url"
 msgstr ""
 
 #: r2/lib/errors.py:187
+#, fuzzy
 msgid "can't send a message from a vault to another vault"
 msgstr "אינך יכול לשלוח הודעות מתת-רדיט אחד לתת-רדיט אחר"
 
@@ -3061,6 +3100,7 @@ msgid "edit subscriptions"
 msgstr "ערוך מנויים"
 
 #: r2/lib/menus.py:132 r2/lib/pages/pages.py:2191
+#, fuzzy
 msgid "vault settings"
 msgstr "הגדרות תת-רדיט"
 
@@ -3149,6 +3189,7 @@ msgid "create"
 msgstr "יצירת"
 
 #: r2/lib/menus.py:158 r2/lib/pages/pages.py:2815
+#, fuzzy
 msgid "my vaults"
 msgstr "תת-הרדיטים שלי"
 
@@ -3515,11 +3556,12 @@ msgid "I understand and agree that registration on or use of this site constitut
 msgstr "אני מבין ומסכים שההרשמה והשימוש באתר זה מהווה הסכמה ל%(user_agreement)s %(privacy_policy)sו"
 
 #: r2/lib/strings.py:84
-#, python-format
+#, python-format, fuzzy
 msgid "to view tippr with only submissions from your friends, use [tippr.net/v/friends](%s)"
 msgstr "להסתכל את רדיט רק אם הגשות מהחברים שלך, נא להשתמש (tippr.net/v/friends](%s]"
 
 #: r2/lib/strings.py:86
+#, fuzzy
 msgid "your vault has been created"
 msgstr "תת-הרדיט שלך נוצר"
 
@@ -3529,6 +3571,7 @@ msgid "visit [%(link)s](%(link)s) for more information"
 msgstr "ראה [%(link)s](%(link)s) למידע נוסף"
 
 #: r2/lib/strings.py:91
+#, fuzzy
 msgid "you have not subscribed to any vaults."
 msgstr "לא נרשמת לשום תת-רדיטים."
 
@@ -3650,7 +3693,7 @@ msgid "You sent us a postcard! (Or something similar.) When we run out of room o
 msgstr "שלחת לנו איגרת! (או משהו דומה.) כשיגמר לנו המקום על המקרר, יום אחד אולי נמכור פומבית את הדברים שאנשים שלחו לנו. האם זה בסדר אם נכלול את הדבר שלך?"
 
 #: r2/lib/strings.py:127
-#, python-format
+#, python-format, fuzzy
 msgid "Sorry, the maximum number of comments is %(max)d. (However, if you subscribe to tippr gold, it goes up to %(goldmax)d.)"
 msgstr "סליחה, כמות התגובות המקסימלית היא %(max)d. (אבל, אם הנך נרשם לרדיט זהב, היא עולה עד ל-%(goldmax)d.)"
 
@@ -3754,7 +3797,7 @@ msgid "This page shows a history of recent activity on your account. If you noti
 msgstr ""
 
 #: r2/lib/strings.py:152
-#, python-format
+#, python-format, fuzzy
 msgid "You are currently accessing tippr from this IP address: %(address)s."
 msgstr "כרגע הנך גולש ברדיט מכתובת ה-IP הבאה: %(address)s."
 
@@ -3837,6 +3880,7 @@ msgstr[2] "הודעות"
 msgstr[3] "הודעות"
 
 #: r2/lib/pages/admin_pages.py:113 r2/lib/pages/trafficpages.py:815 r2/lib/strings.py:263 r2/templates/adminfeeds.html:44 r2/templates/adminfeeds.html:73 r2/templates/adminvaults.html:49 r2/templates/sitewidetraffic.html:39 r2/templates/vaulttrafficreport.html:45
+#, fuzzy
 msgid "vault"
 msgid_plural "vaults"
 msgstr[0] "תת-רדיט"
@@ -3845,6 +3889,7 @@ msgstr[2] "תת-רדיטים"
 msgstr[3] "תת-רדיטים"
 
 #: r2/lib/strings.py:264
+#, fuzzy
 msgid "coin"
 msgid_plural "coins"
 msgstr[0] "כרדיט"
@@ -4209,6 +4254,7 @@ msgid "submitter"
 msgstr "שולח"
 
 #: r2/lib/template_helpers.py:597
+#, fuzzy
 msgid "tippr admin, speaking officially"
 msgstr "מנהל רדיט, רשמית"
 
@@ -4272,10 +4318,12 @@ msgid "moderation tools"
 msgstr "כלי פיקוח"
 
 #: r2/lib/pages/pages.py:703
+#, fuzzy
 msgid "these vaults"
 msgstr "תת-רדיטים אלה"
 
 #: r2/lib/pages/pages.py:717
+#, fuzzy
 msgid "this vault is archived and no longer accepting submissions."
 msgstr "תת-הרדיט זה נכנס לארכיון ואינו מקבל עוד הגשות."
 
@@ -4296,6 +4344,7 @@ msgid "Submissions restricted"
 msgstr ""
 
 #: r2/lib/pages/pages.py:820
+#, fuzzy
 msgid "Create your own vault"
 msgstr "צור תת-רדיט משלך"
 
@@ -4367,6 +4416,7 @@ msgid "about %(site)s"
 msgstr "%(site)s אודות"
 
 #: r2/lib/pages/pages.py:2215
+#, fuzzy
 msgid "search vaults by name"
 msgstr "חפש תת-רדיטים לפי שם"
 
@@ -4400,7 +4450,7 @@ msgid "less than a day"
 msgstr "פחות מיממה"
 
 #: r2/lib/pages/pages.py:2466
-#, python-format
+#, python-format, fuzzy
 msgid "%(coins)s gold coin to give"
 msgid_plural "%(coins)s gold coins to give"
 msgstr[0] "%(coins)s קרדיט זהב לתת"
@@ -4427,6 +4477,7 @@ msgid "get extra features and help support tippr with a tippr gold subscription"
 msgstr ""
 
 #: r2/lib/pages/pages.py:2490
+#, fuzzy
 msgid "renew your tippr gold"
 msgstr "חדש את זהב הרדיט שלך"
 
@@ -4459,6 +4510,7 @@ msgid "where your votes shape what the world is talking about."
 msgstr ""
 
 #: r2/lib/pages/pages.py:2886 r2/lib/pages/pages.py:2996
+#, fuzzy
 msgid "add vault"
 msgstr "הוסף תת-רדיט"
 
@@ -4600,6 +4652,7 @@ msgid "frontpage impressions"
 msgstr ""
 
 #: r2/lib/pages/pages.py:5559
+#, fuzzy
 msgid "vault clicks"
 msgstr "לחיצות תת-רדיט"
 
@@ -4640,6 +4693,7 @@ msgid "moderating"
 msgstr "פיקוח"
 
 #: r2/lib/pages/pages.py:5908
+#, fuzzy
 msgid "vaults you mod"
 msgstr "תת-רדיטים עליהם אתה מפקח"
 
@@ -5245,7 +5299,7 @@ msgid "invite moderator"
 msgstr "הזמן מפקח"
 
 #: r2/models/listing.py:285 r2/templates/modlisting.html:36
-#, python-format
+#, python-format, fuzzy
 msgid "you are a moderator of this vault. %(action)s"
 msgstr "אתה מפקח של התת-רדיט הזה.  %(action)s"
 
@@ -5264,7 +5318,7 @@ msgid "moderators of /v/%(vault)s"
 msgstr "מפקח של /v/%(vault)s"
 
 #: r2/models/mail_queue.py:331
-#, python-format
+#, python-format, fuzzy
 msgid "[tippr] %(user)s has shared a link with you"
 msgstr "[רדיט] %(user)s שיתף איתך קישור"
 
@@ -5279,18 +5333,22 @@ msgid "[advertising] feedback from '%(user)s'"
 msgstr ""
 
 #: r2/models/mail_queue.py:334
+#, fuzzy
 msgid "[tippr] email removal notice"
 msgstr "[רדיט] התראת הסרת דוא\"ל"
 
 #: r2/models/mail_queue.py:335
+#, fuzzy
 msgid "[tippr] email addition notice"
 msgstr "[רדיט] התראת הוספת דוא\"ל"
 
 #: r2/models/mail_queue.py:336
+#, fuzzy
 msgid "[tippr] reset your password"
 msgstr "[רדיט] אפס את סיסמתך"
 
 #: r2/models/mail_queue.py:337
+#, fuzzy
 msgid "[tippr] verify your email address"
 msgstr "[רדיט] אמת את כתובת הדוא\"ל שלך"
 
@@ -5299,10 +5357,12 @@ msgid "[tippr] your budget has been accepted"
 msgstr ""
 
 #: r2/models/mail_queue.py:339
+#, fuzzy
 msgid "[tippr] your promotion has been accepted"
 msgstr "[רדיט] קידומך התקבל"
 
 #: r2/models/mail_queue.py:340
+#, fuzzy
 msgid "[tippr] your promotion has been rejected"
 msgstr "[רדיט] קידומך נדחה"
 
@@ -5311,14 +5371,17 @@ msgid "[tippr] your promotion has been charged"
 msgstr "[tippr] קידומך חויב."
 
 #: r2/models/mail_queue.py:342
+#, fuzzy
 msgid "[tippr] your promotion is now live"
 msgstr "[רדיט] קידומך כעת פועל"
 
 #: r2/models/mail_queue.py:343
+#, fuzzy
 msgid "[tippr] your promotion has finished"
 msgstr "[רדיט] קידומך הסתיים"
 
 #: r2/models/mail_queue.py:344
+#, fuzzy
 msgid "[tippr] your promotion has been created"
 msgstr "[רדיט] קידומך נוצר"
 
@@ -5327,18 +5390,22 @@ msgid "[tippr] your promotion edit is being approved"
 msgstr ""
 
 #: r2/models/mail_queue.py:346
+#, fuzzy
 msgid "[tippr] hey, nerd!"
 msgstr "[רדיט] היי, חנון!"
 
 #: r2/models/mail_queue.py:347
+#, fuzzy
 msgid "[tippr] tippr gold activation link"
 msgstr "[רדיט] קישור להפעלת רדיט זהב"
 
 #: r2/models/mail_queue.py:348
+#, fuzzy
 msgid "[tippr] your password has been changed"
 msgstr "[רדיט] הסיסמא שלך שונתה"
 
 #: r2/models/mail_queue.py:349
+#, fuzzy
 msgid "[tippr] your email address has been changed"
 msgstr "[רדיט] כתובת הדוא\"ל שלך שונתה"
 
@@ -6018,6 +6085,7 @@ msgid "Accept invitations to moderate a vault. Remove myself as a moderator or c
 msgstr ""
 
 #: r2/models/token.py:206
+#, fuzzy
 msgid "Vault Traffic"
 msgstr "תנועת תת-רדיט"
 
@@ -6034,6 +6102,7 @@ msgid "Change editors and visibility of wiki pages in vaults I moderate."
 msgstr ""
 
 #: r2/models/token.py:218
+#, fuzzy
 msgid "My Vaults"
 msgstr "תת-רדיטים שלי"
 
@@ -6192,7 +6261,7 @@ msgid "posts from %s"
 msgstr ""
 
 #: r2/models/vault.py:2413
-#, python-format
+#, python-format, fuzzy
 msgid "%s vaults curated by /u/%s"
 msgstr "%s תת-רדיטים המפוקחים על-ידי /u/%s"
 
@@ -6712,6 +6781,7 @@ msgid "an error occurred (status: %(status)s)"
 msgstr ""
 
 #: r2/public/static/js/traffic.js:11
+#, fuzzy
 msgid "view vault traffic"
 msgstr "הצג תנועת תת-רדיט"
 
@@ -8929,6 +8999,7 @@ msgid "put %(site)s buttons on your site"
 msgstr "הוסיפו את כפתורי %(site)s לאתר שלכם"
 
 #: r2/templates/buttondemopanel.html:36
+#, fuzzy
 msgid "the tippr button is the smart way to get your content submitted to      and discussed on tippr.  pick the button you like from below, and then      copy/paste the code into your HTML editor."
 msgstr "כפתור הרדיט הוא הדרך החכמה לפרסם את התוכן שלך ולדון בו ברדיט. בחר בכפתור שאתה מעוניין ממתחת ואז העתק/הדבק את הקוד אל עורך הHTML."
 
@@ -8937,6 +9008,7 @@ msgid "commonly used buttons"
 msgstr "כפתורים בשימוש נפוץ"
 
 #: r2/templates/buttondemopanel.html:41
+#, fuzzy
 msgid "use one of these buttons to quickly add tippr links to your site, or       see below for more options."
 msgstr "השתמש באחד מהכפתורים האלה להוספה מהירה של קישורי רדיט לאתר שלך, או ראה מטה לעוד אפשרויות."
 
@@ -9460,6 +9532,7 @@ msgid "anyone"
 msgstr "כל אחד"
 
 #: r2/templates/createvault.html:232
+#, fuzzy
 msgid "Anyone who can submit to the vault may edit"
 msgstr "כל מי שיכול לכתוב בתת-רדיט רשאי לערוך"
 
@@ -9558,6 +9631,7 @@ msgid "hide help"
 msgstr "הסתר עזרה"
 
 #: r2/templates/createvault.html:449
+#, fuzzy
 msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.tippr.net. You will be able to access your tippr through your domain."
 msgstr "בעל דומיין? הכנס אותו כאן ולאחר מכן עבור לספק ה-DNS שלך והכנס רישום CNAME שיפנה את הדומיין שלך אל rhs.tippr.net. אתה תוכל להכנס לרדיט שלך דרך הדומיין שלך."
 
@@ -9741,6 +9815,7 @@ msgid "flair options"
 msgstr "אפשרויות פלייר"
 
 #: r2/templates/flairpane.html:42
+#, fuzzy
 msgid "enable user flair in this vault"
 msgstr "אפשר flair למשתמשים בסב-רדיט הזה."
 
@@ -9789,6 +9864,7 @@ msgid "position flair to the right of the link"
 msgstr ""
 
 #: r2/templates/flairprefs.html:34
+#, fuzzy
 msgid "Show my flair on this vault. It looks like:"
 msgstr "הצג את העיטור שלי בתת-רדיט הזה. הוא נראה כך:"
 
@@ -9870,6 +9946,7 @@ msgid "Your coins are listed as a payment method on the checkout page."
 msgstr ""
 
 #: r2/templates/gold.html:41
+#, fuzzy
 msgid "What is tippr gold?"
 msgstr "מה זה רדיט זהב?"
 
@@ -9898,6 +9975,7 @@ msgid "(We'll send a code to your email address you can then give to your recipi
 msgstr ""
 
 #: r2/templates/gold.html:85
+#, fuzzy
 msgid "buy tippr gold"
 msgstr "קנה רדיט זהב"
 
@@ -10137,12 +10215,12 @@ msgid "Contact the admins."
 msgstr "הודיע למנהלים"
 
 #: r2/templates/interestbar.html:30
-#, python-format
+#, python-format, fuzzy
 msgid "ready for something new? %s subscribe %s to some new vaults."
 msgstr "מוכן למשהו חדש? %s הרשם %s לתת-רדיטים חדשים."
 
 #: r2/templates/interestbar.html:32
-#, python-format
+#, python-format, fuzzy
 msgid "it looks like you haven't %s subscribed %s to any vaults yet. want some ideas?"
 msgstr "נראה שאתה לא %s רשום %s לשום תת-רדיט עדיין. רוצה כמה רעיונות?"
 
@@ -10363,6 +10441,7 @@ msgid "or try a %(random_vault)s"
 msgstr ""
 
 #: r2/templates/listingsuggestions.html:42
+#, fuzzy
 msgid "random vault"
 msgstr "תת-רדיט אקראי"
 
@@ -10686,6 +10765,7 @@ msgid "see the suggestions again"
 msgstr ""
 
 #: r2/templates/newlink.html:41
+#, fuzzy
 msgid "tippr"
 msgstr "רדיט"
 
@@ -10704,6 +10784,7 @@ msgid "(optional)"
 msgstr "(רשות)"
 
 #: r2/templates/newlink.html:107
+#, fuzzy
 msgid "choose a vault"
 msgstr "בחר בתת-רדיט"
 
@@ -11018,6 +11099,7 @@ msgid "Only in:"
 msgstr "רק ב:"
 
 #: r2/templates/prefapps.html:249
+#, fuzzy
 msgid "Only in the vaults:"
 msgstr "רק בתת-הרדיטים:"
 
@@ -11863,6 +11945,7 @@ msgid "comment karma"
 msgstr "קארמת תגובות"
 
 #: r2/templates/profilebar.html:82
+#, fuzzy
 msgid "really obscure karma from before it was cool to track per-vault"
 msgstr "קארמה ממש מעורפלת מהתקופה לפני שהיה מגניב לעקוב פר-סאברדיט"
 
@@ -11876,6 +11959,7 @@ msgid "%(username)s's avatar"
 msgstr ""
 
 #: r2/templates/profilebar.html:125
+#, fuzzy
 msgid "of tippr gold remaining"
 msgstr "של זהב רדיט נשאר"
 
@@ -11892,6 +11976,7 @@ msgid "manage recurring subscription"
 msgstr ""
 
 #: r2/templates/profilebar.html:184
+#, fuzzy
 msgid "user for"
 msgstr "רדיטור ל-"
 
@@ -12580,6 +12665,7 @@ msgid "see the search faq for details."
 msgstr "ראה את השו\"ת של חיפוש לפרטים."
 
 #: r2/templates/searchform.html:57
+#, fuzzy
 msgid "advanced search: by author, vault..."
 msgstr "חיפוש מתקדם: לפי מחבר, תת-רדיט..."
 
@@ -12629,6 +12715,7 @@ msgid "note: you will only be eligible for a gilding trophy if this is set to \"
 msgstr ""
 
 #: r2/templates/sitewidetraffic.html:36
+#, fuzzy
 msgid "top vaults"
 msgstr "תת-רדיטים עליונים"
 
@@ -12701,10 +12788,12 @@ msgid "thanks for subscribing!"
 msgstr "תודה על יצירת המנוי!"
 
 #: r2/templates/thanks.html:42
+#, fuzzy
 msgid "enter your confirmation code below to claim your gift coins"
 msgstr "הכנס את קוד האימות שלך מטה כדי לקבל את קרדיטי המתנה שלך"
 
 #: r2/templates/thanks.html:44
+#, fuzzy
 msgid "enter your confirmation code below to activate tippr gold"
 msgstr "הכנס את קוד האימות שלך מטה כדי להפעיל רדיט זהב"
 
@@ -13017,6 +13106,7 @@ msgid "[link]"
 msgstr ""
 
 #: r2/templates/vaultfacets.html:32
+#, fuzzy
 msgid "too many results? narrow it down to a vault!"
 msgstr "יותר מדי תוצאות? לצמצם אותן עם תת–רדיט!"
 
@@ -13055,10 +13145,12 @@ msgid "a community for"
 msgstr "חברה ל-"
 
 #: r2/templates/vaultinfobar.html:134
+#, fuzzy
 msgid "approve this vault"
 msgstr "אשר תת-רדיט זה"
 
 #: r2/templates/vaultinfobar.html:164
+#, fuzzy
 msgid "ban this vault"
 msgstr "תן באן לתת-רדיט זה"
 

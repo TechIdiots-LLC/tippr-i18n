@@ -615,6 +615,7 @@ msgid "tippr buttons"
 msgstr "أزرار ريدت"
 
 #: r2/controllers/buttons.py:118
+#, fuzzy
 msgid "tippr widget"
 msgstr "widege ريديت"
 
@@ -746,6 +747,7 @@ msgid "search results"
 msgstr "نتائج البحث"
 
 #: r2/controllers/front.py:1247 r2/controllers/listingcontroller.py:1529 r2/lib/menus.py:96 r2/lib/menus.py:173 r2/templates/adminvault.html:23 r2/templates/adminvaults.html:22 r2/templates/pagenamenav.html:62 r2/templates/promotelinkbase.html:765
+#, fuzzy
 msgid "vaults"
 msgstr "ريديت فرعي"
 
@@ -754,7 +756,7 @@ msgid "seen it"
 msgstr "تمت زيارته من قبل"
 
 #: r2/controllers/front.py:1412 r2/models/vault.py:2414 r2/templates/multiinfobar.html:37
-#, python-format
+#, python-format, fuzzy
 msgid "%s vaults"
 msgstr "%s رديت فرعية"
 
@@ -767,6 +769,7 @@ msgid "contact us"
 msgstr "تواصل معنا"
 
 #: r2/controllers/front.py:1496
+#, fuzzy
 msgid "Claimed! Enjoy your tippr gold membership."
 msgstr "تم الطلب! تمتع بعضوية رديت الذهبية."
 
@@ -775,10 +778,12 @@ msgid "Your gold coins have been claimed! Now go to someone's userpage and give 
 msgstr "تم الحصول على رصيد الذهب! الآن انتقل إلى صفحة مستخدم ما وامنحهم هدية!"
 
 #: r2/controllers/front.py:1503
+#, fuzzy
 msgid "Thanks for buying tippr gold! Your transaction has been completed."
 msgstr "شكراً لشرائك ذهب رديت! تم الانتهاء من معاملتك."
 
 #: r2/controllers/front.py:1506
+#, fuzzy
 msgid "Thanks for buying tippr gold! Your transaction has been completed and emailed to you. You can check the details by signing into your account at:"
 msgstr "شكراً لشرائك ذهب رديت! تم الانتهاء من معاملتك وأرسلت الى بريدك الإلكتروني. يمكنك الان التحقق من التفاصيل بالدخول إلى حسابك:"
 
@@ -837,6 +842,7 @@ msgid "welcome back"
 msgstr "مرحبا بعودتك"
 
 #: r2/controllers/front.py:1875 r2/controllers/front.py:1963 r2/controllers/front.py:2002 r2/lib/menus.py:95 r2/templates/contactus.html:117 r2/templates/contactus.html:119 r2/templates/creditgild.html:34 r2/templates/gold.html:30 r2/templates/goldpayment.html:40 r2/templates/goldthanks.html:29 r2/templates/prefoptions.html:431
+#, fuzzy
 msgid "tippr gold"
 msgstr "ريديت ذهب"
 
@@ -845,6 +851,7 @@ msgid "purchase coins"
 msgstr "شراء رصيد"
 
 #: r2/controllers/front.py:2022 r2/controllers/ipn.py:1149
+#, fuzzy
 msgid "tippr gold subscription"
 msgstr "الاشتراك رديت الذهبي"
 
@@ -895,18 +902,22 @@ msgid "the gift code has been messaged to you!"
 msgstr "تم إرسال كود الذهب إليك!"
 
 #: r2/controllers/ipn.py:572
+#, fuzzy
 msgid "Eureka! Thank you for investing in tippr gold!"
 msgstr "حصلت عليها! شكراً للإستثمار في ذهب رديت!"
 
 #: r2/controllers/ipn.py:573
+#, fuzzy
 msgid "Thank you for buying tippr gold. Your patronage supports the site and makes future development possible. For example, one month of tippr gold pays for 5 instance hours of tippr's servers."
 msgstr "شكراً لك على شرائك ذهب رديت. إن مساهمة العظيمة للموقع ستجعل تطوير الموقع في المستقبل ممكناً. على سبيل المثال, شهر واحد من ذهب رديت يذهب في دفع 5 ساعات لخوادم رديت."
 
 #: r2/controllers/ipn.py:586
+#, fuzzy
 msgid "Eureka! Thank you for investing in tippr gold coins!"
 msgstr "حصلت عليها! شكراً لك لإستثمارك في رصيد ذهب رديت!"
 
 #: r2/controllers/ipn.py:589
+#, fuzzy
 msgid "Thank you for buying coins. Your patronage supports the site and makes future development possible. To spend your coins and spread tippr gold, visit [/gold](/gold) or your favorite person's user page."
 msgstr "شكراً لشرائك رصيد رديت. إن مساهمتك العظيمة للموقع ستجعل تطوير الموقع في المستقبل ممكناً. لإنفاق رصيد رديت الخاص بك ونشر ذهب رديت, قم بزيارة [/gold](/gold) أو زيارة صفحة الشخص المفضل لديك."
 
@@ -915,11 +926,12 @@ msgid "Thank you again for your support, and have fun spreading gold!"
 msgstr "شكراً لك مجدداً لمساهمتك, واستمتع بنشر الذهب!"
 
 #: r2/controllers/ipn.py:611
+#, fuzzy
 msgid "Thanks for giving the gift of tippr gold!"
 msgstr "شكراً لإعطائك هدية ذهب رديت!"
 
 #: r2/controllers/ipn.py:612
-#, python-format
+#, python-format, fuzzy
 msgid ""
 "Your classy gift to %s has been delivered.\n"
 "\n"
@@ -930,38 +942,42 @@ msgstr ""
 " شكراً لك لإهداء ذهب رديت. إن مساهمتك العظيمة في للموقع ستجعل تطوير الموقع في المستقبل ممكناً."
 
 #: r2/controllers/ipn.py:741
+#, fuzzy
 msgid "tippr gold payment cancelled"
 msgstr "تم إلغاء دفع ذهب رديت"
 
 #: r2/controllers/ipn.py:742
-#, python-format
+#, python-format, fuzzy
 msgid "Your tippr gold payment has been cancelled, contact %(gold_email)s for details"
 msgstr "تم إلغاء دفع ذهب رديت, تواصل مع %(gold_email)s للتفاصيل"
 
 #: r2/controllers/ipn.py:757
+#, fuzzy
 msgid "tippr gold payment failed"
 msgstr "فـشـل دفع ذهب رديت"
 
 #: r2/controllers/ipn.py:758
-#, python-format
+#, python-format, fuzzy
 msgid "Your tippr gold payment has failed, contact %(gold_email)s for details"
 msgstr "فـشـل دفع ذهب رديت, تواصل مع %(gold_email)s للتفاصيل"
 
 #: r2/controllers/ipn.py:766
+#, fuzzy
 msgid "tippr gold subscription cancelled"
 msgstr "تم إلغاء عضوية ذهب رديت"
 
 #: r2/controllers/ipn.py:767
-#, python-format
+#, python-format, fuzzy
 msgid "Your tippr gold subscription has been cancelled because your credit card could not be charged. Contact %(gold_email)s for details"
 msgstr "تم إلغاء عضوية ذهب رديت لأن بطاقتك الإئتمانية لايوجد بها رصيد كافي. تواصل مع %(gold_email)s للتفاصيل"
 
 #: r2/controllers/ipn.py:777
+#, fuzzy
 msgid "tippr gold refund"
 msgstr "تم إسترداد ذهب رديت"
 
 #: r2/controllers/ipn.py:778
-#, python-format
+#, python-format, fuzzy
 msgid "Your tippr gold payment has been refunded, contact %(gold_email)s for details"
 msgstr "تم إسترداد ذهب رديت الخاص بك, تواصل مع %(gold_email)s للتفاصيل"
 
@@ -1021,6 +1037,7 @@ msgid "subscription created"
 msgstr "تم إنشاء الاشتراك"
 
 #: r2/controllers/ipn.py:1150
+#, fuzzy
 msgid "Your subscription is being processed and tippr gold will be delivered shortly."
 msgstr "جاري تفعيل الاشتراك وسيتم تسليم ذهب رديت قريبا"
 
@@ -1029,10 +1046,12 @@ msgid "payment submitted"
 msgstr "تم الدفع"
 
 #: r2/controllers/ipn.py:1159
+#, fuzzy
 msgid "tippr gold payment"
 msgstr "دفعة ذهب رديت"
 
 #: r2/controllers/ipn.py:1160
+#, fuzzy
 msgid "Your payment is being processed and tippr gold will be delivered shortly."
 msgstr "جارية عملية الدفع وسيتم تسليم ذهب رديت قريبا"
 
@@ -1122,6 +1141,7 @@ msgid "you're really bored now, eh?"
 msgstr "أنك حقا ضجران، ها؟"
 
 #: r2/controllers/listingcontroller.py:806
+#, fuzzy
 msgid "filter by vault"
 msgstr "رشح حسب رديت فرعي"
 
@@ -1663,6 +1683,7 @@ msgid "this wiki cannot handle page names of that magnitude!  please select a pa
 msgstr "لا يمكن على صفحة المعلومات أن تتعامل مع أسماء صفحات بهذا الحجم! رجاءاٌ,قم  بإختيار اسم صفحة أقصر من الرمز %d "
 
 #: r2/controllers/wiki.py:221
+#, fuzzy
 msgid "this page is a special page, please go into the vault settings and save the field once to create this special page"
 msgstr "هذه صفحة خاصة, رجاءاٌ إذهب إلى الضبط فى الريديت الفرعي وقم بجفظ الخانة لتكوين الصفحة"
 
@@ -1983,6 +2004,7 @@ msgid "that vault already exists"
 msgstr ""
 
 #: r2/lib/errors.py:83
+#, fuzzy
 msgid "that vault doesn't exist"
 msgstr "ذلك الريديت الفرعي غير موجود"
 
@@ -1995,6 +2017,7 @@ msgid "you aren't allowed access to this vault"
 msgstr ""
 
 #: r2/lib/errors.py:86
+#, fuzzy
 msgid "you must specify a vault"
 msgstr "عليك تحديد ريديت فرعية"
 
@@ -2160,10 +2183,12 @@ msgid "that code has already been claimed -- perhaps by you?"
 msgstr "لقد تم أستلام نص البرمجة تلك - ربما منك ؟"
 
 #: r2/lib/errors.py:126
+#, fuzzy
 msgid "that vault doesn't allow text posts"
 msgstr "ذلك الريديت الفرعي لا يسمح مشاركات نصية"
 
 #: r2/lib/errors.py:127
+#, fuzzy
 msgid "that vault only allows text posts"
 msgstr "ذلك الريديت الفرعي يسمح المشاركات النصية فقط"
 
@@ -3048,6 +3073,7 @@ msgid "edit subscriptions"
 msgstr "تعديل الإشتراكات"
 
 #: r2/lib/menus.py:132 r2/lib/pages/pages.py:2191
+#, fuzzy
 msgid "vault settings"
 msgstr "اعدادات السبريديت"
 
@@ -3837,6 +3863,7 @@ msgstr[4] "رسالة"
 msgstr[5] "رسائل"
 
 #: r2/lib/pages/admin_pages.py:113 r2/lib/pages/trafficpages.py:815 r2/lib/strings.py:263 r2/templates/adminfeeds.html:44 r2/templates/adminfeeds.html:73 r2/templates/adminvaults.html:49 r2/templates/sitewidetraffic.html:39 r2/templates/vaulttrafficreport.html:45
+#, fuzzy
 msgid "vault"
 msgid_plural "vaults"
 msgstr[0] "ريدّيت فرعي"
@@ -3847,6 +3874,7 @@ msgstr[4] "ريدّيت فرعياً"
 msgstr[5] "ريديت فرعي"
 
 #: r2/lib/strings.py:264
+#, fuzzy
 msgid "coin"
 msgid_plural "coins"
 msgstr[0] "كريدّيت"
@@ -4236,6 +4264,7 @@ msgid "submitter"
 msgstr "ناشر"
 
 #: r2/lib/template_helpers.py:597
+#, fuzzy
 msgid "tippr admin, speaking officially"
 msgstr "منتدب عن إدارة ريديت, يتحدّث رسميّاً"
 
@@ -4304,6 +4333,7 @@ msgid "these vaults"
 msgstr "هذه الريدّيت الفرعية"
 
 #: r2/lib/pages/pages.py:717
+#, fuzzy
 msgid "this vault is archived and no longer accepting submissions."
 msgstr "هذه السب رديت هي في الارشيف ومن غير الممكن إدخال إضافات إليها."
 
@@ -4395,6 +4425,7 @@ msgid "about %(site)s"
 msgstr "عن %(site)s"
 
 #: r2/lib/pages/pages.py:2215
+#, fuzzy
 msgid "search vaults by name"
 msgstr "البحث في السبريديت عن طريق الأسم"
 
@@ -4460,6 +4491,7 @@ msgid "get extra features and help support tippr with a tippr gold subscription"
 msgstr ""
 
 #: r2/lib/pages/pages.py:2490
+#, fuzzy
 msgid "renew your tippr gold"
 msgstr "جدد الريديت ذهب خاصّتك"
 
@@ -4633,6 +4665,7 @@ msgid "frontpage impressions"
 msgstr ""
 
 #: r2/lib/pages/pages.py:5559
+#, fuzzy
 msgid "vault clicks"
 msgstr "نقرات السبريديت"
 
@@ -4819,7 +4852,7 @@ msgid "this page is empty, edit it to add some content."
 msgstr "هذه الصفحة فارغة. قم بتعديلها لإضافة بعض المحتويات."
 
 #: r2/lib/pages/wiki.py:171 r2/lib/pages/wiki.py:177
-#, python-format
+#, python-format, fuzzy
 msgid "page %s does not exist in this vault"
 msgstr "الصفحة غير متوفرة فى هذا الريديت الفرعى  %s"
 
@@ -5297,7 +5330,7 @@ msgid "invite moderator"
 msgstr "دعوة المشرف "
 
 #: r2/models/listing.py:285 r2/templates/modlisting.html:36
-#, python-format
+#, python-format, fuzzy
 msgid "you are a moderator of this vault. %(action)s"
 msgstr "أنت مشرف على هذا الريديت %(action)s"
 
@@ -5332,18 +5365,22 @@ msgid "[advertising] feedback from '%(user)s'"
 msgstr ""
 
 #: r2/models/mail_queue.py:334
+#, fuzzy
 msgid "[tippr] email removal notice"
 msgstr "[ريديت] إعلام عن مسح معلومة البريد الإلكتروني"
 
 #: r2/models/mail_queue.py:335
+#, fuzzy
 msgid "[tippr] email addition notice"
 msgstr "[ريديت] إعلام عن إضافة معلومة البريد الإلكتروني"
 
 #: r2/models/mail_queue.py:336
+#, fuzzy
 msgid "[tippr] reset your password"
 msgstr "[ريديت] تغيير كلمة السر خاصّتك"
 
 #: r2/models/mail_queue.py:337
+#, fuzzy
 msgid "[tippr] verify your email address"
 msgstr "[ريديت] تأكيد بريدك الإلكتروني"
 
@@ -5352,26 +5389,32 @@ msgid "[tippr] your budget has been accepted"
 msgstr ""
 
 #: r2/models/mail_queue.py:339
+#, fuzzy
 msgid "[tippr] your promotion has been accepted"
 msgstr "[ريديت] لقد تمّ قبول ترويجك"
 
 #: r2/models/mail_queue.py:340
+#, fuzzy
 msgid "[tippr] your promotion has been rejected"
 msgstr "[ريديت] لقد تمّ رفض ترويجك"
 
 #: r2/models/mail_queue.py:341
+#, fuzzy
 msgid "[tippr] your promotion has been charged"
 msgstr "[ريديت] تم سحب المبلغ لترويجك"
 
 #: r2/models/mail_queue.py:342
+#, fuzzy
 msgid "[tippr] your promotion is now live"
 msgstr "[ريديت] لقد تمّ تنشيط ترويجك"
 
 #: r2/models/mail_queue.py:343
+#, fuzzy
 msgid "[tippr] your promotion has finished"
 msgstr "[ريديت] لقد انتهت فترة الترويج"
 
 #: r2/models/mail_queue.py:344
+#, fuzzy
 msgid "[tippr] your promotion has been created"
 msgstr "[ريديت] لقد تمّ إنشاء ترويجك"
 
@@ -5380,10 +5423,12 @@ msgid "[tippr] your promotion edit is being approved"
 msgstr ""
 
 #: r2/models/mail_queue.py:346
+#, fuzzy
 msgid "[tippr] hey, nerd!"
 msgstr "[ريديت] أيها الساعي وراء الاجتهاد!"
 
 #: r2/models/mail_queue.py:347
+#, fuzzy
 msgid "[tippr] tippr gold activation link"
 msgstr "[ريديت] رابط تفعيل ريديت ذهب"
 
@@ -6011,6 +6056,7 @@ msgid "My Identity"
 msgstr "هويتي"
 
 #: r2/models/token.py:151
+#, fuzzy
 msgid "Access my tippr username and signup date."
 msgstr "الوصول إلى أسم المستخدم وتاريخ الإلتحاق بريديت"
 
@@ -6027,6 +6073,7 @@ msgid "Moderate Flair"
 msgstr "الغاء الميزة"
 
 #: r2/models/token.py:165
+#, fuzzy
 msgid "Manage and assign flair in vaults I moderate."
 msgstr "إدارة وتعيين الذوق في أجزاء رديت أنا معتدلة"
 
@@ -8994,6 +9041,7 @@ msgid "put %(site)s buttons on your site"
 msgstr "ضع أزرار %(site)s على موقعك"
 
 #: r2/templates/buttondemopanel.html:36
+#, fuzzy
 msgid "the tippr button is the smart way to get your content submitted to      and discussed on tippr.  pick the button you like from below, and then      copy/paste the code into your HTML editor."
 msgstr "زر ريدّيت هو الوسيلة الأذكى لنشر و مناقشة مواضيعك على ريديت. أختر الزر الذي يعجبك من الأسفل، و ثمّ أنسخ وألصق نصّ الشيفرة في محرر الـ HTML ."
 
@@ -9002,6 +9050,7 @@ msgid "commonly used buttons"
 msgstr "أزرار شائعة الاستعمال"
 
 #: r2/templates/buttondemopanel.html:41
+#, fuzzy
 msgid "use one of these buttons to quickly add tippr links to your site, or       see below for more options."
 msgstr "استخدم إحدى هذه الأزرار لإضافة روابط ريديت لموقعك بصورة سريعة، أو اطلع على ما يلي لمزيد من الخيارات."
 
@@ -9058,6 +9107,7 @@ msgid "specify a url"
 msgstr "عيّن عنوان إلكتروني محدّد"
 
 #: r2/templates/buttondemopanel.html:96
+#, fuzzy
 msgid "useful in places like blogs, where you want to link to the post's permalink"
 msgstr "مفيد بمواقع مثل المدونات، مواقع قد تحتاج إلى ربط المحتوى بالروابط الثابتة للناشرين على ريديت"
 
@@ -9523,10 +9573,12 @@ msgid "anyone"
 msgstr "أي أحد"
 
 #: r2/templates/createvault.html:232
+#, fuzzy
 msgid "Anyone who can submit to the vault may edit"
 msgstr "من يشارك فى الريديت الفرعي يمكنه التحرير"
 
 #: r2/templates/createvault.html:239
+#, fuzzy
 msgid "Vault karma required to edit and create wiki pages:"
 msgstr "الريديت الفرعي المختلط مطلوب لإنشاء وتحرير صفحات المعلومات."
 
@@ -9621,6 +9673,7 @@ msgid "hide help"
 msgstr "إخفاء المساعدة"
 
 #: r2/templates/createvault.html:449
+#, fuzzy
 msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.tippr.net. You will be able to access your tippr through your domain."
 msgstr "هل تمتلك نطاق موقع؟ أدخله هنا ثم اذهب إلى مزوّد المواقع DNS Provider الخاصة بك وأضف سجل CNAME تحت اسم نطاقك الى rshs.tippr.net كي تتمكن من استعمال ريديت من خلال نطاقك."
 
@@ -9805,6 +9858,7 @@ msgid "flair options"
 msgstr "خيارات الشعار"
 
 #: r2/templates/flairpane.html:42
+#, fuzzy
 msgid "enable user flair in this vault"
 msgstr "السماح بميزة الشعارات على هذه الريديت الفرعيّ"
 
@@ -10206,7 +10260,7 @@ msgid "ready for something new? %s subscribe %s to some new vaults."
 msgstr "أترغب بتجربة شىء جديد؟%s إشترك %s  ببعض مواضيع الريدت الفرعي."
 
 #: r2/templates/interestbar.html:32
-#, python-format
+#, python-format, fuzzy
 msgid "it looks like you haven't %s subscribed %s to any vaults yet. want some ideas?"
 msgstr "يبدو أنك لم تشارك %s بأي ريديت %s فرعي لهذه اللحظة. هل تريد بعض الإقتراحات؟"
 
@@ -10753,6 +10807,7 @@ msgid "see the suggestions again"
 msgstr ""
 
 #: r2/templates/newlink.html:41
+#, fuzzy
 msgid "tippr"
 msgstr "ريديت"
 
@@ -10771,6 +10826,7 @@ msgid "(optional)"
 msgstr "(اختياري)"
 
 #: r2/templates/newlink.html:107
+#, fuzzy
 msgid "choose a vault"
 msgstr "اختر ريديت فرعية"
 
@@ -11085,6 +11141,7 @@ msgid "Only in:"
 msgstr "فقط في :"
 
 #: r2/templates/prefapps.html:249
+#, fuzzy
 msgid "Only in the vaults:"
 msgstr "فقط في الفئات الفرعية على ريديت:"
 
@@ -12611,6 +12668,7 @@ msgid "converted query to %(syntax)s syntax: %(converted)s"
 msgstr ""
 
 #: r2/templates/searchform.html:38
+#, fuzzy
 msgid "find submissions in \"vault\""
 msgstr "تجد في المقدمة \"رديت\""
 
@@ -12756,6 +12814,7 @@ msgid "first"
 msgstr "الأول"
 
 #: r2/templates/thanks.html:35
+#, fuzzy
 msgid "thanks for buying coins!"
 msgstr "شكراً لشرائك كريديت!"
 

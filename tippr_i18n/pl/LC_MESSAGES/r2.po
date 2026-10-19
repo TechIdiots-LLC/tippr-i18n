@@ -1036,6 +1036,7 @@ msgid "subscription created"
 msgstr "subskrypcja utworzona"
 
 #: r2/controllers/ipn.py:1150
+#, fuzzy
 msgid "Your subscription is being processed and tippr gold will be delivered shortly."
 msgstr "Twoja subskrypcja jest właśnie przetwarzana. Reddid gold będzie dostarczone wkrótce."
 
@@ -1573,6 +1574,7 @@ msgid "fraud suspected promoted links"
 msgstr "podejrzenie oszustwa promowane linki"
 
 #: r2/controllers/promotecontroller.py:608
+#, fuzzy
 msgid "promos on tippr"
 msgstr "proma na reddicie"
 
@@ -2410,6 +2412,7 @@ msgid "frequency cap must be at least %(min)d"
 msgstr ""
 
 #: r2/lib/errors.py:181
+#, fuzzy
 msgid "that user is banned from the vault"
 msgstr "ten użytkownik jest zablokowany w subreddicie"
 
@@ -2467,6 +2470,7 @@ msgid "you must select at least one device per OS to target"
 msgstr ""
 
 #: r2/lib/errors.py:196
+#, fuzzy
 msgid "You have been muted from this vault."
 msgstr "Zostałeś wyciszony na tym subreddtcie."
 
@@ -2512,19 +2516,19 @@ msgstr ""
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:2
 msgid "Funny 500 page message 1"
-msgstr "Próbowałeś włączyć i wyłączyć?"
+msgstr ""
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:4
 msgid "Funny 500 page message 2"
-msgstr "No i klapa! Będziesz musiał z kimś pogadać"
+msgstr ""
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:6
 msgid "Funny 500 page message 3"
-msgstr "Upss, coś nie pykło"
+msgstr ""
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
@@ -4650,6 +4654,7 @@ msgid "vault clicks"
 msgstr "kliknięcia vaultów"
 
 #: r2/lib/pages/pages.py:5559
+#, fuzzy
 msgid "vault impressions"
 msgstr "odsłony w subreddicie"
 
@@ -4832,7 +4837,7 @@ msgid "this page is empty, edit it to add some content."
 msgstr "ta strona jest pusta, edytuj ją aby dodać treść."
 
 #: r2/lib/pages/wiki.py:171 r2/lib/pages/wiki.py:177
-#, python-format
+#, python-format, fuzzy
 msgid "page %s does not exist in this vault"
 msgstr "strona %s nie istnieje w tym subreddicie"
 
@@ -4859,6 +4864,7 @@ msgid "Viewing pages for /v/%s"
 msgstr "Przeglądasz strony dla /v/%s"
 
 #: r2/lib/pages/wiki.py:212
+#, fuzzy
 msgid "Below is a list of pages in this wiki visible to you in this vault."
 msgstr "Poniżej znajduje się lista stron w tej wiki widoczna dla ciebie w tym podreddicie."
 
@@ -5994,6 +6000,7 @@ msgid "Manage My Flair"
 msgstr "Zarządzanie Moim Znaczkiem"
 
 #: r2/models/token.py:138
+#, fuzzy
 msgid "Select my vault flair. Change link flair on my submissions."
 msgstr "Może wybierać mój znaczek w subreddicie. Może zmieniać znaczek w moich treściach."
 
@@ -6018,6 +6025,7 @@ msgid "Approve submitters and ban users"
 msgstr "Zatwierdzaj dodających i banuj użytkowników"
 
 #: r2/models/token.py:157
+#, fuzzy
 msgid "Add/remove users to approved submitter lists and ban/unban or mute/unmute users from vaults I moderate."
 msgstr "Dodaj/usuń użytkowników do listy zatwierdzonych autorów i banój/odbanój albo wycisz/odwycisz od subredytów ja zarządzam."
 
@@ -6062,14 +6070,17 @@ msgid "Invite or remove other moderators from vaults I moderate."
 msgstr "Zapraszanie lub usuwanie innych moderatorów z moderowanego przeze mnie vaulta."
 
 #: r2/models/token.py:196
+#, fuzzy
 msgid "Make changes to your vault moderator and contributor status"
 msgstr "Zrób zmiany to twojego subredyta status moderatora i autora"
 
 #: r2/models/token.py:199
+#, fuzzy
 msgid "Accept invitations to moderate a vault. Remove myself as a moderator or contributor of vaults I moderate or contribute to."
 msgstr "Zatiwerdź zaproszenie aby zarządać subredytem. Usun siebie jako moderatora albo autora z subredytów ja zarządzam lub przyczyniam sie."
 
 #: r2/models/token.py:206
+#, fuzzy
 msgid "Vault Traffic"
 msgstr "Ruch na subreddicie"
 
@@ -6270,6 +6281,7 @@ msgid "Learn more"
 msgstr "Dowiedz się więcej"
 
 #: r2/public/static/js/embed.js:31
+#, fuzzy
 msgid "When checked, if an embedded comment is later edited, the embedded comment text will be replaced by a link back to the current version of the comment on tippr."
 msgstr "Kiedy to zaznaczysz, jeżeli zagnieżdżony komentarz zostanie później wyedytowany, tekst zagnieżdżonego komentarza zostanie zamieniony na link prowadzący do obecnej wersji komentarza na reddicie."
 
@@ -6348,6 +6360,7 @@ msgid "You need to be logged in to give gold."
 msgstr "Musisz być zalogowany aby móc dać złoto."
 
 #: r2/public/static/js/login.js:139
+#, fuzzy
 msgid "You need to be logged in to subscribe to vaults."
 msgstr "Musisz być zalogowany aby móc subskrybować do subredytów."
 
@@ -6761,6 +6774,7 @@ msgid "an error occurred (status: %(status)s)"
 msgstr "wystąpił błąd (status: %(status)s)"
 
 #: r2/public/static/js/traffic.js:11
+#, fuzzy
 msgid "view vault traffic"
 msgstr "zobacz ruch na subreddicie"
 
@@ -9857,6 +9871,7 @@ msgid "flair options"
 msgstr "opcje znaczka"
 
 #: r2/templates/flairpane.html:42
+#, fuzzy
 msgid "enable user flair in this vault"
 msgstr "włącz znaczki użytkowników w tym subreddicie"
 
@@ -9905,6 +9920,7 @@ msgid "position flair to the right of the link"
 msgstr "umieść znaczek po prawej stronie linka"
 
 #: r2/templates/flairprefs.html:34
+#, fuzzy
 msgid "Show my flair on this vault. It looks like:"
 msgstr "Pokaż mój znaczek na tym subreddicie. Ów znaczek wygląda tak:"
 
@@ -11135,6 +11151,7 @@ msgid "Only in:"
 msgstr "Tylko w:"
 
 #: r2/templates/prefapps.html:249
+#, fuzzy
 msgid "Only in the vaults:"
 msgstr "Tylko w subreddicie:"
 
@@ -12704,6 +12721,7 @@ msgid "see the search faq for details."
 msgstr "zobacz pomoc wyszukiwania, by dowiedzieć się więcej"
 
 #: r2/templates/searchform.html:57
+#, fuzzy
 msgid "advanced search: by author, vault..."
 msgstr "wyszukiwanie zaawansowane: po autorze, subreddicie..."
 
@@ -13276,6 +13294,7 @@ msgid "Enter one vault per line. Traffic numbers shown are for the last full mon
 msgstr "Podaj jeden vault na linię. Ruch jest wyświetlany za cały ostatni miesiąc."
 
 #: r2/templates/vaulttrafficreport.html:42
+#, fuzzy
 msgid "vault traffic"
 msgstr "ruch na subreddicie"
 
@@ -13428,7 +13447,7 @@ msgid "submit a discussion"
 msgstr "opublikuj dyskusję"
 
 #: r2/templates/wikipagenotfound.html:26
-#, python-format
+#, python-format, fuzzy
 msgid "The page \"%s\" was not found in this vault."
 msgstr "Strona \"%s\" nie istnieje w tym subreddicie."
 

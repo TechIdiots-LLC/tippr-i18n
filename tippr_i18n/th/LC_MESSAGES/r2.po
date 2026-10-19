@@ -698,6 +698,7 @@ msgid "show %d"
 msgstr "แสดง %d"
 
 #: r2/controllers/front.py:568 r2/controllers/front.py:571 r2/templates/adminvaults.html:25
+#, fuzzy
 msgid "create a vault"
 msgstr "สร้างชับเรดดิต"
 
@@ -780,7 +781,7 @@ msgid "seen it"
 msgstr "เห็นแล้ว"
 
 #: r2/controllers/front.py:1412 r2/models/vault.py:2414 r2/templates/multiinfobar.html:37
-#, python-format
+#, python-format, fuzzy
 msgid "%s vaults"
 msgstr "ชับเรดดิต %s"
 
@@ -801,6 +802,7 @@ msgid "Your gold coins have been claimed! Now go to someone's userpage and give 
 msgstr ""
 
 #: r2/controllers/front.py:1503
+#, fuzzy
 msgid "Thanks for buying tippr gold! Your transaction has been completed."
 msgstr "ขอบคุณสำหรับการชื้อเรดดิดโกลด์! การทำธุรกรรมได้สำเร็จแล้ว"
 
@@ -1242,6 +1244,7 @@ msgid "messages"
 msgstr "ข้อความ"
 
 #: r2/controllers/listingcontroller.py:1672
+#, fuzzy
 msgid "vaults: "
 msgstr "ชับเรดดิต: "
 
@@ -3955,6 +3958,7 @@ msgstr[0] ""
 "other: ข้อความ"
 
 #: r2/lib/pages/admin_pages.py:113 r2/lib/pages/trafficpages.py:815 r2/lib/strings.py:263 r2/templates/adminfeeds.html:44 r2/templates/adminfeeds.html:73 r2/templates/adminvaults.html:49 r2/templates/sitewidetraffic.html:39 r2/templates/vaulttrafficreport.html:45
+#, fuzzy
 msgid "vault"
 msgid_plural "vaults"
 msgstr[0] "ซับเรดดิต"
@@ -10148,6 +10152,7 @@ msgid "(We'll send a code to your email address you can then give to your recipi
 msgstr ""
 
 #: r2/templates/gold.html:85
+#, fuzzy
 msgid "buy tippr gold"
 msgstr "ซื้อเรดดิดโกลด์"
 
@@ -10594,6 +10599,7 @@ msgid "browse all vaults"
 msgstr "from all vaults"
 
 #: r2/templates/listingchooser.html:51
+#, fuzzy
 msgid "multivaults"
 msgstr "มัลติเรดดิต"
 
@@ -10975,6 +10981,7 @@ msgid "(optional)"
 msgstr "(ตัวเลือก)"
 
 #: r2/templates/newlink.html:107
+#, fuzzy
 msgid "choose a vault"
 msgstr "เลือกซับเรดดิต"
 
@@ -12209,6 +12216,7 @@ msgid "%(username)s's avatar"
 msgstr "%(username)s's snoovatar"
 
 #: r2/templates/profilebar.html:125
+#, fuzzy
 msgid "of tippr gold remaining"
 msgstr "เรดดิดโกลด์ยังเหลืออยู่"
 

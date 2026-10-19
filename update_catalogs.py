@@ -59,6 +59,18 @@ FIXES = [
     (re.compile(r"\bReddit\b"), "Tippr"),
     (re.compile(r"\breddit\b"), "tippr"),
 ]
+# reddit/subreddit/redditor written in other scripts or spellings
+# (сабреддит, サブレディット, 레딧, reddiket ...): such translations are marked
+# fuzzy, so the site shows the English until they're translated again
+BRANDED = re.compile("|".join([
+    r"(саб|суб|съб|сав)?р[еэ]д+[иіы]т",
+    r"(sub)?red+i(t|ket|kett|ked|qu|mores|tor)\w*",
+    r"subred+\w*", r"reddid", r"reddicie",
+    r"サブレディ|レディット|レディッター",
+    r"레딧", r"רדיט", r"ري?ديت", r"रेडिट", r"ரெட்?டிட்", r"เรดดิ", r"ρέ?ντιτ",
+]), re.I)
+GITHUB = re.compile(r"(https?://)?github\.com/tippr/tippr")
+
 # "saved {toolbar}", "reply {verb}": hints telling translators which sense
 # of the word is meant; translations leave them out
 CONTEXT_HINTS = {"{toolbar}", "{verb}"}
@@ -74,7 +86,7 @@ def placeholders(text):
 def fix(text):
     for rx, rep in FIXES:
         text = rx.sub(rep, text)
-    return text
+    return GITHUB.sub("https://github.com/TechIdiots-LLC/tippr", text)
 
 
 def merge(path):
@@ -93,7 +105,7 @@ def merge(path):
 
 def tidy(path, lang):
     po = polib.pofile(path, wrapwidth=0)
-    stats = dict(copies=0, branded=0, broken=0)
+    stats = dict(copies=0, branded=0, broken=0, script=0)
     po.metadata["Project-Id-Version"] = "tippr"
     po.metadata["Report-Msgid-Bugs-To"] = \
         "https://github.com/TechIdiots-LLC/tippr-i18n/issues"
@@ -132,6 +144,10 @@ def tidy(path, lang):
             values = [new]
         if fuzzy:
             continue
+        if any(v and BRANDED.search(v) for v in values) and                 not BRANDED.search(e.msgid):
+            e.flags.append("fuzzy")
+            stats["script"] += 1
+            continue
         allowed = [placeholders(e.msgid)]
         if plural:
             allowed.append(placeholders(e.msgid_plural))
@@ -159,9 +175,11 @@ def main(langs):
         stats = tidy(path, lang)
         po = polib.pofile(path)
         print("%-8s %3d%% translated (%d fuzzy); cleared %d English copies, "
-              "fixed %d links, %d mismatched placeholders now fuzzy" % (
+              "fixed %d links, %d mismatched placeholders and %d with reddit "
+              "names now fuzzy" % (
                   lang, po.percent_translated(), len(po.fuzzy_entries()),
-                  stats["copies"], stats["branded"], stats["broken"]))
+                  stats["copies"], stats["branded"], stats["broken"],
+                  stats["script"]))
 
 
 if __name__ == "__main__":

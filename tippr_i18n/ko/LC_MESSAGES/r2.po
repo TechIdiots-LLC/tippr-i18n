@@ -617,10 +617,12 @@ msgid "api documentation"
 msgstr "API 문서"
 
 #: r2/controllers/buttons.py:113
+#, fuzzy
 msgid "tippr buttons"
 msgstr "레딧 단추"
 
 #: r2/controllers/buttons.py:118
+#, fuzzy
 msgid "tippr widget"
 msgstr "레딧 위짓"
 
@@ -687,6 +689,7 @@ msgid "show %d"
 msgstr "%d개 보기"
 
 #: r2/controllers/front.py:568 r2/controllers/front.py:571 r2/templates/adminvaults.html:25
+#, fuzzy
 msgid "create a vault"
 msgstr "서브레딧 만들기"
 
@@ -753,6 +756,7 @@ msgid "search results"
 msgstr "검색 결과"
 
 #: r2/controllers/front.py:1247 r2/controllers/listingcontroller.py:1529 r2/lib/menus.py:96 r2/lib/menus.py:173 r2/templates/adminvault.html:23 r2/templates/adminvaults.html:22 r2/templates/pagenamenav.html:62 r2/templates/promotelinkbase.html:765
+#, fuzzy
 msgid "vaults"
 msgstr "하위 레딧"
 
@@ -761,7 +765,7 @@ msgid "seen it"
 msgstr "본 링크입니다 ???"
 
 #: r2/controllers/front.py:1412 r2/models/vault.py:2414 r2/templates/multiinfobar.html:37
-#, python-format
+#, python-format, fuzzy
 msgid "%s vaults"
 msgstr "%s 개의 서브레딧이 있습니다."
 
@@ -774,18 +778,22 @@ msgid "contact us"
 msgstr "문의하기"
 
 #: r2/controllers/front.py:1496
+#, fuzzy
 msgid "Claimed! Enjoy your tippr gold membership."
 msgstr "등록되었습니다! 레딧 골드 멤버십을 즐기세요."
 
 #: r2/controllers/front.py:1500
+#, fuzzy
 msgid "Your gold coins have been claimed! Now go to someone's userpage and give them a present!"
 msgstr "골드 크레딧이 충전되었습니다! 다른 사용자의 사용자 페이지에 가서 선물을 주세요!"
 
 #: r2/controllers/front.py:1503
+#, fuzzy
 msgid "Thanks for buying tippr gold! Your transaction has been completed."
 msgstr "레딧 골드를 구입해 주셔서 감사합니다! 결제가 완료되었습니다."
 
 #: r2/controllers/front.py:1506
+#, fuzzy
 msgid "Thanks for buying tippr gold! Your transaction has been completed and emailed to you. You can check the details by signing into your account at:"
 msgstr "레딧 골드를 구입해 주셔서 감사합니다! 결제가 완료되었으며 정보를 메일로 발송해 드렸습니다. 자세한 내용은 아래 계정에서 확인 가능하십니다:"
 
@@ -844,10 +852,12 @@ msgid "welcome back"
 msgstr "안녕하십니까?"
 
 #: r2/controllers/front.py:1875 r2/controllers/front.py:1963 r2/controllers/front.py:2002 r2/lib/menus.py:95 r2/templates/contactus.html:117 r2/templates/contactus.html:119 r2/templates/creditgild.html:34 r2/templates/gold.html:30 r2/templates/goldpayment.html:40 r2/templates/goldthanks.html:29 r2/templates/prefoptions.html:431
+#, fuzzy
 msgid "tippr gold"
 msgstr "레딧 골드"
 
 #: r2/controllers/front.py:2012 r2/templates/gilding.html:79
+#, fuzzy
 msgid "purchase coins"
 msgstr "크레딧 사기"
 
@@ -889,6 +899,7 @@ msgid "that user has deleted their account"
 msgstr "이 유저는 자신의 계정을 삭제했습니다."
 
 #: r2/controllers/ipn.py:425 r2/controllers/ipn.py:439
+#, fuzzy
 msgid "the gold has been delivered!"
 msgstr "레딧 골드가 전송되었습니다."
 
@@ -902,18 +913,22 @@ msgid "the gift code has been messaged to you!"
 msgstr "당신에게 기프트 코드가 메세지로 보내졌습니다!"
 
 #: r2/controllers/ipn.py:572
+#, fuzzy
 msgid "Eureka! Thank you for investing in tippr gold!"
 msgstr "유레카! 레딧 골드를 구입해 주셔서 감사합니다!"
 
 #: r2/controllers/ipn.py:573
+#, fuzzy
 msgid "Thank you for buying tippr gold. Your patronage supports the site and makes future development possible. For example, one month of tippr gold pays for 5 instance hours of tippr's servers."
 msgstr "레딧 골드를 구매해 주셔서 감사합니다. 당신의 기부금은 사이트를 후원하며 레딧의 차후 개발을 가능하게 만들어 줍니다. 예를 들어, 1개월의 레딧 골드는 레딧 서버의 5시간에 해당하는 금액입니다."
 
 #: r2/controllers/ipn.py:586
+#, fuzzy
 msgid "Eureka! Thank you for investing in tippr gold coins!"
 msgstr "유레카! 레딧 골드 크레딧에 투자해주셔서 감사합니다!"
 
 #: r2/controllers/ipn.py:589
+#, fuzzy
 msgid "Thank you for buying coins. Your patronage supports the site and makes future development possible. To spend your coins and spread tippr gold, visit [/gold](/gold) or your favorite person's user page."
 msgstr "크레딧을 구매해 주셔서 감사합니다. 당신의 기부금은 사이트를 후원하며 레딧의 차후 개발을 가능하게 만들어 줍니다. 크레딧을 사용하고 레딧 골드를 퍼뜨리려면, [/gold](/gold) 문서나 좋아하는 사람의 사용자 페이지에 가세요."
 
@@ -922,11 +937,12 @@ msgid "Thank you again for your support, and have fun spreading gold!"
 msgstr "당신의 지원에 다시 한 번 감사드리며, 골드를 퍼뜨리는 즐거움을 누리세요!"
 
 #: r2/controllers/ipn.py:611
+#, fuzzy
 msgid "Thanks for giving the gift of tippr gold!"
 msgstr "레딧 골드를 선물해 주셔서 감사합니다!"
 
 #: r2/controllers/ipn.py:612
-#, python-format
+#, python-format, fuzzy
 msgid ""
 "Your classy gift to %s has been delivered.\n"
 "\n"
@@ -937,38 +953,42 @@ msgstr ""
 " 레딧 골드를 선물해주셔서 감사합니다. 당신의 지원은 이 사이트에 도움이 되고 추후의 개발을 가능케 만듭니다."
 
 #: r2/controllers/ipn.py:741
+#, fuzzy
 msgid "tippr gold payment cancelled"
 msgstr "레딧 골드 지불이 취소되었습니다"
 
 #: r2/controllers/ipn.py:742
-#, python-format
+#, python-format, fuzzy
 msgid "Your tippr gold payment has been cancelled, contact %(gold_email)s for details"
 msgstr "당신의 레딧 골드 지불이 취소되었습니다. 자세한 사항은 %(gold_email)s에게 문의하세요"
 
 #: r2/controllers/ipn.py:757
+#, fuzzy
 msgid "tippr gold payment failed"
 msgstr "레딧 골드 지불이 실패하였습니다"
 
 #: r2/controllers/ipn.py:758
-#, python-format
+#, python-format, fuzzy
 msgid "Your tippr gold payment has failed, contact %(gold_email)s for details"
 msgstr "당신의 레딧 골드 지불이 실패하였습니다. 자세한 사항은 %(gold_email)s에게 문의하세요"
 
 #: r2/controllers/ipn.py:766
+#, fuzzy
 msgid "tippr gold subscription cancelled"
 msgstr "레딧 골드 구독 해지됨"
 
 #: r2/controllers/ipn.py:767
-#, python-format
+#, python-format, fuzzy
 msgid "Your tippr gold subscription has been cancelled because your credit card could not be charged. Contact %(gold_email)s for details"
 msgstr "신용카드의 잔액이 부족하여 레딧 골드 구독이 취소되었습니다. 자세한 사항은 %(gold_email)s로 문의하십시오."
 
 #: r2/controllers/ipn.py:777
+#, fuzzy
 msgid "tippr gold refund"
 msgstr "레딧 골드 환불"
 
 #: r2/controllers/ipn.py:778
-#, python-format
+#, python-format, fuzzy
 msgid "Your tippr gold payment has been refunded, contact %(gold_email)s for details"
 msgstr "당신의 레딧 골드 지불이 환불되었습니다. 자세한 사항은 %(gold_email)s에게 문의하세요"
 
@@ -1016,6 +1036,7 @@ msgid "something bad happened, try again later"
 msgstr "뭔가 안 좋은 일이 일어났군요, 나중에 다시 시도해 보세요."
 
 #: r2/controllers/ipn.py:1123
+#, fuzzy
 msgid "your account already has a gold subscription"
 msgstr "이 계정은 이미 레딧 골드를 구독하고 있습니다."
 
@@ -1028,6 +1049,7 @@ msgid "subscription created"
 msgstr "구독 생성됨"
 
 #: r2/controllers/ipn.py:1150
+#, fuzzy
 msgid "Your subscription is being processed and tippr gold will be delivered shortly."
 msgstr "구독이 완료되었습니다. 레딧 골드가 곧 지급될 예정입니다."
 
@@ -1036,10 +1058,12 @@ msgid "payment submitted"
 msgstr "결제 전송됨"
 
 #: r2/controllers/ipn.py:1159
+#, fuzzy
 msgid "tippr gold payment"
 msgstr "레딧 금화 지불"
 
 #: r2/controllers/ipn.py:1160
+#, fuzzy
 msgid "Your payment is being processed and tippr gold will be delivered shortly."
 msgstr "지불이 완료되었습니다. 레딧 골드가 곧 지급될 예정입니다."
 
@@ -1129,6 +1153,7 @@ msgid "you're really bored now, eh?"
 msgstr "많이 심심한가 보시내요?"
 
 #: r2/controllers/listingcontroller.py:806
+#, fuzzy
 msgid "filter by vault"
 msgstr "서브레딧으로 검색 결과 제한"
 
@@ -1224,6 +1249,7 @@ msgid "messages"
 msgstr "메세지"
 
 #: r2/controllers/listingcontroller.py:1672
+#, fuzzy
 msgid "vaults: "
 msgstr "서브레딧:"
 
@@ -1236,7 +1262,7 @@ msgid "gilded"
 msgstr "골드"
 
 #: r2/controllers/listingcontroller.py:2094
-#, python-format
+#, python-format, fuzzy
 msgid "gildings in this vault have paid for %(time)s of server time"
 msgstr "이 서브레딧이 한 길딩은 %(time)s 만큼의 레딧 서버 유지비를 지불했습니다."
 
@@ -1563,6 +1589,7 @@ msgid "fraud suspected promoted links"
 msgstr "사기로 추정되는 광고 링크"
 
 #: r2/controllers/promotecontroller.py:608
+#, fuzzy
 msgid "promos on tippr"
 msgstr "레딧에 있는 홍보"
 
@@ -1629,6 +1656,7 @@ msgid "gold members only"
 msgstr "오직 골드 회원만"
 
 #: r2/controllers/tippr_base.py:1435 r2/templates/createvault.html:140 r2/templates/multiinfobar.html:43 r2/templates/privateinterstitial.html:34 r2/templates/searchresultvault.html:101 r2/templates/vault.html:90
+#, fuzzy
 msgid "private"
 msgstr "비밀 레딧"
 
@@ -1637,6 +1665,7 @@ msgid "search failed"
 msgstr "검색 실패"
 
 #: r2/controllers/wiki.py:93
+#, fuzzy
 msgid "This page is the vault stylesheet, changes here apply to the vault css"
 msgstr "이 페이지는 서브레딧 스타일시트입니다. 변경하시면 서브레딧 CSS에 반영됩니다."
 
@@ -1645,6 +1674,7 @@ msgid "The contents of this page appear on the submit page"
 msgstr "이 페이지의 내용은 게시하기 페이지에 나타납니다"
 
 #: r2/controllers/wiki.py:95
+#, fuzzy
 msgid "The contents of this page appear on the vault sidebar"
 msgstr "이 페이지 내용은 서브레딧 사이드바에 반영됩니다"
 
@@ -1682,6 +1712,7 @@ msgid "this wiki cannot handle page names of that magnitude!  please select a pa
 msgstr "이 위키는 그렇게 긴 페이지 이름은 처리할 수 없습니다! %d 글자보다 짧은 페이지 이름으로 정해주세요."
 
 #: r2/controllers/wiki.py:221
+#, fuzzy
 msgid "this page is a special page, please go into the vault settings and save the field once to create this special page"
 msgstr "이 페이지는 스페셜 페이지입니다. 스페셜 페이지를 생성하시려면, 서브레딧 설정으로 가셔서 입력란을 한 번 저장하세요."
 
@@ -1999,10 +2030,12 @@ msgid "that link has already been submitted"
 msgstr "누가 이미 올린 링크입니다"
 
 #: r2/lib/errors.py:82
+#, fuzzy
 msgid "that vault already exists"
 msgstr "이미 존재하는 서브레딧입니다"
 
 #: r2/lib/errors.py:83
+#, fuzzy
 msgid "that vault doesn't exist"
 msgstr "존재하지 않는 서브레딧입니다"
 
@@ -2011,14 +2044,17 @@ msgid "you aren't allowed to post there."
 msgstr "등록할 권한이 없습니다"
 
 #: r2/lib/errors.py:85
+#, fuzzy
 msgid "you aren't allowed access to this vault"
 msgstr "이 서브레딧에 접근하도록 허락되지 않았습니다"
 
 #: r2/lib/errors.py:86
+#, fuzzy
 msgid "you must specify a vault"
 msgstr "서브레딧을 입력하세요"
 
 #: r2/lib/errors.py:87
+#, fuzzy
 msgid "this vault has chosen to disable their ads at this time"
 msgstr "이 서브레딧은 현재 광고를 중지하기로 결정했습니다"
 
@@ -2180,10 +2216,12 @@ msgid "that code has already been claimed -- perhaps by you?"
 msgstr "이미 사용된 코드입니다."
 
 #: r2/lib/errors.py:126
+#, fuzzy
 msgid "that vault doesn't allow text posts"
 msgstr "이 서브레딧에는 텍스트 게시물을 올릴 수 없습니다"
 
 #: r2/lib/errors.py:127
+#, fuzzy
 msgid "that vault only allows text posts"
 msgstr "이 서브레딧에는 텍스트 게시물만 올릴 수 있습니다"
 
@@ -2268,7 +2306,7 @@ msgid "that's not a Google Analytics 4 measurement ID (G-…)"
 msgstr ""
 
 #: r2/lib/errors.py:149
-#, python-format
+#, python-format, fuzzy
 msgid "%(domain)s is not allowed on tippr: %(reason)s"
 msgstr "%(domain)s 은/는 레딧에서 허용되지 않습니다: %(reason)s"
 
@@ -2309,6 +2347,7 @@ msgid "You can't perform that action because that user is a moderator."
 msgstr "이 사용자는 관리자이기 때문에 작업을 수행할 수 없습니다."
 
 #: r2/lib/errors.py:160
+#, fuzzy
 msgid "there is no pending invite for that vault"
 msgstr "해당 서브레딧에 대기 중인 초청장이 없습니다"
 
@@ -2354,6 +2393,7 @@ msgid "you can't change that multivault"
 msgstr "바꿀 수 없는 Multivault입니다."
 
 #: r2/lib/errors.py:171
+#, fuzzy
 msgid "no more space for vaults in that multivault"
 msgstr "더 이상 멀티레딧에 서브레딧을 추가할 공간이 없습니다."
 
@@ -2398,6 +2438,7 @@ msgid "frequency cap must be at least %(min)d"
 msgstr ""
 
 #: r2/lib/errors.py:181
+#, fuzzy
 msgid "that user is banned from the vault"
 msgstr "해당사용자는 서브레딧에서 차단되었습니다"
 
@@ -2406,10 +2447,12 @@ msgid "You can't do that while suspended."
 msgstr ""
 
 #: r2/lib/errors.py:183
+#, fuzzy
 msgid "you must have an active tippr gold subscription to do that"
 msgstr "레딧 골드 구독자에게 한정된 기능입니다."
 
 #: r2/lib/errors.py:184
+#, fuzzy
 msgid "insufficient coins"
 msgstr "크레딧이 부족합니다"
 
@@ -2422,6 +2465,7 @@ msgid "unable to scrape provided url"
 msgstr ""
 
 #: r2/lib/errors.py:187
+#, fuzzy
 msgid "can't send a message from a vault to another vault"
 msgstr "한 서브레딧에서 다른 서브레딧으로 메시지를 보내실 수 없습니다"
 
@@ -2434,7 +2478,7 @@ msgid "you must be in admin mode for this"
 msgstr "해당 작업을 위해선 관리자 모드가 필요합니다."
 
 #: r2/lib/errors.py:190
-#, python-format
+#, python-format, fuzzy
 msgid "to convert an existing vault to gold only, send a message to %(admin_modmail)s"
 msgstr "기존의 서브레딧을 골드 전용으로 전환하려면, %(admin_modmail)s에게 메시지를 보내십시오."
 
@@ -2455,10 +2499,12 @@ msgid "you must select at least one device per OS to target"
 msgstr ""
 
 #: r2/lib/errors.py:196
+#, fuzzy
 msgid "You have been muted from this vault."
 msgstr "당신은 이 서브레딧에서 뮤트 처리되었습니다."
 
 #: r2/lib/errors.py:197
+#, fuzzy
 msgid "This user has been muted from the vault."
 msgstr "이 유저는 서브레딧에서 뮤트 처리되었습니다."
 
@@ -2500,61 +2546,61 @@ msgstr ""
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:2
 msgid "Funny 500 page message 1"
-msgstr "이보시오, 레딧 양반! 서버가 고자라니!"
+msgstr ""
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:4
 msgid "Funny 500 page message 2"
-msgstr "요청한 페이지를 불러올 수 없습니다. 뭐 그럴 수도 있죠."
+msgstr ""
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:6
 msgid "Funny 500 page message 3"
-msgstr "500 내부 서버 오류가 발생 했습니다. 누가 서버에 커피라도 엎었나봐요."
+msgstr ""
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:8
 msgid "Funny 500 page message 4"
-msgstr "내부 서버 오류입니다. 아이고 그러게 레딧좀 적당히 하시라니까요!"
+msgstr ""
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:10
 msgid "Funny 500 page message 5"
-msgstr "내부 서버 오류 메시지를 쓰던 사람이 집에 가버렸습니다."
+msgstr ""
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:12
 msgid "Funny 500 page message 6"
-msgstr "이게 404 오류인지 500 오류인지 맞춰보실래요?"
+msgstr ""
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:14
 msgid "Funny 500 page message 7"
-msgstr "서버가 요즘 사춘기라 막 반항하고 그렇습니다."
+msgstr ""
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:16
 msgid "Funny 500 page message 8"
-msgstr "살려주세요! 고양이들이 레딧 서버를 점령했습니다!"
+msgstr ""
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:18
 msgid "Funny 500 page message 9"
-msgstr "정말 간절하게 F5를 누르면 우주가 나서서 도와줄겁니다."
+msgstr ""
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:20
 msgid "Funny 500 page message 10"
-msgstr "레디-트 봉사기 관리자 동무가 로동 태만으로 징계당하고 있습네다."
+msgstr ""
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
@@ -2964,10 +3010,12 @@ msgid "reddiquette"
 msgstr "레디켓"
 
 #: r2/lib/menus.py:91
+#, fuzzy
 msgid "buttons"
 msgstr "레딧 단추"
 
 #: r2/lib/menus.py:92
+#, fuzzy
 msgid "widget"
 msgstr "레딧 위짓"
 
@@ -3070,6 +3118,7 @@ msgid "edit subscriptions"
 msgstr "구독 수정"
 
 #: r2/lib/menus.py:132 r2/lib/pages/pages.py:2191
+#, fuzzy
 msgid "vault settings"
 msgstr "서브레딧 설정"
 
@@ -3150,6 +3199,7 @@ msgid "wiki page list"
 msgstr "위키 페이지 목록"
 
 #: r2/lib/menus.py:156
+#, fuzzy
 msgid "popular"
 msgstr "인기 레딧"
 
@@ -3158,6 +3208,7 @@ msgid "create"
 msgstr "만들기"
 
 #: r2/lib/menus.py:158 r2/lib/pages/pages.py:2815
+#, fuzzy
 msgid "my vaults"
 msgstr "나의 서브레딧들"
 
@@ -3366,6 +3417,7 @@ msgstr "프론트"
 
 #. TRANSLATORS: Gold feature, "myrandom", a random vault from your subscriptions
 #: r2/lib/menus.py:452
+#, fuzzy
 msgid "myrandom"
 msgstr "구독한 하위 레딧에서 랜덤 포스트"
 
@@ -3513,7 +3565,7 @@ msgid "your account has been deactivated, but we won't judge you for it."
 msgstr ""
 
 #: r2/lib/strings.py:80
-#, python-format
+#, python-format, fuzzy
 msgid "Log in or sign up to connect your tippr account with %(app)s."
 msgstr "로그인 또는 가입하여 레딧 계정을 %(app)s와 연결하세요."
 
@@ -3528,6 +3580,7 @@ msgid "to view tippr with only submissions from your friends, use [tippr.net/v/f
 msgstr "친구 분들께서 올린 링크만 보시려면 [tippr.net/v/friends](%s)으로 가십시오"
 
 #: r2/lib/strings.py:86
+#, fuzzy
 msgid "your vault has been created"
 msgstr "서브레딧이 생성되었습니다."
 
@@ -3537,22 +3590,27 @@ msgid "visit [%(link)s](%(link)s) for more information"
 msgstr "더욱 많은 정보를 얻으시려면 [%(link)s](%(link)s) 을 방문하세요"
 
 #: r2/lib/strings.py:91
+#, fuzzy
 msgid "you have not subscribed to any vaults."
 msgstr "구독 중인 서브레딧이 없습니다."
 
 #: r2/lib/strings.py:92
+#, fuzzy
 msgid "below are the vaults you have subscribed to."
 msgstr "다음은 당신이 구독중인 서브레딧입니다."
 
 #: r2/lib/strings.py:93
+#, fuzzy
 msgid "below are the vaults that you are an approved submitter on."
 msgstr "아래는 당신이 승인된 게시자인 서브레딧입니다"
 
 #: r2/lib/strings.py:94
+#, fuzzy
 msgid "below are the vaults that you have moderator access to."
 msgstr "아래는 당신이 관리자 권한을 가진 서브레딧입니다"
 
 #: r2/lib/strings.py:97
+#, fuzzy
 msgid "click the `subscribe` or `unsubscribe` buttons to choose which vaults appear on your front page."
 msgstr "'구독' 또는 '구독 취소' 버튼을 클릭하여 당신의 첫 페이지에 나타날 서브레딧을 고르세요."
 
@@ -3597,6 +3655,7 @@ msgid "we're going to need to verify your email address for you to proceed."
 msgstr "계속하기 위해서 이메일 주소 확인이 필요합니다"
 
 #: r2/lib/strings.py:111
+#, fuzzy
 msgid "you'll be able to submit more frequently once you verify your email address"
 msgstr "이메일 주소를 인증하면 더 자주 레딧에 글을 등록할 수 있습니다"
 
@@ -3656,7 +3715,7 @@ msgid "You sent us a postcard! (Or something similar.) When we run out of room o
 msgstr "오호! 엽서 (아님 비슷한..)를 보내주셨네요! 저희 냉장고에 붙여놓을 공간이 모자르게 되면 보내주신 엽서들을 경매에 부칠 수 있는데요, 고객님의 엽서도 경매 리스트에 넣어도 될까요?"
 
 #: r2/lib/strings.py:127
-#, python-format
+#, python-format, fuzzy
 msgid "Sorry, the maximum number of comments is %(max)d. (However, if you subscribe to tippr gold, it goes up to %(goldmax)d.)"
 msgstr "죄송합니다, 최대 코멘트 숫자는 %(max)d입니다. (그러나 레딧골드회원이시면 %(goldmax)d까지 올릴 수 있습니다.)"
 
@@ -3672,6 +3731,7 @@ msgid ""
 msgstr ""
 
 #: r2/lib/strings.py:136
+#, fuzzy
 msgid ""
 "Thanks for claiming a tippr gold code.\n"
 "\n"
@@ -3725,7 +3785,7 @@ msgid "You're about to give %(amount)s of tippr gold to %(recipient)s. It will b
 msgstr ""
 
 #: r2/lib/strings.py:144
-#, python-format
+#, python-format, fuzzy
 msgid "Want to say thanks to *%(recipient)s* for this comment? Give them a month of [tippr gold](/gold/about)."
 msgstr "이 댓글로 *%(recipient)s*에게 감사 인사를 하시겠습니까? [레딧 골드](/gold/about) 1개월분 선물하기"
 
@@ -3762,7 +3822,7 @@ msgid "This page shows a history of recent activity on your account. If you noti
 msgstr ""
 
 #: r2/lib/strings.py:152
-#, python-format
+#, python-format, fuzzy
 msgid "You are currently accessing tippr from this IP address: %(address)s."
 msgstr "현재 레딧에 접속중인 IP 주소 : %(address)s"
 
@@ -3801,10 +3861,12 @@ msgid ""
 msgstr ""
 
 #: r2/lib/strings.py:174
+#, fuzzy
 msgid "multivault of your subscriptions"
 msgstr "당신의 구독사항의 멀티레딧"
 
 #: r2/lib/strings.py:175
+#, fuzzy
 msgid "multivault of vaults you moderate"
 msgstr "당신의 관리하는 서브레딧들의 멀티레딧"
 
@@ -3817,6 +3879,7 @@ msgid "Displaying content from /v/all of tippr, except the following vaults:"
 msgstr ""
 
 #: r2/lib/strings.py:179
+#, fuzzy
 msgid "Filtering /v/all is a feature only available to [tippr gold](/gold/about) subscribers. Displaying unfiltered results from /v/all."
 msgstr "/v/all 를 필터링하는 기능은 [레딧 골드](/gold/about) 회원에게만 제공됩니다. /v/all 결과 전부 표시중."
 
@@ -3836,11 +3899,13 @@ msgid_plural "messages"
 msgstr[0] "메세지"
 
 #: r2/lib/pages/admin_pages.py:113 r2/lib/pages/trafficpages.py:815 r2/lib/strings.py:263 r2/templates/adminfeeds.html:44 r2/templates/adminfeeds.html:73 r2/templates/adminvaults.html:49 r2/templates/sitewidetraffic.html:39 r2/templates/vaulttrafficreport.html:45
+#, fuzzy
 msgid "vault"
 msgid_plural "vaults"
 msgstr[0] "하위 레딧"
 
 #: r2/lib/strings.py:264
+#, fuzzy
 msgid "coin"
 msgid_plural "coins"
 msgstr[0] "크레딧"
@@ -4178,6 +4243,7 @@ msgid "submitter"
 msgstr "투고자"
 
 #: r2/lib/template_helpers.py:597
+#, fuzzy
 msgid "tippr admin, speaking officially"
 msgstr "공석의 레딧 운영자"
 
@@ -4208,6 +4274,7 @@ msgid "No notes for this IP address"
 msgstr "이 IP 주소에 대한 노트가 없습니다"
 
 #: r2/lib/pages/admin_pages.py:106
+#, fuzzy
 msgid "No notes for this vault"
 msgstr "이 서브레딧에 대한 노트가 없음"
 
@@ -4241,10 +4308,12 @@ msgid "moderation tools"
 msgstr "운영자 도구"
 
 #: r2/lib/pages/pages.py:703
+#, fuzzy
 msgid "these vaults"
 msgstr "이 서브레딧들"
 
 #: r2/lib/pages/pages.py:717
+#, fuzzy
 msgid "this vault is archived and no longer accepting submissions."
 msgstr "이 레딧은 기록만 남아있기 때문에 더 이상 링크를 올리실 수 없습니다."
 
@@ -4265,6 +4334,7 @@ msgid "Submissions restricted"
 msgstr "등록이 제한됨"
 
 #: r2/lib/pages/pages.py:820
+#, fuzzy
 msgid "Create your own vault"
 msgstr "서브레딧 만들기"
 
@@ -4336,6 +4406,7 @@ msgid "about %(site)s"
 msgstr "%(site)s에 대하여"
 
 #: r2/lib/pages/pages.py:2215
+#, fuzzy
 msgid "search vaults by name"
 msgstr "이름으로 서브레딧 찾기"
 
@@ -4353,10 +4424,12 @@ msgid "trophy case"
 msgstr "트로피 케이스"
 
 #: r2/lib/pages/pages.py:2358
+#, fuzzy
 msgid "public multivaults"
 msgstr "공용 멀티레딧"
 
 #: r2/lib/pages/pages.py:2365
+#, fuzzy
 msgid "hidden multivaults"
 msgstr "숨겨진 멀티레딧"
 
@@ -4369,7 +4442,7 @@ msgid "less than a day"
 msgstr "하루도 안됀"
 
 #: r2/lib/pages/pages.py:2466
-#, python-format
+#, python-format, fuzzy
 msgid "%(coins)s gold coin to give"
 msgid_plural "%(coins)s gold coins to give"
 msgstr[0] "선물할 수 있는 %(coins)s 골드 크레딧"
@@ -4381,7 +4454,7 @@ msgid_plural "%(gildings)s gildings given out"
 msgstr[0] ""
 
 #: r2/lib/pages/pages.py:2482
-#, python-format
+#, python-format, fuzzy
 msgid "give tippr gold to %(user)s to show your appreciation"
 msgstr "%(user)s에게 레딧 골드 주기"
 
@@ -4390,6 +4463,7 @@ msgid "get extra features and help support tippr with a tippr gold subscription"
 msgstr ""
 
 #: r2/lib/pages/pages.py:2490
+#, fuzzy
 msgid "renew your tippr gold"
 msgstr "레딧 골드 갱신"
 
@@ -4414,6 +4488,7 @@ msgid "gifts on behalf of /u/%(user)s have helped pay for *%%(time)s* of tippr s
 msgstr ""
 
 #: r2/lib/pages/pages.py:2586
+#, fuzzy
 msgid "tippr is a platform for internet communities"
 msgstr "레딧은 인터넷 커뮤니티를 위한 플랫폼입니다."
 
@@ -4422,6 +4497,7 @@ msgid "where your votes shape what the world is talking about."
 msgstr "여러분들이 투표를 통해 세상의 화두를 이끌어갈 수 있는 곳입니다."
 
 #: r2/lib/pages/pages.py:2886 r2/lib/pages/pages.py:2996
+#, fuzzy
 msgid "add vault"
 msgstr "서브레딧 추가"
 
@@ -4563,10 +4639,12 @@ msgid "frontpage impressions"
 msgstr "대문에 대한 인상"
 
 #: r2/lib/pages/pages.py:5559
+#, fuzzy
 msgid "vault clicks"
 msgstr "서브레딧 클릭수"
 
 #: r2/lib/pages/pages.py:5559
+#, fuzzy
 msgid "vault impressions"
 msgstr "서브레딧에 대한 인상"
 
@@ -4595,6 +4673,7 @@ msgid "everything"
 msgstr "모든것"
 
 #: r2/lib/pages/pages.py:5902 r2/lib/pages/pages.py:5905
+#, fuzzy
 msgid "from all vaults"
 msgstr "모든 서브레딧에서"
 
@@ -4603,6 +4682,7 @@ msgid "moderating"
 msgstr "관리하는"
 
 #: r2/lib/pages/pages.py:5908
+#, fuzzy
 msgid "vaults you mod"
 msgstr "관리 중인 서브레딧"
 
@@ -4625,6 +4705,7 @@ msgid "formatting"
 msgstr "서식 도움"
 
 #: r2/lib/pages/pages.py:6086
+#, fuzzy
 msgid "your subscribed vaults"
 msgstr "당신이 구독한 서브레딧"
 
@@ -4749,7 +4830,7 @@ msgid "this page is empty, edit it to add some content."
 msgstr "빈 페이지입니다. 편집해서 내용을 추가해 주세요."
 
 #: r2/lib/pages/wiki.py:171 r2/lib/pages/wiki.py:177
-#, python-format
+#, python-format, fuzzy
 msgid "page %s does not exist in this vault"
 msgstr "%s 페이지는 이 서브레딧에 존재하지 않습니다."
 
@@ -4776,6 +4857,7 @@ msgid "Viewing pages for /v/%s"
 msgstr "/v/%s 의 페이지"
 
 #: r2/lib/pages/wiki.py:212
+#, fuzzy
 msgid "Below is a list of pages in this wiki visible to you in this vault."
 msgstr "이 서브레딧에서 열람하실 수 있는 위키 페이지 목록입니다."
 
@@ -4933,18 +5015,22 @@ msgid ""
 msgstr ""
 
 #: r2/models/admintools.py:312
+#, fuzzy
 msgid "Your tippr gold subscription has expired."
 msgstr "당신의 레딧 골드 구독기간이 만료되었습니다."
 
 #: r2/models/admintools.py:313
+#, fuzzy
 msgid "Your subscription to tippr gold has expired."
 msgstr "당신의 레딧 골드 구독기간이 만료되었습니다."
 
 #: r2/models/admintools.py:325
+#, fuzzy
 msgid "Your tippr gold subscription is about to expire!"
 msgstr "당신의 레딧 골드 구독기간이 곧 만료됩니다!"
 
 #: r2/models/admintools.py:327
+#, fuzzy
 msgid "Your subscription to tippr gold will be expiring soon."
 msgstr "당신 레딧 골드 구독기간이 곧 완료됩니다."
 
@@ -5193,7 +5279,7 @@ msgid "invite moderator"
 msgstr "관리자 초청하기"
 
 #: r2/models/listing.py:285 r2/templates/modlisting.html:36
-#, python-format
+#, python-format, fuzzy
 msgid "you are a moderator of this vault. %(action)s"
 msgstr "당신은 이 레딧의 관리자입니다. %(action)s"
 
@@ -5212,7 +5298,7 @@ msgid "moderators of /v/%(vault)s"
 msgstr "/v/%(vault)s 의 관리자"
 
 #: r2/models/mail_queue.py:331
-#, python-format
+#, python-format, fuzzy
 msgid "[tippr] %(user)s has shared a link with you"
 msgstr "[레딧]%(user)s님께서 보낸 링크입니다"
 
@@ -5227,14 +5313,17 @@ msgid "[advertising] feedback from '%(user)s'"
 msgstr ""
 
 #: r2/models/mail_queue.py:334
+#, fuzzy
 msgid "[tippr] email removal notice"
 msgstr "[레딧] 이메일 리스트에서 삭제 공고"
 
 #: r2/models/mail_queue.py:335
+#, fuzzy
 msgid "[tippr] email addition notice"
 msgstr "[레딧] 이메일 리스트에 추가 공고"
 
 #: r2/models/mail_queue.py:336
+#, fuzzy
 msgid "[tippr] reset your password"
 msgstr "[레딧] 비밀번호를 초기화하세요."
 
@@ -5247,26 +5336,32 @@ msgid "[tippr] your budget has been accepted"
 msgstr ""
 
 #: r2/models/mail_queue.py:339
+#, fuzzy
 msgid "[tippr] your promotion has been accepted"
 msgstr "[레딧] 고객님의 광고가 승인되었습니다"
 
 #: r2/models/mail_queue.py:340
+#, fuzzy
 msgid "[tippr] your promotion has been rejected"
 msgstr "[레딧] 고객님의 광고가 거절되었습니다"
 
 #: r2/models/mail_queue.py:341
+#, fuzzy
 msgid "[tippr] your promotion has been charged"
 msgstr "[레딧] 고객님의 광고가 지불되었습니다"
 
 #: r2/models/mail_queue.py:342
+#, fuzzy
 msgid "[tippr] your promotion is now live"
 msgstr "[레딧] 당신의 프로모션은 현재 나오고 있습니다"
 
 #: r2/models/mail_queue.py:343
+#, fuzzy
 msgid "[tippr] your promotion has finished"
 msgstr "[레딧] 고객님의 광고가 종료되었습니다"
 
 #: r2/models/mail_queue.py:344
+#, fuzzy
 msgid "[tippr] your promotion has been created"
 msgstr "[레딧] 고객님의 광고가 생성되었습니다"
 
@@ -5275,18 +5370,22 @@ msgid "[tippr] your promotion edit is being approved"
 msgstr ""
 
 #: r2/models/mail_queue.py:346
+#, fuzzy
 msgid "[tippr] hey, nerd!"
 msgstr "[레딧] 야 "
 
 #: r2/models/mail_queue.py:347
+#, fuzzy
 msgid "[tippr] tippr gold activation link"
 msgstr "[레딧] 레딧 골드 활성화 링크"
 
 #: r2/models/mail_queue.py:348
+#, fuzzy
 msgid "[tippr] your password has been changed"
 msgstr "[레딧] 비밀번호가 변경되었습니다."
 
 #: r2/models/mail_queue.py:349
+#, fuzzy
 msgid "[tippr] your email address has been changed"
 msgstr "[레딧] 이메일 주소가 변경되었습니다."
 
@@ -5299,6 +5398,7 @@ msgid "[tippr] your payment has been voided"
 msgstr ""
 
 #: r2/models/mail_queue.py:352
+#, fuzzy
 msgid "[tippr] your tippr gold gift code"
 msgstr "[레딧] 레딧 골드 기프트 코드"
 
@@ -5349,6 +5449,7 @@ msgid "approve comment"
 msgstr "댓글 승인"
 
 #: r2/models/modaction.py:77
+#, fuzzy
 msgid "add moderator"
 msgstr "레딧 운영자 추가하기"
 
@@ -5906,6 +6007,7 @@ msgid "My Identity"
 msgstr "내 정보"
 
 #: r2/models/token.py:151
+#, fuzzy
 msgid "Access my tippr username and signup date."
 msgstr "나의 레딧 아이디와 가입 날짜 보기"
 
@@ -5930,14 +6032,17 @@ msgid "Moderate Posts"
 msgstr "포스트 관리하기"
 
 #: r2/models/token.py:171
+#, fuzzy
 msgid "Approve, remove, mark nsfw, and distinguish content in vaults I moderate."
 msgstr "내가 관리하는 서브레딧의 내용을 승인, 삭제, 구별하거나 19금 마크를 다십시오."
 
 #: r2/models/token.py:176
+#, fuzzy
 msgid "Moderate Vault Configuration"
 msgstr "서브레딧 설정 관리하기"
 
 #: r2/models/token.py:178
+#, fuzzy
 msgid "Manage the configuration, sidebar, and CSS of vaults I moderate."
 msgstr "서브레딧의 설정, 사이드바, CSS 관리하기 | 관리."
 
@@ -5946,6 +6051,7 @@ msgid "Moderation Log"
 msgstr "관리 로그"
 
 #: r2/models/token.py:185
+#, fuzzy
 msgid "Access the moderation log in vaults I moderate."
 msgstr "서브레딧의 관리 로그 접속하기 | 관리."
 
@@ -5954,10 +6060,12 @@ msgid "Invite or remove other moderators"
 msgstr "다른 관리자 초청 또는 취소하기"
 
 #: r2/models/token.py:191
+#, fuzzy
 msgid "Invite or remove other moderators from vaults I moderate."
 msgstr "내가 관리하는 서브레딧에서 다른 관리자 초대 또는 취소하기"
 
 #: r2/models/token.py:196
+#, fuzzy
 msgid "Make changes to your vault moderator and contributor status"
 msgstr "당신이 관리하는 서브레딧의 관리자와 승인된 기여자 상태를 변경하기"
 
@@ -5966,10 +6074,12 @@ msgid "Accept invitations to moderate a vault. Remove myself as a moderator or c
 msgstr ""
 
 #: r2/models/token.py:206
+#, fuzzy
 msgid "Vault Traffic"
 msgstr "서브레딧 트래픽"
 
 #: r2/models/token.py:207
+#, fuzzy
 msgid "Access traffic stats in vaults I moderate."
 msgstr "서브레딧에서 트래픽 통계 접속하기 | 관리."
 
@@ -5982,10 +6092,12 @@ msgid "Change editors and visibility of wiki pages in vaults I moderate."
 msgstr ""
 
 #: r2/models/token.py:218
+#, fuzzy
 msgid "My Vaults"
 msgstr "내 서브레딧들"
 
 #: r2/models/token.py:220
+#, fuzzy
 msgid "Access the list of vaults I moderate, contribute to, and subscribe to."
 msgstr "서브레딧 목록 접속하기 | 관리하기, 기여하기, 구독하기."
 
@@ -6244,6 +6356,7 @@ msgid "You need to be logged in to give gold."
 msgstr "골드를 사용하려면 로그인해야 합니다."
 
 #: r2/public/static/js/login.js:139
+#, fuzzy
 msgid "You need to be logged in to subscribe to vaults."
 msgstr "서브레딧을 구독하려면 로그인해야 합니다."
 
@@ -6394,6 +6507,7 @@ msgid "awesomeness goes here"
 msgstr ""
 
 #: r2/public/static/js/multi.js:510
+#, fuzzy
 msgid "add a vault to your multi."
 msgstr "멀티에 서브레딧 추가하기"
 
@@ -6645,6 +6759,7 @@ msgid "an error occurred (status: %(status)s)"
 msgstr "오류가 발생했습니다 (상태: %(status)s)"
 
 #: r2/public/static/js/traffic.js:11
+#, fuzzy
 msgid "view vault traffic"
 msgstr "서브레딧 트래픽 보기"
 
@@ -8823,6 +8938,7 @@ msgid "ad"
 msgstr "광고"
 
 #: r2/templates/allinfobar.html:40
+#, fuzzy
 msgid "Exclude your subscribed vaults"
 msgstr "구독된 서브레딧 제외하기"
 
@@ -8894,6 +9010,7 @@ msgid "put %(site)s buttons on your site"
 msgstr "단추를 본인의 페이지에 추가하십시요 %(site)s"
 
 #: r2/templates/buttondemopanel.html:36
+#, fuzzy
 msgid "the tippr button is the smart way to get your content submitted to      and discussed on tippr.  pick the button you like from below, and then      copy/paste the code into your HTML editor."
 msgstr "회원님의 웹페이지를 방문하시는 분들께서 레딧에 링크를 쉽게 올리고 토론할 수 있도록 하시려면, 하단에 나온 단추 중에서 마음에 드는 것을 고르신 다음, 옆에 있는 코드를 복사하여 HTML 편집기에 붙여 넣어주십시오"
 
@@ -8902,6 +9019,7 @@ msgid "commonly used buttons"
 msgstr "사람들이 많이 쓰는 단추"
 
 #: r2/templates/buttondemopanel.html:41
+#, fuzzy
 msgid "use one of these buttons to quickly add tippr links to your site, or       see below for more options."
 msgstr "이 단추를 사용하시면 레딧 링크를 본인의 페이지에서도 쉽게 보실 수 있게 됩니다. 아래에 보시면 더 다양한 기능에 대해서 찾아 보실 수 있으십니다"
 
@@ -9345,10 +9463,12 @@ msgid "anyone can view, but submissions are no longer accepted"
 msgstr "아무나 볼 수는 있지만 링크는 더 이상 올릴 수 없습니다"
 
 #: r2/templates/createvault.html:153
+#, fuzzy
 msgid "gold restricted"
 msgstr "레딧 골드 제한됨"
 
 #: r2/templates/createvault.html:154
+#, fuzzy
 msgid "anyone can view, but only tippr gold members can submit or comment"
 msgstr "누구나 볼 수 있지만 레딧 골드 회원들만 등록하거나 댓글을 달 수 있습니다."
 
@@ -9429,10 +9549,12 @@ msgid "anyone"
 msgstr "아무나"
 
 #: r2/templates/createvault.html:232
+#, fuzzy
 msgid "Anyone who can submit to the vault may edit"
 msgstr "이 서브레딧에 작성 할 수 있는 아무나 수정 가능"
 
 #: r2/templates/createvault.html:239
+#, fuzzy
 msgid "Vault karma required to edit and create wiki pages:"
 msgstr "위키 페이지를 수정하거나 생성하는데 필요한 서브레딧 카르마:"
 
@@ -9527,6 +9649,7 @@ msgid "hide help"
 msgstr "도움말 숨기기"
 
 #: r2/templates/createvault.html:449
+#, fuzzy
 msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.tippr.net. You will be able to access your tippr through your domain."
 msgstr "혹시 도메인을 가지고 계세요?  여기에 주소를 입력하시고 호스트의 DNS 설정에서 CNAME 기록을 rhs.tippr.net으로 설정해 주세요. 고객님의 도메인에서 바로 레딧을 접속하실 수 있습니다."
 
@@ -9758,6 +9881,7 @@ msgid "position flair to the right of the link"
 msgstr "플레어를 링크 오른쪽에 두기"
 
 #: r2/templates/flairprefs.html:34
+#, fuzzy
 msgid "Show my flair on this vault. It looks like:"
 msgstr "이 서브레딧에서 나의 플레어를 보이게 합니다. 플레어는 이렇게 보입니다:"
 
@@ -9794,6 +9918,7 @@ msgid "What is gilding?"
 msgstr "길딩이 무엇인가요?"
 
 #: r2/templates/gilding.html:38
+#, fuzzy
 msgid "Giving [tippr gold](/gold/about) is referred to as 'gilding'. You can either give tippr gold directly to a user or gild one of their posts or comments."
 msgstr "[레딧 골드](/gold/about) 를 다른사람에게 주는것을 '길딩'이라고 합니다. 당신은 바로 레딧 골드를 주거나, 다른 사용자의 포스트나 댓글에 길드할수 있습니다."
 
@@ -9814,15 +9939,17 @@ msgid "How much does it cost?"
 msgstr "돈이 얼마나 드나요?"
 
 #: r2/templates/gilding.html:60
-#, python-format
+#, python-format, fuzzy
 msgid "A single gilding costs %(price)s. If you plan to do a lot you can get a discount if you purchase some [coins](/coins)."
 msgstr "한번 길딩하는데는 %(price)s 가 듭니다. 만약 길딩을 엄청나게 많이 하실 생각이라면 [크레딧](/coins)을 좀 사서 할인을 받으실 수 있습니다."
 
 #: r2/templates/gilding.html:63
+#, fuzzy
 msgid "What are coins?"
 msgstr "크레딧은 또 뭔가요?"
 
 #: r2/templates/gilding.html:64
+#, fuzzy
 msgid "Each coin you have can be converted into one month of tippr gold. Stored as a balance on your account, coins allow you to give gold without having to enter payment information."
 msgstr "각각의 크레딧 하나마다 1달치 레딧 골드로 변환이 가능합니다. 계정에 잔고로 저장하실수도 있고, 지불 정보 없이 다른 사람에게 골드를 주는것을 가능하게 합니다."
 
@@ -9867,6 +9994,7 @@ msgid "(We'll send a code to your email address you can then give to your recipi
 msgstr ""
 
 #: r2/templates/gold.html:85
+#, fuzzy
 msgid "buy tippr gold"
 msgstr "레딧 골드 구매하기"
 
@@ -9965,10 +10093,12 @@ msgid "redeem this code"
 msgstr "코드 교환"
 
 #: r2/templates/goldonlyinterstitial.html:40
+#, fuzzy
 msgid "You must be a Tippr Gold member to view this super secret community"
 msgstr "이 완전 비밀 커뮤니티를 보기 위해서는 레딧 골드 회원이어야 합니다."
 
 #: r2/templates/goldonlyinterstitial.html:44
+#, fuzzy
 msgid "The moderators of this community have set it to [Tippr Gold only](/gold/about#gold-only-vaults). You must be a [Tippr Gold member](/gold/about) to visit."
 msgstr "이 커뮤니티의 관리자가 [레딧 골드 사용자만](/gold/about#gold-only-vaults) 방문 가능하게 설정했습니다. 방문을 위해선 [레딧 골드 회원](/gold/about) 이어야 합니다."
 
@@ -10076,14 +10206,17 @@ msgid "you have a paypal gold subscription. go to %(paypal)s to manage it."
 msgstr "페이팔로 골드를 구독하고 있습니다. %(paypal)s 에서 구독을 관리하세요."
 
 #: r2/templates/goldvertisement.html:36
+#, fuzzy
 msgid "daily tippr gold goal"
 msgstr "매일의 레딧 골드 목표"
 
 #: r2/templates/goldvertisement.html:45
+#, fuzzy
 msgid "help support tippr"
 msgstr "레딧을 도와 주세요"
 
 #: r2/templates/goldvertisement.html:71
+#, fuzzy
 msgid "Yesterday's tippr gold goal"
 msgstr "어제의 레딧 골드 목표"
 
@@ -10106,12 +10239,12 @@ msgid "Contact the admins."
 msgstr "운영자들에게 메시지 보내기"
 
 #: r2/templates/interestbar.html:30
-#, python-format
+#, python-format, fuzzy
 msgid "ready for something new? %s subscribe %s to some new vaults."
 msgstr "새로운 것을 위한 준비가 되셨나요? 새로운 서브레딧을 %s 구독하세요 %s."
 
 #: r2/templates/interestbar.html:32
-#, python-format
+#, python-format, fuzzy
 msgid "it looks like you haven't %s subscribed %s to any vaults yet. want some ideas?"
 msgstr "아직 %s 구독 신청 %s 하신 서브레딧이 없으신가 보네요. 추천해 드릴까요?"
 
@@ -10299,6 +10432,7 @@ msgid "browse all vaults"
 msgstr "모든 서브레딧에서"
 
 #: r2/templates/listingchooser.html:51
+#, fuzzy
 msgid "multivaults"
 msgstr "멀티레딧"
 
@@ -10319,6 +10453,7 @@ msgid "to hide these samples, create a multi of your own:"
 msgstr ""
 
 #: r2/templates/listingsuggestions.html:33
+#, fuzzy
 msgid "explore some new vaults"
 msgstr "몇 개의 새로운 서브레딧을 구경하세요"
 
@@ -10332,6 +10467,7 @@ msgid "or try a %(random_vault)s"
 msgstr ""
 
 #: r2/templates/listingsuggestions.html:42
+#, fuzzy
 msgid "random vault"
 msgstr "랜덤 서브레딧"
 
@@ -10357,6 +10493,7 @@ msgid "New comments can no longer be added."
 msgstr "더 이상 새 댓글을 달 수 없게 됩니다."
 
 #: r2/templates/login.html:41
+#, fuzzy
 msgid "You are logged in. Go use the site!"
 msgstr "로그인에 성공했습니다. 즐거운 레딧 되세요!"
 
@@ -10365,6 +10502,7 @@ msgid "You need to login to do that."
 msgstr "해당 작업을 수행하려면 로그인해야 합니다."
 
 #: r2/templates/login.html:80
+#, fuzzy
 msgid "choose a username"
 msgstr "레딧에서 사용할 이름을 정하세요."
 
@@ -10518,6 +10656,7 @@ msgid "leave"
 msgstr "탈퇴하기"
 
 #: r2/templates/modlisting.html:34
+#, fuzzy
 msgid "you are no longer a moderator"
 msgstr "더이상 이 레딧의 운영자가 아니십니다"
 
@@ -10640,10 +10779,12 @@ msgid "would you like to..."
 msgstr "이건 어때요?"
 
 #: r2/templates/multiinfobar.html:159
+#, fuzzy
 msgid "check out vaults by category"
 msgstr "카테고리별로 서브레딧 둘러보기"
 
 #: r2/templates/multiinfobar.html:164
+#, fuzzy
 msgid "explore a random vault"
 msgstr "랜덤 서브레딧 찾아보기"
 
@@ -10652,6 +10793,7 @@ msgid "see the suggestions again"
 msgstr "추천 다시 보기"
 
 #: r2/templates/newlink.html:41
+#, fuzzy
 msgid "tippr"
 msgstr "레딧"
 
@@ -10670,6 +10812,7 @@ msgid "(optional)"
 msgstr "(선택사항)"
 
 #: r2/templates/newlink.html:107
+#, fuzzy
 msgid "choose a vault"
 msgstr "서브레딧을 고르세요."
 
@@ -10712,10 +10855,12 @@ msgid "upvoted weekly"
 msgstr ""
 
 #: r2/templates/newsletter.html:50
+#, fuzzy
 msgid "Enter your email to get the very best of tippr's content curated, packaged, and delivered to your inbox once a week. It's free and we'll never spam you."
 msgstr "이메일을 입력하여 매주 레딧의 최고 컨텐츠를 받아보세요. 해당 서비스는 완전히 무료이며 스팸 내용은 포함되지 않습니다."
 
 #: r2/templates/newsletter.html:52
+#, fuzzy
 msgid "back to tippr"
 msgstr "레딧으로 돌아가기"
 
@@ -10750,7 +10895,7 @@ msgid "Allow %(app)s to:"
 msgstr "%(app)s 에게 다음을 허용하기:"
 
 #: r2/templates/oauth2authorization.html:67
-#, python-format
+#, python-format, fuzzy
 msgid "%(app)s will not be able to access your tippr password."
 msgstr "%(app)s 은/는 당신의 레딧 비밀번호에 접근하지 못합니다."
 
@@ -10763,7 +10908,7 @@ msgid "Decline"
 msgstr "거부"
 
 #: r2/templates/optout.html:30
-#, python-format
+#, python-format, fuzzy
 msgid "The address '%(email)s' will no longer receive email from us."
 msgstr "' %(email)s '은 레딧에서 더 이상 레딧에서 오는 메일 받지 않게 될 겁니다"
 
@@ -10772,7 +10917,7 @@ msgid "A confirmation email has been queued up and should be reaching you shortl
 msgstr "인증 메일이 큐에 등록되었으며 짧은 시간 안에 배달될 것입니다. 이것이 우리가 보내는 마지막 이메일이 될 것입니다."
 
 #: r2/templates/optout.html:37
-#, python-format
+#, python-format, fuzzy
 msgid "Would you like the address %(email)s to no longer receive email from us?"
 msgstr "' %(email)s '에서 더 이상 레딧에서 오는 메일을 받기 희망하지 않으십니까?"
 
@@ -10782,7 +10927,7 @@ msgid "'%(email)s' has been removed from our block list."
 msgstr "'%(email)s' 을/를 정지 요청 목록에 제거하였습니다"
 
 #: r2/templates/optout.html:53
-#, python-format
+#, python-format, fuzzy
 msgid "Allow '%(email)s' to receive email from us?"
 msgstr "'%(email)s'에서 레딧에서 오는 메일을 받으시겠습니까?"
 
@@ -10986,6 +11131,7 @@ msgid "Only in:"
 msgstr "오직 여기서만:"
 
 #: r2/templates/prefapps.html:249
+#, fuzzy
 msgid "Only in the vaults:"
 msgstr "이 서브레딧에만 존재:"
 
@@ -11161,6 +11307,7 @@ msgid "your preferences couldn't be saved"
 msgstr "설정을 저장 할 수 없습니다."
 
 #: r2/templates/prefoptions.html:123
+#, fuzzy
 msgid "interface language"
 msgstr "레딧 표시 언어"
 
@@ -11201,6 +11348,7 @@ msgid "don't show thumbnails next to links"
 msgstr "모든 링크 옆에 미리보기를 표시하지 않는다"
 
 #: r2/templates/prefoptions.html:163
+#, fuzzy
 msgid "show thumbnails based on that vault's media preferences"
 msgstr "서브레딧 미디어 설정을 기반으로 섬네일 보이기"
 
@@ -11259,10 +11407,12 @@ msgid "(it shows new and promoted links, and gives you a say in what's spam and 
 msgstr "(새로운 링크와 홍보된 링크를 볼 수 있고, 스팸을 구분할 수 있게 됩니다.)"
 
 #: r2/templates/prefoptions.html:202
+#, fuzzy
 msgid "show trending vaults on the front page"
 msgstr "뜨고 있는 서브레딧을 프론트 페이지에서 보기."
 
 #: r2/templates/prefoptions.html:205
+#, fuzzy
 msgid "(a list of popular and notable vaults to check out)"
 msgstr "(인기 많고 주목할만한 서브레딧을 둘러보기 위한 목록)"
 
@@ -11332,6 +11482,7 @@ msgid "ignore suggested sorts"
 msgstr "추천된 정렬 방식 무시하기"
 
 #: r2/templates/prefoptions.html:253
+#, fuzzy
 msgid "(suggested sorts may be set by community moderators for specific threads or vaults, like Q&As)"
 msgstr "(추천된 정렬 방식은 공동체 관리자가 Q&A와 같은 특정 스레드나 서브레딧에 설정할 수 있습니다.)"
 
@@ -11410,6 +11561,7 @@ msgid "display options"
 msgstr "스타일 설정"
 
 #: r2/templates/prefoptions.html:317
+#, fuzzy
 msgid "allow vaults to show me custom themes"
 msgstr "서브레딧 자체 스킨을 보이도록 허용"
 
@@ -11539,6 +11691,7 @@ msgid "since you don't have %(gold_link)s, this will only apply in vaults you mo
 msgstr ""
 
 #: r2/templates/prefoptions.html:441
+#, fuzzy
 msgid "tippr themes"
 msgstr "레딧 테마"
 
@@ -11551,6 +11704,7 @@ msgid "Note: For security reasons this page will not be changed by themes"
 msgstr "참고: 보안상의 이유로 이 문서는 테마의 영향을 받지 않습니다"
 
 #: r2/templates/prefoptions.html:453
+#, fuzzy
 msgid "use tippr theme"
 msgstr "레딧 테마 사용"
 
@@ -11720,6 +11874,7 @@ msgid "distinguishing..."
 msgstr "구별하는중..."
 
 #: r2/templates/printablebuttons.html:240
+#, fuzzy
 msgid "give tippr gold in appreciation of this post."
 msgstr "이 포스트에 레딧 골드 주기."
 
@@ -11846,6 +12001,7 @@ msgid "%(username)s's avatar"
 msgstr ""
 
 #: r2/templates/profilebar.html:125
+#, fuzzy
 msgid "of tippr gold remaining"
 msgstr " 만큼의 레딧 골드가 남음"
 
@@ -12048,6 +12204,7 @@ msgid "send comments on my ad to my inbox"
 msgstr ""
 
 #: r2/templates/promotelinkbase.html:245
+#, fuzzy
 msgid "Comments are a great way to get feedback from customers, and the tippr community is known for being vocal in comment threads."
 msgstr "댓글은 고객의 피드백을 얻기 위한 좋은 방법이며, 레딧은 댓글을 통해 의견을 나누는 수단으로 널리 알려져 있습니다."
 
@@ -12518,6 +12675,7 @@ msgid "converted query to %(syntax)s syntax: %(converted)s"
 msgstr "검색어가 %(syntax)s 문법으로 전환됨: %(converted)s"
 
 #: r2/templates/searchform.html:38
+#, fuzzy
 msgid "find submissions in \"vault\""
 msgstr "\"서브레딧\"으로 글 찾기"
 
@@ -12550,6 +12708,7 @@ msgid "see the search faq for details."
 msgstr "상세한 설명을 위해 FAQ를 보세요."
 
 #: r2/templates/searchform.html:57
+#, fuzzy
 msgid "advanced search: by author, vault..."
 msgstr "고급 검색: 게시자, 서브레딧으로..."
 
@@ -12599,6 +12758,7 @@ msgid "note: you will only be eligible for a gilding trophy if this is set to \"
 msgstr ""
 
 #: r2/templates/sitewidetraffic.html:36
+#, fuzzy
 msgid "top vaults"
 msgstr "최고의 서브레딧"
 
@@ -12663,6 +12823,7 @@ msgid "first"
 msgstr "처음"
 
 #: r2/templates/thanks.html:35
+#, fuzzy
 msgid "thanks for buying coins!"
 msgstr "크레딧을 구매하여 주셔서 감사합니다!"
 
@@ -12671,18 +12832,22 @@ msgid "thanks for subscribing!"
 msgstr "구독해 주셔서 감사합니다!"
 
 #: r2/templates/thanks.html:42
+#, fuzzy
 msgid "enter your confirmation code below to claim your gift coins"
 msgstr "기프트 크레딧을 받기 위해서 확인코드를 입력해 주십시오"
 
 #: r2/templates/thanks.html:44
+#, fuzzy
 msgid "enter your confirmation code below to activate tippr gold"
 msgstr "레딧골드를 활성하기 위해서 확인코드를 입력해 주십시오"
 
 #: r2/templates/thanks.html:46
+#, fuzzy
 msgid "You're already a tippr gold subscriber."
 msgstr "당신은 이미 레딧골드의 구독자입니다."
 
 #: r2/templates/thanks.html:48
+#, fuzzy
 msgid "But if you just gave us even more money, enter the new confirmation code below and we'll add the extra credit to your account."
 msgstr "하지만 만약에 당신이 저희에게 돈을 더 내시면, 새로운 확인코드를 입력하세요 그러면 저희가 크레딧을 당신의 계정에 추가해 드리겠습니다."
 
@@ -12714,6 +12879,7 @@ msgid "Log in or sign up"
 msgstr "로그인하거나 회원가입하세요"
 
 #: r2/templates/tipprheader.html:99
+#, fuzzy
 msgid "You're in beta mode! Thanks for helping to test tippr."
 msgstr "베타 기능이 활성화되었습니다. 레딧을 발전시키는 데에 참여해 주신 점 감사합니다."
 
@@ -12747,6 +12913,7 @@ msgid "daily mean"
 msgstr "일평균"
 
 #: r2/templates/trendingvaultsbar.html:34
+#, fuzzy
 msgid "trending vaults"
 msgstr "최근 뜨는 서브레딧"
 
@@ -12987,6 +13154,7 @@ msgid "[link]"
 msgstr ""
 
 #: r2/templates/vaultfacets.html:32
+#, fuzzy
 msgid "too many results? narrow it down to a vault!"
 msgstr "결과가 너무 많은가요? 서브레딧으로 제한시켜 보세요!"
 
@@ -13000,6 +13168,7 @@ msgid "Leave this community"
 msgstr ""
 
 #: r2/templates/vaultinfobar.html:64
+#, fuzzy
 msgid "logged-in users viewing this vault in the past 15 minutes"
 msgstr "지난 15분 동안 이 서브레딧을 방문한 로그인된 사용자들"
 
@@ -13012,11 +13181,12 @@ msgid "stop being an approved submitter?"
 msgstr "승인된 게시자 좀 그만되세요?"
 
 #: r2/templates/vaultinfobar.html:86
-#, python-format
+#, python-format, fuzzy
 msgid "you are an approved submitter on this vault. (%(leave)s)"
 msgstr "당신은 이 서브레딧에서 승인된 게시자입니다. (%(leave)s)"
 
 #: r2/templates/vaultinfobar.html:100
+#, fuzzy
 msgid "Show this vault's theme"
 msgstr "이 서브레딧의 테마 보이기"
 
@@ -13025,10 +13195,12 @@ msgid "a community for"
 msgstr "----------for.... something????--------------을 위한 커뮤니티"
 
 #: r2/templates/vaultinfobar.html:134
+#, fuzzy
 msgid "approve this vault"
 msgstr "이 서브레딧 승인하기"
 
 #: r2/templates/vaultinfobar.html:164
+#, fuzzy
 msgid "ban this vault"
 msgstr "이 서브레딧을 금지하기"
 
@@ -13119,6 +13291,7 @@ msgid "Enter one vault per line. Traffic numbers shown are for the last full mon
 msgstr ""
 
 #: r2/templates/vaulttrafficreport.html:42
+#, fuzzy
 msgid "vault traffic"
 msgstr "서브레딧 접속량"
 
@@ -13271,7 +13444,7 @@ msgid "submit a discussion"
 msgstr ""
 
 #: r2/templates/wikipagenotfound.html:26
-#, python-format
+#, python-format, fuzzy
 msgid "The page \"%s\" was not found in this vault."
 msgstr "%s 페이지는 이 서브레딧에 존재하지 않습니다."
 

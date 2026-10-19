@@ -605,10 +605,12 @@ msgid "api documentation"
 msgstr "एपीआई प्रलेखन"
 
 #: r2/controllers/buttons.py:113
+#, fuzzy
 msgid "tippr buttons"
 msgstr "रेडिट बटन"
 
 #: r2/controllers/buttons.py:118
+#, fuzzy
 msgid "tippr widget"
 msgstr "रेडिट विजेट"
 
@@ -675,6 +677,7 @@ msgid "show %d"
 msgstr "%d दिखाएँ "
 
 #: r2/controllers/front.py:568 r2/controllers/front.py:571 r2/templates/adminvaults.html:25
+#, fuzzy
 msgid "create a vault"
 msgstr "एक सबरेडिट बनाएँ"
 
@@ -740,6 +743,7 @@ msgid "search results"
 msgstr "खोज के परिणाम "
 
 #: r2/controllers/front.py:1247 r2/controllers/listingcontroller.py:1529 r2/lib/menus.py:96 r2/lib/menus.py:173 r2/templates/adminvault.html:23 r2/templates/adminvaults.html:22 r2/templates/pagenamenav.html:62 r2/templates/promotelinkbase.html:765
+#, fuzzy
 msgid "vaults"
 msgstr "उपरेडिट"
 
@@ -831,6 +835,7 @@ msgid "welcome back"
 msgstr "स्वागतम"
 
 #: r2/controllers/front.py:1875 r2/controllers/front.py:1963 r2/controllers/front.py:2002 r2/lib/menus.py:95 r2/templates/contactus.html:117 r2/templates/contactus.html:119 r2/templates/creditgild.html:34 r2/templates/gold.html:30 r2/templates/goldpayment.html:40 r2/templates/goldthanks.html:29 r2/templates/prefoptions.html:431
+#, fuzzy
 msgid "tippr gold"
 msgstr "रेडिट गोल्ड "
 
@@ -1101,6 +1106,7 @@ msgid "you're really bored now, eh?"
 msgstr "अब तो सही में ऊब गए, नहीं? "
 
 #: r2/controllers/listingcontroller.py:806
+#, fuzzy
 msgid "filter by vault"
 msgstr "उपरेडिट द्वारा छानें"
 
@@ -1196,6 +1202,7 @@ msgid "messages"
 msgstr "सन्देश "
 
 #: r2/controllers/listingcontroller.py:1672
+#, fuzzy
 msgid "vaults: "
 msgstr "सबरेडिट:"
 
@@ -1597,6 +1604,7 @@ msgid "search failed"
 msgstr "खोज विफल रही"
 
 #: r2/controllers/wiki.py:93
+#, fuzzy
 msgid "This page is the vault stylesheet, changes here apply to the vault css"
 msgstr "यह पृष्ठ उपरेडिट की विन्यास पत्रिका है, यहाँ किये गए बदलाव उपरेडिट के सीएसएस में दिखाई देंगे ।"
 
@@ -1605,6 +1613,7 @@ msgid "The contents of this page appear on the submit page"
 msgstr ""
 
 #: r2/controllers/wiki.py:95
+#, fuzzy
 msgid "The contents of this page appear on the vault sidebar"
 msgstr "इस पृष्ठ की सामग्री उपरेडिट साइडबार में दिखेगी"
 
@@ -1642,6 +1651,7 @@ msgid "this wiki cannot handle page names of that magnitude!  please select a pa
 msgstr "यह विकी इतने बड़े पृष्ठ नाम सहन नही कर सकती !  कृपया %d अक्षर से छोटे किसी पृष्ठ नाम का चयन करें ।"
 
 #: r2/controllers/wiki.py:221
+#, fuzzy
 msgid "this page is a special page, please go into the vault settings and save the field once to create this special page"
 msgstr "यह पृष्ठ एक विशेष पृष्ठ है, कृपया उपरेडिट की सेटिंग्स में जा कर एक बार इस पृष्ठ का निर्माण/ सृजन कर लें। "
 
@@ -1958,10 +1968,12 @@ msgid "that link has already been submitted"
 msgstr "यह लिंक पहले ही प्रस्तुत किया जा चुका है"
 
 #: r2/lib/errors.py:82
+#, fuzzy
 msgid "that vault already exists"
 msgstr "यह सबरेडिट पहले से ही मौजूद है"
 
 #: r2/lib/errors.py:83
+#, fuzzy
 msgid "that vault doesn't exist"
 msgstr "यह सबरेडिट मौजूद नही है"
 
@@ -1974,6 +1986,7 @@ msgid "you aren't allowed access to this vault"
 msgstr ""
 
 #: r2/lib/errors.py:86
+#, fuzzy
 msgid "you must specify a vault"
 msgstr "आपको कोई उपरेडिट स्पष्ट करनी पड़ेगी "
 
@@ -2139,10 +2152,12 @@ msgid "that code has already been claimed -- perhaps by you?"
 msgstr "यह कोड पहले से ही किसी ने हासिल कर लिया है --  शायद आप ने ही?"
 
 #: r2/lib/errors.py:126
+#, fuzzy
 msgid "that vault doesn't allow text posts"
 msgstr "इस सबरेडिट पर बिना कड़ी वाले लेख नहीं छपते हैं"
 
 #: r2/lib/errors.py:127
+#, fuzzy
 msgid "that vault only allows text posts"
 msgstr "इस सबरेडिट पर सिर्फ़ बिना कड़ी वाले लेख छपते हैं।"
 
@@ -2227,7 +2242,7 @@ msgid "that's not a Google Analytics 4 measurement ID (G-…)"
 msgstr ""
 
 #: r2/lib/errors.py:149
-#, python-format
+#, python-format, fuzzy
 msgid "%(domain)s is not allowed on tippr: %(reason)s"
 msgstr "%(domain)s रेडिट पर वर्जित है: %(reason)s"
 
@@ -2268,6 +2283,7 @@ msgid "You can't perform that action because that user is a moderator."
 msgstr ""
 
 #: r2/lib/errors.py:160
+#, fuzzy
 msgid "there is no pending invite for that vault"
 msgstr "उस सबरेडिट के लिए कोई लंबित निमंत्रण नहीं है"
 
@@ -3025,6 +3041,7 @@ msgid "edit subscriptions"
 msgstr "सदस्यताएँ संपादित करें"
 
 #: r2/lib/menus.py:132 r2/lib/pages/pages.py:2191
+#, fuzzy
 msgid "vault settings"
 msgstr "उपरेडिट प्राथमिकताएँ"
 
@@ -3113,6 +3130,7 @@ msgid "create"
 msgstr "बनाएँ"
 
 #: r2/lib/menus.py:158 r2/lib/pages/pages.py:2815
+#, fuzzy
 msgid "my vaults"
 msgstr "मेरे सबरेडिट"
 
@@ -3460,7 +3478,7 @@ msgid "that link has already been submitted, but you can try to [submit it again
 msgstr "यह लिंक पहले प्रस्तुत किया जा चुका है पर आप फिर से [प्रस्तुत कर सकते हैं](%s) ।"
 
 #: r2/lib/strings.py:75
-#, python-format
+#, python-format, fuzzy
 msgid "that link has been submitted to multiple vaults. you can try to [submit it again](%s)."
 msgstr "यह लिंक बहुत सारी सबरेडिट पर प्रस्तुत किया जा चुका है । आप इसे [पुन: प्रस्तुत](%s) कर सकते हैं ।"
 
@@ -3479,11 +3497,12 @@ msgid "I understand and agree that registration on or use of this site constitut
 msgstr "मैं समझता हूँ और मानता हूँ कि इस साइट पर पंजीकरण करना या इसका उपयोग करना का मतलब है कौ मैं इसकी %(user_agreement)s और %(privacy_policy)s से सहमत हूँ ।"
 
 #: r2/lib/strings.py:84
-#, python-format
+#, python-format, fuzzy
 msgid "to view tippr with only submissions from your friends, use [tippr.net/v/friends](%s)"
 msgstr "रेडिट पर केवल अपनी मित्रों की प्रस्तुतियों को देखने के लिए [tippr.net/v/friends](%s) का प्रयोग करें"
 
 #: r2/lib/strings.py:86
+#, fuzzy
 msgid "your vault has been created"
 msgstr "आपकी सबरेडिट का निर्माण कर दिया गया है"
 
@@ -3493,6 +3512,7 @@ msgid "visit [%(link)s](%(link)s) for more information"
 msgstr "और जानकारी के लिए [%(link)s](%(link)s) पर जाएँ"
 
 #: r2/lib/strings.py:91
+#, fuzzy
 msgid "you have not subscribed to any vaults."
 msgstr "आप किसी भी सबरेडिट के सदस्य नहीं हैं ।"
 
@@ -3501,10 +3521,12 @@ msgid "below are the vaults you have subscribed to."
 msgstr ""
 
 #: r2/lib/strings.py:93
+#, fuzzy
 msgid "below are the vaults that you are an approved submitter on."
 msgstr "आप निम्न सबरेडिट पर अनुमोदित प्रस्तुतकर्ता हैं ।"
 
 #: r2/lib/strings.py:94
+#, fuzzy
 msgid "below are the vaults that you have moderator access to."
 msgstr "नीचे दी गई सबरेडिट्स के आप पंच हैं ।"
 
@@ -3612,7 +3634,7 @@ msgid "You sent us a postcard! (Or something similar.) When we run out of room o
 msgstr "आपने हमें एक पोस्टकार्ड (या उस जैसा कुछ) भेजा है । जब अंत में हमारे पास जगह ही नहीं बचती तो हम आप जैसे लोगो द्वारा भेजे गए सामान को अक्सर नीलम कर देते हैं । तो क्या हम आपकी दी हुई चीज़ को नीलम कर सकते हैं? "
 
 #: r2/lib/strings.py:127
-#, python-format
+#, python-format, fuzzy
 msgid "Sorry, the maximum number of comments is %(max)d. (However, if you subscribe to tippr gold, it goes up to %(goldmax)d.)"
 msgstr "क्षमा करें, टिप्पणी की अधिकतम संख्या %(max)d है. (तथापि, यदि आपके पास रेडिट गोल्ड है तब यह संख्या  %(goldmax)d तक जा सकती है । )"
 
@@ -3716,7 +3738,7 @@ msgid "This page shows a history of recent activity on your account. If you noti
 msgstr ""
 
 #: r2/lib/strings.py:152
-#, python-format
+#, python-format, fuzzy
 msgid "You are currently accessing tippr from this IP address: %(address)s."
 msgstr "आप इस आईपी पते से रेडिट तक पहुँच रहे हैं : %(address)s"
 
@@ -3759,6 +3781,7 @@ msgid "multivault of your subscriptions"
 msgstr ""
 
 #: r2/lib/strings.py:175
+#, fuzzy
 msgid "multivault of vaults you moderate"
 msgstr "उपरेडिटों का एकाधिकरेडिट जिनका आप नियंत्रण करतें हैं "
 
@@ -3793,12 +3816,14 @@ msgstr[0] "सन्देश "
 msgstr[1] "सन्देश "
 
 #: r2/lib/pages/admin_pages.py:113 r2/lib/pages/trafficpages.py:815 r2/lib/strings.py:263 r2/templates/adminfeeds.html:44 r2/templates/adminfeeds.html:73 r2/templates/adminvaults.html:49 r2/templates/sitewidetraffic.html:39 r2/templates/vaulttrafficreport.html:45
+#, fuzzy
 msgid "vault"
 msgid_plural "vaults"
 msgstr[0] "उपरेडिट"
 msgstr[1] "उपरेडिट"
 
 #: r2/lib/strings.py:264
+#, fuzzy
 msgid "coin"
 msgid_plural "coins"
 msgstr[0] "क्रेडिट"
@@ -4145,6 +4170,7 @@ msgid "submitter"
 msgstr "प्रस्तुतकर्ता"
 
 #: r2/lib/template_helpers.py:597
+#, fuzzy
 msgid "tippr admin, speaking officially"
 msgstr "रेडिट व्यवस्थापक, औपचारिक सन्देश"
 
@@ -4208,10 +4234,12 @@ msgid "moderation tools"
 msgstr "नियंत्रण उपकरण"
 
 #: r2/lib/pages/pages.py:703
+#, fuzzy
 msgid "these vaults"
 msgstr "यह  उपरेडिट"
 
 #: r2/lib/pages/pages.py:717
+#, fuzzy
 msgid "this vault is archived and no longer accepting submissions."
 msgstr "यह उपरेडिट पुरालेखित की जा चुकी है और नयी प्रस्तुतियाँ नही स्वीकारेगी ।"
 
@@ -4232,6 +4260,7 @@ msgid "Submissions restricted"
 msgstr "लेखन प्रतिबंधित"
 
 #: r2/lib/pages/pages.py:820
+#, fuzzy
 msgid "Create your own vault"
 msgstr "अपनी सबरेडिट का निर्माण करें"
 
@@ -4303,11 +4332,12 @@ msgid "about %(site)s"
 msgstr "%(site)s के बारे में"
 
 #: r2/lib/pages/pages.py:2215
+#, fuzzy
 msgid "search vaults by name"
 msgstr "उपरेडिट को नाम से खोजें "
 
 #: r2/lib/pages/pages.py:2259
-#, python-format
+#, python-format, fuzzy
 msgid "your front page vaults (%s)"
 msgstr "आपके मुखपृष्ठ वाले सबरेडिट (%s)"
 
@@ -4336,7 +4366,7 @@ msgid "less than a day"
 msgstr "एक दिन से भी कम"
 
 #: r2/lib/pages/pages.py:2466
-#, python-format
+#, python-format, fuzzy
 msgid "%(coins)s gold coin to give"
 msgid_plural "%(coins)s gold coins to give"
 msgstr[0] "देने के लिए %(coins)s गोल्ड क्रेडिट"
@@ -4350,15 +4380,17 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: r2/lib/pages/pages.py:2482
-#, python-format
+#, python-format, fuzzy
 msgid "give tippr gold to %(user)s to show your appreciation"
 msgstr "अपनी सराहना दिखाने हेतु %(user)s को रेडिट गोल्ड दें"
 
 #: r2/lib/pages/pages.py:2486
+#, fuzzy
 msgid "get extra features and help support tippr with a tippr gold subscription"
 msgstr "रेडिट गोल्ड सदस्यता ले कर अतिरिक्त सुविधाएँ पाएँ और रेडिट का समर्थन करें"
 
 #: r2/lib/pages/pages.py:2490
+#, fuzzy
 msgid "renew your tippr gold"
 msgstr "रेडिट गोल्ड का नवीकरण करें"
 
@@ -4383,6 +4415,7 @@ msgid "gifts on behalf of /u/%(user)s have helped pay for *%%(time)s* of tippr s
 msgstr ""
 
 #: r2/lib/pages/pages.py:2586
+#, fuzzy
 msgid "tippr is a platform for internet communities"
 msgstr "रेडिट इंटरनेट समुदायों के लिए एक मंच है"
 
@@ -4405,7 +4438,7 @@ msgid "%s visible"
 msgstr "%s दृष्टित"
 
 #: r2/lib/pages/pages.py:2933
-#, python-format
+#, python-format, fuzzy
 msgid "%(bonus)s bonus vaults"
 msgstr "%(bonus)s बोनस सबरेडिट"
 
@@ -4532,10 +4565,12 @@ msgid "frontpage impressions"
 msgstr "मुखपृष्ठ छापे"
 
 #: r2/lib/pages/pages.py:5559
+#, fuzzy
 msgid "vault clicks"
 msgstr "सबरेडिट क्लिक्स"
 
 #: r2/lib/pages/pages.py:5559
+#, fuzzy
 msgid "vault impressions"
 msgstr "सबरेडिट छापे"
 
@@ -4718,7 +4753,7 @@ msgid "this page is empty, edit it to add some content."
 msgstr "यह पृष्ठ खाली है, यहाँ कुछ साइड बार जोड़ने के लिए इसे संपादित करें ।"
 
 #: r2/lib/pages/wiki.py:171 r2/lib/pages/wiki.py:177
-#, python-format
+#, python-format, fuzzy
 msgid "page %s does not exist in this vault"
 msgstr "पृष्ठ %s इस उपरेडिट पर मौज़ूद नही है"
 
@@ -4822,6 +4857,7 @@ msgid "max length %d characters"
 msgstr "अधिकतम लंबाई %d अक्षर"
 
 #: r2/lib/validator/validator.py:2839
+#, fuzzy
 msgid "credit card numbers should be 13 to 16 digits"
 msgstr "क्रेडिट कार्ड क्रमांक 13 से 16 अंको का होना चाहिए "
 
@@ -4838,6 +4874,7 @@ msgid "expiration date must be in the future"
 msgstr "समाप्ति की तिथि भविष्य में होनी चाहिए "
 
 #: r2/lib/validator/validator.py:2860
+#, fuzzy
 msgid "card verification codes should be 3 or 4 digits"
 msgstr "क्रेडिट कार्ड सत्यापन क्रमांक 3 से 4 अंको का होना चाहिए "
 
@@ -5169,7 +5206,7 @@ msgid "invite moderator"
 msgstr "पंच आमंत्रित करें"
 
 #: r2/models/listing.py:285 r2/templates/modlisting.html:36
-#, python-format
+#, python-format, fuzzy
 msgid "you are a moderator of this vault. %(action)s"
 msgstr "आप इस उपरेडिट के पंच हैं । %(action)s"
 
@@ -5188,7 +5225,7 @@ msgid "moderators of /v/%(vault)s"
 msgstr ""
 
 #: r2/models/mail_queue.py:331
-#, python-format
+#, python-format, fuzzy
 msgid "[tippr] %(user)s has shared a link with you"
 msgstr "[रेडिट] %(user)s ने आपके साथ यह लिंक बांटा है "
 
@@ -5203,18 +5240,22 @@ msgid "[advertising] feedback from '%(user)s'"
 msgstr ""
 
 #: r2/models/mail_queue.py:334
+#, fuzzy
 msgid "[tippr] email removal notice"
 msgstr "[रेडिट] ईमेल हटाने के लिए अधिसूचना "
 
 #: r2/models/mail_queue.py:335
+#, fuzzy
 msgid "[tippr] email addition notice"
 msgstr "[रेडिट] ईमेल शामिल करने हेतु सूचना"
 
 #: r2/models/mail_queue.py:336
+#, fuzzy
 msgid "[tippr] reset your password"
 msgstr "[रेडिट] गुप्त शब्द पुनः निर्धारित करें"
 
 #: r2/models/mail_queue.py:337
+#, fuzzy
 msgid "[tippr] verify your email address"
 msgstr "[रेडिट] ईमेल पता सत्यापित करें "
 
@@ -5223,26 +5264,32 @@ msgid "[tippr] your budget has been accepted"
 msgstr ""
 
 #: r2/models/mail_queue.py:339
+#, fuzzy
 msgid "[tippr] your promotion has been accepted"
 msgstr "[रेडिट] आपके द्वारा किया गया प्रचार स्वीकार कर लिया गया है "
 
 #: r2/models/mail_queue.py:340
+#, fuzzy
 msgid "[tippr] your promotion has been rejected"
 msgstr "[रेडिट] आपका द्वारा किया गया प्रचार अस्वीकार कर दिया गया है "
 
 #: r2/models/mail_queue.py:341
+#, fuzzy
 msgid "[tippr] your promotion has been charged"
 msgstr "[रेडिट] आपके द्वारा किया गए प्रचार का मूल्यन किया गया है "
 
 #: r2/models/mail_queue.py:342
+#, fuzzy
 msgid "[tippr] your promotion is now live"
 msgstr "[रेडिट] आपका प्रचार अब सजीव है "
 
 #: r2/models/mail_queue.py:343
+#, fuzzy
 msgid "[tippr] your promotion has finished"
 msgstr "[रेडिट] आपका प्रचार समाप्त हुआ "
 
 #: r2/models/mail_queue.py:344
+#, fuzzy
 msgid "[tippr] your promotion has been created"
 msgstr "[रेडिट] आपका प्रचार निर्मित कर दिया गया है "
 
@@ -5251,18 +5298,22 @@ msgid "[tippr] your promotion edit is being approved"
 msgstr ""
 
 #: r2/models/mail_queue.py:346
+#, fuzzy
 msgid "[tippr] hey, nerd!"
 msgstr "[रेडिट] अरे, किताबी कीड़े"
 
 #: r2/models/mail_queue.py:347
+#, fuzzy
 msgid "[tippr] tippr gold activation link"
 msgstr "[रेडिट] रेडिट गोल्ड सक्रिय लिंक"
 
 #: r2/models/mail_queue.py:348
+#, fuzzy
 msgid "[tippr] your password has been changed"
 msgstr "[रेडिट] आपका गुप्त शब्द बदल दिया गया है"
 
 #: r2/models/mail_queue.py:349
+#, fuzzy
 msgid "[tippr] your email address has been changed"
 msgstr "[रेडिट] आपका ईमेल पता बदल दिया गया है"
 
@@ -5882,6 +5933,7 @@ msgid "My Identity"
 msgstr "मेरी पहचान "
 
 #: r2/models/token.py:151
+#, fuzzy
 msgid "Access my tippr username and signup date."
 msgstr "मेरी रेडिट पंजीकरण तिथि और प्रयोक्ता नाम हासिल करें ।"
 
@@ -5898,6 +5950,7 @@ msgid "Moderate Flair"
 msgstr "परचम नियंत्रित करें"
 
 #: r2/models/token.py:165
+#, fuzzy
 msgid "Manage and assign flair in vaults I moderate."
 msgstr "उन उपरेडिट में परचम प्रबंधित एवं नियुक्त करें जहाँ मैं पंच हूँ ।"
 
@@ -5906,14 +5959,17 @@ msgid "Moderate Posts"
 msgstr "प्रस्तुतियों को नियंत्रित करें"
 
 #: r2/models/token.py:171
+#, fuzzy
 msgid "Approve, remove, mark nsfw, and distinguish content in vaults I moderate."
 msgstr "मेरे द्वारा संचालित उपरेडिट में अनुमोदन करें, हटाएँ, वयस्क चिन्हित करें एवं विषय वस्तु सुभिन्न करें"
 
 #: r2/models/token.py:176
+#, fuzzy
 msgid "Moderate Vault Configuration"
 msgstr "उपरेडिट विन्यास नियंत्रित करें "
 
 #: r2/models/token.py:178
+#, fuzzy
 msgid "Manage the configuration, sidebar, and CSS of vaults I moderate."
 msgstr "मेरे द्वारा संचालित उपरेडिट में विन्यास, साइडबार, और सीएसएस प्रबंधित करें ।"
 
@@ -5922,6 +5978,7 @@ msgid "Moderation Log"
 msgstr "पंच पुस्तिका"
 
 #: r2/models/token.py:185
+#, fuzzy
 msgid "Access the moderation log in vaults I moderate."
 msgstr "मेरे द्वारा नियंत्रित उपरेडिट की पंच पुस्तिका दिखाएँ । "
 
@@ -5942,10 +5999,12 @@ msgid "Accept invitations to moderate a vault. Remove myself as a moderator or c
 msgstr ""
 
 #: r2/models/token.py:206
+#, fuzzy
 msgid "Vault Traffic"
 msgstr "उपरेडिट यातायात"
 
 #: r2/models/token.py:207
+#, fuzzy
 msgid "Access traffic stats in vaults I moderate."
 msgstr "मेरे द्वारा नियंत्रित उपरेडिट के यातायात आँकड़े दिखाएँ ।"
 
@@ -5958,10 +6017,12 @@ msgid "Change editors and visibility of wiki pages in vaults I moderate."
 msgstr ""
 
 #: r2/models/token.py:218
+#, fuzzy
 msgid "My Vaults"
 msgstr "मेरे उपरेडिट"
 
 #: r2/models/token.py:220
+#, fuzzy
 msgid "Access the list of vaults I moderate, contribute to, and subscribe to."
 msgstr "उन उपरेडिट की सूची दिखाएँ जिन्हें मैं संचालित करता हूँ, जिनका मैं सदस्य हूँ या जिनमें मैं प्रस्तुतियाँ करता हूँ ।"
 
@@ -6163,6 +6224,7 @@ msgid "missing name"
 msgstr "नाम नदारद"
 
 #: r2/public/static/js/gold.js:298
+#, fuzzy
 msgid "invalid credit card number"
 msgstr "अवैध क्रेडिट कार्ड नंबर"
 
@@ -6624,6 +6686,7 @@ msgid "an error occurred (status: %(status)s)"
 msgstr "गड़बड़ हो गई (स्थिति: %(status)s)"
 
 #: r2/public/static/js/traffic.js:11
+#, fuzzy
 msgid "view vault traffic"
 msgstr "उपरेडिट यातायात देखें"
 
@@ -8837,6 +8900,7 @@ msgid "put %(site)s buttons on your site"
 msgstr "अपनी साइट पर %(site)s का बटन डालें"
 
 #: r2/templates/buttondemopanel.html:36
+#, fuzzy
 msgid "the tippr button is the smart way to get your content submitted to      and discussed on tippr.  pick the button you like from below, and then      copy/paste the code into your HTML editor."
 msgstr "रेडिट बटन एक अच्छा तरीका है अपनी रचना को रेडिट समुदाय के समक्ष प्रस्तुत करने का और उस पर चर्चा को बढ़ावा देने का । आप नीचे दिए गए बटन विकल्पों में से किसी को भी चुन सकते हैं, और फिर अपने एचटीएमएल संपादक में कोड कॉपी / पेस्ट कर सकते हैं ।"
 
@@ -8845,6 +8909,7 @@ msgid "commonly used buttons"
 msgstr "आमतौर पर इस्तेमाल किये जाने वाले बटन"
 
 #: r2/templates/buttondemopanel.html:41
+#, fuzzy
 msgid "use one of these buttons to quickly add tippr links to your site, or       see below for more options."
 msgstr "अपनी साईट पर रेडिट लिंक डालने के लिये इन में से किसी भी बटन का प्रयोग करें, या नीचे दिए गए अन्य विकल्पों में से किसी का चुनाव करें ।"
 
@@ -8967,7 +9032,7 @@ msgid "deleted comment from"
 msgstr "से मिटाया गया कमेंट"
 
 #: r2/templates/comment.html:115
-#, python-format
+#, python-format, fuzzy
 msgid "this vault hides comment scores for %d minutes"
 msgstr "यह सबरेडिट %d मिनट तक टिप्पणी अंक छुपाती है"
 
@@ -9366,10 +9431,12 @@ msgid "anyone"
 msgstr "कोई भी"
 
 #: r2/templates/createvault.html:232
+#, fuzzy
 msgid "Anyone who can submit to the vault may edit"
 msgstr "जो भी उपरेडिट में प्रस्तुत कर सकता है वो संपादन कर सकता है"
 
 #: r2/templates/createvault.html:239
+#, fuzzy
 msgid "Vault karma required to edit and create wiki pages:"
 msgstr "विकी पृष्ठों को संपादित करने और बनाने के लिए आवश्यक उपरेडिट कर्म:"
 
@@ -9647,6 +9714,7 @@ msgid "flair options"
 msgstr "परचम विकल्प"
 
 #: r2/templates/flairpane.html:42
+#, fuzzy
 msgid "enable user flair in this vault"
 msgstr "इस उपरेडिट में प्रयोक्ता परचम की अनुमति दें"
 
@@ -9695,6 +9763,7 @@ msgid "position flair to the right of the link"
 msgstr "परचम लिंक की दाईं ओर"
 
 #: r2/templates/flairprefs.html:34
+#, fuzzy
 msgid "Show my flair on this vault. It looks like:"
 msgstr "इस सबरेडिट पर मेरा परचम दिखाएँ । यह ऐसा दिखता है:"
 
@@ -9804,6 +9873,7 @@ msgid "(We'll send a code to your email address you can then give to your recipi
 msgstr ""
 
 #: r2/templates/gold.html:85
+#, fuzzy
 msgid "buy tippr gold"
 msgstr "रेडिट गोल्ड ख़रीदें "
 
@@ -9944,6 +10014,7 @@ msgid "PayPal"
 msgstr "पेपाल"
 
 #: r2/templates/goldpayment.html:157
+#, fuzzy
 msgid "Credit Card"
 msgstr "क्रेडिट कार्ड"
 
@@ -10043,12 +10114,12 @@ msgid "Contact the admins."
 msgstr "व्यवस्थापकों को संदेश भेजें"
 
 #: r2/templates/interestbar.html:30
-#, python-format
+#, python-format, fuzzy
 msgid "ready for something new? %s subscribe %s to some new vaults."
 msgstr "कुछ नया करने के लिए तैयार है? कुछ नए उपरेडिट की  %s सदस्यता %s लीजिए ।"
 
 #: r2/templates/interestbar.html:32
-#, python-format
+#, python-format, fuzzy
 msgid "it looks like you haven't %s subscribed %s to any vaults yet. want some ideas?"
 msgstr "ऐसा लगता है कि आप अब तक किसी भी उपरेडिट के %s सदस्य %s नही हैं । कुछ उपाए चाहिएँ ?"
 
@@ -10589,6 +10660,7 @@ msgid "see the suggestions again"
 msgstr ""
 
 #: r2/templates/newlink.html:41
+#, fuzzy
 msgid "tippr"
 msgstr "रेडिट"
 
@@ -10607,6 +10679,7 @@ msgid "(optional)"
 msgstr "(वैकल्पिक)"
 
 #: r2/templates/newlink.html:107
+#, fuzzy
 msgid "choose a vault"
 msgstr "कोई उपरेडिट चुनें"
 
@@ -10772,6 +10845,7 @@ msgid "Your current budget is %(budget)s"
 msgstr ""
 
 #: r2/templates/paymentform.html:44
+#, fuzzy
 msgid "Please pick your credit card:"
 msgstr "अपना क्रेडिट कार्ड चुनें:"
 
@@ -10921,6 +10995,7 @@ msgid "Only in:"
 msgstr "केवल इन में:"
 
 #: r2/templates/prefapps.html:249
+#, fuzzy
 msgid "Only in the vaults:"
 msgstr "केवल इन उपरेडिट में:"
 
@@ -11136,6 +11211,7 @@ msgid "don't show thumbnails next to links"
 msgstr "लिंक्स के बगल में थंबनेल ना दिखाएँ"
 
 #: r2/templates/prefoptions.html:163
+#, fuzzy
 msgid "show thumbnails based on that vault's media preferences"
 msgstr "सबरेडिट की मीडिया प्राथमिकताओं के आधार पर थंबनेल दिखाएँ"
 
@@ -11371,6 +11447,7 @@ msgid "I am over eighteen years old and willing to view adult content"
 msgstr "मैं बालिग हूँ और वयस्क रचनाएँ देखने के लिए तैयार हूँ"
 
 #: r2/templates/prefoptions.html:342
+#, fuzzy
 msgid "required to view some vaults"
 msgstr "कुछ सबरेडिट देखने के लिए आवश्यक"
 
@@ -11766,6 +11843,7 @@ msgid "comment karma"
 msgstr "टिप्पणी कर्म"
 
 #: r2/templates/profilebar.html:82
+#, fuzzy
 msgid "really obscure karma from before it was cool to track per-vault"
 msgstr "गए रोज़ का प्राचीन कर्म अंक जिससे पहले हम एक एक उपरेडिट के आंकड़े जमा करने शुरू भी नहीं किए थे ।"
 
@@ -11779,6 +11857,7 @@ msgid "%(username)s's avatar"
 msgstr ""
 
 #: r2/templates/profilebar.html:125
+#, fuzzy
 msgid "of tippr gold remaining"
 msgstr "रेडिट गोल्ड बचा है"
 
@@ -11795,6 +11874,7 @@ msgid "manage recurring subscription"
 msgstr ""
 
 #: r2/templates/profilebar.html:184
+#, fuzzy
 msgid "user for"
 msgstr "से रेडिटवासी"
 
@@ -12451,6 +12531,7 @@ msgid "converted query to %(syntax)s syntax: %(converted)s"
 msgstr "प्रश्न को %(syntax)s वाक्यविन्यास में बदला गया: %(converted)s"
 
 #: r2/templates/searchform.html:38
+#, fuzzy
 msgid "find submissions in \"vault\""
 msgstr "\"उपरेडिट\" में प्रस्तुतियाँ ढूंढे"
 
@@ -12532,6 +12613,7 @@ msgid "note: you will only be eligible for a gilding trophy if this is set to \"
 msgstr ""
 
 #: r2/templates/sitewidetraffic.html:36
+#, fuzzy
 msgid "top vaults"
 msgstr "शीर्ष उपरेडिट"
 
@@ -12596,6 +12678,7 @@ msgid "first"
 msgstr "प्रथम"
 
 #: r2/templates/thanks.html:35
+#, fuzzy
 msgid "thanks for buying coins!"
 msgstr "क्रेडिट खरीदने के लिए धन्यवाद! "
 
@@ -12608,14 +12691,17 @@ msgid "enter your confirmation code below to claim your gift coins"
 msgstr "अपना उपहार प्राप्त करने के लिए नीचे अपना पुष्टिकरण कोड दर्ज करें "
 
 #: r2/templates/thanks.html:44
+#, fuzzy
 msgid "enter your confirmation code below to activate tippr gold"
 msgstr "अपना रेडिट गोल्ड सक्रिय करने के लिए  नीचे अपना पुष्टिकरण कोड दर्ज करें "
 
 #: r2/templates/thanks.html:46
+#, fuzzy
 msgid "You're already a tippr gold subscriber."
 msgstr "आप पहले से ही रेडिट गोल्ड ग्राहक हैं "
 
 #: r2/templates/thanks.html:48
+#, fuzzy
 msgid "But if you just gave us even more money, enter the new confirmation code below and we'll add the extra credit to your account."
 msgstr "और अगर आपने हमें और भी अधिक पैसा दिया है तो नीचे नए पुष्टि कोड को दर्ज करें और हम आपके खाते में अतिरिक्त क्रेडिट जोड़ देंगे "
 
@@ -12920,6 +13006,7 @@ msgid "[link]"
 msgstr ""
 
 #: r2/templates/vaultfacets.html:32
+#, fuzzy
 msgid "too many results? narrow it down to a vault!"
 msgstr "अत्याधिक परिणाम ? उपरेडिट द्वारा छाटें ।"
 
@@ -12933,6 +13020,7 @@ msgid "Leave this community"
 msgstr ""
 
 #: r2/templates/vaultinfobar.html:64
+#, fuzzy
 msgid "logged-in users viewing this vault in the past 15 minutes"
 msgstr "वो लॉग्ड-इन प्रयोक्ता जिन्होने पिछले 15 मिनट में यह उपरेडिट देखी है"
 
@@ -12945,7 +13033,7 @@ msgid "stop being an approved submitter?"
 msgstr "अनुमोदित प्रस्तुतकर्ता ना बने रहें?"
 
 #: r2/templates/vaultinfobar.html:86
-#, python-format
+#, python-format, fuzzy
 msgid "you are an approved submitter on this vault. (%(leave)s)"
 msgstr "आप इस सबरेडिट के अनुमोदित प्रस्तुतकर्ता हैं । (%(leave)s)"
 
@@ -12958,10 +13046,12 @@ msgid "a community for"
 msgstr "के लिए एक समुदाय"
 
 #: r2/templates/vaultinfobar.html:134
+#, fuzzy
 msgid "approve this vault"
 msgstr "इस सबरेडिट को अनुमोदित करें"
 
 #: r2/templates/vaultinfobar.html:164
+#, fuzzy
 msgid "ban this vault"
 msgstr "इस सबरेडिट को प्रतिबंधित करें"
 
@@ -13052,6 +13142,7 @@ msgid "Enter one vault per line. Traffic numbers shown are for the last full mon
 msgstr ""
 
 #: r2/templates/vaulttrafficreport.html:42
+#, fuzzy
 msgid "vault traffic"
 msgstr "सबरेडिट यातायात"
 
@@ -13204,7 +13295,7 @@ msgid "submit a discussion"
 msgstr "एक चर्चा प्रस्तुत करें"
 
 #: r2/templates/wikipagenotfound.html:26
-#, python-format
+#, python-format, fuzzy
 msgid "The page \"%s\" was not found in this vault."
 msgstr "पृष्ठ \"%s\" इस सबरेडिट पर नही मिला ।"
 
@@ -13222,6 +13313,7 @@ msgid "who can edit this page?"
 msgstr "कौन इस पृष्ठ को संपादित कर सकते हैं?"
 
 #: r2/templates/wikipagesettings.html:43
+#, fuzzy
 msgid "use vault wiki permissions"
 msgstr "सबरेडिट विकी अनुमतियों का उपयोग करें"
 

@@ -625,10 +625,12 @@ msgid "api documentation"
 msgstr ""
 
 #: r2/controllers/buttons.py:113
+#, fuzzy
 msgid "tippr buttons"
 msgstr "ரெட்டிட் பொறி"
 
 #: r2/controllers/buttons.py:118
+#, fuzzy
 msgid "tippr widget"
 msgstr "ரெட்டிட் விட்ஜெட்"
 
@@ -772,6 +774,7 @@ msgid "search results"
 msgstr "தேடல் விளைவுகள்"
 
 #: r2/controllers/front.py:1247 r2/controllers/listingcontroller.py:1529 r2/lib/menus.py:96 r2/lib/menus.py:173 r2/templates/adminvault.html:23 r2/templates/adminvaults.html:22 r2/templates/pagenamenav.html:62 r2/templates/promotelinkbase.html:765
+#, fuzzy
 msgid "vaults"
 msgstr "அனு ரெட்டிட்ஸ்"
 
@@ -863,6 +866,7 @@ msgid "welcome back"
 msgstr "நல்வரவு"
 
 #: r2/controllers/front.py:1875 r2/controllers/front.py:1963 r2/controllers/front.py:2002 r2/lib/menus.py:95 r2/templates/contactus.html:117 r2/templates/contactus.html:119 r2/templates/creditgild.html:34 r2/templates/gold.html:30 r2/templates/goldpayment.html:40 r2/templates/goldthanks.html:29 r2/templates/prefoptions.html:431
+#, fuzzy
 msgid "tippr gold"
 msgstr "தங்க ரெட்டிட்"
 
@@ -2047,6 +2051,7 @@ msgid "you aren't allowed access to this vault"
 msgstr ""
 
 #: r2/lib/errors.py:86
+#, fuzzy
 msgid "you must specify a vault"
 msgstr "நீங்கள் ஒரு உப-ரெட்டிட்டை வரையறுக்க வேண்டும்"
 
@@ -3610,7 +3615,7 @@ msgid "I understand and agree that registration on or use of this site constitut
 msgstr "இந்த இணையத்தளத்தின் உபயோகம் அல்லது பதிவு செய்தலுக்கு இந்த இணையத்தளத்தின் %(user_agreement)s அன்த் %(privacy_policy)sஉக்கு உட்பட்டது என்பதை புரிந்து கொண்டு சம்மதம்  தெரிவிக்கிறேன்"
 
 #: r2/lib/strings.py:84
-#, python-format
+#, python-format, fuzzy
 msgid "to view tippr with only submissions from your friends, use [tippr.net/v/friends](%s)"
 msgstr "உங்களுடைய நண்பர்களின் படைப்புக்களை மட்டும் பார்க்க  (ரெட்டிட்/ஆர்/நண்பர்கள்)(%s) உபயோகிக்கவும்"
 
@@ -3950,6 +3955,7 @@ msgstr[0] "தகவல்"
 msgstr[1] "தகவல்கள்"
 
 #: r2/lib/pages/admin_pages.py:113 r2/lib/pages/trafficpages.py:815 r2/lib/strings.py:263 r2/templates/adminfeeds.html:44 r2/templates/adminfeeds.html:73 r2/templates/adminvaults.html:49 r2/templates/sitewidetraffic.html:39 r2/templates/vaulttrafficreport.html:45
+#, fuzzy
 msgid "vault"
 msgid_plural "vaults"
 msgstr[0] "அனு ரெட்டிட்"
@@ -6105,6 +6111,7 @@ msgid "My Identity"
 msgstr "என் அடையாளம்"
 
 #: r2/models/token.py:151
+#, fuzzy
 msgid "Access my tippr username and signup date."
 msgstr "என் ரெட்டிட் பயனர் பெயரையும் இணைப்பு தேதியையும் பெறுக"
 
@@ -13053,6 +13060,7 @@ msgid "first"
 msgstr ""
 
 #: r2/templates/thanks.html:35
+#, fuzzy
 msgid "thanks for buying coins!"
 msgstr "க்ரெட்டிட்ஸ் வாங்கியதற்கு நன்றி"
 

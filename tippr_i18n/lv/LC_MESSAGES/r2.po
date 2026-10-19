@@ -625,10 +625,12 @@ msgid "api documentation"
 msgstr "api dokumentācija"
 
 #: r2/controllers/buttons.py:113
+#, fuzzy
 msgid "tippr buttons"
 msgstr "redita pogas"
 
 #: r2/controllers/buttons.py:118
+#, fuzzy
 msgid "tippr widget"
 msgstr "redita sīklietotne"
 
@@ -805,6 +807,7 @@ msgid "Thanks for buying tippr gold! Your transaction has been completed."
 msgstr "Paldies, ka iegādājies tippr zeltu! Tava transakcija ir pabeigta."
 
 #: r2/controllers/front.py:1506
+#, fuzzy
 msgid "Thanks for buying tippr gold! Your transaction has been completed and emailed to you. You can check the details by signing into your account at:"
 msgstr "Paldies, ka iegādājies redita zeltu! Tavs darījums ir pabeigts un nosūtīts tev uz e-pastu. Tu vari pārbaudīt detaļas piesakoties savam kontam:"
 
@@ -863,6 +866,7 @@ msgid "welcome back"
 msgstr "laipni lūdzam atpakaļ"
 
 #: r2/controllers/front.py:1875 r2/controllers/front.py:1963 r2/controllers/front.py:2002 r2/lib/menus.py:95 r2/templates/contactus.html:117 r2/templates/contactus.html:119 r2/templates/creditgild.html:34 r2/templates/gold.html:30 r2/templates/goldpayment.html:40 r2/templates/goldthanks.html:29 r2/templates/prefoptions.html:431
+#, fuzzy
 msgid "tippr gold"
 msgstr "redita zelts"
 
@@ -941,6 +945,7 @@ msgid "Thank you again for your support, and have fun spreading gold!"
 msgstr ""
 
 #: r2/controllers/ipn.py:611
+#, fuzzy
 msgid "Thanks for giving the gift of tippr gold!"
 msgstr "Paldies, ka uzdāvināji redita zeltu!"
 
@@ -980,6 +985,7 @@ msgid "Your tippr gold subscription has been cancelled because your credit card 
 msgstr ""
 
 #: r2/controllers/ipn.py:777
+#, fuzzy
 msgid "tippr gold refund"
 msgstr "redita zelta atmaksa"
 
@@ -1052,6 +1058,7 @@ msgid "payment submitted"
 msgstr "maksājums iesniegts"
 
 #: r2/controllers/ipn.py:1159
+#, fuzzy
 msgid "tippr gold payment"
 msgstr "redita zelta maksājums"
 
@@ -2306,7 +2313,7 @@ msgid "that's not a Google Analytics 4 measurement ID (G-…)"
 msgstr ""
 
 #: r2/lib/errors.py:149
-#, python-format
+#, python-format, fuzzy
 msgid "%(domain)s is not allowed on tippr: %(reason)s"
 msgstr "%(domain)s nav atļauts reditā: %(reason)s"
 
@@ -3611,7 +3618,7 @@ msgid "I understand and agree that registration on or use of this site constitut
 msgstr ""
 
 #: r2/lib/strings.py:84
-#, python-format
+#, python-format, fuzzy
 msgid "to view tippr with only submissions from your friends, use [tippr.net/v/friends](%s)"
 msgstr "lai apskatītu reditu tikai ar savu draugu iesūtījumiem, izmanto [tippr.net/v/friends](%s)"
 
@@ -3751,7 +3758,7 @@ msgid "You sent us a postcard! (Or something similar.) When we run out of room o
 msgstr "Jūs atsūtījāt mums vēstuli! (Vai ko līdzīgu.) Kad mums vairs nebūs vietas uz ledusskapja, mēs varētu pārdot iesūtītās mantas izsolē. Vai drīkstam iekļaut tavu sūtījumu?"
 
 #: r2/lib/strings.py:127
-#, python-format
+#, python-format, fuzzy
 msgid "Sorry, the maximum number of comments is %(max)d. (However, if you subscribe to tippr gold, it goes up to %(goldmax)d.)"
 msgstr "Atvainojiet, maksimālais komentāru skaits ir %(max)d. (Tomēr, ja jūs nopirktu redita zeltu, tas būtu %(goldmax)d.)"
 
@@ -3823,7 +3830,7 @@ msgid "Want to say thanks to *%(recipient)s* for this comment? Give them a month
 msgstr ""
 
 #: r2/lib/strings.py:145
-#, python-format
+#, python-format, fuzzy
 msgid "Want to say thanks to *%(recipient)s* for this submission? Give them a month of [tippr gold](/gold/about)."
 msgstr "Gribi pateikt *%(recipient)s* paldies par iesūtījumu? Iedod tiem mēnesi [redita zelta](/gold/about)."
 
@@ -3857,7 +3864,7 @@ msgid "This page shows a history of recent activity on your account. If you noti
 msgstr "This page shows a history of recent activity on your account. If you notice unusual activity, you should change your password immediately. Location information is guessed from your computer's IP address and may be wildly wrong, especially for visits from mobile devices. Note: due to a bug, private-use addresses (starting with 10.) sometimes show up erroneously in this list after regular use of the site."
 
 #: r2/lib/strings.py:152
-#, python-format
+#, python-format, fuzzy
 msgid "You are currently accessing tippr from this IP address: %(address)s."
 msgstr "Jūs šobrīd apmeklējat reditu caur šo IP adresi: %(address)s"
 
@@ -4330,6 +4337,7 @@ msgid "submitter"
 msgstr "pievienotājs"
 
 #: r2/lib/template_helpers.py:597
+#, fuzzy
 msgid "tippr admin, speaking officially"
 msgstr "redita administrācija, runāju oficiāli"
 
@@ -4550,6 +4558,7 @@ msgid "get extra features and help support tippr with a tippr gold subscription"
 msgstr ""
 
 #: r2/lib/pages/pages.py:2490
+#, fuzzy
 msgid "renew your tippr gold"
 msgstr "atjauno savu redita zeltu"
 
@@ -4574,6 +4583,7 @@ msgid "gifts on behalf of /u/%(user)s have helped pay for *%%(time)s* of tippr s
 msgstr ""
 
 #: r2/lib/pages/pages.py:2586
+#, fuzzy
 msgid "tippr is a platform for internet communities"
 msgstr "redits ir platforma interneta kopienām"
 
@@ -6117,6 +6127,7 @@ msgid "Manage My Flair"
 msgstr ""
 
 #: r2/models/token.py:138
+#, fuzzy
 msgid "Select my vault flair. Change link flair on my submissions."
 msgstr "Izvēlēties sava subredita nozīmīti. Nomainīt saišu nozīmīti iekš saviem iesūtījumiem."
 
@@ -6133,6 +6144,7 @@ msgid "My Identity"
 msgstr "Mana identitāte"
 
 #: r2/models/token.py:151
+#, fuzzy
 msgid "Access my tippr username and signup date."
 msgstr "Tikt pie mana redit lietotājvārda un registrācijas datuma"
 
@@ -9203,6 +9215,7 @@ msgid "commonly used buttons"
 msgstr "biežāk lietotās pogas"
 
 #: r2/templates/buttondemopanel.html:41
+#, fuzzy
 msgid "use one of these buttons to quickly add tippr links to your site, or       see below for more options."
 msgstr "izmanto vienu no šīm pogām, lai ātrāk pievienotu redita saites uz savu tīmekļa lapu vai skaties zemāk priekš vairāk iespējām. "
 
@@ -9829,6 +9842,7 @@ msgid "hide help"
 msgstr "paslēpt palīdzību"
 
 #: r2/templates/createvault.html:449
+#, fuzzy
 msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.tippr.net. You will be able to access your tippr through your domain."
 msgstr "Esi domēna īpašnieks? Ievadi to šeit un tad sava DNS piegādātāja CNAME ierakstā pievieno rhs.tippr.net . Tad tu varēsi piekļūt savam reditam ar savu domēnu."
 
@@ -10181,6 +10195,7 @@ msgid "(We'll send a code to your email address you can then give to your recipi
 msgstr ""
 
 #: r2/templates/gold.html:85
+#, fuzzy
 msgid "buy tippr gold"
 msgstr "pirkt redita zeltu"
 
@@ -10992,6 +11007,7 @@ msgid "see the suggestions again"
 msgstr "skatīt ieteikumus atkal"
 
 #: r2/templates/newlink.html:41
+#, fuzzy
 msgid "tippr"
 msgstr "redits"
 
@@ -12244,6 +12260,7 @@ msgid "%(username)s's avatar"
 msgstr "%(username)s's snoovatar"
 
 #: r2/templates/profilebar.html:125
+#, fuzzy
 msgid "of tippr gold remaining"
 msgstr "no redita zelta atlicis"
 
@@ -12260,6 +12277,7 @@ msgid "manage recurring subscription"
 msgstr ""
 
 #: r2/templates/profilebar.html:184
+#, fuzzy
 msgid "user for"
 msgstr "reditors"
 
@@ -12945,6 +12963,7 @@ msgid "converted query to %(syntax)s syntax: %(converted)s"
 msgstr ""
 
 #: r2/templates/searchform.html:38
+#, fuzzy
 msgid "find submissions in \"vault\""
 msgstr "atrast iesūtījumus iekš \"subredita\""
 

@@ -677,6 +677,7 @@ msgid "show %d"
 msgstr "паказаць %d"
 
 #: r2/controllers/front.py:568 r2/controllers/front.py:571 r2/templates/adminvaults.html:25
+#, fuzzy
 msgid "create a vault"
 msgstr "стварыць сабрэддыт"
 
@@ -742,6 +743,7 @@ msgid "search results"
 msgstr "вынікі пошуку"
 
 #: r2/controllers/front.py:1247 r2/controllers/listingcontroller.py:1529 r2/lib/menus.py:96 r2/lib/menus.py:173 r2/templates/adminvault.html:23 r2/templates/adminvaults.html:22 r2/templates/pagenamenav.html:62 r2/templates/promotelinkbase.html:765
+#, fuzzy
 msgid "vaults"
 msgstr "сабрэддыты"
 
@@ -750,7 +752,7 @@ msgid "seen it"
 msgstr "бачылі"
 
 #: r2/controllers/front.py:1412 r2/models/vault.py:2414 r2/templates/multiinfobar.html:37
-#, python-format
+#, python-format, fuzzy
 msgid "%s vaults"
 msgstr "%s сабрэддытаў"
 
@@ -767,6 +769,7 @@ msgid "Claimed! Enjoy your tippr gold membership."
 msgstr "Прынята! Прыемнага карыстаньня падпіскай tippr gold."
 
 #: r2/controllers/front.py:1500
+#, fuzzy
 msgid "Your gold coins have been claimed! Now go to someone's userpage and give them a present!"
 msgstr "Вашыя gold крэдыты былі пацьверджаныя! Цяпер перайдзіце на чыю-небудзь старонку і зрабіце падарунак!"
 
@@ -837,6 +840,7 @@ msgid "tippr gold"
 msgstr ""
 
 #: r2/controllers/front.py:2012 r2/templates/gilding.html:79
+#, fuzzy
 msgid "purchase coins"
 msgstr "купіць крэддыты"
 
@@ -895,14 +899,17 @@ msgid "Eureka! Thank you for investing in tippr gold!"
 msgstr "Эўрыка! Дзякуй за інвестыраваньне ў tippr gold!"
 
 #: r2/controllers/ipn.py:573
+#, fuzzy
 msgid "Thank you for buying tippr gold. Your patronage supports the site and makes future development possible. For example, one month of tippr gold pays for 5 instance hours of tippr's servers."
 msgstr "Дзякуй вам за пакупку tippr gold. Вашае фундатарства падтрымлівае сайт і надалей робіць магчымай яго распрацоўку. Напрыклад, адзін месяц tippr gold аплачвае 5 гадзін работы сэрвэраў рэддыта."
 
 #: r2/controllers/ipn.py:586
+#, fuzzy
 msgid "Eureka! Thank you for investing in tippr gold coins!"
 msgstr "Эўрыка! Дзякуйма за інвэставаньне ў крэддыты tippr gold!"
 
 #: r2/controllers/ipn.py:589
+#, fuzzy
 msgid "Thank you for buying coins. Your patronage supports the site and makes future development possible. To spend your coins and spread tippr gold, visit [/gold](/gold) or your favorite person's user page."
 msgstr "Дзякуй вам за пакупку крэддытаў. Вашае фундатарства падтрымлівае сайт і надалей робіць магчымай яго распрацоўку. Каб патраціць крэддыты і раздарыць tippr gold, наведайце  [/gold](/gold) або старонку карыстальніка, які вам падабаецца."
 
@@ -948,7 +955,7 @@ msgid "tippr gold subscription cancelled"
 msgstr "падпіска tippr gold адмененая"
 
 #: r2/controllers/ipn.py:767
-#, python-format
+#, python-format, fuzzy
 msgid "Your tippr gold subscription has been cancelled because your credit card could not be charged. Contact %(gold_email)s for details"
 msgstr "Падпіска tippr gold была адмененая, бо вашай крэдытнай карткай нельга скарыстацца. Зьвярніцеся да %(gold_email)s па падрабязнасьці"
 
@@ -1118,6 +1125,7 @@ msgid "you're really bored now, eh?"
 msgstr "вы ўжо засумавалі, га?"
 
 #: r2/controllers/listingcontroller.py:806
+#, fuzzy
 msgid "filter by vault"
 msgstr "фільтраваць па сабрэддытам"
 
@@ -1213,6 +1221,7 @@ msgid "messages"
 msgstr "паведамленьні"
 
 #: r2/controllers/listingcontroller.py:1672
+#, fuzzy
 msgid "vaults: "
 msgstr "сабрэддыты: "
 
@@ -1544,6 +1553,7 @@ msgid "fraud suspected promoted links"
 msgstr "рэклямныя спасылкі, якія падазраюць у махлярстве"
 
 #: r2/controllers/promotecontroller.py:608
+#, fuzzy
 msgid "promos on tippr"
 msgstr "прасоўваньні на рэддыт"
 
@@ -1618,6 +1628,7 @@ msgid "search failed"
 msgstr "пошук ня ўдаўся"
 
 #: r2/controllers/wiki.py:93
+#, fuzzy
 msgid "This page is the vault stylesheet, changes here apply to the vault css"
 msgstr "Гэтая старонка ёсьць табліцай стыляў сабрэддыту, яе зьмяненьні прымяняюцца да css сабрэддыту"
 
@@ -1626,14 +1637,17 @@ msgid "The contents of this page appear on the submit page"
 msgstr "Зьмест гэтай старонкі з'явіцца на старонцы публікацыі"
 
 #: r2/controllers/wiki.py:95
+#, fuzzy
 msgid "The contents of this page appear on the vault sidebar"
 msgstr "Зьмест гэтай старонкі з'явіцца на бакавой панэлі сабрэддыту"
 
 #: r2/controllers/wiki.py:96
+#, fuzzy
 msgid "The contents of this page appear in the public vault description and when the user does not have access to the vault"
 msgstr "Зьмест гэтай старонкі з'явіцца на старонцы апісаньня сабрэддыту, і яго будзе відаць, калі карыстальнік не мае доступу да сабрэддыту"
 
 #: r2/controllers/wiki.py:97
+#, fuzzy
 msgid "This page is used to configure AutoModerator for the vault, please see [the full documentation](/wiki/automoderator/full-documentation) for information"
 msgstr "Гэтая старонка выкарыстоўваецца для канфігурацыі AutoModerator для сабрэддыту, калі ласка, глядзіце [поўную дакумэнтацыю] (/wiki/automoderator/full-documentation)"
 
@@ -1663,6 +1677,7 @@ msgid "this wiki cannot handle page names of that magnitude!  please select a pa
 msgstr "гэтая вікія не дазваляе выкарыстаньне настолькі вялікіх назваў старонак! калі ласка, абярыце карацейшую за %d сымбаляў назву старонкі"
 
 #: r2/controllers/wiki.py:221
+#, fuzzy
 msgid "this page is a special page, please go into the vault settings and save the field once to create this special page"
 msgstr "гэта спэцыяльная старонка, калі ласка, перайдзіце ў налады сабрэддыту і захавайце поле адзін раз, каб стварыць гэтую спэцыяльную старонку"
 
@@ -1978,10 +1993,12 @@ msgid "that link has already been submitted"
 msgstr "гэтую спасылку ўжо дадавалі"
 
 #: r2/lib/errors.py:82
+#, fuzzy
 msgid "that vault already exists"
 msgstr "гэтакі сабрэддыт ужо існуе"
 
 #: r2/lib/errors.py:83
+#, fuzzy
 msgid "that vault doesn't exist"
 msgstr "гэтакі сабрэддыт не існуе"
 
@@ -1990,14 +2007,17 @@ msgid "you aren't allowed to post there."
 msgstr "вам не дазволіна пісаць сюды."
 
 #: r2/lib/errors.py:85
+#, fuzzy
 msgid "you aren't allowed access to this vault"
 msgstr "вам не дазволены доступ да гэтага сабрэддыту"
 
 #: r2/lib/errors.py:86
+#, fuzzy
 msgid "you must specify a vault"
 msgstr "вы мусіце пазначыць сабрэддыт"
 
 #: r2/lib/errors.py:87
+#, fuzzy
 msgid "this vault has chosen to disable their ads at this time"
 msgstr "гэты сабрэддыт выбраў адключыць рэкляму"
 
@@ -2073,7 +2093,7 @@ msgid "That email could not be added. Check your email for an existing confirmat
 msgstr "Гэты адрас электроннае пошты ня можа быць дададзены. Пераверце, ці існуе ў вас адрас для пацьверджаньня."
 
 #: r2/lib/errors.py:108
-#, python-format
+#, python-format, fuzzy
 msgid "that vault has already been oversold on %(start)s to %(end)s. Please pick another vault or date."
 msgstr "рэкляма на гэтым сабрэддыце была цалкам праданая зь %(start)s да %(end)s. калі ласка, абярыце іншы сабрэддыт ці дату."
 
@@ -2247,7 +2267,7 @@ msgid "that's not a Google Analytics 4 measurement ID (G-…)"
 msgstr ""
 
 #: r2/lib/errors.py:149
-#, python-format
+#, python-format, fuzzy
 msgid "%(domain)s is not allowed on tippr: %(reason)s"
 msgstr "%(domain)s не дазволены на рэддыт: %(reason)s"
 
@@ -2288,6 +2308,7 @@ msgid "You can't perform that action because that user is a moderator."
 msgstr "Вы не можаце зьдзейсьніць гэтага, бо той карыстальнік з'яўляецца мадэратарам."
 
 #: r2/lib/errors.py:160
+#, fuzzy
 msgid "there is no pending invite for that vault"
 msgstr "для гэтага сабрэддыта няма неразгледжаных запрашэньняў"
 
@@ -2321,28 +2342,32 @@ msgid "%(reason)s"
 msgstr ""
 
 #: r2/lib/errors.py:168
+#, fuzzy
 msgid "that multivault doesn't exist"
 msgstr "гэты мультырэддыт не існуе"
 
 #: r2/lib/errors.py:169
+#, fuzzy
 msgid "that multivault already exists"
 msgstr "гэты мультырэддыт ужо існуе"
 
 #: r2/lib/errors.py:170
+#, fuzzy
 msgid "you can't change that multivault"
 msgstr "вы не можаце зьмяніць гэты мультырэддыт"
 
 #: r2/lib/errors.py:171
+#, fuzzy
 msgid "no more space for vaults in that multivault"
 msgstr "гэты мультырэддыт больш ня мае месца для сабрэддытаў"
 
 #: r2/lib/errors.py:172
-#, python-format
+#, python-format, fuzzy
 msgid "can't add special vault %(path)s"
 msgstr "нельга дадаць асаблівы сабрэддыт %(path)s"
 
 #: r2/lib/errors.py:173
-#, python-format
+#, python-format, fuzzy
 msgid "maximum %(max)s vaults"
 msgstr "максымум %(max)s сабрэддытаў"
 
@@ -2385,10 +2410,12 @@ msgid "You can't do that while suspended."
 msgstr ""
 
 #: r2/lib/errors.py:183
+#, fuzzy
 msgid "you must have an active tippr gold subscription to do that"
 msgstr "вы павінныя мець актыўную рэддыт голд падпіску каб гэта рабіць"
 
 #: r2/lib/errors.py:184
+#, fuzzy
 msgid "insufficient coins"
 msgstr "не хапае крэддытаў"
 
@@ -2401,6 +2428,7 @@ msgid "unable to scrape provided url"
 msgstr "немагчыма здабыць кантэнт з гэтага url"
 
 #: r2/lib/errors.py:187
+#, fuzzy
 msgid "can't send a message from a vault to another vault"
 msgstr "нельга даслаць паведамленьне з сабрэддыта да іншага сабрэддыта"
 
@@ -2413,11 +2441,12 @@ msgid "you must be in admin mode for this"
 msgstr "дзеля таго вы маеце быць у рэжыме адміна"
 
 #: r2/lib/errors.py:190
-#, python-format
+#, python-format, fuzzy
 msgid "to convert an existing vault to gold only, send a message to %(admin_modmail)s"
 msgstr "каб ператварыць існуючы сабрэддыт у рэжым толькі для карыстальнікаў рэддыт голд, дашліце паведамленьне да %(admin_modmail)s"
 
 #: r2/lib/errors.py:192
+#, fuzzy
 msgid "this vault must be 'gold only' to select this"
 msgstr "каб гэта выбраць, сабрэддыт мае быць \"толькі для карыстальнікаў рэддыт голд\""
 
@@ -2479,7 +2508,7 @@ msgstr ""
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:2
 msgid "Funny 500 page message 1"
-msgstr "нельга проста так узяць, і карыстацца tippr без памылак"
+msgstr ""
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
@@ -2491,7 +2520,7 @@ msgstr ""
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:6
 msgid "Funny 500 page message 3"
-msgstr "воў-воў, палехчэ, нешта працуе не так як трэба"
+msgstr ""
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
@@ -2538,120 +2567,140 @@ msgstr ""
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:22
+#, fuzzy
 msgid "Reason to create a tippr 1"
 msgstr "Прычына, каб стварыць рэддыт №1"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:24
+#, fuzzy
 msgid "Reason to create a tippr 2"
 msgstr "Прычына, каб стварыць рэддыт №2"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:26
+#, fuzzy
 msgid "Reason to create a tippr 3"
 msgstr "Прычына, каб стварыць рэддыт №3"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:28
+#, fuzzy
 msgid "Reason to create a tippr 4"
 msgstr "Прычына, каб стварыць рэддыт №4"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:30
+#, fuzzy
 msgid "Reason to create a tippr 5"
 msgstr "Прычына, каб стварыць рэддыт №5"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:32
+#, fuzzy
 msgid "Reason to create a tippr 6"
 msgstr "Прычына, каб стварыць рэддыт №6"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:34
+#, fuzzy
 msgid "Reason to create a tippr 7"
 msgstr "Прычына, каб стварыць рэддыт №7"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:36
+#, fuzzy
 msgid "Reason to create a tippr 8"
 msgstr "Прычына, каб стварыць рэддыт №8"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:38
+#, fuzzy
 msgid "Reason to create a tippr 9"
 msgstr "Прычына, каб стварыць рэддыт №9"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:40
+#, fuzzy
 msgid "Reason to create a tippr 10"
 msgstr "Прычына, каб стварыць рэддыт №10"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:42
+#, fuzzy
 msgid "Reason to create a tippr 11"
 msgstr "Прычына, каб стварыць рэддыт №11"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:44
+#, fuzzy
 msgid "Reason to create a tippr 12"
 msgstr "Прычына, каб стварыць рэддыт №12"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:46
+#, fuzzy
 msgid "Reason to create a tippr 13"
 msgstr "Прычына, каб стварыць рэддыт №13"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:48
+#, fuzzy
 msgid "Reason to create a tippr 14"
 msgstr "Прычына, каб стварыць рэддыт №14"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:50
+#, fuzzy
 msgid "Reason to create a tippr 15"
 msgstr "Прычына, каб стварыць рэддыт №15"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:52
+#, fuzzy
 msgid "Reason to create a tippr 16"
 msgstr "Прычына, каб стварыць рэддыт №16"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:54
+#, fuzzy
 msgid "Reason to create a tippr 17"
 msgstr "Прычына, каб стварыць рэддыт №17"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:56
+#, fuzzy
 msgid "Reason to create a tippr 18"
 msgstr "Прычына, каб стварыць рэддыт №18"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:58
+#, fuzzy
 msgid "Reason to create a tippr 19"
 msgstr "Прычына, каб стварыць рэддыт №19"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:60
+#, fuzzy
 msgid "Reason to create a tippr 20"
 msgstr "Прычына, каб стварыць рэддыт №20"
 
@@ -3049,6 +3098,7 @@ msgid "edit subscriptions"
 msgstr "зьмяніць падпіскі"
 
 #: r2/lib/menus.py:132 r2/lib/pages/pages.py:2191
+#, fuzzy
 msgid "vault settings"
 msgstr "налады сабрэддыту"
 
@@ -3137,6 +3187,7 @@ msgid "create"
 msgstr "стварыць"
 
 #: r2/lib/menus.py:158 r2/lib/pages/pages.py:2815
+#, fuzzy
 msgid "my vaults"
 msgstr "мае сабрэддыты"
 
@@ -3485,7 +3536,7 @@ msgid "that link has already been submitted, but you can try to [submit it again
 msgstr "спасылка ўжо была адасланая, але вы можаце паспрабаваць [адаслаць яе зноў](%s)."
 
 #: r2/lib/strings.py:75
-#, python-format
+#, python-format, fuzzy
 msgid "that link has been submitted to multiple vaults. you can try to [submit it again](%s)."
 msgstr "спасылка была адасланая ў некалькі сабрэддытаў. можаце [ізноў яе адаслаць](%s)."
 
@@ -3494,7 +3545,7 @@ msgid "your account has been deactivated, but we won't judge you for it."
 msgstr ""
 
 #: r2/lib/strings.py:80
-#, python-format
+#, python-format, fuzzy
 msgid "Log in or sign up to connect your tippr account with %(app)s."
 msgstr "Увайдзіце або запішыцеся, каб злучыць ваш рэддытаўскі рахунак з %(app)s."
 
@@ -3504,11 +3555,12 @@ msgid "I understand and agree that registration on or use of this site constitut
 msgstr "Я разумею і пагаджаюся з тым, што рэгістрацыя або выкарыстаньне гэтага сайта зацьвярджае пагадненьне з %(user_agreement)s і %(privacy_policy)s."
 
 #: r2/lib/strings.py:84
-#, python-format
+#, python-format, fuzzy
 msgid "to view tippr with only submissions from your friends, use [tippr.net/v/friends](%s)"
 msgstr "как глядзець рэддыт з публікацыямі толькі ад вашых сяброў, карыстайма [tippr.net/v/friends](%s)"
 
 #: r2/lib/strings.py:86
+#, fuzzy
 msgid "your vault has been created"
 msgstr "сабрэддыт створаны"
 
@@ -3518,18 +3570,22 @@ msgid "visit [%(link)s](%(link)s) for more information"
 msgstr "наведайце [%(link)s](%(link)s) каб мець больш інфармацыі"
 
 #: r2/lib/strings.py:91
+#, fuzzy
 msgid "you have not subscribed to any vaults."
 msgstr "вы не падпісаліся на ніводны сабрэддыт."
 
 #: r2/lib/strings.py:92
+#, fuzzy
 msgid "below are the vaults you have subscribed to."
 msgstr "ніжэй - сабрэддыты, на якія вы падпісаліся."
 
 #: r2/lib/strings.py:93
+#, fuzzy
 msgid "below are the vaults that you are an approved submitter on."
 msgstr "ніжэй - сабрэддыты, у якіх вы ўхвалены аўтар."
 
 #: r2/lib/strings.py:94
+#, fuzzy
 msgid "below are the vaults that you have moderator access to."
 msgstr "ніжэй - сабрэддыты, у якіх вы маеце правы мадэратара."
 
@@ -3619,6 +3675,7 @@ msgid "tippr uses a slightly-customized version of [Markdown](http://daringfireb
 msgstr "рэддыт карыстае зьлёгку зьмененую вэрсію [Markdown](http://daringfireball.net/projects/markdown/syntax) для фарматаваньня. Ніжэй глядзіце пачатковыя правілы, або зьвярніцеся да [вікі старонкі пра камэнтаваньне](/wiki/commenting) па больш дэталёвую дапамогу і рашэньні агульных праблем."
 
 #: r2/lib/strings.py:120
+#, fuzzy
 msgid "Tippr is in \"emergency read-only mode\" right now. :( You won't be able to log in. We're sorry and are working frantically to fix the problem."
 msgstr "Зараз рэддыт у \"аварыйным рэжыме толькі для чытаньня\". :( Вам не ўдасца ўвайсьці. Нам шкада і мы старанна працуем, каб выправіць памылку."
 
@@ -3640,7 +3697,7 @@ msgid "You sent us a postcard! (Or something similar.) When we run out of room o
 msgstr "Вы прыслалі нам паштоўку! (Ці нешта падобнае.) Калі ў нашым халадзільніку скончыцца месца, мы можа пачнем прадаваць з аўкцыёну рэчы, якія людзі нам прысылаюць. Вы ня супраць, калі вашае нешта мы таксама прададзім?"
 
 #: r2/lib/strings.py:127
-#, python-format
+#, python-format, fuzzy
 msgid "Sorry, the maximum number of comments is %(max)d. (However, if you subscribe to tippr gold, it goes up to %(goldmax)d.)"
 msgstr "Выбачайце, найвялікшая колькасьць камэнтараў - %(max)d. (Аднак, калі падпішыцеся на рэддыт голд, яна будзе %(goldmax)d.)"
 
@@ -3658,6 +3715,7 @@ msgstr ""
 "\n"
 
 #: r2/lib/strings.py:136
+#, fuzzy
 msgid ""
 "Thanks for claiming a tippr gold code.\n"
 "\n"
@@ -3686,47 +3744,47 @@ msgid ""
 msgstr ""
 
 #: r2/lib/strings.py:139
-#, python-format
+#, python-format, fuzzy
 msgid "You're about to make a one-time purchase of %(amount)s of tippr gold for yourself (%(user)s). You'll pay a total of %(price)s for this."
 msgstr "Вы зьбіраецеся набыць %(amount)s рэддыт голда для сябе (%(user)s). Гэта каштуе %(price)s."
 
 #: r2/lib/strings.py:140
-#, python-format
+#, python-format, fuzzy
 msgid "You're about to purchase %(amount)s. They work like gift certificates: each coin you have will allow you to give one month of tippr gold to someone else. You'll pay a total of %(price)s for this."
 msgstr "Вы зьбіраецеся набыць %(amount)s. Яны працуюць як падарункавыя сэртэфікаты: кожны крэддыт дазваляе падараваць камусьці адзін месяц рэддыт голду. Усё гэта будзе каштаваць %(price)s."
 
 #: r2/lib/strings.py:141
-#, python-format
+#, python-format, fuzzy
 msgid "You're about to purchase %(amount)s of tippr gold in the form of a gift code. The recipient (or you) will be able to claim the code to redeem that gold to their account. You'll pay a total of %(price)s for this."
 msgstr "Вы зьбіраецеся набыць %(amount)s рэддыт голду ў выглядзе кода падарунку. Атрымальнік (ці вы) зможа скарыстаць код каб атрымаць голд на свой рахунак. Усё гэта каштуе %(price)s."
 
 #: r2/lib/strings.py:142
-#, python-format
+#, python-format, fuzzy
 msgid "You're about to give %(amount)s of tippr gold to %(recipient)s, who will be told that it came from you. You'll pay a total of %(price)s for this."
 msgstr "Вы зьбіраецеся падараваць %(amount)s рэддыт голду %(recipient)s, які будзе ведаць, што гэта ад вас. Гэта каштуе %(price)s."
 
 #: r2/lib/strings.py:143
-#, python-format
+#, python-format, fuzzy
 msgid "You're about to give %(amount)s of tippr gold to %(recipient)s. It will be an anonymous gift. You'll pay a total of %(price)s for this."
 msgstr "Вы зьбіраецеся падараваць %(amount)s рэддыт голду %(recipient)s. Гэта будзе ананімны падарунак. Каштуе %(price)s."
 
 #: r2/lib/strings.py:144
-#, python-format
+#, python-format, fuzzy
 msgid "Want to say thanks to *%(recipient)s* for this comment? Give them a month of [tippr gold](/gold/about)."
 msgstr "Хочаце падзякаваць *%(recipient)s* за гэты камэнтар? Падарыце месяц [рэддыт голду](/gold/about)."
 
 #: r2/lib/strings.py:145
-#, python-format
+#, python-format, fuzzy
 msgid "Want to say thanks to *%(recipient)s* for this submission? Give them a month of [tippr gold](/gold/about)."
 msgstr "Хочаце падзякаваць *%(recipient)s* за гэтую публікацыю? Падарыце месяц [рэддыт голду](/gold/about)."
 
 #: r2/lib/strings.py:146
-#, python-format
+#, python-format, fuzzy
 msgid "You're about to give *%(recipient)s* a month of [tippr gold](/gold/about) for this comment:"
 msgstr "Вы зьбіраецеся падарыць *%(recipient)s* месяц [рэддыт голду](/gold/about) за гэты камэнтар:"
 
 #: r2/lib/strings.py:147
-#, python-format
+#, python-format, fuzzy
 msgid "You're about to give *%(recipient)s* a month of [tippr gold](/gold/about) for this submission:"
 msgstr "Вы зьбіраецеся падарыць *%(recipient)s* месяц [рэддыт голду](/gold/about) за гэтую публікацыю:"
 
@@ -3748,7 +3806,7 @@ msgid "This page shows a history of recent activity on your account. If you noti
 msgstr "Гэтая старонка адлюстроўвае гісторыю апошняй актыўнасьці вашага акаўнта. Калі вы заўважылі нешта незвычайнае, тэрмінова зьмяніце пароль. Зьвесткі пра месцазнаходжаньне ўгадваюцца з IP вашага кампутара, таму могуць быць зусім няправільныя, асабліва для наведваньняў з мабільных прыладаў."
 
 #: r2/lib/strings.py:152
-#, python-format
+#, python-format, fuzzy
 msgid "You are currently accessing tippr from this IP address: %(address)s."
 msgstr "Зараз вы маеце доступ да рэддыта з IP адраса: %(address)s."
 
@@ -3808,14 +3866,17 @@ msgstr ""
 "Заўвага: есьць некалькі месцаў знадворку вашага сабрэддыта, дзе хтосьці можа клікнуць \"падпісацца\", таму магчыма (але не дужа), што колькасьць падпісак можа быць больш за колькасьць унікальных наведваньняў за якісьці дзень.\n"
 
 #: r2/lib/strings.py:174
+#, fuzzy
 msgid "multivault of your subscriptions"
 msgstr "мультырэддыт з вашых падпісак"
 
 #: r2/lib/strings.py:175
+#, fuzzy
 msgid "multivault of vaults you moderate"
 msgstr "мультырэддыт з сабрэддытаў, якія вы мадэруеце"
 
 #: r2/lib/strings.py:177
+#, fuzzy
 msgid "/v/all displays content from all of tippr, including vaults you aren't subscribed to. Some vaults have chosen to exclude themselves from /v/all."
 msgstr "/v/all адлюстроўвае зьмест з усяго рэддыта, уключна сабрэддыты, на якія вы не падпісваліся. Некаторыя сабрэддыты выключылі сябе з /v/all."
 
@@ -3824,6 +3885,7 @@ msgid "Displaying content from /v/all of tippr, except the following vaults:"
 msgstr ""
 
 #: r2/lib/strings.py:179
+#, fuzzy
 msgid "Filtering /v/all is a feature only available to [tippr gold](/gold/about) subscribers. Displaying unfiltered results from /v/all."
 msgstr "Фільтраваць /v/all дазволена толькі ўдзельнікам з [рэддыт голд](/gold/about). Вось нефільтраваныя вынікі з /v/all."
 
@@ -3849,6 +3911,7 @@ msgstr[1] "паведамленьні"
 msgstr[2] "паведамленьні"
 
 #: r2/lib/pages/admin_pages.py:113 r2/lib/pages/trafficpages.py:815 r2/lib/strings.py:263 r2/templates/adminfeeds.html:44 r2/templates/adminfeeds.html:73 r2/templates/adminvaults.html:49 r2/templates/sitewidetraffic.html:39 r2/templates/vaulttrafficreport.html:45
+#, fuzzy
 msgid "vault"
 msgid_plural "vaults"
 msgstr[0] "сабрэддыт"
@@ -3856,6 +3919,7 @@ msgstr[1] "сабрэддыты"
 msgstr[2] "сабрэддыты"
 
 #: r2/lib/strings.py:264
+#, fuzzy
 msgid "coin"
 msgid_plural "coins"
 msgstr[0] "крэддыт"
@@ -4215,6 +4279,7 @@ msgid "submitter"
 msgstr "адпраўнік"
 
 #: r2/lib/template_helpers.py:597
+#, fuzzy
 msgid "tippr admin, speaking officially"
 msgstr "адмін рэддыту, афіцыяльны зварот"
 
@@ -4246,6 +4311,7 @@ msgid "No notes for this IP address"
 msgstr "Няма нататак для гэтага IP адраса"
 
 #: r2/lib/pages/admin_pages.py:106
+#, fuzzy
 msgid "No notes for this vault"
 msgstr "Няма нататак для гэтага сабрэддыта"
 
@@ -4279,10 +4345,12 @@ msgid "moderation tools"
 msgstr "інструмэнты мадэрацыі"
 
 #: r2/lib/pages/pages.py:703
+#, fuzzy
 msgid "these vaults"
 msgstr "гэтыя сабрэддыты"
 
 #: r2/lib/pages/pages.py:717
+#, fuzzy
 msgid "this vault is archived and no longer accepting submissions."
 msgstr "сабрэддыт архіваваны і больш не прымае публікацыі."
 
@@ -4295,6 +4363,7 @@ msgid "Only approved users may post in this community."
 msgstr "Толькі давераныя карыстальнікі могуць пісаць у гэтай суполцы."
 
 #: r2/lib/pages/pages.py:729
+#, fuzzy
 msgid "Anyone can view or comment, but only Tippr Gold members can post in this community."
 msgstr "Усе могуць глядзець ці камэнтаваць, але толькі удзельнікі рэддыт голда могуць пісаць у гэтай суполцы."
 
@@ -4303,6 +4372,7 @@ msgid "Submissions restricted"
 msgstr "Публікацыі абмежаваныя"
 
 #: r2/lib/pages/pages.py:820
+#, fuzzy
 msgid "Create your own vault"
 msgstr "Стварыць свой сабрэддыт"
 
@@ -4374,6 +4444,7 @@ msgid "about %(site)s"
 msgstr "пра %(site)s"
 
 #: r2/lib/pages/pages.py:2215
+#, fuzzy
 msgid "search vaults by name"
 msgstr "пошук сабрэддыта па назьве"
 
@@ -4392,10 +4463,12 @@ msgid "trophy case"
 msgstr "палічка трафэяў"
 
 #: r2/lib/pages/pages.py:2358
+#, fuzzy
 msgid "public multivaults"
 msgstr "публічныя мультырэддыты"
 
 #: r2/lib/pages/pages.py:2365
+#, fuzzy
 msgid "hidden multivaults"
 msgstr "схаваныя мультырэддыты"
 
@@ -4408,7 +4481,7 @@ msgid "less than a day"
 msgstr "менш чым за дзень"
 
 #: r2/lib/pages/pages.py:2466
-#, python-format
+#, python-format, fuzzy
 msgid "%(coins)s gold coin to give"
 msgid_plural "%(coins)s gold coins to give"
 msgstr[0] "%(coins)s залаты крэддыт можна аддаць"
@@ -4416,7 +4489,7 @@ msgstr[1] "%(coins)s залатых крэддыта можна аддаць"
 msgstr[2] "%(coins)s залатых крэддытаў можна аддаць"
 
 #: r2/lib/pages/pages.py:2474
-#, python-format
+#, python-format, fuzzy
 msgid "%(gildings)s gilding given out"
 msgid_plural "%(gildings)s gildings given out"
 msgstr[0] "вы аддалі %(gildings)s рэддыт-голд"
@@ -4424,11 +4497,12 @@ msgstr[1] "вы аддалі %(gildings)s рэддыт-голда"
 msgstr[2] "вы аддалі %(gildings)s рэддыт-голдаў"
 
 #: r2/lib/pages/pages.py:2482
-#, python-format
+#, python-format, fuzzy
 msgid "give tippr gold to %(user)s to show your appreciation"
 msgstr "падаруйце рэддыт голд %(user)s каб паказаць вашаю ўдзячнасьць"
 
 #: r2/lib/pages/pages.py:2486
+#, fuzzy
 msgid "get extra features and help support tippr with a tippr gold subscription"
 msgstr "атрымлівайце дададковыя магчымасьці і падтрымлівайце рэддыт з рэддыт голд падпіскай"
 
@@ -4437,26 +4511,27 @@ msgid "renew your tippr gold"
 msgstr "узнавіць ваш tippr gold"
 
 #: r2/lib/pages/pages.py:2500
-#, python-format
+#, python-format, fuzzy
 msgid "you have helped pay for *%(time)s* of tippr server time."
 msgstr "вы дапамаглі аплаціць *%(time)s* часу працы сэрвэраў рэддыта."
 
 #: r2/lib/pages/pages.py:2501
-#, python-format
+#, python-format, fuzzy
 msgid "/u/%(user)s has helped pay for *%%(time)s* of tippr server time."
 msgstr "/u/%(user)s дапамог аплаціць *%%(time)s* часу працы сэрвэраў рэддыта."
 
 #: r2/lib/pages/pages.py:2504
-#, python-format
+#, python-format, fuzzy
 msgid "gifts on your behalf have helped pay for *%(time)s* of tippr server time."
 msgstr "падарункі ад вашага імя дапамаглі аплаціць *%(time)s* часу працы сэрвэраў рэддыта."
 
 #: r2/lib/pages/pages.py:2506
-#, python-format
+#, python-format, fuzzy
 msgid "gifts on behalf of /u/%(user)s have helped pay for *%%(time)s* of tippr server time."
 msgstr "падарункі ад імя /u/%(user)s дапамаглі аплаціць *%%(time)s* часу працы сэрвэраў рэддыта."
 
 #: r2/lib/pages/pages.py:2586
+#, fuzzy
 msgid "tippr is a platform for internet communities"
 msgstr "рэддыт - гэта платформа для інтэрнэт супольнасьцяў"
 
@@ -4465,6 +4540,7 @@ msgid "where your votes shape what the world is talking about."
 msgstr "дзе вашыя галасы фармуюць тое, аб чым гаворыць сьвет."
 
 #: r2/lib/pages/pages.py:2886 r2/lib/pages/pages.py:2996
+#, fuzzy
 msgid "add vault"
 msgstr "дадаць сабрэддыт"
 
@@ -4479,12 +4555,12 @@ msgid "%s visible"
 msgstr "%s бачна"
 
 #: r2/lib/pages/pages.py:2933
-#, python-format
+#, python-format, fuzzy
 msgid "%(bonus)s bonus vaults"
 msgstr "%(bonus)s бонусныя сабрэддыты"
 
 #: r2/lib/pages/pages.py:3309
-#, python-format
+#, python-format, fuzzy
 msgid "you have a credit card gold subscription. your card (ending in %(last4)s) will be charged %(amount)s on %(date)s."
 msgstr "у вас голд падпіска па крэдытнай картцы. з вашай карты (заканчваецца на %(last4)s) будзе прызначана заплаціць %(amount)s %(date)s."
 
@@ -4638,6 +4714,7 @@ msgid "everything"
 msgstr "усё"
 
 #: r2/lib/pages/pages.py:5902 r2/lib/pages/pages.py:5905
+#, fuzzy
 msgid "from all vaults"
 msgstr "з усіх сабрэддытаў"
 
@@ -4646,10 +4723,12 @@ msgid "moderating"
 msgstr "мадэратарства"
 
 #: r2/lib/pages/pages.py:5908
+#, fuzzy
 msgid "vaults you mod"
 msgstr "сабрэддыты, якія вы мадэруеце"
 
 #: r2/lib/pages/pages.py:5914
+#, fuzzy
 msgid "gold perks"
 msgstr "прыдаткі для рэддыт голд"
 
@@ -4668,6 +4747,7 @@ msgid "formatting"
 msgstr "даведка па афармленьні"
 
 #: r2/lib/pages/pages.py:6086
+#, fuzzy
 msgid "your subscribed vaults"
 msgstr "сабрэддыты, на якія вы падпісаныя"
 
@@ -4980,18 +5060,22 @@ msgid ""
 msgstr ""
 
 #: r2/models/admintools.py:312
+#, fuzzy
 msgid "Your tippr gold subscription has expired."
 msgstr "Ваша падпіска на рэддыт голд скончылася."
 
 #: r2/models/admintools.py:313
+#, fuzzy
 msgid "Your subscription to tippr gold has expired."
 msgstr "Ваша падпіска на рэддыт голд скончылася."
 
 #: r2/models/admintools.py:325
+#, fuzzy
 msgid "Your tippr gold subscription is about to expire!"
 msgstr "Ваша падпіска на рэддыт голд хутка скончыцца!"
 
 #: r2/models/admintools.py:327
+#, fuzzy
 msgid "Your subscription to tippr gold will be expiring soon."
 msgstr "Ваша падпіска на рэддыт голд у хуткім часе скончыцца."
 
@@ -5150,11 +5234,12 @@ msgid "from %(author)s via %(vault)s sent %(when)s"
 msgstr "ад %(author)s праз %(vault)s адаслана %(when)s"
 
 #: r2/models/link.py:2385
+#, fuzzy
 msgid "[message from blocked vault]"
 msgstr "[паведамленьне з заблакаванага сабрэддыта]"
 
 #: r2/models/link.py:2406 r2/models/link.py:2411
-#, python-format
+#, python-format, fuzzy
 msgid "vault message via %(vault)s sent %(when)s"
 msgstr "паведамленьне сабрэддыта праз %(vault)s адаслана %(when)s"
 
@@ -9531,6 +9616,7 @@ msgid "hide help"
 msgstr "схаваць даведку"
 
 #: r2/templates/createvault.html:449
+#, fuzzy
 msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.tippr.net. You will be able to access your tippr through your domain."
 msgstr "Маеце дамэн? Увядзіце яго тут, ідзіце да свайго правайдэра DNS і дадайце запіс CNAME, які зьвяжа ваш дамэн і rhs.tippr.net. Вы зможаце заходзіць на ваш рэддыт праз уласны дамэн."
 
@@ -9872,6 +9958,7 @@ msgid "(We'll send a code to your email address you can then give to your recipi
 msgstr ""
 
 #: r2/templates/gold.html:85
+#, fuzzy
 msgid "buy tippr gold"
 msgstr "набыць рэддыт голд"
 
@@ -10663,6 +10750,7 @@ msgid "see the suggestions again"
 msgstr ""
 
 #: r2/templates/newlink.html:41
+#, fuzzy
 msgid "tippr"
 msgstr "рэддыт"
 
@@ -10681,6 +10769,7 @@ msgid "(optional)"
 msgstr "(па жаданьні)"
 
 #: r2/templates/newlink.html:107
+#, fuzzy
 msgid "choose a vault"
 msgstr "выберыце сабрэддыт"
 
@@ -12668,6 +12757,7 @@ msgid "first"
 msgstr ""
 
 #: r2/templates/thanks.html:35
+#, fuzzy
 msgid "thanks for buying coins!"
 msgstr "дзякуем за набыцьцё крэддытаў!"
 
