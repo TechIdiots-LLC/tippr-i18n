@@ -39,11 +39,10 @@ clean:
 
 # Utility commands
 
-tx_pull:
-	tx pull --minimum-perc=10 --mode=reviewed
-
-tx_push:
-	tx push -s
+# bring every catalog up to date with tippr_i18n/r2.pot (make it first with
+# `make i18n` in tippr/r2); needs msgmerge and polib
+update:
+	python3 update_catalogs.py
 
 fix_metadata:
 	for lang in $(PO_FILES); do \
@@ -57,4 +56,4 @@ summary.csv: $(MO_FILES)
 		python gendata.py --csv $$lang >> summary.csv; \
 	done
 
-.PHONY: all fix_metadata tx_pull tx_push clean
+.PHONY: all fix_metadata update clean

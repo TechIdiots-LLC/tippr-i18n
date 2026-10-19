@@ -18,8 +18,10 @@ def completion_info(pofile, lang_info=None):
     
     '''
     cmd = "msgattrib  %s --no-obsolete --no-wrap %s | grep '^msgid' | wc"
-    translated = subprocess.check_output(cmd % ("--translated", pofile), shell=True, text=True)
-    untranslated = subprocess.check_output(cmd % ("--untranslated", pofile), shell=True, text=True)
+    # fuzzy entries aren't used by the site, so they count as untranslated
+    translated = subprocess.check_output(cmd % ("--translated --no-fuzzy", pofile), shell=True, text=True)
+    untranslated = subprocess.check_output(cmd % ("--untranslated --no-fuzzy", pofile), shell=True, text=True)
+    fuzzy = subprocess.check_output(cmd % ("--only-fuzzy", pofile), shell=True, text=True)
     # `wc` returns three values: line count, word count, character count
     # The lines printed by msgattrib are of the form:
     #     msgid "some string"
@@ -29,8 +31,9 @@ def completion_info(pofile, lang_info=None):
     translated_lines = translated[0]
     translated_words = translated[1] - translated_lines
     untranslated = [int(x) for x in untranslated.split()]
-    untranslated_lines = untranslated[0]
-    untranslated_words = untranslated[1] - untranslated_lines
+    fuzzy = [int(x) for x in fuzzy.split()]
+    untranslated_lines = untranslated[0] + fuzzy[0]
+    untranslated_words = (untranslated[1] - untranslated[0]) + (fuzzy[1] - fuzzy[0])
     if lang_info is None:
         lang_info = get_lang_info(pofile)
     return Completion(lang_info['language'], lang_info['display-name-en'],
