@@ -784,7 +784,6 @@ msgid "Claimed! Enjoy your tippr gold membership."
 msgstr "Прийнято! Бажаємо приємного користування Золотою підпискою."
 
 #: r2/controllers/front.py:1500
-#, fuzzy
 msgid "Your gold coins have been claimed! Now go to someone's userpage and give them a present!"
 msgstr "Ваші золоті креддіти були активовані! Теперь перейдіть на будь-чию персональну сторінку і подаруйте їм золото!"
 
@@ -857,7 +856,6 @@ msgid "tippr gold"
 msgstr "Золота підписка"
 
 #: r2/controllers/front.py:2012 r2/templates/gilding.html:79
-#, fuzzy
 msgid "purchase coins"
 msgstr "придбати креддіти"
 
@@ -928,7 +926,6 @@ msgid "Eureka! Thank you for investing in tippr gold coins!"
 msgstr "Евріка! Дякуємо за ваші інвестиції в Золоті креддіти Реддіту!"
 
 #: r2/controllers/ipn.py:589
-#, fuzzy
 msgid "Thank you for buying coins. Your patronage supports the site and makes future development possible. To spend your coins and spread tippr gold, visit [/gold](/gold) or your favorite person's user page."
 msgstr "Дякуємо за придбання креддітів. Ваше покровительство підтримує сайт і робить можливою подальшу розробку. Для того, щоб витратити креддіти і роздати Золоті підписки, відвідайте [/gold](/gold) або персональну сторінку вашого улюбленого користувача."
 
@@ -2375,17 +2372,14 @@ msgid "%(reason)s"
 msgstr ""
 
 #: r2/lib/errors.py:168
-#, fuzzy
 msgid "that multivault doesn't exist"
 msgstr "такий мультиреддіт не існує"
 
 #: r2/lib/errors.py:169
-#, fuzzy
 msgid "that multivault already exists"
 msgstr "такий мультиреддіт уже існує"
 
 #: r2/lib/errors.py:170
-#, fuzzy
 msgid "you can't change that multivault"
 msgstr "ви не можете змінити той мультиреддит"
 
@@ -2449,7 +2443,6 @@ msgid "you must have an active tippr gold subscription to do that"
 msgstr "ваша золота підписка реддіт має бути активною для цього"
 
 #: r2/lib/errors.py:184
-#, fuzzy
 msgid "insufficient coins"
 msgstr "недостатньо креддитів"
 
@@ -3768,7 +3761,7 @@ msgid "You're about to make a one-time purchase of %(amount)s of tippr gold for 
 msgstr "Ви ось-ось придбаєте одну Золоту підписку Реддіт, у кількості %(amount)s для себе (%(user)s). Це буде коштувати %(price)s."
 
 #: r2/lib/strings.py:140
-#, python-format, fuzzy
+#, python-format
 msgid "You're about to purchase %(amount)s. They work like gift certificates: each coin you have will allow you to give one month of tippr gold to someone else. You'll pay a total of %(price)s for this."
 msgstr "Ви покупаєте %(amount)s. На кожен ваш креддіт ви сможете придбати один місяць Золотої підписки для будь кого. В сумі це буде коштувати %(price)s."
 
@@ -3885,7 +3878,6 @@ msgstr ""
 "Примітка: є пара місць за межами вашого сабреддіту, де хтось може натиснуті «підписатись», тобто є можливим (хоч і не дуже ймовірним), що рахунок підписок може перевищити кількість унікальних відвідувачів за якийсь день.\n"
 
 #: r2/lib/strings.py:174
-#, fuzzy
 msgid "multivault of your subscriptions"
 msgstr "мультиреддіт ваших підписок"
 
@@ -3937,7 +3929,6 @@ msgstr[1] "підреддити"
 msgstr[2] "сабреддітів"
 
 #: r2/lib/strings.py:264
-#, fuzzy
 msgid "coin"
 msgid_plural "coins"
 msgstr[0] "кtippr"
@@ -4486,12 +4477,10 @@ msgid "trophy case"
 msgstr "панель трофеїв"
 
 #: r2/lib/pages/pages.py:2358
-#, fuzzy
 msgid "public multivaults"
 msgstr "загальнодоступні мультиреддіти"
 
 #: r2/lib/pages/pages.py:2365
-#, fuzzy
 msgid "hidden multivaults"
 msgstr "приховані мультиреддіти"
 
@@ -4504,7 +4493,7 @@ msgid "less than a day"
 msgstr "менше ніж за день"
 
 #: r2/lib/pages/pages.py:2466
-#, python-format, fuzzy
+#, python-format
 msgid "%(coins)s gold coin to give"
 msgid_plural "%(coins)s gold coins to give"
 msgstr[0] "%(coins)s золотий креддіт який можна віддати"
@@ -7662,7 +7651,6 @@ msgid "hide"
 msgstr "сховати"
 
 #: r2/templates/admincoins.html:28
-#, fuzzy
 msgid "give coins to a user"
 msgstr "подарувати креддіти користувачеві"
 
@@ -7671,7 +7659,6 @@ msgid "recipient"
 msgstr "отримувач"
 
 #: r2/templates/admincoins.html:43 r2/templates/gold.html:112 r2/templates/goldpayment.html:133
-#, fuzzy
 msgid "coins"
 msgstr "креддіти"
 
@@ -10082,32 +10069,27 @@ msgid "How much does it cost?"
 msgstr "Скільки це коштує?"
 
 #: r2/templates/gilding.html:60
-#, python-format, fuzzy
+#, python-format
 msgid "A single gilding costs %(price)s. If you plan to do a lot you can get a discount if you purchase some [coins](/coins)."
 msgstr "Дарування одної Золотої підписки коштує %(price)s. Якщо ви плануєте дарувати золото частіше, можна придбати [креддіти](/coins) гуртом дешевше."
 
 #: r2/templates/gilding.html:63
-#, fuzzy
 msgid "What are coins?"
 msgstr "Що таке креддіти?"
 
 #: r2/templates/gilding.html:64
-#, fuzzy
 msgid "Each coin you have can be converted into one month of tippr gold. Stored as a balance on your account, coins allow you to give gold without having to enter payment information."
 msgstr "Кожен креддіт, який у вас є, можна перетворити на один місяць Золотої підписки. Креддіти зберігаються у вигляді балансу на вашому акаунті та дозволяють вам подарувати золото без вводу даних для оплати."
 
 #: r2/templates/gilding.html:64
-#, fuzzy
 msgid "Additionally, buying coins in bulk lowers the cost of each gilding."
 msgstr "Більше того, придбання креддитів у великій кількості знижує ціну кожного золота."
 
 #: r2/templates/gilding.html:67
-#, fuzzy
 msgid "How do I use coins?"
 msgstr "Що я можу робити з креддітами?"
 
 #: r2/templates/gilding.html:68
-#, fuzzy
 msgid "Your coins are listed as a payment method on the checkout page."
 msgstr "Ваші креддіти записані як один з методів оплати на сторінці оплати."
 
@@ -10157,17 +10139,14 @@ msgid "ongoing subscription"
 msgstr "регулярна підписка, що сама подовжується"
 
 #: r2/templates/gold.html:118
-#, fuzzy
 msgid "How many coins would you like to buy?"
 msgstr "Скільки креддітів бажаєте придбати?"
 
 #: r2/templates/gold.html:122
-#, fuzzy
 msgid "Stored as a balance on your account, coins allow you to give gold without having to enter payment information. Each coin you have can be converted into one month of tippr gold."
 msgstr "Креддіти що зберігаються на вашому обліковому запису дозволяють подарувати золоту підписку без потреби вводити платіжну інформацію. На кожен ваш креддіт ви можете придбати один місяць золотої підписки."
 
 #: r2/templates/gold.html:123
-#, fuzzy
 msgid "Learn more about using coins"
 msgstr "Дізнайтеся більше про використання креддитів"
 
@@ -10267,7 +10246,7 @@ msgid "Please select a payment method."
 msgstr "Оберіть варіант оплати."
 
 #: r2/templates/goldpayment.html:113
-#, python-format, fuzzy
+#, python-format
 msgid "Give gold often? Consider [buying coins to use](/coins), they're 40% cheaper if purchased in a set of 12."
 msgstr "Часто даруєте золото? Вигідно [придбайте креддіти](/coins), вони на 40% дешевше, якщо брати одразу 12."
 
@@ -10276,7 +10255,7 @@ msgid "Would you like to [learn more about giving gold](/gilding)?"
 msgstr "Чи бажаєте [дізнатися більше про дарування Золотої підписки](/gilding)?"
 
 #: r2/templates/goldpayment.html:135
-#, python-format, fuzzy
+#, python-format
 msgid "(use %(current)s of your %(total)s coins)"
 msgstr "(використано %(current)s з %(total)s креддітів)"
 
@@ -10579,7 +10558,6 @@ msgid "browse all vaults"
 msgstr "з усіх сабреддітів"
 
 #: r2/templates/listingchooser.html:51
-#, fuzzy
 msgid "multivaults"
 msgstr "мультиреддіти"
 
@@ -10910,7 +10888,6 @@ msgid "created by %(user)s"
 msgstr "створив %(user)s"
 
 #: r2/templates/multiinfobar.html:137
-#, fuzzy
 msgid "a multivault for"
 msgstr "мультиреддіт для"
 
@@ -13001,7 +12978,6 @@ msgid "first"
 msgstr "перший"
 
 #: r2/templates/thanks.html:35
-#, fuzzy
 msgid "thanks for buying coins!"
 msgstr "дякуємо за купівлю кредитів!"
 
@@ -13010,7 +12986,6 @@ msgid "thanks for subscribing!"
 msgstr "дякуємо за підписку!"
 
 #: r2/templates/thanks.html:42
-#, fuzzy
 msgid "enter your confirmation code below to claim your gift coins"
 msgstr "введіть ваш код підтвердження нижче, щоб отримати ваші подаровані креддіти"
 
@@ -13024,7 +12999,6 @@ msgid "You're already a tippr gold subscriber."
 msgstr "Ви вже є Золотим учасником Реддіт."
 
 #: r2/templates/thanks.html:48
-#, fuzzy
 msgid "But if you just gave us even more money, enter the new confirmation code below and we'll add the extra credit to your account."
 msgstr "Але якщо ви дали нам ще більше грошей, введіть новий код нижче і ми додамо більше креддітів на ваш акаунт."
 

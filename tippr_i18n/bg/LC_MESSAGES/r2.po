@@ -779,7 +779,6 @@ msgid "Claimed! Enjoy your tippr gold membership."
 msgstr "Потвърдено!Насладете се на своето tippr gold членство."
 
 #: r2/controllers/front.py:1500
-#, fuzzy
 msgid "Your gold coins have been claimed! Now go to someone's userpage and give them a present!"
 msgstr "Вашите златни кредити бяха потвърдени! Сега отидете на нечия потребителска страница и им дайте подарък!"
 
@@ -853,7 +852,6 @@ msgid "tippr gold"
 msgstr "реддит злато"
 
 #: r2/controllers/front.py:2012 r2/templates/gilding.html:79
-#, fuzzy
 msgid "purchase coins"
 msgstr "Купете кредити"
 
@@ -962,7 +960,7 @@ msgid "tippr gold subscription cancelled"
 msgstr "tippr златен абонамент отказан/спрян"
 
 #: r2/controllers/ipn.py:767
-#, python-format, fuzzy
+#, python-format
 msgid "Your tippr gold subscription has been cancelled because your credit card could not be charged. Contact %(gold_email)s for details"
 msgstr "Вашият tippr златен абонамент бе отказан, тъй като не може да се направи транзакция от кредитната Ви карта. Свържете се с %(gold_email)s за повече информация"
 
@@ -2428,7 +2426,6 @@ msgid "you must have an active tippr gold subscription to do that"
 msgstr "трябва да имате активен tippr златен абонамент за да направите това"
 
 #: r2/lib/errors.py:184
-#, fuzzy
 msgid "insufficient coins"
 msgstr "недостатъчно кредити"
 
@@ -3835,7 +3832,6 @@ msgid ""
 msgstr ""
 
 #: r2/lib/strings.py:174
-#, fuzzy
 msgid "multivault of your subscriptions"
 msgstr "мултиредит с твоите абонаменти"
 
@@ -3883,7 +3879,6 @@ msgstr[0] "събреддит"
 msgstr[1] "събреддити"
 
 #: r2/lib/strings.py:264
-#, fuzzy
 msgid "coin"
 msgid_plural "coins"
 msgstr[0] "креддит"
@@ -4414,12 +4409,10 @@ msgid "trophy case"
 msgstr "трофеи"
 
 #: r2/lib/pages/pages.py:2358
-#, fuzzy
 msgid "public multivaults"
 msgstr "публични мултиредити"
 
 #: r2/lib/pages/pages.py:2365
-#, fuzzy
 msgid "hidden multivaults"
 msgstr "скрити мултиреддити"
 
@@ -4432,7 +4425,7 @@ msgid "less than a day"
 msgstr "по-малко от ден"
 
 #: r2/lib/pages/pages.py:2466
-#, python-format, fuzzy
+#, python-format
 msgid "%(coins)s gold coin to give"
 msgid_plural "%(coins)s gold coins to give"
 msgstr[0] "%(coins)s златен креддит за даване"
@@ -4509,7 +4502,7 @@ msgid "%(bonus)s bonus vaults"
 msgstr "%(bonus)s бонус събреддити"
 
 #: r2/lib/pages/pages.py:3309
-#, python-format, fuzzy
+#, python-format
 msgid "you have a credit card gold subscription. your card (ending in %(last4)s) will be charged %(amount)s on %(date)s."
 msgstr "имате златен абонамент на кредитна карта. Картата (която изтича на %(last4)s) ще бъде таксувана %(amount)s на %(date)s."
 
@@ -4926,7 +4919,6 @@ msgid "max length %d characters"
 msgstr "максимална дължина %d символа"
 
 #: r2/lib/validator/validator.py:2839
-#, fuzzy
 msgid "credit card numbers should be 13 to 16 digits"
 msgstr "номерата на кредитните карти трябва да са от 13 до 16 писмени знака"
 
@@ -5963,12 +5955,10 @@ msgid "Update preferences and related account information. Will not have access 
 msgstr "Обновете предпочитанията и свързаната с тях информация в акаунта Ви. Няма да промени имейла или паролата Ви."
 
 #: r2/models/token.py:126
-#, fuzzy
 msgid "Spend tippr gold coins"
 msgstr "Харчене на tippr златни кредити"
 
 #: r2/models/token.py:127
-#, fuzzy
 msgid "Spend my tippr gold coins on giving gold to other users."
 msgstr "Похарчи моите tippr златни кредити, давайки злато на други потребители."
 
@@ -6293,7 +6283,6 @@ msgid "missing name"
 msgstr "липсващо име"
 
 #: r2/public/static/js/gold.js:298
-#, fuzzy
 msgid "invalid credit card number"
 msgstr "невалиден номер на кредитната карта"
 
@@ -7535,7 +7524,6 @@ msgid "hide"
 msgstr "скрий"
 
 #: r2/templates/admincoins.html:28
-#, fuzzy
 msgid "give coins to a user"
 msgstr "дай кредити на потребител"
 
@@ -7544,7 +7532,6 @@ msgid "recipient"
 msgstr "получател"
 
 #: r2/templates/admincoins.html:43 r2/templates/gold.html:112 r2/templates/goldpayment.html:133
-#, fuzzy
 msgid "coins"
 msgstr "кредити"
 
@@ -9934,7 +9921,6 @@ msgid "A single gilding costs %(price)s. If you plan to do a lot you can get a d
 msgstr ""
 
 #: r2/templates/gilding.html:63
-#, fuzzy
 msgid "What are coins?"
 msgstr "Какво са кредити?"
 
@@ -10001,7 +9987,6 @@ msgid "ongoing subscription"
 msgstr ""
 
 #: r2/templates/gold.html:118
-#, fuzzy
 msgid "How many coins would you like to buy?"
 msgstr "Колко кредита ще желаете да закупите?"
 
@@ -10010,7 +9995,6 @@ msgid "Stored as a balance on your account, coins allow you to give gold without
 msgstr ""
 
 #: r2/templates/gold.html:123
-#, fuzzy
 msgid "Learn more about using coins"
 msgstr "Научете повече за използването на кредитите"
 
@@ -10127,7 +10111,6 @@ msgid "PayPal"
 msgstr ""
 
 #: r2/templates/goldpayment.html:157
-#, fuzzy
 msgid "Credit Card"
 msgstr "Кредитна Карта"
 
@@ -10965,7 +10948,6 @@ msgid "Your current budget is %(budget)s"
 msgstr "Текущия ви бюджет е %(budget)s"
 
 #: r2/templates/paymentform.html:44
-#, fuzzy
 msgid "Please pick your credit card:"
 msgstr "Моля изберете вашата кредитна карта."
 
@@ -12799,7 +12781,6 @@ msgid "first"
 msgstr "пръв"
 
 #: r2/templates/thanks.html:35
-#, fuzzy
 msgid "thanks for buying coins!"
 msgstr "Благодаря че купихте кредити!"
 
@@ -12820,7 +12801,6 @@ msgid "You're already a tippr gold subscriber."
 msgstr "Все още сте tippr gold абонат."
 
 #: r2/templates/thanks.html:48
-#, fuzzy
 msgid "But if you just gave us even more money, enter the new confirmation code below and we'll add the extra credit to your account."
 msgstr "Но ако си ни дал още повече пари, въведи новия код за потвърждение по-долу и ние ще добавим допълнителния кредит към профила ти."
 

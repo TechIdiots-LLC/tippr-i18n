@@ -72,7 +72,7 @@ msgstr "Datum"
 
 #: r2/controllers/adminprivacy.py:259
 msgid "IP"
-msgstr ""
+msgstr "IP"
 
 #: r2/controllers/adminprivacy.py:260 r2/controllers/adminprivacy.py:416
 msgid "Actions"
@@ -168,7 +168,7 @@ msgstr "Datenschutzanfragen"
 
 #: r2/controllers/adminprivacy.py:385 r2/controllers/privacy.py:277
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: r2/controllers/adminprivacy.py:385
 msgid "Notes"
@@ -192,7 +192,7 @@ msgstr "Datenexport erstellen"
 
 #: r2/controllers/api.py:201 r2/controllers/api.py:227 r2/controllers/api.py:4196 r2/controllers/api.py:4266 r2/controllers/listingcontroller.py:751 r2/lib/pages/pages.py:6019
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #: r2/controllers/api.py:252
 msgid "this is too long"
@@ -2210,7 +2210,7 @@ msgstr "Ungültiger Multi-Pfad"
 #: r2/lib/errors.py:167
 #, python-format
 msgid "%(reason)s"
-msgstr ""
+msgstr "%(reason)s"
 
 #: r2/lib/errors.py:168
 msgid "that multivault doesn't exist"
@@ -3322,22 +3322,22 @@ msgstr "sendet..."
 #: r2/lib/strings.py:62
 #, python-format
 msgid "%(num)d %(thing)s"
-msgstr ""
+msgstr "%(num)d %(thing)s"
 
 #: r2/lib/strings.py:65
 #, python-format
 msgid "%(num)d %(point)s"
-msgstr ""
+msgstr "%(num)d %(point)s"
 
 #: r2/lib/strings.py:68
 #, python-format
 msgid "%(num)d %(time)s"
-msgstr ""
+msgstr "%(num)d %(time)s"
 
 #: r2/lib/strings.py:71
 #, python-format
 msgid "%(num)5.3f %(thing)s"
-msgstr ""
+msgstr "%(num)5.3f %(thing)s"
 
 #: r2/lib/strings.py:73
 #, python-format
@@ -3410,7 +3410,7 @@ msgstr "%(author)s kommentiert %(title)s"
 #: r2/lib/strings.py:103
 #, python-format
 msgid "%(title)s : %(site)s"
-msgstr ""
+msgstr "%(title)s : %(site)s"
 
 #: r2/lib/strings.py:104
 #, python-format
@@ -4212,7 +4212,7 @@ msgstr "Schalt Admin ab"
 
 #: r2/lib/pages/pages.py:1129
 msgid "<3"
-msgstr ""
+msgstr "<3"
 
 #: r2/lib/pages/pages.py:1402
 #, python-format
@@ -4659,7 +4659,7 @@ msgstr "Dieses Wiki ist momentan deaktiviert, nur Moderatoren können mit diesem
 #: r2/lib/pages/wiki.py:146
 #, python-format
 msgid "%(page)s - %(site)s"
-msgstr ""
+msgstr "%(page)s - %(site)s"
 
 #: r2/lib/pages/wiki.py:163
 msgid "this page is empty, edit it to add some content."
@@ -5759,7 +5759,7 @@ msgstr "tippr kapputmachen"
 
 #: r2/models/rules.py:45
 msgid "Spam"
-msgstr ""
+msgstr "Spam"
 
 #: r2/models/rules.py:46
 msgid "Personal and confidential information"
@@ -6317,7 +6317,7 @@ msgstr "Teilen mit:"
 
 #: r2/public/static/js/post-sharing.js:91
 msgid "Link:"
-msgstr ""
+msgstr "Link:"
 
 #: r2/public/static/js/post-sharing.js:101 r2/public/static/js/post-sharing.js:333 r2/templates/multiinfobar.html:51 r2/templates/multiinfobar.html:85
 msgid "copy"
@@ -6712,7 +6712,7 @@ msgstr "Nutze das beim Einrichten oder auf einer Testseite: Testanfragen bringen
 
 #: r2/templates/adminadsettings.html:112
 msgid "ads.txt"
-msgstr ""
+msgstr "ads.txt"
 
 #: r2/templates/adminadsettings.html:115
 msgid "Served at"
@@ -6768,7 +6768,7 @@ msgstr "auch im Registrierungsformular"
 
 #: r2/templates/adminantispam.html:74
 msgid "CleanTalk"
-msgstr ""
+msgstr "CleanTalk"
 
 #: r2/templates/adminantispam.html:76
 msgid "CleanTalk (cleantalk.org, a paid service) checks sign-ups, posts, comments and messages without asking anything of people. Spam sign-ups are refused; spam posts, comments and messages are saved but hidden as spam, for moderators to review in their spam queue. If CleanTalk can't be reached, everything goes through."
@@ -7095,7 +7095,7 @@ msgstr "von"
 
 #: r2/templates/adminbackups.html:115
 msgid "offline"
-msgstr ""
+msgstr "offline"
 
 #: r2/templates/adminbackups.html:131
 #, python-format
@@ -7393,7 +7393,7 @@ msgstr "Nimm bei Gmail das Google-Konto oder eine seiner „Senden als“-Adress
 
 #: r2/templates/adminemailsettings.html:53
 msgid "SMTP"
-msgstr ""
+msgstr "SMTP"
 
 #: r2/templates/adminemailsettings.html:55
 msgid "server (host or host:port)"
@@ -7401,7 +7401,7 @@ msgstr "Server (Host oder Host:Port)"
 
 #: r2/templates/adminemailsettings.html:77
 msgid "Gmail (OAuth)"
-msgstr ""
+msgstr "Gmail (OAuth)"
 
 #: r2/templates/adminemailsettings.html:79
 msgid "OAuth client ID"
@@ -7502,7 +7502,7 @@ msgstr "Feed hinzufügen"
 
 #: r2/templates/adminfeeds.html:63
 msgid "Feeds"
-msgstr ""
+msgstr "Feeds"
 
 #: r2/templates/adminfeeds.html:66
 msgid "Post new items from RSS or Atom feeds to vaults, such as your blog's articles or a project's releases, to give the site something to read. Feeds are checked every 15 minutes, each no more often than its own interval."
@@ -7750,7 +7750,7 @@ msgstr "Die Seite zählt ihren Traffic für die Traffic-Seiten (/traffic und die
 
 #: r2/templates/adminsitesettings.html:98
 msgid "Google Analytics"
-msgstr ""
+msgstr "Google Analytics"
 
 #: r2/templates/adminsitesettings.html:98
 msgid "The measurement ID, e.g. G-ABC123XYZ. Blank: no Google Analytics."
@@ -8606,7 +8606,7 @@ msgstr "bist du ein Mensch?"
 
 #: r2/templates/captcha.html:61
 msgid "(sorry)"
-msgstr ""
+msgstr "(sorry)"
 
 #: r2/templates/captcha.html:89
 msgid "human?"
@@ -9570,7 +9570,7 @@ msgstr "(nutze %(current)s von deinen %(total)s Coins)"
 
 #: r2/templates/goldpayment.html:151
 msgid "PayPal"
-msgstr ""
+msgstr "PayPal"
 
 #: r2/templates/goldpayment.html:157
 msgid "Credit Card"
@@ -9622,7 +9622,7 @@ msgstr "Einreichen"
 
 #: r2/templates/goldpayment.html:256
 msgid "Bitcoin"
-msgstr ""
+msgstr "Bitcoin"
 
 #: r2/templates/goldsubscription.html:30
 msgid "your account doesn't have a gold subscription."
@@ -9694,7 +9694,7 @@ msgstr "Auf gut Glück!"
 #: r2/templates/interstitial.html:45
 #, python-format
 msgid "/v/%s"
-msgstr ""
+msgstr "/v/%s"
 
 #: r2/templates/interstitial.html:73
 msgid "back to Tippr"
@@ -9934,7 +9934,7 @@ msgstr "Passwort wiederholen"
 
 #: r2/templates/login.html:107 r2/templates/login.html:203 r2/templates/prefdeactivate.html:64
 msgid "optional"
-msgstr ""
+msgstr "optional"
 
 #: r2/templates/login.html:111
 msgid "email (optional)"
@@ -10210,7 +10210,7 @@ msgstr "Vorschläge noch einmal anzeigen"
 
 #: r2/templates/newlink.html:41
 msgid "tippr"
-msgstr ""
+msgstr "tippr"
 
 #: r2/templates/newlink.html:44
 #, python-format
@@ -10223,7 +10223,7 @@ msgstr "Titel vorschlagen"
 
 #: r2/templates/newlink.html:96 r2/templates/paymentform.html:116 r2/templates/paymentform.html:122
 msgid "(optional)"
-msgstr ""
+msgstr "(optional)"
 
 #: r2/templates/newlink.html:107
 msgid "choose a vault"
@@ -11628,11 +11628,11 @@ msgstr "nur Mobil"
 
 #: r2/templates/promotelinkbase.html:398
 msgid "iOS"
-msgstr ""
+msgstr "iOS"
 
 #: r2/templates/promotelinkbase.html:402
 msgid "Android"
-msgstr ""
+msgstr "Android"
 
 #: r2/templates/promotelinkbase.html:406
 msgid "you must select at least one mobile OS"
@@ -11648,15 +11648,15 @@ msgstr "Nach Gerät und Betriebssystem filtern"
 
 #: r2/templates/promotelinkbase.html:435
 msgid "iPhone"
-msgstr ""
+msgstr "iPhone"
 
 #: r2/templates/promotelinkbase.html:439
 msgid "iPad"
-msgstr ""
+msgstr "iPad"
 
 #: r2/templates/promotelinkbase.html:443
 msgid "iPod"
-msgstr ""
+msgstr "iPod"
 
 #: r2/templates/promotelinkbase.html:450 r2/templates/promotelinkbase.html:492
 msgid "Min"
@@ -12495,7 +12495,7 @@ msgstr "Nicht jugendfrei: Nicht sicher für den Arbeitsplatz - NSFW"
 
 #: r2/templates/utils.html:650 r2/templates/vault.html:98
 msgid "NSFW"
-msgstr ""
+msgstr "NSFW"
 
 #: r2/templates/utils.html:655
 msgid "Quarantined content: Content may be highly offensive"

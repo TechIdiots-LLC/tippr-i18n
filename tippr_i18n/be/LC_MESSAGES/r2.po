@@ -769,7 +769,6 @@ msgid "Claimed! Enjoy your tippr gold membership."
 msgstr "Прынята! Прыемнага карыстаньня падпіскай tippr gold."
 
 #: r2/controllers/front.py:1500
-#, fuzzy
 msgid "Your gold coins have been claimed! Now go to someone's userpage and give them a present!"
 msgstr "Вашыя gold крэдыты былі пацьверджаныя! Цяпер перайдзіце на чыю-небудзь старонку і зрабіце падарунак!"
 
@@ -840,7 +839,6 @@ msgid "tippr gold"
 msgstr ""
 
 #: r2/controllers/front.py:2012 r2/templates/gilding.html:79
-#, fuzzy
 msgid "purchase coins"
 msgstr "купіць крэддыты"
 
@@ -904,12 +902,10 @@ msgid "Thank you for buying tippr gold. Your patronage supports the site and mak
 msgstr "Дзякуй вам за пакупку tippr gold. Вашае фундатарства падтрымлівае сайт і надалей робіць магчымай яго распрацоўку. Напрыклад, адзін месяц tippr gold аплачвае 5 гадзін работы сэрвэраў рэддыта."
 
 #: r2/controllers/ipn.py:586
-#, fuzzy
 msgid "Eureka! Thank you for investing in tippr gold coins!"
 msgstr "Эўрыка! Дзякуйма за інвэставаньне ў крэддыты tippr gold!"
 
 #: r2/controllers/ipn.py:589
-#, fuzzy
 msgid "Thank you for buying coins. Your patronage supports the site and makes future development possible. To spend your coins and spread tippr gold, visit [/gold](/gold) or your favorite person's user page."
 msgstr "Дзякуй вам за пакупку крэддытаў. Вашае фундатарства падтрымлівае сайт і надалей робіць магчымай яго распрацоўку. Каб патраціць крэддыты і раздарыць tippr gold, наведайце  [/gold](/gold) або старонку карыстальніка, які вам падабаецца."
 
@@ -955,7 +951,7 @@ msgid "tippr gold subscription cancelled"
 msgstr "падпіска tippr gold адмененая"
 
 #: r2/controllers/ipn.py:767
-#, python-format, fuzzy
+#, python-format
 msgid "Your tippr gold subscription has been cancelled because your credit card could not be charged. Contact %(gold_email)s for details"
 msgstr "Падпіска tippr gold была адмененая, бо вашай крэдытнай карткай нельга скарыстацца. Зьвярніцеся да %(gold_email)s па падрабязнасьці"
 
@@ -2342,17 +2338,14 @@ msgid "%(reason)s"
 msgstr ""
 
 #: r2/lib/errors.py:168
-#, fuzzy
 msgid "that multivault doesn't exist"
 msgstr "гэты мультырэддыт не існуе"
 
 #: r2/lib/errors.py:169
-#, fuzzy
 msgid "that multivault already exists"
 msgstr "гэты мультырэддыт ужо існуе"
 
 #: r2/lib/errors.py:170
-#, fuzzy
 msgid "you can't change that multivault"
 msgstr "вы не можаце зьмяніць гэты мультырэддыт"
 
@@ -2415,7 +2408,6 @@ msgid "you must have an active tippr gold subscription to do that"
 msgstr "вы павінныя мець актыўную рэддыт голд падпіску каб гэта рабіць"
 
 #: r2/lib/errors.py:184
-#, fuzzy
 msgid "insufficient coins"
 msgstr "не хапае крэддытаў"
 
@@ -3866,7 +3858,6 @@ msgstr ""
 "Заўвага: есьць некалькі месцаў знадворку вашага сабрэддыта, дзе хтосьці можа клікнуць \"падпісацца\", таму магчыма (але не дужа), што колькасьць падпісак можа быць больш за колькасьць унікальных наведваньняў за якісьці дзень.\n"
 
 #: r2/lib/strings.py:174
-#, fuzzy
 msgid "multivault of your subscriptions"
 msgstr "мультырэддыт з вашых падпісак"
 
@@ -3919,7 +3910,6 @@ msgstr[1] "сабрэддыты"
 msgstr[2] "сабрэддыты"
 
 #: r2/lib/strings.py:264
-#, fuzzy
 msgid "coin"
 msgid_plural "coins"
 msgstr[0] "крэддыт"
@@ -4463,12 +4453,10 @@ msgid "trophy case"
 msgstr "палічка трафэяў"
 
 #: r2/lib/pages/pages.py:2358
-#, fuzzy
 msgid "public multivaults"
 msgstr "публічныя мультырэддыты"
 
 #: r2/lib/pages/pages.py:2365
-#, fuzzy
 msgid "hidden multivaults"
 msgstr "схаваныя мультырэддыты"
 
@@ -4481,7 +4469,7 @@ msgid "less than a day"
 msgstr "менш чым за дзень"
 
 #: r2/lib/pages/pages.py:2466
-#, python-format, fuzzy
+#, python-format
 msgid "%(coins)s gold coin to give"
 msgid_plural "%(coins)s gold coins to give"
 msgstr[0] "%(coins)s залаты крэддыт можна аддаць"
@@ -4560,7 +4548,7 @@ msgid "%(bonus)s bonus vaults"
 msgstr "%(bonus)s бонусныя сабрэддыты"
 
 #: r2/lib/pages/pages.py:3309
-#, python-format, fuzzy
+#, python-format
 msgid "you have a credit card gold subscription. your card (ending in %(last4)s) will be charged %(amount)s on %(date)s."
 msgstr "у вас голд падпіска па крэдытнай картцы. з вашай карты (заканчваецца на %(last4)s) будзе прызначана заплаціць %(amount)s %(date)s."
 
@@ -12757,7 +12745,6 @@ msgid "first"
 msgstr ""
 
 #: r2/templates/thanks.html:35
-#, fuzzy
 msgid "thanks for buying coins!"
 msgstr "дзякуем за набыцьцё крэддытаў!"
 

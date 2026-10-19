@@ -28,9 +28,13 @@ For each tippr_i18n/<lang>/LC_MESSAGES/r2.po it:
   - merges in the template's strings (msgmerge): new ones are untranslated,
     changed ones keep their old translation marked fuzzy (with the previous
     English, "#| msgid", to compare), removed ones are dropped;
-  - (not en) clears translations that are just the English, which only hide
-    what's untranslated (the site shows the English for those anyway);
-  - fixes leftover reddit branding: /r/ and r/ links become /v/;
+  - with --clear-copies (not en): clears translations that are just the
+    English, for catalogs padded with English that hides what's untranslated
+    (the site shows the English for those anyway). Not the default: plenty
+    of real translations are spelled the same ("API", "wiki", "message");
+  - fixes leftover reddit branding: /r/ and r/ links become /v/, and marks
+    fuzzy any translation that names reddit or subreddit in another script
+    or spelling (сабреддит, サブレディット, 레딧, reddiket ...);
   - marks fuzzy any translation whose placeholders (%(name)s, %s, {name})
     don't match the English, which would fail or show the wrong value.
 The site only uses translations that aren't fuzzy. Needs GNU gettext
@@ -63,9 +67,9 @@ FIXES = [
 # (сабреддит, サブレディット, 레딧, reddiket ...): such translations are marked
 # fuzzy, so the site shows the English until they're translated again
 BRANDED = re.compile("|".join([
-    r"(саб|суб|съб|сав)?р[еэ]д+[иіы]т",
-    r"(sub)?red+i(t|ket|kett|ked|qu|mores|tor)\w*",
-    r"subred+\w*", r"reddid", r"reddicie",
+    r"\b(саб|суб|съб|сав)?р[еэ]д+[иіы]т",
+    r"\b(sub)?red+i(t|ket|kett|ked|qu|mores|tor)\w*",
+    r"\bsubred+\w*", r"\breddid\b", r"reddicie",
     r"サブレディ|レディット|レディッター",
     r"레딧", r"רדיט", r"ري?ديت", r"रेडिट", r"ரெட்?டிட்", r"เรดดิ", r"ρέ?ντιτ",
 ]), re.I)
@@ -103,7 +107,7 @@ def merge(path):
             os.unlink(out)
 
 
-def tidy(path, lang):
+def tidy(path, lang, clear_copies=False):
     po = polib.pofile(path, wrapwidth=0)
     stats = dict(copies=0, branded=0, broken=0, script=0)
     po.metadata["Project-Id-Version"] = "tippr"
@@ -122,7 +126,8 @@ def tidy(path, lang):
         if not any(values):
             continue
         fuzzy = "fuzzy" in e.flags
-        if lang != "en" and not fuzzy and values[0] == e.msgid and \
+        if clear_copies and lang != "en" and not fuzzy and \
+                values[0] == e.msgid and \
                 (not plural or values[-1] == e.msgid_plural):
             if plural:
                 e.msgstr_plural = {k: "" for k in e.msgstr_plural}
@@ -144,7 +149,8 @@ def tidy(path, lang):
             values = [new]
         if fuzzy:
             continue
-        if any(v and BRANDED.search(v) for v in values) and                 not BRANDED.search(e.msgid):
+        if any(v and BRANDED.search(v) for v in values) and \
+                not BRANDED.search(e.msgid):
             e.flags.append("fuzzy")
             stats["script"] += 1
             continue
@@ -163,7 +169,9 @@ def tidy(path, lang):
     return stats
 
 
-def main(langs):
+def main(args):
+    clear_copies = "--clear-copies" in args
+    langs = [a for a in args if not a.startswith("--")]
     if not os.path.exists(TEMPLATE):
         sys.exit("%s is missing: run `make i18n` in tippr/r2 first" % TEMPLATE)
     paths = sorted(glob.glob(os.path.join(CATALOGS, "*", "LC_MESSAGES", "r2.po")))
@@ -172,7 +180,7 @@ def main(langs):
         if langs and lang not in langs:
             continue
         merge(path)
-        stats = tidy(path, lang)
+        stats = tidy(path, lang, clear_copies)
         po = polib.pofile(path)
         print("%-8s %3d%% translated (%d fuzzy); cleared %d English copies, "
               "fixed %d links, %d mismatched placeholders and %d with reddit "

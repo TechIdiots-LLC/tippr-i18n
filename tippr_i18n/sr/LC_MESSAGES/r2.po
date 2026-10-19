@@ -681,7 +681,6 @@ msgid "show %d"
 msgstr "прикажи %d"
 
 #: r2/controllers/front.py:568 r2/controllers/front.py:571 r2/templates/adminvaults.html:25
-#, fuzzy
 msgid "create a vault"
 msgstr "креирај подреддит"
 
@@ -747,7 +746,6 @@ msgid "search results"
 msgstr "резултати претраге"
 
 #: r2/controllers/front.py:1247 r2/controllers/listingcontroller.py:1529 r2/lib/menus.py:96 r2/lib/menus.py:173 r2/templates/adminvault.html:23 r2/templates/adminvaults.html:22 r2/templates/pagenamenav.html:62 r2/templates/promotelinkbase.html:765
-#, fuzzy
 msgid "vaults"
 msgstr "подреддити"
 
@@ -756,7 +754,7 @@ msgid "seen it"
 msgstr "већ виђено"
 
 #: r2/controllers/front.py:1412 r2/models/vault.py:2414 r2/templates/multiinfobar.html:37
-#, python-format, fuzzy
+#, python-format
 msgid "%s vaults"
 msgstr "%s подреддита"
 
@@ -902,7 +900,6 @@ msgid "Eureka! Thank you for investing in tippr gold coins!"
 msgstr "Еурека! Хвала што сте инвестирали у кредит за реддит злато!"
 
 #: r2/controllers/ipn.py:589
-#, fuzzy
 msgid "Thank you for buying coins. Your patronage supports the site and makes future development possible. To spend your coins and spread tippr gold, visit [/gold](/gold) or your favorite person's user page."
 msgstr "Хвала што сте купили креддите. Ваше спонзорство подржава и одржава наш сајт и омогућава будући развој. Да бисте потрошили свој креддит и разделили злато, посетите [/gold](/gold) или страницу Ваше омиљене особе."
 
@@ -1119,7 +1116,6 @@ msgid "you're really bored now, eh?"
 msgstr "баш вам је досадно, а?"
 
 #: r2/controllers/listingcontroller.py:806
-#, fuzzy
 msgid "filter by vault"
 msgstr "филтрирај по подреддиту"
 
@@ -1215,7 +1211,6 @@ msgid "messages"
 msgstr "поруке"
 
 #: r2/controllers/listingcontroller.py:1672
-#, fuzzy
 msgid "vaults: "
 msgstr "подреддити:"
 
@@ -1621,7 +1616,6 @@ msgid "search failed"
 msgstr "претрага није успела"
 
 #: r2/controllers/wiki.py:93
-#, fuzzy
 msgid "This page is the vault stylesheet, changes here apply to the vault css"
 msgstr "Ова страница је лист са стиловима подреддита, промене унете овде примењују се на css подреддита"
 
@@ -1630,7 +1624,6 @@ msgid "The contents of this page appear on the submit page"
 msgstr ""
 
 #: r2/controllers/wiki.py:95
-#, fuzzy
 msgid "The contents of this page appear on the vault sidebar"
 msgstr "Садржај ове странице приказује се на бочној траци подреддита"
 
@@ -1668,7 +1661,6 @@ msgid "this wiki cannot handle page names of that magnitude!  please select a pa
 msgstr "овај вики не подржава имена страница те величине!  изаберите име странице које је краће од %d знакова"
 
 #: r2/controllers/wiki.py:221
-#, fuzzy
 msgid "this page is a special page, please go into the vault settings and save the field once to create this special page"
 msgstr "Ова страница је посебна страница, идите у поставке подреддита и сачувајте поље једном да бисте креирали ову посебну страницу"
 
@@ -1986,12 +1978,10 @@ msgid "that link has already been submitted"
 msgstr "тај линк је већ постављен"
 
 #: r2/lib/errors.py:82
-#, fuzzy
 msgid "that vault already exists"
 msgstr "овај подреддит већ постоји"
 
 #: r2/lib/errors.py:83
-#, fuzzy
 msgid "that vault doesn't exist"
 msgstr "такав подреддит не постоји"
 
@@ -2004,7 +1994,6 @@ msgid "you aren't allowed access to this vault"
 msgstr ""
 
 #: r2/lib/errors.py:86
-#, fuzzy
 msgid "you must specify a vault"
 msgstr "морате да наведете подреддит"
 
@@ -2084,7 +2073,7 @@ msgid "That email could not be added. Check your email for an existing confirmat
 msgstr ""
 
 #: r2/lib/errors.py:108
-#, python-format, fuzzy
+#, python-format
 msgid "that vault has already been oversold on %(start)s to %(end)s. Please pick another vault or date."
 msgstr "тај подреддит је већ презаузет од %(start)s до %(end)s. Одаберите други подреддит или датум."
 
@@ -2170,12 +2159,10 @@ msgid "that code has already been claimed -- perhaps by you?"
 msgstr "тај код је већ присвојен - можда је ваш?"
 
 #: r2/lib/errors.py:126
-#, fuzzy
 msgid "that vault doesn't allow text posts"
 msgstr "овај подреддит не дозвољава текстуалне постове"
 
 #: r2/lib/errors.py:127
-#, fuzzy
 msgid "that vault only allows text posts"
 msgstr "овај подреддит дозвољава само текстуалне постове"
 
@@ -2301,7 +2288,6 @@ msgid "You can't perform that action because that user is a moderator."
 msgstr ""
 
 #: r2/lib/errors.py:160
-#, fuzzy
 msgid "there is no pending invite for that vault"
 msgstr "нема позивница на чекању за овај подреддит"
 
@@ -2335,27 +2321,23 @@ msgid "%(reason)s"
 msgstr ""
 
 #: r2/lib/errors.py:168
-#, fuzzy
 msgid "that multivault doesn't exist"
 msgstr "тај мултиреддит не постоји"
 
 #: r2/lib/errors.py:169
-#, fuzzy
 msgid "that multivault already exists"
 msgstr "тај мултиреддит већ постоји"
 
 #: r2/lib/errors.py:170
-#, fuzzy
 msgid "you can't change that multivault"
 msgstr "не можете променити овај мултиреддит"
 
 #: r2/lib/errors.py:171
-#, fuzzy
 msgid "no more space for vaults in that multivault"
 msgstr "нема више места за подреддите у том мултиреддиту"
 
 #: r2/lib/errors.py:172
-#, python-format, fuzzy
+#, python-format
 msgid "can't add special vault %(path)s"
 msgstr "не можете додати посебан подреддит %(path)s"
 
@@ -3065,7 +3047,6 @@ msgid "edit subscriptions"
 msgstr "уреди пријаве"
 
 #: r2/lib/menus.py:132 r2/lib/pages/pages.py:2191
-#, fuzzy
 msgid "vault settings"
 msgstr "поставке подреддита"
 
@@ -3154,7 +3135,6 @@ msgid "create"
 msgstr "креирај"
 
 #: r2/lib/menus.py:158 r2/lib/pages/pages.py:2815
-#, fuzzy
 msgid "my vaults"
 msgstr "моји подреддити"
 
@@ -3505,7 +3485,7 @@ msgid "that link has already been submitted, but you can try to [submit it again
 msgstr "тај линк је већ додат, али можете покушати да [поново додате]( %s )"
 
 #: r2/lib/strings.py:75
-#, python-format, fuzzy
+#, python-format
 msgid "that link has been submitted to multiple vaults. you can try to [submit it again](%s)."
 msgstr "тај линк је већ додат на неколико подреддита, али можете покушати да га [поново додате]( %s )"
 
@@ -3529,7 +3509,6 @@ msgid "to view tippr with only submissions from your friends, use [tippr.net/v/f
 msgstr "да бисте видели реддит само са постовима ваших пријатеља, користите [tippr.net/v/friends](%s)"
 
 #: r2/lib/strings.py:86
-#, fuzzy
 msgid "your vault has been created"
 msgstr "ваш подреддит је креиран"
 
@@ -3539,7 +3518,6 @@ msgid "visit [%(link)s](%(link)s) for more information"
 msgstr "посети [%(link)s](%(link)s) за више информација"
 
 #: r2/lib/strings.py:91
-#, fuzzy
 msgid "you have not subscribed to any vaults."
 msgstr "нисте се претплатили ни на један подреддит."
 
@@ -3548,12 +3526,10 @@ msgid "below are the vaults you have subscribed to."
 msgstr ""
 
 #: r2/lib/strings.py:93
-#, fuzzy
 msgid "below are the vaults that you are an approved submitter on."
 msgstr "испод су подреддити на којима вам је одобрено подношење нових чланака."
 
 #: r2/lib/strings.py:94
-#, fuzzy
 msgid "below are the vaults that you have moderator access to."
 msgstr "испод су подреддити којима имате модераторски приступ."
 
@@ -3850,7 +3826,6 @@ msgstr[1] "поруке"
 msgstr[2] "порука"
 
 #: r2/lib/pages/admin_pages.py:113 r2/lib/pages/trafficpages.py:815 r2/lib/strings.py:263 r2/templates/adminfeeds.html:44 r2/templates/adminfeeds.html:73 r2/templates/adminvaults.html:49 r2/templates/sitewidetraffic.html:39 r2/templates/vaulttrafficreport.html:45
-#, fuzzy
 msgid "vault"
 msgid_plural "vaults"
 msgstr[0] "подреддит"
@@ -3858,7 +3833,6 @@ msgstr[1] "подреддита"
 msgstr[2] "подреддита"
 
 #: r2/lib/strings.py:264
-#, fuzzy
 msgid "coin"
 msgid_plural "coins"
 msgstr[0] "креддит"
@@ -4287,12 +4261,10 @@ msgid "moderation tools"
 msgstr "уредничке алатке"
 
 #: r2/lib/pages/pages.py:703
-#, fuzzy
 msgid "these vaults"
 msgstr "ови подреддити"
 
 #: r2/lib/pages/pages.py:717
-#, fuzzy
 msgid "this vault is archived and no longer accepting submissions."
 msgstr "овај подреддит је архивиран и више није могуће писати по њему."
 
@@ -4313,7 +4285,6 @@ msgid "Submissions restricted"
 msgstr "подношење ограничено"
 
 #: r2/lib/pages/pages.py:820
-#, fuzzy
 msgid "Create your own vault"
 msgstr "Креирајте свој подреддит"
 
@@ -4385,7 +4356,6 @@ msgid "about %(site)s"
 msgstr "о %(site)s\t\t"
 
 #: r2/lib/pages/pages.py:2215
-#, fuzzy
 msgid "search vaults by name"
 msgstr "претражи подреддите по имену"
 
@@ -4404,7 +4374,6 @@ msgid "trophy case"
 msgstr "шкриња са трофејима"
 
 #: r2/lib/pages/pages.py:2358
-#, fuzzy
 msgid "public multivaults"
 msgstr "јавни мултиреддити"
 
@@ -4421,7 +4390,7 @@ msgid "less than a day"
 msgstr "мање од једног дана"
 
 #: r2/lib/pages/pages.py:2466
-#, python-format, fuzzy
+#, python-format
 msgid "%(coins)s gold coin to give"
 msgid_plural "%(coins)s gold coins to give"
 msgstr[0] "%(coins)s златни кредит на поклон"
@@ -4481,7 +4450,6 @@ msgid "where your votes shape what the world is talking about."
 msgstr "где твоји гласови обликују оно о чему свет разгпвара"
 
 #: r2/lib/pages/pages.py:2886 r2/lib/pages/pages.py:2996
-#, fuzzy
 msgid "add vault"
 msgstr "додај подреддит"
 
@@ -4623,12 +4591,10 @@ msgid "frontpage impressions"
 msgstr "прегледи на почетној страници"
 
 #: r2/lib/pages/pages.py:5559
-#, fuzzy
 msgid "vault clicks"
 msgstr "кликови у поддредиту"
 
 #: r2/lib/pages/pages.py:5559
-#, fuzzy
 msgid "vault impressions"
 msgstr "прегледи у подреддиту"
 
@@ -4657,7 +4623,6 @@ msgid "everything"
 msgstr "све"
 
 #: r2/lib/pages/pages.py:5902 r2/lib/pages/pages.py:5905
-#, fuzzy
 msgid "from all vaults"
 msgstr "са свих подреддита"
 
@@ -4666,7 +4631,6 @@ msgid "moderating"
 msgstr "уређивање"
 
 #: r2/lib/pages/pages.py:5908
-#, fuzzy
 msgid "vaults you mod"
 msgstr "подреддити где си модератор"
 
@@ -4675,7 +4639,6 @@ msgid "gold perks"
 msgstr "погодности које омогућава злато"
 
 #: r2/lib/pages/pages.py:5930
-#, fuzzy
 msgid "explore multis"
 msgstr "истражи мултиреддите"
 
@@ -4810,12 +4773,11 @@ msgid "%(page)s - %(site)s"
 msgstr ""
 
 #: r2/lib/pages/wiki.py:163
-#, fuzzy
 msgid "this page is empty, edit it to add some content."
 msgstr "ова страница је празна, уредите је да бисте додали садржај."
 
 #: r2/lib/pages/wiki.py:171 r2/lib/pages/wiki.py:177
-#, python-format, fuzzy
+#, python-format
 msgid "page %s does not exist in this vault"
 msgstr "страница %s не постоји у овом подреддиту"
 
@@ -4844,7 +4806,6 @@ msgid "Viewing pages for /v/%s"
 msgstr "приказивање ревидирања од %s"
 
 #: r2/lib/pages/wiki.py:212
-#, fuzzy
 msgid "Below is a list of pages in this wiki visible to you in this vault."
 msgstr "Испод је листа страница у овом викију које су вам видљиве у овом подреддиту."
 
@@ -4923,7 +4884,6 @@ msgid "max length %d characters"
 msgstr "максимална дужина %d знакова"
 
 #: r2/lib/validator/validator.py:2839
-#, fuzzy
 msgid "credit card numbers should be 13 to 16 digits"
 msgstr "број кредитне картице треба да се састоји од 13 до 16 цифара"
 
@@ -6016,7 +5976,6 @@ msgid "Moderate Flair"
 msgstr "Модерирај беџ"
 
 #: r2/models/token.py:165
-#, fuzzy
 msgid "Manage and assign flair in vaults I moderate."
 msgstr "Управљај и додељуј беџ у подреддитима које ја модерирам."
 
@@ -6025,17 +5984,14 @@ msgid "Moderate Posts"
 msgstr "Модерирај постове"
 
 #: r2/models/token.py:171
-#, fuzzy
 msgid "Approve, remove, mark nsfw, and distinguish content in vaults I moderate."
 msgstr "Одобри, уклони, означи непожељно за посао и разликуј садржај у подреддитима које ја модерирам."
 
 #: r2/models/token.py:176
-#, fuzzy
 msgid "Moderate Vault Configuration"
 msgstr "Модерирање конфигурације подреддита"
 
 #: r2/models/token.py:178
-#, fuzzy
 msgid "Manage the configuration, sidebar, and CSS of vaults I moderate."
 msgstr "Уређуј конфигурацију, бочну траку и CSS подреддита које је модерирам."
 
@@ -6044,7 +6000,6 @@ msgid "Moderation Log"
 msgstr "Дневник модерирања"
 
 #: r2/models/token.py:185
-#, fuzzy
 msgid "Access the moderation log in vaults I moderate."
 msgstr "Приступи евиденцији модерирања у подреддитима које ја модерирам."
 
@@ -6065,12 +6020,10 @@ msgid "Accept invitations to moderate a vault. Remove myself as a moderator or c
 msgstr ""
 
 #: r2/models/token.py:206
-#, fuzzy
 msgid "Vault Traffic"
 msgstr "Саобраћај подреддита"
 
 #: r2/models/token.py:207
-#, fuzzy
 msgid "Access traffic stats in vaults I moderate."
 msgstr "Приступи статистици о саобраћају у подреддитима које ја модерирам."
 
@@ -6083,12 +6036,10 @@ msgid "Change editors and visibility of wiki pages in vaults I moderate."
 msgstr ""
 
 #: r2/models/token.py:218
-#, fuzzy
 msgid "My Vaults"
 msgstr "Моји подреддити."
 
 #: r2/models/token.py:220
-#, fuzzy
 msgid "Access the list of vaults I moderate, contribute to, and subscribe to."
 msgstr "Приступи листи подреддита које ја модерирам, допринеси јој и пријави се на њу."
 
@@ -6243,7 +6194,7 @@ msgid "posts from %s"
 msgstr "постови са %s"
 
 #: r2/models/vault.py:2413
-#, python-format, fuzzy
+#, python-format
 msgid "%s vaults curated by /u/%s"
 msgstr "%s подреддити које уређује /u/%s"
 
@@ -6290,7 +6241,6 @@ msgid "missing name"
 msgstr "недостаје име"
 
 #: r2/public/static/js/gold.js:298
-#, fuzzy
 msgid "invalid credit card number"
 msgstr "погрешан број кредитне картице"
 
@@ -6498,7 +6448,6 @@ msgid "awesomeness goes here"
 msgstr "феноменалност иде овде"
 
 #: r2/public/static/js/multi.js:510
-#, fuzzy
 msgid "add a vault to your multi."
 msgstr "додај подреддит свом мултиреддиту"
 
@@ -6507,12 +6456,10 @@ msgid "categorize"
 msgstr "додај у категорију"
 
 #: r2/public/static/js/multi.js:579
-#, fuzzy
 msgid "open this multi"
 msgstr "отвори мултиреддит"
 
 #: r2/public/static/js/multi.js:583
-#, fuzzy
 msgid "create a new multi"
 msgstr "направи нови мултиреддит"
 
@@ -6762,7 +6709,6 @@ msgid "an error occurred (status: %(status)s)"
 msgstr "дошло је до грешке (статус: %(status)s)"
 
 #: r2/public/static/js/traffic.js:11
-#, fuzzy
 msgid "view vault traffic"
 msgstr "прикажи саобраћај за подреддит"
 
@@ -8919,7 +8865,6 @@ msgid "ad"
 msgstr "реклама"
 
 #: r2/templates/allinfobar.html:40
-#, fuzzy
 msgid "Exclude your subscribed vaults"
 msgstr "Исључи подреддите на које сам пријављен/а"
 
@@ -9123,7 +9068,7 @@ msgid "deleted comment from"
 msgstr "обрисан коментар од"
 
 #: r2/templates/comment.html:115
-#, python-format, fuzzy
+#, python-format
 msgid "this vault hides comment scores for %d minutes"
 msgstr "овај подреддит сакрива гласове за коментаре за %d минута"
 
@@ -9524,12 +9469,10 @@ msgid "anyone"
 msgstr "свако"
 
 #: r2/templates/createvault.html:232
-#, fuzzy
 msgid "Anyone who can submit to the vault may edit"
 msgstr "Свако ко може да објави у подреддиту може да уређује"
 
 #: r2/templates/createvault.html:239
-#, fuzzy
 msgid "Vault karma required to edit and create wiki pages:"
 msgstr "Карма подреддита захтева уређивање и креирање вики страница:"
 
@@ -9809,7 +9752,6 @@ msgid "flair options"
 msgstr "опције беџева"
 
 #: r2/templates/flairpane.html:42
-#, fuzzy
 msgid "enable user flair in this vault"
 msgstr "омогући корисничке беџеве на овом подреддиту"
 
@@ -9858,7 +9800,6 @@ msgid "position flair to the right of the link"
 msgstr "постави беџ десно од линка"
 
 #: r2/templates/flairprefs.html:34
-#, fuzzy
 msgid "Show my flair on this vault. It looks like:"
 msgstr "Прикажи мој беџ на овом подреддиту. Изгледа овако:"
 
@@ -10109,12 +10050,10 @@ msgid "PayPal"
 msgstr ""
 
 #: r2/templates/goldpayment.html:157
-#, fuzzy
 msgid "Credit Card"
 msgstr "Кредитна Картица"
 
 #: r2/templates/goldpayment.html:170
-#, fuzzy
 msgid "Stripe is PCI compliant and your credit card information is sent directly to them."
 msgstr "Stripe је PCI сагласан и ваше информације са кредитне картице се шаљу директно њима."
 
@@ -10210,12 +10149,12 @@ msgid "Contact the admins."
 msgstr "пошаљи поруку администраторима"
 
 #: r2/templates/interestbar.html:30
-#, python-format, fuzzy
+#, python-format
 msgid "ready for something new? %s subscribe %s to some new vaults."
 msgstr "спремни сте за нешто ново? %s subscribe %s на неке нове подреддите."
 
 #: r2/templates/interestbar.html:32
-#, python-format, fuzzy
+#, python-format
 msgid "it looks like you haven't %s subscribed %s to any vaults yet. want some ideas?"
 msgstr "изгледа да се још нисте %s subscribed %s ни на један подреддит. потребне су вам идеје?"
 
@@ -10402,7 +10341,6 @@ msgid "browse all vaults"
 msgstr "са свих подреддита"
 
 #: r2/templates/listingchooser.html:51
-#, fuzzy
 msgid "multivaults"
 msgstr "мултиреддити"
 
@@ -10411,7 +10349,6 @@ msgid "hide multivaults (turn them back on in preferences)"
 msgstr ""
 
 #: r2/templates/listingchooser.html:57
-#, fuzzy
 msgid "new! create sets of vaults to view together."
 msgstr "НОВО! Направи сетове подреддита које можеш прегледати заједно."
 
@@ -10420,7 +10357,6 @@ msgid "for starters, try one of these:"
 msgstr "за почетак пробај један од ових:"
 
 #: r2/templates/listingchooser.html:62
-#, fuzzy
 msgid "to hide these samples, create a multi of your own:"
 msgstr "да бисте сакрили ове примере, направи свој мултиреддит:"
 
@@ -10713,7 +10649,6 @@ msgid "copy name"
 msgstr "копирај име"
 
 #: r2/templates/multiinfobar.html:93
-#, fuzzy
 msgid "warning: renaming a multi will break any links and references to the old name."
 msgstr "упозорење: преименовање мултиреддита ће раскинути све линкове и референце на старо име."
 
@@ -10726,7 +10661,7 @@ msgid "edit description"
 msgstr "промени опис"
 
 #: r2/templates/multiinfobar.html:114
-#, python-format, fuzzy
+#, python-format
 msgid "%(count)s vaults in this multi:"
 msgstr "%(count)s подреддита у овом мултиреддиту"
 
@@ -10736,7 +10671,6 @@ msgid "created by %(user)s"
 msgstr ""
 
 #: r2/templates/multiinfobar.html:137
-#, fuzzy
 msgid "a multivault for"
 msgstr "мултиреддит за"
 
@@ -10757,12 +10691,10 @@ msgid "would you like to..."
 msgstr "да ли бисте желели да..."
 
 #: r2/templates/multiinfobar.html:159
-#, fuzzy
 msgid "check out vaults by category"
 msgstr "прегледате подреддите по категорији"
 
 #: r2/templates/multiinfobar.html:164
-#, fuzzy
 msgid "explore a random vault"
 msgstr "истражите неки подреддит насумице"
 
@@ -10790,7 +10722,6 @@ msgid "(optional)"
 msgstr "(опционално)"
 
 #: r2/templates/newlink.html:107
-#, fuzzy
 msgid "choose a vault"
 msgstr "изабери подреддит"
 
@@ -10956,7 +10887,6 @@ msgid "Your current budget is %(budget)s"
 msgstr "Ваш тренутни буџет је %(budget)s"
 
 #: r2/templates/paymentform.html:44
-#, fuzzy
 msgid "Please pick your credit card:"
 msgstr "Одаберите кредитну картицу:"
 
@@ -11106,7 +11036,6 @@ msgid "Only in:"
 msgstr "Само у:"
 
 #: r2/templates/prefapps.html:249
-#, fuzzy
 msgid "Only in the vaults:"
 msgstr "Само у подреддитима:"
 
@@ -11322,7 +11251,6 @@ msgid "don't show thumbnails next to links"
 msgstr "не приказуј сличице поред линкова"
 
 #: r2/templates/prefoptions.html:163
-#, fuzzy
 msgid "show thumbnails based on that vault's media preferences"
 msgstr "Покажи иконе на основу пореддитског подешавања за медије"
 
@@ -11413,7 +11341,6 @@ msgid "show additional details in the domain text when available"
 msgstr "где су доступни, прикажи додатне детаље у тексту домена "
 
 #: r2/templates/prefoptions.html:221
-#, fuzzy
 msgid "(such as the source vault or the content author's url/name)"
 msgstr "(као што су изворни подреддит или име/линк оригиналног аутора)"
 
@@ -11563,7 +11490,6 @@ msgid "I am over eighteen years old and willing to view adult content"
 msgstr "Имам више од осамнаест година и желим да гледам садржај за одрасле"
 
 #: r2/templates/prefoptions.html:342
-#, fuzzy
 msgid "required to view some vaults"
 msgstr "обавезно за приступ одређеним подреддитима"
 
@@ -11959,7 +11885,6 @@ msgid "comment karma"
 msgstr "карма коментара"
 
 #: r2/templates/profilebar.html:82
-#, fuzzy
 msgid "really obscure karma from before it was cool to track per-vault"
 msgstr "веома опскурна карма која потиче из периода у ком још увек није било кул пратити је по подреддиту"
 
@@ -12644,7 +12569,6 @@ msgid "converted query to %(syntax)s syntax: %(converted)s"
 msgstr "конвертован упит у %(syntax)s синтаксу: %(converted)s"
 
 #: r2/templates/searchform.html:38
-#, fuzzy
 msgid "find submissions in \"vault\""
 msgstr "пронађите објаве у \"подреддиту\""
 
@@ -12677,7 +12601,6 @@ msgid "see the search faq for details."
 msgstr "додатне информације потражите у најчешћим питањима о претрази."
 
 #: r2/templates/searchform.html:57
-#, fuzzy
 msgid "advanced search: by author, vault..."
 msgstr "напредна претрага: по аутору, подреддиту..."
 
@@ -12727,7 +12650,6 @@ msgid "note: you will only be eligible for a gilding trophy if this is set to \"
 msgstr ""
 
 #: r2/templates/sitewidetraffic.html:36
-#, fuzzy
 msgid "top vaults"
 msgstr "најпопуларнији подреддити"
 
@@ -12792,7 +12714,6 @@ msgid "first"
 msgstr "прво"
 
 #: r2/templates/thanks.html:35
-#, fuzzy
 msgid "thanks for buying coins!"
 msgstr "хвала што сте купили креддите!"
 
@@ -12801,7 +12722,6 @@ msgid "thanks for subscribing!"
 msgstr "хвала на пријављивању!"
 
 #: r2/templates/thanks.html:42
-#, fuzzy
 msgid "enter your confirmation code below to claim your gift coins"
 msgstr "унесите код за потврду испод да бисте приступили поклоњеним креддитима"
 
@@ -12816,7 +12736,6 @@ msgid "You're already a tippr gold subscriber."
 msgstr "Већ сте претплаћени на реддит злато."
 
 #: r2/templates/thanks.html:48
-#, fuzzy
 msgid "But if you just gave us even more money, enter the new confirmation code below and we'll add the extra credit to your account."
 msgstr "Али ако сте нам управо дали још више новца, унесите нови код за потврду и додаћемо још креддита на ваш налог."
 
@@ -13121,7 +13040,6 @@ msgid "[link]"
 msgstr ""
 
 #: r2/templates/vaultfacets.html:32
-#, fuzzy
 msgid "too many results? narrow it down to a vault!"
 msgstr "превише резултата? сузите их на подреддит!"
 
@@ -13135,7 +13053,6 @@ msgid "Leave this community"
 msgstr ""
 
 #: r2/templates/vaultinfobar.html:64
-#, fuzzy
 msgid "logged-in users viewing this vault in the past 15 minutes"
 msgstr "пријављени корисници који су прегледали овај подреддит у последњих 15 минута"
 
@@ -13161,12 +13078,10 @@ msgid "a community for"
 msgstr "заједница за"
 
 #: r2/templates/vaultinfobar.html:134
-#, fuzzy
 msgid "approve this vault"
 msgstr "одобри овај подреддит"
 
 #: r2/templates/vaultinfobar.html:164
-#, fuzzy
 msgid "ban this vault"
 msgstr "забрани овај подреддит"
 
@@ -13253,12 +13168,10 @@ msgid "All times are in [UTC](http://en.wikipedia.org/wiki/UTC)."
 msgstr "Сва времена су у [UTC](http://en.wikipedia.org/wiki/UTC)."
 
 #: r2/templates/vaulttrafficreport.html:32
-#, fuzzy
 msgid "Enter one vault per line. Traffic numbers shown are for the last full month."
 msgstr "Унесите један подреддит пореду. Подаци о посетама се односе на последњи пун месец."
 
 #: r2/templates/vaulttrafficreport.html:42
-#, fuzzy
 msgid "vault traffic"
 msgstr "посете подреддиту"
 
@@ -13411,7 +13324,7 @@ msgid "submit a discussion"
 msgstr "објави дискусију"
 
 #: r2/templates/wikipagenotfound.html:26
-#, python-format, fuzzy
+#, python-format
 msgid "The page \"%s\" was not found in this vault."
 msgstr "Страница \"%s\" није пронађена у овом подреддиту."
 
@@ -13429,7 +13342,6 @@ msgid "who can edit this page?"
 msgstr "ко може да уређује ову страницу?"
 
 #: r2/templates/wikipagesettings.html:43
-#, fuzzy
 msgid "use vault wiki permissions"
 msgstr "користи вики дозволе за подреддит"
 

@@ -72,7 +72,7 @@ msgstr "Fecha"
 
 #: r2/controllers/adminprivacy.py:259
 msgid "IP"
-msgstr ""
+msgstr "IP"
 
 #: r2/controllers/adminprivacy.py:260 r2/controllers/adminprivacy.py:416
 msgid "Actions"
@@ -192,7 +192,7 @@ msgstr "Generar exportación de datos"
 
 #: r2/controllers/api.py:201 r2/controllers/api.py:227 r2/controllers/api.py:4196 r2/controllers/api.py:4266 r2/controllers/listingcontroller.py:751 r2/lib/pages/pages.py:6019
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #: r2/controllers/api.py:252
 msgid "this is too long"
@@ -667,7 +667,7 @@ msgstr "resultados de la búsqueda"
 
 #: r2/controllers/front.py:1247 r2/controllers/listingcontroller.py:1529 r2/lib/menus.py:96 r2/lib/menus.py:173 r2/templates/adminvault.html:23 r2/templates/adminvaults.html:22 r2/templates/pagenamenav.html:62 r2/templates/promotelinkbase.html:765
 msgid "vaults"
-msgstr ""
+msgstr "vaults"
 
 #: r2/controllers/front.py:1394
 msgid "seen it"
@@ -676,7 +676,7 @@ msgstr "ya enviado"
 #: r2/controllers/front.py:1412 r2/models/vault.py:2414 r2/templates/multiinfobar.html:37
 #, python-format
 msgid "%s vaults"
-msgstr ""
+msgstr "%s vaults"
 
 #: r2/controllers/front.py:1430 r2/lib/menus.py:83 r2/templates/fraudform.html:45 r2/templates/newlink.html:165 r2/templates/reportform.html:68 r2/templates/usertableitem.html:82
 msgid "submit"
@@ -757,7 +757,7 @@ msgstr "bienvenido de nuevo"
 
 #: r2/controllers/front.py:1875 r2/controllers/front.py:1963 r2/controllers/front.py:2002 r2/lib/menus.py:95 r2/templates/contactus.html:117 r2/templates/contactus.html:119 r2/templates/creditgild.html:34 r2/templates/gold.html:30 r2/templates/goldpayment.html:40 r2/templates/goldthanks.html:29 r2/templates/prefoptions.html:431
 msgid "tippr gold"
-msgstr ""
+msgstr "tippr gold"
 
 #: r2/controllers/front.py:2012 r2/templates/gilding.html:79
 msgid "purchase coins"
@@ -881,7 +881,7 @@ msgstr "Se ha reembolsado tu pago de tippr gold. Ponte en contacto con %(gold_em
 #: r2/controllers/ipn.py:889
 #, python-format
 msgid "error: %(error)s"
-msgstr ""
+msgstr "error: %(error)s"
 
 #: r2/controllers/ipn.py:891
 msgid "invalid request"
@@ -897,7 +897,7 @@ msgstr "error de conexión"
 
 #: r2/controllers/ipn.py:897 r2/templates/adminerrors.html:40
 msgid "error"
-msgstr ""
+msgstr "error"
 
 #: r2/controllers/ipn.py:1037
 msgid "error: address verification failed"
@@ -1149,7 +1149,7 @@ msgstr "mensajes"
 
 #: r2/controllers/listingcontroller.py:1672
 msgid "vaults: "
-msgstr ""
+msgstr "vaults: "
 
 #: r2/controllers/listingcontroller.py:1815
 msgid "To block a user click 'block user'  below a message from a user you wish to block from messaging you."
@@ -2210,7 +2210,7 @@ msgstr "ruta de multi inválida"
 #: r2/lib/errors.py:167
 #, python-format
 msgid "%(reason)s"
-msgstr ""
+msgstr "%(reason)s"
 
 #: r2/lib/errors.py:168
 msgid "that multivault doesn't exist"
@@ -2769,7 +2769,7 @@ msgstr "subiendo"
 
 #: r2/lib/menus.py:67
 msgid "admin"
-msgstr ""
+msgstr "admin"
 
 #: r2/lib/menus.py:70
 msgid "past hour"
@@ -2797,7 +2797,7 @@ msgstr "todos"
 
 #: r2/lib/menus.py:78 r2/models/rules.py:37 r2/templates/preffeeds.html:120 r2/templates/printablebuttons.html:47 r2/templates/printablebuttons.html:265
 msgid "spam"
-msgstr ""
+msgstr "spam"
 
 #: r2/lib/menus.py:79
 msgid "autobanned"
@@ -2809,11 +2809,11 @@ msgstr "preferencias"
 
 #: r2/lib/menus.py:84 r2/lib/permissions.py:100 r2/templates/createvault.html:222
 msgid "wiki"
-msgstr ""
+msgstr "wiki"
 
 #: r2/lib/menus.py:85
 msgid "blog"
-msgstr ""
+msgstr "blog"
 
 #: r2/lib/menus.py:86 r2/templates/utils.html:504
 msgid "logout"
@@ -2829,7 +2829,7 @@ msgstr "botones"
 
 #: r2/lib/menus.py:92
 msgid "widget"
-msgstr ""
+msgstr "widget"
 
 #: r2/lib/menus.py:93
 msgid "mobile"
@@ -3075,7 +3075,7 @@ msgstr "aplicaciones de API"
 
 #: r2/lib/menus.py:175
 msgid "feeds"
-msgstr ""
+msgstr "feeds"
 
 #: r2/lib/menus.py:176 r2/templates/admindomain.html:22 r2/templates/admindomains.html:22
 msgid "domains"
@@ -3320,22 +3320,22 @@ msgstr "enviando..."
 #: r2/lib/strings.py:62
 #, python-format
 msgid "%(num)d %(thing)s"
-msgstr ""
+msgstr "%(num)d %(thing)s"
 
 #: r2/lib/strings.py:65
 #, python-format
 msgid "%(num)d %(point)s"
-msgstr ""
+msgstr "%(num)d %(point)s"
 
 #: r2/lib/strings.py:68
 #, python-format
 msgid "%(num)d %(time)s"
-msgstr ""
+msgstr "%(num)d %(time)s"
 
 #: r2/lib/strings.py:71
 #, python-format
 msgid "%(num)5.3f %(thing)s"
-msgstr ""
+msgstr "%(num)5.3f %(thing)s"
 
 #: r2/lib/strings.py:73
 #, python-format
@@ -3408,7 +3408,7 @@ msgstr "%(author)s comenta en %(title)s"
 #: r2/lib/strings.py:103
 #, python-format
 msgid "%(title)s : %(site)s"
-msgstr ""
+msgstr "%(title)s : %(site)s"
 
 #: r2/lib/strings.py:104
 #, python-format
@@ -3706,8 +3706,8 @@ msgstr[1] "mensajes"
 #: r2/lib/pages/admin_pages.py:113 r2/lib/pages/trafficpages.py:815 r2/lib/strings.py:263 r2/templates/adminfeeds.html:44 r2/templates/adminfeeds.html:73 r2/templates/adminvaults.html:49 r2/templates/sitewidetraffic.html:39 r2/templates/vaulttrafficreport.html:45
 msgid "vault"
 msgid_plural "vaults"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "vault"
+msgstr[1] "vaults"
 
 #: r2/lib/strings.py:264
 msgid "coin"
@@ -3789,7 +3789,7 @@ msgstr[1] "años"
 
 #: r2/lib/support.py:57
 msgid "general"
-msgstr ""
+msgstr "general"
 
 #: r2/lib/support.py:58
 msgid "serious reports"
@@ -3817,7 +3817,7 @@ msgstr "límites de frecuencia"
 
 #: r2/lib/support.py:64 r2/models/vault.py:326 r2/templates/adminuser.html:73
 msgid "gold"
-msgstr ""
+msgstr "gold"
 
 #: r2/lib/support.py:71 r2/templates/adminsitesettings.html:112
 msgid "open"
@@ -4147,7 +4147,7 @@ msgstr "usuario"
 #: r2/lib/pages/pages.py:179
 #, python-format
 msgid "%d %b %Y"
-msgstr ""
+msgstr "%d %b %Y"
 
 #: r2/lib/pages/pages.py:509
 msgid "wiki tools"
@@ -4212,7 +4212,7 @@ msgstr "desactivar admin"
 
 #: r2/lib/pages/pages.py:1129
 msgid "<3"
-msgstr ""
+msgstr "<3"
 
 #: r2/lib/pages/pages.py:1402
 #, python-format
@@ -4427,7 +4427,7 @@ msgstr "fecha"
 
 #: r2/lib/pages/pages.py:5538 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
 msgid "id"
-msgstr ""
+msgstr "id"
 
 #: r2/lib/pages/pages.py:5538 r2/lib/pages/pages.py:5557 r2/templates/promotelinkbase.html:856
 msgid "owner"
@@ -4435,7 +4435,7 @@ msgstr "propietario"
 
 #: r2/lib/pages/pages.py:5538 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
 msgid "url"
-msgstr ""
+msgstr "url"
 
 #: r2/lib/pages/pages.py:5539
 msgid "upvotes"
@@ -4622,7 +4622,7 @@ msgstr "suscripciones"
 
 #: r2/lib/pages/trafficpages.py:657 r2/templates/promotedlinktraffic.html:61
 msgid "total"
-msgstr ""
+msgstr "total"
 
 #: r2/lib/pages/trafficpages.py:771
 msgid "date and time (UTC)"
@@ -4659,7 +4659,7 @@ msgstr "este wiki está deshabilitado, solo lo moderadores pueden interactuar co
 #: r2/lib/pages/wiki.py:146
 #, python-format
 msgid "%(page)s - %(site)s"
-msgstr ""
+msgstr "%(page)s - %(site)s"
 
 #: r2/lib/pages/wiki.py:163
 msgid "this page is empty, edit it to add some content."
@@ -5759,7 +5759,7 @@ msgstr "rompiendo tippr"
 
 #: r2/models/rules.py:45
 msgid "Spam"
-msgstr ""
+msgstr "Spam"
 
 #: r2/models/rules.py:46
 msgid "Personal and confidential information"
@@ -5991,7 +5991,7 @@ msgstr "naranja"
 
 #: r2/models/vault.py:317
 msgid "mango"
-msgstr ""
+msgstr "mango"
 
 #: r2/models/vault.py:318
 msgid "lime"
@@ -6241,7 +6241,7 @@ msgstr "superíndice"
 
 #: r2/public/static/js/markdown-toolbar.js:96 r2/templates/usertext.html:101 r2/templates/usertext.html:102 r2/templates/usertext.html:131
 msgid "spoiler"
-msgstr ""
+msgstr "spoiler"
 
 #: r2/public/static/js/markdown-toolbar.js:102 r2/templates/usertext.html:129
 msgid "code"
@@ -6575,7 +6575,7 @@ msgstr "sí"
 
 #: r2/public/static/js/ui.js:1120 r2/templates/adminuser.html:80 r2/templates/fraudform.html:40 r2/templates/goldsubscription.html:56 r2/templates/optout.html:43 r2/templates/optout.html:59 r2/templates/printablebuttons.html:199 r2/templates/printablebuttons.html:691 r2/templates/printablebuttons.html:741
 msgid "no"
-msgstr ""
+msgstr "no"
 
 #: r2/public/static/js/uibase.js:74
 #, python-format
@@ -6712,7 +6712,7 @@ msgstr "Úsalo mientras lo configuras o en un sitio de pruebas: las solicitudes 
 
 #: r2/templates/adminadsettings.html:112
 msgid "ads.txt"
-msgstr ""
+msgstr "ads.txt"
 
 #: r2/templates/adminadsettings.html:115
 msgid "Served at"
@@ -6744,7 +6744,7 @@ msgstr "disable_captcha está activado en el ini (como en desarrollo), así que 
 
 #: r2/templates/adminantispam.html:42 r2/templates/adminantispam.html:45
 msgid "captcha"
-msgstr ""
+msgstr "captcha"
 
 #: r2/templates/adminantispam.html:53
 msgid "Shown when untrusted users sign up, post, send messages or create a vault. Cloudflare Turnstile, hCaptcha and reCAPTCHA need the site and secret keys from their dashboards; until both are set, tippr's own image captcha is used."
@@ -6768,7 +6768,7 @@ msgstr "también en el formulario de registro"
 
 #: r2/templates/adminantispam.html:74
 msgid "CleanTalk"
-msgstr ""
+msgstr "CleanTalk"
 
 #: r2/templates/adminantispam.html:76
 msgid "CleanTalk (cleantalk.org, a paid service) checks sign-ups, posts, comments and messages without asking anything of people. Spam sign-ups are refused; spam posts, comments and messages are saved but hidden as spam, for moderators to review in their spam queue. If CleanTalk can't be reached, everything goes through."
@@ -6895,7 +6895,7 @@ msgstr "se unió"
 
 #: r2/templates/adminantispam.html:174 r2/templates/adminuser.html:63 r2/templates/adminusers.html:35
 msgid "karma"
-msgstr ""
+msgstr "karma"
 
 #: r2/templates/adminantispam.html:175 r2/templates/adminuser.html:64 r2/templates/adminusers.html:36 r2/templates/login.html:107 r2/templates/newsletter.html:58 r2/templates/newsletterbar.html:43 r2/templates/prefupdate.html:71
 msgid "email"
@@ -7393,7 +7393,7 @@ msgstr "Con Gmail, usa la cuenta de Google o una de sus direcciones de \"enviar 
 
 #: r2/templates/adminemailsettings.html:53
 msgid "SMTP"
-msgstr ""
+msgstr "SMTP"
 
 #: r2/templates/adminemailsettings.html:55
 msgid "server (host or host:port)"
@@ -7401,7 +7401,7 @@ msgstr "servidor (host o host:puerto)"
 
 #: r2/templates/adminemailsettings.html:77
 msgid "Gmail (OAuth)"
-msgstr ""
+msgstr "Gmail (OAuth)"
 
 #: r2/templates/adminemailsettings.html:79
 msgid "OAuth client ID"
@@ -7454,7 +7454,7 @@ msgstr "(usuario %(name)s)"
 
 #: r2/templates/adminerrors.html:50
 msgid "traceback"
-msgstr ""
+msgstr "traceback"
 
 #: r2/templates/adminerrors.html:61
 msgid "No errors recorded."
@@ -7502,7 +7502,7 @@ msgstr "añadir el feed"
 
 #: r2/templates/adminfeeds.html:63
 msgid "Feeds"
-msgstr ""
+msgstr "Feeds"
 
 #: r2/templates/adminfeeds.html:66
 msgid "Post new items from RSS or Atom feeds to vaults, such as your blog's articles or a project's releases, to give the site something to read. Feeds are checked every 15 minutes, each no more often than its own interval."
@@ -7515,7 +7515,7 @@ msgstr "Para que un feed nuevo no inunde su vault, la primera revisión solo pub
 
 #: r2/templates/adminfeeds.html:73
 msgid "feed"
-msgstr ""
+msgstr "feed"
 
 #: r2/templates/adminfeeds.html:74
 msgid "every"
@@ -7539,7 +7539,7 @@ msgstr "(falta)"
 
 #: r2/templates/adminfeeds.html:110
 msgid "min"
-msgstr ""
+msgstr "min"
 
 #: r2/templates/adminfeeds.html:115
 msgid "not yet"
@@ -7750,7 +7750,7 @@ msgstr "El sitio cuenta su propio tráfico para las páginas de tráfico (/traff
 
 #: r2/templates/adminsitesettings.html:98
 msgid "Google Analytics"
-msgstr ""
+msgstr "Google Analytics"
 
 #: r2/templates/adminsitesettings.html:98
 msgid "The measurement ID, e.g. G-ABC123XYZ. Blank: no Google Analytics."
@@ -7830,7 +7830,7 @@ msgstr "El sitio usa el logotipo predeterminado de tippr."
 
 #: r2/templates/adminsitesettings.html:136
 msgid "favicon"
-msgstr ""
+msgstr "favicon"
 
 #: r2/templates/adminsitesettings.html:136
 msgid "The icon in browser tabs and bookmarks. A square PNG of 192 or 512 pixels works everywhere."
@@ -9158,7 +9158,7 @@ msgstr "eliminar imagen de cabecera personalizada"
 
 #: r2/templates/createvault.html:623
 msgid "color"
-msgstr ""
+msgstr "color"
 
 #: r2/templates/createvault.html:623
 msgid "used as a thematic color for your vault on mobile"
@@ -9203,7 +9203,7 @@ msgstr "personalizado"
 
 #: r2/templates/exploreitemlisting.html:51 r2/templates/printablebuttons.html:85
 msgid "nsfw"
-msgstr ""
+msgstr "nsfw"
 
 #: r2/templates/exploreitemlisting.html:65 r2/templates/listing.html:66 r2/templates/promotedlinktraffic.html:87 r2/templates/searchlisting.html:54 r2/templates/tablelisting.html:52 r2/templates/userlisting.html:139
 msgid "view more:"
@@ -9570,7 +9570,7 @@ msgstr "(usar %(current)s de tus %(total)s coinos)"
 
 #: r2/templates/goldpayment.html:151
 msgid "PayPal"
-msgstr ""
+msgstr "PayPal"
 
 #: r2/templates/goldpayment.html:157
 msgid "Credit Card"
@@ -9586,7 +9586,7 @@ msgstr "número de tarjeta"
 
 #: r2/templates/goldpayment.html:182
 msgid "cvc"
-msgstr ""
+msgstr "cvc"
 
 #: r2/templates/goldpayment.html:186 r2/templates/paymentform.html:124
 msgid "expiration date"
@@ -9622,7 +9622,7 @@ msgstr "Enviar"
 
 #: r2/templates/goldpayment.html:256
 msgid "Bitcoin"
-msgstr ""
+msgstr "Bitcoin"
 
 #: r2/templates/goldsubscription.html:30
 msgid "your account doesn't have a gold subscription."
@@ -9694,7 +9694,7 @@ msgstr "aleatorio"
 #: r2/templates/interstitial.html:45
 #, python-format
 msgid "/v/%s"
-msgstr ""
+msgstr "/v/%s"
 
 #: r2/templates/interstitial.html:73
 msgid "back to Tippr"
@@ -9860,7 +9860,7 @@ msgstr "ver todos los vaults"
 
 #: r2/templates/listingchooser.html:51
 msgid "multivaults"
-msgstr ""
+msgstr "multivaults"
 
 #: r2/templates/listingchooser.html:53
 msgid "hide multivaults (turn them back on in preferences)"
@@ -10210,7 +10210,7 @@ msgstr "ver nuevamente las recomendaciones"
 
 #: r2/templates/newlink.html:41
 msgid "tippr"
-msgstr ""
+msgstr "tippr"
 
 #: r2/templates/newlink.html:44
 #, python-format
@@ -10440,7 +10440,7 @@ msgstr "(14-17 dígitos)"
 
 #: r2/templates/paymentform.html:125
 msgid "CCV"
-msgstr ""
+msgstr "CCV"
 
 #: r2/templates/paymentform.html:125
 msgid "(3 or 4 digits)"
@@ -10476,7 +10476,7 @@ msgstr "Una aplicación instalable, como en un teléfono móvil"
 
 #: r2/templates/prefapps.html:71
 msgid "script"
-msgstr ""
+msgstr "script"
 
 #: r2/templates/prefapps.html:72
 msgid "Script for personal use. Will only have access to the developers accounts"
@@ -11496,15 +11496,15 @@ msgstr "imps enviados"
 
 #: r2/templates/promotedlinktraffic.html:123 r2/templates/refundpage.html:64
 msgid "cpm"
-msgstr ""
+msgstr "cpm"
 
 #: r2/templates/promotedlinktraffic.html:125
 msgid "ctr"
-msgstr ""
+msgstr "ctr"
 
 #: r2/templates/promotedlinktraffic.html:126
 msgid "cpc"
-msgstr ""
+msgstr "cpc"
 
 #: r2/templates/promotedlinktraffic.html:132 r2/templates/refundpage.html:76
 msgid "detail"
@@ -11512,7 +11512,7 @@ msgstr "detalle"
 
 #: r2/templates/promotedlinktraffic.html:133
 msgid "csv"
-msgstr ""
+msgstr "csv"
 
 #: r2/templates/promoteinventory.html:87
 msgid "download as csv"
@@ -11628,11 +11628,11 @@ msgstr "solo versión móvil"
 
 #: r2/templates/promotelinkbase.html:398
 msgid "iOS"
-msgstr ""
+msgstr "iOS"
 
 #: r2/templates/promotelinkbase.html:402
 msgid "Android"
-msgstr ""
+msgstr "Android"
 
 #: r2/templates/promotelinkbase.html:406
 msgid "you must select at least one mobile OS"
@@ -11648,15 +11648,15 @@ msgstr "Filtra por dispositivo y SO"
 
 #: r2/templates/promotelinkbase.html:435
 msgid "iPhone"
-msgstr ""
+msgstr "iPhone"
 
 #: r2/templates/promotelinkbase.html:439
 msgid "iPad"
-msgstr ""
+msgstr "iPad"
 
 #: r2/templates/promotelinkbase.html:443
 msgid "iPod"
-msgstr ""
+msgstr "iPod"
 
 #: r2/templates/promotelinkbase.html:450 r2/templates/promotelinkbase.html:492
 msgid "Min"
@@ -12463,7 +12463,7 @@ msgstr "lista con viñetas"
 
 #: r2/templates/usertext.html:133
 msgid "emoji"
-msgstr ""
+msgstr "emoji"
 
 #: r2/templates/usertext.html:189 r2/templates/wikieditpage.html:49
 msgid "formatting help"
@@ -12495,7 +12495,7 @@ msgstr "Contenido adulto: NSFW (no es seguro para verlo en el trabajo)"
 
 #: r2/templates/utils.html:650 r2/templates/vault.html:98
 msgid "NSFW"
-msgstr ""
+msgstr "NSFW"
 
 #: r2/templates/utils.html:655
 msgid "Quarantined content: Content may be highly offensive"
