@@ -69,7 +69,7 @@ FIXES = [
 BRANDED = re.compile("|".join([
     r"\b(саб|суб|съб|сав)?р[еэ]д+[иіы]т",
     r"\b(sub)?red+i(t|ket|kett|ked|qu|mores|tor)\w*",
-    r"\bsubred+\w*", r"\breddid\b", r"reddicie",
+    r"\b(sub|pod)red+\w*", r"\breddid\b", r"reddicie",
     r"サブレディ|レディット|レディッター",
     r"(?<!크)레딧", r"רדיט", r"ري?ديت", r"रेडिट", r"ரெட்?டிட்", r"เรดดิ", r"ρέ?ντιτ",
 ]), re.I)
