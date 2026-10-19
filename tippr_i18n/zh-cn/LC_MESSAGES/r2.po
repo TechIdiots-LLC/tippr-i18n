@@ -14,122 +14,99 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Display-Name: 简化字\n"
 "Display-Name-en: Chinese Simplified\n"
+"X-Machine-Translation: Machine-translated by Claude (Anthropic) for tippr; please review and correct\n"
 
 #: r2/controllers/admin.py:113
 msgid "Choose an image of at most 1 MB."
-msgstr ""
+msgstr "请选择不超过 1 MB 的图片。"
 
 #: r2/controllers/adminprivacy.py:70
-#, fuzzy
-#| msgid "creative dashboard"
 msgid "Privacy Dashboard"
-msgstr "创意控制面板"
+msgstr "隐私面板"
 
 #: r2/controllers/adminprivacy.py:101
 #, python-format
 msgid "User Data: %s"
-msgstr ""
+msgstr "用户数据:%s"
 
 #: r2/controllers/adminprivacy.py:132
 msgid "Request approved and queued for processing."
-msgstr ""
+msgstr "请求已批准,正在排队处理。"
 
 #: r2/controllers/adminprivacy.py:139
-#, fuzzy
-#| msgid "rejected"
 msgid "Request rejected."
-msgstr "拒绝"
+msgstr "请求已拒绝。"
 
 #: r2/controllers/adminprivacy.py:147
 msgid "Request marked as completed."
-msgstr ""
+msgstr "请求已标记为完成。"
 
 #: r2/controllers/adminprivacy.py:201
 #, python-format
 msgid "Data export initiated for %s."
-msgstr ""
+msgstr "已开始为 %s 导出数据。"
 
 #: r2/controllers/adminprivacy.py:240
 msgid "Privacy Request Overview"
-msgstr ""
+msgstr "隐私请求概览"
 
 #: r2/controllers/adminprivacy.py:244
-#, fuzzy
-#| msgid "trending vaults"
 msgid "Pending Requests"
-msgstr "热门版块"
+msgstr "待处理的请求"
 
 #: r2/controllers/adminprivacy.py:251
-#, fuzzy
-#| msgid "trending vaults"
 msgid "Pending Privacy Requests"
-msgstr "热门版块"
+msgstr "待处理的隐私请求"
 
 #: r2/controllers/adminprivacy.py:256
 msgid "User"
-msgstr ""
+msgstr "用户"
 
 #: r2/controllers/adminprivacy.py:257 r2/controllers/adminprivacy.py:385
-#, fuzzy
-#| msgid "Type: "
 msgid "Type"
-msgstr "类型： "
+msgstr "类型"
 
 #: r2/controllers/adminprivacy.py:258 r2/controllers/adminprivacy.py:385 r2/controllers/privacy.py:277
 msgid "Date"
-msgstr ""
+msgstr "日期"
 
 #: r2/controllers/adminprivacy.py:259
 msgid "IP"
-msgstr ""
+msgstr "IP"
 
 #: r2/controllers/adminprivacy.py:260 r2/controllers/adminprivacy.py:416
-#, fuzzy
-#| msgid "options"
 msgid "Actions"
-msgstr "选项"
+msgstr "操作"
 
 #: r2/controllers/adminprivacy.py:278
-#, fuzzy
-#| msgid "approve"
 msgid "Approve"
-msgstr "认可"
+msgstr "批准"
 
 #: r2/controllers/adminprivacy.py:280
-#, fuzzy
-#| msgid "reject"
 msgid "Reject"
 msgstr "拒绝"
 
 #: r2/controllers/adminprivacy.py:286
-#, fuzzy
-#| msgid "you sent an invalid request"
 msgid "No pending privacy requests."
-msgstr "请求无效"
+msgstr "没有待处理的隐私请求。"
 
 #: r2/controllers/adminprivacy.py:292
-#, fuzzy
-#| msgid "link options"
 msgid "Quick Actions"
-msgstr "链接设置"
+msgstr "快捷操作"
 
 #: r2/controllers/adminprivacy.py:295
 msgid "Trigger Data Export:"
-msgstr ""
+msgstr "开始导出数据:"
 
 #: r2/controllers/adminprivacy.py:296 r2/templates/adminemailsettings.html:69 r2/templates/adminvault.html:68 r2/templates/login.html:76 r2/templates/login.html:85 r2/templates/login.html:188 r2/templates/loginformwide.html:43 r2/templates/password.html:41 r2/templates/prefdeactivate.html:72 r2/templates/userlisting.html:164
 msgid "username"
 msgstr "用户名"
 
 #: r2/controllers/adminprivacy.py:297
-#, fuzzy
-#| msgid "report"
 msgid "Export"
-msgstr "举报"
+msgstr "导出"
 
 #: r2/controllers/adminprivacy.py:303
-#, fuzzy
-#| msgid "resources"
 msgid "Resources"
 msgstr "资源"
 
@@ -138,122 +115,88 @@ msgid "Privacy Policy"
 msgstr "隐私权政策"
 
 #: r2/controllers/adminprivacy.py:306 r2/templates/tipprfooter.html:46
-#, fuzzy
-#| msgid "user agreement"
 msgid "User Agreement"
 msgstr "用户协议"
 
 #: r2/controllers/adminprivacy.py:307
-#, fuzzy
-#| msgid "moderator invited"
 msgid "Moderator Guidelines"
-msgstr "受邀的版主"
+msgstr "版主准则"
 
 #: r2/controllers/adminprivacy.py:359
-#, fuzzy
-#| msgid "personal information"
 msgid "User Information"
-msgstr "个人信息"
+msgstr "用户信息"
 
 #: r2/controllers/adminprivacy.py:361
-#, fuzzy
-#| msgid "username"
 msgid "Username"
 msgstr "用户名"
 
 #: r2/controllers/adminprivacy.py:362
 msgid "User ID"
-msgstr ""
+msgstr "用户 ID"
 
 #: r2/controllers/adminprivacy.py:364
-#, fuzzy
-#| msgid "mail"
 msgid "Email"
-msgstr "短信"
+msgstr "电子邮件"
 
 #: r2/controllers/adminprivacy.py:366
-#, fuzzy
-#| msgid "Email to a Friend"
 msgid "Email Verified"
-msgstr "给朋友发送电子邮件"
+msgstr "邮箱已验证"
 
 #: r2/controllers/adminprivacy.py:368
-#, fuzzy
-#| msgid "create"
 msgid "Created"
-msgstr "创建"
+msgstr "创建时间"
 
 #: r2/controllers/adminprivacy.py:369
 msgid "Link Karma"
-msgstr ""
+msgstr "链接羯磨"
 
 #: r2/controllers/adminprivacy.py:370
-#, fuzzy
-#| msgid "comment karma"
 msgid "Comment Karma"
 msgstr "评论羯磨"
 
 #: r2/controllers/adminprivacy.py:372
-#, fuzzy
-#| msgid "deleted"
 msgid "Deleted"
 msgstr "已删除"
 
 #: r2/controllers/adminprivacy.py:374
-#, fuzzy
-#| msgid "banned"
 msgid "Banned"
-msgstr "已禁止"
+msgstr "已封禁"
 
 #: r2/controllers/adminprivacy.py:380
-#, fuzzy
-#| msgid "invalid request"
 msgid "Privacy Requests"
-msgstr "无效请求"
+msgstr "隐私请求"
 
 #: r2/controllers/adminprivacy.py:385 r2/controllers/privacy.py:277
-#, fuzzy
-#| msgid "status"
 msgid "Status"
 msgstr "状态"
 
 #: r2/controllers/adminprivacy.py:385
-#, fuzzy
-#| msgid "upvotes"
 msgid "Notes"
-msgstr "顶"
+msgstr "备注"
 
 #: r2/controllers/adminprivacy.py:397
-#, fuzzy
-#| msgid "No notes for this user"
 msgid "No privacy requests from this user."
-msgstr "这个用户没有任何记录。"
+msgstr "该用户没有隐私请求。"
 
 #: r2/controllers/adminprivacy.py:402
-#, fuzzy
-#| msgid "admin off"
 msgid "Admin Notes"
-msgstr "管理员离线"
+msgstr "管理员备注"
 
 #: r2/controllers/adminprivacy.py:411
-#, fuzzy
-#| msgid "No notes for this user"
 msgid "No admin notes for this user."
-msgstr "这个用户没有任何记录。"
+msgstr "该用户没有管理员备注。"
 
 #: r2/controllers/adminprivacy.py:420
 msgid "Generate Data Export"
-msgstr ""
+msgstr "生成数据导出"
 
 #: r2/controllers/api.py:201 r2/controllers/api.py:227 r2/controllers/api.py:4196 r2/controllers/api.py:4266 r2/controllers/listingcontroller.py:751 r2/lib/pages/pages.py:6019
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #: r2/controllers/api.py:252
-#, fuzzy
-#| msgid "that name is too long"
 msgid "this is too long"
-msgstr "该名字过长"
+msgstr "内容太长"
 
 #: r2/controllers/api.py:422
 msgid "your message has been delivered"
@@ -357,220 +300,185 @@ msgstr "达到最大签名模板数"
 
 #: r2/controllers/api.py:4765
 msgid "this site's live config is managed in ZooKeeper"
-msgstr ""
+msgstr "本站的实时配置由 ZooKeeper 管理"
 
 #: r2/controllers/api.py:4769
-#, fuzzy
-#| msgid "vault settings"
 msgid "unknown setting"
-msgstr "版块设置"
+msgstr "未知设置"
 
 #: r2/controllers/api.py:4777
-#, fuzzy, python-format
-#| msgid "error: %(error)s"
+#, python-format
 msgid "not saved: %(error)s"
-msgstr "出错：%(error)s"
+msgstr "未保存:%(error)s"
 
 #: r2/controllers/api.py:4805
-#, fuzzy
-#| msgid "your account has been recovered"
 msgid "every account has been checked"
-msgstr "恢复账户成功"
+msgstr "所有账户都已检查"
 
 #: r2/controllers/api.py:4817
-#, fuzzy
-#| msgid "recover account"
 msgid "select some accounts"
-msgstr "恢复账户"
+msgstr "请选择一些账户"
 
 #: r2/controllers/api.py:4859 r2/controllers/api.py:4940
-#, fuzzy
-#| msgid "recover account"
 msgid "no such account"
-msgstr "恢复账户"
+msgstr "没有这个账户"
 
 #: r2/controllers/api.py:4862 r2/controllers/api.py:4932
 msgid "unknown action"
-msgstr ""
+msgstr "未知操作"
 
 #: r2/controllers/api.py:4865
 msgid "not on admins (take them off the employees list on /admin/config first)"
-msgstr ""
+msgstr "不能用于管理员(请先在 /admin/config 的员工列表中移除他们)"
 
 #: r2/controllers/api.py:4869
-#, fuzzy
-#| msgid "[account deleted]"
 msgid "the account is deleted"
-msgstr "[账户已删除]"
+msgstr "该账户已删除"
 
 #: r2/controllers/api.py:4872
 msgid "give a reason (it's logged, and a timeout's reason is sent to them)"
-msgstr ""
+msgstr "请填写原因(会被记录,禁言的原因会发送给对方)"
 
 #: r2/controllers/api.py:4876 r2/controllers/api.py:4957
 msgid "tick the box to confirm"
-msgstr ""
+msgstr "请勾选复选框以确认"
 
 #: r2/controllers/api.py:4879
 msgid "choose whether to keep or delete their posts"
-msgstr ""
+msgstr "请选择保留还是删除其帖子"
 
 #: r2/controllers/api.py:4882
-#, fuzzy
-#| msgid "please enter an email address"
 msgid "they have no email address"
-msgstr "请输入电子邮件地址"
+msgstr "对方没有电子邮箱地址"
 
 #: r2/controllers/api.py:4929 r2/controllers/api.py:5032
-#, fuzzy
-#| msgid "unblock vault"
 msgid "no such vault"
-msgstr "取消屏蔽版块"
+msgstr "没有这个版块"
 
 #: r2/controllers/api.py:4944
-#, fuzzy
-#| msgid "that user is already a moderator"
 msgid "they're already a moderator"
-msgstr "该用户已经是版主"
+msgstr "对方已经是版主"
 
 #: r2/controllers/api.py:4947
-#, fuzzy
-#| msgid "that user is banned from the vault"
 msgid "they're banned from the vault; unban them first"
-msgstr "该用户被该版块封锁"
+msgstr "对方已被此版块封禁;请先解除封禁"
 
 #: r2/controllers/api.py:4952
-#, fuzzy
-#| msgid "you are a moderator"
 msgid "they aren't a moderator"
-msgstr "你是版主"
+msgstr "对方不是版主"
 
 #: r2/controllers/api.py:4964
-#, fuzzy
-#| msgid "ban this vault"
 msgid "unban the vault first"
-msgstr "封禁该版块"
+msgstr "请先解除对版块的封禁"
 
 #: r2/controllers/api.py:4983
 msgid "no such app"
-msgstr ""
+msgstr "没有这个应用"
 
 #: r2/controllers/api.py:4986
 msgid "the site's own apps can't be deleted here"
-msgstr ""
+msgstr "网站自带的应用不能在这里删除"
 
 #: r2/controllers/api.py:5026
 msgid "give the feed's http(s) address"
-msgstr ""
+msgstr "请填写订阅源的 http(s) 地址"
 
 #: r2/controllers/api.py:5036
 msgid "give the bot account a valid username"
-msgstr ""
+msgstr "请为机器人账户填写有效的用户名"
 
 #: r2/controllers/api.py:5045
-#, fuzzy
-#| msgid "that comment has been deleted"
 msgid "that account is suspended or deleted"
-msgstr "该评论已经删除"
+msgstr "该账户已被封禁或删除"
 
 #: r2/controllers/api.py:5051 r2/controllers/api.py:5065
 msgid "no such feed"
-msgstr ""
+msgstr "没有这个订阅源"
 
 #: r2/controllers/api.py:5088
-#, fuzzy
-#| msgid "domain"
 msgid "give a domain"
-msgstr "域名"
+msgstr "请填写域名"
 
 #: r2/controllers/api.py:5094
 msgid "choose what the ban does"
-msgstr ""
+msgstr "请选择封禁的效果"
 
 #: r2/controllers/api.py:5097
 msgid "give a reason (members see it when the link is refused)"
-msgstr ""
+msgstr "请填写原因(链接被拒绝时成员会看到)"
 
 #: r2/controllers/api.py:5102
-#, fuzzy
-#| msgid "stats at a glance"
 msgid "that's not a domain"
-msgstr "数字一览"
+msgstr "这不是域名"
 
 #: r2/controllers/api.py:5129 r2/controllers/api.py:5148 r2/controllers/api.py:5165 r2/controllers/api.py:5183
 msgid "no such ticket"
-msgstr ""
+msgstr "没有这个工单"
 
 #: r2/controllers/api.py:5196
 msgid "they can't reply in this category"
-msgstr ""
+msgstr "对方不能在此类别中回复"
 
 #: r2/controllers/api.py:5216
 msgid "not on the employees list"
-msgstr ""
+msgstr "不在员工列表中"
 
 #: r2/controllers/api.py:5266
 msgid "saved; CleanTalk needs an access key to work"
-msgstr ""
+msgstr "已保存;CleanTalk 需要访问密钥才能工作"
 
 #: r2/controllers/api.py:5269
 #, python-format
 msgid "saved; CleanTalk says: %(problem)s"
-msgstr ""
+msgstr "已保存;CleanTalk 返回:%(problem)s"
 
 #: r2/controllers/api.py:5271
 msgid "saved; the CleanTalk key works"
-msgstr ""
+msgstr "已保存;CleanTalk 密钥有效"
 
 #: r2/controllers/api.py:5308
 msgid "Copy the key now; it isn't shown again."
-msgstr ""
+msgstr "请立即复制密钥,之后不会再显示。"
 
 #: r2/controllers/api.py:5317
 msgid "tippr-backup isn't installed on this server (re-run the installer)."
-msgstr ""
+msgstr "此服务器未安装 tippr-backup(请重新运行安装程序)。"
 
 #: r2/controllers/api.py:5322
 msgid "no such backup"
-msgstr ""
+msgstr "没有这个备份"
 
 #: r2/controllers/api.py:5327
 #, python-format
 msgid "Type this site's domain (%(domain)s) to confirm."
-msgstr ""
+msgstr "请输入本站域名(%(domain)s)以确认。"
 
 #: r2/controllers/api.py:5340
 msgid "Enter the other server's address and its transfer key."
-msgstr ""
+msgstr "请输入另一台服务器的地址和它的迁移密钥。"
 
 #: r2/controllers/api.py:5344
-#, fuzzy
-#| msgid "That is not a valid file."
 msgid "That isn't a backup name."
-msgstr "这不是有效的文件。"
+msgstr "这不是备份名称。"
 
 #: r2/controllers/api.py:5365
-#, fuzzy
-#| msgid "tippr themes"
 msgid "tippr test email"
-msgstr "tippr主题"
+msgstr "tippr 测试邮件"
 
 #: r2/controllers/api.py:5366
 #, python-format
 msgid "This is a test message from %(domain)s. Email is working."
-msgstr ""
+msgstr "这是来自 %(domain)s 的测试邮件。邮件功能正常。"
 
 #: r2/controllers/api.py:5370
-#, fuzzy, python-format
-#| msgid "error: %(error)s"
+#, python-format
 msgid "failed: %(error)s"
-msgstr "出错：%(error)s"
+msgstr "失败:%(error)s"
 
 #: r2/controllers/api.py:5372
-#, fuzzy, python-format
-#| msgid "submit to %(sr)s"
+#, python-format
 msgid "sent to %(address)s"
-msgstr "投稿至%(sr)s"
+msgstr "已发送至 %(address)s"
 
 #: r2/controllers/api.py:5405
 msgid "no gold to take"
@@ -579,18 +487,16 @@ msgstr "没有黄金可扣除"
 #: r2/controllers/api.py:5656
 #, python-format
 msgid "accounts need to be %(n)d days old"
-msgstr ""
+msgstr "账户需要注册满 %(n)d 天"
 
 #: r2/controllers/api.py:5660
 #, python-format
 msgid "accounts need %(n)d karma"
-msgstr ""
+msgstr "账户需要 %(n)d 羯磨"
 
 #: r2/controllers/api.py:5663
-#, fuzzy
-#| msgid "[tippr] verify your email address"
 msgid "verify your email address first"
-msgstr "[tippr] 验证你的电子邮件地址"
+msgstr "请先验证你的电子邮箱地址"
 
 #: r2/controllers/api.py:5705 r2/lib/errors.py:155
 msgid "this app can not be modified from this interface"
@@ -743,10 +649,9 @@ msgid "Comments only"
 msgstr "仅评论"
 
 #: r2/controllers/front.py:981
-#, fuzzy, python-format
-#| msgid "More from %(vault)s"
+#, python-format
 msgid "Rules for /v/%(vault)s"
-msgstr "更多来自%(vault)s"
+msgstr "/v/%(vault)s 的规则"
 
 #: r2/controllers/front.py:1019 r2/lib/menus.py:164
 msgid "awards"
@@ -798,10 +703,9 @@ msgid "Thanks for buying tippr gold! Your transaction has been completed and ema
 msgstr "感谢购买tippr黄金！你的交易已经完成，并已给你发送电子邮件。你可以登录你的账户查看交易详情："
 
 #: r2/controllers/front.py:1512
-#, fuzzy, python-format
-#| msgid "Thanks for buying tippr gold! Your transaction is being processed. If you have any questions please email us at %(gold_email)s"
+#, python-format
 msgid "Thanks for buying tippr gold! Your transaction is being processed. If you have any questions please contact us at %(gold_email)s"
-msgstr "感谢购买tippr黄金！你的交易正在处理。如果你有任何疑问，请发送电子邮件至%(gold_email)s联系我们"
+msgstr "感谢购买 tippr gold!你的付款正在处理中。如有疑问,请发邮件至 %(gold_email)s"
 
 #: r2/controllers/front.py:1520 r2/controllers/front.py:1826
 msgid "thanks"
@@ -868,13 +772,7 @@ msgid "Your gold gift code has been generated!"
 msgstr "你的黄金礼物代码已经生成！"
 
 #: r2/controllers/ipn.py:349
-#, fuzzy, python-format
-#| msgid ""
-#| "Here is your gift code for %(amount)s of tippr gold:\n"
-#| "\n"
-#| "%(code)s\n"
-#| "\n"
-#| "The recipient (or you!) can enter it at https://www.tippr.net/gold or go directly to https://www.tippr.net/thanks/%(code)s to claim it."
+#, python-format
 msgid ""
 "Here is your gift code for %(amount)s of tippr gold:\n"
 "\n"
@@ -882,11 +780,11 @@ msgid ""
 "\n"
 "The recipient (or you!) can enter it at %(site)s/gold or go directly to %(site)s/thanks/%(code)s to claim it."
 msgstr ""
-"这是你%(amount)s的tippr黄金的礼物代码：\n"
+"这是你购买的 %(amount)s tippr gold 礼品码:\n"
 "\n"
 "%(code)s\n"
 "\n"
-"受赠者（或是你！）可以在http://www.tippr.net/gold输入代码或直接前往http://www.tippr.net/thanks/%(code)s认领tippr黄金。"
+"收件人(或你自己!)可以在 %(site)s/gold 输入,或直接访问 %(site)s/thanks/%(code)s 领取。"
 
 #: r2/controllers/ipn.py:377
 msgid "nice try."
@@ -1014,10 +912,9 @@ msgid "your gold subscription has been cancelled"
 msgstr "你的黄金订阅已经取消"
 
 #: r2/controllers/ipn.py:1087
-#, fuzzy, python-format
-#| msgid "if you have any questions please email %(email)s"
+#, python-format
 msgid "if you have any questions please contact us at %(email)s"
-msgstr "如果您有任何问题，请给%(email)s寄信"
+msgstr "如有疑问,请发邮件至 %(email)s"
 
 #: r2/controllers/ipn.py:1114
 msgid "something bad happened, try again later"
@@ -1252,7 +1149,7 @@ msgstr "短信"
 
 #: r2/controllers/listingcontroller.py:1672
 msgid "vaults: "
-msgstr "版块："
+msgstr "版块： "
 
 #: r2/controllers/listingcontroller.py:1815
 msgid "To block a user click 'block user'  below a message from a user you wish to block from messaging you."
@@ -1286,64 +1183,48 @@ msgid "%(author)s's comment from discussion \"%(title)s\""
 msgstr "%(author)s在讨论“%(title)s”的评论"
 
 #: r2/controllers/policies.py:47
-#, fuzzy
-#| msgid "reload suggestions"
 msgid "frequently asked questions"
-msgstr "重新加载建议"
+msgstr "常见问题"
 
 #: r2/controllers/policies.py:48
-#, fuzzy
-#| msgid "search"
 msgid "searching"
 msgstr "搜索"
 
 #: r2/controllers/policies.py:49
-#, fuzzy
-#| msgid "posts and comments"
 msgid "formatting posts and comments"
-msgstr "帖子与评论"
+msgstr "帖子和评论的格式"
 
 #: r2/controllers/policies.py:50 r2/lib/menus.py:109
 msgid "RSS feeds"
 msgstr "RSS源"
 
 #: r2/controllers/policies.py:51
-#, fuzzy
-#| msgid "trophy case"
 msgid "trophies"
-msgstr "奖品展示柜"
+msgstr "奖杯"
 
 #: r2/controllers/policies.py:52
-#, fuzzy
-#| msgid "reload suggestions"
 msgid "timeouts and suspensions"
-msgstr "重新加载建议"
+msgstr "禁言和封禁"
 
 #: r2/controllers/policies.py:53
-#, fuzzy
-#| msgid "quarantined"
 msgid "quarantined vaults"
-msgstr "已隔离"
+msgstr "被隔离的版块"
 
 #: r2/controllers/policies.py:54
-#, fuzzy
-#| msgid "moderator mail"
 msgid "muting in moderator mail"
-msgstr "版主信息"
+msgstr "在版主邮件中静音"
 
 #: r2/controllers/policies.py:55
 msgid "using the API"
-msgstr ""
+msgstr "使用 API"
 
 #: r2/controllers/policies.py:56 r2/lib/menus.py:195
 msgid "advertising"
 msgstr "广告"
 
 #: r2/controllers/policies.py:57
-#, fuzzy
-#| msgid "help translate"
 msgid "translating"
-msgstr "帮助翻译"
+msgstr "翻译"
 
 #: r2/controllers/policies.py:70 r2/controllers/policies.py:88 r2/lib/menus.py:102 r2/lib/pages/pages.py:6026 r2/templates/contactus.html:92
 msgid "user agreement"
@@ -1358,10 +1239,8 @@ msgid "content policy"
 msgstr "内容政策"
 
 #: r2/controllers/policies.py:73 r2/controllers/policies.py:94 r2/templates/contactus.html:99
-#, fuzzy
-#| msgid "moderator mail"
 msgid "moderator guidelines"
-msgstr "版主信息"
+msgstr "版主准则"
 
 #: r2/controllers/post.py:86
 msgid "over 18?"
@@ -1372,178 +1251,152 @@ msgid "quarantined"
 msgstr "已隔离"
 
 #: r2/controllers/privacy.py:89
-#, fuzzy
-#| msgid "privacy options"
 msgid "Privacy Settings"
 msgstr "隐私设置"
 
 #: r2/controllers/privacy.py:131
 msgid "Your data export request has been submitted. You will receive a notification when it is ready."
-msgstr ""
+msgstr "你的数据导出请求已提交。准备好后会通知你。"
 
 #: r2/controllers/privacy.py:156
-#, fuzzy
-#| msgid "start date cannot be changed"
 msgid "This request cannot be cancelled."
-msgstr "开始日期无法更改"
+msgstr "此请求无法取消。"
 
 #: r2/controllers/privacy.py:160
 msgid "Request cancelled."
-msgstr ""
+msgstr "请求已取消。"
 
 #: r2/controllers/privacy.py:244
 msgid "Download Your Data"
-msgstr ""
+msgstr "下载你的数据"
 
 #: r2/controllers/privacy.py:246
 msgid "You can request a copy of your personal data. This includes your posts, comments, messages, preferences, and other account information."
-msgstr ""
+msgstr "你可以申请一份个人数据的副本,包括你的帖子、评论、消息、设置和其他账户信息。"
 
 #: r2/controllers/privacy.py:252
 msgid "A data export is currently being prepared. You will be notified when it is ready."
-msgstr ""
+msgstr "正在准备数据导出。准备好后会通知你。"
 
 #: r2/controllers/privacy.py:257
 msgid "Your data export is ready for download."
-msgstr ""
+msgstr "你的数据导出已可下载。"
 
 #: r2/controllers/privacy.py:259
-#, fuzzy
-#| msgid "download"
 msgid "Download Export"
-msgstr "下载"
+msgstr "下载导出文件"
 
 #: r2/controllers/privacy.py:261
 msgid "This download will expire in 7 days. Downloads are limited to 5 times."
-msgstr ""
+msgstr "此下载链接 7 天后失效,最多可下载 5 次。"
 
 #: r2/controllers/privacy.py:267
 msgid "Request Data Export"
-msgstr ""
+msgstr "申请数据导出"
 
 #: r2/controllers/privacy.py:269
 msgid "Data exports are processed within 24-48 hours. You can request one export per day."
-msgstr ""
+msgstr "数据导出会在 24 到 48 小时内处理完。每天可以申请一次。"
 
 #: r2/controllers/privacy.py:274
-#, fuzzy
-#| msgid "History"
 msgid "Export History"
-msgstr "历史"
+msgstr "导出记录"
 
 #: r2/controllers/privacy.py:277
-#, fuzzy
-#| msgid "auction"
 msgid "Action"
-msgstr "竞价"
+msgstr "操作"
 
 #: r2/controllers/privacy.py:287
-#, fuzzy
-#| msgid "download"
 msgid "Download"
 msgstr "下载"
 
 #: r2/controllers/privacy.py:290
-#, fuzzy
-#| msgid "cancel"
 msgid "Cancel"
 msgstr "取消"
 
 #: r2/controllers/privacy.py:299
 msgid "Your Privacy Rights"
-msgstr ""
+msgstr "你的隐私权利"
 
 #: r2/controllers/privacy.py:301
 msgid "Under privacy laws like GDPR and CCPA, you have the following rights:"
-msgstr ""
+msgstr "根据 GDPR 和 CCPA 等隐私法律,你享有以下权利:"
 
 #: r2/controllers/privacy.py:305
 msgid "Right to Access"
-msgstr ""
+msgstr "访问权"
 
 #: r2/controllers/privacy.py:305
 msgid "Request a copy of your personal data"
-msgstr ""
+msgstr "申请一份个人数据的副本"
 
 #: r2/controllers/privacy.py:307
 msgid "Right to Deletion"
-msgstr ""
+msgstr "删除权"
 
 #: r2/controllers/privacy.py:307
 msgid "Delete your account and personal data"
-msgstr ""
+msgstr "删除你的账户和个人数据"
 
 #: r2/controllers/privacy.py:309
 msgid "Right to Portability"
-msgstr ""
+msgstr "可携带权"
 
 #: r2/controllers/privacy.py:309
 msgid "Download your data in a portable format"
-msgstr ""
+msgstr "以可携带的格式下载你的数据"
 
 #: r2/controllers/privacy.py:311
 msgid "Right to Rectification"
-msgstr ""
+msgstr "更正权"
 
 #: r2/controllers/privacy.py:311
 msgid "Correct inaccurate personal data"
-msgstr ""
+msgstr "更正不准确的个人数据"
 
 #: r2/controllers/privacy.py:314
 msgid "For more information, see our"
-msgstr ""
+msgstr "详情请参阅我们的"
 
 #: r2/controllers/privacy.py:319
 msgid "Delete Your Account"
-msgstr ""
+msgstr "删除账户"
 
 #: r2/controllers/privacy.py:321
 msgid "You can permanently delete your account and all associated data. This action cannot be undone."
-msgstr ""
+msgstr "你可以永久删除你的账户及所有相关数据。此操作无法撤销。"
 
 #: r2/controllers/privacy.py:325
 msgid "Delete My Account"
-msgstr ""
+msgstr "删除我的账户"
 
 #: r2/controllers/privacy.py:330
-#, fuzzy
-#| msgid "contact us"
 msgid "Contact Us"
 msgstr "联系我们"
 
 #: r2/controllers/privacy.py:332
 msgid "For privacy-related inquiries or to exercise your rights, contact us at:"
-msgstr ""
+msgstr "如有隐私方面的问题或想行使你的权利,请联系:"
 
 #: r2/controllers/privacy.py:335 r2/templates/contactus.html:86
-#, fuzzy
-#| msgid "you sent an invalid request"
 msgid "Send a privacy request"
-msgstr "请求无效"
+msgstr "发送隐私请求"
 
 #: r2/controllers/promotecontroller.py:342
-#, fuzzy
-#| msgid "accepted promoted links"
 msgid "create sponsored link"
-msgstr "接受的推广链接"
+msgstr "创建推广链接"
 
 #: r2/controllers/promotecontroller.py:355
-#, fuzzy
-#| msgid "edited live promoted links"
 msgid "edit sponsored link"
-msgstr "编辑直播推广链接"
+msgstr "编辑推广链接"
 
 #: r2/controllers/promotecontroller.py:441
-#, fuzzy
-#| msgid "ignored reports"
 msgid "sponsored link report"
-msgstr "忽略举报"
+msgstr "推广链接报告"
 
 #: r2/controllers/promotecontroller.py:477
-#, fuzzy
-#| msgid "promoted post inventory"
 msgid "sponsored link inventory"
-msgstr "举报广告帖子"
+msgstr "推广链接库存"
 
 #: r2/controllers/promotecontroller.py:496
 msgid "unapproved promoted links"
@@ -1603,7 +1456,7 @@ msgstr "目标已售罄，无法免费获取"
 
 #: r2/controllers/promotecontroller.py:846
 msgid "fraudnot fraud"
-msgstr ""
+msgstr "欺诈非欺诈"
 
 #: r2/controllers/promotecontroller.py:886
 msgid "refund not needed"
@@ -1614,10 +1467,8 @@ msgid "refund succeeded"
 msgstr "退款成功"
 
 #: r2/controllers/promotecontroller.py:893
-#, fuzzy
-#| msgid "refund"
 msgid "refund failed"
-msgstr "退款"
+msgstr "退款失败"
 
 #: r2/controllers/promotecontroller.py:1594
 msgid "failed to authenticate card. sorry."
@@ -1639,19 +1490,15 @@ msgstr "图像必须为jpg或png"
 
 #: r2/controllers/promotecontroller.py:1797 r2/controllers/promotecontroller.py:1800
 msgid "the upload took too long; try again"
-msgstr ""
+msgstr "上传时间过长;请重试"
 
 #: r2/controllers/promotecontroller.py:1805
-#, fuzzy
-#| msgid "icon image"
 msgid "choose an image"
-msgstr "图标图像"
+msgstr "请选择图片"
 
 #: r2/controllers/promotecontroller.py:1807
-#, fuzzy
-#| msgid "too big. keep it under "
 msgid "too big. keep it under 500 KB"
-msgstr "过大。应小于"
+msgstr "文件太大。请不要超过 500 KB"
 
 #: r2/controllers/tippr_base.py:1403 r2/lib/pages/pages.py:4318 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
 msgid "banned"
@@ -1733,53 +1580,51 @@ msgstr "你执行该操作次数过多，请稍后重试。"
 
 #: r2/lib/ai_content.py:35
 msgid "human-made"
-msgstr ""
+msgstr "人工创作"
 
 #: r2/lib/ai_content.py:36
 msgid "AI-assisted"
-msgstr ""
+msgstr "AI 辅助"
 
 #: r2/lib/ai_content.py:37
 msgid "AI-generated"
-msgstr ""
+msgstr "AI 生成"
 
 #: r2/lib/ai_content.py:41
 msgid "made by people, without AI"
-msgstr ""
+msgstr "人工创作,未使用 AI"
 
 #: r2/lib/ai_content.py:42
 msgid "made by people with some AI help (editing, fixes, ideas)"
-msgstr ""
+msgstr "人工创作,有少量 AI 帮助(编辑、修正、想法)"
 
 #: r2/lib/ai_content.py:43
 msgid "mostly or entirely made by AI"
-msgstr ""
+msgstr "主要或完全由 AI 创作"
 
 #: r2/lib/ai_content.py:59
 msgid "any posts (labelled)"
-msgstr ""
+msgstr "所有帖子(带标签)"
 
 #: r2/lib/ai_content.py:60
-#, fuzzy
-#| msgid "Moderate Posts"
 msgid "no AI-generated posts"
-msgstr "管理帖子"
+msgstr "不接受 AI 生成的帖子"
 
 #: r2/lib/ai_content.py:61
 msgid "AI-assisted and AI-generated posts only"
-msgstr ""
+msgstr "仅限 AI 辅助和 AI 生成的帖子"
 
 #: r2/lib/ai_content.py:71
 msgid "show everything (with labels)"
-msgstr ""
+msgstr "全部显示(带标签)"
 
 #: r2/lib/ai_content.py:72
 msgid "hide AI-generated posts"
-msgstr ""
+msgstr "隐藏 AI 生成的帖子"
 
 #: r2/lib/ai_content.py:73
 msgid "hide AI-generated and AI-assisted posts"
-msgstr ""
+msgstr "隐藏 AI 生成和 AI 辅助的帖子"
 
 #: r2/lib/cssfilter.py:373
 #, python-format
@@ -1868,25 +1713,25 @@ msgstr "再试试看吧？"
 
 #: r2/lib/errors.py:43
 msgid "this sign-up looks like spam; if it isn't, contact the site's admins"
-msgstr ""
+msgstr "这次注册看起来像垃圾信息;如果不是,请联系网站管理员"
 
 #: r2/lib/errors.py:44
 msgid "this site isn't taking new accounts right now"
-msgstr ""
+msgstr "本站目前不接受新账户注册"
 
 #: r2/lib/errors.py:45
 msgid "this app is waiting for the site's admins to approve it"
-msgstr ""
+msgstr "此应用正在等待网站管理员批准"
 
 #: r2/lib/errors.py:46
 #, python-format
 msgid "your account can't register apps yet: %(reason)s"
-msgstr ""
+msgstr "你的账户目前还不能注册应用:%(reason)s"
 
 #: r2/lib/errors.py:47
 #, python-brace-format
 msgid "the format needs {title} where the page title goes"
-msgstr ""
+msgstr "格式中需要用 {title} 表示页面标题的位置"
 
 #: r2/lib/errors.py:48
 msgid "invalid user name"
@@ -2022,10 +1867,9 @@ msgid "your budget must be at least $%(min)d and no more than $%(max)d."
 msgstr "您的收入一定要多与%(min)d美元也不能超过%(max)d美元。"
 
 #: r2/lib/errors.py:80
-#, fuzzy, python-format
-#| msgid "your budget must be at least $%(min)d and no more than $%(max)d."
+#, python-format
 msgid "your bid must be at least $%(min)s and no more than $%(max)s."
-msgstr "您的收入一定要多与%(min)d美元也不能超过%(max)d美元。"
+msgstr "你的出价必须至少为 $%(min)s,且不超过 $%(max)s。"
 
 #: r2/lib/errors.py:81
 msgid "that link has already been submitted"
@@ -2069,7 +1913,7 @@ msgstr "该目标类型无效"
 
 #: r2/lib/errors.py:91
 msgid "nsfw ads must target nsfw content"
-msgstr ""
+msgstr "NSFW 广告必须投放到 NSFW 内容"
 
 #: r2/lib/errors.py:92
 msgid "that version range is not valid"
@@ -2160,7 +2004,7 @@ msgstr "开始日期无法更改"
 
 #: r2/lib/errors.py:115
 msgid "this campaign was created prior to auction and cannot be edited"
-msgstr ""
+msgstr "这个推广活动创建于竞价功能推出之前,无法编辑"
 
 #: r2/lib/errors.py:116
 #, python-format
@@ -2182,22 +2026,16 @@ msgid "we need something here"
 msgstr "这里需要填东西"
 
 #: r2/lib/errors.py:120
-#, fuzzy
-#| msgid "please enter a name"
 msgid "please enter a title"
-msgstr "请输入名称"
+msgstr "请输入标题"
 
 #: r2/lib/errors.py:121
-#, fuzzy
-#| msgid "this is too long (max: %(max_length)s)"
 msgid "this title is too long (max: 100)"
-msgstr "太长了（最长%(max_length)s）"
+msgstr "标题太长(最多 100)"
 
 #: r2/lib/errors.py:122
-#, fuzzy
-#| msgid "this is too long (max: %(max_length)s)"
 msgid "this description is too long (max: 500)"
-msgstr "太长了（最长%(max_length)s）"
+msgstr "描述太长(最多 500)"
 
 #: r2/lib/errors.py:123 r2/public/static/js/errors.js:6
 #, python-format
@@ -2274,11 +2112,11 @@ msgstr "访问被用户拒绝"
 
 #: r2/lib/errors.py:142
 msgid "refresh tokens are not allowed for this response_type"
-msgstr ""
+msgstr "此 response_type 不允许使用刷新令牌"
 
 #: r2/lib/errors.py:143
 msgid "confidential clients can not request tokens directly"
-msgstr ""
+msgstr "机密客户端不能直接请求令牌"
 
 #: r2/lib/errors.py:144
 msgid "please confirm the form"
@@ -2294,11 +2132,11 @@ msgstr "无法通过API执行该操作"
 
 #: r2/lib/errors.py:147
 msgid "that's an AdSense publisher ID, which goes on /admin/ads; this needs the code from Search Console's HTML tag verification"
-msgstr ""
+msgstr "这是 AdSense 发布商 ID,应填在 /admin/ads;这里需要 Search Console 的 HTML 标记验证代码"
 
 #: r2/lib/errors.py:148
 msgid "that's not a Google Analytics 4 measurement ID (G-…)"
-msgstr ""
+msgstr "这不是 Google Analytics 4 的衡量 ID(G-…)"
 
 #: r2/lib/errors.py:149
 #, python-format
@@ -2327,11 +2165,11 @@ msgstr "过多开发者"
 
 #: r2/lib/errors.py:156
 msgid "you cannot add this account from this interface"
-msgstr ""
+msgstr "不能通过这个界面添加该账户"
 
 #: r2/lib/errors.py:157
 msgid "invalid modhash"
-msgstr ""
+msgstr "无效的 modhash"
 
 #: r2/lib/errors.py:158
 msgid "that user is already a moderator"
@@ -2372,7 +2210,7 @@ msgstr "无效版块组路径"
 #: r2/lib/errors.py:167
 #, python-format
 msgid "%(reason)s"
-msgstr ""
+msgstr "%(reason)s"
 
 #: r2/lib/errors.py:168
 msgid "that multivault doesn't exist"
@@ -2436,7 +2274,7 @@ msgstr "该用户被该版块封锁"
 
 #: r2/lib/errors.py:182
 msgid "You can't do that while suspended."
-msgstr ""
+msgstr "账户被封禁期间不能这样做。"
 
 #: r2/lib/errors.py:183
 msgid "you must have an active tippr gold subscription to do that"
@@ -2477,7 +2315,7 @@ msgstr "只有金牌用户可以选择本板块"
 
 #: r2/lib/errors.py:193
 msgid "your account is too new or you do not have enough karma to create a vault. please contact the admins to request an exemption."
-msgstr ""
+msgstr "你的账户太新,或羯磨不足,无法创建版块。如需例外,请联系管理员。"
 
 #: r2/lib/errors.py:194
 msgid "you must select at least one mobile OS to target"
@@ -2497,25 +2335,24 @@ msgstr "该用户已经被该版块禁言。"
 
 #: r2/lib/errors.py:198
 msgid "please say how much AI went into this post"
-msgstr ""
+msgstr "请说明这篇帖子用了多少 AI"
 
 #: r2/lib/errors.py:199
-#, fuzzy, python-format
-#| msgid "that vault only allows text posts"
+#, python-format
 msgid "this vault only accepts: %(allowed)s"
-msgstr "那个版块只允许文字帖子"
+msgstr "此版块只接受:%(allowed)s"
 
 #: r2/lib/errors.py:200
 msgid "This comment is not stickyable. Ensure that it is a top level comment."
-msgstr ""
+msgstr "这条评论无法置顶。请确认它是顶层评论。"
 
 #: r2/lib/errors.py:201 r2/public/static/js/errors.js:7
 msgid "A vault rule by that name already exists."
-msgstr ""
+msgstr "已存在同名的版块规则。"
 
 #: r2/lib/errors.py:202
 msgid "No vault rule by that name exists."
-msgstr ""
+msgstr "没有这个名称的版块规则。"
 
 #: r2/lib/errors.py:203 r2/public/static/js/errors.js:8
 msgid "This vault already has the maximum number of rules."
@@ -2533,61 +2370,61 @@ msgstr "无法访问该帖子。"
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:2
 msgid "Funny 500 page message 1"
-msgstr ""
+msgstr "呃,这本来不该发生的。"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:4
 msgid "Funny 500 page message 2"
-msgstr ""
+msgstr "我们的服务器被电线绊倒了,正在重新插上。"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:6
 msgid "Funny 500 page message 3"
-msgstr ""
+msgstr "有东西坏了。不是你的问题,是我们的。"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:8
 msgid "Funny 500 page message 4"
-msgstr ""
+msgstr "驱动这个页面的仓鼠们需要休息一下。"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:10
 msgid "Funny 500 page message 5"
-msgstr ""
+msgstr "机器人把工具箱掉在地上了,正在把东西捡起来。"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:12
 msgid "Funny 500 page message 6"
-msgstr ""
+msgstr "问题已经记录下来了。请稍后再试。"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:14
 msgid "Funny 500 page message 7"
-msgstr ""
+msgstr "这个页面摔倒了,给它一分钟爬起来。"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:16
 msgid "Funny 500 page message 8"
-msgstr ""
+msgstr "哎呀,服务器今天状态不太好。"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:18
 msgid "Funny 500 page message 9"
-msgstr ""
+msgstr "我们的机器人正在修轮子。请稍后再试。"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
 #: r2/lib/generated_strings.py:20
 msgid "Funny 500 page message 10"
-msgstr ""
+msgstr "出了点岔子。过一会儿刷新一下,也许就好了。"
 
 #. TRANSLATORS: Do not translate literally. Come up with a funny/relevant phrase
 #. (see the English version for ideas.) Accepts markdown formatting.
@@ -2775,109 +2612,99 @@ msgstr "[已删除]"
 
 #: r2/lib/live_config_admin.py:51
 msgid "Who has staff permissions: name:level pairs, comma-separated, where the level is admin, sponsor or employee. Admins can turn on admin mode. You can't remove your own admin permission here."
-msgstr ""
+msgstr "拥有员工权限的人:用逗号分隔的“名称:级别”,级别为 admin、sponsor 或 employee。管理员可以开启管理员模式。你不能在这里移除自己的管理员权限。"
 
 #: r2/lib/live_config_admin.py:55
 msgid "Accounts with at least this much post karma skip the captcha."
-msgstr ""
+msgstr "帖子羯磨达到此值的账户不需要验证码。"
 
 #: r2/lib/live_config_admin.py:57
-#, fuzzy
-#| msgid "communities with at least 5 posts or comments yesterday"
 msgid "Accounts with at least this much comment karma skip the captcha."
-msgstr "昨天至少有5个帖子或评论的社区"
+msgstr "评论羯磨达到此值的账户不需要验证码。"
 
 #: r2/lib/live_config_admin.py:59
 msgid "How old an account must be, in days, to create a vault (admins can always create one)."
-msgstr ""
+msgstr "创建版块所需的账户注册天数(管理员随时可以创建)。"
 
 #: r2/lib/live_config_admin.py:62
 msgid "Post karma needed to create a vault (this, or the comment karma below)."
-msgstr ""
+msgstr "创建版块所需的帖子羯磨(此项或下面的评论羯磨)。"
 
 #: r2/lib/live_config_admin.py:65
 msgid "Comment karma needed to create a vault (this, or the post karma above)."
-msgstr ""
+msgstr "创建版块所需的评论羯磨(此项或上面的帖子羯磨)。"
 
 #: r2/lib/live_config_admin.py:68
 msgid "A notice in every page's sidebar. Blank: none."
-msgstr ""
+msgstr "每个页面侧边栏的通知。留空:不显示。"
 
 #: r2/lib/live_config_admin.py:70
 msgid "Messages for the \"new here?\" bar shown to logged-out visitors, each in double quotes."
-msgstr ""
+msgstr "向未登录访客显示的“新来的?”横幅消息,每条用双引号括起来。"
 
 #: r2/lib/live_config_admin.py:73
 msgid "A message in the info bar at the top of listings. For a site-wide banner, use the announcement on /admin/site instead."
-msgstr ""
+msgstr "列表上方信息栏中的消息。如需全站横幅,请改用 /admin/site 的公告。"
 
 #: r2/lib/live_config_admin.py:76
 msgid "Vaults that help people find more vaults, for the explore tab: names, comma-separated."
-msgstr ""
+msgstr "帮助发现更多版块的版块,用于“探索”标签:用逗号分隔的名称。"
 
 #: r2/lib/live_config_admin.py:79
 msgid "New API apps (registered on /prefs/apps) work only for their own developers until an admin approves them on /admin/apps."
-msgstr ""
+msgstr "新的 API 应用(在 /prefs/apps 注册)在管理员于 /admin/apps 批准之前,只对其开发者可用。"
 
 #: r2/lib/live_config_admin.py:82
 msgid "How old an account must be, in days, to register an API app."
-msgstr ""
+msgstr "注册 API 应用所需的账户注册天数。"
 
 #: r2/lib/live_config_admin.py:84
 msgid "Total karma (posts and comments) needed to register an API app."
-msgstr ""
+msgstr "注册 API 应用所需的总羯磨(帖子和评论)。"
 
 #: r2/lib/live_config_admin.py:86
 msgid "Whether registering an API app needs a verified email address."
-msgstr ""
+msgstr "注册 API 应用是否需要已验证的电子邮箱地址。"
 
 #: r2/lib/live_config_admin.py:88
 msgid "Votes a post or comment needs before it can count as controversial."
-msgstr ""
+msgstr "帖子或评论需要多少票才能算作有争议。"
 
 #: r2/lib/live_config_admin.py:90
 msgid "Controversial: the lowest share of upvotes (0 to 1)."
-msgstr ""
+msgstr "有争议:赞成票的最低比例(0 到 1)。"
 
 #: r2/lib/live_config_admin.py:92
 msgid "Controversial: the highest share of upvotes (0 to 1)."
-msgstr ""
+msgstr "有争议:赞成票的最高比例(0 到 1)。"
 
 #: r2/lib/live_config_admin.py:96
 msgid "true or false"
-msgstr ""
+msgstr "true 或 false"
 
 #: r2/lib/live_config_admin.py:97
-#, fuzzy
-#| msgid "card number"
 msgid "whole number"
-msgstr "信用卡号"
+msgstr "整数"
 
 #: r2/lib/live_config_admin.py:98
-#, fuzzy
-#| msgid "card number"
 msgid "number"
-msgstr "信用卡号"
+msgstr "数字"
 
 #: r2/lib/live_config_admin.py:99
-#, fuzzy
-#| msgid "house promoted links"
 msgid "comma-separated list"
-msgstr "tippr推广链接"
+msgstr "逗号分隔的列表"
 
 #: r2/lib/live_config_admin.py:100 r2/lib/live_config_admin.py:163 r2/templates/newlink.html:96 r2/templates/promotelinkbase.html:111 r2/templates/promotelinkbase.html:117
 msgid "text"
 msgstr "文字"
 
 #: r2/lib/live_config_admin.py:101
-#, fuzzy
-#| msgid "mod messages"
 msgid "quoted messages"
-msgstr "版主短信"
+msgstr "带引号的消息"
 
 #: r2/lib/live_config_admin.py:164
 msgid "name:value pairs, comma-separated"
-msgstr ""
+msgstr "用逗号分隔的“名称:值”"
 
 #: r2/lib/menus.py:51 r2/lib/recommender.py:57
 msgid "hot"
@@ -2982,7 +2809,7 @@ msgstr "设置"
 
 #: r2/lib/menus.py:84 r2/lib/permissions.py:100 r2/templates/createvault.html:222
 msgid "wiki"
-msgstr ""
+msgstr "维基"
 
 #: r2/lib/menus.py:85
 msgid "blog"
@@ -3005,10 +2832,8 @@ msgid "widget"
 msgstr "小工具"
 
 #: r2/lib/menus.py:93
-#, fuzzy
-#| msgid "mobile website"
 msgid "mobile"
-msgstr "移动版网站"
+msgstr "移动版"
 
 #: r2/lib/menus.py:94
 msgid "advertise"
@@ -3020,11 +2845,11 @@ msgstr "网站规则"
 
 #: r2/lib/menus.py:98
 msgid "jobs"
-msgstr ""
+msgstr "招聘"
 
 #: r2/lib/menus.py:99
 msgid "transparency"
-msgstr ""
+msgstr "透明度"
 
 #: r2/lib/menus.py:100
 msgid "source code"
@@ -3150,7 +2975,7 @@ msgstr "管理队列"
 
 #: r2/lib/menus.py:144 r2/templates/preffeeds.html:129
 msgid "unmoderated posts"
-msgstr ""
+msgstr "未审核的帖子"
 
 #: r2/lib/menus.py:145 r2/templates/preffeeds.html:123
 msgid "edited"
@@ -3202,7 +3027,7 @@ msgstr "隔离"
 
 #: r2/lib/menus.py:160 r2/templates/adminvault.html:92
 msgid "featured"
-msgstr ""
+msgstr "推荐"
 
 #: r2/lib/menus.py:162
 msgid "help translate"
@@ -3213,66 +3038,46 @@ msgid "errors"
 msgstr "错误"
 
 #: r2/lib/menus.py:165 r2/templates/adminemailsettings.html:23
-#, fuzzy
-#| msgid "edit settings"
 msgid "email settings"
-msgstr "编辑设置"
+msgstr "邮件设置"
 
 #: r2/lib/menus.py:166 r2/templates/adminadsettings.html:24
-#, fuzzy
-#| msgid "settings"
 msgid "ad settings"
-msgstr "设置"
+msgstr "广告设置"
 
 #: r2/lib/menus.py:167 r2/templates/adminbackups.html:51
 msgid "backups"
-msgstr ""
+msgstr "备份"
 
 #: r2/lib/menus.py:168 r2/templates/adminsitesettings.html:66
-#, fuzzy
-#| msgid "edited settings"
 msgid "site settings"
-msgstr "编辑设置"
+msgstr "网站设置"
 
 #: r2/lib/menus.py:169 r2/templates/adminantispam.html:30
-#, fuzzy
-#| msgid "username notification"
 msgid "spam protection"
-msgstr "用户名通知"
+msgstr "反垃圾信息"
 
 #: r2/lib/menus.py:170 r2/templates/adminliveconfig.html:65
-#, fuzzy
-#| msgid "config"
 msgid "live config"
-msgstr "配置"
+msgstr "实时配置"
 
 #: r2/lib/menus.py:171 r2/lib/pages/pages.py:926 r2/templates/adminsupport.html:34
-#, fuzzy
-#| msgid "report"
 msgid "support"
-msgstr "举报"
+msgstr "支持"
 
 #: r2/lib/menus.py:172 r2/templates/adminuser.html:23 r2/templates/adminusers.html:22
-#, fuzzy
-#| msgid "user"
 msgid "users"
 msgstr "用户"
 
 #: r2/lib/menus.py:174 r2/templates/adminapps.html:35
-#, fuzzy
-#| msgid "apps"
 msgid "API apps"
-msgstr "应用"
+msgstr "API 应用"
 
 #: r2/lib/menus.py:175
-#, fuzzy
-#| msgid "RSS feeds"
 msgid "feeds"
-msgstr "RSS源"
+msgstr "订阅源"
 
 #: r2/lib/menus.py:176 r2/templates/admindomain.html:22 r2/templates/admindomains.html:22
-#, fuzzy
-#| msgid "domain"
 msgid "domains"
 msgstr "域名"
 
@@ -3396,8 +3201,6 @@ msgstr "版主"
 
 #. TRANSLATORS: This refers to the user's front page
 #: r2/lib/menus.py:448
-#, fuzzy
-#| msgid "frontpage"
 msgid "front"
 msgstr "首页"
 
@@ -3489,27 +3292,25 @@ msgstr[0] "评论"
 
 #: r2/lib/site_info.py:138
 msgid "That isn't an image tippr can read."
-msgstr ""
+msgstr "tippr 无法读取这张图片。"
 
 #: r2/lib/site_info.py:140
 #, python-format
 msgid "Use a %(formats)s image."
-msgstr ""
+msgstr "请使用 %(formats)s 图片。"
 
 #: r2/lib/site_info.py:143
 #, python-format
 msgid "Use an image at most %(n)d pixels wide and high."
-msgstr ""
+msgstr "请使用宽和高都不超过 %(n)d 像素的图片。"
 
 #: r2/lib/site_info.py:151
 msgid "The image couldn't be saved; see the error log."
-msgstr ""
+msgstr "图片无法保存;请查看错误日志。"
 
 #: r2/lib/site_info.py:209
-#, fuzzy
-#| msgid "contact us"
 msgid "the contact page"
-msgstr "联系我们"
+msgstr "联系页面"
 
 #: r2/lib/strings.py:59 r2/lib/template_helpers.py:258
 msgid "submitting..."
@@ -3591,13 +3392,12 @@ msgstr "下面是您有仲裁人访问的版面"
 
 #: r2/lib/strings.py:97
 msgid "click the `subscribe` or `unsubscribe` buttons to choose which vaults appear on your front page."
-msgstr ""
+msgstr "点击`订阅`或`取消订阅`按钮,选择哪些版块出现在你的首页上。"
 
 #: r2/lib/strings.py:99
-#, fuzzy, python-format
-#| msgid "you're searching within the [%(tippr_name)s](%(tippr_link)s) vault. you can also search within [all vaults](%(all_tipprs_link)s)"
+#, python-format
 msgid "you're searching within the [%(vault_name)s](%(vault_link)s) vault. you can also search within [all vaults](%(all_vaults_link)s)"
-msgstr "你正在[%(tippr_name)s](%(tippr_link)s)版块内搜索。你也可以在[所有版块](%(all_tipprs_link)s)内搜索"
+msgstr "你正在 [%(vault_name)s](%(vault_link)s) 版块中搜索。你也可以在[所有版块](%(all_vaults_link)s)中搜索"
 
 #: r2/lib/strings.py:102
 #, python-format
@@ -3669,10 +3469,8 @@ msgid "You may also want to check the [search help page](%(search_help)s) for mo
 msgstr "你也可以到 [搜索帮助页面](%(search_help)s)获取更多信息。"
 
 #: r2/lib/strings.py:119
-#, fuzzy
-#| msgid "tippr uses a slightly-customized version of [Markdown](http://daringfireball.net/projects/markdown/syntax) for formatting. See below for some basics, or check [the commenting wiki page](/wiki/commenting) for more detailed help and solutions to common issues."
 msgid "tippr uses a slightly-customized version of [Markdown](http://daringfireball.net/projects/markdown/syntax) for formatting. See below for some basics, or check [the formatting help](/help/formatting) for more detailed help and solutions to common issues."
-msgstr "tippr使用一种轻度定制版本的[Markdown](http://daringfireball.net/projects/markdown/syntax)控制文字格式。查看下面了解基本用法，或查看[评论wiki页面](/wiki/commenting)获取更详细的帮助和常见问题的解决方法。"
+msgstr "tippr 使用略经修改的 [Markdown](http://daringfireball.net/projects/markdown/syntax) 进行排版。下面是基础用法,更详细的帮助和常见问题的解决办法请见[格式帮助](/help/formatting)。"
 
 #: r2/lib/strings.py:120
 msgid "Tippr is in \"emergency read-only mode\" right now. :( You won't be able to log in. We're sorry and are working frantically to fix the problem."
@@ -3684,12 +3482,12 @@ msgstr "由于流量过大，本页面暂时进入只读模式。"
 
 #: r2/lib/strings.py:122
 msgid "Your account is in a [timeout](/help/suspensions) until the site's staff lift it."
-msgstr ""
+msgstr "你的账户正处于[禁言](/help/suspensions)状态,直到网站工作人员解除。"
 
 #: r2/lib/strings.py:123
 #, python-format
 msgid "Your account is in a [timeout](/help/suspensions) for %(days)s."
-msgstr ""
+msgstr "你的账户正处于为期 %(days)s 的[禁言](/help/suspensions)状态。"
 
 #: r2/lib/strings.py:126
 msgid "You sent us a postcard! (Or something similar.) When we run out of room on our refrigerator, we might one day auction off the stuff that people sent in. Is it okay if we include your thing?"
@@ -3830,11 +3628,11 @@ msgstr ""
 
 #: r2/lib/strings.py:159
 msgid "Below you will see your promotion's impression and click traffic per hour of promotion.  Please note that these traffic totals will lag behind by two to three hours, and that daily totals will be preliminary until 24 hours after the link has finished its run."
-msgstr ""
+msgstr "下面是你的推广每小时的展示次数和点击次数。这些总数会延迟两到三小时,每日总数在链接投放结束后 24 小时内仍为初步数据。"
 
 #: r2/lib/strings.py:160 r2/lib/strings.py:161
 msgid "Traffic is counted as pages are viewed, and these graphs update every few minutes."
-msgstr ""
+msgstr "流量在页面被浏览时统计,这些图表每隔几分钟更新一次。"
 
 #: r2/lib/strings.py:162
 #, python-format
@@ -3853,6 +3651,14 @@ msgid ""
 "\n"
 "Note: there are a couple of places outside of your vault where someone can click \"subscribe\", so it is possible (though unlikely) that the subscription count can exceed the unique count on a given day.\n"
 msgstr ""
+"\n"
+"下面是你版块的流量统计。每个图表显示所选时间段内的以下一项数据。\n"
+"\n"
+"* **浏览量**:人们在 %(vault)s 中浏览的页面,包括列表页和评论页(不含机器人、订阅源和 API)。\n"
+"* **独立访客**:进行这些浏览的不同人数:每位已登录成员计一次,每位未登录访客按地址和浏览器各计一次。\n"
+"* **订阅**:当天新增的订阅数。它不如前两项准确,因为我们能记录新订阅,却无法记录取消订阅。\n"
+"\n"
+"注意:版块之外也有几个地方可以点击“订阅”,所以某天的订阅数可能(虽然不太可能)超过独立访客数。\n"
 
 #: r2/lib/strings.py:174
 msgid "multivault of your subscriptions"
@@ -3868,7 +3674,7 @@ msgstr "/v/all显示来自tippr全部的内容，包括你没有订阅的版块�
 
 #: r2/lib/strings.py:178
 msgid "Displaying content from /v/all of tippr, except the following vaults:"
-msgstr ""
+msgstr "正在显示 tippr 的 /v/all 内容,但不包括以下版块:"
 
 #: r2/lib/strings.py:179
 msgid "Filtering /v/all is a feature only available to [tippr gold](/gold/about) subscribers. Displaying unfiltered results from /v/all."
@@ -3961,39 +3767,31 @@ msgstr[0] "年"
 
 #: r2/lib/support.py:57
 msgid "general"
-msgstr ""
+msgstr "一般"
 
 #: r2/lib/support.py:58
-#, fuzzy
-#| msgid "user reports:"
 msgid "serious reports"
-msgstr "用户举报："
+msgstr "严重举报"
 
 #: r2/lib/support.py:59
 msgid "appeals"
-msgstr ""
+msgstr "申诉"
 
 #: r2/lib/support.py:60
-#, fuzzy
-#| msgid "private"
 msgid "privacy"
-msgstr "非公开"
+msgstr "隐私"
 
 #: r2/lib/support.py:61 r2/templates/contactus.html:90
 msgid "copyright and legal"
-msgstr ""
+msgstr "版权与法律"
 
 #: r2/lib/support.py:62
-#, fuzzy
-#| msgid "moderator mail"
 msgid "moderator help"
-msgstr "版主信息"
+msgstr "版主帮助"
 
 #: r2/lib/support.py:63
-#, fuzzy
-#| msgid "ratelimit disabled"
 msgid "rate limits"
-msgstr "速率限制停用"
+msgstr "请求限制"
 
 #: r2/lib/support.py:64 r2/models/vault.py:326 r2/templates/adminuser.html:73
 msgid "gold"
@@ -4001,77 +3799,61 @@ msgstr "黄金"
 
 #: r2/lib/support.py:71 r2/templates/adminsitesettings.html:112
 msgid "open"
-msgstr ""
+msgstr "未处理"
 
 #: r2/lib/support.py:72 r2/lib/support.py:80
 msgid "waiting on the member"
-msgstr ""
+msgstr "等待成员回复"
 
 #: r2/lib/support.py:73 r2/lib/support.py:81 r2/templates/adminsitesettings.html:113 r2/templates/adminsupportactivity.html:42
 msgid "closed"
 msgstr "关闭"
 
 #: r2/lib/support.py:78
-#, fuzzy
-#| msgid "post reply"
 msgid "needs a reply"
-msgstr "发表回复"
+msgstr "需要回复"
 
 #: r2/lib/support.py:79
-#, fuzzy
-#| msgid "assign to user"
 msgid "assigned to me"
-msgstr "分配给用户"
+msgstr "分配给我的"
 
 #: r2/lib/support.py:89
-#, fuzzy
-#| msgid "open this multi"
 msgid "opened the ticket"
-msgstr "打开该版块组"
+msgstr "创建了工单"
 
 #: r2/lib/support.py:90
-#, fuzzy
-#| msgid "try again"
 msgid "wrote again"
-msgstr "重试"
+msgstr "再次回复"
 
 #: r2/lib/support.py:92
-#, fuzzy, python-format
-#| msgid "removed at %(time)s"
+#, python-format
 msgid "marked it %(detail)s"
-msgstr "删除于%(time)s"
+msgstr "标记为 %(detail)s"
 
 #: r2/lib/support.py:93
-#, fuzzy, python-format
-#| msgid "raise it to %s"
+#, python-format
 msgid "assigned it to %(detail)s"
-msgstr "提高至 %s"
+msgstr "分配给 %(detail)s"
 
 #: r2/lib/support.py:94
 msgid "unassigned it"
-msgstr ""
+msgstr "取消了分配"
 
 #: r2/lib/support.py:95
 msgid "left a note"
-msgstr ""
+msgstr "留下了备注"
 
 #: r2/lib/support.py:161
-#, fuzzy
-#| msgid "unread"
 msgid "read"
-msgstr "未读"
+msgstr "阅读"
 
 #: r2/lib/support.py:162
-#, fuzzy
-#| msgid "read and reply to moderator mail"
 msgid "read and reply"
-msgstr "阅读和回复版主短信"
+msgstr "阅读和回复"
 
 #: r2/lib/system_messages.py:36 r2/lib/system_messages.py:76
-#, fuzzy
-#| msgid "you are a moderator"
 msgid "Welcome! You are now a moderator"
-msgstr "你是版主"
+msgstr "欢迎!你现在是版主了"
 
 #: r2/lib/system_messages.py:37
 #, python-format
@@ -4106,6 +3888,35 @@ msgid ""
 "\n"
 "Thank you for helping make Tippr a great place!"
 msgstr ""
+"**恭喜!** 你已被添加为 [%(title)s](%(url)s) 的版主。\n"
+"\n"
+"---\n"
+"\n"
+"## 欢迎加入 Tippr 版主社区!\n"
+"\n"
+"作为版主,你在建设和维护社区方面起着至关重要的作用。以下是一些需要了解的重要事项:\n"
+"\n"
+"### 你的职责\n"
+"\n"
+"- 执行版块规则和全站政策\n"
+"- 为社区成员营造友好的氛围\n"
+"- 审核举报并采取适当措施\n"
+"- 与其他版主合作\n"
+"\n"
+"### 重要资源\n"
+"\n"
+"- [版主准则](/help/moderatorguidelines) - 了解最佳做法和期望\n"
+"- [内容政策](/help/contentpolicy) - 了解全站规则\n"
+"- [用户协议](/help/useragreement) - 了解服务条款\n"
+"- [/v/ModSupport](/v/ModSupport) - 与其他版主交流\n"
+"\n"
+"### 志愿者身份\n"
+"\n"
+"请注意,版主是独立的志愿者,而不是 Tippr 的员工。详情请参阅[版主准则](/help/moderatorguidelines)。\n"
+"\n"
+"---\n"
+"\n"
+"感谢你帮助让 Tippr 成为一个美好的地方!"
 
 #: r2/lib/system_messages.py:61
 #, python-format
@@ -4113,13 +3924,7 @@ msgid "invitation to moderate %(url)s"
 msgstr "管理%(url)s的邀请函"
 
 #: r2/lib/system_messages.py:62
-#, fuzzy, python-format
-#| msgid ""
-#| "**gadzooks! you are invited to become a moderator of [%(title)s](%(url)s)!**\n"
-#| "\n"
-#| "*to accept*, visit the [moderators page for %(url)s](%(url)s/about/moderators) and click \"accept\".\n"
-#| "\n"
-#| "*otherwise,* if you did not expect to receive this, you can simply ignore this invitation or report it."
+#, python-format
 msgid ""
 "**gadzooks! you are invited to become a moderator of [%(title)s](%(url)s)!**\n"
 "\n"
@@ -4131,11 +3936,15 @@ msgid ""
 "\n"
 "*Before accepting, we encourage you to review our [Moderator Guidelines](/help/moderatorguidelines) to understand the expectations and responsibilities of being a moderator.*"
 msgstr ""
-"**我的天啊！您受邀担任 [%(title)s](%(url)s) 的版主！**\n"
+"**哇!你被邀请成为 [%(title)s](%(url)s) 的版主!**\n"
 "\n"
-"*如果您要接受*，请访问 [%(url)s 的版主页面](%(url)s/about/moderators)，按下「接受」按钮。\n"
+"*如果接受*,请访问 [%(url)s 的版主页面](%(url)s/about/moderators)并点击“接受”。\n"
 "\n"
-"*不过*，如果您认为其中可能有问题，可以忽略或举报这则邀请。"
+"*否则*,如果你没想到会收到这个邀请,可以直接忽略或举报。\n"
+"\n"
+"---\n"
+"\n"
+"*接受之前,建议你阅读我们的[版主准则](/help/moderatorguidelines),了解版主的期望和职责。*"
 
 #: r2/lib/system_messages.py:70
 msgid "moderator invited"
@@ -4179,6 +3988,35 @@ msgid ""
 "\n"
 "Thank you for helping make Tippr a great place!"
 msgstr ""
+"**恭喜!** 你已接受邀请,成为 [%(title)s](%(url)s) 的版主。\n"
+"\n"
+"---\n"
+"\n"
+"## 欢迎加入 Tippr 版主社区!\n"
+"\n"
+"作为版主,你在建设和维护社区方面起着至关重要的作用。以下是一些需要了解的重要事项:\n"
+"\n"
+"### 你的职责\n"
+"\n"
+"- 执行版块规则和全站政策\n"
+"- 为社区成员营造友好的氛围\n"
+"- 审核举报并采取适当措施\n"
+"- 与其他版主合作\n"
+"\n"
+"### 重要资源\n"
+"\n"
+"- [版主准则](/help/moderatorguidelines) - 了解最佳做法和期望\n"
+"- [内容政策](/help/contentpolicy) - 了解全站规则\n"
+"- [用户协议](/help/useragreement) - 了解服务条款\n"
+"- [/v/ModSupport](/v/ModSupport) - 与其他版主交流\n"
+"\n"
+"### 志愿者身份\n"
+"\n"
+"请注意,版主是独立的志愿者,而不是 Tippr 的员工。详情请参阅[版主准则](/help/moderatorguidelines)。\n"
+"\n"
+"---\n"
+"\n"
+"感谢你帮助让 Tippr 成为一个美好的地方!"
 
 #: r2/lib/system_messages.py:99
 msgid "moderator added"
@@ -4203,10 +4041,9 @@ msgid "you can view traffic on a promoted link"
 msgstr "您可以查看一条推广链接的流量"
 
 #: r2/lib/system_messages.py:112
-#, fuzzy, python-format
-#| msgid "you have been added as a moderator to [%(title)s](%(url)s)."
+#, python-format
 msgid "you have been added to the list of users able to see [traffic for the sponsored link \"%(title)s\"](%(traffic_url)s)."
-msgstr "你已经被添加为[%(title)s](%(url)s)的版主。"
+msgstr "你已被加入可以查看[推广链接“%(title)s”流量](%(traffic_url)s)的用户列表。"
 
 #: r2/lib/template_helpers.py:257
 msgid "fetching title..."
@@ -4240,13 +4077,12 @@ msgstr "tippr 管理员的官方发言"
 
 #: r2/lib/template_helpers.py:618
 msgid "a bot: posts new items from a feed automatically"
-msgstr ""
+msgstr "机器人:自动发布订阅源中的新内容"
 
 #: r2/lib/template_helpers.py:641
-#, fuzzy, python-format
-#| msgid "tippr admin, speaking officially"
+#, python-format
 msgid "moderator of /v/%(tippr)s, speaking officially"
-msgstr "tippr 管理员的官方发言"
+msgstr "/v/%(tippr)s 的版主,正式发言"
 
 #: r2/lib/template_helpers.py:655
 #, python-format
@@ -4288,7 +4124,7 @@ msgstr "用户"
 #: r2/lib/pages/pages.py:179
 #, python-format
 msgid "%d %b %Y"
-msgstr ""
+msgstr "%Y年%m月%d日"
 
 #: r2/lib/pages/pages.py:509
 msgid "wiki tools"
@@ -4353,7 +4189,7 @@ msgstr "关闭管理权限"
 
 #: r2/lib/pages/pages.py:1129
 msgid "<3"
-msgstr ""
+msgstr "<3"
 
 #: r2/lib/pages/pages.py:1402
 #, python-format
@@ -4398,10 +4234,9 @@ msgid "search vaults by name"
 msgstr "按名称搜索版块"
 
 #: r2/lib/pages/pages.py:2259
-#, fuzzy, python-format
-#| msgid "your front page"
+#, python-format
 msgid "your front page vaults (%s)"
-msgstr "你的首页"
+msgstr "你首页的版块(%s)"
 
 #: r2/lib/pages/pages.py:2347 r2/templates/createvault.html:445 r2/templates/spotlightlisting.html:62
 msgid "what's this?"
@@ -4468,9 +4303,9 @@ msgid "gifts on your behalf have helped pay for *%(time)s* of tippr server time.
 msgstr "以你的名义的赠礼帮助支付了*%(time)s*的服务器时间。"
 
 #: r2/lib/pages/pages.py:2506
-#, fuzzy, python-format
+#, python-format
 msgid "gifts on behalf of /u/%(user)s have helped pay for *%%(time)s* of tippr server time."
-msgstr "以/u/%(user)s的名义的赠礼帮助支付了*%%%(time)s*的服务器时间。"
+msgstr "以 /u/%(user)s 名义送出的礼物已帮助支付了 *%%(time)s* 的 tippr 服务器时间。"
 
 #: r2/lib/pages/pages.py:2586
 msgid "tippr is a platform for internet communities"
@@ -4506,7 +4341,7 @@ msgstr "你拥有一份信用卡黄金订阅。你的卡片（过期时间%(last
 
 #: r2/lib/pages/pages.py:3460
 msgid "try entering those letters again"
-msgstr ""
+msgstr "请重新输入这些字母"
 
 #: r2/lib/pages/pages.py:3539 r2/lib/pages/pages.py:6018 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
 msgid "search"
@@ -4675,13 +4510,11 @@ msgstr "探索版块组"
 
 #: r2/lib/pages/pages.py:6016
 msgid "faq"
-msgstr ""
+msgstr "常见问题"
 
 #: r2/lib/pages/pages.py:6017 r2/templates/usertext.html:121
-#, fuzzy
-#| msgid "formatting help"
 msgid "formatting"
-msgstr "格式帮助"
+msgstr "格式"
 
 #: r2/lib/pages/pages.py:6086
 msgid "your subscribed vaults"
@@ -4801,7 +4634,7 @@ msgstr "该wiki暂不可用。只有版主可以与该wiki交互。"
 #: r2/lib/pages/wiki.py:146
 #, python-format
 msgid "%(page)s - %(site)s"
-msgstr ""
+msgstr "%(page)s - %(site)s"
 
 #: r2/lib/pages/wiki.py:163
 msgid "this page is empty, edit it to add some content."
@@ -4825,16 +4658,14 @@ msgid "revisions"
 msgstr "版本"
 
 #: r2/lib/pages/wiki.py:205
-#, fuzzy, python-format
-#| msgid "viewing revision from %s"
+#, python-format
 msgid "Viewing recent revisions for /v/%s"
-msgstr "正在查看%s的版本"
+msgstr "/v/%s 最近的修订"
 
 #: r2/lib/pages/wiki.py:211
-#, fuzzy, python-format
-#| msgid "viewing revision from %s"
+#, python-format
 msgid "Viewing pages for /v/%s"
-msgstr "正在查看%s的版本"
+msgstr "/v/%s 的页面"
 
 #: r2/lib/pages/wiki.py:212
 msgid "Below is a list of pages in this wiki visible to you in this vault."
@@ -4853,9 +4684,6 @@ msgid "Submit a link to this wiki page or see other discussions about this wiki 
 msgstr "投稿至该wiki页面的链接或查看关于该wiki页面的其他讨论。"
 
 #: r2/lib/utils/_utils.py:229
-#, fuzzy
-#| msgid "milliseconds"
-#| msgid_plural "milliseconds"
 msgid "millisecond"
 msgid_plural "milliseconds"
 msgstr[0] "毫秒"
@@ -4986,19 +4814,15 @@ msgid "the starting point revision for this edit"
 msgstr "该编辑的开始点版本"
 
 #: r2/models/admintools.py:291
-#, fuzzy, python-format
-#| msgid ""
-#| "[Click here for details on how to set up an automatically-renewing subscription or to renew.](/gold) If you have any thoughts, complaints, rants, or suggestions about tippr gold, please write to us at %(gold_email)s. Your feedback would be much appreciated.\n"
-#| "\n"
-#| "Thank you for your past patronage."
+#, python-format
 msgid ""
 "[Click here for details on how to set up an automatically-renewing subscription or to renew.](/gold) If you have any thoughts, complaints, rants, suggestions about tippr gold, please contact us at %(gold_email)s. Your feedback would be much appreciated.\n"
 "\n"
 "Thank you for your past patronage."
 msgstr ""
-"[点击此处以了解如何为订阅服务续费，以及如何为订阅服务设置自动续费。](/gold) 如果你对tippr黄金有任何想法、建议，或者你有关于tippr黄金的不满或投诉，请给我们的邮箱写信：%(gold_email)s。我们非常感谢你的反馈。\n"
+"[点击这里了解如何设置自动续费的订阅或续订。](/gold) 如果你对 tippr gold 有任何想法、意见或建议,请发邮件至 %(gold_email)s。我们非常重视你的反馈。\n"
 "\n"
-"谢谢你一直以来的赞助。"
+"感谢你一直以来的支持。"
 
 #: r2/models/admintools.py:312
 msgid "Your tippr gold subscription has expired."
@@ -5035,50 +4859,40 @@ msgid "[deleted]"
 msgstr "[已删除]"
 
 #: r2/models/gold.py:554
-#, fuzzy, python-format
-#| msgid "a user gifted you a month of tippr gold for this comment."
-#| msgid_plural "users have gifted you %(months)d months of tippr gold for this comment."
+#, python-format
 msgid "a user gifted you a month of tippr gold for this comment."
 msgid_plural "tippr users have gifted you %(months)d months of tippr gold for this comment."
-msgstr[0] "tippr客为该评论赠送你%(months)d个月tippr黄金。"
+msgstr[0] "tippr 用户因这条评论送给你 %(months)d 个月的 tippr gold。"
 
 #: r2/models/gold.py:562
-#, fuzzy, python-format
-#| msgid "a user gifted you a month of tippr gold for this submission."
-#| msgid_plural "users have gifted you %(months)d months of tippr gold for this submission."
+#, python-format
 msgid "a user gifted you a month of tippr gold for this submission."
 msgid_plural "tippr users have gifted you %(months)d months of tippr gold for this submission."
-msgstr[0] "tippr客已经为该稿件赠送你%(months)d个月的tippr黄金。"
+msgstr[0] "tippr 用户因这篇帖子送给你 %(months)d 个月的 tippr gold。"
 
 #: r2/models/gold.py:571
-#, fuzzy, python-format
-#| msgid "you have gifted tippr gold to %(recipient)s for this comment."
-#| msgid_plural "you and other tipprors have gifted %(months)d months of tippr gold to %(recipient)s for this comment."
+#, python-format
 msgid "you have gifted tippr gold to %(recipient)s for this comment."
 msgid_plural "you and other tippr users have gifted %(months)d months of tippr gold to %(recipient)s for this comment."
-msgstr[0] "你及其他tippr客已经为该评论赠送%(months)d个月的tippr黄金给%(recipient)s。"
+msgstr[0] "你和其他 tippr 用户因这条评论送给 %(recipient)s %(months)d 个月的 tippr gold。"
 
 #: r2/models/gold.py:579
-#, fuzzy, python-format
-#| msgid "you have gifted tippr gold to %(recipient)s for this submission."
-#| msgid_plural "you and other tipprors have gifted %(months)d months of tippr gold to %(recipient)s for this submission."
+#, python-format
 msgid "you have gifted tippr gold to %(recipient)s for this submission."
 msgid_plural "you and other tippr users have gifted %(months)d months of tippr gold to %(recipient)s for this submission."
-msgstr[0] "你及其他tippr客已经为该稿件赠送%(months)d个月的tippr黄金给%(recipient)s。"
+msgstr[0] "你和其他 tippr 用户因这篇帖子送给 %(recipient)s %(months)d 个月的 tippr gold。"
 
 #: r2/models/gold.py:588
-#, fuzzy, python-format
-#| msgid "a user has gifted tippr gold to %(recipient)s for this comment."
-#| msgid_plural "users have gifted %(months)d months of tippr gold to %(recipient)s for this comment."
+#, python-format
 msgid "a user has gifted tippr gold to %(recipient)s for this comment."
 msgid_plural "tippr users have gifted %(months)d months of tippr gold to %(recipient)s for this comment."
-msgstr[0] "tippr客为该评论赠送%(recipient)s%(months)d个月的tippr黄金。"
+msgstr[0] "tippr 用户因这条评论送给 %(recipient)s %(months)d 个月的 tippr gold。"
 
 #: r2/models/gold.py:596
 #, python-format
 msgid "a user has gifted tippr gold to %(recipient)s for this submission."
 msgid_plural "tippr users have gifted %(months)d months of tippr gold to %(recipient)s for this submission."
-msgstr[0] ""
+msgstr[0] "tippr 用户因这篇帖子送给 %(recipient)s %(months)d 个月的 tippr gold。"
 
 #: r2/models/link.py:901
 #, python-format
@@ -5121,10 +4935,9 @@ msgid "submitted %(when)s by %(author)s"
 msgstr "%(author)s于%(when)s投稿"
 
 #: r2/models/link.py:1793
-#, fuzzy, python-format
-#| msgid "%(link)s by %(author)s [promoted post]"
+#, python-format
 msgid "%(link)s by %(author)s [sponsored link]"
-msgstr "%(link)s %(author)s [推广帖子]"
+msgstr "%(link)s,作者 %(author)s [推广链接]"
 
 #: r2/models/link.py:1795
 #, python-format
@@ -5168,7 +4981,7 @@ msgstr "%(when)s通过%(vault)s发送的版块短信"
 #: r2/models/link.py:2415 r2/models/link.py:2438
 #, python-format
 msgid "to %(dest)s via %(vault)s sent %(when)s"
-msgstr ""
+msgstr "发给 %(dest)s,经由 %(vault)s,发送于 %(when)s"
 
 #: r2/models/link.py:2419 r2/models/link.py:2444
 #, python-format
@@ -5225,42 +5038,37 @@ msgid "blocked users"
 msgstr "屏蔽的用户"
 
 #: r2/models/listing.py:202
-#, fuzzy, python-format
-#| msgid "that user is banned from the vault"
+#, python-format
 msgid "users banned from /v/%(vault)s"
-msgstr "该用户被该版块封锁"
+msgstr "被 /v/%(vault)s 封禁的用户"
 
 #: r2/models/listing.py:233
-#, fuzzy, python-format
-#| msgid "More from %(vault)s"
+#, python-format
 msgid "users muted from /v/%(vault)s"
-msgstr "更多来自%(vault)s"
+msgstr "在 /v/%(vault)s 被静音的用户"
 
 #: r2/models/listing.py:251
 msgid "ban wiki contibutors"
 msgstr "封禁wiki贡献者"
 
 #: r2/models/listing.py:255
-#, fuzzy, python-format
-#| msgid "More from %(vault)s"
+#, python-format
 msgid "wiki contibutors banned from /v/%(vault)s"
-msgstr "更多来自%(vault)s"
+msgstr "被 /v/%(vault)s 维基封禁的编辑者"
 
 #: r2/models/listing.py:263
-#, fuzzy, python-format
-#| msgid "approved submitters"
+#, python-format
 msgid "approved submitters for /v/%(vault)s"
-msgstr "认可投稿者"
+msgstr "/v/%(vault)s 的认可投稿者"
 
 #: r2/models/listing.py:268
 msgid "add approved submitter"
 msgstr "添加认可投稿者"
 
 #: r2/models/listing.py:275
-#, fuzzy, python-format
-#| msgid "add approved wiki contributor"
+#, python-format
 msgid "approved wiki contributors for /v/%(vault)s"
-msgstr "添加认可的wiki贡献者"
+msgstr "/v/%(vault)s 的认可维基编辑者"
 
 #: r2/models/listing.py:280
 msgid "add approved wiki contributor"
@@ -5285,10 +5093,9 @@ msgid "force add moderator"
 msgstr "强制添加版主"
 
 #: r2/models/listing.py:322
-#, fuzzy, python-format
-#| msgid "invited moderators for %(vault)s"
+#, python-format
 msgid "moderators of /v/%(vault)s"
-msgstr "邀请%(vault)s版主"
+msgstr "/v/%(vault)s 的版主"
 
 #: r2/models/mail_queue.py:331
 #, python-format
@@ -5351,7 +5158,7 @@ msgstr "[tippr]您的推广已被创建"
 
 #: r2/models/mail_queue.py:345
 msgid "[tippr] your promotion edit is being approved"
-msgstr ""
+msgstr "[tippr] 你的推广修改正在审批中"
 
 #: r2/models/mail_queue.py:346
 msgid "[tippr] hey, nerd!"
@@ -5394,10 +5201,8 @@ msgid "[selfserve] a user has committed fraud"
 msgstr "[自助服务] 一个用户已经承认诈骗"
 
 #: r2/models/mail_queue.py:356
-#, fuzzy
-#| msgid "username notification"
 msgid "[tippr] message notification"
-msgstr "用户名通知"
+msgstr "[tippr] 消息通知"
 
 #: r2/models/mail_queue.py:357
 msgid "[tippr] Ads Alert"
@@ -5477,7 +5282,7 @@ msgstr "添加wiki贡献者"
 
 #: r2/models/modaction.py:91
 msgid "delist/relist wiki pages"
-msgstr ""
+msgstr "隐藏/显示维基页面"
 
 #: r2/models/modaction.py:92
 msgid "remove wiki contributor"
@@ -5765,7 +5570,7 @@ msgstr "切换 折叠删除的评论"
 
 #: r2/models/modaction.py:177
 msgid "toggle exclude banned users' posts from modqueue"
-msgstr ""
+msgstr "切换:在审核队列中排除被封禁用户的帖子"
 
 #: r2/models/modaction.py:179
 msgid "toggle show sidebar from cname"
@@ -5889,7 +5694,7 @@ msgstr "家"
 
 #: r2/models/promo.py:88
 msgid "non-CPM, displays in all unsold impressions"
-msgstr ""
+msgstr "非 CPM,在所有未售出的展示中显示"
 
 #: r2/models/promo.py:94 r2/templates/promotelinkbase.html:931
 msgid "auction"
@@ -5897,7 +5702,7 @@ msgstr "竞价"
 
 #: r2/models/promo.py:95
 msgid "auction priority; all self-serve are auction priority"
-msgstr ""
+msgstr "竞价优先;所有自助广告都是竞价优先"
 
 #: r2/models/promo.py:343
 #, python-format
@@ -5926,11 +5731,11 @@ msgstr "垃圾信息"
 
 #: r2/models/rules.py:46
 msgid "Personal and confidential information"
-msgstr ""
+msgstr "个人和机密信息"
 
 #: r2/models/rules.py:47
 msgid "Threatening, harassing, or inciting violence"
-msgstr ""
+msgstr "威胁、骚扰或煽动暴力"
 
 #: r2/models/token.py:113
 msgid "Any Scope"
@@ -5938,7 +5743,7 @@ msgstr "任何范围"
 
 #: r2/models/token.py:114
 msgid "Endpoint is accessible with any combination of other OAuth 2 scopes."
-msgstr ""
+msgstr "可以使用任意组合的其他 OAuth 2 权限访问此接口。"
 
 #: r2/models/token.py:119
 msgid "Update account information"
@@ -5994,7 +5799,7 @@ msgstr "认可投稿者与封禁用户"
 
 #: r2/models/token.py:157
 msgid "Add/remove users to approved submitter lists and ban/unban or mute/unmute users from vaults I moderate."
-msgstr ""
+msgstr "在我管理的版块中,将用户加入或移出认可投稿者名单,以及封禁/解封、静音/取消静音用户。"
 
 #: r2/models/token.py:163
 msgid "Moderate Flair"
@@ -6246,7 +6051,7 @@ msgstr "了解更多"
 
 #: r2/public/static/js/embed.js:31
 msgid "When checked, if an embedded comment is later edited, the embedded comment text will be replaced by a link back to the current version of the comment on tippr."
-msgstr ""
+msgstr "勾选后,如果嵌入的评论之后被编辑,嵌入的评论文字会被替换为指向 tippr 上该评论当前版本的链接。"
 
 #: r2/public/static/js/embed.js:35
 msgid "This parameter can be changed after embedding."
@@ -6295,7 +6100,7 @@ msgstr "有东西出错了。"
 
 #: r2/public/static/js/image-upload.js:49
 msgid "too big. keep it under "
-msgstr "过大。应小于"
+msgstr "过大。应小于 "
 
 #: r2/public/static/js/interestbar.js:80
 #, python-format
@@ -6356,69 +6161,57 @@ msgstr "密码强度弱"
 
 #: r2/public/static/js/markdown-toolbar.js:30
 msgid "smileys"
-msgstr ""
+msgstr "笑脸"
 
 #: r2/public/static/js/markdown-toolbar.js:31
 msgid "people"
-msgstr ""
+msgstr "人物"
 
 #: r2/public/static/js/markdown-toolbar.js:32
 msgid "hearts"
-msgstr ""
+msgstr "爱心"
 
 #: r2/public/static/js/markdown-toolbar.js:33
 msgid "nature"
-msgstr ""
+msgstr "自然"
 
 #: r2/public/static/js/markdown-toolbar.js:34
 msgid "food"
-msgstr ""
+msgstr "食物"
 
 #: r2/public/static/js/markdown-toolbar.js:35 r2/templates/adminsupport.html:72
-#, fuzzy
-#| msgid "activate"
 msgid "activity"
-msgstr "激活"
+msgstr "活动"
 
 #: r2/public/static/js/markdown-toolbar.js:36
-#, fuzzy
-#| msgid "subject"
 msgid "objects"
-msgstr "主题"
+msgstr "物品"
 
 #: r2/public/static/js/markdown-toolbar.js:37
 msgid "symbols"
-msgstr ""
+msgstr "符号"
 
 #: r2/public/static/js/markdown-toolbar.js:92
-#, fuzzy
-#| msgid "quoted text"
 msgid "bold text"
-msgstr "引用的文字"
+msgstr "粗体"
 
 #: r2/public/static/js/markdown-toolbar.js:93
-#, fuzzy
-#| msgid "italics"
 msgid "italic text"
 msgstr "斜体"
 
 #: r2/public/static/js/markdown-toolbar.js:94
 msgid "struck text"
-msgstr ""
+msgstr "删除线"
 
 #: r2/public/static/js/markdown-toolbar.js:95 r2/templates/usertext.html:125
-#, fuzzy
-#| msgid "script"
 msgid "superscript"
-msgstr "脚本"
+msgstr "上标"
 
 #: r2/public/static/js/markdown-toolbar.js:96 r2/templates/usertext.html:101 r2/templates/usertext.html:102 r2/templates/usertext.html:131
 msgid "spoiler"
 msgstr "剧透"
 
 #: r2/public/static/js/markdown-toolbar.js:102 r2/templates/usertext.html:129
-#, fuzzy
-#| msgid "the code"
 msgid "code"
 msgstr "代码"
 
@@ -6431,44 +6224,32 @@ msgid "item"
 msgstr "项目"
 
 #: r2/public/static/js/markdown-toolbar.js:109
-#, fuzzy
-#| msgid "link type"
 msgid "link text"
-msgstr "链接类型"
+msgstr "链接文字"
 
 #: r2/public/static/js/markdown-toolbar.js:144 r2/public/static/js/markdown-toolbar.js:145
-#, fuzzy
-#| msgid "search"
 msgid "search emoji"
-msgstr "搜索"
+msgstr "搜索表情"
 
 #: r2/public/static/js/markdown-toolbar.js:238 r2/public/static/js/markdown-toolbar.js:271 r2/templates/usertext.html:134 r2/templates/vaultstylesheet.html:74 r2/templates/vaultstylesheet.html:89
 msgid "preview"
 msgstr "预览"
 
 #: r2/public/static/js/markdown-toolbar.js:242
-#, fuzzy
-#| msgid "preview"
 msgid "hide preview"
-msgstr "预览"
+msgstr "隐藏预览"
 
 #: r2/public/static/js/markdown-toolbar.js:243
-#, fuzzy
-#| msgid "uploading"
 msgid "loading…"
-msgstr "正在上传"
+msgstr "加载中…"
 
 #: r2/public/static/js/markdown-toolbar.js:258
-#, fuzzy
-#| msgid "hover to preview"
 msgid "nothing to preview"
-msgstr "鼠标悬停预览"
+msgstr "没有可预览的内容"
 
 #: r2/public/static/js/markdown-toolbar.js:261
-#, fuzzy
-#| msgid "preview"
 msgid "preview failed"
-msgstr "预览"
+msgstr "预览失败"
 
 #: r2/public/static/js/multi.js:509
 msgid "awesomeness goes here"
@@ -6518,7 +6299,7 @@ msgstr "以%(username)s的身分通过电子邮件分享"
 #: r2/public/static/js/post-sharing.js:109
 #, python-format
 msgid "Share via private message on tippr as %(username)s"
-msgstr ""
+msgstr "以 %(username)s 的身份通过 tippr 私信分享"
 
 #: r2/public/static/js/post-sharing.js:124
 msgid "add optional message"
@@ -6538,15 +6319,15 @@ msgstr "发送！"
 
 #: r2/public/static/js/post-sharing.js:295
 msgid "Your Mastodon server (for example mastodon.social):"
-msgstr ""
+msgstr "你的 Mastodon 服务器(例如 mastodon.social):"
 
 #: r2/public/static/js/post-sharing.js:302
 msgid "That doesn't look like a server name."
-msgstr ""
+msgstr "这看起来不像服务器名称。"
 
 #: r2/public/static/js/post-sharing.js:332
 msgid "copied!"
-msgstr ""
+msgstr "已复制!"
 
 #: r2/public/static/js/post-sharing.js:513
 #, python-format
@@ -6554,10 +6335,8 @@ msgid "Share to %(name)s"
 msgstr "分享给%(name)s"
 
 #: r2/public/static/js/post-sharing.js:524
-#, fuzzy
-#| msgid "ready to get started?"
 msgid "More ways to share"
-msgstr "准备好开始了吗？"
+msgstr "更多分享方式"
 
 #: r2/public/static/js/post-sharing.js:542
 msgid "Email to a Friend"
@@ -6607,7 +6386,7 @@ msgstr "你的预算必须不能超过$%(maxBudgetDollars)s"
 
 #: r2/public/static/js/sponsored.js:313
 msgid "Your campaign must be capable of claiming at least 1,000 impressions per day. Please adjust your bid, budget, or schedule in order to enable this."
-msgstr ""
+msgstr "你的推广活动必须每天能获得至少 1,000 次展示。请调整出价、预算或排期以启用它。"
 
 #: r2/public/static/js/sponsored.js:317
 #, python-format
@@ -6631,16 +6410,16 @@ msgstr "最大可用预算为$%(totalBudgetDollars)s（%(impressions)s个影响�
 #: r2/public/static/js/sponsored.js:354
 #, python-format
 msgid "we expect to only have %(available)s impressions on %(target)s. we may not fully deliver."
-msgstr ""
+msgstr "我们预计 %(target)s 上只有 %(available)s 次展示,可能无法全部投放。"
 
 #: r2/public/static/js/sponsored.js:373
 #, python-format
 msgid "want to maximize your campaign? for only $%(difference)s more you can buy all available inventory for your selected dates!"
-msgstr ""
+msgstr "想让推广效果最大化吗?只需再加 $%(difference)s,就能买下所选日期的全部可用库存!"
 
 #: r2/public/static/js/sponsored.js:397
 msgid "the campaign you requested is too small! this campaign is available:"
-msgstr ""
+msgstr "你申请的推广活动太小了!可以选择这个推广活动:"
 
 #: r2/public/static/js/sponsored.js:405
 msgid "the campaign you requested is too small!"
@@ -6648,17 +6427,17 @@ msgstr "你申请的广告活动过小！"
 
 #: r2/public/static/js/sponsored.js:414
 msgid "the campaign you requested is too big! the largest campaign available is:"
-msgstr ""
+msgstr "你申请的推广活动太大了!可用的最大推广活动是:"
 
 #: r2/public/static/js/sponsored.js:440
 #, python-format
 msgid "we have insufficient available inventory targeting %(target)s to fulfill your requested dates. the following campaigns are available:"
-msgstr ""
+msgstr "所选日期中定向 %(target)s 的可用库存不足。可以选择以下推广活动:"
 
 #: r2/public/static/js/sponsored.js:453
 #, python-format
 msgid "inventory for %(target)s is sold out for your requested dates. please try a different target or different dates."
-msgstr ""
+msgstr "所选日期中 %(target)s 的库存已售完。请尝试其他定向或其他日期。"
 
 #: r2/public/static/js/sponsored.js:1001
 msgid "house campaigns, man."
@@ -6735,7 +6514,7 @@ msgstr "前往"
 
 #: r2/public/static/js/ui.js:96
 msgid "menu"
-msgstr ""
+msgstr "菜单"
 
 #: r2/public/static/js/ui.js:112 r2/templates/goldpayment.html:47 r2/templates/tippr.html:267
 msgid "close"
@@ -6776,7 +6555,7 @@ msgstr "你有未保存的更改！"
 
 #: r2/public/static/js/expando/nsfwflow.js:42
 msgid "We will ask before showing NSFW media."
-msgstr ""
+msgstr "显示 NSFW 媒体前我们会先询问。"
 
 #: r2/public/static/js/expando/nsfwflow.js:78
 msgid "Click to see NSFW"
@@ -6808,123 +6587,111 @@ msgstr "隐藏NSFW"
 
 #: r2/templates/adminadsettings.html:27
 msgid "Show Google AdSense ads using your own AdSense account. Settings saved here override the ini file and apply immediately."
-msgstr ""
+msgstr "使用你自己的 AdSense 账户显示 Google AdSense 广告。在这里保存的设置会覆盖 ini 文件,并立即生效。"
 
 #: r2/templates/adminadsettings.html:30
 msgid "Ads are never shown in NSFW or quarantined vaults, on NSFW posts, in listings that include NSFW posts, in vaults whose moderators turned ads off, or to gold members who chose to hide them."
-msgstr ""
+msgstr "广告不会出现在 NSFW 或被隔离的版块、NSFW 帖子、包含 NSFW 帖子的列表、版主关闭了广告的版块中,也不会向选择隐藏广告的 gold 会员显示。"
 
 #: r2/templates/adminadsettings.html:38
-#, fuzzy
-#| msgid "show less"
 msgid "show AdSense ads"
-msgstr "显示更少"
+msgstr "显示 AdSense 广告"
 
 #: r2/templates/adminadsettings.html:42
-#, fuzzy
-#| msgid "enable"
 msgid "enabled"
-msgstr "启用"
+msgstr "已启用"
 
 #: r2/templates/adminadsettings.html:46
 msgid "publisher ID"
-msgstr ""
+msgstr "发布商 ID"
 
 #: r2/templates/adminadsettings.html:50
 msgid "From AdSense: Account > Settings > Account information (pub-…)."
-msgstr ""
+msgstr "在 AdSense 中:账号 > 设置 > 账号信息(pub-…)。"
 
 #: r2/templates/adminadsettings.html:54
-#, fuzzy
-#| msgid "make announcement"
 msgid "ad placement"
-msgstr "发表声明"
+msgstr "广告位置"
 
 #: r2/templates/adminadsettings.html:57
 msgid "tippr's ad slots (ad units)"
-msgstr ""
+msgstr "tippr 的广告位(广告单元)"
 
 #: r2/templates/adminadsettings.html:58
 msgid "Google Auto ads"
-msgstr ""
+msgstr "Google 自动广告"
 
 #: r2/templates/adminadsettings.html:61
 msgid "With Auto ads, turn them on for this site in AdSense; the slot IDs below are not used."
-msgstr ""
+msgstr "使用自动广告时,请在 AdSense 中为本站开启;下面的广告单元 ID 不会被使用。"
 
 #: r2/templates/adminadsettings.html:65
 msgid "ad units"
-msgstr ""
+msgstr "广告单元"
 
 #: r2/templates/adminadsettings.html:67
 msgid "sidebar ad unit ID"
-msgstr ""
+msgstr "侧边栏广告单元 ID"
 
 #: r2/templates/adminadsettings.html:70
 msgid "A display ad unit (data-ad-slot). Blank: no sidebar ad."
-msgstr ""
+msgstr "一个展示广告单元(data-ad-slot)。留空:侧边栏不显示广告。"
 
 #: r2/templates/adminadsettings.html:74
 msgid "in-feed ad unit ID"
-msgstr ""
+msgstr "信息流广告单元 ID"
 
 #: r2/templates/adminadsettings.html:77
 msgid "An in-feed (or display) ad unit shown in post listings; phones see this one. Blank: no in-feed ad."
-msgstr ""
+msgstr "显示在帖子列表中的信息流(或展示)广告单元;手机上显示的就是这个。留空:不显示信息流广告。"
 
 #: r2/templates/adminadsettings.html:81
 msgid "in-feed layout key"
-msgstr ""
+msgstr "信息流布局键"
 
 #: r2/templates/adminadsettings.html:84
 msgid "For an in-feed unit, its data-ad-layout-key. Leave blank for a display unit."
-msgstr ""
+msgstr "信息流广告单元的 data-ad-layout-key。展示广告单元请留空。"
 
 #: r2/templates/adminadsettings.html:88
 msgid "in-feed ad after post"
-msgstr ""
+msgstr "在第几篇帖子后插入信息流广告"
 
 #: r2/templates/adminadsettings.html:96
-#, fuzzy
-#| msgid "targeting"
 msgid "testing"
-msgstr "目标"
+msgstr "测试"
 
 #: r2/templates/adminadsettings.html:98
-#, fuzzy
-#| msgid "set contest mode"
 msgid "test mode"
-msgstr "设置比赛模式"
+msgstr "测试模式"
 
 #: r2/templates/adminadsettings.html:102
 msgid "mark requests as tests (data-adtest)"
-msgstr ""
+msgstr "将请求标记为测试(data-adtest)"
 
 #: r2/templates/adminadsettings.html:103
 msgid "Use while setting up or on a test site: test requests earn nothing and are not counted as invalid clicks."
-msgstr ""
+msgstr "在配置时或测试站点上使用:测试请求不产生收入,也不会被算作无效点击。"
 
 #: r2/templates/adminadsettings.html:112
 msgid "ads.txt"
-msgstr ""
+msgstr "ads.txt"
 
 #: r2/templates/adminadsettings.html:115
 msgid "Served at"
-msgstr ""
+msgstr "地址"
 
 #: r2/templates/adminadsettings.html:118
 msgid "/ads.txt is filled in once a publisher ID is saved."
-msgstr ""
+msgstr "保存发布商 ID 后会自动填写 /ads.txt。"
 
 #: r2/templates/adminadsettings.html:122
 msgid "In the EU, UK and Switzerland Google requires a consent message: create one in AdSense under Privacy & messaging. Mention advertising cookies in your privacy policy."
-msgstr ""
+msgstr "在欧盟、英国和瑞士,Google 要求显示同意声明:请在 AdSense 的“隐私权和消息”中创建。请在你的隐私政策中说明广告 Cookie。"
 
 #: r2/templates/adminantispam.html:20 r2/templates/adminemailsettings.html:20
-#, fuzzy
-#| msgid "days (leave blank for permanent)"
 msgid "saved; leave blank to keep"
-msgstr "天（留空为永久）"
+msgstr "已保存;留空则保持不变"
 
 #: r2/templates/adminantispam.html:20 r2/templates/adminemailsettings.html:20 r2/templates/prefupdate.html:51
 msgid "not set"
@@ -6932,241 +6699,199 @@ msgstr "未设置"
 
 #: r2/templates/adminantispam.html:33
 msgid "Who gets checked: people who are logged out, and new accounts without karma (the captcha_exempt_*_karma live config settings). Admins never are. Saved settings apply right away."
-msgstr ""
+msgstr "检查对象:未登录的人,以及没有羯磨的新账户(实时配置中的 captcha_exempt_*_karma)。管理员从不检查。保存的设置立即生效。"
 
 #: r2/templates/adminantispam.html:36
 msgid "disable_captcha is on in the ini (as in development), so no captcha is shown whatever is set here. CleanTalk still works."
-msgstr ""
+msgstr "ini 中开启了 disable_captcha(和开发环境一样),所以无论这里如何设置都不会显示验证码。CleanTalk 仍然有效。"
 
 #: r2/templates/adminantispam.html:42 r2/templates/adminantispam.html:45
-#, fuzzy
-#| msgid "captcha disabled"
 msgid "captcha"
-msgstr "验证码已停用"
+msgstr "验证码"
 
 #: r2/templates/adminantispam.html:53
 msgid "Shown when untrusted users sign up, post, send messages or create a vault. Cloudflare Turnstile, hCaptcha and reCAPTCHA need the site and secret keys from their dashboards; until both are set, tippr's own image captcha is used."
-msgstr ""
+msgstr "在不受信任的用户注册、发帖、发消息或创建版块时显示。Cloudflare Turnstile、hCaptcha 和 reCAPTCHA 需要从各自控制台获取站点密钥和私密密钥;两者都设置之前,会使用 tippr 自带的图片验证码。"
 
 #: r2/templates/adminantispam.html:55
 msgid "Using tippr's image captcha: add both keys to use this service."
-msgstr ""
+msgstr "正在使用 tippr 的图片验证码:添加两个密钥后才能使用此服务。"
 
 #: r2/templates/adminantispam.html:60
-#, fuzzy
-#| msgid "site rules"
 msgid "site key"
-msgstr "网站规则"
+msgstr "站点密钥"
 
 #: r2/templates/adminantispam.html:65
-#, fuzzy
-#| msgid "secret"
 msgid "secret key"
-msgstr "秘密"
+msgstr "私密密钥"
 
 #: r2/templates/adminantispam.html:70
 msgid "also on the sign-up form"
-msgstr ""
+msgstr "注册表单中也显示"
 
 #: r2/templates/adminantispam.html:74
 msgid "CleanTalk"
-msgstr ""
+msgstr "CleanTalk"
 
 #: r2/templates/adminantispam.html:76
 msgid "CleanTalk (cleantalk.org, a paid service) checks sign-ups, posts, comments and messages without asking anything of people. Spam sign-ups are refused; spam posts, comments and messages are saved but hidden as spam, for moderators to review in their spam queue. If CleanTalk can't be reached, everything goes through."
-msgstr ""
+msgstr "CleanTalk(cleantalk.org,付费服务)会检查注册、帖子、评论和消息,不需要用户做任何操作。垃圾注册会被拒绝;垃圾帖子、评论和消息会被保存,但作为垃圾信息隐藏,供版主在垃圾队列中审核。如果无法连接 CleanTalk,所有内容都会通过。"
 
 #: r2/templates/adminantispam.html:81
 msgid "use CleanTalk"
-msgstr ""
+msgstr "使用 CleanTalk"
 
 #: r2/templates/adminantispam.html:84
-#, fuzzy
-#| msgid "access"
 msgid "access key"
-msgstr "访问"
+msgstr "访问密钥"
 
 #: r2/templates/adminantispam.html:87
 msgid "From your CleanTalk dashboard (add a website for this site)."
-msgstr ""
+msgstr "来自你的 CleanTalk 控制台(为本站添加一个网站)。"
 
 #: r2/templates/adminantispam.html:91
 msgid "check"
-msgstr ""
+msgstr "检查"
 
 #: r2/templates/adminantispam.html:93 r2/templates/adminsitesettings.html:110
-#, fuzzy
-#| msgid "sign up"
 msgid "sign-ups"
 msgstr "注册"
 
 #: r2/templates/adminantispam.html:94
-#, fuzzy
-#| msgid "can't send message to that user"
 msgid "posts, comments and messages from untrusted users"
-msgstr "无法向该用户发送消息"
+msgstr "不受信任用户的帖子、评论和消息"
 
 #: r2/templates/adminantispam.html:104
-#, fuzzy
-#| msgid "language traffic statistics"
 msgid "CleanTalk statistics"
-msgstr "语言流量统计"
+msgstr "CleanTalk 统计"
 
 #: r2/templates/adminantispam.html:108 r2/templates/adminantispam.html:110 r2/templates/adminantispam.html:126 r2/templates/adminantispam.html:174 r2/templates/adminuser.html:37 r2/templates/adminusers.html:35
-#, fuzzy
-#| msgid "country"
 msgid "account"
-msgstr "国家"
+msgstr "账户"
 
 #: r2/templates/adminantispam.html:111
 msgid "(CleanTalk didn't say)"
-msgstr ""
+msgstr "(CleanTalk 未说明)"
 
 #: r2/templates/adminantispam.html:113
 msgid "key is ok"
-msgstr ""
+msgstr "密钥有效"
 
 #: r2/templates/adminantispam.html:115
-#, fuzzy
-#| msgid "that preference isn't valid"
 msgid "key isn't valid"
-msgstr "该设置无效"
+msgstr "密钥无效"
 
 #: r2/templates/adminantispam.html:119
 msgid "paid until"
-msgstr ""
+msgstr "付费至"
 
 #: r2/templates/adminantispam.html:119
 msgid " (trial)"
-msgstr ""
+msgstr " (试用)"
 
 #: r2/templates/adminantispam.html:122
 msgid "Checking is off for this website in your CleanTalk dashboard."
-msgstr ""
+msgstr "你的 CleanTalk 控制台中关闭了对此网站的检查。"
 
 #: r2/templates/adminantispam.html:126
-#, fuzzy
-#| msgid "Cannot access this post."
 msgid "no access key set"
-msgstr "无法访问该帖子。"
+msgstr "未设置访问密钥"
 
 #: r2/templates/adminantispam.html:129
-#, fuzzy
-#| msgid "last name"
 msgid "last check"
-msgstr "姓名"
+msgstr "上次检查"
 
 #: r2/templates/adminantispam.html:133
-#, fuzzy
-#| msgid "none"
 msgid "none yet"
-msgstr "无"
+msgstr "暂无"
 
 #: r2/templates/adminantispam.html:136
 #, python-format
 msgid "last %(n)d days"
-msgstr ""
+msgstr "最近 %(n)d 天"
 
 #: r2/templates/adminantispam.html:137
 #, python-format
 msgid "%(checks)d checks: %(allowed)d allowed, %(spam)d spam (%(signups)d sign-ups, %(content)d posts, comments or messages), %(errors)d couldn't reach CleanTalk"
-msgstr ""
+msgstr "共检查 %(checks)d 次:通过 %(allowed)d,垃圾 %(spam)d(注册 %(signups)d,帖子、评论或消息 %(content)d),无法连接 CleanTalk %(errors)d 次"
 
 #: r2/templates/adminantispam.html:139
 msgid "average response"
-msgstr ""
+msgstr "平均响应时间"
 
 #: r2/templates/adminantispam.html:141
-#, fuzzy
-#| msgid "second"
-#| msgid_plural "seconds"
 msgid "seconds"
 msgstr "秒"
 
 #: r2/templates/adminantispam.html:149 r2/templates/adminantispam.html:157
 msgid "check users for spam"
-msgstr ""
+msgstr "检查用户是否为垃圾账户"
 
 #: r2/templates/adminantispam.html:150
 msgid "CleanTalk checks accounts' email addresses and the address they last logged in from against its lists of senders seen spamming other sites. Flagged accounts are listed below for you to look at; nothing happens to them by itself (shared networks and old reports can match too)."
-msgstr ""
+msgstr "CleanTalk 会将账户的电子邮箱地址和最后一次登录的地址,与它在其他网站发现的垃圾信息发送者名单进行比对。被标记的账户会列在下面供你查看;系统不会自动对它们做任何处理(共享网络和旧的举报也可能匹配)。"
 
 #: r2/templates/adminantispam.html:151
 #, python-format
 msgid "Checked %(checked)d of %(total)d accounts."
-msgstr ""
+msgstr "已检查 %(checked)d / %(total)d 个账户。"
 
 #: r2/templates/adminantispam.html:156
-#, fuzzy
-#| msgid "account credentials"
 msgid "accounts not checked yet"
-msgstr "账户凭证"
+msgstr "尚未检查的账户"
 
 #: r2/templates/adminantispam.html:163
-#, fuzzy
-#| msgid "start date"
 msgid "start over"
-msgstr "开始日期"
+msgstr "重新开始"
 
 #: r2/templates/adminantispam.html:164
 msgid "forgets every result, so the next checks cover everyone again"
-msgstr ""
+msgstr "清除所有结果,下次检查会重新覆盖所有人"
 
 #: r2/templates/adminantispam.html:168
 msgid "flagged by CleanTalk"
-msgstr ""
+msgstr "被 CleanTalk 标记"
 
 #: r2/templates/adminantispam.html:174 r2/templates/adminuser.html:39 r2/templates/adminusers.html:35
 msgid "joined"
-msgstr ""
+msgstr "注册时间"
 
 #: r2/templates/adminantispam.html:174 r2/templates/adminuser.html:63 r2/templates/adminusers.html:35
-#, fuzzy
-#| msgid "post karma"
 msgid "karma"
-msgstr "帖子羯磨"
+msgstr "羯磨"
 
 #: r2/templates/adminantispam.html:175 r2/templates/adminuser.html:64 r2/templates/adminusers.html:36 r2/templates/login.html:107 r2/templates/newsletter.html:58 r2/templates/newsletterbar.html:43 r2/templates/prefupdate.html:71
 msgid "email"
 msgstr "电子邮件"
 
 #: r2/templates/adminantispam.html:180
-#, fuzzy
-#| msgid "suspended"
 msgid " (suspended)"
-msgstr "已暂停"
+msgstr " (已封禁)"
 
 #: r2/templates/adminantispam.html:185 r2/templates/adminantispam.html:192
-#, fuzzy, python-format
-#| msgid "approved by %(who)s at %(when)s"
+#, python-format
 msgid "reported by %(n)s sites, last %(when)s"
-msgstr "%(who)s于%(when)s认可"
+msgstr "被 %(n)s 个网站举报,最近一次在 %(when)s"
 
 #: r2/templates/adminantispam.html:187 r2/templates/adminantispam.html:194
-#, fuzzy
-#| msgid "clear"
 msgid "(clean)"
-msgstr "清除"
+msgstr "(正常)"
 
 #: r2/templates/adminantispam.html:200
-#, fuzzy
-#| msgid "rejected"
 msgid "Selected:"
-msgstr "拒绝"
+msgstr "已选:"
 
 #: r2/templates/adminantispam.html:202
 msgid "not spam (dismiss)"
-msgstr ""
+msgstr "不是垃圾信息(忽略)"
 
 #: r2/templates/adminantispam.html:203 r2/templates/adminapps.html:107 r2/templates/adminuser.html:125
-#, fuzzy
-#| msgid "suspended"
 msgid "suspend"
-msgstr "已暂停"
+msgstr "封禁"
 
 #: r2/templates/adminantispam.html:204
 msgid "suspend and remove their content as spam"
-msgstr ""
+msgstr "封禁并将其内容作为垃圾信息移除"
 
 #: r2/templates/adminantispam.html:206 r2/templates/exploreitemlisting.html:55
 msgid "apply"
@@ -7174,58 +6899,50 @@ msgstr "应用"
 
 #: r2/templates/adminantispam.html:210 r2/templates/adminuser.html:188 r2/templates/adminuser.html:236 r2/templates/adminvault.html:109 r2/templates/adminvault.html:139 r2/templates/adminvaults.html:66 r2/templates/adminvaults.html:78
 msgid "None."
-msgstr ""
+msgstr "无。"
 
 #: r2/templates/adminapps.html:27
 msgid "reason (shown to its developers)"
-msgstr ""
+msgstr "原因(会显示给开发者)"
 
 #: r2/templates/adminapps.html:38
 msgid "Apps registered on /prefs/apps use the API on behalf of the accounts that authorize them. A suspended app's tokens stop working at once; an app waiting for approval works only for its own developers."
-msgstr ""
+msgstr "在 /prefs/apps 注册的应用会代表授权它们的账户使用 API。被封禁的应用的令牌会立即失效;等待批准的应用只对其开发者可用。"
 
 #: r2/templates/adminapps.html:40
 msgid "Now:"
-msgstr ""
+msgstr "当前:"
 
 #: r2/templates/adminapps.html:42
-#, fuzzy
-#| msgid "waiting approval"
 msgid "new apps need approval;"
-msgstr "等待认可"
+msgstr "新应用需要批准;"
 
 #: r2/templates/adminapps.html:44
 msgid "new apps work right away;"
-msgstr ""
+msgstr "新应用立即可用;"
 
 #: r2/templates/adminapps.html:46
 #, python-format
 msgid "registering needs an account %(age)d days old with %(karma)d karma"
-msgstr ""
+msgstr "注册需要账户注册满 %(age)d 天并有 %(karma)d 羯磨"
 
 #: r2/templates/adminapps.html:46
-#, fuzzy
-#| msgid "no verified email address for that user"
 msgid " and a verified email address"
-msgstr "该用户没有已验证的邮箱地址"
+msgstr " 以及已验证的电子邮箱地址"
 
 #: r2/templates/adminapps.html:47
 msgid "Change these on"
-msgstr ""
+msgstr "更改位置:"
 
 #: r2/templates/adminapps.html:51
-#, fuzzy
-#| msgid "waiting approval"
 msgid "waiting for approval"
-msgstr "等待认可"
+msgstr "等待批准"
 
 #: r2/templates/adminapps.html:51
 msgid "active"
 msgstr "活跃"
 
 #: r2/templates/adminapps.html:65
-#, fuzzy
-#| msgid "apps"
 msgid "app"
 msgstr "应用"
 
@@ -7234,124 +6951,106 @@ msgid "developers"
 msgstr "开发者"
 
 #: r2/templates/adminapps.html:66
-#, fuzzy
-#| msgid "redirect uri"
 msgid "redirect"
-msgstr "重定向URI"
+msgstr "重定向"
 
 #: r2/templates/adminapps.html:66
-#, fuzzy
-#| msgid "orangered"
 msgid "registered"
-msgstr "橙红"
+msgstr "注册时间"
 
 #: r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminusers.html:36 r2/templates/adminvaults.html:50
 msgid "status"
 msgstr "状态"
 
 #: r2/templates/adminapps.html:72
-#, fuzzy
-#| msgid "new name"
 msgid "(no name)"
-msgstr "新名称"
+msgstr "(无名称)"
 
 #: r2/templates/adminapps.html:74
 msgid "(the site's own)"
-msgstr ""
+msgstr "(网站自带)"
 
 #: r2/templates/adminapps.html:104 r2/templates/printablebuttons.html:57 r2/templates/printablebuttons.html:272
 msgid "approve"
 msgstr "认可"
 
 #: r2/templates/adminapps.html:110 r2/templates/adminuser.html:123
-#, fuzzy
-#| msgid "other discussions"
 msgid "lift the suspension"
-msgstr "其他讨论"
+msgstr "解除封禁"
 
 #: r2/templates/adminapps.html:113 r2/templates/adminbackups.html:139 r2/templates/adminfeeds.html:129 r2/templates/adminuser.html:166 r2/templates/multiinfobar.html:56 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:578 r2/templates/renderablecampaign.html:161 r2/templates/rules.html:135 r2/templates/wikipagesettings.html:79
 msgid "delete"
 msgstr "删除"
 
 #: r2/templates/adminapps.html:120 r2/templates/adminsupport.html:93
-#, fuzzy
-#| msgid "we need something here"
 msgid "Nothing here."
-msgstr "这里需要填东西"
+msgstr "这里什么都没有。"
 
 #: r2/templates/adminbackups.html:43
 msgid "type the domain to confirm"
-msgstr ""
+msgstr "输入域名以确认"
 
 #: r2/templates/adminbackups.html:54
 msgid "Export the whole site (database, Cassandra, saved settings, uploaded media and signing secrets) to a folder on this server, copy a backup from another tippr server, or restore one. To move from a single VM to separate servers or containers: export here, then import and restore on the new server."
-msgstr ""
+msgstr "将整个网站(数据库、Cassandra、已保存的设置、上传的媒体和签名密钥)导出到此服务器上的文件夹,从另一台 tippr 服务器复制备份,或恢复备份。要从单个虚拟机迁移到独立的服务器或容器:在这里导出,然后在新服务器上导入并恢复。"
 
 #: r2/templates/adminbackups.html:59
 msgid "The backup service isn't installed on this server, so nothing here can run. Re-run the installer, or use the tippr-backup command as root."
-msgstr ""
+msgstr "此服务器未安装备份服务,所以这里的功能都无法运行。请重新运行安装程序,或以 root 身份使用 tippr-backup 命令。"
 
 #: r2/templates/adminbackups.html:67
 #, python-format
 msgid "waiting to start: %(action)s, requested by %(user)s"
-msgstr ""
+msgstr "等待开始:%(action)s,由 %(user)s 请求"
 
 #: r2/templates/adminbackups.html:75
-#, fuzzy
-#| msgid "start"
 msgid "started"
-msgstr "开始"
+msgstr "已开始"
 
 #: r2/templates/adminbackups.html:75
-#, fuzzy
-#| msgid "distinguished"
 msgid "finished"
-msgstr "已对比"
+msgstr "已完成"
 
 #: r2/templates/adminbackups.html:85
 msgid "This page reloads every 10 seconds while a request runs. Restores and offline exports stop the site for a while; reload once it's back."
-msgstr ""
+msgstr "请求运行期间,此页面每 10 秒刷新一次。恢复和离线导出会让网站暂停一段时间;恢复后请刷新页面。"
 
 #: r2/templates/adminbackups.html:90
-#, fuzzy
-#| msgid "report"
 msgid "export"
-msgstr "举报"
+msgstr "导出"
 
 #: r2/templates/adminbackups.html:96
 msgid "take the site offline while exporting"
-msgstr ""
+msgstr "导出时让网站离线"
 
 #: r2/templates/adminbackups.html:97
 msgid "Stops tippr once the queues empty, so the copy is consistent; use this when moving servers. Without it the site stays up and the copy may miss changes made while it runs."
-msgstr ""
+msgstr "等队列清空后停止 tippr,以保证副本一致;迁移服务器时使用。不选的话网站会继续运行,导出期间的更改可能不会进入副本。"
 
 #: r2/templates/adminbackups.html:99
-#, fuzzy
-#| msgid "report"
 msgid "export now"
-msgstr "举报"
+msgstr "立即导出"
 
 #: r2/templates/adminbackups.html:102
 #, python-format
 msgid "Backups are written to %(dir)s (backup_dir in the ini)."
-msgstr ""
+msgstr "备份保存在 %(dir)s(ini 中的 backup_dir)。"
 
 #: r2/templates/adminbackups.html:104
 msgid "backups on this server"
-msgstr ""
+msgstr "此服务器上的备份"
 
 #: r2/templates/adminbackups.html:108 r2/templates/adminbackups.html:167
 msgid "backup"
-msgstr ""
+msgstr "备份"
 
 #: r2/templates/adminbackups.html:108
 msgid "made"
-msgstr ""
+msgstr "创建时间"
 
 #: r2/templates/adminbackups.html:109
 msgid "size"
-msgstr ""
+msgstr "大小"
 
 #: r2/templates/adminbackups.html:109 r2/templates/adminliveconfig.html:92 r2/templates/adminsupport.html:71 r2/templates/adminsupportticket.html:37 r2/templates/moderatormessagecompose.html:59
 msgid "from"
@@ -7359,125 +7058,110 @@ msgstr "来自"
 
 #: r2/templates/adminbackups.html:115
 msgid "offline"
-msgstr ""
+msgstr "离线"
 
 #: r2/templates/adminbackups.html:131
-#, fuzzy, python-format
-#| msgid "More from %(vault)s"
+#, python-format
 msgid "imported from %(url)s"
-msgstr "更多来自%(vault)s"
+msgstr "从 %(url)s 导入"
 
 #: r2/templates/adminbackups.html:136
-#, fuzzy
-#| msgid "restricted"
 msgid "restore"
-msgstr "受限"
+msgstr "恢复"
 
 #: r2/templates/adminbackups.html:145
 msgid "Restore replaces all of this site's data with the backup and keeps this server's own passwords; type this site's domain to confirm. Everyone is logged out unless the backup came from this site."
-msgstr ""
+msgstr "恢复会用备份中的数据替换本站的所有数据,但保留此服务器自己的密码;请输入本站域名以确认。除非备份来自本站,否则所有人都会被登出。"
 
 #: r2/templates/adminbackups.html:147
 msgid "No backups yet."
-msgstr ""
+msgstr "还没有备份。"
 
 #: r2/templates/adminbackups.html:150
 msgid "import from another server"
-msgstr ""
+msgstr "从另一台服务器导入"
 
 #: r2/templates/adminbackups.html:156
 msgid "other server"
-msgstr ""
+msgstr "另一台服务器"
 
 #: r2/templates/adminbackups.html:160
 msgid "its transfer key"
-msgstr ""
+msgstr "它的迁移密钥"
 
 #: r2/templates/adminbackups.html:163
 msgid "Made on that server's /admin/backups (transfer key, below)."
-msgstr ""
+msgstr "在那台服务器的 /admin/backups 上生成(见下方的迁移密钥)。"
 
 #: r2/templates/adminbackups.html:169
-#, fuzzy
-#| msgid "newest"
 msgid "its newest"
-msgstr "最新"
+msgstr "它最新的备份"
 
 #: r2/templates/adminbackups.html:172
 msgid "have it make a new backup first"
-msgstr ""
+msgstr "先让它生成一个新备份"
 
 #: r2/templates/adminbackups.html:175
 msgid "offline: stop that site while it exports"
-msgstr ""
+msgstr "离线:导出时停止那个网站"
 
 #: r2/templates/adminbackups.html:179
 msgid "then"
-msgstr ""
+msgstr "然后"
 
 #: r2/templates/adminbackups.html:182
 msgid "restore it here, replacing this site's data"
-msgstr ""
+msgstr "在这里恢复,替换本站的数据"
 
 #: r2/templates/adminbackups.html:184
 #, python-format
 msgid "type %(domain)s to confirm a restore"
-msgstr ""
+msgstr "输入 %(domain)s 以确认恢复"
 
 #: r2/templates/adminbackups.html:191
 msgid "don't check its TLS certificate (self-signed, such as a .local test site)"
-msgstr ""
+msgstr "不验证它的 TLS 证书(自签名证书,例如 .local 测试站点)"
 
 #: r2/templates/adminbackups.html:195
-#, fuzzy
-#| msgid "report"
 msgid "import"
-msgstr "举报"
+msgstr "导入"
 
 #: r2/templates/adminbackups.html:199
 msgid "transfer key"
-msgstr ""
+msgstr "迁移密钥"
 
 #: r2/templates/adminbackups.html:201
 msgid "Lets another tippr server copy this server's backups, and ask it to make new ones. Give it to the new server's admin. It expires after 7 days; only one exists at a time, and backups never include it."
-msgstr ""
+msgstr "允许另一台 tippr 服务器复制此服务器的备份,并请求它生成新备份。请把它交给新服务器的管理员。它在 7 天后过期;同一时间只存在一个,备份中永远不会包含它。"
 
 #: r2/templates/adminbackups.html:205
 #, python-format
 msgid "A key is active, made by %(user)s; it expires %(when)s."
-msgstr ""
+msgstr "有一个有效的密钥,由 %(user)s 创建;将于 %(when)s 过期。"
 
 #: r2/templates/adminbackups.html:207
-#, fuzzy
-#| msgid "your session has expired"
 msgid "The last key has expired."
-msgstr "你的会话已经过期"
+msgstr "上一个密钥已过期。"
 
 #: r2/templates/adminbackups.html:212
-#, fuzzy
-#| msgid "make a new live thread"
 msgid "make a new key"
-msgstr "创建新直播帖"
+msgstr "生成新密钥"
 
 #: r2/templates/adminbackups.html:212
-#, fuzzy
-#| msgid "make update"
 msgid "make a key"
-msgstr "更新"
+msgstr "生成密钥"
 
 #: r2/templates/adminbackups.html:217
 msgid "revoke the key"
-msgstr ""
+msgstr "撤销密钥"
 
 #: r2/templates/adminbackups.html:220
-#, fuzzy
-#| msgid "links from the domain %(domain)s"
 msgid "from the command line"
-msgstr "来自域%(domain)s的链接"
+msgstr "通过命令行"
 
 #: r2/templates/adminbackups.html:225
 msgid "A backup folder can also be copied by hand (rsync or scp, as root) into backup_dir on the new server and restored there. See docs/BACKUP.md."
-msgstr ""
+msgstr "备份文件夹也可以手动复制(以 root 身份使用 rsync 或 scp)到新服务器的 backup_dir 中,然后在那里恢复。参见 docs/BACKUP.md。"
 
 #: r2/templates/adminbar.html:48
 msgid "admin mode enabled"
@@ -7545,98 +7229,90 @@ msgstr "赠送"
 
 #: r2/templates/admindomain.html:25
 msgid "its public listing"
-msgstr ""
+msgstr "它的公开列表"
 
 #: r2/templates/admindomain.html:29 r2/templates/admindomains.html:37 r2/templates/adminvault.html:115
 msgid "ban"
 msgstr "封禁"
 
 #: r2/templates/admindomain.html:32
-#, fuzzy
-#| msgid "banned"
 msgid "Banned:"
-msgstr "已禁止"
+msgstr "已封禁:"
 
 #: r2/templates/admindomain.html:33
 msgid "links are refused at the submit form"
-msgstr ""
+msgstr "链接会在提交表单中被拒绝"
 
 #: r2/templates/admindomain.html:33
-#, fuzzy
-#| msgid "that link has already been submitted"
 msgid "links are removed as spam when submitted"
-msgstr "该链接已经被投搞过"
+msgstr "链接提交时会被作为垃圾信息移除"
 
 #: r2/templates/admindomain.html:37
-#, fuzzy, python-format
-#| msgid "to %(dest)s sent %(when)s"
+#, python-format
 msgid "by %(name)s, %(when)s ago"
-msgstr "于%(when)s发送至%(dest)s"
+msgstr "由 %(name)s,%(when)s 前"
 
 #: r2/templates/admindomain.html:43
 msgid "lift the ban"
-msgstr ""
+msgstr "解除封禁"
 
 #: r2/templates/admindomain.html:47
 msgid "Covered by the ban on"
-msgstr ""
+msgstr "已被以下封禁覆盖:"
 
 #: r2/templates/admindomain.html:55
 msgid "refuse its links, telling the member why"
-msgstr ""
+msgstr "拒绝它的链接,并告诉成员原因"
 
 #: r2/templates/admindomain.html:56
 msgid "accept its links and remove them as spam, silently"
-msgstr ""
+msgstr "接受它的链接,然后悄悄作为垃圾信息移除"
 
 #: r2/templates/admindomain.html:57
 msgid "reason (members see it when a link is refused)"
-msgstr ""
+msgstr "原因(链接被拒绝时成员会看到)"
 
 #: r2/templates/admindomain.html:58
-#, fuzzy, python-format
-#| msgid "forbidden (%(domain)s)"
+#, python-format
 msgid "ban %(domain)s"
-msgstr "禁止查看（%(domain)s）"
+msgstr "封禁 %(domain)s"
 
 #: r2/templates/admindomain.html:61
 msgid "Covers its subdomains too. Links already posted stay; remove them from the list below or each vault's moderators can."
-msgstr ""
+msgstr "也覆盖其子域名。已发布的链接会保留;可以从下面的列表移除,或由各版块的版主移除。"
 
 #: r2/templates/admindomain.html:64
 msgid "who posts it"
-msgstr ""
+msgstr "发布者"
 
 #: r2/templates/admindomain.html:72
 msgid "Nobody yet."
-msgstr ""
+msgstr "还没有人。"
 
 #: r2/templates/admindomain.html:75
-#, fuzzy
-#| msgid "Recently viewed links"
 msgid "recent links"
-msgstr "最近查看的链接"
+msgstr "最近的链接"
 
 #: r2/templates/admindomain.html:77
 #, python-format
 msgid "%(n)d, %(removed)d removed"
-msgstr ""
+msgstr "%(n)d 个,已移除 %(removed)d 个"
 
 #: r2/templates/admindomain.html:101
 msgid "No links to it."
-msgstr ""
+msgstr "没有指向它的链接。"
 
 #: r2/templates/admindomains.html:25
 msgid "A ban covers the domain and its subdomains. \"Refuse\" stops the link at the submit form and tells the member why; \"remove as spam\" lets it through and removes it straight away, without saying so (for spammers who would just try another address)."
-msgstr ""
+msgstr "封禁会覆盖该域名及其子域名。“拒绝”会在提交表单处拦下链接并告诉成员原因;“作为垃圾信息移除”会放行链接,然后立即移除,什么都不说(适合那些只会换个地址再试的垃圾信息发送者)。"
 
 #: r2/templates/admindomains.html:26
 msgid "Admins can also open any domain from the small \"d\" next to a post's domain."
-msgstr ""
+msgstr "管理员也可以通过帖子域名旁边的小“d”打开任意域名。"
 
 #: r2/templates/admindomains.html:31
 msgid "look up a domain"
-msgstr ""
+msgstr "查询域名"
 
 #: r2/templates/admindomains.html:37 r2/templates/userlisting.html:47
 msgid "reason"
@@ -7648,77 +7324,67 @@ msgstr " "
 
 #: r2/templates/admindomains.html:37 r2/templates/adminliveconfig.html:92
 msgid "when"
-msgstr ""
+msgstr "时间"
 
 #: r2/templates/admindomains.html:41
-#, fuzzy
-#| msgid "refund"
 msgid "refuse"
-msgstr "退款"
+msgstr "拒绝"
 
 #: r2/templates/admindomains.html:41
-#, fuzzy
-#| msgid "removed spam"
 msgid "remove as spam"
-msgstr "删除垃圾信息"
+msgstr "作为垃圾信息移除"
 
 #: r2/templates/admindomains.html:49
 msgid "No banned domains."
-msgstr ""
+msgstr "没有被封禁的域名。"
 
 #: r2/templates/adminemailsettings.html:26
 msgid "How tippr sends email (verification, password resets, notifications). Settings saved here override the ini file and apply immediately."
-msgstr ""
+msgstr "tippr 如何发送邮件(验证、重置密码、通知)。在这里保存的设置会覆盖 ini 文件,并立即生效。"
 
 #: r2/templates/adminemailsettings.html:34
 msgid "send email with"
-msgstr ""
+msgstr "发送邮件方式"
 
 #: r2/templates/adminemailsettings.html:46
-#, fuzzy
-#| msgid "missing address"
 msgid "send from address"
-msgstr "缺少地址"
+msgstr "发件地址"
 
 #: r2/templates/adminemailsettings.html:49
 msgid "With Gmail, use the Google account or one of its \"send mail as\" addresses."
-msgstr ""
+msgstr "使用 Gmail 时,请用该 Google 账户或其“以其他地址发送”的地址。"
 
 #: r2/templates/adminemailsettings.html:53
 msgid "SMTP"
-msgstr ""
+msgstr "SMTP"
 
 #: r2/templates/adminemailsettings.html:55
 msgid "server (host or host:port)"
-msgstr ""
+msgstr "服务器(主机或 主机:端口)"
 
 #: r2/templates/adminemailsettings.html:77
 msgid "Gmail (OAuth)"
-msgstr ""
+msgstr "Gmail(OAuth)"
 
 #: r2/templates/adminemailsettings.html:79
 msgid "OAuth client ID"
-msgstr ""
+msgstr "OAuth 客户端 ID"
 
 #: r2/templates/adminemailsettings.html:83
 msgid "OAuth client secret"
-msgstr ""
+msgstr "OAuth 客户端密钥"
 
 #: r2/templates/adminemailsettings.html:87
-#, fuzzy
-#| msgid "invalid refresh token"
 msgid "refresh token"
-msgstr "无效的刷新密钥"
+msgstr "刷新令牌"
 
 #: r2/templates/adminemailsettings.html:90
 msgid "Run scripts/gmail_oauth_setup.py on the server to connect a Google account; it fills these in."
-msgstr ""
+msgstr "在服务器上运行 scripts/gmail_oauth_setup.py 来连接 Google 账户;它会填写这些字段。"
 
 #: r2/templates/adminemailsettings.html:99
-#, fuzzy
-#| msgid "send messages as emails"
 msgid "send a test email"
-msgstr "以电子邮件发送短信"
+msgstr "发送测试邮件"
 
 #: r2/templates/adminemailsettings.html:104 r2/templates/adminsitesettings.html:145 r2/templates/adminuser.html:195 r2/templates/paymentform.html:117
 msgid "address"
@@ -7726,159 +7392,125 @@ msgstr "地址"
 
 #: r2/templates/adminerrors.html:28
 msgid "Errors pages didn't handle, grouped by the error and the line of code that raised it, newest first. Each group keeps its last traceback. Full logs: journalctl -u tippr-paster."
-msgstr ""
+msgstr "页面未处理的错误,按错误和引发它的代码行分组,最新的在前。每组保留最后一次的回溯信息。完整日志:journalctl -u tippr-paster。"
 
 #: r2/templates/adminerrors.html:34
-#, fuzzy
-#| msgid "clear suggested sort"
 msgid "clear the list"
-msgstr "清除建议排序"
+msgstr "清空列表"
 
 #: r2/templates/adminerrors.html:40
-#, fuzzy
-#| msgid "country"
 msgid "count"
-msgstr "国家"
+msgstr "次数"
 
 #: r2/templates/adminerrors.html:41
-#, fuzzy
-#| msgid "last edited"
 msgid "last seen"
-msgstr "最后编辑于"
+msgstr "最后出现"
 
 #: r2/templates/adminerrors.html:41
-#, fuzzy
-#| msgid "first name"
 msgid "first seen"
-msgstr "名字"
+msgstr "首次出现"
 
 #: r2/templates/adminerrors.html:48
-#, fuzzy, python-format
-#| msgid "username"
+#, python-format
 msgid "(user %(name)s)"
-msgstr "用户名"
+msgstr "(用户 %(name)s)"
 
 #: r2/templates/adminerrors.html:50
 msgid "traceback"
-msgstr ""
+msgstr "回溯"
 
 #: r2/templates/adminerrors.html:61
 msgid "No errors recorded."
-msgstr ""
+msgstr "没有记录到错误。"
 
 #: r2/templates/adminfeeds.html:23
 msgid "Delete this feed? Its posts stay."
-msgstr ""
+msgstr "删除这个订阅源?它发布的帖子会保留。"
 
 #: r2/templates/adminfeeds.html:39
-#, fuzzy
-#| msgid "address"
 msgid "feed address"
-msgstr "地址"
+msgstr "订阅源地址"
 
 #: r2/templates/adminfeeds.html:43
 msgid "An RSS or Atom feed. Each new item becomes a link post."
-msgstr ""
+msgstr "RSS 或 Atom 订阅源。每条新内容都会成为一篇链接帖子。"
 
 #: r2/templates/adminfeeds.html:46 r2/templates/adminfeeds.html:73
-#, fuzzy
-#| msgid "upvoted by"
 msgid "posted by"
-msgstr "顶过"
+msgstr "发布者"
 
 #: r2/templates/adminfeeds.html:48
 msgid "The account that posts the items. It's made if it doesn't exist, and its posts show [bot] beside its name. A name that says it's a bot (e.g. ending in _bot) helps too."
-msgstr ""
+msgstr "发布内容的账户。如果不存在会自动创建,它的帖子会在名字旁显示 [bot]。用一个表明是机器人的名字(例如以 _bot 结尾)也有帮助。"
 
 #: r2/templates/adminfeeds.html:49
 msgid "check every"
-msgstr ""
+msgstr "检查间隔"
 
 #: r2/templates/adminfeeds.html:51
-#, fuzzy
-#| msgid "minute"
-#| msgid_plural "minutes"
 msgid "minutes"
-msgstr "分"
+msgstr "分钟"
 
 #: r2/templates/adminfeeds.html:52
 msgid "title prefix"
-msgstr ""
+msgstr "标题前缀"
 
 #: r2/templates/adminfeeds.html:55
 msgid "Optional, put before each post's title."
-msgstr ""
+msgstr "可选,加在每篇帖子的标题前面。"
 
 #: r2/templates/adminfeeds.html:57
-#, fuzzy
-#| msgid "add a friend"
 msgid "add the feed"
-msgstr "添加朋友"
+msgstr "添加订阅源"
 
 #: r2/templates/adminfeeds.html:63
 msgid "Feeds"
-msgstr ""
+msgstr "订阅源"
 
 #: r2/templates/adminfeeds.html:66
 msgid "Post new items from RSS or Atom feeds to vaults, such as your blog's articles or a project's releases, to give the site something to read. Feeds are checked every 15 minutes, each no more often than its own interval."
-msgstr ""
+msgstr "把 RSS 或 Atom 订阅源中的新内容发布到版块,比如你的博客文章或项目的发布版本,让网站有内容可读。订阅源每 15 分钟检查一次,但每个订阅源不会比自己的间隔更频繁。"
 
 #: r2/templates/adminfeeds.html:67
 #, python-format
 msgid "So a new feed doesn't flood its vault, the first check posts only its newest %(first)d items; later checks post at most the newest %(per)d. Items left over are skipped, not posted later."
-msgstr ""
+msgstr "为了不让新的订阅源刷屏,首次检查只发布最新的 %(first)d 条;之后每次最多发布最新的 %(per)d 条。多出来的内容会被跳过,之后也不会发布。"
 
 #: r2/templates/adminfeeds.html:73
-#, fuzzy
-#| msgid "RSS feeds"
 msgid "feed"
-msgstr "RSS源"
+msgstr "订阅源"
 
 #: r2/templates/adminfeeds.html:74
-#, fuzzy
-#| msgid "everyone"
 msgid "every"
-msgstr "任何人"
+msgstr "每隔"
 
 #: r2/templates/adminfeeds.html:74
-#, fuzzy
-#| msgid "last edited"
 msgid "last checked"
-msgstr "最后编辑于"
+msgstr "上次检查"
 
 #: r2/templates/adminfeeds.html:90
-#, fuzzy
-#| msgid "can't start with a '_'"
 msgid "titles start with"
-msgstr "不能以“_”开始"
+msgstr "标题开头"
 
 #: r2/templates/adminfeeds.html:93
-#, fuzzy
-#| msgid "pause"
 msgid "paused"
-msgstr "暂停"
+msgstr "已暂停"
 
 #: r2/templates/adminfeeds.html:100 r2/templates/adminfeeds.html:107
-#, fuzzy
-#| msgid "missing name"
 msgid "(missing)"
-msgstr "缺少名称"
+msgstr "(缺失)"
 
 #: r2/templates/adminfeeds.html:110
-#, fuzzy
-#| msgid "mint"
 msgid "min"
-msgstr "浅蓝绿"
+msgstr "分钟"
 
 #: r2/templates/adminfeeds.html:115
-#, fuzzy
-#| msgid "not set"
 msgid "not yet"
-msgstr "未设置"
+msgstr "尚未"
 
 #: r2/templates/adminfeeds.html:123
 msgid "check now"
-msgstr ""
+msgstr "立即检查"
 
 #: r2/templates/adminfeeds.html:125 r2/templates/renderablecampaign.html:180
 msgid "pause"
@@ -7890,13 +7522,11 @@ msgstr "摘要"
 
 #: r2/templates/adminfeeds.html:139
 msgid "No feeds yet."
-msgstr ""
+msgstr "还没有订阅源。"
 
 #: r2/templates/adminfeeds.html:142
-#, fuzzy
-#| msgid "add a friend"
 msgid "Add a feed"
-msgstr "添加朋友"
+msgstr "添加订阅源"
 
 #: r2/templates/admingold.html:28
 msgid "give or take months of gold for a user"
@@ -7928,58 +7558,46 @@ msgstr "记住该计算机"
 
 #: r2/templates/adminliveconfig.html:46
 msgid "Changed here."
-msgstr ""
+msgstr "已在此处更改。"
 
 #: r2/templates/adminliveconfig.html:48
 msgid "The ini says:"
-msgstr ""
+msgstr "ini 中的值:"
 
 #: r2/templates/adminliveconfig.html:50
-#, fuzzy
-#| msgid "this page is empty"
 msgid "The ini leaves it empty."
-msgstr "该页面为空"
+msgstr "ini 中为空。"
 
 #: r2/templates/adminliveconfig.html:53
-#, fuzzy
-#| msgid "use this code:"
 msgid "use the ini's value"
-msgstr "请使用这些代码："
+msgstr "使用 ini 中的值"
 
 #: r2/templates/adminliveconfig.html:68
 msgid "Settings from the [live_config] section of the ini file that can change while the site runs. Saved values apply right away on every web process and are kept with the site's other saved settings, so they move with backups. \"Use the ini's value\" undoes a change. Every change is logged below."
-msgstr ""
+msgstr "ini 文件 [live_config] 部分中可以在网站运行时更改的设置。保存的值会立即在所有 Web 进程中生效,并与网站的其他已保存设置一起保存,因此会随备份一起迁移。“使用 ini 中的值”可以撤销更改。所有更改都记录在下方。"
 
 #: r2/templates/adminliveconfig.html:70
 msgid "This site reads its live config from ZooKeeper (liveconfig_source = zookeeper), so it's managed with scripts/write_live_config rather than here. The values in use:"
-msgstr ""
+msgstr "本站从 ZooKeeper 读取实时配置(liveconfig_source = zookeeper),所以要用 scripts/write_live_config 管理,而不是在这里。当前使用的值:"
 
 #: r2/templates/adminliveconfig.html:73
-#, fuzzy
-#| msgid "commonly used buttons"
 msgid "common settings"
-msgstr "常用按钮"
+msgstr "常用设置"
 
 #: r2/templates/adminliveconfig.html:81
 #, python-format
 msgid "other settings (%(n)d, mostly carried over from the original code)"
-msgstr ""
+msgstr "其他设置(%(n)d 项,大多沿用自原始代码)"
 
 #: r2/templates/adminliveconfig.html:89
-#, fuzzy
-#| msgid "change"
 msgid "changes"
-msgstr "更改"
+msgstr "更改记录"
 
 #: r2/templates/adminliveconfig.html:92
-#, fuzzy
-#| msgid "hot"
 msgid "who"
-msgstr "热门"
+msgstr "操作人"
 
 #: r2/templates/adminliveconfig.html:92
-#, fuzzy
-#| msgid "settings"
 msgid "setting"
 msgstr "设置"
 
@@ -7988,14 +7606,12 @@ msgid "to"
 msgstr "收信人"
 
 #: r2/templates/adminliveconfig.html:102
-#, fuzzy
-#| msgid "back to the beginning"
 msgid "(back to the ini)"
-msgstr "返回开头"
+msgstr "(恢复为 ini 中的值)"
 
 #: r2/templates/adminliveconfig.html:109
 msgid "No changes yet."
-msgstr ""
+msgstr "还没有更改。"
 
 #: r2/templates/adminnotessidebar.html:42
 msgid "Past notes"
@@ -8007,186 +7623,153 @@ msgstr "上传"
 
 #: r2/templates/adminsitesettings.html:50
 msgid "up to 1 MB."
-msgstr ""
+msgstr "最大 1 MB。"
 
 #: r2/templates/adminsitesettings.html:60
-#, fuzzy
-#| msgid "use global defaults"
 msgid "use the default"
-msgstr "使用全局默认值"
+msgstr "使用默认值"
 
 #: r2/templates/adminsitesettings.html:69
 msgid "Saved values apply right away on every web process; leave a field blank to use the ini file's value (shown greyed out) or nothing. They are kept with the site's other saved settings, so they move with backups."
-msgstr ""
+msgstr "保存的值会立即在所有 Web 进程中生效;字段留空则使用 ini 文件中的值(灰色显示)或不使用。这些值与网站的其他已保存设置一起保存,因此会随备份一起迁移。"
 
 #: r2/templates/adminsitesettings.html:75
-#, fuzzy
-#| msgid "the alien"
 msgid "the site"
-msgstr "外星人"
+msgstr "网站"
 
 #: r2/templates/adminsitesettings.html:77
-#, fuzzy
-#| msgid "last name"
 msgid "site name"
-msgstr "姓名"
+msgstr "网站名称"
 
 #: r2/templates/adminsitesettings.html:77
 msgid "In page titles and emails, and what links shared elsewhere say they're from."
-msgstr ""
+msgstr "用在页面标题和邮件中,也是其他地方分享的链接所显示的来源。"
 
 #: r2/templates/adminsitesettings.html:78
 msgid "The description search engines show, and the front page title unless one is set below."
-msgstr ""
+msgstr "搜索引擎显示的描述;如果下面没有设置首页标题,也会用作首页标题。"
 
 #: r2/templates/adminsitesettings.html:79
-#, fuzzy
-#| msgid "contact us"
 msgid "contact address"
-msgstr "联系我们"
+msgstr "联系地址"
 
 #: r2/templates/adminsitesettings.html:79
 msgid "Shown on the contact page."
-msgstr ""
+msgstr "显示在联系页面上。"
 
 #: r2/templates/adminsitesettings.html:82
-#, fuzzy
-#| msgid "pageviews"
 msgid "page titles"
-msgstr "页面浏览数"
+msgstr "页面标题"
 
 #: r2/templates/adminsitesettings.html:84
-#, fuzzy
-#| msgid "frontpage"
 msgid "front page title"
-msgstr "首页"
+msgstr "首页标题"
 
 #: r2/templates/adminsitesettings.html:84
 msgid "The front page's title in the browser and in search results. Blank: the description above."
-msgstr ""
+msgstr "首页在浏览器和搜索结果中的标题。留空:使用上面的描述。"
 
 #: r2/templates/adminsitesettings.html:85
-#, fuzzy
-#| msgid "no title found"
 msgid "title format"
-msgstr "标题未找到"
+msgstr "标题格式"
 
 #: r2/templates/adminsitesettings.html:85
 #, python-brace-format
 msgid "Wraps every other page's title. {title} is the page's own title and {site} the site name, e.g. \"{title} | {site}\". Blank: page titles as they are."
-msgstr ""
+msgstr "用于包裹其他所有页面的标题。{title} 是页面自己的标题,{site} 是网站名称,例如“{title} | {site}”。留空:标题保持原样。"
 
 #: r2/templates/adminsitesettings.html:88
-#, fuzzy
-#| msgid "search failed"
 msgid "search engines"
-msgstr "搜索失败"
+msgstr "搜索引擎"
 
 #: r2/templates/adminsitesettings.html:89
 #, python-format
 msgid "Google Search Console and Bing Webmaster Tools ask you to add a meta tag to prove you own the site. Paste the code, or the whole tag. Submit https://%(domain)s/sitemap.xml there as the sitemap."
-msgstr ""
+msgstr "Google Search Console 和 Bing Webmaster Tools 会要求你添加一个元标记来证明网站归你所有。请粘贴代码或整个标记。并在那里提交 https://%(domain)s/sitemap.xml 作为站点地图。"
 
 #: r2/templates/adminsitesettings.html:91
-#, fuzzy
-#| msgid "one-time verification code"
 msgid "Google verification"
-msgstr "验证码"
+msgstr "Google 验证"
 
 #: r2/templates/adminsitesettings.html:91
 msgid "The content of the google-site-verification tag."
-msgstr ""
+msgstr "google-site-verification 标记的内容。"
 
 #: r2/templates/adminsitesettings.html:92
-#, fuzzy
-#| msgid "send verification email"
 msgid "Bing verification"
-msgstr "发送验证电子邮件"
+msgstr "Bing 验证"
 
 #: r2/templates/adminsitesettings.html:92
-#, fuzzy
-#| msgid "The contents of this page appear on the submit page"
 msgid "The content of the msvalidate.01 tag."
-msgstr "本页面上的内容将出现在提交页面上"
+msgstr "msvalidate.01 标记的内容。"
 
 #: r2/templates/adminsitesettings.html:95
 msgid "analytics"
-msgstr ""
+msgstr "统计分析"
 
 #: r2/templates/adminsitesettings.html:96
 msgid "The site counts its own traffic for the traffic pages (/traffic, and each vault's traffic stats) without any outside service. To use Google Analytics as well, paste its measurement ID (G-…, or the whole tag Google gives you). It isn't loaded for visitors whose browser asks not to be tracked. In some places (the EU and UK, for example) you need visitors' consent before using it; the privacy policy already says the site may use analytics."
-msgstr ""
+msgstr "网站会自行统计流量,用于流量页面(/traffic 和各版块的流量统计),无需任何外部服务。如果还想使用 Google Analytics,请粘贴它的衡量 ID(G-…,或 Google 提供的整个代码)。对于浏览器要求不被跟踪的访客,不会加载它。在某些地区(例如欧盟和英国),使用前需要征得访客同意;隐私政策中已说明网站可能使用统计分析工具。"
 
 #: r2/templates/adminsitesettings.html:98
 msgid "Google Analytics"
-msgstr ""
+msgstr "Google Analytics"
 
 #: r2/templates/adminsitesettings.html:98
 msgid "The measurement ID, e.g. G-ABC123XYZ. Blank: no Google Analytics."
-msgstr ""
+msgstr "衡量 ID,例如 G-ABC123XYZ。留空:不使用 Google Analytics。"
 
 #: r2/templates/adminsitesettings.html:101
-#, fuzzy
-#| msgid "make announcement"
 msgid "announcement"
-msgstr "发表声明"
+msgstr "公告"
 
 #: r2/templates/adminsitesettings.html:103
-#, fuzzy
-#| msgid "flair text"
 msgid "banner text"
-msgstr "签名文字"
+msgstr "横幅文字"
 
 #: r2/templates/adminsitesettings.html:103
 msgid "Shown at the top of every page until someone closes it; it comes back for everyone when you change it. Blank: no banner."
-msgstr ""
+msgstr "显示在每个页面顶部,直到有人关闭;更改后会重新对所有人显示。留空:不显示横幅。"
 
 #: r2/templates/adminsitesettings.html:104
-#, fuzzy
-#| msgid "Submit a new link"
 msgid "banner link"
-msgstr "投稿新链接"
+msgstr "横幅链接"
 
 #: r2/templates/adminsitesettings.html:104
 msgid "Optional: where the banner leads, e.g. a post about the change (https://... or /v/...)."
-msgstr ""
+msgstr "可选:横幅指向的地址,例如关于此次变化的帖子(https://... 或 /v/...)。"
 
 #: r2/templates/adminsitesettings.html:107
-#, fuzzy
-#| msgid "create a new account"
 msgid "new accounts"
-msgstr "创建新帐户"
+msgstr "新账户"
 
 #: r2/templates/adminsitesettings.html:114
 msgid "Closed: the sign-up form is replaced by a notice and new accounts are refused. Existing accounts can still log in."
-msgstr ""
+msgstr "关闭:注册表单会被替换为通知,新账户会被拒绝。现有账户仍可登录。"
 
 #: r2/templates/adminsitesettings.html:119
 msgid "policy pages"
-msgstr ""
+msgstr "政策页面"
 
 #: r2/templates/adminsitesettings.html:120
 msgid "The user agreement, privacy policy, content policy and moderator guidelines start from the templates in docs/policies, filled in with the site name, domain and these two; where they say how to reach you, they link to sections of the contact page (/contact), which offers a message to the admins and the contact address above when it is set. They're wiki pages: edit them at /wiki/useragreement and so on. To rebuild them from the templates after changing these (this replaces any edits):"
-msgstr ""
+msgstr "用户协议、隐私政策、内容政策和版主准则以 docs/policies 中的模板为基础,填入网站名称、域名和这两个字段;在说明如何联系你的地方,它们会链接到联系页面(/contact)的相应部分,那里提供给管理员发消息的方式,以及上面设置的联系地址(如果有)。它们是维基页面:可以在 /wiki/useragreement 等处编辑。更改这些字段后,如需根据模板重新生成(会覆盖所有编辑):"
 
 #: r2/templates/adminsitesettings.html:123
-#, fuzzy
-#| msgid "moderator"
-#| msgid_plural "moderators"
 msgid "operator"
-msgstr "版主"
+msgstr "运营者"
 
 #: r2/templates/adminsitesettings.html:123
 msgid "Who runs the site, by legal name (a company, or your own name). Blank: the site name."
-msgstr ""
+msgstr "运营本站的人或机构的法定名称(公司或你自己的名字)。留空:网站名称。"
 
 #: r2/templates/adminsitesettings.html:124
 msgid "governing law"
-msgstr ""
+msgstr "适用法律"
 
 #: r2/templates/adminsitesettings.html:124
 msgid "Whose laws the policies are under, e.g. \"the State of New York\" or \"England and Wales\". Blank: wherever the operator is established."
-msgstr ""
+msgstr "政策所适用的法律,例如“纽约州”或“英格兰和威尔士”。留空:运营者所在地。"
 
 #: r2/templates/adminsitesettings.html:131 r2/templates/vaultstylesheet.html:120 r2/templates/vaultstylesheetsource.html:46
 msgid "images"
@@ -8194,53 +7777,47 @@ msgstr "图像"
 
 #: r2/templates/adminsitesettings.html:132
 msgid "Each image is saved on its own as soon as you choose it (the save button above is only for the settings above it). Uploading one replaces the last."
-msgstr ""
+msgstr "每张图片在选择后会立即单独保存(上面的保存按钮只适用于它上方的设置)。上传新图片会替换旧的。"
 
 #: r2/templates/adminsitesettings.html:134
-#, fuzzy
-#| msgid "logout"
 msgid "logo"
-msgstr "退出"
+msgstr "标志"
 
 #: r2/templates/adminsitesettings.html:134
 msgid "Shown at most 48 pixels high in the header; a transparent background works best. Vaults with their own header image show that instead."
-msgstr ""
+msgstr "在页头中以不超过 48 像素的高度显示;透明背景效果最好。有自己页头图片的版块会显示它们自己的图片。"
 
 #: r2/templates/adminsitesettings.html:134
 msgid "The site uses the default tippr logo."
-msgstr ""
+msgstr "本站使用 tippr 的默认标志。"
 
 #: r2/templates/adminsitesettings.html:136
 msgid "favicon"
-msgstr ""
+msgstr "网站图标"
 
 #: r2/templates/adminsitesettings.html:136
 msgid "The icon in browser tabs and bookmarks. A square PNG of 192 or 512 pixels works everywhere."
-msgstr ""
+msgstr "浏览器标签页和书签中的图标。192 或 512 像素的正方形 PNG 在任何地方都适用。"
 
 #: r2/templates/adminsitesettings.html:136
-#, fuzzy
-#| msgid "This user has deleted their account."
 msgid "The site uses the default tippr icon."
-msgstr "该用户已经删除了他的账户。"
+msgstr "本站使用 tippr 的默认图标。"
 
 #: r2/templates/adminsitesettings.html:138
-#, fuzzy
-#| msgid "header image"
 msgid "share image"
-msgstr "页眉图像"
+msgstr "分享图片"
 
 #: r2/templates/adminsitesettings.html:138
 msgid "The picture shown when the front page or a vault is shared on social media or in chat apps (posts use their own image when they have one). 1200 by 630 pixels works best."
-msgstr ""
+msgstr "首页或版块被分享到社交媒体或聊天应用时显示的图片(帖子如果有自己的图片会用自己的)。1200 × 630 像素效果最好。"
 
 #: r2/templates/adminsitesettings.html:138
 msgid "Shared links show the tippr icon."
-msgstr ""
+msgstr "分享的链接会显示 tippr 图标。"
 
 #: r2/templates/adminsitesettings.html:140
 msgid "Spam protection (captcha and CleanTalk)"
-msgstr ""
+msgstr "反垃圾信息(验证码和 CleanTalk)"
 
 #: r2/templates/adminsitesettings.html:146 r2/templates/prefoptions.html:155 r2/templates/promotelinkbase.html:251
 msgid "media"
@@ -8248,290 +7825,242 @@ msgstr "媒体"
 
 #: r2/templates/adminsitesettings.html:149
 msgid "The domain is also part of the web server configuration, the TLS certificate and login cookies, so it can't be changed here. To move the site to a new domain (for example after restoring a backup on a new server), point the new domain at the server and re-run the installer with it:"
-msgstr ""
+msgstr "域名也是 Web 服务器配置、TLS 证书和登录 Cookie 的一部分,所以不能在这里更改。要把网站迁移到新域名(例如在新服务器上恢复备份后),请将新域名指向服务器,然后用它重新运行安装程序:"
 
 #: r2/templates/adminsitesettings.html:153
 msgid "It keeps the data, passwords and secrets, and updates the config, nginx and the certificate. Everyone has to log in again on the new domain."
-msgstr ""
+msgstr "数据、密码和密钥会保留,配置、nginx 和证书会更新。所有人都需要在新域名上重新登录。"
 
 #: r2/templates/adminsupport.html:37
 #, python-format
 msgid "Support isn't set up: admin_message_acct in the ini is %(acct)s, not a vault. Set it to a vault, e.g. /v/siteadmins, and re-run the installer (it creates the vault)."
-msgstr ""
+msgstr "支持功能尚未设置:ini 中的 admin_message_acct 是 %(acct)s,而不是一个版块。请设为一个版块,例如 /v/siteadmins,然后重新运行安装程序(它会创建该版块)。"
 
 #: r2/templates/adminsupport.html:39
 #, python-format
 msgid "The admin vault %(acct)s doesn't exist yet. Re-run the installer, or run scripts/create_default_vaults.py, to create it."
-msgstr ""
+msgstr "管理版块 %(acct)s 还不存在。请重新运行安装程序,或运行 scripts/create_default_vaults.py 来创建。"
 
 #: r2/templates/adminsupport.html:41
 #, python-format
 msgid "Messages to %(acct)s (the contact page's \"message the admins\" links) become tickets here. Replies reach the member as messages from %(acct)s, without your name."
-msgstr ""
+msgstr "发给 %(acct)s 的消息(联系页面上“给管理员发消息”的链接)会在这里成为工单。回复会以 %(acct)s 的名义发给成员,不会显示你的名字。"
 
 #: r2/templates/adminsupport.html:42
 msgid "See what the staff have done lately"
-msgstr ""
+msgstr "查看工作人员最近的处理"
 
 #: r2/templates/adminsupport.html:44
 msgid "Choose who else can help"
-msgstr ""
+msgstr "选择还有谁可以帮忙"
 
 #: r2/templates/adminsupport.html:61
-#, fuzzy
-#| msgid "category: %s"
 msgid "category:"
-msgstr "分类：%s"
+msgstr "类别:"
 
 #: r2/templates/adminsupport.html:71 r2/templates/messagecompose.html:85
 msgid "subject"
 msgstr "主题"
 
 #: r2/templates/adminsupport.html:71 r2/templates/adminsupportticket.html:44
-#, fuzzy
-#| msgid "no category"
 msgid "category"
-msgstr "无类别"
+msgstr "类别"
 
 #: r2/templates/adminsupport.html:72
-#, fuzzy
-#| msgid "assign to user"
 msgid "assigned"
-msgstr "分配给用户"
+msgstr "已分配"
 
 #: r2/templates/adminsupport.html:72
 msgid "last reply by staff"
-msgstr ""
+msgstr "工作人员最后回复"
 
 #: r2/templates/adminsupport.html:76 r2/templates/adminsupportactivity.html:80 r2/templates/adminsupportticket.html:34 r2/templates/adminsupportticket.html:154 r2/templates/adminuser.html:228
-#, fuzzy
-#| msgid "subject"
 msgid "(no subject)"
-msgstr "主题"
+msgstr "(无主题)"
 
 #: r2/templates/adminsupportactivity.html:27 r2/templates/adminsupportticket.html:27 r2/templates/adminuser.html:181 r2/templates/adminvault.html:132
 msgid "the system"
-msgstr ""
+msgstr "系统"
 
 #: r2/templates/adminsupportactivity.html:32 r2/templates/adminsupportstaff.html:19 r2/templates/adminsupportticket.html:33
-#, fuzzy
-#| msgid "moderation queue"
 msgid "support queue"
-msgstr "管理队列"
+msgstr "支持队列"
 
 #: r2/templates/adminsupportactivity.html:33
-#, fuzzy
-#| msgid "account activity"
 msgid "support activity"
-msgstr "账户活动"
+msgstr "支持动态"
 
 #: r2/templates/adminsupportactivity.html:35
 msgid "who's been helping"
-msgstr ""
+msgstr "谁在帮忙"
 
 #: r2/templates/adminsupportactivity.html:39
 msgid "staff"
-msgstr ""
+msgstr "工作人员"
 
 #: r2/templates/adminsupportactivity.html:40
-#, fuzzy
-#| msgid "replied"
 msgid "replies"
-msgstr "已回复"
+msgstr "回复"
 
 #: r2/templates/adminsupportactivity.html:40 r2/templates/adminsupportactivity.html:41 r2/templates/adminsupportactivity.html:42
 msgid "7 / 30 days"
-msgstr ""
+msgstr "7 / 30 天"
 
 #: r2/templates/adminsupportactivity.html:41
-#, fuzzy
-#| msgid "note"
 msgid "notes"
-msgstr "记录"
+msgstr "备注"
 
 #: r2/templates/adminsupportactivity.html:62
 msgid "No replies, notes or closed tickets in the last 30 days."
-msgstr ""
+msgstr "最近 30 天没有回复、备注或已关闭的工单。"
 
 #: r2/templates/adminsupportactivity.html:67
-#, fuzzy, python-format
-#| msgid "Share to %(name)s"
+#, python-format
 msgid "what %(name)s did"
-msgstr "分享给%(name)s"
+msgstr "%(name)s 做了什么"
 
 #: r2/templates/adminsupportactivity.html:68 r2/templates/serversecondsbar.html:43
 msgid "everyone"
 msgstr "任何人"
 
 #: r2/templates/adminsupportactivity.html:70
-#, fuzzy
-#| msgid "dates"
 msgid "latest"
-msgstr "日期"
+msgstr "最新"
 
 #: r2/templates/adminsupportactivity.html:86
-#, fuzzy
-#| msgid "something went wrong."
 msgid "Nothing yet."
-msgstr "有东西出错了。"
+msgstr "还没有内容。"
 
 #: r2/templates/adminsupportstaff.html:20
 msgid "support staff"
-msgstr ""
+msgstr "支持人员"
 
 #: r2/templates/adminsupportstaff.html:23
 msgid "Admins (in admin mode) see and answer every ticket. Anyone else who helps must be on the employees list and have two-factor sign-in on; here you choose which categories they may read, or read and reply to. Replies always reach the member as the admin team, never by name."
-msgstr ""
+msgstr "管理员(在管理员模式下)可以查看和回复所有工单。其他帮忙的人必须在员工列表中并开启两步验证;你可以在这里选择他们可以阅读、或阅读并回复哪些类别。回复始终以管理团队的名义发给成员,不会显示个人名字。"
 
 #: r2/templates/adminsupportstaff.html:25
 msgid "To add someone, put them on the employees list on"
-msgstr ""
+msgstr "要添加某人,请把对方加入员工列表,位置在"
 
 #: r2/templates/adminsupportstaff.html:25
-#, fuzzy
-#| msgid "ads"
 msgid "as"
-msgstr "广告"
+msgstr "身份"
 
 #: r2/templates/adminsupportstaff.html:26
 msgid "They then see a \"support\" link at the top of every page."
-msgstr ""
+msgstr "之后对方会在每个页面顶部看到“支持”链接。"
 
 #: r2/templates/adminsupportstaff.html:31
-#, fuzzy
-#| msgid "ban user"
 msgid "may use"
-msgstr "封禁用户"
+msgstr "可使用"
 
 #: r2/templates/adminsupportstaff.html:38
 msgid "no two-factor: they can't use the queue until they turn it on"
-msgstr ""
+msgstr "未开启两步验证:开启前无法使用队列"
 
 #: r2/templates/adminsupportstaff.html:49
-#, fuzzy
-#| msgid "access"
 msgid "no access"
-msgstr "访问"
+msgstr "无权限"
 
 #: r2/templates/adminsupportstaff.html:66
 msgid "Nobody is on the employees list yet."
-msgstr ""
+msgstr "员工列表中还没有人。"
 
 #: r2/templates/adminsupportticket.html:46
-#, fuzzy
-#| msgid "assign to user"
 msgid "assigned to"
-msgstr "分配给用户"
+msgstr "分配给"
 
 #: r2/templates/adminsupportticket.html:50
 msgid "nobody"
-msgstr ""
+msgstr "无人"
 
 #: r2/templates/adminsupportticket.html:62
-#, fuzzy
-#| msgid "to make this button:"
 msgid "take this"
-msgstr "要制作该按钮："
+msgstr "认领"
 
 #: r2/templates/adminsupportticket.html:69
 msgid "let it go"
-msgstr ""
+msgstr "放弃"
 
 #: r2/templates/adminsupportticket.html:81
-#, fuzzy
-#| msgid "sign up"
 msgid "assign"
-msgstr "注册"
+msgstr "分配"
 
 #: r2/templates/adminsupportticket.html:91
 #, python-format
 msgid "mark %(status)s"
-msgstr ""
+msgstr "标记为 %(status)s"
 
 #: r2/templates/adminsupportticket.html:98
-#, fuzzy
-#| msgid "[full conversation]"
 msgid "conversation"
-msgstr "[完整会话]"
+msgstr "对话"
 
 #: r2/templates/adminsupportticket.html:105
 msgid "(a note for the staff; the member doesn't see it)"
-msgstr ""
+msgstr "(给工作人员的备注;成员看不到)"
 
 #: r2/templates/adminsupportticket.html:117
 #, python-format
 msgid "(staff; the member sees %(acct)s)"
-msgstr ""
+msgstr "(工作人员;成员看到的是 %(acct)s)"
 
 #: r2/templates/adminsupportticket.html:127
 msgid "leave a note for the staff"
-msgstr ""
+msgstr "给工作人员留个备注"
 
 #: r2/templates/adminsupportticket.html:131
 msgid "only staff see this, e.g. what you checked, or who should take it"
-msgstr ""
+msgstr "只有工作人员能看到,例如你检查了什么,或谁应该来处理"
 
 #: r2/templates/adminsupportticket.html:133
-#, fuzzy
-#| msgid "mod note"
 msgid "add note"
-msgstr "版主注意"
+msgstr "添加备注"
 
 #: r2/templates/adminsupportticket.html:138
 msgid "reply as the admin team"
-msgstr ""
+msgstr "以管理团队的名义回复"
 
 #: r2/templates/adminsupportticket.html:150
 msgid "their other tickets"
-msgstr ""
+msgstr "对方的其他工单"
 
 #: r2/templates/adminuser.html:31
 msgid "profile"
-msgstr ""
+msgstr "个人资料"
 
 #: r2/templates/adminuser.html:34
-#, fuzzy
-#| msgid "send message"
 msgid "send a message"
-msgstr "发送短信"
+msgstr "发送消息"
 
 #: r2/templates/adminuser.html:40
 msgid "registered from"
-msgstr ""
+msgstr "注册地址"
 
 #: r2/templates/adminuser.html:44 r2/templates/adminuser.html:51
-#, fuzzy
-#| msgid "not approved"
 msgid "not recorded"
-msgstr "未认可"
+msgstr "未记录"
 
 #: r2/templates/adminuser.html:47
-#, fuzzy
-#| msgid "active"
 msgid "last active"
-msgstr "活跃"
+msgstr "最近活跃"
 
 #: r2/templates/adminuser.html:63
-#, fuzzy, python-format
-#| msgid "all %(count)s comments"
+#, python-format
 msgid "%(link)d post, %(comment)d comment"
-msgstr "所有%(count)s个评论"
+msgstr "帖子 %(link)d,评论 %(comment)d"
 
 #: r2/templates/adminuser.html:67 r2/templates/adminusers.html:48
-#, fuzzy
-#| msgid "verified"
 msgid "(verified)"
-msgstr "已验证"
+msgstr "(已验证)"
 
 #: r2/templates/adminuser.html:67
-#, fuzzy
-#| msgid "unverified"
 msgid "(not verified)"
-msgstr "未验证"
+msgstr "(未验证)"
 
 #: r2/templates/adminuser.html:72 r2/templates/adminuser.html:149
 msgid "two-factor"
-msgstr ""
+msgstr "两步验证"
 
 #: r2/templates/adminuser.html:72 r2/templates/comment.xml:60
 msgid "on"
@@ -8539,139 +8068,109 @@ msgstr "于"
 
 #: r2/templates/adminuser.html:72
 msgid "off"
-msgstr ""
+msgstr "关闭"
 
 #: r2/templates/adminuser.html:77
-#, fuzzy, python-format
-#| msgid "%(title)s : %(site)s"
+#, python-format
 msgid "(until %(date)s)"
-msgstr "%(title)s：%(site)s"
+msgstr "(至 %(date)s)"
 
 #: r2/templates/adminuser.html:91
 msgid "days (0: until lifted)"
-msgstr ""
+msgstr "天(0:直到解除)"
 
 #: r2/templates/adminuser.html:104 r2/templates/adminvault.html:81
-#, fuzzy
-#| msgid "auction"
 msgid "actions"
-msgstr "竞价"
+msgstr "操作"
 
 #: r2/templates/adminuser.html:106
-#, fuzzy
-#| msgid "[account deleted]"
 msgid "The account is deleted."
-msgstr "[账户已删除]"
+msgstr "该账户已删除。"
 
 #: r2/templates/adminuser.html:108
 msgid "Not available for admins or yourself; take an admin off the employees list on /admin/config first."
-msgstr ""
+msgstr "不能用于管理员或你自己;请先在 /admin/config 的员工列表中移除该管理员。"
 
 #: r2/templates/adminuser.html:111
 msgid "timeout"
-msgstr ""
+msgstr "禁言"
 
 #: r2/templates/adminuser.html:113
-#, fuzzy
-#| msgid "all time"
 msgid "In a timeout"
-msgstr "所有时间"
+msgstr "禁言中"
 
 #: r2/templates/adminuser.html:113
-#, fuzzy, python-format
-#| msgid "about %(site)s"
+#, python-format
 msgid " until %(date)s"
-msgstr "关于%(site)s"
+msgstr " 至 %(date)s"
 
 #: r2/templates/adminuser.html:113
-#, fuzzy
-#| msgid "end date"
 msgid " with no end date"
-msgstr "结束日期"
+msgstr " 没有结束日期"
 
 #: r2/templates/adminuser.html:114
 msgid "lift the timeout"
-msgstr ""
+msgstr "解除禁言"
 
 #: r2/templates/adminuser.html:114 r2/templates/adminuser.html:123
-#, fuzzy
-#| msgid "(optional)"
 msgid "note (optional)"
-msgstr "（选填）"
+msgstr "备注(可选)"
 
 #: r2/templates/adminuser.html:116
-#, fuzzy
-#| msgid "updating in real time"
 msgid "put in a timeout"
-msgstr "实时更新中"
+msgstr "禁言"
 
 #: r2/templates/adminuser.html:116
 msgid "reason (sent to them)"
-msgstr ""
+msgstr "原因(会发送给对方)"
 
 #: r2/templates/adminuser.html:117
 msgid "They can still read and log in, and can message the admins, but can't post, comment, vote or message anyone else."
-msgstr ""
+msgstr "对方仍然可以阅读、登录和给管理员发消息,但不能发帖、评论、投票或给其他人发消息。"
 
 #: r2/templates/adminuser.html:120
-#, fuzzy
-#| msgid "discussions"
 msgid "suspension"
-msgstr "讨论"
+msgstr "封禁"
 
 #: r2/templates/adminuser.html:122
-#, fuzzy
-#| msgid "suspended"
 msgid "Suspended."
-msgstr "已暂停"
+msgstr "已封禁。"
 
 #: r2/templates/adminuser.html:125 r2/templates/adminuser.html:164
 msgid "reason (logged)"
-msgstr ""
+msgstr "原因(会被记录)"
 
 #: r2/templates/adminuser.html:125
 msgid "they can't log in; their sessions and app tokens end"
-msgstr ""
+msgstr "对方将无法登录;其会话和应用令牌会失效"
 
 #: r2/templates/adminuser.html:128
-#, fuzzy
-#| msgid "wiki tools"
 msgid "quick tools"
-msgstr "wiki工具"
+msgstr "快捷工具"
 
 #: r2/templates/adminuser.html:133
-#, fuzzy
-#| msgid "choose a vault"
 msgid "choose a tool"
-msgstr "选择版块"
+msgstr "选择工具"
 
 #: r2/templates/adminuser.html:134
-#, fuzzy
-#| msgid "posts and comments"
 msgid "remove all their posts and comments"
-msgstr "帖子与评论"
+msgstr "移除对方所有的帖子和评论"
 
 #: r2/templates/adminuser.html:135
 msgid "remove all their posts and comments as spam"
-msgstr ""
+msgstr "将对方所有的帖子和评论作为垃圾信息移除"
 
 #: r2/templates/adminuser.html:136
-#, fuzzy
-#| msgid "posts and comments"
 msgid "delete all their posts and comments"
-msgstr "帖子与评论"
+msgstr "删除对方所有的帖子和评论"
 
 #: r2/templates/adminuser.html:138
-#, fuzzy
-#| msgid "requires a verified email"
 msgid "require them to verify their email again"
-msgstr "需要已验证的电子邮件"
+msgstr "要求对方重新验证电子邮箱"
 
 #: r2/templates/adminuser.html:139
-#, fuzzy
-#| msgid "please enter an email address"
 msgid "remove their email address"
-msgstr "请输入电子邮件地址"
+msgstr "移除对方的电子邮箱地址"
 
 #: r2/templates/adminuser.html:142 r2/templates/promotelinkedit.html:106
 msgid "confirm"
@@ -8680,260 +8179,204 @@ msgstr "确认"
 #: r2/templates/adminuser.html:146
 #, python-format
 msgid "Removed posts and comments stay in each vault's spam queue, where moderators can approve them; \"as spam\" also teaches the spam filter. Deleted ones show as [deleted], as when someone deletes their own. Each acts on their newest %(n)d posts and newest %(n)d comments; run it again for more."
-msgstr ""
+msgstr "移除的帖子和评论会留在各版块的垃圾队列中,版主可以批准它们;“作为垃圾信息”还会训练垃圾过滤器。删除的内容会显示为 [已删除],就像有人删除自己的内容一样。每个工具只处理对方最新的 %(n)d 篇帖子和最新的 %(n)d 条评论;如需更多,请再运行一次。"
 
 #: r2/templates/adminuser.html:150
-#, fuzzy
-#| msgid "reset password"
 msgid "reset two-factor"
-msgstr "重置密码"
+msgstr "重置两步验证"
 
 #: r2/templates/adminuser.html:150
 msgid "why (logged)"
-msgstr ""
+msgstr "原因(会被记录)"
 
 #: r2/templates/adminuser.html:151
 msgid "For someone locked out: they can log in with their password and set it up again."
-msgstr ""
+msgstr "适用于无法登录的人:对方可以用密码登录,然后重新设置。"
 
 #: r2/templates/adminuser.html:154
-#, fuzzy
-#| msgid "deactivate account"
 msgid "delete account"
-msgstr "停用账户"
+msgstr "删除账户"
 
 #: r2/templates/adminuser.html:156
 #, python-format
 msgid "Delete %(name)s? This cannot be undone."
-msgstr ""
+msgstr "删除 %(name)s?此操作无法撤销。"
 
 #: r2/templates/adminuser.html:160
-#, fuzzy
-#| msgid "posts and comments"
 msgid "their posts and comments…"
-msgstr "帖子与评论"
+msgstr "对方的帖子和评论…"
 
 #: r2/templates/adminuser.html:161
 msgid "keep them (shown by [deleted])"
-msgstr ""
+msgstr "保留(显示为 [已删除])"
 
 #: r2/templates/adminuser.html:162
-#, fuzzy
-#| msgid "delete this image"
 msgid "delete them too"
-msgstr "删除该图像"
+msgstr "一并删除"
 
 #: r2/templates/adminuser.html:165
-#, fuzzy
-#| msgid "delete flair"
 msgid "delete for good"
-msgstr "删除签名"
+msgstr "永久删除"
 
 #: r2/templates/adminuser.html:169
 msgid "Final: their sessions and app tokens end, and their password, email address and moderator roles are removed now (not 90 days later, as when people delete their own account). The name can't be registered again."
-msgstr ""
+msgstr "不可恢复:对方的会话和应用令牌会失效,密码、电子邮箱地址和版主身份会立即移除(而不是像用户自己删除账户那样在 90 天后)。这个名字将不能再被注册。"
 
 #: r2/templates/adminuser.html:174 r2/templates/adminvault.html:125
-#, fuzzy
-#| msgid "link options"
 msgid "admin actions"
-msgstr "链接设置"
+msgstr "管理员操作"
 
 #: r2/templates/adminuser.html:191
-#, fuzzy
-#| msgid "IP address"
 msgid "logins by IP address"
-msgstr "IP地址"
+msgstr "按 IP 地址的登录记录"
 
 #: r2/templates/adminuser.html:192
 msgid "The last 100 days, newest first. Other accounts seen on the same address can be one person's accounts, or just a shared network (a household, school, phone carrier or VPN)."
-msgstr ""
+msgstr "最近 100 天,最新的在前。在同一地址上看到的其他账户,可能是同一个人的账户,也可能只是共享网络(家庭、学校、手机运营商或 VPN)。"
 
 #: r2/templates/adminuser.html:195
-#, fuzzy
-#| msgid "login"
 msgid "last login"
-msgstr "登录"
+msgstr "最后登录"
 
 #: r2/templates/adminuser.html:195
-#, fuzzy
-#| msgid "Update account information"
 msgid "other accounts from it"
-msgstr "更新账户信息"
+msgstr "来自该地址的其他账户"
 
 #: r2/templates/adminuser.html:209
 msgid "No logins recorded yet (they're recorded from now on, for public addresses)."
-msgstr ""
+msgstr "还没有登录记录(从现在起会记录公共地址的登录)。"
 
 #: r2/templates/adminuser.html:212
-#, fuzzy
-#| msgid "moderators"
 msgid "moderates"
-msgstr "版主"
+msgstr "管理的版块"
 
 #: r2/templates/adminuser.html:220
-#, fuzzy
-#| msgid "top vaults"
 msgid "No vaults."
-msgstr "最高版块"
+msgstr "没有版块。"
 
 #: r2/templates/adminuser.html:223
-#, fuzzy
-#| msgid "help support tippr"
 msgid "support tickets"
-msgstr "资助tippr"
+msgstr "支持工单"
 
 #: r2/templates/adminusers.html:26
-#, fuzzy
-#| msgid "no email address for that user"
 msgid "username, email address or IP address"
-msgstr "用户没有邮件地址"
+msgstr "用户名、电子邮箱地址或 IP 地址"
 
 #: r2/templates/adminusers.html:28
 msgid "A username finds that account and names starting with it; an email address finds every account that used it; an IP address finds the accounts that logged in from it (logins are kept for 100 days)."
-msgstr ""
+msgstr "用户名会找到该账户以及以它开头的名字;电子邮箱地址会找到所有用过它的账户;IP 地址会找到从该地址登录过的账户(登录记录保留 100 天)。"
 
 #: r2/templates/adminusers.html:59
-#, fuzzy
-#| msgid "No conversation found."
 msgid "No accounts found."
-msgstr "没有找到会话。"
+msgstr "没有找到账户。"
 
 #: r2/templates/adminvault.html:35 r2/templates/printablebuttons.html:442
 msgid "traffic"
 msgstr "流量"
 
 #: r2/templates/adminvault.html:40 r2/templates/adminvaults.html:49
-#, fuzzy
-#| msgid "create"
 msgid "created"
-msgstr "创建"
+msgstr "创建时间"
 
 #: r2/templates/adminvault.html:45 r2/templates/adminvaults.html:50
-#, fuzzy
-#| msgid "subscriber"
-#| msgid_plural "subscribers"
 msgid "subscribers"
 msgstr "订阅者"
 
 #: r2/templates/adminvault.html:56
-#, fuzzy
-#| msgid "message"
-#| msgid_plural "messages"
 msgid "message:"
-msgstr "短信"
+msgstr "消息:"
 
 #: r2/templates/adminvault.html:84
-#, fuzzy
-#| msgid "frontpage"
 msgid "front page default"
-msgstr "首页"
+msgstr "首页默认版块"
 
 #: r2/templates/adminvault.html:86 r2/templates/adminvault.html:94
 msgid "Yes."
-msgstr ""
+msgstr "是。"
 
 #: r2/templates/adminvault.html:86
-#, fuzzy
-#| msgid "More from %(vault)s"
 msgid "remove from the defaults"
-msgstr "更多来自%(vault)s"
+msgstr "从默认中移除"
 
 #: r2/templates/adminvault.html:88
-#, fuzzy
-#| msgid "use global defaults"
 msgid "make a default"
-msgstr "使用全局默认值"
+msgstr "设为默认"
 
 #: r2/templates/adminvault.html:90
 msgid "Defaults make up the front page for people who haven't subscribed to anything, and new accounts are subscribed to them."
-msgstr ""
+msgstr "默认版块构成没有订阅任何内容的人的首页,新账户也会自动订阅它们。"
 
 #: r2/templates/adminvault.html:94
 msgid "stop featuring"
-msgstr ""
+msgstr "取消推荐"
 
 #: r2/templates/adminvault.html:96
 msgid "feature"
-msgstr ""
+msgstr "推荐"
 
 #: r2/templates/adminvault.html:98
 msgid "Featured vaults are suggested to new members."
-msgstr ""
+msgstr "推荐版块会推荐给新成员。"
 
 #: r2/templates/adminvault.html:111
-#, fuzzy
-#| msgid "add moderator"
 msgid "add a moderator"
 msgstr "添加版主"
 
 #: r2/templates/adminvault.html:112
-#, fuzzy
-#| msgid "remove moderator"
 msgid "remove a moderator"
-msgstr "删除版主"
+msgstr "移除版主"
 
 #: r2/templates/adminvault.html:113
 msgid "Added moderators have every permission straight away, with no invitation to accept. To change a moderator's permissions, use the vault's moderators page."
-msgstr ""
+msgstr "添加的版主会立即拥有所有权限,无需接受邀请。要更改版主的权限,请使用版块的版主页面。"
 
 #: r2/templates/adminvault.html:117
 msgid "unban"
 msgstr "取消封禁"
 
 #: r2/templates/adminvault.html:117
-#, fuzzy
-#| msgid "(optional)"
 msgid "note (optional, logged)"
-msgstr "（选填）"
+msgstr "备注(可选,会被记录)"
 
 #: r2/templates/adminvault.html:119
-#, fuzzy
-#| msgid "ban this vault"
 msgid "ban the vault"
-msgstr "封禁该版块"
+msgstr "封禁版块"
 
 #: r2/templates/adminvault.html:119
 msgid "message shown on its page (optional)"
-msgstr ""
+msgstr "在其页面上显示的消息(可选)"
 
 #: r2/templates/adminvault.html:119
 msgid "only admins will be able to open it"
-msgstr ""
+msgstr "只有管理员才能打开它"
 
 #: r2/templates/adminvault.html:120
 msgid "This is how a vault is removed: it shows a \"banned\" page to everyone but the admins, and comes off the defaults and featured vaults. Its posts and settings are kept, so unbanning brings it back as it was."
-msgstr ""
+msgstr "版块就是这样被移除的:除管理员外,所有人都会看到“已封禁”页面,它也会从默认和推荐版块中移除。它的帖子和设置都会保留,所以解除封禁后会恢复原样。"
 
 #: r2/templates/adminvaults.html:26
 msgid "Admins can create vaults whatever their karma and account age; the limits on /admin/config are for everyone else. You'll be its moderator; add others (and take yourself off) on the vault's page here."
-msgstr ""
+msgstr "管理员创建版块不受羯磨和账户注册时间的限制;/admin/config 中的限制适用于其他所有人。你会成为它的版主;可以在这里的版块页面添加其他人(并移除你自己)。"
 
 #: r2/templates/adminvaults.html:31
-#, fuzzy
-#| msgid "vault name to use as theme"
 msgid "vault name, or the start of one"
-msgstr "要用作主题的版块名称"
+msgstr "版块名称,或名称的开头"
 
 #: r2/templates/adminvaults.html:37 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/widgetdemopanel.html:180
 msgid "newest"
 msgstr "最新"
 
 #: r2/templates/adminvaults.html:64
-#, fuzzy
-#| msgid "No items found"
 msgid "No vaults found."
-msgstr "没有找到项目"
+msgstr "没有找到版块。"
 
 #: r2/templates/adminvaults.html:69
-#, fuzzy
-#| msgid "frontpage clicks"
 msgid "front page defaults"
-msgstr "首页点击数"
+msgstr "首页默认版块"
 
 #: r2/templates/adminvaults.html:70
 msgid "What people who haven't subscribed to anything see, and what new accounts are subscribed to. Change them on each vault's page here."
-msgstr ""
+msgstr "没有订阅任何内容的人看到的内容,以及新账户会订阅的内容。请在这里的各版块页面中更改。"
 
 #: r2/templates/adverttrafficsummary.html:34
 msgid "top adverts"
@@ -8948,10 +8391,8 @@ msgid "Exclude your subscribed vaults"
 msgstr "排除你订阅的版块"
 
 #: r2/templates/allinfobar.html:46
-#, fuzzy
-#| msgid "Exclude your subscribed vaults"
 msgid "Exclude custom vaults"
-msgstr "排除你订阅的版块"
+msgstr "排除自定义版块"
 
 #: r2/templates/allinfobar.html:52
 msgid "See gilded comments and submissions"
@@ -8959,7 +8400,7 @@ msgstr "查看获赠黄金的评论和稿件"
 
 #: r2/templates/apihelp.html:294
 msgid "This endpoint expects JSON data of this format"
-msgstr ""
+msgstr "此接口需要以下格式的 JSON 数据"
 
 #: r2/templates/archivedinterstitial.html:34 r2/templates/createvault.html:146 r2/templates/searchresultvault.html:105
 msgid "archived"
@@ -9016,7 +8457,7 @@ msgstr "在你的网站上放置%(site)s按钮"
 
 #: r2/templates/buttondemopanel.html:36
 msgid "the tippr button is the smart way to get your content submitted to      and discussed on tippr.  pick the button you like from below, and then      copy/paste the code into your HTML editor."
-msgstr ""
+msgstr "tippr 按钮是让你的内容提交到 tippr 并引发讨论的好办法。从下面选一个你喜欢的按钮,然后把代码复制粘贴到你的 HTML 编辑器中。"
 
 #: r2/templates/buttondemopanel.html:40
 msgid "commonly used buttons"
@@ -9080,7 +8521,7 @@ msgstr "指定URL"
 
 #: r2/templates/buttondemopanel.html:96
 msgid "useful in places like blogs, where you want to link to the post's permalink"
-msgstr ""
+msgstr "适合用在博客等需要链接到帖子永久链接的地方"
 
 #: r2/templates/buttondemopanel.html:100
 msgid "specify a community to target"
@@ -9123,18 +8564,16 @@ msgid "hide code"
 msgstr "隐藏代码"
 
 #: r2/templates/captcha.html:61
-#, fuzzy
-#| msgid "are you sure?"
 msgid "are you human?"
-msgstr "您确定吗？"
+msgstr "你是人类吗?"
 
 #: r2/templates/captcha.html:61
 msgid "(sorry)"
-msgstr ""
+msgstr "(抱歉)"
 
 #: r2/templates/captcha.html:89
 msgid "human?"
-msgstr ""
+msgstr "人类?"
 
 #: r2/templates/clickgadget.html:34
 msgid "clear"
@@ -9179,235 +8618,198 @@ msgid "no highlighting"
 msgstr "不高亮显示"
 
 #: r2/templates/confirmawardclaim.html:34
-#, fuzzy, python-format
-#| msgid "# Claim this award for /u/%(user)s? #"
+#, python-format
 msgid "# Claim this award for /u/%s? #"
-msgstr "#为/u/%(user)s认领该奖项？#"
+msgstr "# 为 /u/%s 领取这个奖励? #"
 
 #: r2/templates/confirmawardclaim.html:39
 msgid "Yes, please!"
 msgstr "是的，请！"
 
 #: r2/templates/contactus.html:47
-#, fuzzy
-#| msgid "You'll need to log in."
 msgid "(you'll be asked to log in first)"
-msgstr "您必须登录。"
+msgstr "(需要先登录)"
 
 #: r2/templates/contactus.html:53
-#, fuzzy
-#| msgid "email"
 msgid "Or email"
-msgstr "电子邮件"
+msgstr "或发邮件至"
 
 #: r2/templates/contactus.html:57
 msgid "how can we help you?"
-msgstr ""
+msgstr "有什么可以帮你?"
 
 #: r2/templates/contactus.html:62
 msgid "Questions, account problems or something we should know about?"
-msgstr ""
+msgstr "有问题、账户出了状况,或有什么需要我们知道的?"
 
 #: r2/templates/contactus.html:63
-#, fuzzy
-#| msgid "message the admins"
 msgid "Question for the admins"
-msgstr "给管理员发送短信"
+msgstr "给管理员的问题"
 
 #: r2/templates/contactus.html:63
-#, fuzzy
-#| msgid "send a private message"
 msgid "Send the admins a message"
-msgstr "发送私信"
+msgstr "给管理员发消息"
 
 #: r2/templates/contactus.html:67
-#, fuzzy
-#| msgid "Report content"
 msgid "report content"
 msgstr "举报内容"
 
 #: r2/templates/contactus.html:69
 msgid "Use the report button on a post or comment to flag it to the moderators and admins. See the"
-msgstr ""
+msgstr "使用帖子或评论上的举报按钮,把它报告给版主和管理员。允许的内容请参阅"
 
 #: r2/templates/contactus.html:69
-#, fuzzy
-#| msgid "no spaces allowed"
 msgid "for what is allowed."
-msgstr "不能有空格"
+msgstr "。"
 
 #: r2/templates/contactus.html:70
 msgid "For something serious, such as threats, someone's private information, or content that endangers a child, tell the admins directly and include links:"
-msgstr ""
+msgstr "如果情况严重,例如威胁、他人的私人信息,或危及儿童的内容,请直接告诉管理员并附上链接:"
 
 #: r2/templates/contactus.html:71
-#, fuzzy
-#| msgid "promoted post report"
 msgid "Serious content report"
-msgstr "推广帖子报告"
+msgstr "严重内容举报"
 
 #: r2/templates/contactus.html:71
-#, fuzzy
-#| msgid "Reports go to Tippr admins"
 msgid "Report it to the admins"
-msgstr "举报会发送给tippr管理员"
+msgstr "举报给管理员"
 
 #: r2/templates/contactus.html:75
 msgid "appeal a removal or suspension"
-msgstr ""
+msgstr "对移除或封禁提出申诉"
 
 #: r2/templates/contactus.html:77
 msgid "If you think your content was removed or your account suspended by mistake, tell the admins what happened, with links. For removals by a vault's moderators, ask them first through the vault's \"message the moderators\" link."
-msgstr ""
+msgstr "如果你认为你的内容被误删或账户被误封,请把经过和链接告诉管理员。如果是版块版主移除的,请先通过该版块的“给版主发消息”链接询问他们。"
 
 #: r2/templates/contactus.html:78
 msgid "Appeal"
-msgstr ""
+msgstr "申诉"
 
 #: r2/templates/contactus.html:78
-#, fuzzy
-#| msgid "an app"
 msgid "Send an appeal"
-msgstr "应用"
+msgstr "提交申诉"
 
 #: r2/templates/contactus.html:82
 msgid "privacy and your data"
-msgstr ""
+msgstr "隐私与你的数据"
 
 #: r2/templates/contactus.html:84
-#, fuzzy
-#| msgid "Read Content"
 msgid "Read the"
-msgstr "阅读内容"
+msgstr "请阅读"
 
 #: r2/templates/contactus.html:84
 msgid "for what we collect. You can download or delete your data yourself in"
-msgstr ""
+msgstr "了解我们收集哪些信息。你可以在以下位置自行下载或删除你的数据:"
 
 #: r2/templates/contactus.html:84
-#, fuzzy
-#| msgid "privacy options"
 msgid "privacy settings"
 msgstr "隐私设置"
 
 #: r2/templates/contactus.html:85
 msgid "For anything else about your data:"
-msgstr ""
+msgstr "关于你的数据的其他问题:"
 
 #: r2/templates/contactus.html:86
-#, fuzzy
-#| msgid "invalid request"
 msgid "Privacy request"
-msgstr "无效请求"
+msgstr "隐私请求"
 
 #: r2/templates/contactus.html:92
 msgid "For a copyright (DMCA) takedown or another legal matter, see the"
-msgstr ""
+msgstr "如需版权(DMCA)下架或处理其他法律事务,请参阅"
 
 #: r2/templates/contactus.html:92
 #, python-format
 msgid "and include links to the content on %(site)s."
-msgstr ""
+msgstr ",并附上 %(site)s 上相关内容的链接。"
 
 #: r2/templates/contactus.html:93
 msgid "Copyright or legal request"
-msgstr ""
+msgstr "版权或法律请求"
 
 #: r2/templates/contactus.html:93
-#, fuzzy
-#| msgid "you sent an invalid request"
 msgid "Send a legal request"
-msgstr "请求无效"
+msgstr "提交法律请求"
 
 #: r2/templates/contactus.html:97
-#, fuzzy
-#| msgid "moderators"
 msgid "help for moderators"
-msgstr "版主"
+msgstr "版主帮助"
 
 #: r2/templates/contactus.html:99
 msgid "See the"
-msgstr ""
+msgstr "请参阅"
 
 #: r2/templates/contactus.html:99
 msgid "For urgent problems in a vault you moderate, such as raids or spam waves:"
-msgstr ""
+msgstr "你管理的版块出现紧急问题时,例如突袭或垃圾信息潮:"
 
 #: r2/templates/contactus.html:100
-#, fuzzy
-#| msgid "moderator mail"
 msgid "Moderator help"
-msgstr "版主信息"
+msgstr "版主帮助"
 
 #: r2/templates/contactus.html:100
 msgid "Ask the admins for help"
-msgstr ""
+msgstr "向管理员求助"
 
 #: r2/templates/contactus.html:104
 msgid "blocked for too many requests"
-msgstr ""
+msgstr "因请求过多被拦截"
 
 #: r2/templates/contactus.html:106
 msgid "If the site says you've made too many requests and you think that's a mistake, tell the admins your IP address (shown on that page) and what you were doing."
-msgstr ""
+msgstr "如果网站提示你请求过多,而你认为这是误判,请告诉管理员你的 IP 地址(显示在那个页面上)以及你当时在做什么。"
 
 #: r2/templates/contactus.html:107
 msgid "Blocked for too many requests"
-msgstr ""
+msgstr "因请求过多被拦截"
 
 #: r2/templates/contactus.html:107
-#, fuzzy
-#| msgid "message the admins"
 msgid "Message the admins"
-msgstr "给管理员发送短信"
+msgstr "给管理员发消息"
 
 #: r2/templates/contactus.html:111
 msgid "report a bug or suggest a feature"
-msgstr ""
+msgstr "报告问题或建议功能"
 
 #: r2/templates/contactus.html:113
 msgid "tippr is open source. Search the existing issues, or open a new one,"
-msgstr ""
+msgstr "tippr 是开源的。搜索已有的问题,或新建一个,"
 
 #: r2/templates/contactus.html:113
 msgid "on our issue tracker"
-msgstr ""
+msgstr "在我们的问题追踪器中"
 
 #: r2/templates/contactus.html:119
 msgid "A question about"
-msgstr ""
+msgstr "关于"
 
 #: r2/templates/contactus.html:119
 msgid "a payment, a gift code or a subscription? Include your username and, for a payment, its date and amount."
-msgstr ""
+msgstr "付款、礼品码或订阅的问题?请附上你的用户名;如果是付款,请附上日期和金额。"
 
 #: r2/templates/contactus.html:120
-#, fuzzy
-#| msgid "help support tippr"
 msgid "Gold support"
-msgstr "资助tippr"
+msgstr "gold 支持"
 
 #: r2/templates/contactus.html:120
-#, fuzzy
-#| msgid "about url"
 msgid "Ask about gold"
-msgstr "关于URL"
+msgstr "咨询 gold"
 
 #: r2/templates/contactus.html:125
 msgid "anything else"
-msgstr ""
+msgstr "其他问题"
 
 #: r2/templates/contactus.html:127
 msgid "Email us at"
-msgstr ""
+msgstr "请发邮件至"
 
 #: r2/templates/contactus.html:127
 msgid "and include your username if you have one."
-msgstr ""
+msgstr "并附上你的用户名(如果有)。"
 
 #: r2/templates/contactus.html:132
 msgid "\"In 5-billion years the Sun will expand and engulf our orbit as the charred ember that was once Earth vaporizes. Have a nice day.\""
-msgstr ""
+msgstr "“50 亿年后,太阳会膨胀并吞没我们的轨道,曾经的地球会化为焦烬蒸发殆尽。祝你今天愉快。”"
 
 #: r2/templates/createvault.html:41
 msgid ""
@@ -9416,6 +8818,10 @@ msgid ""
 "    \n"
 "try participating in other communities on tippr for a little while first before creating your own. please post to /v/help if you need more information about this restriction, or if you require a specific exemption you can [contact the admins](/contact) to request one.\n"
 msgstr ""
+"\n"
+"# 你的账户太新,还不能创建版块\n"
+"    \n"
+"在创建自己的版块之前,先在 tippr 的其他社区参与一段时间吧。如需了解更多关于此限制的信息,请发帖到 /v/help;如果你需要特别的例外,可以[联系管理员](/contact)申请。\n"
 
 #: r2/templates/createvault.html:57 r2/templates/goldpayment.html:174 r2/templates/listingchooser.html:69 r2/templates/prefapps.html:153 r2/templates/prefapps.html:348
 msgid "name"
@@ -9423,19 +8829,19 @@ msgstr "名称"
 
 #: r2/templates/createvault.html:57
 msgid "no spaces, e.g., \"books\" or \"bookclub\". avoid using solely trademarked names, e.g. use \"FansOfAcme\" instead of \"Acme\". once chosen, this name cannot be changed."
-msgstr ""
+msgstr "不能有空格,例如“books”或“bookclub”。避免只使用商标名称,例如用“FansOfAcme”而不是“Acme”。名称一旦选定就无法更改。"
 
 #: r2/templates/createvault.html:72
 msgid "e.g., books: made from trees or pixels. recommendations, news, or thoughts"
-msgstr ""
+msgstr "例如,书籍:纸质的或电子的。推荐、新闻或想法"
 
 #: r2/templates/createvault.html:86
 msgid "Appears in search results and social media links. 500 characters max."
-msgstr ""
+msgstr "显示在搜索结果和社交媒体链接中。最多 500 个字符。"
 
 #: r2/templates/createvault.html:102
 msgid "shown in the sidebar of your vault. 5120 characters max."
-msgstr ""
+msgstr "显示在你版块的侧边栏中。最多 5120 个字符。"
 
 #: r2/templates/createvault.html:111
 msgid "submission text"
@@ -9586,14 +8992,12 @@ msgid "self posts"
 msgstr "自己的帖子"
 
 #: r2/templates/createvault.html:302 r2/templates/newlink.html:113
-#, fuzzy
-#| msgid "NSFW content"
 msgid "AI content"
-msgstr "NSFW内容"
+msgstr "AI 内容"
 
 #: r2/templates/createvault.html:304
 msgid "every post is labelled human-made, AI-assisted or AI-generated by whoever posts it. choose which posts this vault accepts. users can hide AI posts across the site, but posts in a vault for AI content are always shown in that vault."
-msgstr ""
+msgstr "发帖人会把每篇帖子标记为人工创作、AI 辅助或 AI 生成。请选择此版块接受哪些帖子。用户可以在全站隐藏 AI 帖子,但专门发布 AI 内容的版块中的帖子在该版块里始终显示。"
 
 #: r2/templates/createvault.html:315
 msgid "other options"
@@ -9605,7 +9009,7 @@ msgstr "查看者必需年满十八岁"
 
 #: r2/templates/createvault.html:338
 msgid "allow this vault to be included /v/all as well as the default and trending lists"
-msgstr ""
+msgstr "允许此版块出现在 /v/all 以及默认和热门列表中"
 
 #: r2/templates/createvault.html:349
 msgid "show thumbnail images of content"
@@ -9617,7 +9021,7 @@ msgstr "展开评论页面上的媒体预览"
 
 #: r2/templates/createvault.html:374
 msgid "exclude posts by site-wide banned users from modqueue/unmoderated"
-msgstr ""
+msgstr "在审核队列/未审核列表中排除被全站封禁用户的帖子"
 
 #: r2/templates/createvault.html:382
 msgid "make the traffic stats page available to everyone"
@@ -9653,7 +9057,7 @@ msgstr "隐藏帮助"
 
 #: r2/templates/createvault.html:449
 msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.tippr.net. You will be able to access your tippr through your domain."
-msgstr ""
+msgstr "有自己的域名吗?在这里输入,然后到你的 DNS 服务商那里添加一条 CNAME 记录,把你的域名指向 rhs.tippr.net。之后就可以通过你的域名访问你的版块。"
 
 #: r2/templates/createvault.html:456
 msgid "look and feel"
@@ -9701,7 +9105,7 @@ msgstr "页眉图像"
 
 #: r2/templates/createvault.html:603
 msgid "header should have 10:3 aspect ratio. PNG or JPG only."
-msgstr ""
+msgstr "页头图片的宽高比应为 10:3。仅限 PNG 或 JPG。"
 
 #: r2/templates/createvault.html:604
 msgid "minimum size: 640x192px"
@@ -9733,17 +9137,16 @@ msgstr "总计"
 
 #: r2/templates/creditgild.html:54 r2/templates/goldpayment.html:120
 msgid "Felicitations on this momentous occasion!"
-msgstr ""
+msgstr "恭喜你迎来这个重要时刻!"
 
 #: r2/templates/deleteduserinterstitial.html:38
 msgid "This user has deleted their account."
 msgstr "该用户已经删除了他的账户。"
 
 #: r2/templates/errorpage.html:44
-#, fuzzy, python-format
-#| msgid "send a message to the moderators"
+#, python-format
 msgid "a message from the moderators of /v/%s"
-msgstr "给版主发送短信"
+msgstr "来自 /v/%s 版主的消息"
 
 #: r2/templates/errorpage.html:51
 msgid "send a message to the moderators"
@@ -9784,7 +9187,7 @@ msgstr "重试"
 #: r2/templates/filteredinfobar.html:35
 #, python-format
 msgid "Displaying content from %s, except the following vaults: "
-msgstr ""
+msgstr "正在显示 %s 的内容,但不包括以下版块: "
 
 #: r2/templates/filteredinfobar.html:48
 msgid "filter vault"
@@ -10130,7 +9533,7 @@ msgstr "（使用你%(total)stippr点数中的%(current)s）"
 
 #: r2/templates/goldpayment.html:151
 msgid "PayPal"
-msgstr ""
+msgstr "PayPal"
 
 #: r2/templates/goldpayment.html:157
 msgid "Credit Card"
@@ -10146,7 +9549,7 @@ msgstr "信用卡号"
 
 #: r2/templates/goldpayment.html:182
 msgid "cvc"
-msgstr ""
+msgstr "cvc"
 
 #: r2/templates/goldpayment.html:186 r2/templates/paymentform.html:124
 msgid "expiration date"
@@ -10215,21 +9618,19 @@ msgstr "昨日tippr黄金目标"
 
 #: r2/templates/helpindex.html:18
 msgid "Help"
-msgstr ""
+msgstr "帮助"
 
 #: r2/templates/helpindex.html:25
 msgid "Rules and policies"
-msgstr ""
+msgstr "规则与政策"
 
 #: r2/templates/helpindex.html:32
 msgid "Can't find what you need?"
-msgstr ""
+msgstr "找不到你需要的内容?"
 
 #: r2/templates/helpindex.html:32
-#, fuzzy
-#| msgid "message the admins"
 msgid "Contact the admins."
-msgstr "给管理员发送短信"
+msgstr "联系管理员。"
 
 #: r2/templates/interestbar.html:30
 #, python-format
@@ -10256,7 +9657,7 @@ msgstr "与你有缘"
 #: r2/templates/interstitial.html:45
 #, python-format
 msgid "/v/%s"
-msgstr ""
+msgstr "/v/%s"
 
 #: r2/templates/interstitial.html:73
 msgid "back to Tippr"
@@ -10326,7 +9727,7 @@ msgstr "收件箱回复已启用"
 
 #: r2/templates/linkcommentssettings.html:105
 msgid "inbox replies will send you a message when this link receives a new top-level comment"
-msgstr ""
+msgstr "开启收件箱回复后,这个链接有新的顶层评论时会给你发消息"
 
 #: r2/templates/linkcommentssettings.html:110
 msgid "disable contest mode"
@@ -10354,7 +9755,7 @@ msgstr "发表声明"
 
 #: r2/templates/linkcommentssettings.html:126 r2/templates/linkcommentssettings.html:131
 msgid "announced"
-msgstr ""
+msgstr "已公告"
 
 #: r2/templates/linkcommentssettings.html:127
 msgid "make announcement? (bottom announcement will be replaced)"
@@ -10374,7 +9775,7 @@ msgstr "作为一名版主，你可以按你的需要排序评论并看到得分
 
 #: r2/templates/linkcommentssettings.html:143
 msgid "contest mode randomizes comment sorting, hides scores, and collapses replies by default."
-msgstr ""
+msgstr "竞赛模式会随机排列评论、隐藏分数,并默认折叠回复。"
 
 #: r2/templates/linkinfobar.html:41
 msgid "this post was submitted on"
@@ -10395,36 +9796,30 @@ msgid "there doesn't seem to be anything here"
 msgstr "这里似乎什么都没有"
 
 #: r2/templates/listing.html:97
-#, fuzzy, python-format
-#| msgid "comments from %(site)s"
+#, python-format
 msgid "Welcome to %(site)s"
-msgstr "来自%(site)s的评论"
+msgstr "欢迎来到 %(site)s"
 
 #: r2/templates/listing.html:101
 msgid "There's nothing to show here yet. Start something: share a link, ask a question or tell people what you're working on."
-msgstr ""
+msgstr "这里还没有内容。开始点什么吧:分享一个链接,提一个问题,或者告诉大家你在做什么。"
 
 #: r2/templates/listing.html:104
-#, fuzzy, python-format
-#| msgid "search in %(vault)s"
+#, python-format
 msgid "Nothing in /v/%(vault)s yet"
-msgstr "在%(vault)s内搜索"
+msgstr "/v/%(vault)s 里还没有内容"
 
 #: r2/templates/listing.html:108
 msgid "Be the first to post here."
-msgstr ""
+msgstr "来发第一篇帖子吧。"
 
 #: r2/templates/listing.html:120
-#, fuzzy
-#| msgid "add vault"
 msgid "Find a vault"
-msgstr "添加版块"
+msgstr "找一个版块"
 
 #: r2/templates/listing.html:130
-#, fuzzy
-#| msgid "from all vaults"
 msgid "browse all vaults"
-msgstr "来自所有版块"
+msgstr "浏览所有版块"
 
 #: r2/templates/listingchooser.html:51
 msgid "multivaults"
@@ -10432,7 +9827,7 @@ msgstr "版块组"
 
 #: r2/templates/listingchooser.html:53
 msgid "hide multivaults (turn them back on in preferences)"
-msgstr ""
+msgstr "隐藏多版块(可在设置中重新开启)"
 
 #: r2/templates/listingchooser.html:57
 msgid "new! create sets of vaults to view together."
@@ -10447,28 +9842,21 @@ msgid "to hide these samples, create a multi of your own:"
 msgstr "要隐藏这些示例，请创建你自己的版块组："
 
 #: r2/templates/listingsuggestions.html:33
-#, fuzzy
-#| msgid "explore a random vault"
 msgid "explore some new vaults"
-msgstr "探索随机版块"
+msgstr "探索一些新版块"
 
 #: r2/templates/listingsuggestions.html:35
-#, fuzzy
-#| msgid "create a new multi"
 msgid "or try a multi:"
-msgstr "创建新版块组"
+msgstr "或者试试一个多版块:"
 
 #: r2/templates/listingsuggestions.html:41
-#, fuzzy, python-format
-#| msgid "explore a random vault"
+#, python-format
 msgid "or try a %(random_vault)s"
-msgstr "探索随机版块"
+msgstr "或者试试%(random_vault)s"
 
 #: r2/templates/listingsuggestions.html:42
-#, fuzzy
-#| msgid "add vault"
 msgid "random vault"
-msgstr "添加版块"
+msgstr "随机版块"
 
 #: r2/templates/locationbar.html:32
 #, python-format
@@ -10512,10 +9900,8 @@ msgid "optional"
 msgstr "选填"
 
 #: r2/templates/login.html:111
-#, fuzzy
-#| msgid "email options"
 msgid "email (optional)"
-msgstr "电子邮件选项"
+msgstr "电子邮件(可选)"
 
 #: r2/templates/login.html:119 r2/templates/login.html:240 r2/templates/loginformwide.html:50
 msgid "remember me"
@@ -10523,13 +9909,11 @@ msgstr "记住我"
 
 #: r2/templates/login.html:133
 msgid "type the letters from the image"
-msgstr ""
+msgstr "输入图片中的字母"
 
 #: r2/templates/login.html:153
-#, fuzzy
-#| msgid "get the best of tippr, delivered once a week"
 msgid "get the best of tippr emailed to you once a week."
-msgstr "获取tippr的最佳内容，每周递送一次"
+msgstr "每周一次,把 tippr 的精华发到你的邮箱。"
 
 #: r2/templates/login.html:154 r2/templates/welcomebar.html:30
 msgid "learn more"
@@ -10569,12 +9953,12 @@ msgstr "创建新帐户"
 
 #: r2/templates/login.html:280
 msgid "This site isn't taking new accounts right now."
-msgstr ""
+msgstr "本站目前不接受新账户注册。"
 
 #: r2/templates/login.html:282
 #, python-format
 msgid "To ask about an account, write to %(address)s."
-msgstr ""
+msgstr "如需咨询账户问题,请发邮件至 %(address)s。"
 
 #: r2/templates/login.html:293
 #, python-format
@@ -10622,24 +10006,21 @@ msgid "(username, or /v/name for that vault's moderators)"
 msgstr "（用户名，或“/v/版块名”寄送给该版块所有版主）"
 
 #: r2/templates/messagenotificationemail.email:30
-#, fuzzy, python-format
-#| msgid "choose a new password for /u/%(username)s"
+#, python-format
 msgid "You've received a new message from %(username)s!"
-msgstr "输入/u/%(username)s的新密码"
+msgstr "你收到了来自 %(username)s 的新消息!"
 
 #: r2/templates/messagenotificationemail.email:34
 msgid "View on the web"
-msgstr ""
+msgstr "在网页上查看"
 
 #: r2/templates/messagenotificationemail.email:36
-#, fuzzy
-#| msgid "unsubscribe"
 msgid "Unsubscribe"
 msgstr "取消订阅"
 
 #: r2/templates/messagenotificationemailsunsubscribe.html:27
 msgid "Thanks! You're unsubscribed from all message notification emails."
-msgstr ""
+msgstr "谢谢!你已取消订阅所有消息通知邮件。"
 
 #: r2/templates/modaction.html:52
 #, python-format
@@ -10791,13 +10172,12 @@ msgstr "再次查看建议"
 
 #: r2/templates/newlink.html:41
 msgid "tippr"
-msgstr ""
+msgstr "tippr"
 
 #: r2/templates/newlink.html:44
-#, fuzzy, python-format
-#| msgid "submit to %(sr)s"
+#, python-format
 msgid "submit to %(vault)s"
-msgstr "投稿至%(sr)s"
+msgstr "发布到 %(vault)s"
 
 #: r2/templates/newlink.html:88
 msgid "suggest title"
@@ -10812,31 +10192,27 @@ msgid "choose a vault"
 msgstr "选择版块"
 
 #: r2/templates/newlink.html:114
-#, fuzzy
-#| msgid "How much does it cost?"
 msgid "how much AI went into this post?"
-msgstr "赠金的花费是多少？"
+msgstr "这篇帖子用了多少 AI?"
 
 #: r2/templates/newlink.html:116
 #, python-format
 msgid "/v/%(vault)s accepts %(policy)s."
-msgstr ""
+msgstr "/v/%(vault)s 接受:%(policy)s。"
 
 #: r2/templates/newlink.html:132
-#, fuzzy, python-format
-#| msgid "submitting to %(sr)s"
+#, python-format
 msgid "submitting to %(vault)s"
-msgstr "正在投稿至%(sr)s"
+msgstr "正在发布到 %(vault)s"
 
 #: r2/templates/newlink.html:145
 msgid "send replies to my inbox"
 msgstr "将新回复发到我的收件箱"
 
 #: r2/templates/newlink.html:155
-#, fuzzy, python-format
-#| msgid "please be mindful of tippr's %(content_policy)s and practice %(good_reddiquette)s."
+#, python-format
 msgid "please be mindful of the %(content_policy)s."
-msgstr "请留意tippr的%(content_policy)s并践行%(good_reddiquette)s。"
+msgstr "请遵守%(content_policy)s。"
 
 #: r2/templates/newsletter.html:36
 msgid "tippr newsletter - upvoted weekly"
@@ -10943,7 +10319,7 @@ msgstr "不，谢谢"
 
 #: r2/templates/pagenamenav.html:51
 msgid "This is an [internationalized domain name](http://en.wikipedia.org/wiki/Internationalized_domain_name).  We've modified how it is displayed [for security reasons](http://en.wikipedia.org/wiki/IDN_homograph_attack)."
-msgstr ""
+msgstr "这是一个[国际化域名](http://en.wikipedia.org/wiki/Internationalized_domain_name)。[出于安全原因](http://en.wikipedia.org/wiki/IDN_homograph_attack),我们修改了它的显示方式。"
 
 #: r2/templates/password.html:32
 msgid "reset your password"
@@ -10951,7 +10327,7 @@ msgstr "重置你的密码"
 
 #: r2/templates/password.html:33
 msgid "enter your username below and we'll email you a link to reset your password"
-msgstr ""
+msgstr "在下面输入你的用户名,我们会把重置密码的链接发到你的邮箱"
 
 #: r2/templates/password.html:36
 msgid "password reset link expired. please try again"
@@ -10968,7 +10344,7 @@ msgstr "设置该链接的支付方式"
 #: r2/templates/paymentform.html:34
 #, python-format
 msgid "The duration of this link is %(duration)s (from %(start)s to %(end)s)."
-msgstr ""
+msgstr "此链接的投放时长为 %(duration)s(从 %(start)s 到 %(end)s)。"
 
 #: r2/templates/paymentform.html:39
 #, python-format
@@ -11026,7 +10402,7 @@ msgstr "(14-17位数字)"
 
 #: r2/templates/paymentform.html:125
 msgid "CCV"
-msgstr ""
+msgstr "CCV"
 
 #: r2/templates/paymentform.html:125
 msgid "(3 or 4 digits)"
@@ -11074,15 +10450,15 @@ msgstr "（那是你！）"
 
 #: r2/templates/prefapps.html:105
 msgid "Suspended by the site's admins."
-msgstr ""
+msgstr "已被网站管理员封禁。"
 
 #: r2/templates/prefapps.html:109
 msgid "It can't be used until they lift it."
-msgstr ""
+msgstr "在解除封禁之前无法使用。"
 
 #: r2/templates/prefapps.html:111
 msgid "Waiting for the site's admins to approve it. Until then it works only for its developers."
-msgstr ""
+msgstr "正在等待网站管理员批准。在此之前只对其开发者可用。"
 
 #: r2/templates/prefapps.html:119
 msgid "personal use script"
@@ -11134,7 +10510,7 @@ msgstr "有效期至："
 
 #: r2/templates/prefapps.html:270
 msgid "Maintain this access indefinitely (or until manually revoked)."
-msgstr ""
+msgstr "无限期保持此访问权限(或直到手动撤销)。"
 
 #: r2/templates/prefapps.html:304
 msgid "revoke access"
@@ -11170,7 +10546,7 @@ msgstr "创建应用程序"
 
 #: r2/templates/prefapps.html:344
 msgid "Please [read the API usage guidelines](/help/api) before creating your application. After creating, you will be required to [register](/help/api) for production API use."
-msgstr ""
+msgstr "创建应用前,请先[阅读 API 使用准则](/help/api)。创建后,要在生产环境中使用 API,需要[注册](/help/api)。"
 
 #: r2/templates/prefapps.html:379
 msgid "create app"
@@ -11189,16 +10565,12 @@ msgid "sorry to see you go!"
 msgstr "很遗憾看到你离开！"
 
 #: r2/templates/prefdeactivate.html:41
-#, fuzzy
-#| msgid ""
-#| " * if you're having a problem on tippr, please consider [contacting us](/message/compose?to=%2Fr%2Ftippr.com) about it before deactivating your account.\n"
-#| " * deactivating your account will not delete the content of posts and comments you've made on tippr. to do so, please delete them individually."
 msgid ""
 " * if you're having a problem on tippr, please consider [contacting us](/contact) about it before deactivating your account.\n"
 " * deactivating your account will not delete the content of posts and comments you've made on tippr. to do so, please delete them individually."
 msgstr ""
-" * 如果你在tippr上遇到了问题，请考虑在停用你的账户前[联系我们](/message/compose?to=%2Fr%2Ftippr.com)处理问题。\n"
-" * 停用你的账户不会删除你在tippr上的帖子和评论的内容。要删除它们，请单独手工删除。"
+" * 如果你在 tippr 遇到问题,请在停用账户前考虑[联系我们](/contact)。\n"
+" * 停用账户不会删除你在 tippr 上发表的帖子和评论内容。如需删除,请逐一删除。"
 
 #: r2/templates/prefdeactivate.html:50
 msgid "please cancel your gold subscription!"
@@ -11239,11 +10611,11 @@ msgstr "私有RSS源"
 
 #: r2/templates/preffeeds.html:34
 msgid "On this page are links to private RSS feeds so that you can get listings of your content (personalized front page, message panel, saved listing, etc.) without having to deal with cookies or other auth."
-msgstr ""
+msgstr "此页面上有私人 RSS 订阅源的链接,让你无需处理 Cookie 或其他认证,就能获取你的内容列表(个性化首页、消息面板、已保存列表等)。"
 
 #: r2/templates/preffeeds.html:35
 msgid "Keep in mind that these urls are intended to be private, so **share at your own risk.**"
-msgstr ""
+msgstr "请记住,这些网址是私密的,**分享的风险需自行承担。**"
 
 #: r2/templates/preffeeds.html:36
 msgid "All feeds are invalidated if you change your password, however."
@@ -11322,10 +10694,8 @@ msgid "location options"
 msgstr "地区设置"
 
 #: r2/templates/prefoptions.html:137
-#, fuzzy
-#| msgid "using the default vaults for your location (%(location)s)"
 msgid "use the global default vaults for my front page"
-msgstr "使用默认板块作为您的所属(%(location)s)"
+msgstr "我的首页使用全局默认版块"
 
 #: r2/templates/prefoptions.html:139
 msgid "hide the location information bar"
@@ -11377,7 +10747,7 @@ msgstr "NSFW内容"
 
 #: r2/templates/prefoptions.html:178
 msgid "hide images for NSFW/18+ content "
-msgstr "隐藏NSFW/18+内容的图像"
+msgstr "隐藏NSFW/18+内容的图像 "
 
 #: r2/templates/prefoptions.html:181
 msgid "(Don't show thumbnails or media previews for anything labeled NSFW)"
@@ -11385,45 +10755,39 @@ msgstr "（不显示标记为NSFW的内容的缩略图或媒体预览）"
 
 #: r2/templates/prefoptions.html:184
 msgid "make safe(r) for work "
-msgstr ""
+msgstr "更适合在工作场合浏览 "
 
 #: r2/templates/prefoptions.html:186
-#, fuzzy
-#| msgid "(Don't show thumbnails or media previews for anything labeled NSFW)"
 msgid "(Don't show thumbnails next to anything labeled NSFW)"
-msgstr "（不显示标记为NSFW的内容的缩略图或媒体预览）"
+msgstr "(不在标记为 NSFW 的内容旁边显示缩略图)"
 
 #: r2/templates/prefoptions.html:192
 msgid "link options"
 msgstr "链接设置"
 
 #: r2/templates/prefoptions.html:195
-#, fuzzy
-#| msgid "show this page on the list of wiki pages"
 msgid "show the spotlight box on the front page"
-msgstr "在wiki页面列表中显示该页面"
+msgstr "在首页显示焦点推荐框"
 
 #: r2/templates/prefoptions.html:198
 msgid "(it shows new and promoted links, and gives you a say in what's spam and what isn't.)"
-msgstr ""
+msgstr "(它会显示新的和推广的链接,并让你参与判断什么是垃圾信息。)"
 
 #: r2/templates/prefoptions.html:202
 msgid "show trending vaults on the front page"
-msgstr ""
+msgstr "在首页显示热门版块"
 
 #: r2/templates/prefoptions.html:205
 msgid "(a list of popular and notable vaults to check out)"
-msgstr ""
+msgstr "(值得一看的热门和知名版块列表)"
 
 #: r2/templates/prefoptions.html:210
 msgid "show multivaults in the side panel"
-msgstr ""
+msgstr "在侧边栏显示多版块"
 
 #: r2/templates/prefoptions.html:213
-#, fuzzy
-#| msgid "new! create sets of vaults to view together."
 msgid "(your sets of vaults to view together, and the form to make one)"
-msgstr "新！创建可以一起浏览的版块组。"
+msgstr "(你用来一起浏览的版块组合,以及创建组合的表单)"
 
 #: r2/templates/prefoptions.html:216
 msgid "show me links I've recently viewed"
@@ -11435,11 +10799,11 @@ msgstr "压缩链接显示"
 
 #: r2/templates/prefoptions.html:218
 msgid "show additional details in the domain text when available"
-msgstr ""
+msgstr "在可用时于域名文字中显示更多信息"
 
 #: r2/templates/prefoptions.html:221
 msgid "(such as the source vault or the content author's url/name)"
-msgstr ""
+msgstr "(例如来源版块,或内容作者的网址/名字)"
 
 #: r2/templates/prefoptions.html:224
 msgid "don't show me submissions after I've upvoted them"
@@ -11482,7 +10846,7 @@ msgstr "忽略建议的排序"
 
 #: r2/templates/prefoptions.html:253
 msgid "(suggested sorts may be set by community moderators for specific threads or vaults, like Q&As)"
-msgstr ""
+msgstr "(社区版主可以为特定讨论串或版块设置推荐排序,例如问答)"
 
 #: r2/templates/prefoptions.html:256
 msgid "show a dagger (†) on comments voted controversial"
@@ -11564,7 +10928,7 @@ msgstr "允许版块对我显示自定义主题"
 
 #: r2/templates/prefoptions.html:320
 msgid "(you can also choose which vault themes to disable on an individual level)"
-msgstr ""
+msgstr "(你也可以单独选择停用哪些版块的主题)"
 
 #: r2/templates/prefoptions.html:324
 msgid "show user flair"
@@ -11576,7 +10940,7 @@ msgstr "显示链接签名"
 
 #: r2/templates/prefoptions.html:329
 msgid "show self-serve advertising tab on front page"
-msgstr ""
+msgstr "在首页显示自助广告标签"
 
 #: r2/templates/prefoptions.html:334
 msgid "show legacy search page"
@@ -11596,11 +10960,11 @@ msgstr "标记不适合工作场所（NSFW）的帖子"
 
 #: r2/templates/prefoptions.html:347
 msgid "posts labelled as made with AI:"
-msgstr ""
+msgstr "标记为使用 AI 制作的帖子:"
 
 #: r2/templates/prefoptions.html:356
 msgid "posts in vaults that are for AI content are always shown there"
-msgstr ""
+msgstr "专门发布 AI 内容的版块中的帖子在那里始终显示"
 
 #: r2/templates/prefoptions.html:358
 msgid "enable private RSS feeds"
@@ -11636,16 +11000,14 @@ msgid "I would like to beta test features for tippr"
 msgstr "我想要测试tippr的新功能"
 
 #: r2/templates/prefoptions.html:394
-#, fuzzy, python-format
-#| msgid "by enabling you'll be subscribed to %(beta_sr_link)s automatically."
+#, python-format
 msgid "by enabling you'll be subscribed to %(beta_vault_link)s automatically."
-msgstr "启用后你会自动订阅%(beta_sr_link)s。"
+msgstr "开启后,你会自动订阅 %(beta_vault_link)s。"
 
 #: r2/templates/prefoptions.html:396
-#, fuzzy, python-brace-format
-#| msgid "details on the /r/{beta_sr} wiki"
+#, python-brace-format
 msgid "details on the /v/{beta_vault} wiki"
-msgstr "/v/{beta_sr}wiki上的详情"
+msgstr "详情请见 /v/{beta_vault} 的维基"
 
 #: r2/templates/prefoptions.html:405 r2/templates/prefoptions.html:428
 msgid "gold options"
@@ -11796,7 +11158,7 @@ msgstr "删除于%(time)s"
 
 #: r2/templates/printable.html:62
 msgid "(no need to click for this info; just hover over the checkmark next time)"
-msgstr ""
+msgstr "(不必点击查看这些信息;下次把鼠标悬停在勾号上即可)"
 
 #: r2/templates/printable.html:233
 msgid "upvote"
@@ -11836,7 +11198,7 @@ msgstr "未标记"
 
 #: r2/templates/printablebuttons.html:95
 msgid "AI label"
-msgstr ""
+msgstr "AI 标签"
 
 #: r2/templates/printablebuttons.html:120
 msgid "retry thumb"
@@ -11848,7 +11210,7 @@ msgstr "请几分钟后返回检查"
 
 #: r2/templates/printablebuttons.html:140
 msgid "undistinguish"
-msgstr ""
+msgstr "取消特殊标记"
 
 #: r2/templates/printablebuttons.html:155
 msgid "distinguish this?"
@@ -11860,11 +11222,11 @@ msgstr "是且置顶"
 
 #: r2/templates/printablebuttons.html:192
 msgid "undistinguish this?"
-msgstr ""
+msgstr "取消特殊标记?"
 
 #: r2/templates/printablebuttons.html:217
 msgid "undistinguishing..."
-msgstr ""
+msgstr "正在取消特殊标记..."
 
 #: r2/templates/printablebuttons.html:219
 msgid "distinguishing..."
@@ -11961,11 +11323,11 @@ msgstr "标记为未读"
 
 #: r2/templates/privateinterstitial.html:38
 msgid "You must be invited to visit this community"
-msgstr ""
+msgstr "你必须受到邀请才能访问这个社区"
 
 #: r2/templates/privateinterstitial.html:43
 msgid "The moderators of this vault have set it to private. You must be a moderator or approved submitter to visit."
-msgstr ""
+msgstr "这个版块的版主把它设为私密。你必须是版主或认可投稿者才能访问。"
 
 #: r2/templates/profilebar.html:47
 msgid "+ friends"
@@ -11985,19 +11347,16 @@ msgstr "评论羯磨"
 
 #: r2/templates/profilebar.html:82
 msgid "really obscure karma from before it was cool to track per-vault"
-msgstr ""
+msgstr "很久以前、还没流行按版块统计时的冷门羯磨"
 
 #: r2/templates/profilebar.html:108
-#, fuzzy
-#| msgid "View/edit my snoovatar"
 msgid "View/edit my avatar"
-msgstr "查看/编辑我的snoo形象"
+msgstr "查看/编辑我的头像"
 
 #: r2/templates/profilebar.html:110
-#, fuzzy, python-format
-#| msgid "%(username)s's snoovatar"
+#, python-format
 msgid "%(username)s's avatar"
-msgstr "%(username)s的snoo形象"
+msgstr "%(username)s 的头像"
 
 #: r2/templates/profilebar.html:125
 msgid "of tippr gold remaining"
@@ -12022,7 +11381,7 @@ msgstr "tippr客已注册"
 #: r2/templates/promotedlink.html:42
 #, python-format
 msgid "to be promoted by %(author)s"
-msgstr ""
+msgstr "将由 %(author)s 推广"
 
 #: r2/templates/promotedlink.html:44
 #, python-format
@@ -12030,44 +11389,32 @@ msgid "promoted by %(author)s"
 msgstr "%(author)s推广"
 
 #: r2/templates/promotedlink.html:70
-#, fuzzy
-#| msgid "rejected promoted links"
 msgid "deleted sponsored link"
-msgstr "拒绝的推广链接"
+msgstr "已删除的推广链接"
 
 #: r2/templates/promotedlink.html:72
-#, fuzzy
-#| msgid "unpaid promoted links"
 msgid "unpaid sponsored link"
-msgstr "未支付的推广链接"
+msgstr "未付款的推广链接"
 
 #: r2/templates/promotedlink.html:74
 msgid "waiting approval"
 msgstr "等待认可"
 
 #: r2/templates/promotedlink.html:76
-#, fuzzy
-#| msgid "rejected promoted links"
 msgid "rejected sponsored link"
-msgstr "拒绝的推广链接"
+msgstr "被拒绝的推广链接"
 
 #: r2/templates/promotedlink.html:78 r2/templates/promotedlink.html:85
-#, fuzzy
-#| msgid "promoted links"
 msgid "sponsored link"
 msgstr "推广链接"
 
 #: r2/templates/promotedlink.html:80
-#, fuzzy
-#| msgid "accepted promoted links"
 msgid "accepted sponsored link"
-msgstr "接受的推广链接"
+msgstr "已接受的推广链接"
 
 #: r2/templates/promotedlink.html:82
-#, fuzzy
-#| msgid "edited live promoted links"
 msgid "edited live sponsored link"
-msgstr "编辑直播推广链接"
+msgstr "投放中被编辑的推广链接"
 
 #: r2/templates/promotedlinktraffic.html:45
 msgid "click-through (%)"
@@ -12075,11 +11422,11 @@ msgstr "点击率（%）"
 
 #: r2/templates/promotedlinktraffic.html:78
 msgid "totals are preliminary until 24 hours after the end of the promotion."
-msgstr ""
+msgstr "推广结束后 24 小时内,总数仍为初步数据。"
 
 #: r2/templates/promotedlinktraffic.html:106
 msgid "Campaigns created before September 12, 2012 don't have traffic data"
-msgstr ""
+msgstr "2012 年 9 月 12 日之前创建的推广活动没有流量数据"
 
 #: r2/templates/promotedlinktraffic.html:115 r2/templates/promotelinkbase.html:322 r2/templates/promotelinkedit.html:149
 msgid "start"
@@ -12111,15 +11458,15 @@ msgstr "送达的影响数"
 
 #: r2/templates/promotedlinktraffic.html:123 r2/templates/refundpage.html:64
 msgid "cpm"
-msgstr ""
+msgstr "cpm"
 
 #: r2/templates/promotedlinktraffic.html:125
 msgid "ctr"
-msgstr ""
+msgstr "ctr"
 
 #: r2/templates/promotedlinktraffic.html:126
 msgid "cpc"
-msgstr ""
+msgstr "cpc"
 
 #: r2/templates/promotedlinktraffic.html:132 r2/templates/refundpage.html:76
 msgid "detail"
@@ -12127,7 +11474,7 @@ msgstr "详情"
 
 #: r2/templates/promotedlinktraffic.html:133
 msgid "csv"
-msgstr ""
+msgstr "csv"
 
 #: r2/templates/promoteinventory.html:87
 msgid "download as csv"
@@ -12135,7 +11482,7 @@ msgstr "以CSV下载"
 
 #: r2/templates/promotelinkbase.html:82
 msgid "A good title is important to the success of your campaign. tippr users are an intelligent, thoughtful group, and reward those who engage them."
-msgstr ""
+msgstr "好的标题对推广活动的成功很重要。tippr 用户聪明、有思想,会回报那些与他们互动的人。"
 
 #: r2/templates/promotelinkbase.html:93
 msgid "post type"
@@ -12151,7 +11498,7 @@ msgstr "你自定义的文字的点击率"
 
 #: r2/templates/promotelinkbase.html:132
 msgid "Provide the URL of your ad. No redirects please!"
-msgstr ""
+msgstr "请提供你广告的网址。请不要使用重定向!"
 
 #: r2/templates/promotelinkbase.html:136
 msgid "Override display domain:"
@@ -12159,27 +11506,23 @@ msgstr "重载显示域："
 
 #: r2/templates/promotelinkbase.html:145
 msgid "Choose a different domain name to display on the site (the small grey text next to a link)"
-msgstr ""
+msgstr "选择在网站上显示的另一个域名(链接旁的灰色小字)"
 
 #: r2/templates/promotelinkbase.html:148
-#, fuzzy
-#| msgid "impression tracking url"
 msgid "Impression tracking URL:"
-msgstr "影响追踪URL"
+msgstr "展示跟踪 URL:"
 
 #: r2/templates/promotelinkbase.html:157
 msgid "Enter a URL to insert into a 3rd-party impression tracking code snippet"
 msgstr "请输入URL以插入第三方影响追踪代码段"
 
 #: r2/templates/promotelinkbase.html:160
-#, fuzzy
-#| msgid "secondary impression tracking url"
 msgid "Secondary Impression tracking URL:"
-msgstr "次要影响追踪URL"
+msgstr "第二个展示跟踪 URL:"
 
 #: r2/templates/promotelinkbase.html:169
 msgid "Enter a second 3rd-party impression tracking URL (not common)"
-msgstr ""
+msgstr "输入第二个第三方展示跟踪网址(不常用)"
 
 #: r2/templates/promotelinkbase.html:186
 msgid "thumbnail"
@@ -12207,7 +11550,7 @@ msgstr "发送我的广告的评论到我的收件箱"
 
 #: r2/templates/promotelinkbase.html:245
 msgid "Comments are a great way to get feedback from customers, and the tippr community is known for being vocal in comment threads."
-msgstr ""
+msgstr "评论是获取客户反馈的好方式,而 tippr 社区以在评论中积极发言而著称。"
 
 #: r2/templates/promotelinkbase.html:284
 msgid "autoplay"
@@ -12215,7 +11558,7 @@ msgstr "自动播放"
 
 #: r2/templates/promotelinkbase.html:288
 msgid "media override (adds an onclick to the link to generate a drop-down rather than a link out)"
-msgstr ""
+msgstr "媒体覆盖(为链接添加点击事件,弹出下拉内容而不是跳转出去)"
 
 #: r2/templates/promotelinkbase.html:299
 msgid "managed promotion"
@@ -12223,7 +11566,7 @@ msgstr "管理推广"
 
 #: r2/templates/promotelinkbase.html:302
 msgid "Managed promotions don't appear in the selfserve approval queues."
-msgstr ""
+msgstr "托管推广不会出现在自助广告的审批队列中。"
 
 #: r2/templates/promotelinkbase.html:309
 msgid "scheduling"
@@ -12235,7 +11578,7 @@ msgstr "时间"
 
 #: r2/templates/promotelinkbase.html:368
 msgid "desktop and mobile web"
-msgstr ""
+msgstr "桌面和移动网页"
 
 #: r2/templates/promotelinkbase.html:379
 msgid "desktop only"
@@ -12247,11 +11590,11 @@ msgstr "仅移动版网页"
 
 #: r2/templates/promotelinkbase.html:398
 msgid "iOS"
-msgstr ""
+msgstr "iOS"
 
 #: r2/templates/promotelinkbase.html:402
 msgid "Android"
-msgstr ""
+msgstr "Android"
 
 #: r2/templates/promotelinkbase.html:406
 msgid "you must select at least one mobile OS"
@@ -12267,15 +11610,15 @@ msgstr "根据设备和系统过滤"
 
 #: r2/templates/promotelinkbase.html:435
 msgid "iPhone"
-msgstr ""
+msgstr "iPhone"
 
 #: r2/templates/promotelinkbase.html:439
 msgid "iPad"
-msgstr ""
+msgstr "iPad"
 
 #: r2/templates/promotelinkbase.html:443
 msgid "iPod"
-msgstr ""
+msgstr "iPod"
 
 #: r2/templates/promotelinkbase.html:450 r2/templates/promotelinkbase.html:492
 msgid "Min"
@@ -12332,12 +11675,12 @@ msgstr "每24小时上限"
 #: r2/templates/promotelinkbase.html:588
 #, python-format
 msgid "Example: Display this flight no more than %i times per user per 24 hours."
-msgstr ""
+msgstr "例如:每个用户每 24 小时最多显示这条广告 %i 次。"
 
 #: r2/templates/promotelinkbase.html:592
 #, python-format
 msgid "frequency must be at least %i per 24 hours"
-msgstr ""
+msgstr "频率必须至少为每 24 小时 %i 次"
 
 #: r2/templates/promotelinkbase.html:599
 msgid "frequency"
@@ -12370,11 +11713,11 @@ msgstr "价钱"
 
 #: r2/templates/promotelinkbase.html:727
 msgid "if you modify the budget of this paid campaign you will need to reauthorize payment by clicking the \"pay\" button"
-msgstr ""
+msgstr "如果你修改了这个已付款推广活动的预算,需要点击“付款”按钮重新授权付款"
 
 #: r2/templates/promotelinkbase.html:730
 msgid "the budget for campaigns cannot be adjusted once the campaign has gone live"
-msgstr ""
+msgstr "推广活动开始投放后,预算无法再调整"
 
 #: r2/templates/promotelinkbase.html:739 r2/templates/promotelinkedit.html:159
 msgid "targeting"
@@ -12389,14 +11732,12 @@ msgid "targets a collection of similar vaults"
 msgstr "导向一个相似板块的系列"
 
 #: r2/templates/promotelinkbase.html:766
-#, fuzzy
-#| msgid "targets a vault and its users"
 msgid "targets a vault and its subscribers"
-msgstr "选择一个板块和其用户"
+msgstr "定向投放到一个版块及其订阅者"
 
 #: r2/templates/promotelinkbase.html:776
 msgid "interest audience group"
-msgstr ""
+msgstr "兴趣受众群体"
 
 #: r2/templates/promotelinkbase.html:785
 msgid "vaults included on the frontpage are based on users' subscriptions"
@@ -12412,15 +11753,15 @@ msgstr "和更多！"
 
 #: r2/templates/promotelinkbase.html:805
 msgid "changing the target for a live campaign requires reapproval."
-msgstr ""
+msgstr "更改投放中推广活动的定向需要重新审批。"
 
 #: r2/templates/promotelinkbase.html:806
 msgid "while your campaign is awaiting reapproval, it will not be displayed."
-msgstr ""
+msgstr "你的推广活动在等待重新审批期间不会显示。"
 
 #: r2/templates/promotelinkbase.html:812
 msgid "location targeting is only available when targeting the frontpage"
-msgstr ""
+msgstr "只有定向首页时才能使用地区定向"
 
 #: r2/templates/promotelinkbase.html:825
 msgid "region"
@@ -12448,7 +11789,7 @@ msgstr "推广历史"
 
 #: r2/templates/promotelinkbase.html:940
 msgid "fixed CPM"
-msgstr ""
+msgstr "固定 CPM"
 
 #: r2/templates/promotelinkbase.html:946
 msgid "campaign type"
@@ -12475,24 +11816,20 @@ msgid "admin dashboard"
 msgstr "管理员控制面板"
 
 #: r2/templates/promotelinkedit.html:130
-#, fuzzy
-#| msgid "Date when your promoted post will start running.  We start new campaigns at midnight UTC+5"
 msgid "Date when your sponsored link will start running.  We start new campaigns at midnight UTC+5"
-msgstr "你的推广帖子开始运作的日期。我们在零点UTC+5开始新广告活动"
+msgstr "你的推广链接开始投放的日期。新推广活动在 UTC+5 的午夜开始"
 
 #: r2/templates/promotelinkedit.html:131
-#, fuzzy
-#| msgid "Date when your promoted post will end (at midnight UTC+5)"
 msgid "Date when your sponsored link will end (at midnight UTC+5)"
-msgstr "你的推广帖子结束的日期（时间为当天零点UTC+5）"
+msgstr "你的推广链接结束投放的日期(UTC+5 的午夜)"
 
 #: r2/templates/promotelinkedit.html:132
 msgid "name of the community that you are targeting. A blank entry here means that the ad is untargeted and will run site-wide "
-msgstr "你的目标社区的名称。留空表示广告不设目标，会全网站展示。"
+msgstr "你的目标社区的名称。留空表示广告不设目标，会全网站展示。 "
 
 #: r2/templates/promotelinkedit.html:140
 msgid "You have too many campaigns for this link."
-msgstr ""
+msgstr "这个链接的推广活动太多了。"
 
 #: r2/templates/promotelinkedit.html:141
 msgid "It's time to start fresh!"
@@ -12503,14 +11840,12 @@ msgid "payment mismatch"
 msgstr "支付不匹配"
 
 #: r2/templates/promotelinknew.html:79
-#, fuzzy
-#| msgid "created by %(user)s"
 msgid "create as user"
-msgstr "%(user)s创建"
+msgstr "以用户身份创建"
 
 #: r2/templates/promotelinknew.html:86
 msgid "Create a promotion on another user's account."
-msgstr ""
+msgstr "在另一个用户的账户上创建推广。"
 
 #: r2/templates/promotereport.html:50
 msgid "grouping"
@@ -12522,7 +11857,7 @@ msgstr "你确定想看这个社区吗？"
 
 #: r2/templates/quarantineinterstitial.html:44
 msgid "You must have a [verified email](/prefs/update) to view this community"
-msgstr ""
+msgstr "你必须有[已验证的电子邮箱](/prefs/update)才能查看这个社区"
 
 #: r2/templates/quarantineinterstitial.html:46
 msgid "You must log in and have a verified email to view this community"
@@ -12531,12 +11866,12 @@ msgstr "要查看这个社区，你必须登录并验证电子邮件地址。"
 #: r2/templates/quarantineinterstitial.html:57
 #, python-format
 msgid "Communities that are dedicated to shocking or highly offensive content are [quarantined](%(link)s). Content in this community may be upsetting. Are you certain you want to continue?"
-msgstr ""
+msgstr "专门发布令人震惊或极其冒犯内容的社区会被[隔离](%(link)s)。这个社区的内容可能会让你不适。确定要继续吗?"
 
 #: r2/templates/quarantineinterstitial.html:59
 #, python-format
 msgid "Communities that are dedicated to shocking or highly offensive content are [quarantined](%(link)s)."
-msgstr ""
+msgstr "专门发布令人震惊或极其冒犯内容的社区会被[隔离](%(link)s)。"
 
 #: r2/templates/readnext.html:32
 msgid "discussions in"
@@ -12564,7 +11899,7 @@ msgstr "收到的影响数"
 
 #: r2/templates/refundpage.html:80
 msgid "billable amount"
-msgstr ""
+msgstr "应付金额"
 
 #: r2/templates/refundpage.html:84
 msgid "refund amount"
@@ -12576,7 +11911,7 @@ msgstr "问题退款"
 
 #: r2/templates/renderablecampaign.html:76 r2/templates/renderablecampaign.html:120
 msgid "N/A"
-msgstr ""
+msgstr "不适用"
 
 #: r2/templates/renderablecampaign.html:85
 msgid "free"
@@ -12603,10 +11938,8 @@ msgid "complete"
 msgstr "完成"
 
 #: r2/templates/renderablecampaign.html:177
-#, fuzzy
-#| msgid "waiting approval"
 msgid "awaiting approval"
-msgstr "等待认可"
+msgstr "等待批准"
 
 #: r2/templates/renderablecampaign.html:187
 msgid "terminate"
@@ -12628,7 +11961,7 @@ msgstr "其他（最大%(num)s个字符）："
 
 #: r2/templates/rules.html:44
 msgid "Rules that visitors must follow to participate. May be used as reasons to report or ban."
-msgstr ""
+msgstr "访客参与时必须遵守的规则。可以作为举报或封禁的理由。"
 
 #: r2/templates/rules.html:79
 msgid "Add a new rule."
@@ -12640,7 +11973,7 @@ msgstr "添加规则"
 
 #: r2/templates/rules.html:83
 msgid "You have reached the maximum number of rules."
-msgstr ""
+msgstr "规则数量已达到上限。"
 
 #: r2/templates/rules.html:123
 msgid "Delete this rule."
@@ -12762,7 +12095,7 @@ msgstr "只有我"
 
 #: r2/templates/serversecondsbar.html:45
 msgid "note: you will only be eligible for a gilding trophy if this is set to \"everyone\""
-msgstr ""
+msgstr "注意:只有设为“所有人”时,你才有资格获得赠送 gold 的奖杯"
 
 #: r2/templates/sitewidetraffic.html:36
 msgid "top vaults"
@@ -12775,51 +12108,46 @@ msgstr "进行举报"
 #: r2/templates/spotlightlisting.html:67
 #, python-format
 msgid "This sponsored link is an advertisement generated with our %(self_serve_advertisement_tool)s."
-msgstr ""
+msgstr "这个推广链接是用我们的%(self_serve_advertisement_tool)s制作的广告。"
 
 #: r2/templates/spotlightlisting.html:68
 msgid "self-serve advertisement tool"
-msgstr ""
+msgstr "自助广告工具"
 
 #: r2/templates/spotlightlisting.html:73
 #, python-format
 msgid "Use of this tool is open to all members of tippr.net, and for as little as %(price)s you can advertise in this area. %%(get_started)s"
-msgstr ""
+msgstr "所有 tippr.net 的成员都可以使用这个工具,只需 %(price)s 就能在这里投放广告。%%(get_started)s"
 
 #: r2/templates/spotlightlisting.html:74
-#, fuzzy
-#| msgid "getting started"
 msgid "Get started"
 msgstr "开始"
 
 #: r2/templates/spotlightlisting.html:80
 msgid "This area shows new and upcoming links. Vote on links here to help them become popular, and click the forwards and backwards buttons to view more. "
-msgstr ""
+msgstr "这里显示新的和正在上升的链接。为这里的链接投票,帮助它们变得热门;点击前进和后退按钮查看更多。 "
 
 #: r2/templates/spotlightlisting.html:85
 msgid "here"
-msgstr ""
+msgstr "这里"
 
 #: r2/templates/spotlightlisting.html:85
-#, fuzzy
-#| msgid "that element has been deleted"
 msgid "This element has been disabled."
-msgstr "该元素已经删除"
+msgstr "此元素已停用。"
 
 #: r2/templates/spotlightlisting.html:87
 #, python-format
 msgid "Click %(here)s to disable this feature."
-msgstr ""
+msgstr "点击%(here)s停用此功能。"
 
 #: r2/templates/spotlightlisting.html:93
 msgid "Enter a keyword or topic to discover new vaults around your interests. Be specific!"
-msgstr ""
+msgstr "输入关键词或话题,发现与你兴趣相关的新版块。尽量具体!"
 
 #: r2/templates/spotlightlisting.html:96
-#, fuzzy, python-format
-#| msgid "Your coins are listed as a payment method on the checkout page."
+#, python-format
 msgid "You can access this tool at any time on the %(vaults)s page."
-msgstr "你的tippr点数被列为结帐页面上的支付方式。"
+msgstr "你可以随时在%(vaults)s页面使用这个工具。"
 
 #: r2/templates/subscribebutton.html:34
 msgid "unsubscribe"
@@ -12851,7 +12179,7 @@ msgstr "你已经是tippr黄金订阅者。"
 
 #: r2/templates/thanks.html:48
 msgid "But if you just gave us even more money, enter the new confirmation code below and we'll add the extra credit to your account."
-msgstr ""
+msgstr "但如果你刚刚又给了我们更多的钱,请在下面输入新的确认码,我们会把额外的额度加到你的账户上。"
 
 #: r2/templates/thanks.html:61
 msgid "claim"
@@ -12862,10 +12190,9 @@ msgid "unavailable"
 msgstr "不可用"
 
 #: r2/templates/tipprfooter.html:43
-#, fuzzy, python-format
-#| msgid "Use of this site constitutes acceptance of our %(user_agreement)s and %(privacy_policy)s"
+#, python-format
 msgid "Use of this site constitutes acceptance of our %(user_agreement)s, %(privacy_policy)s and %(content_policy)s"
-msgstr "使用本网站即表示你接受我们的%(user_agreement)s和%(privacy_policy)s"
+msgstr "使用本站即表示你接受我们的%(user_agreement)s、%(privacy_policy)s和%(content_policy)s"
 
 #: r2/templates/tipprheader.html:42
 msgid "jump to content"
@@ -12887,7 +12214,7 @@ msgstr "你正处于测试模式！感谢你帮助测试tippr。"
 #: r2/templates/tipprheader.html:101
 #, python-format
 msgid "Please give feedback at %(beta_link)s, or %(learn_more_link)s."
-msgstr ""
+msgstr "请在 %(beta_link)s 提供反馈,或%(learn_more_link)s。"
 
 #: r2/templates/tipprheader.html:103
 msgid "learn more on the wiki"
@@ -13072,38 +12399,33 @@ msgid ""
 "\n"
 "https://example.com"
 msgstr ""
+"单独成行的链接会被嵌入:\n"
+"\n"
+"https://example.com"
 
 #: r2/templates/usertext.html:111
 msgid "an embedded version of that link"
 msgstr "该链接的嵌入版本"
 
 #: r2/templates/usertext.html:123
-#, fuzzy
-#| msgid "italics"
 msgid "italic"
 msgstr "斜体"
 
 #: r2/templates/usertext.html:124
-#, fuzzy
-#| msgid "strike"
 msgid "strikethrough"
-msgstr "删除"
+msgstr "删除线"
 
 #: r2/templates/usertext.html:128
-#, fuzzy
-#| msgid "quoted text"
 msgid "quote"
-msgstr "引用的文字"
+msgstr "引用"
 
 #: r2/templates/usertext.html:130
-#, fuzzy
-#| msgid "back to full list"
 msgid "bulleted list"
-msgstr "返回完整列表"
+msgstr "项目符号列表"
 
 #: r2/templates/usertext.html:133
 msgid "emoji"
-msgstr ""
+msgstr "表情"
 
 #: r2/templates/usertext.html:189 r2/templates/wikieditpage.html:49
 msgid "formatting help"
@@ -13135,7 +12457,7 @@ msgstr "成人内容：不适合工作场所"
 
 #: r2/templates/utils.html:650 r2/templates/vault.html:98
 msgid "NSFW"
-msgstr ""
+msgstr "NSFW"
 
 #: r2/templates/utils.html:655
 msgid "Quarantined content: Content may be highly offensive"
@@ -13155,12 +12477,12 @@ msgstr "[链接]"
 
 #: r2/templates/vaultfacets.html:32
 msgid "too many results? narrow it down to a vault!"
-msgstr ""
+msgstr "结果太多?把范围缩小到一个版块吧!"
 
 #: r2/templates/vaultinfobar.html:46
 #, python-format
 msgid "This community is [quarantined](%(link)s) because of its shocking or highly offensive content."
-msgstr ""
+msgstr "这个社区因为内容令人震惊或极其冒犯,已被[隔离](%(link)s)。"
 
 #: r2/templates/vaultinfobar.html:53
 msgid "Leave this community"
@@ -13205,7 +12527,7 @@ msgstr "查看社区规则"
 
 #: r2/templates/vaultreportform.html:39
 msgid "What rule does this break?"
-msgstr ""
+msgstr "这违反了哪条规则?"
 
 #: r2/templates/vaultreportform.html:80
 #, python-format
@@ -13283,7 +12605,7 @@ msgstr "所有时间均为[UTC](http://zh.wikipedia.org/wiki/UTC)。"
 
 #: r2/templates/vaulttrafficreport.html:32
 msgid "Enter one vault per line. Traffic numbers shown are for the last full month."
-msgstr ""
+msgstr "每行输入一个版块。显示的流量数据为上一个完整月份。"
 
 #: r2/templates/vaulttrafficreport.html:42
 msgid "vault traffic"
@@ -13378,7 +12700,7 @@ msgstr "按%(what)s排序链接"
 #: r2/templates/widgetdemopanel.html:187
 #, python-format
 msgid "date range includes %(when)s"
-msgstr ""
+msgstr "日期范围包含 %(when)s"
 
 #: r2/templates/widgetdemopanel.html:190
 msgid "number of links to show"
@@ -13390,7 +12712,7 @@ msgstr "删除CSS样式"
 
 #: r2/templates/widgetdemopanel.html:210
 msgid "(the widget will inherit all styles from the page)"
-msgstr ""
+msgstr "(小部件会继承页面的所有样式)"
 
 #: r2/templates/widgetdemopanel.html:218
 msgid "enable in-widget voting"
@@ -13423,11 +12745,11 @@ msgstr "代码"
 #: r2/templates/widgetdemopanel.html:259
 #, python-format
 msgid "add this into your HTML where you want the %(site)s links displayed"
-msgstr ""
+msgstr "把这段代码加入你 HTML 中想显示 %(site)s 链接的位置"
 
 #: r2/templates/wikieditpage.html:36
 msgid "this edit is for you to resolve the conflict, any text in the box below will not save."
-msgstr ""
+msgstr "这次编辑是让你解决冲突,下方框中的任何文字都不会被保存。"
 
 #: r2/templates/wikieditpage.html:55
 msgid "save page"
