@@ -2242,7 +2242,7 @@ msgid "that's not a Google Analytics 4 measurement ID (G-…)"
 msgstr ""
 
 #: r2/lib/errors.py:149
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "%(domain)s is not allowed on tippr: %(reason)s"
 msgstr "%(domain)s रेडिट पर वर्जित है: %(reason)s"
 
@@ -3478,7 +3478,7 @@ msgid "that link has already been submitted, but you can try to [submit it again
 msgstr "यह लिंक पहले प्रस्तुत किया जा चुका है पर आप फिर से [प्रस्तुत कर सकते हैं](%s) ।"
 
 #: r2/lib/strings.py:75
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "that link has been submitted to multiple vaults. you can try to [submit it again](%s)."
 msgstr "यह लिंक बहुत सारी सबरेडिट पर प्रस्तुत किया जा चुका है । आप इसे [पुन: प्रस्तुत](%s) कर सकते हैं ।"
 
@@ -3497,7 +3497,7 @@ msgid "I understand and agree that registration on or use of this site constitut
 msgstr "मैं समझता हूँ और मानता हूँ कि इस साइट पर पंजीकरण करना या इसका उपयोग करना का मतलब है कौ मैं इसकी %(user_agreement)s और %(privacy_policy)s से सहमत हूँ ।"
 
 #: r2/lib/strings.py:84
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "to view tippr with only submissions from your friends, use [tippr.net/v/friends](%s)"
 msgstr "रेडिट पर केवल अपनी मित्रों की प्रस्तुतियों को देखने के लिए [tippr.net/v/friends](%s) का प्रयोग करें"
 
@@ -3634,7 +3634,7 @@ msgid "You sent us a postcard! (Or something similar.) When we run out of room o
 msgstr "आपने हमें एक पोस्टकार्ड (या उस जैसा कुछ) भेजा है । जब अंत में हमारे पास जगह ही नहीं बचती तो हम आप जैसे लोगो द्वारा भेजे गए सामान को अक्सर नीलम कर देते हैं । तो क्या हम आपकी दी हुई चीज़ को नीलम कर सकते हैं? "
 
 #: r2/lib/strings.py:127
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "Sorry, the maximum number of comments is %(max)d. (However, if you subscribe to tippr gold, it goes up to %(goldmax)d.)"
 msgstr "क्षमा करें, टिप्पणी की अधिकतम संख्या %(max)d है. (तथापि, यदि आपके पास रेडिट गोल्ड है तब यह संख्या  %(goldmax)d तक जा सकती है । )"
 
@@ -3738,7 +3738,7 @@ msgid "This page shows a history of recent activity on your account. If you noti
 msgstr ""
 
 #: r2/lib/strings.py:152
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "You are currently accessing tippr from this IP address: %(address)s."
 msgstr "आप इस आईपी पते से रेडिट तक पहुँच रहे हैं : %(address)s"
 
@@ -4337,7 +4337,7 @@ msgid "search vaults by name"
 msgstr "उपरेडिट को नाम से खोजें "
 
 #: r2/lib/pages/pages.py:2259
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "your front page vaults (%s)"
 msgstr "आपके मुखपृष्ठ वाले सबरेडिट (%s)"
 
@@ -4366,7 +4366,7 @@ msgid "less than a day"
 msgstr "एक दिन से भी कम"
 
 #: r2/lib/pages/pages.py:2466
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "%(coins)s gold coin to give"
 msgid_plural "%(coins)s gold coins to give"
 msgstr[0] "देने के लिए %(coins)s गोल्ड क्रेडिट"
@@ -4380,7 +4380,7 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: r2/lib/pages/pages.py:2482
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "give tippr gold to %(user)s to show your appreciation"
 msgstr "अपनी सराहना दिखाने हेतु %(user)s को रेडिट गोल्ड दें"
 
@@ -4438,7 +4438,7 @@ msgid "%s visible"
 msgstr "%s दृष्टित"
 
 #: r2/lib/pages/pages.py:2933
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "%(bonus)s bonus vaults"
 msgstr "%(bonus)s बोनस सबरेडिट"
 
@@ -4753,7 +4753,7 @@ msgid "this page is empty, edit it to add some content."
 msgstr "यह पृष्ठ खाली है, यहाँ कुछ साइड बार जोड़ने के लिए इसे संपादित करें ।"
 
 #: r2/lib/pages/wiki.py:171 r2/lib/pages/wiki.py:177
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "page %s does not exist in this vault"
 msgstr "पृष्ठ %s इस उपरेडिट पर मौज़ूद नही है"
 
@@ -5206,7 +5206,7 @@ msgid "invite moderator"
 msgstr "पंच आमंत्रित करें"
 
 #: r2/models/listing.py:285 r2/templates/modlisting.html:36
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "you are a moderator of this vault. %(action)s"
 msgstr "आप इस उपरेडिट के पंच हैं । %(action)s"
 
@@ -5225,7 +5225,7 @@ msgid "moderators of /v/%(vault)s"
 msgstr ""
 
 #: r2/models/mail_queue.py:331
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "[tippr] %(user)s has shared a link with you"
 msgstr "[रेडिट] %(user)s ने आपके साथ यह लिंक बांटा है "
 
@@ -9032,7 +9032,7 @@ msgid "deleted comment from"
 msgstr "से मिटाया गया कमेंट"
 
 #: r2/templates/comment.html:115
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "this vault hides comment scores for %d minutes"
 msgstr "यह सबरेडिट %d मिनट तक टिप्पणी अंक छुपाती है"
 
@@ -10114,12 +10114,12 @@ msgid "Contact the admins."
 msgstr "व्यवस्थापकों को संदेश भेजें"
 
 #: r2/templates/interestbar.html:30
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "ready for something new? %s subscribe %s to some new vaults."
 msgstr "कुछ नया करने के लिए तैयार है? कुछ नए उपरेडिट की  %s सदस्यता %s लीजिए ।"
 
 #: r2/templates/interestbar.html:32
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "it looks like you haven't %s subscribed %s to any vaults yet. want some ideas?"
 msgstr "ऐसा लगता है कि आप अब तक किसी भी उपरेडिट के %s सदस्य %s नही हैं । कुछ उपाए चाहिएँ ?"
 
@@ -13033,7 +13033,7 @@ msgid "stop being an approved submitter?"
 msgstr "अनुमोदित प्रस्तुतकर्ता ना बने रहें?"
 
 #: r2/templates/vaultinfobar.html:86
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "you are an approved submitter on this vault. (%(leave)s)"
 msgstr "आप इस सबरेडिट के अनुमोदित प्रस्तुतकर्ता हैं । (%(leave)s)"
 
@@ -13295,7 +13295,7 @@ msgid "submit a discussion"
 msgstr "एक चर्चा प्रस्तुत करें"
 
 #: r2/templates/wikipagenotfound.html:26
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "The page \"%s\" was not found in this vault."
 msgstr "पृष्ठ \"%s\" इस सबरेडिट पर नही मिला ।"
 

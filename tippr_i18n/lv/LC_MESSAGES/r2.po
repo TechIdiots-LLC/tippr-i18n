@@ -2313,7 +2313,7 @@ msgid "that's not a Google Analytics 4 measurement ID (G-…)"
 msgstr ""
 
 #: r2/lib/errors.py:149
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "%(domain)s is not allowed on tippr: %(reason)s"
 msgstr "%(domain)s nav atļauts reditā: %(reason)s"
 
@@ -3618,7 +3618,7 @@ msgid "I understand and agree that registration on or use of this site constitut
 msgstr ""
 
 #: r2/lib/strings.py:84
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "to view tippr with only submissions from your friends, use [tippr.net/v/friends](%s)"
 msgstr "lai apskatītu reditu tikai ar savu draugu iesūtījumiem, izmanto [tippr.net/v/friends](%s)"
 
@@ -3758,7 +3758,7 @@ msgid "You sent us a postcard! (Or something similar.) When we run out of room o
 msgstr "Jūs atsūtījāt mums vēstuli! (Vai ko līdzīgu.) Kad mums vairs nebūs vietas uz ledusskapja, mēs varētu pārdot iesūtītās mantas izsolē. Vai drīkstam iekļaut tavu sūtījumu?"
 
 #: r2/lib/strings.py:127
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "Sorry, the maximum number of comments is %(max)d. (However, if you subscribe to tippr gold, it goes up to %(goldmax)d.)"
 msgstr "Atvainojiet, maksimālais komentāru skaits ir %(max)d. (Tomēr, ja jūs nopirktu redita zeltu, tas būtu %(goldmax)d.)"
 
@@ -3830,7 +3830,7 @@ msgid "Want to say thanks to *%(recipient)s* for this comment? Give them a month
 msgstr ""
 
 #: r2/lib/strings.py:145
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "Want to say thanks to *%(recipient)s* for this submission? Give them a month of [tippr gold](/gold/about)."
 msgstr "Gribi pateikt *%(recipient)s* paldies par iesūtījumu? Iedod tiem mēnesi [redita zelta](/gold/about)."
 
@@ -3864,7 +3864,7 @@ msgid "This page shows a history of recent activity on your account. If you noti
 msgstr "This page shows a history of recent activity on your account. If you notice unusual activity, you should change your password immediately. Location information is guessed from your computer's IP address and may be wildly wrong, especially for visits from mobile devices. Note: due to a bug, private-use addresses (starting with 10.) sometimes show up erroneously in this list after regular use of the site."
 
 #: r2/lib/strings.py:152
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "You are currently accessing tippr from this IP address: %(address)s."
 msgstr "Jūs šobrīd apmeklējat reditu caur šo IP adresi: %(address)s"
 

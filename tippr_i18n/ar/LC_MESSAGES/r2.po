@@ -756,7 +756,7 @@ msgid "seen it"
 msgstr "تمت زيارته من قبل"
 
 #: r2/controllers/front.py:1412 r2/models/vault.py:2414 r2/templates/multiinfobar.html:37
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "%s vaults"
 msgstr "%s رديت فرعية"
 
@@ -931,7 +931,7 @@ msgid "Thanks for giving the gift of tippr gold!"
 msgstr "شكراً لإعطائك هدية ذهب رديت!"
 
 #: r2/controllers/ipn.py:612
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid ""
 "Your classy gift to %s has been delivered.\n"
 "\n"
@@ -947,7 +947,7 @@ msgid "tippr gold payment cancelled"
 msgstr "تم إلغاء دفع ذهب رديت"
 
 #: r2/controllers/ipn.py:742
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "Your tippr gold payment has been cancelled, contact %(gold_email)s for details"
 msgstr "تم إلغاء دفع ذهب رديت, تواصل مع %(gold_email)s للتفاصيل"
 
@@ -957,7 +957,7 @@ msgid "tippr gold payment failed"
 msgstr "فـشـل دفع ذهب رديت"
 
 #: r2/controllers/ipn.py:758
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "Your tippr gold payment has failed, contact %(gold_email)s for details"
 msgstr "فـشـل دفع ذهب رديت, تواصل مع %(gold_email)s للتفاصيل"
 
@@ -967,7 +967,7 @@ msgid "tippr gold subscription cancelled"
 msgstr "تم إلغاء عضوية ذهب رديت"
 
 #: r2/controllers/ipn.py:767
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "Your tippr gold subscription has been cancelled because your credit card could not be charged. Contact %(gold_email)s for details"
 msgstr "تم إلغاء عضوية ذهب رديت لأن بطاقتك الإئتمانية لايوجد بها رصيد كافي. تواصل مع %(gold_email)s للتفاصيل"
 
@@ -977,7 +977,7 @@ msgid "tippr gold refund"
 msgstr "تم إسترداد ذهب رديت"
 
 #: r2/controllers/ipn.py:778
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "Your tippr gold payment has been refunded, contact %(gold_email)s for details"
 msgstr "تم إسترداد ذهب رديت الخاص بك, تواصل مع %(gold_email)s للتفاصيل"
 
@@ -4852,7 +4852,7 @@ msgid "this page is empty, edit it to add some content."
 msgstr "هذه الصفحة فارغة. قم بتعديلها لإضافة بعض المحتويات."
 
 #: r2/lib/pages/wiki.py:171 r2/lib/pages/wiki.py:177
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "page %s does not exist in this vault"
 msgstr "الصفحة غير متوفرة فى هذا الريديت الفرعى  %s"
 
@@ -5330,7 +5330,7 @@ msgid "invite moderator"
 msgstr "دعوة المشرف "
 
 #: r2/models/listing.py:285 r2/templates/modlisting.html:36
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "you are a moderator of this vault. %(action)s"
 msgstr "أنت مشرف على هذا الريديت %(action)s"
 
@@ -10260,7 +10260,7 @@ msgid "ready for something new? %s subscribe %s to some new vaults."
 msgstr "أترغب بتجربة شىء جديد؟%s إشترك %s  ببعض مواضيع الريدت الفرعي."
 
 #: r2/templates/interestbar.html:32
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "it looks like you haven't %s subscribed %s to any vaults yet. want some ideas?"
 msgstr "يبدو أنك لم تشارك %s بأي ريديت %s فرعي لهذه اللحظة. هل تريد بعض الإقتراحات؟"
 

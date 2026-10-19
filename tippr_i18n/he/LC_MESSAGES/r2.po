@@ -755,7 +755,7 @@ msgid "seen it"
 msgstr "ראיתי"
 
 #: r2/controllers/front.py:1412 r2/models/vault.py:2414 r2/templates/multiinfobar.html:37
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "%s vaults"
 msgstr "%s תת-רדיט"
 
@@ -934,7 +934,7 @@ msgid "Thanks for giving the gift of tippr gold!"
 msgstr "תודה על נתינת המתנה של רדיט זהב!"
 
 #: r2/controllers/ipn.py:612
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid ""
 "Your classy gift to %s has been delivered.\n"
 "\n"
@@ -950,7 +950,7 @@ msgid "tippr gold payment cancelled"
 msgstr "תשלום רדיט זהב בוטל"
 
 #: r2/controllers/ipn.py:742
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "Your tippr gold payment has been cancelled, contact %(gold_email)s for details"
 msgstr "תשלום הרדיט זהב שלך בוטל, צור קשר עם %(gold_email)s לפרטים"
 
@@ -960,7 +960,7 @@ msgid "tippr gold payment failed"
 msgstr "תשלום רדיט זהב נכשל"
 
 #: r2/controllers/ipn.py:758
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "Your tippr gold payment has failed, contact %(gold_email)s for details"
 msgstr "תשלום הרדיט זהב שלך נכשל, צור קשר עם %(gold_email)s לפרטים"
 
@@ -969,7 +969,7 @@ msgid "tippr gold subscription cancelled"
 msgstr "מנוי הזהב ל Tippr בוטל"
 
 #: r2/controllers/ipn.py:767
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "Your tippr gold subscription has been cancelled because your credit card could not be charged. Contact %(gold_email)s for details"
 msgstr "מנוי הרדיט זהב שלך בוטל כי לא היה ניתן לגבות מכרטיס האשראי שלך. צור קשר עם %(gold_email)s לפרטים"
 
@@ -979,7 +979,7 @@ msgid "tippr gold refund"
 msgstr "החזר כספי של רדיט זהב"
 
 #: r2/controllers/ipn.py:778
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "Your tippr gold payment has been refunded, contact %(gold_email)s for details"
 msgstr "תשלום הרדיט זהב שלך הוחזר, צור קשר עם %(gold_email)s לפרטים"
 
@@ -1178,7 +1178,7 @@ msgid "submitted by %(user)s"
 msgstr "נשלח ע\"י %(user)s"
 
 #: r2/controllers/listingcontroller.py:836
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "gilded by %(user)s"
 msgstr "קיבל רדיט זהב על ידי %(user)s"
 
@@ -1208,7 +1208,7 @@ msgid "promoted by %(user)s"
 msgstr "קודם ע\"י %(user)s"
 
 #: r2/controllers/listingcontroller.py:843
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "gildings given by %(user)s"
 msgstr "נתינות רדיט זהב על ידי %(user)s"
 
@@ -1255,7 +1255,7 @@ msgid "gilded"
 msgstr "מוזהב"
 
 #: r2/controllers/listingcontroller.py:2094
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "gildings in this vault have paid for %(time)s of server time"
 msgstr "נתינות רדיט זהב בתת רדיט הזה שילמו עבור %(time)s של זמן סרברים"
 
@@ -2297,7 +2297,7 @@ msgid "that's not a Google Analytics 4 measurement ID (G-…)"
 msgstr ""
 
 #: r2/lib/errors.py:149
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "%(domain)s is not allowed on tippr: %(reason)s"
 msgstr "%(domain)s אינו מורשה ברדיט: %(reason)s"
 
@@ -3556,7 +3556,7 @@ msgid "I understand and agree that registration on or use of this site constitut
 msgstr "אני מבין ומסכים שההרשמה והשימוש באתר זה מהווה הסכמה ל%(user_agreement)s %(privacy_policy)sו"
 
 #: r2/lib/strings.py:84
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "to view tippr with only submissions from your friends, use [tippr.net/v/friends](%s)"
 msgstr "להסתכל את רדיט רק אם הגשות מהחברים שלך, נא להשתמש (tippr.net/v/friends](%s]"
 
@@ -3693,7 +3693,7 @@ msgid "You sent us a postcard! (Or something similar.) When we run out of room o
 msgstr "שלחת לנו איגרת! (או משהו דומה.) כשיגמר לנו המקום על המקרר, יום אחד אולי נמכור פומבית את הדברים שאנשים שלחו לנו. האם זה בסדר אם נכלול את הדבר שלך?"
 
 #: r2/lib/strings.py:127
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "Sorry, the maximum number of comments is %(max)d. (However, if you subscribe to tippr gold, it goes up to %(goldmax)d.)"
 msgstr "סליחה, כמות התגובות המקסימלית היא %(max)d. (אבל, אם הנך נרשם לרדיט זהב, היא עולה עד ל-%(goldmax)d.)"
 
@@ -3797,7 +3797,7 @@ msgid "This page shows a history of recent activity on your account. If you noti
 msgstr ""
 
 #: r2/lib/strings.py:152
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "You are currently accessing tippr from this IP address: %(address)s."
 msgstr "כרגע הנך גולש ברדיט מכתובת ה-IP הבאה: %(address)s."
 
@@ -4450,7 +4450,7 @@ msgid "less than a day"
 msgstr "פחות מיממה"
 
 #: r2/lib/pages/pages.py:2466
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "%(coins)s gold coin to give"
 msgid_plural "%(coins)s gold coins to give"
 msgstr[0] "%(coins)s קרדיט זהב לתת"
@@ -5299,7 +5299,7 @@ msgid "invite moderator"
 msgstr "הזמן מפקח"
 
 #: r2/models/listing.py:285 r2/templates/modlisting.html:36
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "you are a moderator of this vault. %(action)s"
 msgstr "אתה מפקח של התת-רדיט הזה.  %(action)s"
 
@@ -5318,7 +5318,7 @@ msgid "moderators of /v/%(vault)s"
 msgstr "מפקח של /v/%(vault)s"
 
 #: r2/models/mail_queue.py:331
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "[tippr] %(user)s has shared a link with you"
 msgstr "[רדיט] %(user)s שיתף איתך קישור"
 
@@ -6261,7 +6261,7 @@ msgid "posts from %s"
 msgstr ""
 
 #: r2/models/vault.py:2413
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "%s vaults curated by /u/%s"
 msgstr "%s תת-רדיטים המפוקחים על-ידי /u/%s"
 
@@ -10215,12 +10215,12 @@ msgid "Contact the admins."
 msgstr "הודיע למנהלים"
 
 #: r2/templates/interestbar.html:30
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "ready for something new? %s subscribe %s to some new vaults."
 msgstr "מוכן למשהו חדש? %s הרשם %s לתת-רדיטים חדשים."
 
 #: r2/templates/interestbar.html:32
-#, python-format, fuzzy
+#, fuzzy, python-format
 msgid "it looks like you haven't %s subscribed %s to any vaults yet. want some ideas?"
 msgstr "נראה שאתה לא %s רשום %s לשום תת-רדיט עדיין. רוצה כמה רעיונות?"
 
