@@ -274,7 +274,7 @@ msgstr "답변함"
 
 #: r2/controllers/api.py:2631
 msgid "validation errors"
-msgstr "링크를 검증하는 과정에 오류가 발생했습니다 ??? validating what? links? emails?"
+msgstr "검증 오류"
 
 #: r2/controllers/api.py:2751 r2/controllers/api.py:2778 r2/controllers/api.py:2805 r2/controllers/listingcontroller.py:1036 r2/lib/menus.py:194 r2/public/static/js/tippr.js:223 r2/templates/adminapps.html:51 r2/templates/adminuser.html:56 r2/templates/deleteduserinterstitial.html:34 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:578 r2/templates/vaultstylesheetbase.html:47
 msgid "deleted"
@@ -791,7 +791,7 @@ msgstr "볼트"
 
 #: r2/controllers/front.py:1440
 msgid "seen it"
-msgstr "본 링크입니다 ???"
+msgstr "본 것"
 
 #: r2/controllers/front.py:1458 r2/models/vault.py:2428 r2/templates/multiinfobar.html:37
 #, python-format
@@ -873,7 +873,7 @@ msgstr "관리자 사용"
 
 #: r2/controllers/front.py:1845 r2/controllers/post.py:167
 msgid "opt out"
-msgstr "이메일을 받고 싶지 않다 ??? what is this"
+msgstr "수신 거부"
 
 #: r2/controllers/front.py:1845 r2/controllers/post.py:178
 msgid "welcome back"
@@ -1962,7 +1962,7 @@ msgstr "너무 자주 하시고 계십니다. 잠시 후에 다시 시도하세�
 
 #: r2/lib/errors.py:95
 msgid "your session has expired"
-msgstr "시간이 많이 지나서 로그인이 만료되었습니다  ???"
+msgstr "세션이 만료되었습니다"
 
 #: r2/lib/errors.py:96
 msgid "you must accept the terms first"
@@ -4562,7 +4562,7 @@ msgstr "클릭수"
 
 #: r2/lib/pages/pages.py:5811 r2/lib/pages/trafficpages.py:343 r2/lib/pages/trafficpages.py:467 r2/lib/pages/trafficpages.py:841 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
 msgid "impressions"
-msgstr "느낌 ???"
+msgstr "노출 수"
 
 #: r2/lib/pages/pages.py:5824
 msgid "campaigns"
@@ -9479,7 +9479,7 @@ msgstr "점수 기능이 있는 단추는 선택 사항이 세 가지 더 있습
 
 #: r2/templates/buttondemopanel.html:62
 msgid "no styles will be added, so you can style it yourself"
-msgstr "스타일 정보를 추가하지 않기. 만약 스타일 정부를 직접 선택 하시려면 이 그능을 선택 하십시오??? correct for place?"
+msgstr "스타일을 추가하지 않으므로 직접 꾸밀 수 있습니다"
 
 #: r2/templates/buttondemopanel.html:64
 msgid "specify a url to use instead of the current url"
@@ -9579,7 +9579,7 @@ msgstr "삭제"
 
 #: r2/templates/comment.html:102
 msgid "deleted comment from"
-msgstr "님께서 보낸 댓글 지우기 ??? word order problem"
+msgstr "삭제된 댓글 작성자:"
 
 #: r2/templates/comment.html:115
 #, python-format
@@ -14005,7 +14005,7 @@ msgstr "이 볼트의 테마 보이기"
 
 #: r2/templates/vaultinfobar.html:120
 msgid "a community for"
-msgstr "----------for.... something????--------------을 위한 커뮤니티"
+msgstr "개설 기간:"
 
 #: r2/templates/vaultinfobar.html:134
 msgid "approve this vault"
