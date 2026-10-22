@@ -205,30 +205,28 @@ msgstr "такого пользователя не существует"
 #: r2/controllers/api.py:290
 #, python-format
 msgid "you can tag at most %(n)d users"
-msgstr ""
+msgstr "можно отметить не больше %(n)d пользователей"
 
 #: r2/controllers/api.py:308
-#, fuzzy
-#| msgid "wrong password"
 msgid "wrong username or password"
-msgstr "неверный пароль"
+msgstr "неверное имя пользователя или пароль"
 
 #: r2/controllers/api.py:310
 msgid "that's the account you're using"
-msgstr ""
+msgstr "это аккаунт, которым вы сейчас пользуетесь"
 
 #: r2/controllers/api.py:312
 #, python-format
 msgid "you can keep at most %(n)d other accounts"
-msgstr ""
+msgstr "можно хранить не больше %(n)d других аккаунтов"
 
 #: r2/controllers/api.py:317
 msgid "enter that account's two-factor code"
-msgstr ""
+msgstr "введите код двухфакторной аутентификации этого аккаунта"
 
 #: r2/controllers/api.py:333
 msgid "that account isn't available to switch to; add it again"
-msgstr ""
+msgstr "на этот аккаунт нельзя переключиться; добавьте его заново"
 
 #: r2/controllers/api.py:512
 msgid "your message has been delivered"
@@ -239,14 +237,12 @@ msgid "no title found"
 msgstr "заголовок не найден"
 
 #: r2/controllers/api.py:828 r2/controllers/linked_logins.py:173 r2/controllers/linked_logins.py:219 r2/controllers/linked_logins.py:239 r2/controllers/linked_logins.py:256
-#, fuzzy
-#| msgid "the upload took too long; try again"
 msgid "That sign-in took too long. Please start again."
-msgstr "загрузка заняла слишком много времени; попробуйте ещё раз"
+msgstr "Вход занял слишком много времени. Начните заново."
 
 #: r2/controllers/api.py:833
 msgid "That account is linked already: sign in with it."
-msgstr ""
+msgstr "Этот аккаунт уже привязан: войдите с его помощью."
 
 #: r2/controllers/api.py:1367 r2/controllers/api.py:1748 r2/controllers/api.py:2648 r2/controllers/api.py:2948 r2/controllers/api.py:3269 r2/controllers/api.py:4149 r2/controllers/api.py:4205 r2/controllers/api.py:4259 r2/controllers/api.py:4492 r2/controllers/api.py:4497 r2/controllers/api.py:4732 r2/controllers/api.py:4797 r2/controllers/api.py:4875 r2/controllers/api.py:4941 r2/controllers/api.py:5014 r2/controllers/api.py:5100 r2/controllers/api.py:5132 r2/controllers/api.py:5152 r2/controllers/api.py:5636 r2/controllers/api.py:5676 r2/controllers/api.py:5850 r2/controllers/api.py:5868 r2/controllers/api.py:6192 r2/lib/pages/pages.py:6182
 msgid "saved"
@@ -343,23 +339,20 @@ msgstr "достигнут максимум шаблонов флейров"
 #: r2/controllers/api.py:4937
 #, python-format
 msgid "saved, but these aren't on until their keys are filled in: %(names)s"
-msgstr ""
+msgstr "сохранено, но они не заработают, пока не заполнены их ключи: %(names)s"
 
 #: r2/controllers/api.py:4959
 msgid "the keys work"
-msgstr ""
+msgstr "ключи работают"
 
 #: r2/controllers/api.py:4960 r2/controllers/api.py:4977
-#, fuzzy, python-format
-#| msgid "error: %(error)s"
+#, python-format
 msgid "didn't work: %(error)s"
-msgstr "ошибка: %(error)s"
+msgstr "не получилось: %(error)s"
 
 #: r2/controllers/api.py:4965
-#, fuzzy
-#| msgid "no such account"
 msgid "no such payment"
-msgstr "такого аккаунта нет"
+msgstr "такого платежа нет"
 
 #: r2/controllers/api.py:4980 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminusers.html:58 r2/templates/adminvaults.html:50
 msgid "status"
@@ -372,7 +365,7 @@ msgstr "имя"
 #: r2/controllers/api.py:5010
 #, python-format
 msgid "saved, but these aren't on until their ID and secret are filled in: %(names)s"
-msgstr ""
+msgstr "сохранено, но они не заработают, пока не заполнены их ID и секрет: %(names)s"
 
 #: r2/controllers/api.py:5114 r2/controllers/api.py:5140
 msgid "this site's live config is managed in ZooKeeper"
@@ -390,18 +383,16 @@ msgstr "не сохранено: %(error)s"
 #: r2/controllers/api.py:5156
 #, python-format
 msgid "%(saved)d saved; %(failed)d not saved (see below)"
-msgstr ""
+msgstr "сохранено: %(saved)d; не сохранено: %(failed)d (см. ниже)"
 
 #: r2/controllers/api.py:5162
-#, fuzzy
-#| msgid "Nothing here."
 msgid "nothing changed"
-msgstr "Здесь ничего нет."
+msgstr "ничего не изменилось"
 
 #: r2/controllers/api.py:5178
 #, python-format
 msgid "couldn't empty: %(servers)s"
-msgstr ""
+msgstr "не удалось очистить: %(servers)s"
 
 #: r2/controllers/api.py:5203
 msgid "every account has been checked"
@@ -477,13 +468,12 @@ msgstr "укажите http(s)-адрес ленты"
 
 #: r2/controllers/api.py:5436
 msgid "pick one of the AI labels"
-msgstr ""
+msgstr "выберите одну из меток ИИ"
 
 #: r2/controllers/api.py:5440
-#, fuzzy, python-format
-#| msgid "/v/%(vault)s accepts %(policy)s."
+#, python-format
 msgid "/v/%(vault)s doesn't accept %(label)s posts"
-msgstr "/v/%(vault)s принимает: %(policy)s."
+msgstr "/v/%(vault)s не принимает публикации с меткой «%(label)s»"
 
 #: r2/controllers/api.py:5446
 msgid "give the bot account a valid username"
@@ -540,11 +530,11 @@ msgstr "сохранено; ключ CleanTalk работает"
 
 #: r2/controllers/api.py:5722
 msgid "that isn't a release with an installer"
-msgstr ""
+msgstr "это не выпуск с установщиком"
 
 #: r2/controllers/api.py:5725
 msgid "a server is updating now; wait for it to finish"
-msgstr ""
+msgstr "сейчас обновляется сервер; дождитесь, пока он закончит"
 
 #: r2/controllers/api.py:5767
 msgid "Copy the key now; it isn't shown again."
@@ -596,27 +586,23 @@ msgstr "нет доступного золота"
 
 #: r2/controllers/api.py:6017 r2/controllers/api.py:6047
 msgid "that's as many authenticator apps as an account can have"
-msgstr ""
+msgstr "у аккаунта уже максимум приложений-аутентификаторов"
 
 #: r2/controllers/api.py:6090
 msgid "enter a code from one of your methods first"
-msgstr ""
+msgstr "сначала введите код из одного из ваших способов"
 
 #: r2/controllers/api.py:6092
-#, fuzzy
-#| msgid "reset your password"
 msgid "enter your password first"
-msgstr "сброс пароля"
+msgstr "сначала введите пароль"
 
 #: r2/controllers/api.py:6110
 msgid "that passkey couldn't be added"
-msgstr ""
+msgstr "не удалось добавить этот ключ доступа"
 
 #: r2/controllers/api.py:6145
-#, fuzzy
-#| msgid "that password is unacceptable"
 msgid "that passkey wasn't accepted"
-msgstr "этот пароль неприемлим"
+msgstr "этот ключ доступа не принят"
 
 #: r2/controllers/api.py:6272
 #, python-format
@@ -825,16 +811,12 @@ msgid "Claimed! Enjoy your tippr gold membership."
 msgstr "Активировано! Наслаждайтесь вашей золотой подписки tippr."
 
 #: r2/controllers/front.py:1545
-#, fuzzy
-#| msgid "Your gold coins have been claimed! Now go to someone's userpage and give them a present!"
 msgid "Your gold has been claimed! Now go to someone's userpage and give them a present!"
-msgstr "Ваши золотые креддиты получены! Теперь зайдите на чью-нибудь страницу и сделайте им подарок!"
+msgstr "Ваше золото получено! Теперь зайдите на чью-нибудь страницу и сделайте подарок!"
 
 #: r2/controllers/front.py:1549
-#, fuzzy
-#| msgid "Thanks for buying tippr gold! Your transaction has been completed and emailed to you. You can check the details by signing into your account at:"
 msgid "Thanks for buying tippr gold! Your payment has been received and your purchase delivered: check your inbox for the details."
-msgstr "Спасибо за покупку золота tippr! Ваша транзакция была завершена и отправлена вам на почту. Вы можете узнать подробности, войдя в свой аккаунт по адресу:"
+msgstr "Спасибо за покупку золотой подписки tippr! Платёж получен, покупка доставлена: подробности во входящих."
 
 #: r2/controllers/front.py:1555
 msgid "Thanks for buying tippr gold! Your transaction has been completed."
@@ -899,11 +881,11 @@ msgstr "добро пожаловать назад"
 
 #: r2/controllers/front.py:1953
 msgid "tippr gold isn't for sale on this site right now."
-msgstr ""
+msgstr "Золотая подписка tippr сейчас не продаётся на этом сайте."
 
 #: r2/controllers/front.py:1954
 msgid "what gold gives you"
-msgstr ""
+msgstr "что даёт золото"
 
 #: r2/controllers/front.py:2074 r2/templates/gold.html:57 r2/templates/gold.html:112 r2/templates/prefoptions.html:532
 msgid "Give Gold"
@@ -1135,10 +1117,8 @@ msgstr ""
 "Если у вас есть вопросы, пишите на %(gold_email)s."
 
 #: r2/controllers/linked_logins.py:43 r2/controllers/linked_logins.py:120 r2/controllers/linked_logins.py:134 r2/controllers/linked_logins.py:160 r2/controllers/linked_logins.py:178 r2/controllers/linked_logins.py:191 r2/controllers/linked_logins.py:264 r2/templates/linkedloginotp.html:35
-#, fuzzy
-#| msgid "sign up"
 msgid "sign in"
-msgstr "зарегистрироваться"
+msgstr "войти"
 
 #: r2/controllers/linked_logins.py:76 r2/controllers/linked_logins.py:98 r2/controllers/linked_logins.py:104 r2/controllers/linked_logins.py:174 r2/controllers/linked_logins.py:200 r2/controllers/linked_logins.py:257 r2/controllers/linked_logins.py:263 r2/templates/login.html:164 r2/templates/login.html:259 r2/templates/login.html:293
 msgid "log in"
@@ -1146,23 +1126,19 @@ msgstr "войдите"
 
 #: r2/controllers/linked_logins.py:102
 msgid "Log in to the account you want to link it to, then try again."
-msgstr ""
+msgstr "Войдите в аккаунт, к которому хотите его привязать, и попробуйте снова."
 
 #: r2/controllers/linked_logins.py:108
-#, fuzzy
-#| msgid "backup"
 msgid "back"
-msgstr "резервная копия"
+msgstr "назад"
 
 #: r2/controllers/linked_logins.py:129
-#, fuzzy
-#| msgid "You need to be logged in to do that."
 msgid "That account can't be logged into."
-msgstr "Для этого вам необходимо войти в аккаунт."
+msgstr "В этот аккаунт нельзя войти."
 
 #: r2/controllers/linked_logins.py:262
 msgid "Too many wrong codes. Please start again."
-msgstr ""
+msgstr "Слишком много неверных кодов. Начните заново."
 
 #: r2/controllers/listingcontroller.py:596
 msgid "newest submissions"
@@ -1324,49 +1300,41 @@ msgid "%(author)s's comment from discussion \"%(title)s\""
 msgstr "комментарий %(author)s из обсуждения \"%(title)s\""
 
 #: r2/controllers/payments.py:32
-#, fuzzy
-#| msgid "ad placement"
 msgid "payment"
-msgstr "размещение рекламы"
+msgstr "платёж"
 
 #: r2/controllers/payments.py:52
-#, fuzzy
-#| msgid "that language is not available"
 msgid "That payment method isn't available."
-msgstr "этот язык недоступен"
+msgstr "Этот способ оплаты недоступен."
 
 #: r2/controllers/payments.py:64
 msgid "This purchase can't be paid for any more: it may have been paid already, or it's too old. Please start again."
-msgstr ""
+msgstr "Эту покупку больше нельзя оплатить: возможно, она уже оплачена или слишком старая. Начните заново."
 
 #: r2/controllers/payments.py:67
-#, fuzzy
-#| msgid "try again"
 msgid "start again"
-msgstr "попытайтесь снова"
+msgstr "начать заново"
 
 #: r2/controllers/payments.py:71
 #, python-format
 msgid "The payment couldn't be started with %(provider)s. Please try again in a moment, or pay another way."
-msgstr ""
+msgstr "Не удалось начать платёж через %(provider)s. Попробуйте ещё раз чуть позже или заплатите другим способом."
 
 #: r2/controllers/payments.py:95
 msgid "Thanks! Your payment is being confirmed on the network, which can take a while. Your purchase is delivered as soon as it's confirmed; you can close this page."
-msgstr ""
+msgstr "Спасибо! Платёж подтверждается в сети, это может занять время. Покупка будет доставлена, как только он подтвердится; эту страницу можно закрыть."
 
 #: r2/controllers/payments.py:100
 msgid "Thanks! Your payment is being processed. Your purchase is delivered as soon as it's done; you can close this page."
-msgstr ""
+msgstr "Спасибо! Платёж обрабатывается. Покупка будет доставлена, как только он завершится; эту страницу можно закрыть."
 
 #: r2/controllers/payments.py:105
-#, fuzzy
-#| msgid "This element has been disabled."
 msgid "This payment was refunded."
-msgstr "Этот элемент отключён."
+msgstr "Этот платёж возвращён."
 
 #: r2/controllers/payments.py:107
 msgid "The payment didn't go through, so you haven't been charged."
-msgstr ""
+msgstr "Платёж не прошёл, поэтому деньги не списаны."
 
 #: r2/controllers/payments.py:108 r2/templates/exploreitemlisting.html:77
 msgid "try again"
@@ -1405,11 +1373,8 @@ msgid "muting in moderator mail"
 msgstr "отключение звука в почте модераторов"
 
 #: r2/controllers/policies.py:55
-#, fuzzy
-#| msgid "moderator"
-#| msgid_plural "moderators"
 msgid "AutoModerator"
-msgstr "модератор"
+msgstr "AutoModerator"
 
 #: r2/controllers/policies.py:56
 msgid "using the API"
@@ -1460,10 +1425,8 @@ msgid "Request cancelled."
 msgstr "Запрос отменён."
 
 #: r2/controllers/promotecontroller.py:333
-#, fuzzy
-#| msgid "this site isn't taking new accounts right now"
 msgid "Advertising isn't available on this site right now."
-msgstr "сейчас сайт не принимает новые аккаунты"
+msgstr "Реклама на этом сайте сейчас недоступна."
 
 #: r2/controllers/promotecontroller.py:338 r2/lib/menus.py:93
 msgid "advertise"
@@ -1606,10 +1569,8 @@ msgid "The contents of this page appear in the public vault description and when
 msgstr "Содержание этой страницы появится в публичном описании волта, а также когда пользователь не будет иметь доступа к волту"
 
 #: r2/controllers/wiki.py:97
-#, fuzzy
-#| msgid "This page is used to configure AutoModerator for the vault, please see [the full documentation](/wiki/automoderator/full-documentation) for information"
 msgid "This page is used to configure AutoModerator for the vault, see [the AutoModerator help page](/help/automoderator) for how to write rules"
-msgstr "Эта страница настройки Автомодератора для волта. Пожалуйста, ознакомьтесь с [документацией](/wiki/automoderator/full-documentation)."
+msgstr "На этой странице настраивается AutoModerator для волта; как писать правила, смотрите на [странице справки AutoModerator](/help/automoderator)"
 
 #: r2/controllers/wiki.py:163
 #, python-format
@@ -2224,11 +2185,11 @@ msgstr "двухфакторная аутентификация уже вклю�
 
 #: r2/lib/errors.py:152
 msgid "enter the code from your authenticator app (or a recovery code)"
-msgstr ""
+msgstr "введите код из приложения-аутентификатора (или код восстановления)"
 
 #: r2/lib/errors.py:153
 msgid "turn on two-factor authentication (preferences, security) to use these tools"
-msgstr ""
+msgstr "включите двухфакторную аутентификацию (настройки, безопасность), чтобы пользоваться этими инструментами"
 
 #: r2/lib/errors.py:154
 msgid "image problem"
@@ -2691,21 +2652,19 @@ msgstr "[удалено]"
 
 #: r2/lib/linked_logins.py:62
 msgid "Google"
-msgstr ""
+msgstr "Google"
 
 #: r2/lib/linked_logins.py:71
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: r2/lib/linked_logins.py:81
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #: r2/lib/linked_logins.py:92
-#, fuzzy
-#| msgid "discovery"
 msgid "Discord"
-msgstr "открытие"
+msgstr "Discord"
 
 #: r2/lib/live_config_admin.py:51
 msgid "Who has staff permissions: name:level pairs, comma-separated, where the level is admin, sponsor or employee. Admins can turn on admin mode. You can't remove your own admin permission here."
@@ -2713,11 +2672,11 @@ msgstr "У кого права сотрудников: пары имя:уров�
 
 #: r2/lib/live_config_admin.py:55
 msgid "Moderators and staff (employees, and admins for admin mode) need two-factor sign-in turned on (preferences, security) to use their tools; until then they see a notice asking them to. Members without it are unaffected."
-msgstr ""
+msgstr "Модераторам и персоналу (сотрудникам, а для режима администратора — администраторам) нужно включить двухфакторный вход (настройки, безопасность), чтобы пользоваться своими инструментами; до тех пор они видят уведомление с просьбой это сделать. Участников без него это не касается."
 
 #: r2/lib/live_config_admin.py:60
 msgid "How long a page for logged-out visitors may be kept and served again, in seconds, by nginx's page cache or a CDN in front of the site (logged-in visitors always get fresh pages). Lower it to show changes sooner, or 0 to stop caching pages at once. nginx's page cache has to be on (the installer's TIPPR_PAGE_CACHE_SECONDS) for a value here to do anything there."
-msgstr ""
+msgstr "Сколько секунд страницу для неавторизованных посетителей можно хранить и отдавать повторно из кэша страниц nginx или CDN перед сайтом (авторизованные посетители всегда получают свежие страницы). Уменьшите, чтобы изменения появлялись быстрее, или поставьте 0, чтобы сразу перестать кэшировать страницы. Чтобы значение здесь на что-то влияло, кэш страниц nginx должен быть включён (TIPPR_PAGE_CACHE_SECONDS в установщике)."
 
 #: r2/lib/live_config_admin.py:67
 msgid "Accounts with at least this much post karma skip the captcha."
@@ -2745,7 +2704,7 @@ msgstr "Объявление на боковой панели каждой ст�
 
 #: r2/lib/live_config_admin.py:82
 msgid "Messages for the \"new here?\" bar shown to logged-out visitors, each in double quotes; one is picked at random. \" / \" splits a message into a heading and a smaller second line, e.g. \"Welcome! / Pick a few vaults to subscribe to.\""
-msgstr ""
+msgstr "Сообщения для панели «Вы здесь впервые?», которую видят неавторизованные посетители, каждое в двойных кавычках; одно выбирается случайно. \" / \" делит сообщение на заголовок и вторую строку помельче, например \"Добро пожаловать! / Подпишитесь на пару волтов.\""
 
 #: r2/lib/live_config_admin.py:87
 msgid "A message in the info bar at the top of listings. For a site-wide banner, use the announcement on /admin/site instead."
@@ -3024,7 +2983,7 @@ msgstr "главная"
 
 #: r2/lib/menus.py:130 r2/lib/pages/pages.py:1127
 msgid "about"
-msgstr "о tippr"
+msgstr "о сайте"
 
 #: r2/lib/menus.py:131
 msgid "edit subscriptions"
@@ -3147,20 +3106,16 @@ msgid "ad settings"
 msgstr "настройки рекламы"
 
 #: r2/lib/menus.py:167 r2/templates/adminpaymentsettings.html:87
-#, fuzzy
-#| msgid "payment mismatch"
 msgid "payments"
-msgstr "несовпадение платежа"
+msgstr "платежи"
 
 #: r2/lib/menus.py:168 r2/templates/adminloginsettings.html:22
 msgid "sign-in providers"
-msgstr ""
+msgstr "поставщики входа"
 
 #: r2/lib/menus.py:169 r2/templates/adminserverstatus.html:24
-#, fuzzy
-#| msgid "other server"
 msgid "servers"
-msgstr "другой сервер"
+msgstr "серверы"
 
 #: r2/lib/menus.py:170 r2/templates/adminbackups.html:51
 msgid "backups"
@@ -3480,10 +3435,9 @@ msgid "I understand and agree that registration on or use of this site constitut
 msgstr "Я понимаю и согласен с тем, что регистрация на данном сайте и его использование означают принятие %(user_agreement)s и %(privacy_policy)s."
 
 #: r2/lib/strings.py:84
-#, fuzzy, python-format
-#| msgid "to view tippr with only submissions from your friends, use [tippr.net/v/friends](%s)"
+#, python-format
 msgid "to view only submissions from your friends, use [/v/friends](%s)"
-msgstr "чтобы просматривать только публикации друзей, используйте [tippr.net/v/friends](%s)"
+msgstr "чтобы видеть только публикации друзей, откройте [/v/friends](%s)"
 
 #: r2/lib/strings.py:86
 msgid "your vault has been created"
@@ -3500,7 +3454,7 @@ msgstr "вы не подписаны ни на один волт."
 
 #: r2/lib/strings.py:92
 msgid "you haven't chosen any vaults yet, so your front page shows the site's default vaults, below. subscribe or unsubscribe to make the list your own."
-msgstr ""
+msgstr "вы ещё не выбрали ни одного волта, поэтому на главной показаны волты сайта по умолчанию, ниже. подписывайтесь и отписывайтесь, чтобы сделать список своим."
 
 #: r2/lib/strings.py:93
 msgid "below are the vaults you have subscribed to."
@@ -3679,10 +3633,9 @@ msgid "You're about to make a one-time purchase of %(amount)s of tippr gold for 
 msgstr "Вы собираетесь единовременно приобрести %(amount)s золотой подписки для себя (%(user)s). В сумме это будет стоить %(price)s."
 
 #: r2/lib/strings.py:141
-#, fuzzy, python-format
-#| msgid "You're about to purchase %(amount)s. They work like gift certificates: each coin you have will allow you to give one month of tippr gold to someone else. You'll pay a total of %(price)s for this."
+#, python-format
 msgid "You're about to purchase %(amount)s for Give Gold. It works like a gift certificate: each month of it gives someone one month of tippr gold. You'll pay a total of %(price)s for this."
-msgstr "Вы собираетесь приобрести %(amount)s. Они работают как подарочные сертификаты: каждый креддит позволяет вам подарить кому-нибудь месяц золотой подписки. Вы заплатите %(price)s."
+msgstr "Вы собираетесь купить %(amount)s для подарков золота. Это работает как подарочный сертификат: каждый месяц дарит кому-то месяц золотой подписки tippr. Всего вы заплатите %(price)s."
 
 #: r2/lib/strings.py:142
 #, python-format
@@ -3836,14 +3789,11 @@ msgstr[1] "волта"
 msgstr[2] "волтов"
 
 #: r2/lib/strings.py:265
-#, fuzzy
-#| msgid "a month ago"
-#| msgid_plural "%(num)s months ago"
 msgid "month of gold"
 msgid_plural "months of gold"
-msgstr[0] "месяц назад"
-msgstr[1] "%(num)s месяца назад"
-msgstr[2] "%(num)s месяцев назад"
+msgstr[0] "месяц золота"
+msgstr[1] "месяца золота"
+msgstr[2] "месяцев золота"
 
 #: r2/lib/strings.py:268
 msgid "reader"
@@ -4290,7 +4240,7 @@ msgstr "%d %b %Y"
 
 #: r2/lib/pages/pages.py:338
 msgid "This site asks moderators and staff to use two-factor sign-in. Turn it on under [preferences, security](/prefs/security) to use your moderator tools."
-msgstr ""
+msgstr "Этот сайт просит модераторов и персонал использовать двухфакторный вход. Включите его в [настройках, безопасность](/prefs/security), чтобы пользоваться инструментами модератора."
 
 #: r2/lib/pages/pages.py:521
 msgid "wiki tools"
@@ -4358,10 +4308,9 @@ msgid "<3"
 msgstr "<3"
 
 #: r2/lib/pages/pages.py:1335 r2/templates/adminserverstatus.html:142
-#, fuzzy, python-format
-#| msgid "%(time)s days left"
+#, python-format
 msgid "%(time)s ago"
-msgstr "осталось %(time)s д."
+msgstr "%(time)s назад"
 
 #: r2/lib/pages/pages.py:1496
 #, python-format
@@ -4438,9 +4387,9 @@ msgstr "менее одного дня"
 #, python-format
 msgid "Give Gold: %(coins)s month"
 msgid_plural "Give Gold: %(coins)s months"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Подарок золота: %(coins)s месяц"
+msgstr[1] "Подарок золота: %(coins)s месяца"
+msgstr[2] "Подарок золота: %(coins)s месяцев"
 
 #: r2/lib/pages/pages.py:2565
 #, python-format
@@ -4524,63 +4473,57 @@ msgid "search"
 msgstr "искать"
 
 #: r2/lib/pages/pages.py:4228
-#, fuzzy, python-format
-#| msgid "a community for %(time)s"
+#, python-format
 msgid "not heard from for %(time)s"
-msgstr "сообщество существует %(time)s"
+msgstr "нет вестей уже %(time)s"
 
 #: r2/lib/pages/pages.py:4234
 #, python-format
 msgid "memory %(p)s%% used"
-msgstr ""
+msgstr "память занята на %(p)s%%"
 
 #: r2/lib/pages/pages.py:4238
 #, python-format
 msgid "busy: load %(l)s on %(n)s CPUs"
-msgstr ""
+msgstr "занят: нагрузка %(l)s на %(n)s ЦП"
 
 #: r2/lib/pages/pages.py:4244
 #, python-format
 msgid "disk %(path)s %(p)s%% full"
-msgstr ""
+msgstr "диск %(path)s заполнен на %(p)s%%"
 
 #: r2/lib/pages/pages.py:4248
-#, fuzzy, python-format
-#| msgid "%(title)s : %(site)s"
+#, python-format
 msgid "%(service)s is %(state)s"
-msgstr "%(title)s : %(site)s"
+msgstr "%(service)s: %(state)s"
 
 #: r2/lib/pages/pages.py:4251
 msgid "a different version from the others"
-msgstr ""
+msgstr "версия отличается от остальных"
 
 #: r2/lib/pages/pages.py:4253
 msgid "another server has the same name: set TIPPR_SERVER_NAME on one of them"
-msgstr ""
+msgstr "у другого сервера то же имя: задайте TIPPR_SERVER_NAME на одном из них"
 
 #: r2/lib/pages/pages.py:4308
-#, fuzzy, python-format
-#| msgid "seconds"
+#, python-format
 msgid "%(n)s seconds"
-msgstr "секунд"
+msgstr "%(n)s с"
 
 #: r2/lib/pages/pages.py:4310
-#, fuzzy, python-format
-#| msgid "minutes"
+#, python-format
 msgid "%(n)s minutes"
-msgstr "минут"
+msgstr "%(n)s мин"
 
 #: r2/lib/pages/pages.py:4312
-#, fuzzy, python-format
-#| msgid "this hour"
+#, python-format
 msgid "%(n)s hours"
-msgstr "за час"
+msgstr "%(n)s ч"
 
 #: r2/lib/pages/pages.py:4313
-#, fuzzy, python-format
-#| msgid "last %(n)d days"
+#, python-format
 msgid "%(n)s days"
-msgstr "последние %(n)d дн."
+msgstr "%(n)s дн."
 
 #: r2/lib/pages/pages.py:4526 r2/lib/pages/pages.py:4635
 msgid "added"
@@ -4793,10 +4736,8 @@ msgid "[frontpage]"
 msgstr "[главная]"
 
 #: r2/lib/pages/trafficpages.py:293
-#, fuzzy
-#| msgid "activity"
 msgid "activity by day"
-msgstr "занятия"
+msgstr "активность по дням"
 
 #: r2/lib/pages/trafficpages.py:342
 msgid "total impressions by day"
@@ -4930,100 +4871,85 @@ msgstr "PayPal"
 
 #: r2/lib/payments/__init__.py:68 r2/templates/adminpaymentsettings.html:149
 msgid "Stripe"
-msgstr ""
+msgstr "Stripe"
 
 #: r2/lib/payments/__init__.py:68
 msgid "Card / Google Pay"
-msgstr ""
+msgstr "Карта / Google Pay"
 
 #: r2/lib/payments/__init__.py:69 r2/templates/adminpaymentsettings.html:166
 msgid "Coinbase"
-msgstr ""
+msgstr "Coinbase"
 
 #: r2/lib/payments/__init__.py:69
 msgid "Crypto (USDC)"
-msgstr ""
+msgstr "Криптовалюта (USDC)"
 
 #: r2/lib/payments/__init__.py:70 r2/templates/adminpaymentsettings.html:191
 msgid "BitPay"
-msgstr ""
+msgstr "BitPay"
 
 #: r2/lib/payments/__init__.py:70
 msgid "Bitcoin"
 msgstr "Bitcoin"
 
 #: r2/lib/payments/__init__.py:121
-#, fuzzy
-#| msgid "waiting on the member"
 msgid "waiting for the buyer"
-msgstr "ждёт участника"
+msgstr "ждёт покупателя"
 
 #: r2/lib/payments/__init__.py:122
-#, fuzzy
-#| msgid "confirm"
 msgid "confirming"
-msgstr "подтвердить"
+msgstr "подтверждается"
 
 #: r2/lib/payments/__init__.py:123
-#, fuzzy
-#| msgid "unpaid"
 msgid "paid"
-msgstr "неоплаченный"
+msgstr "оплачен"
 
 #: r2/lib/payments/__init__.py:124 r2/templates/privacysettings.html:31
-#, fuzzy
-#| msgid "refund failed"
 msgid "failed"
-msgstr "не удалось вернуть деньги"
+msgstr "не прошёл"
 
 #: r2/lib/payments/__init__.py:125 r2/templates/privacysettings.html:33
 msgid "expired"
-msgstr ""
+msgstr "истёк"
 
 #: r2/lib/payments/__init__.py:126
-#, fuzzy
-#| msgid "refund"
 msgid "refunded"
-msgstr "возврат средств"
+msgstr "возвращён"
 
 #: r2/lib/payments/gold.py:38
 #, python-format
 msgid "Give Gold: %(count)d months"
-msgstr ""
+msgstr "Подарок золота: месяцев — %(count)d"
 
 #: r2/lib/payments/gold.py:40
 #, python-format
 msgid "%(count)d year(s) of gold"
-msgstr ""
+msgstr "золото на %(count)d г."
 
 #: r2/lib/payments/gold.py:42
 #, python-format
 msgid "%(count)d month(s) of gold"
-msgstr ""
+msgstr "золото на %(count)d мес."
 
 #: r2/lib/payments/gold.py:44
-#, fuzzy, python-format
-#| msgid "what %(name)s did"
+#, python-format
 msgid "%(what)s for %(name)s"
-msgstr "что сделал %(name)s"
+msgstr "%(what)s для %(name)s"
 
 #: r2/lib/payments/gold.py:46
-#, fuzzy, python-format
-#| msgid "enter a gift code for redemption"
+#, python-format
 msgid "a gift code for %(what)s"
-msgstr "введите подарочный код сюда, чтобы активировать его"
+msgstr "подарочный код на %(what)s"
 
 #: r2/lib/payments/gold.py:122
-#, fuzzy
-#| msgid "tippr gold refund"
 msgid "gold refund"
-msgstr "возврат средств за золотую подписку"
+msgstr "возврат за золото"
 
 #: r2/lib/payments/gold.py:123
-#, fuzzy, python-format
-#| msgid "Your tippr gold payment has been refunded, contact %(gold_email)s for details"
+#, python-format
 msgid "Your gold payment has been refunded, contact %(gold_email)s for details"
-msgstr "Ваш платеж за золото tippr был возвращен, пишите на %(gold_email)s, если возникли вопросы."
+msgstr "Ваш платёж за золото возвращён; подробности можно узнать по адресу %(gold_email)s"
 
 #: r2/lib/utils/_utils.py:229
 msgid "millisecond"
@@ -6057,16 +5983,12 @@ msgid "Update preferences and related account information. Will not have access 
 msgstr "Обновить предпочтения и остальную информацию об учётной записи. Не даёт доступа к вашим электронной почте и паролю."
 
 #: r2/models/token.py:126
-#, fuzzy
-#| msgid "renew your tippr gold"
 msgid "Spend your gold"
-msgstr "обновить золотую подписку tippr"
+msgstr "Потратьте своё золото"
 
 #: r2/models/token.py:127
-#, fuzzy
-#| msgid "Spend my tippr gold coins on giving gold to other users."
 msgid "Spend the gold I bought on giving gold to other users."
-msgstr "Потратить мои креддиты на золочение других пользователей."
+msgstr "Тратить купленное золото на подарки золота другим пользователям."
 
 #: r2/models/token.py:132
 msgid "Edit Posts"
@@ -6374,31 +6296,24 @@ msgstr "загрузка…"
 
 #: r2/public/static/js/enhancements.js:95
 msgid "couldn't load more; try again"
-msgstr ""
+msgstr "не удалось загрузить ещё; попробуйте снова"
 
 #: r2/public/static/js/enhancements.js:129
-#, fuzzy, python-format
-#| msgid "Share to %(name)s"
+#, python-format
 msgid "page %(num)s"
-msgstr "Поделиться с %(name)s"
+msgstr "страница %(num)s"
 
 #: r2/public/static/js/enhancements.js:156
-#, fuzzy
-#| msgid "there doesn't seem to be anything here"
 msgid "there doesn't seem to be anything more here"
-msgstr "Похоже, здесь ничего нет."
+msgstr "похоже, больше здесь ничего нет"
 
 #: r2/public/static/js/enhancements.js:173
-#, fuzzy
-#| msgid "posts and comments"
 msgid "next post or comment"
-msgstr "посты и комментарии"
+msgstr "следующая публикация или комментарий"
 
 #: r2/public/static/js/enhancements.js:174
-#, fuzzy
-#| msgid "their posts and comments…"
 msgid "previous post or comment"
-msgstr "его публикации и комментарии…"
+msgstr "предыдущая публикация или комментарий"
 
 #: r2/public/static/js/enhancements.js:175 r2/templates/printable.html:233
 msgid "upvote"
@@ -6409,176 +6324,134 @@ msgid "downvote"
 msgstr "Голосовать «против»"
 
 #: r2/public/static/js/enhancements.js:177
-#, fuzzy
-#| msgid "open links in a new window"
 msgid "open the link (shift: in a new tab)"
-msgstr "открывать ссылки в новом окне"
+msgstr "открыть ссылку (Shift — в новой вкладке)"
 
 #: r2/public/static/js/enhancements.js:178
-#, fuzzy
-#| msgid "top %d comments"
 msgid "open the comments"
-msgstr "%d лучших комментариев"
+msgstr "открыть комментарии"
 
 #: r2/public/static/js/enhancements.js:179
-#, fuzzy
-#| msgid "expand media previews on comments pages"
 msgid "expand or collapse the preview, or the comment"
-msgstr "разворачивать предпросмотр медиа на страницах комментариев"
+msgstr "развернуть или свернуть превью или комментарий"
 
 #: r2/public/static/js/enhancements.js:180 r2/public/static/js/enhancements.js:631 r2/public/static/js/saved.js:122 r2/public/static/js/saved.js:161 r2/public/static/js/sponsored.js:97 r2/templates/adminadsettings.html:128 r2/templates/adminantispam.html:106 r2/templates/adminemailsettings.html:95 r2/templates/adminfeeds.html:70 r2/templates/adminloginsettings.html:77 r2/templates/adminpaymentsettings.html:213 r2/templates/adminsitesettings.html:127 r2/templates/adminsupportstaff.html:57 r2/templates/flairlistrow.html:48 r2/templates/flairselector.html:54 r2/templates/moderatorpermissions.html:55 r2/templates/prefsecurity.html:102 r2/templates/prefupdate.html:99 r2/templates/prefupdate.html:153 r2/templates/printablebuttons.html:106 r2/templates/printablebuttons.html:375 r2/templates/printablebuttons.html:480 r2/templates/promotelinkedit.html:218 r2/templates/vaultstylesheet.html:70
 msgid "save"
 msgstr "сохранить"
 
 #: r2/public/static/js/enhancements.js:181
-#, fuzzy
-#| msgid "remove comment"
 msgid "reply to the comment"
-msgstr "удалить комментарий"
+msgstr "ответить на комментарий"
 
 #: r2/public/static/js/enhancements.js:182
-#, fuzzy
-#| msgid "approve comment"
 msgid "parent comment"
-msgstr "одобрить комментарий"
+msgstr "родительский комментарий"
 
 #: r2/public/static/js/enhancements.js:183
-#, fuzzy
-#| msgid "save page"
 msgid "next page"
-msgstr "сохранить страницу"
+msgstr "следующая страница"
 
 #: r2/public/static/js/enhancements.js:184
-#, fuzzy
-#| msgid "show AdSense ads"
 msgid "show these keys"
-msgstr "показывать рекламу AdSense"
+msgstr "показать эти клавиши"
 
 #: r2/public/static/js/enhancements.js:361
 msgid "keyboard shortcuts"
-msgstr ""
+msgstr "сочетания клавиш"
 
 #: r2/public/static/js/enhancements.js:363
 msgid "turn these off under \"enhancements\" in your preferences"
-msgstr ""
+msgstr "их можно отключить в разделе «улучшения» в настройках"
 
 #: r2/public/static/js/enhancements.js:388 r2/public/static/js/enhancements.js:426
-#, fuzzy
-#| msgid "all %d comments"
 msgid "hide all child comments"
-msgstr "все комментарии (%d)"
+msgstr "скрыть все ответы"
 
 #: r2/public/static/js/enhancements.js:404 r2/public/static/js/enhancements.js:419
-#, fuzzy
-#| msgid "gilded comment"
 msgid "hide child comments"
-msgstr "позолоченный комментарий"
+msgstr "скрыть ответы"
 
 #: r2/public/static/js/enhancements.js:419
-#, fuzzy
-#| msgid "top %d comments"
 msgid "show child comments"
-msgstr "%d лучших комментариев"
+msgstr "показать ответы"
 
 #: r2/public/static/js/enhancements.js:426
-#, fuzzy
-#| msgid "all %d comments"
 msgid "show all child comments"
-msgstr "все комментарии (%d)"
+msgstr "показать все ответы"
 
 #: r2/public/static/js/enhancements.js:458 r2/public/static/js/enhancements.js:523
-#, fuzzy
-#| msgid "header image"
 msgid "hide images"
-msgstr "изображение шапки"
+msgstr "скрыть изображения"
 
 #: r2/public/static/js/enhancements.js:458 r2/public/static/js/enhancements.js:523 r2/templates/prefoptions.html:265
-#, fuzzy
-#| msgid "share image"
 msgid "show images"
-msgstr "картинка для публикации ссылок"
+msgstr "показать изображения"
 
 #: r2/public/static/js/enhancements.js:479 r2/public/static/js/enhancements.js:517
-#, fuzzy
-#| msgid "share image"
 msgid "show image"
-msgstr "картинка для публикации ссылок"
+msgstr "показать изображение"
 
 #: r2/public/static/js/enhancements.js:517
-#, fuzzy
-#| msgid "header image"
 msgid "hide image"
-msgstr "изображение шапки"
+msgstr "скрыть изображение"
 
 #: r2/public/static/js/enhancements.js:576
 msgid "your tag; click to change it"
-msgstr ""
+msgstr "ваша метка; нажмите, чтобы изменить"
 
 #: r2/public/static/js/enhancements.js:583 r2/public/static/js/enhancements.js:755
-#, fuzzy
-#| msgid "Edit this rule."
 msgid "tag this user"
-msgstr "Изменить это правило."
+msgstr "поставить метку этому пользователю"
 
 #: r2/public/static/js/enhancements.js:610
-#, fuzzy
-#| msgid "ago"
 msgid "tag"
-msgstr "назад"
+msgstr "метка"
 
 #: r2/public/static/js/enhancements.js:610
-#, fuzzy, python-format
-#| msgid "profile for %(user)s"
+#, python-format
 msgid "tag for %(user)s"
-msgstr "профиль пользователя %(user)s"
+msgstr "метка для %(user)s"
 
 #: r2/public/static/js/enhancements.js:628
-#, fuzzy, python-format
-#| msgid "saved by %(user)s"
+#, python-format
 msgid "tag %(user)s"
-msgstr "сохранено участником %(user)s"
+msgstr "поставить метку %(user)s"
 
 #: r2/public/static/js/enhancements.js:632
-#, fuzzy
-#| msgid "remove post"
 msgid "remove tag"
-msgstr "удалить пост"
+msgstr "убрать метку"
 
 #: r2/public/static/js/enhancements.js:672
 msgid "couldn't save the tag; try again"
-msgstr ""
+msgstr "не удалось сохранить метку; попробуйте снова"
 
 #: r2/public/static/js/enhancements.js:710
 #, python-format
 msgid "%(num)s year"
 msgid_plural "%(num)s years"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%(num)s год"
+msgstr[1] "%(num)s года"
+msgstr[2] "%(num)s лет"
 
 #: r2/public/static/js/enhancements.js:714
-#, fuzzy, python-format
-#| msgid "%(num)d %(point)s"
+#, python-format
 msgid "%(num)s month"
 msgid_plural "%(num)s months"
-msgstr[0] "%(num)d %(point)s"
-msgstr[1] "%(num)d %(point)s"
-msgstr[2] "%(num)d %(point)s"
+msgstr[0] "%(num)s месяц"
+msgstr[1] "%(num)s месяца"
+msgstr[2] "%(num)s месяцев"
 
 #: r2/public/static/js/enhancements.js:716
-#, fuzzy, python-format
-#| msgid "%(time)s days left"
+#, python-format
 msgid "%(num)s day"
 msgid_plural "%(num)s days"
-msgstr[0] "осталось %(time)s д."
-msgstr[1] "осталось %(time)s д."
-msgstr[2] "осталось %(time)s д."
+msgstr[0] "%(num)s день"
+msgstr[1] "%(num)s дня"
+msgstr[2] "%(num)s дней"
 
 #: r2/public/static/js/enhancements.js:745
-#, fuzzy
-#| msgid "remember me"
 msgid "member for"
-msgstr "запомнить меня"
+msgstr "участник уже"
 
 #: r2/public/static/js/enhancements.js:746 r2/templates/profilebar.html:57 r2/templates/tipprheader.html:112
 msgid "post karma"
@@ -6589,10 +6462,8 @@ msgid "comment karma"
 msgstr "карма комментариев"
 
 #: r2/public/static/js/enhancements.js:755
-#, fuzzy
-#| msgid "change"
 msgid "change tag"
-msgstr "изменить"
+msgstr "изменить метку"
 
 #: r2/public/static/js/enhancements.js:762 r2/templates/adminuser.html:32
 msgid "profile"
@@ -6603,111 +6474,85 @@ msgid "send a message"
 msgstr "написать сообщение"
 
 #: r2/public/static/js/enhancements.js:923
-#, fuzzy, python-format
-#| msgid "%(num)d %(time)s"
+#, python-format
 msgid "(%(num)s new)"
 msgid_plural "(%(num)s new)"
-msgstr[0] "%(num)d %(time)s"
-msgstr[1] "%(num)d %(time)s"
-msgstr[2] "%(num)d %(time)s"
+msgstr[0] "(%(num)s новый)"
+msgstr[1] "(%(num)s новых)"
+msgstr[2] "(%(num)s новых)"
 
 #: r2/public/static/js/enhancements.js:939
-#, fuzzy
-#| msgid "top %d comments"
 msgid "top-level comments"
-msgstr "%d лучших комментариев"
+msgstr "комментарии верхнего уровня"
 
 #: r2/public/static/js/enhancements.js:942
-#, fuzzy
-#| msgid "submitter"
 msgid "the submitter's"
-msgstr "автор"
+msgstr "автора публикации"
 
 #: r2/public/static/js/enhancements.js:947
 msgid "yours"
-msgstr ""
+msgstr "ваши"
 
 #: r2/public/static/js/enhancements.js:956
-#, fuzzy
-#| msgid "links"
 msgid "with links"
-msgstr "ссылки"
+msgstr "со ссылками"
 
 #: r2/public/static/js/enhancements.js:964
-#, fuzzy
-#| msgid "jump to"
 msgid "jump between"
-msgstr "перейти к"
+msgstr "переход между"
 
 #: r2/public/static/js/enhancements.js:974 r2/templates/prefoptions.html:309
-#, fuzzy
-#| msgid "comment karma"
 msgid "comment navigator"
-msgstr "карма комментариев"
+msgstr "навигатор комментариев"
 
 #: r2/public/static/js/enhancements.js:978
-#, fuzzy
-#| msgid "revisions"
 msgid "previous"
-msgstr "правки"
+msgstr "предыдущий"
 
 #: r2/public/static/js/enhancements.js:981 r2/templates/flairnextlink.html:28 r2/templates/listing.html:75 r2/templates/promotedlinktraffic.html:95 r2/templates/promotelinknew.html:66 r2/templates/searchlisting.html:62 r2/templates/spotlightlisting.html:58 r2/templates/tablelisting.html:62 r2/templates/userlisting.html:149
 msgid "next"
 msgstr "след."
 
 #: r2/public/static/js/enhancements.js:1024
-#, fuzzy
-#| msgid "no such account"
 msgid "switch account"
-msgstr "такого аккаунта нет"
+msgstr "сменить аккаунт"
 
 #: r2/public/static/js/enhancements.js:1058
 msgid "couldn't switch; try again"
-msgstr ""
+msgstr "не удалось переключиться; попробуйте снова"
 
 #: r2/public/static/js/enhancements.js:1063
-#, fuzzy
-#| msgid "no such account"
 msgid "forget this account"
-msgstr "такого аккаунта нет"
+msgstr "забыть этот аккаунт"
 
 #: r2/public/static/js/enhancements.js:1064
-#, fuzzy, python-format
-#| msgid "created by %(user)s"
+#, python-format
 msgid "forget %(user)s"
-msgstr "создано %(user)s"
+msgstr "забыть %(user)s"
 
 #: r2/public/static/js/enhancements.js:1077
-#, fuzzy
-#| msgid "other accounts from it"
 msgid "no other accounts yet"
-msgstr "другие аккаунты с него"
+msgstr "других аккаунтов пока нет"
 
 #: r2/public/static/js/enhancements.js:1080
-#, fuzzy
-#| msgid "create a new account"
 msgid "add an account"
-msgstr "создать новый аккаунт"
+msgstr "добавить аккаунт"
 
 #: r2/public/static/js/enhancements.js:1085
 msgid "add and switch"
-msgstr ""
+msgstr "добавить и переключиться"
 
 #: r2/public/static/js/enhancements.js:1100 r2/templates/linkedloginotp.html:30 r2/templates/newlink.html:155 r2/templates/prefoptions.html:598 r2/templates/prefsecurity.html:37 r2/templates/prefsecurity.html:126 r2/templates/prefsecurity.html:145 r2/templates/prefupdate.html:33 r2/templates/privacysettings.html:133
-#, fuzzy
-#| msgid "two-factor"
 msgid "two-factor code"
-msgstr "двухфакторная авторизация"
+msgstr "код двухфакторной аутентификации"
 
 #: r2/public/static/js/enhancements.js:1104 r2/public/static/js/enhancements.js:1107
-#, fuzzy
-#| msgid "create a new account"
 msgid "couldn't add the account"
-msgstr "создать новый аккаунт"
+msgstr "не удалось добавить аккаунт"
 
 #: r2/public/static/js/enhancements.js:1111
 msgid "logging out forgets these accounts"
-msgstr ""
+msgstr "при выходе эти аккаунты забываются"
 
 #: r2/public/static/js/errors.js:3
 #, python-format
@@ -6921,29 +6766,23 @@ msgstr "проверьте почту для подтверждения ваше
 
 #: r2/public/static/js/passkey.js:83
 msgid "couldn't reach the site"
-msgstr ""
+msgstr "не удалось связаться с сайтом"
 
 #: r2/public/static/js/passkey.js:94
-#, fuzzy
-#| msgid "no access key set"
 msgid "no passkey was used"
-msgstr "ключ доступа не задан"
+msgstr "ключ доступа не был использован"
 
 #: r2/public/static/js/passkey.js:97
-#, fuzzy
-#| msgid "that user is already a moderator"
 msgid "that passkey is already added"
-msgstr "этот пользователь уже является модератором"
+msgstr "этот ключ доступа уже добавлен"
 
 #: r2/public/static/js/passkey.js:99
 msgid "the passkey didn't work"
-msgstr ""
+msgstr "ключ доступа не сработал"
 
 #: r2/public/static/js/passkey.js:130
-#, fuzzy
-#| msgid "make a key"
 msgid "use a passkey"
-msgstr "создать ключ"
+msgstr "использовать ключ доступа"
 
 #: r2/public/static/js/popup.js:29 r2/public/static/js/post-sharing.js:73
 msgid "close this window"
@@ -7107,7 +6946,7 @@ msgstr "ресурсы %(target)s за указанный вами период 
 
 #: r2/public/static/js/sponsored.js:1001
 msgid "house campaigns, man."
-msgstr "собственные рекламные кампании tippr."
+msgstr "собственные кампании, дружище."
 
 #: r2/public/static/js/sponsored.js:1014
 #, python-format
@@ -7326,32 +7165,28 @@ msgid "in-feed layout key"
 msgstr "ключ макета для ленты"
 
 #: r2/templates/adminadsettings.html:84
-#, fuzzy
-#| msgid "For an in-feed unit, its data-ad-layout-key. Leave blank for a display unit."
 msgid "For an in-feed unit, its data-ad-layout-key; for an in-article unit, in-article. Leave blank for a display unit."
-msgstr "Для блока в ленте — его data-ad-layout-key. Для медийного блока оставьте пустым."
+msgstr "Для блока In-feed — его data-ad-layout-key; для блока In-article — in-article. Для медийного блока оставьте пустым."
 
 #: r2/templates/adminadsettings.html:88
-#, fuzzy
-#| msgid "note (optional)"
 msgid "night mode ad units (optional)"
-msgstr "заметка (необязательно)"
+msgstr "рекламные блоки для ночного режима (необязательно)"
 
 #: r2/templates/adminadsettings.html:91
 msgid "Ads are drawn by Google and can't be restyled by the site, so on night mode's dark pages they keep the colours set in AdSense. To match night mode, create an in-article (or in-feed) unit with dark colours in AdSense (its style is set when you create it; display units can't be coloured) and enter it here: members with night mode on get these instead. Blank: the units above."
-msgstr ""
+msgstr "Рекламу рисует Google, и сайт не может менять её оформление, поэтому на тёмных страницах ночного режима она сохраняет цвета, заданные в AdSense. Чтобы она подходила к ночному режиму, создайте в AdSense блок In-article (или In-feed) с тёмными цветами (оформление задаётся при создании; медийные блоки раскрасить нельзя) и укажите его здесь: участники с ночным режимом получат вместо обычных его. Пусто — блоки выше."
 
 #: r2/templates/adminadsettings.html:104
 msgid "in-article for an in-article unit."
-msgstr ""
+msgstr "in-article для блока In-article."
 
 #: r2/templates/adminadsettings.html:107
 msgid "posts between in-feed ads"
-msgstr ""
+msgstr "публикаций между рекламой In-feed"
 
 #: r2/templates/adminadsettings.html:112
 msgid "An in-feed ad after every this many posts in a listing (and on each page infinite scroll adds)."
-msgstr ""
+msgstr "Реклама In-feed после каждых стольких публикаций в списке (и на каждой странице, которую добавляет бесконечная прокрутка)."
 
 #: r2/templates/adminadsettings.html:116
 msgid "testing"
@@ -7458,18 +7293,16 @@ msgid "posts, comments and messages from untrusted users"
 msgstr "публикации, комментарии и сообщения ненадёжных пользователей"
 
 #: r2/templates/adminantispam.html:98
-#, fuzzy
-#| msgid "feed"
 msgid "feedback"
-msgstr "лента"
+msgstr "обратная связь"
 
 #: r2/templates/adminantispam.html:100
 msgid "tell CleanTalk what moderators decide"
-msgstr ""
+msgstr "сообщать CleanTalk о решениях модераторов"
 
 #: r2/templates/adminantispam.html:101
 msgid "For what CleanTalk checked: marking it spam (the spam button, or removing a user's posts as spam on /admin/users) reports spam CleanTalk missed or confirms its call; approving something it flagged reports a mistake. Removing without spam, and anything CleanTalk didn't check (trusted users' posts), sends nothing."
-msgstr ""
+msgstr "Для того, что проверил CleanTalk: пометка как спам (кнопка «спам» или удаление публикаций пользователя как спама в /admin/users) сообщает о спаме, который CleanTalk пропустил, или подтверждает его решение; одобрение того, что он пометил, сообщает об ошибке. Удаление без пометки спамом и всё, что CleanTalk не проверял (публикации доверенных пользователей), ничего не отправляет."
 
 #: r2/templates/adminantispam.html:111
 msgid "CleanTalk statistics"
@@ -7915,18 +7748,15 @@ msgstr "скрыть"
 
 #: r2/templates/admincoins.html:28
 msgid "add to a user's Give Gold"
-msgstr ""
+msgstr "добавить к золоту для подарков пользователя"
 
 #: r2/templates/admincoins.html:35 r2/templates/admingold.html:35
 msgid "recipient"
 msgstr "получатель"
 
 #: r2/templates/admincoins.html:43
-#, fuzzy
-#| msgid "a month ago"
-#| msgid_plural "%(num)s months ago"
 msgid "months of gold"
-msgstr "месяц назад"
+msgstr "месяцев золота"
 
 #: r2/templates/admincoins.html:46 r2/templates/admingold.html:47
 msgid "(negative to take away)"
@@ -8174,21 +8004,19 @@ msgstr "NSFW"
 
 #: r2/templates/adminfeeds.html:60
 msgid "mark every post NSFW"
-msgstr ""
+msgstr "помечать каждую публикацию как NSFW"
 
 #: r2/templates/adminfeeds.html:61 r2/templates/printablebuttons.html:95
 msgid "AI label"
 msgstr "метка ИИ"
 
 #: r2/templates/adminfeeds.html:63
-#, fuzzy
-#| msgid "any posts (labelled)"
 msgid "not labelled"
-msgstr "любые публикации (с метками)"
+msgstr "без метки"
 
 #: r2/templates/adminfeeds.html:68
 msgid "Put on every post, as a member labels their own. It must be one the vault accepts."
-msgstr ""
+msgstr "Ставится на каждую публикацию, как участник помечает свои. Метка должна быть из тех, что принимает волт."
 
 #: r2/templates/adminfeeds.html:70
 msgid "add the feed"
@@ -8224,16 +8052,12 @@ msgid "titles start with"
 msgstr "заголовки начинаются с"
 
 #: r2/templates/adminfeeds.html:106
-#, fuzzy
-#| msgid "post karma"
 msgid "posts are marked"
-msgstr "карма за публикации"
+msgstr "публикации помечаются"
 
 #: r2/templates/adminfeeds.html:108
-#, fuzzy
-#| msgid "context"
 msgid "ai_content"
-msgstr "контекст"
+msgstr "ai_content"
 
 #: r2/templates/adminfeeds.html:112
 msgid "paused"
@@ -8324,103 +8148,98 @@ msgid "This site reads its live config from ZooKeeper (liveconfig_source = zooke
 msgstr "Этот сайт читает конфигурацию в реальном времени из ZooKeeper (liveconfig_source = zookeeper), поэтому она управляется через scripts/write_live_config, а не здесь. Используемые значения:"
 
 #: r2/templates/adminliveconfig.html:70
-#, fuzzy
-#| msgid "searching"
 msgid "caching"
-msgstr "поиск"
+msgstr "кэширование"
 
 #: r2/templates/adminliveconfig.html:74
 msgid "memcached"
-msgstr ""
+msgstr "memcached"
 
 #: r2/templates/adminliveconfig.html:76
-#, fuzzy, python-format
-#| msgid "not saved: %(error)s"
+#, python-format
 msgid "not reachable: %(error)s"
-msgstr "не сохранено: %(error)s"
+msgstr "недоступен: %(error)s"
 
 #: r2/templates/adminliveconfig.html:79
 #, python-format
 msgid "%(used)s MB of %(limit)s MB used (%(percent)s%%), %(items)s items"
-msgstr ""
+msgstr "занято %(used)s МБ из %(limit)s МБ (%(percent)s%%), элементов: %(items)s"
 
 #: r2/templates/adminliveconfig.html:81
 #, python-format
 msgid "%(hits)s%% of lookups found"
-msgstr ""
+msgstr "найдено %(hits)s%% запросов"
 
 #: r2/templates/adminliveconfig.html:83
 #, python-format
 msgid "%(evictions)s evicted"
-msgstr ""
+msgstr "вытеснено: %(evictions)s"
 
 #: r2/templates/adminliveconfig.html:84
 #, python-format
 msgid "up %(hours)s hours"
-msgstr ""
+msgstr "работает %(hours)s ч"
 
 #: r2/templates/adminliveconfig.html:86
 msgid "It's full and throwing things out to make room: give it more memory (TIPPR_MEMCACHED_MB, re-running the installer on the server it runs on)."
-msgstr ""
+msgstr "Он заполнен и выбрасывает данные, чтобы освободить место: дайте ему больше памяти (TIPPR_MEMCACHED_MB, перезапустив установщик на сервере, где он работает)."
 
 #: r2/templates/adminliveconfig.html:93
 msgid "logged-out pages"
-msgstr ""
+msgstr "страницы для неавторизованных"
 
 #: r2/templates/adminliveconfig.html:96
 msgid "nginx doesn't keep them (TIPPR_PAGE_CACHE_SECONDS=0)."
-msgstr ""
+msgstr "nginx их не хранит (TIPPR_PAGE_CACHE_SECONDS=0)."
 
 #: r2/templates/adminliveconfig.html:98
 msgid "not cached: logged_out_page_cache_seconds below is 0."
-msgstr ""
+msgstr "не кэшируются: logged_out_page_cache_seconds ниже равно 0."
 
 #: r2/templates/adminliveconfig.html:100
 #, python-format
 msgid "kept %(seconds)s seconds (logged_out_page_cache_seconds below)"
-msgstr ""
+msgstr "хранятся %(seconds)s с (logged_out_page_cache_seconds ниже)"
 
 #: r2/templates/adminliveconfig.html:102
 msgid "by nginx, and a CDN in front if there is one."
-msgstr ""
+msgstr "в nginx и в CDN перед ним, если он есть."
 
 #: r2/templates/adminliveconfig.html:104
 msgid "by a cache in front of the site, if it has one."
-msgstr ""
+msgstr "в кэше перед сайтом, если он есть."
 
 #: r2/templates/adminliveconfig.html:110
 msgid "static files"
-msgstr ""
+msgstr "статические файлы"
 
 #: r2/templates/adminliveconfig.html:113
 msgid "served by nginx, kept by browsers for a year (a day for files without a content hash in the name)."
-msgstr ""
+msgstr "отдаёт nginx, браузеры хранят их год (день для файлов без хэша содержимого в имени)."
 
 #: r2/templates/adminliveconfig.html:115
 msgid "served by the app (development: they change as you edit them)."
-msgstr ""
+msgstr "отдаёт приложение (разработка: они меняются, пока вы их правите)."
 
 #: r2/templates/adminliveconfig.html:117
 msgid "served by the app (re-run the installer to have nginx serve them)."
-msgstr ""
+msgstr "отдаёт приложение (перезапустите установщик, чтобы их отдавал nginx)."
 
 #: r2/templates/adminliveconfig.html:124
 msgid "Empty memcached? The site is slower for a while as it fills again, and rate limits and half-done sign-ins start over."
-msgstr ""
+msgstr "Очистить memcached? Сайт какое-то время будет медленнее, пока кэш снова заполняется, а лимиты частоты запросов и незавершённые входы начнутся заново."
 
 #: r2/templates/adminliveconfig.html:126
 msgid "empty memcached"
-msgstr ""
+msgstr "очистить memcached"
 
 #: r2/templates/adminliveconfig.html:128
 msgid "For when pages show something out of date. Nothing is lost: everything there is a copy and comes back as it's used."
-msgstr ""
+msgstr "На случай, когда страницы показывают устаревшее. Ничего не теряется: там только копии, и они вернутся по мере использования."
 
 #: r2/templates/adminliveconfig.html:136
-#, fuzzy
-#| msgid "save page"
 msgid "save changes"
-msgstr "сохранить страницу"
+msgstr "сохранить изменения"
 
 #: r2/templates/adminliveconfig.html:146
 msgid "common settings"
@@ -8457,60 +8276,52 @@ msgstr "Изменений пока нет."
 
 #: r2/templates/adminloginsettings.html:25
 msgid "Members can link a Google, Facebook, GitHub or Discord account to theirs (preferences, security) and then sign in with it instead of their password. It only signs in to accounts that linked it: nothing is matched by email address. Someone signing in with one that isn't linked yet can link it to their account with their password, or, while sign-ups are open, make a new account for it. A member with two-factor sign-in still enters their code. Settings saved here override the ini file and apply immediately."
-msgstr ""
+msgstr "Участники могут привязать к своему аккаунту аккаунт Google, Facebook, GitHub или Discord (настройки, безопасность) и затем входить с его помощью вместо пароля. Он входит только в аккаунты, которые его привязали: по адресу почты ничего не сопоставляется. Тот, кто входит через ещё не привязанный аккаунт, может привязать его к своему с помощью пароля или, пока регистрация открыта, создать для него новый аккаунт. Участник с двухфакторным входом всё равно вводит свой код. Настройки, сохранённые здесь, заменяют ini-файл и применяются сразу."
 
 #: r2/templates/adminloginsettings.html:28
 msgid "Each provider needs an OAuth app of this site's own: create one in the provider's console, add the redirect address shown below to it, and enter its client ID and secret here."
-msgstr ""
+msgstr "Каждому поставщику нужно собственное OAuth-приложение этого сайта: создайте его в консоли поставщика, добавьте в него адрес перенаправления, показанный ниже, и введите здесь его client ID и секрет."
 
 #: r2/templates/adminloginsettings.html:42
 #, python-format
 msgid "offer sign in with %(provider)s"
-msgstr ""
+msgstr "предлагать вход через %(provider)s"
 
 #: r2/templates/adminloginsettings.html:46 r2/templates/adminpaymentsettings.html:137
-#, fuzzy
-#| msgid "OAuth client ID"
 msgid "client ID"
-msgstr "ID клиента OAuth"
+msgstr "client ID"
 
 #: r2/templates/adminloginsettings.html:54
-#, fuzzy
-#| msgid "OAuth client secret"
 msgid "client secret"
-msgstr "секрет клиента OAuth"
+msgstr "секрет клиента"
 
 #: r2/templates/adminloginsettings.html:58
-#, fuzzy
-#| msgid "redirect uri"
 msgid "redirect address"
-msgstr "uri переадресации"
+msgstr "адрес перенаправления"
 
 #: r2/templates/adminloginsettings.html:63
 msgid "Google Cloud console: APIs & Services, Credentials, create an OAuth client ID (web application) and add this as an authorized redirect URI. Set up the OAuth consent screen first (scopes: email, profile, openid)."
-msgstr ""
+msgstr "Консоль Google Cloud: API и сервисы, Учётные данные, создайте идентификатор клиента OAuth (веб-приложение) и добавьте это как разрешённый URI перенаправления. Сначала настройте экран согласия OAuth (области: email, profile, openid)."
 
 #: r2/templates/adminloginsettings.html:65
 msgid "Meta for Developers: create an app with Facebook Login, and add this under Facebook Login, Settings, Valid OAuth Redirect URIs. The app ID is the client ID; the app secret is under App settings, Basic."
-msgstr ""
+msgstr "Meta for Developers: создайте приложение с Facebook Login и добавьте это в Facebook Login, Настройки, Действительные URI перенаправления OAuth. ID приложения — это client ID; секрет приложения находится в Настройки приложения, Основное."
 
 #: r2/templates/adminloginsettings.html:67
 msgid "GitHub, Settings, Developer settings, OAuth Apps: register a new OAuth app (not a GitHub App) with this as its authorization callback URL. Its client ID is shown there; generate a client secret on the same page."
-msgstr ""
+msgstr "GitHub, Settings, Developer settings, OAuth Apps: зарегистрируйте новое OAuth-приложение (не GitHub App) с этим адресом в качестве Authorization callback URL. Его client ID показан там; сгенерируйте секрет клиента на той же странице."
 
 #: r2/templates/adminloginsettings.html:69
 msgid "Discord Developer Portal: create an application, then under OAuth2 add this as a redirect. The client ID and client secret (reset it to see one) are on the same page."
-msgstr ""
+msgstr "Discord Developer Portal: создайте приложение, затем в разделе OAuth2 добавьте это как redirect. Client ID и секрет клиента (сбросьте его, чтобы увидеть) находятся на той же странице."
 
 #: r2/templates/adminloginsettings.html:71
-#, fuzzy
-#| msgid "opened the ticket"
 msgid "open the console"
-msgstr "открыл обращение"
+msgstr "открыть консоль"
 
 #: r2/templates/adminloginsettings.html:81
 msgid "Instagram no longer offers sign-in for other sites; Facebook Login is Meta's."
-msgstr ""
+msgstr "Instagram больше не предлагает вход для других сайтов; Facebook Login принадлежит Meta."
 
 #: r2/templates/adminnotessidebar.html:42
 msgid "Past notes"
@@ -8519,62 +8330,56 @@ msgstr "Прошлые заметки"
 #: r2/templates/adminpaymentsettings.html:44
 #, python-format
 msgid "take payments with %(provider)s"
-msgstr ""
+msgstr "принимать платежи через %(provider)s"
 
 #: r2/templates/adminpaymentsettings.html:75
-#, fuzzy
-#| msgid "feed address"
 msgid "webhook address"
-msgstr "адрес ленты"
+msgstr "адрес вебхука"
 
 #: r2/templates/adminpaymentsettings.html:90
 msgid "Take payments for gold (and Give Gold, gifts and gift codes) and for sold ads with your own accounts at these providers. Turn on the ones you use and enter their API keys; buyers pick one on the payment page and pay on the provider's own page, so card details never reach this site. Settings saved here override the ini file and apply immediately."
-msgstr ""
+msgstr "Принимайте платежи за золото (а также подарки золота, подарки и подарочные коды) и за проданную рекламу на собственные аккаунты у этих поставщиков. Включите те, которыми пользуетесь, и введите их ключи API; покупатели выбирают один на странице оплаты и платят на странице самого поставщика, так что данные карты никогда не попадают на этот сайт. Настройки, сохранённые здесь, заменяют ini-файл и применяются сразу."
 
 #: r2/templates/adminpaymentsettings.html:93
 #, python-format
 msgid "Prices are in US dollars: gold is %(month)s a month and %(year)s a year (gold_month_price and gold_year_price in the ini)."
-msgstr ""
+msgstr "Цены в долларах США: золото стоит %(month)s в месяц и %(year)s в год (gold_month_price и gold_year_price в ini)."
 
 #: r2/templates/adminpaymentsettings.html:95
 msgid "Webhooks are optional: payments complete when the buyer comes back from paying either way, but with webhooks they also complete if the buyer closes the window first, and refunds made in the provider's dashboard reach the site. Webhooks are only a cue: the site always asks the provider what happened."
-msgstr ""
+msgstr "Вебхуки необязательны: платежи завершаются в любом случае, когда покупатель возвращается после оплаты, но с вебхуками они завершаются и тогда, когда он закрыл окно раньше, а возвраты, сделанные в панели поставщика, доходят до сайта. Вебхук — лишь сигнал: сайт всегда спрашивает у поставщика, что произошло."
 
 #: r2/templates/adminpaymentsettings.html:99
 msgid "No provider is on yet, so the payment page only offers paying with gold already bought."
-msgstr ""
+msgstr "Ни один поставщик ещё не включён, поэтому страница оплаты предлагает только оплату уже купленным золотом."
 
 #: r2/templates/adminpaymentsettings.html:106
 msgid "what can be bought"
-msgstr ""
+msgstr "что можно купить"
 
 #: r2/templates/adminpaymentsettings.html:112
-#, fuzzy
-#| msgid "receive gold as a gift code"
 msgid "gold, Give Gold, gifts and gift codes"
-msgstr "получить золото в виде подарочного кода"
+msgstr "золото, подарки золота, подарки и подарочные коды"
 
 #: r2/templates/adminpaymentsettings.html:120
 msgid "sold ads (promoted posts), paid when submitted and refunded if rejected"
-msgstr ""
+msgstr "проданная реклама (продвигаемые публикации), оплачивается при отправке и возвращается при отклонении"
 
 #: r2/templates/adminpaymentsettings.html:129
 msgid "Buyers pay with PayPal, Venmo (US), Pay Later, or a debit or credit card without a PayPal account."
-msgstr ""
+msgstr "Покупатели платят через PayPal, Venmo (США), «Оплатить позже» или дебетовой либо кредитной картой без аккаунта PayPal."
 
 #: r2/templates/adminpaymentsettings.html:133 r2/templates/adminpaymentsettings.html:175 r2/templates/adminpaymentsettings.html:200
-#, fuzzy
-#| msgid "announcement"
 msgid "environment"
-msgstr "объявление"
+msgstr "среда"
 
 #: r2/templates/adminpaymentsettings.html:134 r2/templates/adminpaymentsettings.html:176
 msgid "sandbox (testing)"
-msgstr ""
+msgstr "песочница (тестирование)"
 
 #: r2/templates/adminpaymentsettings.html:140
 msgid "From developer.paypal.com: Apps & Credentials, create a REST API app (sandbox and live have separate apps)."
-msgstr ""
+msgstr "На developer.paypal.com: Apps & Credentials, создайте приложение REST API (для sandbox и live приложения разные)."
 
 #: r2/templates/adminpaymentsettings.html:144 r2/templates/prefapps.html:148
 msgid "secret"
@@ -8582,109 +8387,95 @@ msgstr "секрет"
 
 #: r2/templates/adminpaymentsettings.html:147
 msgid "In the app's settings, add a webhook for Checkout order approved, Payment capture completed, denied and refunded."
-msgstr ""
+msgstr "В настройках приложения добавьте вебхук для Checkout order approved, Payment capture completed, denied и refunded."
 
 #: r2/templates/adminpaymentsettings.html:154
 msgid "Buyers pay on Stripe Checkout with a card, Google Pay, Apple Pay, Link and any other method turned on in the Stripe dashboard (Settings > Payment methods)."
-msgstr ""
+msgstr "Покупатели платят в Stripe Checkout картой, через Google Pay, Apple Pay, Link и любой другой способ, включённый в панели Stripe (Settings > Payment methods)."
 
 #: r2/templates/adminpaymentsettings.html:161
 msgid "From the Stripe dashboard: Developers > API keys. sk_test_… for testing, sk_live_… for real payments."
-msgstr ""
+msgstr "В панели Stripe: Developers > API keys. sk_test_… для тестов, sk_live_… для настоящих платежей."
 
 #: r2/templates/adminpaymentsettings.html:164
 msgid "Under Developers > Webhooks, add an endpoint for checkout.session.completed, checkout.session.async_payment_succeeded, checkout.session.async_payment_failed, checkout.session.expired and charge.refunded."
-msgstr ""
+msgstr "В Developers > Webhooks добавьте endpoint для checkout.session.completed, checkout.session.async_payment_succeeded, checkout.session.async_payment_failed, checkout.session.expired и charge.refunded."
 
 #: r2/templates/adminpaymentsettings.html:171
 msgid "Buyers pay in USDC (a dollar stablecoin) from Coinbase or any crypto wallet, through Coinbase Business checkouts. Coinbase Commerce, the old service, has shut down."
-msgstr ""
+msgstr "Покупатели платят в USDC (стейблкоин, привязанный к доллару) из Coinbase или любого криптокошелька через оплату Coinbase Business. Coinbase Commerce, старый сервис, закрыт."
 
 #: r2/templates/adminpaymentsettings.html:179
 msgid "API key ID"
-msgstr ""
+msgstr "ID ключа API"
 
 #: r2/templates/adminpaymentsettings.html:182
 msgid "A secret API key from portal.cdp.coinbase.com (API keys), for the project linked to your Coinbase Business account."
-msgstr ""
+msgstr "Секретный ключ API с portal.cdp.coinbase.com (API keys) для проекта, связанного с вашим аккаунтом Coinbase Business."
 
 #: r2/templates/adminpaymentsettings.html:186
-#, fuzzy
-#| msgid "OAuth client secret"
 msgid "API key secret"
-msgstr "секрет клиента OAuth"
+msgstr "секрет ключа API"
 
 #: r2/templates/adminpaymentsettings.html:189
 msgid "Webhooks are added with the CDP command line tool, subscribed to the checkout.payment events."
-msgstr ""
+msgstr "Вебхуки добавляются инструментом командной строки CDP и подписываются на события checkout.payment."
 
 #: r2/templates/adminpaymentsettings.html:196
 msgid "Buyers pay with Bitcoin and the other coins BitPay accepts. Refunds are made in the BitPay dashboard, then marked refunded below."
-msgstr ""
+msgstr "Покупатели платят в Bitcoin и других монетах, которые принимает BitPay. Возвраты делаются в панели BitPay, а затем помечаются ниже как возвращённые."
 
 #: r2/templates/adminpaymentsettings.html:201
 msgid "test (test.bitpay.com)"
-msgstr ""
+msgstr "тест (test.bitpay.com)"
 
 #: r2/templates/adminpaymentsettings.html:204
 msgid "API token"
-msgstr ""
+msgstr "токен API"
 
 #: r2/templates/adminpaymentsettings.html:207
 msgid "From the BitPay dashboard: Payment Tools > API Tokens, a point-of-sale token without \"require authentication\". The test site needs its own account and token."
-msgstr ""
+msgstr "В панели BitPay: Payment Tools > API Tokens, токен для точки продаж без «require authentication». Тестовому сайту нужны свои аккаунт и токен."
 
 #: r2/templates/adminpaymentsettings.html:210
 msgid "Nothing to set up: each invoice tells BitPay where to send its notifications."
-msgstr ""
+msgstr "Настраивать ничего не нужно: каждый счёт сообщает BitPay, куда слать уведомления."
 
 #: r2/templates/adminpaymentsettings.html:217
-#, fuzzy
-#| msgid "revoke the key"
 msgid "test the keys"
-msgstr "отозвать ключ"
+msgstr "проверить ключи"
 
 #: r2/templates/adminpaymentsettings.html:218
 msgid "Asks each provider whether the saved keys work (save first). BitPay's can only be tested with a purchase."
-msgstr ""
+msgstr "Спрашивает у каждого поставщика, работают ли сохранённые ключи (сначала сохраните). Ключи BitPay можно проверить только покупкой."
 
 #: r2/templates/adminpaymentsettings.html:227
-#, fuzzy
-#| msgid "not set"
 msgid "not set up"
-msgstr "не задан"
+msgstr "не настроено"
 
 #: r2/templates/adminpaymentsettings.html:233
-#, fuzzy
-#| msgid "authorize payment"
 msgid "latest payments"
-msgstr "авторизовать платеж"
+msgstr "последние платежи"
 
 #: r2/templates/adminpaymentsettings.html:235
-#, fuzzy
-#| msgid "No changes yet."
 msgid "No payments yet."
-msgstr "Изменений пока нет."
+msgstr "Платежей пока нет."
 
 #: r2/templates/adminpaymentsettings.html:240
 msgid "what"
-msgstr ""
+msgstr "что"
 
 #: r2/templates/adminpaymentsettings.html:241
 msgid "buyer"
-msgstr ""
+msgstr "покупатель"
 
 #: r2/templates/adminpaymentsettings.html:242
-#, fuzzy
-#| msgid "account"
 msgid "amount"
-msgstr "аккаунт"
+msgstr "сумма"
 
 #: r2/templates/adminpaymentsettings.html:243
-#, fuzzy
-#| msgid "Approve"
 msgid "provider"
-msgstr "Одобрить"
+msgstr "поставщик"
 
 #: r2/templates/adminpaymentsettings.html:268 r2/templates/renderablecampaign.html:104
 msgid "refund"
@@ -8692,236 +8483,203 @@ msgstr "возврат средств"
 
 #: r2/templates/adminpaymentsettings.html:269
 msgid "Refund this payment in full and take back what it bought?"
-msgstr ""
+msgstr "Вернуть этот платёж полностью и забрать то, что на него куплено?"
 
 #: r2/templates/adminpaymentsettings.html:271
-#, fuzzy
-#| msgid "mark unread"
 msgid "mark refunded"
-msgstr "пометить непрочитанным"
+msgstr "отметить возврат"
 
 #: r2/templates/adminpaymentsettings.html:272
 msgid "Mark this payment refunded (after refunding it in the provider's dashboard) and take back what it bought?"
-msgstr ""
+msgstr "Отметить этот платёж как возвращённый (после возврата в панели поставщика) и забрать то, что на него куплено?"
 
 #: r2/templates/adminserverstatus.html:25
 msgid "Each server reports its state here once a minute (tippr-job-server_status). Only the latest report is kept; a server that stops reporting is flagged after 3 minutes and dropped after 7 days, or forget it below once it's out of service."
-msgstr ""
+msgstr "Каждый сервер раз в минуту сообщает сюда своё состояние (tippr-job-server_status). Хранится только последний отчёт; сервер, переставший отчитываться, помечается через 3 минуты и убирается через 7 дней, или забудьте его ниже, когда он выведен из работы."
 
 #: r2/templates/adminserverstatus.html:28
 msgid "No server has reported yet. Reports start within a minute of installing or upgrading (the tippr-job-server_status timer)."
-msgstr ""
+msgstr "Ни один сервер ещё не отчитался. Отчёты начинаются в течение минуты после установки или обновления (таймер tippr-job-server_status)."
 
 #: r2/templates/adminserverstatus.html:33
-#, fuzzy
-#| msgid "dates"
 msgid "updates"
-msgstr "даты"
+msgstr "обновления"
 
 #: r2/templates/adminserverstatus.html:35
 #, python-format
 msgid "GitHub couldn't be asked about releases (%(error)s); trying again in a few minutes."
-msgstr ""
+msgstr "Не удалось спросить GitHub о выпусках (%(error)s); повторим через несколько минут."
 
 #: r2/templates/adminserverstatus.html:37
 #, python-format
 msgid "No release of %(repo)s has an installer yet."
-msgstr ""
+msgstr "Ни у одного выпуска %(repo)s пока нет установщика."
 
 #: r2/templates/adminserverstatus.html:40
 msgid "The newest release is"
-msgstr ""
+msgstr "Новейший выпуск —"
 
 #: r2/templates/adminserverstatus.html:47
 #, python-format
 msgid "an update is available for %(n)s of your servers"
-msgstr ""
+msgstr "доступно обновление для серверов: %(n)s"
 
 #: r2/templates/adminserverstatus.html:49
 msgid "every server runs it, or a newer one."
-msgstr ""
+msgstr "все серверы работают на нём или на более новом."
 
 #: r2/templates/adminserverstatus.html:53
 msgid "A pre-release is out too:"
-msgstr ""
+msgstr "Вышла и предварительная версия:"
 
 #: r2/templates/adminserverstatus.html:56
 msgid "Read the release's notes before updating: anything that needs doing by hand is in them."
-msgstr ""
+msgstr "Перед обновлением прочитайте примечания к выпуску: всё, что нужно сделать вручную, указано там."
 
 #: r2/templates/adminserverstatus.html:63
 #, python-format
 msgid "%(user)s asked for %(version)s %(time)s ago%(backup)s."
-msgstr ""
+msgstr "%(user)s запросил %(version)s %(time)s назад%(backup)s."
 
 #: r2/templates/adminserverstatus.html:63
-#, fuzzy
-#| msgid "have it make a new backup first"
 msgid ", with a backup first"
-msgstr "сначала попросить его сделать новую копию"
+msgstr ", сначала с резервной копией"
 
 #: r2/templates/adminserverstatus.html:64
 msgid "Each server updates within a minute or so of its turn, one at a time; the site is down on each for 5-10 minutes while it does. Its state is on its card below."
-msgstr ""
+msgstr "Каждый сервер обновляется примерно через минуту после того, как подойдёт его очередь, по одному; сайт на каждом недоступен 5–10 минут, пока это идёт. Состояние — на его карточке ниже."
 
 #: r2/templates/adminserverstatus.html:70
-#, fuzzy
-#| msgid "clear the list"
 msgid "clear this"
-msgstr "очистить список"
+msgstr "очистить"
 
 #: r2/templates/adminserverstatus.html:71
 msgid "(servers that haven't started don't; this doesn't undo an update)"
-msgstr ""
+msgstr "(серверы, которые ещё не начали, уже не начнут; это не отменяет обновление)"
 
 #: r2/templates/adminserverstatus.html:77
 msgid "Update the servers to this release? Each one goes down for 5-10 minutes while it updates, one at a time. Make a Proxmox snapshot first if you can."
-msgstr ""
+msgstr "Обновить серверы до этого выпуска? Каждый будет недоступен 5–10 минут во время обновления, по одному. Если можете, сначала сделайте снапшот Proxmox."
 
 #: r2/templates/adminserverstatus.html:83
 msgid " (pre-release)"
-msgstr ""
+msgstr " (предварительная версия)"
 
 #: r2/templates/adminserverstatus.html:86
-#, fuzzy
-#| msgid "have it make a new backup first"
 msgid "make a site backup first"
-msgstr "сначала попросить его сделать новую копию"
+msgstr "сначала сделать резервную копию сайта"
 
 #: r2/templates/adminserverstatus.html:87
-#, fuzzy
-#| msgid "other server"
 msgid "update the servers"
-msgstr "другой сервер"
+msgstr "обновить серверы"
 
 #: r2/templates/adminserverstatus.html:89
 msgid "Each server downloads the release's installer from GitHub, checks it against the release's checksums, and re-runs the installer, as in the Proxmox upgrade steps. If the site doesn't come back, it puts the old version back. Only Proxmox containers (with tippr-firstboot) can update this way. A snapshot of the container first is still the surest way back."
-msgstr ""
+msgstr "Каждый сервер скачивает установщик выпуска с GitHub, сверяет его с контрольными суммами выпуска и перезапускает установщик, как в шагах обновления Proxmox. Если сайт не поднимется, возвращается старая версия. Так могут обновляться только контейнеры Proxmox (с tippr-firstboot). Снапшот контейнера заранее всё равно самый надёжный путь назад."
 
 #: r2/templates/adminserverstatus.html:92
 msgid "Updating from this page is off (TIPPR_WEB_UPDATES=0 in the installer)."
-msgstr ""
+msgstr "Обновление с этой страницы отключено (TIPPR_WEB_UPDATES=0 в установщике)."
 
 #: r2/templates/adminserverstatus.html:114
-#, fuzzy
-#| msgid "conversation"
 msgid "version"
-msgstr "переписка"
+msgstr "версия"
 
 #: r2/templates/adminserverstatus.html:120
 #, python-format
 msgid "%(version)s is out"
-msgstr ""
+msgstr "вышла %(version)s"
 
 #: r2/templates/adminserverstatus.html:125
-#, fuzzy
-#| msgid "date"
 msgid "update"
-msgstr "дата"
+msgstr "обновление"
 
 #: r2/templates/adminserverstatus.html:128
-#, fuzzy, python-format
-#| msgid "%(reason)s"
+#, python-format
 msgid "to %(version)s"
-msgstr "%(reason)s"
+msgstr "до %(version)s"
 
 #: r2/templates/adminserverstatus.html:130
 #, python-format
 msgid "(from %(version)s)"
-msgstr ""
+msgstr "(с %(version)s)"
 
 #: r2/templates/adminserverstatus.html:136
-#, fuzzy
-#| msgid "blog"
 msgid "log"
-msgstr "блог"
+msgstr "журнал"
 
 #: r2/templates/adminserverstatus.html:144
-#, fuzzy, python-format
-#| msgid "%(num)d %(time)s"
+#, python-format
 msgid "up %(time)s"
-msgstr "%(num)d %(time)s"
+msgstr "работает %(time)s"
 
 #: r2/templates/adminserverstatus.html:147
-#, fuzzy
-#| msgid "upload"
 msgid "load"
-msgstr "загрузить"
+msgstr "нагрузка"
 
 #: r2/templates/adminserverstatus.html:149
 #, python-format
 msgid "(1, 5 and 15 minutes, on %(n)s CPUs)"
-msgstr ""
+msgstr "(1, 5 и 15 минут, на %(n)s ЦП)"
 
 #: r2/templates/adminserverstatus.html:151
 msgid "memory"
-msgstr ""
+msgstr "память"
 
 #: r2/templates/adminserverstatus.html:154
 #, python-format
 msgid "%(used)s of %(total)s used (%(p)s%%)"
-msgstr ""
+msgstr "занято %(used)s из %(total)s (%(p)s%%)"
 
 #: r2/templates/adminserverstatus.html:156
-#, fuzzy, python-format
-#| msgid "(use %(current)s of your %(total)s coins)"
+#, python-format
 msgid "swap %(used)s of %(total)s"
-msgstr "(использовать %(current)s из %(total)s креддитов)"
+msgstr "своп %(used)s из %(total)s"
 
 #: r2/templates/adminserverstatus.html:161
 msgid "disk"
-msgstr ""
+msgstr "диск"
 
 #: r2/templates/adminserverstatus.html:165
 #, python-format
 msgid "%(used)s of %(total)s used (%(p)s%%), %(free)s free"
-msgstr ""
+msgstr "занято %(used)s из %(total)s (%(p)s%%), свободно %(free)s"
 
 #: r2/templates/adminserverstatus.html:169
-#, fuzzy
-#| msgid "overview"
 msgid "services"
-msgstr "обзор"
+msgstr "службы"
 
 #: r2/templates/adminserverstatus.html:178
 msgid "Forget this server? It comes back if it reports again."
-msgstr ""
+msgstr "Забыть этот сервер? Он вернётся, если снова отчитается."
 
 #: r2/templates/adminserverstatus.html:180
-#, fuzzy
-#| msgid "target"
 msgid "forget"
-msgstr "цель"
+msgstr "забыть"
 
 #: r2/templates/adminserverstatus.html:186
-#, fuzzy
-#| msgid "modqueue"
 msgid "queues"
-msgstr "очередь модерации"
+msgstr "очереди"
 
 #: r2/templates/adminserverstatus.html:188
 msgid "RabbitMQ couldn't be asked about its queues."
-msgstr ""
+msgstr "Не удалось спросить RabbitMQ о его очередях."
 
 #: r2/templates/adminserverstatus.html:190
 msgid "Work waiting for the queue processors (tippr-consumers). A queue that keeps growing means they aren't keeping up, or aren't running."
-msgstr ""
+msgstr "Работа, ожидающая обработчиков очередей (tippr-consumers). Очередь, которая всё растёт, значит, они не справляются или не запущены."
 
 #: r2/templates/adminserverstatus.html:192
-#, fuzzy
-#| msgid "modqueue"
 msgid "queue"
-msgstr "очередь модерации"
+msgstr "очередь"
 
 #: r2/templates/adminserverstatus.html:192
-#, fuzzy
-#| msgid "editing"
 msgid "waiting"
-msgstr "редактирование"
+msgstr "ждут"
 
 #: r2/templates/adminserverstatus.html:192
 msgid "processors"
-msgstr ""
+msgstr "обработчики"
 
 #: r2/templates/adminsitesettings.html:49 r2/templates/utils.html:243 r2/templates/utils.html:360
 msgid "upload"
@@ -9565,24 +9323,20 @@ msgid "A username finds that account and names starting with it; an email addres
 msgstr "Имя пользователя находит этот аккаунт и имена, которые с него начинаются; адрес эл. почты — все аккаунты, которые его использовали; IP-адрес — аккаунты, входившие с него (входы хранятся 100 дней)."
 
 #: r2/templates/adminusers.html:35
-#, fuzzy
-#| msgid "newest"
 msgid "newer"
-msgstr "самые новые"
+msgstr "новее"
 
 #: r2/templates/adminusers.html:41
 msgid "older"
-msgstr ""
+msgstr "старее"
 
 #: r2/templates/adminusers.html:48
-#, fuzzy
-#| msgid "new accounts"
 msgid "all accounts"
-msgstr "новые аккаунты"
+msgstr "все аккаунты"
 
 #: r2/templates/adminusers.html:49
 msgid "Newest first, including deleted and suspended accounts."
-msgstr ""
+msgstr "Сначала новые, включая удалённые и заблокированные аккаунты."
 
 #: r2/templates/adminusers.html:84
 msgid "No accounts found."
@@ -10374,10 +10128,9 @@ msgid "hide help"
 msgstr "убрать справку"
 
 #: r2/templates/createvault.html:450
-#, fuzzy, python-format
-#| msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.tippr.net. You will be able to access your tippr through your domain."
+#, python-format
 msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to %(domain)s. You will be able to reach your vault through your domain."
-msgstr "Имеете собственный домен? Введите его здесь и обратитесь к вашему DNS провайдеру для добавления записи CNAME в ваш домен на rhs.tippr.net. Вы сможете заходить на tippr через ваш домен."
+msgstr "Есть свой домен? Введите его здесь, затем у своего DNS-провайдера добавьте запись CNAME, указывающую ваш домен на %(domain)s. Вы сможете открывать свой волт по своему домену."
 
 #: r2/templates/createvault.html:457
 msgid "look and feel"
@@ -10655,46 +10408,33 @@ msgid "How much does it cost?"
 msgstr "Сколько это стоит?"
 
 #: r2/templates/gilding.html:60
-#, fuzzy, python-format
-#| msgid "A single gilding costs %(price)s. If you plan to do a lot you can get a discount if you purchase some [coins](/coins)."
+#, python-format
 msgid "A single gilding costs %(price)s. If you plan to do a lot you can get a discount if you [buy gold ahead](/coins) to give later."
-msgstr "Одно золочение стоит %(price)s. Если вы собираетесь дарить много золота, вы можете получить скидку, купив несколько [креддитов](/coins)."
+msgstr "Одно позолочение стоит %(price)s. Если собираетесь золотить часто, можно получить скидку, если [купить золото заранее](/coins) и дарить потом."
 
 #: r2/templates/gilding.html:63
-#, fuzzy
-#| msgid "What is tippr gold?"
 msgid "What is Give Gold?"
-msgstr "Что такое золотая подписка tippr?"
+msgstr "Что такое подарки золота?"
 
 #: r2/templates/gilding.html:64
-#, fuzzy
-#| msgid "Each coin you have can be converted into one month of tippr gold. Stored as a balance on your account, coins allow you to give gold without having to enter payment information."
 msgid "Gold you buy to give away later: each month of it gives someone one month of tippr gold. Kept as a balance on your account, it lets you give gold without entering payment information each time."
-msgstr "Каждый ваш креддит может быть превращен в один месяц золотой подписки tippr. Хранящиеся на балансе вашей учетной записи креддиты позволяют дарить золото без необходимости вводить платежную информацию."
+msgstr "Золото, которое вы покупаете, чтобы подарить потом: каждый месяц дарит кому-то месяц золотой подписки tippr. Оно хранится как баланс на вашем аккаунте и позволяет дарить золото, не вводя платёжные данные каждый раз."
 
 #: r2/templates/gilding.html:64
-#, fuzzy
-#| msgid "Additionally, buying coins in bulk lowers the cost of each gilding."
 msgid "Buying a year of it at once also lowers the cost of each gilding."
-msgstr "К тому же, оптовая покупка креддитов делает каждое золочение дешевле."
+msgstr "Если купить сразу год, каждое позолочение тоже обходится дешевле."
 
 #: r2/templates/gilding.html:67
-#, fuzzy
-#| msgid "How do I use coins?"
 msgid "How do I use Give Gold?"
-msgstr "Как использовать креддиты?"
+msgstr "Как пользоваться подарками золота?"
 
 #: r2/templates/gilding.html:68
-#, fuzzy
-#| msgid "Your coins are listed as a payment method on the checkout page."
 msgid "The gold you bought is listed as a way to pay on the checkout page."
-msgstr "Ваши креддиты указаны в качестве валюты на странице оплаты."
+msgstr "Купленное золото появляется среди способов оплаты на странице оформления."
 
 #: r2/templates/gilding.html:74
-#, fuzzy
-#| msgid "buy tippr gold"
 msgid "buy gold"
-msgstr "купить золото tippr"
+msgstr "купить золото"
 
 #: r2/templates/gold.html:41
 msgid "What is tippr gold?"
@@ -10737,22 +10477,16 @@ msgid "ongoing subscription"
 msgstr "текущая подписка"
 
 #: r2/templates/gold.html:118
-#, fuzzy
-#| msgid "How many months of gold would you like to give?"
 msgid "How many months of gold would you like to have to give?"
-msgstr "Сколько месяцев золотой подписки вы хотели бы подарить?"
+msgstr "Сколько месяцев золота вы хотите иметь для подарков?"
 
 #: r2/templates/gold.html:122
-#, fuzzy
-#| msgid "Stored as a balance on your account, coins allow you to give gold without having to enter payment information. Each coin you have can be converted into one month of tippr gold."
 msgid "Kept as a balance on your account, gold you buy lets you give it without entering payment information each time. Each month of it gives someone one month of tippr gold."
-msgstr "Хранящихся на вашей учетной записи креддиты позволяют подарить золотую подписку без необходимости вводить платежную информацию. На каждый ваш креддит вы можете приобрести один месяц золотой подписки."
+msgstr "Купленное золото хранится как баланс на вашем аккаунте и позволяет дарить его, не вводя платёжные данные каждый раз. Каждый месяц дарит кому-то месяц золотой подписки tippr."
 
 #: r2/templates/gold.html:123
-#, fuzzy
-#| msgid "Learn more about using coins"
 msgid "Learn more about Give Gold"
-msgstr "Узнайте больше об использовании креддитов"
+msgstr "Подробнее о подарках золота"
 
 #: r2/templates/gold.html:128
 msgid "What type of subscription would you like?"
@@ -10827,129 +10561,109 @@ msgstr "использовать этот код"
 #: r2/templates/goldabout.html:27
 #, python-format
 msgid "tippr gold is our premium membership: %(month)s a month or %(year)s a year. It keeps the site running, and gives you these extras for as long as you have it."
-msgstr ""
+msgstr "Золотая подписка tippr — наше премиум-членство: %(month)s в месяц или %(year)s в год. Она поддерживает работу сайта и даёт вам эти бонусы, пока она у вас есть."
 
 #: r2/templates/goldabout.html:30
 msgid "No ads"
-msgstr ""
+msgstr "Без рекламы"
 
 #: r2/templates/goldabout.html:31
 msgid "Gold members don't see ads. If you'd like to see them anyway, turn off \"hide ads\" in your preferences."
-msgstr ""
+msgstr "Золотые участники не видят рекламу. Если хотите видеть её всё равно, отключите «скрывать рекламу» в настройках."
 
 #: r2/templates/goldabout.html:33
-#, fuzzy
-#| msgid "show trending vaults on the front page"
 msgid "More vaults on your front page"
-msgstr "показывать популярные волты на главной"
+msgstr "Больше волтов на главной"
 
 #: r2/templates/goldabout.html:34
 #, python-format
 msgid "Your front page shows posts from up to %(gold)s of the vaults you subscribe to, instead of %(normal)s."
-msgstr ""
+msgstr "Главная показывает публикации из %(gold)s волтов, на которые вы подписаны, а не из %(normal)s."
 
 #: r2/templates/goldabout.html:36
-#, fuzzy
-#| msgid "comments disabled"
 msgid "New comments highlighted"
-msgstr "комментарии отключены"
+msgstr "Новые комментарии выделяются"
 
 #: r2/templates/goldabout.html:37
 msgid "When you come back to a post, the comments made since your last visit are highlighted, so you can catch up quickly."
-msgstr ""
+msgstr "Когда вы возвращаетесь к публикации, комментарии, написанные после вашего прошлого визита, выделены, чтобы быстро наверстать."
 
 #: r2/templates/goldabout.html:39
-#, fuzzy
-#| msgid "save category"
 msgid "Save categories"
-msgstr "сохранить категорию"
+msgstr "Категории сохранённого"
 
 #: r2/templates/goldabout.html:40
 msgid "Sort the posts and comments you save into your own categories, and browse your saved items one category at a time."
-msgstr ""
+msgstr "Раскладывайте сохраняемые публикации и комментарии по своим категориям и просматривайте сохранённое по одной категории."
 
 #: r2/templates/goldabout.html:42
-#, fuzzy
-#| msgid "filter vault"
 msgid "Filter /v/all"
-msgstr "фильтровать волт"
+msgstr "Фильтр /v/all"
 
 #: r2/templates/goldabout.html:43
 msgid "Leave vaults you're not interested in out of /v/all by adding them to the address with a minus sign, e.g. [/v/all-funny-pics](/v/all-funny-pics)."
-msgstr ""
+msgstr "Уберите из /v/all неинтересные волты, добавив их к адресу со знаком минус, например [/v/all-funny-pics](/v/all-funny-pics)."
 
 #: r2/templates/goldabout.html:45
-#, fuzzy
-#| msgid "myrandom"
 msgid "/v/myrandom"
-msgstr "моислучайные"
+msgstr "/v/myrandom"
 
 #: r2/templates/goldabout.html:46
 msgid "[/v/myrandom](/v/myrandom) takes you to a random vault from your own subscriptions."
-msgstr ""
+msgstr "[/v/myrandom](/v/myrandom) отправляет в случайный волт из ваших подписок."
 
 #: r2/templates/goldabout.html:48
-#, fuzzy
-#| msgid "+ friends"
 msgid "Notes on friends"
-msgstr "+ в друзья"
+msgstr "Заметки о друзьях"
 
 #: r2/templates/goldabout.html:49
 msgid "Add a private note to each person on your friends list, to remember who they are."
-msgstr ""
+msgstr "Добавьте личную заметку к каждому человеку в списке друзей, чтобы помнить, кто это."
 
 #: r2/templates/goldabout.html:51
 msgid "Visited links remembered"
-msgstr ""
+msgstr "Запоминание посещённых ссылок"
 
 #: r2/templates/goldabout.html:52
 msgid "Have the site remember which links you've visited, on every device you use (turn on \"remember what links I've visited\" in your preferences)."
-msgstr ""
+msgstr "Пусть сайт запоминает, какие ссылки вы открывали, на всех ваших устройствах (включите «запоминать посещённые ссылки» в настройках)."
 
 #: r2/templates/goldabout.html:54
-#, fuzzy
-#| msgid "from all vaults"
 msgid "Gold-only vaults"
-msgstr "все волты"
+msgstr "Волты только для золота"
 
 #: r2/templates/goldabout.html:55
 msgid "Create vaults that only gold members can see and take part in: choose \"gold only\" as the vault's type when you create it."
-msgstr ""
+msgstr "Создавайте волты, которые видят и в которых участвуют только золотые участники: при создании выберите тип волта «только золото»."
 
 #: r2/templates/goldabout.html:58
-#, fuzzy
-#| msgid "gold members only"
 msgid "The members-only lounge"
-msgstr "только золотые участники"
+msgstr "Лаунж только для участников"
 
 #: r2/templates/goldabout.html:59
 #, python-format
 msgid "Join the other gold members in [/v/%(lounge)s](/v/%(lounge)s), a vault just for them."
-msgstr ""
+msgstr "Присоединяйтесь к другим золотым участникам в [/v/%(lounge)s](/v/%(lounge)s) — волте только для них."
 
 #: r2/templates/goldabout.html:62
 msgid "A trophy on your profile"
-msgstr ""
+msgstr "Трофей в профиле"
 
 #: r2/templates/goldabout.html:63
 msgid "Your profile shows the tippr gold trophy."
-msgstr ""
+msgstr "В вашем профиле показан трофей золотой подписки tippr."
 
 #: r2/templates/goldabout.html:65
-#, fuzzy
-#| msgid "give gold"
 msgid "Giving gold"
-msgstr "подарить золото"
+msgstr "Подарки золота"
 
 #: r2/templates/goldabout.html:66
 msgid "You can also give gold to other members, or gild a post or comment you liked: see [gilding](/gilding)."
-msgstr ""
+msgstr "Вы также можете дарить золото другим участникам или позолотить понравившуюся публикацию или комментарий: см. [позолоту](/gilding)."
 
 #: r2/templates/goldabout.html:70
-#, fuzzy
-#| msgid "tippr gold"
 msgid "get tippr gold"
-msgstr "золотая подписка"
+msgstr "получить золотую подписку tippr"
 
 #: r2/templates/goldgiftcodeemail.email:28
 msgid "Thank you again for your support, and have fun spreading gold!"
@@ -10980,26 +10694,22 @@ msgid "Please select a payment method."
 msgstr "Пожалуйста, выберите способ оплаты."
 
 #: r2/templates/goldpayment.html:109
-#, fuzzy, python-format
-#| msgid "Give gold often? Consider [buying coins to use](/coins), they're 40% cheaper if purchased in a set of 12."
+#, python-format
 msgid "Give gold often? Consider [buying gold ahead](/coins) to give later: it's 40% cheaper bought as a year's worth."
-msgstr "Часто дарите золото? Рассмотрите вариант [покупки креддитов для использования](/coins), они будут стоить на 40% дешевле, если купить сразу 12."
+msgstr "Часто дарите золото? Подумайте о том, чтобы [купить золото заранее](/coins) и дарить потом: годовой запас на 40% дешевле."
 
 #: r2/templates/goldpayment.html:111
 msgid "Would you like to [learn more about giving gold](/gilding)?"
 msgstr "Хотели бы вы [узнать больше о дарении золотой подписки](/gilding)?"
 
 #: r2/templates/goldpayment.html:129
-#, fuzzy
-#| msgid "your edit"
 msgid "your gold"
-msgstr "ваши правки"
+msgstr "ваше золото"
 
 #: r2/templates/goldpayment.html:131
-#, fuzzy, python-format
-#| msgid "(use %(current)s of your %(total)s coins)"
+#, python-format
 msgid "(use %(current)s of your %(total)s months of gold)"
-msgstr "(использовать %(current)s из %(total)s креддитов)"
+msgstr "(использовать %(current)s из ваших %(total)s месяцев золота)"
 
 #: r2/templates/goldpayment.html:151
 msgid "Credit Card"
@@ -11237,36 +10947,34 @@ msgstr "режим соревнования включает случайную 
 #: r2/templates/linkedloginlink.html:28
 #, python-format
 msgid "Your %(provider)s account (%(email)s) isn't linked to an account here yet."
-msgstr ""
+msgstr "Ваш аккаунт %(provider)s (%(email)s) ещё не привязан ни к одному аккаунту здесь."
 
 #: r2/templates/linkedloginlink.html:30
 #, python-format
 msgid "That %(provider)s account isn't linked to an account here yet."
-msgstr ""
+msgstr "Этот аккаунт %(provider)s ещё не привязан ни к одному аккаунту здесь."
 
 #: r2/templates/linkedloginlink.html:33
 #, python-format
 msgid "Log in with your username and password to link it: next time, signing in with %(provider)s is enough."
-msgstr ""
+msgstr "Войдите со своим именем пользователя и паролем, чтобы привязать его: в следующий раз будет достаточно входа через %(provider)s."
 
 #: r2/templates/linkedloginlink.html:35
 msgid "Wrong username or password, or too many tries: wait a while and try again."
-msgstr ""
+msgstr "Неверное имя пользователя или пароль, либо слишком много попыток: подождите немного и попробуйте снова."
 
 #: r2/templates/linkedloginlink.html:41
 msgid "log in and link"
-msgstr ""
+msgstr "войти и привязать"
 
 #: r2/templates/linkedloginlink.html:44
-#, fuzzy
-#| msgid "create a new account"
 msgid "New here? Make an account"
-msgstr "создать новый аккаунт"
+msgstr "Вы здесь впервые? Создайте аккаунт"
 
 #: r2/templates/linkedloginlink.html:45
 #, python-format
 msgid "It's linked to your %(provider)s account, so signing in with %(provider)s is enough from now on. The password lets you log in without it too."
-msgstr ""
+msgstr "Он будет привязан к вашему аккаунту %(provider)s, так что теперь достаточно входа через %(provider)s. С паролем можно войти и без него."
 
 #: r2/templates/linkedloginlink.html:50 r2/templates/login.html:81
 msgid "choose a username"
@@ -11289,33 +10997,30 @@ msgid "remember me"
 msgstr "запомнить меня"
 
 #: r2/templates/linkedloginlink.html:78
-#, fuzzy
-#| msgid "delete account"
 msgid "make the account"
-msgstr "удалить аккаунт"
+msgstr "создать аккаунт"
 
 #: r2/templates/linkedloginotp.html:19
 msgid "Your account uses two-factor sign-in: enter the code from your authenticator app (or one of your recovery codes)."
-msgstr ""
+msgstr "Ваш аккаунт использует двухфакторный вход: введите код из приложения-аутентификатора (или один из кодов восстановления)."
 
 #: r2/templates/linkedloginotp.html:21
 msgid "That code isn't right. Try again."
-msgstr ""
+msgstr "Этот код неверен. Попробуйте снова."
 
 #: r2/templates/linkedloginotp.html:33
 #, python-format
 msgid "don't ask again on this device for %(days)s days"
-msgstr ""
+msgstr "не спрашивать снова на этом устройстве %(days)s дн."
 
 #: r2/templates/linkedsignin.html:29
-#, fuzzy, python-format
-#| msgid "assigned it to %(detail)s"
+#, python-format
 msgid "sign in with %(provider)s"
-msgstr "назначил %(detail)s"
+msgstr "войти через %(provider)s"
 
 #: r2/templates/linkedsignin.html:32
 msgid "for accounts that linked one (preferences, security)"
-msgstr ""
+msgstr "для аккаунтов, которые его привязали (настройки, безопасность)"
 
 #: r2/templates/linkinfobar.html:41
 msgid "this post was submitted on"
@@ -11729,7 +11434,7 @@ msgstr "отправлять ответы в мои входящие"
 
 #: r2/templates/newlink.html:155
 msgid "(not needed if you entered one in the last 15 minutes)"
-msgstr ""
+msgstr "(не нужно, если вы вводили его за последние 15 минут)"
 
 #: r2/templates/newlink.html:165
 #, python-format
@@ -11860,10 +11565,8 @@ msgid "email me"
 msgstr "выслать"
 
 #: r2/templates/paymentstatus.html:23
-#, fuzzy
-#| msgid "check now"
 msgid "check again"
-msgstr "проверить сейчас"
+msgstr "проверить снова"
 
 #: r2/templates/permalinkmessage.html:27
 msgid "you are viewing a single comment's thread."
@@ -12071,7 +11774,7 @@ msgstr "не удалось сохранить пользовательскую 
 
 #: r2/templates/prefoptions.html:108
 msgid "your preferences weren't saved: enter your two-factor code with them"
-msgstr ""
+msgstr "ваши настройки не сохранены: введите вместе с ними код двухфакторной аутентификации"
 
 #: r2/templates/prefoptions.html:110
 msgid "your preferences couldn't be saved"
@@ -12232,174 +11935,144 @@ msgid "(leave blank to show all submissions)"
 msgstr "(оставьте пустым, чтобы показывались все публикации)"
 
 #: r2/templates/prefoptions.html:248
-#, fuzzy
-#| msgid "announcement"
 msgid "enhancements"
-msgstr "объявление"
+msgstr "улучшения"
 
 #: r2/templates/prefoptions.html:251
 msgid "infinite scroll"
-msgstr ""
+msgstr "бесконечная прокрутка"
 
 #: r2/templates/prefoptions.html:254
 msgid "(load the next page of a listing when you reach the bottom)"
-msgstr ""
+msgstr "(подгружать следующую страницу списка, когда вы дошли до конца)"
 
 #: r2/templates/prefoptions.html:258
 msgid "keyboard navigation"
-msgstr ""
+msgstr "навигация с клавиатуры"
 
 #: r2/templates/prefoptions.html:261
 msgid "(j and k move between posts and comments, a and z vote; press ? on any page for the full list)"
-msgstr ""
+msgstr "(j и k переходят между публикациями и комментариями, a и z голосуют; нажмите ? на любой странице, чтобы увидеть полный список)"
 
 #: r2/templates/prefoptions.html:268
 msgid "(a button on posts that link to an image to show it in the listing, and a \"show images\" link to show them all)"
-msgstr ""
+msgstr "(кнопка у публикаций со ссылкой на изображение, чтобы показать его в списке, и ссылка «показать изображения», чтобы показать все)"
 
 #: r2/templates/prefoptions.html:272
-#, fuzzy
-#| msgid "send messages as emails"
 msgid "expand images automatically"
-msgstr "отправлять сообщения по электронной почте"
+msgstr "разворачивать изображения автоматически"
 
 #: r2/templates/prefoptions.html:274
 msgid "(except NSFW and spoiler posts)"
-msgstr ""
+msgstr "(кроме публикаций NSFW и со спойлерами)"
 
 #: r2/templates/prefoptions.html:277
-#, fuzzy
-#| msgid "users"
 msgid "user tags"
-msgstr "пользователи"
+msgstr "метки пользователей"
 
 #: r2/templates/prefoptions.html:280
 msgid "(a tag button by usernames, to note who someone is; only you see your tags)"
-msgstr ""
+msgstr "(кнопка метки рядом с именами пользователей, чтобы записать, кто это; ваши метки видите только вы)"
 
 #: r2/templates/prefoptions.html:284
-#, fuzzy
-#| msgid "user for"
 msgid "user info on hover"
-msgstr "этот пользователь с нами уже"
+msgstr "сведения о пользователе при наведении"
 
 #: r2/templates/prefoptions.html:286
 msgid "(hold the mouse over a username to see their karma, how long they've been here and your tag)"
-msgstr ""
+msgstr "(наведите указатель на имя пользователя, чтобы увидеть его карму, как давно он здесь и вашу метку)"
 
 #: r2/templates/prefoptions.html:289
 msgid "show the parent comment on hover"
-msgstr ""
+msgstr "показывать родительский комментарий при наведении"
 
 #: r2/templates/prefoptions.html:291
 msgid "(hold the mouse over a reply's \"parent\" link to read the comment it replies to)"
-msgstr ""
+msgstr "(наведите указатель на ссылку «родитель» у ответа, чтобы прочитать комментарий, на который он отвечает)"
 
 #: r2/templates/prefoptions.html:294
-#, fuzzy
-#| msgid "posts and comments"
 msgid "count new comments"
-msgstr "посты и комментарии"
+msgstr "считать новые комментарии"
 
 #: r2/templates/prefoptions.html:296
 msgid "(\"3 new\" by posts you've opened before, and the new comments highlighted when you go back; remembered in this browser)"
-msgstr ""
+msgstr "(«3 новых» у публикаций, которые вы уже открывали, и выделение новых комментариев при возвращении; запоминается в этом браузере)"
 
 #: r2/templates/prefoptions.html:299
-#, fuzzy
-#| msgid "links you've downvoted"
 msgid "posts you've opened:"
-msgstr "ссылки, против которых вы проголосовали"
+msgstr "открытые вами публикации:"
 
 #: r2/templates/prefoptions.html:301
-#, fuzzy
-#| msgid "show all"
 msgid "show as usual"
-msgstr "показать все"
+msgstr "показывать как обычно"
 
 #: r2/templates/prefoptions.html:301
-#, fuzzy
-#| msgid "Read the"
 msgid "fade them"
-msgstr "Прочитайте"
+msgstr "приглушать"
 
 #: r2/templates/prefoptions.html:301
-#, fuzzy
-#| msgid "hide help"
 msgid "hide them"
-msgstr "убрать справку"
+msgstr "скрывать"
 
 #: r2/templates/prefoptions.html:306
-#, fuzzy
-#| msgid "remember this computer"
 msgid "(remembered in this browser)"
-msgstr "запомнить этот компьютер"
+msgstr "(запоминается в этом браузере)"
 
 #: r2/templates/prefoptions.html:311
 msgid "(on comments pages, buttons to jump between top-level comments, the submitter's, yours, new ones or ones with links)"
-msgstr ""
+msgstr "(на страницах комментариев — кнопки для перехода между комментариями верхнего уровня, комментариями автора, вашими, новыми или со ссылками)"
 
 #: r2/templates/prefoptions.html:314
-#, fuzzy
-#| msgid "account activity"
 msgid "account switcher"
-msgstr "активность аккаунта"
+msgstr "переключатель аккаунтов"
 
 #: r2/templates/prefoptions.html:316
 msgid "(a \"switch account\" menu by your name, to move between your accounts without logging out; logging out forgets them)"
-msgstr ""
+msgstr "(меню «сменить аккаунт» рядом с вашим именем, чтобы переходить между аккаунтами без выхода; при выходе они забываются)"
 
 #: r2/templates/prefoptions.html:319
-#, fuzzy
-#| msgid "test mode"
 msgid "night mode"
-msgstr "тестовый режим"
+msgstr "ночной режим"
 
 #: r2/templates/prefoptions.html:321
 msgid "(light text on a dark background)"
-msgstr ""
+msgstr "(светлый текст на тёмном фоне)"
 
 #: r2/templates/prefoptions.html:324
-#, fuzzy
-#| msgid "gilded comment"
 msgid "hide child comments links"
-msgstr "позолоченный комментарий"
+msgstr "ссылки для скрытия ответов"
 
 #: r2/templates/prefoptions.html:327
 msgid "(on comments pages, links to fold up the replies under each comment, or all of them at once)"
-msgstr ""
+msgstr "(на страницах комментариев — ссылки, чтобы свернуть ответы под каждым комментарием или все сразу)"
 
 #: r2/templates/prefoptions.html:333
-#, fuzzy
-#| msgid "filter vault"
 msgid "filters"
-msgstr "фильтровать волт"
+msgstr "фильтры"
 
 #: r2/templates/prefoptions.html:336
 msgid "Posts that match are left out of listings (never your own). One per line, or separated by commas."
-msgstr ""
+msgstr "Подходящие публикации убираются из списков (ваши — никогда). По одному на строку или через запятую."
 
 #: r2/templates/prefoptions.html:340
-#, fuzzy
-#| msgid "site key"
 msgid "title keywords"
-msgstr "ключ сайта"
+msgstr "ключевые слова в заголовке"
 
 #: r2/templates/prefoptions.html:340
 msgid "whole words or phrases, in any case"
-msgstr ""
+msgstr "целые слова или фразы, без учёта регистра"
 
 #: r2/templates/prefoptions.html:341
 msgid "example.com also hides its subdomains"
-msgstr ""
+msgstr "example.com скрывает и свои поддомены"
 
 #: r2/templates/prefoptions.html:342
 msgid "still shown when you visit the vault itself"
-msgstr ""
+msgstr "всё равно показываются, когда вы заходите в сам волт"
 
 #: r2/templates/prefoptions.html:343
 msgid "only hides their posts; to stop seeing them altogether, block them"
-msgstr ""
+msgstr "скрывает только их публикации; чтобы совсем их не видеть, заблокируйте их"
 
 #: r2/templates/prefoptions.html:356
 msgid "comment options"
@@ -12612,10 +12285,9 @@ msgid "show how much gold you have remaining on your userpage"
 msgstr "показывать сколько осталось золотой подписки в вашем профиле"
 
 #: r2/templates/prefoptions.html:533
-#, fuzzy, python-format
-#| msgid "use a %(coin_link)s to automatically renew my gold if it expires"
+#, python-format
 msgid "use a month of my %(coin_link)s to automatically renew my gold if it expires"
-msgstr "использовать %(coin_link)s, дабы автоматически продлить мою золотую подписку"
+msgstr "использовать месяц из моего %(coin_link)s для автоматического продления золота, если оно закончится"
 
 #: r2/templates/prefoptions.html:543
 #, python-format
@@ -12652,223 +12324,188 @@ msgstr "двухфакторная аутентификация"
 
 #: r2/templates/prefsecurity.html:46
 msgid "two-factor authentication is **on**. you're asked for a code from one of your methods below when changing your password or email address, and when linking or unlinking a sign-in. a code you enter counts for 15 minutes."
-msgstr ""
+msgstr "двухфакторная аутентификация **включена**. при смене пароля или адреса почты, а также при привязке или отвязке входа вас попросят ввести код из одного из способов ниже. введённый код действует 15 минут."
 
 #: r2/templates/prefsecurity.html:50
-#, fuzzy
-#| msgid "your edit"
 msgid "your methods"
-msgstr "ваши правки"
+msgstr "ваши способы"
 
 #: r2/templates/prefsecurity.html:55
-#, fuzzy
-#| msgid "kind"
 msgid "kind_name"
-msgstr "вид"
+msgstr "kind_name"
 
 #: r2/templates/prefsecurity.html:56
 #, python-format
 msgid "added %(when)s"
-msgstr ""
+msgstr "добавлен %(when)s"
 
 #: r2/templates/prefsecurity.html:58
-#, fuzzy, python-format
-#| msgid "last seen"
+#, python-format
 msgid "last used %(when)s"
-msgstr "последний раз"
+msgstr "последнее использование %(when)s"
 
 #: r2/templates/prefsecurity.html:78
 msgid "Removing your only method turns two-factor off, so it needs your password too."
-msgstr ""
+msgstr "Удаление единственного способа отключает двухфакторную аутентификацию, поэтому нужен и пароль."
 
 #: r2/templates/prefsecurity.html:82
-#, fuzzy
-#| msgid "add a moderator"
 msgid "add a method"
-msgstr "добавить модератора"
+msgstr "добавить способ"
 
 #: r2/templates/prefsecurity.html:86
 msgid "also ask for a code"
-msgstr ""
+msgstr "также спрашивать код"
 
 #: r2/templates/prefsecurity.html:89
 msgid "when logging in, with your password or a linked account (Google, GitHub...)"
-msgstr ""
+msgstr "при входе — с паролем или через привязанный аккаунт (Google, GitHub...)"
 
 #: r2/templates/prefsecurity.html:90
 #, python-format
 msgid "you can choose to skip it for %(days)s days on a device you trust"
-msgstr ""
+msgstr "на доверенном устройстве это можно пропускать %(days)s дн."
 
 #: r2/templates/prefsecurity.html:94
 msgid "when saving your preferences"
-msgstr ""
+msgstr "при сохранении настроек"
 
 #: r2/templates/prefsecurity.html:98
 msgid "when submitting a post"
-msgstr ""
+msgstr "при отправке публикации"
 
 #: r2/templates/prefsecurity.html:100
 msgid "a code you enter counts for 15 minutes, so you aren't asked again and again. apps you've allowed (OAuth) aren't asked."
-msgstr ""
+msgstr "введённый код действует 15 минут, чтобы вас не спрашивали снова и снова. у разрешённых вами приложений (OAuth) код не спрашивается."
 
 #: r2/templates/prefsecurity.html:107
-#, fuzzy
-#| msgid "recover password"
 msgid "recovery codes"
-msgstr "восстановить пароль"
+msgstr "коды восстановления"
 
 #: r2/templates/prefsecurity.html:109
 msgid "Save these recovery codes somewhere safe (print them, or keep them in a password manager). Each one works once in place of a code from your app, if you lose your phone. They won't be shown again."
-msgstr ""
+msgstr "Сохраните эти коды восстановления в надёжном месте (распечатайте их или храните в менеджере паролей). Каждый срабатывает один раз вместо кода из приложения, если вы потеряете телефон. Больше они показаны не будут."
 
 #: r2/templates/prefsecurity.html:117
 msgid "Recovery codes work once each in place of a code from your app, if you lose your phone."
-msgstr ""
+msgstr "Коды восстановления срабатывают по одному разу вместо кода из приложения, если вы потеряете телефон."
 
 #: r2/templates/prefsecurity.html:119
 #, python-format
 msgid "You have %(count)s left."
-msgstr ""
+msgstr "Осталось кодов: %(count)s."
 
 #: r2/templates/prefsecurity.html:121
 msgid "You have none left: make new ones now."
-msgstr ""
+msgstr "Кодов не осталось: создайте новые сейчас."
 
 #: r2/templates/prefsecurity.html:127
 msgid "make new recovery codes"
-msgstr ""
+msgstr "создать новые коды восстановления"
 
 #: r2/templates/prefsecurity.html:131
 msgid "Making new ones stops the old ones working."
-msgstr ""
+msgstr "После создания новых старые перестают работать."
 
 #: r2/templates/prefsecurity.html:137
-#, fuzzy
-#| msgid "turn admin off"
 msgid "turn it off"
-msgstr "выключить администрирование"
+msgstr "отключить её"
 
 #: r2/templates/prefsecurity.html:138
 msgid "to turn it off (removing every method and the recovery codes), enter your password and a code."
-msgstr ""
+msgstr "чтобы отключить её (удалив все способы и коды восстановления), введите пароль и код."
 
 #: r2/templates/prefsecurity.html:152
-#, fuzzy
-#| msgid "turn admin off"
 msgid "turn off"
-msgstr "выключить администрирование"
+msgstr "отключить"
 
 #: r2/templates/prefsecurity.html:156
 msgid "This site asks moderators and staff to use two-factor sign-in: your moderator tools work again once it's on."
-msgstr ""
+msgstr "Этот сайт просит модераторов и персонал использовать двухфакторный вход: инструменты модератора снова заработают, как только вы его включите."
 
 #: r2/templates/prefsecurity.html:158
 msgid "with two-factor authentication on, changing your password or email address, and linking or unlinking a sign-in, also need a second step: a code from an authenticator app on your phone (Google Authenticator, Authy, 1Password and the like). someone who learns your password, or gets into a linked Google or Facebook account, can't take over your account here. you can add more than one method, and remove them later."
-msgstr ""
+msgstr "при включённой двухфакторной аутентификации для смены пароля или адреса почты, а также для привязки или отвязки входа нужен второй шаг: код из приложения-аутентификатора на телефоне (Google Authenticator, Authy, 1Password и подобные). тот, кто узнает ваш пароль или проникнет в привязанный аккаунт Google или Facebook, не сможет захватить ваш аккаунт здесь. можно добавить несколько способов и позже удалить их."
 
 #: r2/templates/prefsecurity.html:168
 msgid "To add an authenticator app, enter a code from one of your methods first."
-msgstr ""
+msgstr "Чтобы добавить приложение-аутентификатор, сначала введите код из одного из ваших способов."
 
 #: r2/templates/prefsecurity.html:170
-#, fuzzy
-#| msgid "reset your password"
 msgid "To start, enter your password."
-msgstr "сброс пароля"
+msgstr "Для начала введите пароль."
 
 #: r2/templates/prefsecurity.html:179
 msgid "add an authenticator app"
-msgstr ""
+msgstr "добавить приложение-аутентификатор"
 
 #: r2/templates/prefsecurity.html:186
 msgid "Or add a passkey: your phone, computer or security key confirms it's you with a fingerprint, face or PIN."
-msgstr ""
+msgstr "Или добавьте ключ доступа: телефон, компьютер или ключ безопасности подтвердит, что это вы, отпечатком пальца, лицом или PIN-кодом."
 
 #: r2/templates/prefsecurity.html:188
 msgid "Enter a code from one of your methods first."
-msgstr ""
+msgstr "Сначала введите код из одного из ваших способов."
 
 #: r2/templates/prefsecurity.html:190
-#, fuzzy
-#| msgid "update your password"
 msgid "Enter your password first."
-msgstr "обновление пароля"
+msgstr "Сначала введите пароль."
 
 #: r2/templates/prefsecurity.html:198
-#, fuzzy
-#| msgid "note (optional)"
 msgid "name (optional)"
-msgstr "заметка (необязательно)"
+msgstr "название (необязательно)"
 
 #: r2/templates/prefsecurity.html:199
 msgid "add a passkey"
-msgstr ""
+msgstr "добавить ключ доступа"
 
 #: r2/templates/prefsecurity.html:206
-#, fuzzy
-#| msgid "below is your two-factor authentication secret. you can scan the QR code with Google Authenticator or enter the key below manually. you WILL NOT have another chance to see this secret."
 msgid "scan the QR code with your authenticator app, or enter the key below in it. you WILL NOT have another chance to see this key."
-msgstr "внизу указан ваш секретный код для двухфакторной аутентификации. Вы можете отсканировать QR-код при помощи приложения Google Authenticator или ввести его вручную. Вы больше НИКОГДА не увидите этот секретный код."
+msgstr "отсканируйте QR-код приложением-аутентификатором или введите в него ключ ниже. увидеть этот ключ ещё раз НЕ получится."
 
 #: r2/templates/prefsecurity.html:209
 msgid "(optional, like phone or work)"
-msgstr ""
+msgstr "(необязательно, например «телефон» или «работа»)"
 
 #: r2/templates/prefsecurity.html:213
-#, fuzzy
-#| msgid "remove from the defaults"
 msgid "code from the app"
-msgstr "убрать из волтов по умолчанию"
+msgstr "код из приложения"
 
 #: r2/templates/prefsecurity.html:227
 msgid "sign in with another account"
-msgstr ""
+msgstr "войти с другим аккаунтом"
 
 #: r2/templates/prefsecurity.html:229
 msgid "Link a Google, Facebook, GitHub or Discord account to sign in with it instead of your password. It only signs in to this account, and you can unlink it at any time. Your password keeps working."
-msgstr ""
+msgstr "Привяжите аккаунт Google, Facebook, GitHub или Discord, чтобы входить с его помощью вместо пароля. Он входит только в этот аккаунт, и отвязать его можно в любой момент. Пароль продолжает работать."
 
 #: r2/templates/prefsecurity.html:231
 msgid "Linked. You can now sign in with it on the login page."
-msgstr ""
+msgstr "Привязано. Теперь с его помощью можно войти на странице входа."
 
 #: r2/templates/prefsecurity.html:234
 msgid "Linking or unlinking needs your two-factor code (one you entered in the last 15 minutes counts)."
-msgstr ""
+msgstr "Для привязки или отвязки нужен код двухфакторной аутентификации (подойдёт введённый за последние 15 минут)."
 
 #: r2/templates/prefsecurity.html:242
-#, fuzzy
-#| msgid "link"
-#| msgid_plural "links"
 msgid "linked"
-msgstr "ссылка"
+msgstr "привязан"
 
 #: r2/templates/prefsecurity.html:254
-#, fuzzy
-#| msgid "link"
-#| msgid_plural "links"
 msgid "unlink"
-msgstr "ссылка"
+msgstr "отвязать"
 
 #: r2/templates/prefsecurity.html:259
-#, fuzzy
-#| msgid "normal link"
 msgid "not linked"
-msgstr "обычная ссылка"
+msgstr "не привязан"
 
 #: r2/templates/prefsecurity.html:266 r2/templates/prefsecurity.html:270
-#, fuzzy, python-format
-#| msgid "link ids"
+#, python-format
 msgid "link %(provider)s"
-msgstr "id ссылок"
+msgstr "привязать %(provider)s"
 
 #: r2/templates/prefupdate.html:33
-#, fuzzy
-#| msgid "a month ago"
-#| msgid_plural "%(num)s months ago"
 msgid "(entered a moment ago)"
-msgstr "месяц назад"
+msgstr "(введён только что)"
 
 #: r2/templates/prefupdate.html:48
 msgid "verify your email"
@@ -13073,22 +12710,16 @@ msgid "mark unread"
 msgstr "пометить непрочитанным"
 
 #: r2/templates/privacysettings.html:29
-#, fuzzy
-#| msgid "impressions"
 msgid "processing"
-msgstr "впечатлённые"
+msgstr "обрабатывается"
 
 #: r2/templates/privacysettings.html:30
-#, fuzzy
-#| msgid "complete"
 msgid "completed"
-msgstr "завершено"
+msgstr "завершён"
 
 #: r2/templates/privacysettings.html:32
-#, fuzzy
-#| msgid "cancel"
 msgid "cancelled"
-msgstr "отмена"
+msgstr "отменён"
 
 #: r2/templates/privacysettings.html:39
 msgid "Download Your Data"
@@ -13192,37 +12823,31 @@ msgstr "Вы можете навсегда удалить свой аккаун�
 
 #: r2/templates/privacysettings.html:106
 msgid "Right away you're logged out everywhere, nobody can log in to the account, and the name can't be registered again."
-msgstr ""
+msgstr "Сразу же вы выходите отовсюду, никто не может войти в аккаунт, а имя нельзя зарегистрировать снова."
 
 #: r2/templates/privacysettings.html:107
 msgid "Your password, email address and moderator roles are removed 90 days later."
-msgstr ""
+msgstr "Пароль, адрес почты и роли модератора удаляются через 90 дней."
 
 #: r2/templates/privacysettings.html:108
 msgid "Your posts and comments stay, by [deleted], unless you choose to delete them below."
-msgstr ""
+msgstr "Ваши публикации и комментарии остаются, от имени [deleted], если только вы не решите удалить их ниже."
 
 #: r2/templates/privacysettings.html:110
 msgid "Having a problem? We may be able to help:"
-msgstr ""
+msgstr "Что-то не так? Возможно, мы сможем помочь:"
 
 #: r2/templates/privacysettings.html:115
-#, fuzzy
-#| msgid "posts and comments"
 msgid "your posts and comments"
-msgstr "посты и комментарии"
+msgstr "ваши публикации и комментарии"
 
 #: r2/templates/privacysettings.html:120
-#, fuzzy
-#| msgid "why are you deactivating this account?"
 msgid "why are you leaving? (optional)"
-msgstr "почему вы отключаете этот аккаунт?"
+msgstr "почему вы уходите? (необязательно)"
 
 #: r2/templates/privacysettings.html:140
-#, fuzzy
-#| msgid "I understand that deactivated accounts are not recoverable."
 msgid "I understand my account can't be recovered."
-msgstr "Я понимаю, что отключённые аккаунты нельзя восстановить."
+msgstr "Я понимаю, что аккаунт нельзя будет восстановить."
 
 #: r2/templates/privacysettings.html:146
 msgid "Delete My Account"
@@ -13751,48 +13376,38 @@ msgid "Create a promotion on another user's account."
 msgstr "Создать рекламу в аккаунте другого пользователя."
 
 #: r2/templates/promotepayment.html:17
-#, fuzzy
-#| msgid "No notes for this domain"
 msgid "pay for this campaign"
-msgstr "Нет заметок об этом домене"
+msgstr "оплатить эту кампанию"
 
 #: r2/templates/promotepayment.html:19
-#, fuzzy, python-format
-#| msgid "The duration of this link is %(duration)s (from %(start)s to %(end)s)."
+#, python-format
 msgid "The duration of this campaign is %(duration)s (from %(start)s to %(end)s)."
-msgstr "Длительность этой ссылки - %(duration)s (с %(start)s до %(end)s)."
+msgstr "Продолжительность этой кампании — %(duration)s (с %(start)s по %(end)s)."
 
 #: r2/templates/promotepayment.html:20
-#, fuzzy, python-format
-#| msgid "Your current budget is %(budget)s"
+#, python-format
 msgid "Its budget is %(budget)s."
-msgstr "Ваш текущий бюджет составляет %(budget)s"
+msgstr "Её бюджет — %(budget)s."
 
 #: r2/templates/promotepayment.html:24
-#, fuzzy
-#| msgid "house campaigns, man."
 msgid "This campaign is paid for."
-msgstr "собственные рекламные кампании tippr."
+msgstr "Эта кампания оплачена."
 
 #: r2/templates/promotepayment.html:25
-#, fuzzy
-#| msgid "back to Tippr"
 msgid "back to your ad"
-msgstr "вернуться на tippr"
+msgstr "назад к вашему объявлению"
 
 #: r2/templates/promotepayment.html:28
 msgid "You pay the whole budget now. Your ad is reviewed before it runs; if it isn't approved, or you delete the campaign or change its budget before it starts, the payment is refunded."
-msgstr ""
+msgstr "Вы оплачиваете весь бюджет сейчас. Объявление проверяется перед показом; если его не одобрят или вы удалите кампанию либо измените её бюджет до начала, платёж будет возвращён."
 
 #: r2/templates/promotepayment.html:41
 msgid "You pay on the provider's own page: your card or wallet details never reach this site."
-msgstr ""
+msgstr "Вы платите на странице самого поставщика: данные вашей карты или кошелька никогда не попадают на этот сайт."
 
 #: r2/templates/promotepayment.html:43
-#, fuzzy
-#| msgid "this sign-up looks like spam; if it isn't, contact the site's admins"
 msgid "This site isn't taking payments for ads yet. Please contact the site's admins."
-msgstr "эта регистрация похожа на спам; если это не так, свяжитесь с администраторами сайта"
+msgstr "Этот сайт пока не принимает оплату рекламы. Свяжитесь с администраторами сайта."
 
 #: r2/templates/promotereport.html:50
 msgid "grouping"
@@ -14058,10 +13673,9 @@ msgid "self-serve advertisement tool"
 msgstr "инструмента саморекламы"
 
 #: r2/templates/spotlightlisting.html:76
-#, fuzzy, python-format
-#| msgid "Use of this tool is open to all members of tippr.net, and for as little as %(price)s you can advertise in this area. %%(get_started)s"
+#, python-format
 msgid "Use of this tool is open to all members of %(site)s, and for as little as %(price)s you can advertise in this area. %%(get_started)s"
-msgstr "Этот инструмент открыт для всех участников tippr.net, и всего за %(price)s вы можете разместить рекламу здесь. %%(get_started)s"
+msgstr "Этот инструмент открыт всем участникам %(site)s, и всего за %(price)s вы можете разместить рекламу здесь. %%(get_started)s"
 
 #: r2/templates/spotlightlisting.html:77
 msgid "Get started"
@@ -14102,20 +13716,16 @@ msgid "first"
 msgstr "первый"
 
 #: r2/templates/thanks.html:35
-#, fuzzy
-#| msgid "thanks for buying coins!"
 msgid "thanks for buying gold!"
-msgstr "благодарим за покупку креддитов!"
+msgstr "спасибо за покупку золота!"
 
 #: r2/templates/thanks.html:37
 msgid "thanks for subscribing!"
 msgstr "благодарим за подписку!"
 
 #: r2/templates/thanks.html:42
-#, fuzzy
-#| msgid "enter your confirmation code below to claim your gift coins"
 msgid "enter your confirmation code below to claim your gold"
-msgstr "введите ваш код подтверждения ниже, чтобы получить подарочные креддиты"
+msgstr "введите ниже код подтверждения, чтобы получить своё золото"
 
 #: r2/templates/thanks.html:44
 msgid "enter your confirmation code below to activate tippr gold"
@@ -14189,28 +13799,20 @@ msgid "daily mean"
 msgstr "среднесуточное значение"
 
 #: r2/templates/tipprtraffic.html:134
-#, fuzzy
-#| msgid "past 24 hours"
 msgid "24 hours"
-msgstr "за сутки"
+msgstr "24 часа"
 
 #: r2/templates/tipprtraffic.html:135
-#, fuzzy
-#| msgid "days"
 msgid "7 days"
-msgstr "дней"
+msgstr "7 дней"
 
 #: r2/templates/tipprtraffic.html:136
-#, fuzzy
-#| msgid "7 / 30 days"
 msgid "30 days"
-msgstr "7 / 30 дней"
+msgstr "30 дней"
 
 #: r2/templates/tipprtraffic.html:153
-#, fuzzy
-#| msgid "moderator invited"
 msgid "moderator actions, 30 days"
-msgstr "модератор приглашен"
+msgstr "действия модераторов, 30 дней"
 
 #: r2/templates/trendingvaultsbar.html:34
 msgid "trending vaults"
