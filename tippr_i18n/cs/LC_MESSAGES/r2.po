@@ -205,30 +205,28 @@ msgstr "takový uživatel neexistuje"
 #: r2/controllers/api.py:290
 #, python-format
 msgid "you can tag at most %(n)d users"
-msgstr ""
+msgstr "můžete označit nejvýše %(n)d uživatelů"
 
 #: r2/controllers/api.py:308
-#, fuzzy
-#| msgid "wrong password"
 msgid "wrong username or password"
-msgstr "špatné heslo"
+msgstr "nesprávné uživatelské jméno nebo heslo"
 
 #: r2/controllers/api.py:310
 msgid "that's the account you're using"
-msgstr ""
+msgstr "to je účet, který právě používáte"
 
 #: r2/controllers/api.py:312
 #, python-format
 msgid "you can keep at most %(n)d other accounts"
-msgstr ""
+msgstr "můžete si ponechat nejvýše %(n)d dalších účtů"
 
 #: r2/controllers/api.py:317
 msgid "enter that account's two-factor code"
-msgstr ""
+msgstr "zadejte dvoufázový kód tohoto účtu"
 
 #: r2/controllers/api.py:333
 msgid "that account isn't available to switch to; add it again"
-msgstr ""
+msgstr "na tento účet nelze přepnout; přidejte ho znovu"
 
 #: r2/controllers/api.py:512
 msgid "your message has been delivered"
@@ -239,14 +237,12 @@ msgid "no title found"
 msgstr "název nenalezen"
 
 #: r2/controllers/api.py:828 r2/controllers/linked_logins.py:173 r2/controllers/linked_logins.py:219 r2/controllers/linked_logins.py:239 r2/controllers/linked_logins.py:256
-#, fuzzy
-#| msgid "the upload took too long; try again"
 msgid "That sign-in took too long. Please start again."
-msgstr "nahrávání trvalo příliš dlouho; zkuste to znovu"
+msgstr "Přihlášení trvalo příliš dlouho. Začněte prosím znovu."
 
 #: r2/controllers/api.py:833
 msgid "That account is linked already: sign in with it."
-msgstr ""
+msgstr "Tento účet je už propojený: přihlaste se jím."
 
 #: r2/controllers/api.py:1367 r2/controllers/api.py:1748 r2/controllers/api.py:2648 r2/controllers/api.py:2948 r2/controllers/api.py:3269 r2/controllers/api.py:4149 r2/controllers/api.py:4205 r2/controllers/api.py:4259 r2/controllers/api.py:4492 r2/controllers/api.py:4497 r2/controllers/api.py:4732 r2/controllers/api.py:4797 r2/controllers/api.py:4875 r2/controllers/api.py:4941 r2/controllers/api.py:5014 r2/controllers/api.py:5100 r2/controllers/api.py:5132 r2/controllers/api.py:5152 r2/controllers/api.py:5636 r2/controllers/api.py:5676 r2/controllers/api.py:5850 r2/controllers/api.py:5868 r2/controllers/api.py:6192 r2/lib/pages/pages.py:6182
 msgid "saved"
@@ -343,23 +339,20 @@ msgstr "dosaženo maxima šablon stylu"
 #: r2/controllers/api.py:4937
 #, python-format
 msgid "saved, but these aren't on until their keys are filled in: %(names)s"
-msgstr ""
+msgstr "uloženo, ale tyto nebudou fungovat, dokud nevyplníte jejich klíče: %(names)s"
 
 #: r2/controllers/api.py:4959
 msgid "the keys work"
-msgstr ""
+msgstr "klíče fungují"
 
 #: r2/controllers/api.py:4960 r2/controllers/api.py:4977
-#, fuzzy, python-format
-#| msgid "error: %(error)s"
+#, python-format
 msgid "didn't work: %(error)s"
-msgstr "chyba: %(error)s"
+msgstr "nepovedlo se: %(error)s"
 
 #: r2/controllers/api.py:4965
-#, fuzzy
-#| msgid "no such account"
 msgid "no such payment"
-msgstr "takový účet neexistuje"
+msgstr "taková platba neexistuje"
 
 #: r2/controllers/api.py:4980 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminusers.html:58 r2/templates/adminvaults.html:50
 msgid "status"
@@ -372,7 +365,7 @@ msgstr "název"
 #: r2/controllers/api.py:5010
 #, python-format
 msgid "saved, but these aren't on until their ID and secret are filled in: %(names)s"
-msgstr ""
+msgstr "uloženo, ale tyto nebudou fungovat, dokud nevyplníte jejich ID a tajný klíč: %(names)s"
 
 #: r2/controllers/api.py:5114 r2/controllers/api.py:5140
 msgid "this site's live config is managed in ZooKeeper"
@@ -390,18 +383,16 @@ msgstr "neuloženo: %(error)s"
 #: r2/controllers/api.py:5156
 #, python-format
 msgid "%(saved)d saved; %(failed)d not saved (see below)"
-msgstr ""
+msgstr "uloženo: %(saved)d; neuloženo: %(failed)d (viz níže)"
 
 #: r2/controllers/api.py:5162
-#, fuzzy
-#| msgid "Nothing here."
 msgid "nothing changed"
-msgstr "Nic tu není."
+msgstr "nic se nezměnilo"
 
 #: r2/controllers/api.py:5178
 #, python-format
 msgid "couldn't empty: %(servers)s"
-msgstr ""
+msgstr "nepodařilo se vyprázdnit: %(servers)s"
 
 #: r2/controllers/api.py:5203
 msgid "every account has been checked"
@@ -477,13 +468,12 @@ msgstr "zadejte http(s) adresu kanálu"
 
 #: r2/controllers/api.py:5436
 msgid "pick one of the AI labels"
-msgstr ""
+msgstr "vyberte jeden ze štítků AI"
 
 #: r2/controllers/api.py:5440
-#, fuzzy, python-format
-#| msgid "/v/%(vault)s accepts %(policy)s."
+#, python-format
 msgid "/v/%(vault)s doesn't accept %(label)s posts"
-msgstr "/v/%(vault)s přijímá: %(policy)s."
+msgstr "/v/%(vault)s nepřijímá příspěvky se štítkem %(label)s"
 
 #: r2/controllers/api.py:5446
 msgid "give the bot account a valid username"
@@ -540,11 +530,11 @@ msgstr "uloženo; klíč CleanTalk funguje"
 
 #: r2/controllers/api.py:5722
 msgid "that isn't a release with an installer"
-msgstr ""
+msgstr "to není vydání s instalátorem"
 
 #: r2/controllers/api.py:5725
 msgid "a server is updating now; wait for it to finish"
-msgstr ""
+msgstr "právě se aktualizuje server; počkejte, až skončí"
 
 #: r2/controllers/api.py:5767
 msgid "Copy the key now; it isn't shown again."
@@ -596,27 +586,23 @@ msgstr "žádné zlato ke vzetí"
 
 #: r2/controllers/api.py:6017 r2/controllers/api.py:6047
 msgid "that's as many authenticator apps as an account can have"
-msgstr ""
+msgstr "to je nejvíc ověřovacích aplikací, kolik účet může mít"
 
 #: r2/controllers/api.py:6090
 msgid "enter a code from one of your methods first"
-msgstr ""
+msgstr "nejprve zadejte kód z jedné ze svých metod"
 
 #: r2/controllers/api.py:6092
-#, fuzzy
-#| msgid "reset your password"
 msgid "enter your password first"
-msgstr "obnovit heslo"
+msgstr "nejprve zadejte své heslo"
 
 #: r2/controllers/api.py:6110
 msgid "that passkey couldn't be added"
-msgstr ""
+msgstr "tento přístupový klíč se nepodařilo přidat"
 
 #: r2/controllers/api.py:6145
-#, fuzzy
-#| msgid "that password is unacceptable"
 msgid "that passkey wasn't accepted"
-msgstr "toto heslo je nepřípustné"
+msgstr "tento přístupový klíč nebyl přijat"
 
 #: r2/controllers/api.py:6272
 #, python-format
@@ -736,7 +722,7 @@ msgstr "zobrazit %d"
 
 #: r2/controllers/front.py:614 r2/controllers/front.py:617 r2/templates/adminvaults.html:25
 msgid "create a vault"
-msgstr "vytvořit podtippr"
+msgstr "vytvořit vault"
 
 #: r2/controllers/front.py:722 r2/controllers/front.py:728 r2/controllers/listingcontroller.py:801 r2/controllers/listingcontroller.py:816 r2/controllers/listingcontroller.py:1180 r2/controllers/listingcontroller.py:1191 r2/lib/menus.py:202 r2/lib/menus.py:452 r2/lib/menus.py:665 r2/lib/pages/pages.py:5056 r2/lib/pages/pages.py:5065 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
 msgid "all"
@@ -801,7 +787,7 @@ msgstr "výsledky hledání"
 
 #: r2/controllers/front.py:1293 r2/controllers/listingcontroller.py:1532 r2/lib/menus.py:95 r2/lib/menus.py:176 r2/templates/adminvault.html:23 r2/templates/adminvaults.html:22 r2/templates/pagenamenav.html:62 r2/templates/prefoptions.html:342 r2/templates/promotelinkbase.html:765
 msgid "vaults"
-msgstr "podtippry"
+msgstr "vaulty"
 
 #: r2/controllers/front.py:1440
 msgid "seen it"
@@ -825,16 +811,12 @@ msgid "Claimed! Enjoy your tippr gold membership."
 msgstr "Dokončeno! Užijte si své tippr zlato."
 
 #: r2/controllers/front.py:1545
-#, fuzzy
-#| msgid "Your gold coins have been claimed! Now go to someone's userpage and give them a present!"
 msgid "Your gold has been claimed! Now go to someone's userpage and give them a present!"
-msgstr "Vaše zlaté ktippry byly získány! Teď můžete jít na stránku nějakého uživatele a dát jim dárek!"
+msgstr "Vaše zlato bylo vyzvednuto! Teď jděte na něčí stránku a dejte mu dárek!"
 
 #: r2/controllers/front.py:1549
-#, fuzzy
-#| msgid "Thanks for buying tippr gold! Your transaction has been completed and emailed to you. You can check the details by signing into your account at:"
 msgid "Thanks for buying tippr gold! Your payment has been received and your purchase delivered: check your inbox for the details."
-msgstr "Děkujeme za zakoupení tippr gold! Vaše transakce byla dokončena a zaslána na váš e-mail. Podrobnosti můžete zkontrolovat přihlášením na váš účet na:"
+msgstr "Děkujeme za koupi tippr gold! Platbu jsme přijali a nákup doručili: podrobnosti najdete v doručené poště."
 
 #: r2/controllers/front.py:1555
 msgid "Thanks for buying tippr gold! Your transaction has been completed."
@@ -899,11 +881,11 @@ msgstr "vítejte zpět"
 
 #: r2/controllers/front.py:1953
 msgid "tippr gold isn't for sale on this site right now."
-msgstr ""
+msgstr "tippr gold se na tomto webu momentálně neprodává."
 
 #: r2/controllers/front.py:1954
 msgid "what gold gives you"
-msgstr ""
+msgstr "co vám zlato dává"
 
 #: r2/controllers/front.py:2074 r2/templates/gold.html:57 r2/templates/gold.html:112 r2/templates/prefoptions.html:532
 msgid "Give Gold"
@@ -1020,7 +1002,7 @@ msgstr "chyba: kontrola cvc selhala"
 
 #: r2/controllers/ipn.py:781
 msgid "your gold subscription has been cancelled"
-msgstr "váš odběr zlatého tippra byl zrušen"
+msgstr "vaše předplatné zlata bylo zrušeno"
 
 #: r2/controllers/ipn.py:782
 #, python-format
@@ -1033,7 +1015,7 @@ msgstr "stalo se něco špatného, zkuste to znovu"
 
 #: r2/controllers/ipn.py:818
 msgid "your account already has a gold subscription"
-msgstr "váš účet již odebírá zlatého tippra"
+msgstr "váš účet už má předplatné zlata"
 
 #: r2/controllers/ipn.py:824
 msgid "stop trying to trick the form"
@@ -1135,10 +1117,8 @@ msgstr ""
 "S případnými dotazy se obraťte na %(gold_email)s."
 
 #: r2/controllers/linked_logins.py:43 r2/controllers/linked_logins.py:120 r2/controllers/linked_logins.py:134 r2/controllers/linked_logins.py:160 r2/controllers/linked_logins.py:178 r2/controllers/linked_logins.py:191 r2/controllers/linked_logins.py:264 r2/templates/linkedloginotp.html:35
-#, fuzzy
-#| msgid "sign up"
 msgid "sign in"
-msgstr "registrovat se"
+msgstr "přihlásit se"
 
 #: r2/controllers/linked_logins.py:76 r2/controllers/linked_logins.py:98 r2/controllers/linked_logins.py:104 r2/controllers/linked_logins.py:174 r2/controllers/linked_logins.py:200 r2/controllers/linked_logins.py:257 r2/controllers/linked_logins.py:263 r2/templates/login.html:164 r2/templates/login.html:259 r2/templates/login.html:293
 msgid "log in"
@@ -1146,23 +1126,19 @@ msgstr "přihlásit se"
 
 #: r2/controllers/linked_logins.py:102
 msgid "Log in to the account you want to link it to, then try again."
-msgstr ""
+msgstr "Přihlaste se k účtu, se kterým ho chcete propojit, a zkuste to znovu."
 
 #: r2/controllers/linked_logins.py:108
-#, fuzzy
-#| msgid "backup"
 msgid "back"
-msgstr "záloha"
+msgstr "zpět"
 
 #: r2/controllers/linked_logins.py:129
-#, fuzzy
-#| msgid "You need to be logged in to do that."
 msgid "That account can't be logged into."
-msgstr "K tomu musíte být přihlášeni."
+msgstr "K tomuto účtu se nelze přihlásit."
 
 #: r2/controllers/linked_logins.py:262
 msgid "Too many wrong codes. Please start again."
-msgstr ""
+msgstr "Příliš mnoho špatných kódů. Začněte prosím znovu."
 
 #: r2/controllers/listingcontroller.py:596
 msgid "newest submissions"
@@ -1195,7 +1171,7 @@ msgstr "teď se opravdu nudíte, co?"
 
 #: r2/controllers/listingcontroller.py:809
 msgid "filter by vault"
-msgstr "filtrovat podle podtippru"
+msgstr "filtrovat podle vaultu"
 
 #: r2/controllers/listingcontroller.py:823
 msgid "filter by category"
@@ -1290,7 +1266,7 @@ msgstr "zprávy"
 
 #: r2/controllers/listingcontroller.py:1678
 msgid "vaults: "
-msgstr "podtippry: "
+msgstr "vaulty: "
 
 #: r2/controllers/listingcontroller.py:1830
 msgid "To block a user click 'block user'  below a message from a user you wish to block from messaging you."
@@ -1324,49 +1300,41 @@ msgid "%(author)s's comment from discussion \"%(title)s\""
 msgstr "%(author)s komentář z diskuze \"%(title)s\""
 
 #: r2/controllers/payments.py:32
-#, fuzzy
-#| msgid "ad placement"
 msgid "payment"
-msgstr "umístění reklam"
+msgstr "platba"
 
 #: r2/controllers/payments.py:52
-#, fuzzy
-#| msgid "that language is not available"
 msgid "That payment method isn't available."
-msgstr "tento jazyk není dostupný"
+msgstr "Tento způsob platby není k dispozici."
 
 #: r2/controllers/payments.py:64
 msgid "This purchase can't be paid for any more: it may have been paid already, or it's too old. Please start again."
-msgstr ""
+msgstr "Tento nákup už nelze zaplatit: možná už byl zaplacen, nebo je příliš starý. Začněte prosím znovu."
 
 #: r2/controllers/payments.py:67
-#, fuzzy
-#| msgid "try again"
 msgid "start again"
-msgstr "zkusit znovu"
+msgstr "začít znovu"
 
 #: r2/controllers/payments.py:71
 #, python-format
 msgid "The payment couldn't be started with %(provider)s. Please try again in a moment, or pay another way."
-msgstr ""
+msgstr "Platbu přes %(provider)s se nepodařilo zahájit. Zkuste to za chvíli znovu, nebo zaplaťte jinak."
 
 #: r2/controllers/payments.py:95
 msgid "Thanks! Your payment is being confirmed on the network, which can take a while. Your purchase is delivered as soon as it's confirmed; you can close this page."
-msgstr ""
+msgstr "Děkujeme! Platba se v síti potvrzuje, což může chvíli trvat. Nákup bude doručen, jakmile bude potvrzena; tuto stránku můžete zavřít."
 
 #: r2/controllers/payments.py:100
 msgid "Thanks! Your payment is being processed. Your purchase is delivered as soon as it's done; you can close this page."
-msgstr ""
+msgstr "Děkujeme! Platba se zpracovává. Nákup bude doručen, jakmile bude hotová; tuto stránku můžete zavřít."
 
 #: r2/controllers/payments.py:105
-#, fuzzy
-#| msgid "This element has been disabled."
 msgid "This payment was refunded."
-msgstr "Tento prvek byl vypnut."
+msgstr "Tato platba byla vrácena."
 
 #: r2/controllers/payments.py:107
 msgid "The payment didn't go through, so you haven't been charged."
-msgstr ""
+msgstr "Platba neprošla, takže vám nic nebylo účtováno."
 
 #: r2/controllers/payments.py:108 r2/templates/exploreitemlisting.html:77
 msgid "try again"
@@ -1405,11 +1373,8 @@ msgid "muting in moderator mail"
 msgstr "ztlumení v poště moderátorů"
 
 #: r2/controllers/policies.py:55
-#, fuzzy
-#| msgid "moderator"
-#| msgid_plural "moderators"
 msgid "AutoModerator"
-msgstr "moderátor"
+msgstr "AutoModerator"
 
 #: r2/controllers/policies.py:56
 msgid "using the API"
@@ -1460,10 +1425,8 @@ msgid "Request cancelled."
 msgstr "Žádost byla zrušena."
 
 #: r2/controllers/promotecontroller.py:333
-#, fuzzy
-#| msgid "this site isn't taking new accounts right now"
 msgid "Advertising isn't available on this site right now."
-msgstr "tento web teď nepřijímá nové účty"
+msgstr "Reklama není na tomto webu momentálně k dispozici."
 
 #: r2/controllers/promotecontroller.py:338 r2/lib/menus.py:93
 msgid "advertise"
@@ -1591,7 +1554,7 @@ msgstr "hledání selhalo"
 
 #: r2/controllers/wiki.py:93
 msgid "This page is the vault stylesheet, changes here apply to the vault css"
-msgstr "Tato stránka je stylopis podtippru,  změny zde se týkají css podtippru"
+msgstr "Tato stránka je stylopis vaultu, změny zde se projeví v CSS vaultu"
 
 #: r2/controllers/wiki.py:94
 msgid "The contents of this page appear on the submit page"
@@ -1599,17 +1562,15 @@ msgstr "Obsah této stránky se zobrazí na stránce předložení"
 
 #: r2/controllers/wiki.py:95
 msgid "The contents of this page appear on the vault sidebar"
-msgstr "Obsah této stránky se zobrazí na postranní liště podtippru"
+msgstr "Obsah této stránky se zobrazuje v postranním panelu vaultu"
 
 #: r2/controllers/wiki.py:96
 msgid "The contents of this page appear in the public vault description and when the user does not have access to the vault"
 msgstr "Obsah této stránky se zobrazuje ve veřejném popisu vaultu a tehdy, když uživatel nemá do vaultu přístup"
 
 #: r2/controllers/wiki.py:97
-#, fuzzy
-#| msgid "This page is used to configure AutoModerator for the vault, please see [the full documentation](/wiki/automoderator/full-documentation) for information"
 msgid "This page is used to configure AutoModerator for the vault, see [the AutoModerator help page](/help/automoderator) for how to write rules"
-msgstr "Tahle stránka je používána pro konfiguraci AutoModerátora pro vault, prosím podívejte se na [the full documentation](/wiki/automoderator/full-documentation) pro informace"
+msgstr "Na této stránce se nastavuje AutoModerator pro vault; jak psát pravidla, najdete na [stránce nápovědy AutoModeratoru](/help/automoderator)"
 
 #: r2/controllers/wiki.py:163
 #, python-format
@@ -1638,7 +1599,7 @@ msgstr "tato stránka wiki nemůže zpracovat názvy takovéto velikosti!  pros�
 
 #: r2/controllers/wiki.py:221
 msgid "this page is a special page, please go into the vault settings and save the field once to create this special page"
-msgstr "tato stránka je speciální, prosím přejděte do nastavení podtippru a jednou uložte pole pro vytvoření této speciální stránky"
+msgstr "tato stránka je speciální, přejděte prosím do nastavení vaultu a jednou pole uložte, aby se stránka vytvořila"
 
 #: r2/controllers/wiki.py:223
 #, python-format
@@ -1948,11 +1909,11 @@ msgstr "tento odkaz již byl odeslán"
 
 #: r2/lib/errors.py:82
 msgid "that vault already exists"
-msgstr "tento podtippr již existuje"
+msgstr "takový vault už existuje"
 
 #: r2/lib/errors.py:83
 msgid "that vault doesn't exist"
-msgstr "tento podtippr neexistuje"
+msgstr "takový vault neexistuje"
 
 #: r2/lib/errors.py:84
 msgid "you aren't allowed to post there."
@@ -1964,7 +1925,7 @@ msgstr "nejste oprávněni prohlížet tento vault"
 
 #: r2/lib/errors.py:86
 msgid "you must specify a vault"
-msgstr "musíte zadat podtippr"
+msgstr "musíte zadat vault"
 
 #: r2/lib/errors.py:87
 msgid "this vault has chosen to disable their ads at this time"
@@ -2044,7 +2005,7 @@ msgstr "Tento E-mail nemůže být přidán. Podívejte se na Váš E-mail pro j
 #: r2/lib/errors.py:108
 #, python-format
 msgid "that vault has already been oversold on %(start)s to %(end)s. Please pick another vault or date."
-msgstr "tento podtippr již byl přeprodán od %(start)s do %(end)s. Prosím vyberte si jiný podtippr nebo datum."
+msgstr "tento vault už byl od %(start)s do %(end)s vyprodán. Vyberte prosím jiný vault nebo datum."
 
 #: r2/lib/errors.py:109
 #, python-format
@@ -2123,11 +2084,11 @@ msgstr "tento kód již někdo získal -- třeby Vy?"
 
 #: r2/lib/errors.py:126
 msgid "that vault doesn't allow text posts"
-msgstr "tento podtippr nepovoluje textové příspěvky"
+msgstr "tento vault nepovoluje textové příspěvky"
 
 #: r2/lib/errors.py:127
 msgid "that vault only allows text posts"
-msgstr "tento podtippr povoluje pouze textové příspěvky"
+msgstr "tento vault povoluje jen textové příspěvky"
 
 #: r2/lib/errors.py:128
 msgid "that's a piece of history now; it's too late to reply to it"
@@ -2224,11 +2185,11 @@ msgstr "dvoufaktorové ověření již je zapnuto"
 
 #: r2/lib/errors.py:152
 msgid "enter the code from your authenticator app (or a recovery code)"
-msgstr ""
+msgstr "zadejte kód z ověřovací aplikace (nebo kód pro obnovení)"
 
 #: r2/lib/errors.py:153
 msgid "turn on two-factor authentication (preferences, security) to use these tools"
-msgstr ""
+msgstr "zapněte dvoufázové ověření (nastavení, zabezpečení), abyste mohli tyto nástroje používat"
 
 #: r2/lib/errors.py:154
 msgid "image problem"
@@ -2260,7 +2221,7 @@ msgstr "Tuto akci nemůžete provést, protože tento uživatel je moderátor."
 
 #: r2/lib/errors.py:162
 msgid "there is no pending invite for that vault"
-msgstr "pro tento podtippr neexistuje žádná nevyřízená pozvánka"
+msgstr "pro tento vault nemáte žádnou čekající pozvánku"
 
 #: r2/lib/errors.py:163
 msgid "you cannot edit the budget of a live ad"
@@ -2284,7 +2245,7 @@ msgstr "neplatný řetězec oprávnění"
 
 #: r2/lib/errors.py:168
 msgid "invalid multi path"
-msgstr "neplatná cesta sloučeného tippru"
+msgstr "neplatná cesta multi"
 
 #: r2/lib/errors.py:169
 #, python-format
@@ -2293,29 +2254,29 @@ msgstr "%(reason)s"
 
 #: r2/lib/errors.py:170
 msgid "that multivault doesn't exist"
-msgstr "tento sloučený tippr neexistuje"
+msgstr "takový multivault neexistuje"
 
 #: r2/lib/errors.py:171
 msgid "that multivault already exists"
-msgstr "tento sloučený tippr již existuje"
+msgstr "takový multivault už existuje"
 
 #: r2/lib/errors.py:172
 msgid "you can't change that multivault"
-msgstr "tento sloučený tippr nelze změnit"
+msgstr "tento multivault nemůžete měnit"
 
 #: r2/lib/errors.py:173
 msgid "no more space for vaults in that multivault"
-msgstr "v tomto sloučeném tippru již není místo pro podtippr"
+msgstr "v tomto multivaultu už není místo pro další vaulty"
 
 #: r2/lib/errors.py:174
 #, python-format
 msgid "can't add special vault %(path)s"
-msgstr "nelze přidat speciální podtippr %(path)s"
+msgstr "nelze přidat speciální vault %(path)s"
 
 #: r2/lib/errors.py:175
 #, python-format
 msgid "maximum %(max)s vaults"
-msgstr "maximálně %(max)s podtipprů"
+msgstr "nejvýše %(max)s vaultů"
 
 #: r2/lib/errors.py:176
 msgid "unable to parse JSON data"
@@ -2361,7 +2322,7 @@ msgstr "pro provedení musíte mít platné předplatné zlatého tippra"
 
 #: r2/lib/errors.py:186
 msgid "insufficient coins"
-msgstr "nedostatečné ktippry"
+msgstr "nedostatek zlata"
 
 #: r2/lib/errors.py:187
 msgid "gilding is not allowed in this vault"
@@ -2691,21 +2652,19 @@ msgstr "[odstraněno]"
 
 #: r2/lib/linked_logins.py:62
 msgid "Google"
-msgstr ""
+msgstr "Google"
 
 #: r2/lib/linked_logins.py:71
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: r2/lib/linked_logins.py:81
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #: r2/lib/linked_logins.py:92
-#, fuzzy
-#| msgid "discovery"
 msgid "Discord"
-msgstr "objevy"
+msgstr "Discord"
 
 #: r2/lib/live_config_admin.py:51
 msgid "Who has staff permissions: name:level pairs, comma-separated, where the level is admin, sponsor or employee. Admins can turn on admin mode. You can't remove your own admin permission here."
@@ -2713,11 +2672,11 @@ msgstr "Kdo má zaměstnanecká oprávnění: dvojice jméno:úroveň oddělené
 
 #: r2/lib/live_config_admin.py:55
 msgid "Moderators and staff (employees, and admins for admin mode) need two-factor sign-in turned on (preferences, security) to use their tools; until then they see a notice asking them to. Members without it are unaffected."
-msgstr ""
+msgstr "Moderátoři a personál (zaměstnanci a v režimu admina administrátoři) musí mít zapnuté dvoufázové přihlášení (nastavení, zabezpečení), aby mohli používat své nástroje; do té doby vidí upozornění, které je o to žádá. Členů bez něj se to netýká."
 
 #: r2/lib/live_config_admin.py:60
 msgid "How long a page for logged-out visitors may be kept and served again, in seconds, by nginx's page cache or a CDN in front of the site (logged-in visitors always get fresh pages). Lower it to show changes sooner, or 0 to stop caching pages at once. nginx's page cache has to be on (the installer's TIPPR_PAGE_CACHE_SECONDS) for a value here to do anything there."
-msgstr ""
+msgstr "Jak dlouho může být stránka pro nepřihlášené návštěvníky uložena a znovu podávána, v sekundách, mezipamětí stránek nginx nebo CDN před webem (přihlášení návštěvníci dostávají vždy čerstvé stránky). Snižte ji, aby se změny projevily dřív, nebo nastavte 0, aby se stránky hned přestaly ukládat. Aby hodnota zde něco ovlivnila, musí být mezipaměť stránek nginx zapnutá (TIPPR_PAGE_CACHE_SECONDS v instalátoru)."
 
 #: r2/lib/live_config_admin.py:67
 msgid "Accounts with at least this much post karma skip the captcha."
@@ -2745,7 +2704,7 @@ msgstr "Oznámení v postranním panelu každé stránky. Prázdné: žádné."
 
 #: r2/lib/live_config_admin.py:82
 msgid "Messages for the \"new here?\" bar shown to logged-out visitors, each in double quotes; one is picked at random. \" / \" splits a message into a heading and a smaller second line, e.g. \"Welcome! / Pick a few vaults to subscribe to.\""
-msgstr ""
+msgstr "Zprávy pro lištu „Jste tu noví?“, kterou vidí nepřihlášení návštěvníci, každá v dvojitých uvozovkách; jedna se vybere náhodně. \" / \" rozdělí zprávu na nadpis a menší druhý řádek, např. \"Vítejte! / Odebírejte pár vaultů.\""
 
 #: r2/lib/live_config_admin.py:87
 msgid "A message in the info bar at the top of listings. For a site-wide banner, use the announcement on /admin/site instead."
@@ -3032,7 +2991,7 @@ msgstr "upravit odběry"
 
 #: r2/lib/menus.py:132 r2/lib/pages/pages.py:2285
 msgid "vault settings"
-msgstr "nastavení podtippru"
+msgstr "nastavení vaultu"
 
 #: r2/lib/menus.py:133
 msgid "edit stylesheet"
@@ -3120,7 +3079,7 @@ msgstr "vytvořit"
 
 #: r2/lib/menus.py:158 r2/lib/pages/pages.py:2910
 msgid "my vaults"
-msgstr "moje podtippry"
+msgstr "moje vaulty"
 
 #: r2/lib/menus.py:159
 msgid "quarantine"
@@ -3147,20 +3106,16 @@ msgid "ad settings"
 msgstr "nastavení reklam"
 
 #: r2/lib/menus.py:167 r2/templates/adminpaymentsettings.html:87
-#, fuzzy
-#| msgid "payment mismatch"
 msgid "payments"
-msgstr "nesoulad platby"
+msgstr "platby"
 
 #: r2/lib/menus.py:168 r2/templates/adminloginsettings.html:22
 msgid "sign-in providers"
-msgstr ""
+msgstr "poskytovatelé přihlášení"
 
 #: r2/lib/menus.py:169 r2/templates/adminserverstatus.html:24
-#, fuzzy
-#| msgid "other server"
 msgid "servers"
-msgstr "jiný server"
+msgstr "servery"
 
 #: r2/lib/menus.py:170 r2/templates/adminbackups.html:51
 msgid "backups"
@@ -3463,7 +3418,7 @@ msgstr "tento odkaz již byl předložen ale můžete to [zkusit znovu](%s)."
 #: r2/lib/strings.py:75
 #, python-format
 msgid "that link has been submitted to multiple vaults. you can try to [submit it again](%s)."
-msgstr "tento odkaz již byl odesláno do mnoha podtipprů. můžete ho [zkusit znovu odeslat](%s)."
+msgstr "tento odkaz byl odeslán do více vaultů. můžete ho zkusit [odeslat znovu](%s)."
 
 #: r2/lib/strings.py:77
 msgid "your account has been deactivated, but we won't judge you for it."
@@ -3480,14 +3435,13 @@ msgid "I understand and agree that registration on or use of this site constitut
 msgstr "Rozumím a souhlasím s tím, že zaregistrováním a užíváním této stránky dávám zároveň souhlas s %(user_agreement)s a %(privacy_policy)s."
 
 #: r2/lib/strings.py:84
-#, fuzzy, python-format
-#| msgid "to view tippr with only submissions from your friends, use [tippr.net/v/friends](%s)"
+#, python-format
 msgid "to view only submissions from your friends, use [/v/friends](%s)"
-msgstr "pro zobrazení tipprů pouze od vašich přátel použijte [tippr.net/v/friends](%s)"
+msgstr "chcete-li vidět jen příspěvky přátel, použijte [/v/friends](%s)"
 
 #: r2/lib/strings.py:86
 msgid "your vault has been created"
-msgstr "váš podtippr byl vytvořen"
+msgstr "váš vault byl vytvořen"
 
 #: r2/lib/strings.py:88
 #, python-format
@@ -3496,11 +3450,11 @@ msgstr "navštivte [%(link)s](%(link)s) pro více informací"
 
 #: r2/lib/strings.py:91
 msgid "you have not subscribed to any vaults."
-msgstr "neodebíráte žádné podtippry."
+msgstr "neodebíráte žádné vaulty."
 
 #: r2/lib/strings.py:92
 msgid "you haven't chosen any vaults yet, so your front page shows the site's default vaults, below. subscribe or unsubscribe to make the list your own."
-msgstr ""
+msgstr "zatím jste si nevybrali žádné vaulty, takže vaše titulní stránka ukazuje výchozí vaulty webu, níže. přihlaste se k odběru nebo ho zrušte a seznam bude váš."
 
 #: r2/lib/strings.py:93
 msgid "below are the vaults you have subscribed to."
@@ -3508,15 +3462,15 @@ msgstr "níže jsou vaulty, které odebíráte."
 
 #: r2/lib/strings.py:94
 msgid "below are the vaults that you are an approved submitter on."
-msgstr "níže jsou podtippry v kterých jste schváleným předkladatelem."
+msgstr "níže jsou vaulty, ve kterých jste schváleným přispěvatelem."
 
 #: r2/lib/strings.py:95
 msgid "below are the vaults that you have moderator access to."
-msgstr "k následujícím podtipprům máte přístup jako moderátor"
+msgstr "níže jsou vaulty, ke kterým máte přístup moderátora."
 
 #: r2/lib/strings.py:98
 msgid "click the `subscribe` or `unsubscribe` buttons to choose which vaults appear on your front page."
-msgstr "klikněte na tlačítka `odebírat` nebo `zrušit odběr` pro výběr podtipprů, které se zobrazí na vaší hlavní stránce."
+msgstr "tlačítky `odebírat` a `zrušit odběr` vyberte, které vaulty se objeví na vaší titulní stránce."
 
 #: r2/lib/strings.py:100
 #, python-format
@@ -3679,10 +3633,9 @@ msgid "You're about to make a one-time purchase of %(amount)s of tippr gold for 
 msgstr "Chystáte se provést jednorázovou koupi %(amount)s zlatého tippra pro sebe (%(user)s). Za toto zaplatíte celkem %(price)s."
 
 #: r2/lib/strings.py:141
-#, fuzzy, python-format
-#| msgid "You're about to purchase %(amount)s. They work like gift certificates: each coin you have will allow you to give one month of tippr gold to someone else. You'll pay a total of %(price)s for this."
+#, python-format
 msgid "You're about to purchase %(amount)s for Give Gold. It works like a gift certificate: each month of it gives someone one month of tippr gold. You'll pay a total of %(price)s for this."
-msgstr "Chystáte se zakoupit %(amount)s. Fungují jako dárkové poukazy: každý ktippr vám umožňuje darovat měsíc zlatého tippra někomu jinému. Za toto celkem zaplatíte %(price)s."
+msgstr "Chystáte se koupit %(amount)s pro Darovat zlato. Funguje to jako dárkový poukaz: každý měsíc dá někomu měsíc tippr gold. Celkem zaplatíte %(price)s."
 
 #: r2/lib/strings.py:142
 #, python-format
@@ -3789,15 +3742,15 @@ msgstr ""
 
 #: r2/lib/strings.py:175
 msgid "multivault of your subscriptions"
-msgstr "sloučený tippr z vašich odběrů"
+msgstr "multivault vašich odběrů"
 
 #: r2/lib/strings.py:176
 msgid "multivault of vaults you moderate"
-msgstr "sloučený tippr z podtipprů které moderujete"
+msgstr "multivault vaultů, které moderujete"
 
 #: r2/lib/strings.py:178
 msgid "/v/all displays content from all of tippr, including vaults you aren't subscribed to. Some vaults have chosen to exclude themselves from /v/all."
-msgstr "/v/all zobrazuje obsah z celého tippru, včetně podtipprů, které neodebíráte. Některé podtippry však mají nastavenou výjimku, aby se nezobrazovaly v /v/all."
+msgstr "/v/all ukazuje obsah z celého tippr, včetně vaultů, které neodebíráte. Některé vaulty se rozhodly se z /v/all vyřadit."
 
 #: r2/lib/strings.py:179
 msgid "Displaying content from /v/all of tippr, except the following vaults:"
@@ -3831,19 +3784,16 @@ msgstr[2] "zprávy"
 #: r2/lib/pages/admin_pages.py:116 r2/lib/pages/trafficpages.py:884 r2/lib/strings.py:264 r2/templates/adminfeeds.html:45 r2/templates/adminfeeds.html:86 r2/templates/adminvaults.html:49 r2/templates/sitewidetraffic.html:40 r2/templates/vaulttrafficreport.html:45
 msgid "vault"
 msgid_plural "vaults"
-msgstr[0] "podtippr"
-msgstr[1] "podtippry"
-msgstr[2] "podtipprů"
+msgstr[0] "vault"
+msgstr[1] "vaulty"
+msgstr[2] "vaultů"
 
 #: r2/lib/strings.py:265
-#, fuzzy
-#| msgid "a month ago"
-#| msgid_plural "%(num)s months ago"
 msgid "month of gold"
 msgid_plural "months of gold"
-msgstr[0] "před měsícem"
-msgstr[1] "před %(num)s měsíci"
-msgstr[2] "před %(num)s měsíci"
+msgstr[0] "měsíc zlata"
+msgstr[1] "měsíce zlata"
+msgstr[2] "měsíců zlata"
 
 #: r2/lib/strings.py:268
 msgid "reader"
@@ -4265,7 +4215,7 @@ msgstr "Žádné poznámky por tuto IP adresu"
 
 #: r2/lib/pages/admin_pages.py:109
 msgid "No notes for this vault"
-msgstr "Žádné poznámky pro tento podtippr"
+msgstr "K tomuto vaultu nejsou žádné poznámky"
 
 #: r2/lib/pages/admin_pages.py:110
 msgid "No notes for this user"
@@ -4290,7 +4240,7 @@ msgstr "%d. %m. %Y"
 
 #: r2/lib/pages/pages.py:338
 msgid "This site asks moderators and staff to use two-factor sign-in. Turn it on under [preferences, security](/prefs/security) to use your moderator tools."
-msgstr ""
+msgstr "Tento web žádá moderátory a personál o dvoufázové přihlášení. Zapněte ho v [nastavení, zabezpečení](/prefs/security), abyste mohli používat nástroje moderátora."
 
 #: r2/lib/pages/pages.py:521
 msgid "wiki tools"
@@ -4306,7 +4256,7 @@ msgstr "tyto vaulty"
 
 #: r2/lib/pages/pages.py:729
 msgid "this vault is archived and no longer accepting submissions."
-msgstr "tento podtippr je archivován a předkládání již nepřijímá."
+msgstr "tento vault je archivovaný a už nepřijímá příspěvky."
 
 #: r2/lib/pages/pages.py:731
 msgid "Submissions disabled"
@@ -4326,7 +4276,7 @@ msgstr "Předkládání omezeno"
 
 #: r2/lib/pages/pages.py:832
 msgid "Create your own vault"
-msgstr "Vytvořte si svůj vlastní podtippr"
+msgstr "Vytvořte si vlastní vault"
 
 #: r2/lib/pages/pages.py:856
 #, python-format
@@ -4358,10 +4308,9 @@ msgid "<3"
 msgstr "<3"
 
 #: r2/lib/pages/pages.py:1335 r2/templates/adminserverstatus.html:142
-#, fuzzy, python-format
-#| msgid "%(time)s days left"
+#, python-format
 msgid "%(time)s ago"
-msgstr "%(time)s dní zbývá"
+msgstr "před %(time)s"
 
 #: r2/lib/pages/pages.py:1496
 #, python-format
@@ -4403,12 +4352,12 @@ msgstr "o %(site)s"
 
 #: r2/lib/pages/pages.py:2309
 msgid "search vaults by name"
-msgstr "hledat podtippry podle názvu"
+msgstr "hledat vaulty podle názvu"
 
 #: r2/lib/pages/pages.py:2353
 #, python-format
 msgid "your front page vaults (%s)"
-msgstr "podtippry na vaší hlavní stránce (%s)"
+msgstr "vaulty vaší titulní stránky (%s)"
 
 #: r2/lib/pages/pages.py:2441 r2/templates/createvault.html:446 r2/templates/spotlightlisting.html:63
 msgid "what's this?"
@@ -4420,7 +4369,7 @@ msgstr "vitrína s trofejemi"
 
 #: r2/lib/pages/pages.py:2452
 msgid "public multivaults"
-msgstr "veřejné sloučené tippry"
+msgstr "veřejné multivaulty"
 
 #: r2/lib/pages/pages.py:2459
 msgid "hidden multivaults"
@@ -4438,9 +4387,9 @@ msgstr "méně než den"
 #, python-format
 msgid "Give Gold: %(coins)s month"
 msgid_plural "Give Gold: %(coins)s months"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Darovat zlato: %(coins)s měsíc"
+msgstr[1] "Darovat zlato: %(coins)s měsíce"
+msgstr[2] "Darovat zlato: %(coins)s měsíců"
 
 #: r2/lib/pages/pages.py:2565
 #, python-format
@@ -4493,7 +4442,7 @@ msgstr "kde vaše hlasy utváří to o čem svět mluví."
 
 #: r2/lib/pages/pages.py:2981 r2/lib/pages/pages.py:3091
 msgid "add vault"
-msgstr "přidat podtippr"
+msgstr "přidat vault"
 
 #: r2/lib/pages/pages.py:3019
 #, python-format
@@ -4508,12 +4457,12 @@ msgstr "%s viditelné"
 #: r2/lib/pages/pages.py:3028
 #, python-format
 msgid "%(bonus)s bonus vaults"
-msgstr "%(bonus)s bonusových podtipprů"
+msgstr "%(bonus)s bonusových vaultů"
 
 #: r2/lib/pages/pages.py:3398
 #, python-format
 msgid "you have a credit card gold subscription. your card (ending in %(last4)s) will be charged %(amount)s on %(date)s."
-msgstr "předplatné zlatého tippra platíte přes kreditní kartu. na vaší kartu (jež má platnost do %(last4)s) bude %(date)s naúčtováno %(amount)s."
+msgstr "máte předplatné zlata kreditní kartou. z vaší karty (končící na %(last4)s) bude dne %(date)s strženo %(amount)s."
 
 #: r2/lib/pages/pages.py:3552
 msgid "try entering those letters again"
@@ -4524,63 +4473,57 @@ msgid "search"
 msgstr "hledání"
 
 #: r2/lib/pages/pages.py:4228
-#, fuzzy, python-format
-#| msgid "a community for %(time)s"
+#, python-format
 msgid "not heard from for %(time)s"
-msgstr "komunitou již %(time)s"
+msgstr "bez zpráv už %(time)s"
 
 #: r2/lib/pages/pages.py:4234
 #, python-format
 msgid "memory %(p)s%% used"
-msgstr ""
+msgstr "paměť využita z %(p)s%%"
 
 #: r2/lib/pages/pages.py:4238
 #, python-format
 msgid "busy: load %(l)s on %(n)s CPUs"
-msgstr ""
+msgstr "vytížený: zátěž %(l)s na %(n)s CPU"
 
 #: r2/lib/pages/pages.py:4244
 #, python-format
 msgid "disk %(path)s %(p)s%% full"
-msgstr ""
+msgstr "disk %(path)s zaplněn z %(p)s%%"
 
 #: r2/lib/pages/pages.py:4248
-#, fuzzy, python-format
-#| msgid "%(title)s : %(site)s"
+#, python-format
 msgid "%(service)s is %(state)s"
-msgstr "%(title)s : %(site)s"
+msgstr "%(service)s: %(state)s"
 
 #: r2/lib/pages/pages.py:4251
 msgid "a different version from the others"
-msgstr ""
+msgstr "jiná verze než ostatní"
 
 #: r2/lib/pages/pages.py:4253
 msgid "another server has the same name: set TIPPR_SERVER_NAME on one of them"
-msgstr ""
+msgstr "jiný server má stejný název: nastavte TIPPR_SERVER_NAME na jednom z nich"
 
 #: r2/lib/pages/pages.py:4308
-#, fuzzy, python-format
-#| msgid "seconds"
+#, python-format
 msgid "%(n)s seconds"
-msgstr "sekund"
+msgstr "%(n)s s"
 
 #: r2/lib/pages/pages.py:4310
-#, fuzzy, python-format
-#| msgid "minutes"
+#, python-format
 msgid "%(n)s minutes"
-msgstr "minut"
+msgstr "%(n)s min"
 
 #: r2/lib/pages/pages.py:4312
-#, fuzzy, python-format
-#| msgid "this hour"
+#, python-format
 msgid "%(n)s hours"
-msgstr "tuto hodinu"
+msgstr "%(n)s h"
 
 #: r2/lib/pages/pages.py:4313
-#, fuzzy, python-format
-#| msgid "last %(n)d days"
+#, python-format
 msgid "%(n)s days"
-msgstr "posledních %(n)d dní"
+msgstr "%(n)s dní"
 
 #: r2/lib/pages/pages.py:4526 r2/lib/pages/pages.py:4635
 msgid "added"
@@ -4693,11 +4636,11 @@ msgstr "zobrazení hlavní stránky"
 
 #: r2/lib/pages/pages.py:5831
 msgid "vault clicks"
-msgstr "kliknutí na podtippr"
+msgstr "kliknutí ve vaultu"
 
 #: r2/lib/pages/pages.py:5831
 msgid "vault impressions"
-msgstr "zobrazení podtippru"
+msgstr "zobrazení ve vaultu"
 
 #: r2/lib/pages/pages.py:5832 r2/lib/pages/trafficpages.py:473
 msgid "total clicks"
@@ -4725,7 +4668,7 @@ msgstr "všechno"
 
 #: r2/lib/pages/pages.py:6174 r2/lib/pages/pages.py:6177
 msgid "from all vaults"
-msgstr "ze všech podtipprů"
+msgstr "ze všech vaultů"
 
 #: r2/lib/pages/pages.py:6179
 msgid "moderating"
@@ -4733,7 +4676,7 @@ msgstr "moderuji"
 
 #: r2/lib/pages/pages.py:6180
 msgid "vaults you mod"
-msgstr "podtippry které moderujete"
+msgstr "vaulty, které moderujete"
 
 #: r2/lib/pages/pages.py:6186
 msgid "gold perks"
@@ -4741,7 +4684,7 @@ msgstr "zlaté výhody"
 
 #: r2/lib/pages/pages.py:6202
 msgid "explore multis"
-msgstr "prozkoumat sloučené tippry"
+msgstr "prozkoumat multi"
 
 #: r2/lib/pages/pages.py:6288
 msgid "faq"
@@ -4793,10 +4736,8 @@ msgid "[frontpage]"
 msgstr "[hlavnístránka]"
 
 #: r2/lib/pages/trafficpages.py:293
-#, fuzzy
-#| msgid "activity"
 msgid "activity by day"
-msgstr "aktivity"
+msgstr "aktivita po dnech"
 
 #: r2/lib/pages/trafficpages.py:342
 msgid "total impressions by day"
@@ -4884,7 +4825,7 @@ msgstr "tato stránka je prázdná, pro přidání obsahu ji upravte."
 #: r2/lib/pages/wiki.py:171 r2/lib/pages/wiki.py:177
 #, python-format
 msgid "page %s does not exist in this vault"
-msgstr "stránka %s neexistuje v tomto podtippru"
+msgstr "stránka %s v tomto vaultu neexistuje"
 
 #: r2/lib/pages/wiki.py:185
 msgid "editing"
@@ -4910,7 +4851,7 @@ msgstr "Zobrazování stránek pro /v/%s"
 
 #: r2/lib/pages/wiki.py:212
 msgid "Below is a list of pages in this wiki visible to you in this vault."
-msgstr "Níže je seznam stránek v této wiki, které můžete v tomto podtippru zobrazit."
+msgstr "Níže je seznam stránek této wiki, které v tomto vaultu vidíte."
 
 #: r2/lib/pages/wiki.py:218
 msgid "discussions"
@@ -4930,100 +4871,85 @@ msgstr "PayPal"
 
 #: r2/lib/payments/__init__.py:68 r2/templates/adminpaymentsettings.html:149
 msgid "Stripe"
-msgstr ""
+msgstr "Stripe"
 
 #: r2/lib/payments/__init__.py:68
 msgid "Card / Google Pay"
-msgstr ""
+msgstr "Karta / Google Pay"
 
 #: r2/lib/payments/__init__.py:69 r2/templates/adminpaymentsettings.html:166
 msgid "Coinbase"
-msgstr ""
+msgstr "Coinbase"
 
 #: r2/lib/payments/__init__.py:69
 msgid "Crypto (USDC)"
-msgstr ""
+msgstr "Krypto (USDC)"
 
 #: r2/lib/payments/__init__.py:70 r2/templates/adminpaymentsettings.html:191
 msgid "BitPay"
-msgstr ""
+msgstr "BitPay"
 
 #: r2/lib/payments/__init__.py:70
 msgid "Bitcoin"
 msgstr "Bitcoin"
 
 #: r2/lib/payments/__init__.py:121
-#, fuzzy
-#| msgid "waiting on the member"
 msgid "waiting for the buyer"
-msgstr "čeká na člena"
+msgstr "čeká na kupujícího"
 
 #: r2/lib/payments/__init__.py:122
-#, fuzzy
-#| msgid "confirm"
 msgid "confirming"
-msgstr "potvrdit"
+msgstr "potvrzuje se"
 
 #: r2/lib/payments/__init__.py:123
-#, fuzzy
-#| msgid "unpaid"
 msgid "paid"
-msgstr "nezaplacené"
+msgstr "zaplaceno"
 
 #: r2/lib/payments/__init__.py:124 r2/templates/privacysettings.html:31
-#, fuzzy
-#| msgid "refund failed"
 msgid "failed"
-msgstr "vrácení peněz se nezdařilo"
+msgstr "selhalo"
 
 #: r2/lib/payments/__init__.py:125 r2/templates/privacysettings.html:33
 msgid "expired"
-msgstr ""
+msgstr "vypršelo"
 
 #: r2/lib/payments/__init__.py:126
-#, fuzzy
-#| msgid "refund"
 msgid "refunded"
-msgstr "vrátit peníze"
+msgstr "vráceno"
 
 #: r2/lib/payments/gold.py:38
 #, python-format
 msgid "Give Gold: %(count)d months"
-msgstr ""
+msgstr "Darovat zlato: měsíců: %(count)d"
 
 #: r2/lib/payments/gold.py:40
 #, python-format
 msgid "%(count)d year(s) of gold"
-msgstr ""
+msgstr "zlato na %(count)d r."
 
 #: r2/lib/payments/gold.py:42
 #, python-format
 msgid "%(count)d month(s) of gold"
-msgstr ""
+msgstr "zlato na %(count)d měs."
 
 #: r2/lib/payments/gold.py:44
-#, fuzzy, python-format
-#| msgid "what %(name)s did"
+#, python-format
 msgid "%(what)s for %(name)s"
-msgstr "co dělal(a) %(name)s"
+msgstr "%(what)s pro %(name)s"
 
 #: r2/lib/payments/gold.py:46
-#, fuzzy, python-format
-#| msgid "enter a gift code for redemption"
+#, python-format
 msgid "a gift code for %(what)s"
-msgstr "zadejte kód kupónu pro jeho vyzvednutí"
+msgstr "dárkový kód na %(what)s"
 
 #: r2/lib/payments/gold.py:122
-#, fuzzy
-#| msgid "tippr gold refund"
 msgid "gold refund"
-msgstr "vrácení peněz za zlatého tippra"
+msgstr "vrácení za zlato"
 
 #: r2/lib/payments/gold.py:123
-#, fuzzy, python-format
-#| msgid "Your tippr gold payment has been refunded, contact %(gold_email)s for details"
+#, python-format
 msgid "Your gold payment has been refunded, contact %(gold_email)s for details"
-msgstr "Vaše platba za zlatého tippra byla vrácena, kontaktujte %(gold_email)s pro podrobnosti"
+msgstr "Vaše platba za zlato byla vrácena; podrobnosti získáte na %(gold_email)s"
 
 #: r2/lib/utils/_utils.py:229
 msgid "millisecond"
@@ -5274,7 +5200,7 @@ msgstr "od %(author)s pomocí %(vault)s zasláno %(when)s"
 
 #: r2/models/link.py:2403
 msgid "[message from blocked vault]"
-msgstr "[zpráva ze zablokovaného podtippru]"
+msgstr "[zpráva od blokovaného vaultu]"
 
 #: r2/models/link.py:2424 r2/models/link.py:2429
 #, python-format
@@ -5384,7 +5310,7 @@ msgstr "pozvat moderátora"
 #: r2/models/listing.py:285 r2/templates/modlisting.html:36
 #, python-format
 msgid "you are a moderator of this vault. %(action)s"
-msgstr "jste moderátorem tohoto podtippru. %(action)s"
+msgstr "jste moderátorem tohoto vaultu. %(action)s"
 
 #: r2/models/listing.py:301
 #, python-format
@@ -6057,16 +5983,12 @@ msgid "Update preferences and related account information. Will not have access 
 msgstr "Může měnit nastavení a související údaje účtu. Nebude mít přístup k vašemu e-mailu a heslu."
 
 #: r2/models/token.py:126
-#, fuzzy
-#| msgid "renew your tippr gold"
 msgid "Spend your gold"
-msgstr "obnovit vašeho zlatého tippra"
+msgstr "Utraťte své zlato"
 
 #: r2/models/token.py:127
-#, fuzzy
-#| msgid "Spend my tippr gold coins on giving gold to other users."
 msgid "Spend the gold I bought on giving gold to other users."
-msgstr "Utratit mé ktippry zlatého tippra darováním zlata ostatním uživatelům."
+msgstr "Utrácet koupené zlato za darování zlata ostatním uživatelům."
 
 #: r2/models/token.py:132
 msgid "Edit Posts"
@@ -6082,7 +6004,7 @@ msgstr "Správa mého stylu"
 
 #: r2/models/token.py:138
 msgid "Select my vault flair. Change link flair on my submissions."
-msgstr "Vybrat můj styl podtippru. Změnit styl odkazu u mých předložení."
+msgstr "Vybrat si styl ve vaultu. Měnit styl odkazů u mých příspěvků."
 
 #: r2/models/token.py:143
 msgid "History"
@@ -6114,7 +6036,7 @@ msgstr "Moderování stylu"
 
 #: r2/models/token.py:165
 msgid "Manage and assign flair in vaults I moderate."
-msgstr "Spravovat a přidělovat styl v podtipprech které moderuji."
+msgstr "Spravovat a přidělovat styly ve vaultech, které moderuji."
 
 #: r2/models/token.py:169
 msgid "Moderate Posts"
@@ -6126,11 +6048,11 @@ msgstr "Schvalovat, odstraňovat, rozlišovat obsah a označovat ho jako nad18, 
 
 #: r2/models/token.py:176
 msgid "Moderate Vault Configuration"
-msgstr "Moderovat nastavení podtippru"
+msgstr "Moderovat nastavení vaultu"
 
 #: r2/models/token.py:178
 msgid "Manage the configuration, sidebar, and CSS of vaults I moderate."
-msgstr "Spravovat nastavení, postranní lištu a CSS v podtipprech které moderuji."
+msgstr "Spravovat nastavení, postranní panel a CSS vaultů, které moderuji."
 
 #: r2/models/token.py:183
 msgid "Moderation Log"
@@ -6138,7 +6060,7 @@ msgstr "Záznam moderování"
 
 #: r2/models/token.py:185
 msgid "Access the moderation log in vaults I moderate."
-msgstr "Vstupovat do záznamu moderace v podtipprech které moderuji."
+msgstr "Přistupovat k protokolu moderování ve vaultech, které moderuji."
 
 #: r2/models/token.py:189
 msgid "Invite or remove other moderators"
@@ -6146,7 +6068,7 @@ msgstr "Přizvat nebo odstranit ostatní moderátory"
 
 #: r2/models/token.py:191
 msgid "Invite or remove other moderators from vaults I moderate."
-msgstr "Přizvat nebo odstranit ostatní moderátory z podtippru, který moderuji."
+msgstr "Zvát nebo odebírat další moderátory ve vaultech, které moderuji."
 
 #: r2/models/token.py:196
 msgid "Make changes to your vault moderator and contributor status"
@@ -6158,11 +6080,11 @@ msgstr "Přijímat pozvánky k moderování vaultu. Odebrat se z pozice moderát
 
 #: r2/models/token.py:206
 msgid "Vault Traffic"
-msgstr "Přenosy v podtippru"
+msgstr "Návštěvnost vaultu"
 
 #: r2/models/token.py:207
 msgid "Access traffic stats in vaults I moderate."
-msgstr "Vstupovat ke statistikám přenosu v podtipprech které moderuji."
+msgstr "Přistupovat ke statistikám návštěvnosti ve vaultech, které moderuji."
 
 #: r2/models/token.py:211
 msgid "Moderate Wiki"
@@ -6170,15 +6092,15 @@ msgstr "Moderovat Wiki"
 
 #: r2/models/token.py:213
 msgid "Change editors and visibility of wiki pages in vaults I moderate."
-msgstr "Změnit editory a viditelnost stránek wiki v podtipprech, které moderuji."
+msgstr "Měnit editory a viditelnost stránek wiki ve vaultech, které moderuji."
 
 #: r2/models/token.py:218
 msgid "My Vaults"
-msgstr "Moje podtippry"
+msgstr "Moje vaulty"
 
 #: r2/models/token.py:220
 msgid "Access the list of vaults I moderate, contribute to, and subscribe to."
-msgstr "Zobrazovat seznam podtipprů které moderuji, do kterých jsem přispěl a které odebírám."
+msgstr "Přistupovat k seznamu vaultů, které moderuji, do kterých přispívám a které odebírám."
 
 #: r2/models/token.py:225
 msgid "Private Messages"
@@ -6333,7 +6255,7 @@ msgstr "příspěvky z %s"
 #: r2/models/vault.py:2427
 #, python-format
 msgid "%s vaults curated by /u/%s"
-msgstr "%s podtipprů opatrovávané /u/%s"
+msgstr "%s vaultů vybraných uživatelem /u/%s"
 
 #: r2/models/vault.py:2739
 #, python-format
@@ -6374,31 +6296,24 @@ msgstr "načítání…"
 
 #: r2/public/static/js/enhancements.js:95
 msgid "couldn't load more; try again"
-msgstr ""
+msgstr "nepodařilo se načíst další; zkuste to znovu"
 
 #: r2/public/static/js/enhancements.js:129
-#, fuzzy, python-format
-#| msgid "Share to %(name)s"
+#, python-format
 msgid "page %(num)s"
-msgstr "Sdílet na %(name)s"
+msgstr "stránka %(num)s"
 
 #: r2/public/static/js/enhancements.js:156
-#, fuzzy
-#| msgid "there doesn't seem to be anything here"
 msgid "there doesn't seem to be anything more here"
-msgstr "zdá se, že tu nic není"
+msgstr "zdá se, že tu už nic dalšího není"
 
 #: r2/public/static/js/enhancements.js:173
-#, fuzzy
-#| msgid "posts and comments"
 msgid "next post or comment"
-msgstr "příspěvky a komentáře"
+msgstr "další příspěvek nebo komentář"
 
 #: r2/public/static/js/enhancements.js:174
-#, fuzzy
-#| msgid "their posts and comments…"
 msgid "previous post or comment"
-msgstr "jeho příspěvky a komentáře…"
+msgstr "předchozí příspěvek nebo komentář"
 
 #: r2/public/static/js/enhancements.js:175 r2/templates/printable.html:233
 msgid "upvote"
@@ -6409,176 +6324,134 @@ msgid "downvote"
 msgstr "hlas proti"
 
 #: r2/public/static/js/enhancements.js:177
-#, fuzzy
-#| msgid "open links in a new window"
 msgid "open the link (shift: in a new tab)"
-msgstr "odkazy otevírat v novém okně"
+msgstr "otevřít odkaz (Shift: v nové kartě)"
 
 #: r2/public/static/js/enhancements.js:178
-#, fuzzy
-#| msgid "top %d comments"
 msgid "open the comments"
-msgstr "nejlepších %d komentářů"
+msgstr "otevřít komentáře"
 
 #: r2/public/static/js/enhancements.js:179
-#, fuzzy
-#| msgid "expand media previews on comments pages"
 msgid "expand or collapse the preview, or the comment"
-msgstr "rozbalovat náhledy médií na stránkách komentářů"
+msgstr "rozbalit nebo sbalit náhled či komentář"
 
 #: r2/public/static/js/enhancements.js:180 r2/public/static/js/enhancements.js:631 r2/public/static/js/saved.js:122 r2/public/static/js/saved.js:161 r2/public/static/js/sponsored.js:97 r2/templates/adminadsettings.html:128 r2/templates/adminantispam.html:106 r2/templates/adminemailsettings.html:95 r2/templates/adminfeeds.html:70 r2/templates/adminloginsettings.html:77 r2/templates/adminpaymentsettings.html:213 r2/templates/adminsitesettings.html:127 r2/templates/adminsupportstaff.html:57 r2/templates/flairlistrow.html:48 r2/templates/flairselector.html:54 r2/templates/moderatorpermissions.html:55 r2/templates/prefsecurity.html:102 r2/templates/prefupdate.html:99 r2/templates/prefupdate.html:153 r2/templates/printablebuttons.html:106 r2/templates/printablebuttons.html:375 r2/templates/printablebuttons.html:480 r2/templates/promotelinkedit.html:218 r2/templates/vaultstylesheet.html:70
 msgid "save"
 msgstr "uložit"
 
 #: r2/public/static/js/enhancements.js:181
-#, fuzzy
-#| msgid "remove comment"
 msgid "reply to the comment"
-msgstr "odstranit komentář"
+msgstr "odpovědět na komentář"
 
 #: r2/public/static/js/enhancements.js:182
-#, fuzzy
-#| msgid "approve comment"
 msgid "parent comment"
-msgstr "schválit komentář"
+msgstr "nadřazený komentář"
 
 #: r2/public/static/js/enhancements.js:183
-#, fuzzy
-#| msgid "save page"
 msgid "next page"
-msgstr "uložit stránku"
+msgstr "další stránka"
 
 #: r2/public/static/js/enhancements.js:184
-#, fuzzy
-#| msgid "show AdSense ads"
 msgid "show these keys"
-msgstr "zobrazovat reklamy AdSense"
+msgstr "ukázat tyto klávesy"
 
 #: r2/public/static/js/enhancements.js:361
 msgid "keyboard shortcuts"
-msgstr ""
+msgstr "klávesové zkratky"
 
 #: r2/public/static/js/enhancements.js:363
 msgid "turn these off under \"enhancements\" in your preferences"
-msgstr ""
+msgstr "vypněte je v části „vylepšení“ v nastavení"
 
 #: r2/public/static/js/enhancements.js:388 r2/public/static/js/enhancements.js:426
-#, fuzzy
-#| msgid "all %d comments"
 msgid "hide all child comments"
-msgstr "všech %d komentářů"
+msgstr "skrýt všechny odpovědi"
 
 #: r2/public/static/js/enhancements.js:404 r2/public/static/js/enhancements.js:419
-#, fuzzy
-#| msgid "gilded comment"
 msgid "hide child comments"
-msgstr "pozlacený komentář"
+msgstr "skrýt odpovědi"
 
 #: r2/public/static/js/enhancements.js:419
-#, fuzzy
-#| msgid "top %d comments"
 msgid "show child comments"
-msgstr "nejlepších %d komentářů"
+msgstr "ukázat odpovědi"
 
 #: r2/public/static/js/enhancements.js:426
-#, fuzzy
-#| msgid "all %d comments"
 msgid "show all child comments"
-msgstr "všech %d komentářů"
+msgstr "ukázat všechny odpovědi"
 
 #: r2/public/static/js/enhancements.js:458 r2/public/static/js/enhancements.js:523
-#, fuzzy
-#| msgid "header image"
 msgid "hide images"
-msgstr "obrázek záhlaví"
+msgstr "skrýt obrázky"
 
 #: r2/public/static/js/enhancements.js:458 r2/public/static/js/enhancements.js:523 r2/templates/prefoptions.html:265
-#, fuzzy
-#| msgid "share image"
 msgid "show images"
-msgstr "obrázek pro sdílení"
+msgstr "ukázat obrázky"
 
 #: r2/public/static/js/enhancements.js:479 r2/public/static/js/enhancements.js:517
-#, fuzzy
-#| msgid "share image"
 msgid "show image"
-msgstr "obrázek pro sdílení"
+msgstr "ukázat obrázek"
 
 #: r2/public/static/js/enhancements.js:517
-#, fuzzy
-#| msgid "header image"
 msgid "hide image"
-msgstr "obrázek záhlaví"
+msgstr "skrýt obrázek"
 
 #: r2/public/static/js/enhancements.js:576
 msgid "your tag; click to change it"
-msgstr ""
+msgstr "váš štítek; kliknutím ho změníte"
 
 #: r2/public/static/js/enhancements.js:583 r2/public/static/js/enhancements.js:755
-#, fuzzy
-#| msgid "Edit this rule."
 msgid "tag this user"
-msgstr "Upravit toto pravidlo."
+msgstr "označit tohoto uživatele"
 
 #: r2/public/static/js/enhancements.js:610
-#, fuzzy
-#| msgid "ago"
 msgid "tag"
-msgstr "před"
+msgstr "štítek"
 
 #: r2/public/static/js/enhancements.js:610
-#, fuzzy, python-format
-#| msgid "profile for %(user)s"
+#, python-format
 msgid "tag for %(user)s"
-msgstr "profil pro %(user)s"
+msgstr "štítek pro %(user)s"
 
 #: r2/public/static/js/enhancements.js:628
-#, fuzzy, python-format
-#| msgid "saved by %(user)s"
+#, python-format
 msgid "tag %(user)s"
-msgstr "uložil %(user)s"
+msgstr "označit %(user)s"
 
 #: r2/public/static/js/enhancements.js:632
-#, fuzzy
-#| msgid "remove post"
 msgid "remove tag"
-msgstr "odstranit příspěvek"
+msgstr "odebrat štítek"
 
 #: r2/public/static/js/enhancements.js:672
 msgid "couldn't save the tag; try again"
-msgstr ""
+msgstr "štítek se nepodařilo uložit; zkuste to znovu"
 
 #: r2/public/static/js/enhancements.js:710
 #, python-format
 msgid "%(num)s year"
 msgid_plural "%(num)s years"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%(num)s rok"
+msgstr[1] "%(num)s roky"
+msgstr[2] "%(num)s let"
 
 #: r2/public/static/js/enhancements.js:714
-#, fuzzy, python-format
-#| msgid "%(num)d %(point)s"
+#, python-format
 msgid "%(num)s month"
 msgid_plural "%(num)s months"
-msgstr[0] "%(num)d %(point)s"
-msgstr[1] "%(num)d %(point)s"
-msgstr[2] "%(num)d %(point)s"
+msgstr[0] "%(num)s měsíc"
+msgstr[1] "%(num)s měsíce"
+msgstr[2] "%(num)s měsíců"
 
 #: r2/public/static/js/enhancements.js:716
-#, fuzzy, python-format
-#| msgid "%(time)s days left"
+#, python-format
 msgid "%(num)s day"
 msgid_plural "%(num)s days"
-msgstr[0] "%(time)s dní zbývá"
-msgstr[1] "%(time)s dní zbývá"
-msgstr[2] "%(time)s dní zbývá"
+msgstr[0] "%(num)s den"
+msgstr[1] "%(num)s dny"
+msgstr[2] "%(num)s dní"
 
 #: r2/public/static/js/enhancements.js:745
-#, fuzzy
-#| msgid "remember me"
 msgid "member for"
-msgstr "zapamatovat si mě"
+msgstr "členem už"
 
 #: r2/public/static/js/enhancements.js:746 r2/templates/profilebar.html:57 r2/templates/tipprheader.html:112
 msgid "post karma"
@@ -6589,10 +6462,8 @@ msgid "comment karma"
 msgstr "karma komentáře"
 
 #: r2/public/static/js/enhancements.js:755
-#, fuzzy
-#| msgid "change"
 msgid "change tag"
-msgstr "změnit"
+msgstr "změnit štítek"
 
 #: r2/public/static/js/enhancements.js:762 r2/templates/adminuser.html:32
 msgid "profile"
@@ -6603,111 +6474,85 @@ msgid "send a message"
 msgstr "poslat zprávu"
 
 #: r2/public/static/js/enhancements.js:923
-#, fuzzy, python-format
-#| msgid "%(num)d %(time)s"
+#, python-format
 msgid "(%(num)s new)"
 msgid_plural "(%(num)s new)"
-msgstr[0] "%(num)d %(time)s"
-msgstr[1] "%(num)d %(time)s"
-msgstr[2] "%(num)d %(time)s"
+msgstr[0] "(%(num)s nový)"
+msgstr[1] "(%(num)s nové)"
+msgstr[2] "(%(num)s nových)"
 
 #: r2/public/static/js/enhancements.js:939
-#, fuzzy
-#| msgid "top %d comments"
 msgid "top-level comments"
-msgstr "nejlepších %d komentářů"
+msgstr "komentáře nejvyšší úrovně"
 
 #: r2/public/static/js/enhancements.js:942
-#, fuzzy
-#| msgid "submitter"
 msgid "the submitter's"
-msgstr "předkladatel"
+msgstr "autora příspěvku"
 
 #: r2/public/static/js/enhancements.js:947
 msgid "yours"
-msgstr ""
+msgstr "vaše"
 
 #: r2/public/static/js/enhancements.js:956
-#, fuzzy
-#| msgid "links"
 msgid "with links"
-msgstr "odkazů"
+msgstr "s odkazy"
 
 #: r2/public/static/js/enhancements.js:964
-#, fuzzy
-#| msgid "jump to"
 msgid "jump between"
-msgstr "přeskočit na"
+msgstr "přeskakovat mezi"
 
 #: r2/public/static/js/enhancements.js:974 r2/templates/prefoptions.html:309
-#, fuzzy
-#| msgid "comment karma"
 msgid "comment navigator"
-msgstr "karma komentáře"
+msgstr "navigace v komentářích"
 
 #: r2/public/static/js/enhancements.js:978
-#, fuzzy
-#| msgid "revisions"
 msgid "previous"
-msgstr "revize"
+msgstr "předchozí"
 
 #: r2/public/static/js/enhancements.js:981 r2/templates/flairnextlink.html:28 r2/templates/listing.html:75 r2/templates/promotedlinktraffic.html:95 r2/templates/promotelinknew.html:66 r2/templates/searchlisting.html:62 r2/templates/spotlightlisting.html:58 r2/templates/tablelisting.html:62 r2/templates/userlisting.html:149
 msgid "next"
 msgstr "další"
 
 #: r2/public/static/js/enhancements.js:1024
-#, fuzzy
-#| msgid "no such account"
 msgid "switch account"
-msgstr "takový účet neexistuje"
+msgstr "přepnout účet"
 
 #: r2/public/static/js/enhancements.js:1058
 msgid "couldn't switch; try again"
-msgstr ""
+msgstr "nepodařilo se přepnout; zkuste to znovu"
 
 #: r2/public/static/js/enhancements.js:1063
-#, fuzzy
-#| msgid "no such account"
 msgid "forget this account"
-msgstr "takový účet neexistuje"
+msgstr "zapomenout tento účet"
 
 #: r2/public/static/js/enhancements.js:1064
-#, fuzzy, python-format
-#| msgid "created by %(user)s"
+#, python-format
 msgid "forget %(user)s"
-msgstr "vytvořil(a) %(user)s"
+msgstr "zapomenout %(user)s"
 
 #: r2/public/static/js/enhancements.js:1077
-#, fuzzy
-#| msgid "other accounts from it"
 msgid "no other accounts yet"
-msgstr "další účty z ní"
+msgstr "zatím žádné další účty"
 
 #: r2/public/static/js/enhancements.js:1080
-#, fuzzy
-#| msgid "create a new account"
 msgid "add an account"
-msgstr "vytvořit nový účet"
+msgstr "přidat účet"
 
 #: r2/public/static/js/enhancements.js:1085
 msgid "add and switch"
-msgstr ""
+msgstr "přidat a přepnout"
 
 #: r2/public/static/js/enhancements.js:1100 r2/templates/linkedloginotp.html:30 r2/templates/newlink.html:155 r2/templates/prefoptions.html:598 r2/templates/prefsecurity.html:37 r2/templates/prefsecurity.html:126 r2/templates/prefsecurity.html:145 r2/templates/prefupdate.html:33 r2/templates/privacysettings.html:133
-#, fuzzy
-#| msgid "two-factor"
 msgid "two-factor code"
-msgstr "dvoufázové přihlášení"
+msgstr "dvoufázový kód"
 
 #: r2/public/static/js/enhancements.js:1104 r2/public/static/js/enhancements.js:1107
-#, fuzzy
-#| msgid "create a new account"
 msgid "couldn't add the account"
-msgstr "vytvořit nový účet"
+msgstr "účet se nepodařilo přidat"
 
 #: r2/public/static/js/enhancements.js:1111
 msgid "logging out forgets these accounts"
-msgstr ""
+msgstr "odhlášení tyto účty zapomene"
 
 #: r2/public/static/js/errors.js:3
 #, python-format
@@ -6901,7 +6746,7 @@ msgstr "sem patří husté věci"
 
 #: r2/public/static/js/multi.js:510
 msgid "add a vault to your multi."
-msgstr "přidat podtippr do vašeho sloučeného tippru."
+msgstr "přidat vault do svého multi."
 
 #: r2/public/static/js/multi.js:563
 msgid "categorize"
@@ -6909,11 +6754,11 @@ msgstr "kategorizovat"
 
 #: r2/public/static/js/multi.js:579
 msgid "open this multi"
-msgstr "otevřít tento sloučený tippr"
+msgstr "otevřít tento multi"
 
 #: r2/public/static/js/multi.js:583
 msgid "create a new multi"
-msgstr "vytvořit nový sloučený tippr"
+msgstr "vytvořit nový multi"
 
 #: r2/public/static/js/newsletter.js:78
 msgid "check your inbox to confirm your subscription"
@@ -6921,29 +6766,23 @@ msgstr "potvrďte odběr ve své schránce"
 
 #: r2/public/static/js/passkey.js:83
 msgid "couldn't reach the site"
-msgstr ""
+msgstr "web se nepodařilo zastihnout"
 
 #: r2/public/static/js/passkey.js:94
-#, fuzzy
-#| msgid "no access key set"
 msgid "no passkey was used"
-msgstr "není nastaven přístupový klíč"
+msgstr "nebyl použit žádný přístupový klíč"
 
 #: r2/public/static/js/passkey.js:97
-#, fuzzy
-#| msgid "that user is already a moderator"
 msgid "that passkey is already added"
-msgstr "tento uživatel již je moderátorem"
+msgstr "tento přístupový klíč už je přidaný"
 
 #: r2/public/static/js/passkey.js:99
 msgid "the passkey didn't work"
-msgstr ""
+msgstr "přístupový klíč nefungoval"
 
 #: r2/public/static/js/passkey.js:130
-#, fuzzy
-#| msgid "make a key"
 msgid "use a passkey"
-msgstr "vytvořit klíč"
+msgstr "použít přístupový klíč"
 
 #: r2/public/static/js/popup.js:29 r2/public/static/js/post-sharing.js:73
 msgid "close this window"
@@ -7182,7 +7021,7 @@ msgstr "nastala chyba (stav: %(status)s)"
 
 #: r2/public/static/js/traffic.js:11
 msgid "view vault traffic"
-msgstr "zobrazit přenosy podtippru"
+msgstr "zobrazit návštěvnost vaultu"
 
 #: r2/public/static/js/traffic.js:13 r2/templates/adminuser.html:144 r2/templates/flairlist.html:34 r2/templates/userlisting.html:170
 msgid "go"
@@ -7326,32 +7165,28 @@ msgid "in-feed layout key"
 msgstr "klíč rozvržení ve výpisu"
 
 #: r2/templates/adminadsettings.html:84
-#, fuzzy
-#| msgid "For an in-feed unit, its data-ad-layout-key. Leave blank for a display unit."
 msgid "For an in-feed unit, its data-ad-layout-key; for an in-article unit, in-article. Leave blank for a display unit."
-msgstr "U jednotky ve výpisu její data-ad-layout-key. U obsahové jednotky nechte prázdné."
+msgstr "U jednotky In-feed její data-ad-layout-key; u jednotky In-article in-article. U grafické jednotky nechte prázdné."
 
 #: r2/templates/adminadsettings.html:88
-#, fuzzy
-#| msgid "note (optional)"
 msgid "night mode ad units (optional)"
-msgstr "poznámka (nepovinné)"
+msgstr "reklamní jednotky pro noční režim (volitelné)"
 
 #: r2/templates/adminadsettings.html:91
 msgid "Ads are drawn by Google and can't be restyled by the site, so on night mode's dark pages they keep the colours set in AdSense. To match night mode, create an in-article (or in-feed) unit with dark colours in AdSense (its style is set when you create it; display units can't be coloured) and enter it here: members with night mode on get these instead. Blank: the units above."
-msgstr ""
+msgstr "Reklamy kreslí Google a web nemůže měnit jejich vzhled, takže na tmavých stránkách nočního režimu si ponechávají barvy nastavené v AdSense. Aby ladily s nočním režimem, vytvořte v AdSense jednotku In-article (nebo In-feed) s tmavými barvami (styl se nastavuje při vytvoření; grafické jednotky obarvit nelze) a zadejte ji sem: členové se zapnutým nočním režimem dostanou místo nich tyto. Prázdné: jednotky výše."
 
 #: r2/templates/adminadsettings.html:104
 msgid "in-article for an in-article unit."
-msgstr ""
+msgstr "in-article pro jednotku In-article."
 
 #: r2/templates/adminadsettings.html:107
 msgid "posts between in-feed ads"
-msgstr ""
+msgstr "příspěvků mezi reklamami In-feed"
 
 #: r2/templates/adminadsettings.html:112
 msgid "An in-feed ad after every this many posts in a listing (and on each page infinite scroll adds)."
-msgstr ""
+msgstr "Reklama In-feed po každých tolika příspěvcích v seznamu (a na každé stránce, kterou přidá nekonečné posouvání)."
 
 #: r2/templates/adminadsettings.html:116
 msgid "testing"
@@ -7458,18 +7293,16 @@ msgid "posts, comments and messages from untrusted users"
 msgstr "příspěvky, komentáře a zprávy od nedůvěryhodných uživatelů"
 
 #: r2/templates/adminantispam.html:98
-#, fuzzy
-#| msgid "feed"
 msgid "feedback"
-msgstr "kanál"
+msgstr "zpětná vazba"
 
 #: r2/templates/adminantispam.html:100
 msgid "tell CleanTalk what moderators decide"
-msgstr ""
+msgstr "sdělovat CleanTalku, jak moderátoři rozhodli"
 
 #: r2/templates/adminantispam.html:101
 msgid "For what CleanTalk checked: marking it spam (the spam button, or removing a user's posts as spam on /admin/users) reports spam CleanTalk missed or confirms its call; approving something it flagged reports a mistake. Removing without spam, and anything CleanTalk didn't check (trusted users' posts), sends nothing."
-msgstr ""
+msgstr "U toho, co CleanTalk zkontroloval: označení jako spam (tlačítko spam nebo odstranění příspěvků uživatele jako spam na /admin/users) nahlásí spam, který CleanTalk přehlédl, nebo potvrdí jeho úsudek; schválení něčeho, co označil, nahlásí chybu. Odstranění bez označení spamem a vše, co CleanTalk nekontroloval (příspěvky důvěryhodných uživatelů), nic neposílá."
 
 #: r2/templates/adminantispam.html:111
 msgid "CleanTalk statistics"
@@ -7915,18 +7748,15 @@ msgstr "skrýt"
 
 #: r2/templates/admincoins.html:28
 msgid "add to a user's Give Gold"
-msgstr ""
+msgstr "přidat k zlatu na darování uživatele"
 
 #: r2/templates/admincoins.html:35 r2/templates/admingold.html:35
 msgid "recipient"
 msgstr "příjemce"
 
 #: r2/templates/admincoins.html:43
-#, fuzzy
-#| msgid "a month ago"
-#| msgid_plural "%(num)s months ago"
 msgid "months of gold"
-msgstr "před měsícem"
+msgstr "měsíců zlata"
 
 #: r2/templates/admincoins.html:46 r2/templates/admingold.html:47
 msgid "(negative to take away)"
@@ -8174,21 +8004,19 @@ msgstr "Nad18"
 
 #: r2/templates/adminfeeds.html:60
 msgid "mark every post NSFW"
-msgstr ""
+msgstr "označit každý příspěvek jako NSFW"
 
 #: r2/templates/adminfeeds.html:61 r2/templates/printablebuttons.html:95
 msgid "AI label"
 msgstr "označení AI"
 
 #: r2/templates/adminfeeds.html:63
-#, fuzzy
-#| msgid "any posts (labelled)"
 msgid "not labelled"
-msgstr "všechny příspěvky (s označením)"
+msgstr "bez štítku"
 
 #: r2/templates/adminfeeds.html:68
 msgid "Put on every post, as a member labels their own. It must be one the vault accepts."
-msgstr ""
+msgstr "Dá se každému příspěvku, jako když člen označuje své. Musí to být štítek, který vault přijímá."
 
 #: r2/templates/adminfeeds.html:70
 msgid "add the feed"
@@ -8224,16 +8052,12 @@ msgid "titles start with"
 msgstr "názvy začínají"
 
 #: r2/templates/adminfeeds.html:106
-#, fuzzy
-#| msgid "post karma"
 msgid "posts are marked"
-msgstr "karma za příspěvky"
+msgstr "příspěvky se označují"
 
 #: r2/templates/adminfeeds.html:108
-#, fuzzy
-#| msgid "context"
 msgid "ai_content"
-msgstr "souvislost"
+msgstr "ai_content"
 
 #: r2/templates/adminfeeds.html:112
 msgid "paused"
@@ -8273,7 +8097,7 @@ msgstr "Přidat kanál"
 
 #: r2/templates/admingold.html:28
 msgid "give or take months of gold for a user"
-msgstr "darovat nebo vzít měsíce zlatého tippra uživateli"
+msgstr "dát nebo vzít uživateli měsíce zlata"
 
 #: r2/templates/admingold.html:44
 msgid "months"
@@ -8324,103 +8148,98 @@ msgid "This site reads its live config from ZooKeeper (liveconfig_source = zooke
 msgstr "Tento web čte konfiguraci za běhu ze ZooKeeperu (liveconfig_source = zookeeper), takže se spravuje přes scripts/write_live_config, ne tady. Používané hodnoty:"
 
 #: r2/templates/adminliveconfig.html:70
-#, fuzzy
-#| msgid "searching"
 msgid "caching"
-msgstr "hledání"
+msgstr "mezipaměť"
 
 #: r2/templates/adminliveconfig.html:74
 msgid "memcached"
-msgstr ""
+msgstr "memcached"
 
 #: r2/templates/adminliveconfig.html:76
-#, fuzzy, python-format
-#| msgid "not saved: %(error)s"
+#, python-format
 msgid "not reachable: %(error)s"
-msgstr "neuloženo: %(error)s"
+msgstr "nedostupný: %(error)s"
 
 #: r2/templates/adminliveconfig.html:79
 #, python-format
 msgid "%(used)s MB of %(limit)s MB used (%(percent)s%%), %(items)s items"
-msgstr ""
+msgstr "využito %(used)s MB z %(limit)s MB (%(percent)s%%), položek: %(items)s"
 
 #: r2/templates/adminliveconfig.html:81
 #, python-format
 msgid "%(hits)s%% of lookups found"
-msgstr ""
+msgstr "nalezeno %(hits)s%% dotazů"
 
 #: r2/templates/adminliveconfig.html:83
 #, python-format
 msgid "%(evictions)s evicted"
-msgstr ""
+msgstr "vytlačeno: %(evictions)s"
 
 #: r2/templates/adminliveconfig.html:84
 #, python-format
 msgid "up %(hours)s hours"
-msgstr ""
+msgstr "běží %(hours)s h"
 
 #: r2/templates/adminliveconfig.html:86
 msgid "It's full and throwing things out to make room: give it more memory (TIPPR_MEMCACHED_MB, re-running the installer on the server it runs on)."
-msgstr ""
+msgstr "Je plný a vyhazuje data, aby udělal místo: dejte mu víc paměti (TIPPR_MEMCACHED_MB, opětovným spuštěním instalátoru na serveru, kde běží)."
 
 #: r2/templates/adminliveconfig.html:93
 msgid "logged-out pages"
-msgstr ""
+msgstr "stránky pro nepřihlášené"
 
 #: r2/templates/adminliveconfig.html:96
 msgid "nginx doesn't keep them (TIPPR_PAGE_CACHE_SECONDS=0)."
-msgstr ""
+msgstr "nginx je neukládá (TIPPR_PAGE_CACHE_SECONDS=0)."
 
 #: r2/templates/adminliveconfig.html:98
 msgid "not cached: logged_out_page_cache_seconds below is 0."
-msgstr ""
+msgstr "neukládají se: logged_out_page_cache_seconds níže je 0."
 
 #: r2/templates/adminliveconfig.html:100
 #, python-format
 msgid "kept %(seconds)s seconds (logged_out_page_cache_seconds below)"
-msgstr ""
+msgstr "ukládají se %(seconds)s s (logged_out_page_cache_seconds níže)"
 
 #: r2/templates/adminliveconfig.html:102
 msgid "by nginx, and a CDN in front if there is one."
-msgstr ""
+msgstr "v nginx a v CDN před ním, pokud je."
 
 #: r2/templates/adminliveconfig.html:104
 msgid "by a cache in front of the site, if it has one."
-msgstr ""
+msgstr "v mezipaměti před webem, pokud nějaká je."
 
 #: r2/templates/adminliveconfig.html:110
 msgid "static files"
-msgstr ""
+msgstr "statické soubory"
 
 #: r2/templates/adminliveconfig.html:113
 msgid "served by nginx, kept by browsers for a year (a day for files without a content hash in the name)."
-msgstr ""
+msgstr "podává nginx, prohlížeče je uchovávají rok (den u souborů bez hashe obsahu v názvu)."
 
 #: r2/templates/adminliveconfig.html:115
 msgid "served by the app (development: they change as you edit them)."
-msgstr ""
+msgstr "podává aplikace (vývoj: mění se, jak je upravujete)."
 
 #: r2/templates/adminliveconfig.html:117
 msgid "served by the app (re-run the installer to have nginx serve them)."
-msgstr ""
+msgstr "podává aplikace (spusťte znovu instalátor, aby je podával nginx)."
 
 #: r2/templates/adminliveconfig.html:124
 msgid "Empty memcached? The site is slower for a while as it fills again, and rate limits and half-done sign-ins start over."
-msgstr ""
+msgstr "Vyprázdnit memcached? Web bude chvíli pomalejší, než se znovu naplní, a omezení četnosti a rozpracovaná přihlášení začnou znovu."
 
 #: r2/templates/adminliveconfig.html:126
 msgid "empty memcached"
-msgstr ""
+msgstr "vyprázdnit memcached"
 
 #: r2/templates/adminliveconfig.html:128
 msgid "For when pages show something out of date. Nothing is lost: everything there is a copy and comes back as it's used."
-msgstr ""
+msgstr "Pro případ, že stránky ukazují něco zastaralého. Nic se neztratí: vše v něm je kopie a vrátí se při používání."
 
 #: r2/templates/adminliveconfig.html:136
-#, fuzzy
-#| msgid "save page"
 msgid "save changes"
-msgstr "uložit stránku"
+msgstr "uložit změny"
 
 #: r2/templates/adminliveconfig.html:146
 msgid "common settings"
@@ -8457,60 +8276,52 @@ msgstr "Zatím žádné změny."
 
 #: r2/templates/adminloginsettings.html:25
 msgid "Members can link a Google, Facebook, GitHub or Discord account to theirs (preferences, security) and then sign in with it instead of their password. It only signs in to accounts that linked it: nothing is matched by email address. Someone signing in with one that isn't linked yet can link it to their account with their password, or, while sign-ups are open, make a new account for it. A member with two-factor sign-in still enters their code. Settings saved here override the ini file and apply immediately."
-msgstr ""
+msgstr "Členové mohou ke svému účtu propojit účet Google, Facebook, GitHub nebo Discord (nastavení, zabezpečení) a pak se jím přihlašovat místo hesla. Přihlašuje jen k účtům, které ho propojily: nic se nepáruje podle e-mailové adresy. Kdo se přihlásí ještě nepropojeným účtem, může ho heslem propojit se svým účtem, nebo, dokud je registrace otevřená, pro něj založit nový účet. Člen s dvoufázovým přihlášením stále zadává svůj kód. Nastavení uložená zde nahrazují soubor ini a platí hned."
 
 #: r2/templates/adminloginsettings.html:28
 msgid "Each provider needs an OAuth app of this site's own: create one in the provider's console, add the redirect address shown below to it, and enter its client ID and secret here."
-msgstr ""
+msgstr "Každý poskytovatel potřebuje vlastní OAuth aplikaci tohoto webu: vytvořte ji v konzoli poskytovatele, přidejte do ní adresu přesměrování zobrazenou níže a zadejte sem její client ID a tajný klíč."
 
 #: r2/templates/adminloginsettings.html:42
 #, python-format
 msgid "offer sign in with %(provider)s"
-msgstr ""
+msgstr "nabízet přihlášení přes %(provider)s"
 
 #: r2/templates/adminloginsettings.html:46 r2/templates/adminpaymentsettings.html:137
-#, fuzzy
-#| msgid "OAuth client ID"
 msgid "client ID"
-msgstr "ID klienta OAuth"
+msgstr "client ID"
 
 #: r2/templates/adminloginsettings.html:54
-#, fuzzy
-#| msgid "OAuth client secret"
 msgid "client secret"
-msgstr "tajný klíč klienta OAuth"
+msgstr "tajný klíč klienta"
 
 #: r2/templates/adminloginsettings.html:58
-#, fuzzy
-#| msgid "redirect uri"
 msgid "redirect address"
-msgstr "adresa pro přesměrování"
+msgstr "adresa přesměrování"
 
 #: r2/templates/adminloginsettings.html:63
 msgid "Google Cloud console: APIs & Services, Credentials, create an OAuth client ID (web application) and add this as an authorized redirect URI. Set up the OAuth consent screen first (scopes: email, profile, openid)."
-msgstr ""
+msgstr "Konzole Google Cloud: API a služby, Přihlašovací údaje, vytvořte ID klienta OAuth (webová aplikace) a přidejte toto jako autorizovaný URI přesměrování. Nejdřív nastavte obrazovku souhlasu OAuth (rozsahy: email, profile, openid)."
 
 #: r2/templates/adminloginsettings.html:65
 msgid "Meta for Developers: create an app with Facebook Login, and add this under Facebook Login, Settings, Valid OAuth Redirect URIs. The app ID is the client ID; the app secret is under App settings, Basic."
-msgstr ""
+msgstr "Meta for Developers: vytvořte aplikaci s Facebook Login a přidejte toto v Facebook Login, Nastavení, Platné URI přesměrování OAuth. ID aplikace je client ID; tajný klíč aplikace je v Nastavení aplikace, Základní."
 
 #: r2/templates/adminloginsettings.html:67
 msgid "GitHub, Settings, Developer settings, OAuth Apps: register a new OAuth app (not a GitHub App) with this as its authorization callback URL. Its client ID is shown there; generate a client secret on the same page."
-msgstr ""
+msgstr "GitHub, Settings, Developer settings, OAuth Apps: zaregistrujte novou OAuth aplikaci (ne GitHub App) s tímto jako Authorization callback URL. Její client ID je zobrazené tam; tajný klíč klienta vygenerujte na téže stránce."
 
 #: r2/templates/adminloginsettings.html:69
 msgid "Discord Developer Portal: create an application, then under OAuth2 add this as a redirect. The client ID and client secret (reset it to see one) are on the same page."
-msgstr ""
+msgstr "Discord Developer Portal: vytvořte aplikaci a pak v části OAuth2 přidejte toto jako redirect. Client ID a tajný klíč klienta (resetujte ho, abyste nějaký viděli) jsou na téže stránce."
 
 #: r2/templates/adminloginsettings.html:71
-#, fuzzy
-#| msgid "opened the ticket"
 msgid "open the console"
-msgstr "otevřel(a) požadavek"
+msgstr "otevřít konzoli"
 
 #: r2/templates/adminloginsettings.html:81
 msgid "Instagram no longer offers sign-in for other sites; Facebook Login is Meta's."
-msgstr ""
+msgstr "Instagram už nenabízí přihlášení pro jiné weby; Facebook Login patří Metě."
 
 #: r2/templates/adminnotessidebar.html:42
 msgid "Past notes"
@@ -8519,62 +8330,56 @@ msgstr "Předchozí poznámky"
 #: r2/templates/adminpaymentsettings.html:44
 #, python-format
 msgid "take payments with %(provider)s"
-msgstr ""
+msgstr "přijímat platby přes %(provider)s"
 
 #: r2/templates/adminpaymentsettings.html:75
-#, fuzzy
-#| msgid "feed address"
 msgid "webhook address"
-msgstr "adresa kanálu"
+msgstr "adresa webhooku"
 
 #: r2/templates/adminpaymentsettings.html:90
 msgid "Take payments for gold (and Give Gold, gifts and gift codes) and for sold ads with your own accounts at these providers. Turn on the ones you use and enter their API keys; buyers pick one on the payment page and pay on the provider's own page, so card details never reach this site. Settings saved here override the ini file and apply immediately."
-msgstr ""
+msgstr "Přijímejte platby za zlato (a Darovat zlato, dárky a dárkové kódy) a za prodané reklamy na vlastní účty u těchto poskytovatelů. Zapněte ty, které používáte, a zadejte jejich API klíče; kupující si jednoho vyberou na platební stránce a platí na stránce poskytovatele, takže údaje o kartě se na tento web nikdy nedostanou. Nastavení uložená zde nahrazují soubor ini a platí hned."
 
 #: r2/templates/adminpaymentsettings.html:93
 #, python-format
 msgid "Prices are in US dollars: gold is %(month)s a month and %(year)s a year (gold_month_price and gold_year_price in the ini)."
-msgstr ""
+msgstr "Ceny jsou v amerických dolarech: zlato stojí %(month)s měsíčně a %(year)s ročně (gold_month_price a gold_year_price v ini)."
 
 #: r2/templates/adminpaymentsettings.html:95
 msgid "Webhooks are optional: payments complete when the buyer comes back from paying either way, but with webhooks they also complete if the buyer closes the window first, and refunds made in the provider's dashboard reach the site. Webhooks are only a cue: the site always asks the provider what happened."
-msgstr ""
+msgstr "Webhooky jsou volitelné: platby se dokončí tak jako tak, když se kupující po zaplacení vrátí, ale s webhooky se dokončí i tehdy, když okno předtím zavře, a vrácení provedená v panelu poskytovatele se dostanou na web. Webhook je jen podnět: web se poskytovatele vždy zeptá, co se stalo."
 
 #: r2/templates/adminpaymentsettings.html:99
 msgid "No provider is on yet, so the payment page only offers paying with gold already bought."
-msgstr ""
+msgstr "Zatím není zapnutý žádný poskytovatel, takže platební stránka nabízí jen platbu už koupeným zlatem."
 
 #: r2/templates/adminpaymentsettings.html:106
 msgid "what can be bought"
-msgstr ""
+msgstr "co lze koupit"
 
 #: r2/templates/adminpaymentsettings.html:112
-#, fuzzy
-#| msgid "receive gold as a gift code"
 msgid "gold, Give Gold, gifts and gift codes"
-msgstr "obdržet zlato jako dárkový kupón"
+msgstr "zlato, Darovat zlato, dárky a dárkové kódy"
 
 #: r2/templates/adminpaymentsettings.html:120
 msgid "sold ads (promoted posts), paid when submitted and refunded if rejected"
-msgstr ""
+msgstr "prodané reklamy (propagované příspěvky), placené při odeslání a vrácené při zamítnutí"
 
 #: r2/templates/adminpaymentsettings.html:129
 msgid "Buyers pay with PayPal, Venmo (US), Pay Later, or a debit or credit card without a PayPal account."
-msgstr ""
+msgstr "Kupující platí přes PayPal, Venmo (USA), Zaplatit později nebo debetní či kreditní kartou bez účtu PayPal."
 
 #: r2/templates/adminpaymentsettings.html:133 r2/templates/adminpaymentsettings.html:175 r2/templates/adminpaymentsettings.html:200
-#, fuzzy
-#| msgid "announcement"
 msgid "environment"
-msgstr "oznámení"
+msgstr "prostředí"
 
 #: r2/templates/adminpaymentsettings.html:134 r2/templates/adminpaymentsettings.html:176
 msgid "sandbox (testing)"
-msgstr ""
+msgstr "sandbox (testování)"
 
 #: r2/templates/adminpaymentsettings.html:140
 msgid "From developer.paypal.com: Apps & Credentials, create a REST API app (sandbox and live have separate apps)."
-msgstr ""
+msgstr "Na developer.paypal.com: Apps & Credentials, vytvořte aplikaci REST API (sandbox a live mají oddělené aplikace)."
 
 #: r2/templates/adminpaymentsettings.html:144 r2/templates/prefapps.html:148
 msgid "secret"
@@ -8582,109 +8387,95 @@ msgstr "tajné"
 
 #: r2/templates/adminpaymentsettings.html:147
 msgid "In the app's settings, add a webhook for Checkout order approved, Payment capture completed, denied and refunded."
-msgstr ""
+msgstr "V nastavení aplikace přidejte webhook pro Checkout order approved, Payment capture completed, denied a refunded."
 
 #: r2/templates/adminpaymentsettings.html:154
 msgid "Buyers pay on Stripe Checkout with a card, Google Pay, Apple Pay, Link and any other method turned on in the Stripe dashboard (Settings > Payment methods)."
-msgstr ""
+msgstr "Kupující platí ve Stripe Checkout kartou, přes Google Pay, Apple Pay, Link a jakoukoli jinou metodu zapnutou v panelu Stripe (Settings > Payment methods)."
 
 #: r2/templates/adminpaymentsettings.html:161
 msgid "From the Stripe dashboard: Developers > API keys. sk_test_… for testing, sk_live_… for real payments."
-msgstr ""
+msgstr "V panelu Stripe: Developers > API keys. sk_test_… pro testování, sk_live_… pro skutečné platby."
 
 #: r2/templates/adminpaymentsettings.html:164
 msgid "Under Developers > Webhooks, add an endpoint for checkout.session.completed, checkout.session.async_payment_succeeded, checkout.session.async_payment_failed, checkout.session.expired and charge.refunded."
-msgstr ""
+msgstr "V Developers > Webhooks přidejte endpoint pro checkout.session.completed, checkout.session.async_payment_succeeded, checkout.session.async_payment_failed, checkout.session.expired a charge.refunded."
 
 #: r2/templates/adminpaymentsettings.html:171
 msgid "Buyers pay in USDC (a dollar stablecoin) from Coinbase or any crypto wallet, through Coinbase Business checkouts. Coinbase Commerce, the old service, has shut down."
-msgstr ""
+msgstr "Kupující platí v USDC (dolarový stablecoin) z Coinbase nebo jakékoli kryptopeněženky, přes platby Coinbase Business. Coinbase Commerce, stará služba, skončila."
 
 #: r2/templates/adminpaymentsettings.html:179
 msgid "API key ID"
-msgstr ""
+msgstr "ID API klíče"
 
 #: r2/templates/adminpaymentsettings.html:182
 msgid "A secret API key from portal.cdp.coinbase.com (API keys), for the project linked to your Coinbase Business account."
-msgstr ""
+msgstr "Tajný API klíč z portal.cdp.coinbase.com (API keys) pro projekt propojený s vaším účtem Coinbase Business."
 
 #: r2/templates/adminpaymentsettings.html:186
-#, fuzzy
-#| msgid "OAuth client secret"
 msgid "API key secret"
-msgstr "tajný klíč klienta OAuth"
+msgstr "tajný klíč API klíče"
 
 #: r2/templates/adminpaymentsettings.html:189
 msgid "Webhooks are added with the CDP command line tool, subscribed to the checkout.payment events."
-msgstr ""
+msgstr "Webhooky se přidávají nástrojem příkazové řádky CDP s odběrem událostí checkout.payment."
 
 #: r2/templates/adminpaymentsettings.html:196
 msgid "Buyers pay with Bitcoin and the other coins BitPay accepts. Refunds are made in the BitPay dashboard, then marked refunded below."
-msgstr ""
+msgstr "Kupující platí bitcoinem a dalšími mincemi, které BitPay přijímá. Vrácení se provádějí v panelu BitPay a pak se níže označí jako vrácená."
 
 #: r2/templates/adminpaymentsettings.html:201
 msgid "test (test.bitpay.com)"
-msgstr ""
+msgstr "test (test.bitpay.com)"
 
 #: r2/templates/adminpaymentsettings.html:204
 msgid "API token"
-msgstr ""
+msgstr "API token"
 
 #: r2/templates/adminpaymentsettings.html:207
 msgid "From the BitPay dashboard: Payment Tools > API Tokens, a point-of-sale token without \"require authentication\". The test site needs its own account and token."
-msgstr ""
+msgstr "V panelu BitPay: Payment Tools > API Tokens, token pro prodejní místo bez „require authentication“. Testovací web potřebuje vlastní účet a token."
 
 #: r2/templates/adminpaymentsettings.html:210
 msgid "Nothing to set up: each invoice tells BitPay where to send its notifications."
-msgstr ""
+msgstr "Není co nastavovat: každá faktura řekne BitPay, kam posílat upozornění."
 
 #: r2/templates/adminpaymentsettings.html:217
-#, fuzzy
-#| msgid "revoke the key"
 msgid "test the keys"
-msgstr "zrušit klíč"
+msgstr "otestovat klíče"
 
 #: r2/templates/adminpaymentsettings.html:218
 msgid "Asks each provider whether the saved keys work (save first). BitPay's can only be tested with a purchase."
-msgstr ""
+msgstr "Zeptá se každého poskytovatele, zda uložené klíče fungují (nejdřív uložte). Klíče BitPay lze otestovat jen nákupem."
 
 #: r2/templates/adminpaymentsettings.html:227
-#, fuzzy
-#| msgid "not set"
 msgid "not set up"
 msgstr "nenastaveno"
 
 #: r2/templates/adminpaymentsettings.html:233
-#, fuzzy
-#| msgid "authorize payment"
 msgid "latest payments"
-msgstr "schválit platbu"
+msgstr "poslední platby"
 
 #: r2/templates/adminpaymentsettings.html:235
-#, fuzzy
-#| msgid "No changes yet."
 msgid "No payments yet."
-msgstr "Zatím žádné změny."
+msgstr "Zatím žádné platby."
 
 #: r2/templates/adminpaymentsettings.html:240
 msgid "what"
-msgstr ""
+msgstr "co"
 
 #: r2/templates/adminpaymentsettings.html:241
 msgid "buyer"
-msgstr ""
+msgstr "kupující"
 
 #: r2/templates/adminpaymentsettings.html:242
-#, fuzzy
-#| msgid "account"
 msgid "amount"
-msgstr "účet"
+msgstr "částka"
 
 #: r2/templates/adminpaymentsettings.html:243
-#, fuzzy
-#| msgid "Approve"
 msgid "provider"
-msgstr "Schválit"
+msgstr "poskytovatel"
 
 #: r2/templates/adminpaymentsettings.html:268 r2/templates/renderablecampaign.html:104
 msgid "refund"
@@ -8692,236 +8483,203 @@ msgstr "vrátit peníze"
 
 #: r2/templates/adminpaymentsettings.html:269
 msgid "Refund this payment in full and take back what it bought?"
-msgstr ""
+msgstr "Vrátit tuto platbu v plné výši a odebrat, co se za ni koupilo?"
 
 #: r2/templates/adminpaymentsettings.html:271
-#, fuzzy
-#| msgid "mark unread"
 msgid "mark refunded"
-msgstr "označit jako nepřečtené"
+msgstr "označit jako vrácené"
 
 #: r2/templates/adminpaymentsettings.html:272
 msgid "Mark this payment refunded (after refunding it in the provider's dashboard) and take back what it bought?"
-msgstr ""
+msgstr "Označit tuto platbu jako vrácenou (po vrácení v panelu poskytovatele) a odebrat, co se za ni koupilo?"
 
 #: r2/templates/adminserverstatus.html:25
 msgid "Each server reports its state here once a minute (tippr-job-server_status). Only the latest report is kept; a server that stops reporting is flagged after 3 minutes and dropped after 7 days, or forget it below once it's out of service."
-msgstr ""
+msgstr "Každý server sem jednou za minutu hlásí svůj stav (tippr-job-server_status). Uchovává se jen poslední hlášení; server, který se přestane hlásit, je po 3 minutách označen a po 7 dnech odebrán, nebo ho níže zapomeňte, až bude mimo provoz."
 
 #: r2/templates/adminserverstatus.html:28
 msgid "No server has reported yet. Reports start within a minute of installing or upgrading (the tippr-job-server_status timer)."
-msgstr ""
+msgstr "Zatím se nehlásil žádný server. Hlášení začnou do minuty po instalaci nebo aktualizaci (časovač tippr-job-server_status)."
 
 #: r2/templates/adminserverstatus.html:33
-#, fuzzy
-#| msgid "dates"
 msgid "updates"
-msgstr "data"
+msgstr "aktualizace"
 
 #: r2/templates/adminserverstatus.html:35
 #, python-format
 msgid "GitHub couldn't be asked about releases (%(error)s); trying again in a few minutes."
-msgstr ""
+msgstr "GitHubu se nepodařilo zeptat na vydání (%(error)s); další pokus za pár minut."
 
 #: r2/templates/adminserverstatus.html:37
 #, python-format
 msgid "No release of %(repo)s has an installer yet."
-msgstr ""
+msgstr "Žádné vydání %(repo)s zatím nemá instalátor."
 
 #: r2/templates/adminserverstatus.html:40
 msgid "The newest release is"
-msgstr ""
+msgstr "Nejnovější vydání je"
 
 #: r2/templates/adminserverstatus.html:47
 #, python-format
 msgid "an update is available for %(n)s of your servers"
-msgstr ""
+msgstr "aktualizace je k dispozici pro servery: %(n)s"
 
 #: r2/templates/adminserverstatus.html:49
 msgid "every server runs it, or a newer one."
-msgstr ""
+msgstr "všechny servery ho používají, nebo novější."
 
 #: r2/templates/adminserverstatus.html:53
 msgid "A pre-release is out too:"
-msgstr ""
+msgstr "Vyšlo také předběžné vydání:"
 
 #: r2/templates/adminserverstatus.html:56
 msgid "Read the release's notes before updating: anything that needs doing by hand is in them."
-msgstr ""
+msgstr "Před aktualizací si přečtěte poznámky k vydání: je v nich vše, co je třeba udělat ručně."
 
 #: r2/templates/adminserverstatus.html:63
 #, python-format
 msgid "%(user)s asked for %(version)s %(time)s ago%(backup)s."
-msgstr ""
+msgstr "%(user)s požádal o %(version)s před %(time)s%(backup)s."
 
 #: r2/templates/adminserverstatus.html:63
-#, fuzzy
-#| msgid "have it make a new backup first"
 msgid ", with a backup first"
-msgstr "nechat ho nejprve vytvořit novou zálohu"
+msgstr ", nejdřív se zálohou"
 
 #: r2/templates/adminserverstatus.html:64
 msgid "Each server updates within a minute or so of its turn, one at a time; the site is down on each for 5-10 minutes while it does. Its state is on its card below."
-msgstr ""
+msgstr "Každý server se aktualizuje zhruba minutu poté, co na něj přijde řada, jeden po druhém; web je na každém během toho 5–10 minut nedostupný. Jeho stav je na jeho kartě níže."
 
 #: r2/templates/adminserverstatus.html:70
-#, fuzzy
-#| msgid "clear the list"
 msgid "clear this"
-msgstr "vymazat seznam"
+msgstr "vymazat"
 
 #: r2/templates/adminserverstatus.html:71
 msgid "(servers that haven't started don't; this doesn't undo an update)"
-msgstr ""
+msgstr "(servery, které nezačaly, už nezačnou; tím se aktualizace nevrátí)"
 
 #: r2/templates/adminserverstatus.html:77
 msgid "Update the servers to this release? Each one goes down for 5-10 minutes while it updates, one at a time. Make a Proxmox snapshot first if you can."
-msgstr ""
+msgstr "Aktualizovat servery na toto vydání? Každý bude během aktualizace 5–10 minut nedostupný, jeden po druhém. Pokud můžete, udělejte nejdřív snímek v Proxmoxu."
 
 #: r2/templates/adminserverstatus.html:83
 msgid " (pre-release)"
-msgstr ""
+msgstr " (předběžné vydání)"
 
 #: r2/templates/adminserverstatus.html:86
-#, fuzzy
-#| msgid "have it make a new backup first"
 msgid "make a site backup first"
-msgstr "nechat ho nejprve vytvořit novou zálohu"
+msgstr "nejdřív zálohovat web"
 
 #: r2/templates/adminserverstatus.html:87
-#, fuzzy
-#| msgid "other server"
 msgid "update the servers"
-msgstr "jiný server"
+msgstr "aktualizovat servery"
 
 #: r2/templates/adminserverstatus.html:89
 msgid "Each server downloads the release's installer from GitHub, checks it against the release's checksums, and re-runs the installer, as in the Proxmox upgrade steps. If the site doesn't come back, it puts the old version back. Only Proxmox containers (with tippr-firstboot) can update this way. A snapshot of the container first is still the surest way back."
-msgstr ""
+msgstr "Každý server stáhne z GitHubu instalátor vydání, ověří ho kontrolními součty vydání a znovu spustí instalátor, jako v krocích pro upgrade v Proxmoxu. Pokud se web nevrátí, obnoví se stará verze. Takto se mohou aktualizovat jen kontejnery Proxmoxu (s tippr-firstboot). Snímek kontejneru předem je stále nejjistější cesta zpět."
 
 #: r2/templates/adminserverstatus.html:92
 msgid "Updating from this page is off (TIPPR_WEB_UPDATES=0 in the installer)."
-msgstr ""
+msgstr "Aktualizace z této stránky je vypnutá (TIPPR_WEB_UPDATES=0 v instalátoru)."
 
 #: r2/templates/adminserverstatus.html:114
-#, fuzzy
-#| msgid "conversation"
 msgid "version"
-msgstr "konverzace"
+msgstr "verze"
 
 #: r2/templates/adminserverstatus.html:120
 #, python-format
 msgid "%(version)s is out"
-msgstr ""
+msgstr "vyšla verze %(version)s"
 
 #: r2/templates/adminserverstatus.html:125
-#, fuzzy
-#| msgid "date"
 msgid "update"
-msgstr "datum"
+msgstr "aktualizace"
 
 #: r2/templates/adminserverstatus.html:128
-#, fuzzy, python-format
-#| msgid "%(reason)s"
+#, python-format
 msgid "to %(version)s"
-msgstr "%(reason)s"
+msgstr "na %(version)s"
 
 #: r2/templates/adminserverstatus.html:130
 #, python-format
 msgid "(from %(version)s)"
-msgstr ""
+msgstr "(z %(version)s)"
 
 #: r2/templates/adminserverstatus.html:136
-#, fuzzy
-#| msgid "blog"
 msgid "log"
-msgstr "blog"
+msgstr "protokol"
 
 #: r2/templates/adminserverstatus.html:144
-#, fuzzy, python-format
-#| msgid "%(num)d %(time)s"
+#, python-format
 msgid "up %(time)s"
-msgstr "%(num)d %(time)s"
+msgstr "běží %(time)s"
 
 #: r2/templates/adminserverstatus.html:147
-#, fuzzy
-#| msgid "upload"
 msgid "load"
-msgstr "nahrát"
+msgstr "zátěž"
 
 #: r2/templates/adminserverstatus.html:149
 #, python-format
 msgid "(1, 5 and 15 minutes, on %(n)s CPUs)"
-msgstr ""
+msgstr "(1, 5 a 15 minut, na %(n)s CPU)"
 
 #: r2/templates/adminserverstatus.html:151
 msgid "memory"
-msgstr ""
+msgstr "paměť"
 
 #: r2/templates/adminserverstatus.html:154
 #, python-format
 msgid "%(used)s of %(total)s used (%(p)s%%)"
-msgstr ""
+msgstr "využito %(used)s z %(total)s (%(p)s%%)"
 
 #: r2/templates/adminserverstatus.html:156
-#, fuzzy, python-format
-#| msgid "(use %(current)s of your %(total)s coins)"
+#, python-format
 msgid "swap %(used)s of %(total)s"
-msgstr "(použít %(current)s z vašich %(total)s mincí)"
+msgstr "swap %(used)s z %(total)s"
 
 #: r2/templates/adminserverstatus.html:161
 msgid "disk"
-msgstr ""
+msgstr "disk"
 
 #: r2/templates/adminserverstatus.html:165
 #, python-format
 msgid "%(used)s of %(total)s used (%(p)s%%), %(free)s free"
-msgstr ""
+msgstr "využito %(used)s z %(total)s (%(p)s%%), volno %(free)s"
 
 #: r2/templates/adminserverstatus.html:169
-#, fuzzy
-#| msgid "overview"
 msgid "services"
-msgstr "přehled"
+msgstr "služby"
 
 #: r2/templates/adminserverstatus.html:178
 msgid "Forget this server? It comes back if it reports again."
-msgstr ""
+msgstr "Zapomenout tento server? Vrátí se, pokud se znovu ohlásí."
 
 #: r2/templates/adminserverstatus.html:180
-#, fuzzy
-#| msgid "target"
 msgid "forget"
-msgstr "cíl"
+msgstr "zapomenout"
 
 #: r2/templates/adminserverstatus.html:186
-#, fuzzy
-#| msgid "modqueue"
 msgid "queues"
-msgstr "fronta moderování"
+msgstr "fronty"
 
 #: r2/templates/adminserverstatus.html:188
 msgid "RabbitMQ couldn't be asked about its queues."
-msgstr ""
+msgstr "RabbitMQ se nepodařilo zeptat na jeho fronty."
 
 #: r2/templates/adminserverstatus.html:190
 msgid "Work waiting for the queue processors (tippr-consumers). A queue that keeps growing means they aren't keeping up, or aren't running."
-msgstr ""
+msgstr "Práce čekající na zpracovatele front (tippr-consumers). Fronta, která pořád roste, znamená, že nestíhají nebo neběží."
 
 #: r2/templates/adminserverstatus.html:192
-#, fuzzy
-#| msgid "modqueue"
 msgid "queue"
-msgstr "fronta moderování"
+msgstr "fronta"
 
 #: r2/templates/adminserverstatus.html:192
-#, fuzzy
-#| msgid "editing"
 msgid "waiting"
-msgstr "upravování"
+msgstr "čeká"
 
 #: r2/templates/adminserverstatus.html:192
 msgid "processors"
-msgstr ""
+msgstr "zpracovatelé"
 
 #: r2/templates/adminsitesettings.html:49 r2/templates/utils.html:243 r2/templates/utils.html:360
 msgid "upload"
@@ -9565,24 +9323,20 @@ msgid "A username finds that account and names starting with it; an email addres
 msgstr "Uživatelské jméno najde tento účet a jména, která jím začínají; e-mailová adresa najde všechny účty, které ji použily; IP adresa najde účty, které se z ní přihlásily (přihlášení se uchovávají 100 dní)."
 
 #: r2/templates/adminusers.html:35
-#, fuzzy
-#| msgid "newest"
 msgid "newer"
-msgstr "nejnovější"
+msgstr "novější"
 
 #: r2/templates/adminusers.html:41
 msgid "older"
-msgstr ""
+msgstr "starší"
 
 #: r2/templates/adminusers.html:48
-#, fuzzy
-#| msgid "new accounts"
 msgid "all accounts"
-msgstr "nové účty"
+msgstr "všechny účty"
 
 #: r2/templates/adminusers.html:49
 msgid "Newest first, including deleted and suspended accounts."
-msgstr ""
+msgstr "Nejnovější první, včetně smazaných a pozastavených účtů."
 
 #: r2/templates/adminusers.html:84
 msgid "No accounts found."
@@ -9706,7 +9460,7 @@ msgstr "reklama"
 
 #: r2/templates/allinfobar.html:40
 msgid "Exclude your subscribed vaults"
-msgstr "Vynechat podtippry které odebíráte"
+msgstr "Vynechat odebírané vaulty"
 
 #: r2/templates/allinfobar.html:46
 msgid "Exclude custom vaults"
@@ -10279,11 +10033,11 @@ msgstr "kdokoliv"
 
 #: r2/templates/createvault.html:232
 msgid "Anyone who can submit to the vault may edit"
-msgstr "Každý, kdo může předkládat do tohoto podtippru, může upravovat"
+msgstr "Upravovat může každý, kdo může do vaultu přispívat"
 
 #: r2/templates/createvault.html:239
 msgid "Vault karma required to edit and create wiki pages:"
-msgstr "Karma podtippru potřebná pro úpravu a vytváření stránek wiki:"
+msgstr "Karma ve vaultu potřebná k úpravám a vytváření stránek wiki:"
 
 #: r2/templates/createvault.html:249
 msgid "Account age (days) required to edit and create wiki pages:"
@@ -10374,10 +10128,9 @@ msgid "hide help"
 msgstr "skrýt nápovědu"
 
 #: r2/templates/createvault.html:450
-#, fuzzy, python-format
-#| msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.tippr.net. You will be able to access your tippr through your domain."
+#, python-format
 msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to %(domain)s. You will be able to reach your vault through your domain."
-msgstr "Vlastníte doménu?  Zadejte ji zde a pak u Vašeho poskytovatele DNS přidejte záznam CNAME ukazující rhs.tippr.net z odkazu Vaší domény. Pak budete mít přístup na tippr z Vaší domény."
+msgstr "Máte vlastní doménu? Zadejte ji sem, pak u svého poskytovatele DNS přidejte záznam CNAME, který doménu nasměruje na %(domain)s. Ke svému vaultu se pak dostanete přes svou doménu."
 
 #: r2/templates/createvault.html:457
 msgid "look and feel"
@@ -10552,7 +10305,7 @@ msgstr "volby stylu"
 
 #: r2/templates/flairpane.html:42
 msgid "enable user flair in this vault"
-msgstr "povolit styl uživatelů v tomto podtippru"
+msgstr "povolit uživatelské styly v tomto vaultu"
 
 #: r2/templates/flairpane.html:53
 msgid "allow users to assign their own flair"
@@ -10600,7 +10353,7 @@ msgstr "styl umístit napravo od odkazu"
 
 #: r2/templates/flairprefs.html:34
 msgid "Show my flair on this vault. It looks like:"
-msgstr "Zobrazit můj styl v tomto podtippru. Vypadá takto:"
+msgstr "Zobrazovat můj styl v tomto vaultu. Vypadá takto:"
 
 #: r2/templates/flairselector.html:26
 msgid "select flair"
@@ -10655,46 +10408,33 @@ msgid "How much does it cost?"
 msgstr "Kolik to stojí?"
 
 #: r2/templates/gilding.html:60
-#, fuzzy, python-format
-#| msgid "A single gilding costs %(price)s. If you plan to do a lot you can get a discount if you purchase some [coins](/coins)."
+#, python-format
 msgid "A single gilding costs %(price)s. If you plan to do a lot you can get a discount if you [buy gold ahead](/coins) to give later."
-msgstr "Jedno darování gold stojí %(price)s. Pokud jich plánujete víc, můžete získat slevu nákupem [mincí](/coins)."
+msgstr "Jedno pozlacení stojí %(price)s. Pokud plánujete pozlacovat hodně, můžete získat slevu, když si [koupíte zlato dopředu](/coins) a darujete ho později."
 
 #: r2/templates/gilding.html:63
-#, fuzzy
-#| msgid "What is tippr gold?"
 msgid "What is Give Gold?"
-msgstr "Co je zlatý tippr?"
+msgstr "Co je Darovat zlato?"
 
 #: r2/templates/gilding.html:64
-#, fuzzy
-#| msgid "Each coin you have can be converted into one month of tippr gold. Stored as a balance on your account, coins allow you to give gold without having to enter payment information."
 msgid "Gold you buy to give away later: each month of it gives someone one month of tippr gold. Kept as a balance on your account, it lets you give gold without entering payment information each time."
-msgstr "Každou minci lze převést na jeden měsíc tippr gold. Mince se ukládají jako zůstatek na vašem účtu a umožňují darovat gold bez zadávání platebních údajů."
+msgstr "Zlato, které kupujete, abyste ho později darovali: každý měsíc dá někomu měsíc tippr gold. Je uložené jako zůstatek na vašem účtu a umožňuje darovat zlato bez zadávání platebních údajů pokaždé."
 
 #: r2/templates/gilding.html:64
-#, fuzzy
-#| msgid "Additionally, buying coins in bulk lowers the cost of each gilding."
 msgid "Buying a year of it at once also lowers the cost of each gilding."
-msgstr "Navíc, hromadný nákup ktipprů snižuje cenu každého pozlacení."
+msgstr "Koupě celého roku najednou také zlevní každé pozlacení."
 
 #: r2/templates/gilding.html:67
-#, fuzzy
-#| msgid "How do I use coins?"
 msgid "How do I use Give Gold?"
-msgstr "Jak mám ktippry používat?"
+msgstr "Jak používat Darovat zlato?"
 
 #: r2/templates/gilding.html:68
-#, fuzzy
-#| msgid "Your coins are listed as a payment method on the checkout page."
 msgid "The gold you bought is listed as a way to pay on the checkout page."
-msgstr "Vaše mince jsou uvedeny jako platební metoda na stránce pokladny."
+msgstr "Koupené zlato se na stránce pokladny zobrazí jako způsob platby."
 
 #: r2/templates/gilding.html:74
-#, fuzzy
-#| msgid "buy tippr gold"
 msgid "buy gold"
-msgstr "koupit si zlatého tippra"
+msgstr "koupit zlato"
 
 #: r2/templates/gold.html:41
 msgid "What is tippr gold?"
@@ -10737,22 +10477,16 @@ msgid "ongoing subscription"
 msgstr "obnovující se předplatné"
 
 #: r2/templates/gold.html:118
-#, fuzzy
-#| msgid "How many months of gold would you like to give?"
 msgid "How many months of gold would you like to have to give?"
-msgstr "Kolik měsíců zlata bystě chtěli darovat?"
+msgstr "Kolik měsíců zlata chcete mít na darování?"
 
 #: r2/templates/gold.html:122
-#, fuzzy
-#| msgid "Stored as a balance on your account, coins allow you to give gold without having to enter payment information. Each coin you have can be converted into one month of tippr gold."
 msgid "Kept as a balance on your account, gold you buy lets you give it without entering payment information each time. Each month of it gives someone one month of tippr gold."
-msgstr "Mince uložené jako zůstatek na vašem účtu umožňují darovat gold bez zadávání platebních údajů. Každou minci lze převést na jeden měsíc tippr gold."
+msgstr "Koupené zlato je uložené jako zůstatek na vašem účtu a umožňuje ho darovat bez zadávání platebních údajů pokaždé. Každý měsíc dá někomu měsíc tippr gold."
 
 #: r2/templates/gold.html:123
-#, fuzzy
-#| msgid "Learn more about using coins"
 msgid "Learn more about Give Gold"
-msgstr "Více informací o používání ktipprů"
+msgstr "Více o Darovat zlato"
 
 #: r2/templates/gold.html:128
 msgid "What type of subscription would you like?"
@@ -10827,129 +10561,109 @@ msgstr "vyzvednout tento kód"
 #: r2/templates/goldabout.html:27
 #, python-format
 msgid "tippr gold is our premium membership: %(month)s a month or %(year)s a year. It keeps the site running, and gives you these extras for as long as you have it."
-msgstr ""
+msgstr "tippr gold je naše prémiové členství: %(month)s měsíčně nebo %(year)s ročně. Udržuje web v chodu a dává vám tyto výhody, dokud ho máte."
 
 #: r2/templates/goldabout.html:30
 msgid "No ads"
-msgstr ""
+msgstr "Žádné reklamy"
 
 #: r2/templates/goldabout.html:31
 msgid "Gold members don't see ads. If you'd like to see them anyway, turn off \"hide ads\" in your preferences."
-msgstr ""
+msgstr "Členové se zlatem nevidí reklamy. Pokud je chcete vidět i tak, vypněte v nastavení „skrýt reklamy“."
 
 #: r2/templates/goldabout.html:33
-#, fuzzy
-#| msgid "show trending vaults on the front page"
 msgid "More vaults on your front page"
-msgstr "zobrazovat oblíbené vaulty na titulní stránce"
+msgstr "Více vaultů na titulní stránce"
 
 #: r2/templates/goldabout.html:34
 #, python-format
 msgid "Your front page shows posts from up to %(gold)s of the vaults you subscribe to, instead of %(normal)s."
-msgstr ""
+msgstr "Vaše titulní stránka ukazuje příspěvky až z %(gold)s odebíraných vaultů místo %(normal)s."
 
 #: r2/templates/goldabout.html:36
-#, fuzzy
-#| msgid "comments disabled"
 msgid "New comments highlighted"
-msgstr "komentáře jsou vypnuté"
+msgstr "Zvýrazněné nové komentáře"
 
 #: r2/templates/goldabout.html:37
 msgid "When you come back to a post, the comments made since your last visit are highlighted, so you can catch up quickly."
-msgstr ""
+msgstr "Když se vrátíte k příspěvku, komentáře napsané od vaší poslední návštěvy jsou zvýrazněné, abyste to rychle dohnali."
 
 #: r2/templates/goldabout.html:39
-#, fuzzy
-#| msgid "save category"
 msgid "Save categories"
-msgstr "uložit kategorii"
+msgstr "Kategorie uloženého"
 
 #: r2/templates/goldabout.html:40
 msgid "Sort the posts and comments you save into your own categories, and browse your saved items one category at a time."
-msgstr ""
+msgstr "Řaďte příspěvky a komentáře, které si ukládáte, do vlastních kategorií a procházejte uložené po jedné kategorii."
 
 #: r2/templates/goldabout.html:42
-#, fuzzy
-#| msgid "filter vault"
 msgid "Filter /v/all"
-msgstr "filtrovat vault"
+msgstr "Filtrovat /v/all"
 
 #: r2/templates/goldabout.html:43
 msgid "Leave vaults you're not interested in out of /v/all by adding them to the address with a minus sign, e.g. [/v/all-funny-pics](/v/all-funny-pics)."
-msgstr ""
+msgstr "Vynechte z /v/all vaulty, které vás nezajímají, tak, že je přidáte k adrese se znaménkem mínus, např. [/v/all-funny-pics](/v/all-funny-pics)."
 
 #: r2/templates/goldabout.html:45
-#, fuzzy
-#| msgid "myrandom"
 msgid "/v/myrandom"
-msgstr "můjnáhodný"
+msgstr "/v/myrandom"
 
 #: r2/templates/goldabout.html:46
 msgid "[/v/myrandom](/v/myrandom) takes you to a random vault from your own subscriptions."
-msgstr ""
+msgstr "[/v/myrandom](/v/myrandom) vás vezme do náhodného vaultu z vašich odběrů."
 
 #: r2/templates/goldabout.html:48
-#, fuzzy
-#| msgid "+ friends"
 msgid "Notes on friends"
-msgstr "+ přátele"
+msgstr "Poznámky k přátelům"
 
 #: r2/templates/goldabout.html:49
 msgid "Add a private note to each person on your friends list, to remember who they are."
-msgstr ""
+msgstr "Přidejte soukromou poznámku ke každému člověku v seznamu přátel, abyste si pamatovali, kdo to je."
 
 #: r2/templates/goldabout.html:51
 msgid "Visited links remembered"
-msgstr ""
+msgstr "Pamatování navštívených odkazů"
 
 #: r2/templates/goldabout.html:52
 msgid "Have the site remember which links you've visited, on every device you use (turn on \"remember what links I've visited\" in your preferences)."
-msgstr ""
+msgstr "Nechte web pamatovat si, které odkazy jste navštívili, na všech vašich zařízeních (zapněte v nastavení „pamatovat si navštívené odkazy“)."
 
 #: r2/templates/goldabout.html:54
-#, fuzzy
-#| msgid "from all vaults"
 msgid "Gold-only vaults"
-msgstr "ze všech podtipprů"
+msgstr "Vaulty jen pro zlato"
 
 #: r2/templates/goldabout.html:55
 msgid "Create vaults that only gold members can see and take part in: choose \"gold only\" as the vault's type when you create it."
-msgstr ""
+msgstr "Vytvářejte vaulty, které vidí a ve kterých se zapojují jen členové se zlatem: při vytváření zvolte typ vaultu „jen pro zlato“."
 
 #: r2/templates/goldabout.html:58
-#, fuzzy
-#| msgid "gold members only"
 msgid "The members-only lounge"
-msgstr "jen pro členy gold"
+msgstr "Salonek jen pro členy"
 
 #: r2/templates/goldabout.html:59
 #, python-format
 msgid "Join the other gold members in [/v/%(lounge)s](/v/%(lounge)s), a vault just for them."
-msgstr ""
+msgstr "Přidejte se k ostatním členům se zlatem v [/v/%(lounge)s](/v/%(lounge)s), vaultu jen pro ně."
 
 #: r2/templates/goldabout.html:62
 msgid "A trophy on your profile"
-msgstr ""
+msgstr "Trofej v profilu"
 
 #: r2/templates/goldabout.html:63
 msgid "Your profile shows the tippr gold trophy."
-msgstr ""
+msgstr "Váš profil zobrazuje trofej tippr gold."
 
 #: r2/templates/goldabout.html:65
-#, fuzzy
-#| msgid "give gold"
 msgid "Giving gold"
-msgstr "darovat zlato"
+msgstr "Darování zlata"
 
 #: r2/templates/goldabout.html:66
 msgid "You can also give gold to other members, or gild a post or comment you liked: see [gilding](/gilding)."
-msgstr ""
+msgstr "Zlato můžete darovat i dalším členům nebo pozlatit příspěvek či komentář, který se vám líbil: viz [pozlacení](/gilding)."
 
 #: r2/templates/goldabout.html:70
-#, fuzzy
-#| msgid "tippr gold"
 msgid "get tippr gold"
-msgstr "zlatý tippr"
+msgstr "získat tippr gold"
 
 #: r2/templates/goldgiftcodeemail.email:28
 msgid "Thank you again for your support, and have fun spreading gold!"
@@ -10980,26 +10694,22 @@ msgid "Please select a payment method."
 msgstr "Vyberte prosím metodu zaplacení."
 
 #: r2/templates/goldpayment.html:109
-#, fuzzy, python-format
-#| msgid "Give gold often? Consider [buying coins to use](/coins), they're 40% cheaper if purchased in a set of 12."
+#, python-format
 msgid "Give gold often? Consider [buying gold ahead](/coins) to give later: it's 40% cheaper bought as a year's worth."
-msgstr "Darujete často zlato? Zvažte [koupi ktipprů pro tento účel](/coins). Pokud si je koupíte v sadě po 12, jsou o 40% levnější."
+msgstr "Darujete zlato často? Zvažte [koupi zlata dopředu](/coins) k pozdějšímu darování: koupené na rok je o 40 % levnější."
 
 #: r2/templates/goldpayment.html:111
 msgid "Would you like to [learn more about giving gold](/gilding)?"
 msgstr "Chcete získat [další informace o darování zlata](/gilding)?"
 
 #: r2/templates/goldpayment.html:129
-#, fuzzy
-#| msgid "your edit"
 msgid "your gold"
-msgstr "vaše úprava"
+msgstr "vaše zlato"
 
 #: r2/templates/goldpayment.html:131
-#, fuzzy, python-format
-#| msgid "(use %(current)s of your %(total)s coins)"
+#, python-format
 msgid "(use %(current)s of your %(total)s months of gold)"
-msgstr "(použít %(current)s z vašich %(total)s mincí)"
+msgstr "(použít %(current)s z vašich %(total)s měsíců zlata)"
 
 #: r2/templates/goldpayment.html:151
 msgid "Credit Card"
@@ -11051,7 +10761,7 @@ msgstr "Poslat"
 
 #: r2/templates/goldsubscription.html:30
 msgid "your account doesn't have a gold subscription."
-msgstr "váš účet neodebírá zlatého tippra."
+msgstr "váš účet nemá předplatné zlata."
 
 #: r2/templates/goldsubscription.html:40
 msgid "use different card"
@@ -11092,12 +10802,12 @@ msgstr "Kontaktujte administrátory."
 #: r2/templates/interestbar.html:30
 #, python-format
 msgid "ready for something new? %s subscribe %s to some new vaults."
-msgstr "připraveni na něco nového? %s přihlašte se %s k odběru nových podtipprů."
+msgstr "máte chuť na něco nového? %s odebírejte %s nějaké nové vaulty."
 
 #: r2/templates/interestbar.html:32
 #, python-format
 msgid "it looks like you haven't %s subscribed %s to any vaults yet. want some ideas?"
-msgstr "vypadá to, že zatím žádné podtippry %s neodebíráte %s. chcete poradit?"
+msgstr "zdá se, že zatím %s neodebíráte %s žádné vaulty. chcete pár nápadů?"
 
 #: r2/templates/interestbar.html:38
 msgid "what are you interested in?"
@@ -11237,36 +10947,34 @@ msgstr "režim soutěže znáhodní řazení komentářů, skryje hodnocení a r
 #: r2/templates/linkedloginlink.html:28
 #, python-format
 msgid "Your %(provider)s account (%(email)s) isn't linked to an account here yet."
-msgstr ""
+msgstr "Váš účet %(provider)s (%(email)s) zatím není propojený s žádným zdejším účtem."
 
 #: r2/templates/linkedloginlink.html:30
 #, python-format
 msgid "That %(provider)s account isn't linked to an account here yet."
-msgstr ""
+msgstr "Tento účet %(provider)s zatím není propojený s žádným zdejším účtem."
 
 #: r2/templates/linkedloginlink.html:33
 #, python-format
 msgid "Log in with your username and password to link it: next time, signing in with %(provider)s is enough."
-msgstr ""
+msgstr "Přihlaste se uživatelským jménem a heslem a propojte ho: příště stačí přihlášení přes %(provider)s."
 
 #: r2/templates/linkedloginlink.html:35
 msgid "Wrong username or password, or too many tries: wait a while and try again."
-msgstr ""
+msgstr "Nesprávné uživatelské jméno nebo heslo, nebo příliš mnoho pokusů: chvíli počkejte a zkuste to znovu."
 
 #: r2/templates/linkedloginlink.html:41
 msgid "log in and link"
-msgstr ""
+msgstr "přihlásit a propojit"
 
 #: r2/templates/linkedloginlink.html:44
-#, fuzzy
-#| msgid "create a new account"
 msgid "New here? Make an account"
-msgstr "vytvořit nový účet"
+msgstr "Jste tu noví? Založte si účet"
 
 #: r2/templates/linkedloginlink.html:45
 #, python-format
 msgid "It's linked to your %(provider)s account, so signing in with %(provider)s is enough from now on. The password lets you log in without it too."
-msgstr ""
+msgstr "Bude propojený s vaším účtem %(provider)s, takže odteď stačí přihlášení přes %(provider)s. S heslem se můžete přihlásit i bez něj."
 
 #: r2/templates/linkedloginlink.html:50 r2/templates/login.html:81
 msgid "choose a username"
@@ -11289,33 +10997,30 @@ msgid "remember me"
 msgstr "zapamatovat si mě"
 
 #: r2/templates/linkedloginlink.html:78
-#, fuzzy
-#| msgid "delete account"
 msgid "make the account"
-msgstr "smazat účet"
+msgstr "založit účet"
 
 #: r2/templates/linkedloginotp.html:19
 msgid "Your account uses two-factor sign-in: enter the code from your authenticator app (or one of your recovery codes)."
-msgstr ""
+msgstr "Váš účet používá dvoufázové přihlášení: zadejte kód z ověřovací aplikace (nebo jeden z kódů pro obnovení)."
 
 #: r2/templates/linkedloginotp.html:21
 msgid "That code isn't right. Try again."
-msgstr ""
+msgstr "Tento kód nesedí. Zkuste to znovu."
 
 #: r2/templates/linkedloginotp.html:33
 #, python-format
 msgid "don't ask again on this device for %(days)s days"
-msgstr ""
+msgstr "na tomto zařízení se %(days)s dní neptat"
 
 #: r2/templates/linkedsignin.html:29
-#, fuzzy, python-format
-#| msgid "assigned it to %(detail)s"
+#, python-format
 msgid "sign in with %(provider)s"
-msgstr "přidělil(a) uživateli %(detail)s"
+msgstr "přihlásit přes %(provider)s"
 
 #: r2/templates/linkedsignin.html:32
 msgid "for accounts that linked one (preferences, security)"
-msgstr ""
+msgstr "pro účty, které nějaký propojily (nastavení, zabezpečení)"
 
 #: r2/templates/linkinfobar.html:41
 msgid "this post was submitted on"
@@ -11363,7 +11068,7 @@ msgstr "procházet všechny vaulty"
 
 #: r2/templates/listingchooser.html:51
 msgid "multivaults"
-msgstr "sloučené tippry"
+msgstr "multivaulty"
 
 #: r2/templates/listingchooser.html:53
 msgid "hide multivaults (turn them back on in preferences)"
@@ -11371,7 +11076,7 @@ msgstr "skrýt multivaulty (znovu je zapnete v nastavení)"
 
 #: r2/templates/listingchooser.html:57
 msgid "new! create sets of vaults to view together."
-msgstr "nové! vytvořte sadu podtipprů pro společné zobrazení."
+msgstr "novinka! vytvářejte sady vaultů, které si prohlédnete společně."
 
 #: r2/templates/listingchooser.html:58
 msgid "for starters, try one of these:"
@@ -11379,7 +11084,7 @@ msgstr "pro začátek zkuste jeden z těchto:"
 
 #: r2/templates/listingchooser.html:62
 msgid "to hide these samples, create a multi of your own:"
-msgstr "pro skrytí těchto ukázek si vytvořte vlastní sloučený tippr:"
+msgstr "chcete-li tyto ukázky skrýt, vytvořte si vlastní multi:"
 
 #: r2/templates/listingsuggestions.html:33
 msgid "explore some new vaults"
@@ -11387,7 +11092,7 @@ msgstr "prozkoumejte nové vaulty"
 
 #: r2/templates/listingsuggestions.html:35
 msgid "or try a multi:"
-msgstr "nebo zkuste sloučený tippr:"
+msgstr "nebo zkuste multi:"
 
 #: r2/templates/listingsuggestions.html:41
 #, python-format
@@ -11396,7 +11101,7 @@ msgstr "nebo zkuste %(random_vault)s"
 
 #: r2/templates/listingsuggestions.html:42
 msgid "random vault"
-msgstr "náhodný podtippr"
+msgstr "náhodný vault"
 
 #: r2/templates/locationbar.html:32
 #, python-format
@@ -11636,7 +11341,7 @@ msgstr "název kopie"
 
 #: r2/templates/multiinfobar.html:93
 msgid "warning: renaming a multi will break any links and references to the old name."
-msgstr "varování: přejmenováním sloučeného tippru přestanou fungovat veškeré odkazy na starý název."
+msgstr "pozor: přejmenování multi rozbije všechny odkazy a zmínky o starém názvu."
 
 #: r2/templates/multiinfobar.html:94
 msgid "new name"
@@ -11649,7 +11354,7 @@ msgstr "upravit popis"
 #: r2/templates/multiinfobar.html:114
 #, python-format
 msgid "%(count)s vaults in this multi:"
-msgstr "%(count)s podtipprů v tomto sloučeném tippru:"
+msgstr "%(count)s vaultů v tomto multi:"
 
 #: r2/templates/multiinfobar.html:133 r2/templates/vaultinfobar.html:116
 #, python-format
@@ -11658,7 +11363,7 @@ msgstr "vytvořil(a) %(user)s"
 
 #: r2/templates/multiinfobar.html:137
 msgid "a multivault for"
-msgstr "sloučený tippr pro"
+msgstr "multivault pro"
 
 #: r2/templates/multiinfobar.html:146
 msgid "people also added:"
@@ -11678,11 +11383,11 @@ msgstr "chtěli byste..."
 
 #: r2/templates/multiinfobar.html:159
 msgid "check out vaults by category"
-msgstr "prohlédněte si podtippry podle kategorie"
+msgstr "prohlédněte si vaulty podle kategorií"
 
 #: r2/templates/multiinfobar.html:164
 msgid "explore a random vault"
-msgstr "prozkoumat náhodný podtippr"
+msgstr "prozkoumat náhodný vault"
 
 #: r2/templates/multiinfobar.html:169
 msgid "see the suggestions again"
@@ -11707,7 +11412,7 @@ msgstr "(nepovinné)"
 
 #: r2/templates/newlink.html:107
 msgid "choose a vault"
-msgstr "zvolte podtippr"
+msgstr "vyberte vault"
 
 #: r2/templates/newlink.html:114
 msgid "how much AI went into this post?"
@@ -11729,7 +11434,7 @@ msgstr "odesílat odpovědi do mé doručené pošty"
 
 #: r2/templates/newlink.html:155
 msgid "(not needed if you entered one in the last 15 minutes)"
-msgstr ""
+msgstr "(není potřeba, pokud jste ho zadali v posledních 15 minutách)"
 
 #: r2/templates/newlink.html:165
 #, python-format
@@ -11860,10 +11565,8 @@ msgid "email me"
 msgstr "napsat mi e-mail"
 
 #: r2/templates/paymentstatus.html:23
-#, fuzzy
-#| msgid "check now"
 msgid "check again"
-msgstr "zkontrolovat teď"
+msgstr "zkontrolovat znovu"
 
 #: r2/templates/permalinkmessage.html:27
 msgid "you are viewing a single comment's thread."
@@ -11951,7 +11654,7 @@ msgstr "Pouze v:"
 
 #: r2/templates/prefapps.html:249
 msgid "Only in the vaults:"
-msgstr "Pouze v podtipprech:"
+msgstr "Jen ve vaultech:"
 
 #: r2/templates/prefapps.html:267 r2/templates/prefapps.html:278
 msgid "Expires in:"
@@ -12071,7 +11774,7 @@ msgstr "nastavení vlastního stylu se nepodařilo uložit. podívejte se na chy
 
 #: r2/templates/prefoptions.html:108
 msgid "your preferences weren't saved: enter your two-factor code with them"
-msgstr ""
+msgstr "vaše nastavení nebylo uloženo: zadejte s ním svůj dvoufázový kód"
 
 #: r2/templates/prefoptions.html:110
 msgid "your preferences couldn't be saved"
@@ -12087,7 +11790,7 @@ msgstr "nekompletní"
 
 #: r2/templates/prefoptions.html:130
 msgid "volunteer to translate"
-msgstr "pomohu s překladem ovládání tippr webu"
+msgstr "pomozte s překladem"
 
 #: r2/templates/prefoptions.html:137
 msgid "location options"
@@ -12119,7 +11822,7 @@ msgstr "vedle odkazů nezobrazovat miniatury"
 
 #: r2/templates/prefoptions.html:165
 msgid "show thumbnails based on that vault's media preferences"
-msgstr "zobrazovat miniatury na základě nastavení médií tohoto podtippru"
+msgstr "zobrazovat náhledy podle nastavení médií daného vaultu"
 
 #: r2/templates/prefoptions.html:167
 msgid "to enable thumbnails, disable compressed link display"
@@ -12203,7 +11906,7 @@ msgstr "zobrazit další podrobnosti v textu domény, jsou-li dostupné"
 
 #: r2/templates/prefoptions.html:223
 msgid "(such as the source vault or the content author's url/name)"
-msgstr "(např. zdrojový podtippr nebo url/jméno autora obsahu)"
+msgstr "(například zdrojový vault nebo url/jméno autora obsahu)"
 
 #: r2/templates/prefoptions.html:226
 msgid "don't show me submissions after I've upvoted them"
@@ -12232,174 +11935,144 @@ msgid "(leave blank to show all submissions)"
 msgstr "(nechte prázdné pro zobrazení všech příspěvků)"
 
 #: r2/templates/prefoptions.html:248
-#, fuzzy
-#| msgid "announcement"
 msgid "enhancements"
-msgstr "oznámení"
+msgstr "vylepšení"
 
 #: r2/templates/prefoptions.html:251
 msgid "infinite scroll"
-msgstr ""
+msgstr "nekonečné posouvání"
 
 #: r2/templates/prefoptions.html:254
 msgid "(load the next page of a listing when you reach the bottom)"
-msgstr ""
+msgstr "(načíst další stránku seznamu, když dojedete na konec)"
 
 #: r2/templates/prefoptions.html:258
 msgid "keyboard navigation"
-msgstr ""
+msgstr "ovládání klávesnicí"
 
 #: r2/templates/prefoptions.html:261
 msgid "(j and k move between posts and comments, a and z vote; press ? on any page for the full list)"
-msgstr ""
+msgstr "(j a k přesouvají mezi příspěvky a komentáři, a a z hlasují; stiskněte ? na libovolné stránce pro celý seznam)"
 
 #: r2/templates/prefoptions.html:268
 msgid "(a button on posts that link to an image to show it in the listing, and a \"show images\" link to show them all)"
-msgstr ""
+msgstr "(tlačítko u příspěvků s odkazem na obrázek, které ho ukáže v seznamu, a odkaz „ukázat obrázky“, který ukáže všechny)"
 
 #: r2/templates/prefoptions.html:272
-#, fuzzy
-#| msgid "send messages as emails"
 msgid "expand images automatically"
-msgstr "posílat zprávy jako e-maily"
+msgstr "rozbalovat obrázky automaticky"
 
 #: r2/templates/prefoptions.html:274
 msgid "(except NSFW and spoiler posts)"
-msgstr ""
+msgstr "(kromě NSFW příspěvků a spoilerů)"
 
 #: r2/templates/prefoptions.html:277
-#, fuzzy
-#| msgid "users"
 msgid "user tags"
-msgstr "uživatelé"
+msgstr "štítky uživatelů"
 
 #: r2/templates/prefoptions.html:280
 msgid "(a tag button by usernames, to note who someone is; only you see your tags)"
-msgstr ""
+msgstr "(tlačítko štítku u uživatelských jmen, kterým si poznamenáte, kdo kdo je; své štítky vidíte jen vy)"
 
 #: r2/templates/prefoptions.html:284
-#, fuzzy
-#| msgid "user for"
 msgid "user info on hover"
-msgstr "tipprorem"
+msgstr "informace o uživateli po najetí"
 
 #: r2/templates/prefoptions.html:286
 msgid "(hold the mouse over a username to see their karma, how long they've been here and your tag)"
-msgstr ""
+msgstr "(najeďte myší na uživatelské jméno a uvidíte jeho karmu, jak dlouho tu je, a váš štítek)"
 
 #: r2/templates/prefoptions.html:289
 msgid "show the parent comment on hover"
-msgstr ""
+msgstr "ukázat nadřazený komentář po najetí"
 
 #: r2/templates/prefoptions.html:291
 msgid "(hold the mouse over a reply's \"parent\" link to read the comment it replies to)"
-msgstr ""
+msgstr "(najeďte myší na odkaz „nadřazený“ u odpovědi a přečtete si komentář, na který odpovídá)"
 
 #: r2/templates/prefoptions.html:294
-#, fuzzy
-#| msgid "posts and comments"
 msgid "count new comments"
-msgstr "příspěvky a komentáře"
+msgstr "počítat nové komentáře"
 
 #: r2/templates/prefoptions.html:296
 msgid "(\"3 new\" by posts you've opened before, and the new comments highlighted when you go back; remembered in this browser)"
-msgstr ""
+msgstr "(„3 nové“ u příspěvků, které jste už otevřeli, a zvýrazněné nové komentáře, když se vrátíte; pamatuje si to tento prohlížeč)"
 
 #: r2/templates/prefoptions.html:299
-#, fuzzy
-#| msgid "links you've downvoted"
 msgid "posts you've opened:"
-msgstr "odkazy, proti kterým jste hlasovali"
+msgstr "příspěvky, které jste otevřeli:"
 
 #: r2/templates/prefoptions.html:301
-#, fuzzy
-#| msgid "show all"
 msgid "show as usual"
-msgstr "zobrazit vše"
+msgstr "ukazovat jako obvykle"
 
 #: r2/templates/prefoptions.html:301
-#, fuzzy
-#| msgid "Read the"
 msgid "fade them"
-msgstr "Přečtěte si"
+msgstr "ztlumit je"
 
 #: r2/templates/prefoptions.html:301
-#, fuzzy
-#| msgid "hide help"
 msgid "hide them"
-msgstr "skrýt nápovědu"
+msgstr "skrýt je"
 
 #: r2/templates/prefoptions.html:306
-#, fuzzy
-#| msgid "remember this computer"
 msgid "(remembered in this browser)"
-msgstr "zapamatovat si tento počítač"
+msgstr "(pamatuje si to tento prohlížeč)"
 
 #: r2/templates/prefoptions.html:311
 msgid "(on comments pages, buttons to jump between top-level comments, the submitter's, yours, new ones or ones with links)"
-msgstr ""
+msgstr "(na stránkách komentářů tlačítka pro přeskakování mezi komentáři nejvyšší úrovně, autora příspěvku, vašimi, novými nebo s odkazy)"
 
 #: r2/templates/prefoptions.html:314
-#, fuzzy
-#| msgid "account activity"
 msgid "account switcher"
-msgstr "aktivita účtu"
+msgstr "přepínač účtů"
 
 #: r2/templates/prefoptions.html:316
 msgid "(a \"switch account\" menu by your name, to move between your accounts without logging out; logging out forgets them)"
-msgstr ""
+msgstr "(nabídka „přepnout účet“ u vašeho jména, kterou přecházíte mezi účty bez odhlášení; odhlášení je zapomene)"
 
 #: r2/templates/prefoptions.html:319
-#, fuzzy
-#| msgid "test mode"
 msgid "night mode"
-msgstr "testovací režim"
+msgstr "noční režim"
 
 #: r2/templates/prefoptions.html:321
 msgid "(light text on a dark background)"
-msgstr ""
+msgstr "(světlý text na tmavém pozadí)"
 
 #: r2/templates/prefoptions.html:324
-#, fuzzy
-#| msgid "gilded comment"
 msgid "hide child comments links"
-msgstr "pozlacený komentář"
+msgstr "odkazy pro skrytí odpovědí"
 
 #: r2/templates/prefoptions.html:327
 msgid "(on comments pages, links to fold up the replies under each comment, or all of them at once)"
-msgstr ""
+msgstr "(na stránkách komentářů odkazy pro sbalení odpovědí pod každým komentářem, nebo všech naráz)"
 
 #: r2/templates/prefoptions.html:333
-#, fuzzy
-#| msgid "filter vault"
 msgid "filters"
-msgstr "filtrovat vault"
+msgstr "filtry"
 
 #: r2/templates/prefoptions.html:336
 msgid "Posts that match are left out of listings (never your own). One per line, or separated by commas."
-msgstr ""
+msgstr "Odpovídající příspěvky se ze seznamů vynechají (nikdy vaše). Jeden na řádek, nebo oddělené čárkami."
 
 #: r2/templates/prefoptions.html:340
-#, fuzzy
-#| msgid "site key"
 msgid "title keywords"
-msgstr "klíč webu"
+msgstr "klíčová slova v názvu"
 
 #: r2/templates/prefoptions.html:340
 msgid "whole words or phrases, in any case"
-msgstr ""
+msgstr "celá slova nebo fráze, bez ohledu na velikost písmen"
 
 #: r2/templates/prefoptions.html:341
 msgid "example.com also hides its subdomains"
-msgstr ""
+msgstr "example.com skryje i své subdomény"
 
 #: r2/templates/prefoptions.html:342
 msgid "still shown when you visit the vault itself"
-msgstr ""
+msgstr "zobrazují se i tak, když navštívíte samotný vault"
 
 #: r2/templates/prefoptions.html:343
 msgid "only hides their posts; to stop seeing them altogether, block them"
-msgstr ""
+msgstr "skryje jen jejich příspěvky; pokud je nechcete vidět vůbec, zablokujte je"
 
 #: r2/templates/prefoptions.html:356
 msgid "comment options"
@@ -12522,7 +12195,7 @@ msgstr "Jsem starší osmnácti let a souhlasím se zobrazením obsahu pro dosp�
 
 #: r2/templates/prefoptions.html:452
 msgid "required to view some vaults"
-msgstr "nutné pro zobrazení některých podtipprů"
+msgstr "nutné pro zobrazení některých vaultů"
 
 #: r2/templates/prefoptions.html:454
 msgid "label posts that are not safe for work (NSFW)"
@@ -12612,10 +12285,9 @@ msgid "show how much gold you have remaining on your userpage"
 msgstr "zobrazovat na mé stránce uživatele, kolik gold mi zbývá"
 
 #: r2/templates/prefoptions.html:533
-#, fuzzy, python-format
-#| msgid "use a %(coin_link)s to automatically renew my gold if it expires"
+#, python-format
 msgid "use a month of my %(coin_link)s to automatically renew my gold if it expires"
-msgstr "použít %(coin_link)s pro automatickou obnovu mého zlata, pokud vyprší"
+msgstr "použít měsíc z mého %(coin_link)s k automatickému prodloužení zlata, když vyprší"
 
 #: r2/templates/prefoptions.html:543
 #, python-format
@@ -12652,223 +12324,188 @@ msgstr "dvoufaktorové ověření"
 
 #: r2/templates/prefsecurity.html:46
 msgid "two-factor authentication is **on**. you're asked for a code from one of your methods below when changing your password or email address, and when linking or unlinking a sign-in. a code you enter counts for 15 minutes."
-msgstr ""
+msgstr "dvoufázové ověření je **zapnuté**. při změně hesla nebo e-mailové adresy a při propojení nebo odpojení přihlášení budete požádáni o kód z jedné z metod níže. zadaný kód platí 15 minut."
 
 #: r2/templates/prefsecurity.html:50
-#, fuzzy
-#| msgid "your edit"
 msgid "your methods"
-msgstr "vaše úprava"
+msgstr "vaše metody"
 
 #: r2/templates/prefsecurity.html:55
-#, fuzzy
-#| msgid "kind"
 msgid "kind_name"
-msgstr "druh"
+msgstr "kind_name"
 
 #: r2/templates/prefsecurity.html:56
 #, python-format
 msgid "added %(when)s"
-msgstr ""
+msgstr "přidáno %(when)s"
 
 #: r2/templates/prefsecurity.html:58
-#, fuzzy, python-format
-#| msgid "last seen"
+#, python-format
 msgid "last used %(when)s"
-msgstr "naposledy"
+msgstr "naposledy použito %(when)s"
 
 #: r2/templates/prefsecurity.html:78
 msgid "Removing your only method turns two-factor off, so it needs your password too."
-msgstr ""
+msgstr "Odebrání jediné metody vypne dvoufázové ověření, takže je potřeba i heslo."
 
 #: r2/templates/prefsecurity.html:82
-#, fuzzy
-#| msgid "add a moderator"
 msgid "add a method"
-msgstr "přidat moderátora"
+msgstr "přidat metodu"
 
 #: r2/templates/prefsecurity.html:86
 msgid "also ask for a code"
-msgstr ""
+msgstr "ptát se také na kód"
 
 #: r2/templates/prefsecurity.html:89
 msgid "when logging in, with your password or a linked account (Google, GitHub...)"
-msgstr ""
+msgstr "při přihlášení, heslem nebo propojeným účtem (Google, GitHub...)"
 
 #: r2/templates/prefsecurity.html:90
 #, python-format
 msgid "you can choose to skip it for %(days)s days on a device you trust"
-msgstr ""
+msgstr "na zařízení, kterému věříte, to můžete %(days)s dní přeskočit"
 
 #: r2/templates/prefsecurity.html:94
 msgid "when saving your preferences"
-msgstr ""
+msgstr "při ukládání nastavení"
 
 #: r2/templates/prefsecurity.html:98
 msgid "when submitting a post"
-msgstr ""
+msgstr "při odesílání příspěvku"
 
 #: r2/templates/prefsecurity.html:100
 msgid "a code you enter counts for 15 minutes, so you aren't asked again and again. apps you've allowed (OAuth) aren't asked."
-msgstr ""
+msgstr "zadaný kód platí 15 minut, abyste nebyli žádáni pořád dokola. aplikace, které jste povolili (OAuth), se neptají."
 
 #: r2/templates/prefsecurity.html:107
-#, fuzzy
-#| msgid "recover password"
 msgid "recovery codes"
-msgstr "obnovit heslo"
+msgstr "kódy pro obnovení"
 
 #: r2/templates/prefsecurity.html:109
 msgid "Save these recovery codes somewhere safe (print them, or keep them in a password manager). Each one works once in place of a code from your app, if you lose your phone. They won't be shown again."
-msgstr ""
+msgstr "Uložte si tyto kódy pro obnovení na bezpečné místo (vytiskněte si je nebo je mějte ve správci hesel). Každý funguje jednou místo kódu z aplikace, pokud ztratíte telefon. Znovu se nezobrazí."
 
 #: r2/templates/prefsecurity.html:117
 msgid "Recovery codes work once each in place of a code from your app, if you lose your phone."
-msgstr ""
+msgstr "Kódy pro obnovení fungují každý jednou místo kódu z aplikace, pokud ztratíte telefon."
 
 #: r2/templates/prefsecurity.html:119
 #, python-format
 msgid "You have %(count)s left."
-msgstr ""
+msgstr "Zbývá vám %(count)s."
 
 #: r2/templates/prefsecurity.html:121
 msgid "You have none left: make new ones now."
-msgstr ""
+msgstr "Nezbývá vám žádný: vytvořte si nové hned teď."
 
 #: r2/templates/prefsecurity.html:127
 msgid "make new recovery codes"
-msgstr ""
+msgstr "vytvořit nové kódy pro obnovení"
 
 #: r2/templates/prefsecurity.html:131
 msgid "Making new ones stops the old ones working."
-msgstr ""
+msgstr "Vytvořením nových přestanou staré fungovat."
 
 #: r2/templates/prefsecurity.html:137
-#, fuzzy
-#| msgid "turn admin off"
 msgid "turn it off"
-msgstr "vypnout správce"
+msgstr "vypnout ho"
 
 #: r2/templates/prefsecurity.html:138
 msgid "to turn it off (removing every method and the recovery codes), enter your password and a code."
-msgstr ""
+msgstr "chcete-li ho vypnout (a odebrat všechny metody i kódy pro obnovení), zadejte heslo a kód."
 
 #: r2/templates/prefsecurity.html:152
-#, fuzzy
-#| msgid "turn admin off"
 msgid "turn off"
-msgstr "vypnout správce"
+msgstr "vypnout"
 
 #: r2/templates/prefsecurity.html:156
 msgid "This site asks moderators and staff to use two-factor sign-in: your moderator tools work again once it's on."
-msgstr ""
+msgstr "Tento web žádá moderátory a personál o dvoufázové přihlášení: vaše nástroje moderátora budou znovu fungovat, jakmile ho zapnete."
 
 #: r2/templates/prefsecurity.html:158
 msgid "with two-factor authentication on, changing your password or email address, and linking or unlinking a sign-in, also need a second step: a code from an authenticator app on your phone (Google Authenticator, Authy, 1Password and the like). someone who learns your password, or gets into a linked Google or Facebook account, can't take over your account here. you can add more than one method, and remove them later."
-msgstr ""
+msgstr "se zapnutým dvoufázovým ověřením vyžaduje změna hesla nebo e-mailové adresy a propojení nebo odpojení přihlášení i druhý krok: kód z ověřovací aplikace v telefonu (Google Authenticator, Authy, 1Password a podobné). kdo zjistí vaše heslo nebo se dostane do propojeného účtu Google či Facebook, váš zdejší účet nepřevezme. můžete přidat víc než jednu metodu a později je odebrat."
 
 #: r2/templates/prefsecurity.html:168
 msgid "To add an authenticator app, enter a code from one of your methods first."
-msgstr ""
+msgstr "Chcete-li přidat ověřovací aplikaci, nejdřív zadejte kód z jedné ze svých metod."
 
 #: r2/templates/prefsecurity.html:170
-#, fuzzy
-#| msgid "reset your password"
 msgid "To start, enter your password."
-msgstr "obnovit heslo"
+msgstr "Na začátek zadejte své heslo."
 
 #: r2/templates/prefsecurity.html:179
 msgid "add an authenticator app"
-msgstr ""
+msgstr "přidat ověřovací aplikaci"
 
 #: r2/templates/prefsecurity.html:186
 msgid "Or add a passkey: your phone, computer or security key confirms it's you with a fingerprint, face or PIN."
-msgstr ""
+msgstr "Nebo přidejte přístupový klíč: váš telefon, počítač nebo bezpečnostní klíč potvrdí, že jste to vy, otiskem prstu, obličejem nebo PINem."
 
 #: r2/templates/prefsecurity.html:188
 msgid "Enter a code from one of your methods first."
-msgstr ""
+msgstr "Nejdřív zadejte kód z jedné ze svých metod."
 
 #: r2/templates/prefsecurity.html:190
-#, fuzzy
-#| msgid "update your password"
 msgid "Enter your password first."
-msgstr "aktualizovat vaše heslo"
+msgstr "Nejdřív zadejte své heslo."
 
 #: r2/templates/prefsecurity.html:198
-#, fuzzy
-#| msgid "note (optional)"
 msgid "name (optional)"
-msgstr "poznámka (nepovinné)"
+msgstr "název (volitelné)"
 
 #: r2/templates/prefsecurity.html:199
 msgid "add a passkey"
-msgstr ""
+msgstr "přidat přístupový klíč"
 
 #: r2/templates/prefsecurity.html:206
-#, fuzzy
-#| msgid "below is your two-factor authentication secret. you can scan the QR code with Google Authenticator or enter the key below manually. you WILL NOT have another chance to see this secret."
 msgid "scan the QR code with your authenticator app, or enter the key below in it. you WILL NOT have another chance to see this key."
-msgstr "níže se nachází tajná část vašeho dvoufaktorového ověření. QR kód můžete naskenovat pomocí Google Authenticator nebo klíč zadat ručně v dolní části. TUTO ČÁST JIŽ NEBUDE MOCI ZNOVU ZOBRAZIT."
+msgstr "naskenujte QR kód ověřovací aplikací, nebo do ní zadejte klíč níže. tento klíč už NEBUDETE mít možnost vidět znovu."
 
 #: r2/templates/prefsecurity.html:209
 msgid "(optional, like phone or work)"
-msgstr ""
+msgstr "(volitelné, třeba telefon nebo práce)"
 
 #: r2/templates/prefsecurity.html:213
-#, fuzzy
-#| msgid "remove from the defaults"
 msgid "code from the app"
-msgstr "odebrat z výchozích"
+msgstr "kód z aplikace"
 
 #: r2/templates/prefsecurity.html:227
 msgid "sign in with another account"
-msgstr ""
+msgstr "přihlásit se jiným účtem"
 
 #: r2/templates/prefsecurity.html:229
 msgid "Link a Google, Facebook, GitHub or Discord account to sign in with it instead of your password. It only signs in to this account, and you can unlink it at any time. Your password keeps working."
-msgstr ""
+msgstr "Propojte účet Google, Facebook, GitHub nebo Discord a přihlašujte se jím místo hesla. Přihlašuje jen k tomuto účtu a odpojit ho můžete kdykoli. Heslo dál funguje."
 
 #: r2/templates/prefsecurity.html:231
 msgid "Linked. You can now sign in with it on the login page."
-msgstr ""
+msgstr "Propojeno. Teď se jím můžete přihlásit na přihlašovací stránce."
 
 #: r2/templates/prefsecurity.html:234
 msgid "Linking or unlinking needs your two-factor code (one you entered in the last 15 minutes counts)."
-msgstr ""
+msgstr "Propojení nebo odpojení vyžaduje dvoufázový kód (platí i ten, který jste zadali v posledních 15 minutách)."
 
 #: r2/templates/prefsecurity.html:242
-#, fuzzy
-#| msgid "link"
-#| msgid_plural "links"
 msgid "linked"
-msgstr "odkaz"
+msgstr "propojeno"
 
 #: r2/templates/prefsecurity.html:254
-#, fuzzy
-#| msgid "link"
-#| msgid_plural "links"
 msgid "unlink"
-msgstr "odkaz"
+msgstr "odpojit"
 
 #: r2/templates/prefsecurity.html:259
-#, fuzzy
-#| msgid "normal link"
 msgid "not linked"
-msgstr "normální odkaz"
+msgstr "nepropojeno"
 
 #: r2/templates/prefsecurity.html:266 r2/templates/prefsecurity.html:270
-#, fuzzy, python-format
-#| msgid "link ids"
+#, python-format
 msgid "link %(provider)s"
-msgstr "id odkazů"
+msgstr "propojit %(provider)s"
 
 #: r2/templates/prefupdate.html:33
-#, fuzzy
-#| msgid "a month ago"
-#| msgid_plural "%(num)s months ago"
 msgid "(entered a moment ago)"
-msgstr "před měsícem"
+msgstr "(zadáno před chvílí)"
 
 #: r2/templates/prefupdate.html:48
 msgid "verify your email"
@@ -13073,22 +12710,16 @@ msgid "mark unread"
 msgstr "označit jako nepřečtené"
 
 #: r2/templates/privacysettings.html:29
-#, fuzzy
-#| msgid "impressions"
 msgid "processing"
-msgstr "zobrazení"
+msgstr "zpracovává se"
 
 #: r2/templates/privacysettings.html:30
-#, fuzzy
-#| msgid "complete"
 msgid "completed"
-msgstr "dokončit"
+msgstr "dokončeno"
 
 #: r2/templates/privacysettings.html:32
-#, fuzzy
-#| msgid "cancel"
 msgid "cancelled"
-msgstr "zrušit"
+msgstr "zrušeno"
 
 #: r2/templates/privacysettings.html:39
 msgid "Download Your Data"
@@ -13192,37 +12823,31 @@ msgstr "Svůj účet a všechna související data můžete trvale smazat. Tuto 
 
 #: r2/templates/privacysettings.html:106
 msgid "Right away you're logged out everywhere, nobody can log in to the account, and the name can't be registered again."
-msgstr ""
+msgstr "Hned jste všude odhlášeni, nikdo se k účtu nepřihlásí a jméno nelze znovu zaregistrovat."
 
 #: r2/templates/privacysettings.html:107
 msgid "Your password, email address and moderator roles are removed 90 days later."
-msgstr ""
+msgstr "Vaše heslo, e-mailová adresa a role moderátora se odstraní o 90 dní později."
 
 #: r2/templates/privacysettings.html:108
 msgid "Your posts and comments stay, by [deleted], unless you choose to delete them below."
-msgstr ""
+msgstr "Vaše příspěvky a komentáře zůstanou, pod jménem [deleted], pokud se níže nerozhodnete je smazat."
 
 #: r2/templates/privacysettings.html:110
 msgid "Having a problem? We may be able to help:"
-msgstr ""
+msgstr "Máte nějaký problém? Možná vám můžeme pomoct:"
 
 #: r2/templates/privacysettings.html:115
-#, fuzzy
-#| msgid "posts and comments"
 msgid "your posts and comments"
-msgstr "příspěvky a komentáře"
+msgstr "vaše příspěvky a komentáře"
 
 #: r2/templates/privacysettings.html:120
-#, fuzzy
-#| msgid "why are you deactivating this account?"
 msgid "why are you leaving? (optional)"
-msgstr "proč tento účet deaktivujete?"
+msgstr "proč odcházíte? (volitelné)"
 
 #: r2/templates/privacysettings.html:140
-#, fuzzy
-#| msgid "I understand that deactivated accounts are not recoverable."
 msgid "I understand my account can't be recovered."
-msgstr "Rozumím, že deaktivované účty nelze obnovit."
+msgstr "Rozumím, že můj účet nepůjde obnovit."
 
 #: r2/templates/privacysettings.html:146
 msgid "Delete My Account"
@@ -13254,7 +12879,7 @@ msgstr "- přátele"
 
 #: r2/templates/profilebar.html:82
 msgid "really obscure karma from before it was cool to track per-vault"
-msgstr "opravdu nejasná karma z doby předtím, než bylo hustý ji sledovat za podtippr"
+msgstr "opravdu nejasná karma z doby, kdy se ještě nesledovala po vaultech"
 
 #: r2/templates/profilebar.html:108
 msgid "View/edit my avatar"
@@ -13279,7 +12904,7 @@ msgstr "správa opakujícího se předplatného"
 
 #: r2/templates/profilebar.html:174
 msgid "user for"
-msgstr "tipprorem"
+msgstr "uživatelem už"
 
 #: r2/templates/promotedlink.html:42
 #, python-format
@@ -13751,48 +13376,38 @@ msgid "Create a promotion on another user's account."
 msgstr "Vytvořit reklamu na účtu jiného uživatele."
 
 #: r2/templates/promotepayment.html:17
-#, fuzzy
-#| msgid "No notes for this domain"
 msgid "pay for this campaign"
-msgstr "Žádné poznámky pro tuto doménu"
+msgstr "zaplatit tuto kampaň"
 
 #: r2/templates/promotepayment.html:19
-#, fuzzy, python-format
-#| msgid "The duration of this link is %(duration)s (from %(start)s to %(end)s)."
+#, python-format
 msgid "The duration of this campaign is %(duration)s (from %(start)s to %(end)s)."
-msgstr "Doba trvání tohoto odkazu je %(duration)s (od %(start)s do %(end)s)."
+msgstr "Tato kampaň trvá %(duration)s (od %(start)s do %(end)s)."
 
 #: r2/templates/promotepayment.html:20
-#, fuzzy, python-format
-#| msgid "Your current budget is %(budget)s"
+#, python-format
 msgid "Its budget is %(budget)s."
-msgstr "Váš současný rozpočet je %(budget)s"
+msgstr "Její rozpočet je %(budget)s."
 
 #: r2/templates/promotepayment.html:24
-#, fuzzy
-#| msgid "house campaigns, man."
 msgid "This campaign is paid for."
-msgstr "vlastní kampaně, kámo."
+msgstr "Tato kampaň je zaplacená."
 
 #: r2/templates/promotepayment.html:25
-#, fuzzy
-#| msgid "back to Tippr"
 msgid "back to your ad"
-msgstr "zpět na Tippr"
+msgstr "zpět k vaší reklamě"
 
 #: r2/templates/promotepayment.html:28
 msgid "You pay the whole budget now. Your ad is reviewed before it runs; if it isn't approved, or you delete the campaign or change its budget before it starts, the payment is refunded."
-msgstr ""
+msgstr "Celý rozpočet zaplatíte teď. Vaše reklama se před spuštěním zkontroluje; pokud nebude schválena, nebo pokud kampaň smažete či změníte její rozpočet před začátkem, platba se vrátí."
 
 #: r2/templates/promotepayment.html:41
 msgid "You pay on the provider's own page: your card or wallet details never reach this site."
-msgstr ""
+msgstr "Platíte na stránce samotného poskytovatele: údaje o vaší kartě či peněžence se na tento web nikdy nedostanou."
 
 #: r2/templates/promotepayment.html:43
-#, fuzzy
-#| msgid "this sign-up looks like spam; if it isn't, contact the site's admins"
 msgid "This site isn't taking payments for ads yet. Please contact the site's admins."
-msgstr "tato registrace vypadá jako spam; pokud není, kontaktujte administrátory webu"
+msgstr "Tento web zatím nepřijímá platby za reklamy. Obraťte se prosím na administrátory webu."
 
 #: r2/templates/promotereport.html:50
 msgid "grouping"
@@ -13961,7 +13576,7 @@ msgstr "dotaz převeden na syntaxi %(syntax)s: %(converted)s"
 
 #: r2/templates/searchform.html:38
 msgid "find submissions in \"vault\""
-msgstr "hledat předložení v \"podtippru\""
+msgstr "najít příspěvky ve „vault“"
 
 #: r2/templates/searchform.html:40
 msgid "find submissions by \"username\""
@@ -13993,7 +13608,7 @@ msgstr "pro podrobnosti se podívejte na otázky o hledání."
 
 #: r2/templates/searchform.html:57
 msgid "advanced search: by author, vault..."
-msgstr "pokročilé hledání: podle autora, podtippru..."
+msgstr "pokročilé hledání: podle autora, vaultu..."
 
 #: r2/templates/searchform.html:70
 msgid "Search"
@@ -14042,7 +13657,7 @@ msgstr "poznámka: nárok na trofej za pozlacení budete mít pouze, když je to
 
 #: r2/templates/sitewidetraffic.html:37
 msgid "top vaults"
-msgstr "nejlepší podtippry"
+msgstr "nejlepší vaulty"
 
 #: r2/templates/sitewidetraffic.html:37 r2/templates/vaulttrafficreport.html:36
 msgid "make report"
@@ -14058,10 +13673,9 @@ msgid "self-serve advertisement tool"
 msgstr "samoobslužným reklamním nástrojem"
 
 #: r2/templates/spotlightlisting.html:76
-#, fuzzy, python-format
-#| msgid "Use of this tool is open to all members of tippr.net, and for as little as %(price)s you can advertise in this area. %%(get_started)s"
+#, python-format
 msgid "Use of this tool is open to all members of %(site)s, and for as little as %(price)s you can advertise in this area. %%(get_started)s"
-msgstr "Tento nástroj mohou používat všichni členové tippr.net a už za %(price)s můžete inzerovat v této oblasti. %%(get_started)s"
+msgstr "Tento nástroj je otevřený všem členům %(site)s a už za %(price)s můžete v této oblasti inzerovat. %%(get_started)s"
 
 #: r2/templates/spotlightlisting.html:77
 msgid "Get started"
@@ -14102,20 +13716,16 @@ msgid "first"
 msgstr "první"
 
 #: r2/templates/thanks.html:35
-#, fuzzy
-#| msgid "thanks for buying coins!"
 msgid "thanks for buying gold!"
-msgstr "děkujeme, že jste si zakoupili ktippry!"
+msgstr "děkujeme za koupi zlata!"
 
 #: r2/templates/thanks.html:37
 msgid "thanks for subscribing!"
 msgstr "děkujeme za předplatné!"
 
 #: r2/templates/thanks.html:42
-#, fuzzy
-#| msgid "enter your confirmation code below to claim your gift coins"
 msgid "enter your confirmation code below to claim your gold"
-msgstr "zadejte svůj potvrzovací kód níže pro získání vašich dárkových ktipprů"
+msgstr "níže zadejte svůj potvrzovací kód a vyzvedněte si zlato"
 
 #: r2/templates/thanks.html:44
 msgid "enter your confirmation code below to activate tippr gold"
@@ -14189,28 +13799,20 @@ msgid "daily mean"
 msgstr "denní průměr"
 
 #: r2/templates/tipprtraffic.html:134
-#, fuzzy
-#| msgid "past 24 hours"
 msgid "24 hours"
-msgstr "posledních 24 hodin"
+msgstr "24 hodin"
 
 #: r2/templates/tipprtraffic.html:135
-#, fuzzy
-#| msgid "days"
 msgid "7 days"
-msgstr "dnů"
+msgstr "7 dní"
 
 #: r2/templates/tipprtraffic.html:136
-#, fuzzy
-#| msgid "7 / 30 days"
 msgid "30 days"
-msgstr "7 / 30 dní"
+msgstr "30 dní"
 
 #: r2/templates/tipprtraffic.html:153
-#, fuzzy
-#| msgid "moderator invited"
 msgid "moderator actions, 30 days"
-msgstr "moderátor pozván"
+msgstr "akce moderátorů, 30 dní"
 
 #: r2/templates/trendingvaultsbar.html:34
 msgid "trending vaults"
@@ -14445,7 +14047,7 @@ msgstr "[odkaz]"
 
 #: r2/templates/vaultfacets.html:32
 msgid "too many results? narrow it down to a vault!"
-msgstr "příliš mnoho výsledků? zužte je na podtippr!"
+msgstr "příliš mnoho výsledků? zužte je na jeden vault!"
 
 #: r2/templates/vaultinfobar.html:46
 #, python-format
@@ -14458,7 +14060,7 @@ msgstr "Opustit tuto komunitu"
 
 #: r2/templates/vaultinfobar.html:64
 msgid "logged-in users viewing this vault in the past 15 minutes"
-msgstr "přihlášení uživatelé, kteří si prohlédli tento poddtippr za posledních 15 minut"
+msgstr "přihlášení uživatelé, kteří si tento vault prohlíželi za posledních 15 minut"
 
 #: r2/templates/vaultinfobar.html:84
 msgid "you are no longer an approved submitter"
@@ -14471,7 +14073,7 @@ msgstr "přestat být schváleným předkladatelem?"
 #: r2/templates/vaultinfobar.html:86
 #, python-format
 msgid "you are an approved submitter on this vault. (%(leave)s)"
-msgstr "jste schváleným předkladatelem tohoto podtippru. (%(leave)s)"
+msgstr "v tomto vaultu jste schváleným přispěvatelem. (%(leave)s)"
 
 #: r2/templates/vaultinfobar.html:100
 msgid "Show this vault's theme"
@@ -14483,11 +14085,11 @@ msgstr "komunitou již"
 
 #: r2/templates/vaultinfobar.html:134
 msgid "approve this vault"
-msgstr "schválit tento podtippr"
+msgstr "schválit tento vault"
 
 #: r2/templates/vaultinfobar.html:164
 msgid "ban this vault"
-msgstr "zakázat tento podtippr"
+msgstr "zakázat tento vault"
 
 #: r2/templates/vaultreportform.html:35 r2/templates/vaultreportform.html:36
 msgid "View the community rules"
@@ -14573,11 +14175,11 @@ msgstr "Všechny časy jsou v pásmu [UTC](http://en.wikipedia.org/wiki/UTC)."
 
 #: r2/templates/vaulttrafficreport.html:32
 msgid "Enter one vault per line. Traffic numbers shown are for the last full month."
-msgstr "Zadejte jeden podtippr na řádek. Údaje o přenosech jsou za poslední uběhlý měsíc."
+msgstr "Zadejte jeden vault na řádek. Uvedená návštěvnost je za poslední celý měsíc."
 
 #: r2/templates/vaulttrafficreport.html:42
 msgid "vault traffic"
-msgstr "přenosy v podtippru"
+msgstr "návštěvnost vaultu"
 
 #: r2/templates/vaulttrafficreport.html:66
 msgid "not found"
@@ -14730,7 +14332,7 @@ msgstr "předložit diskuzi"
 #: r2/templates/wikipagenotfound.html:26
 #, python-format
 msgid "The page \"%s\" was not found in this vault."
-msgstr "Stránka \"%s\" nebyla v tomto podtippru nalezena."
+msgstr "Stránka „%s“ v tomto vaultu nebyla nalezena."
 
 #: r2/templates/wikipagenotfound.html:27
 #, python-format
@@ -14747,7 +14349,7 @@ msgstr "kdo může upravovat tuto stránku?"
 
 #: r2/templates/wikipagesettings.html:43
 msgid "use vault wiki permissions"
-msgstr "použít oprávnění pro wiki podtippru"
+msgstr "použít oprávnění wiki vaultu"
 
 #: r2/templates/wikipagesettings.html:48
 msgid "only approved wiki contributors for this page may edit"
