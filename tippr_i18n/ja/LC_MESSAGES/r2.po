@@ -205,30 +205,28 @@ msgstr "そのユーザは存在しません"
 #: r2/controllers/api.py:290
 #, python-format
 msgid "you can tag at most %(n)d users"
-msgstr ""
+msgstr "タグを付けられるユーザーは最大 %(n)d 人です"
 
 #: r2/controllers/api.py:308
-#, fuzzy
-#| msgid "wrong password"
 msgid "wrong username or password"
-msgstr "間違ったパスワード"
+msgstr "ユーザー名またはパスワードが違います"
 
 #: r2/controllers/api.py:310
 msgid "that's the account you're using"
-msgstr ""
+msgstr "それは今使っているアカウントです"
 
 #: r2/controllers/api.py:312
 #, python-format
 msgid "you can keep at most %(n)d other accounts"
-msgstr ""
+msgstr "ほかのアカウントは最大 %(n)d 個まで保存できます"
 
 #: r2/controllers/api.py:317
 msgid "enter that account's two-factor code"
-msgstr ""
+msgstr "そのアカウントの 2 段階認証コードを入力してください"
 
 #: r2/controllers/api.py:333
 msgid "that account isn't available to switch to; add it again"
-msgstr ""
+msgstr "そのアカウントには切り替えられません。もう一度追加してください"
 
 #: r2/controllers/api.py:512
 msgid "your message has been delivered"
@@ -239,14 +237,12 @@ msgid "no title found"
 msgstr "タイトルが見つかりませんでした"
 
 #: r2/controllers/api.py:828 r2/controllers/linked_logins.py:173 r2/controllers/linked_logins.py:219 r2/controllers/linked_logins.py:239 r2/controllers/linked_logins.py:256
-#, fuzzy
-#| msgid "the upload took too long; try again"
 msgid "That sign-in took too long. Please start again."
-msgstr "アップロードに時間がかかりすぎました。もう一度お試しください"
+msgstr "サインインに時間がかかりすぎました。最初からやり直してください。"
 
 #: r2/controllers/api.py:833
 msgid "That account is linked already: sign in with it."
-msgstr ""
+msgstr "そのアカウントはすでに連携されています。それでサインインしてください。"
 
 #: r2/controllers/api.py:1367 r2/controllers/api.py:1748 r2/controllers/api.py:2648 r2/controllers/api.py:2948 r2/controllers/api.py:3269 r2/controllers/api.py:4149 r2/controllers/api.py:4205 r2/controllers/api.py:4259 r2/controllers/api.py:4492 r2/controllers/api.py:4497 r2/controllers/api.py:4732 r2/controllers/api.py:4797 r2/controllers/api.py:4875 r2/controllers/api.py:4941 r2/controllers/api.py:5014 r2/controllers/api.py:5100 r2/controllers/api.py:5132 r2/controllers/api.py:5152 r2/controllers/api.py:5636 r2/controllers/api.py:5676 r2/controllers/api.py:5850 r2/controllers/api.py:5868 r2/controllers/api.py:6192 r2/lib/pages/pages.py:6182
 msgid "saved"
@@ -343,23 +339,20 @@ msgstr "flairのテンプレート数が上限に達しています"
 #: r2/controllers/api.py:4937
 #, python-format
 msgid "saved, but these aren't on until their keys are filled in: %(names)s"
-msgstr ""
+msgstr "保存しましたが、キーを入力するまで次のものは有効になりません: %(names)s"
 
 #: r2/controllers/api.py:4959
 msgid "the keys work"
-msgstr ""
+msgstr "キーは有効です"
 
 #: r2/controllers/api.py:4960 r2/controllers/api.py:4977
-#, fuzzy, python-format
-#| msgid "error: %(error)s"
+#, python-format
 msgid "didn't work: %(error)s"
-msgstr "エラー: %(error)s"
+msgstr "うまくいきませんでした: %(error)s"
 
 #: r2/controllers/api.py:4965
-#, fuzzy
-#| msgid "no such account"
 msgid "no such payment"
-msgstr "そのアカウントは存在しません"
+msgstr "その支払いはありません"
 
 #: r2/controllers/api.py:4980 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminusers.html:58 r2/templates/adminvaults.html:50
 msgid "status"
@@ -372,7 +365,7 @@ msgstr "名前"
 #: r2/controllers/api.py:5010
 #, python-format
 msgid "saved, but these aren't on until their ID and secret are filled in: %(names)s"
-msgstr ""
+msgstr "保存しましたが、ID とシークレットを入力するまで次のものは有効になりません: %(names)s"
 
 #: r2/controllers/api.py:5114 r2/controllers/api.py:5140
 msgid "this site's live config is managed in ZooKeeper"
@@ -390,18 +383,16 @@ msgstr "保存されませんでした: %(error)s"
 #: r2/controllers/api.py:5156
 #, python-format
 msgid "%(saved)d saved; %(failed)d not saved (see below)"
-msgstr ""
+msgstr "%(saved)d 件保存、%(failed)d 件は保存されませんでした (下を参照)"
 
 #: r2/controllers/api.py:5162
-#, fuzzy
-#| msgid "Nothing here."
 msgid "nothing changed"
-msgstr "何もありません。"
+msgstr "何も変わっていません"
 
 #: r2/controllers/api.py:5178
 #, python-format
 msgid "couldn't empty: %(servers)s"
-msgstr ""
+msgstr "空にできませんでした: %(servers)s"
 
 #: r2/controllers/api.py:5203
 msgid "every account has been checked"
@@ -477,13 +468,12 @@ msgstr "フィードの http(s) アドレスを入力してください"
 
 #: r2/controllers/api.py:5436
 msgid "pick one of the AI labels"
-msgstr ""
+msgstr "AI ラベルのどれかを選んでください"
 
 #: r2/controllers/api.py:5440
-#, fuzzy, python-format
-#| msgid "/v/%(vault)s accepts %(policy)s."
+#, python-format
 msgid "/v/%(vault)s doesn't accept %(label)s posts"
-msgstr "/v/%(vault)s で受け付けるもの: %(policy)s。"
+msgstr "/v/%(vault)s は %(label)s の投稿を受け付けていません"
 
 #: r2/controllers/api.py:5446
 msgid "give the bot account a valid username"
@@ -540,11 +530,11 @@ msgstr "保存しました。CleanTalk のキーは有効です"
 
 #: r2/controllers/api.py:5722
 msgid "that isn't a release with an installer"
-msgstr ""
+msgstr "それはインストーラー付きのリリースではありません"
 
 #: r2/controllers/api.py:5725
 msgid "a server is updating now; wait for it to finish"
-msgstr ""
+msgstr "サーバーを更新中です。終わるまでお待ちください"
 
 #: r2/controllers/api.py:5767
 msgid "Copy the key now; it isn't shown again."
@@ -596,27 +586,23 @@ msgstr "あげるゴールドはない"
 
 #: r2/controllers/api.py:6017 r2/controllers/api.py:6047
 msgid "that's as many authenticator apps as an account can have"
-msgstr ""
+msgstr "1 つのアカウントで使える認証アプリの数の上限です"
 
 #: r2/controllers/api.py:6090
 msgid "enter a code from one of your methods first"
-msgstr ""
+msgstr "まず、いずれかの方法のコードを入力してください"
 
 #: r2/controllers/api.py:6092
-#, fuzzy
-#| msgid "reset your password"
 msgid "enter your password first"
-msgstr "パスワードのリセット"
+msgstr "まずパスワードを入力してください"
 
 #: r2/controllers/api.py:6110
 msgid "that passkey couldn't be added"
-msgstr ""
+msgstr "そのパスキーを追加できませんでした"
 
 #: r2/controllers/api.py:6145
-#, fuzzy
-#| msgid "that password is unacceptable"
 msgid "that passkey wasn't accepted"
-msgstr "そのパスワードは利用できません"
+msgstr "そのパスキーは受け付けられませんでした"
 
 #: r2/controllers/api.py:6272
 #, python-format
@@ -825,16 +811,12 @@ msgid "Claimed! Enjoy your tippr gold membership."
 msgstr "主張！あなたのtipprのゴールドメンバーシップをお楽しみください。"
 
 #: r2/controllers/front.py:1545
-#, fuzzy
-#| msgid "Your gold coins have been claimed! Now go to someone's userpage and give them a present!"
 msgid "Your gold has been claimed! Now go to someone's userpage and give them a present!"
-msgstr "あなたの金のcoinsが主張されている！今誰かのuserpageに行って、彼らにプレゼントを与える！"
+msgstr "受け取りました！今度は誰かのユーザーページに行ってプレゼントを贈りましょう！"
 
 #: r2/controllers/front.py:1549
-#, fuzzy
-#| msgid "Thanks for buying tippr gold! Your transaction has been completed and emailed to you. You can check the details by signing into your account at:"
 msgid "Thanks for buying tippr gold! Your payment has been received and your purchase delivered: check your inbox for the details."
-msgstr "tipprゴールドの購入ありがとうございます！手続きは無事完了し、メールが送信されました。以下のアカウントにログインし詳細を確認できます："
+msgstr "tippr gold のご購入ありがとうございます！お支払いを受け付け、ご購入品をお届けしました。詳細は受信箱をご覧ください。"
 
 #: r2/controllers/front.py:1555
 msgid "Thanks for buying tippr gold! Your transaction has been completed."
@@ -899,15 +881,15 @@ msgstr "おかえり！"
 
 #: r2/controllers/front.py:1953
 msgid "tippr gold isn't for sale on this site right now."
-msgstr ""
+msgstr "このサイトでは現在 tippr gold を販売していません。"
 
 #: r2/controllers/front.py:1954
 msgid "what gold gives you"
-msgstr ""
+msgstr "gold で得られるもの"
 
 #: r2/controllers/front.py:2074 r2/templates/gold.html:57 r2/templates/gold.html:112 r2/templates/prefoptions.html:532
 msgid "Give Gold"
-msgstr "Tippr goldを贈る"
+msgstr "gold を贈る"
 
 #: r2/controllers/front.py:2084 r2/controllers/ipn.py:844
 msgid "tippr gold subscription"
@@ -942,7 +924,7 @@ msgstr "該当ユーザーはアカウントを削除しました。"
 
 #: r2/controllers/ipn.py:314 r2/controllers/ipn.py:328
 msgid "the gold has been delivered!"
-msgstr "tipprゴールドが送られました！"
+msgstr "gold が届きました！"
 
 #: r2/controllers/ipn.py:319
 #, python-format
@@ -1135,10 +1117,8 @@ msgstr ""
 "お問い合わせは %(gold_email)s までご連絡いただくようお願いいたします。"
 
 #: r2/controllers/linked_logins.py:43 r2/controllers/linked_logins.py:120 r2/controllers/linked_logins.py:134 r2/controllers/linked_logins.py:160 r2/controllers/linked_logins.py:178 r2/controllers/linked_logins.py:191 r2/controllers/linked_logins.py:264 r2/templates/linkedloginotp.html:35
-#, fuzzy
-#| msgid "sign up"
 msgid "sign in"
-msgstr "登録"
+msgstr "サインイン"
 
 #: r2/controllers/linked_logins.py:76 r2/controllers/linked_logins.py:98 r2/controllers/linked_logins.py:104 r2/controllers/linked_logins.py:174 r2/controllers/linked_logins.py:200 r2/controllers/linked_logins.py:257 r2/controllers/linked_logins.py:263 r2/templates/login.html:164 r2/templates/login.html:259 r2/templates/login.html:293
 msgid "log in"
@@ -1146,23 +1126,19 @@ msgstr "ログイン"
 
 #: r2/controllers/linked_logins.py:102
 msgid "Log in to the account you want to link it to, then try again."
-msgstr ""
+msgstr "連携したいアカウントにログインしてから、もう一度お試しください。"
 
 #: r2/controllers/linked_logins.py:108
-#, fuzzy
-#| msgid "backup"
 msgid "back"
-msgstr "バックアップ"
+msgstr "戻る"
 
 #: r2/controllers/linked_logins.py:129
-#, fuzzy
-#| msgid "You need to be logged in to do that."
 msgid "That account can't be logged into."
-msgstr "その操作にはログインが必要です。"
+msgstr "そのアカウントにはログインできません。"
 
 #: r2/controllers/linked_logins.py:262
 msgid "Too many wrong codes. Please start again."
-msgstr ""
+msgstr "間違ったコードが多すぎます。最初からやり直してください。"
 
 #: r2/controllers/listingcontroller.py:596
 msgid "newest submissions"
@@ -1324,49 +1300,41 @@ msgid "%(author)s's comment from discussion \"%(title)s\""
 msgstr "%(author)sさんから \"%(title)s\"についてコメントがあります"
 
 #: r2/controllers/payments.py:32
-#, fuzzy
-#| msgid "ad placement"
 msgid "payment"
-msgstr "広告の配置"
+msgstr "支払い"
 
 #: r2/controllers/payments.py:52
-#, fuzzy
-#| msgid "that language is not available"
 msgid "That payment method isn't available."
-msgstr "言語が対応していません。"
+msgstr "その支払い方法は使えません。"
 
 #: r2/controllers/payments.py:64
 msgid "This purchase can't be paid for any more: it may have been paid already, or it's too old. Please start again."
-msgstr ""
+msgstr "この購入はもう支払えません。すでに支払い済みか、古すぎる可能性があります。最初からやり直してください。"
 
 #: r2/controllers/payments.py:67
-#, fuzzy
-#| msgid "try again"
 msgid "start again"
-msgstr "もう一度お試しください"
+msgstr "最初からやり直す"
 
 #: r2/controllers/payments.py:71
 #, python-format
 msgid "The payment couldn't be started with %(provider)s. Please try again in a moment, or pay another way."
-msgstr ""
+msgstr "%(provider)s で支払いを開始できませんでした。少し経ってからもう一度試すか、別の方法でお支払いください。"
 
 #: r2/controllers/payments.py:95
 msgid "Thanks! Your payment is being confirmed on the network, which can take a while. Your purchase is delivered as soon as it's confirmed; you can close this page."
-msgstr ""
+msgstr "ありがとうございます！お支払いはネットワーク上で確認中で、しばらくかかることがあります。確認され次第、ご購入品をお届けします。このページは閉じてかまいません。"
 
 #: r2/controllers/payments.py:100
 msgid "Thanks! Your payment is being processed. Your purchase is delivered as soon as it's done; you can close this page."
-msgstr ""
+msgstr "ありがとうございます！お支払いを処理中です。完了し次第、ご購入品をお届けします。このページは閉じてかまいません。"
 
 #: r2/controllers/payments.py:105
-#, fuzzy
-#| msgid "This element has been disabled."
 msgid "This payment was refunded."
-msgstr "この要素は無効になっています。"
+msgstr "この支払いは返金されました。"
 
 #: r2/controllers/payments.py:107
 msgid "The payment didn't go through, so you haven't been charged."
-msgstr ""
+msgstr "支払いが完了しなかったため、請求はされていません。"
 
 #: r2/controllers/payments.py:108 r2/templates/exploreitemlisting.html:77
 msgid "try again"
@@ -1405,11 +1373,8 @@ msgid "muting in moderator mail"
 msgstr "モデレーターメールでのミュート"
 
 #: r2/controllers/policies.py:55
-#, fuzzy
-#| msgid "moderator"
-#| msgid_plural "moderators"
 msgid "AutoModerator"
-msgstr "調停者"
+msgstr "AutoModerator"
 
 #: r2/controllers/policies.py:56
 msgid "using the API"
@@ -1460,10 +1425,8 @@ msgid "Request cancelled."
 msgstr "リクエストをキャンセルしました。"
 
 #: r2/controllers/promotecontroller.py:333
-#, fuzzy
-#| msgid "this site isn't taking new accounts right now"
 msgid "Advertising isn't available on this site right now."
-msgstr "このサイトは現在、新しいアカウントを受け付けていません"
+msgstr "このサイトでは現在広告を出せません。"
 
 #: r2/controllers/promotecontroller.py:338 r2/lib/menus.py:93
 msgid "advertise"
@@ -1606,10 +1569,8 @@ msgid "The contents of this page appear in the public vault description and when
 msgstr "このページの内容は vault の公開の説明と、ユーザーが vault にアクセスできないときに表示されます"
 
 #: r2/controllers/wiki.py:97
-#, fuzzy
-#| msgid "This page is used to configure AutoModerator for the vault, please see [the full documentation](/wiki/automoderator/full-documentation) for information"
 msgid "This page is used to configure AutoModerator for the vault, see [the AutoModerator help page](/help/automoderator) for how to write rules"
-msgstr "このページはAutoModeratorの設定に使われます。詳細については[ドキュメント](/wiki/automoderator/full-documentation)を参照ください。"
+msgstr "このページで vault の AutoModerator を設定します。ルールの書き方は [AutoModerator のヘルプページ](/help/automoderator) をご覧ください"
 
 #: r2/controllers/wiki.py:163
 #, python-format
@@ -2224,11 +2185,11 @@ msgstr "2要素認証はすでに有効です"
 
 #: r2/lib/errors.py:152
 msgid "enter the code from your authenticator app (or a recovery code)"
-msgstr ""
+msgstr "認証アプリのコード (またはリカバリーコード) を入力してください"
 
 #: r2/lib/errors.py:153
 msgid "turn on two-factor authentication (preferences, security) to use these tools"
-msgstr ""
+msgstr "これらのツールを使うには 2 段階認証をオンにしてください (個人設定、セキュリティ)"
 
 #: r2/lib/errors.py:154
 msgid "image problem"
@@ -2691,21 +2652,19 @@ msgstr "[削除されました]"
 
 #: r2/lib/linked_logins.py:62
 msgid "Google"
-msgstr ""
+msgstr "Google"
 
 #: r2/lib/linked_logins.py:71
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: r2/lib/linked_logins.py:81
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #: r2/lib/linked_logins.py:92
-#, fuzzy
-#| msgid "discovery"
 msgid "Discord"
-msgstr "発見"
+msgstr "Discord"
 
 #: r2/lib/live_config_admin.py:51
 msgid "Who has staff permissions: name:level pairs, comma-separated, where the level is admin, sponsor or employee. Admins can turn on admin mode. You can't remove your own admin permission here."
@@ -2713,11 +2672,11 @@ msgstr "スタッフ権限を持つ人: 名前:レベルの組をカンマ区切
 
 #: r2/lib/live_config_admin.py:55
 msgid "Moderators and staff (employees, and admins for admin mode) need two-factor sign-in turned on (preferences, security) to use their tools; until then they see a notice asking them to. Members without it are unaffected."
-msgstr ""
+msgstr "モデレーターとスタッフ (従業員、および管理モードの管理者) は、ツールを使うために 2 段階サインインをオンにする必要があります (個人設定、セキュリティ)。オンにするまでは、それを求めるお知らせが表示されます。オンにしていないメンバーには影響しません。"
 
 #: r2/lib/live_config_admin.py:60
 msgid "How long a page for logged-out visitors may be kept and served again, in seconds, by nginx's page cache or a CDN in front of the site (logged-in visitors always get fresh pages). Lower it to show changes sooner, or 0 to stop caching pages at once. nginx's page cache has to be on (the installer's TIPPR_PAGE_CACHE_SECONDS) for a value here to do anything there."
-msgstr ""
+msgstr "ログインしていない訪問者向けのページを、nginx のページキャッシュやサイト前段の CDN が保存して再配信してよい時間 (秒)。ログインしている訪問者には常に最新のページが表示されます。変更を早く反映させるには小さくし、すぐにページのキャッシュをやめるには 0 にします。ここでの値が効くには、nginx のページキャッシュがオンになっている必要があります (インストーラーの TIPPR_PAGE_CACHE_SECONDS)。"
 
 #: r2/lib/live_config_admin.py:67
 msgid "Accounts with at least this much post karma skip the captcha."
@@ -2745,7 +2704,7 @@ msgstr "すべてのページのサイドバーに表示するお知らせ。空
 
 #: r2/lib/live_config_admin.py:82
 msgid "Messages for the \"new here?\" bar shown to logged-out visitors, each in double quotes; one is picked at random. \" / \" splits a message into a heading and a smaller second line, e.g. \"Welcome! / Pick a few vaults to subscribe to.\""
-msgstr ""
+msgstr "ログインしていない訪問者に表示する「はじめての方へ」バーのメッセージ。それぞれをダブルクォートで囲みます。1 つがランダムに選ばれます。\" / \" でメッセージを見出しと小さめの 2 行目に分けます。例: \"ようこそ！ / vault をいくつか購読してみましょう。\""
 
 #: r2/lib/live_config_admin.py:87
 msgid "A message in the info bar at the top of listings. For a site-wide banner, use the announcement on /admin/site instead."
@@ -3147,20 +3106,16 @@ msgid "ad settings"
 msgstr "広告設定"
 
 #: r2/lib/menus.py:167 r2/templates/adminpaymentsettings.html:87
-#, fuzzy
-#| msgid "payment mismatch"
 msgid "payments"
-msgstr "支払いの不一致"
+msgstr "支払い"
 
 #: r2/lib/menus.py:168 r2/templates/adminloginsettings.html:22
 msgid "sign-in providers"
-msgstr ""
+msgstr "サインインのプロバイダー"
 
 #: r2/lib/menus.py:169 r2/templates/adminserverstatus.html:24
-#, fuzzy
-#| msgid "other server"
 msgid "servers"
-msgstr "ほかのサーバー"
+msgstr "サーバー"
 
 #: r2/lib/menus.py:170 r2/templates/adminbackups.html:51
 msgid "backups"
@@ -3481,10 +3436,9 @@ msgid "I understand and agree that registration on or use of this site constitut
 msgstr "本サイトに登録したり本サイトを利用すると本サイトの%(user_agreement)sおよび%(privacy_policy)sに合意したものとみなされることを理解し、了解します。"
 
 #: r2/lib/strings.py:84
-#, fuzzy, python-format
-#| msgid "to view tippr with only submissions from your friends, use [tippr.net/v/friends](%s)"
+#, python-format
 msgid "to view only submissions from your friends, use [/v/friends](%s)"
-msgstr "友達の投稿だけのtipprを見るには、[tippr.net/v/friends](%s)を使います"
+msgstr "友だちの投稿だけを見るには [/v/friends](%s) を使ってください"
 
 #: r2/lib/strings.py:86
 msgid "your vault has been created"
@@ -3501,7 +3455,7 @@ msgstr "購読しているvaultはありません。"
 
 #: r2/lib/strings.py:92
 msgid "you haven't chosen any vaults yet, so your front page shows the site's default vaults, below. subscribe or unsubscribe to make the list your own."
-msgstr ""
+msgstr "まだ vault を選んでいないため、フロントページには下のサイトの既定の vault が表示されています。購読や購読解除をして、自分だけのリストにしましょう。"
 
 #: r2/lib/strings.py:93
 msgid "below are the vaults you have subscribed to."
@@ -3680,10 +3634,9 @@ msgid "You're about to make a one-time purchase of %(amount)s of tippr gold for 
 msgstr "あなた自身(%(user)s)のために %(amount)s 分の tippr gold を 1 回だけ購入しようとしています。お支払いは合計 %(price)s です。"
 
 #: r2/lib/strings.py:141
-#, fuzzy, python-format
-#| msgid "You're about to purchase %(amount)s. They work like gift certificates: each coin you have will allow you to give one month of tippr gold to someone else. You'll pay a total of %(price)s for this."
+#, python-format
 msgid "You're about to purchase %(amount)s for Give Gold. It works like a gift certificate: each month of it gives someone one month of tippr gold. You'll pay a total of %(price)s for this."
-msgstr "%(amount)s を購入しようとしています。ギフト券のように使え、コイン 1 枚でほかの人に tippr gold を 1 か月分贈れます。お支払いは合計 %(price)s です。"
+msgstr "「gold を贈る」用に %(amount)s を購入しようとしています。ギフト券のようなもので、1 か月分ごとに誰かに tippr gold を 1 か月贈れます。お支払いは合計 %(price)s です。"
 
 #: r2/lib/strings.py:142
 #, python-format
@@ -3827,12 +3780,9 @@ msgid_plural "vaults"
 msgstr[0] "vault"
 
 #: r2/lib/strings.py:265
-#, fuzzy
-#| msgid "a month ago"
-#| msgid_plural "%(num)s months ago"
 msgid "month of gold"
 msgid_plural "months of gold"
-msgstr[0] "%(num)s月前"
+msgstr[0] "か月分の gold"
 
 #: r2/lib/strings.py:268
 msgid "reader"
@@ -4253,7 +4203,7 @@ msgstr "%Y年%b月%d日"
 
 #: r2/lib/pages/pages.py:338
 msgid "This site asks moderators and staff to use two-factor sign-in. Turn it on under [preferences, security](/prefs/security) to use your moderator tools."
-msgstr ""
+msgstr "このサイトでは、モデレーターとスタッフに 2 段階サインインをお願いしています。モデレーターツールを使うには [個人設定、セキュリティ](/prefs/security) でオンにしてください。"
 
 #: r2/lib/pages/pages.py:521
 msgid "wiki tools"
@@ -4321,10 +4271,9 @@ msgid "<3"
 msgstr "<3"
 
 #: r2/lib/pages/pages.py:1335 r2/templates/adminserverstatus.html:142
-#, fuzzy, python-format
-#| msgid "%(time)s days left"
+#, python-format
 msgid "%(time)s ago"
-msgstr "あと%(time)s日"
+msgstr "%(time)s前"
 
 #: r2/lib/pages/pages.py:1496
 #, python-format
@@ -4401,7 +4350,7 @@ msgstr "一日以内"
 #, python-format
 msgid "Give Gold: %(coins)s month"
 msgid_plural "Give Gold: %(coins)s months"
-msgstr[0] ""
+msgstr[0] "gold を贈る: %(coins)s か月"
 
 #: r2/lib/pages/pages.py:2565
 #, python-format
@@ -4483,63 +4432,57 @@ msgid "search"
 msgstr "検索"
 
 #: r2/lib/pages/pages.py:4228
-#, fuzzy, python-format
-#| msgid "a community for %(time)s"
+#, python-format
 msgid "not heard from for %(time)s"
-msgstr "コミュニティができてから%(time)s"
+msgstr "%(time)s連絡がありません"
 
 #: r2/lib/pages/pages.py:4234
 #, python-format
 msgid "memory %(p)s%% used"
-msgstr ""
+msgstr "メモリ使用率 %(p)s%%"
 
 #: r2/lib/pages/pages.py:4238
 #, python-format
 msgid "busy: load %(l)s on %(n)s CPUs"
-msgstr ""
+msgstr "高負荷: %(n)s CPU で負荷 %(l)s"
 
 #: r2/lib/pages/pages.py:4244
 #, python-format
 msgid "disk %(path)s %(p)s%% full"
-msgstr ""
+msgstr "ディスク %(path)s の使用率 %(p)s%%"
 
 #: r2/lib/pages/pages.py:4248
-#, fuzzy, python-format
-#| msgid "%(title)s : %(site)s"
+#, python-format
 msgid "%(service)s is %(state)s"
-msgstr "%(title)s : %(site)s"
+msgstr "%(service)s は %(state)s です"
 
 #: r2/lib/pages/pages.py:4251
 msgid "a different version from the others"
-msgstr ""
+msgstr "ほかとバージョンが違います"
 
 #: r2/lib/pages/pages.py:4253
 msgid "another server has the same name: set TIPPR_SERVER_NAME on one of them"
-msgstr ""
+msgstr "同じ名前のサーバーがあります。どちらかで TIPPR_SERVER_NAME を設定してください"
 
 #: r2/lib/pages/pages.py:4308
-#, fuzzy, python-format
-#| msgid "seconds"
+#, python-format
 msgid "%(n)s seconds"
-msgstr "秒"
+msgstr "%(n)s 秒"
 
 #: r2/lib/pages/pages.py:4310
-#, fuzzy, python-format
-#| msgid "minutes"
+#, python-format
 msgid "%(n)s minutes"
-msgstr "分"
+msgstr "%(n)s 分"
 
 #: r2/lib/pages/pages.py:4312
-#, fuzzy, python-format
-#| msgid "this hour"
+#, python-format
 msgid "%(n)s hours"
-msgstr "最近1時間"
+msgstr "%(n)s 時間"
 
 #: r2/lib/pages/pages.py:4313
-#, fuzzy, python-format
-#| msgid "last %(n)d days"
+#, python-format
 msgid "%(n)s days"
-msgstr "過去 %(n)d 日"
+msgstr "%(n)s 日"
 
 #: r2/lib/pages/pages.py:4526 r2/lib/pages/pages.py:4635
 msgid "added"
@@ -4752,10 +4695,8 @@ msgid "[frontpage]"
 msgstr "[フロントページ]"
 
 #: r2/lib/pages/trafficpages.py:293
-#, fuzzy
-#| msgid "activity"
 msgid "activity by day"
-msgstr "アクティビティ"
+msgstr "日ごとのアクティビティ"
 
 #: r2/lib/pages/trafficpages.py:342
 msgid "total impressions by day"
@@ -4889,100 +4830,85 @@ msgstr "PayPal"
 
 #: r2/lib/payments/__init__.py:68 r2/templates/adminpaymentsettings.html:149
 msgid "Stripe"
-msgstr ""
+msgstr "Stripe"
 
 #: r2/lib/payments/__init__.py:68
 msgid "Card / Google Pay"
-msgstr ""
+msgstr "カード / Google Pay"
 
 #: r2/lib/payments/__init__.py:69 r2/templates/adminpaymentsettings.html:166
 msgid "Coinbase"
-msgstr ""
+msgstr "Coinbase"
 
 #: r2/lib/payments/__init__.py:69
 msgid "Crypto (USDC)"
-msgstr ""
+msgstr "暗号資産 (USDC)"
 
 #: r2/lib/payments/__init__.py:70 r2/templates/adminpaymentsettings.html:191
 msgid "BitPay"
-msgstr ""
+msgstr "BitPay"
 
 #: r2/lib/payments/__init__.py:70
 msgid "Bitcoin"
 msgstr "Bitcoin"
 
 #: r2/lib/payments/__init__.py:121
-#, fuzzy
-#| msgid "waiting on the member"
 msgid "waiting for the buyer"
-msgstr "メンバーの返信待ち"
+msgstr "購入者を待っています"
 
 #: r2/lib/payments/__init__.py:122
-#, fuzzy
-#| msgid "confirm"
 msgid "confirming"
-msgstr "確認"
+msgstr "確認中"
 
 #: r2/lib/payments/__init__.py:123
-#, fuzzy
-#| msgid "unpaid"
 msgid "paid"
-msgstr "未払い"
+msgstr "支払い済み"
 
 #: r2/lib/payments/__init__.py:124 r2/templates/privacysettings.html:31
-#, fuzzy
-#| msgid "refund failed"
 msgid "failed"
-msgstr "返金に失敗しました"
+msgstr "失敗"
 
 #: r2/lib/payments/__init__.py:125 r2/templates/privacysettings.html:33
 msgid "expired"
-msgstr ""
+msgstr "期限切れ"
 
 #: r2/lib/payments/__init__.py:126
-#, fuzzy
-#| msgid "refund"
 msgid "refunded"
-msgstr "払い戻し"
+msgstr "返金済み"
 
 #: r2/lib/payments/gold.py:38
 #, python-format
 msgid "Give Gold: %(count)d months"
-msgstr ""
+msgstr "gold を贈る: %(count)d か月"
 
 #: r2/lib/payments/gold.py:40
 #, python-format
 msgid "%(count)d year(s) of gold"
-msgstr ""
+msgstr "gold %(count)d 年分"
 
 #: r2/lib/payments/gold.py:42
 #, python-format
 msgid "%(count)d month(s) of gold"
-msgstr ""
+msgstr "gold %(count)d か月分"
 
 #: r2/lib/payments/gold.py:44
-#, fuzzy, python-format
-#| msgid "what %(name)s did"
+#, python-format
 msgid "%(what)s for %(name)s"
-msgstr "%(name)s の対応"
+msgstr "%(name)s への %(what)s"
 
 #: r2/lib/payments/gold.py:46
-#, fuzzy, python-format
-#| msgid "enter a gift code for redemption"
+#, python-format
 msgid "a gift code for %(what)s"
-msgstr "買い戻すためにギフトコードを入力する"
+msgstr "%(what)s のギフトコード"
 
 #: r2/lib/payments/gold.py:122
-#, fuzzy
-#| msgid "tippr gold refund"
 msgid "gold refund"
-msgstr "tipprゴールド返金"
+msgstr "gold の返金"
 
 #: r2/lib/payments/gold.py:123
-#, fuzzy, python-format
-#| msgid "Your tippr gold payment has been refunded, contact %(gold_email)s for details"
+#, python-format
 msgid "Your gold payment has been refunded, contact %(gold_email)s for details"
-msgstr "tippr ゴールドの支払いが返金されました。詳細は  %(gold_email)s にお問い合わせください。"
+msgstr "gold のお支払いが返金されました。詳細は %(gold_email)s にお問い合わせください"
 
 #: r2/lib/utils/_utils.py:229
 msgid "millisecond"
@@ -6002,16 +5928,12 @@ msgid "Update preferences and related account information. Will not have access 
 msgstr "個人設定とアカウント情報を更新してください。電子メールもしくはパスワードにアクセスができなくなる可能性があります。"
 
 #: r2/models/token.py:126
-#, fuzzy
-#| msgid "renew your tippr gold"
 msgid "Spend your gold"
-msgstr "tipprゴールドを更新する"
+msgstr "gold を使う"
 
 #: r2/models/token.py:127
-#, fuzzy
-#| msgid "Spend my tippr gold coins on giving gold to other users."
 msgid "Spend the gold I bought on giving gold to other users."
-msgstr "tippr gold のコインを使ってほかのユーザーに gold を贈る。"
+msgstr "購入した gold を、ほかのユーザーに gold を贈るのに使います。"
 
 #: r2/models/token.py:132
 msgid "Edit Posts"
@@ -6319,31 +6241,24 @@ msgstr "読み込み中…"
 
 #: r2/public/static/js/enhancements.js:95
 msgid "couldn't load more; try again"
-msgstr ""
+msgstr "これ以上読み込めませんでした。もう一度お試しください"
 
 #: r2/public/static/js/enhancements.js:129
-#, fuzzy, python-format
-#| msgid "Share to %(name)s"
+#, python-format
 msgid "page %(num)s"
-msgstr "%(name)s で共有"
+msgstr "%(num)s ページ目"
 
 #: r2/public/static/js/enhancements.js:156
-#, fuzzy
-#| msgid "there doesn't seem to be anything here"
 msgid "there doesn't seem to be anything more here"
-msgstr "ここには何もないようです"
+msgstr "ここにはこれ以上何もないようです"
 
 #: r2/public/static/js/enhancements.js:173
-#, fuzzy
-#| msgid "posts and comments"
 msgid "next post or comment"
-msgstr "投稿とコメント"
+msgstr "次の投稿またはコメント"
 
 #: r2/public/static/js/enhancements.js:174
-#, fuzzy
-#| msgid "their posts and comments…"
 msgid "previous post or comment"
-msgstr "その人の投稿とコメント…"
+msgstr "前の投稿またはコメント"
 
 #: r2/public/static/js/enhancements.js:175 r2/templates/printable.html:233
 msgid "upvote"
@@ -6354,170 +6269,128 @@ msgid "downvote"
 msgstr "反対投票"
 
 #: r2/public/static/js/enhancements.js:177
-#, fuzzy
-#| msgid "open links in a new window"
 msgid "open the link (shift: in a new tab)"
-msgstr "リンクを新しいウィンドウで表示する"
+msgstr "リンクを開く (Shift: 新しいタブで)"
 
 #: r2/public/static/js/enhancements.js:178
-#, fuzzy
-#| msgid "top %d comments"
 msgid "open the comments"
-msgstr "上位 %d 件のコメント"
+msgstr "コメントを開く"
 
 #: r2/public/static/js/enhancements.js:179
-#, fuzzy
-#| msgid "expand media previews on comments pages"
 msgid "expand or collapse the preview, or the comment"
-msgstr "コメントページでメディアのプレビューを展開する"
+msgstr "プレビューまたはコメントを開く/閉じる"
 
 #: r2/public/static/js/enhancements.js:180 r2/public/static/js/enhancements.js:631 r2/public/static/js/saved.js:122 r2/public/static/js/saved.js:161 r2/public/static/js/sponsored.js:97 r2/templates/adminadsettings.html:128 r2/templates/adminantispam.html:106 r2/templates/adminemailsettings.html:95 r2/templates/adminfeeds.html:70 r2/templates/adminloginsettings.html:77 r2/templates/adminpaymentsettings.html:213 r2/templates/adminsitesettings.html:127 r2/templates/adminsupportstaff.html:57 r2/templates/flairlistrow.html:48 r2/templates/flairselector.html:54 r2/templates/moderatorpermissions.html:55 r2/templates/prefsecurity.html:102 r2/templates/prefupdate.html:99 r2/templates/prefupdate.html:153 r2/templates/printablebuttons.html:106 r2/templates/printablebuttons.html:375 r2/templates/printablebuttons.html:480 r2/templates/promotelinkedit.html:218 r2/templates/vaultstylesheet.html:70
 msgid "save"
 msgstr "保存"
 
 #: r2/public/static/js/enhancements.js:181
-#, fuzzy
-#| msgid "remove comment"
 msgid "reply to the comment"
-msgstr "コメントを除去する"
+msgstr "コメントに返信"
 
 #: r2/public/static/js/enhancements.js:182
-#, fuzzy
-#| msgid "approve comment"
 msgid "parent comment"
-msgstr "コメントを承認する"
+msgstr "親コメント"
 
 #: r2/public/static/js/enhancements.js:183
-#, fuzzy
-#| msgid "save page"
 msgid "next page"
-msgstr "ページを保存する"
+msgstr "次のページ"
 
 #: r2/public/static/js/enhancements.js:184
-#, fuzzy
-#| msgid "show AdSense ads"
 msgid "show these keys"
-msgstr "AdSense 広告を表示する"
+msgstr "このキー一覧を表示"
 
 #: r2/public/static/js/enhancements.js:361
 msgid "keyboard shortcuts"
-msgstr ""
+msgstr "キーボードショートカット"
 
 #: r2/public/static/js/enhancements.js:363
 msgid "turn these off under \"enhancements\" in your preferences"
-msgstr ""
+msgstr "個人設定の「拡張機能」でオフにできます"
 
 #: r2/public/static/js/enhancements.js:388 r2/public/static/js/enhancements.js:426
-#, fuzzy
-#| msgid "all %d comments"
 msgid "hide all child comments"
-msgstr "全 %d 件のコメント"
+msgstr "すべての返信を隠す"
 
 #: r2/public/static/js/enhancements.js:404 r2/public/static/js/enhancements.js:419
-#, fuzzy
-#| msgid "gilded comment"
 msgid "hide child comments"
-msgstr "ギルデッドコメント"
+msgstr "返信を隠す"
 
 #: r2/public/static/js/enhancements.js:419
-#, fuzzy
-#| msgid "top %d comments"
 msgid "show child comments"
-msgstr "上位 %d 件のコメント"
+msgstr "返信を表示"
 
 #: r2/public/static/js/enhancements.js:426
-#, fuzzy
-#| msgid "all %d comments"
 msgid "show all child comments"
-msgstr "全 %d 件のコメント"
+msgstr "すべての返信を表示"
 
 #: r2/public/static/js/enhancements.js:458 r2/public/static/js/enhancements.js:523
-#, fuzzy
-#| msgid "header image"
 msgid "hide images"
-msgstr "ヘッダー画像"
+msgstr "画像を隠す"
 
 #: r2/public/static/js/enhancements.js:458 r2/public/static/js/enhancements.js:523 r2/templates/prefoptions.html:265
-#, fuzzy
-#| msgid "share image"
 msgid "show images"
-msgstr "共有用の画像"
+msgstr "画像を表示"
 
 #: r2/public/static/js/enhancements.js:479 r2/public/static/js/enhancements.js:517
-#, fuzzy
-#| msgid "share image"
 msgid "show image"
-msgstr "共有用の画像"
+msgstr "画像を表示"
 
 #: r2/public/static/js/enhancements.js:517
-#, fuzzy
-#| msgid "header image"
 msgid "hide image"
-msgstr "ヘッダー画像"
+msgstr "画像を隠す"
 
 #: r2/public/static/js/enhancements.js:576
 msgid "your tag; click to change it"
-msgstr ""
+msgstr "あなたのタグ。クリックして変更"
 
 #: r2/public/static/js/enhancements.js:583 r2/public/static/js/enhancements.js:755
-#, fuzzy
-#| msgid "Edit this rule."
 msgid "tag this user"
-msgstr "このルールを編集します。"
+msgstr "このユーザーにタグを付ける"
 
 #: r2/public/static/js/enhancements.js:610
-#, fuzzy
-#| msgid "ago"
 msgid "tag"
-msgstr "前"
+msgstr "タグ"
 
 #: r2/public/static/js/enhancements.js:610
-#, fuzzy, python-format
-#| msgid "profile for %(user)s"
+#, python-format
 msgid "tag for %(user)s"
-msgstr "%(user)sのプロフィール"
+msgstr "%(user)s のタグ"
 
 #: r2/public/static/js/enhancements.js:628
-#, fuzzy, python-format
-#| msgid "saved by %(user)s"
+#, python-format
 msgid "tag %(user)s"
-msgstr "%(user)sが保存"
+msgstr "%(user)s にタグを付ける"
 
 #: r2/public/static/js/enhancements.js:632
-#, fuzzy
-#| msgid "remove post"
 msgid "remove tag"
-msgstr "投稿を除去する"
+msgstr "タグを削除"
 
 #: r2/public/static/js/enhancements.js:672
 msgid "couldn't save the tag; try again"
-msgstr ""
+msgstr "タグを保存できませんでした。もう一度お試しください"
 
 #: r2/public/static/js/enhancements.js:710
 #, python-format
 msgid "%(num)s year"
 msgid_plural "%(num)s years"
-msgstr[0] ""
+msgstr[0] "%(num)s 年"
 
 #: r2/public/static/js/enhancements.js:714
-#, fuzzy, python-format
-#| msgid "%(num)d %(point)s"
+#, python-format
 msgid "%(num)s month"
 msgid_plural "%(num)s months"
-msgstr[0] "%(num)d%(point)s"
+msgstr[0] "%(num)s か月"
 
 #: r2/public/static/js/enhancements.js:716
-#, fuzzy, python-format
-#| msgid "%(time)s days left"
+#, python-format
 msgid "%(num)s day"
 msgid_plural "%(num)s days"
-msgstr[0] "あと%(time)s日"
+msgstr[0] "%(num)s 日"
 
 #: r2/public/static/js/enhancements.js:745
-#, fuzzy
-#| msgid "remember me"
 msgid "member for"
-msgstr "ログイン情報を覚えておく"
+msgstr "メンバー歴"
 
 #: r2/public/static/js/enhancements.js:746 r2/templates/profilebar.html:57 r2/templates/tipprheader.html:112
 msgid "post karma"
@@ -6528,10 +6401,8 @@ msgid "comment karma"
 msgstr "コメントカルマ"
 
 #: r2/public/static/js/enhancements.js:755
-#, fuzzy
-#| msgid "change"
 msgid "change tag"
-msgstr "変更"
+msgstr "タグを変更"
 
 #: r2/public/static/js/enhancements.js:762 r2/templates/adminuser.html:32
 msgid "profile"
@@ -6542,109 +6413,83 @@ msgid "send a message"
 msgstr "メッセージを送る"
 
 #: r2/public/static/js/enhancements.js:923
-#, fuzzy, python-format
-#| msgid "%(num)d %(time)s"
+#, python-format
 msgid "(%(num)s new)"
 msgid_plural "(%(num)s new)"
-msgstr[0] "%(num)d%(time)s"
+msgstr[0] "(新着 %(num)s 件)"
 
 #: r2/public/static/js/enhancements.js:939
-#, fuzzy
-#| msgid "top %d comments"
 msgid "top-level comments"
-msgstr "上位 %d 件のコメント"
+msgstr "トップレベルのコメント"
 
 #: r2/public/static/js/enhancements.js:942
-#, fuzzy
-#| msgid "submitter"
 msgid "the submitter's"
-msgstr "投稿者"
+msgstr "投稿者のコメント"
 
 #: r2/public/static/js/enhancements.js:947
 msgid "yours"
-msgstr ""
+msgstr "自分のコメント"
 
 #: r2/public/static/js/enhancements.js:956
-#, fuzzy
-#| msgid "links"
 msgid "with links"
-msgstr "リンク"
+msgstr "リンクのあるもの"
 
 #: r2/public/static/js/enhancements.js:964
-#, fuzzy
-#| msgid "jump to"
 msgid "jump between"
-msgstr "ジャンプ"
+msgstr "移動:"
 
 #: r2/public/static/js/enhancements.js:974 r2/templates/prefoptions.html:309
-#, fuzzy
-#| msgid "comment karma"
 msgid "comment navigator"
-msgstr "コメントカルマ"
+msgstr "コメントナビゲーター"
 
 #: r2/public/static/js/enhancements.js:978
-#, fuzzy
-#| msgid "revisions"
 msgid "previous"
-msgstr "リビジョン"
+msgstr "前へ"
 
 #: r2/public/static/js/enhancements.js:981 r2/templates/flairnextlink.html:28 r2/templates/listing.html:75 r2/templates/promotedlinktraffic.html:95 r2/templates/promotelinknew.html:66 r2/templates/searchlisting.html:62 r2/templates/spotlightlisting.html:58 r2/templates/tablelisting.html:62 r2/templates/userlisting.html:149
 msgid "next"
 msgstr "次"
 
 #: r2/public/static/js/enhancements.js:1024
-#, fuzzy
-#| msgid "no such account"
 msgid "switch account"
-msgstr "そのアカウントは存在しません"
+msgstr "アカウントを切り替え"
 
 #: r2/public/static/js/enhancements.js:1058
 msgid "couldn't switch; try again"
-msgstr ""
+msgstr "切り替えられませんでした。もう一度お試しください"
 
 #: r2/public/static/js/enhancements.js:1063
-#, fuzzy
-#| msgid "no such account"
 msgid "forget this account"
-msgstr "そのアカウントは存在しません"
+msgstr "このアカウントを削除"
 
 #: r2/public/static/js/enhancements.js:1064
-#, fuzzy, python-format
-#| msgid "created by %(user)s"
+#, python-format
 msgid "forget %(user)s"
-msgstr "%(user)s が作成"
+msgstr "%(user)s を削除"
 
 #: r2/public/static/js/enhancements.js:1077
-#, fuzzy
-#| msgid "other accounts from it"
 msgid "no other accounts yet"
-msgstr "そのアドレスのほかのアカウント"
+msgstr "ほかのアカウントはまだありません"
 
 #: r2/public/static/js/enhancements.js:1080
-#, fuzzy
-#| msgid "create a new account"
 msgid "add an account"
-msgstr "新しいアカウントを作る"
+msgstr "アカウントを追加"
 
 #: r2/public/static/js/enhancements.js:1085
 msgid "add and switch"
-msgstr ""
+msgstr "追加して切り替え"
 
 #: r2/public/static/js/enhancements.js:1100 r2/templates/linkedloginotp.html:30 r2/templates/newlink.html:155 r2/templates/prefoptions.html:598 r2/templates/prefsecurity.html:37 r2/templates/prefsecurity.html:126 r2/templates/prefsecurity.html:145 r2/templates/prefupdate.html:33 r2/templates/privacysettings.html:133
-#, fuzzy
-#| msgid "two-factor"
 msgid "two-factor code"
-msgstr "2 段階認証"
+msgstr "2 段階認証コード"
 
 #: r2/public/static/js/enhancements.js:1104 r2/public/static/js/enhancements.js:1107
-#, fuzzy
-#| msgid "create a new account"
 msgid "couldn't add the account"
-msgstr "新しいアカウントを作る"
+msgstr "アカウントを追加できませんでした"
 
 #: r2/public/static/js/enhancements.js:1111
 msgid "logging out forgets these accounts"
-msgstr ""
+msgstr "ログアウトするとこれらのアカウントは削除されます"
 
 #: r2/public/static/js/errors.js:3
 #, python-format
@@ -6858,29 +6703,23 @@ msgstr "受信箱を確認して登録を完了してください"
 
 #: r2/public/static/js/passkey.js:83
 msgid "couldn't reach the site"
-msgstr ""
+msgstr "サイトに接続できませんでした"
 
 #: r2/public/static/js/passkey.js:94
-#, fuzzy
-#| msgid "no access key set"
 msgid "no passkey was used"
-msgstr "アクセスキーが設定されていません"
+msgstr "パスキーが使われませんでした"
 
 #: r2/public/static/js/passkey.js:97
-#, fuzzy
-#| msgid "that user is already a moderator"
 msgid "that passkey is already added"
-msgstr "そのユーザーは既にモデレーターです"
+msgstr "そのパスキーはすでに追加されています"
 
 #: r2/public/static/js/passkey.js:99
 msgid "the passkey didn't work"
-msgstr ""
+msgstr "パスキーが使えませんでした"
 
 #: r2/public/static/js/passkey.js:130
-#, fuzzy
-#| msgid "make a key"
 msgid "use a passkey"
-msgstr "キーを作成"
+msgstr "パスキーを使う"
 
 #: r2/public/static/js/popup.js:29 r2/public/static/js/post-sharing.js:73
 msgid "close this window"
@@ -7253,32 +7092,28 @@ msgid "in-feed layout key"
 msgstr "インフィードのレイアウトキー"
 
 #: r2/templates/adminadsettings.html:84
-#, fuzzy
-#| msgid "For an in-feed unit, its data-ad-layout-key. Leave blank for a display unit."
 msgid "For an in-feed unit, its data-ad-layout-key; for an in-article unit, in-article. Leave blank for a display unit."
-msgstr "インフィード広告ユニットの data-ad-layout-key。ディスプレイ広告ユニットの場合は空欄にします。"
+msgstr "インフィード広告ユニットにはその data-ad-layout-key、記事内広告ユニットには in-article。ディスプレイ広告ユニットなら空欄にします。"
 
 #: r2/templates/adminadsettings.html:88
-#, fuzzy
-#| msgid "note (optional)"
 msgid "night mode ad units (optional)"
-msgstr "メモ(任意)"
+msgstr "ナイトモード用の広告ユニット (任意)"
 
 #: r2/templates/adminadsettings.html:91
 msgid "Ads are drawn by Google and can't be restyled by the site, so on night mode's dark pages they keep the colours set in AdSense. To match night mode, create an in-article (or in-feed) unit with dark colours in AdSense (its style is set when you create it; display units can't be coloured) and enter it here: members with night mode on get these instead. Blank: the units above."
-msgstr ""
+msgstr "広告は Google が描画するため、サイト側でスタイルを変えられません。そのためナイトモードの暗いページでも、AdSense で設定した色のままです。ナイトモードに合わせるには、AdSense で暗い色の記事内 (またはインフィード) 広告ユニットを作り (スタイルは作成時に決まります。ディスプレイ広告ユニットは色を変えられません)、ここに入力します。ナイトモードをオンにしているメンバーには、代わりにこちらが表示されます。空欄: 上のユニット。"
 
 #: r2/templates/adminadsettings.html:104
 msgid "in-article for an in-article unit."
-msgstr ""
+msgstr "記事内広告ユニットなら in-article。"
 
 #: r2/templates/adminadsettings.html:107
 msgid "posts between in-feed ads"
-msgstr ""
+msgstr "インフィード広告の間の投稿数"
 
 #: r2/templates/adminadsettings.html:112
 msgid "An in-feed ad after every this many posts in a listing (and on each page infinite scroll adds)."
-msgstr ""
+msgstr "一覧でこの数の投稿ごとにインフィード広告を 1 つ表示します (無限スクロールで追加される各ページでも)。"
 
 #: r2/templates/adminadsettings.html:116
 msgid "testing"
@@ -7385,18 +7220,16 @@ msgid "posts, comments and messages from untrusted users"
 msgstr "信頼されていないユーザーの投稿、コメント、メッセージ"
 
 #: r2/templates/adminantispam.html:98
-#, fuzzy
-#| msgid "feed"
 msgid "feedback"
-msgstr "フィード"
+msgstr "フィードバック"
 
 #: r2/templates/adminantispam.html:100
 msgid "tell CleanTalk what moderators decide"
-msgstr ""
+msgstr "モデレーターの判断を CleanTalk に伝える"
 
 #: r2/templates/adminantispam.html:101
 msgid "For what CleanTalk checked: marking it spam (the spam button, or removing a user's posts as spam on /admin/users) reports spam CleanTalk missed or confirms its call; approving something it flagged reports a mistake. Removing without spam, and anything CleanTalk didn't check (trusted users' posts), sends nothing."
-msgstr ""
+msgstr "CleanTalk が確認したものについて: スパムとしてマークする (スパムボタン、または /admin/users でユーザーの投稿をスパムとして削除する) と、CleanTalk が見逃したスパムを報告するか、その判断を確認します。CleanTalk がフラグを付けたものを承認すると、誤りを報告します。スパム扱いせずに削除したものや、CleanTalk が確認しなかったもの (信頼済みユーザーの投稿) は何も送りません。"
 
 #: r2/templates/adminantispam.html:111
 msgid "CleanTalk statistics"
@@ -7842,18 +7675,15 @@ msgstr "非表示"
 
 #: r2/templates/admincoins.html:28
 msgid "add to a user's Give Gold"
-msgstr ""
+msgstr "ユーザーの「gold を贈る」残高に追加"
 
 #: r2/templates/admincoins.html:35 r2/templates/admingold.html:35
 msgid "recipient"
 msgstr "受信者"
 
 #: r2/templates/admincoins.html:43
-#, fuzzy
-#| msgid "a month ago"
-#| msgid_plural "%(num)s months ago"
 msgid "months of gold"
-msgstr "%(num)s月前"
+msgstr "か月分の gold"
 
 #: r2/templates/admincoins.html:46 r2/templates/admingold.html:47
 msgid "(negative to take away)"
@@ -8101,21 +7931,19 @@ msgstr "閲覧注意"
 
 #: r2/templates/adminfeeds.html:60
 msgid "mark every post NSFW"
-msgstr ""
+msgstr "すべての投稿を NSFW にする"
 
 #: r2/templates/adminfeeds.html:61 r2/templates/printablebuttons.html:95
 msgid "AI label"
 msgstr "AI ラベル"
 
 #: r2/templates/adminfeeds.html:63
-#, fuzzy
-#| msgid "any posts (labelled)"
 msgid "not labelled"
-msgstr "すべての投稿(ラベル付き)"
+msgstr "ラベルなし"
 
 #: r2/templates/adminfeeds.html:68
 msgid "Put on every post, as a member labels their own. It must be one the vault accepts."
-msgstr ""
+msgstr "メンバーが自分の投稿にラベルを付けるのと同じように、すべての投稿に付けます。vault が受け付けるラベルである必要があります。"
 
 #: r2/templates/adminfeeds.html:70
 msgid "add the feed"
@@ -8151,16 +7979,12 @@ msgid "titles start with"
 msgstr "タイトルの先頭"
 
 #: r2/templates/adminfeeds.html:106
-#, fuzzy
-#| msgid "post karma"
 msgid "posts are marked"
-msgstr "投稿カルマ"
+msgstr "投稿に付くラベル"
 
 #: r2/templates/adminfeeds.html:108
-#, fuzzy
-#| msgid "context"
 msgid "ai_content"
-msgstr "元の投稿"
+msgstr "ai_content"
 
 #: r2/templates/adminfeeds.html:112
 msgid "paused"
@@ -8251,103 +8075,98 @@ msgid "This site reads its live config from ZooKeeper (liveconfig_source = zooke
 msgstr "このサイトはライブ設定を ZooKeeper から読み込みます(liveconfig_source = zookeeper)。そのため、ここではなく scripts/write_live_config で管理します。現在の値:"
 
 #: r2/templates/adminliveconfig.html:70
-#, fuzzy
-#| msgid "searching"
 msgid "caching"
-msgstr "検索"
+msgstr "キャッシュ"
 
 #: r2/templates/adminliveconfig.html:74
 msgid "memcached"
-msgstr ""
+msgstr "memcached"
 
 #: r2/templates/adminliveconfig.html:76
-#, fuzzy, python-format
-#| msgid "not saved: %(error)s"
+#, python-format
 msgid "not reachable: %(error)s"
-msgstr "保存されませんでした: %(error)s"
+msgstr "接続できません: %(error)s"
 
 #: r2/templates/adminliveconfig.html:79
 #, python-format
 msgid "%(used)s MB of %(limit)s MB used (%(percent)s%%), %(items)s items"
-msgstr ""
+msgstr "%(limit)s MB 中 %(used)s MB 使用 (%(percent)s%%)、%(items)s 項目"
 
 #: r2/templates/adminliveconfig.html:81
 #, python-format
 msgid "%(hits)s%% of lookups found"
-msgstr ""
+msgstr "検索の %(hits)s%% がヒット"
 
 #: r2/templates/adminliveconfig.html:83
 #, python-format
 msgid "%(evictions)s evicted"
-msgstr ""
+msgstr "%(evictions)s 件追い出し"
 
 #: r2/templates/adminliveconfig.html:84
 #, python-format
 msgid "up %(hours)s hours"
-msgstr ""
+msgstr "稼働 %(hours)s 時間"
 
 #: r2/templates/adminliveconfig.html:86
 msgid "It's full and throwing things out to make room: give it more memory (TIPPR_MEMCACHED_MB, re-running the installer on the server it runs on)."
-msgstr ""
+msgstr "いっぱいで、空きを作るために中身を捨てています。メモリを増やしてください (TIPPR_MEMCACHED_MB。動いているサーバーでインストーラーを再実行します)。"
 
 #: r2/templates/adminliveconfig.html:93
 msgid "logged-out pages"
-msgstr ""
+msgstr "ログアウト時のページ"
 
 #: r2/templates/adminliveconfig.html:96
 msgid "nginx doesn't keep them (TIPPR_PAGE_CACHE_SECONDS=0)."
-msgstr ""
+msgstr "nginx は保存しません (TIPPR_PAGE_CACHE_SECONDS=0)。"
 
 #: r2/templates/adminliveconfig.html:98
 msgid "not cached: logged_out_page_cache_seconds below is 0."
-msgstr ""
+msgstr "キャッシュなし: 下の logged_out_page_cache_seconds が 0 です。"
 
 #: r2/templates/adminliveconfig.html:100
 #, python-format
 msgid "kept %(seconds)s seconds (logged_out_page_cache_seconds below)"
-msgstr ""
+msgstr "%(seconds)s 秒保存 (下の logged_out_page_cache_seconds)"
 
 #: r2/templates/adminliveconfig.html:102
 msgid "by nginx, and a CDN in front if there is one."
-msgstr ""
+msgstr "nginx と、あれば前段の CDN が保存します。"
 
 #: r2/templates/adminliveconfig.html:104
 msgid "by a cache in front of the site, if it has one."
-msgstr ""
+msgstr "サイト前段にキャッシュがあれば、そこが保存します。"
 
 #: r2/templates/adminliveconfig.html:110
 msgid "static files"
-msgstr ""
+msgstr "静的ファイル"
 
 #: r2/templates/adminliveconfig.html:113
 msgid "served by nginx, kept by browsers for a year (a day for files without a content hash in the name)."
-msgstr ""
+msgstr "nginx が配信し、ブラウザーが 1 年間保存します (名前にコンテンツハッシュがないファイルは 1 日)。"
 
 #: r2/templates/adminliveconfig.html:115
 msgid "served by the app (development: they change as you edit them)."
-msgstr ""
+msgstr "アプリが配信します (開発用: 編集するとすぐ変わります)。"
 
 #: r2/templates/adminliveconfig.html:117
 msgid "served by the app (re-run the installer to have nginx serve them)."
-msgstr ""
+msgstr "アプリが配信します (nginx に配信させるにはインストーラーを再実行してください)。"
 
 #: r2/templates/adminliveconfig.html:124
 msgid "Empty memcached? The site is slower for a while as it fills again, and rate limits and half-done sign-ins start over."
-msgstr ""
+msgstr "memcached を空にしますか？もう一度たまるまでしばらくサイトが遅くなり、レート制限や途中のサインインは最初からになります。"
 
 #: r2/templates/adminliveconfig.html:126
 msgid "empty memcached"
-msgstr ""
+msgstr "memcached を空にする"
 
 #: r2/templates/adminliveconfig.html:128
 msgid "For when pages show something out of date. Nothing is lost: everything there is a copy and comes back as it's used."
-msgstr ""
+msgstr "ページに古い内容が表示されるときに。何も失われません。中身はすべてコピーで、使われるうちに戻ります。"
 
 #: r2/templates/adminliveconfig.html:136
-#, fuzzy
-#| msgid "save page"
 msgid "save changes"
-msgstr "ページを保存する"
+msgstr "変更を保存"
 
 #: r2/templates/adminliveconfig.html:146
 msgid "common settings"
@@ -8384,60 +8203,52 @@ msgstr "変更はまだありません。"
 
 #: r2/templates/adminloginsettings.html:25
 msgid "Members can link a Google, Facebook, GitHub or Discord account to theirs (preferences, security) and then sign in with it instead of their password. It only signs in to accounts that linked it: nothing is matched by email address. Someone signing in with one that isn't linked yet can link it to their account with their password, or, while sign-ups are open, make a new account for it. A member with two-factor sign-in still enters their code. Settings saved here override the ini file and apply immediately."
-msgstr ""
+msgstr "メンバーは Google、Facebook、GitHub、Discord のアカウントを自分のアカウントに連携し (個人設定、セキュリティ)、パスワードの代わりにそれでサインインできます。連携したアカウントにしかサインインしません。メールアドレスで照合することはありません。まだ連携されていないアカウントでサインインした人は、パスワードで自分のアカウントに連携するか、登録受付中なら新しいアカウントを作れます。2 段階サインインのメンバーは、引き続きコードを入力します。ここで保存した設定は ini ファイルより優先され、すぐに反映されます。"
 
 #: r2/templates/adminloginsettings.html:28
 msgid "Each provider needs an OAuth app of this site's own: create one in the provider's console, add the redirect address shown below to it, and enter its client ID and secret here."
-msgstr ""
+msgstr "各プロバイダーには、このサイト専用の OAuth アプリが必要です。プロバイダーのコンソールで作成し、下に表示されているリダイレクトアドレスを追加して、クライアント ID とシークレットをここに入力してください。"
 
 #: r2/templates/adminloginsettings.html:42
 #, python-format
 msgid "offer sign in with %(provider)s"
-msgstr ""
+msgstr "%(provider)s でのサインインを提供"
 
 #: r2/templates/adminloginsettings.html:46 r2/templates/adminpaymentsettings.html:137
-#, fuzzy
-#| msgid "OAuth client ID"
 msgid "client ID"
-msgstr "OAuth クライアント ID"
+msgstr "クライアント ID"
 
 #: r2/templates/adminloginsettings.html:54
-#, fuzzy
-#| msgid "OAuth client secret"
 msgid "client secret"
-msgstr "OAuth クライアントシークレット"
+msgstr "クライアントシークレット"
 
 #: r2/templates/adminloginsettings.html:58
-#, fuzzy
-#| msgid "redirect uri"
 msgid "redirect address"
-msgstr "リダイレクトURI"
+msgstr "リダイレクトアドレス"
 
 #: r2/templates/adminloginsettings.html:63
 msgid "Google Cloud console: APIs & Services, Credentials, create an OAuth client ID (web application) and add this as an authorized redirect URI. Set up the OAuth consent screen first (scopes: email, profile, openid)."
-msgstr ""
+msgstr "Google Cloud コンソール: 「API とサービス」→「認証情報」で OAuth クライアント ID (ウェブ アプリケーション) を作成し、これを承認済みのリダイレクト URI として追加します。先に OAuth 同意画面を設定してください (スコープ: email、profile、openid)。"
 
 #: r2/templates/adminloginsettings.html:65
 msgid "Meta for Developers: create an app with Facebook Login, and add this under Facebook Login, Settings, Valid OAuth Redirect URIs. The app ID is the client ID; the app secret is under App settings, Basic."
-msgstr ""
+msgstr "Meta for Developers: Facebook ログインのアプリを作成し、これを「Facebook ログイン」→「設定」→「有効な OAuth リダイレクト URI」に追加します。アプリ ID がクライアント ID で、app secret は「アプリの設定」→「ベーシック」にあります。"
 
 #: r2/templates/adminloginsettings.html:67
 msgid "GitHub, Settings, Developer settings, OAuth Apps: register a new OAuth app (not a GitHub App) with this as its authorization callback URL. Its client ID is shown there; generate a client secret on the same page."
-msgstr ""
+msgstr "GitHub の Settings → Developer settings → OAuth Apps: これを Authorization callback URL にして新しい OAuth アプリ (GitHub App ではない) を登録します。クライアント ID はそこに表示されます。同じページでクライアントシークレットを生成してください。"
 
 #: r2/templates/adminloginsettings.html:69
 msgid "Discord Developer Portal: create an application, then under OAuth2 add this as a redirect. The client ID and client secret (reset it to see one) are on the same page."
-msgstr ""
+msgstr "Discord Developer Portal: アプリケーションを作成し、OAuth2 でこれをリダイレクトとして追加します。クライアント ID とクライアントシークレット (表示するにはリセット) は同じページにあります。"
 
 #: r2/templates/adminloginsettings.html:71
-#, fuzzy
-#| msgid "opened the ticket"
 msgid "open the console"
-msgstr "チケットを作成"
+msgstr "コンソールを開く"
 
 #: r2/templates/adminloginsettings.html:81
 msgid "Instagram no longer offers sign-in for other sites; Facebook Login is Meta's."
-msgstr ""
+msgstr "Instagram はほかのサイト向けのサインインを提供しなくなりました。Facebook ログインは Meta のものです。"
 
 #: r2/templates/adminnotessidebar.html:42
 msgid "Past notes"
@@ -8446,62 +8257,56 @@ msgstr "過去のメモ"
 #: r2/templates/adminpaymentsettings.html:44
 #, python-format
 msgid "take payments with %(provider)s"
-msgstr ""
+msgstr "%(provider)s で支払いを受け付ける"
 
 #: r2/templates/adminpaymentsettings.html:75
-#, fuzzy
-#| msgid "feed address"
 msgid "webhook address"
-msgstr "フィードのアドレス"
+msgstr "Webhook アドレス"
 
 #: r2/templates/adminpaymentsettings.html:90
 msgid "Take payments for gold (and Give Gold, gifts and gift codes) and for sold ads with your own accounts at these providers. Turn on the ones you use and enter their API keys; buyers pick one on the payment page and pay on the provider's own page, so card details never reach this site. Settings saved here override the ini file and apply immediately."
-msgstr ""
+msgstr "gold (と「gold を贈る」、ギフト、ギフトコード) や販売した広告の支払いを、これらのプロバイダーにある自分のアカウントで受け付けます。使うものをオンにして API キーを入力してください。購入者は支払いページでどれかを選び、プロバイダー自身のページで支払うので、カード情報がこのサイトに届くことはありません。ここで保存した設定は ini ファイルより優先され、すぐに反映されます。"
 
 #: r2/templates/adminpaymentsettings.html:93
 #, python-format
 msgid "Prices are in US dollars: gold is %(month)s a month and %(year)s a year (gold_month_price and gold_year_price in the ini)."
-msgstr ""
+msgstr "価格は米ドルです。gold は月 %(month)s、年 %(year)s です (ini の gold_month_price と gold_year_price)。"
 
 #: r2/templates/adminpaymentsettings.html:95
 msgid "Webhooks are optional: payments complete when the buyer comes back from paying either way, but with webhooks they also complete if the buyer closes the window first, and refunds made in the provider's dashboard reach the site. Webhooks are only a cue: the site always asks the provider what happened."
-msgstr ""
+msgstr "Webhook は任意です。購入者が支払いから戻ってくればどちらにしても支払いは完了しますが、Webhook があれば購入者が先にウィンドウを閉じても完了し、プロバイダーのダッシュボードで行った返金もサイトに届きます。Webhook は合図にすぎません。サイトは必ず何が起きたかをプロバイダーに問い合わせます。"
 
 #: r2/templates/adminpaymentsettings.html:99
 msgid "No provider is on yet, so the payment page only offers paying with gold already bought."
-msgstr ""
+msgstr "まだプロバイダーがオンになっていないため、支払いページでは購入済みの gold による支払いだけを提供しています。"
 
 #: r2/templates/adminpaymentsettings.html:106
 msgid "what can be bought"
-msgstr ""
+msgstr "購入できるもの"
 
 #: r2/templates/adminpaymentsettings.html:112
-#, fuzzy
-#| msgid "receive gold as a gift code"
 msgid "gold, Give Gold, gifts and gift codes"
-msgstr "ゴールドをギフトコードとして受け取る"
+msgstr "gold、「gold を贈る」、ギフト、ギフトコード"
 
 #: r2/templates/adminpaymentsettings.html:120
 msgid "sold ads (promoted posts), paid when submitted and refunded if rejected"
-msgstr ""
+msgstr "販売した広告 (プロモート投稿)。投稿時に支払い、却下されたら返金します"
 
 #: r2/templates/adminpaymentsettings.html:129
 msgid "Buyers pay with PayPal, Venmo (US), Pay Later, or a debit or credit card without a PayPal account."
-msgstr ""
+msgstr "購入者は PayPal、Venmo (米国)、後払い、または PayPal アカウントなしのデビットカードやクレジットカードで支払います。"
 
 #: r2/templates/adminpaymentsettings.html:133 r2/templates/adminpaymentsettings.html:175 r2/templates/adminpaymentsettings.html:200
-#, fuzzy
-#| msgid "announcement"
 msgid "environment"
-msgstr "お知らせ"
+msgstr "環境"
 
 #: r2/templates/adminpaymentsettings.html:134 r2/templates/adminpaymentsettings.html:176
 msgid "sandbox (testing)"
-msgstr ""
+msgstr "サンドボックス (テスト)"
 
 #: r2/templates/adminpaymentsettings.html:140
 msgid "From developer.paypal.com: Apps & Credentials, create a REST API app (sandbox and live have separate apps)."
-msgstr ""
+msgstr "developer.paypal.com の Apps & Credentials で REST API アプリを作成します (sandbox と live は別々のアプリです)。"
 
 #: r2/templates/adminpaymentsettings.html:144 r2/templates/prefapps.html:148
 msgid "secret"
@@ -8509,109 +8314,95 @@ msgstr "シークレット"
 
 #: r2/templates/adminpaymentsettings.html:147
 msgid "In the app's settings, add a webhook for Checkout order approved, Payment capture completed, denied and refunded."
-msgstr ""
+msgstr "アプリの設定で、Checkout order approved、Payment capture completed、denied、refunded の Webhook を追加します。"
 
 #: r2/templates/adminpaymentsettings.html:154
 msgid "Buyers pay on Stripe Checkout with a card, Google Pay, Apple Pay, Link and any other method turned on in the Stripe dashboard (Settings > Payment methods)."
-msgstr ""
+msgstr "購入者は Stripe Checkout で、カード、Google Pay、Apple Pay、Link、そのほか Stripe ダッシュボードでオンにした方法で支払います (Settings > Payment methods)。"
 
 #: r2/templates/adminpaymentsettings.html:161
 msgid "From the Stripe dashboard: Developers > API keys. sk_test_… for testing, sk_live_… for real payments."
-msgstr ""
+msgstr "Stripe ダッシュボードの Developers > API keys。テスト用は sk_test_…、本番の支払い用は sk_live_… です。"
 
 #: r2/templates/adminpaymentsettings.html:164
 msgid "Under Developers > Webhooks, add an endpoint for checkout.session.completed, checkout.session.async_payment_succeeded, checkout.session.async_payment_failed, checkout.session.expired and charge.refunded."
-msgstr ""
+msgstr "Developers > Webhooks で、checkout.session.completed、checkout.session.async_payment_succeeded、checkout.session.async_payment_failed、checkout.session.expired、charge.refunded のエンドポイントを追加します。"
 
 #: r2/templates/adminpaymentsettings.html:171
 msgid "Buyers pay in USDC (a dollar stablecoin) from Coinbase or any crypto wallet, through Coinbase Business checkouts. Coinbase Commerce, the old service, has shut down."
-msgstr ""
+msgstr "購入者は Coinbase Business の決済を通じて、Coinbase や任意の暗号資産ウォレットから USDC (米ドルのステーブルコイン) で支払います。旧サービスの Coinbase Commerce は終了しました。"
 
 #: r2/templates/adminpaymentsettings.html:179
 msgid "API key ID"
-msgstr ""
+msgstr "API キー ID"
 
 #: r2/templates/adminpaymentsettings.html:182
 msgid "A secret API key from portal.cdp.coinbase.com (API keys), for the project linked to your Coinbase Business account."
-msgstr ""
+msgstr "Coinbase Business アカウントに紐づくプロジェクトの、portal.cdp.coinbase.com (API keys) の秘密 API キー。"
 
 #: r2/templates/adminpaymentsettings.html:186
-#, fuzzy
-#| msgid "OAuth client secret"
 msgid "API key secret"
-msgstr "OAuth クライアントシークレット"
+msgstr "API キーのシークレット"
 
 #: r2/templates/adminpaymentsettings.html:189
 msgid "Webhooks are added with the CDP command line tool, subscribed to the checkout.payment events."
-msgstr ""
+msgstr "Webhook は CDP のコマンドラインツールで追加し、checkout.payment イベントを購読します。"
 
 #: r2/templates/adminpaymentsettings.html:196
 msgid "Buyers pay with Bitcoin and the other coins BitPay accepts. Refunds are made in the BitPay dashboard, then marked refunded below."
-msgstr ""
+msgstr "購入者はビットコインなど、BitPay が受け付けるコインで支払います。返金は BitPay ダッシュボードで行い、その後下で返金済みにします。"
 
 #: r2/templates/adminpaymentsettings.html:201
 msgid "test (test.bitpay.com)"
-msgstr ""
+msgstr "テスト (test.bitpay.com)"
 
 #: r2/templates/adminpaymentsettings.html:204
 msgid "API token"
-msgstr ""
+msgstr "API トークン"
 
 #: r2/templates/adminpaymentsettings.html:207
 msgid "From the BitPay dashboard: Payment Tools > API Tokens, a point-of-sale token without \"require authentication\". The test site needs its own account and token."
-msgstr ""
+msgstr "BitPay ダッシュボードの Payment Tools > API Tokens で、「require authentication」なしの POS トークンを作ります。テストサイトには専用のアカウントとトークンが必要です。"
 
 #: r2/templates/adminpaymentsettings.html:210
 msgid "Nothing to set up: each invoice tells BitPay where to send its notifications."
-msgstr ""
+msgstr "設定は不要です。各請求書が通知の送り先を BitPay に伝えます。"
 
 #: r2/templates/adminpaymentsettings.html:217
-#, fuzzy
-#| msgid "revoke the key"
 msgid "test the keys"
-msgstr "キーを無効にする"
+msgstr "キーをテスト"
 
 #: r2/templates/adminpaymentsettings.html:218
 msgid "Asks each provider whether the saved keys work (save first). BitPay's can only be tested with a purchase."
-msgstr ""
+msgstr "保存したキーが使えるか各プロバイダーに問い合わせます (先に保存してください)。BitPay のキーは購入でしかテストできません。"
 
 #: r2/templates/adminpaymentsettings.html:227
-#, fuzzy
-#| msgid "not set"
 msgid "not set up"
-msgstr "セットされていません"
+msgstr "未設定"
 
 #: r2/templates/adminpaymentsettings.html:233
-#, fuzzy
-#| msgid "authorize payment"
 msgid "latest payments"
-msgstr "支払いを許可する"
+msgstr "最近の支払い"
 
 #: r2/templates/adminpaymentsettings.html:235
-#, fuzzy
-#| msgid "No changes yet."
 msgid "No payments yet."
-msgstr "変更はまだありません。"
+msgstr "まだ支払いはありません。"
 
 #: r2/templates/adminpaymentsettings.html:240
 msgid "what"
-msgstr ""
+msgstr "内容"
 
 #: r2/templates/adminpaymentsettings.html:241
 msgid "buyer"
-msgstr ""
+msgstr "購入者"
 
 #: r2/templates/adminpaymentsettings.html:242
-#, fuzzy
-#| msgid "account"
 msgid "amount"
-msgstr "アカウント"
+msgstr "金額"
 
 #: r2/templates/adminpaymentsettings.html:243
-#, fuzzy
-#| msgid "Approve"
 msgid "provider"
-msgstr "承認"
+msgstr "プロバイダー"
 
 #: r2/templates/adminpaymentsettings.html:268 r2/templates/renderablecampaign.html:104
 msgid "refund"
@@ -8619,236 +8410,203 @@ msgstr "払い戻し"
 
 #: r2/templates/adminpaymentsettings.html:269
 msgid "Refund this payment in full and take back what it bought?"
-msgstr ""
+msgstr "この支払いを全額返金し、購入されたものを取り消しますか？"
 
 #: r2/templates/adminpaymentsettings.html:271
-#, fuzzy
-#| msgid "mark unread"
 msgid "mark refunded"
-msgstr "未読にする"
+msgstr "返金済みにする"
 
 #: r2/templates/adminpaymentsettings.html:272
 msgid "Mark this payment refunded (after refunding it in the provider's dashboard) and take back what it bought?"
-msgstr ""
+msgstr "この支払いを返金済みにして (プロバイダーのダッシュボードで返金した後で)、購入されたものを取り消しますか？"
 
 #: r2/templates/adminserverstatus.html:25
 msgid "Each server reports its state here once a minute (tippr-job-server_status). Only the latest report is kept; a server that stops reporting is flagged after 3 minutes and dropped after 7 days, or forget it below once it's out of service."
-msgstr ""
+msgstr "各サーバーが 1 分ごとにここへ状態を報告します (tippr-job-server_status)。保存されるのは最新の報告だけです。報告が止まったサーバーは 3 分後に警告され、7 日後に削除されます。運用をやめたら下で削除することもできます。"
 
 #: r2/templates/adminserverstatus.html:28
 msgid "No server has reported yet. Reports start within a minute of installing or upgrading (the tippr-job-server_status timer)."
-msgstr ""
+msgstr "まだどのサーバーも報告していません。報告はインストールまたは更新から 1 分以内に始まります (tippr-job-server_status タイマー)。"
 
 #: r2/templates/adminserverstatus.html:33
-#, fuzzy
-#| msgid "dates"
 msgid "updates"
-msgstr "日付"
+msgstr "更新"
 
 #: r2/templates/adminserverstatus.html:35
 #, python-format
 msgid "GitHub couldn't be asked about releases (%(error)s); trying again in a few minutes."
-msgstr ""
+msgstr "GitHub にリリースを問い合わせできませんでした (%(error)s)。数分後にもう一度試します。"
 
 #: r2/templates/adminserverstatus.html:37
 #, python-format
 msgid "No release of %(repo)s has an installer yet."
-msgstr ""
+msgstr "%(repo)s のリリースにはまだインストーラーがありません。"
 
 #: r2/templates/adminserverstatus.html:40
 msgid "The newest release is"
-msgstr ""
+msgstr "最新のリリース:"
 
 #: r2/templates/adminserverstatus.html:47
 #, python-format
 msgid "an update is available for %(n)s of your servers"
-msgstr ""
+msgstr "%(n)s 台のサーバーで更新があります"
 
 #: r2/templates/adminserverstatus.html:49
 msgid "every server runs it, or a newer one."
-msgstr ""
+msgstr "すべてのサーバーがこれかそれより新しいものを使っています。"
 
 #: r2/templates/adminserverstatus.html:53
 msgid "A pre-release is out too:"
-msgstr ""
+msgstr "プレリリースも出ています:"
 
 #: r2/templates/adminserverstatus.html:56
 msgid "Read the release's notes before updating: anything that needs doing by hand is in them."
-msgstr ""
+msgstr "更新の前にリリースノートを読んでください。手作業が必要なことはすべて書いてあります。"
 
 #: r2/templates/adminserverstatus.html:63
 #, python-format
 msgid "%(user)s asked for %(version)s %(time)s ago%(backup)s."
-msgstr ""
+msgstr "%(user)s が %(time)s前に %(version)s を依頼しました%(backup)s。"
 
 #: r2/templates/adminserverstatus.html:63
-#, fuzzy
-#| msgid "have it make a new backup first"
 msgid ", with a backup first"
-msgstr "先に新しいバックアップを作ってもらう"
+msgstr " (先にバックアップ付き)"
 
 #: r2/templates/adminserverstatus.html:64
 msgid "Each server updates within a minute or so of its turn, one at a time; the site is down on each for 5-10 minutes while it does. Its state is on its card below."
-msgstr ""
+msgstr "各サーバーは順番が来てから 1 分ほどで 1 台ずつ更新されます。その間、各サーバーではサイトが 5～10 分止まります。状態は下の各サーバーのカードに表示されます。"
 
 #: r2/templates/adminserverstatus.html:70
-#, fuzzy
-#| msgid "clear the list"
 msgid "clear this"
-msgstr "一覧を消去"
+msgstr "クリア"
 
 #: r2/templates/adminserverstatus.html:71
 msgid "(servers that haven't started don't; this doesn't undo an update)"
-msgstr ""
+msgstr "(まだ始まっていないサーバーは更新しません。行われた更新は元に戻りません)"
 
 #: r2/templates/adminserverstatus.html:77
 msgid "Update the servers to this release? Each one goes down for 5-10 minutes while it updates, one at a time. Make a Proxmox snapshot first if you can."
-msgstr ""
+msgstr "サーバーをこのリリースに更新しますか？更新中、各サーバーは 1 台ずつ 5～10 分止まります。できれば先に Proxmox のスナップショットを取ってください。"
 
 #: r2/templates/adminserverstatus.html:83
 msgid " (pre-release)"
-msgstr ""
+msgstr " (プレリリース)"
 
 #: r2/templates/adminserverstatus.html:86
-#, fuzzy
-#| msgid "have it make a new backup first"
 msgid "make a site backup first"
-msgstr "先に新しいバックアップを作ってもらう"
+msgstr "先にサイトのバックアップを作る"
 
 #: r2/templates/adminserverstatus.html:87
-#, fuzzy
-#| msgid "other server"
 msgid "update the servers"
-msgstr "ほかのサーバー"
+msgstr "サーバーを更新"
 
 #: r2/templates/adminserverstatus.html:89
 msgid "Each server downloads the release's installer from GitHub, checks it against the release's checksums, and re-runs the installer, as in the Proxmox upgrade steps. If the site doesn't come back, it puts the old version back. Only Proxmox containers (with tippr-firstboot) can update this way. A snapshot of the container first is still the surest way back."
-msgstr ""
+msgstr "各サーバーはリリースのインストーラーを GitHub からダウンロードし、リリースのチェックサムで確認してから、Proxmox のアップグレード手順と同じようにインストーラーを再実行します。サイトが戻らなければ古いバージョンに戻します。この方法で更新できるのは Proxmox コンテナー (tippr-firstboot がある) だけです。それでも、先にコンテナーのスナップショットを取っておくのがいちばん確実な戻し方です。"
 
 #: r2/templates/adminserverstatus.html:92
 msgid "Updating from this page is off (TIPPR_WEB_UPDATES=0 in the installer)."
-msgstr ""
+msgstr "このページからの更新はオフです (インストーラーで TIPPR_WEB_UPDATES=0)。"
 
 #: r2/templates/adminserverstatus.html:114
-#, fuzzy
-#| msgid "conversation"
 msgid "version"
-msgstr "やり取り"
+msgstr "バージョン"
 
 #: r2/templates/adminserverstatus.html:120
 #, python-format
 msgid "%(version)s is out"
-msgstr ""
+msgstr "%(version)s が出ました"
 
 #: r2/templates/adminserverstatus.html:125
-#, fuzzy
-#| msgid "date"
 msgid "update"
-msgstr "日付"
+msgstr "更新"
 
 #: r2/templates/adminserverstatus.html:128
-#, fuzzy, python-format
-#| msgid "%(reason)s"
+#, python-format
 msgid "to %(version)s"
-msgstr "%(reason)s"
+msgstr "%(version)s へ"
 
 #: r2/templates/adminserverstatus.html:130
 #, python-format
 msgid "(from %(version)s)"
-msgstr ""
+msgstr "(%(version)s から)"
 
 #: r2/templates/adminserverstatus.html:136
-#, fuzzy
-#| msgid "blog"
 msgid "log"
-msgstr "ブログ"
+msgstr "ログ"
 
 #: r2/templates/adminserverstatus.html:144
-#, fuzzy, python-format
-#| msgid "%(num)d %(time)s"
+#, python-format
 msgid "up %(time)s"
-msgstr "%(num)d%(time)s"
+msgstr "稼働 %(time)s"
 
 #: r2/templates/adminserverstatus.html:147
-#, fuzzy
-#| msgid "upload"
 msgid "load"
-msgstr "アップロード"
+msgstr "負荷"
 
 #: r2/templates/adminserverstatus.html:149
 #, python-format
 msgid "(1, 5 and 15 minutes, on %(n)s CPUs)"
-msgstr ""
+msgstr "(1、5、15 分、%(n)s CPU)"
 
 #: r2/templates/adminserverstatus.html:151
 msgid "memory"
-msgstr ""
+msgstr "メモリ"
 
 #: r2/templates/adminserverstatus.html:154
 #, python-format
 msgid "%(used)s of %(total)s used (%(p)s%%)"
-msgstr ""
+msgstr "%(total)s 中 %(used)s 使用 (%(p)s%%)"
 
 #: r2/templates/adminserverstatus.html:156
-#, fuzzy, python-format
-#| msgid "(use %(current)s of your %(total)s coins)"
+#, python-format
 msgid "swap %(used)s of %(total)s"
-msgstr "(あなたの%(total)sクレジットのうち%(current)sを使う)"
+msgstr "スワップ %(total)s 中 %(used)s"
 
 #: r2/templates/adminserverstatus.html:161
 msgid "disk"
-msgstr ""
+msgstr "ディスク"
 
 #: r2/templates/adminserverstatus.html:165
 #, python-format
 msgid "%(used)s of %(total)s used (%(p)s%%), %(free)s free"
-msgstr ""
+msgstr "%(total)s 中 %(used)s 使用 (%(p)s%%)、空き %(free)s"
 
 #: r2/templates/adminserverstatus.html:169
-#, fuzzy
-#| msgid "overview"
 msgid "services"
-msgstr "概要"
+msgstr "サービス"
 
 #: r2/templates/adminserverstatus.html:178
 msgid "Forget this server? It comes back if it reports again."
-msgstr ""
+msgstr "このサーバーを削除しますか？もう一度報告すれば戻ってきます。"
 
 #: r2/templates/adminserverstatus.html:180
-#, fuzzy
-#| msgid "target"
 msgid "forget"
-msgstr "ターゲット"
+msgstr "削除"
 
 #: r2/templates/adminserverstatus.html:186
-#, fuzzy
-#| msgid "modqueue"
 msgid "queues"
-msgstr "モデレートキュー"
+msgstr "キュー"
 
 #: r2/templates/adminserverstatus.html:188
 msgid "RabbitMQ couldn't be asked about its queues."
-msgstr ""
+msgstr "RabbitMQ にキューを問い合わせできませんでした。"
 
 #: r2/templates/adminserverstatus.html:190
 msgid "Work waiting for the queue processors (tippr-consumers). A queue that keeps growing means they aren't keeping up, or aren't running."
-msgstr ""
+msgstr "キュー処理 (tippr-consumers) を待っている作業。増え続けるキューは、処理が追いついていないか、動いていないことを示します。"
 
 #: r2/templates/adminserverstatus.html:192
-#, fuzzy
-#| msgid "modqueue"
 msgid "queue"
-msgstr "モデレートキュー"
+msgstr "キュー"
 
 #: r2/templates/adminserverstatus.html:192
-#, fuzzy
-#| msgid "editing"
 msgid "waiting"
-msgstr "編集"
+msgstr "待機中"
 
 #: r2/templates/adminserverstatus.html:192
 msgid "processors"
-msgstr ""
+msgstr "処理数"
 
 #: r2/templates/adminsitesettings.html:49 r2/templates/utils.html:243 r2/templates/utils.html:360
 msgid "upload"
@@ -9492,24 +9250,20 @@ msgid "A username finds that account and names starting with it; an email addres
 msgstr "ユーザー名ではそのアカウントとその名前で始まるアカウント、メールアドレスではそれを使ったすべてのアカウント、IP アドレスではそこからログインしたアカウントが見つかります(ログインは 100 日間保存されます)。"
 
 #: r2/templates/adminusers.html:35
-#, fuzzy
-#| msgid "newest"
 msgid "newer"
-msgstr "最新"
+msgstr "新しい順"
 
 #: r2/templates/adminusers.html:41
 msgid "older"
-msgstr ""
+msgstr "古い順"
 
 #: r2/templates/adminusers.html:48
-#, fuzzy
-#| msgid "new accounts"
 msgid "all accounts"
-msgstr "新しいアカウント"
+msgstr "すべてのアカウント"
 
 #: r2/templates/adminusers.html:49
 msgid "Newest first, including deleted and suspended accounts."
-msgstr ""
+msgstr "新しい順。削除済みと停止中のアカウントも含みます。"
 
 #: r2/templates/adminusers.html:84
 msgid "No accounts found."
@@ -10301,10 +10055,9 @@ msgid "hide help"
 msgstr "ヘルプ非表示"
 
 #: r2/templates/createvault.html:450
-#, fuzzy, python-format
-#| msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.tippr.net. You will be able to access your tippr through your domain."
+#, python-format
 msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to %(domain)s. You will be able to reach your vault through your domain."
-msgstr "ドメインを持っている？ここにそれを入力したあと、自分のDNSプロパイダーのところへ行き、rhs.tippr.netに自分のドメインのエイリアスのCNAMEレコードを追加します。"
+msgstr "ドメインをお持ちですか？ここに入力してから、DNS プロバイダーでドメインを %(domain)s に向ける CNAME レコードを追加してください。自分のドメインから vault にアクセスできるようになります。"
 
 #: r2/templates/createvault.html:457
 msgid "look and feel"
@@ -10582,46 +10335,33 @@ msgid "How much does it cost?"
 msgstr "幾らですか？"
 
 #: r2/templates/gilding.html:60
-#, fuzzy, python-format
-#| msgid "A single gilding costs %(price)s. If you plan to do a lot you can get a discount if you purchase some [coins](/coins)."
+#, python-format
 msgid "A single gilding costs %(price)s. If you plan to do a lot you can get a discount if you [buy gold ahead](/coins) to give later."
-msgstr "1 回のギルディングは %(price)s です。たくさん贈る予定なら、[コイン](/coins)をまとめて買うと割引になります。"
+msgstr "1 回の gold 贈呈は %(price)s です。たくさん贈るつもりなら、[先に gold を買っておいて](/coins) あとで贈ると割引になります。"
 
 #: r2/templates/gilding.html:63
-#, fuzzy
-#| msgid "What is tippr gold?"
 msgid "What is Give Gold?"
-msgstr "tippr goldとは？"
+msgstr "「gold を贈る」とは？"
 
 #: r2/templates/gilding.html:64
-#, fuzzy
-#| msgid "Each coin you have can be converted into one month of tippr gold. Stored as a balance on your account, coins allow you to give gold without having to enter payment information."
 msgid "Gold you buy to give away later: each month of it gives someone one month of tippr gold. Kept as a balance on your account, it lets you give gold without entering payment information each time."
-msgstr "コイン 1 枚は tippr gold 1 か月分と交換できます。アカウントに残高として保存されるので、支払い情報を入力せずに gold を贈れます。"
+msgstr "あとで贈るために買う gold です。1 か月分ごとに、誰かに tippr gold を 1 か月贈れます。アカウントに残高として保存され、毎回支払い情報を入力しなくても gold を贈れます。"
 
 #: r2/templates/gilding.html:64
-#, fuzzy
-#| msgid "Additionally, buying coins in bulk lowers the cost of each gilding."
 msgid "Buying a year of it at once also lowers the cost of each gilding."
-msgstr "さらに、コインをまとめて買うとギルディング 1 回あたりの価格が下がります。"
+msgstr "1 年分をまとめて買うと、1 回の贈呈あたりの費用も下がります。"
 
 #: r2/templates/gilding.html:67
-#, fuzzy
-#| msgid "How do I use coins?"
 msgid "How do I use Give Gold?"
-msgstr "coinはどのように使えますか？"
+msgstr "「gold を贈る」の使い方は？"
 
 #: r2/templates/gilding.html:68
-#, fuzzy
-#| msgid "Your coins are listed as a payment method on the checkout page."
 msgid "The gold you bought is listed as a way to pay on the checkout page."
-msgstr "コインは支払いページで支払い方法として表示されます。"
+msgstr "購入した gold は、会計ページの支払い方法に表示されます。"
 
 #: r2/templates/gilding.html:74
-#, fuzzy
-#| msgid "buy tippr gold"
 msgid "buy gold"
-msgstr "tippr goldを買う"
+msgstr "gold を買う"
 
 #: r2/templates/gold.html:41
 msgid "What is tippr gold?"
@@ -10664,22 +10404,16 @@ msgid "ongoing subscription"
 msgstr "継続サブスクリプション"
 
 #: r2/templates/gold.html:118
-#, fuzzy
-#| msgid "How many months of gold would you like to give?"
 msgid "How many months of gold would you like to have to give?"
-msgstr "何ヶ月分のゴールドを贈りたいですか？"
+msgstr "贈る用の gold を何か月分持っておきたいですか？"
 
 #: r2/templates/gold.html:122
-#, fuzzy
-#| msgid "Stored as a balance on your account, coins allow you to give gold without having to enter payment information. Each coin you have can be converted into one month of tippr gold."
 msgid "Kept as a balance on your account, gold you buy lets you give it without entering payment information each time. Each month of it gives someone one month of tippr gold."
-msgstr "アカウントに残高として保存されるので、支払い情報を入力せずに gold を贈れます。コイン 1 枚は tippr gold 1 か月分と交換できます。"
+msgstr "購入した gold はアカウントに残高として保存され、毎回支払い情報を入力しなくても贈れます。1 か月分ごとに、誰かに tippr gold を 1 か月贈れます。"
 
 #: r2/templates/gold.html:123
-#, fuzzy
-#| msgid "Learn more about using coins"
 msgid "Learn more about Give Gold"
-msgstr "coinの使い方についてもっと知る"
+msgstr "「gold を贈る」について詳しく"
 
 #: r2/templates/gold.html:128
 msgid "What type of subscription would you like?"
@@ -10754,129 +10488,109 @@ msgstr "このコードを取り戻す"
 #: r2/templates/goldabout.html:27
 #, python-format
 msgid "tippr gold is our premium membership: %(month)s a month or %(year)s a year. It keeps the site running, and gives you these extras for as long as you have it."
-msgstr ""
+msgstr "tippr gold は私たちのプレミアム会員です: 月 %(month)s または年 %(year)s。サイトの運営を支え、会員でいる間は次の特典があります。"
 
 #: r2/templates/goldabout.html:30
 msgid "No ads"
-msgstr ""
+msgstr "広告なし"
 
 #: r2/templates/goldabout.html:31
 msgid "Gold members don't see ads. If you'd like to see them anyway, turn off \"hide ads\" in your preferences."
-msgstr ""
+msgstr "gold 会員には広告が表示されません。それでも表示したい場合は、個人設定で「広告を隠す」をオフにしてください。"
 
 #: r2/templates/goldabout.html:33
-#, fuzzy
-#| msgid "show trending vaults on the front page"
 msgid "More vaults on your front page"
-msgstr "フロントページで人気の vault を表示"
+msgstr "フロントページの vault が増える"
 
 #: r2/templates/goldabout.html:34
 #, python-format
 msgid "Your front page shows posts from up to %(gold)s of the vaults you subscribe to, instead of %(normal)s."
-msgstr ""
+msgstr "フロントページに、購読している vault のうち %(normal)s 個ではなく最大 %(gold)s 個の投稿が表示されます。"
 
 #: r2/templates/goldabout.html:36
-#, fuzzy
-#| msgid "comments disabled"
 msgid "New comments highlighted"
-msgstr "コメント無効"
+msgstr "新しいコメントを強調表示"
 
 #: r2/templates/goldabout.html:37
 msgid "When you come back to a post, the comments made since your last visit are highlighted, so you can catch up quickly."
-msgstr ""
+msgstr "投稿に戻ってきたとき、前回の訪問以降のコメントが強調表示されるので、すぐに追いつけます。"
 
 #: r2/templates/goldabout.html:39
-#, fuzzy
-#| msgid "save category"
 msgid "Save categories"
-msgstr "カテゴリの保存"
+msgstr "保存のカテゴリー"
 
 #: r2/templates/goldabout.html:40
 msgid "Sort the posts and comments you save into your own categories, and browse your saved items one category at a time."
-msgstr ""
+msgstr "保存した投稿やコメントを自分のカテゴリーに分けて、カテゴリーごとに見られます。"
 
 #: r2/templates/goldabout.html:42
-#, fuzzy
-#| msgid "filter vault"
 msgid "Filter /v/all"
-msgstr "vault を絞り込む"
+msgstr "/v/all のフィルター"
 
 #: r2/templates/goldabout.html:43
 msgid "Leave vaults you're not interested in out of /v/all by adding them to the address with a minus sign, e.g. [/v/all-funny-pics](/v/all-funny-pics)."
-msgstr ""
+msgstr "興味のない vault を、アドレスにマイナス記号付きで加えて /v/all から外せます。例: [/v/all-funny-pics](/v/all-funny-pics)。"
 
 #: r2/templates/goldabout.html:45
-#, fuzzy
-#| msgid "myrandom"
 msgid "/v/myrandom"
-msgstr "マイランダム"
+msgstr "/v/myrandom"
 
 #: r2/templates/goldabout.html:46
 msgid "[/v/myrandom](/v/myrandom) takes you to a random vault from your own subscriptions."
-msgstr ""
+msgstr "[/v/myrandom](/v/myrandom) で、購読している vault からランダムに 1 つ開きます。"
 
 #: r2/templates/goldabout.html:48
-#, fuzzy
-#| msgid "+ friends"
 msgid "Notes on friends"
-msgstr "友達リストに追加する"
+msgstr "友だちへのメモ"
 
 #: r2/templates/goldabout.html:49
 msgid "Add a private note to each person on your friends list, to remember who they are."
-msgstr ""
+msgstr "友だちリストの一人ひとりに非公開のメモを付けて、誰なのかを覚えておけます。"
 
 #: r2/templates/goldabout.html:51
 msgid "Visited links remembered"
-msgstr ""
+msgstr "訪れたリンクを記憶"
 
 #: r2/templates/goldabout.html:52
 msgid "Have the site remember which links you've visited, on every device you use (turn on \"remember what links I've visited\" in your preferences)."
-msgstr ""
+msgstr "どのリンクを訪れたかを、使うすべての端末でサイトに記憶させられます (個人設定で「訪れたリンクを記憶する」をオンにします)。"
 
 #: r2/templates/goldabout.html:54
-#, fuzzy
-#| msgid "from all vaults"
 msgid "Gold-only vaults"
-msgstr "全部のvaultより"
+msgstr "gold 専用 vault"
 
 #: r2/templates/goldabout.html:55
 msgid "Create vaults that only gold members can see and take part in: choose \"gold only\" as the vault's type when you create it."
-msgstr ""
+msgstr "gold 会員だけが見て参加できる vault を作れます。作成時に vault の種類として「gold 専用」を選んでください。"
 
 #: r2/templates/goldabout.html:58
-#, fuzzy
-#| msgid "gold members only"
 msgid "The members-only lounge"
-msgstr "ゴールドメンバー限定"
+msgstr "会員専用ラウンジ"
 
 #: r2/templates/goldabout.html:59
 #, python-format
 msgid "Join the other gold members in [/v/%(lounge)s](/v/%(lounge)s), a vault just for them."
-msgstr ""
+msgstr "gold 会員だけの vault、[/v/%(lounge)s](/v/%(lounge)s) でほかの gold 会員と交流しましょう。"
 
 #: r2/templates/goldabout.html:62
 msgid "A trophy on your profile"
-msgstr ""
+msgstr "プロフィールにトロフィー"
 
 #: r2/templates/goldabout.html:63
 msgid "Your profile shows the tippr gold trophy."
-msgstr ""
+msgstr "プロフィールに tippr gold のトロフィーが表示されます。"
 
 #: r2/templates/goldabout.html:65
-#, fuzzy
-#| msgid "give gold"
 msgid "Giving gold"
-msgstr "goldを贈る"
+msgstr "gold を贈る"
 
 #: r2/templates/goldabout.html:66
 msgid "You can also give gold to other members, or gild a post or comment you liked: see [gilding](/gilding)."
-msgstr ""
+msgstr "ほかのメンバーに gold を贈ったり、気に入った投稿やコメントに gold を付けたりもできます。[gold を贈る](/gilding) をご覧ください。"
 
 #: r2/templates/goldabout.html:70
-#, fuzzy
-#| msgid "tippr gold"
 msgid "get tippr gold"
-msgstr "tippr gold"
+msgstr "tippr gold を手に入れる"
 
 #: r2/templates/goldgiftcodeemail.email:28
 msgid "Thank you again for your support, and have fun spreading gold!"
@@ -10907,26 +10621,22 @@ msgid "Please select a payment method."
 msgstr "支払い手段を選択してください"
 
 #: r2/templates/goldpayment.html:109
-#, fuzzy, python-format
-#| msgid "Give gold often? Consider [buying coins to use](/coins), they're 40% cheaper if purchased in a set of 12."
+#, python-format
 msgid "Give gold often? Consider [buying gold ahead](/coins) to give later: it's 40% cheaper bought as a year's worth."
-msgstr "ゴールドをよく贈る？　[使用するクレジットの購入](/coins)を検討してください。12個セットで購入した場合、40％安くなります。"
+msgstr "よく gold を贈りますか？あとで贈るために [gold を先に買っておく](/coins) ことを検討してください。1 年分まとめて買うと 40% 安くなります。"
 
 #: r2/templates/goldpayment.html:111
 msgid "Would you like to [learn more about giving gold](/gilding)?"
 msgstr "[ゴールドの贈呈について詳しく知りたい](/gilding)?ですか？"
 
 #: r2/templates/goldpayment.html:129
-#, fuzzy
-#| msgid "your edit"
 msgid "your gold"
-msgstr "あなたの編集"
+msgstr "あなたの gold"
 
 #: r2/templates/goldpayment.html:131
-#, fuzzy, python-format
-#| msgid "(use %(current)s of your %(total)s coins)"
+#, python-format
 msgid "(use %(current)s of your %(total)s months of gold)"
-msgstr "(あなたの%(total)sクレジットのうち%(current)sを使う)"
+msgstr "(%(total)s か月分の gold のうち %(current)s を使う)"
 
 #: r2/templates/goldpayment.html:151
 msgid "Credit Card"
@@ -11164,36 +10874,34 @@ msgstr "コンテストモードでは、コメントの並べ替えをランダ
 #: r2/templates/linkedloginlink.html:28
 #, python-format
 msgid "Your %(provider)s account (%(email)s) isn't linked to an account here yet."
-msgstr ""
+msgstr "あなたの %(provider)s アカウント (%(email)s) は、まだここのどのアカウントとも連携されていません。"
 
 #: r2/templates/linkedloginlink.html:30
 #, python-format
 msgid "That %(provider)s account isn't linked to an account here yet."
-msgstr ""
+msgstr "その %(provider)s アカウントは、まだここのどのアカウントとも連携されていません。"
 
 #: r2/templates/linkedloginlink.html:33
 #, python-format
 msgid "Log in with your username and password to link it: next time, signing in with %(provider)s is enough."
-msgstr ""
+msgstr "ユーザー名とパスワードでログインして連携してください。次からは %(provider)s でのサインインだけで済みます。"
 
 #: r2/templates/linkedloginlink.html:35
 msgid "Wrong username or password, or too many tries: wait a while and try again."
-msgstr ""
+msgstr "ユーザー名またはパスワードが違うか、試行回数が多すぎます。しばらく待ってからもう一度お試しください。"
 
 #: r2/templates/linkedloginlink.html:41
 msgid "log in and link"
-msgstr ""
+msgstr "ログインして連携"
 
 #: r2/templates/linkedloginlink.html:44
-#, fuzzy
-#| msgid "create a new account"
 msgid "New here? Make an account"
-msgstr "新しいアカウントを作る"
+msgstr "はじめてですか？アカウントを作成"
 
 #: r2/templates/linkedloginlink.html:45
 #, python-format
 msgid "It's linked to your %(provider)s account, so signing in with %(provider)s is enough from now on. The password lets you log in without it too."
-msgstr ""
+msgstr "あなたの %(provider)s アカウントに連携されるので、これからは %(provider)s でサインインするだけで済みます。パスワードがあれば、それなしでもログインできます。"
 
 #: r2/templates/linkedloginlink.html:50 r2/templates/login.html:81
 msgid "choose a username"
@@ -11216,33 +10924,30 @@ msgid "remember me"
 msgstr "ログイン情報を覚えておく"
 
 #: r2/templates/linkedloginlink.html:78
-#, fuzzy
-#| msgid "delete account"
 msgid "make the account"
-msgstr "アカウントを削除"
+msgstr "アカウントを作成"
 
 #: r2/templates/linkedloginotp.html:19
 msgid "Your account uses two-factor sign-in: enter the code from your authenticator app (or one of your recovery codes)."
-msgstr ""
+msgstr "このアカウントは 2 段階サインインを使っています。認証アプリのコード (またはリカバリーコードのどれか) を入力してください。"
 
 #: r2/templates/linkedloginotp.html:21
 msgid "That code isn't right. Try again."
-msgstr ""
+msgstr "コードが正しくありません。もう一度お試しください。"
 
 #: r2/templates/linkedloginotp.html:33
 #, python-format
 msgid "don't ask again on this device for %(days)s days"
-msgstr ""
+msgstr "この端末では %(days)s 日間たずねない"
 
 #: r2/templates/linkedsignin.html:29
-#, fuzzy, python-format
-#| msgid "assigned it to %(detail)s"
+#, python-format
 msgid "sign in with %(provider)s"
-msgstr "%(detail)s に割り当てた"
+msgstr "%(provider)s でサインイン"
 
 #: r2/templates/linkedsignin.html:32
 msgid "for accounts that linked one (preferences, security)"
-msgstr ""
+msgstr "連携済みのアカウント向け (個人設定、セキュリティ)"
 
 #: r2/templates/linkinfobar.html:41
 msgid "this post was submitted on"
@@ -11654,7 +11359,7 @@ msgstr "my inbox内に返信を送信"
 
 #: r2/templates/newlink.html:155
 msgid "(not needed if you entered one in the last 15 minutes)"
-msgstr ""
+msgstr "(過去 15 分以内に入力していれば不要です)"
 
 #: r2/templates/newlink.html:165
 #, python-format
@@ -11785,10 +11490,8 @@ msgid "email me"
 msgstr "Eメールを送信して下さい"
 
 #: r2/templates/paymentstatus.html:23
-#, fuzzy
-#| msgid "check now"
 msgid "check again"
-msgstr "今すぐチェック"
+msgstr "もう一度確認"
 
 #: r2/templates/permalinkmessage.html:27
 msgid "you are viewing a single comment's thread."
@@ -11996,7 +11699,7 @@ msgstr "カスタムスタイルシートの設定を保存できませんでし
 
 #: r2/templates/prefoptions.html:108
 msgid "your preferences weren't saved: enter your two-factor code with them"
-msgstr ""
+msgstr "個人設定は保存されませんでした。2 段階認証コードも一緒に入力してください"
 
 #: r2/templates/prefoptions.html:110
 msgid "your preferences couldn't be saved"
@@ -12157,174 +11860,144 @@ msgid "(leave blank to show all submissions)"
 msgstr "(すべての投稿を表示する場合は空欄にする)"
 
 #: r2/templates/prefoptions.html:248
-#, fuzzy
-#| msgid "announcement"
 msgid "enhancements"
-msgstr "お知らせ"
+msgstr "拡張機能"
 
 #: r2/templates/prefoptions.html:251
 msgid "infinite scroll"
-msgstr ""
+msgstr "無限スクロール"
 
 #: r2/templates/prefoptions.html:254
 msgid "(load the next page of a listing when you reach the bottom)"
-msgstr ""
+msgstr "(一番下まで来たら一覧の次のページを読み込む)"
 
 #: r2/templates/prefoptions.html:258
 msgid "keyboard navigation"
-msgstr ""
+msgstr "キーボード操作"
 
 #: r2/templates/prefoptions.html:261
 msgid "(j and k move between posts and comments, a and z vote; press ? on any page for the full list)"
-msgstr ""
+msgstr "(j と k で投稿やコメントを移動、a と z で投票。どのページでも ? を押すと一覧が見られます)"
 
 #: r2/templates/prefoptions.html:268
 msgid "(a button on posts that link to an image to show it in the listing, and a \"show images\" link to show them all)"
-msgstr ""
+msgstr "(画像へのリンクの投稿に、一覧で画像を表示するボタンと、すべて表示する「画像を表示」リンク)"
 
 #: r2/templates/prefoptions.html:272
-#, fuzzy
-#| msgid "send messages as emails"
 msgid "expand images automatically"
-msgstr "メッセージをメールとして送る"
+msgstr "画像を自動で開く"
 
 #: r2/templates/prefoptions.html:274
 msgid "(except NSFW and spoiler posts)"
-msgstr ""
+msgstr "(NSFW とネタバレの投稿は除く)"
 
 #: r2/templates/prefoptions.html:277
-#, fuzzy
-#| msgid "users"
 msgid "user tags"
-msgstr "ユーザー"
+msgstr "ユーザータグ"
 
 #: r2/templates/prefoptions.html:280
 msgid "(a tag button by usernames, to note who someone is; only you see your tags)"
-msgstr ""
+msgstr "(ユーザー名の横のタグボタンで、誰なのかをメモできます。タグは自分にしか見えません)"
 
 #: r2/templates/prefoptions.html:284
-#, fuzzy
-#| msgid "user for"
 msgid "user info on hover"
-msgstr "tippr利用歴"
+msgstr "ホバーでユーザー情報"
 
 #: r2/templates/prefoptions.html:286
 msgid "(hold the mouse over a username to see their karma, how long they've been here and your tag)"
-msgstr ""
+msgstr "(ユーザー名にマウスを乗せると、カルマ、参加期間、あなたのタグが表示されます)"
 
 #: r2/templates/prefoptions.html:289
 msgid "show the parent comment on hover"
-msgstr ""
+msgstr "ホバーで親コメントを表示"
 
 #: r2/templates/prefoptions.html:291
 msgid "(hold the mouse over a reply's \"parent\" link to read the comment it replies to)"
-msgstr ""
+msgstr "(返信の「親」リンクにマウスを乗せると、返信先のコメントが読めます)"
 
 #: r2/templates/prefoptions.html:294
-#, fuzzy
-#| msgid "posts and comments"
 msgid "count new comments"
-msgstr "投稿とコメント"
+msgstr "新しいコメントを数える"
 
 #: r2/templates/prefoptions.html:296
 msgid "(\"3 new\" by posts you've opened before, and the new comments highlighted when you go back; remembered in this browser)"
-msgstr ""
+msgstr "(前に開いた投稿に「新着 3」、戻ったときに新しいコメントを強調表示。このブラウザーに記憶されます)"
 
 #: r2/templates/prefoptions.html:299
-#, fuzzy
-#| msgid "links you've downvoted"
 msgid "posts you've opened:"
-msgstr "反対票を入れたリンク"
+msgstr "開いた投稿:"
 
 #: r2/templates/prefoptions.html:301
-#, fuzzy
-#| msgid "show all"
 msgid "show as usual"
-msgstr "全て表示する"
+msgstr "そのまま表示"
 
 #: r2/templates/prefoptions.html:301
-#, fuzzy
-#| msgid "Read the"
 msgid "fade them"
-msgstr "収集する情報については"
+msgstr "薄く表示"
 
 #: r2/templates/prefoptions.html:301
-#, fuzzy
-#| msgid "hide help"
 msgid "hide them"
-msgstr "ヘルプ非表示"
+msgstr "隠す"
 
 #: r2/templates/prefoptions.html:306
-#, fuzzy
-#| msgid "remember this computer"
 msgid "(remembered in this browser)"
-msgstr "このコンピューターを記憶する"
+msgstr "(このブラウザーに記憶されます)"
 
 #: r2/templates/prefoptions.html:311
 msgid "(on comments pages, buttons to jump between top-level comments, the submitter's, yours, new ones or ones with links)"
-msgstr ""
+msgstr "(コメントページで、トップレベルのコメント、投稿者のもの、自分のもの、新着、リンクのあるものの間を移動するボタン)"
 
 #: r2/templates/prefoptions.html:314
-#, fuzzy
-#| msgid "account activity"
 msgid "account switcher"
-msgstr "アカウント アクティビティ"
+msgstr "アカウント切り替え"
 
 #: r2/templates/prefoptions.html:316
 msgid "(a \"switch account\" menu by your name, to move between your accounts without logging out; logging out forgets them)"
-msgstr ""
+msgstr "(名前の横の「アカウントを切り替え」メニューで、ログアウトせずにアカウントを行き来できます。ログアウトすると削除されます)"
 
 #: r2/templates/prefoptions.html:319
-#, fuzzy
-#| msgid "test mode"
 msgid "night mode"
-msgstr "テストモード"
+msgstr "ナイトモード"
 
 #: r2/templates/prefoptions.html:321
 msgid "(light text on a dark background)"
-msgstr ""
+msgstr "(暗い背景に明るい文字)"
 
 #: r2/templates/prefoptions.html:324
-#, fuzzy
-#| msgid "gilded comment"
 msgid "hide child comments links"
-msgstr "ギルデッドコメント"
+msgstr "返信を隠すリンク"
 
 #: r2/templates/prefoptions.html:327
 msgid "(on comments pages, links to fold up the replies under each comment, or all of them at once)"
-msgstr ""
+msgstr "(コメントページで、各コメントの下の返信、またはすべての返信を一度に折りたたむリンク)"
 
 #: r2/templates/prefoptions.html:333
-#, fuzzy
-#| msgid "filter vault"
 msgid "filters"
-msgstr "vault を絞り込む"
+msgstr "フィルター"
 
 #: r2/templates/prefoptions.html:336
 msgid "Posts that match are left out of listings (never your own). One per line, or separated by commas."
-msgstr ""
+msgstr "一致する投稿は一覧に表示されません (自分の投稿は除く)。1 行に 1 つ、またはカンマ区切り。"
 
 #: r2/templates/prefoptions.html:340
-#, fuzzy
-#| msgid "site key"
 msgid "title keywords"
-msgstr "サイトキー"
+msgstr "タイトルのキーワード"
 
 #: r2/templates/prefoptions.html:340
 msgid "whole words or phrases, in any case"
-msgstr ""
+msgstr "単語または語句全体。大文字小文字は区別しません"
 
 #: r2/templates/prefoptions.html:341
 msgid "example.com also hides its subdomains"
-msgstr ""
+msgstr "example.com はサブドメインも隠します"
 
 #: r2/templates/prefoptions.html:342
 msgid "still shown when you visit the vault itself"
-msgstr ""
+msgstr "その vault 自体を開いたときは表示されます"
 
 #: r2/templates/prefoptions.html:343
 msgid "only hides their posts; to stop seeing them altogether, block them"
-msgstr ""
+msgstr "投稿を隠すだけです。まったく見たくない場合はブロックしてください"
 
 #: r2/templates/prefoptions.html:356
 msgid "comment options"
@@ -12537,10 +12210,9 @@ msgid "show how much gold you have remaining on your userpage"
 msgstr "ユーザーページに gold の残り期間を表示する"
 
 #: r2/templates/prefoptions.html:533
-#, fuzzy, python-format
-#| msgid "use a %(coin_link)s to automatically renew my gold if it expires"
+#, python-format
 msgid "use a month of my %(coin_link)s to automatically renew my gold if it expires"
-msgstr "自分のゴールドの期間が満了したとき、自動的に延長するために 1 %(coin_link)s を使用する"
+msgstr "gold が切れたら、%(coin_link)s から 1 か月分を使って自動更新する"
 
 #: r2/templates/prefoptions.html:543
 #, python-format
@@ -12577,223 +12249,188 @@ msgstr "2 要素認証"
 
 #: r2/templates/prefsecurity.html:46
 msgid "two-factor authentication is **on**. you're asked for a code from one of your methods below when changing your password or email address, and when linking or unlinking a sign-in. a code you enter counts for 15 minutes."
-msgstr ""
+msgstr "2 段階認証は**オン**です。パスワードやメールアドレスを変えるとき、サインインを連携・解除するときに、下のどれかの方法のコードを求められます。入力したコードは 15 分間有効です。"
 
 #: r2/templates/prefsecurity.html:50
-#, fuzzy
-#| msgid "your edit"
 msgid "your methods"
-msgstr "あなたの編集"
+msgstr "あなたの方法"
 
 #: r2/templates/prefsecurity.html:55
-#, fuzzy
-#| msgid "kind"
 msgid "kind_name"
-msgstr "種類"
+msgstr "kind_name"
 
 #: r2/templates/prefsecurity.html:56
 #, python-format
 msgid "added %(when)s"
-msgstr ""
+msgstr "%(when)s に追加"
 
 #: r2/templates/prefsecurity.html:58
-#, fuzzy, python-format
-#| msgid "last seen"
+#, python-format
 msgid "last used %(when)s"
-msgstr "最終発生"
+msgstr "最終使用 %(when)s"
 
 #: r2/templates/prefsecurity.html:78
 msgid "Removing your only method turns two-factor off, so it needs your password too."
-msgstr ""
+msgstr "唯一の方法を削除すると 2 段階認証がオフになるため、パスワードも必要です。"
 
 #: r2/templates/prefsecurity.html:82
-#, fuzzy
-#| msgid "add a moderator"
 msgid "add a method"
-msgstr "モデレーターを追加"
+msgstr "方法を追加"
 
 #: r2/templates/prefsecurity.html:86
 msgid "also ask for a code"
-msgstr ""
+msgstr "コードもたずねる"
 
 #: r2/templates/prefsecurity.html:89
 msgid "when logging in, with your password or a linked account (Google, GitHub...)"
-msgstr ""
+msgstr "ログイン時 (パスワードまたは連携アカウント (Google、GitHub など))"
 
 #: r2/templates/prefsecurity.html:90
 #, python-format
 msgid "you can choose to skip it for %(days)s days on a device you trust"
-msgstr ""
+msgstr "信頼できる端末では %(days)s 日間省略できます"
 
 #: r2/templates/prefsecurity.html:94
 msgid "when saving your preferences"
-msgstr ""
+msgstr "個人設定を保存するとき"
 
 #: r2/templates/prefsecurity.html:98
 msgid "when submitting a post"
-msgstr ""
+msgstr "投稿するとき"
 
 #: r2/templates/prefsecurity.html:100
 msgid "a code you enter counts for 15 minutes, so you aren't asked again and again. apps you've allowed (OAuth) aren't asked."
-msgstr ""
+msgstr "入力したコードは 15 分間有効なので、何度もたずねられることはありません。許可したアプリ (OAuth) にはたずねません。"
 
 #: r2/templates/prefsecurity.html:107
-#, fuzzy
-#| msgid "recover password"
 msgid "recovery codes"
-msgstr "パスワードを再設定する"
+msgstr "リカバリーコード"
 
 #: r2/templates/prefsecurity.html:109
 msgid "Save these recovery codes somewhere safe (print them, or keep them in a password manager). Each one works once in place of a code from your app, if you lose your phone. They won't be shown again."
-msgstr ""
+msgstr "このリカバリーコードを安全な場所に保管してください (印刷するか、パスワードマネージャーに保存)。スマホをなくしたとき、どれも 1 回だけアプリのコードの代わりに使えます。もう一度表示されることはありません。"
 
 #: r2/templates/prefsecurity.html:117
 msgid "Recovery codes work once each in place of a code from your app, if you lose your phone."
-msgstr ""
+msgstr "リカバリーコードは、スマホをなくしたときにそれぞれ 1 回だけアプリのコードの代わりに使えます。"
 
 #: r2/templates/prefsecurity.html:119
 #, python-format
 msgid "You have %(count)s left."
-msgstr ""
+msgstr "残りは %(count)s 個です。"
 
 #: r2/templates/prefsecurity.html:121
 msgid "You have none left: make new ones now."
-msgstr ""
+msgstr "もう残っていません。今すぐ新しいコードを作ってください。"
 
 #: r2/templates/prefsecurity.html:127
 msgid "make new recovery codes"
-msgstr ""
+msgstr "新しいリカバリーコードを作る"
 
 #: r2/templates/prefsecurity.html:131
 msgid "Making new ones stops the old ones working."
-msgstr ""
+msgstr "新しく作ると、古いものは使えなくなります。"
 
 #: r2/templates/prefsecurity.html:137
-#, fuzzy
-#| msgid "turn admin off"
 msgid "turn it off"
-msgstr "管理モードオフ"
+msgstr "オフにする"
 
 #: r2/templates/prefsecurity.html:138
 msgid "to turn it off (removing every method and the recovery codes), enter your password and a code."
-msgstr ""
+msgstr "オフにするには (すべての方法とリカバリーコードを削除)、パスワードとコードを入力してください。"
 
 #: r2/templates/prefsecurity.html:152
-#, fuzzy
-#| msgid "turn admin off"
 msgid "turn off"
-msgstr "管理モードオフ"
+msgstr "オフにする"
 
 #: r2/templates/prefsecurity.html:156
 msgid "This site asks moderators and staff to use two-factor sign-in: your moderator tools work again once it's on."
-msgstr ""
+msgstr "このサイトでは、モデレーターとスタッフに 2 段階サインインをお願いしています。オンにすればモデレーターツールがまた使えるようになります。"
 
 #: r2/templates/prefsecurity.html:158
 msgid "with two-factor authentication on, changing your password or email address, and linking or unlinking a sign-in, also need a second step: a code from an authenticator app on your phone (Google Authenticator, Authy, 1Password and the like). someone who learns your password, or gets into a linked Google or Facebook account, can't take over your account here. you can add more than one method, and remove them later."
-msgstr ""
+msgstr "2 段階認証をオンにすると、パスワードやメールアドレスの変更、サインインの連携や解除に、もう 1 つの手順が必要になります。スマホの認証アプリ (Google Authenticator、Authy、1Password など) のコードです。パスワードを知られたり、連携した Google や Facebook のアカウントに入られたりしても、ここのアカウントは乗っ取られません。方法は複数追加でき、あとで削除もできます。"
 
 #: r2/templates/prefsecurity.html:168
 msgid "To add an authenticator app, enter a code from one of your methods first."
-msgstr ""
+msgstr "認証アプリを追加するには、まずいずれかの方法のコードを入力してください。"
 
 #: r2/templates/prefsecurity.html:170
-#, fuzzy
-#| msgid "reset your password"
 msgid "To start, enter your password."
-msgstr "パスワードのリセット"
+msgstr "はじめにパスワードを入力してください。"
 
 #: r2/templates/prefsecurity.html:179
 msgid "add an authenticator app"
-msgstr ""
+msgstr "認証アプリを追加"
 
 #: r2/templates/prefsecurity.html:186
 msgid "Or add a passkey: your phone, computer or security key confirms it's you with a fingerprint, face or PIN."
-msgstr ""
+msgstr "またはパスキーを追加: スマホ、パソコン、セキュリティキーが、指紋、顔、PIN で本人だと確認します。"
 
 #: r2/templates/prefsecurity.html:188
 msgid "Enter a code from one of your methods first."
-msgstr ""
+msgstr "まず、いずれかの方法のコードを入力してください。"
 
 #: r2/templates/prefsecurity.html:190
-#, fuzzy
-#| msgid "update your password"
 msgid "Enter your password first."
-msgstr "パスワードを更新する"
+msgstr "まずパスワードを入力してください。"
 
 #: r2/templates/prefsecurity.html:198
-#, fuzzy
-#| msgid "note (optional)"
 msgid "name (optional)"
-msgstr "メモ(任意)"
+msgstr "名前 (任意)"
 
 #: r2/templates/prefsecurity.html:199
 msgid "add a passkey"
-msgstr ""
+msgstr "パスキーを追加"
 
 #: r2/templates/prefsecurity.html:206
-#, fuzzy
-#| msgid "below is your two-factor authentication secret. you can scan the QR code with Google Authenticator or enter the key below manually. you WILL NOT have another chance to see this secret."
 msgid "scan the QR code with your authenticator app, or enter the key below in it. you WILL NOT have another chance to see this key."
-msgstr "以下にあなたの2 要素認証の秘密鍵があります。Google 認証システムでQRコードを読み取るか、手動で以下に鍵を入力することができます。他にこの秘密鍵を確認する手段はありません。"
+msgstr "認証アプリで QR コードを読み取るか、下のキーをアプリに入力してください。このキーをもう一度見ることはできません。"
 
 #: r2/templates/prefsecurity.html:209
 msgid "(optional, like phone or work)"
-msgstr ""
+msgstr "(任意。例: スマホ、仕事用)"
 
 #: r2/templates/prefsecurity.html:213
-#, fuzzy
-#| msgid "remove from the defaults"
 msgid "code from the app"
-msgstr "既定から外す"
+msgstr "アプリのコード"
 
 #: r2/templates/prefsecurity.html:227
 msgid "sign in with another account"
-msgstr ""
+msgstr "別のアカウントでサインイン"
 
 #: r2/templates/prefsecurity.html:229
 msgid "Link a Google, Facebook, GitHub or Discord account to sign in with it instead of your password. It only signs in to this account, and you can unlink it at any time. Your password keeps working."
-msgstr ""
+msgstr "Google、Facebook、GitHub、Discord のアカウントを連携すると、パスワードの代わりにそれでサインインできます。このアカウントにしかサインインせず、いつでも連携を解除できます。パスワードも引き続き使えます。"
 
 #: r2/templates/prefsecurity.html:231
 msgid "Linked. You can now sign in with it on the login page."
-msgstr ""
+msgstr "連携しました。ログインページからそれでサインインできます。"
 
 #: r2/templates/prefsecurity.html:234
 msgid "Linking or unlinking needs your two-factor code (one you entered in the last 15 minutes counts)."
-msgstr ""
+msgstr "連携や解除には 2 段階認証コードが必要です (過去 15 分以内に入力したものでも可)。"
 
 #: r2/templates/prefsecurity.html:242
-#, fuzzy
-#| msgid "link"
-#| msgid_plural "links"
 msgid "linked"
-msgstr "リンク"
+msgstr "連携済み"
 
 #: r2/templates/prefsecurity.html:254
-#, fuzzy
-#| msgid "link"
-#| msgid_plural "links"
 msgid "unlink"
-msgstr "リンク"
+msgstr "連携を解除"
 
 #: r2/templates/prefsecurity.html:259
-#, fuzzy
-#| msgid "normal link"
 msgid "not linked"
-msgstr "普通のリンク"
+msgstr "未連携"
 
 #: r2/templates/prefsecurity.html:266 r2/templates/prefsecurity.html:270
-#, fuzzy, python-format
-#| msgid "link ids"
+#, python-format
 msgid "link %(provider)s"
-msgstr "リンク ID"
+msgstr "%(provider)s を連携"
 
 #: r2/templates/prefupdate.html:33
-#, fuzzy
-#| msgid "a month ago"
-#| msgid_plural "%(num)s months ago"
 msgid "(entered a moment ago)"
-msgstr "%(num)s月前"
+msgstr "(今入力しました)"
 
 #: r2/templates/prefupdate.html:48
 msgid "verify your email"
@@ -12930,7 +12567,7 @@ msgstr "モデレータの報告:"
 
 #: r2/templates/printablebuttons.html:329 r2/templates/printablebuttons.html:342
 msgid "<no reason>"
-msgstr ""
+msgstr "<理由なし>"
 
 #: r2/templates/printablebuttons.html:336
 msgid "user reports:"
@@ -12998,22 +12635,16 @@ msgid "mark unread"
 msgstr "未読にする"
 
 #: r2/templates/privacysettings.html:29
-#, fuzzy
-#| msgid "impressions"
 msgid "processing"
-msgstr "インプレッション"
+msgstr "処理中"
 
 #: r2/templates/privacysettings.html:30
-#, fuzzy
-#| msgid "complete"
 msgid "completed"
 msgstr "完了"
 
 #: r2/templates/privacysettings.html:32
-#, fuzzy
-#| msgid "cancel"
 msgid "cancelled"
-msgstr "取消"
+msgstr "キャンセル済み"
 
 #: r2/templates/privacysettings.html:39
 msgid "Download Your Data"
@@ -13117,37 +12748,31 @@ msgstr "アカウントと関連するすべてのデータを完全に削除で
 
 #: r2/templates/privacysettings.html:106
 msgid "Right away you're logged out everywhere, nobody can log in to the account, and the name can't be registered again."
-msgstr ""
+msgstr "すぐにすべての場所でログアウトされ、誰もアカウントにログインできなくなり、その名前は二度と登録できません。"
 
 #: r2/templates/privacysettings.html:107
 msgid "Your password, email address and moderator roles are removed 90 days later."
-msgstr ""
+msgstr "パスワード、メールアドレス、モデレーターの役割は 90 日後に削除されます。"
 
 #: r2/templates/privacysettings.html:108
 msgid "Your posts and comments stay, by [deleted], unless you choose to delete them below."
-msgstr ""
+msgstr "下で削除を選ばない限り、投稿やコメントは [deleted] として残ります。"
 
 #: r2/templates/privacysettings.html:110
 msgid "Having a problem? We may be able to help:"
-msgstr ""
+msgstr "お困りですか？お手伝いできるかもしれません:"
 
 #: r2/templates/privacysettings.html:115
-#, fuzzy
-#| msgid "posts and comments"
 msgid "your posts and comments"
-msgstr "投稿とコメント"
+msgstr "自分の投稿とコメント"
 
 #: r2/templates/privacysettings.html:120
-#, fuzzy
-#| msgid "why are you deactivating this account?"
 msgid "why are you leaving? (optional)"
-msgstr "このアカウントを無効にする理由は?"
+msgstr "退会の理由は？ (任意)"
 
 #: r2/templates/privacysettings.html:140
-#, fuzzy
-#| msgid "I understand that deactivated accounts are not recoverable."
 msgid "I understand my account can't be recovered."
-msgstr "無効にしたアカウントは元に戻せないことを理解しました。"
+msgstr "アカウントを復元できないことを理解しました。"
 
 #: r2/templates/privacysettings.html:146
 msgid "Delete My Account"
@@ -13204,7 +12829,7 @@ msgstr "定期課金を管理する"
 
 #: r2/templates/profilebar.html:174
 msgid "user for"
-msgstr "tippr利用歴"
+msgstr "ユーザー歴"
 
 #: r2/templates/promotedlink.html:42
 #, python-format
@@ -13676,48 +13301,38 @@ msgid "Create a promotion on another user's account."
 msgstr "ほかのユーザーのアカウントでプロモーションを作成します。"
 
 #: r2/templates/promotepayment.html:17
-#, fuzzy
-#| msgid "No notes for this domain"
 msgid "pay for this campaign"
-msgstr "このドメインにメモはありません。"
+msgstr "このキャンペーンの支払い"
 
 #: r2/templates/promotepayment.html:19
-#, fuzzy, python-format
-#| msgid "The duration of this link is %(duration)s (from %(start)s to %(end)s)."
+#, python-format
 msgid "The duration of this campaign is %(duration)s (from %(start)s to %(end)s)."
-msgstr "このリンクの有効期間は %(duration)s (%(start)s から %(end)s まで)です。"
+msgstr "このキャンペーンの期間は %(duration)s (%(start)s から %(end)s まで) です。"
 
 #: r2/templates/promotepayment.html:20
-#, fuzzy, python-format
-#| msgid "Your current budget is %(budget)s"
+#, python-format
 msgid "Its budget is %(budget)s."
-msgstr "現在の予算である %(budget)s"
+msgstr "予算は %(budget)s です。"
 
 #: r2/templates/promotepayment.html:24
-#, fuzzy
-#| msgid "house campaigns, man."
 msgid "This campaign is paid for."
-msgstr "自社キャンペーンです。"
+msgstr "このキャンペーンは支払い済みです。"
 
 #: r2/templates/promotepayment.html:25
-#, fuzzy
-#| msgid "back to Tippr"
 msgid "back to your ad"
-msgstr "Tippr に戻る"
+msgstr "広告に戻る"
 
 #: r2/templates/promotepayment.html:28
 msgid "You pay the whole budget now. Your ad is reviewed before it runs; if it isn't approved, or you delete the campaign or change its budget before it starts, the payment is refunded."
-msgstr ""
+msgstr "予算の全額を今お支払いいただきます。広告は掲載前に審査されます。承認されなかった場合や、開始前にキャンペーンを削除したり予算を変更したりした場合は返金されます。"
 
 #: r2/templates/promotepayment.html:41
 msgid "You pay on the provider's own page: your card or wallet details never reach this site."
-msgstr ""
+msgstr "お支払いはプロバイダー自身のページで行います。カードやウォレットの情報がこのサイトに届くことはありません。"
 
 #: r2/templates/promotepayment.html:43
-#, fuzzy
-#| msgid "this sign-up looks like spam; if it isn't, contact the site's admins"
 msgid "This site isn't taking payments for ads yet. Please contact the site's admins."
-msgstr "この登録はスパムのようです。違う場合はサイトの管理者に連絡してください"
+msgstr "このサイトではまだ広告の支払いを受け付けていません。サイトの管理者にお問い合わせください。"
 
 #: r2/templates/promotereport.html:50
 msgid "grouping"
@@ -13985,10 +13600,9 @@ msgid "self-serve advertisement tool"
 msgstr "セルフサービス広告ツール"
 
 #: r2/templates/spotlightlisting.html:76
-#, fuzzy, python-format
-#| msgid "Use of this tool is open to all members of tippr.net, and for as little as %(price)s you can advertise in this area. %%(get_started)s"
+#, python-format
 msgid "Use of this tool is open to all members of %(site)s, and for as little as %(price)s you can advertise in this area. %%(get_started)s"
-msgstr "このツールは tippr.net のすべてのメンバーが使え、%(price)s からこの場所に広告を出せます。%%(get_started)s"
+msgstr "このツールは %(site)s のすべてのメンバーが使え、わずか %(price)s からこの場所に広告を出せます。%%(get_started)s"
 
 #: r2/templates/spotlightlisting.html:77
 msgid "Get started"
@@ -14029,20 +13643,16 @@ msgid "first"
 msgstr "初め"
 
 #: r2/templates/thanks.html:35
-#, fuzzy
-#| msgid "thanks for buying coins!"
 msgid "thanks for buying gold!"
-msgstr "coinのご購入、ありがとうございました！"
+msgstr "gold のご購入ありがとうございます！"
 
 #: r2/templates/thanks.html:37
 msgid "thanks for subscribing!"
 msgstr "購読ありがとう！"
 
 #: r2/templates/thanks.html:42
-#, fuzzy
-#| msgid "enter your confirmation code below to claim your gift coins"
 msgid "enter your confirmation code below to claim your gold"
-msgstr "ギフトクレジットを要求するために以下に確認コードを入力"
+msgstr "gold を受け取るには、下に確認コードを入力してください"
 
 #: r2/templates/thanks.html:44
 msgid "enter your confirmation code below to activate tippr gold"
@@ -14116,28 +13726,20 @@ msgid "daily mean"
 msgstr "日平均"
 
 #: r2/templates/tipprtraffic.html:134
-#, fuzzy
-#| msgid "past 24 hours"
 msgid "24 hours"
-msgstr "直近24時間"
+msgstr "24 時間"
 
 #: r2/templates/tipprtraffic.html:135
-#, fuzzy
-#| msgid "days"
 msgid "7 days"
-msgstr "日"
+msgstr "7 日"
 
 #: r2/templates/tipprtraffic.html:136
-#, fuzzy
-#| msgid "7 / 30 days"
 msgid "30 days"
-msgstr "7 日 / 30 日"
+msgstr "30 日"
 
 #: r2/templates/tipprtraffic.html:153
-#, fuzzy
-#| msgid "moderator invited"
 msgid "moderator actions, 30 days"
-msgstr "招待されたモデレーター"
+msgstr "モデレーターの操作 (30 日)"
 
 #: r2/templates/trendingvaultsbar.html:34
 msgid "trending vaults"
