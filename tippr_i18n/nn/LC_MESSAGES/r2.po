@@ -1372,7 +1372,6 @@ msgid "muting in moderator mail"
 msgstr "demping i moderatorpost"
 
 #: r2/controllers/policies.py:55
-#| msgid_plural "moderators"
 msgid "AutoModerator"
 msgstr "AutoModerator"
 
@@ -3784,7 +3783,6 @@ msgstr[0] "vault"
 msgstr[1] "vaultar"
 
 #: r2/lib/strings.py:265
-#| msgid_plural "%(num)s months ago"
 msgid "month of gold"
 msgid_plural "months of gold"
 msgstr[0] "måned med gull"
@@ -4487,13 +4485,11 @@ msgstr "en annen server har samme navn: sett TIPPR_SERVER_NAME på en av dem"
 
 #: r2/lib/pages/pages.py:4308
 #, python-format
-#| msgid_plural "seconds"
 msgid "%(n)s seconds"
 msgstr "%(n)s sekunder"
 
 #: r2/lib/pages/pages.py:4310
 #, python-format
-#| msgid_plural "minutes"
 msgid "%(n)s minutes"
 msgstr "%(n)s minutter"
 
@@ -4934,7 +4930,6 @@ msgid "Your gold payment has been refunded, contact %(gold_email)s for details"
 msgstr "Gullbetalingen din er refundert; kontakt %(gold_email)s for detaljer"
 
 #: r2/lib/utils/_utils.py:229
-#| msgid_plural "milliseconds"
 msgid "millisecond"
 msgid_plural "milliseconds"
 msgstr[0] "millisekund"
@@ -5059,7 +5054,6 @@ msgstr "[sletta]"
 
 #: r2/models/gold.py:549
 #, python-format
-#| msgid_plural "users have gifted you %(months)d months of tippr gold for this comment."
 msgid "a user gifted you a month of tippr gold for this comment."
 msgid_plural "tippr users have gifted you %(months)d months of tippr gold for this comment."
 msgstr[0] "en bruker ga deg en måned med tippr gold for denne kommentaren."
@@ -5067,7 +5061,6 @@ msgstr[1] "tippr-brukere har gitt deg %(months)d måneder med tippr gold for den
 
 #: r2/models/gold.py:557
 #, python-format
-#| msgid_plural "users have gifted you %(months)d months of tippr gold for this submission."
 msgid "a user gifted you a month of tippr gold for this submission."
 msgid_plural "tippr users have gifted you %(months)d months of tippr gold for this submission."
 msgstr[0] "en bruker ga deg en måned med tippr gold for dette innlegget."
@@ -5075,7 +5068,6 @@ msgstr[1] "tippr-brukere har gitt deg %(months)d måneder med tippr gold for det
 
 #: r2/models/gold.py:566
 #, python-format
-#| msgid_plural "you and other tipprors have gifted %(months)d months of tippr gold to %(recipient)s for this comment."
 msgid "you have gifted tippr gold to %(recipient)s for this comment."
 msgid_plural "you and other tippr users have gifted %(months)d months of tippr gold to %(recipient)s for this comment."
 msgstr[0] "du har gitt tippr gold til %(recipient)s for denne kommentaren."
@@ -5083,7 +5075,6 @@ msgstr[1] "du og andre tippr-brukere har gitt %(months)d måneder med tippr gold
 
 #: r2/models/gold.py:574
 #, python-format
-#| msgid_plural "you and other tipprors have gifted %(months)d months of tippr gold to %(recipient)s for this submission."
 msgid "you have gifted tippr gold to %(recipient)s for this submission."
 msgid_plural "you and other tippr users have gifted %(months)d months of tippr gold to %(recipient)s for this submission."
 msgstr[0] "du har gitt tippr gold til %(recipient)s for dette innlegget."
@@ -5091,7 +5082,6 @@ msgstr[1] "du og andre tippr-brukere har gitt %(months)d måneder med tippr gold
 
 #: r2/models/gold.py:583
 #, python-format
-#| msgid_plural "users have gifted %(months)d months of tippr gold to %(recipient)s for this comment."
 msgid "a user has gifted tippr gold to %(recipient)s for this comment."
 msgid_plural "tippr users have gifted %(months)d months of tippr gold to %(recipient)s for this comment."
 msgstr[0] "en bruker har gitt tippr gold til %(recipient)s for denne kommentaren."
@@ -5099,7 +5089,6 @@ msgstr[1] "tippr-brukere har gitt %(months)d måneder med tippr gold til %(recip
 
 #: r2/models/gold.py:591
 #, python-format
-#| msgid_plural "users have gifted %(months)d months of tippr gold to %(recipient)s for this submission."
 msgid "a user has gifted tippr gold to %(recipient)s for this submission."
 msgid_plural "tippr users have gifted %(months)d months of tippr gold to %(recipient)s for this submission."
 msgstr[0] "en bruker har gitt tippr gold til %(recipient)s for dette innlegget."
@@ -7336,7 +7325,6 @@ msgid "average response"
 msgstr "gjennomsnittlig svartid"
 
 #: r2/templates/adminantispam.html:148
-#| msgid_plural "seconds"
 msgid "seconds"
 msgstr "sekunder"
 
@@ -7729,7 +7717,6 @@ msgid "recipient"
 msgstr "mottaker"
 
 #: r2/templates/admincoins.html:43
-#| msgid_plural "%(num)s months ago"
 msgid "months of gold"
 msgstr "måneder med gull"
 
@@ -7962,7 +7949,6 @@ msgid "check every"
 msgstr "sjekk hvert"
 
 #: r2/templates/adminfeeds.html:52
-#| msgid_plural "minutes"
 msgid "minutes"
 msgstr "minutter"
 
@@ -8796,7 +8782,6 @@ msgid "The user agreement, privacy policy, content policy and moderator guidelin
 msgstr "Brukeravtalen, personvernerklæringen, innholdsreglene og retningslinjene for moderatorer starter fra malene i docs/policies, fylt ut med sidens navn, domenet og disse to; der de sier hvordan man når deg, lenker de til deler av kontaktsiden (/contact), som tilbyr en melding til administratorene og kontaktadressen ovenfor når den er satt. De er wiki-sider: rediger dem på /wiki/useragreement og så videre. For å bygge dem på nytt fra malene etter at du har endret disse (dette erstatter alle redigeringer):"
 
 #: r2/templates/adminsitesettings.html:123
-#| msgid_plural "moderators"
 msgid "operator"
 msgstr "operatør"
 
@@ -9328,12 +9313,10 @@ msgid "created"
 msgstr "opprettet"
 
 #: r2/templates/adminvault.html:45 r2/templates/adminvaults.html:50
-#| msgid_plural "subscribers"
 msgid "subscribers"
 msgstr "abonnenter"
 
 #: r2/templates/adminvault.html:56
-#| msgid_plural "messages"
 msgid "message:"
 msgstr "melding:"
 
@@ -12465,12 +12448,10 @@ msgid "Linking or unlinking needs your two-factor code (one you entered in the l
 msgstr "Tilkobling eller frakobling krever tofaktorkoden din (en du har skrevet inn de siste 15 minuttene, teller)."
 
 #: r2/templates/prefsecurity.html:242
-#| msgid_plural "links"
 msgid "linked"
 msgstr "tilkoblet"
 
 #: r2/templates/prefsecurity.html:254
-#| msgid_plural "links"
 msgid "unlink"
 msgstr "koble fra"
 
@@ -12484,7 +12465,6 @@ msgid "link %(provider)s"
 msgstr "koble til %(provider)s"
 
 #: r2/templates/prefupdate.html:33
-#| msgid_plural "%(num)s months ago"
 msgid "(entered a moment ago)"
 msgstr "(skrevet inn for et øyeblikk siden)"
 

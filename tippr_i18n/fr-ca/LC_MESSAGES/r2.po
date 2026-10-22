@@ -1373,7 +1373,6 @@ msgid "muting in moderator mail"
 msgstr "rendre muet dans la messagerie de modération"
 
 #: r2/controllers/policies.py:55
-#| msgid_plural "moderators"
 msgid "AutoModerator"
 msgstr "AutoModerator"
 
@@ -3787,7 +3786,6 @@ msgstr[0] "vault"
 msgstr[1] "vault"
 
 #: r2/lib/strings.py:265
-#| msgid_plural "%(num)s months ago"
 msgid "month of gold"
 msgid_plural "months of gold"
 msgstr[0] "mois de gold"
@@ -7722,7 +7720,6 @@ msgid "recipient"
 msgstr "destinataire"
 
 #: r2/templates/admincoins.html:43
-#| msgid_plural "%(num)s months ago"
 msgid "months of gold"
 msgstr "mois de gold"
 
@@ -12454,12 +12451,10 @@ msgid "Linking or unlinking needs your two-factor code (one you entered in the l
 msgstr "Associer ou dissocier demande votre code à deux facteurs (un code saisi dans les 15 dernières minutes compte)."
 
 #: r2/templates/prefsecurity.html:242
-#| msgid_plural "links"
 msgid "linked"
 msgstr "associé"
 
 #: r2/templates/prefsecurity.html:254
-#| msgid_plural "links"
 msgid "unlink"
 msgstr "dissocier"
 
@@ -12473,7 +12468,6 @@ msgid "link %(provider)s"
 msgstr "associer %(provider)s"
 
 #: r2/templates/prefupdate.html:33
-#| msgid_plural "%(num)s months ago"
 msgid "(entered a moment ago)"
 msgstr "(saisi il y a un instant)"
 

@@ -121,6 +121,10 @@ def tidy(path, lang, clear_copies=False):
     for entry in [e for e in po if e.obsolete]:
         po.remove(entry)
     for e in po:
+        # a "#| msgid_plural" without its "#| msgid" is a syntax error for
+        # msgfmt, which stops `make` (and every language after this one)
+        if e.previous_msgid_plural and not e.previous_msgid:
+            e.previous_msgid_plural = None
         plural = bool(e.msgid_plural)
         values = list(e.msgstr_plural.values()) if plural else [e.msgstr]
         if not any(values):
