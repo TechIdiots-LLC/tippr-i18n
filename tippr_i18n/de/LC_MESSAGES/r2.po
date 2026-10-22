@@ -1490,7 +1490,7 @@ msgstr "gemeldete beworbene Links"
 
 #: r2/controllers/promotecontroller.py:606
 msgid "house promoted links"
-msgstr "Von tippr beworbene Links"
+msgstr "hauseigene beworbene Links"
 
 #: r2/controllers/promotecontroller.py:607
 msgid "fraud suspected promoted links"
@@ -1542,7 +1542,7 @@ msgstr "gesperrt"
 
 #: r2/controllers/tippr_base.py:1478
 msgid "gold members only"
-msgstr "Nur Tippr-Gold Mitglieder"
+msgstr "nur für Gold-Mitglieder"
 
 #: r2/controllers/tippr_base.py:1488 r2/templates/createvault.html:140 r2/templates/multiinfobar.html:43 r2/templates/privateinterstitial.html:34 r2/templates/searchresultvault.html:101 r2/templates/vault.html:90
 msgid "private"
@@ -11305,7 +11305,7 @@ msgstr "Kopiername"
 
 #: r2/templates/multiinfobar.html:93
 msgid "warning: renaming a multi will break any links and references to the old name."
-msgstr "Warnung: Alle Links und Verweise zu diesem Multitippr werden nach dem Umbenennen nicht mehr funktionieren."
+msgstr "Achtung: Wenn du einen Multi umbenennst, funktionieren alle Links und Verweise auf den alten Namen nicht mehr."
 
 #: r2/templates/multiinfobar.html:94
 msgid "new name"
@@ -12868,7 +12868,7 @@ msgstr "sich wiederholende Abonnements verwalten"
 
 #: r2/templates/profilebar.html:174
 msgid "user for"
-msgstr "tippror seit"
+msgstr "Benutzer seit"
 
 #: r2/templates/promotedlink.html:42
 #, python-format
