@@ -205,30 +205,28 @@ msgstr "ese usuario no existe"
 #: r2/controllers/api.py:290
 #, python-format
 msgid "you can tag at most %(n)d users"
-msgstr ""
+msgstr "puedes etiquetar como máximo a %(n)d usuarios"
 
 #: r2/controllers/api.py:308
-#, fuzzy
-#| msgid "wrong password"
 msgid "wrong username or password"
-msgstr "contraseña incorrecta"
+msgstr "nombre de usuario o contraseña incorrectos"
 
 #: r2/controllers/api.py:310
 msgid "that's the account you're using"
-msgstr ""
+msgstr "esa es la cuenta que estás usando"
 
 #: r2/controllers/api.py:312
 #, python-format
 msgid "you can keep at most %(n)d other accounts"
-msgstr ""
+msgstr "puedes guardar como máximo %(n)d cuentas más"
 
 #: r2/controllers/api.py:317
 msgid "enter that account's two-factor code"
-msgstr ""
+msgstr "introduce el código de verificación en dos pasos de esa cuenta"
 
 #: r2/controllers/api.py:333
 msgid "that account isn't available to switch to; add it again"
-msgstr ""
+msgstr "no se puede cambiar a esa cuenta; vuelve a añadirla"
 
 #: r2/controllers/api.py:512
 msgid "your message has been delivered"
@@ -239,14 +237,12 @@ msgid "no title found"
 msgstr "título no encontrado"
 
 #: r2/controllers/api.py:828 r2/controllers/linked_logins.py:173 r2/controllers/linked_logins.py:219 r2/controllers/linked_logins.py:239 r2/controllers/linked_logins.py:256
-#, fuzzy
-#| msgid "the upload took too long; try again"
 msgid "That sign-in took too long. Please start again."
-msgstr "la subida tardó demasiado; inténtalo de nuevo"
+msgstr "El inicio de sesión tardó demasiado. Vuelve a empezar."
 
 #: r2/controllers/api.py:833
 msgid "That account is linked already: sign in with it."
-msgstr ""
+msgstr "Esa cuenta ya está vinculada: inicia sesión con ella."
 
 #: r2/controllers/api.py:1367 r2/controllers/api.py:1748 r2/controllers/api.py:2648 r2/controllers/api.py:2948 r2/controllers/api.py:3269 r2/controllers/api.py:4149 r2/controllers/api.py:4205 r2/controllers/api.py:4259 r2/controllers/api.py:4492 r2/controllers/api.py:4497 r2/controllers/api.py:4732 r2/controllers/api.py:4797 r2/controllers/api.py:4875 r2/controllers/api.py:4941 r2/controllers/api.py:5014 r2/controllers/api.py:5100 r2/controllers/api.py:5132 r2/controllers/api.py:5152 r2/controllers/api.py:5636 r2/controllers/api.py:5676 r2/controllers/api.py:5850 r2/controllers/api.py:5868 r2/controllers/api.py:6192 r2/lib/pages/pages.py:6182
 msgid "saved"
@@ -343,23 +339,20 @@ msgstr "alcanzado máximo de plantillas de adornos"
 #: r2/controllers/api.py:4937
 #, python-format
 msgid "saved, but these aren't on until their keys are filled in: %(names)s"
-msgstr ""
+msgstr "guardado, pero estos no se activan hasta que se rellenen sus claves: %(names)s"
 
 #: r2/controllers/api.py:4959
 msgid "the keys work"
-msgstr ""
+msgstr "las claves funcionan"
 
 #: r2/controllers/api.py:4960 r2/controllers/api.py:4977
-#, fuzzy, python-format
-#| msgid "error: %(error)s"
+#, python-format
 msgid "didn't work: %(error)s"
-msgstr "error: %(error)s"
+msgstr "no funcionó: %(error)s"
 
 #: r2/controllers/api.py:4965
-#, fuzzy
-#| msgid "no such account"
 msgid "no such payment"
-msgstr "no existe esa cuenta"
+msgstr "no existe ese pago"
 
 #: r2/controllers/api.py:4980 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminusers.html:58 r2/templates/adminvaults.html:50
 msgid "status"
@@ -372,7 +365,7 @@ msgstr "nombre"
 #: r2/controllers/api.py:5010
 #, python-format
 msgid "saved, but these aren't on until their ID and secret are filled in: %(names)s"
-msgstr ""
+msgstr "guardado, pero estos no se activan hasta que se rellenen su ID y su secreto: %(names)s"
 
 #: r2/controllers/api.py:5114 r2/controllers/api.py:5140
 msgid "this site's live config is managed in ZooKeeper"
@@ -390,18 +383,16 @@ msgstr "no se guardó: %(error)s"
 #: r2/controllers/api.py:5156
 #, python-format
 msgid "%(saved)d saved; %(failed)d not saved (see below)"
-msgstr ""
+msgstr "%(saved)d guardados; %(failed)d sin guardar (ver abajo)"
 
 #: r2/controllers/api.py:5162
-#, fuzzy
-#| msgid "Nothing here."
 msgid "nothing changed"
-msgstr "Aquí no hay nada."
+msgstr "no ha cambiado nada"
 
 #: r2/controllers/api.py:5178
 #, python-format
 msgid "couldn't empty: %(servers)s"
-msgstr ""
+msgstr "no se pudo vaciar: %(servers)s"
 
 #: r2/controllers/api.py:5203
 msgid "every account has been checked"
@@ -477,13 +468,12 @@ msgstr "indica la dirección http(s) del feed"
 
 #: r2/controllers/api.py:5436
 msgid "pick one of the AI labels"
-msgstr ""
+msgstr "elige una de las etiquetas de IA"
 
 #: r2/controllers/api.py:5440
-#, fuzzy, python-format
-#| msgid "/v/%(vault)s accepts %(policy)s."
+#, python-format
 msgid "/v/%(vault)s doesn't accept %(label)s posts"
-msgstr "/v/%(vault)s acepta %(policy)s."
+msgstr "/v/%(vault)s no acepta publicaciones %(label)s"
 
 #: r2/controllers/api.py:5446
 msgid "give the bot account a valid username"
@@ -540,11 +530,11 @@ msgstr "guardado; la clave de CleanTalk funciona"
 
 #: r2/controllers/api.py:5722
 msgid "that isn't a release with an installer"
-msgstr ""
+msgstr "eso no es una versión con instalador"
 
 #: r2/controllers/api.py:5725
 msgid "a server is updating now; wait for it to finish"
-msgstr ""
+msgstr "un servidor se está actualizando ahora; espera a que termine"
 
 #: r2/controllers/api.py:5767
 msgid "Copy the key now; it isn't shown again."
@@ -596,27 +586,23 @@ msgstr "no hay gold para coger"
 
 #: r2/controllers/api.py:6017 r2/controllers/api.py:6047
 msgid "that's as many authenticator apps as an account can have"
-msgstr ""
+msgstr "esas son todas las aplicaciones de autenticación que puede tener una cuenta"
 
 #: r2/controllers/api.py:6090
 msgid "enter a code from one of your methods first"
-msgstr ""
+msgstr "primero introduce un código de uno de tus métodos"
 
 #: r2/controllers/api.py:6092
-#, fuzzy
-#| msgid "reset your password"
 msgid "enter your password first"
-msgstr "resetea tu contraseña"
+msgstr "primero introduce tu contraseña"
 
 #: r2/controllers/api.py:6110
 msgid "that passkey couldn't be added"
-msgstr ""
+msgstr "no se pudo añadir esa llave de acceso"
 
 #: r2/controllers/api.py:6145
-#, fuzzy
-#| msgid "that password is unacceptable"
 msgid "that passkey wasn't accepted"
-msgstr "esa contraseña es inválida"
+msgstr "esa llave de acceso no fue aceptada"
 
 #: r2/controllers/api.py:6272
 #, python-format
@@ -825,16 +811,12 @@ msgid "Claimed! Enjoy your tippr gold membership."
 msgstr "¡Aceptada! Disfruta tu suscripción a tippr gold."
 
 #: r2/controllers/front.py:1545
-#, fuzzy
-#| msgid "Your gold coins have been claimed! Now go to someone's userpage and give them a present!"
 msgid "Your gold has been claimed! Now go to someone's userpage and give them a present!"
-msgstr "¡Tus coinos gold han sido recibidos! ¡Ahora ve a la página de usuario de alguien y hazles un regalo!"
+msgstr "¡Se ha canjeado tu gold! ¡Ahora ve a la página de alguien y hazle un regalo!"
 
 #: r2/controllers/front.py:1549
-#, fuzzy
-#| msgid "Thanks for buying tippr gold! Your transaction has been completed and emailed to you. You can check the details by signing into your account at:"
 msgid "Thanks for buying tippr gold! Your payment has been received and your purchase delivered: check your inbox for the details."
-msgstr "¡Gracias por comprar tippr gold! Tu transacción se ha completado y se te ha enviado por e-mail. Puedes consultar los detalles entrando en tu cuenta desde:"
+msgstr "¡Gracias por comprar tippr gold! Hemos recibido tu pago y entregado tu compra: revisa tu bandeja de entrada para ver los detalles."
 
 #: r2/controllers/front.py:1555
 msgid "Thanks for buying tippr gold! Your transaction has been completed."
@@ -899,11 +881,11 @@ msgstr "bienvenido de nuevo"
 
 #: r2/controllers/front.py:1953
 msgid "tippr gold isn't for sale on this site right now."
-msgstr ""
+msgstr "tippr gold no está a la venta en este sitio ahora mismo."
 
 #: r2/controllers/front.py:1954
 msgid "what gold gives you"
-msgstr ""
+msgstr "lo que te da gold"
 
 #: r2/controllers/front.py:2074 r2/templates/gold.html:57 r2/templates/gold.html:112 r2/templates/prefoptions.html:532
 msgid "Give Gold"
@@ -942,7 +924,7 @@ msgstr "ese usuario ha borrado su cuenta"
 
 #: r2/controllers/ipn.py:314 r2/controllers/ipn.py:328
 msgid "the gold has been delivered!"
-msgstr "¡tippr gold enviado!"
+msgstr "¡se ha entregado el gold!"
 
 #: r2/controllers/ipn.py:319
 #, python-format
@@ -1020,7 +1002,7 @@ msgstr "error en el cvc"
 
 #: r2/controllers/ipn.py:781
 msgid "your gold subscription has been cancelled"
-msgstr "tu suscripción a tippr gold ha sido cancelada"
+msgstr "se ha cancelado tu suscripción gold"
 
 #: r2/controllers/ipn.py:782
 #, python-format
@@ -1033,7 +1015,7 @@ msgstr "ha ocurrido algo malo, inténtalo de nuevo más tarde"
 
 #: r2/controllers/ipn.py:818
 msgid "your account already has a gold subscription"
-msgstr "tu cuenta ya tiene una suscripción a tippr gold"
+msgstr "tu cuenta ya tiene una suscripción gold"
 
 #: r2/controllers/ipn.py:824
 msgid "stop trying to trick the form"
@@ -1135,10 +1117,8 @@ msgstr ""
 "Si tienes alguna duda, por favor póngase en contacto con %(gold_email)s."
 
 #: r2/controllers/linked_logins.py:43 r2/controllers/linked_logins.py:120 r2/controllers/linked_logins.py:134 r2/controllers/linked_logins.py:160 r2/controllers/linked_logins.py:178 r2/controllers/linked_logins.py:191 r2/controllers/linked_logins.py:264 r2/templates/linkedloginotp.html:35
-#, fuzzy
-#| msgid "sign up"
 msgid "sign in"
-msgstr "registrate"
+msgstr "iniciar sesión"
 
 #: r2/controllers/linked_logins.py:76 r2/controllers/linked_logins.py:98 r2/controllers/linked_logins.py:104 r2/controllers/linked_logins.py:174 r2/controllers/linked_logins.py:200 r2/controllers/linked_logins.py:257 r2/controllers/linked_logins.py:263 r2/templates/login.html:164 r2/templates/login.html:259 r2/templates/login.html:293
 msgid "log in"
@@ -1146,23 +1126,19 @@ msgstr "inicia sesión"
 
 #: r2/controllers/linked_logins.py:102
 msgid "Log in to the account you want to link it to, then try again."
-msgstr ""
+msgstr "Inicia sesión en la cuenta con la que quieres vincularla y vuelve a intentarlo."
 
 #: r2/controllers/linked_logins.py:108
-#, fuzzy
-#| msgid "backup"
 msgid "back"
-msgstr "copia de seguridad"
+msgstr "volver"
 
 #: r2/controllers/linked_logins.py:129
-#, fuzzy
-#| msgid "You need to be logged in to do that."
 msgid "That account can't be logged into."
-msgstr "Necesitas iniciar sesión para hacer eso."
+msgstr "No se puede iniciar sesión en esa cuenta."
 
 #: r2/controllers/linked_logins.py:262
 msgid "Too many wrong codes. Please start again."
-msgstr ""
+msgstr "Demasiados códigos incorrectos. Vuelve a empezar."
 
 #: r2/controllers/listingcontroller.py:596
 msgid "newest submissions"
@@ -1303,7 +1279,7 @@ msgstr "con gold"
 #: r2/controllers/listingcontroller.py:2109
 #, python-format
 msgid "gildings in this vault have paid for %(time)s of server time"
-msgstr "los usuarios de tippr gold de este vault han pagado %(time)s de servidor"
+msgstr "los dorados de este vault han pagado %(time)s de tiempo de servidor"
 
 #: r2/controllers/multi.py:323
 #, python-format
@@ -1324,49 +1300,41 @@ msgid "%(author)s's comment from discussion \"%(title)s\""
 msgstr "Comentario del %(author)s en la discusión \"%(title)s\""
 
 #: r2/controllers/payments.py:32
-#, fuzzy
-#| msgid "ad placement"
 msgid "payment"
-msgstr "ubicación de los anuncios"
+msgstr "pago"
 
 #: r2/controllers/payments.py:52
-#, fuzzy
-#| msgid "that language is not available"
 msgid "That payment method isn't available."
-msgstr "ese idioma no está disponible"
+msgstr "Ese método de pago no está disponible."
 
 #: r2/controllers/payments.py:64
 msgid "This purchase can't be paid for any more: it may have been paid already, or it's too old. Please start again."
-msgstr ""
+msgstr "Esta compra ya no se puede pagar: quizá ya se pagó, o es demasiado antigua. Vuelve a empezar."
 
 #: r2/controllers/payments.py:67
-#, fuzzy
-#| msgid "try again"
 msgid "start again"
-msgstr "inténtalo de nuevo"
+msgstr "empezar de nuevo"
 
 #: r2/controllers/payments.py:71
 #, python-format
 msgid "The payment couldn't be started with %(provider)s. Please try again in a moment, or pay another way."
-msgstr ""
+msgstr "No se pudo iniciar el pago con %(provider)s. Inténtalo de nuevo en un momento o paga de otra forma."
 
 #: r2/controllers/payments.py:95
 msgid "Thanks! Your payment is being confirmed on the network, which can take a while. Your purchase is delivered as soon as it's confirmed; you can close this page."
-msgstr ""
+msgstr "¡Gracias! Tu pago se está confirmando en la red, lo que puede tardar un rato. Tu compra se entrega en cuanto se confirme; puedes cerrar esta página."
 
 #: r2/controllers/payments.py:100
 msgid "Thanks! Your payment is being processed. Your purchase is delivered as soon as it's done; you can close this page."
-msgstr ""
+msgstr "¡Gracias! Tu pago se está procesando. Tu compra se entrega en cuanto termine; puedes cerrar esta página."
 
 #: r2/controllers/payments.py:105
-#, fuzzy
-#| msgid "This element has been disabled."
 msgid "This payment was refunded."
-msgstr "Este elemento se ha desactivado."
+msgstr "Este pago fue reembolsado."
 
 #: r2/controllers/payments.py:107
 msgid "The payment didn't go through, so you haven't been charged."
-msgstr ""
+msgstr "El pago no se completó, así que no se te ha cobrado."
 
 #: r2/controllers/payments.py:108 r2/templates/exploreitemlisting.html:77
 msgid "try again"
@@ -1405,11 +1373,8 @@ msgid "muting in moderator mail"
 msgstr "silenciar en el correo de moderación"
 
 #: r2/controllers/policies.py:55
-#, fuzzy
-#| msgid "moderator"
-#| msgid_plural "moderators"
 msgid "AutoModerator"
-msgstr "moderador"
+msgstr "AutoModerator"
 
 #: r2/controllers/policies.py:56
 msgid "using the API"
@@ -1460,10 +1425,8 @@ msgid "Request cancelled."
 msgstr "Solicitud cancelada."
 
 #: r2/controllers/promotecontroller.py:333
-#, fuzzy
-#| msgid "this site isn't taking new accounts right now"
 msgid "Advertising isn't available on this site right now."
-msgstr "este sitio no admite cuentas nuevas en este momento"
+msgstr "La publicidad no está disponible en este sitio ahora mismo."
 
 #: r2/controllers/promotecontroller.py:338 r2/lib/menus.py:93
 msgid "advertise"
@@ -1527,7 +1490,7 @@ msgstr "enlaces patrocinados reportados"
 
 #: r2/controllers/promotecontroller.py:606
 msgid "house promoted links"
-msgstr "enlaces promocionados de tippr"
+msgstr "enlaces promocionados del sitio"
 
 #: r2/controllers/promotecontroller.py:607
 msgid "fraud suspected promoted links"
@@ -1606,10 +1569,8 @@ msgid "The contents of this page appear in the public vault description and when
 msgstr "El contenido de esta página aparecen en la descripción pública del vault y cuando el usuario no tiene acceso al vault"
 
 #: r2/controllers/wiki.py:97
-#, fuzzy
-#| msgid "This page is used to configure AutoModerator for the vault, please see [the full documentation](/wiki/automoderator/full-documentation) for information"
 msgid "This page is used to configure AutoModerator for the vault, see [the AutoModerator help page](/help/automoderator) for how to write rules"
-msgstr "Esta página es usada para configurar el moderador automático para el vault, por favor ve [the full documentation](/wiki/automoderator/full-documentation) para más información"
+msgstr "Esta página sirve para configurar AutoModerator en el vault; consulta [la página de ayuda de AutoModerator](/help/automoderator) para saber cómo escribir reglas"
 
 #: r2/controllers/wiki.py:163
 #, python-format
@@ -2224,11 +2185,11 @@ msgstr "La autenticación de dos pasos ya está activada"
 
 #: r2/lib/errors.py:152
 msgid "enter the code from your authenticator app (or a recovery code)"
-msgstr ""
+msgstr "introduce el código de tu aplicación de autenticación (o un código de recuperación)"
 
 #: r2/lib/errors.py:153
 msgid "turn on two-factor authentication (preferences, security) to use these tools"
-msgstr ""
+msgstr "activa la verificación en dos pasos (preferencias, seguridad) para usar estas herramientas"
 
 #: r2/lib/errors.py:154
 msgid "image problem"
@@ -2691,21 +2652,19 @@ msgstr "[eliminado]"
 
 #: r2/lib/linked_logins.py:62
 msgid "Google"
-msgstr ""
+msgstr "Google"
 
 #: r2/lib/linked_logins.py:71
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: r2/lib/linked_logins.py:81
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #: r2/lib/linked_logins.py:92
-#, fuzzy
-#| msgid "discovery"
 msgid "Discord"
-msgstr "descubrir"
+msgstr "Discord"
 
 #: r2/lib/live_config_admin.py:51
 msgid "Who has staff permissions: name:level pairs, comma-separated, where the level is admin, sponsor or employee. Admins can turn on admin mode. You can't remove your own admin permission here."
@@ -2713,11 +2672,11 @@ msgstr "Quién tiene permisos de personal: pares nombre:nivel separados por coma
 
 #: r2/lib/live_config_admin.py:55
 msgid "Moderators and staff (employees, and admins for admin mode) need two-factor sign-in turned on (preferences, security) to use their tools; until then they see a notice asking them to. Members without it are unaffected."
-msgstr ""
+msgstr "Los moderadores y el personal (empleados, y administradores para el modo admin) deben activar el inicio de sesión en dos pasos (preferencias, seguridad) para usar sus herramientas; hasta entonces ven un aviso que se lo pide. Los miembros que no lo tienen no se ven afectados."
 
 #: r2/lib/live_config_admin.py:60
 msgid "How long a page for logged-out visitors may be kept and served again, in seconds, by nginx's page cache or a CDN in front of the site (logged-in visitors always get fresh pages). Lower it to show changes sooner, or 0 to stop caching pages at once. nginx's page cache has to be on (the installer's TIPPR_PAGE_CACHE_SECONDS) for a value here to do anything there."
-msgstr ""
+msgstr "Cuánto tiempo puede guardarse y volver a servirse una página para visitantes sin sesión, en segundos, en la caché de páginas de nginx o en una CDN delante del sitio (los visitantes con sesión siempre reciben páginas nuevas). Bájalo para que los cambios se vean antes, o pon 0 para dejar de guardar páginas en caché de inmediato. La caché de páginas de nginx tiene que estar activada (TIPPR_PAGE_CACHE_SECONDS en el instalador) para que un valor aquí haga algo allí."
 
 #: r2/lib/live_config_admin.py:67
 msgid "Accounts with at least this much post karma skip the captcha."
@@ -2745,7 +2704,7 @@ msgstr "Un aviso en la barra lateral de todas las páginas. En blanco: ninguno."
 
 #: r2/lib/live_config_admin.py:82
 msgid "Messages for the \"new here?\" bar shown to logged-out visitors, each in double quotes; one is picked at random. \" / \" splits a message into a heading and a smaller second line, e.g. \"Welcome! / Pick a few vaults to subscribe to.\""
-msgstr ""
+msgstr "Mensajes para la barra «¿eres nuevo?» que se muestra a los visitantes sin sesión, cada uno entre comillas dobles; se elige uno al azar. \" / \" divide un mensaje en un título y una segunda línea más pequeña, p. ej. \"¡Bienvenido! / Suscríbete a algunos vaults.\""
 
 #: r2/lib/live_config_admin.py:87
 msgid "A message in the info bar at the top of listings. For a site-wide banner, use the announcement on /admin/site instead."
@@ -3147,20 +3106,16 @@ msgid "ad settings"
 msgstr "configuración de anuncios"
 
 #: r2/lib/menus.py:167 r2/templates/adminpaymentsettings.html:87
-#, fuzzy
-#| msgid "payment mismatch"
 msgid "payments"
-msgstr "descuadre de pago"
+msgstr "pagos"
 
 #: r2/lib/menus.py:168 r2/templates/adminloginsettings.html:22
 msgid "sign-in providers"
-msgstr ""
+msgstr "proveedores de inicio de sesión"
 
 #: r2/lib/menus.py:169 r2/templates/adminserverstatus.html:24
-#, fuzzy
-#| msgid "other server"
 msgid "servers"
-msgstr "otro servidor"
+msgstr "servidores"
 
 #: r2/lib/menus.py:170 r2/templates/adminbackups.html:51
 msgid "backups"
@@ -3479,10 +3434,9 @@ msgid "I understand and agree that registration on or use of this site constitut
 msgstr "Entiendo y estoy de acuerdo en que el registro o uso de esta web implica el aceptamiento de su %(user_agreement)s y %(privacy_policy)s."
 
 #: r2/lib/strings.py:84
-#, fuzzy, python-format
-#| msgid "to view tippr with only submissions from your friends, use [tippr.net/v/friends](%s)"
+#, python-format
 msgid "to view only submissions from your friends, use [/v/friends](%s)"
-msgstr "para ver en tippr sólo los envíos de tus amigos, usa [tippr.net/v/friends](%s)"
+msgstr "para ver solo publicaciones de tus amigos, usa [/v/friends](%s)"
 
 #: r2/lib/strings.py:86
 msgid "your vault has been created"
@@ -3499,7 +3453,7 @@ msgstr "no estás suscrito a ningún vault"
 
 #: r2/lib/strings.py:92
 msgid "you haven't chosen any vaults yet, so your front page shows the site's default vaults, below. subscribe or unsubscribe to make the list your own."
-msgstr ""
+msgstr "todavía no has elegido ningún vault, así que tu portada muestra los vaults predeterminados del sitio, abajo. suscríbete o cancela suscripciones para que la lista sea tuya."
 
 #: r2/lib/strings.py:93
 msgid "below are the vaults you have subscribed to."
@@ -3680,10 +3634,9 @@ msgstr ""
 "Cuesta %(price)s."
 
 #: r2/lib/strings.py:141
-#, fuzzy, python-format
-#| msgid "You're about to purchase %(amount)s. They work like gift certificates: each coin you have will allow you to give one month of tippr gold to someone else. You'll pay a total of %(price)s for this."
+#, python-format
 msgid "You're about to purchase %(amount)s for Give Gold. It works like a gift certificate: each month of it gives someone one month of tippr gold. You'll pay a total of %(price)s for this."
-msgstr "Estás a punto de comprar %(amount)s. Funcionan como certificados de regalo: cada crédito que tengas te permitirá da un mes de tippr gold a alguien más. Pagarás un total de %(price)s por esto."
+msgstr "Estás a punto de comprar %(amount)s para Regalar gold. Funciona como un vale de regalo: cada mes le da a alguien un mes de tippr gold. Pagarás un total de %(price)s."
 
 #: r2/lib/strings.py:142
 #, python-format
@@ -3833,13 +3786,10 @@ msgstr[0] "vault"
 msgstr[1] "vaults"
 
 #: r2/lib/strings.py:265
-#, fuzzy
-#| msgid "a month ago"
-#| msgid_plural "%(num)s months ago"
 msgid "month of gold"
 msgid_plural "months of gold"
-msgstr[0] "hace un mes"
-msgstr[1] "hace %(num)s meses"
+msgstr[0] "mes de gold"
+msgstr[1] "meses de gold"
 
 #: r2/lib/strings.py:268
 msgid "reader"
@@ -4273,7 +4223,7 @@ msgstr "%d %b %Y"
 
 #: r2/lib/pages/pages.py:338
 msgid "This site asks moderators and staff to use two-factor sign-in. Turn it on under [preferences, security](/prefs/security) to use your moderator tools."
-msgstr ""
+msgstr "Este sitio pide a los moderadores y al personal que usen el inicio de sesión en dos pasos. Actívalo en [preferencias, seguridad](/prefs/security) para usar tus herramientas de moderación."
 
 #: r2/lib/pages/pages.py:521
 msgid "wiki tools"
@@ -4341,10 +4291,9 @@ msgid "<3"
 msgstr "<3"
 
 #: r2/lib/pages/pages.py:1335 r2/templates/adminserverstatus.html:142
-#, fuzzy, python-format
-#| msgid "%(time)s days left"
+#, python-format
 msgid "%(time)s ago"
-msgstr "%(time)s días restantes"
+msgstr "hace %(time)s"
 
 #: r2/lib/pages/pages.py:1496
 #, python-format
@@ -4421,8 +4370,8 @@ msgstr "menos de un día"
 #, python-format
 msgid "Give Gold: %(coins)s month"
 msgid_plural "Give Gold: %(coins)s months"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Regalar gold: %(coins)s mes"
+msgstr[1] "Regalar gold: %(coins)s meses"
 
 #: r2/lib/pages/pages.py:2565
 #, python-format
@@ -4505,63 +4454,57 @@ msgid "search"
 msgstr "buscar"
 
 #: r2/lib/pages/pages.py:4228
-#, fuzzy, python-format
-#| msgid "a community for %(time)s"
+#, python-format
 msgid "not heard from for %(time)s"
-msgstr "comunidad desde hace %(time)s"
+msgstr "sin noticias desde hace %(time)s"
 
 #: r2/lib/pages/pages.py:4234
 #, python-format
 msgid "memory %(p)s%% used"
-msgstr ""
+msgstr "memoria al %(p)s%%"
 
 #: r2/lib/pages/pages.py:4238
 #, python-format
 msgid "busy: load %(l)s on %(n)s CPUs"
-msgstr ""
+msgstr "ocupado: carga %(l)s en %(n)s CPU"
 
 #: r2/lib/pages/pages.py:4244
 #, python-format
 msgid "disk %(path)s %(p)s%% full"
-msgstr ""
+msgstr "disco %(path)s lleno al %(p)s%%"
 
 #: r2/lib/pages/pages.py:4248
-#, fuzzy, python-format
-#| msgid "%(title)s : %(site)s"
+#, python-format
 msgid "%(service)s is %(state)s"
-msgstr "%(title)s : %(site)s"
+msgstr "%(service)s está %(state)s"
 
 #: r2/lib/pages/pages.py:4251
 msgid "a different version from the others"
-msgstr ""
+msgstr "una versión distinta de las demás"
 
 #: r2/lib/pages/pages.py:4253
 msgid "another server has the same name: set TIPPR_SERVER_NAME on one of them"
-msgstr ""
+msgstr "otro servidor tiene el mismo nombre: define TIPPR_SERVER_NAME en uno de ellos"
 
 #: r2/lib/pages/pages.py:4308
-#, fuzzy, python-format
-#| msgid "seconds"
+#, python-format
 msgid "%(n)s seconds"
-msgstr "segundos"
+msgstr "%(n)s segundos"
 
 #: r2/lib/pages/pages.py:4310
-#, fuzzy, python-format
-#| msgid "minutes"
+#, python-format
 msgid "%(n)s minutes"
-msgstr "minutos"
+msgstr "%(n)s minutos"
 
 #: r2/lib/pages/pages.py:4312
-#, fuzzy, python-format
-#| msgid "this hour"
+#, python-format
 msgid "%(n)s hours"
-msgstr "última hora"
+msgstr "%(n)s horas"
 
 #: r2/lib/pages/pages.py:4313
-#, fuzzy, python-format
-#| msgid "last %(n)d days"
+#, python-format
 msgid "%(n)s days"
-msgstr "últimos %(n)d días"
+msgstr "%(n)s días"
 
 #: r2/lib/pages/pages.py:4526 r2/lib/pages/pages.py:4635
 msgid "added"
@@ -4774,10 +4717,8 @@ msgid "[frontpage]"
 msgstr "[portada]"
 
 #: r2/lib/pages/trafficpages.py:293
-#, fuzzy
-#| msgid "activity"
 msgid "activity by day"
-msgstr "actividades"
+msgstr "actividad por día"
 
 #: r2/lib/pages/trafficpages.py:342
 msgid "total impressions by day"
@@ -4911,100 +4852,85 @@ msgstr "PayPal"
 
 #: r2/lib/payments/__init__.py:68 r2/templates/adminpaymentsettings.html:149
 msgid "Stripe"
-msgstr ""
+msgstr "Stripe"
 
 #: r2/lib/payments/__init__.py:68
 msgid "Card / Google Pay"
-msgstr ""
+msgstr "Tarjeta / Google Pay"
 
 #: r2/lib/payments/__init__.py:69 r2/templates/adminpaymentsettings.html:166
 msgid "Coinbase"
-msgstr ""
+msgstr "Coinbase"
 
 #: r2/lib/payments/__init__.py:69
 msgid "Crypto (USDC)"
-msgstr ""
+msgstr "Cripto (USDC)"
 
 #: r2/lib/payments/__init__.py:70 r2/templates/adminpaymentsettings.html:191
 msgid "BitPay"
-msgstr ""
+msgstr "BitPay"
 
 #: r2/lib/payments/__init__.py:70
 msgid "Bitcoin"
 msgstr "Bitcoin"
 
 #: r2/lib/payments/__init__.py:121
-#, fuzzy
-#| msgid "waiting on the member"
 msgid "waiting for the buyer"
-msgstr "esperando al miembro"
+msgstr "esperando al comprador"
 
 #: r2/lib/payments/__init__.py:122
-#, fuzzy
-#| msgid "confirm"
 msgid "confirming"
-msgstr "confirmar"
+msgstr "confirmando"
 
 #: r2/lib/payments/__init__.py:123
-#, fuzzy
-#| msgid "unpaid"
 msgid "paid"
-msgstr "sin pagar"
+msgstr "pagado"
 
 #: r2/lib/payments/__init__.py:124 r2/templates/privacysettings.html:31
-#, fuzzy
-#| msgid "refund failed"
 msgid "failed"
-msgstr "el reembolso falló"
+msgstr "fallido"
 
 #: r2/lib/payments/__init__.py:125 r2/templates/privacysettings.html:33
 msgid "expired"
-msgstr ""
+msgstr "caducado"
 
 #: r2/lib/payments/__init__.py:126
-#, fuzzy
-#| msgid "refund"
 msgid "refunded"
-msgstr "devolución"
+msgstr "reembolsado"
 
 #: r2/lib/payments/gold.py:38
 #, python-format
 msgid "Give Gold: %(count)d months"
-msgstr ""
+msgstr "Regalar gold: %(count)d meses"
 
 #: r2/lib/payments/gold.py:40
 #, python-format
 msgid "%(count)d year(s) of gold"
-msgstr ""
+msgstr "%(count)d año(s) de gold"
 
 #: r2/lib/payments/gold.py:42
 #, python-format
 msgid "%(count)d month(s) of gold"
-msgstr ""
+msgstr "%(count)d mes(es) de gold"
 
 #: r2/lib/payments/gold.py:44
-#, fuzzy, python-format
-#| msgid "what %(name)s did"
+#, python-format
 msgid "%(what)s for %(name)s"
-msgstr "lo que hizo %(name)s"
+msgstr "%(what)s para %(name)s"
 
 #: r2/lib/payments/gold.py:46
-#, fuzzy, python-format
-#| msgid "enter a gift code for redemption"
+#, python-format
 msgid "a gift code for %(what)s"
-msgstr "agrega un código de regalo para el reembolso"
+msgstr "un código de regalo para %(what)s"
 
 #: r2/lib/payments/gold.py:122
-#, fuzzy
-#| msgid "tippr gold refund"
 msgid "gold refund"
-msgstr "El reembolso de tippr gold"
+msgstr "reembolso de gold"
 
 #: r2/lib/payments/gold.py:123
-#, fuzzy, python-format
-#| msgid "Your tippr gold payment has been refunded, contact %(gold_email)s for details"
+#, python-format
 msgid "Your gold payment has been refunded, contact %(gold_email)s for details"
-msgstr "Se ha reembolsado tu pago de tippr gold. Ponte en contacto con %(gold_email)s para detalles."
+msgstr "Se ha reembolsado tu pago de gold; contacta con %(gold_email)s para más detalles"
 
 #: r2/lib/utils/_utils.py:229
 msgid "millisecond"
@@ -6031,16 +5957,12 @@ msgid "Update preferences and related account information. Will not have access 
 msgstr "Actualizar preferencias e información de la cuenta. No tendrá acceso a tu e-mail o contraseña."
 
 #: r2/models/token.py:126
-#, fuzzy
-#| msgid "renew your tippr gold"
 msgid "Spend your gold"
-msgstr "renueva tu tippr gold"
+msgstr "Gasta tu gold"
 
 #: r2/models/token.py:127
-#, fuzzy
-#| msgid "Spend my tippr gold coins on giving gold to other users."
 msgid "Spend the gold I bought on giving gold to other users."
-msgstr "Gastar mis créditos de tippr gold dando oro a otros usuarios."
+msgstr "Gastar el gold que compré en regalar gold a otros usuarios."
 
 #: r2/models/token.py:132
 msgid "Edit Posts"
@@ -6348,31 +6270,24 @@ msgstr "cargando…"
 
 #: r2/public/static/js/enhancements.js:95
 msgid "couldn't load more; try again"
-msgstr ""
+msgstr "no se pudo cargar más; inténtalo de nuevo"
 
 #: r2/public/static/js/enhancements.js:129
-#, fuzzy, python-format
-#| msgid "Share to %(name)s"
+#, python-format
 msgid "page %(num)s"
-msgstr "Compartir con %(name)s"
+msgstr "página %(num)s"
 
 #: r2/public/static/js/enhancements.js:156
-#, fuzzy
-#| msgid "there doesn't seem to be anything here"
 msgid "there doesn't seem to be anything more here"
-msgstr "parece que no hay nada por aquí"
+msgstr "parece que no hay nada más aquí"
 
 #: r2/public/static/js/enhancements.js:173
-#, fuzzy
-#| msgid "posts and comments"
 msgid "next post or comment"
-msgstr "posts y comentarios"
+msgstr "siguiente publicación o comentario"
 
 #: r2/public/static/js/enhancements.js:174
-#, fuzzy
-#| msgid "their posts and comments…"
 msgid "previous post or comment"
-msgstr "sus publicaciones y comentarios…"
+msgstr "publicación o comentario anterior"
 
 #: r2/public/static/js/enhancements.js:175 r2/templates/printable.html:233
 msgid "upvote"
@@ -6383,173 +6298,131 @@ msgid "downvote"
 msgstr "votar negativamente"
 
 #: r2/public/static/js/enhancements.js:177
-#, fuzzy
-#| msgid "open links in a new window"
 msgid "open the link (shift: in a new tab)"
-msgstr "abrir enlaces en una ventana nueva"
+msgstr "abrir el enlace (Mayús: en una pestaña nueva)"
 
 #: r2/public/static/js/enhancements.js:178
-#, fuzzy
-#| msgid "top %d comments"
 msgid "open the comments"
-msgstr "mejores %d comentarios"
+msgstr "abrir los comentarios"
 
 #: r2/public/static/js/enhancements.js:179
-#, fuzzy
-#| msgid "expand media previews on comments pages"
 msgid "expand or collapse the preview, or the comment"
-msgstr "expandir previsualización de contenidos en páginas de comentarios"
+msgstr "expandir o contraer la vista previa, o el comentario"
 
 #: r2/public/static/js/enhancements.js:180 r2/public/static/js/enhancements.js:631 r2/public/static/js/saved.js:122 r2/public/static/js/saved.js:161 r2/public/static/js/sponsored.js:97 r2/templates/adminadsettings.html:128 r2/templates/adminantispam.html:106 r2/templates/adminemailsettings.html:95 r2/templates/adminfeeds.html:70 r2/templates/adminloginsettings.html:77 r2/templates/adminpaymentsettings.html:213 r2/templates/adminsitesettings.html:127 r2/templates/adminsupportstaff.html:57 r2/templates/flairlistrow.html:48 r2/templates/flairselector.html:54 r2/templates/moderatorpermissions.html:55 r2/templates/prefsecurity.html:102 r2/templates/prefupdate.html:99 r2/templates/prefupdate.html:153 r2/templates/printablebuttons.html:106 r2/templates/printablebuttons.html:375 r2/templates/printablebuttons.html:480 r2/templates/promotelinkedit.html:218 r2/templates/vaultstylesheet.html:70
 msgid "save"
 msgstr "guardar"
 
 #: r2/public/static/js/enhancements.js:181
-#, fuzzy
-#| msgid "remove comment"
 msgid "reply to the comment"
-msgstr "eliminar comentario"
+msgstr "responder al comentario"
 
 #: r2/public/static/js/enhancements.js:182
-#, fuzzy
-#| msgid "approve comment"
 msgid "parent comment"
-msgstr "aprobar comentario"
+msgstr "comentario padre"
 
 #: r2/public/static/js/enhancements.js:183
-#, fuzzy
-#| msgid "save page"
 msgid "next page"
-msgstr "guardar página"
+msgstr "página siguiente"
 
 #: r2/public/static/js/enhancements.js:184
-#, fuzzy
-#| msgid "show AdSense ads"
 msgid "show these keys"
-msgstr "mostrar anuncios de AdSense"
+msgstr "mostrar estas teclas"
 
 #: r2/public/static/js/enhancements.js:361
 msgid "keyboard shortcuts"
-msgstr ""
+msgstr "atajos de teclado"
 
 #: r2/public/static/js/enhancements.js:363
 msgid "turn these off under \"enhancements\" in your preferences"
-msgstr ""
+msgstr "desactívalos en «mejoras» en tus preferencias"
 
 #: r2/public/static/js/enhancements.js:388 r2/public/static/js/enhancements.js:426
-#, fuzzy
-#| msgid "all %d comments"
 msgid "hide all child comments"
-msgstr "todos los %d comentarios"
+msgstr "ocultar todas las respuestas"
 
 #: r2/public/static/js/enhancements.js:404 r2/public/static/js/enhancements.js:419
-#, fuzzy
-#| msgid "gilded comment"
 msgid "hide child comments"
-msgstr "comentario con gold"
+msgstr "ocultar respuestas"
 
 #: r2/public/static/js/enhancements.js:419
-#, fuzzy
-#| msgid "top %d comments"
 msgid "show child comments"
-msgstr "mejores %d comentarios"
+msgstr "mostrar respuestas"
 
 #: r2/public/static/js/enhancements.js:426
-#, fuzzy
-#| msgid "all %d comments"
 msgid "show all child comments"
-msgstr "todos los %d comentarios"
+msgstr "mostrar todas las respuestas"
 
 #: r2/public/static/js/enhancements.js:458 r2/public/static/js/enhancements.js:523
-#, fuzzy
-#| msgid "header image"
 msgid "hide images"
-msgstr "imagen de cabecera"
+msgstr "ocultar imágenes"
 
 #: r2/public/static/js/enhancements.js:458 r2/public/static/js/enhancements.js:523 r2/templates/prefoptions.html:265
-#, fuzzy
-#| msgid "share image"
 msgid "show images"
-msgstr "imagen para compartir"
+msgstr "mostrar imágenes"
 
 #: r2/public/static/js/enhancements.js:479 r2/public/static/js/enhancements.js:517
-#, fuzzy
-#| msgid "share image"
 msgid "show image"
-msgstr "imagen para compartir"
+msgstr "mostrar imagen"
 
 #: r2/public/static/js/enhancements.js:517
-#, fuzzy
-#| msgid "header image"
 msgid "hide image"
-msgstr "imagen de cabecera"
+msgstr "ocultar imagen"
 
 #: r2/public/static/js/enhancements.js:576
 msgid "your tag; click to change it"
-msgstr ""
+msgstr "tu etiqueta; haz clic para cambiarla"
 
 #: r2/public/static/js/enhancements.js:583 r2/public/static/js/enhancements.js:755
-#, fuzzy
-#| msgid "Edit this rule."
 msgid "tag this user"
-msgstr "Editar esta regla."
+msgstr "etiquetar a este usuario"
 
 #: r2/public/static/js/enhancements.js:610
-#, fuzzy
-#| msgid "ago"
 msgid "tag"
-msgstr "atrás"
+msgstr "etiqueta"
 
 #: r2/public/static/js/enhancements.js:610
-#, fuzzy, python-format
-#| msgid "profile for %(user)s"
+#, python-format
 msgid "tag for %(user)s"
-msgstr "perfil de %(user)s"
+msgstr "etiqueta de %(user)s"
 
 #: r2/public/static/js/enhancements.js:628
-#, fuzzy, python-format
-#| msgid "saved by %(user)s"
+#, python-format
 msgid "tag %(user)s"
-msgstr "guardado por %(user)s"
+msgstr "etiquetar a %(user)s"
 
 #: r2/public/static/js/enhancements.js:632
-#, fuzzy
-#| msgid "remove post"
 msgid "remove tag"
-msgstr "eliminar post"
+msgstr "quitar etiqueta"
 
 #: r2/public/static/js/enhancements.js:672
 msgid "couldn't save the tag; try again"
-msgstr ""
+msgstr "no se pudo guardar la etiqueta; inténtalo de nuevo"
 
 #: r2/public/static/js/enhancements.js:710
 #, python-format
 msgid "%(num)s year"
 msgid_plural "%(num)s years"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(num)s año"
+msgstr[1] "%(num)s años"
 
 #: r2/public/static/js/enhancements.js:714
-#, fuzzy, python-format
-#| msgid "%(num)d %(point)s"
+#, python-format
 msgid "%(num)s month"
 msgid_plural "%(num)s months"
-msgstr[0] "%(num)d %(point)s"
-msgstr[1] "%(num)d %(point)s"
+msgstr[0] "%(num)s mes"
+msgstr[1] "%(num)s meses"
 
 #: r2/public/static/js/enhancements.js:716
-#, fuzzy, python-format
-#| msgid "%(time)s days left"
+#, python-format
 msgid "%(num)s day"
 msgid_plural "%(num)s days"
-msgstr[0] "%(time)s días restantes"
-msgstr[1] "%(time)s días restantes"
+msgstr[0] "%(num)s día"
+msgstr[1] "%(num)s días"
 
 #: r2/public/static/js/enhancements.js:745
-#, fuzzy
-#| msgid "remember me"
 msgid "member for"
-msgstr "recordarme"
+msgstr "miembro desde hace"
 
 #: r2/public/static/js/enhancements.js:746 r2/templates/profilebar.html:57 r2/templates/tipprheader.html:112
 msgid "post karma"
@@ -6560,10 +6433,8 @@ msgid "comment karma"
 msgstr "karma de comentarios"
 
 #: r2/public/static/js/enhancements.js:755
-#, fuzzy
-#| msgid "change"
 msgid "change tag"
-msgstr "cambiar"
+msgstr "cambiar etiqueta"
 
 #: r2/public/static/js/enhancements.js:762 r2/templates/adminuser.html:32
 msgid "profile"
@@ -6574,110 +6445,84 @@ msgid "send a message"
 msgstr "enviar un mensaje"
 
 #: r2/public/static/js/enhancements.js:923
-#, fuzzy, python-format
-#| msgid "%(num)d %(time)s"
+#, python-format
 msgid "(%(num)s new)"
 msgid_plural "(%(num)s new)"
-msgstr[0] "%(num)d %(time)s"
-msgstr[1] "%(num)d %(time)s"
+msgstr[0] "(%(num)s nuevo)"
+msgstr[1] "(%(num)s nuevos)"
 
 #: r2/public/static/js/enhancements.js:939
-#, fuzzy
-#| msgid "top %d comments"
 msgid "top-level comments"
-msgstr "mejores %d comentarios"
+msgstr "comentarios de primer nivel"
 
 #: r2/public/static/js/enhancements.js:942
-#, fuzzy
-#| msgid "submitter"
 msgid "the submitter's"
-msgstr "autor"
+msgstr "los del autor"
 
 #: r2/public/static/js/enhancements.js:947
 msgid "yours"
-msgstr ""
+msgstr "los tuyos"
 
 #: r2/public/static/js/enhancements.js:956
-#, fuzzy
-#| msgid "links"
 msgid "with links"
-msgstr "enlaces"
+msgstr "con enlaces"
 
 #: r2/public/static/js/enhancements.js:964
-#, fuzzy
-#| msgid "jump to"
 msgid "jump between"
-msgstr "saltar a"
+msgstr "saltar entre"
 
 #: r2/public/static/js/enhancements.js:974 r2/templates/prefoptions.html:309
-#, fuzzy
-#| msgid "comment karma"
 msgid "comment navigator"
-msgstr "karma de comentarios"
+msgstr "navegador de comentarios"
 
 #: r2/public/static/js/enhancements.js:978
-#, fuzzy
-#| msgid "revisions"
 msgid "previous"
-msgstr "revisiones"
+msgstr "anterior"
 
 #: r2/public/static/js/enhancements.js:981 r2/templates/flairnextlink.html:28 r2/templates/listing.html:75 r2/templates/promotedlinktraffic.html:95 r2/templates/promotelinknew.html:66 r2/templates/searchlisting.html:62 r2/templates/spotlightlisting.html:58 r2/templates/tablelisting.html:62 r2/templates/userlisting.html:149
 msgid "next"
 msgstr "siguiente"
 
 #: r2/public/static/js/enhancements.js:1024
-#, fuzzy
-#| msgid "no such account"
 msgid "switch account"
-msgstr "no existe esa cuenta"
+msgstr "cambiar de cuenta"
 
 #: r2/public/static/js/enhancements.js:1058
 msgid "couldn't switch; try again"
-msgstr ""
+msgstr "no se pudo cambiar; inténtalo de nuevo"
 
 #: r2/public/static/js/enhancements.js:1063
-#, fuzzy
-#| msgid "no such account"
 msgid "forget this account"
-msgstr "no existe esa cuenta"
+msgstr "olvidar esta cuenta"
 
 #: r2/public/static/js/enhancements.js:1064
-#, fuzzy, python-format
-#| msgid "created by %(user)s"
+#, python-format
 msgid "forget %(user)s"
-msgstr "creado por %(user)s"
+msgstr "olvidar a %(user)s"
 
 #: r2/public/static/js/enhancements.js:1077
-#, fuzzy
-#| msgid "other accounts from it"
 msgid "no other accounts yet"
-msgstr "otras cuentas desde ella"
+msgstr "todavía no hay otras cuentas"
 
 #: r2/public/static/js/enhancements.js:1080
-#, fuzzy
-#| msgid "create a new account"
 msgid "add an account"
-msgstr "crear una nueva cuenta"
+msgstr "añadir una cuenta"
 
 #: r2/public/static/js/enhancements.js:1085
 msgid "add and switch"
-msgstr ""
+msgstr "añadir y cambiar"
 
 #: r2/public/static/js/enhancements.js:1100 r2/templates/linkedloginotp.html:30 r2/templates/newlink.html:155 r2/templates/prefoptions.html:598 r2/templates/prefsecurity.html:37 r2/templates/prefsecurity.html:126 r2/templates/prefsecurity.html:145 r2/templates/prefupdate.html:33 r2/templates/privacysettings.html:133
-#, fuzzy
-#| msgid "two-factor"
 msgid "two-factor code"
-msgstr "verificación en dos pasos"
+msgstr "código de verificación en dos pasos"
 
 #: r2/public/static/js/enhancements.js:1104 r2/public/static/js/enhancements.js:1107
-#, fuzzy
-#| msgid "create a new account"
 msgid "couldn't add the account"
-msgstr "crear una nueva cuenta"
+msgstr "no se pudo añadir la cuenta"
 
 #: r2/public/static/js/enhancements.js:1111
 msgid "logging out forgets these accounts"
-msgstr ""
+msgstr "al cerrar sesión se olvidan estas cuentas"
 
 #: r2/public/static/js/errors.js:3
 #, python-format
@@ -6891,29 +6736,23 @@ msgstr "revisa tu bandeja de entrada para confirmar tu subscripción"
 
 #: r2/public/static/js/passkey.js:83
 msgid "couldn't reach the site"
-msgstr ""
+msgstr "no se pudo contactar con el sitio"
 
 #: r2/public/static/js/passkey.js:94
-#, fuzzy
-#| msgid "no access key set"
 msgid "no passkey was used"
-msgstr "no hay clave de acceso"
+msgstr "no se usó ninguna llave de acceso"
 
 #: r2/public/static/js/passkey.js:97
-#, fuzzy
-#| msgid "that user is already a moderator"
 msgid "that passkey is already added"
-msgstr "ese usuario ya es moderador"
+msgstr "esa llave de acceso ya está añadida"
 
 #: r2/public/static/js/passkey.js:99
 msgid "the passkey didn't work"
-msgstr ""
+msgstr "la llave de acceso no funcionó"
 
 #: r2/public/static/js/passkey.js:130
-#, fuzzy
-#| msgid "make a key"
 msgid "use a passkey"
-msgstr "crear una clave"
+msgstr "usar una llave de acceso"
 
 #: r2/public/static/js/popup.js:29 r2/public/static/js/post-sharing.js:73
 msgid "close this window"
@@ -7291,32 +7130,28 @@ msgid "in-feed layout key"
 msgstr "clave de diseño in-feed"
 
 #: r2/templates/adminadsettings.html:84
-#, fuzzy
-#| msgid "For an in-feed unit, its data-ad-layout-key. Leave blank for a display unit."
 msgid "For an in-feed unit, its data-ad-layout-key; for an in-article unit, in-article. Leave blank for a display unit."
-msgstr "Para un bloque in-feed, su data-ad-layout-key. Déjalo en blanco para un bloque de display."
+msgstr "Para un bloque In-feed, su data-ad-layout-key; para un bloque In-article, in-article. Déjalo en blanco para un bloque de display."
 
 #: r2/templates/adminadsettings.html:88
-#, fuzzy
-#| msgid "note (optional)"
 msgid "night mode ad units (optional)"
-msgstr "nota (opcional)"
+msgstr "bloques de anuncios para el modo noche (opcional)"
 
 #: r2/templates/adminadsettings.html:91
 msgid "Ads are drawn by Google and can't be restyled by the site, so on night mode's dark pages they keep the colours set in AdSense. To match night mode, create an in-article (or in-feed) unit with dark colours in AdSense (its style is set when you create it; display units can't be coloured) and enter it here: members with night mode on get these instead. Blank: the units above."
-msgstr ""
+msgstr "Google dibuja los anuncios y el sitio no puede cambiar su estilo, así que en las páginas oscuras del modo noche mantienen los colores configurados en AdSense. Para que combinen con el modo noche, crea en AdSense un bloque In-article (o In-feed) con colores oscuros (su estilo se fija al crearlo; los bloques de display no se pueden colorear) e introdúcelo aquí: los miembros con el modo noche activado reciben estos en su lugar. En blanco: los bloques de arriba."
 
 #: r2/templates/adminadsettings.html:104
 msgid "in-article for an in-article unit."
-msgstr ""
+msgstr "in-article para un bloque In-article."
 
 #: r2/templates/adminadsettings.html:107
 msgid "posts between in-feed ads"
-msgstr ""
+msgstr "publicaciones entre anuncios In-feed"
 
 #: r2/templates/adminadsettings.html:112
 msgid "An in-feed ad after every this many posts in a listing (and on each page infinite scroll adds)."
-msgstr ""
+msgstr "Un anuncio In-feed cada tantas publicaciones en un listado (y en cada página que añade el desplazamiento infinito)."
 
 #: r2/templates/adminadsettings.html:116
 msgid "testing"
@@ -7423,18 +7258,16 @@ msgid "posts, comments and messages from untrusted users"
 msgstr "publicaciones, comentarios y mensajes de usuarios no fiables"
 
 #: r2/templates/adminantispam.html:98
-#, fuzzy
-#| msgid "feed"
 msgid "feedback"
-msgstr "feed"
+msgstr "comentarios"
 
 #: r2/templates/adminantispam.html:100
 msgid "tell CleanTalk what moderators decide"
-msgstr ""
+msgstr "informar a CleanTalk de lo que deciden los moderadores"
 
 #: r2/templates/adminantispam.html:101
 msgid "For what CleanTalk checked: marking it spam (the spam button, or removing a user's posts as spam on /admin/users) reports spam CleanTalk missed or confirms its call; approving something it flagged reports a mistake. Removing without spam, and anything CleanTalk didn't check (trusted users' posts), sends nothing."
-msgstr ""
+msgstr "Para lo que CleanTalk revisó: marcarlo como spam (el botón de spam, o eliminar como spam las publicaciones de un usuario en /admin/users) informa del spam que CleanTalk pasó por alto o confirma su decisión; aprobar algo que marcó informa de un error. Eliminar sin spam, y todo lo que CleanTalk no revisó (publicaciones de usuarios de confianza), no envía nada."
 
 #: r2/templates/adminantispam.html:111
 msgid "CleanTalk statistics"
@@ -7880,18 +7713,15 @@ msgstr "ocultar"
 
 #: r2/templates/admincoins.html:28
 msgid "add to a user's Give Gold"
-msgstr ""
+msgstr "añadir al gold para regalar de un usuario"
 
 #: r2/templates/admincoins.html:35 r2/templates/admingold.html:35
 msgid "recipient"
 msgstr "destinatario"
 
 #: r2/templates/admincoins.html:43
-#, fuzzy
-#| msgid "a month ago"
-#| msgid_plural "%(num)s months ago"
 msgid "months of gold"
-msgstr "hace un mes"
+msgstr "meses de gold"
 
 #: r2/templates/admincoins.html:46 r2/templates/admingold.html:47
 msgid "(negative to take away)"
@@ -8139,21 +7969,19 @@ msgstr "NSFW"
 
 #: r2/templates/adminfeeds.html:60
 msgid "mark every post NSFW"
-msgstr ""
+msgstr "marcar cada publicación como NSFW"
 
 #: r2/templates/adminfeeds.html:61 r2/templates/printablebuttons.html:95
 msgid "AI label"
 msgstr "etiqueta de IA"
 
 #: r2/templates/adminfeeds.html:63
-#, fuzzy
-#| msgid "any posts (labelled)"
 msgid "not labelled"
-msgstr "cualquier publicación (etiquetada)"
+msgstr "sin etiqueta"
 
 #: r2/templates/adminfeeds.html:68
 msgid "Put on every post, as a member labels their own. It must be one the vault accepts."
-msgstr ""
+msgstr "Se pone en cada publicación, como cuando un miembro etiqueta las suyas. Tiene que ser una que acepte el vault."
 
 #: r2/templates/adminfeeds.html:70
 msgid "add the feed"
@@ -8189,16 +8017,12 @@ msgid "titles start with"
 msgstr "los títulos empiezan por"
 
 #: r2/templates/adminfeeds.html:106
-#, fuzzy
-#| msgid "post karma"
 msgid "posts are marked"
-msgstr "karma de la publicación"
+msgstr "las publicaciones se marcan"
 
 #: r2/templates/adminfeeds.html:108
-#, fuzzy
-#| msgid "context"
 msgid "ai_content"
-msgstr "contexto"
+msgstr "ai_content"
 
 #: r2/templates/adminfeeds.html:112
 msgid "paused"
@@ -8289,103 +8113,98 @@ msgid "This site reads its live config from ZooKeeper (liveconfig_source = zooke
 msgstr "Este sitio lee su configuración en vivo de ZooKeeper (liveconfig_source = zookeeper), así que se gestiona con scripts/write_live_config en lugar de aquí. Los valores en uso:"
 
 #: r2/templates/adminliveconfig.html:70
-#, fuzzy
-#| msgid "searching"
 msgid "caching"
-msgstr "búsqueda"
+msgstr "caché"
 
 #: r2/templates/adminliveconfig.html:74
 msgid "memcached"
-msgstr ""
+msgstr "memcached"
 
 #: r2/templates/adminliveconfig.html:76
-#, fuzzy, python-format
-#| msgid "not saved: %(error)s"
+#, python-format
 msgid "not reachable: %(error)s"
-msgstr "no se guardó: %(error)s"
+msgstr "no disponible: %(error)s"
 
 #: r2/templates/adminliveconfig.html:79
 #, python-format
 msgid "%(used)s MB of %(limit)s MB used (%(percent)s%%), %(items)s items"
-msgstr ""
+msgstr "%(used)s MB de %(limit)s MB usados (%(percent)s%%), %(items)s elementos"
 
 #: r2/templates/adminliveconfig.html:81
 #, python-format
 msgid "%(hits)s%% of lookups found"
-msgstr ""
+msgstr "%(hits)s%% de las búsquedas encontradas"
 
 #: r2/templates/adminliveconfig.html:83
 #, python-format
 msgid "%(evictions)s evicted"
-msgstr ""
+msgstr "%(evictions)s expulsados"
 
 #: r2/templates/adminliveconfig.html:84
 #, python-format
 msgid "up %(hours)s hours"
-msgstr ""
+msgstr "activo desde hace %(hours)s horas"
 
 #: r2/templates/adminliveconfig.html:86
 msgid "It's full and throwing things out to make room: give it more memory (TIPPR_MEMCACHED_MB, re-running the installer on the server it runs on)."
-msgstr ""
+msgstr "Está lleno y tira cosas para hacer sitio: dale más memoria (TIPPR_MEMCACHED_MB, volviendo a ejecutar el instalador en el servidor donde funciona)."
 
 #: r2/templates/adminliveconfig.html:93
 msgid "logged-out pages"
-msgstr ""
+msgstr "páginas sin sesión"
 
 #: r2/templates/adminliveconfig.html:96
 msgid "nginx doesn't keep them (TIPPR_PAGE_CACHE_SECONDS=0)."
-msgstr ""
+msgstr "nginx no las guarda (TIPPR_PAGE_CACHE_SECONDS=0)."
 
 #: r2/templates/adminliveconfig.html:98
 msgid "not cached: logged_out_page_cache_seconds below is 0."
-msgstr ""
+msgstr "sin caché: logged_out_page_cache_seconds, abajo, es 0."
 
 #: r2/templates/adminliveconfig.html:100
 #, python-format
 msgid "kept %(seconds)s seconds (logged_out_page_cache_seconds below)"
-msgstr ""
+msgstr "se guardan %(seconds)s segundos (logged_out_page_cache_seconds, abajo)"
 
 #: r2/templates/adminliveconfig.html:102
 msgid "by nginx, and a CDN in front if there is one."
-msgstr ""
+msgstr "en nginx, y en una CDN delante si la hay."
 
 #: r2/templates/adminliveconfig.html:104
 msgid "by a cache in front of the site, if it has one."
-msgstr ""
+msgstr "en una caché delante del sitio, si la tiene."
 
 #: r2/templates/adminliveconfig.html:110
 msgid "static files"
-msgstr ""
+msgstr "archivos estáticos"
 
 #: r2/templates/adminliveconfig.html:113
 msgid "served by nginx, kept by browsers for a year (a day for files without a content hash in the name)."
-msgstr ""
+msgstr "los sirve nginx y los navegadores los guardan un año (un día para archivos sin hash de contenido en el nombre)."
 
 #: r2/templates/adminliveconfig.html:115
 msgid "served by the app (development: they change as you edit them)."
-msgstr ""
+msgstr "los sirve la aplicación (desarrollo: cambian a medida que los editas)."
 
 #: r2/templates/adminliveconfig.html:117
 msgid "served by the app (re-run the installer to have nginx serve them)."
-msgstr ""
+msgstr "los sirve la aplicación (vuelve a ejecutar el instalador para que los sirva nginx)."
 
 #: r2/templates/adminliveconfig.html:124
 msgid "Empty memcached? The site is slower for a while as it fills again, and rate limits and half-done sign-ins start over."
-msgstr ""
+msgstr "¿Vaciar memcached? El sitio irá más lento un rato mientras se vuelve a llenar, y los límites de frecuencia y los inicios de sesión a medias empiezan de cero."
 
 #: r2/templates/adminliveconfig.html:126
 msgid "empty memcached"
-msgstr ""
+msgstr "vaciar memcached"
 
 #: r2/templates/adminliveconfig.html:128
 msgid "For when pages show something out of date. Nothing is lost: everything there is a copy and comes back as it's used."
-msgstr ""
+msgstr "Para cuando las páginas muestran algo desactualizado. No se pierde nada: todo lo que hay ahí es una copia y vuelve con el uso."
 
 #: r2/templates/adminliveconfig.html:136
-#, fuzzy
-#| msgid "save page"
 msgid "save changes"
-msgstr "guardar página"
+msgstr "guardar cambios"
 
 #: r2/templates/adminliveconfig.html:146
 msgid "common settings"
@@ -8422,60 +8241,52 @@ msgstr "Todavía no hay cambios."
 
 #: r2/templates/adminloginsettings.html:25
 msgid "Members can link a Google, Facebook, GitHub or Discord account to theirs (preferences, security) and then sign in with it instead of their password. It only signs in to accounts that linked it: nothing is matched by email address. Someone signing in with one that isn't linked yet can link it to their account with their password, or, while sign-ups are open, make a new account for it. A member with two-factor sign-in still enters their code. Settings saved here override the ini file and apply immediately."
-msgstr ""
+msgstr "Los miembros pueden vincular una cuenta de Google, Facebook, GitHub o Discord a la suya (preferencias, seguridad) y luego iniciar sesión con ella en lugar de con su contraseña. Solo inicia sesión en cuentas que la han vinculado: nada se asocia por la dirección de correo. Quien inicie sesión con una que aún no esté vinculada puede vincularla a su cuenta con su contraseña o, mientras los registros estén abiertos, crear una cuenta nueva para ella. Un miembro con verificación en dos pasos sigue introduciendo su código. La configuración guardada aquí reemplaza al archivo ini y se aplica de inmediato."
 
 #: r2/templates/adminloginsettings.html:28
 msgid "Each provider needs an OAuth app of this site's own: create one in the provider's console, add the redirect address shown below to it, and enter its client ID and secret here."
-msgstr ""
+msgstr "Cada proveedor necesita una aplicación OAuth propia de este sitio: crea una en la consola del proveedor, añádele la dirección de redirección que aparece abajo e introduce aquí su ID de cliente y su secreto."
 
 #: r2/templates/adminloginsettings.html:42
 #, python-format
 msgid "offer sign in with %(provider)s"
-msgstr ""
+msgstr "ofrecer inicio de sesión con %(provider)s"
 
 #: r2/templates/adminloginsettings.html:46 r2/templates/adminpaymentsettings.html:137
-#, fuzzy
-#| msgid "OAuth client ID"
 msgid "client ID"
-msgstr "ID de cliente OAuth"
+msgstr "ID de cliente"
 
 #: r2/templates/adminloginsettings.html:54
-#, fuzzy
-#| msgid "OAuth client secret"
 msgid "client secret"
-msgstr "secreto de cliente OAuth"
+msgstr "secreto de cliente"
 
 #: r2/templates/adminloginsettings.html:58
-#, fuzzy
-#| msgid "redirect uri"
 msgid "redirect address"
-msgstr "url de redirección"
+msgstr "dirección de redirección"
 
 #: r2/templates/adminloginsettings.html:63
 msgid "Google Cloud console: APIs & Services, Credentials, create an OAuth client ID (web application) and add this as an authorized redirect URI. Set up the OAuth consent screen first (scopes: email, profile, openid)."
-msgstr ""
+msgstr "Consola de Google Cloud: API y servicios, Credenciales, crea un ID de cliente de OAuth (aplicación web) y añade esto como URI de redirección autorizado. Configura primero la pantalla de consentimiento de OAuth (permisos: email, profile, openid)."
 
 #: r2/templates/adminloginsettings.html:65
 msgid "Meta for Developers: create an app with Facebook Login, and add this under Facebook Login, Settings, Valid OAuth Redirect URIs. The app ID is the client ID; the app secret is under App settings, Basic."
-msgstr ""
+msgstr "Meta for Developers: crea una aplicación con Facebook Login y añade esto en Facebook Login, Configuración, URI de redireccionamiento de OAuth válidos. El identificador de la aplicación es el ID de cliente; la clave secreta está en Configuración de la aplicación, Básica."
 
 #: r2/templates/adminloginsettings.html:67
 msgid "GitHub, Settings, Developer settings, OAuth Apps: register a new OAuth app (not a GitHub App) with this as its authorization callback URL. Its client ID is shown there; generate a client secret on the same page."
-msgstr ""
+msgstr "GitHub, Settings, Developer settings, OAuth Apps: registra una nueva aplicación OAuth (no una GitHub App) con esto como Authorization callback URL. Allí se muestra su ID de cliente; genera un secreto de cliente en la misma página."
 
 #: r2/templates/adminloginsettings.html:69
 msgid "Discord Developer Portal: create an application, then under OAuth2 add this as a redirect. The client ID and client secret (reset it to see one) are on the same page."
-msgstr ""
+msgstr "Discord Developer Portal: crea una aplicación y luego, en OAuth2, añade esto como redirección. El ID de cliente y el secreto de cliente (restablécelo para ver uno) están en la misma página."
 
 #: r2/templates/adminloginsettings.html:71
-#, fuzzy
-#| msgid "opened the ticket"
 msgid "open the console"
-msgstr "abrió la solicitud"
+msgstr "abrir la consola"
 
 #: r2/templates/adminloginsettings.html:81
 msgid "Instagram no longer offers sign-in for other sites; Facebook Login is Meta's."
-msgstr ""
+msgstr "Instagram ya no ofrece inicio de sesión para otros sitios; Facebook Login es de Meta."
 
 #: r2/templates/adminnotessidebar.html:42
 msgid "Past notes"
@@ -8484,62 +8295,56 @@ msgstr "Notas anteriores"
 #: r2/templates/adminpaymentsettings.html:44
 #, python-format
 msgid "take payments with %(provider)s"
-msgstr ""
+msgstr "aceptar pagos con %(provider)s"
 
 #: r2/templates/adminpaymentsettings.html:75
-#, fuzzy
-#| msgid "feed address"
 msgid "webhook address"
-msgstr "dirección del feed"
+msgstr "dirección del webhook"
 
 #: r2/templates/adminpaymentsettings.html:90
 msgid "Take payments for gold (and Give Gold, gifts and gift codes) and for sold ads with your own accounts at these providers. Turn on the ones you use and enter their API keys; buyers pick one on the payment page and pay on the provider's own page, so card details never reach this site. Settings saved here override the ini file and apply immediately."
-msgstr ""
+msgstr "Acepta pagos de gold (y Regalar gold, regalos y códigos de regalo) y de anuncios vendidos con tus propias cuentas en estos proveedores. Activa los que uses e introduce sus claves de API; los compradores eligen uno en la página de pago y pagan en la página del propio proveedor, así que los datos de la tarjeta nunca llegan a este sitio. La configuración guardada aquí reemplaza al archivo ini y se aplica de inmediato."
 
 #: r2/templates/adminpaymentsettings.html:93
 #, python-format
 msgid "Prices are in US dollars: gold is %(month)s a month and %(year)s a year (gold_month_price and gold_year_price in the ini)."
-msgstr ""
+msgstr "Los precios están en dólares estadounidenses: gold cuesta %(month)s al mes y %(year)s al año (gold_month_price y gold_year_price en el ini)."
 
 #: r2/templates/adminpaymentsettings.html:95
 msgid "Webhooks are optional: payments complete when the buyer comes back from paying either way, but with webhooks they also complete if the buyer closes the window first, and refunds made in the provider's dashboard reach the site. Webhooks are only a cue: the site always asks the provider what happened."
-msgstr ""
+msgstr "Los webhooks son opcionales: los pagos se completan de todos modos cuando el comprador vuelve después de pagar, pero con webhooks también se completan si cierra la ventana antes, y los reembolsos hechos en el panel del proveedor llegan al sitio. Los webhooks son solo un aviso: el sitio siempre pregunta al proveedor qué ha pasado."
 
 #: r2/templates/adminpaymentsettings.html:99
 msgid "No provider is on yet, so the payment page only offers paying with gold already bought."
-msgstr ""
+msgstr "Todavía no hay ningún proveedor activado, así que la página de pago solo ofrece pagar con gold ya comprado."
 
 #: r2/templates/adminpaymentsettings.html:106
 msgid "what can be bought"
-msgstr ""
+msgstr "lo que se puede comprar"
 
 #: r2/templates/adminpaymentsettings.html:112
-#, fuzzy
-#| msgid "receive gold as a gift code"
 msgid "gold, Give Gold, gifts and gift codes"
-msgstr "recibir gold como código de regalo"
+msgstr "gold, Regalar gold, regalos y códigos de regalo"
 
 #: r2/templates/adminpaymentsettings.html:120
 msgid "sold ads (promoted posts), paid when submitted and refunded if rejected"
-msgstr ""
+msgstr "anuncios vendidos (publicaciones promocionadas), pagados al enviarlos y reembolsados si se rechazan"
 
 #: r2/templates/adminpaymentsettings.html:129
 msgid "Buyers pay with PayPal, Venmo (US), Pay Later, or a debit or credit card without a PayPal account."
-msgstr ""
+msgstr "Los compradores pagan con PayPal, Venmo (EE. UU.), Pagar más tarde, o una tarjeta de débito o crédito sin cuenta de PayPal."
 
 #: r2/templates/adminpaymentsettings.html:133 r2/templates/adminpaymentsettings.html:175 r2/templates/adminpaymentsettings.html:200
-#, fuzzy
-#| msgid "announcement"
 msgid "environment"
-msgstr "anuncio"
+msgstr "entorno"
 
 #: r2/templates/adminpaymentsettings.html:134 r2/templates/adminpaymentsettings.html:176
 msgid "sandbox (testing)"
-msgstr ""
+msgstr "sandbox (pruebas)"
 
 #: r2/templates/adminpaymentsettings.html:140
 msgid "From developer.paypal.com: Apps & Credentials, create a REST API app (sandbox and live have separate apps)."
-msgstr ""
+msgstr "En developer.paypal.com: Apps & Credentials, crea una aplicación REST API (sandbox y live tienen aplicaciones separadas)."
 
 #: r2/templates/adminpaymentsettings.html:144 r2/templates/prefapps.html:148
 msgid "secret"
@@ -8547,109 +8352,95 @@ msgstr "secreto"
 
 #: r2/templates/adminpaymentsettings.html:147
 msgid "In the app's settings, add a webhook for Checkout order approved, Payment capture completed, denied and refunded."
-msgstr ""
+msgstr "En la configuración de la aplicación, añade un webhook para Checkout order approved, Payment capture completed, denied y refunded."
 
 #: r2/templates/adminpaymentsettings.html:154
 msgid "Buyers pay on Stripe Checkout with a card, Google Pay, Apple Pay, Link and any other method turned on in the Stripe dashboard (Settings > Payment methods)."
-msgstr ""
+msgstr "Los compradores pagan en Stripe Checkout con tarjeta, Google Pay, Apple Pay, Link y cualquier otro método activado en el panel de Stripe (Settings > Payment methods)."
 
 #: r2/templates/adminpaymentsettings.html:161
 msgid "From the Stripe dashboard: Developers > API keys. sk_test_… for testing, sk_live_… for real payments."
-msgstr ""
+msgstr "En el panel de Stripe: Developers > API keys. sk_test_… para pruebas, sk_live_… para pagos reales."
 
 #: r2/templates/adminpaymentsettings.html:164
 msgid "Under Developers > Webhooks, add an endpoint for checkout.session.completed, checkout.session.async_payment_succeeded, checkout.session.async_payment_failed, checkout.session.expired and charge.refunded."
-msgstr ""
+msgstr "En Developers > Webhooks, añade un endpoint para checkout.session.completed, checkout.session.async_payment_succeeded, checkout.session.async_payment_failed, checkout.session.expired y charge.refunded."
 
 #: r2/templates/adminpaymentsettings.html:171
 msgid "Buyers pay in USDC (a dollar stablecoin) from Coinbase or any crypto wallet, through Coinbase Business checkouts. Coinbase Commerce, the old service, has shut down."
-msgstr ""
+msgstr "Los compradores pagan en USDC (una stablecoin del dólar) desde Coinbase o cualquier monedero cripto, mediante los pagos de Coinbase Business. Coinbase Commerce, el servicio antiguo, ha cerrado."
 
 #: r2/templates/adminpaymentsettings.html:179
 msgid "API key ID"
-msgstr ""
+msgstr "ID de la clave de API"
 
 #: r2/templates/adminpaymentsettings.html:182
 msgid "A secret API key from portal.cdp.coinbase.com (API keys), for the project linked to your Coinbase Business account."
-msgstr ""
+msgstr "Una clave de API secreta de portal.cdp.coinbase.com (API keys), para el proyecto vinculado a tu cuenta de Coinbase Business."
 
 #: r2/templates/adminpaymentsettings.html:186
-#, fuzzy
-#| msgid "OAuth client secret"
 msgid "API key secret"
-msgstr "secreto de cliente OAuth"
+msgstr "secreto de la clave de API"
 
 #: r2/templates/adminpaymentsettings.html:189
 msgid "Webhooks are added with the CDP command line tool, subscribed to the checkout.payment events."
-msgstr ""
+msgstr "Los webhooks se añaden con la herramienta de línea de comandos de CDP, suscritos a los eventos checkout.payment."
 
 #: r2/templates/adminpaymentsettings.html:196
 msgid "Buyers pay with Bitcoin and the other coins BitPay accepts. Refunds are made in the BitPay dashboard, then marked refunded below."
-msgstr ""
+msgstr "Los compradores pagan con Bitcoin y las demás monedas que acepta BitPay. Los reembolsos se hacen en el panel de BitPay y después se marcan como reembolsados abajo."
 
 #: r2/templates/adminpaymentsettings.html:201
 msgid "test (test.bitpay.com)"
-msgstr ""
+msgstr "prueba (test.bitpay.com)"
 
 #: r2/templates/adminpaymentsettings.html:204
 msgid "API token"
-msgstr ""
+msgstr "token de API"
 
 #: r2/templates/adminpaymentsettings.html:207
 msgid "From the BitPay dashboard: Payment Tools > API Tokens, a point-of-sale token without \"require authentication\". The test site needs its own account and token."
-msgstr ""
+msgstr "En el panel de BitPay: Payment Tools > API Tokens, un token de punto de venta sin «require authentication». El sitio de prueba necesita su propia cuenta y token."
 
 #: r2/templates/adminpaymentsettings.html:210
 msgid "Nothing to set up: each invoice tells BitPay where to send its notifications."
-msgstr ""
+msgstr "Nada que configurar: cada factura le dice a BitPay adónde enviar sus notificaciones."
 
 #: r2/templates/adminpaymentsettings.html:217
-#, fuzzy
-#| msgid "revoke the key"
 msgid "test the keys"
-msgstr "revocar la clave"
+msgstr "probar las claves"
 
 #: r2/templates/adminpaymentsettings.html:218
 msgid "Asks each provider whether the saved keys work (save first). BitPay's can only be tested with a purchase."
-msgstr ""
+msgstr "Pregunta a cada proveedor si las claves guardadas funcionan (guarda primero). Las de BitPay solo se pueden probar con una compra."
 
 #: r2/templates/adminpaymentsettings.html:227
-#, fuzzy
-#| msgid "not set"
 msgid "not set up"
-msgstr "no activado"
+msgstr "sin configurar"
 
 #: r2/templates/adminpaymentsettings.html:233
-#, fuzzy
-#| msgid "authorize payment"
 msgid "latest payments"
-msgstr "autorizar pago"
+msgstr "últimos pagos"
 
 #: r2/templates/adminpaymentsettings.html:235
-#, fuzzy
-#| msgid "No changes yet."
 msgid "No payments yet."
-msgstr "Todavía no hay cambios."
+msgstr "Todavía no hay pagos."
 
 #: r2/templates/adminpaymentsettings.html:240
 msgid "what"
-msgstr ""
+msgstr "qué"
 
 #: r2/templates/adminpaymentsettings.html:241
 msgid "buyer"
-msgstr ""
+msgstr "comprador"
 
 #: r2/templates/adminpaymentsettings.html:242
-#, fuzzy
-#| msgid "account"
 msgid "amount"
-msgstr "cuenta"
+msgstr "importe"
 
 #: r2/templates/adminpaymentsettings.html:243
-#, fuzzy
-#| msgid "Approve"
 msgid "provider"
-msgstr "Aprobar"
+msgstr "proveedor"
 
 #: r2/templates/adminpaymentsettings.html:268 r2/templates/renderablecampaign.html:104
 msgid "refund"
@@ -8657,236 +8448,203 @@ msgstr "devolución"
 
 #: r2/templates/adminpaymentsettings.html:269
 msgid "Refund this payment in full and take back what it bought?"
-msgstr ""
+msgstr "¿Reembolsar este pago por completo y retirar lo que compró?"
 
 #: r2/templates/adminpaymentsettings.html:271
-#, fuzzy
-#| msgid "mark unread"
 msgid "mark refunded"
-msgstr "marcar como no leído"
+msgstr "marcar como reembolsado"
 
 #: r2/templates/adminpaymentsettings.html:272
 msgid "Mark this payment refunded (after refunding it in the provider's dashboard) and take back what it bought?"
-msgstr ""
+msgstr "¿Marcar este pago como reembolsado (después de reembolsarlo en el panel del proveedor) y retirar lo que compró?"
 
 #: r2/templates/adminserverstatus.html:25
 msgid "Each server reports its state here once a minute (tippr-job-server_status). Only the latest report is kept; a server that stops reporting is flagged after 3 minutes and dropped after 7 days, or forget it below once it's out of service."
-msgstr ""
+msgstr "Cada servidor informa aquí de su estado una vez por minuto (tippr-job-server_status). Solo se guarda el informe más reciente; un servidor que deja de informar se marca a los 3 minutos y se quita a los 7 días, u olvídalo abajo cuando esté fuera de servicio."
 
 #: r2/templates/adminserverstatus.html:28
 msgid "No server has reported yet. Reports start within a minute of installing or upgrading (the tippr-job-server_status timer)."
-msgstr ""
+msgstr "Ningún servidor ha informado todavía. Los informes empiezan un minuto después de instalar o actualizar (el temporizador tippr-job-server_status)."
 
 #: r2/templates/adminserverstatus.html:33
-#, fuzzy
-#| msgid "dates"
 msgid "updates"
-msgstr "fechas"
+msgstr "actualizaciones"
 
 #: r2/templates/adminserverstatus.html:35
 #, python-format
 msgid "GitHub couldn't be asked about releases (%(error)s); trying again in a few minutes."
-msgstr ""
+msgstr "No se pudo preguntar a GitHub por las versiones (%(error)s); se volverá a intentar en unos minutos."
 
 #: r2/templates/adminserverstatus.html:37
 #, python-format
 msgid "No release of %(repo)s has an installer yet."
-msgstr ""
+msgstr "Ninguna versión de %(repo)s tiene instalador todavía."
 
 #: r2/templates/adminserverstatus.html:40
 msgid "The newest release is"
-msgstr ""
+msgstr "La versión más reciente es"
 
 #: r2/templates/adminserverstatus.html:47
 #, python-format
 msgid "an update is available for %(n)s of your servers"
-msgstr ""
+msgstr "hay una actualización disponible para %(n)s de tus servidores"
 
 #: r2/templates/adminserverstatus.html:49
 msgid "every server runs it, or a newer one."
-msgstr ""
+msgstr "todos los servidores la usan, o una más reciente."
 
 #: r2/templates/adminserverstatus.html:53
 msgid "A pre-release is out too:"
-msgstr ""
+msgstr "También hay una versión preliminar:"
 
 #: r2/templates/adminserverstatus.html:56
 msgid "Read the release's notes before updating: anything that needs doing by hand is in them."
-msgstr ""
+msgstr "Lee las notas de la versión antes de actualizar: todo lo que haya que hacer a mano está en ellas."
 
 #: r2/templates/adminserverstatus.html:63
 #, python-format
 msgid "%(user)s asked for %(version)s %(time)s ago%(backup)s."
-msgstr ""
+msgstr "%(user)s pidió %(version)s hace %(time)s%(backup)s."
 
 #: r2/templates/adminserverstatus.html:63
-#, fuzzy
-#| msgid "have it make a new backup first"
 msgid ", with a backup first"
-msgstr "pedirle primero que haga una copia nueva"
+msgstr ", con una copia de seguridad antes"
 
 #: r2/templates/adminserverstatus.html:64
 msgid "Each server updates within a minute or so of its turn, one at a time; the site is down on each for 5-10 minutes while it does. Its state is on its card below."
-msgstr ""
+msgstr "Cada servidor se actualiza más o menos un minuto después de que le toque, de uno en uno; el sitio no está disponible en cada uno durante 5-10 minutos mientras lo hace. Su estado aparece en su tarjeta, abajo."
 
 #: r2/templates/adminserverstatus.html:70
-#, fuzzy
-#| msgid "clear the list"
 msgid "clear this"
-msgstr "vaciar la lista"
+msgstr "borrar esto"
 
 #: r2/templates/adminserverstatus.html:71
 msgid "(servers that haven't started don't; this doesn't undo an update)"
-msgstr ""
+msgstr "(los servidores que no han empezado ya no lo harán; esto no deshace una actualización)"
 
 #: r2/templates/adminserverstatus.html:77
 msgid "Update the servers to this release? Each one goes down for 5-10 minutes while it updates, one at a time. Make a Proxmox snapshot first if you can."
-msgstr ""
+msgstr "¿Actualizar los servidores a esta versión? Cada uno deja de estar disponible 5-10 minutos mientras se actualiza, de uno en uno. Haz antes una instantánea de Proxmox si puedes."
 
 #: r2/templates/adminserverstatus.html:83
 msgid " (pre-release)"
-msgstr ""
+msgstr " (versión preliminar)"
 
 #: r2/templates/adminserverstatus.html:86
-#, fuzzy
-#| msgid "have it make a new backup first"
 msgid "make a site backup first"
-msgstr "pedirle primero que haga una copia nueva"
+msgstr "hacer antes una copia de seguridad del sitio"
 
 #: r2/templates/adminserverstatus.html:87
-#, fuzzy
-#| msgid "other server"
 msgid "update the servers"
-msgstr "otro servidor"
+msgstr "actualizar los servidores"
 
 #: r2/templates/adminserverstatus.html:89
 msgid "Each server downloads the release's installer from GitHub, checks it against the release's checksums, and re-runs the installer, as in the Proxmox upgrade steps. If the site doesn't come back, it puts the old version back. Only Proxmox containers (with tippr-firstboot) can update this way. A snapshot of the container first is still the surest way back."
-msgstr ""
+msgstr "Cada servidor descarga el instalador de la versión desde GitHub, lo comprueba con las sumas de verificación de la versión y vuelve a ejecutar el instalador, como en los pasos de actualización de Proxmox. Si el sitio no vuelve, se restaura la versión anterior. Solo los contenedores de Proxmox (con tippr-firstboot) pueden actualizarse así. Una instantánea del contenedor antes sigue siendo la forma más segura de volver atrás."
 
 #: r2/templates/adminserverstatus.html:92
 msgid "Updating from this page is off (TIPPR_WEB_UPDATES=0 in the installer)."
-msgstr ""
+msgstr "Actualizar desde esta página está desactivado (TIPPR_WEB_UPDATES=0 en el instalador)."
 
 #: r2/templates/adminserverstatus.html:114
-#, fuzzy
-#| msgid "conversation"
 msgid "version"
-msgstr "conversación"
+msgstr "versión"
 
 #: r2/templates/adminserverstatus.html:120
 #, python-format
 msgid "%(version)s is out"
-msgstr ""
+msgstr "ya salió %(version)s"
 
 #: r2/templates/adminserverstatus.html:125
-#, fuzzy
-#| msgid "date"
 msgid "update"
-msgstr "fecha"
+msgstr "actualización"
 
 #: r2/templates/adminserverstatus.html:128
-#, fuzzy, python-format
-#| msgid "%(reason)s"
+#, python-format
 msgid "to %(version)s"
-msgstr "%(reason)s"
+msgstr "a %(version)s"
 
 #: r2/templates/adminserverstatus.html:130
 #, python-format
 msgid "(from %(version)s)"
-msgstr ""
+msgstr "(desde %(version)s)"
 
 #: r2/templates/adminserverstatus.html:136
-#, fuzzy
-#| msgid "blog"
 msgid "log"
-msgstr "blog"
+msgstr "registro"
 
 #: r2/templates/adminserverstatus.html:144
-#, fuzzy, python-format
-#| msgid "%(num)d %(time)s"
+#, python-format
 msgid "up %(time)s"
-msgstr "%(num)d %(time)s"
+msgstr "activo desde hace %(time)s"
 
 #: r2/templates/adminserverstatus.html:147
-#, fuzzy
-#| msgid "upload"
 msgid "load"
-msgstr "subir"
+msgstr "carga"
 
 #: r2/templates/adminserverstatus.html:149
 #, python-format
 msgid "(1, 5 and 15 minutes, on %(n)s CPUs)"
-msgstr ""
+msgstr "(1, 5 y 15 minutos, en %(n)s CPU)"
 
 #: r2/templates/adminserverstatus.html:151
 msgid "memory"
-msgstr ""
+msgstr "memoria"
 
 #: r2/templates/adminserverstatus.html:154
 #, python-format
 msgid "%(used)s of %(total)s used (%(p)s%%)"
-msgstr ""
+msgstr "%(used)s de %(total)s usados (%(p)s%%)"
 
 #: r2/templates/adminserverstatus.html:156
-#, fuzzy, python-format
-#| msgid "(use %(current)s of your %(total)s coins)"
+#, python-format
 msgid "swap %(used)s of %(total)s"
-msgstr "(usar %(current)s de tus %(total)s coinos)"
+msgstr "swap %(used)s de %(total)s"
 
 #: r2/templates/adminserverstatus.html:161
 msgid "disk"
-msgstr ""
+msgstr "disco"
 
 #: r2/templates/adminserverstatus.html:165
 #, python-format
 msgid "%(used)s of %(total)s used (%(p)s%%), %(free)s free"
-msgstr ""
+msgstr "%(used)s de %(total)s usados (%(p)s%%), %(free)s libres"
 
 #: r2/templates/adminserverstatus.html:169
-#, fuzzy
-#| msgid "overview"
 msgid "services"
-msgstr "resumen"
+msgstr "servicios"
 
 #: r2/templates/adminserverstatus.html:178
 msgid "Forget this server? It comes back if it reports again."
-msgstr ""
+msgstr "¿Olvidar este servidor? Volverá si vuelve a informar."
 
 #: r2/templates/adminserverstatus.html:180
-#, fuzzy
-#| msgid "target"
 msgid "forget"
-msgstr "objetivo"
+msgstr "olvidar"
 
 #: r2/templates/adminserverstatus.html:186
-#, fuzzy
-#| msgid "modqueue"
 msgid "queues"
-msgstr "cola de moderación"
+msgstr "colas"
 
 #: r2/templates/adminserverstatus.html:188
 msgid "RabbitMQ couldn't be asked about its queues."
-msgstr ""
+msgstr "No se pudo preguntar a RabbitMQ por sus colas."
 
 #: r2/templates/adminserverstatus.html:190
 msgid "Work waiting for the queue processors (tippr-consumers). A queue that keeps growing means they aren't keeping up, or aren't running."
-msgstr ""
+msgstr "Trabajo esperando a los procesadores de colas (tippr-consumers). Una cola que no deja de crecer significa que no dan abasto, o que no están funcionando."
 
 #: r2/templates/adminserverstatus.html:192
-#, fuzzy
-#| msgid "modqueue"
 msgid "queue"
-msgstr "cola de moderación"
+msgstr "cola"
 
 #: r2/templates/adminserverstatus.html:192
-#, fuzzy
-#| msgid "editing"
 msgid "waiting"
-msgstr "editando"
+msgstr "en espera"
 
 #: r2/templates/adminserverstatus.html:192
 msgid "processors"
-msgstr ""
+msgstr "procesadores"
 
 #: r2/templates/adminsitesettings.html:49 r2/templates/utils.html:243 r2/templates/utils.html:360
 msgid "upload"
@@ -9530,24 +9288,20 @@ msgid "A username finds that account and names starting with it; an email addres
 msgstr "Un nombre de usuario encuentra esa cuenta y los nombres que empiezan por él; una dirección de correo encuentra todas las cuentas que la usaron; una dirección IP encuentra las cuentas que iniciaron sesión desde ella (los inicios de sesión se conservan 100 días)."
 
 #: r2/templates/adminusers.html:35
-#, fuzzy
-#| msgid "newest"
 msgid "newer"
-msgstr "más nuevas"
+msgstr "más recientes"
 
 #: r2/templates/adminusers.html:41
 msgid "older"
-msgstr ""
+msgstr "más antiguos"
 
 #: r2/templates/adminusers.html:48
-#, fuzzy
-#| msgid "new accounts"
 msgid "all accounts"
-msgstr "cuentas nuevas"
+msgstr "todas las cuentas"
 
 #: r2/templates/adminusers.html:49
 msgid "Newest first, including deleted and suspended accounts."
-msgstr ""
+msgstr "Las más recientes primero, incluidas las cuentas eliminadas y suspendidas."
 
 #: r2/templates/adminusers.html:84
 msgid "No accounts found."
@@ -10339,10 +10093,9 @@ msgid "hide help"
 msgstr "ocultar ayuda"
 
 #: r2/templates/createvault.html:450
-#, fuzzy, python-format
-#| msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.tippr.net. You will be able to access your tippr through your domain."
+#, python-format
 msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to %(domain)s. You will be able to reach your vault through your domain."
-msgstr "¿Tienes tu propio dominio? Introdúcelo aquí y configura un registro CNAME en la configuración DNS de tu proveedor apuntando a rhs.tippr.net. Así podrás acceder a tu tippr con tu dominio."
+msgstr "¿Tienes un dominio? Introdúcelo aquí y luego ve a tu proveedor de DNS y añade un registro CNAME que apunte tu dominio a %(domain)s. Podrás llegar a tu vault a través de tu dominio."
 
 #: r2/templates/createvault.html:457
 msgid "look and feel"
@@ -10620,46 +10373,33 @@ msgid "How much does it cost?"
 msgstr "¿Cuánto cuesta?"
 
 #: r2/templates/gilding.html:60
-#, fuzzy, python-format
-#| msgid "A single gilding costs %(price)s. If you plan to do a lot you can get a discount if you purchase some [coins](/coins)."
+#, python-format
 msgid "A single gilding costs %(price)s. If you plan to do a lot you can get a discount if you [buy gold ahead](/coins) to give later."
-msgstr "Una sola recompensa cuesta %(price)s. Si tienes en mente comprar muchas puedes obtener un descuento si compras algunos [coinos](/coins)."
+msgstr "Un solo dorado cuesta %(price)s. Si piensas hacer muchos, puedes conseguir un descuento si [compras gold por adelantado](/coins) para regalarlo después."
 
 #: r2/templates/gilding.html:63
-#, fuzzy
-#| msgid "What is tippr gold?"
 msgid "What is Give Gold?"
-msgstr "¿Qué es tippr gold?"
+msgstr "¿Qué es Regalar gold?"
 
 #: r2/templates/gilding.html:64
-#, fuzzy
-#| msgid "Each coin you have can be converted into one month of tippr gold. Stored as a balance on your account, coins allow you to give gold without having to enter payment information."
 msgid "Gold you buy to give away later: each month of it gives someone one month of tippr gold. Kept as a balance on your account, it lets you give gold without entering payment information each time."
-msgstr "Puedes convertir cada coino que tienes a un mes de tippr gold. Créditos te dejan dar gold sin tener que rellenar con tu información de pago."
+msgstr "Gold que compras para regalarlo después: cada mes le da a alguien un mes de tippr gold. Guardado como saldo en tu cuenta, te permite regalar gold sin introducir los datos de pago cada vez."
 
 #: r2/templates/gilding.html:64
-#, fuzzy
-#| msgid "Additionally, buying coins in bulk lowers the cost of each gilding."
 msgid "Buying a year of it at once also lowers the cost of each gilding."
-msgstr "Adicionalmente, comprar coinos en paquete rebaja el costo de cada recompensa."
+msgstr "Comprar un año entero de una vez también abarata cada dorado."
 
 #: r2/templates/gilding.html:67
-#, fuzzy
-#| msgid "How do I use coins?"
 msgid "How do I use Give Gold?"
-msgstr "¿Cómo uso los coinos?"
+msgstr "¿Cómo uso Regalar gold?"
 
 #: r2/templates/gilding.html:68
-#, fuzzy
-#| msgid "Your coins are listed as a payment method on the checkout page."
 msgid "The gold you bought is listed as a way to pay on the checkout page."
-msgstr "Tus coinos están listados como método de pago en la página de revisión."
+msgstr "El gold que compraste aparece como forma de pago en la página de pago."
 
 #: r2/templates/gilding.html:74
-#, fuzzy
-#| msgid "buy tippr gold"
 msgid "buy gold"
-msgstr "compra tippr gold"
+msgstr "comprar gold"
 
 #: r2/templates/gold.html:41
 msgid "What is tippr gold?"
@@ -10702,22 +10442,16 @@ msgid "ongoing subscription"
 msgstr "subscripción en curso"
 
 #: r2/templates/gold.html:118
-#, fuzzy
-#| msgid "How many months of gold would you like to give?"
 msgid "How many months of gold would you like to have to give?"
-msgstr "¿Cuántos meses de gold te gustaría dar?"
+msgstr "¿Cuántos meses de gold te gustaría tener para regalar?"
 
 #: r2/templates/gold.html:122
-#, fuzzy
-#| msgid "Stored as a balance on your account, coins allow you to give gold without having to enter payment information. Each coin you have can be converted into one month of tippr gold."
 msgid "Kept as a balance on your account, gold you buy lets you give it without entering payment information each time. Each month of it gives someone one month of tippr gold."
-msgstr "Guardados como un balance en tu cuenta, los coinos te permiten dar oro sin tener que agregar información de pago. Cada crédito que tengas puede convertirse en un mes de tippr gold."
+msgstr "Guardado como saldo en tu cuenta, el gold que compras te permite regalarlo sin introducir los datos de pago cada vez. Cada mes le da a alguien un mes de tippr gold."
 
 #: r2/templates/gold.html:123
-#, fuzzy
-#| msgid "Learn more about using coins"
 msgid "Learn more about Give Gold"
-msgstr "Más información sobre usar coinos"
+msgstr "Más información sobre Regalar gold"
 
 #: r2/templates/gold.html:128
 msgid "What type of subscription would you like?"
@@ -10792,129 +10526,109 @@ msgstr "Canjear este código"
 #: r2/templates/goldabout.html:27
 #, python-format
 msgid "tippr gold is our premium membership: %(month)s a month or %(year)s a year. It keeps the site running, and gives you these extras for as long as you have it."
-msgstr ""
+msgstr "tippr gold es nuestra membresía premium: %(month)s al mes o %(year)s al año. Mantiene el sitio en marcha y te da estos extras mientras lo tengas."
 
 #: r2/templates/goldabout.html:30
 msgid "No ads"
-msgstr ""
+msgstr "Sin anuncios"
 
 #: r2/templates/goldabout.html:31
 msgid "Gold members don't see ads. If you'd like to see them anyway, turn off \"hide ads\" in your preferences."
-msgstr ""
+msgstr "Los miembros gold no ven anuncios. Si quieres verlos de todos modos, desactiva «ocultar anuncios» en tus preferencias."
 
 #: r2/templates/goldabout.html:33
-#, fuzzy
-#| msgid "show trending vaults on the front page"
 msgid "More vaults on your front page"
-msgstr "mostrar vaults en tendencia en la portada"
+msgstr "Más vaults en tu portada"
 
 #: r2/templates/goldabout.html:34
 #, python-format
 msgid "Your front page shows posts from up to %(gold)s of the vaults you subscribe to, instead of %(normal)s."
-msgstr ""
+msgstr "Tu portada muestra publicaciones de hasta %(gold)s de los vaults a los que estás suscrito, en lugar de %(normal)s."
 
 #: r2/templates/goldabout.html:36
-#, fuzzy
-#| msgid "comments disabled"
 msgid "New comments highlighted"
-msgstr "comentarios desactivados"
+msgstr "Comentarios nuevos resaltados"
 
 #: r2/templates/goldabout.html:37
 msgid "When you come back to a post, the comments made since your last visit are highlighted, so you can catch up quickly."
-msgstr ""
+msgstr "Cuando vuelves a una publicación, los comentarios escritos desde tu última visita aparecen resaltados, para que te pongas al día rápido."
 
 #: r2/templates/goldabout.html:39
-#, fuzzy
-#| msgid "save category"
 msgid "Save categories"
-msgstr "guardar categoría"
+msgstr "Categorías de guardado"
 
 #: r2/templates/goldabout.html:40
 msgid "Sort the posts and comments you save into your own categories, and browse your saved items one category at a time."
-msgstr ""
+msgstr "Ordena las publicaciones y comentarios que guardas en tus propias categorías y recorre tus elementos guardados categoría por categoría."
 
 #: r2/templates/goldabout.html:42
-#, fuzzy
-#| msgid "filter vault"
 msgid "Filter /v/all"
-msgstr "filtrar vault"
+msgstr "Filtrar /v/all"
 
 #: r2/templates/goldabout.html:43
 msgid "Leave vaults you're not interested in out of /v/all by adding them to the address with a minus sign, e.g. [/v/all-funny-pics](/v/all-funny-pics)."
-msgstr ""
+msgstr "Deja fuera de /v/all los vaults que no te interesan añadiéndolos a la dirección con un signo menos, p. ej. [/v/all-funny-pics](/v/all-funny-pics)."
 
 #: r2/templates/goldabout.html:45
-#, fuzzy
-#| msgid "myrandom"
 msgid "/v/myrandom"
-msgstr "miosaleatorios"
+msgstr "/v/myrandom"
 
 #: r2/templates/goldabout.html:46
 msgid "[/v/myrandom](/v/myrandom) takes you to a random vault from your own subscriptions."
-msgstr ""
+msgstr "[/v/myrandom](/v/myrandom) te lleva a un vault al azar de tus propias suscripciones."
 
 #: r2/templates/goldabout.html:48
-#, fuzzy
-#| msgid "+ friends"
 msgid "Notes on friends"
-msgstr "+ añadir como amigo"
+msgstr "Notas sobre amigos"
 
 #: r2/templates/goldabout.html:49
 msgid "Add a private note to each person on your friends list, to remember who they are."
-msgstr ""
+msgstr "Añade una nota privada a cada persona de tu lista de amigos, para recordar quién es."
 
 #: r2/templates/goldabout.html:51
 msgid "Visited links remembered"
-msgstr ""
+msgstr "Enlaces visitados recordados"
 
 #: r2/templates/goldabout.html:52
 msgid "Have the site remember which links you've visited, on every device you use (turn on \"remember what links I've visited\" in your preferences)."
-msgstr ""
+msgstr "Haz que el sitio recuerde qué enlaces has visitado, en todos los dispositivos que uses (activa «recordar qué enlaces he visitado» en tus preferencias)."
 
 #: r2/templates/goldabout.html:54
-#, fuzzy
-#| msgid "from all vaults"
 msgid "Gold-only vaults"
-msgstr "de todos los vaults"
+msgstr "Vaults solo para gold"
 
 #: r2/templates/goldabout.html:55
 msgid "Create vaults that only gold members can see and take part in: choose \"gold only\" as the vault's type when you create it."
-msgstr ""
+msgstr "Crea vaults que solo los miembros gold puedan ver y en los que solo ellos participen: elige «solo gold» como tipo del vault al crearlo."
 
 #: r2/templates/goldabout.html:58
-#, fuzzy
-#| msgid "gold members only"
 msgid "The members-only lounge"
-msgstr "sólo miembros gold"
+msgstr "El salón solo para miembros"
 
 #: r2/templates/goldabout.html:59
 #, python-format
 msgid "Join the other gold members in [/v/%(lounge)s](/v/%(lounge)s), a vault just for them."
-msgstr ""
+msgstr "Únete a los demás miembros gold en [/v/%(lounge)s](/v/%(lounge)s), un vault solo para ellos."
 
 #: r2/templates/goldabout.html:62
 msgid "A trophy on your profile"
-msgstr ""
+msgstr "Un trofeo en tu perfil"
 
 #: r2/templates/goldabout.html:63
 msgid "Your profile shows the tippr gold trophy."
-msgstr ""
+msgstr "Tu perfil muestra el trofeo de tippr gold."
 
 #: r2/templates/goldabout.html:65
-#, fuzzy
-#| msgid "give gold"
 msgid "Giving gold"
-msgstr "regalar gold"
+msgstr "Regalar gold"
 
 #: r2/templates/goldabout.html:66
 msgid "You can also give gold to other members, or gild a post or comment you liked: see [gilding](/gilding)."
-msgstr ""
+msgstr "También puedes regalar gold a otros miembros, o dorar una publicación o comentario que te haya gustado: consulta [dorados](/gilding)."
 
 #: r2/templates/goldabout.html:70
-#, fuzzy
-#| msgid "tippr gold"
 msgid "get tippr gold"
-msgstr "tippr gold"
+msgstr "conseguir tippr gold"
 
 #: r2/templates/goldgiftcodeemail.email:28
 msgid "Thank you again for your support, and have fun spreading gold!"
@@ -10945,26 +10659,22 @@ msgid "Please select a payment method."
 msgstr "Selecciona un método de pago."
 
 #: r2/templates/goldpayment.html:109
-#, fuzzy, python-format
-#| msgid "Give gold often? Consider [buying coins to use](/coins), they're 40% cheaper if purchased in a set of 12."
+#, python-format
 msgid "Give gold often? Consider [buying gold ahead](/coins) to give later: it's 40% cheaper bought as a year's worth."
-msgstr "¿Das gold con frecuencia? Considera [comprar coinos para usar](/coins), son 40% más barato cuando comprado como un conjunto de 12."
+msgstr "¿Regalas gold a menudo? Plantéate [comprar gold por adelantado](/coins) para regalarlo después: comprado por años es un 40 % más barato."
 
 #: r2/templates/goldpayment.html:111
 msgid "Would you like to [learn more about giving gold](/gilding)?"
 msgstr "¿Te gustaría [saber más sobre dar oro](/gilding)?"
 
 #: r2/templates/goldpayment.html:129
-#, fuzzy
-#| msgid "your edit"
 msgid "your gold"
-msgstr "tu edición"
+msgstr "tu gold"
 
 #: r2/templates/goldpayment.html:131
-#, fuzzy, python-format
-#| msgid "(use %(current)s of your %(total)s coins)"
+#, python-format
 msgid "(use %(current)s of your %(total)s months of gold)"
-msgstr "(usar %(current)s de tus %(total)s coinos)"
+msgstr "(usar %(current)s de tus %(total)s meses de gold)"
 
 #: r2/templates/goldpayment.html:151
 msgid "Credit Card"
@@ -11016,7 +10726,7 @@ msgstr "Enviar"
 
 #: r2/templates/goldsubscription.html:30
 msgid "your account doesn't have a gold subscription."
-msgstr "tu cuenta no tiene una suscripción a tippr gold."
+msgstr "tu cuenta no tiene una suscripción gold."
 
 #: r2/templates/goldsubscription.html:40
 msgid "use different card"
@@ -11202,36 +10912,34 @@ msgstr "el modo de concurso organiza los comentarios de una forma aleatoria, esc
 #: r2/templates/linkedloginlink.html:28
 #, python-format
 msgid "Your %(provider)s account (%(email)s) isn't linked to an account here yet."
-msgstr ""
+msgstr "Tu cuenta de %(provider)s (%(email)s) todavía no está vinculada a ninguna cuenta de aquí."
 
 #: r2/templates/linkedloginlink.html:30
 #, python-format
 msgid "That %(provider)s account isn't linked to an account here yet."
-msgstr ""
+msgstr "Esa cuenta de %(provider)s todavía no está vinculada a ninguna cuenta de aquí."
 
 #: r2/templates/linkedloginlink.html:33
 #, python-format
 msgid "Log in with your username and password to link it: next time, signing in with %(provider)s is enough."
-msgstr ""
+msgstr "Inicia sesión con tu nombre de usuario y contraseña para vincularla: la próxima vez bastará con iniciar sesión con %(provider)s."
 
 #: r2/templates/linkedloginlink.html:35
 msgid "Wrong username or password, or too many tries: wait a while and try again."
-msgstr ""
+msgstr "Nombre de usuario o contraseña incorrectos, o demasiados intentos: espera un rato y vuelve a intentarlo."
 
 #: r2/templates/linkedloginlink.html:41
 msgid "log in and link"
-msgstr ""
+msgstr "iniciar sesión y vincular"
 
 #: r2/templates/linkedloginlink.html:44
-#, fuzzy
-#| msgid "create a new account"
 msgid "New here? Make an account"
-msgstr "crear una nueva cuenta"
+msgstr "¿Eres nuevo? Crea una cuenta"
 
 #: r2/templates/linkedloginlink.html:45
 #, python-format
 msgid "It's linked to your %(provider)s account, so signing in with %(provider)s is enough from now on. The password lets you log in without it too."
-msgstr ""
+msgstr "Está vinculada a tu cuenta de %(provider)s, así que a partir de ahora basta con iniciar sesión con %(provider)s. La contraseña también te permite iniciar sesión sin ella."
 
 #: r2/templates/linkedloginlink.html:50 r2/templates/login.html:81
 msgid "choose a username"
@@ -11254,33 +10962,30 @@ msgid "remember me"
 msgstr "recordarme"
 
 #: r2/templates/linkedloginlink.html:78
-#, fuzzy
-#| msgid "delete account"
 msgid "make the account"
-msgstr "eliminar la cuenta"
+msgstr "crear la cuenta"
 
 #: r2/templates/linkedloginotp.html:19
 msgid "Your account uses two-factor sign-in: enter the code from your authenticator app (or one of your recovery codes)."
-msgstr ""
+msgstr "Tu cuenta usa el inicio de sesión en dos pasos: introduce el código de tu aplicación de autenticación (o uno de tus códigos de recuperación)."
 
 #: r2/templates/linkedloginotp.html:21
 msgid "That code isn't right. Try again."
-msgstr ""
+msgstr "Ese código no es correcto. Vuelve a intentarlo."
 
 #: r2/templates/linkedloginotp.html:33
 #, python-format
 msgid "don't ask again on this device for %(days)s days"
-msgstr ""
+msgstr "no volver a preguntar en este dispositivo durante %(days)s días"
 
 #: r2/templates/linkedsignin.html:29
-#, fuzzy, python-format
-#| msgid "assigned it to %(detail)s"
+#, python-format
 msgid "sign in with %(provider)s"
-msgstr "la asignó a %(detail)s"
+msgstr "iniciar sesión con %(provider)s"
 
 #: r2/templates/linkedsignin.html:32
 msgid "for accounts that linked one (preferences, security)"
-msgstr ""
+msgstr "para cuentas que han vinculado una (preferencias, seguridad)"
 
 #: r2/templates/linkinfobar.html:41
 msgid "this post was submitted on"
@@ -11693,7 +11398,7 @@ msgstr "enviar respuestas a mi buzón"
 
 #: r2/templates/newlink.html:155
 msgid "(not needed if you entered one in the last 15 minutes)"
-msgstr ""
+msgstr "(no hace falta si introdujiste uno en los últimos 15 minutos)"
 
 #: r2/templates/newlink.html:165
 #, python-format
@@ -11824,10 +11529,8 @@ msgid "email me"
 msgstr "recibir por e-mail"
 
 #: r2/templates/paymentstatus.html:23
-#, fuzzy
-#| msgid "check now"
 msgid "check again"
-msgstr "revisar ahora"
+msgstr "comprobar de nuevo"
 
 #: r2/templates/permalinkmessage.html:27
 msgid "you are viewing a single comment's thread."
@@ -12035,7 +11738,7 @@ msgstr "no hemos podido guardar las preferencias de hoja de estilo personalizada
 
 #: r2/templates/prefoptions.html:108
 msgid "your preferences weren't saved: enter your two-factor code with them"
-msgstr ""
+msgstr "no se guardaron tus preferencias: introduce tu código de verificación en dos pasos con ellas"
 
 #: r2/templates/prefoptions.html:110
 msgid "your preferences couldn't be saved"
@@ -12196,174 +11899,144 @@ msgid "(leave blank to show all submissions)"
 msgstr "(déjalo en blanco para mostrar todos las publicaciones enviadas)"
 
 #: r2/templates/prefoptions.html:248
-#, fuzzy
-#| msgid "announcement"
 msgid "enhancements"
-msgstr "anuncio"
+msgstr "mejoras"
 
 #: r2/templates/prefoptions.html:251
 msgid "infinite scroll"
-msgstr ""
+msgstr "desplazamiento infinito"
 
 #: r2/templates/prefoptions.html:254
 msgid "(load the next page of a listing when you reach the bottom)"
-msgstr ""
+msgstr "(cargar la página siguiente de un listado al llegar al final)"
 
 #: r2/templates/prefoptions.html:258
 msgid "keyboard navigation"
-msgstr ""
+msgstr "navegación con el teclado"
 
 #: r2/templates/prefoptions.html:261
 msgid "(j and k move between posts and comments, a and z vote; press ? on any page for the full list)"
-msgstr ""
+msgstr "(j y k pasan de una publicación o comentario a otro, a y z votan; pulsa ? en cualquier página para ver la lista completa)"
 
 #: r2/templates/prefoptions.html:268
 msgid "(a button on posts that link to an image to show it in the listing, and a \"show images\" link to show them all)"
-msgstr ""
+msgstr "(un botón en las publicaciones que enlazan a una imagen para mostrarla en el listado, y un enlace «mostrar imágenes» para mostrarlas todas)"
 
 #: r2/templates/prefoptions.html:272
-#, fuzzy
-#| msgid "send messages as emails"
 msgid "expand images automatically"
-msgstr "enviar mensajes como emails"
+msgstr "expandir las imágenes automáticamente"
 
 #: r2/templates/prefoptions.html:274
 msgid "(except NSFW and spoiler posts)"
-msgstr ""
+msgstr "(excepto publicaciones NSFW y de spoiler)"
 
 #: r2/templates/prefoptions.html:277
-#, fuzzy
-#| msgid "users"
 msgid "user tags"
-msgstr "usuarios"
+msgstr "etiquetas de usuario"
 
 #: r2/templates/prefoptions.html:280
 msgid "(a tag button by usernames, to note who someone is; only you see your tags)"
-msgstr ""
+msgstr "(un botón de etiqueta junto a los nombres de usuario, para anotar quién es alguien; solo tú ves tus etiquetas)"
 
 #: r2/templates/prefoptions.html:284
-#, fuzzy
-#| msgid "user for"
 msgid "user info on hover"
-msgstr "registrado desde hace"
+msgstr "información del usuario al pasar el ratón"
 
 #: r2/templates/prefoptions.html:286
 msgid "(hold the mouse over a username to see their karma, how long they've been here and your tag)"
-msgstr ""
+msgstr "(pasa el ratón sobre un nombre de usuario para ver su karma, cuánto tiempo lleva aquí y tu etiqueta)"
 
 #: r2/templates/prefoptions.html:289
 msgid "show the parent comment on hover"
-msgstr ""
+msgstr "mostrar el comentario padre al pasar el ratón"
 
 #: r2/templates/prefoptions.html:291
 msgid "(hold the mouse over a reply's \"parent\" link to read the comment it replies to)"
-msgstr ""
+msgstr "(pasa el ratón sobre el enlace «padre» de una respuesta para leer el comentario al que responde)"
 
 #: r2/templates/prefoptions.html:294
-#, fuzzy
-#| msgid "posts and comments"
 msgid "count new comments"
-msgstr "posts y comentarios"
+msgstr "contar los comentarios nuevos"
 
 #: r2/templates/prefoptions.html:296
 msgid "(\"3 new\" by posts you've opened before, and the new comments highlighted when you go back; remembered in this browser)"
-msgstr ""
+msgstr "(«3 nuevos» junto a las publicaciones que ya abriste, y los comentarios nuevos resaltados al volver; se recuerda en este navegador)"
 
 #: r2/templates/prefoptions.html:299
-#, fuzzy
-#| msgid "links you've downvoted"
 msgid "posts you've opened:"
-msgstr "links que has votado negativamente"
+msgstr "publicaciones que ya abriste:"
 
 #: r2/templates/prefoptions.html:301
-#, fuzzy
-#| msgid "show all"
 msgid "show as usual"
-msgstr "mostrar todo"
+msgstr "mostrar como siempre"
 
 #: r2/templates/prefoptions.html:301
-#, fuzzy
-#| msgid "Read the"
 msgid "fade them"
-msgstr "Lee la"
+msgstr "atenuarlas"
 
 #: r2/templates/prefoptions.html:301
-#, fuzzy
-#| msgid "hide help"
 msgid "hide them"
-msgstr "ocultar ayuda"
+msgstr "ocultarlas"
 
 #: r2/templates/prefoptions.html:306
-#, fuzzy
-#| msgid "remember this computer"
 msgid "(remembered in this browser)"
-msgstr "recordar este ordenador"
+msgstr "(se recuerda en este navegador)"
 
 #: r2/templates/prefoptions.html:311
 msgid "(on comments pages, buttons to jump between top-level comments, the submitter's, yours, new ones or ones with links)"
-msgstr ""
+msgstr "(en las páginas de comentarios, botones para saltar entre comentarios de primer nivel, los del autor, los tuyos, los nuevos o los que tienen enlaces)"
 
 #: r2/templates/prefoptions.html:314
-#, fuzzy
-#| msgid "account activity"
 msgid "account switcher"
-msgstr "actividad de tu cuenta"
+msgstr "selector de cuentas"
 
 #: r2/templates/prefoptions.html:316
 msgid "(a \"switch account\" menu by your name, to move between your accounts without logging out; logging out forgets them)"
-msgstr ""
+msgstr "(un menú «cambiar de cuenta» junto a tu nombre, para pasar de una cuenta a otra sin cerrar sesión; al cerrar sesión se olvidan)"
 
 #: r2/templates/prefoptions.html:319
-#, fuzzy
-#| msgid "test mode"
 msgid "night mode"
-msgstr "modo de prueba"
+msgstr "modo noche"
 
 #: r2/templates/prefoptions.html:321
 msgid "(light text on a dark background)"
-msgstr ""
+msgstr "(texto claro sobre fondo oscuro)"
 
 #: r2/templates/prefoptions.html:324
-#, fuzzy
-#| msgid "gilded comment"
 msgid "hide child comments links"
-msgstr "comentario con gold"
+msgstr "enlaces para ocultar respuestas"
 
 #: r2/templates/prefoptions.html:327
 msgid "(on comments pages, links to fold up the replies under each comment, or all of them at once)"
-msgstr ""
+msgstr "(en las páginas de comentarios, enlaces para plegar las respuestas bajo cada comentario, o todas a la vez)"
 
 #: r2/templates/prefoptions.html:333
-#, fuzzy
-#| msgid "filter vault"
 msgid "filters"
-msgstr "filtrar vault"
+msgstr "filtros"
 
 #: r2/templates/prefoptions.html:336
 msgid "Posts that match are left out of listings (never your own). One per line, or separated by commas."
-msgstr ""
+msgstr "Las publicaciones que coinciden se quitan de los listados (nunca las tuyas). Uno por línea, o separados por comas."
 
 #: r2/templates/prefoptions.html:340
-#, fuzzy
-#| msgid "site key"
 msgid "title keywords"
-msgstr "clave del sitio"
+msgstr "palabras clave del título"
 
 #: r2/templates/prefoptions.html:340
 msgid "whole words or phrases, in any case"
-msgstr ""
+msgstr "palabras o frases completas, sin distinguir mayúsculas"
 
 #: r2/templates/prefoptions.html:341
 msgid "example.com also hides its subdomains"
-msgstr ""
+msgstr "example.com también oculta sus subdominios"
 
 #: r2/templates/prefoptions.html:342
 msgid "still shown when you visit the vault itself"
-msgstr ""
+msgstr "se siguen mostrando cuando visitas el propio vault"
 
 #: r2/templates/prefoptions.html:343
 msgid "only hides their posts; to stop seeing them altogether, block them"
-msgstr ""
+msgstr "solo oculta sus publicaciones; para dejar de verlos del todo, bloquéalos"
 
 #: r2/templates/prefoptions.html:356
 msgid "comment options"
@@ -12576,10 +12249,9 @@ msgid "show how much gold you have remaining on your userpage"
 msgstr "mostrar cuanto gold sigues teniendo en tu página de usuario"
 
 #: r2/templates/prefoptions.html:533
-#, fuzzy, python-format
-#| msgid "use a %(coin_link)s to automatically renew my gold if it expires"
+#, python-format
 msgid "use a month of my %(coin_link)s to automatically renew my gold if it expires"
-msgstr "usa un %(coin_link)s para renovar mi oro automáticamente si expira"
+msgstr "usar un mes de mi %(coin_link)s para renovar automáticamente mi gold si caduca"
 
 #: r2/templates/prefoptions.html:543
 #, python-format
@@ -12616,223 +12288,188 @@ msgstr "autentificación de 2 factores"
 
 #: r2/templates/prefsecurity.html:46
 msgid "two-factor authentication is **on**. you're asked for a code from one of your methods below when changing your password or email address, and when linking or unlinking a sign-in. a code you enter counts for 15 minutes."
-msgstr ""
+msgstr "la verificación en dos pasos está **activada**. se te pide un código de uno de tus métodos de abajo al cambiar tu contraseña o dirección de correo, y al vincular o desvincular un inicio de sesión. un código que introduces vale durante 15 minutos."
 
 #: r2/templates/prefsecurity.html:50
-#, fuzzy
-#| msgid "your edit"
 msgid "your methods"
-msgstr "tu edición"
+msgstr "tus métodos"
 
 #: r2/templates/prefsecurity.html:55
-#, fuzzy
-#| msgid "kind"
 msgid "kind_name"
-msgstr "tipo"
+msgstr "kind_name"
 
 #: r2/templates/prefsecurity.html:56
 #, python-format
 msgid "added %(when)s"
-msgstr ""
+msgstr "añadido %(when)s"
 
 #: r2/templates/prefsecurity.html:58
-#, fuzzy, python-format
-#| msgid "last seen"
+#, python-format
 msgid "last used %(when)s"
-msgstr "última vez"
+msgstr "último uso %(when)s"
 
 #: r2/templates/prefsecurity.html:78
 msgid "Removing your only method turns two-factor off, so it needs your password too."
-msgstr ""
+msgstr "Quitar tu único método desactiva la verificación en dos pasos, así que también necesita tu contraseña."
 
 #: r2/templates/prefsecurity.html:82
-#, fuzzy
-#| msgid "add a moderator"
 msgid "add a method"
-msgstr "añadir un moderador"
+msgstr "añadir un método"
 
 #: r2/templates/prefsecurity.html:86
 msgid "also ask for a code"
-msgstr ""
+msgstr "pedir también un código"
 
 #: r2/templates/prefsecurity.html:89
 msgid "when logging in, with your password or a linked account (Google, GitHub...)"
-msgstr ""
+msgstr "al iniciar sesión, con tu contraseña o una cuenta vinculada (Google, GitHub...)"
 
 #: r2/templates/prefsecurity.html:90
 #, python-format
 msgid "you can choose to skip it for %(days)s days on a device you trust"
-msgstr ""
+msgstr "puedes elegir saltártelo durante %(days)s días en un dispositivo de confianza"
 
 #: r2/templates/prefsecurity.html:94
 msgid "when saving your preferences"
-msgstr ""
+msgstr "al guardar tus preferencias"
 
 #: r2/templates/prefsecurity.html:98
 msgid "when submitting a post"
-msgstr ""
+msgstr "al enviar una publicación"
 
 #: r2/templates/prefsecurity.html:100
 msgid "a code you enter counts for 15 minutes, so you aren't asked again and again. apps you've allowed (OAuth) aren't asked."
-msgstr ""
+msgstr "un código que introduces vale durante 15 minutos, para que no se te pida una y otra vez. a las aplicaciones que has autorizado (OAuth) no se les pide."
 
 #: r2/templates/prefsecurity.html:107
-#, fuzzy
-#| msgid "recover password"
 msgid "recovery codes"
-msgstr "recuperar contraseña"
+msgstr "códigos de recuperación"
 
 #: r2/templates/prefsecurity.html:109
 msgid "Save these recovery codes somewhere safe (print them, or keep them in a password manager). Each one works once in place of a code from your app, if you lose your phone. They won't be shown again."
-msgstr ""
+msgstr "Guarda estos códigos de recuperación en un lugar seguro (imprímelos o guárdalos en un gestor de contraseñas). Cada uno funciona una vez en lugar de un código de tu aplicación, si pierdes el teléfono. No se volverán a mostrar."
 
 #: r2/templates/prefsecurity.html:117
 msgid "Recovery codes work once each in place of a code from your app, if you lose your phone."
-msgstr ""
+msgstr "Los códigos de recuperación funcionan una vez cada uno en lugar de un código de tu aplicación, si pierdes el teléfono."
 
 #: r2/templates/prefsecurity.html:119
 #, python-format
 msgid "You have %(count)s left."
-msgstr ""
+msgstr "Te quedan %(count)s."
 
 #: r2/templates/prefsecurity.html:121
 msgid "You have none left: make new ones now."
-msgstr ""
+msgstr "No te queda ninguno: crea otros nuevos ahora."
 
 #: r2/templates/prefsecurity.html:127
 msgid "make new recovery codes"
-msgstr ""
+msgstr "crear nuevos códigos de recuperación"
 
 #: r2/templates/prefsecurity.html:131
 msgid "Making new ones stops the old ones working."
-msgstr ""
+msgstr "Crear códigos nuevos hace que los antiguos dejen de funcionar."
 
 #: r2/templates/prefsecurity.html:137
-#, fuzzy
-#| msgid "turn admin off"
 msgid "turn it off"
-msgstr "desactivar admin"
+msgstr "desactivarla"
 
 #: r2/templates/prefsecurity.html:138
 msgid "to turn it off (removing every method and the recovery codes), enter your password and a code."
-msgstr ""
+msgstr "para desactivarla (quitando todos los métodos y los códigos de recuperación), introduce tu contraseña y un código."
 
 #: r2/templates/prefsecurity.html:152
-#, fuzzy
-#| msgid "turn admin off"
 msgid "turn off"
-msgstr "desactivar admin"
+msgstr "desactivar"
 
 #: r2/templates/prefsecurity.html:156
 msgid "This site asks moderators and staff to use two-factor sign-in: your moderator tools work again once it's on."
-msgstr ""
+msgstr "Este sitio pide a los moderadores y al personal que usen el inicio de sesión en dos pasos: tus herramientas de moderación vuelven a funcionar en cuanto lo actives."
 
 #: r2/templates/prefsecurity.html:158
 msgid "with two-factor authentication on, changing your password or email address, and linking or unlinking a sign-in, also need a second step: a code from an authenticator app on your phone (Google Authenticator, Authy, 1Password and the like). someone who learns your password, or gets into a linked Google or Facebook account, can't take over your account here. you can add more than one method, and remove them later."
-msgstr ""
+msgstr "con la verificación en dos pasos activada, cambiar tu contraseña o dirección de correo, y vincular o desvincular un inicio de sesión, también necesitan un segundo paso: un código de una aplicación de autenticación en tu teléfono (Google Authenticator, Authy, 1Password y similares). alguien que averigüe tu contraseña, o entre en una cuenta de Google o Facebook vinculada, no podrá hacerse con tu cuenta aquí. puedes añadir más de un método y quitarlos después."
 
 #: r2/templates/prefsecurity.html:168
 msgid "To add an authenticator app, enter a code from one of your methods first."
-msgstr ""
+msgstr "Para añadir una aplicación de autenticación, primero introduce un código de uno de tus métodos."
 
 #: r2/templates/prefsecurity.html:170
-#, fuzzy
-#| msgid "reset your password"
 msgid "To start, enter your password."
-msgstr "resetea tu contraseña"
+msgstr "Para empezar, introduce tu contraseña."
 
 #: r2/templates/prefsecurity.html:179
 msgid "add an authenticator app"
-msgstr ""
+msgstr "añadir una aplicación de autenticación"
 
 #: r2/templates/prefsecurity.html:186
 msgid "Or add a passkey: your phone, computer or security key confirms it's you with a fingerprint, face or PIN."
-msgstr ""
+msgstr "O añade una llave de acceso: tu teléfono, ordenador o llave de seguridad confirma que eres tú con tu huella, tu cara o un PIN."
 
 #: r2/templates/prefsecurity.html:188
 msgid "Enter a code from one of your methods first."
-msgstr ""
+msgstr "Primero introduce un código de uno de tus métodos."
 
 #: r2/templates/prefsecurity.html:190
-#, fuzzy
-#| msgid "update your password"
 msgid "Enter your password first."
-msgstr "actualizar tu contraseña"
+msgstr "Primero introduce tu contraseña."
 
 #: r2/templates/prefsecurity.html:198
-#, fuzzy
-#| msgid "note (optional)"
 msgid "name (optional)"
-msgstr "nota (opcional)"
+msgstr "nombre (opcional)"
 
 #: r2/templates/prefsecurity.html:199
 msgid "add a passkey"
-msgstr ""
+msgstr "añadir una llave de acceso"
 
 #: r2/templates/prefsecurity.html:206
-#, fuzzy
-#| msgid "below is your two-factor authentication secret. you can scan the QR code with Google Authenticator or enter the key below manually. you WILL NOT have another chance to see this secret."
 msgid "scan the QR code with your authenticator app, or enter the key below in it. you WILL NOT have another chance to see this key."
-msgstr "aquí tienes el código para la autentificación en 2 factores. puedes escanear el código QR con Google Authenticator o introducir el código manualmente. esta será la ÚNICA OPORTUNIDAD de apuntar este código."
+msgstr "escanea el código QR con tu aplicación de autenticación, o introduce en ella la clave de abajo. NO tendrás otra oportunidad de ver esta clave."
 
 #: r2/templates/prefsecurity.html:209
 msgid "(optional, like phone or work)"
-msgstr ""
+msgstr "(opcional, como teléfono o trabajo)"
 
 #: r2/templates/prefsecurity.html:213
-#, fuzzy
-#| msgid "remove from the defaults"
 msgid "code from the app"
-msgstr "quitar de los predeterminados"
+msgstr "código de la aplicación"
 
 #: r2/templates/prefsecurity.html:227
 msgid "sign in with another account"
-msgstr ""
+msgstr "iniciar sesión con otra cuenta"
 
 #: r2/templates/prefsecurity.html:229
 msgid "Link a Google, Facebook, GitHub or Discord account to sign in with it instead of your password. It only signs in to this account, and you can unlink it at any time. Your password keeps working."
-msgstr ""
+msgstr "Vincula una cuenta de Google, Facebook, GitHub o Discord para iniciar sesión con ella en lugar de con tu contraseña. Solo inicia sesión en esta cuenta, y puedes desvincularla cuando quieras. Tu contraseña sigue funcionando."
 
 #: r2/templates/prefsecurity.html:231
 msgid "Linked. You can now sign in with it on the login page."
-msgstr ""
+msgstr "Vinculada. Ya puedes iniciar sesión con ella en la página de inicio de sesión."
 
 #: r2/templates/prefsecurity.html:234
 msgid "Linking or unlinking needs your two-factor code (one you entered in the last 15 minutes counts)."
-msgstr ""
+msgstr "Vincular o desvincular necesita tu código de verificación en dos pasos (vale uno que hayas introducido en los últimos 15 minutos)."
 
 #: r2/templates/prefsecurity.html:242
-#, fuzzy
-#| msgid "link"
-#| msgid_plural "links"
 msgid "linked"
-msgstr "enlace"
+msgstr "vinculada"
 
 #: r2/templates/prefsecurity.html:254
-#, fuzzy
-#| msgid "link"
-#| msgid_plural "links"
 msgid "unlink"
-msgstr "enlace"
+msgstr "desvincular"
 
 #: r2/templates/prefsecurity.html:259
-#, fuzzy
-#| msgid "normal link"
 msgid "not linked"
-msgstr "enlace normal"
+msgstr "sin vincular"
 
 #: r2/templates/prefsecurity.html:266 r2/templates/prefsecurity.html:270
-#, fuzzy, python-format
-#| msgid "link ids"
+#, python-format
 msgid "link %(provider)s"
-msgstr "ids de enlace"
+msgstr "vincular %(provider)s"
 
 #: r2/templates/prefupdate.html:33
-#, fuzzy
-#| msgid "a month ago"
-#| msgid_plural "%(num)s months ago"
 msgid "(entered a moment ago)"
-msgstr "hace un mes"
+msgstr "(introducido hace un momento)"
 
 #: r2/templates/prefupdate.html:48
 msgid "verify your email"
@@ -12969,7 +12606,7 @@ msgstr "reportes de moderador:"
 
 #: r2/templates/printablebuttons.html:329 r2/templates/printablebuttons.html:342
 msgid "<no reason>"
-msgstr "<sin razón>"
+msgstr "<sin motivo>"
 
 #: r2/templates/printablebuttons.html:336
 msgid "user reports:"
@@ -13037,22 +12674,16 @@ msgid "mark unread"
 msgstr "marcar como no leído"
 
 #: r2/templates/privacysettings.html:29
-#, fuzzy
-#| msgid "impressions"
 msgid "processing"
-msgstr "impresiones"
+msgstr "procesando"
 
 #: r2/templates/privacysettings.html:30
-#, fuzzy
-#| msgid "complete"
 msgid "completed"
-msgstr "completa"
+msgstr "completado"
 
 #: r2/templates/privacysettings.html:32
-#, fuzzy
-#| msgid "cancel"
 msgid "cancelled"
-msgstr "cancelar"
+msgstr "cancelado"
 
 #: r2/templates/privacysettings.html:39
 msgid "Download Your Data"
@@ -13156,37 +12787,31 @@ msgstr "Puedes eliminar tu cuenta y todos sus datos de forma permanente. Esta ac
 
 #: r2/templates/privacysettings.html:106
 msgid "Right away you're logged out everywhere, nobody can log in to the account, and the name can't be registered again."
-msgstr ""
+msgstr "En ese momento se cierra tu sesión en todas partes, nadie puede iniciar sesión en la cuenta y el nombre no se puede volver a registrar."
 
 #: r2/templates/privacysettings.html:107
 msgid "Your password, email address and moderator roles are removed 90 days later."
-msgstr ""
+msgstr "Tu contraseña, tu dirección de correo y tus roles de moderador se eliminan 90 días después."
 
 #: r2/templates/privacysettings.html:108
 msgid "Your posts and comments stay, by [deleted], unless you choose to delete them below."
-msgstr ""
+msgstr "Tus publicaciones y comentarios se quedan, firmados por [deleted], salvo que elijas eliminarlos abajo."
 
 #: r2/templates/privacysettings.html:110
 msgid "Having a problem? We may be able to help:"
-msgstr ""
+msgstr "¿Tienes algún problema? Puede que podamos ayudarte:"
 
 #: r2/templates/privacysettings.html:115
-#, fuzzy
-#| msgid "posts and comments"
 msgid "your posts and comments"
-msgstr "posts y comentarios"
+msgstr "tus publicaciones y comentarios"
 
 #: r2/templates/privacysettings.html:120
-#, fuzzy
-#| msgid "why are you deactivating this account?"
 msgid "why are you leaving? (optional)"
-msgstr "¿por qué estás desactivando esta cuenta?"
+msgstr "¿por qué te vas? (opcional)"
 
 #: r2/templates/privacysettings.html:140
-#, fuzzy
-#| msgid "I understand that deactivated accounts are not recoverable."
 msgid "I understand my account can't be recovered."
-msgstr "Entiendo que las cuentas desactivadas no se pueden recuperar."
+msgstr "Entiendo que mi cuenta no se puede recuperar."
 
 #: r2/templates/privacysettings.html:146
 msgid "Delete My Account"
@@ -13235,7 +12860,7 @@ msgstr "restantes de tippr gold"
 
 #: r2/templates/profilebar.html:127
 msgid "view gold features/benefits"
-msgstr "ver beneficios y mejoras de tippr gold"
+msgstr "ver las funciones y ventajas de gold"
 
 #: r2/templates/profilebar.html:133
 msgid "manage recurring subscription"
@@ -13715,48 +13340,38 @@ msgid "Create a promotion on another user's account."
 msgstr "Crear una promoción en la cuenta de otro usuario."
 
 #: r2/templates/promotepayment.html:17
-#, fuzzy
-#| msgid "No notes for this domain"
 msgid "pay for this campaign"
-msgstr "No hay notas para este dominio"
+msgstr "pagar esta campaña"
 
 #: r2/templates/promotepayment.html:19
-#, fuzzy, python-format
-#| msgid "The duration of this link is %(duration)s (from %(start)s to %(end)s)."
+#, python-format
 msgid "The duration of this campaign is %(duration)s (from %(start)s to %(end)s)."
-msgstr "La duración de este enlace es %(duration)s (desde %(start)s hasta %(end)s)."
+msgstr "La duración de esta campaña es de %(duration)s (del %(start)s al %(end)s)."
 
 #: r2/templates/promotepayment.html:20
-#, fuzzy, python-format
-#| msgid "Your current budget is %(budget)s"
+#, python-format
 msgid "Its budget is %(budget)s."
-msgstr "Tu presupuesto actual es %(budget)s"
+msgstr "Su presupuesto es de %(budget)s."
 
 #: r2/templates/promotepayment.html:24
-#, fuzzy
-#| msgid "house campaigns, man."
 msgid "This campaign is paid for."
-msgstr "casa de campañas, tío."
+msgstr "Esta campaña está pagada."
 
 #: r2/templates/promotepayment.html:25
-#, fuzzy
-#| msgid "back to Tippr"
 msgid "back to your ad"
-msgstr "volver a Tippr"
+msgstr "volver a tu anuncio"
 
 #: r2/templates/promotepayment.html:28
 msgid "You pay the whole budget now. Your ad is reviewed before it runs; if it isn't approved, or you delete the campaign or change its budget before it starts, the payment is refunded."
-msgstr ""
+msgstr "Pagas todo el presupuesto ahora. Tu anuncio se revisa antes de publicarse; si no se aprueba, o si eliminas la campaña o cambias su presupuesto antes de que empiece, se reembolsa el pago."
 
 #: r2/templates/promotepayment.html:41
 msgid "You pay on the provider's own page: your card or wallet details never reach this site."
-msgstr ""
+msgstr "Pagas en la página del propio proveedor: los datos de tu tarjeta o monedero nunca llegan a este sitio."
 
 #: r2/templates/promotepayment.html:43
-#, fuzzy
-#| msgid "this sign-up looks like spam; if it isn't, contact the site's admins"
 msgid "This site isn't taking payments for ads yet. Please contact the site's admins."
-msgstr "este registro parece spam; si no lo es, contacta con los administradores del sitio"
+msgstr "Este sitio todavía no acepta pagos de anuncios. Ponte en contacto con los administradores del sitio."
 
 #: r2/templates/promotereport.html:50
 msgid "grouping"
@@ -14022,10 +13637,9 @@ msgid "self-serve advertisement tool"
 msgstr "herramienta de publicidad autoservicio"
 
 #: r2/templates/spotlightlisting.html:76
-#, fuzzy, python-format
-#| msgid "Use of this tool is open to all members of tippr.net, and for as little as %(price)s you can advertise in this area. %%(get_started)s"
+#, python-format
 msgid "Use of this tool is open to all members of %(site)s, and for as little as %(price)s you can advertise in this area. %%(get_started)s"
-msgstr "Esta herramienta está abierta a todos los miembros de tippr.net, y por tan solo %(price)s puedes anunciarte en este espacio. %%(get_started)s"
+msgstr "Esta herramienta está abierta a todos los miembros de %(site)s, y por solo %(price)s puedes anunciarte en esta zona. %%(get_started)s"
 
 #: r2/templates/spotlightlisting.html:77
 msgid "Get started"
@@ -14066,20 +13680,16 @@ msgid "first"
 msgstr "primero"
 
 #: r2/templates/thanks.html:35
-#, fuzzy
-#| msgid "thanks for buying coins!"
 msgid "thanks for buying gold!"
-msgstr "¡gracias por comprar coins!"
+msgstr "¡gracias por comprar gold!"
 
 #: r2/templates/thanks.html:37
 msgid "thanks for subscribing!"
 msgstr "¡gracias por suscribirte!"
 
 #: r2/templates/thanks.html:42
-#, fuzzy
-#| msgid "enter your confirmation code below to claim your gift coins"
 msgid "enter your confirmation code below to claim your gold"
-msgstr "introduce tu código de confirmación para obtener tus \"coins\""
+msgstr "introduce tu código de confirmación abajo para canjear tu gold"
 
 #: r2/templates/thanks.html:44
 msgid "enter your confirmation code below to activate tippr gold"
@@ -14153,28 +13763,20 @@ msgid "daily mean"
 msgstr "media diaria"
 
 #: r2/templates/tipprtraffic.html:134
-#, fuzzy
-#| msgid "past 24 hours"
 msgid "24 hours"
-msgstr "ultimas 24 horas"
+msgstr "24 horas"
 
 #: r2/templates/tipprtraffic.html:135
-#, fuzzy
-#| msgid "days"
 msgid "7 days"
-msgstr "días"
+msgstr "7 días"
 
 #: r2/templates/tipprtraffic.html:136
-#, fuzzy
-#| msgid "7 / 30 days"
 msgid "30 days"
-msgstr "7 / 30 días"
+msgstr "30 días"
 
 #: r2/templates/tipprtraffic.html:153
-#, fuzzy
-#| msgid "moderator invited"
 msgid "moderator actions, 30 days"
-msgstr "moderador invitado"
+msgstr "acciones de moderación, 30 días"
 
 #: r2/templates/trendingvaultsbar.html:34
 msgid "trending vaults"
