@@ -205,30 +205,28 @@ msgstr "den användaren finns inte"
 #: r2/controllers/api.py:290
 #, python-format
 msgid "you can tag at most %(n)d users"
-msgstr ""
+msgstr "du kan tagga högst %(n)d användare"
 
 #: r2/controllers/api.py:308
-#, fuzzy
-#| msgid "wrong password"
 msgid "wrong username or password"
-msgstr "felaktigt lösenord"
+msgstr "fel användarnamn eller lösenord"
 
 #: r2/controllers/api.py:310
 msgid "that's the account you're using"
-msgstr ""
+msgstr "det är kontot du använder"
 
 #: r2/controllers/api.py:312
 #, python-format
 msgid "you can keep at most %(n)d other accounts"
-msgstr ""
+msgstr "du kan spara högst %(n)d andra konton"
 
 #: r2/controllers/api.py:317
 msgid "enter that account's two-factor code"
-msgstr ""
+msgstr "ange det kontots tvåstegskod"
 
 #: r2/controllers/api.py:333
 msgid "that account isn't available to switch to; add it again"
-msgstr ""
+msgstr "det går inte att byta till det kontot; lägg till det igen"
 
 #: r2/controllers/api.py:512
 msgid "your message has been delivered"
@@ -239,14 +237,12 @@ msgid "no title found"
 msgstr "hittade ingen rubrik"
 
 #: r2/controllers/api.py:828 r2/controllers/linked_logins.py:173 r2/controllers/linked_logins.py:219 r2/controllers/linked_logins.py:239 r2/controllers/linked_logins.py:256
-#, fuzzy
-#| msgid "the upload took too long; try again"
 msgid "That sign-in took too long. Please start again."
-msgstr "uppladdningen tog för lång tid; försök igen"
+msgstr "Inloggningen tog för lång tid. Börja om."
 
 #: r2/controllers/api.py:833
 msgid "That account is linked already: sign in with it."
-msgstr ""
+msgstr "Det kontot är redan kopplat: logga in med det."
 
 #: r2/controllers/api.py:1367 r2/controllers/api.py:1748 r2/controllers/api.py:2648 r2/controllers/api.py:2948 r2/controllers/api.py:3269 r2/controllers/api.py:4149 r2/controllers/api.py:4205 r2/controllers/api.py:4259 r2/controllers/api.py:4492 r2/controllers/api.py:4497 r2/controllers/api.py:4732 r2/controllers/api.py:4797 r2/controllers/api.py:4875 r2/controllers/api.py:4941 r2/controllers/api.py:5014 r2/controllers/api.py:5100 r2/controllers/api.py:5132 r2/controllers/api.py:5152 r2/controllers/api.py:5636 r2/controllers/api.py:5676 r2/controllers/api.py:5850 r2/controllers/api.py:5868 r2/controllers/api.py:6192 r2/lib/pages/pages.py:6182
 msgid "saved"
@@ -343,23 +339,20 @@ msgstr "maximalt antal stilmallar har uppnåtts"
 #: r2/controllers/api.py:4937
 #, python-format
 msgid "saved, but these aren't on until their keys are filled in: %(names)s"
-msgstr ""
+msgstr "sparat, men de fungerar inte förrän deras nycklar är ifyllda: %(names)s"
 
 #: r2/controllers/api.py:4959
 msgid "the keys work"
-msgstr ""
+msgstr "nycklarna fungerar"
 
 #: r2/controllers/api.py:4960 r2/controllers/api.py:4977
-#, fuzzy, python-format
-#| msgid "error: %(error)s"
+#, python-format
 msgid "didn't work: %(error)s"
-msgstr "fel: %(error)s"
+msgstr "fungerade inte: %(error)s"
 
 #: r2/controllers/api.py:4965
-#, fuzzy
-#| msgid "no such account"
 msgid "no such payment"
-msgstr "kontot finns inte"
+msgstr "ingen sådan betalning"
 
 #: r2/controllers/api.py:4980 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminusers.html:58 r2/templates/adminvaults.html:50
 msgid "status"
@@ -372,7 +365,7 @@ msgstr "namn"
 #: r2/controllers/api.py:5010
 #, python-format
 msgid "saved, but these aren't on until their ID and secret are filled in: %(names)s"
-msgstr ""
+msgstr "sparat, men de fungerar inte förrän deras ID och secret är ifyllda: %(names)s"
 
 #: r2/controllers/api.py:5114 r2/controllers/api.py:5140
 msgid "this site's live config is managed in ZooKeeper"
@@ -390,18 +383,16 @@ msgstr "inte sparad: %(error)s"
 #: r2/controllers/api.py:5156
 #, python-format
 msgid "%(saved)d saved; %(failed)d not saved (see below)"
-msgstr ""
+msgstr "%(saved)d sparade; %(failed)d inte sparade (se nedan)"
 
 #: r2/controllers/api.py:5162
-#, fuzzy
-#| msgid "Nothing here."
 msgid "nothing changed"
-msgstr "Här finns inget."
+msgstr "inget ändrades"
 
 #: r2/controllers/api.py:5178
 #, python-format
 msgid "couldn't empty: %(servers)s"
-msgstr ""
+msgstr "kunde inte tömma: %(servers)s"
 
 #: r2/controllers/api.py:5203
 msgid "every account has been checked"
@@ -477,13 +468,12 @@ msgstr "ange flödets http(s)-adress"
 
 #: r2/controllers/api.py:5436
 msgid "pick one of the AI labels"
-msgstr ""
+msgstr "välj en av AI-etiketterna"
 
 #: r2/controllers/api.py:5440
-#, fuzzy, python-format
-#| msgid "/v/%(vault)s accepts %(policy)s."
+#, python-format
 msgid "/v/%(vault)s doesn't accept %(label)s posts"
-msgstr "/v/%(vault)s tar emot %(policy)s."
+msgstr "/v/%(vault)s tar inte emot inlägg märkta %(label)s"
 
 #: r2/controllers/api.py:5446
 msgid "give the bot account a valid username"
@@ -540,11 +530,11 @@ msgstr "sparat; CleanTalk-nyckeln fungerar"
 
 #: r2/controllers/api.py:5722
 msgid "that isn't a release with an installer"
-msgstr ""
+msgstr "det är ingen version med installationsprogram"
 
 #: r2/controllers/api.py:5725
 msgid "a server is updating now; wait for it to finish"
-msgstr ""
+msgstr "en server uppdateras just nu; vänta tills den är klar"
 
 #: r2/controllers/api.py:5767
 msgid "Copy the key now; it isn't shown again."
@@ -596,27 +586,23 @@ msgstr "ingen guld att ta"
 
 #: r2/controllers/api.py:6017 r2/controllers/api.py:6047
 msgid "that's as many authenticator apps as an account can have"
-msgstr ""
+msgstr "det är så många autentiseringsappar som ett konto kan ha"
 
 #: r2/controllers/api.py:6090
 msgid "enter a code from one of your methods first"
-msgstr ""
+msgstr "ange först en kod från en av dina metoder"
 
 #: r2/controllers/api.py:6092
-#, fuzzy
-#| msgid "reset your password"
 msgid "enter your password first"
-msgstr "återställ ditt lösenord"
+msgstr "ange först ditt lösenord"
 
 #: r2/controllers/api.py:6110
 msgid "that passkey couldn't be added"
-msgstr ""
+msgstr "den lösennyckeln kunde inte läggas till"
 
 #: r2/controllers/api.py:6145
-#, fuzzy
-#| msgid "that password is unacceptable"
 msgid "that passkey wasn't accepted"
-msgstr "det lösenordet tillåts inte"
+msgstr "den lösennyckeln godtogs inte"
 
 #: r2/controllers/api.py:6272
 #, python-format
@@ -825,16 +811,12 @@ msgid "Claimed! Enjoy your tippr gold membership."
 msgstr "Färdigt! Njut av ditt tippr gold-medlemskap."
 
 #: r2/controllers/front.py:1545
-#, fuzzy
-#| msgid "Your gold coins have been claimed! Now go to someone's userpage and give them a present!"
 msgid "Your gold has been claimed! Now go to someone's userpage and give them a present!"
-msgstr "Dina gold coins har tillgodoräknats ditt konto. Gå till någons användarsida och ge en present!"
+msgstr "Ditt guld har lösts in! Gå nu till någons användarsida och ge personen en present!"
 
 #: r2/controllers/front.py:1549
-#, fuzzy
-#| msgid "Thanks for buying tippr gold! Your transaction has been completed and emailed to you. You can check the details by signing into your account at:"
 msgid "Thanks for buying tippr gold! Your payment has been received and your purchase delivered: check your inbox for the details."
-msgstr "Tack för att du köpte tippr guld! Din transaktion har slutförts och skickats till din e-postadress. Du kan kontrollera detaljerna genom att logga in på ditt konto på:"
+msgstr "Tack för att du köpte tippr guld! Din betalning har tagits emot och ditt köp levererats: se detaljerna i din inkorg."
 
 #: r2/controllers/front.py:1555
 msgid "Thanks for buying tippr gold! Your transaction has been completed."
@@ -899,11 +881,11 @@ msgstr "välkommen tillbaka"
 
 #: r2/controllers/front.py:1953
 msgid "tippr gold isn't for sale on this site right now."
-msgstr ""
+msgstr "tippr guld säljs inte på den här webbplatsen just nu."
 
 #: r2/controllers/front.py:1954
 msgid "what gold gives you"
-msgstr ""
+msgstr "vad guld ger dig"
 
 #: r2/controllers/front.py:2074 r2/templates/gold.html:57 r2/templates/gold.html:112 r2/templates/prefoptions.html:532
 msgid "Give Gold"
@@ -1135,10 +1117,8 @@ msgstr ""
 "Om du har frågor kan du kontakta %(gold_email)s."
 
 #: r2/controllers/linked_logins.py:43 r2/controllers/linked_logins.py:120 r2/controllers/linked_logins.py:134 r2/controllers/linked_logins.py:160 r2/controllers/linked_logins.py:178 r2/controllers/linked_logins.py:191 r2/controllers/linked_logins.py:264 r2/templates/linkedloginotp.html:35
-#, fuzzy
-#| msgid "sign up"
 msgid "sign in"
-msgstr "registrera"
+msgstr "logga in"
 
 #: r2/controllers/linked_logins.py:76 r2/controllers/linked_logins.py:98 r2/controllers/linked_logins.py:104 r2/controllers/linked_logins.py:174 r2/controllers/linked_logins.py:200 r2/controllers/linked_logins.py:257 r2/controllers/linked_logins.py:263 r2/templates/login.html:164 r2/templates/login.html:259 r2/templates/login.html:293
 msgid "log in"
@@ -1146,23 +1126,19 @@ msgstr "logga in"
 
 #: r2/controllers/linked_logins.py:102
 msgid "Log in to the account you want to link it to, then try again."
-msgstr ""
+msgstr "Logga in på kontot du vill koppla det till och försök igen."
 
 #: r2/controllers/linked_logins.py:108
-#, fuzzy
-#| msgid "backup"
 msgid "back"
-msgstr "säkerhetskopia"
+msgstr "tillbaka"
 
 #: r2/controllers/linked_logins.py:129
-#, fuzzy
-#| msgid "You need to be logged in to do that."
 msgid "That account can't be logged into."
-msgstr "Du måste vara inloggad för det."
+msgstr "Det går inte att logga in på det kontot."
 
 #: r2/controllers/linked_logins.py:262
 msgid "Too many wrong codes. Please start again."
-msgstr ""
+msgstr "För många felaktiga koder. Börja om."
 
 #: r2/controllers/listingcontroller.py:596
 msgid "newest submissions"
@@ -1324,49 +1300,41 @@ msgid "%(author)s's comment from discussion \"%(title)s\""
 msgstr "%(author)ss kommentar från diskussionen \"%(title)s\""
 
 #: r2/controllers/payments.py:32
-#, fuzzy
-#| msgid "ad placement"
 msgid "payment"
-msgstr "annonsplacering"
+msgstr "betalning"
 
 #: r2/controllers/payments.py:52
-#, fuzzy
-#| msgid "that language is not available"
 msgid "That payment method isn't available."
-msgstr "det språket är inte tillgängligt"
+msgstr "Den betalningsmetoden är inte tillgänglig."
 
 #: r2/controllers/payments.py:64
 msgid "This purchase can't be paid for any more: it may have been paid already, or it's too old. Please start again."
-msgstr ""
+msgstr "Det här köpet kan inte betalas längre: det kanske redan är betalt, eller så är det för gammalt. Börja om."
 
 #: r2/controllers/payments.py:67
-#, fuzzy
-#| msgid "try again"
 msgid "start again"
-msgstr "försök igen"
+msgstr "börja om"
 
 #: r2/controllers/payments.py:71
 #, python-format
 msgid "The payment couldn't be started with %(provider)s. Please try again in a moment, or pay another way."
-msgstr ""
+msgstr "Betalningen kunde inte startas hos %(provider)s. Försök igen om en stund, eller betala på ett annat sätt."
 
 #: r2/controllers/payments.py:95
 msgid "Thanks! Your payment is being confirmed on the network, which can take a while. Your purchase is delivered as soon as it's confirmed; you can close this page."
-msgstr ""
+msgstr "Tack! Din betalning bekräftas i nätverket, vilket kan ta en stund. Ditt köp levereras så snart den är bekräftad; du kan stänga den här sidan."
 
 #: r2/controllers/payments.py:100
 msgid "Thanks! Your payment is being processed. Your purchase is delivered as soon as it's done; you can close this page."
-msgstr ""
+msgstr "Tack! Din betalning behandlas. Ditt köp levereras så snart den är klar; du kan stänga den här sidan."
 
 #: r2/controllers/payments.py:105
-#, fuzzy
-#| msgid "This element has been disabled."
 msgid "This payment was refunded."
-msgstr "Elementet har inaktiverats."
+msgstr "Den här betalningen har återbetalats."
 
 #: r2/controllers/payments.py:107
 msgid "The payment didn't go through, so you haven't been charged."
-msgstr ""
+msgstr "Betalningen gick inte igenom, så du har inte debiterats."
 
 #: r2/controllers/payments.py:108 r2/templates/exploreitemlisting.html:77
 msgid "try again"
@@ -1405,11 +1373,8 @@ msgid "muting in moderator mail"
 msgstr "tysta i moderatorposten"
 
 #: r2/controllers/policies.py:55
-#, fuzzy
-#| msgid "moderator"
-#| msgid_plural "moderators"
 msgid "AutoModerator"
-msgstr "moderator"
+msgstr "AutoModerator"
 
 #: r2/controllers/policies.py:56
 msgid "using the API"
@@ -1460,10 +1425,8 @@ msgid "Request cancelled."
 msgstr "Begäran avbruten."
 
 #: r2/controllers/promotecontroller.py:333
-#, fuzzy
-#| msgid "this site isn't taking new accounts right now"
 msgid "Advertising isn't available on this site right now."
-msgstr "webbplatsen tar inte emot nya konton just nu"
+msgstr "Annonsering är inte tillgänglig på den här webbplatsen just nu."
 
 #: r2/controllers/promotecontroller.py:338 r2/lib/menus.py:93
 msgid "advertise"
@@ -1527,7 +1490,7 @@ msgstr "rapporterade marknadsförda länkar"
 
 #: r2/controllers/promotecontroller.py:606
 msgid "house promoted links"
-msgstr "länkar marknadsförda av tippr"
+msgstr "webbplatsens egna marknadsförda länkar"
 
 #: r2/controllers/promotecontroller.py:607
 msgid "fraud suspected promoted links"
@@ -1606,10 +1569,8 @@ msgid "The contents of this page appear in the public vault description and when
 msgstr "Innehållet på den här sidan visas i den allmänna vault-beskrivningen och när användaren inte har tillgång till vault:en"
 
 #: r2/controllers/wiki.py:97
-#, fuzzy
-#| msgid "This page is used to configure AutoModerator for the vault, please see [the full documentation](/wiki/automoderator/full-documentation) for information"
 msgid "This page is used to configure AutoModerator for the vault, see [the AutoModerator help page](/help/automoderator) for how to write rules"
-msgstr "Den här sidan används för att konfigurera AutoModerator för vaulten. Vänligen se [den fullständiga dokumentationen](/wiki/automoderator/full-documentation) för mer information"
+msgstr "På den här sidan ställer du in AutoModerator för vaulten; se [AutoModerators hjälpsida](/help/automoderator) för hur man skriver regler"
 
 #: r2/controllers/wiki.py:163
 #, python-format
@@ -2224,11 +2185,11 @@ msgstr "tvåfaktorsautentisering är redan aktiverat"
 
 #: r2/lib/errors.py:152
 msgid "enter the code from your authenticator app (or a recovery code)"
-msgstr ""
+msgstr "ange koden från din autentiseringsapp (eller en återställningskod)"
 
 #: r2/lib/errors.py:153
 msgid "turn on two-factor authentication (preferences, security) to use these tools"
-msgstr ""
+msgstr "slå på tvåstegsverifiering (inställningar, säkerhet) för att använda de här verktygen"
 
 #: r2/lib/errors.py:154
 msgid "image problem"
@@ -2361,7 +2322,7 @@ msgstr "du måste ha en aktiv prenumeration på tippr guld för att göra detta"
 
 #: r2/lib/errors.py:186
 msgid "insufficient coins"
-msgstr "otillräckligt med ktipprer"
+msgstr "otillräckligt med guld"
 
 #: r2/lib/errors.py:187
 msgid "gilding is not allowed in this vault"
@@ -2691,21 +2652,19 @@ msgstr "[borttagen]"
 
 #: r2/lib/linked_logins.py:62
 msgid "Google"
-msgstr ""
+msgstr "Google"
 
 #: r2/lib/linked_logins.py:71
 msgid "Facebook"
-msgstr ""
+msgstr "Facebook"
 
 #: r2/lib/linked_logins.py:81
 msgid "GitHub"
-msgstr ""
+msgstr "GitHub"
 
 #: r2/lib/linked_logins.py:92
-#, fuzzy
-#| msgid "discovery"
 msgid "Discord"
-msgstr "upptäckt"
+msgstr "Discord"
 
 #: r2/lib/live_config_admin.py:51
 msgid "Who has staff permissions: name:level pairs, comma-separated, where the level is admin, sponsor or employee. Admins can turn on admin mode. You can't remove your own admin permission here."
@@ -2713,11 +2672,11 @@ msgstr "Vem som har personalbehörighet: par av namn:nivå, kommaseparerade, dä
 
 #: r2/lib/live_config_admin.py:55
 msgid "Moderators and staff (employees, and admins for admin mode) need two-factor sign-in turned on (preferences, security) to use their tools; until then they see a notice asking them to. Members without it are unaffected."
-msgstr ""
+msgstr "Moderatorer och personal (anställda, och administratörer för adminläget) måste slå på inloggning i två steg (inställningar, säkerhet) för att använda sina verktyg; fram till dess ser de ett meddelande som ber dem göra det. Medlemmar utan det påverkas inte."
 
 #: r2/lib/live_config_admin.py:60
 msgid "How long a page for logged-out visitors may be kept and served again, in seconds, by nginx's page cache or a CDN in front of the site (logged-in visitors always get fresh pages). Lower it to show changes sooner, or 0 to stop caching pages at once. nginx's page cache has to be on (the installer's TIPPR_PAGE_CACHE_SECONDS) for a value here to do anything there."
-msgstr ""
+msgstr "Hur länge en sida för utloggade besökare får sparas och visas igen, i sekunder, av nginx sidcache eller ett CDN framför webbplatsen (inloggade besökare får alltid nya sidor). Sänk värdet för att visa ändringar snabbare, eller sätt 0 för att direkt sluta cacha sidor. nginx sidcache måste vara på (installationsprogrammets TIPPR_PAGE_CACHE_SECONDS) för att ett värde här ska göra något där."
 
 #: r2/lib/live_config_admin.py:67
 msgid "Accounts with at least this much post karma skip the captcha."
@@ -2745,7 +2704,7 @@ msgstr "Ett meddelande i sidofältet på varje sida. Tomt: inget."
 
 #: r2/lib/live_config_admin.py:82
 msgid "Messages for the \"new here?\" bar shown to logged-out visitors, each in double quotes; one is picked at random. \" / \" splits a message into a heading and a smaller second line, e.g. \"Welcome! / Pick a few vaults to subscribe to.\""
-msgstr ""
+msgstr "Meddelanden för raden \"ny här?\" som utloggade besökare ser, vart och ett inom dubbla citattecken; ett väljs slumpmässigt. \" / \" delar ett meddelande i en rubrik och en mindre andra rad, t.ex. \"Välkommen! / Prenumerera på några vaultar.\""
 
 #: r2/lib/live_config_admin.py:87
 msgid "A message in the info bar at the top of listings. For a site-wide banner, use the announcement on /admin/site instead."
@@ -3147,20 +3106,16 @@ msgid "ad settings"
 msgstr "annonsinställningar"
 
 #: r2/lib/menus.py:167 r2/templates/adminpaymentsettings.html:87
-#, fuzzy
-#| msgid "payment mismatch"
 msgid "payments"
-msgstr "betalningen stämmer inte"
+msgstr "betalningar"
 
 #: r2/lib/menus.py:168 r2/templates/adminloginsettings.html:22
 msgid "sign-in providers"
-msgstr ""
+msgstr "inloggningsleverantörer"
 
 #: r2/lib/menus.py:169 r2/templates/adminserverstatus.html:24
-#, fuzzy
-#| msgid "other server"
 msgid "servers"
-msgstr "annan server"
+msgstr "servrar"
 
 #: r2/lib/menus.py:170 r2/templates/adminbackups.html:51
 msgid "backups"
@@ -3479,10 +3434,9 @@ msgid "I understand and agree that registration on or use of this site constitut
 msgstr "Jag förstår och går med på att registrering av konto eller användning av denna sida innebär att jag acceperar %(user_agreement)s och %(privacy_policy)s"
 
 #: r2/lib/strings.py:84
-#, fuzzy, python-format
-#| msgid "to view tippr with only submissions from your friends, use [tippr.net/v/friends](%s)"
+#, python-format
 msgid "to view only submissions from your friends, use [/v/friends](%s)"
-msgstr "för att se tippr med enbart bidrag från dina vänner, använd [tippr.net/v/friends](%s)"
+msgstr "för att bara se inlägg från dina vänner, använd [/v/friends](%s)"
 
 #: r2/lib/strings.py:86
 msgid "your vault has been created"
@@ -3499,7 +3453,7 @@ msgstr "du prenumererar inte på några vaultar."
 
 #: r2/lib/strings.py:92
 msgid "you haven't chosen any vaults yet, so your front page shows the site's default vaults, below. subscribe or unsubscribe to make the list your own."
-msgstr ""
+msgstr "du har inte valt några vaultar än, så din förstasida visar webbplatsens standardvaultar nedan. prenumerera eller avsluta prenumerationer för att göra listan till din egen."
 
 #: r2/lib/strings.py:93
 msgid "below are the vaults you have subscribed to."
@@ -3678,10 +3632,9 @@ msgid "You're about to make a one-time purchase of %(amount)s of tippr gold for 
 msgstr "Du gör ett engångsköp av %(amount)s av tippr gold till dig själv (%(user)s). Du kommer att betala totalt %(price)s för detta."
 
 #: r2/lib/strings.py:141
-#, fuzzy, python-format
-#| msgid "You're about to purchase %(amount)s. They work like gift certificates: each coin you have will allow you to give one month of tippr gold to someone else. You'll pay a total of %(price)s for this."
+#, python-format
 msgid "You're about to purchase %(amount)s for Give Gold. It works like a gift certificate: each month of it gives someone one month of tippr gold. You'll pay a total of %(price)s for this."
-msgstr "Du är på väg att köpa %(amount)s. De fungerar som presentchecker: varje ktippr du har tillåter dig att ge en månads tippr guld till någon annan. Du betalar sammanlagt %(price)s för detta."
+msgstr "Du ska köpa %(amount)s för Ge guld. Det fungerar som ett presentkort: varje månad av det ger någon en månad tippr guld. Du betalar totalt %(price)s för detta."
 
 #: r2/lib/strings.py:142
 #, python-format
@@ -3831,13 +3784,10 @@ msgstr[0] "vault"
 msgstr[1] "vaultar"
 
 #: r2/lib/strings.py:265
-#, fuzzy
-#| msgid "a month ago"
-#| msgid_plural "%(num)s months ago"
 msgid "month of gold"
 msgid_plural "months of gold"
-msgstr[0] "en månad sen"
-msgstr[1] "%(num)s månader sen"
+msgstr[0] "månad guld"
+msgstr[1] "månader guld"
 
 #: r2/lib/strings.py:268
 msgid "reader"
@@ -4271,7 +4221,7 @@ msgstr "%d %b %Y"
 
 #: r2/lib/pages/pages.py:338
 msgid "This site asks moderators and staff to use two-factor sign-in. Turn it on under [preferences, security](/prefs/security) to use your moderator tools."
-msgstr ""
+msgstr "Den här webbplatsen ber moderatorer och personal att använda inloggning i två steg. Slå på den under [inställningar, säkerhet](/prefs/security) för att använda dina moderatorverktyg."
 
 #: r2/lib/pages/pages.py:521
 msgid "wiki tools"
@@ -4339,10 +4289,9 @@ msgid "<3"
 msgstr "<3"
 
 #: r2/lib/pages/pages.py:1335 r2/templates/adminserverstatus.html:142
-#, fuzzy, python-format
-#| msgid "%(time)s days left"
+#, python-format
 msgid "%(time)s ago"
-msgstr "%(time)s dagar kvar"
+msgstr "för %(time)s sedan"
 
 #: r2/lib/pages/pages.py:1496
 #, python-format
@@ -4419,8 +4368,8 @@ msgstr "mindre än en dag"
 #, python-format
 msgid "Give Gold: %(coins)s month"
 msgid_plural "Give Gold: %(coins)s months"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Ge guld: %(coins)s månad"
+msgstr[1] "Ge guld: %(coins)s månader"
 
 #: r2/lib/pages/pages.py:2565
 #, python-format
@@ -4492,7 +4441,7 @@ msgstr "%(bonus)s bonusvaultar"
 #: r2/lib/pages/pages.py:3398
 #, python-format
 msgid "you have a credit card gold subscription. your card (ending in %(last4)s) will be charged %(amount)s on %(date)s."
-msgstr "du har en kreditkortsprenumeration på tippr guld. %(amount)s kommer dras från ditt kort (som slutar med %(last4)s) den %(date)s."
+msgstr "du har en guldprenumeration med kreditkort. ditt kort (som slutar på %(last4)s) debiteras %(amount)s den %(date)s."
 
 #: r2/lib/pages/pages.py:3552
 msgid "try entering those letters again"
@@ -4503,63 +4452,57 @@ msgid "search"
 msgstr "sök"
 
 #: r2/lib/pages/pages.py:4228
-#, fuzzy, python-format
-#| msgid "a community for %(time)s"
+#, python-format
 msgid "not heard from for %(time)s"
-msgstr "en gemenskap sedan %(time)s"
+msgstr "inte hört av sig på %(time)s"
 
 #: r2/lib/pages/pages.py:4234
 #, python-format
 msgid "memory %(p)s%% used"
-msgstr ""
+msgstr "minne %(p)s%% använt"
 
 #: r2/lib/pages/pages.py:4238
 #, python-format
 msgid "busy: load %(l)s on %(n)s CPUs"
-msgstr ""
+msgstr "upptagen: belastning %(l)s på %(n)s CPU:er"
 
 #: r2/lib/pages/pages.py:4244
 #, python-format
 msgid "disk %(path)s %(p)s%% full"
-msgstr ""
+msgstr "disk %(path)s %(p)s%% full"
 
 #: r2/lib/pages/pages.py:4248
-#, fuzzy, python-format
-#| msgid "%(title)s : %(site)s"
+#, python-format
 msgid "%(service)s is %(state)s"
-msgstr "%(title)s: %(site)s"
+msgstr "%(service)s är %(state)s"
 
 #: r2/lib/pages/pages.py:4251
 msgid "a different version from the others"
-msgstr ""
+msgstr "en annan version än de andra"
 
 #: r2/lib/pages/pages.py:4253
 msgid "another server has the same name: set TIPPR_SERVER_NAME on one of them"
-msgstr ""
+msgstr "en annan server har samma namn: ange TIPPR_SERVER_NAME på en av dem"
 
 #: r2/lib/pages/pages.py:4308
-#, fuzzy, python-format
-#| msgid "seconds"
+#, python-format
 msgid "%(n)s seconds"
-msgstr "sekunder"
+msgstr "%(n)s sekunder"
 
 #: r2/lib/pages/pages.py:4310
-#, fuzzy, python-format
-#| msgid "minutes"
+#, python-format
 msgid "%(n)s minutes"
-msgstr "minuter"
+msgstr "%(n)s minuter"
 
 #: r2/lib/pages/pages.py:4312
-#, fuzzy, python-format
-#| msgid "this hour"
+#, python-format
 msgid "%(n)s hours"
-msgstr "denna timmen"
+msgstr "%(n)s timmar"
 
 #: r2/lib/pages/pages.py:4313
-#, fuzzy, python-format
-#| msgid "last %(n)d days"
+#, python-format
 msgid "%(n)s days"
-msgstr "senaste %(n)d dagarna"
+msgstr "%(n)s dagar"
 
 #: r2/lib/pages/pages.py:4526 r2/lib/pages/pages.py:4635
 msgid "added"
@@ -4772,10 +4715,8 @@ msgid "[frontpage]"
 msgstr "[förstasidan]"
 
 #: r2/lib/pages/trafficpages.py:293
-#, fuzzy
-#| msgid "activity"
 msgid "activity by day"
-msgstr "aktiviteter"
+msgstr "aktivitet per dag"
 
 #: r2/lib/pages/trafficpages.py:342
 msgid "total impressions by day"
@@ -4909,100 +4850,85 @@ msgstr "PayPal"
 
 #: r2/lib/payments/__init__.py:68 r2/templates/adminpaymentsettings.html:149
 msgid "Stripe"
-msgstr ""
+msgstr "Stripe"
 
 #: r2/lib/payments/__init__.py:68
 msgid "Card / Google Pay"
-msgstr ""
+msgstr "Kort / Google Pay"
 
 #: r2/lib/payments/__init__.py:69 r2/templates/adminpaymentsettings.html:166
 msgid "Coinbase"
-msgstr ""
+msgstr "Coinbase"
 
 #: r2/lib/payments/__init__.py:69
 msgid "Crypto (USDC)"
-msgstr ""
+msgstr "Krypto (USDC)"
 
 #: r2/lib/payments/__init__.py:70 r2/templates/adminpaymentsettings.html:191
 msgid "BitPay"
-msgstr ""
+msgstr "BitPay"
 
 #: r2/lib/payments/__init__.py:70
 msgid "Bitcoin"
 msgstr "Bitcoin"
 
 #: r2/lib/payments/__init__.py:121
-#, fuzzy
-#| msgid "waiting on the member"
 msgid "waiting for the buyer"
-msgstr "väntar på medlemmen"
+msgstr "väntar på köparen"
 
 #: r2/lib/payments/__init__.py:122
-#, fuzzy
-#| msgid "confirm"
 msgid "confirming"
-msgstr "bekräfta"
+msgstr "bekräftas"
 
 #: r2/lib/payments/__init__.py:123
-#, fuzzy
-#| msgid "unpaid"
 msgid "paid"
-msgstr "obetald"
+msgstr "betald"
 
 #: r2/lib/payments/__init__.py:124 r2/templates/privacysettings.html:31
-#, fuzzy
-#| msgid "refund failed"
 msgid "failed"
-msgstr "återbetalningen misslyckades"
+msgstr "misslyckades"
 
 #: r2/lib/payments/__init__.py:125 r2/templates/privacysettings.html:33
 msgid "expired"
-msgstr ""
+msgstr "har gått ut"
 
 #: r2/lib/payments/__init__.py:126
-#, fuzzy
-#| msgid "refund"
 msgid "refunded"
-msgstr "återbetalning"
+msgstr "återbetald"
 
 #: r2/lib/payments/gold.py:38
 #, python-format
 msgid "Give Gold: %(count)d months"
-msgstr ""
+msgstr "Ge guld: %(count)d månader"
 
 #: r2/lib/payments/gold.py:40
 #, python-format
 msgid "%(count)d year(s) of gold"
-msgstr ""
+msgstr "%(count)d års guld"
 
 #: r2/lib/payments/gold.py:42
 #, python-format
 msgid "%(count)d month(s) of gold"
-msgstr ""
+msgstr "%(count)d månaders guld"
 
 #: r2/lib/payments/gold.py:44
-#, fuzzy, python-format
-#| msgid "what %(name)s did"
+#, python-format
 msgid "%(what)s for %(name)s"
-msgstr "vad %(name)s gjorde"
+msgstr "%(what)s till %(name)s"
 
 #: r2/lib/payments/gold.py:46
-#, fuzzy, python-format
-#| msgid "enter a gift code for redemption"
+#, python-format
 msgid "a gift code for %(what)s"
-msgstr "ange en gåvokod för inlösning"
+msgstr "en presentkod för %(what)s"
 
 #: r2/lib/payments/gold.py:122
-#, fuzzy
-#| msgid "tippr gold refund"
 msgid "gold refund"
-msgstr "tippr guld-återbetalning"
+msgstr "återbetalning av guld"
 
 #: r2/lib/payments/gold.py:123
-#, fuzzy, python-format
-#| msgid "Your tippr gold payment has been refunded, contact %(gold_email)s for details"
+#, python-format
 msgid "Your gold payment has been refunded, contact %(gold_email)s for details"
-msgstr "Din tippr guld-betalning har blivit återbetald, kontakt %(gold_email)s för mer information"
+msgstr "Din guldbetalning har återbetalats; kontakta %(gold_email)s för detaljer"
 
 #: r2/lib/utils/_utils.py:229
 msgid "millisecond"
@@ -6029,16 +5955,12 @@ msgid "Update preferences and related account information. Will not have access 
 msgstr "Uppdatera inställningar och annan kontoinformation. Kommer inte ha tillgång till din e-post eller ditt lösenord."
 
 #: r2/models/token.py:126
-#, fuzzy
-#| msgid "renew your tippr gold"
 msgid "Spend your gold"
-msgstr "förnya ditt tippr guld"
+msgstr "Använd ditt guld"
 
 #: r2/models/token.py:127
-#, fuzzy
-#| msgid "Spend my tippr gold coins on giving gold to other users."
 msgid "Spend the gold I bought on giving gold to other users."
-msgstr "Spendera mina tippr guld-ktipprer genom att ge andra användare guld."
+msgstr "Använd guldet jag köpt till att ge guld till andra användare."
 
 #: r2/models/token.py:132
 msgid "Edit Posts"
@@ -6346,31 +6268,24 @@ msgstr "laddar…"
 
 #: r2/public/static/js/enhancements.js:95
 msgid "couldn't load more; try again"
-msgstr ""
+msgstr "kunde inte läsa in fler; försök igen"
 
 #: r2/public/static/js/enhancements.js:129
-#, fuzzy, python-format
-#| msgid "Share to %(name)s"
+#, python-format
 msgid "page %(num)s"
-msgstr "Dela med %(name)s"
+msgstr "sida %(num)s"
 
 #: r2/public/static/js/enhancements.js:156
-#, fuzzy
-#| msgid "there doesn't seem to be anything here"
 msgid "there doesn't seem to be anything more here"
-msgstr "det verkar inte finnas något här"
+msgstr "det verkar inte finnas något mer här"
 
 #: r2/public/static/js/enhancements.js:173
-#, fuzzy
-#| msgid "posts and comments"
 msgid "next post or comment"
-msgstr "inlägg och kommentarer"
+msgstr "nästa inlägg eller kommentar"
 
 #: r2/public/static/js/enhancements.js:174
-#, fuzzy
-#| msgid "their posts and comments…"
 msgid "previous post or comment"
-msgstr "deras inlägg och kommentarer…"
+msgstr "föregående inlägg eller kommentar"
 
 #: r2/public/static/js/enhancements.js:175 r2/templates/printable.html:233
 msgid "upvote"
@@ -6381,173 +6296,131 @@ msgid "downvote"
 msgstr "nedrösta"
 
 #: r2/public/static/js/enhancements.js:177
-#, fuzzy
-#| msgid "open links in a new window"
 msgid "open the link (shift: in a new tab)"
-msgstr "öppna länkar i ett nytt fönster"
+msgstr "öppna länken (Skift: i en ny flik)"
 
 #: r2/public/static/js/enhancements.js:178
-#, fuzzy
-#| msgid "top %d comments"
 msgid "open the comments"
-msgstr "bästa %d kommentarerna"
+msgstr "öppna kommentarerna"
 
 #: r2/public/static/js/enhancements.js:179
-#, fuzzy
-#| msgid "expand media previews on comments pages"
 msgid "expand or collapse the preview, or the comment"
-msgstr "expandera förhandsvisningar av media på kommentarssidor"
+msgstr "fäll ut eller ihop förhandsvisningen eller kommentaren"
 
 #: r2/public/static/js/enhancements.js:180 r2/public/static/js/enhancements.js:631 r2/public/static/js/saved.js:122 r2/public/static/js/saved.js:161 r2/public/static/js/sponsored.js:97 r2/templates/adminadsettings.html:128 r2/templates/adminantispam.html:106 r2/templates/adminemailsettings.html:95 r2/templates/adminfeeds.html:70 r2/templates/adminloginsettings.html:77 r2/templates/adminpaymentsettings.html:213 r2/templates/adminsitesettings.html:127 r2/templates/adminsupportstaff.html:57 r2/templates/flairlistrow.html:48 r2/templates/flairselector.html:54 r2/templates/moderatorpermissions.html:55 r2/templates/prefsecurity.html:102 r2/templates/prefupdate.html:99 r2/templates/prefupdate.html:153 r2/templates/printablebuttons.html:106 r2/templates/printablebuttons.html:375 r2/templates/printablebuttons.html:480 r2/templates/promotelinkedit.html:218 r2/templates/vaultstylesheet.html:70
 msgid "save"
 msgstr "spara"
 
 #: r2/public/static/js/enhancements.js:181
-#, fuzzy
-#| msgid "remove comment"
 msgid "reply to the comment"
-msgstr "ta bort kommentar"
+msgstr "svara på kommentaren"
 
 #: r2/public/static/js/enhancements.js:182
-#, fuzzy
-#| msgid "approve comment"
 msgid "parent comment"
-msgstr "godkänn kommentar"
+msgstr "överordnad kommentar"
 
 #: r2/public/static/js/enhancements.js:183
-#, fuzzy
-#| msgid "save page"
 msgid "next page"
-msgstr "spara sidan"
+msgstr "nästa sida"
 
 #: r2/public/static/js/enhancements.js:184
-#, fuzzy
-#| msgid "show AdSense ads"
 msgid "show these keys"
-msgstr "visa AdSense-annonser"
+msgstr "visa de här tangenterna"
 
 #: r2/public/static/js/enhancements.js:361
 msgid "keyboard shortcuts"
-msgstr ""
+msgstr "kortkommandon"
 
 #: r2/public/static/js/enhancements.js:363
 msgid "turn these off under \"enhancements\" in your preferences"
-msgstr ""
+msgstr "stäng av dem under \"förbättringar\" i dina inställningar"
 
 #: r2/public/static/js/enhancements.js:388 r2/public/static/js/enhancements.js:426
-#, fuzzy
-#| msgid "all %d comments"
 msgid "hide all child comments"
-msgstr "alla %d kommentarer"
+msgstr "dölj alla svar"
 
 #: r2/public/static/js/enhancements.js:404 r2/public/static/js/enhancements.js:419
-#, fuzzy
-#| msgid "gilded comment"
 msgid "hide child comments"
-msgstr "förgylld kommentar"
+msgstr "dölj svar"
 
 #: r2/public/static/js/enhancements.js:419
-#, fuzzy
-#| msgid "top %d comments"
 msgid "show child comments"
-msgstr "bästa %d kommentarerna"
+msgstr "visa svar"
 
 #: r2/public/static/js/enhancements.js:426
-#, fuzzy
-#| msgid "all %d comments"
 msgid "show all child comments"
-msgstr "alla %d kommentarer"
+msgstr "visa alla svar"
 
 #: r2/public/static/js/enhancements.js:458 r2/public/static/js/enhancements.js:523
-#, fuzzy
-#| msgid "header image"
 msgid "hide images"
-msgstr "sidhuvudbild"
+msgstr "dölj bilder"
 
 #: r2/public/static/js/enhancements.js:458 r2/public/static/js/enhancements.js:523 r2/templates/prefoptions.html:265
-#, fuzzy
-#| msgid "share image"
 msgid "show images"
-msgstr "delningsbild"
+msgstr "visa bilder"
 
 #: r2/public/static/js/enhancements.js:479 r2/public/static/js/enhancements.js:517
-#, fuzzy
-#| msgid "share image"
 msgid "show image"
-msgstr "delningsbild"
+msgstr "visa bild"
 
 #: r2/public/static/js/enhancements.js:517
-#, fuzzy
-#| msgid "header image"
 msgid "hide image"
-msgstr "sidhuvudbild"
+msgstr "dölj bild"
 
 #: r2/public/static/js/enhancements.js:576
 msgid "your tag; click to change it"
-msgstr ""
+msgstr "din tagg; klicka för att ändra den"
 
 #: r2/public/static/js/enhancements.js:583 r2/public/static/js/enhancements.js:755
-#, fuzzy
-#| msgid "Edit this rule."
 msgid "tag this user"
-msgstr "Redigera den här regeln."
+msgstr "tagga den här användaren"
 
 #: r2/public/static/js/enhancements.js:610
-#, fuzzy
-#| msgid "ago"
 msgid "tag"
-msgstr "sen"
+msgstr "tagg"
 
 #: r2/public/static/js/enhancements.js:610
-#, fuzzy, python-format
-#| msgid "profile for %(user)s"
+#, python-format
 msgid "tag for %(user)s"
-msgstr "%(user)s:s profil"
+msgstr "tagg för %(user)s"
 
 #: r2/public/static/js/enhancements.js:628
-#, fuzzy, python-format
-#| msgid "saved by %(user)s"
+#, python-format
 msgid "tag %(user)s"
-msgstr "sparad av %(user)s"
+msgstr "tagga %(user)s"
 
 #: r2/public/static/js/enhancements.js:632
-#, fuzzy
-#| msgid "remove post"
 msgid "remove tag"
-msgstr "ta bort inlägg"
+msgstr "ta bort tagg"
 
 #: r2/public/static/js/enhancements.js:672
 msgid "couldn't save the tag; try again"
-msgstr ""
+msgstr "kunde inte spara taggen; försök igen"
 
 #: r2/public/static/js/enhancements.js:710
 #, python-format
 msgid "%(num)s year"
 msgid_plural "%(num)s years"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%(num)s år"
+msgstr[1] "%(num)s år"
 
 #: r2/public/static/js/enhancements.js:714
-#, fuzzy, python-format
-#| msgid "%(num)d %(point)s"
+#, python-format
 msgid "%(num)s month"
 msgid_plural "%(num)s months"
-msgstr[0] "%(num)d %(point)s"
-msgstr[1] "%(num)d %(point)s"
+msgstr[0] "%(num)s månad"
+msgstr[1] "%(num)s månader"
 
 #: r2/public/static/js/enhancements.js:716
-#, fuzzy, python-format
-#| msgid "%(time)s days left"
+#, python-format
 msgid "%(num)s day"
 msgid_plural "%(num)s days"
-msgstr[0] "%(time)s dagar kvar"
-msgstr[1] "%(time)s dagar kvar"
+msgstr[0] "%(num)s dag"
+msgstr[1] "%(num)s dagar"
 
 #: r2/public/static/js/enhancements.js:745
-#, fuzzy
-#| msgid "remember me"
 msgid "member for"
-msgstr "kom ihåg mig"
+msgstr "medlem i"
 
 #: r2/public/static/js/enhancements.js:746 r2/templates/profilebar.html:57 r2/templates/tipprheader.html:112
 msgid "post karma"
@@ -6558,10 +6431,8 @@ msgid "comment karma"
 msgstr "kommentarskarma"
 
 #: r2/public/static/js/enhancements.js:755
-#, fuzzy
-#| msgid "change"
 msgid "change tag"
-msgstr "ändra"
+msgstr "ändra tagg"
 
 #: r2/public/static/js/enhancements.js:762 r2/templates/adminuser.html:32
 msgid "profile"
@@ -6572,110 +6443,84 @@ msgid "send a message"
 msgstr "skicka ett meddelande"
 
 #: r2/public/static/js/enhancements.js:923
-#, fuzzy, python-format
-#| msgid "%(num)d %(time)s"
+#, python-format
 msgid "(%(num)s new)"
 msgid_plural "(%(num)s new)"
-msgstr[0] "%(num)d %(time)s"
-msgstr[1] "%(num)d %(time)s"
+msgstr[0] "(%(num)s ny)"
+msgstr[1] "(%(num)s nya)"
 
 #: r2/public/static/js/enhancements.js:939
-#, fuzzy
-#| msgid "top %d comments"
 msgid "top-level comments"
-msgstr "bästa %d kommentarerna"
+msgstr "kommentarer på översta nivån"
 
 #: r2/public/static/js/enhancements.js:942
-#, fuzzy
-#| msgid "submitter"
 msgid "the submitter's"
-msgstr "uppladdare"
+msgstr "skribentens"
 
 #: r2/public/static/js/enhancements.js:947
 msgid "yours"
-msgstr ""
+msgstr "dina"
 
 #: r2/public/static/js/enhancements.js:956
-#, fuzzy
-#| msgid "links"
 msgid "with links"
-msgstr "länkar"
+msgstr "med länkar"
 
 #: r2/public/static/js/enhancements.js:964
-#, fuzzy
-#| msgid "jump to"
 msgid "jump between"
-msgstr "hoppa till"
+msgstr "hoppa mellan"
 
 #: r2/public/static/js/enhancements.js:974 r2/templates/prefoptions.html:309
-#, fuzzy
-#| msgid "comment karma"
 msgid "comment navigator"
-msgstr "kommentarskarma"
+msgstr "kommentarnavigator"
 
 #: r2/public/static/js/enhancements.js:978
-#, fuzzy
-#| msgid "revisions"
 msgid "previous"
-msgstr "revisioner"
+msgstr "föregående"
 
 #: r2/public/static/js/enhancements.js:981 r2/templates/flairnextlink.html:28 r2/templates/listing.html:75 r2/templates/promotedlinktraffic.html:95 r2/templates/promotelinknew.html:66 r2/templates/searchlisting.html:62 r2/templates/spotlightlisting.html:58 r2/templates/tablelisting.html:62 r2/templates/userlisting.html:149
 msgid "next"
 msgstr "nästa"
 
 #: r2/public/static/js/enhancements.js:1024
-#, fuzzy
-#| msgid "no such account"
 msgid "switch account"
-msgstr "kontot finns inte"
+msgstr "byt konto"
 
 #: r2/public/static/js/enhancements.js:1058
 msgid "couldn't switch; try again"
-msgstr ""
+msgstr "kunde inte byta; försök igen"
 
 #: r2/public/static/js/enhancements.js:1063
-#, fuzzy
-#| msgid "no such account"
 msgid "forget this account"
-msgstr "kontot finns inte"
+msgstr "glöm det här kontot"
 
 #: r2/public/static/js/enhancements.js:1064
-#, fuzzy, python-format
-#| msgid "created by %(user)s"
+#, python-format
 msgid "forget %(user)s"
-msgstr "skapad av %(user)s"
+msgstr "glöm %(user)s"
 
 #: r2/public/static/js/enhancements.js:1077
-#, fuzzy
-#| msgid "other accounts from it"
 msgid "no other accounts yet"
-msgstr "andra konton därifrån"
+msgstr "inga andra konton än"
 
 #: r2/public/static/js/enhancements.js:1080
-#, fuzzy
-#| msgid "create a new account"
 msgid "add an account"
-msgstr "skapa ett nytt konto"
+msgstr "lägg till ett konto"
 
 #: r2/public/static/js/enhancements.js:1085
 msgid "add and switch"
-msgstr ""
+msgstr "lägg till och byt"
 
 #: r2/public/static/js/enhancements.js:1100 r2/templates/linkedloginotp.html:30 r2/templates/newlink.html:155 r2/templates/prefoptions.html:598 r2/templates/prefsecurity.html:37 r2/templates/prefsecurity.html:126 r2/templates/prefsecurity.html:145 r2/templates/prefupdate.html:33 r2/templates/privacysettings.html:133
-#, fuzzy
-#| msgid "two-factor"
 msgid "two-factor code"
-msgstr "tvåstegsverifiering"
+msgstr "tvåstegskod"
 
 #: r2/public/static/js/enhancements.js:1104 r2/public/static/js/enhancements.js:1107
-#, fuzzy
-#| msgid "create a new account"
 msgid "couldn't add the account"
-msgstr "skapa ett nytt konto"
+msgstr "kunde inte lägga till kontot"
 
 #: r2/public/static/js/enhancements.js:1111
 msgid "logging out forgets these accounts"
-msgstr ""
+msgstr "när du loggar ut glöms de här kontona"
 
 #: r2/public/static/js/errors.js:3
 #, python-format
@@ -6889,29 +6734,23 @@ msgstr "kolla din inkorg för att bekräfta din prenumeration"
 
 #: r2/public/static/js/passkey.js:83
 msgid "couldn't reach the site"
-msgstr ""
+msgstr "kunde inte nå webbplatsen"
 
 #: r2/public/static/js/passkey.js:94
-#, fuzzy
-#| msgid "no access key set"
 msgid "no passkey was used"
-msgstr "ingen åtkomstnyckel angiven"
+msgstr "ingen lösennyckel användes"
 
 #: r2/public/static/js/passkey.js:97
-#, fuzzy
-#| msgid "that user is already a moderator"
 msgid "that passkey is already added"
-msgstr "den användaren är redan moderator"
+msgstr "den lösennyckeln är redan tillagd"
 
 #: r2/public/static/js/passkey.js:99
 msgid "the passkey didn't work"
-msgstr ""
+msgstr "lösennyckeln fungerade inte"
 
 #: r2/public/static/js/passkey.js:130
-#, fuzzy
-#| msgid "make a key"
 msgid "use a passkey"
-msgstr "skapa en nyckel"
+msgstr "använd en lösennyckel"
 
 #: r2/public/static/js/popup.js:29 r2/public/static/js/post-sharing.js:73
 msgid "close this window"
@@ -7289,32 +7128,28 @@ msgid "in-feed layout key"
 msgstr "layoutnyckel för in-feed"
 
 #: r2/templates/adminadsettings.html:84
-#, fuzzy
-#| msgid "For an in-feed unit, its data-ad-layout-key. Leave blank for a display unit."
 msgid "For an in-feed unit, its data-ad-layout-key; for an in-article unit, in-article. Leave blank for a display unit."
-msgstr "För en in-feed-enhet dess data-ad-layout-key. Lämna tomt för en displayenhet."
+msgstr "För en in-feed-enhet dess data-ad-layout-key; för en in-article-enhet in-article. Lämna tomt för en displayenhet."
 
 #: r2/templates/adminadsettings.html:88
-#, fuzzy
-#| msgid "note (optional)"
 msgid "night mode ad units (optional)"
-msgstr "anteckning (valfri)"
+msgstr "annonsenheter för nattläget (valfritt)"
 
 #: r2/templates/adminadsettings.html:91
 msgid "Ads are drawn by Google and can't be restyled by the site, so on night mode's dark pages they keep the colours set in AdSense. To match night mode, create an in-article (or in-feed) unit with dark colours in AdSense (its style is set when you create it; display units can't be coloured) and enter it here: members with night mode on get these instead. Blank: the units above."
-msgstr ""
+msgstr "Annonser ritas av Google och kan inte stylas om av webbplatsen, så på nattlägets mörka sidor behåller de färgerna som är inställda i AdSense. För att passa nattläget skapar du i AdSense en in-article- (eller in-feed-)enhet med mörka färger (stilen bestäms när du skapar den; displayenheter kan inte färgsättas) och anger den här: medlemmar med nattläget på får dessa i stället. Tomt: enheterna ovan."
 
 #: r2/templates/adminadsettings.html:104
 msgid "in-article for an in-article unit."
-msgstr ""
+msgstr "in-article för en in-article-enhet."
 
 #: r2/templates/adminadsettings.html:107
 msgid "posts between in-feed ads"
-msgstr ""
+msgstr "inlägg mellan in-feed-annonser"
 
 #: r2/templates/adminadsettings.html:112
 msgid "An in-feed ad after every this many posts in a listing (and on each page infinite scroll adds)."
-msgstr ""
+msgstr "En in-feed-annons efter vart så många inlägg i en lista (och på varje sida som oändlig rullning lägger till)."
 
 #: r2/templates/adminadsettings.html:116
 msgid "testing"
@@ -7421,18 +7256,16 @@ msgid "posts, comments and messages from untrusted users"
 msgstr "inlägg, kommentarer och meddelanden från opålitliga användare"
 
 #: r2/templates/adminantispam.html:98
-#, fuzzy
-#| msgid "feed"
 msgid "feedback"
-msgstr "flöde"
+msgstr "återkoppling"
 
 #: r2/templates/adminantispam.html:100
 msgid "tell CleanTalk what moderators decide"
-msgstr ""
+msgstr "berätta för CleanTalk vad moderatorer beslutar"
 
 #: r2/templates/adminantispam.html:101
 msgid "For what CleanTalk checked: marking it spam (the spam button, or removing a user's posts as spam on /admin/users) reports spam CleanTalk missed or confirms its call; approving something it flagged reports a mistake. Removing without spam, and anything CleanTalk didn't check (trusted users' posts), sends nothing."
-msgstr ""
+msgstr "För det som CleanTalk kontrollerade: att markera det som skräppost (skräppostknappen, eller att ta bort en användares inlägg som skräppost på /admin/users) rapporterar skräppost som CleanTalk missade eller bekräftar dess bedömning; att godkänna något som det flaggade rapporterar ett misstag. Att ta bort utan skräppost, och allt som CleanTalk inte kontrollerade (betrodda användares inlägg), skickar ingenting."
 
 #: r2/templates/adminantispam.html:111
 msgid "CleanTalk statistics"
@@ -7878,18 +7711,15 @@ msgstr "göm"
 
 #: r2/templates/admincoins.html:28
 msgid "add to a user's Give Gold"
-msgstr ""
+msgstr "lägg till i en användares Ge guld"
 
 #: r2/templates/admincoins.html:35 r2/templates/admingold.html:35
 msgid "recipient"
 msgstr "mottagare"
 
 #: r2/templates/admincoins.html:43
-#, fuzzy
-#| msgid "a month ago"
-#| msgid_plural "%(num)s months ago"
 msgid "months of gold"
-msgstr "en månad sen"
+msgstr "månader guld"
 
 #: r2/templates/admincoins.html:46 r2/templates/admingold.html:47
 msgid "(negative to take away)"
@@ -8137,21 +7967,19 @@ msgstr "NSFW (olämpligt på arbetsplats)"
 
 #: r2/templates/adminfeeds.html:60
 msgid "mark every post NSFW"
-msgstr ""
+msgstr "märk varje inlägg som NSFW"
 
 #: r2/templates/adminfeeds.html:61 r2/templates/printablebuttons.html:95
 msgid "AI label"
 msgstr "AI-märkning"
 
 #: r2/templates/adminfeeds.html:63
-#, fuzzy
-#| msgid "any posts (labelled)"
 msgid "not labelled"
-msgstr "alla inlägg (märkta)"
+msgstr "omärkt"
 
 #: r2/templates/adminfeeds.html:68
 msgid "Put on every post, as a member labels their own. It must be one the vault accepts."
-msgstr ""
+msgstr "Sätts på varje inlägg, som när en medlem märker sina egna. Den måste vara en som vaulten godtar."
 
 #: r2/templates/adminfeeds.html:70
 msgid "add the feed"
@@ -8187,16 +8015,12 @@ msgid "titles start with"
 msgstr "titlar börjar med"
 
 #: r2/templates/adminfeeds.html:106
-#, fuzzy
-#| msgid "post karma"
 msgid "posts are marked"
-msgstr "inläggskarma"
+msgstr "inlägg märks"
 
 #: r2/templates/adminfeeds.html:108
-#, fuzzy
-#| msgid "context"
 msgid "ai_content"
-msgstr "kontext"
+msgstr "ai_content"
 
 #: r2/templates/adminfeeds.html:112
 msgid "paused"
@@ -8287,103 +8111,98 @@ msgid "This site reads its live config from ZooKeeper (liveconfig_source = zooke
 msgstr "Den här webbplatsen läser sin livekonfiguration från ZooKeeper (liveconfig_source = zookeeper), så den hanteras med scripts/write_live_config i stället för här. Värdena som används:"
 
 #: r2/templates/adminliveconfig.html:70
-#, fuzzy
-#| msgid "searching"
 msgid "caching"
-msgstr "sökning"
+msgstr "cachning"
 
 #: r2/templates/adminliveconfig.html:74
 msgid "memcached"
-msgstr ""
+msgstr "memcached"
 
 #: r2/templates/adminliveconfig.html:76
-#, fuzzy, python-format
-#| msgid "not saved: %(error)s"
+#, python-format
 msgid "not reachable: %(error)s"
-msgstr "inte sparad: %(error)s"
+msgstr "går inte att nå: %(error)s"
 
 #: r2/templates/adminliveconfig.html:79
 #, python-format
 msgid "%(used)s MB of %(limit)s MB used (%(percent)s%%), %(items)s items"
-msgstr ""
+msgstr "%(used)s MB av %(limit)s MB använt (%(percent)s%%), %(items)s objekt"
 
 #: r2/templates/adminliveconfig.html:81
 #, python-format
 msgid "%(hits)s%% of lookups found"
-msgstr ""
+msgstr "%(hits)s%% av uppslagen hittades"
 
 #: r2/templates/adminliveconfig.html:83
 #, python-format
 msgid "%(evictions)s evicted"
-msgstr ""
+msgstr "%(evictions)s utkastade"
 
 #: r2/templates/adminliveconfig.html:84
 #, python-format
 msgid "up %(hours)s hours"
-msgstr ""
+msgstr "uppe i %(hours)s timmar"
 
 #: r2/templates/adminliveconfig.html:86
 msgid "It's full and throwing things out to make room: give it more memory (TIPPR_MEMCACHED_MB, re-running the installer on the server it runs on)."
-msgstr ""
+msgstr "Den är full och slänger saker för att få plats: ge den mer minne (TIPPR_MEMCACHED_MB, genom att köra installationsprogrammet igen på servern den körs på)."
 
 #: r2/templates/adminliveconfig.html:93
 msgid "logged-out pages"
-msgstr ""
+msgstr "sidor för utloggade"
 
 #: r2/templates/adminliveconfig.html:96
 msgid "nginx doesn't keep them (TIPPR_PAGE_CACHE_SECONDS=0)."
-msgstr ""
+msgstr "nginx sparar dem inte (TIPPR_PAGE_CACHE_SECONDS=0)."
 
 #: r2/templates/adminliveconfig.html:98
 msgid "not cached: logged_out_page_cache_seconds below is 0."
-msgstr ""
+msgstr "inte cachade: logged_out_page_cache_seconds nedan är 0."
 
 #: r2/templates/adminliveconfig.html:100
 #, python-format
 msgid "kept %(seconds)s seconds (logged_out_page_cache_seconds below)"
-msgstr ""
+msgstr "sparas %(seconds)s sekunder (logged_out_page_cache_seconds nedan)"
 
 #: r2/templates/adminliveconfig.html:102
 msgid "by nginx, and a CDN in front if there is one."
-msgstr ""
+msgstr "av nginx, och ett CDN framför om det finns ett."
 
 #: r2/templates/adminliveconfig.html:104
 msgid "by a cache in front of the site, if it has one."
-msgstr ""
+msgstr "av en cache framför webbplatsen, om den har en."
 
 #: r2/templates/adminliveconfig.html:110
 msgid "static files"
-msgstr ""
+msgstr "statiska filer"
 
 #: r2/templates/adminliveconfig.html:113
 msgid "served by nginx, kept by browsers for a year (a day for files without a content hash in the name)."
-msgstr ""
+msgstr "levereras av nginx, sparas av webbläsare i ett år (en dag för filer utan innehållshash i namnet)."
 
 #: r2/templates/adminliveconfig.html:115
 msgid "served by the app (development: they change as you edit them)."
-msgstr ""
+msgstr "levereras av appen (utveckling: de ändras medan du redigerar dem)."
 
 #: r2/templates/adminliveconfig.html:117
 msgid "served by the app (re-run the installer to have nginx serve them)."
-msgstr ""
+msgstr "levereras av appen (kör installationsprogrammet igen så att nginx levererar dem)."
 
 #: r2/templates/adminliveconfig.html:124
 msgid "Empty memcached? The site is slower for a while as it fills again, and rate limits and half-done sign-ins start over."
-msgstr ""
+msgstr "Töm memcached? Webbplatsen blir långsammare en stund medan den fylls igen, och hastighetsgränser och halvfärdiga inloggningar börjar om."
 
 #: r2/templates/adminliveconfig.html:126
 msgid "empty memcached"
-msgstr ""
+msgstr "töm memcached"
 
 #: r2/templates/adminliveconfig.html:128
 msgid "For when pages show something out of date. Nothing is lost: everything there is a copy and comes back as it's used."
-msgstr ""
+msgstr "För när sidor visar något inaktuellt. Inget går förlorat: allt där är en kopia och kommer tillbaka när det används."
 
 #: r2/templates/adminliveconfig.html:136
-#, fuzzy
-#| msgid "save page"
 msgid "save changes"
-msgstr "spara sidan"
+msgstr "spara ändringar"
 
 #: r2/templates/adminliveconfig.html:146
 msgid "common settings"
@@ -8420,60 +8239,52 @@ msgstr "Inga ändringar än."
 
 #: r2/templates/adminloginsettings.html:25
 msgid "Members can link a Google, Facebook, GitHub or Discord account to theirs (preferences, security) and then sign in with it instead of their password. It only signs in to accounts that linked it: nothing is matched by email address. Someone signing in with one that isn't linked yet can link it to their account with their password, or, while sign-ups are open, make a new account for it. A member with two-factor sign-in still enters their code. Settings saved here override the ini file and apply immediately."
-msgstr ""
+msgstr "Medlemmar kan koppla ett Google-, Facebook-, GitHub- eller Discord-konto till sitt (inställningar, säkerhet) och sedan logga in med det i stället för sitt lösenord. Det loggar bara in på konton som har kopplat det: inget matchas via e-postadress. Den som loggar in med ett som inte är kopplat än kan koppla det till sitt konto med sitt lösenord eller, medan registreringen är öppen, skapa ett nytt konto för det. En medlem med inloggning i två steg anger fortfarande sin kod. Inställningar som sparas här ersätter ini-filen och gäller direkt."
 
 #: r2/templates/adminloginsettings.html:28
 msgid "Each provider needs an OAuth app of this site's own: create one in the provider's console, add the redirect address shown below to it, and enter its client ID and secret here."
-msgstr ""
+msgstr "Varje leverantör behöver en OAuth-app som hör till den här webbplatsen: skapa en i leverantörens konsol, lägg till omdirigeringsadressen nedan i den och ange dess client ID och secret här."
 
 #: r2/templates/adminloginsettings.html:42
 #, python-format
 msgid "offer sign in with %(provider)s"
-msgstr ""
+msgstr "erbjud inloggning med %(provider)s"
 
 #: r2/templates/adminloginsettings.html:46 r2/templates/adminpaymentsettings.html:137
-#, fuzzy
-#| msgid "OAuth client ID"
 msgid "client ID"
-msgstr "OAuth-klient-ID"
+msgstr "client ID"
 
 #: r2/templates/adminloginsettings.html:54
-#, fuzzy
-#| msgid "OAuth client secret"
 msgid "client secret"
-msgstr "OAuth-klienthemlighet"
+msgstr "client secret"
 
 #: r2/templates/adminloginsettings.html:58
-#, fuzzy
-#| msgid "redirect uri"
 msgid "redirect address"
-msgstr "omdirigerings-uri"
+msgstr "omdirigeringsadress"
 
 #: r2/templates/adminloginsettings.html:63
 msgid "Google Cloud console: APIs & Services, Credentials, create an OAuth client ID (web application) and add this as an authorized redirect URI. Set up the OAuth consent screen first (scopes: email, profile, openid)."
-msgstr ""
+msgstr "Google Cloud-konsolen: API:er och tjänster, Inloggningsuppgifter, skapa ett OAuth-klient-ID (webbapplikation) och lägg till detta som auktoriserad omdirigerings-URI. Ställ först in OAuth-medgivandeskärmen (omfattningar: email, profile, openid)."
 
 #: r2/templates/adminloginsettings.html:65
 msgid "Meta for Developers: create an app with Facebook Login, and add this under Facebook Login, Settings, Valid OAuth Redirect URIs. The app ID is the client ID; the app secret is under App settings, Basic."
-msgstr ""
+msgstr "Meta for Developers: skapa en app med Facebook Login och lägg till detta under Facebook Login, Inställningar, Giltiga OAuth-omdirigerings-URI:er. App-ID:t är client ID; apphemligheten finns under Appinställningar, Grundläggande."
 
 #: r2/templates/adminloginsettings.html:67
 msgid "GitHub, Settings, Developer settings, OAuth Apps: register a new OAuth app (not a GitHub App) with this as its authorization callback URL. Its client ID is shown there; generate a client secret on the same page."
-msgstr ""
+msgstr "GitHub, Settings, Developer settings, OAuth Apps: registrera en ny OAuth-app (inte en GitHub App) med detta som Authorization callback URL. Dess client ID visas där; generera ett client secret på samma sida."
 
 #: r2/templates/adminloginsettings.html:69
 msgid "Discord Developer Portal: create an application, then under OAuth2 add this as a redirect. The client ID and client secret (reset it to see one) are on the same page."
-msgstr ""
+msgstr "Discord Developer Portal: skapa en applikation och lägg sedan till detta som redirect under OAuth2. Client ID och client secret (återställ det för att se ett) finns på samma sida."
 
 #: r2/templates/adminloginsettings.html:71
-#, fuzzy
-#| msgid "opened the ticket"
 msgid "open the console"
-msgstr "öppnade ärendet"
+msgstr "öppna konsolen"
 
 #: r2/templates/adminloginsettings.html:81
 msgid "Instagram no longer offers sign-in for other sites; Facebook Login is Meta's."
-msgstr ""
+msgstr "Instagram erbjuder inte längre inloggning för andra webbplatser; Facebook Login tillhör Meta."
 
 #: r2/templates/adminnotessidebar.html:42
 msgid "Past notes"
@@ -8482,62 +8293,56 @@ msgstr "Gamla anteckningar"
 #: r2/templates/adminpaymentsettings.html:44
 #, python-format
 msgid "take payments with %(provider)s"
-msgstr ""
+msgstr "ta emot betalningar med %(provider)s"
 
 #: r2/templates/adminpaymentsettings.html:75
-#, fuzzy
-#| msgid "feed address"
 msgid "webhook address"
-msgstr "flödesadress"
+msgstr "webhook-adress"
 
 #: r2/templates/adminpaymentsettings.html:90
 msgid "Take payments for gold (and Give Gold, gifts and gift codes) and for sold ads with your own accounts at these providers. Turn on the ones you use and enter their API keys; buyers pick one on the payment page and pay on the provider's own page, so card details never reach this site. Settings saved here override the ini file and apply immediately."
-msgstr ""
+msgstr "Ta emot betalningar för guld (och Ge guld, presenter och presentkoder) och för sålda annonser med dina egna konton hos de här leverantörerna. Slå på dem du använder och ange deras API-nycklar; köpare väljer en på betalningssidan och betalar på leverantörens egen sida, så kortuppgifter når aldrig den här webbplatsen. Inställningar som sparas här ersätter ini-filen och gäller direkt."
 
 #: r2/templates/adminpaymentsettings.html:93
 #, python-format
 msgid "Prices are in US dollars: gold is %(month)s a month and %(year)s a year (gold_month_price and gold_year_price in the ini)."
-msgstr ""
+msgstr "Priserna är i amerikanska dollar: guld kostar %(month)s i månaden och %(year)s om året (gold_month_price och gold_year_price i ini-filen)."
 
 #: r2/templates/adminpaymentsettings.html:95
 msgid "Webhooks are optional: payments complete when the buyer comes back from paying either way, but with webhooks they also complete if the buyer closes the window first, and refunds made in the provider's dashboard reach the site. Webhooks are only a cue: the site always asks the provider what happened."
-msgstr ""
+msgstr "Webhooks är valfria: betalningar slutförs i alla fall när köparen kommer tillbaka från betalningen, men med webhooks slutförs de även om köparen stänger fönstret först, och återbetalningar som görs i leverantörens instrumentpanel når webbplatsen. Webhooks är bara en signal: webbplatsen frågar alltid leverantören vad som hände."
 
 #: r2/templates/adminpaymentsettings.html:99
 msgid "No provider is on yet, so the payment page only offers paying with gold already bought."
-msgstr ""
+msgstr "Ingen leverantör är på än, så betalningssidan erbjuder bara betalning med redan köpt guld."
 
 #: r2/templates/adminpaymentsettings.html:106
 msgid "what can be bought"
-msgstr ""
+msgstr "vad som kan köpas"
 
 #: r2/templates/adminpaymentsettings.html:112
-#, fuzzy
-#| msgid "receive gold as a gift code"
 msgid "gold, Give Gold, gifts and gift codes"
-msgstr "ta emot guld som en gåvokod"
+msgstr "guld, Ge guld, presenter och presentkoder"
 
 #: r2/templates/adminpaymentsettings.html:120
 msgid "sold ads (promoted posts), paid when submitted and refunded if rejected"
-msgstr ""
+msgstr "sålda annonser (marknadsförda inlägg), betalda när de skickas in och återbetalda om de avvisas"
 
 #: r2/templates/adminpaymentsettings.html:129
 msgid "Buyers pay with PayPal, Venmo (US), Pay Later, or a debit or credit card without a PayPal account."
-msgstr ""
+msgstr "Köpare betalar med PayPal, Venmo (USA), Betala senare eller ett betal- eller kreditkort utan PayPal-konto."
 
 #: r2/templates/adminpaymentsettings.html:133 r2/templates/adminpaymentsettings.html:175 r2/templates/adminpaymentsettings.html:200
-#, fuzzy
-#| msgid "announcement"
 msgid "environment"
-msgstr "meddelande"
+msgstr "miljö"
 
 #: r2/templates/adminpaymentsettings.html:134 r2/templates/adminpaymentsettings.html:176
 msgid "sandbox (testing)"
-msgstr ""
+msgstr "sandlåda (test)"
 
 #: r2/templates/adminpaymentsettings.html:140
 msgid "From developer.paypal.com: Apps & Credentials, create a REST API app (sandbox and live have separate apps)."
-msgstr ""
+msgstr "Från developer.paypal.com: Apps & Credentials, skapa en REST API-app (sandbox och live har separata appar)."
 
 #: r2/templates/adminpaymentsettings.html:144 r2/templates/prefapps.html:148
 msgid "secret"
@@ -8545,109 +8350,95 @@ msgstr "hemlig"
 
 #: r2/templates/adminpaymentsettings.html:147
 msgid "In the app's settings, add a webhook for Checkout order approved, Payment capture completed, denied and refunded."
-msgstr ""
+msgstr "Lägg till en webhook i appens inställningar för Checkout order approved, Payment capture completed, denied och refunded."
 
 #: r2/templates/adminpaymentsettings.html:154
 msgid "Buyers pay on Stripe Checkout with a card, Google Pay, Apple Pay, Link and any other method turned on in the Stripe dashboard (Settings > Payment methods)."
-msgstr ""
+msgstr "Köpare betalar på Stripe Checkout med kort, Google Pay, Apple Pay, Link och alla andra metoder som är på i Stripes instrumentpanel (Settings > Payment methods)."
 
 #: r2/templates/adminpaymentsettings.html:161
 msgid "From the Stripe dashboard: Developers > API keys. sk_test_… for testing, sk_live_… for real payments."
-msgstr ""
+msgstr "Från Stripes instrumentpanel: Developers > API keys. sk_test_… för test, sk_live_… för riktiga betalningar."
 
 #: r2/templates/adminpaymentsettings.html:164
 msgid "Under Developers > Webhooks, add an endpoint for checkout.session.completed, checkout.session.async_payment_succeeded, checkout.session.async_payment_failed, checkout.session.expired and charge.refunded."
-msgstr ""
+msgstr "Under Developers > Webhooks lägger du till en endpoint för checkout.session.completed, checkout.session.async_payment_succeeded, checkout.session.async_payment_failed, checkout.session.expired och charge.refunded."
 
 #: r2/templates/adminpaymentsettings.html:171
 msgid "Buyers pay in USDC (a dollar stablecoin) from Coinbase or any crypto wallet, through Coinbase Business checkouts. Coinbase Commerce, the old service, has shut down."
-msgstr ""
+msgstr "Köpare betalar i USDC (ett dollar-stablecoin) från Coinbase eller valfri kryptoplånbok, via Coinbase Business-betalningar. Coinbase Commerce, den gamla tjänsten, har lagts ner."
 
 #: r2/templates/adminpaymentsettings.html:179
 msgid "API key ID"
-msgstr ""
+msgstr "API-nyckel-ID"
 
 #: r2/templates/adminpaymentsettings.html:182
 msgid "A secret API key from portal.cdp.coinbase.com (API keys), for the project linked to your Coinbase Business account."
-msgstr ""
+msgstr "En hemlig API-nyckel från portal.cdp.coinbase.com (API keys), för projektet som är kopplat till ditt Coinbase Business-konto."
 
 #: r2/templates/adminpaymentsettings.html:186
-#, fuzzy
-#| msgid "OAuth client secret"
 msgid "API key secret"
-msgstr "OAuth-klienthemlighet"
+msgstr "API-nyckel-secret"
 
 #: r2/templates/adminpaymentsettings.html:189
 msgid "Webhooks are added with the CDP command line tool, subscribed to the checkout.payment events."
-msgstr ""
+msgstr "Webhooks läggs till med CDP:s kommandoradsverktyg och prenumererar på checkout.payment-händelserna."
 
 #: r2/templates/adminpaymentsettings.html:196
 msgid "Buyers pay with Bitcoin and the other coins BitPay accepts. Refunds are made in the BitPay dashboard, then marked refunded below."
-msgstr ""
+msgstr "Köpare betalar med Bitcoin och de andra mynt som BitPay tar emot. Återbetalningar görs i BitPays instrumentpanel och markeras sedan som återbetalda nedan."
 
 #: r2/templates/adminpaymentsettings.html:201
 msgid "test (test.bitpay.com)"
-msgstr ""
+msgstr "test (test.bitpay.com)"
 
 #: r2/templates/adminpaymentsettings.html:204
 msgid "API token"
-msgstr ""
+msgstr "API-token"
 
 #: r2/templates/adminpaymentsettings.html:207
 msgid "From the BitPay dashboard: Payment Tools > API Tokens, a point-of-sale token without \"require authentication\". The test site needs its own account and token."
-msgstr ""
+msgstr "Från BitPays instrumentpanel: Payment Tools > API Tokens, en kassatoken utan \"require authentication\". Testwebbplatsen behöver ett eget konto och en egen token."
 
 #: r2/templates/adminpaymentsettings.html:210
 msgid "Nothing to set up: each invoice tells BitPay where to send its notifications."
-msgstr ""
+msgstr "Inget att ställa in: varje faktura talar om för BitPay vart aviseringarna ska skickas."
 
 #: r2/templates/adminpaymentsettings.html:217
-#, fuzzy
-#| msgid "revoke the key"
 msgid "test the keys"
-msgstr "återkalla nyckeln"
+msgstr "testa nycklarna"
 
 #: r2/templates/adminpaymentsettings.html:218
 msgid "Asks each provider whether the saved keys work (save first). BitPay's can only be tested with a purchase."
-msgstr ""
+msgstr "Frågar varje leverantör om de sparade nycklarna fungerar (spara först). BitPays kan bara testas med ett köp."
 
 #: r2/templates/adminpaymentsettings.html:227
-#, fuzzy
-#| msgid "not set"
 msgid "not set up"
-msgstr "inte angett"
+msgstr "inte inställd"
 
 #: r2/templates/adminpaymentsettings.html:233
-#, fuzzy
-#| msgid "authorize payment"
 msgid "latest payments"
-msgstr "godkänn betalning"
+msgstr "senaste betalningar"
 
 #: r2/templates/adminpaymentsettings.html:235
-#, fuzzy
-#| msgid "No changes yet."
 msgid "No payments yet."
-msgstr "Inga ändringar än."
+msgstr "Inga betalningar än."
 
 #: r2/templates/adminpaymentsettings.html:240
 msgid "what"
-msgstr ""
+msgstr "vad"
 
 #: r2/templates/adminpaymentsettings.html:241
 msgid "buyer"
-msgstr ""
+msgstr "köpare"
 
 #: r2/templates/adminpaymentsettings.html:242
-#, fuzzy
-#| msgid "account"
 msgid "amount"
-msgstr "konto"
+msgstr "belopp"
 
 #: r2/templates/adminpaymentsettings.html:243
-#, fuzzy
-#| msgid "Approve"
 msgid "provider"
-msgstr "Godkänn"
+msgstr "leverantör"
 
 #: r2/templates/adminpaymentsettings.html:268 r2/templates/renderablecampaign.html:104
 msgid "refund"
@@ -8655,236 +8446,203 @@ msgstr "återbetalning"
 
 #: r2/templates/adminpaymentsettings.html:269
 msgid "Refund this payment in full and take back what it bought?"
-msgstr ""
+msgstr "Återbetala den här betalningen helt och ta tillbaka det den köpte?"
 
 #: r2/templates/adminpaymentsettings.html:271
-#, fuzzy
-#| msgid "mark unread"
 msgid "mark refunded"
-msgstr "markera som oläst"
+msgstr "markera som återbetald"
 
 #: r2/templates/adminpaymentsettings.html:272
 msgid "Mark this payment refunded (after refunding it in the provider's dashboard) and take back what it bought?"
-msgstr ""
+msgstr "Markera den här betalningen som återbetald (efter att ha återbetalat den i leverantörens instrumentpanel) och ta tillbaka det den köpte?"
 
 #: r2/templates/adminserverstatus.html:25
 msgid "Each server reports its state here once a minute (tippr-job-server_status). Only the latest report is kept; a server that stops reporting is flagged after 3 minutes and dropped after 7 days, or forget it below once it's out of service."
-msgstr ""
+msgstr "Varje server rapporterar sitt tillstånd här en gång i minuten (tippr-job-server_status). Bara den senaste rapporten sparas; en server som slutar rapportera flaggas efter 3 minuter och tas bort efter 7 dagar, eller glöm den nedan när den tagits ur drift."
 
 #: r2/templates/adminserverstatus.html:28
 msgid "No server has reported yet. Reports start within a minute of installing or upgrading (the tippr-job-server_status timer)."
-msgstr ""
+msgstr "Ingen server har rapporterat än. Rapporter börjar inom en minut efter installation eller uppdatering (timern tippr-job-server_status)."
 
 #: r2/templates/adminserverstatus.html:33
-#, fuzzy
-#| msgid "dates"
 msgid "updates"
-msgstr "datum"
+msgstr "uppdateringar"
 
 #: r2/templates/adminserverstatus.html:35
 #, python-format
 msgid "GitHub couldn't be asked about releases (%(error)s); trying again in a few minutes."
-msgstr ""
+msgstr "GitHub kunde inte tillfrågas om versioner (%(error)s); försöker igen om några minuter."
 
 #: r2/templates/adminserverstatus.html:37
 #, python-format
 msgid "No release of %(repo)s has an installer yet."
-msgstr ""
+msgstr "Ingen version av %(repo)s har ett installationsprogram än."
 
 #: r2/templates/adminserverstatus.html:40
 msgid "The newest release is"
-msgstr ""
+msgstr "Den senaste versionen är"
 
 #: r2/templates/adminserverstatus.html:47
 #, python-format
 msgid "an update is available for %(n)s of your servers"
-msgstr ""
+msgstr "en uppdatering finns för %(n)s av dina servrar"
 
 #: r2/templates/adminserverstatus.html:49
 msgid "every server runs it, or a newer one."
-msgstr ""
+msgstr "alla servrar kör den eller en nyare."
 
 #: r2/templates/adminserverstatus.html:53
 msgid "A pre-release is out too:"
-msgstr ""
+msgstr "En förhandsversion har också kommit:"
 
 #: r2/templates/adminserverstatus.html:56
 msgid "Read the release's notes before updating: anything that needs doing by hand is in them."
-msgstr ""
+msgstr "Läs versionsinformationen innan du uppdaterar: allt som måste göras för hand står där."
 
 #: r2/templates/adminserverstatus.html:63
 #, python-format
 msgid "%(user)s asked for %(version)s %(time)s ago%(backup)s."
-msgstr ""
+msgstr "%(user)s bad om %(version)s för %(time)s sedan%(backup)s."
 
 #: r2/templates/adminserverstatus.html:63
-#, fuzzy
-#| msgid "have it make a new backup first"
 msgid ", with a backup first"
-msgstr "låt den göra en ny säkerhetskopia först"
+msgstr ", med en säkerhetskopia först"
 
 #: r2/templates/adminserverstatus.html:64
 msgid "Each server updates within a minute or so of its turn, one at a time; the site is down on each for 5-10 minutes while it does. Its state is on its card below."
-msgstr ""
+msgstr "Varje server uppdaterar sig ungefär en minut efter att det blivit dess tur, en i taget; webbplatsen är nere på var och en i 5-10 minuter under tiden. Dess tillstånd står på dess kort nedan."
 
 #: r2/templates/adminserverstatus.html:70
-#, fuzzy
-#| msgid "clear the list"
 msgid "clear this"
-msgstr "töm listan"
+msgstr "rensa detta"
 
 #: r2/templates/adminserverstatus.html:71
 msgid "(servers that haven't started don't; this doesn't undo an update)"
-msgstr ""
+msgstr "(servrar som inte har börjat gör det inte; detta ångrar inte en uppdatering)"
 
 #: r2/templates/adminserverstatus.html:77
 msgid "Update the servers to this release? Each one goes down for 5-10 minutes while it updates, one at a time. Make a Proxmox snapshot first if you can."
-msgstr ""
+msgstr "Uppdatera servrarna till den här versionen? Var och en är nere i 5-10 minuter medan den uppdateras, en i taget. Ta en Proxmox-ögonblicksbild först om du kan."
 
 #: r2/templates/adminserverstatus.html:83
 msgid " (pre-release)"
-msgstr ""
+msgstr " (förhandsversion)"
 
 #: r2/templates/adminserverstatus.html:86
-#, fuzzy
-#| msgid "have it make a new backup first"
 msgid "make a site backup first"
-msgstr "låt den göra en ny säkerhetskopia först"
+msgstr "ta först en säkerhetskopia av webbplatsen"
 
 #: r2/templates/adminserverstatus.html:87
-#, fuzzy
-#| msgid "other server"
 msgid "update the servers"
-msgstr "annan server"
+msgstr "uppdatera servrarna"
 
 #: r2/templates/adminserverstatus.html:89
 msgid "Each server downloads the release's installer from GitHub, checks it against the release's checksums, and re-runs the installer, as in the Proxmox upgrade steps. If the site doesn't come back, it puts the old version back. Only Proxmox containers (with tippr-firstboot) can update this way. A snapshot of the container first is still the surest way back."
-msgstr ""
+msgstr "Varje server laddar ner versionens installationsprogram från GitHub, kontrollerar det mot versionens kontrollsummor och kör installationsprogrammet igen, som i Proxmox-uppgraderingsstegen. Om webbplatsen inte kommer tillbaka återställs den gamla versionen. Bara Proxmox-containrar (med tippr-firstboot) kan uppdateras så här. En ögonblicksbild av containern först är fortfarande den säkraste vägen tillbaka."
 
 #: r2/templates/adminserverstatus.html:92
 msgid "Updating from this page is off (TIPPR_WEB_UPDATES=0 in the installer)."
-msgstr ""
+msgstr "Uppdatering från den här sidan är avstängd (TIPPR_WEB_UPDATES=0 i installationsprogrammet)."
 
 #: r2/templates/adminserverstatus.html:114
-#, fuzzy
-#| msgid "conversation"
 msgid "version"
-msgstr "konversation"
+msgstr "version"
 
 #: r2/templates/adminserverstatus.html:120
 #, python-format
 msgid "%(version)s is out"
-msgstr ""
+msgstr "%(version)s har kommit"
 
 #: r2/templates/adminserverstatus.html:125
-#, fuzzy
-#| msgid "date"
 msgid "update"
-msgstr "datum"
+msgstr "uppdatering"
 
 #: r2/templates/adminserverstatus.html:128
-#, fuzzy, python-format
-#| msgid "%(reason)s"
+#, python-format
 msgid "to %(version)s"
-msgstr "%(reason)s"
+msgstr "till %(version)s"
 
 #: r2/templates/adminserverstatus.html:130
 #, python-format
 msgid "(from %(version)s)"
-msgstr ""
+msgstr "(från %(version)s)"
 
 #: r2/templates/adminserverstatus.html:136
-#, fuzzy
-#| msgid "blog"
 msgid "log"
-msgstr "blogg"
+msgstr "logg"
 
 #: r2/templates/adminserverstatus.html:144
-#, fuzzy, python-format
-#| msgid "%(num)d %(time)s"
+#, python-format
 msgid "up %(time)s"
-msgstr "%(num)d %(time)s"
+msgstr "uppe i %(time)s"
 
 #: r2/templates/adminserverstatus.html:147
-#, fuzzy
-#| msgid "upload"
 msgid "load"
-msgstr "ladda upp"
+msgstr "belastning"
 
 #: r2/templates/adminserverstatus.html:149
 #, python-format
 msgid "(1, 5 and 15 minutes, on %(n)s CPUs)"
-msgstr ""
+msgstr "(1, 5 och 15 minuter, på %(n)s CPU:er)"
 
 #: r2/templates/adminserverstatus.html:151
 msgid "memory"
-msgstr ""
+msgstr "minne"
 
 #: r2/templates/adminserverstatus.html:154
 #, python-format
 msgid "%(used)s of %(total)s used (%(p)s%%)"
-msgstr ""
+msgstr "%(used)s av %(total)s använt (%(p)s%%)"
 
 #: r2/templates/adminserverstatus.html:156
-#, fuzzy, python-format
-#| msgid "(use %(current)s of your %(total)s coins)"
+#, python-format
 msgid "swap %(used)s of %(total)s"
-msgstr "(använd %(current)s av dina %(total)s ktipprer)"
+msgstr "swap %(used)s av %(total)s"
 
 #: r2/templates/adminserverstatus.html:161
 msgid "disk"
-msgstr ""
+msgstr "disk"
 
 #: r2/templates/adminserverstatus.html:165
 #, python-format
 msgid "%(used)s of %(total)s used (%(p)s%%), %(free)s free"
-msgstr ""
+msgstr "%(used)s av %(total)s använt (%(p)s%%), %(free)s ledigt"
 
 #: r2/templates/adminserverstatus.html:169
-#, fuzzy
-#| msgid "overview"
 msgid "services"
-msgstr "översikt"
+msgstr "tjänster"
 
 #: r2/templates/adminserverstatus.html:178
 msgid "Forget this server? It comes back if it reports again."
-msgstr ""
+msgstr "Glömma den här servern? Den kommer tillbaka om den rapporterar igen."
 
 #: r2/templates/adminserverstatus.html:180
-#, fuzzy
-#| msgid "target"
 msgid "forget"
-msgstr "mål"
+msgstr "glöm"
 
 #: r2/templates/adminserverstatus.html:186
-#, fuzzy
-#| msgid "modqueue"
 msgid "queues"
-msgstr "modereringskö"
+msgstr "köer"
 
 #: r2/templates/adminserverstatus.html:188
 msgid "RabbitMQ couldn't be asked about its queues."
-msgstr ""
+msgstr "RabbitMQ kunde inte tillfrågas om sina köer."
 
 #: r2/templates/adminserverstatus.html:190
 msgid "Work waiting for the queue processors (tippr-consumers). A queue that keeps growing means they aren't keeping up, or aren't running."
-msgstr ""
+msgstr "Arbete som väntar på köhanterarna (tippr-consumers). En kö som fortsätter att växa betyder att de inte hinner med, eller inte körs."
 
 #: r2/templates/adminserverstatus.html:192
-#, fuzzy
-#| msgid "modqueue"
 msgid "queue"
-msgstr "modereringskö"
+msgstr "kö"
 
 #: r2/templates/adminserverstatus.html:192
-#, fuzzy
-#| msgid "editing"
 msgid "waiting"
-msgstr "redigerar"
+msgstr "väntar"
 
 #: r2/templates/adminserverstatus.html:192
 msgid "processors"
-msgstr ""
+msgstr "hanterare"
 
 #: r2/templates/adminsitesettings.html:49 r2/templates/utils.html:243 r2/templates/utils.html:360
 msgid "upload"
@@ -9528,24 +9286,20 @@ msgid "A username finds that account and names starting with it; an email addres
 msgstr "Ett användarnamn hittar det kontot och namn som börjar med det; en e-postadress hittar alla konton som har använt den; en IP-adress hittar kontona som loggat in därifrån (inloggningar sparas i 100 dagar)."
 
 #: r2/templates/adminusers.html:35
-#, fuzzy
-#| msgid "newest"
 msgid "newer"
-msgstr "nyast"
+msgstr "nyare"
 
 #: r2/templates/adminusers.html:41
 msgid "older"
-msgstr ""
+msgstr "äldre"
 
 #: r2/templates/adminusers.html:48
-#, fuzzy
-#| msgid "new accounts"
 msgid "all accounts"
-msgstr "nya konton"
+msgstr "alla konton"
 
 #: r2/templates/adminusers.html:49
 msgid "Newest first, including deleted and suspended accounts."
-msgstr ""
+msgstr "Nyaste först, inklusive raderade och avstängda konton."
 
 #: r2/templates/adminusers.html:84
 msgid "No accounts found."
@@ -10337,10 +10091,9 @@ msgid "hide help"
 msgstr "göm hjälp"
 
 #: r2/templates/createvault.html:450
-#, fuzzy, python-format
-#| msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to rhs.tippr.net. You will be able to access your tippr through your domain."
+#, python-format
 msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to %(domain)s. You will be able to reach your vault through your domain."
-msgstr "Äger du en domän? Ange den här och gå sedan till din DNS-leverantör och lägg till en CNAME-post som ger aliaset rhs.tippr.net för din domän. Du kommer åt din tippr via din domän."
+msgstr "Äger du en domän? Ange den här, gå sedan till din DNS-leverantör och lägg till en CNAME-post som pekar din domän till %(domain)s. Du kan då nå din vault via din domän."
 
 #: r2/templates/createvault.html:457
 msgid "look and feel"
@@ -10618,46 +10371,33 @@ msgid "How much does it cost?"
 msgstr "Hur mycket kostar det?"
 
 #: r2/templates/gilding.html:60
-#, fuzzy, python-format
-#| msgid "A single gilding costs %(price)s. If you plan to do a lot you can get a discount if you purchase some [coins](/coins)."
+#, python-format
 msgid "A single gilding costs %(price)s. If you plan to do a lot you can get a discount if you [buy gold ahead](/coins) to give later."
-msgstr "En enskild förgyllning kostar %(price)s. Om du planerar många kan du få rabatt om du köper några [coins](/ktipprer)."
+msgstr "En enda förgyllning kostar %(price)s. Om du tänker göra det ofta kan du få rabatt om du [köper guld i förväg](/coins) att ge senare."
 
 #: r2/templates/gilding.html:63
-#, fuzzy
-#| msgid "What is tippr gold?"
 msgid "What is Give Gold?"
-msgstr "Vad är tippr gold?"
+msgstr "Vad är Ge guld?"
 
 #: r2/templates/gilding.html:64
-#, fuzzy
-#| msgid "Each coin you have can be converted into one month of tippr gold. Stored as a balance on your account, coins allow you to give gold without having to enter payment information."
 msgid "Gold you buy to give away later: each month of it gives someone one month of tippr gold. Kept as a balance on your account, it lets you give gold without entering payment information each time."
-msgstr "Varje kredit du har kan omvandlas till en månads tippr guld. Ur det saldo av ktipprer som finns på ditt konto kan du ge guld utan att behöva överföra pengar."
+msgstr "Guld du köper för att ge bort senare: varje månad av det ger någon en månad tippr guld. Det sparas som saldo på ditt konto och låter dig ge guld utan att ange betalningsuppgifter varje gång."
 
 #: r2/templates/gilding.html:64
-#, fuzzy
-#| msgid "Additionally, buying coins in bulk lowers the cost of each gilding."
 msgid "Buying a year of it at once also lowers the cost of each gilding."
-msgstr "Dessutom, om du köper en större mängd coins blir kostnaden för var förgyllning lägre."
+msgstr "Att köpa ett helt år på en gång sänker också kostnaden för varje förgyllning."
 
 #: r2/templates/gilding.html:67
-#, fuzzy
-#| msgid "How do I use coins?"
 msgid "How do I use Give Gold?"
-msgstr "Hur använder jag ktipprer?"
+msgstr "Hur använder jag Ge guld?"
 
 #: r2/templates/gilding.html:68
-#, fuzzy
-#| msgid "Your coins are listed as a payment method on the checkout page."
 msgid "The gold you bought is listed as a way to pay on the checkout page."
-msgstr "Dina ktipprer visas som en betalningsmetod i kassan."
+msgstr "Guldet du har köpt visas som betalningssätt på kassasidan."
 
 #: r2/templates/gilding.html:74
-#, fuzzy
-#| msgid "buy tippr gold"
 msgid "buy gold"
-msgstr "köp tippr guld"
+msgstr "köp guld"
 
 #: r2/templates/gold.html:41
 msgid "What is tippr gold?"
@@ -10700,22 +10440,16 @@ msgid "ongoing subscription"
 msgstr "pågående prenumeration"
 
 #: r2/templates/gold.html:118
-#, fuzzy
-#| msgid "How many months of gold would you like to give?"
 msgid "How many months of gold would you like to have to give?"
-msgstr "Hur många månaders guld vill du ge?"
+msgstr "Hur många månader guld vill du ha att ge bort?"
 
 #: r2/templates/gold.html:122
-#, fuzzy
-#| msgid "Stored as a balance on your account, coins allow you to give gold without having to enter payment information. Each coin you have can be converted into one month of tippr gold."
 msgid "Kept as a balance on your account, gold you buy lets you give it without entering payment information each time. Each month of it gives someone one month of tippr gold."
-msgstr "Ktipprer lagras som ett saldo på ditt konto och låter dig ge guld utan att behöva skriva in betalningsinformation. Varje ktippr du har kan konverteras till en månads tippr guld."
+msgstr "Sparat som saldo på ditt konto låter köpt guld dig ge det utan att ange betalningsuppgifter varje gång. Varje månad av det ger någon en månad tippr guld."
 
 #: r2/templates/gold.html:123
-#, fuzzy
-#| msgid "Learn more about using coins"
 msgid "Learn more about Give Gold"
-msgstr "Lär dig mer om att använda ktipprer"
+msgstr "Läs mer om Ge guld"
 
 #: r2/templates/gold.html:128
 msgid "What type of subscription would you like?"
@@ -10790,129 +10524,109 @@ msgstr "lös in denna kod"
 #: r2/templates/goldabout.html:27
 #, python-format
 msgid "tippr gold is our premium membership: %(month)s a month or %(year)s a year. It keeps the site running, and gives you these extras for as long as you have it."
-msgstr ""
+msgstr "tippr guld är vårt premiummedlemskap: %(month)s i månaden eller %(year)s om året. Det håller webbplatsen igång och ger dig de här extrafunktionerna så länge du har det."
 
 #: r2/templates/goldabout.html:30
 msgid "No ads"
-msgstr ""
+msgstr "Inga annonser"
 
 #: r2/templates/goldabout.html:31
 msgid "Gold members don't see ads. If you'd like to see them anyway, turn off \"hide ads\" in your preferences."
-msgstr ""
+msgstr "Guldmedlemmar ser inga annonser. Vill du se dem ändå, stäng av \"dölj annonser\" i dina inställningar."
 
 #: r2/templates/goldabout.html:33
-#, fuzzy
-#| msgid "show trending vaults on the front page"
 msgid "More vaults on your front page"
-msgstr "visa trendande vaultar på förstasidan"
+msgstr "Fler vaultar på din förstasida"
 
 #: r2/templates/goldabout.html:34
 #, python-format
 msgid "Your front page shows posts from up to %(gold)s of the vaults you subscribe to, instead of %(normal)s."
-msgstr ""
+msgstr "Din förstasida visar inlägg från upp till %(gold)s av vaultarna du prenumererar på, i stället för %(normal)s."
 
 #: r2/templates/goldabout.html:36
-#, fuzzy
-#| msgid "comments disabled"
 msgid "New comments highlighted"
-msgstr "kommentarer avaktiverade"
+msgstr "Nya kommentarer markerade"
 
 #: r2/templates/goldabout.html:37
 msgid "When you come back to a post, the comments made since your last visit are highlighted, so you can catch up quickly."
-msgstr ""
+msgstr "När du kommer tillbaka till ett inlägg är kommentarerna sedan ditt senaste besök markerade, så att du snabbt hinner ikapp."
 
 #: r2/templates/goldabout.html:39
-#, fuzzy
-#| msgid "save category"
 msgid "Save categories"
-msgstr "spara kategori"
+msgstr "Kategorier för sparat"
 
 #: r2/templates/goldabout.html:40
 msgid "Sort the posts and comments you save into your own categories, and browse your saved items one category at a time."
-msgstr ""
+msgstr "Sortera inläggen och kommentarerna du sparar i egna kategorier och bläddra bland dina sparade objekt en kategori i taget."
 
 #: r2/templates/goldabout.html:42
-#, fuzzy
-#| msgid "filter vault"
 msgid "Filter /v/all"
-msgstr "filtrera vault"
+msgstr "Filtrera /v/all"
 
 #: r2/templates/goldabout.html:43
 msgid "Leave vaults you're not interested in out of /v/all by adding them to the address with a minus sign, e.g. [/v/all-funny-pics](/v/all-funny-pics)."
-msgstr ""
+msgstr "Utelämna vaultar som inte intresserar dig från /v/all genom att lägga till dem i adressen med ett minustecken, t.ex. [/v/all-funny-pics](/v/all-funny-pics)."
 
 #: r2/templates/goldabout.html:45
-#, fuzzy
-#| msgid "myrandom"
 msgid "/v/myrandom"
-msgstr "minslumpade"
+msgstr "/v/myrandom"
 
 #: r2/templates/goldabout.html:46
 msgid "[/v/myrandom](/v/myrandom) takes you to a random vault from your own subscriptions."
-msgstr ""
+msgstr "[/v/myrandom](/v/myrandom) tar dig till en slumpvis vault bland dina egna prenumerationer."
 
 #: r2/templates/goldabout.html:48
-#, fuzzy
-#| msgid "+ friends"
 msgid "Notes on friends"
-msgstr "+ vänner"
+msgstr "Anteckningar om vänner"
 
 #: r2/templates/goldabout.html:49
 msgid "Add a private note to each person on your friends list, to remember who they are."
-msgstr ""
+msgstr "Lägg till en privat anteckning för varje person på din vänlista, så att du minns vem de är."
 
 #: r2/templates/goldabout.html:51
 msgid "Visited links remembered"
-msgstr ""
+msgstr "Besökta länkar kommer ihåg"
 
 #: r2/templates/goldabout.html:52
 msgid "Have the site remember which links you've visited, on every device you use (turn on \"remember what links I've visited\" in your preferences)."
-msgstr ""
+msgstr "Låt webbplatsen komma ihåg vilka länkar du har besökt, på alla enheter du använder (slå på \"kom ihåg vilka länkar jag har besökt\" i dina inställningar)."
 
 #: r2/templates/goldabout.html:54
-#, fuzzy
-#| msgid "from all vaults"
 msgid "Gold-only vaults"
-msgstr "från alla vaultar"
+msgstr "Vaultar bara för guld"
 
 #: r2/templates/goldabout.html:55
 msgid "Create vaults that only gold members can see and take part in: choose \"gold only\" as the vault's type when you create it."
-msgstr ""
+msgstr "Skapa vaultar som bara guldmedlemmar kan se och delta i: välj \"bara guld\" som vaultens typ när du skapar den."
 
 #: r2/templates/goldabout.html:58
-#, fuzzy
-#| msgid "gold members only"
 msgid "The members-only lounge"
-msgstr "endast guldmedlemmar"
+msgstr "Loungen bara för medlemmar"
 
 #: r2/templates/goldabout.html:59
 #, python-format
 msgid "Join the other gold members in [/v/%(lounge)s](/v/%(lounge)s), a vault just for them."
-msgstr ""
+msgstr "Gå med de andra guldmedlemmarna i [/v/%(lounge)s](/v/%(lounge)s), en vault bara för dem."
 
 #: r2/templates/goldabout.html:62
 msgid "A trophy on your profile"
-msgstr ""
+msgstr "En trofé i din profil"
 
 #: r2/templates/goldabout.html:63
 msgid "Your profile shows the tippr gold trophy."
-msgstr ""
+msgstr "Din profil visar tippr guld-trofén."
 
 #: r2/templates/goldabout.html:65
-#, fuzzy
-#| msgid "give gold"
 msgid "Giving gold"
-msgstr "ge guld"
+msgstr "Att ge guld"
 
 #: r2/templates/goldabout.html:66
 msgid "You can also give gold to other members, or gild a post or comment you liked: see [gilding](/gilding)."
-msgstr ""
+msgstr "Du kan också ge guld till andra medlemmar, eller förgylla ett inlägg eller en kommentar du gillade: se [förgyllning](/gilding)."
 
 #: r2/templates/goldabout.html:70
-#, fuzzy
-#| msgid "tippr gold"
 msgid "get tippr gold"
-msgstr "tippr guld"
+msgstr "skaffa tippr guld"
 
 #: r2/templates/goldgiftcodeemail.email:28
 msgid "Thank you again for your support, and have fun spreading gold!"
@@ -10943,26 +10657,22 @@ msgid "Please select a payment method."
 msgstr "Välj betalningsmetod."
 
 #: r2/templates/goldpayment.html:109
-#, fuzzy, python-format
-#| msgid "Give gold often? Consider [buying coins to use](/coins), they're 40% cheaper if purchased in a set of 12."
+#, python-format
 msgid "Give gold often? Consider [buying gold ahead](/coins) to give later: it's 40% cheaper bought as a year's worth."
-msgstr "Ger du gold ofta? Fundera på att [köpa coins att använda](/coins), de är 40% billigare om du köper ett 12-pack."
+msgstr "Ger du ofta guld? Överväg att [köpa guld i förväg](/coins) att ge senare: det är 40% billigare köpt som ett helt år."
 
 #: r2/templates/goldpayment.html:111
 msgid "Would you like to [learn more about giving gold](/gilding)?"
 msgstr "Vill du veta mer om hur man [ger bort guld](/gilding)?"
 
 #: r2/templates/goldpayment.html:129
-#, fuzzy
-#| msgid "your edit"
 msgid "your gold"
-msgstr "din redigering"
+msgstr "ditt guld"
 
 #: r2/templates/goldpayment.html:131
-#, fuzzy, python-format
-#| msgid "(use %(current)s of your %(total)s coins)"
+#, python-format
 msgid "(use %(current)s of your %(total)s months of gold)"
-msgstr "(använd %(current)s av dina %(total)s ktipprer)"
+msgstr "(använd %(current)s av dina %(total)s månader guld)"
 
 #: r2/templates/goldpayment.html:151
 msgid "Credit Card"
@@ -11200,36 +10910,34 @@ msgstr "tävlingsläge slumpar kommentarssorteringen, döljer poäng och minimer
 #: r2/templates/linkedloginlink.html:28
 #, python-format
 msgid "Your %(provider)s account (%(email)s) isn't linked to an account here yet."
-msgstr ""
+msgstr "Ditt %(provider)s-konto (%(email)s) är inte kopplat till något konto här än."
 
 #: r2/templates/linkedloginlink.html:30
 #, python-format
 msgid "That %(provider)s account isn't linked to an account here yet."
-msgstr ""
+msgstr "Det %(provider)s-kontot är inte kopplat till något konto här än."
 
 #: r2/templates/linkedloginlink.html:33
 #, python-format
 msgid "Log in with your username and password to link it: next time, signing in with %(provider)s is enough."
-msgstr ""
+msgstr "Logga in med ditt användarnamn och lösenord för att koppla det: nästa gång räcker det att logga in med %(provider)s."
 
 #: r2/templates/linkedloginlink.html:35
 msgid "Wrong username or password, or too many tries: wait a while and try again."
-msgstr ""
+msgstr "Fel användarnamn eller lösenord, eller för många försök: vänta en stund och försök igen."
 
 #: r2/templates/linkedloginlink.html:41
 msgid "log in and link"
-msgstr ""
+msgstr "logga in och koppla"
 
 #: r2/templates/linkedloginlink.html:44
-#, fuzzy
-#| msgid "create a new account"
 msgid "New here? Make an account"
-msgstr "skapa ett nytt konto"
+msgstr "Ny här? Skapa ett konto"
 
 #: r2/templates/linkedloginlink.html:45
 #, python-format
 msgid "It's linked to your %(provider)s account, so signing in with %(provider)s is enough from now on. The password lets you log in without it too."
-msgstr ""
+msgstr "Det kopplas till ditt %(provider)s-konto, så från och med nu räcker det att logga in med %(provider)s. Lösenordet låter dig också logga in utan det."
 
 #: r2/templates/linkedloginlink.html:50 r2/templates/login.html:81
 msgid "choose a username"
@@ -11252,33 +10960,30 @@ msgid "remember me"
 msgstr "kom ihåg mig"
 
 #: r2/templates/linkedloginlink.html:78
-#, fuzzy
-#| msgid "delete account"
 msgid "make the account"
-msgstr "ta bort konto"
+msgstr "skapa kontot"
 
 #: r2/templates/linkedloginotp.html:19
 msgid "Your account uses two-factor sign-in: enter the code from your authenticator app (or one of your recovery codes)."
-msgstr ""
+msgstr "Ditt konto använder inloggning i två steg: ange koden från din autentiseringsapp (eller en av dina återställningskoder)."
 
 #: r2/templates/linkedloginotp.html:21
 msgid "That code isn't right. Try again."
-msgstr ""
+msgstr "Den koden stämmer inte. Försök igen."
 
 #: r2/templates/linkedloginotp.html:33
 #, python-format
 msgid "don't ask again on this device for %(days)s days"
-msgstr ""
+msgstr "fråga inte igen på den här enheten på %(days)s dagar"
 
 #: r2/templates/linkedsignin.html:29
-#, fuzzy, python-format
-#| msgid "assigned it to %(detail)s"
+#, python-format
 msgid "sign in with %(provider)s"
-msgstr "tilldelade det till %(detail)s"
+msgstr "logga in med %(provider)s"
 
 #: r2/templates/linkedsignin.html:32
 msgid "for accounts that linked one (preferences, security)"
-msgstr ""
+msgstr "för konton som har kopplat ett (inställningar, säkerhet)"
 
 #: r2/templates/linkinfobar.html:41
 msgid "this post was submitted on"
@@ -11691,7 +11396,7 @@ msgstr "skicka svar till min inbox"
 
 #: r2/templates/newlink.html:155
 msgid "(not needed if you entered one in the last 15 minutes)"
-msgstr ""
+msgstr "(behövs inte om du har angett en de senaste 15 minuterna)"
 
 #: r2/templates/newlink.html:165
 #, python-format
@@ -11822,10 +11527,8 @@ msgid "email me"
 msgstr "skicka mig e-post"
 
 #: r2/templates/paymentstatus.html:23
-#, fuzzy
-#| msgid "check now"
 msgid "check again"
-msgstr "kontrollera nu"
+msgstr "kontrollera igen"
 
 #: r2/templates/permalinkmessage.html:27
 msgid "you are viewing a single comment's thread."
@@ -12033,7 +11736,7 @@ msgstr "vi kunde inte spara de anpassade stilmallsintällningarna. var vänlig o
 
 #: r2/templates/prefoptions.html:108
 msgid "your preferences weren't saved: enter your two-factor code with them"
-msgstr ""
+msgstr "dina inställningar sparades inte: ange din tvåstegskod tillsammans med dem"
 
 #: r2/templates/prefoptions.html:110
 msgid "your preferences couldn't be saved"
@@ -12194,174 +11897,144 @@ msgid "(leave blank to show all submissions)"
 msgstr "(lämna tom för att visa alla inlägg)"
 
 #: r2/templates/prefoptions.html:248
-#, fuzzy
-#| msgid "announcement"
 msgid "enhancements"
-msgstr "meddelande"
+msgstr "förbättringar"
 
 #: r2/templates/prefoptions.html:251
 msgid "infinite scroll"
-msgstr ""
+msgstr "oändlig rullning"
 
 #: r2/templates/prefoptions.html:254
 msgid "(load the next page of a listing when you reach the bottom)"
-msgstr ""
+msgstr "(läs in nästa sida i en lista när du når botten)"
 
 #: r2/templates/prefoptions.html:258
 msgid "keyboard navigation"
-msgstr ""
+msgstr "tangentbordsnavigering"
 
 #: r2/templates/prefoptions.html:261
 msgid "(j and k move between posts and comments, a and z vote; press ? on any page for the full list)"
-msgstr ""
+msgstr "(j och k flyttar mellan inlägg och kommentarer, a och z röstar; tryck ? på valfri sida för hela listan)"
 
 #: r2/templates/prefoptions.html:268
 msgid "(a button on posts that link to an image to show it in the listing, and a \"show images\" link to show them all)"
-msgstr ""
+msgstr "(en knapp på inlägg som länkar till en bild för att visa den i listan, och en länk \"visa bilder\" för att visa alla)"
 
 #: r2/templates/prefoptions.html:272
-#, fuzzy
-#| msgid "send messages as emails"
 msgid "expand images automatically"
-msgstr "skicka meddelanden som e-post"
+msgstr "fäll ut bilder automatiskt"
 
 #: r2/templates/prefoptions.html:274
 msgid "(except NSFW and spoiler posts)"
-msgstr ""
+msgstr "(utom NSFW- och spoilerinlägg)"
 
 #: r2/templates/prefoptions.html:277
-#, fuzzy
-#| msgid "users"
 msgid "user tags"
-msgstr "användare"
+msgstr "användartaggar"
 
 #: r2/templates/prefoptions.html:280
 msgid "(a tag button by usernames, to note who someone is; only you see your tags)"
-msgstr ""
+msgstr "(en taggknapp vid användarnamn för att anteckna vem någon är; bara du ser dina taggar)"
 
 #: r2/templates/prefoptions.html:284
-#, fuzzy
-#| msgid "user for"
 msgid "user info on hover"
-msgstr "tipprör i"
+msgstr "användarinfo när du hovrar"
 
 #: r2/templates/prefoptions.html:286
 msgid "(hold the mouse over a username to see their karma, how long they've been here and your tag)"
-msgstr ""
+msgstr "(håll musen över ett användarnamn för att se personens karma, hur länge den har varit här och din tagg)"
 
 #: r2/templates/prefoptions.html:289
 msgid "show the parent comment on hover"
-msgstr ""
+msgstr "visa den överordnade kommentaren när du hovrar"
 
 #: r2/templates/prefoptions.html:291
 msgid "(hold the mouse over a reply's \"parent\" link to read the comment it replies to)"
-msgstr ""
+msgstr "(håll musen över ett svars länk \"överordnad\" för att läsa kommentaren det svarar på)"
 
 #: r2/templates/prefoptions.html:294
-#, fuzzy
-#| msgid "posts and comments"
 msgid "count new comments"
-msgstr "inlägg och kommentarer"
+msgstr "räkna nya kommentarer"
 
 #: r2/templates/prefoptions.html:296
 msgid "(\"3 new\" by posts you've opened before, and the new comments highlighted when you go back; remembered in this browser)"
-msgstr ""
+msgstr "(\"3 nya\" vid inlägg du har öppnat förut, och de nya kommentarerna markerade när du kommer tillbaka; sparas i den här webbläsaren)"
 
 #: r2/templates/prefoptions.html:299
-#, fuzzy
-#| msgid "links you've downvoted"
 msgid "posts you've opened:"
-msgstr "länkar som du har röstat ned"
+msgstr "inlägg du har öppnat:"
 
 #: r2/templates/prefoptions.html:301
-#, fuzzy
-#| msgid "show all"
 msgid "show as usual"
-msgstr "visa alla"
+msgstr "visa som vanligt"
 
 #: r2/templates/prefoptions.html:301
-#, fuzzy
-#| msgid "Read the"
 msgid "fade them"
-msgstr "Läs"
+msgstr "tona ned dem"
 
 #: r2/templates/prefoptions.html:301
-#, fuzzy
-#| msgid "hide help"
 msgid "hide them"
-msgstr "göm hjälp"
+msgstr "dölj dem"
 
 #: r2/templates/prefoptions.html:306
-#, fuzzy
-#| msgid "remember this computer"
 msgid "(remembered in this browser)"
-msgstr "kom ihåg den här datorn"
+msgstr "(sparas i den här webbläsaren)"
 
 #: r2/templates/prefoptions.html:311
 msgid "(on comments pages, buttons to jump between top-level comments, the submitter's, yours, new ones or ones with links)"
-msgstr ""
+msgstr "(på kommentarsidor knappar för att hoppa mellan kommentarer på översta nivån, skribentens, dina, nya eller sådana med länkar)"
 
 #: r2/templates/prefoptions.html:314
-#, fuzzy
-#| msgid "account activity"
 msgid "account switcher"
-msgstr "kontoaktivitet"
+msgstr "kontoväxlare"
 
 #: r2/templates/prefoptions.html:316
 msgid "(a \"switch account\" menu by your name, to move between your accounts without logging out; logging out forgets them)"
-msgstr ""
+msgstr "(en meny \"byt konto\" vid ditt namn för att växla mellan dina konton utan att logga ut; när du loggar ut glöms de)"
 
 #: r2/templates/prefoptions.html:319
-#, fuzzy
-#| msgid "test mode"
 msgid "night mode"
-msgstr "testläge"
+msgstr "nattläge"
 
 #: r2/templates/prefoptions.html:321
 msgid "(light text on a dark background)"
-msgstr ""
+msgstr "(ljus text på mörk bakgrund)"
 
 #: r2/templates/prefoptions.html:324
-#, fuzzy
-#| msgid "gilded comment"
 msgid "hide child comments links"
-msgstr "förgylld kommentar"
+msgstr "länkar för att dölja svar"
 
 #: r2/templates/prefoptions.html:327
 msgid "(on comments pages, links to fold up the replies under each comment, or all of them at once)"
-msgstr ""
+msgstr "(på kommentarsidor länkar för att fälla ihop svaren under varje kommentar, eller alla på en gång)"
 
 #: r2/templates/prefoptions.html:333
-#, fuzzy
-#| msgid "filter vault"
 msgid "filters"
-msgstr "filtrera vault"
+msgstr "filter"
 
 #: r2/templates/prefoptions.html:336
 msgid "Posts that match are left out of listings (never your own). One per line, or separated by commas."
-msgstr ""
+msgstr "Inlägg som matchar utelämnas från listor (aldrig dina egna). En per rad, eller avgränsade med kommatecken."
 
 #: r2/templates/prefoptions.html:340
-#, fuzzy
-#| msgid "site key"
 msgid "title keywords"
-msgstr "webbplatsnyckel"
+msgstr "nyckelord i rubriken"
 
 #: r2/templates/prefoptions.html:340
 msgid "whole words or phrases, in any case"
-msgstr ""
+msgstr "hela ord eller fraser, oavsett skiftläge"
 
 #: r2/templates/prefoptions.html:341
 msgid "example.com also hides its subdomains"
-msgstr ""
+msgstr "example.com döljer även sina underdomäner"
 
 #: r2/templates/prefoptions.html:342
 msgid "still shown when you visit the vault itself"
-msgstr ""
+msgstr "visas fortfarande när du besöker själva vaulten"
 
 #: r2/templates/prefoptions.html:343
 msgid "only hides their posts; to stop seeing them altogether, block them"
-msgstr ""
+msgstr "döljer bara deras inlägg; för att inte se dem alls, blockera dem"
 
 #: r2/templates/prefoptions.html:356
 msgid "comment options"
@@ -12574,10 +12247,9 @@ msgid "show how much gold you have remaining on your userpage"
 msgstr "visa hur mycket guld du har kvar på din användarsida"
 
 #: r2/templates/prefoptions.html:533
-#, fuzzy, python-format
-#| msgid "use a %(coin_link)s to automatically renew my gold if it expires"
+#, python-format
 msgid "use a month of my %(coin_link)s to automatically renew my gold if it expires"
-msgstr "använd en %(coin_link)s för att automatiskt förnya mitt guld om det går ut"
+msgstr "använd en månad av mitt %(coin_link)s för att automatiskt förnya mitt guld om det går ut"
 
 #: r2/templates/prefoptions.html:543
 #, python-format
@@ -12614,223 +12286,188 @@ msgstr "tvåfaktorautentisering"
 
 #: r2/templates/prefsecurity.html:46
 msgid "two-factor authentication is **on**. you're asked for a code from one of your methods below when changing your password or email address, and when linking or unlinking a sign-in. a code you enter counts for 15 minutes."
-msgstr ""
+msgstr "tvåstegsverifiering är **på**. du blir ombedd att ange en kod från en av dina metoder nedan när du ändrar ditt lösenord eller din e-postadress, och när du kopplar eller tar bort en inloggning. en kod du anger gäller i 15 minuter."
 
 #: r2/templates/prefsecurity.html:50
-#, fuzzy
-#| msgid "your edit"
 msgid "your methods"
-msgstr "din redigering"
+msgstr "dina metoder"
 
 #: r2/templates/prefsecurity.html:55
-#, fuzzy
-#| msgid "kind"
 msgid "kind_name"
-msgstr "sort"
+msgstr "kind_name"
 
 #: r2/templates/prefsecurity.html:56
 #, python-format
 msgid "added %(when)s"
-msgstr ""
+msgstr "tillagd %(when)s"
 
 #: r2/templates/prefsecurity.html:58
-#, fuzzy, python-format
-#| msgid "last seen"
+#, python-format
 msgid "last used %(when)s"
-msgstr "senast sett"
+msgstr "senast använd %(when)s"
 
 #: r2/templates/prefsecurity.html:78
 msgid "Removing your only method turns two-factor off, so it needs your password too."
-msgstr ""
+msgstr "Att ta bort din enda metod stänger av tvåstegsverifiering, så det kräver även ditt lösenord."
 
 #: r2/templates/prefsecurity.html:82
-#, fuzzy
-#| msgid "add a moderator"
 msgid "add a method"
-msgstr "lägg till en moderator"
+msgstr "lägg till en metod"
 
 #: r2/templates/prefsecurity.html:86
 msgid "also ask for a code"
-msgstr ""
+msgstr "be även om en kod"
 
 #: r2/templates/prefsecurity.html:89
 msgid "when logging in, with your password or a linked account (Google, GitHub...)"
-msgstr ""
+msgstr "vid inloggning, med ditt lösenord eller ett kopplat konto (Google, GitHub...)"
 
 #: r2/templates/prefsecurity.html:90
 #, python-format
 msgid "you can choose to skip it for %(days)s days on a device you trust"
-msgstr ""
+msgstr "du kan välja att hoppa över det i %(days)s dagar på en enhet du litar på"
 
 #: r2/templates/prefsecurity.html:94
 msgid "when saving your preferences"
-msgstr ""
+msgstr "när du sparar dina inställningar"
 
 #: r2/templates/prefsecurity.html:98
 msgid "when submitting a post"
-msgstr ""
+msgstr "när du skickar in ett inlägg"
 
 #: r2/templates/prefsecurity.html:100
 msgid "a code you enter counts for 15 minutes, so you aren't asked again and again. apps you've allowed (OAuth) aren't asked."
-msgstr ""
+msgstr "en kod du anger gäller i 15 minuter, så att du inte blir tillfrågad om och om igen. appar du har godkänt (OAuth) tillfrågas inte."
 
 #: r2/templates/prefsecurity.html:107
-#, fuzzy
-#| msgid "recover password"
 msgid "recovery codes"
-msgstr "glömt ditt lösen?"
+msgstr "återställningskoder"
 
 #: r2/templates/prefsecurity.html:109
 msgid "Save these recovery codes somewhere safe (print them, or keep them in a password manager). Each one works once in place of a code from your app, if you lose your phone. They won't be shown again."
-msgstr ""
+msgstr "Spara de här återställningskoderna på ett säkert ställe (skriv ut dem eller ha dem i en lösenordshanterare). Var och en fungerar en gång i stället för en kod från din app, om du tappar bort din telefon. De visas inte igen."
 
 #: r2/templates/prefsecurity.html:117
 msgid "Recovery codes work once each in place of a code from your app, if you lose your phone."
-msgstr ""
+msgstr "Återställningskoder fungerar en gång var i stället för en kod från din app, om du tappar bort din telefon."
 
 #: r2/templates/prefsecurity.html:119
 #, python-format
 msgid "You have %(count)s left."
-msgstr ""
+msgstr "Du har %(count)s kvar."
 
 #: r2/templates/prefsecurity.html:121
 msgid "You have none left: make new ones now."
-msgstr ""
+msgstr "Du har inga kvar: skapa nya nu."
 
 #: r2/templates/prefsecurity.html:127
 msgid "make new recovery codes"
-msgstr ""
+msgstr "skapa nya återställningskoder"
 
 #: r2/templates/prefsecurity.html:131
 msgid "Making new ones stops the old ones working."
-msgstr ""
+msgstr "När du skapar nya slutar de gamla att fungera."
 
 #: r2/templates/prefsecurity.html:137
-#, fuzzy
-#| msgid "turn admin off"
 msgid "turn it off"
-msgstr "slå av admin"
+msgstr "stäng av den"
 
 #: r2/templates/prefsecurity.html:138
 msgid "to turn it off (removing every method and the recovery codes), enter your password and a code."
-msgstr ""
+msgstr "för att stänga av den (alla metoder och återställningskoderna tas bort), ange ditt lösenord och en kod."
 
 #: r2/templates/prefsecurity.html:152
-#, fuzzy
-#| msgid "turn admin off"
 msgid "turn off"
-msgstr "slå av admin"
+msgstr "stäng av"
 
 #: r2/templates/prefsecurity.html:156
 msgid "This site asks moderators and staff to use two-factor sign-in: your moderator tools work again once it's on."
-msgstr ""
+msgstr "Den här webbplatsen ber moderatorer och personal att använda inloggning i två steg: dina moderatorverktyg fungerar igen så snart den är på."
 
 #: r2/templates/prefsecurity.html:158
 msgid "with two-factor authentication on, changing your password or email address, and linking or unlinking a sign-in, also need a second step: a code from an authenticator app on your phone (Google Authenticator, Authy, 1Password and the like). someone who learns your password, or gets into a linked Google or Facebook account, can't take over your account here. you can add more than one method, and remove them later."
-msgstr ""
+msgstr "med tvåstegsverifiering på kräver ändring av ditt lösenord eller din e-postadress, och att koppla eller ta bort en inloggning, även ett andra steg: en kod från en autentiseringsapp i din telefon (Google Authenticator, Authy, 1Password och liknande). den som får reda på ditt lösenord, eller tar sig in på ett kopplat Google- eller Facebook-konto, kan inte ta över ditt konto här. du kan lägga till mer än en metod och ta bort dem senare."
 
 #: r2/templates/prefsecurity.html:168
 msgid "To add an authenticator app, enter a code from one of your methods first."
-msgstr ""
+msgstr "För att lägga till en autentiseringsapp anger du först en kod från en av dina metoder."
 
 #: r2/templates/prefsecurity.html:170
-#, fuzzy
-#| msgid "reset your password"
 msgid "To start, enter your password."
-msgstr "återställ ditt lösenord"
+msgstr "Ange ditt lösenord för att börja."
 
 #: r2/templates/prefsecurity.html:179
 msgid "add an authenticator app"
-msgstr ""
+msgstr "lägg till en autentiseringsapp"
 
 #: r2/templates/prefsecurity.html:186
 msgid "Or add a passkey: your phone, computer or security key confirms it's you with a fingerprint, face or PIN."
-msgstr ""
+msgstr "Eller lägg till en lösennyckel: din telefon, dator eller säkerhetsnyckel bekräftar att det är du med fingeravtryck, ansikte eller PIN."
 
 #: r2/templates/prefsecurity.html:188
 msgid "Enter a code from one of your methods first."
-msgstr ""
+msgstr "Ange först en kod från en av dina metoder."
 
 #: r2/templates/prefsecurity.html:190
-#, fuzzy
-#| msgid "update your password"
 msgid "Enter your password first."
-msgstr "uppdatera ditt lösenord"
+msgstr "Ange först ditt lösenord."
 
 #: r2/templates/prefsecurity.html:198
-#, fuzzy
-#| msgid "note (optional)"
 msgid "name (optional)"
-msgstr "anteckning (valfri)"
+msgstr "namn (valfritt)"
 
 #: r2/templates/prefsecurity.html:199
 msgid "add a passkey"
-msgstr ""
+msgstr "lägg till en lösennyckel"
 
 #: r2/templates/prefsecurity.html:206
-#, fuzzy
-#| msgid "below is your two-factor authentication secret. you can scan the QR code with Google Authenticator or enter the key below manually. you WILL NOT have another chance to see this secret."
 msgid "scan the QR code with your authenticator app, or enter the key below in it. you WILL NOT have another chance to see this key."
-msgstr "nedan visas din hemlighet för tvåfaktorautentisering. du kan läsa av QR-koden med Google Authenticator eller ange nyckeln nedan manuellt. du FÅR INTE något mer tillfälle att se hemligheten."
+msgstr "skanna QR-koden med din autentiseringsapp, eller ange nyckeln nedan i den. du får INTE någon ny chans att se den här nyckeln."
 
 #: r2/templates/prefsecurity.html:209
 msgid "(optional, like phone or work)"
-msgstr ""
+msgstr "(valfritt, t.ex. telefon eller jobb)"
 
 #: r2/templates/prefsecurity.html:213
-#, fuzzy
-#| msgid "remove from the defaults"
 msgid "code from the app"
-msgstr "ta bort från standard"
+msgstr "kod från appen"
 
 #: r2/templates/prefsecurity.html:227
 msgid "sign in with another account"
-msgstr ""
+msgstr "logga in med ett annat konto"
 
 #: r2/templates/prefsecurity.html:229
 msgid "Link a Google, Facebook, GitHub or Discord account to sign in with it instead of your password. It only signs in to this account, and you can unlink it at any time. Your password keeps working."
-msgstr ""
+msgstr "Koppla ett Google-, Facebook-, GitHub- eller Discord-konto för att logga in med det i stället för ditt lösenord. Det loggar bara in på det här kontot, och du kan ta bort kopplingen när som helst. Ditt lösenord fortsätter att fungera."
 
 #: r2/templates/prefsecurity.html:231
 msgid "Linked. You can now sign in with it on the login page."
-msgstr ""
+msgstr "Kopplat. Du kan nu logga in med det på inloggningssidan."
 
 #: r2/templates/prefsecurity.html:234
 msgid "Linking or unlinking needs your two-factor code (one you entered in the last 15 minutes counts)."
-msgstr ""
+msgstr "Att koppla eller ta bort en koppling kräver din tvåstegskod (en du har angett de senaste 15 minuterna räknas)."
 
 #: r2/templates/prefsecurity.html:242
-#, fuzzy
-#| msgid "link"
-#| msgid_plural "links"
 msgid "linked"
-msgstr "länk"
+msgstr "kopplat"
 
 #: r2/templates/prefsecurity.html:254
-#, fuzzy
-#| msgid "link"
-#| msgid_plural "links"
 msgid "unlink"
-msgstr "länk"
+msgstr "ta bort koppling"
 
 #: r2/templates/prefsecurity.html:259
-#, fuzzy
-#| msgid "normal link"
 msgid "not linked"
-msgstr "normal länk"
+msgstr "inte kopplat"
 
 #: r2/templates/prefsecurity.html:266 r2/templates/prefsecurity.html:270
-#, fuzzy, python-format
-#| msgid "link ids"
+#, python-format
 msgid "link %(provider)s"
-msgstr "länk-id:n"
+msgstr "koppla %(provider)s"
 
 #: r2/templates/prefupdate.html:33
-#, fuzzy
-#| msgid "a month ago"
-#| msgid_plural "%(num)s months ago"
 msgid "(entered a moment ago)"
-msgstr "en månad sen"
+msgstr "(angav nyss)"
 
 #: r2/templates/prefupdate.html:48
 msgid "verify your email"
@@ -12967,7 +12604,7 @@ msgstr "moderatoranmälningar:"
 
 #: r2/templates/printablebuttons.html:329 r2/templates/printablebuttons.html:342
 msgid "<no reason>"
-msgstr ""
+msgstr "<ingen anledning>"
 
 #: r2/templates/printablebuttons.html:336
 msgid "user reports:"
@@ -13035,22 +12672,16 @@ msgid "mark unread"
 msgstr "markera som oläst"
 
 #: r2/templates/privacysettings.html:29
-#, fuzzy
-#| msgid "impressions"
 msgid "processing"
-msgstr "visningar"
+msgstr "behandlas"
 
 #: r2/templates/privacysettings.html:30
-#, fuzzy
-#| msgid "complete"
 msgid "completed"
-msgstr "färdig"
+msgstr "slutförd"
 
 #: r2/templates/privacysettings.html:32
-#, fuzzy
-#| msgid "cancel"
 msgid "cancelled"
-msgstr "avbryt"
+msgstr "avbruten"
 
 #: r2/templates/privacysettings.html:39
 msgid "Download Your Data"
@@ -13154,37 +12785,31 @@ msgstr "Du kan ta bort ditt konto och alla tillhörande data permanent. Det går
 
 #: r2/templates/privacysettings.html:106
 msgid "Right away you're logged out everywhere, nobody can log in to the account, and the name can't be registered again."
-msgstr ""
+msgstr "Du loggas genast ut överallt, ingen kan logga in på kontot och namnet kan inte registreras igen."
 
 #: r2/templates/privacysettings.html:107
 msgid "Your password, email address and moderator roles are removed 90 days later."
-msgstr ""
+msgstr "Ditt lösenord, din e-postadress och dina moderatorroller tas bort 90 dagar senare."
 
 #: r2/templates/privacysettings.html:108
 msgid "Your posts and comments stay, by [deleted], unless you choose to delete them below."
-msgstr ""
+msgstr "Dina inlägg och kommentarer finns kvar, av [deleted], om du inte väljer att radera dem nedan."
 
 #: r2/templates/privacysettings.html:110
 msgid "Having a problem? We may be able to help:"
-msgstr ""
+msgstr "Har du problem? Vi kanske kan hjälpa till:"
 
 #: r2/templates/privacysettings.html:115
-#, fuzzy
-#| msgid "posts and comments"
 msgid "your posts and comments"
-msgstr "inlägg och kommentarer"
+msgstr "dina inlägg och kommentarer"
 
 #: r2/templates/privacysettings.html:120
-#, fuzzy
-#| msgid "why are you deactivating this account?"
 msgid "why are you leaving? (optional)"
-msgstr "varför deaktiverar du detta konto?"
+msgstr "varför lämnar du oss? (valfritt)"
 
 #: r2/templates/privacysettings.html:140
-#, fuzzy
-#| msgid "I understand that deactivated accounts are not recoverable."
 msgid "I understand my account can't be recovered."
-msgstr "Jag förstår att inaktiverade konton inte kan återställas."
+msgstr "Jag förstår att mitt konto inte kan återställas."
 
 #: r2/templates/privacysettings.html:146
 msgid "Delete My Account"
@@ -13241,7 +12866,7 @@ msgstr "administrera återkommande prenumerationer"
 
 #: r2/templates/profilebar.html:174
 msgid "user for"
-msgstr "tipprör i"
+msgstr "användare i"
 
 #: r2/templates/promotedlink.html:42
 #, python-format
@@ -13713,48 +13338,38 @@ msgid "Create a promotion on another user's account."
 msgstr "Skapa en kampanj på en annan användares konto."
 
 #: r2/templates/promotepayment.html:17
-#, fuzzy
-#| msgid "No notes for this domain"
 msgid "pay for this campaign"
-msgstr "Inga anteckningar för den här domänen"
+msgstr "betala för den här kampanjen"
 
 #: r2/templates/promotepayment.html:19
-#, fuzzy, python-format
-#| msgid "The duration of this link is %(duration)s (from %(start)s to %(end)s)."
+#, python-format
 msgid "The duration of this campaign is %(duration)s (from %(start)s to %(end)s)."
-msgstr "Varaktigheten för denna länk är %(duration)s (från %(start)s till %(end)s)."
+msgstr "Den här kampanjen pågår i %(duration)s (från %(start)s till %(end)s)."
 
 #: r2/templates/promotepayment.html:20
-#, fuzzy, python-format
-#| msgid "Your current budget is %(budget)s"
+#, python-format
 msgid "Its budget is %(budget)s."
-msgstr "Din nuvarande budget är %(budget)s"
+msgstr "Dess budget är %(budget)s."
 
 #: r2/templates/promotepayment.html:24
-#, fuzzy
-#| msgid "house campaigns, man."
 msgid "This campaign is paid for."
-msgstr "in house-kampanjer, mannen."
+msgstr "Den här kampanjen är betald."
 
 #: r2/templates/promotepayment.html:25
-#, fuzzy
-#| msgid "back to Tippr"
 msgid "back to your ad"
-msgstr "tillbaka till tippr"
+msgstr "tillbaka till din annons"
 
 #: r2/templates/promotepayment.html:28
 msgid "You pay the whole budget now. Your ad is reviewed before it runs; if it isn't approved, or you delete the campaign or change its budget before it starts, the payment is refunded."
-msgstr ""
+msgstr "Du betalar hela budgeten nu. Din annons granskas innan den visas; om den inte godkänns, eller om du raderar kampanjen eller ändrar dess budget innan den startar, återbetalas betalningen."
 
 #: r2/templates/promotepayment.html:41
 msgid "You pay on the provider's own page: your card or wallet details never reach this site."
-msgstr ""
+msgstr "Du betalar på leverantörens egen sida: dina kort- eller plånboksuppgifter når aldrig den här webbplatsen."
 
 #: r2/templates/promotepayment.html:43
-#, fuzzy
-#| msgid "this sign-up looks like spam; if it isn't, contact the site's admins"
 msgid "This site isn't taking payments for ads yet. Please contact the site's admins."
-msgstr "registreringen ser ut som spam; om den inte är det, kontakta webbplatsens administratörer"
+msgstr "Den här webbplatsen tar inte emot betalningar för annonser än. Kontakta webbplatsens administratörer."
 
 #: r2/templates/promotereport.html:50
 msgid "grouping"
@@ -14020,10 +13635,9 @@ msgid "self-serve advertisement tool"
 msgstr "självbetjäningsverktyg för annonser"
 
 #: r2/templates/spotlightlisting.html:76
-#, fuzzy, python-format
-#| msgid "Use of this tool is open to all members of tippr.net, and for as little as %(price)s you can advertise in this area. %%(get_started)s"
+#, python-format
 msgid "Use of this tool is open to all members of %(site)s, and for as little as %(price)s you can advertise in this area. %%(get_started)s"
-msgstr "Verktyget är öppet för alla medlemmar på tippr.net, och för så lite som %(price)s kan du annonsera här. %%(get_started)s"
+msgstr "Det här verktyget är öppet för alla medlemmar på %(site)s, och för så lite som %(price)s kan du annonsera här. %%(get_started)s"
 
 #: r2/templates/spotlightlisting.html:77
 msgid "Get started"
@@ -14064,20 +13678,16 @@ msgid "first"
 msgstr "första"
 
 #: r2/templates/thanks.html:35
-#, fuzzy
-#| msgid "thanks for buying coins!"
 msgid "thanks for buying gold!"
-msgstr "tack för att du köpt ktipprer!"
+msgstr "tack för att du köpte guld!"
 
 #: r2/templates/thanks.html:37
 msgid "thanks for subscribing!"
 msgstr "tack för att du prenumererar!"
 
 #: r2/templates/thanks.html:42
-#, fuzzy
-#| msgid "enter your confirmation code below to claim your gift coins"
 msgid "enter your confirmation code below to claim your gold"
-msgstr "ange din bekräftelsekod nedan för att göra anspråk på dina gåvoktipprer"
+msgstr "ange din bekräftelsekod nedan för att lösa in ditt guld"
 
 #: r2/templates/thanks.html:44
 msgid "enter your confirmation code below to activate tippr gold"
@@ -14151,28 +13761,20 @@ msgid "daily mean"
 msgstr "dagsmedelvärde"
 
 #: r2/templates/tipprtraffic.html:134
-#, fuzzy
-#| msgid "past 24 hours"
 msgid "24 hours"
-msgstr "senaste 24 timmarna"
+msgstr "24 timmar"
 
 #: r2/templates/tipprtraffic.html:135
-#, fuzzy
-#| msgid "days"
 msgid "7 days"
-msgstr "dagar"
+msgstr "7 dagar"
 
 #: r2/templates/tipprtraffic.html:136
-#, fuzzy
-#| msgid "7 / 30 days"
 msgid "30 days"
-msgstr "7 / 30 dagar"
+msgstr "30 dagar"
 
 #: r2/templates/tipprtraffic.html:153
-#, fuzzy
-#| msgid "moderator invited"
 msgid "moderator actions, 30 days"
-msgstr "moderator inbjuden"
+msgstr "moderatoråtgärder, 30 dagar"
 
 #: r2/templates/trendingvaultsbar.html:34
 msgid "trending vaults"
