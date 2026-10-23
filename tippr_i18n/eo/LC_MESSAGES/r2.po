@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tippr\n"
 "Report-Msgid-Bugs-To: https://github.com/TechIdiots-LLC/tippr-i18n/issues\n"
-"POT-Creation-Date: 2026-10-22 03:41-0400\n"
+"POT-Creation-Date: 2026-10-23 17:51-0400\n"
 "PO-Revision-Date: 2017-01-23 14:33-0500\n"
 "Last-Translator: tippr translators\n"
 "Language-Team: Esperanto\n"
@@ -15,721 +15,517 @@ msgstr ""
 "Display-Name: Esperanto\n"
 "Display-Name-en: Esperanto\n"
 
-#: r2/controllers/admin.py:116
+#: r2/controllers/admin.py:117
 msgid "Choose an image of at most 1 MB."
 msgstr ""
 
-#: r2/controllers/adminprivacy.py:70
-msgid "Privacy Dashboard"
-msgstr ""
-
-#: r2/controllers/adminprivacy.py:101
-#, python-format
-msgid "User Data: %s"
-msgstr ""
-
-#: r2/controllers/adminprivacy.py:132
-msgid "Request approved and queued for processing."
-msgstr ""
-
-#: r2/controllers/adminprivacy.py:139
-#, fuzzy
-#| msgid "rejected"
-msgid "Request rejected."
-msgstr "malakceptitaj"
-
-#: r2/controllers/adminprivacy.py:147
-msgid "Request marked as completed."
-msgstr ""
-
-#: r2/controllers/adminprivacy.py:201
-#, python-format
-msgid "Data export initiated for %s."
-msgstr ""
-
-#: r2/controllers/adminprivacy.py:240
-msgid "Privacy Request Overview"
-msgstr ""
-
-#: r2/controllers/adminprivacy.py:244
-msgid "Pending Requests"
-msgstr ""
-
-#: r2/controllers/adminprivacy.py:251
-msgid "Pending Privacy Requests"
-msgstr ""
-
-#: r2/controllers/adminprivacy.py:256
-msgid "User"
-msgstr ""
-
-#: r2/controllers/adminprivacy.py:257 r2/controllers/adminprivacy.py:385
-msgid "Type"
-msgstr ""
-
-#: r2/controllers/adminprivacy.py:258 r2/controllers/adminprivacy.py:385 r2/templates/privacysettings.html:64
-msgid "Date"
-msgstr ""
-
-#: r2/controllers/adminprivacy.py:259
-msgid "IP"
-msgstr ""
-
-#: r2/controllers/adminprivacy.py:260 r2/controllers/adminprivacy.py:416
-#, fuzzy
-#| msgid "options"
-msgid "Actions"
-msgstr "opcioj"
-
-#: r2/controllers/adminprivacy.py:278
-#, fuzzy
-#| msgid "not approved"
-msgid "Approve"
-msgstr "ne aprobita"
-
-#: r2/controllers/adminprivacy.py:280
-#, fuzzy
-#| msgid "reject"
-msgid "Reject"
-msgstr "malakceptu"
-
-#: r2/controllers/adminprivacy.py:286
-msgid "No pending privacy requests."
-msgstr ""
-
-#: r2/controllers/adminprivacy.py:292
-#, fuzzy
-#| msgid "link options"
-msgid "Quick Actions"
-msgstr "lig-preferoj"
-
-#: r2/controllers/adminprivacy.py:295
-msgid "Trigger Data Export:"
-msgstr ""
-
-#: r2/controllers/adminprivacy.py:296 r2/public/static/js/enhancements.js:1082 r2/templates/adminemailsettings.html:69 r2/templates/adminvault.html:68 r2/templates/linkedloginlink.html:39 r2/templates/login.html:77 r2/templates/login.html:86 r2/templates/login.html:194 r2/templates/loginformwide.html:44 r2/templates/password.html:41 r2/templates/privacysettings.html:124 r2/templates/userlisting.html:164
-msgid "username"
-msgstr "salutnomo"
-
-#: r2/controllers/adminprivacy.py:297
-#, fuzzy
-#| msgid "report"
-msgid "Export"
-msgstr "denuncu"
-
-#: r2/controllers/adminprivacy.py:303
-#, fuzzy
-#| msgid "view source"
-msgid "Resources"
-msgstr "vidi fonton"
-
-#: r2/controllers/adminprivacy.py:305 r2/templates/login.html:301 r2/templates/privacysettings.html:99 r2/templates/tipprfooter.html:50
-msgid "Privacy Policy"
-msgstr ""
-
-#: r2/controllers/adminprivacy.py:306 r2/templates/tipprfooter.html:46
-msgid "User Agreement"
-msgstr ""
-
-#: r2/controllers/adminprivacy.py:307
-#, fuzzy
-#| msgid "Moderate Wiki"
-msgid "Moderator Guidelines"
-msgstr "Estri vikion"
-
-#: r2/controllers/adminprivacy.py:359
-#, fuzzy
-#| msgid "confirmation"
-msgid "User Information"
-msgstr "konfirmo"
-
-#: r2/controllers/adminprivacy.py:361
-#, fuzzy
-#| msgid "username"
-msgid "Username"
-msgstr "salutnomo"
-
-#: r2/controllers/adminprivacy.py:362
-msgid "User ID"
-msgstr ""
-
-#: r2/controllers/adminprivacy.py:364
-#, fuzzy
-#| msgid "email"
-msgid "Email"
-msgstr "retpoŝto"
-
-#: r2/controllers/adminprivacy.py:366
-#, fuzzy
-#| msgid "verified"
-msgid "Email Verified"
-msgstr "konfirmita"
-
-#: r2/controllers/adminprivacy.py:368
-#, fuzzy
-#| msgid "create"
-msgid "Created"
-msgstr "kreu"
-
-#: r2/controllers/adminprivacy.py:369
-msgid "Link Karma"
-msgstr ""
-
-#: r2/controllers/adminprivacy.py:370
-#, fuzzy
-#| msgid "comment karma"
-msgid "Comment Karma"
-msgstr "karmo el komentoj"
-
-#: r2/controllers/adminprivacy.py:372
-#, fuzzy
-#| msgid "deleted"
-msgid "Deleted"
-msgstr "forviŝita"
-
-#: r2/controllers/adminprivacy.py:374
-#, fuzzy
-#| msgid "banned"
-msgid "Banned"
-msgstr "elpelita"
-
-#: r2/controllers/adminprivacy.py:380
-#, fuzzy
-#| msgid "invalid request"
-msgid "Privacy Requests"
-msgstr "nevalida peto"
-
-#: r2/controllers/adminprivacy.py:385 r2/templates/privacysettings.html:64
-#, fuzzy
-#| msgid "status"
-msgid "Status"
-msgstr "statuso"
-
-#: r2/controllers/adminprivacy.py:385
-#, fuzzy
-#| msgid "upvotes"
-msgid "Notes"
-msgstr "suprenvoĉdonoj"
-
-#: r2/controllers/adminprivacy.py:397
-msgid "No privacy requests from this user."
-msgstr ""
-
-#: r2/controllers/adminprivacy.py:402
-#, fuzzy
-#| msgid "downvotes"
-msgid "Admin Notes"
-msgstr "subenvoĉdonoj"
-
-#: r2/controllers/adminprivacy.py:411
-#, fuzzy
-#| msgid "no email address for that user"
-msgid "No admin notes for this user."
-msgstr "tiu uzulo ne havas retadreson"
-
-#: r2/controllers/adminprivacy.py:420
-msgid "Generate Data Export"
-msgstr ""
-
-#: r2/controllers/api.py:221 r2/controllers/api.py:247 r2/controllers/api.py:4357 r2/controllers/api.py:4427 r2/controllers/listingcontroller.py:754 r2/lib/pages/pages.py:6291
+#: r2/controllers/api.py:222 r2/controllers/api.py:248 r2/controllers/api.py:4398 r2/controllers/api.py:4468 r2/controllers/listingcontroller.py:754 r2/lib/pages/pages.py:6361
 msgid "API"
 msgstr ""
 
-#: r2/controllers/api.py:272
+#: r2/controllers/api.py:273
 #, fuzzy
 #| msgid "that name is too long"
 msgid "this is too long"
 msgstr "tiu nomo estas tro longa"
 
-#: r2/controllers/api.py:286 r2/lib/errors.py:72
+#: r2/controllers/api.py:287 r2/lib/errors.py:72
 msgid "that user doesn't exist"
 msgstr "tiu uzulo ne ekzistas"
 
-#: r2/controllers/api.py:290
+#: r2/controllers/api.py:291
 #, python-format
 msgid "you can tag at most %(n)d users"
 msgstr ""
 
-#: r2/controllers/api.py:308
+#: r2/controllers/api.py:309
 #, fuzzy
 #| msgid "wrong password"
 msgid "wrong username or password"
 msgstr "malĝusta pasvorto"
 
-#: r2/controllers/api.py:310
+#: r2/controllers/api.py:311
 msgid "that's the account you're using"
 msgstr ""
 
-#: r2/controllers/api.py:312
+#: r2/controllers/api.py:313
 #, python-format
 msgid "you can keep at most %(n)d other accounts"
 msgstr ""
 
-#: r2/controllers/api.py:317
+#: r2/controllers/api.py:318
 msgid "enter that account's two-factor code"
 msgstr ""
 
-#: r2/controllers/api.py:333
+#: r2/controllers/api.py:334
 msgid "that account isn't available to switch to; add it again"
 msgstr ""
 
-#: r2/controllers/api.py:512
+#: r2/controllers/api.py:547
 msgid "your message has been delivered"
 msgstr "via mesaĝo liveriĝis"
 
-#: r2/controllers/api.py:734
+#: r2/controllers/api.py:769
 msgid "no title found"
 msgstr "titolo ne trovita"
 
-#: r2/controllers/api.py:828 r2/controllers/linked_logins.py:173 r2/controllers/linked_logins.py:219 r2/controllers/linked_logins.py:239 r2/controllers/linked_logins.py:256
+#: r2/controllers/api.py:863 r2/controllers/linked_logins.py:184 r2/controllers/linked_logins.py:232 r2/controllers/linked_logins.py:252 r2/controllers/linked_logins.py:330
 msgid "That sign-in took too long. Please start again."
 msgstr ""
 
-#: r2/controllers/api.py:833
+#: r2/controllers/api.py:868
 msgid "That account is linked already: sign in with it."
 msgstr ""
 
-#: r2/controllers/api.py:1367 r2/controllers/api.py:1748 r2/controllers/api.py:2648 r2/controllers/api.py:2948 r2/controllers/api.py:3269 r2/controllers/api.py:4149 r2/controllers/api.py:4205 r2/controllers/api.py:4259 r2/controllers/api.py:4492 r2/controllers/api.py:4497 r2/controllers/api.py:4732 r2/controllers/api.py:4797 r2/controllers/api.py:4875 r2/controllers/api.py:4941 r2/controllers/api.py:5014 r2/controllers/api.py:5100 r2/controllers/api.py:5132 r2/controllers/api.py:5152 r2/controllers/api.py:5636 r2/controllers/api.py:5676 r2/controllers/api.py:5850 r2/controllers/api.py:5868 r2/controllers/api.py:6192 r2/lib/pages/pages.py:6182
+#: r2/controllers/api.py:1402 r2/controllers/api.py:1783 r2/controllers/api.py:2683 r2/controllers/api.py:2983 r2/controllers/api.py:3310 r2/controllers/api.py:4190 r2/controllers/api.py:4246 r2/controllers/api.py:4300 r2/controllers/api.py:4533 r2/controllers/api.py:4538 r2/controllers/api.py:4773 r2/controllers/api.py:4838 r2/controllers/api.py:4916 r2/controllers/api.py:4982 r2/controllers/api.py:5055 r2/controllers/api.py:5146 r2/controllers/api.py:5178 r2/controllers/api.py:5198 r2/controllers/api.py:5692 r2/controllers/api.py:5732 r2/controllers/api.py:5966 r2/controllers/api.py:5984 r2/controllers/api.py:6332 r2/lib/pages/pages.py:6252
 msgid "saved"
 msgstr "savitaj"
 
-#: r2/controllers/api.py:1437
+#: r2/controllers/api.py:1472
 msgid "all other sessions have been logged out"
 msgstr "ĉiuj aliaj sesioj elsalutiĝis"
 
-#: r2/controllers/api.py:1496
+#: r2/controllers/api.py:1531
 msgid "you should be getting a verification email shortly."
 msgstr "vi ricevos konfirm-retpoŝton baldaŭ."
 
-#: r2/controllers/api.py:1498 r2/controllers/api.py:1511
+#: r2/controllers/api.py:1533 r2/controllers/api.py:1546
 msgid "your email has been updated"
 msgstr "via adreso aktualiĝis"
 
-#: r2/controllers/api.py:1546
+#: r2/controllers/api.py:1581
 msgid "your password has been updated"
 msgstr "via pasvorto aktualiĝis"
 
-#: r2/controllers/api.py:2005 r2/lib/menus.py:195 r2/templates/adminserverstatus.html:141
+#: r2/controllers/api.py:2040 r2/lib/menus.py:196 r2/templates/adminserverstatus.html:141
 msgid "reported"
 msgstr "denuncita"
 
-#: r2/controllers/api.py:2426 r2/lib/support.py:91
+#: r2/controllers/api.py:2461 r2/lib/support.py:91
 msgid "replied"
 msgstr "respondita"
 
-#: r2/controllers/api.py:2631
+#: r2/controllers/api.py:2666
 msgid "validation errors"
 msgstr "eraroj dum validigo"
 
-#: r2/controllers/api.py:2751 r2/controllers/api.py:2778 r2/controllers/api.py:2805 r2/controllers/listingcontroller.py:1036 r2/lib/menus.py:194 r2/public/static/js/tippr.js:223 r2/templates/adminapps.html:51 r2/templates/adminuser.html:56 r2/templates/deleteduserinterstitial.html:34 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:578 r2/templates/vaultstylesheetbase.html:47
+#: r2/controllers/api.py:2786 r2/controllers/api.py:2813 r2/controllers/api.py:2840 r2/controllers/listingcontroller.py:1036 r2/lib/menus.py:195 r2/public/static/js/tippr.js:231 r2/templates/adminapps.html:51 r2/templates/adminuser.html:59 r2/templates/deleteduserinterstitial.html:34 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:578 r2/templates/vaultstylesheetbase.html:47
 msgid "deleted"
 msgstr "forviŝita"
 
-#: r2/controllers/api.py:2882
+#: r2/controllers/api.py:2917
 msgid "bad image name"
 msgstr "maltaŭga bildonomo"
 
-#: r2/controllers/api.py:2888
+#: r2/controllers/api.py:2923
 #, python-format
 msgid "too many images (you only get %d)"
 msgstr "tro multaj bildoj (vi nur rajtas doni %d)"
 
-#: r2/controllers/api.py:2893 r2/controllers/api.py:2917
+#: r2/controllers/api.py:2928 r2/controllers/api.py:2952
 msgid "Invalid image or general image error"
 msgstr "Nevalida bildo aŭ ĝenerala bilderaro"
 
-#: r2/controllers/api.py:2898
+#: r2/controllers/api.py:2933
 #, python-format
 msgid "must be %dx%d pixels"
 msgstr "devas esti %dx%d bilderoj"
 
-#: r2/controllers/api.py:2902
+#: r2/controllers/api.py:2937
 msgid "10:3 aspect ratio required"
 msgstr ""
 
-#: r2/controllers/api.py:2905
+#: r2/controllers/api.py:2940
 #, python-format
 msgid "max %dx%d pixels"
 msgstr "maksimume %dx%d bilderoj"
 
-#: r2/controllers/api.py:2908
+#: r2/controllers/api.py:2943
 #, python-format
 msgid "min %dx%d pixels"
 msgstr "minimume %dx%d bilderoj"
 
-#: r2/controllers/api.py:3961
+#: r2/controllers/api.py:4002
 msgid "an email will be sent to that account's address shortly"
 msgstr "retpoŝto baldaŭ sendiĝos al la adreso de tiu konto"
 
-#: r2/controllers/api.py:3964
+#: r2/controllers/api.py:4005
 msgid "try again tomorrow"
 msgstr "reprovu morgaŭ"
 
-#: r2/controllers/api.py:4011
+#: r2/controllers/api.py:4052
 msgid "password updated"
 msgstr "pasvorto ĝisdatiĝis"
 
-#: r2/controllers/api.py:4217 r2/controllers/api.py:4448
+#: r2/controllers/api.py:4258 r2/controllers/api.py:4489
 msgid "invalid css class"
 msgstr "nevalida css klaso"
 
-#: r2/controllers/api.py:4220 r2/controllers/api.py:4451
+#: r2/controllers/api.py:4261 r2/controllers/api.py:4492
 msgid "too many css classes"
 msgstr "tro multaj css-klasoj"
 
-#: r2/controllers/api.py:4472
+#: r2/controllers/api.py:4513
 msgid "max flair templates reached"
 msgstr "maksimumaj ŝablonoj de flair atingis"
 
-#: r2/controllers/api.py:4937
+#: r2/controllers/api.py:4978
 #, python-format
 msgid "saved, but these aren't on until their keys are filled in: %(names)s"
 msgstr ""
 
-#: r2/controllers/api.py:4959
+#: r2/controllers/api.py:5000
 msgid "the keys work"
 msgstr ""
 
-#: r2/controllers/api.py:4960 r2/controllers/api.py:4977
+#: r2/controllers/api.py:5001 r2/controllers/api.py:5018
 #, fuzzy, python-format
 #| msgid "error: %(error)s"
 msgid "didn't work: %(error)s"
 msgstr "eraro: %(error)s"
 
-#: r2/controllers/api.py:4965
+#: r2/controllers/api.py:5006
 #, fuzzy
 #| msgid "ban this vault"
 msgid "no such payment"
 msgstr "forbari ĉi tiun vaulton"
 
-#: r2/controllers/api.py:4980 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminusers.html:58 r2/templates/adminvaults.html:50
+#: r2/controllers/api.py:5021 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminprivacy.html:26 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminusers.html:77 r2/templates/adminvaults.html:50
 msgid "status"
 msgstr "statuso"
 
-#: r2/controllers/api.py:5005 r2/controllers/linked_logins.py:93 r2/controllers/linked_logins.py:176 r2/lib/pages/pages.py:1350 r2/lib/pages/pages.py:1399 r2/templates/createvault.html:57 r2/templates/goldpayment.html:168 r2/templates/linkedsignin.html:29 r2/templates/listingchooser.html:69 r2/templates/prefapps.html:153 r2/templates/prefapps.html:348 r2/templates/prefsecurity.html:209
+#: r2/controllers/api.py:5046 r2/controllers/linked_logins.py:93 r2/controllers/linked_logins.py:187 r2/lib/pages/pages.py:1373 r2/lib/pages/pages.py:1423 r2/templates/createvault.html:57 r2/templates/goldpayment.html:168 r2/templates/linkedsignin.html:41 r2/templates/listingchooser.html:69 r2/templates/prefapps.html:153 r2/templates/prefapps.html:348
 msgid "name"
 msgstr "nomo"
 
-#: r2/controllers/api.py:5010
+#: r2/controllers/api.py:5051
 #, python-format
 msgid "saved, but these aren't on until their ID and secret are filled in: %(names)s"
 msgstr ""
 
-#: r2/controllers/api.py:5114 r2/controllers/api.py:5140
+#: r2/controllers/api.py:5160 r2/controllers/api.py:5186
 msgid "this site's live config is managed in ZooKeeper"
 msgstr ""
 
-#: r2/controllers/api.py:5118
+#: r2/controllers/api.py:5164
 #, fuzzy
 #| msgid "vault settings"
 msgid "unknown setting"
 msgstr "vault-agordoj"
 
-#: r2/controllers/api.py:5126 r2/controllers/api.py:5150
+#: r2/controllers/api.py:5172 r2/controllers/api.py:5196
 #, fuzzy, python-format
 #| msgid "error: %(error)s"
 msgid "not saved: %(error)s"
 msgstr "eraro: %(error)s"
 
-#: r2/controllers/api.py:5156
+#: r2/controllers/api.py:5202
 #, python-format
 msgid "%(saved)d saved; %(failed)d not saved (see below)"
 msgstr ""
 
-#: r2/controllers/api.py:5162
+#: r2/controllers/api.py:5208
 #, fuzzy
 #| msgid "we need something here"
 msgid "nothing changed"
 msgstr "io bezoniĝas ĉi tie"
 
-#: r2/controllers/api.py:5178
+#: r2/controllers/api.py:5224
 #, python-format
 msgid "couldn't empty: %(servers)s"
 msgstr ""
 
-#: r2/controllers/api.py:5203
+#: r2/controllers/api.py:5249
 #, fuzzy
 #| msgid "your vault has been created"
 msgid "every account has been checked"
 msgstr "oni kreas vian vaulton"
 
-#: r2/controllers/api.py:5215
+#: r2/controllers/api.py:5261
 #, fuzzy
 #| msgid "create a new account"
 msgid "select some accounts"
 msgstr "kreu novan konton"
 
-#: r2/controllers/api.py:5257 r2/controllers/api.py:5338
+#: r2/controllers/api.py:5305 r2/controllers/api.py:5394
 msgid "no such account"
 msgstr ""
 
-#: r2/controllers/api.py:5260 r2/controllers/api.py:5330
+#: r2/controllers/api.py:5308 r2/controllers/api.py:5386
 msgid "unknown action"
 msgstr ""
 
-#: r2/controllers/api.py:5263
+#: r2/controllers/api.py:5319
 msgid "not on admins (take them off the employees list on /admin/config first)"
 msgstr ""
 
-#: r2/controllers/api.py:5267
+#: r2/controllers/api.py:5323
 #, fuzzy
 #| msgid "that comment has been deleted"
 msgid "the account is deleted"
 msgstr "tiu komento forviŝiĝis"
 
-#: r2/controllers/api.py:5270
+#: r2/controllers/api.py:5326
 msgid "give a reason (it's logged, and a timeout's reason is sent to them)"
 msgstr ""
 
-#: r2/controllers/api.py:5274 r2/controllers/api.py:5355
+#: r2/controllers/api.py:5330 r2/controllers/api.py:5411
 msgid "tick the box to confirm"
 msgstr ""
 
-#: r2/controllers/api.py:5277
+#: r2/controllers/api.py:5333
 msgid "choose whether to keep or delete their posts"
 msgstr ""
 
-#: r2/controllers/api.py:5280
+#: r2/controllers/api.py:5336
 #, fuzzy
 #| msgid "please enter an email address"
 msgid "they have no email address"
 msgstr "bonvole tajpu retadreson"
 
-#: r2/controllers/api.py:5327 r2/controllers/api.py:5433
+#: r2/controllers/api.py:5383 r2/controllers/api.py:5489
 #, fuzzy
 #| msgid "ban this vault"
 msgid "no such vault"
 msgstr "forbari ĉi tiun vaulton"
 
-#: r2/controllers/api.py:5342
+#: r2/controllers/api.py:5398
 #, fuzzy
 #| msgid "that user is already a moderator"
 msgid "they're already a moderator"
 msgstr "ĉi tiu uzanto jam estas moderatoro"
 
-#: r2/controllers/api.py:5345
+#: r2/controllers/api.py:5401
 #, fuzzy
 #| msgid "that user is banned from the vault"
 msgid "they're banned from the vault; unban them first"
 msgstr "oni forbaris tiun uzanton el la vaulto"
 
-#: r2/controllers/api.py:5350
+#: r2/controllers/api.py:5406
 #, fuzzy
 #| msgid "you are a moderator"
 msgid "they aren't a moderator"
 msgstr "vi estas debatestro"
 
-#: r2/controllers/api.py:5362
+#: r2/controllers/api.py:5418
 #, fuzzy
 #| msgid "ban this vault"
 msgid "unban the vault first"
 msgstr "forbari ĉi tiun vaulton"
 
-#: r2/controllers/api.py:5381
+#: r2/controllers/api.py:5437
 msgid "no such app"
 msgstr ""
 
-#: r2/controllers/api.py:5384
+#: r2/controllers/api.py:5440
 msgid "the site's own apps can't be deleted here"
 msgstr ""
 
-#: r2/controllers/api.py:5427
+#: r2/controllers/api.py:5483
 msgid "give the feed's http(s) address"
 msgstr ""
 
-#: r2/controllers/api.py:5436
+#: r2/controllers/api.py:5492
 msgid "pick one of the AI labels"
 msgstr ""
 
-#: r2/controllers/api.py:5440
+#: r2/controllers/api.py:5496
 #, python-format
 msgid "/v/%(vault)s doesn't accept %(label)s posts"
 msgstr ""
 
-#: r2/controllers/api.py:5446
+#: r2/controllers/api.py:5502
 msgid "give the bot account a valid username"
 msgstr ""
 
-#: r2/controllers/api.py:5455
+#: r2/controllers/api.py:5511
 #, fuzzy
 #| msgid "that comment has been deleted"
 msgid "that account is suspended or deleted"
 msgstr "tiu komento forviŝiĝis"
 
-#: r2/controllers/api.py:5462 r2/controllers/api.py:5477
+#: r2/controllers/api.py:5518 r2/controllers/api.py:5533
 msgid "no such feed"
 msgstr ""
 
-#: r2/controllers/api.py:5500
+#: r2/controllers/api.py:5556
 #, fuzzy
 #| msgid "domain"
 msgid "give a domain"
 msgstr "retregiono"
 
-#: r2/controllers/api.py:5506
+#: r2/controllers/api.py:5562
 msgid "choose what the ban does"
 msgstr ""
 
-#: r2/controllers/api.py:5509
+#: r2/controllers/api.py:5565
 msgid "give a reason (members see it when the link is refused)"
 msgstr ""
 
-#: r2/controllers/api.py:5514
+#: r2/controllers/api.py:5570
 #, fuzzy
 #| msgid "stats at a glance"
 msgid "that's not a domain"
 msgstr "ekrigardo de la statistikoj"
 
-#: r2/controllers/api.py:5541 r2/controllers/api.py:5560 r2/controllers/api.py:5577 r2/controllers/api.py:5595
+#: r2/controllers/api.py:5597 r2/controllers/api.py:5616 r2/controllers/api.py:5633 r2/controllers/api.py:5651
 msgid "no such ticket"
 msgstr ""
 
-#: r2/controllers/api.py:5608
+#: r2/controllers/api.py:5664
 msgid "they can't reply in this category"
 msgstr ""
 
-#: r2/controllers/api.py:5628
+#: r2/controllers/api.py:5684
 msgid "not on the employees list"
 msgstr ""
 
-#: r2/controllers/api.py:5680
+#: r2/controllers/api.py:5736
 msgid "saved; CleanTalk needs an access key to work"
 msgstr ""
 
-#: r2/controllers/api.py:5683
+#: r2/controllers/api.py:5739
 #, python-format
 msgid "saved; CleanTalk says: %(problem)s"
 msgstr ""
 
-#: r2/controllers/api.py:5685
+#: r2/controllers/api.py:5741
 msgid "saved; the CleanTalk key works"
 msgstr ""
 
-#: r2/controllers/api.py:5722
+#: r2/controllers/api.py:5778
 msgid "that isn't a release with an installer"
 msgstr ""
 
-#: r2/controllers/api.py:5725
+#: r2/controllers/api.py:5781
 msgid "a server is updating now; wait for it to finish"
 msgstr ""
 
-#: r2/controllers/api.py:5767
+#: r2/controllers/api.py:5883
 msgid "Copy the key now; it isn't shown again."
 msgstr ""
 
-#: r2/controllers/api.py:5776
+#: r2/controllers/api.py:5892
 msgid "tippr-backup isn't installed on this server (re-run the installer)."
 msgstr ""
 
-#: r2/controllers/api.py:5781
+#: r2/controllers/api.py:5897
 msgid "no such backup"
 msgstr ""
 
-#: r2/controllers/api.py:5786
+#: r2/controllers/api.py:5902
 #, python-format
 msgid "Type this site's domain (%(domain)s) to confirm."
 msgstr ""
 
-#: r2/controllers/api.py:5799
+#: r2/controllers/api.py:5915
 msgid "Enter the other server's address and its transfer key."
 msgstr ""
 
-#: r2/controllers/api.py:5803
+#: r2/controllers/api.py:5919
 msgid "That isn't a backup name."
 msgstr ""
 
-#: r2/controllers/api.py:5824
+#: r2/controllers/api.py:5940
 #, fuzzy
 #| msgid "%(site)s mail"
 msgid "tippr test email"
 msgstr "poŝto de %(site)s"
 
-#: r2/controllers/api.py:5825
+#: r2/controllers/api.py:5941
 #, python-format
 msgid "This is a test message from %(domain)s. Email is working."
 msgstr ""
 
-#: r2/controllers/api.py:5829
+#: r2/controllers/api.py:5945
 #, fuzzy, python-format
 #| msgid "error: %(error)s"
 msgid "failed: %(error)s"
 msgstr "eraro: %(error)s"
 
-#: r2/controllers/api.py:5831
+#: r2/controllers/api.py:5947
 #, fuzzy, python-format
 #| msgid "submit to %(sr)s"
 msgid "sent to %(address)s"
 msgstr "sendu al %(sr)s"
 
-#: r2/controllers/api.py:5864
+#: r2/controllers/api.py:5980
 msgid "no gold to take"
 msgstr "ne estas oro por preni"
 
-#: r2/controllers/api.py:6017 r2/controllers/api.py:6047
+#: r2/controllers/api.py:6144 r2/controllers/api.py:6174
 msgid "that's as many authenticator apps as an account can have"
 msgstr ""
 
-#: r2/controllers/api.py:6090
+#: r2/controllers/api.py:6222
+msgid "That code didn't work. Codes follow the clock, so check that your phone sets its time automatically."
+msgstr ""
+
+#: r2/controllers/api.py:6225
 msgid "enter a code from one of your methods first"
 msgstr ""
 
-#: r2/controllers/api.py:6092
+#: r2/controllers/api.py:6228
+msgid "That password isn't right. Try again."
+msgstr ""
+
+#: r2/controllers/api.py:6229
 #, fuzzy
 #| msgid "update your password"
 msgid "enter your password first"
 msgstr "aktualigu vian pasvorton"
 
-#: r2/controllers/api.py:6110
+#: r2/controllers/api.py:6247
 msgid "that passkey couldn't be added"
 msgstr ""
 
-#: r2/controllers/api.py:6145
+#: r2/controllers/api.py:6285
 #, fuzzy
 #| msgid "that password is unacceptable"
 msgid "that passkey wasn't accepted"
 msgstr "tiu pasvorto ne akcepteblas"
 
-#: r2/controllers/api.py:6272
+#: r2/controllers/api.py:6444
 #, python-format
 msgid "accounts need to be %(n)d days old"
 msgstr ""
 
-#: r2/controllers/api.py:6276
+#: r2/controllers/api.py:6448
 #, python-format
 msgid "accounts need %(n)d karma"
 msgstr ""
 
-#: r2/controllers/api.py:6279
+#: r2/controllers/api.py:6451
 #, fuzzy
 #| msgid "[tippr] verify your email address"
 msgid "verify your email address first"
 msgstr "[tippr] konfirmu vian retpoŝt-adreson"
 
-#: r2/controllers/api.py:6321 r2/lib/errors.py:157
+#: r2/controllers/api.py:6493 r2/lib/errors.py:158
 msgid "this app can not be modified from this interface"
 msgstr ""
 
-#: r2/controllers/api.py:6328 r2/lib/errors.py:136
+#: r2/controllers/api.py:6500 r2/lib/errors.py:136
 msgid "invalid client id"
 msgstr "nevalida klienta identigilo"
 
-#: r2/controllers/api.py:6331
+#: r2/controllers/api.py:6503
 msgid "cannot update deleted app"
 msgstr "ĝisdatigi forigitan aplikaĵon maleblas"
 
-#: r2/controllers/api.py:6334
+#: r2/controllers/api.py:6506
 msgid "app does not belong to you"
 msgstr "ĉi tiu aplikaĵo ne apartenas al vi"
 
-#: r2/controllers/api.py:6342
+#: r2/controllers/api.py:6514
 msgid "application updated"
 msgstr "aplikaĵo ĝisdatiĝis"
 
-#: r2/controllers/api.py:6366
+#: r2/controllers/api.py:6538
 msgid "application created"
 msgstr "aplikaĵo kreita"
 
-#: r2/controllers/api.py:6401
+#: r2/controllers/api.py:6573
 msgid "developer added"
 msgstr "disvolviganto aldonita"
 
@@ -745,7 +541,7 @@ msgstr "butonoj de tippr"
 msgid "tippr widget"
 msgstr "fenestraĵo de tippr"
 
-#: r2/controllers/embed.py:74 r2/controllers/policies.py:76 r2/lib/pages/pages.py:1136 r2/lib/pages/pages.py:6287 r2/templates/printablebuttons.html:150
+#: r2/controllers/embed.py:74 r2/controllers/policies.py:76 r2/lib/pages/pages.py:1136 r2/lib/pages/pages.py:6357 r2/templates/printablebuttons.html:150
 msgid "help"
 msgstr "helpo"
 
@@ -779,7 +575,7 @@ msgstr "Tiu paĝo ne ekzistas."
 msgid "suspended"
 msgstr ""
 
-#: r2/controllers/front.py:247 r2/lib/pages/pages.py:6169
+#: r2/controllers/front.py:247 r2/lib/pages/pages.py:6239
 msgid "explore"
 msgstr "esplori"
 
@@ -797,194 +593,194 @@ msgstr "ĉiuj %d komentoj"
 msgid "top %d comments"
 msgstr "la %d plej furoraj komentoj"
 
-#: r2/controllers/front.py:595
+#: r2/controllers/front.py:611
 #, python-format
 msgid "show all %d"
 msgstr "Montru ĉiujn %d."
 
-#: r2/controllers/front.py:597
+#: r2/controllers/front.py:613
 #, python-format
 msgid "show %d"
 msgstr "Montru %d."
 
-#: r2/controllers/front.py:614 r2/controllers/front.py:617 r2/templates/adminvaults.html:25
+#: r2/controllers/front.py:630 r2/controllers/front.py:633 r2/templates/adminvaults.html:25
 msgid "create a vault"
 msgstr "krei vaulton"
 
-#: r2/controllers/front.py:722 r2/controllers/front.py:728 r2/controllers/listingcontroller.py:801 r2/controllers/listingcontroller.py:816 r2/controllers/listingcontroller.py:1180 r2/controllers/listingcontroller.py:1191 r2/lib/menus.py:202 r2/lib/menus.py:452 r2/lib/menus.py:665 r2/lib/pages/pages.py:5056 r2/lib/pages/pages.py:5065 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
+#: r2/controllers/front.py:738 r2/controllers/front.py:744 r2/controllers/listingcontroller.py:801 r2/controllers/listingcontroller.py:816 r2/controllers/listingcontroller.py:1180 r2/controllers/listingcontroller.py:1191 r2/lib/menus.py:203 r2/lib/menus.py:453 r2/lib/menus.py:666 r2/lib/pages/pages.py:5126 r2/lib/pages/pages.py:5135 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
 msgid "all"
 msgstr "ĉiuj"
 
-#: r2/controllers/front.py:744
+#: r2/controllers/front.py:760
 msgid "admins*"
 msgstr "administrantoj*"
 
-#: r2/controllers/front.py:747
+#: r2/controllers/front.py:763
 msgid "filter by action"
 msgstr "filtri laŭ ago"
 
-#: r2/controllers/front.py:749
+#: r2/controllers/front.py:765
 msgid "filter by moderator"
 msgstr "filtri laŭ debatestro"
 
-#: r2/controllers/front.py:931
+#: r2/controllers/front.py:947
 msgid "posts and comments"
 msgstr ""
 
-#: r2/controllers/front.py:932 r2/controllers/front.py:1250 r2/controllers/front.py:1270 r2/lib/permissions.py:95 r2/templates/adminfeeds.html:87 r2/templates/adminuser.html:33
+#: r2/controllers/front.py:948 r2/controllers/front.py:1266 r2/controllers/front.py:1286 r2/lib/permissions.py:95 r2/templates/adminfeeds.html:87 r2/templates/adminuser.html:36
 msgid "posts"
 msgstr "afiŝoj"
 
-#: r2/controllers/front.py:933 r2/controllers/listingcontroller.py:1783 r2/lib/pages/pages.py:5810 r2/templates/adminuser.html:34 r2/templates/createvault.html:288 r2/templates/link.xml:95
+#: r2/controllers/front.py:949 r2/controllers/listingcontroller.py:1783 r2/lib/pages/pages.py:5880 r2/templates/adminuser.html:37 r2/templates/createvault.html:288 r2/templates/link.xml:95
 msgid "comments"
 msgstr "komentoj"
 
-#: r2/controllers/front.py:935
+#: r2/controllers/front.py:951
 msgid "show"
 msgstr "montri"
 
-#: r2/controllers/front.py:1023
+#: r2/controllers/front.py:1039
 msgid "Posts & Comments"
 msgstr ""
 
-#: r2/controllers/front.py:1024
+#: r2/controllers/front.py:1040
 msgid "Posts only"
 msgstr ""
 
-#: r2/controllers/front.py:1025
+#: r2/controllers/front.py:1041
 msgid "Comments only"
 msgstr ""
 
-#: r2/controllers/front.py:1027
+#: r2/controllers/front.py:1043
 #, fuzzy, python-format
 #| msgid "moderators of /v/%(vault)s"
 msgid "Rules for /v/%(vault)s"
 msgstr "moderatoroj de /v/%(vault)s"
 
-#: r2/controllers/front.py:1065 r2/lib/menus.py:164
+#: r2/controllers/front.py:1081 r2/lib/menus.py:164
 msgid "awards"
 msgstr "premioj"
 
-#: r2/controllers/front.py:1104
+#: r2/controllers/front.py:1120
 msgid "other discussions"
 msgstr "aliaj debatoj"
 
-#: r2/controllers/front.py:1158 r2/controllers/front.py:1322
+#: r2/controllers/front.py:1174 r2/controllers/front.py:1338
 msgid "search results"
 msgstr "serĉorezultoj"
 
-#: r2/controllers/front.py:1293 r2/controllers/listingcontroller.py:1532 r2/lib/menus.py:95 r2/lib/menus.py:176 r2/templates/adminvault.html:23 r2/templates/adminvaults.html:22 r2/templates/pagenamenav.html:62 r2/templates/prefoptions.html:342 r2/templates/promotelinkbase.html:765
+#: r2/controllers/front.py:1309 r2/controllers/listingcontroller.py:1532 r2/lib/menus.py:95 r2/lib/menus.py:177 r2/templates/adminvault.html:23 r2/templates/adminvaults.html:22 r2/templates/pagenamenav.html:62 r2/templates/prefoptions.html:349 r2/templates/promotelinkbase.html:765
 msgid "vaults"
 msgstr "vaultoj"
 
-#: r2/controllers/front.py:1440
+#: r2/controllers/front.py:1456
 msgid "seen it"
 msgstr "legita"
 
-#: r2/controllers/front.py:1458 r2/models/vault.py:2428 r2/templates/multiinfobar.html:37
+#: r2/controllers/front.py:1474 r2/models/vault.py:2423 r2/templates/multiinfobar.html:37
 #, python-format
 msgid "%s vaults"
 msgstr "%s vaultoj"
 
-#: r2/controllers/front.py:1476 r2/lib/menus.py:83 r2/templates/fraudform.html:45 r2/templates/newlink.html:175 r2/templates/reportform.html:68 r2/templates/usertableitem.html:82
+#: r2/controllers/front.py:1492 r2/lib/menus.py:83 r2/templates/fraudform.html:45 r2/templates/newlink.html:176 r2/templates/reportform.html:68 r2/templates/usertableitem.html:82
 msgid "submit"
 msgstr "konfirmu"
 
-#: r2/controllers/front.py:1529 r2/lib/menus.py:89 r2/templates/privacysettings.html:110
+#: r2/controllers/front.py:1545 r2/lib/menus.py:89 r2/templates/privacysettings.html:110
 msgid "contact us"
 msgstr "Kontaktu nin!"
 
-#: r2/controllers/front.py:1541
+#: r2/controllers/front.py:1557
 msgid "Claimed! Enjoy your tippr gold membership."
 msgstr "Ekhavita! Ĝuu vian oran membrecon."
 
-#: r2/controllers/front.py:1545
+#: r2/controllers/front.py:1561
 #, fuzzy
 #| msgid "Your gold coins have been claimed! Now go to someone's userpage and give them a present!"
 msgid "Your gold has been claimed! Now go to someone's userpage and give them a present!"
 msgstr "Viaj oraj ktipproj ekhaviĝis! Nun iru al ies uzantpaĝo kaj donu al ĝi donaĵon!"
 
-#: r2/controllers/front.py:1549
+#: r2/controllers/front.py:1565
 #, fuzzy
 #| msgid "Thanks for buying tippr gold! Your transaction has been completed and emailed to you. You can check the details by signing into your account at:"
 msgid "Thanks for buying tippr gold! Your payment has been received and your purchase delivered: check your inbox for the details."
 msgstr "Dankon pro aĉeti tippr-oron! Via transakcio estas komlpleta kaj sendiĝis al vi per retmesaĝo. Vi povas kontroli la detalojn per ensalutiĝi je:"
 
-#: r2/controllers/front.py:1555
+#: r2/controllers/front.py:1571
 msgid "Thanks for buying tippr gold! Your transaction has been completed."
 msgstr "Dankon pro aĉeti tippr-oron! Via transakcio estas kompleta."
 
-#: r2/controllers/front.py:1558
+#: r2/controllers/front.py:1574
 #, fuzzy, python-format
 #| msgid "Thanks for buying tippr gold! Your transaction is being processed. If you have any questions please email us at %(gold_email)s"
 msgid "Thanks for buying tippr gold! Your transaction is being processed. If you have any questions please contact us at %(gold_email)s"
 msgstr "Dankon pro aĉeti tippr-oron! Via transakcio estas prilaborata. Se vi havas iujn demandojn, bonvolu sendi retmesaĝon al ni je %(gold_email)s"
 
-#: r2/controllers/front.py:1566 r2/controllers/front.py:1875
+#: r2/controllers/front.py:1582 r2/controllers/front.py:1891
 msgid "thanks"
 msgstr "Dankon!"
 
-#: r2/controllers/front.py:1583
+#: r2/controllers/front.py:1599
 msgid "claim this award?"
 msgstr "ĉu akcepti ĉi-tiu premio?"
 
-#: r2/controllers/front.py:1606
+#: r2/controllers/front.py:1622
 msgid "award claim"
 msgstr "premiakcepto"
 
-#: r2/controllers/front.py:1610 r2/templates/gilding.html:29
+#: r2/controllers/front.py:1626 r2/templates/gilding.html:29
 msgid "gilding"
 msgstr "noun: origado"
 
-#: r2/controllers/front.py:1620 r2/controllers/front.py:1924 r2/controllers/front.py:1951 r2/controllers/front.py:2021 r2/controllers/front.py:2064 r2/lib/menus.py:94 r2/templates/contactus.html:117 r2/templates/contactus.html:119 r2/templates/creditgild.html:34 r2/templates/gold.html:30 r2/templates/goldabout.html:20 r2/templates/goldpayment.html:40 r2/templates/goldthanks.html:29 r2/templates/prefoptions.html:541
+#: r2/controllers/front.py:1636 r2/controllers/front.py:1940 r2/controllers/front.py:1967 r2/controllers/front.py:2037 r2/controllers/front.py:2080 r2/lib/menus.py:94 r2/templates/contactus.html:117 r2/templates/contactus.html:119 r2/templates/creditgild.html:34 r2/templates/gold.html:30 r2/templates/goldabout.html:20 r2/templates/goldpayment.html:40 r2/templates/goldthanks.html:29 r2/templates/prefoptions.html:556
 msgid "tippr gold"
 msgstr "tippr-oro"
 
-#: r2/controllers/front.py:1653 r2/public/static/js/enhancements.js:1084 r2/templates/adminemailsettings.html:73 r2/templates/admininterstitial.html:52 r2/templates/linkedloginlink.html:40 r2/templates/linkedloginlink.html:58 r2/templates/login.html:94 r2/templates/login.html:96 r2/templates/login.html:220 r2/templates/loginformwide.html:45 r2/templates/prefsecurity.html:67 r2/templates/prefsecurity.html:140 r2/templates/prefsecurity.html:176 r2/templates/prefsecurity.html:196 r2/templates/privacysettings.html:128
+#: r2/controllers/front.py:1669 r2/public/static/js/enhancements.js:1084 r2/templates/adminemailsettings.html:73 r2/templates/admininterstitial.html:52 r2/templates/linkedloginlink.html:40 r2/templates/linkedloginlink.html:58 r2/templates/login.html:96 r2/templates/login.html:98 r2/templates/login.html:223 r2/templates/loginformwide.html:46 r2/templates/prefsecurity.html:130 r2/templates/prefsecurity.html:237 r2/templates/prefsecurity.html:270 r2/templates/privacysettings.html:128 r2/templates/register.html:96 r2/templates/register.html:98 r2/templates/register.html:223
 msgid "password"
 msgstr "pasvorto"
 
-#: r2/controllers/front.py:1673 r2/controllers/front.py:1702
+#: r2/controllers/front.py:1689 r2/controllers/front.py:1718
 msgid "verify email"
 msgstr "kontrolu retpoŝton"
 
-#: r2/controllers/front.py:1721 r2/templates/login.html:123 r2/templates/loginformwide.html:52
+#: r2/controllers/front.py:1737 r2/templates/login.html:125 r2/templates/loginformwide.html:53 r2/templates/register.html:125
 msgid "reset password"
 msgstr "nuligi pasvorton"
 
-#: r2/controllers/front.py:1739
+#: r2/controllers/front.py:1755
 msgid "incorrect message token"
 msgstr ""
 
-#: r2/controllers/front.py:1748
+#: r2/controllers/front.py:1764
 msgid "emails unsubscribed"
 msgstr ""
 
-#: r2/controllers/front.py:1827 r2/lib/pages/pages.py:929 r2/templates/admininterstitial.html:84
+#: r2/controllers/front.py:1843 r2/lib/pages/pages.py:929 r2/templates/admininterstitial.html:79
 msgid "turn admin on"
 msgstr "enŝaltu administradon"
 
-#: r2/controllers/front.py:1845 r2/controllers/post.py:167
+#: r2/controllers/front.py:1861 r2/controllers/post.py:166
 msgid "opt out"
 msgstr "malaliĝu"
 
-#: r2/controllers/front.py:1845 r2/controllers/post.py:178
+#: r2/controllers/front.py:1861 r2/controllers/post.py:177
 msgid "welcome back"
 msgstr "rebonvenon"
 
-#: r2/controllers/front.py:1953
+#: r2/controllers/front.py:1969
 msgid "tippr gold isn't for sale on this site right now."
 msgstr ""
 
-#: r2/controllers/front.py:1954
+#: r2/controllers/front.py:1970
 msgid "what gold gives you"
 msgstr ""
 
-#: r2/controllers/front.py:2074 r2/templates/gold.html:57 r2/templates/gold.html:112 r2/templates/prefoptions.html:532
+#: r2/controllers/front.py:2090 r2/templates/gold.html:57 r2/templates/gold.html:112 r2/templates/prefoptions.html:547
 msgid "Give Gold"
 msgstr ""
 
-#: r2/controllers/front.py:2084 r2/controllers/ipn.py:844
+#: r2/controllers/front.py:2100 r2/controllers/ipn.py:844
 msgid "tippr gold subscription"
 msgstr "tippr-a ora abono"
 
@@ -1186,11 +982,11 @@ msgid ""
 "If you have any questions, please contact %(gold_email)s."
 msgstr ""
 
-#: r2/controllers/linked_logins.py:43 r2/controllers/linked_logins.py:120 r2/controllers/linked_logins.py:134 r2/controllers/linked_logins.py:160 r2/controllers/linked_logins.py:178 r2/controllers/linked_logins.py:191 r2/controllers/linked_logins.py:264 r2/templates/linkedloginotp.html:35
+#: r2/controllers/linked_logins.py:43 r2/controllers/linked_logins.py:120 r2/controllers/linked_logins.py:134 r2/controllers/linked_logins.py:171 r2/controllers/linked_logins.py:189 r2/controllers/linked_logins.py:202 r2/controllers/linked_logins.py:338 r2/templates/linkedloginotp.html:40
 msgid "sign in"
 msgstr ""
 
-#: r2/controllers/linked_logins.py:76 r2/controllers/linked_logins.py:98 r2/controllers/linked_logins.py:104 r2/controllers/linked_logins.py:174 r2/controllers/linked_logins.py:200 r2/controllers/linked_logins.py:257 r2/controllers/linked_logins.py:263 r2/templates/login.html:164 r2/templates/login.html:259 r2/templates/login.html:293
+#: r2/controllers/linked_logins.py:76 r2/controllers/linked_logins.py:98 r2/controllers/linked_logins.py:104 r2/controllers/linked_logins.py:185 r2/controllers/linked_logins.py:212 r2/controllers/linked_logins.py:331 r2/controllers/linked_logins.py:337 r2/templates/login.html:166 r2/templates/login.html:262 r2/templates/login.html:296 r2/templates/register.html:166 r2/templates/register.html:262 r2/templates/register.html:296
 msgid "log in"
 msgstr ""
 
@@ -1202,11 +998,33 @@ msgstr ""
 msgid "back"
 msgstr ""
 
-#: r2/controllers/linked_logins.py:129
+#: r2/controllers/linked_logins.py:129 r2/controllers/linked_logins.py:300
 msgid "That account can't be logged into."
 msgstr ""
 
-#: r2/controllers/linked_logins.py:262
+#: r2/controllers/linked_logins.py:266 r2/controllers/linked_logins.py:282
+#, fuzzy
+#| msgid "You are already logged in."
+msgid "You're logged in."
+msgstr "Vi jam ensalutiĝis."
+
+#: r2/controllers/linked_logins.py:289
+#, fuzzy
+#| msgid "please wait a few seconds and try again."
+msgid "Too many tries. Please wait a few minutes and try again."
+msgstr "bonvolu atendu kelkajn sekundojn kaj provu denove."
+
+#: r2/controllers/linked_logins.py:293
+#, fuzzy
+#| msgid "I couldn't understand your search query. Please try again."
+msgid "We couldn't check your passkey. Try again."
+msgstr "Mi ne komprenis vian serĉmendon. Bonvole provu alie."
+
+#: r2/controllers/linked_logins.py:307
+msgid "Staff accounts sign in with their password, then a code or passkey."
+msgstr ""
+
+#: r2/controllers/linked_logins.py:336
 msgid "Too many wrong codes. Please start again."
 msgstr ""
 
@@ -1470,7 +1288,7 @@ msgstr "debatestro"
 msgid "using the API"
 msgstr ""
 
-#: r2/controllers/policies.py:57 r2/lib/menus.py:198
+#: r2/controllers/policies.py:57 r2/lib/menus.py:199
 msgid "advertising"
 msgstr "reklamado"
 
@@ -1480,15 +1298,15 @@ msgstr "reklamado"
 msgid "translating"
 msgstr "helpu traduki"
 
-#: r2/controllers/policies.py:71 r2/controllers/policies.py:89 r2/lib/menus.py:101 r2/lib/pages/pages.py:6298 r2/templates/contactus.html:92
+#: r2/controllers/policies.py:71 r2/controllers/policies.py:89 r2/lib/menus.py:101 r2/lib/pages/pages.py:6368 r2/templates/contactus.html:92
 msgid "user agreement"
 msgstr ""
 
-#: r2/controllers/policies.py:72 r2/controllers/policies.py:86 r2/lib/menus.py:102 r2/lib/pages/pages.py:6297 r2/templates/contactus.html:84
+#: r2/controllers/policies.py:72 r2/controllers/policies.py:86 r2/lib/menus.py:102 r2/lib/pages/pages.py:6367 r2/templates/contactus.html:84 r2/templates/utils.html:543
 msgid "privacy policy"
 msgstr "Regularo pri privateco"
 
-#: r2/controllers/policies.py:73 r2/controllers/policies.py:92 r2/lib/menus.py:100 r2/lib/pages/pages.py:6299 r2/templates/contactus.html:69 r2/templates/newlink.html:167 r2/templates/usertext.html:193
+#: r2/controllers/policies.py:73 r2/controllers/policies.py:92 r2/lib/menus.py:100 r2/lib/pages/pages.py:6369 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:193
 msgid "content policy"
 msgstr ""
 
@@ -1498,23 +1316,23 @@ msgstr ""
 msgid "moderator guidelines"
 msgstr "debatestroj"
 
-#: r2/controllers/post.py:91
+#: r2/controllers/post.py:90
 msgid "over 18?"
 msgstr "ĉu via aĝo pli altas ol 18?"
 
-#: r2/controllers/post.py:109 r2/templates/quarantineinterstitial.html:37 r2/templates/vault.html:94
+#: r2/controllers/post.py:108 r2/templates/quarantineinterstitial.html:37 r2/templates/vault.html:94
 msgid "quarantined"
 msgstr ""
 
-#: r2/controllers/privacy.py:130
+#: r2/controllers/privacy.py:111 r2/controllers/privacy.py:139
 msgid "Your data export request has been submitted. You will receive a notification when it is ready."
 msgstr ""
 
-#: r2/controllers/privacy.py:155
+#: r2/controllers/privacy.py:164
 msgid "This request cannot be cancelled."
 msgstr ""
 
-#: r2/controllers/privacy.py:159
+#: r2/controllers/privacy.py:168
 msgid "Request cancelled."
 msgstr ""
 
@@ -1570,7 +1388,7 @@ msgstr ""
 msgid "edited live promoted links"
 msgstr ""
 
-#: r2/controllers/promotecontroller.py:507 r2/lib/menus.py:201
+#: r2/controllers/promotecontroller.py:507 r2/lib/menus.py:202
 msgid "all promoted links"
 msgstr "ĉiu promovo"
 
@@ -1638,19 +1456,19 @@ msgstr "elektu vault-on"
 msgid "too big. keep it under 500 KB"
 msgstr ""
 
-#: r2/controllers/tippr_base.py:1456 r2/lib/pages/pages.py:4585 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
+#: r2/controllers/tippr_base.py:1483 r2/lib/pages/pages.py:4655 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
 msgid "banned"
 msgstr "elpelita"
 
-#: r2/controllers/tippr_base.py:1478
+#: r2/controllers/tippr_base.py:1505
 msgid "gold members only"
 msgstr "nur oraj membroj"
 
-#: r2/controllers/tippr_base.py:1488 r2/templates/createvault.html:140 r2/templates/multiinfobar.html:43 r2/templates/privateinterstitial.html:34 r2/templates/searchresultvault.html:101 r2/templates/vault.html:90
+#: r2/controllers/tippr_base.py:1515 r2/templates/createvault.html:140 r2/templates/multiinfobar.html:43 r2/templates/privateinterstitial.html:34 r2/templates/searchresultvault.html:101 r2/templates/vault.html:90
 msgid "private"
 msgstr "privata"
 
-#: r2/controllers/tippr_base.py:1590
+#: r2/controllers/tippr_base.py:1619
 msgid "search failed"
 msgstr "serĉo senrezultis"
 
@@ -1679,7 +1497,7 @@ msgstr ""
 msgid "viewing revision from %s"
 msgstr ""
 
-#: r2/controllers/wiki.py:167 r2/controllers/wiki.py:168 r2/lib/template_helpers.py:767
+#: r2/controllers/wiki.py:167 r2/controllers/wiki.py:168 r2/lib/template_helpers.py:775
 #, python-format
 msgid "%s ago"
 msgstr "antaŭ %s"
@@ -2035,7 +1853,7 @@ msgstr "Vi devas elekti vault-on."
 msgid "this vault has chosen to disable their ads at this time"
 msgstr ""
 
-#: r2/lib/errors.py:88 r2/lib/validator/validator.py:3229
+#: r2/lib/errors.py:88 r2/lib/validator/validator.py:3268
 msgid "that name isn't going to work"
 msgstr "tiu nomo ne funkcios."
 
@@ -2298,222 +2116,226 @@ msgid "enter the code from your authenticator app (or a recovery code)"
 msgstr ""
 
 #: r2/lib/errors.py:153
-msgid "turn on two-factor authentication (preferences, security) to use these tools"
+msgid "that code didn't work. Codes follow the clock, so check that your phone sets its time automatically."
 msgstr ""
 
 #: r2/lib/errors.py:154
+msgid "turn on two-factor authentication (preferences, security) to use these tools"
+msgstr ""
+
+#: r2/lib/errors.py:155
 msgid "image problem"
 msgstr "bilda problemo"
 
-#: r2/lib/errors.py:155
+#: r2/lib/errors.py:156
 msgid "already added"
 msgstr "jam aldonita"
 
-#: r2/lib/errors.py:156
+#: r2/lib/errors.py:157
 msgid "too many developers"
 msgstr "tro da programistoj"
 
-#: r2/lib/errors.py:158
+#: r2/lib/errors.py:159
 msgid "you cannot add this account from this interface"
 msgstr ""
 
-#: r2/lib/errors.py:159
+#: r2/lib/errors.py:160
 msgid "invalid modhash"
 msgstr ""
 
-#: r2/lib/errors.py:160
+#: r2/lib/errors.py:161
 msgid "that user is already a moderator"
 msgstr "ĉi tiu uzanto jam estas moderatoro"
 
-#: r2/lib/errors.py:161
+#: r2/lib/errors.py:162
 msgid "You can't perform that action because that user is a moderator."
 msgstr ""
 
-#: r2/lib/errors.py:162
+#: r2/lib/errors.py:163
 msgid "there is no pending invite for that vault"
 msgstr ""
 
-#: r2/lib/errors.py:163
+#: r2/lib/errors.py:164
 msgid "you cannot edit the budget of a live ad"
 msgstr "vi ne povas redakti la kosto de ekuzitaj reklamoj"
 
-#: r2/lib/errors.py:164
+#: r2/lib/errors.py:165
 msgid "you have too many campaigns for that promotion"
 msgstr ""
 
-#: r2/lib/errors.py:165
+#: r2/lib/errors.py:166
 msgid "that jsonp callback contains invalid characters"
 msgstr ""
 
-#: r2/lib/errors.py:166
+#: r2/lib/errors.py:167
 msgid "permissions don't apply to that type of user"
 msgstr ""
 
-#: r2/lib/errors.py:167
+#: r2/lib/errors.py:168
 msgid "invalid permissions string"
 msgstr "nevalida permessignĉeno"
 
-#: r2/lib/errors.py:168
+#: r2/lib/errors.py:169
 msgid "invalid multi path"
 msgstr ""
 
-#: r2/lib/errors.py:169
+#: r2/lib/errors.py:170
 #, python-format
 msgid "%(reason)s"
 msgstr ""
 
-#: r2/lib/errors.py:170
+#: r2/lib/errors.py:171
 msgid "that multivault doesn't exist"
 msgstr "tiu plurtippro ne eksistas"
 
-#: r2/lib/errors.py:171
+#: r2/lib/errors.py:172
 msgid "that multivault already exists"
 msgstr "tiu plurtippro jam eksistas"
 
-#: r2/lib/errors.py:172
+#: r2/lib/errors.py:173
 msgid "you can't change that multivault"
 msgstr "vi ne povas ŝanĝi tiu plurtippro"
 
-#: r2/lib/errors.py:173
+#: r2/lib/errors.py:174
 msgid "no more space for vaults in that multivault"
 msgstr "ne eksistas plu de spaco por vaultoj en tiu plurtippro"
 
-#: r2/lib/errors.py:174
+#: r2/lib/errors.py:175
 #, python-format
 msgid "can't add special vault %(path)s"
 msgstr "ne povas aldoni speciala vaulto %(path)s"
 
-#: r2/lib/errors.py:175
+#: r2/lib/errors.py:176
 #, python-format
 msgid "maximum %(max)s vaults"
 msgstr ""
 
-#: r2/lib/errors.py:176
+#: r2/lib/errors.py:177
 msgid "unable to parse JSON data"
 msgstr "ne povas sintakse analizi la JSON-datumoj"
 
-#: r2/lib/errors.py:177
+#: r2/lib/errors.py:178
 msgid "unexpected JSON structure"
 msgstr "ne anticipita JSON-strukturo"
 
-#: r2/lib/errors.py:178
+#: r2/lib/errors.py:179
 #, python-format
 msgid "JSON missing key: \"%(key)s\""
 msgstr ""
 
-#: r2/lib/errors.py:179
+#: r2/lib/errors.py:180
 msgid "can't change post type"
 msgstr "ne povas ŝanĝi la afiŝspeco"
 
-#: r2/lib/errors.py:180
+#: r2/lib/errors.py:181
 msgid "invalid location"
 msgstr "nevalida loko"
 
-#: r2/lib/errors.py:181
+#: r2/lib/errors.py:182
 msgid "invalid values for frequency cap"
 msgstr ""
 
-#: r2/lib/errors.py:182
+#: r2/lib/errors.py:183
 #, python-format
 msgid "frequency cap must be at least %(min)d"
 msgstr ""
 
-#: r2/lib/errors.py:183
+#: r2/lib/errors.py:184
 msgid "that user is banned from the vault"
 msgstr "oni forbaris tiun uzanton el la vaulto"
 
-#: r2/lib/errors.py:184
+#: r2/lib/errors.py:185
 msgid "You can't do that while suspended."
 msgstr ""
 
-#: r2/lib/errors.py:185
+#: r2/lib/errors.py:186
 msgid "you must have an active tippr gold subscription to do that"
 msgstr ""
 
-#: r2/lib/errors.py:186
+#: r2/lib/errors.py:187
 msgid "insufficient coins"
 msgstr ""
 
-#: r2/lib/errors.py:187
+#: r2/lib/errors.py:188
 msgid "gilding is not allowed in this vault"
 msgstr ""
 
-#: r2/lib/errors.py:188
+#: r2/lib/errors.py:189
 msgid "unable to scrape provided url"
 msgstr ""
 
-#: r2/lib/errors.py:189
+#: r2/lib/errors.py:190
 msgid "can't send a message from a vault to another vault"
 msgstr ""
 
-#: r2/lib/errors.py:190
+#: r2/lib/errors.py:191
 msgid "can't send message to that user"
 msgstr ""
 
-#: r2/lib/errors.py:191
+#: r2/lib/errors.py:192
 msgid "you must be in admin mode for this"
 msgstr ""
 
-#: r2/lib/errors.py:192
+#: r2/lib/errors.py:193
 #, python-format
 msgid "to convert an existing vault to gold only, send a message to %(admin_modmail)s"
 msgstr ""
 
-#: r2/lib/errors.py:194
+#: r2/lib/errors.py:195
 msgid "this vault must be 'gold only' to select this"
 msgstr ""
 
-#: r2/lib/errors.py:195
+#: r2/lib/errors.py:196
 msgid "your account is too new or you do not have enough karma to create a vault. please contact the admins to request an exemption."
 msgstr ""
 
-#: r2/lib/errors.py:196
+#: r2/lib/errors.py:197
 msgid "you must select at least one mobile OS to target"
 msgstr ""
 
-#: r2/lib/errors.py:197 r2/templates/promotelinkbase.html:524
+#: r2/lib/errors.py:198 r2/templates/promotelinkbase.html:524
 msgid "you must select at least one device per OS to target"
 msgstr ""
 
-#: r2/lib/errors.py:198
+#: r2/lib/errors.py:199
 msgid "You have been muted from this vault."
 msgstr ""
 
-#: r2/lib/errors.py:199
+#: r2/lib/errors.py:200
 msgid "This user has been muted from the vault."
 msgstr ""
 
-#: r2/lib/errors.py:200
+#: r2/lib/errors.py:201
 msgid "please say how much AI went into this post"
 msgstr ""
 
-#: r2/lib/errors.py:201
+#: r2/lib/errors.py:202
 #, fuzzy, python-format
 #| msgid "that vault only allows text posts"
 msgid "this vault only accepts: %(allowed)s"
 msgstr "tiu vaulto nur permesas tekstajn afiŝojn"
 
-#: r2/lib/errors.py:202
+#: r2/lib/errors.py:203
 msgid "This comment is not stickyable. Ensure that it is a top level comment."
 msgstr ""
 
-#: r2/lib/errors.py:203 r2/public/static/js/errors.js:7
+#: r2/lib/errors.py:204 r2/public/static/js/errors.js:7
 msgid "A vault rule by that name already exists."
 msgstr ""
 
-#: r2/lib/errors.py:204
+#: r2/lib/errors.py:205
 msgid "No vault rule by that name exists."
 msgstr ""
 
-#: r2/lib/errors.py:205 r2/public/static/js/errors.js:8
+#: r2/lib/errors.py:206 r2/public/static/js/errors.js:8
 msgid "This vault already has the maximum number of rules."
 msgstr ""
 
-#: r2/lib/errors.py:206
+#: r2/lib/errors.py:207
 msgid "Cannot access this comment."
 msgstr ""
 
-#: r2/lib/errors.py:207
+#: r2/lib/errors.py:208
 msgid "Cannot access this post."
 msgstr ""
 
@@ -2844,48 +2666,68 @@ msgid "Whether registering an API app needs a verified email address."
 msgstr ""
 
 #: r2/lib/live_config_admin.py:102
-msgid "Votes a post or comment needs before it can count as controversial."
+msgid "New comments appear on a thread while people have it open, without reloading. When this is on, each vault's moderators choose whether their vault uses it (in the vault's settings), and each member whether they see it (in their preferences). Needs the websockets service (tippr-websockets) running."
 msgstr ""
 
-#: r2/lib/live_config_admin.py:104
-msgid "Controversial: the lowest share of upvotes (0 to 1)."
-msgstr ""
-
-#: r2/lib/live_config_admin.py:106
-msgid "Controversial: the highest share of upvotes (0 to 1)."
-msgstr ""
-
-#: r2/lib/live_config_admin.py:110
-msgid "true or false"
+#: r2/lib/live_config_admin.py:108
+msgid "Whether a new vault starts with live comments on (its moderators can change it). Vaults that already exist keep their setting."
 msgstr ""
 
 #: r2/lib/live_config_admin.py:111
+msgid "Whether a new account starts with live comments on (the member can change it in their preferences); also what logged-out visitors get. Accounts that already exist keep their setting."
+msgstr ""
+
+#: r2/lib/live_config_admin.py:115
+msgid "The first this many members get the Early Member award, in the order they signed up (the site's own accounts, like AutoModerator and feed bots, don't count). Raising it gives the award to the members it now includes within a day; lowering it doesn't take the award back. 0: nobody gets it automatically (admins can still give it on /admin/awards)."
+msgstr ""
+
+#: r2/lib/live_config_admin.py:122
+msgid "Busy threads whose new comments get a queue of their own, so a flood of comments there doesn't slow down comments everywhere else: the ids of their posts (the part of a post's address after /comments/), comma-separated. Remove a thread once it calms down."
+msgstr ""
+
+#: r2/lib/live_config_admin.py:128
+msgid "Votes a post or comment needs before it can count as controversial."
+msgstr ""
+
+#: r2/lib/live_config_admin.py:130
+msgid "Controversial: the lowest share of upvotes (0 to 1)."
+msgstr ""
+
+#: r2/lib/live_config_admin.py:132
+msgid "Controversial: the highest share of upvotes (0 to 1)."
+msgstr ""
+
+#: r2/lib/live_config_admin.py:136
+msgid "true or false"
+msgstr ""
+
+#: r2/lib/live_config_admin.py:137
 #, fuzzy
 #| msgid "card number"
 msgid "whole number"
 msgstr "kartonumero"
 
-#: r2/lib/live_config_admin.py:112
+#: r2/lib/live_config_admin.py:138
 #, fuzzy
 #| msgid "card number"
 msgid "number"
 msgstr "kartonumero"
 
-#: r2/lib/live_config_admin.py:113
+#: r2/lib/live_config_admin.py:139
 msgid "comma-separated list"
 msgstr ""
 
-#: r2/lib/live_config_admin.py:114 r2/lib/live_config_admin.py:177 r2/templates/newlink.html:96 r2/templates/promotelinkbase.html:111 r2/templates/promotelinkbase.html:117
+#: r2/lib/live_config_admin.py:140 r2/lib/live_config_admin.py:203 r2/templates/newlink.html:96 r2/templates/promotelinkbase.html:111 r2/templates/promotelinkbase.html:117
 msgid "text"
 msgstr "teksto"
 
-#: r2/lib/live_config_admin.py:115
+#: r2/lib/live_config_admin.py:141
 #, fuzzy
 #| msgid "unread messages"
 msgid "quoted messages"
 msgstr "nelegitaj mesaĝoj"
 
-#: r2/lib/live_config_admin.py:178
+#: r2/lib/live_config_admin.py:204
 msgid "name:value pairs, comma-separated"
 msgstr ""
 
@@ -2929,7 +2771,7 @@ msgstr "debatataj"
 msgid "best"
 msgstr "plej bonaj"
 
-#: r2/lib/menus.py:62 r2/lib/menus.py:453
+#: r2/lib/menus.py:62 r2/lib/menus.py:454
 msgid "random"
 msgstr "hazarda"
 
@@ -2942,7 +2784,7 @@ msgstr ""
 msgid "saved {toolbar}"
 msgstr "konservis"
 
-#: r2/lib/menus.py:65
+#: r2/lib/menus.py:65 r2/templates/prefsecurity.html:278
 msgid "recommended"
 msgstr "rekomendataj"
 
@@ -2986,7 +2828,7 @@ msgstr "spamo"
 msgid "autobanned"
 msgstr "mempelita"
 
-#: r2/lib/menus.py:82 r2/lib/pages/pages.py:1269 r2/lib/pages/pages.py:1293
+#: r2/lib/menus.py:82 r2/lib/pages/pages.py:1270 r2/lib/pages/pages.py:1294
 msgid "preferences"
 msgstr "agordo"
 
@@ -2998,7 +2840,7 @@ msgstr "vikio"
 msgid "blog"
 msgstr "blogo"
 
-#: r2/lib/menus.py:86 r2/templates/utils.html:504
+#: r2/lib/menus.py:86 r2/templates/utils.html:596
 msgid "logout"
 msgstr "elsalutu"
 
@@ -3081,7 +2923,7 @@ msgstr "senditaj"
 msgid "comments {toolbar}"
 msgstr "komentoj"
 
-#: r2/lib/menus.py:123 r2/templates/prefoptions.html:489
+#: r2/lib/menus.py:123 r2/templates/adminprivacy.html:27 r2/templates/prefoptions.html:496
 msgid "details"
 msgstr "detaloj"
 
@@ -3094,7 +2936,7 @@ msgstr "aliaj debatoj (%(num)s)"
 msgid "traffic stats"
 msgstr "trafikdatumoj"
 
-#: r2/lib/menus.py:126 r2/models/modaction.py:182 r2/templates/vaultstylesheet.html:45
+#: r2/lib/menus.py:126 r2/models/modaction.py:183 r2/templates/vaultstylesheet.html:45
 msgid "stylesheet"
 msgstr "stilfolio"
 
@@ -3110,7 +2952,7 @@ msgstr "pri"
 msgid "edit subscriptions"
 msgstr "prilabori abonojn"
 
-#: r2/lib/menus.py:132 r2/lib/pages/pages.py:2285
+#: r2/lib/menus.py:132 r2/lib/pages/pages.py:2309
 msgid "vault settings"
 msgstr "vault-agordoj"
 
@@ -3194,11 +3036,11 @@ msgstr ""
 msgid "popular"
 msgstr "populara"
 
-#: r2/lib/menus.py:157 r2/public/static/js/sponsored.js:87 r2/public/static/js/sponsored.js:97 r2/templates/createvault.html:658 r2/templates/listingchooser.html:71
+#: r2/lib/menus.py:157 r2/public/static/js/sponsored.js:87 r2/public/static/js/sponsored.js:97 r2/templates/createvault.html:672 r2/templates/listingchooser.html:71
 msgid "create"
 msgstr "kreu"
 
-#: r2/lib/menus.py:158 r2/lib/pages/pages.py:2910
+#: r2/lib/menus.py:158 r2/lib/pages/pages.py:2934
 msgid "my vaults"
 msgstr "miaj vaultoj"
 
@@ -3248,201 +3090,207 @@ msgstr ""
 msgid "backups"
 msgstr ""
 
-#: r2/lib/menus.py:171 r2/templates/adminsitesettings.html:66
+#: r2/lib/menus.py:171
+#, fuzzy
+#| msgid "report"
+msgid "data exports"
+msgstr "denuncu"
+
+#: r2/lib/menus.py:172 r2/templates/adminsitesettings.html:66
 #, fuzzy
 #| msgid "save settings"
 msgid "site settings"
 msgstr "konservi agordojn"
 
-#: r2/lib/menus.py:172 r2/templates/adminantispam.html:30
+#: r2/lib/menus.py:173 r2/templates/adminantispam.html:30
 #, fuzzy
 #| msgid "username notification"
 msgid "spam protection"
 msgstr "uzantnomavizado"
 
-#: r2/lib/menus.py:173 r2/templates/adminliveconfig.html:60
+#: r2/lib/menus.py:174 r2/templates/adminliveconfig.html:60
 msgid "live config"
 msgstr ""
 
-#: r2/lib/menus.py:174 r2/lib/pages/pages.py:938 r2/templates/adminsupport.html:34
+#: r2/lib/menus.py:175 r2/lib/pages/pages.py:938 r2/templates/adminsupport.html:34
 #, fuzzy
 #| msgid "report"
 msgid "support"
 msgstr "denuncu"
 
-#: r2/lib/menus.py:175 r2/templates/adminuser.html:24 r2/templates/adminusers.html:22 r2/templates/prefoptions.html:343
+#: r2/lib/menus.py:176 r2/templates/adminuser.html:24 r2/templates/adminusers.html:22 r2/templates/prefoptions.html:350
 #, fuzzy
 #| msgid "user"
 msgid "users"
 msgstr "uzanto"
 
-#: r2/lib/menus.py:177 r2/templates/adminapps.html:35
+#: r2/lib/menus.py:178 r2/templates/adminapps.html:35
 #, fuzzy
 #| msgid "apps"
 msgid "API apps"
 msgstr "aplikaĵoj"
 
-#: r2/lib/menus.py:178
+#: r2/lib/menus.py:179
 #, fuzzy
 #| msgid "RSS feeds"
 msgid "feeds"
 msgstr "RSS-avertoj"
 
-#: r2/lib/menus.py:179 r2/templates/admindomain.html:22 r2/templates/admindomains.html:22 r2/templates/prefoptions.html:341
+#: r2/lib/menus.py:180 r2/templates/admindomain.html:22 r2/templates/admindomains.html:22 r2/templates/prefoptions.html:348
 #, fuzzy
 #| msgid "domain"
 msgid "domains"
 msgstr "retregiono"
 
-#: r2/lib/menus.py:180 r2/templates/adminpaymentsettings.html:116
+#: r2/lib/menus.py:181 r2/templates/adminpaymentsettings.html:116
 msgid "ads"
 msgstr "reklamoj"
 
-#: r2/lib/menus.py:181
+#: r2/lib/menus.py:182
 msgid "promoted"
 msgstr "promovata"
 
-#: r2/lib/menus.py:182
+#: r2/lib/menus.py:183
 msgid "sponsor"
 msgstr ""
 
-#: r2/lib/menus.py:183
+#: r2/lib/menus.py:184
 msgid "reporters"
 msgstr "denuncintoj"
 
-#: r2/lib/menus.py:184 r2/templates/preffeeds.html:117
+#: r2/lib/menus.py:185 r2/templates/preffeeds.html:117
 msgid "reports"
 msgstr ""
 
-#: r2/lib/menus.py:185
+#: r2/lib/menus.py:186
 msgid "reported authors"
 msgstr "denuncitaj aŭtoroj"
 
-#: r2/lib/menus.py:186
+#: r2/lib/menus.py:187
 msgid "info"
 msgstr "informo"
 
-#: r2/lib/menus.py:187 r2/templates/multiinfobar.html:107 r2/templates/printablebuttons.html:368
+#: r2/lib/menus.py:188 r2/templates/multiinfobar.html:107 r2/templates/printablebuttons.html:368
 msgid "share"
 msgstr "konigu"
 
-#: r2/lib/menus.py:189
+#: r2/lib/menus.py:190
 msgid "overview"
 msgstr "resumo"
 
-#: r2/lib/menus.py:190 r2/templates/searchresultlink.html:102
+#: r2/lib/menus.py:191 r2/templates/searchresultlink.html:102
 msgid "submitted"
 msgstr "afiŝita"
 
-#: r2/lib/menus.py:191
+#: r2/lib/menus.py:192
 msgid "upvoted"
 msgstr ""
 
-#: r2/lib/menus.py:192
+#: r2/lib/menus.py:193
 msgid "downvoted"
 msgstr ""
 
-#: r2/lib/menus.py:193
+#: r2/lib/menus.py:194
 #, python-brace-format
 msgid "hidden {toolbar}"
 msgstr "kaŝita"
 
-#: r2/lib/menus.py:196
+#: r2/lib/menus.py:197
 msgid "voting"
 msgstr "voĉdoni"
 
-#: r2/lib/menus.py:199
+#: r2/lib/menus.py:200
 msgid "create promotion"
 msgstr "promovu"
 
-#: r2/lib/menus.py:200
+#: r2/lib/menus.py:201
 msgid "my promoted links"
 msgstr "miaj promovoj"
 
-#: r2/lib/menus.py:203
+#: r2/lib/menus.py:204
 msgid "unseen"
 msgstr "nevidata"
 
-#: r2/lib/menus.py:204
+#: r2/lib/menus.py:205
 msgid "unapproved campaigns"
 msgstr ""
 
-#: r2/lib/menus.py:205
+#: r2/lib/menus.py:206
 msgid "inventory"
 msgstr ""
 
-#: r2/lib/menus.py:206 r2/templates/adminpaymentsettings.html:134 r2/templates/adminpaymentsettings.html:176 r2/templates/adminpaymentsettings.html:201
+#: r2/lib/menus.py:207 r2/templates/adminpaymentsettings.html:134 r2/templates/adminpaymentsettings.html:176 r2/templates/adminpaymentsettings.html:201
 msgid "live"
 msgstr "nuntempe"
 
-#: r2/lib/menus.py:207
+#: r2/lib/menus.py:208
 msgid "unpaid"
 msgstr "nepagitaj"
 
-#: r2/lib/menus.py:208 r2/templates/privacysettings.html:28
+#: r2/lib/menus.py:209 r2/templates/privacysettings.html:28
 msgid "pending"
 msgstr "en atendo"
 
-#: r2/lib/menus.py:209
+#: r2/lib/menus.py:210
 msgid "rejected"
 msgstr "malakceptitaj"
 
-#: r2/lib/menus.py:210 r2/templates/renderablecampaign.html:151
+#: r2/lib/menus.py:211 r2/templates/renderablecampaign.html:151
 msgid "edited live"
 msgstr ""
 
-#: r2/lib/menus.py:212
+#: r2/lib/menus.py:213
 msgid "sitewide"
 msgstr ""
 
-#: r2/lib/menus.py:213
+#: r2/lib/menus.py:214
 msgid "languages"
 msgstr "lingvoj"
 
-#: r2/lib/menus.py:214 r2/lib/pages/trafficpages.py:332
+#: r2/lib/menus.py:215 r2/lib/pages/trafficpages.py:337
 msgid "adverts"
 msgstr "reklamoj"
 
-#: r2/lib/menus.py:216
+#: r2/lib/menus.py:217
 msgid "whitelist"
 msgstr "akceptolisto"
 
 #. TRANSLATORS: This refers to /v/mod
-#: r2/lib/menus.py:449
+#: r2/lib/menus.py:450
 msgid "mod"
 msgstr "/v/mod"
 
 #. TRANSLATORS: This refers to the user's front page
-#: r2/lib/menus.py:451
+#: r2/lib/menus.py:452
 msgid "front"
 msgstr "ĉefpaĝo"
 
 #. TRANSLATORS: Gold feature, "myrandom", a random vault from your subscriptions
-#: r2/lib/menus.py:455
+#: r2/lib/menus.py:456
 msgid "myrandom"
 msgstr ""
 
-#: r2/lib/menus.py:551
+#: r2/lib/menus.py:552
 msgid "sorted by"
 msgstr "ordo laŭ"
 
-#: r2/lib/menus.py:623
+#: r2/lib/menus.py:624
 msgid "(suggested)"
 msgstr "(proponita)"
 
-#: r2/lib/menus.py:661
+#: r2/lib/menus.py:662
 msgid "kind"
 msgstr "tipo"
 
-#: r2/lib/menus.py:674
+#: r2/lib/menus.py:675
 msgid "links from"
 msgstr "ligoj de"
 
-#: r2/lib/menus.py:684
+#: r2/lib/menus.py:685
 msgid "comments from"
 msgstr ""
 
-#: r2/lib/menus.py:689
+#: r2/lib/menus.py:690
 msgid "links and comments from"
 msgstr ""
 
@@ -3498,37 +3346,37 @@ msgstr ""
 msgid "discovery"
 msgstr ""
 
-#: r2/lib/recommender.py:58 r2/lib/strings.py:257 r2/lib/strings.py:262 r2/lib/template_helpers.py:388 r2/templates/searchresultlink.html:97 r2/templates/vaultstylesheet.html:108
+#: r2/lib/recommender.py:58 r2/lib/strings.py:257 r2/lib/strings.py:262 r2/lib/template_helpers.py:396 r2/templates/searchresultlink.html:97 r2/templates/vaultstylesheet.html:108
 msgid "comment"
 msgid_plural "comments"
 msgstr[0] "komento"
 msgstr[1] "komentoj"
 
-#: r2/lib/site_info.py:140
+#: r2/lib/site_info.py:146
 msgid "That isn't an image tippr can read."
 msgstr ""
 
-#: r2/lib/site_info.py:142
+#: r2/lib/site_info.py:148
 #, python-format
 msgid "Use a %(formats)s image."
 msgstr ""
 
-#: r2/lib/site_info.py:145
+#: r2/lib/site_info.py:151
 #, python-format
 msgid "Use an image at most %(n)d pixels wide and high."
 msgstr ""
 
-#: r2/lib/site_info.py:153
+#: r2/lib/site_info.py:159
 msgid "The image couldn't be saved; see the error log."
 msgstr ""
 
-#: r2/lib/site_info.py:211
+#: r2/lib/site_info.py:217
 #, fuzzy
 #| msgid "contact us"
 msgid "the contact page"
 msgstr "Kontaktu nin!"
 
-#: r2/lib/strings.py:59 r2/lib/template_helpers.py:271
+#: r2/lib/strings.py:59 r2/lib/template_helpers.py:276
 msgid "submitting..."
 msgstr "afiŝado..."
 
@@ -3890,13 +3738,13 @@ msgid_plural "links"
 msgstr[0] "ligo"
 msgstr[1] "ligoj"
 
-#: r2/lib/pages/pages.py:1499 r2/lib/strings.py:263 r2/templates/messagecompose.html:101
+#: r2/lib/pages/pages.py:1523 r2/lib/strings.py:263 r2/templates/messagecompose.html:101
 msgid "message"
 msgid_plural "messages"
 msgstr[0] "mesaĝo"
 msgstr[1] "mesaĝoj"
 
-#: r2/lib/pages/admin_pages.py:116 r2/lib/pages/trafficpages.py:884 r2/lib/strings.py:264 r2/templates/adminfeeds.html:45 r2/templates/adminfeeds.html:86 r2/templates/adminvaults.html:49 r2/templates/sitewidetraffic.html:40 r2/templates/vaulttrafficreport.html:45
+#: r2/lib/pages/admin_pages.py:119 r2/lib/pages/trafficpages.py:889 r2/lib/strings.py:264 r2/templates/adminfeeds.html:45 r2/templates/adminfeeds.html:86 r2/templates/adminvaults.html:49 r2/templates/sitewidetraffic.html:40 r2/templates/vaulttrafficreport.html:45
 msgid "vault"
 msgid_plural "vaults"
 msgstr[0] "vault"
@@ -3962,7 +3810,7 @@ msgid_plural "hours"
 msgstr[0] "horo"
 msgstr[1] "horoj"
 
-#: r2/lib/pages/pages.py:346 r2/lib/pages/pages.py:5610 r2/lib/strings.py:279 r2/public/static/js/sponsored.js:1477 r2/public/static/js/sponsored.js:1838 r2/templates/intimeoutinterstitial.html:44 r2/templates/tipprtraffic.html:99
+#: r2/lib/pages/pages.py:346 r2/lib/pages/pages.py:5680 r2/lib/strings.py:279 r2/public/static/js/sponsored.js:1477 r2/public/static/js/sponsored.js:1838 r2/templates/intimeoutinterstitial.html:44 r2/templates/tipprtraffic.html:104
 msgid "day"
 msgid_plural "days"
 msgstr[0] "tago"
@@ -4007,11 +3855,11 @@ msgstr "debatestro"
 msgid "rate limits"
 msgstr ""
 
-#: r2/lib/support.py:64 r2/models/vault.py:336 r2/public/static/js/enhancements.js:739 r2/templates/adminpaymentsettings.html:108 r2/templates/adminuser.html:74
+#: r2/lib/support.py:64 r2/models/vault.py:333 r2/public/static/js/enhancements.js:739 r2/templates/adminpaymentsettings.html:108 r2/templates/adminuser.html:77
 msgid "gold"
 msgstr "oro"
 
-#: r2/lib/support.py:71 r2/templates/adminsitesettings.html:112
+#: r2/lib/support.py:71 r2/templates/adminsitesettings.html:131
 msgid "open"
 msgstr ""
 
@@ -4019,7 +3867,7 @@ msgstr ""
 msgid "waiting on the member"
 msgstr ""
 
-#: r2/lib/support.py:73 r2/lib/support.py:81 r2/templates/adminsitesettings.html:113 r2/templates/adminsupportactivity.html:42
+#: r2/lib/support.py:73 r2/lib/support.py:81 r2/templates/adminsitesettings.html:132 r2/templates/adminsupportactivity.html:42
 msgid "closed"
 msgstr ""
 
@@ -4203,80 +4051,80 @@ msgstr "vi rajtas rigardi trafikon al promovita ligo"
 msgid "you have been added to the list of users able to see [traffic for the sponsored link \"%(title)s\"](%(traffic_url)s)."
 msgstr "vi aldoniĝis kiel debatestro al [%(title)s](%(url)s)."
 
-#: r2/lib/template_helpers.py:270
+#: r2/lib/template_helpers.py:275
 msgid "fetching title..."
 msgstr "mi ĉerpas titolon..."
 
-#: r2/lib/template_helpers.py:272
+#: r2/lib/template_helpers.py:277
 msgid "loading..."
 msgstr "ŝargado..."
 
-#: r2/lib/template_helpers.py:384
+#: r2/lib/template_helpers.py:392
 #, python-brace-format
 msgid "comment {verb}"
 msgstr "komenti"
 
-#: r2/lib/template_helpers.py:433
+#: r2/lib/template_helpers.py:441
 msgid "child"
 msgid_plural "children"
 msgstr[0] "ido"
 msgstr[1] "idoj"
 
-#: r2/lib/template_helpers.py:615 r2/lib/template_helpers.py:687
+#: r2/lib/template_helpers.py:623 r2/lib/template_helpers.py:695
 msgid "friend"
 msgstr "amiko"
 
-#: r2/lib/template_helpers.py:622
+#: r2/lib/template_helpers.py:630
 msgid "submitter"
 msgstr "afiŝinto"
 
-#: r2/lib/template_helpers.py:636
+#: r2/lib/template_helpers.py:644
 msgid "tippr admin, speaking officially"
 msgstr "administranto de tippr, oficiala parolo"
 
-#: r2/lib/template_helpers.py:657
+#: r2/lib/template_helpers.py:665
 msgid "a bot: posts new items from a feed automatically"
 msgstr ""
 
-#: r2/lib/template_helpers.py:680
+#: r2/lib/template_helpers.py:688
 #, python-format
 msgid "moderator of /v/%(tippr)s, speaking officially"
 msgstr "administranto de /v/%(tippr)s, oficiala parolo"
 
-#: r2/lib/template_helpers.py:694
+#: r2/lib/template_helpers.py:702
 #, python-format
 msgid "%(user)s just celebrated a tippr birthday!"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1334 r2/lib/template_helpers.py:763 r2/public/static/js/timetext.js:68
+#: r2/lib/pages/pages.py:1340 r2/lib/template_helpers.py:771 r2/public/static/js/timetext.js:68
 msgid "just now"
 msgstr "ĵus"
 
-#: r2/lib/pages/admin_pages.py:107
+#: r2/lib/pages/admin_pages.py:110
 msgid "No notes for this domain"
 msgstr ""
 
-#: r2/lib/pages/admin_pages.py:108
+#: r2/lib/pages/admin_pages.py:111
 msgid "No notes for this IP address"
 msgstr ""
 
-#: r2/lib/pages/admin_pages.py:109
+#: r2/lib/pages/admin_pages.py:112
 msgid "No notes for this vault"
 msgstr ""
 
-#: r2/lib/pages/admin_pages.py:110
+#: r2/lib/pages/admin_pages.py:113
 msgid "No notes for this user"
 msgstr ""
 
-#: r2/lib/pages/admin_pages.py:114 r2/models/modaction.py:178 r2/templates/admindomains.html:37 r2/templates/adminsitesettings.html:142 r2/templates/adminsitesettings.html:144 r2/templates/createvault.html:437
+#: r2/lib/pages/admin_pages.py:117 r2/models/modaction.py:179 r2/templates/admindomains.html:37 r2/templates/adminsitesettings.html:161 r2/templates/adminsitesettings.html:163 r2/templates/createvault.html:451
 msgid "domain"
 msgstr "retregiono"
 
-#: r2/lib/pages/admin_pages.py:115 r2/templates/adminantispam.html:182 r2/templates/useriphistory.html:44
+#: r2/lib/pages/admin_pages.py:118 r2/templates/adminantispam.html:182 r2/templates/useriphistory.html:44
 msgid "IP address"
 msgstr "IP-adreso"
 
-#: r2/lib/pages/admin_pages.py:117 r2/models/listing.py:154
+#: r2/lib/pages/admin_pages.py:120 r2/models/listing.py:154
 msgid "user"
 msgstr "uzanto"
 
@@ -4350,415 +4198,419 @@ msgstr "Lastaj rigarditaj afiŝoj"
 msgid "turn admin off"
 msgstr "elŝaltu administradon"
 
-#: r2/lib/pages/pages.py:1143
+#: r2/lib/pages/pages.py:1144
 msgid "<3"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1335 r2/templates/adminserverstatus.html:142
+#: r2/lib/pages/pages.py:1341 r2/templates/adminserverstatus.html:142
 #, fuzzy, python-format
 #| msgid "%s ago"
 msgid "%(time)s ago"
 msgstr "antaŭ %s"
 
-#: r2/lib/pages/pages.py:1496
+#: r2/lib/pages/pages.py:1520
 #, python-format
 msgid "%(site)s mail"
 msgstr "poŝto de %(site)s"
 
-#: r2/lib/pages/pages.py:1573
+#: r2/lib/pages/pages.py:1597
 msgid "sign up or log in"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1654
+#: r2/lib/pages/pages.py:1678
 msgid "request for permission"
 msgstr "peti permeson"
 
-#: r2/lib/pages/pages.py:1656
+#: r2/lib/pages/pages.py:1680
 msgid "permission"
 msgstr "permeso"
 
-#: r2/lib/pages/pages.py:1691 r2/templates/searchform.html:77
+#: r2/lib/pages/pages.py:1715 r2/templates/searchform.html:77
 msgid "enable NSFW results"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1714
+#: r2/lib/pages/pages.py:1738
 msgid "bummer"
 msgstr "diable"
 
-#: r2/lib/pages/pages.py:1726
+#: r2/lib/pages/pages.py:1750
 msgid "this page is no longer available due to a copyright claim."
 msgstr "Tiu paĝo ne plu haveblas pro kopirajta pretendo."
 
-#: r2/lib/pages/pages.py:1966
+#: r2/lib/pages/pages.py:1990
 msgid "comments disabled"
 msgstr ""
 
-#: r2/lib/pages/pages.py:2286
+#: r2/lib/pages/pages.py:2310
 #, python-format
 msgid "about %(site)s"
 msgstr "pri %(site)s"
 
-#: r2/lib/pages/pages.py:2309
+#: r2/lib/pages/pages.py:2333
 msgid "search vaults by name"
 msgstr "serĉi vaultojn per nomo"
 
-#: r2/lib/pages/pages.py:2353
+#: r2/lib/pages/pages.py:2377
 #, python-format
 msgid "your front page vaults (%s)"
 msgstr "viaj ĉefpaĝaj vaultoj (%s)"
 
-#: r2/lib/pages/pages.py:2441 r2/templates/createvault.html:446 r2/templates/spotlightlisting.html:63
+#: r2/lib/pages/pages.py:2465 r2/templates/createvault.html:460 r2/templates/spotlightlisting.html:63
 msgid "what's this?"
 msgstr "kio estas tio?"
 
-#: r2/lib/pages/pages.py:2442
+#: r2/lib/pages/pages.py:2466
 msgid "trophy case"
 msgstr "trofearo"
 
-#: r2/lib/pages/pages.py:2452
+#: r2/lib/pages/pages.py:2476
 msgid "public multivaults"
 msgstr ""
 
-#: r2/lib/pages/pages.py:2459
+#: r2/lib/pages/pages.py:2483
 msgid "hidden multivaults"
 msgstr ""
 
-#: r2/lib/pages/pages.py:2480
+#: r2/lib/pages/pages.py:2504
 msgid "moderator of"
 msgstr "moderatoro de"
 
-#: r2/lib/pages/pages.py:2544
+#: r2/lib/pages/pages.py:2568
 msgid "less than a day"
 msgstr "malpli ol unu tago"
 
-#: r2/lib/pages/pages.py:2557
+#: r2/lib/pages/pages.py:2581
 #, python-format
 msgid "Give Gold: %(coins)s month"
 msgid_plural "Give Gold: %(coins)s months"
 msgstr[0] ""
 msgstr[1] ""
 
-#: r2/lib/pages/pages.py:2565
+#: r2/lib/pages/pages.py:2589
 #, python-format
 msgid "%(gildings)s gilding given out"
 msgid_plural "%(gildings)s gildings given out"
 msgstr[0] ""
 msgstr[1] ""
 
-#: r2/lib/pages/pages.py:2573
+#: r2/lib/pages/pages.py:2597
 #, python-format
 msgid "give tippr gold to %(user)s to show your appreciation"
 msgstr ""
 
-#: r2/lib/pages/pages.py:2577
+#: r2/lib/pages/pages.py:2601
 msgid "get extra features and help support tippr with a tippr gold subscription"
 msgstr ""
 
-#: r2/lib/pages/pages.py:2581
+#: r2/lib/pages/pages.py:2605
 msgid "renew your tippr gold"
 msgstr ""
 
-#: r2/lib/pages/pages.py:2591
+#: r2/lib/pages/pages.py:2615
 #, python-format
 msgid "you have helped pay for *%(time)s* of tippr server time."
 msgstr ""
 
-#: r2/lib/pages/pages.py:2592
+#: r2/lib/pages/pages.py:2616
 #, python-format
 msgid "/u/%(user)s has helped pay for *%%(time)s* of tippr server time."
 msgstr ""
 
-#: r2/lib/pages/pages.py:2595
+#: r2/lib/pages/pages.py:2619
 #, python-format
 msgid "gifts on your behalf have helped pay for *%(time)s* of tippr server time."
 msgstr ""
 
-#: r2/lib/pages/pages.py:2597
+#: r2/lib/pages/pages.py:2621
 #, python-format
 msgid "gifts on behalf of /u/%(user)s have helped pay for *%%(time)s* of tippr server time."
 msgstr ""
 
-#: r2/lib/pages/pages.py:2681
+#: r2/lib/pages/pages.py:2705
 msgid "tippr is a platform for internet communities"
 msgstr ""
 
-#: r2/lib/pages/pages.py:2682
+#: r2/lib/pages/pages.py:2706
 msgid "where your votes shape what the world is talking about."
 msgstr ""
 
-#: r2/lib/pages/pages.py:2981 r2/lib/pages/pages.py:3091
+#: r2/lib/pages/pages.py:3005 r2/lib/pages/pages.py:3115
 msgid "add vault"
 msgstr "aldoni vaulton"
 
-#: r2/lib/pages/pages.py:3019
+#: r2/lib/pages/pages.py:3043
 #, python-format
 msgid "raise it to %s"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3021 r2/lib/pages/pages.py:3030
+#: r2/lib/pages/pages.py:3045 r2/lib/pages/pages.py:3054
 #, python-format
 msgid "%s visible"
 msgstr "%s videbla"
 
-#: r2/lib/pages/pages.py:3028
+#: r2/lib/pages/pages.py:3052
 #, python-format
 msgid "%(bonus)s bonus vaults"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3398
+#: r2/lib/pages/pages.py:3422
 #, python-format
 msgid "you have a credit card gold subscription. your card (ending in %(last4)s) will be charged %(amount)s on %(date)s."
 msgstr ""
 
-#: r2/lib/pages/pages.py:3552
+#: r2/lib/pages/pages.py:3576
 msgid "try entering those letters again"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3631 r2/lib/pages/pages.py:6290 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
+#: r2/lib/pages/pages.py:3655 r2/lib/pages/pages.py:6360 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
 msgid "search"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4228
+#: r2/lib/pages/pages.py:4289
 #, fuzzy, python-format
 #| msgid "a community for %(time)s"
 msgid "not heard from for %(time)s"
 msgstr "komunumo dum %(time)s"
 
-#: r2/lib/pages/pages.py:4234
+#: r2/lib/pages/pages.py:4295
 #, python-format
 msgid "memory %(p)s%% used"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4238
+#: r2/lib/pages/pages.py:4299
 #, python-format
 msgid "busy: load %(l)s on %(n)s CPUs"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4244
+#: r2/lib/pages/pages.py:4305
 #, python-format
 msgid "disk %(path)s %(p)s%% full"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4248
+#: r2/lib/pages/pages.py:4309
 #, fuzzy, python-format
 #| msgid "%(title)s : %(site)s"
 msgid "%(service)s is %(state)s"
 msgstr "%(title)s:%(site)s"
 
-#: r2/lib/pages/pages.py:4251
+#: r2/lib/pages/pages.py:4312
 msgid "a different version from the others"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4253
+#: r2/lib/pages/pages.py:4314
 msgid "another server has the same name: set TIPPR_SERVER_NAME on one of them"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4308
+#: r2/lib/pages/pages.py:4369
 #, fuzzy, python-format
 #| msgid "second"
 #| msgid_plural "seconds"
 msgid "%(n)s seconds"
 msgstr "sekundo"
 
-#: r2/lib/pages/pages.py:4310
+#: r2/lib/pages/pages.py:4371
 #, fuzzy, python-format
 #| msgid "minute"
 #| msgid_plural "minutes"
 msgid "%(n)s minutes"
 msgstr "minuto"
 
-#: r2/lib/pages/pages.py:4312
+#: r2/lib/pages/pages.py:4373
 #, fuzzy, python-format
 #| msgid "this hour"
 msgid "%(n)s hours"
 msgstr "ĉi-horo"
 
-#: r2/lib/pages/pages.py:4313
+#: r2/lib/pages/pages.py:4374
 #, python-format
 msgid "%(n)s days"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4526 r2/lib/pages/pages.py:4635
+#: r2/lib/pages/pages.py:4390
+msgid "polling"
+msgstr ""
+
+#: r2/lib/pages/pages.py:4596 r2/lib/pages/pages.py:4705
 msgid "added"
 msgstr "aldonita"
 
-#: r2/lib/pages/pages.py:4594 r2/models/modaction.py:146 r2/templates/printablebuttons.html:608
+#: r2/lib/pages/pages.py:4664 r2/models/modaction.py:146 r2/templates/printablebuttons.html:608
 msgid "muted"
 msgstr "silentigita"
 
-#: r2/lib/pages/pages.py:4612
+#: r2/lib/pages/pages.py:4682
 msgid "invited"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4673
+#: r2/lib/pages/pages.py:4743
 msgid "grant flair"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4675
+#: r2/lib/pages/pages.py:4745
 msgid "user flair templates"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4677
+#: r2/lib/pages/pages.py:4747
 msgid "link flair templates"
 msgstr ""
 
-#: r2/lib/pages/pages.py:5049 r2/templates/adminuser.html:70 r2/templates/flairpane.html:79
+#: r2/lib/pages/pages.py:5119 r2/templates/adminuser.html:73 r2/templates/flairpane.html:79
 msgid "none"
 msgstr "nenio"
 
-#: r2/lib/pages/pages.py:5180
+#: r2/lib/pages/pages.py:5250
 msgid "suggestions:"
 msgstr ""
 
-#: r2/lib/pages/pages.py:5184
+#: r2/lib/pages/pages.py:5254
 #, python-format
 msgid "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/v/selfserve](%(selfserve)s)."
 msgstr ""
 
-#: r2/lib/pages/pages.py:5802
+#: r2/lib/pages/pages.py:5872
 msgid "start date"
 msgstr "komencdato"
 
-#: r2/lib/pages/pages.py:5803
+#: r2/lib/pages/pages.py:5873
 msgid "end date"
 msgstr "findato"
 
-#: r2/lib/pages/pages.py:5805 r2/templates/createvault.html:266
+#: r2/lib/pages/pages.py:5875 r2/templates/createvault.html:266
 msgid "links"
 msgstr "ligoj"
 
-#: r2/lib/pages/pages.py:5807 r2/lib/pages/pages.py:5826 r2/templates/adminpaymentsettings.html:239 r2/templates/promotedlinktraffic.html:42 r2/templates/timeserieschart.html:40
+#: r2/lib/pages/pages.py:5877 r2/lib/pages/pages.py:5896 r2/templates/adminpaymentsettings.html:239 r2/templates/promotedlinktraffic.html:42 r2/templates/timeserieschart.html:40
 msgid "date"
 msgstr "dato"
 
-#: r2/lib/pages/pages.py:5810 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
+#: r2/lib/pages/pages.py:5880 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
 msgid "id"
 msgstr ""
 
-#: r2/lib/pages/pages.py:5810 r2/lib/pages/pages.py:5829 r2/templates/promotelinkbase.html:856
+#: r2/lib/pages/pages.py:5880 r2/lib/pages/pages.py:5899 r2/templates/promotelinkbase.html:856
 msgid "owner"
 msgstr "posedanto"
 
-#: r2/lib/pages/pages.py:5810 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
+#: r2/lib/pages/pages.py:5880 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
 msgid "url"
 msgstr "URL"
 
-#: r2/lib/pages/pages.py:5811
+#: r2/lib/pages/pages.py:5881
 msgid "upvotes"
 msgstr "suprenvoĉdonoj"
 
-#: r2/lib/pages/pages.py:5811
+#: r2/lib/pages/pages.py:5881
 msgid "downvotes"
 msgstr "subenvoĉdonoj"
 
-#: r2/lib/pages/pages.py:5811 r2/lib/pages/trafficpages.py:346 r2/lib/pages/trafficpages.py:842 r2/templates/promotedlinktraffic.html:44 r2/templates/promotedlinktraffic.html:124
+#: r2/lib/pages/pages.py:5881 r2/lib/pages/trafficpages.py:351 r2/lib/pages/trafficpages.py:847 r2/templates/promotedlinktraffic.html:44 r2/templates/promotedlinktraffic.html:124
 msgid "clicks"
 msgstr "klakoj"
 
-#: r2/lib/pages/pages.py:5811 r2/lib/pages/trafficpages.py:343 r2/lib/pages/trafficpages.py:467 r2/lib/pages/trafficpages.py:841 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
+#: r2/lib/pages/pages.py:5881 r2/lib/pages/trafficpages.py:348 r2/lib/pages/trafficpages.py:472 r2/lib/pages/trafficpages.py:846 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
 msgid "impressions"
 msgstr ""
 
-#: r2/lib/pages/pages.py:5824
+#: r2/lib/pages/pages.py:5894
 msgid "campaigns"
 msgstr ""
 
-#: r2/lib/pages/pages.py:5829
+#: r2/lib/pages/pages.py:5899
 msgid "link id"
 msgstr ""
 
-#: r2/lib/pages/pages.py:5829
+#: r2/lib/pages/pages.py:5899
 msgid "campaign id"
 msgstr ""
 
-#: r2/lib/pages/pages.py:5829 r2/templates/promotedlinktraffic.html:117 r2/templates/refundpage.html:56
+#: r2/lib/pages/pages.py:5899 r2/templates/promotedlinktraffic.html:117 r2/templates/refundpage.html:56
 msgid "target"
 msgstr "celo"
 
-#: r2/lib/pages/pages.py:5830 r2/templates/promotelinkedit.html:157
+#: r2/lib/pages/pages.py:5900 r2/templates/promotelinkedit.html:157
 msgid "bid"
 msgstr ""
 
-#: r2/lib/pages/pages.py:5830
+#: r2/lib/pages/pages.py:5900
 msgid "frontpage clicks"
 msgstr "ĉefpaĝaj klakoj"
 
-#: r2/lib/pages/pages.py:5830
+#: r2/lib/pages/pages.py:5900
 msgid "frontpage impressions"
 msgstr ""
 
-#: r2/lib/pages/pages.py:5831
+#: r2/lib/pages/pages.py:5901
 msgid "vault clicks"
 msgstr "vaultklakoj"
 
-#: r2/lib/pages/pages.py:5831
+#: r2/lib/pages/pages.py:5901
 msgid "vault impressions"
 msgstr ""
 
-#: r2/lib/pages/pages.py:5832 r2/lib/pages/trafficpages.py:473
+#: r2/lib/pages/pages.py:5902 r2/lib/pages/trafficpages.py:478
 msgid "total clicks"
 msgstr "totalaj klakoj"
 
-#: r2/lib/pages/pages.py:5832
+#: r2/lib/pages/pages.py:5902
 msgid "total impressions"
 msgstr ""
 
-#: r2/lib/pages/pages.py:6035 r2/templates/accountactivitybox.html:27
+#: r2/lib/pages/pages.py:6105 r2/templates/accountactivitybox.html:27
 msgid "account activity"
 msgstr "konto-aktiveco"
 
-#: r2/lib/pages/pages.py:6167
+#: r2/lib/pages/pages.py:6237
 msgid "subscribed"
 msgstr "abonita"
 
-#: r2/lib/pages/pages.py:6168 r2/templates/preffeeds.html:58
+#: r2/lib/pages/pages.py:6238 r2/templates/preffeeds.html:58
 msgid "your front page"
 msgstr "via ĉefpaĝo"
 
-#: r2/lib/pages/pages.py:6171 r2/lib/pages/pages.py:6176 r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:104
+#: r2/lib/pages/pages.py:6241 r2/lib/pages/pages.py:6246 r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:104
 msgid "everything"
 msgstr "ĉio"
 
-#: r2/lib/pages/pages.py:6174 r2/lib/pages/pages.py:6177
+#: r2/lib/pages/pages.py:6244 r2/lib/pages/pages.py:6247
 msgid "from all vaults"
 msgstr "de ĉiuj vaultoj"
 
-#: r2/lib/pages/pages.py:6179
+#: r2/lib/pages/pages.py:6249
 msgid "moderating"
 msgstr ""
 
-#: r2/lib/pages/pages.py:6180
+#: r2/lib/pages/pages.py:6250
 msgid "vaults you mod"
 msgstr ""
 
-#: r2/lib/pages/pages.py:6186
+#: r2/lib/pages/pages.py:6256
 msgid "gold perks"
 msgstr ""
 
-#: r2/lib/pages/pages.py:6202
+#: r2/lib/pages/pages.py:6272
 msgid "explore multis"
 msgstr ""
 
-#: r2/lib/pages/pages.py:6288
+#: r2/lib/pages/pages.py:6358
 msgid "faq"
 msgstr ""
 
-#: r2/lib/pages/pages.py:6289 r2/templates/usertext.html:121
+#: r2/lib/pages/pages.py:6359 r2/templates/usertext.html:121
 #, fuzzy
 #| msgid "formatting help"
 msgid "formatting"
 msgstr "formathelpo"
 
-#: r2/lib/pages/pages.py:6358
+#: r2/lib/pages/pages.py:6428
 msgid "your subscribed vaults"
 msgstr ""
 
-#: r2/lib/pages/pages.py:6471
+#: r2/lib/pages/pages.py:6541
 #, python-format
 msgid "this promoted link uses city level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr ""
 
-#: r2/lib/pages/pages.py:6475
+#: r2/lib/pages/pages.py:6545
 #, python-format
 msgid "this promoted link uses country level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr ""
@@ -4768,7 +4620,7 @@ msgstr ""
 msgid "uniques by %s"
 msgstr "unika paĝvidoj po %s"
 
-#: r2/lib/pages/trafficpages.py:139 r2/lib/pages/trafficpages.py:885 r2/templates/adverttrafficsummary.html:38 r2/templates/languagetrafficsummary.html:37 r2/templates/sitewidetraffic.html:41 r2/templates/tipprtraffic.html:100 r2/templates/vaulttrafficreport.html:46
+#: r2/lib/pages/trafficpages.py:139 r2/lib/pages/trafficpages.py:890 r2/templates/adverttrafficsummary.html:38 r2/templates/languagetrafficsummary.html:37 r2/templates/sitewidetraffic.html:41 r2/templates/tipprtraffic.html:105 r2/templates/vaulttrafficreport.html:46
 msgid "uniques"
 msgstr "unikoj"
 
@@ -4777,7 +4629,7 @@ msgstr "unikoj"
 msgid "pageviews by %s"
 msgstr "paĝvidoj po %s"
 
-#: r2/lib/pages/trafficpages.py:142 r2/lib/pages/trafficpages.py:886 r2/templates/languagetrafficsummary.html:38 r2/templates/sitewidetraffic.html:42 r2/templates/tipprtraffic.html:101 r2/templates/vaulttrafficreport.html:47
+#: r2/lib/pages/trafficpages.py:142 r2/lib/pages/trafficpages.py:891 r2/templates/languagetrafficsummary.html:38 r2/templates/sitewidetraffic.html:42 r2/templates/tipprtraffic.html:106 r2/templates/vaulttrafficreport.html:47
 msgid "pageviews"
 msgstr "paĝvidoj"
 
@@ -4790,59 +4642,59 @@ msgstr "datumtrafico po %s"
 msgid "[frontpage]"
 msgstr "[ĉefpaĝo]"
 
-#: r2/lib/pages/trafficpages.py:293
+#: r2/lib/pages/trafficpages.py:297
 #, fuzzy
 #| msgid "account activity"
 msgid "activity by day"
 msgstr "konto-aktiveco"
 
-#: r2/lib/pages/trafficpages.py:342
+#: r2/lib/pages/trafficpages.py:347
 msgid "total impressions by day"
 msgstr ""
 
-#: r2/lib/pages/trafficpages.py:345
+#: r2/lib/pages/trafficpages.py:350
 msgid "total clicks by day"
 msgstr "totalaj klakoj po tago"
 
-#: r2/lib/pages/trafficpages.py:350
+#: r2/lib/pages/trafficpages.py:355
 msgid "ad totals"
 msgstr ""
 
-#: r2/lib/pages/trafficpages.py:387 r2/models/promo.py:345
+#: r2/lib/pages/trafficpages.py:392 r2/models/promo.py:345
 msgid "frontpage"
 msgstr "ĉefpaĝo"
 
-#: r2/lib/pages/trafficpages.py:466
+#: r2/lib/pages/trafficpages.py:471
 #, python-format
 msgid "impressions by %s"
 msgstr ""
 
-#: r2/lib/pages/trafficpages.py:470
+#: r2/lib/pages/trafficpages.py:475
 msgid "unique clicks"
 msgstr "unikaj klakoj"
 
-#: r2/lib/pages/trafficpages.py:472
+#: r2/lib/pages/trafficpages.py:477
 #, python-format
 msgid "clicks by %s"
 msgstr "klakoj po %s"
 
-#: r2/lib/pages/trafficpages.py:529
+#: r2/lib/pages/trafficpages.py:534
 msgid "subscriptions by day"
 msgstr "abonoj po tago"
 
-#: r2/lib/pages/trafficpages.py:530
+#: r2/lib/pages/trafficpages.py:535
 msgid "subscriptions"
 msgstr "abonoj"
 
-#: r2/lib/pages/trafficpages.py:726 r2/templates/promotedlinktraffic.html:61
+#: r2/lib/pages/trafficpages.py:731 r2/templates/promotedlinktraffic.html:61
 msgid "total"
 msgstr ""
 
-#: r2/lib/pages/trafficpages.py:840
+#: r2/lib/pages/trafficpages.py:845
 msgid "date and time (UTC)"
 msgstr "dato kaj tempo (UTC)"
 
-#: r2/lib/pages/trafficpages.py:843
+#: r2/lib/pages/trafficpages.py:848
 msgid "click-through rate (%)"
 msgstr ""
 
@@ -5018,68 +4870,55 @@ msgstr ""
 msgid "Your gold payment has been refunded, contact %(gold_email)s for details"
 msgstr ""
 
-#: r2/lib/utils/_utils.py:229
-#, fuzzy
-#| msgid "milliseconds"
-#| msgid_plural "milliseconds"
-msgid "millisecond"
-msgid_plural "milliseconds"
-msgstr[0] "milisekundo"
-msgstr[1] "milisekundoj"
-
-#: r2/lib/utils/_utils.py:248 r2/templates/adminapps.html:93 r2/templates/admindomain.html:85 r2/templates/admindomains.html:44 r2/templates/adminfeeds.html:132 r2/templates/adminsupport.html:83 r2/templates/adminsupport.html:88 r2/templates/adminsupportactivity.html:77 r2/templates/adminsupportticket.html:106 r2/templates/adminsupportticket.html:119 r2/templates/adminsupportticket.html:157 r2/templates/adminuser.html:40 r2/templates/adminuser.html:50 r2/templates/adminuser.html:58 r2/templates/adminuser.html:200 r2/templates/adminuser.html:232 r2/templates/adminusers.html:64 r2/templates/adminvault.html:40 r2/templates/adminvault.html:50 r2/templates/adminvaults.html:57 r2/templates/comment.htmllite:49 r2/templates/commentvisitsbox.html:41
-msgid "ago"
-msgstr "antaŭe"
-
-#: r2/lib/validator/validator.py:2079
+#: r2/lib/validator/validator.py:2115
 #, python-format
 msgid "%(min)d to any"
 msgstr ""
 
-#: r2/lib/validator/validator.py:2081
+#: r2/lib/validator/validator.py:2117
 #, python-format
 msgid "any to %(max)d"
 msgstr ""
 
-#: r2/lib/validator/validator.py:2083
+#: r2/lib/validator/validator.py:2119
 #, python-format
 msgid "%(min)d to %(max)d"
 msgstr ""
 
-#: r2/lib/validator/validator.py:2809
+#: r2/lib/validator/validator.py:2845
 msgid "a user by name"
 msgstr ""
 
-#: r2/lib/validator/validator.py:2824
+#: r2/lib/validator/validator.py:2860
 msgid "a [fullname](#fullname) of a link"
 msgstr ""
 
-#: r2/lib/validator/validator.py:2978
+#: r2/lib/validator/validator.py:3017
 msgid "an app"
 msgstr ""
 
-#: r2/lib/validator/validator.py:2996
+#: r2/lib/validator/validator.py:3035
 msgid "an app developed by the user"
 msgstr ""
 
-#: r2/lib/validator/validator.py:3219
+#: r2/lib/validator/validator.py:3258
 msgid "no spaces allowed"
 msgstr ""
 
-#: r2/lib/validator/validator.py:3221
+#: r2/lib/validator/validator.py:3260
 #, python-format
 msgid "invalid character: '%s'"
 msgstr "nevalida signo: '%s'"
 
-#: r2/lib/validator/validator.py:3223
+#: r2/lib/validator/validator.py:3262
 msgid "can't start with a '_'"
 msgstr "ne rajtas komenci kun '_'"
 
-#: r2/lib/validator/validator.py:3225
+#: r2/lib/validator/validator.py:3264
 msgid "that name is too short"
 msgstr "tiu nomo estas tro mallonga"
 
-#: r2/lib/validator/validator.py:3227
+#: r2/lib/validator/validator.py:3266
 msgid "that name is too long"
 msgstr "tiu nomo estas tro longa"
 
@@ -5223,90 +5062,90 @@ msgstr ""
 msgid "submitted %(when)s by %(author)s"
 msgstr ""
 
-#: r2/models/link.py:1811
+#: r2/models/link.py:1809
 #, python-format
 msgid "%(link)s by %(author)s [sponsored link]"
 msgstr ""
 
-#: r2/models/link.py:1813
+#: r2/models/link.py:1811
 #, python-format
 msgid "%(link)s by %(author)s in %(vault)s"
 msgstr ""
 
-#: r2/models/link.py:1840
+#: r2/models/link.py:1838
 msgid "comment score below threshold"
 msgstr "komenta poentaro sub sojlo"
 
-#: r2/models/link.py:1845
+#: r2/models/link.py:1843
 msgid "blocked user"
 msgstr "blokita uzanto"
 
-#: r2/models/link.py:2382
+#: r2/models/link.py:2372
 msgid "comment reply"
 msgstr "komentrespondo"
 
-#: r2/models/link.py:2384
+#: r2/models/link.py:2374
 msgid "post reply"
 msgstr "afiŝorespondo"
 
-#: r2/models/link.py:2386
+#: r2/models/link.py:2376
 msgid "username mention"
 msgstr ""
 
-#: r2/models/link.py:2390 r2/models/link.py:2451
+#: r2/models/link.py:2380 r2/models/link.py:2441
 #, python-format
 msgid "from %(author)s via %(vault)s sent %(when)s"
 msgstr ""
 
-#: r2/models/link.py:2403
+#: r2/models/link.py:2393
 msgid "[message from blocked vault]"
 msgstr ""
 
-#: r2/models/link.py:2424 r2/models/link.py:2429
+#: r2/models/link.py:2414 r2/models/link.py:2419
 #, python-format
 msgid "vault message via %(vault)s sent %(when)s"
 msgstr ""
 
-#: r2/models/link.py:2433 r2/models/link.py:2456
+#: r2/models/link.py:2423 r2/models/link.py:2446
 #, python-format
 msgid "to %(dest)s via %(vault)s sent %(when)s"
 msgstr ""
 
-#: r2/models/link.py:2437 r2/models/link.py:2462
+#: r2/models/link.py:2427 r2/models/link.py:2452
 #, python-format
 msgid "from %(author)s via %(vault)s to %(dest)s sent %(when)s"
 msgstr ""
 
-#: r2/models/link.py:2453
+#: r2/models/link.py:2443
 #, python-format
 msgid "to %(vault)s sent %(when)s"
 msgstr ""
 
-#: r2/models/link.py:2459
+#: r2/models/link.py:2449
 #, python-format
 msgid "from %(author)s to %(vault)s sent %(when)s"
 msgstr ""
 
-#: r2/models/link.py:2477
+#: r2/models/link.py:2467
 #, python-format
 msgid "from %(author)s sent %(when)s"
 msgstr ""
 
-#: r2/models/link.py:2479
+#: r2/models/link.py:2469
 #, python-format
 msgid "to %(dest)s sent %(when)s"
 msgstr ""
 
-#: r2/models/link.py:2482
+#: r2/models/link.py:2472
 #, python-format
 msgid "to %(dest)s from %(author)s sent %(when)s"
 msgstr ""
 
-#: r2/models/link.py:2505
+#: r2/models/link.py:2495
 msgid "[message from blocked user]"
 msgstr "[mesaĝo de blokita uzanto]"
 
-#: r2/models/link.py:2506
+#: r2/models/link.py:2496
 msgid "[unblock user to see this message]"
 msgstr "[malbloki uzanton por montri ŝian/lian meŝaĝon]"
 
@@ -5587,7 +5426,7 @@ msgstr ""
 msgid "wiki page permissions"
 msgstr ""
 
-#: r2/models/modaction.py:95 r2/models/modaction.py:205 r2/templates/printablebuttons.html:250
+#: r2/models/modaction.py:95 r2/models/modaction.py:206 r2/templates/printablebuttons.html:250
 msgid "ignore reports"
 msgstr ""
 
@@ -5860,106 +5699,112 @@ msgid "toggle collapse deleted/removed comments"
 msgstr ""
 
 #: r2/models/modaction.py:177
+#, fuzzy
+#| msgid "top %d comments"
+msgid "toggle live comments"
+msgstr "la %d plej furoraj komentoj"
+
+#: r2/models/modaction.py:178
 msgid "toggle exclude banned users' posts from modqueue"
 msgstr ""
 
-#: r2/models/modaction.py:179
+#: r2/models/modaction.py:180
 msgid "toggle show sidebar from cname"
 msgstr "ŝanĝu ĉu montri laterstangon de cname"
 
-#: r2/models/modaction.py:180
+#: r2/models/modaction.py:181
 msgid "toggle custom CSS from cname"
 msgstr ""
 
-#: r2/models/modaction.py:181
+#: r2/models/modaction.py:182
 msgid "header title"
 msgstr ""
 
-#: r2/models/modaction.py:183
+#: r2/models/modaction.py:184
 msgid "delete header image"
 msgstr ""
 
-#: r2/models/modaction.py:184
+#: r2/models/modaction.py:185
 msgid "delete image"
 msgstr ""
 
-#: r2/models/modaction.py:185
+#: r2/models/modaction.py:186
 msgid "delete icon image"
 msgstr ""
 
-#: r2/models/modaction.py:186
+#: r2/models/modaction.py:187
 msgid "delete banner image"
 msgstr ""
 
-#: r2/models/modaction.py:187 r2/templates/createvault.html:474
+#: r2/models/modaction.py:188 r2/templates/createvault.html:488
 msgid "upload header image"
 msgstr "alŝuti kapobildon"
 
-#: r2/models/modaction.py:188
+#: r2/models/modaction.py:189
 msgid "upload icon image"
 msgstr ""
 
-#: r2/models/modaction.py:189
+#: r2/models/modaction.py:190
 msgid "upload banner image"
 msgstr ""
 
-#: r2/models/modaction.py:190
+#: r2/models/modaction.py:191
 msgid "upload image"
 msgstr ""
 
-#: r2/models/modaction.py:192
+#: r2/models/modaction.py:193
 msgid "add/edit flair"
 msgstr ""
 
-#: r2/models/modaction.py:193
+#: r2/models/modaction.py:194
 msgid "delete flair"
 msgstr ""
 
-#: r2/models/modaction.py:194
+#: r2/models/modaction.py:195
 msgid "edit by csv"
 msgstr ""
 
-#: r2/models/modaction.py:195
+#: r2/models/modaction.py:196
 msgid "toggle flair enabled"
 msgstr ""
 
-#: r2/models/modaction.py:196
+#: r2/models/modaction.py:197
 msgid "toggle user flair position"
 msgstr ""
 
-#: r2/models/modaction.py:197
+#: r2/models/modaction.py:198
 msgid "toggle link flair position"
 msgstr ""
 
-#: r2/models/modaction.py:198
+#: r2/models/modaction.py:199
 msgid "toggle user assigned flair enabled"
 msgstr ""
 
-#: r2/models/modaction.py:199
+#: r2/models/modaction.py:200
 msgid "toggle submitter assigned link flair enabled"
 msgstr ""
 
-#: r2/models/modaction.py:200
+#: r2/models/modaction.py:201
 msgid "add/edit flair templates"
 msgstr ""
 
-#: r2/models/modaction.py:201
+#: r2/models/modaction.py:202
 msgid "delete flair template"
 msgstr ""
 
-#: r2/models/modaction.py:202
+#: r2/models/modaction.py:203
 msgid "clear flair templates"
 msgstr ""
 
-#: r2/models/modaction.py:204 r2/templates/createvault.html:510 r2/templates/createvault.html:516 r2/templates/filteredinfobar.html:42 r2/templates/multiinfobar.html:119 r2/templates/prefapps.html:82 r2/templates/prefsecurity.html:70 r2/templates/printablebuttons.html:50 r2/templates/printablebuttons.html:266 r2/templates/trophycase.html:51 r2/templates/usertableitem.html:62
+#: r2/models/modaction.py:205 r2/templates/createvault.html:524 r2/templates/createvault.html:530 r2/templates/filteredinfobar.html:42 r2/templates/multiinfobar.html:119 r2/templates/prefapps.html:82 r2/templates/printablebuttons.html:50 r2/templates/printablebuttons.html:266 r2/templates/trophycase.html:51 r2/templates/usertableitem.html:62
 msgid "remove"
 msgstr "forigu"
 
-#: r2/models/modaction.py:207
+#: r2/models/modaction.py:208
 msgid "set permissions on moderator"
 msgstr ""
 
-#: r2/models/modaction.py:208
+#: r2/models/modaction.py:209
 msgid "set permissions on moderator invitation"
 msgstr ""
 
@@ -6239,90 +6084,90 @@ msgstr "Legi vikiaj paĝoj"
 msgid "Read wiki pages through my account"
 msgstr ""
 
-#: r2/models/vault.py:324
+#: r2/models/vault.py:321
 msgid "red"
 msgstr ""
 
-#: r2/models/vault.py:325
+#: r2/models/vault.py:322
 msgid "orangered"
 msgstr "oranĝruĝa"
 
-#: r2/models/vault.py:326
+#: r2/models/vault.py:323
 msgid "orange"
 msgstr "oranĝa"
 
-#: r2/models/vault.py:327
+#: r2/models/vault.py:324
 msgid "mango"
 msgstr ""
 
-#: r2/models/vault.py:328
+#: r2/models/vault.py:325
 msgid "lime"
 msgstr "limea"
 
-#: r2/models/vault.py:329
+#: r2/models/vault.py:326
 msgid "green"
 msgstr "verda"
 
-#: r2/models/vault.py:330
+#: r2/models/vault.py:327
 msgid "mint"
 msgstr ""
 
-#: r2/models/vault.py:331
+#: r2/models/vault.py:328
 msgid "teal"
 msgstr ""
 
-#: r2/models/vault.py:332
+#: r2/models/vault.py:329
 msgid "blue"
 msgstr "blua"
 
-#: r2/models/vault.py:333
+#: r2/models/vault.py:330
 msgid "alien blue"
 msgstr "alimondana blua"
 
-#: r2/models/vault.py:334
+#: r2/models/vault.py:331
 msgid "pink"
 msgstr ""
 
-#: r2/models/vault.py:335
+#: r2/models/vault.py:332
 msgid "purple"
 msgstr ""
 
-#: r2/models/vault.py:337
+#: r2/models/vault.py:334
 msgid "brown"
 msgstr "bruna"
 
-#: r2/models/vault.py:338
+#: r2/models/vault.py:335
 msgid "pale grey"
 msgstr ""
 
-#: r2/models/vault.py:339
+#: r2/models/vault.py:336
 msgid "grey"
 msgstr ""
 
-#: r2/models/vault.py:340
+#: r2/models/vault.py:337
 msgid "dark grey"
 msgstr ""
 
-#: r2/models/vault.py:341
+#: r2/models/vault.py:338
 msgid "semi black"
 msgstr ""
 
-#: r2/models/vault.py:1821 r2/models/vault.py:1861
+#: r2/models/vault.py:1816 r2/models/vault.py:1856
 #, python-format
 msgid "%s (filtered)"
 msgstr "%s (filtrita)"
 
-#: r2/models/vault.py:2073
+#: r2/models/vault.py:2068
 #, python-format
 msgid "posts from %s"
 msgstr "afiŝoj de %s"
 
-#: r2/models/vault.py:2427
+#: r2/models/vault.py:2422
 #, python-format
 msgid "%s vaults curated by /u/%s"
 msgstr "%s vaultoj moderigitaj de /u/%s"
 
-#: r2/models/vault.py:2739
+#: r2/models/vault.py:2734
 #, python-format
 msgid "%(domain)s on %(tippr.net)s"
 msgstr "%(domain)s en %(tippr.net)s"
@@ -6412,7 +6257,7 @@ msgstr "la %d plej furoraj komentoj"
 msgid "expand or collapse the preview, or the comment"
 msgstr ""
 
-#: r2/public/static/js/enhancements.js:180 r2/public/static/js/enhancements.js:631 r2/public/static/js/saved.js:122 r2/public/static/js/saved.js:161 r2/public/static/js/sponsored.js:97 r2/templates/adminadsettings.html:128 r2/templates/adminantispam.html:106 r2/templates/adminemailsettings.html:95 r2/templates/adminfeeds.html:70 r2/templates/adminloginsettings.html:77 r2/templates/adminpaymentsettings.html:213 r2/templates/adminsitesettings.html:127 r2/templates/adminsupportstaff.html:57 r2/templates/flairlistrow.html:48 r2/templates/flairselector.html:54 r2/templates/moderatorpermissions.html:55 r2/templates/prefsecurity.html:102 r2/templates/prefupdate.html:99 r2/templates/prefupdate.html:153 r2/templates/printablebuttons.html:106 r2/templates/printablebuttons.html:375 r2/templates/printablebuttons.html:480 r2/templates/promotelinkedit.html:218 r2/templates/vaultstylesheet.html:70
+#: r2/public/static/js/enhancements.js:180 r2/public/static/js/enhancements.js:631 r2/public/static/js/saved.js:122 r2/public/static/js/saved.js:161 r2/public/static/js/sponsored.js:97 r2/templates/adminadsettings.html:128 r2/templates/adminantispam.html:106 r2/templates/adminemailsettings.html:95 r2/templates/adminfeeds.html:70 r2/templates/adminloginsettings.html:77 r2/templates/adminpaymentsettings.html:213 r2/templates/adminsitesettings.html:146 r2/templates/adminsupportstaff.html:57 r2/templates/adminuser.html:106 r2/templates/flairlistrow.html:48 r2/templates/flairselector.html:54 r2/templates/moderatorpermissions.html:55 r2/templates/prefsecurity.html:204 r2/templates/prefupdate.html:100 r2/templates/prefupdate.html:154 r2/templates/printablebuttons.html:106 r2/templates/printablebuttons.html:375 r2/templates/printablebuttons.html:480 r2/templates/promotelinkedit.html:218 r2/templates/vaultstylesheet.html:70
 msgid "save"
 msgstr "tenu"
 
@@ -6574,11 +6419,11 @@ msgstr "karmo el komentoj"
 msgid "change tag"
 msgstr "konservi ŝanĝojn"
 
-#: r2/public/static/js/enhancements.js:762 r2/templates/adminuser.html:32
+#: r2/public/static/js/enhancements.js:762 r2/templates/adminuser.html:35
 msgid "profile"
 msgstr ""
 
-#: r2/public/static/js/enhancements.js:765 r2/templates/adminuser.html:35
+#: r2/public/static/js/enhancements.js:765 r2/templates/adminuser.html:38
 #, fuzzy
 #| msgid "send message"
 msgid "send a message"
@@ -6667,11 +6512,15 @@ msgstr "tiu komento forviŝiĝis"
 msgid "add an account"
 msgstr "kreu novan konton"
 
+#: r2/public/static/js/enhancements.js:1082 r2/templates/adminemailsettings.html:69 r2/templates/adminprivacy.html:69 r2/templates/adminvault.html:68 r2/templates/linkedloginlink.html:39 r2/templates/login.html:77 r2/templates/login.html:86 r2/templates/login.html:197 r2/templates/loginformwide.html:44 r2/templates/password.html:41 r2/templates/privacysettings.html:124 r2/templates/register.html:77 r2/templates/register.html:86 r2/templates/register.html:197 r2/templates/userlisting.html:164
+msgid "username"
+msgstr "salutnomo"
+
 #: r2/public/static/js/enhancements.js:1085
 msgid "add and switch"
 msgstr ""
 
-#: r2/public/static/js/enhancements.js:1100 r2/templates/linkedloginotp.html:30 r2/templates/newlink.html:155 r2/templates/prefoptions.html:598 r2/templates/prefsecurity.html:37 r2/templates/prefsecurity.html:126 r2/templates/prefsecurity.html:145 r2/templates/prefupdate.html:33 r2/templates/privacysettings.html:133
+#: r2/public/static/js/enhancements.js:1100 r2/templates/linkedloginotp.html:35 r2/templates/newlink.html:155 r2/templates/prefoptions.html:613 r2/templates/prefsecurity.html:37 r2/templates/prefsecurity.html:104 r2/templates/prefsecurity.html:242 r2/templates/prefupdate.html:33 r2/templates/privacysettings.html:133
 #, fuzzy
 #| msgid "two-factor authentication"
 msgid "two-factor code"
@@ -6720,6 +6569,15 @@ msgstr "urbo mankas"
 msgid "missing country"
 msgstr "lando mankas"
 
+#: r2/public/static/js/here-now.js:40
+#, fuzzy, python-format
+#| msgid "user here now"
+#| msgid_plural "users here now"
+msgid "%(num)s here now"
+msgid_plural "%(num)s here now"
+msgstr[0] "uzanto ĉeestas nun"
+msgstr[1] "uzantoj ĉeestas nun"
+
 #: r2/public/static/js/image-upload.js:9
 msgid "something went wrong."
 msgstr ""
@@ -6733,9 +6591,25 @@ msgstr ""
 msgid "an error occurred. please try again later! (status: %(status)s)"
 msgstr "eraroj okazas. bonvolu provu denove poste! (statuso: %(status)s)"
 
-#: r2/public/static/js/jquery.tippr.js:355 r2/public/static/js/saved.js:166 r2/templates/printablebuttons.html:373 r2/templates/printablebuttons.html:476
+#: r2/public/static/js/jquery.tippr.js:370 r2/public/static/js/saved.js:166 r2/templates/printablebuttons.html:373 r2/templates/printablebuttons.html:476
 msgid "unsave"
 msgstr "maltenu"
+
+#: r2/public/static/js/live-comments.js:99
+#, fuzzy, python-format
+#| msgid "this month"
+msgid "%(num)s comment"
+msgid_plural "%(num)s comments"
+msgstr[0] "ĉimonate"
+msgstr[1] "ĉimonate"
+
+#: r2/public/static/js/live-comments.js:102
+#, fuzzy, python-format
+#| msgid "all %d comments"
+msgid "all %(num)s comment"
+msgid_plural "all %(num)s comments"
+msgstr[0] "ĉiuj %d komentoj"
+msgstr[1] "ĉiuj %d komentoj"
 
 #: r2/public/static/js/login.js:115
 msgid "You need to be logged in to upvote things."
@@ -6805,7 +6679,7 @@ msgstr ""
 msgid "food"
 msgstr ""
 
-#: r2/public/static/js/markdown-toolbar.js:35 r2/templates/adminsupport.html:72 r2/templates/tipprtraffic.html:130
+#: r2/public/static/js/markdown-toolbar.js:35 r2/templates/adminsupport.html:72 r2/templates/tipprtraffic.html:135
 #, fuzzy
 #| msgid "account activity"
 msgid "activity"
@@ -6921,22 +6795,72 @@ msgstr ""
 msgid "couldn't reach the site"
 msgstr ""
 
-#: r2/public/static/js/passkey.js:94
-msgid "no passkey was used"
+#: r2/public/static/js/passkey.js:98
+msgid "No passkey was created. Try again, or add an authenticator app instead."
 msgstr ""
 
-#: r2/public/static/js/passkey.js:97
-#, fuzzy
-#| msgid "that user is already a moderator"
-msgid "that passkey is already added"
-msgstr "ĉi tiu uzanto jam estas moderatoro"
-
-#: r2/public/static/js/passkey.js:99
-msgid "the passkey didn't work"
+#: r2/public/static/js/passkey.js:100
+msgid "No passkey was used. Try again, or enter a code instead."
 msgstr ""
 
-#: r2/public/static/js/passkey.js:130
+#: r2/public/static/js/passkey.js:101
+msgid "No passkey was used. Try again, or use a recovery code instead."
+msgstr ""
+
+#: r2/public/static/js/passkey.js:104
+msgid "This device already has a passkey for your account: it is in your list."
+msgstr ""
+
+#: r2/public/static/js/passkey.js:108
+msgid "We couldn't create your passkey. Try again, or add an authenticator app instead."
+msgstr ""
+
+#: r2/public/static/js/passkey.js:110
+msgid "We couldn't check your passkey. Try again, or enter a code instead."
+msgstr ""
+
+#: r2/public/static/js/passkey.js:111
+msgid "We couldn't check your passkey. Try again, or use a recovery code instead."
+msgstr ""
+
+#: r2/public/static/js/passkey.js:159
+msgid "or use a passkey"
+msgstr ""
+
+#: r2/public/static/js/passkey.js:159
 msgid "use a passkey"
+msgstr ""
+
+#: r2/public/static/js/passkey.js:186
+#, fuzzy
+#| msgid "recover password"
+msgid "use a recovery code instead"
+msgstr "retrovu pasvorton"
+
+#: r2/public/static/js/passkey.js:190
+#, fuzzy
+#| msgid "recover password"
+msgid "recovery code"
+msgstr "retrovu pasvorton"
+
+#: r2/public/static/js/passkey.js:215
+msgid "Follow your browser’s prompt to create a passkey for this site."
+msgstr ""
+
+#: r2/public/static/js/passkey.js:292
+msgid "Follow your browser’s prompt to choose a passkey for this site."
+msgstr ""
+
+#: r2/public/static/js/passkey.js:304
+msgid "Signing in…"
+msgstr ""
+
+#: r2/public/static/js/passkey.js:319
+msgid "No passkey was used. Try again, or log in with your password."
+msgstr ""
+
+#: r2/public/static/js/passkey.js:320
+msgid "We couldn't sign you in with a passkey. Try again, or log in with your password."
 msgstr ""
 
 #: r2/public/static/js/popup.js:29 r2/public/static/js/post-sharing.js:73
@@ -6973,7 +6897,7 @@ msgstr ""
 msgid "send"
 msgstr "sendu"
 
-#: r2/public/static/js/post-sharing.js:133 r2/templates/fraudform.html:48 r2/templates/linkcommentssettings.html:78 r2/templates/printablebuttons.html:420 r2/templates/promotelinkedit.html:121 r2/templates/reportform.html:71 r2/templates/rules.html:137 r2/templates/vaultreportform.html:46
+#: r2/public/static/js/post-sharing.js:133 r2/templates/adminprivacy.html:48 r2/templates/fraudform.html:48 r2/templates/linkcommentssettings.html:78 r2/templates/printablebuttons.html:420 r2/templates/promotelinkedit.html:121 r2/templates/reportform.html:71 r2/templates/rules.html:137 r2/templates/vaultreportform.html:46
 msgid "cancel"
 msgstr ""
 
@@ -7162,11 +7086,11 @@ msgid_plural "%(num)s minutes ago"
 msgstr[0] "antaŭ unu minuto"
 msgstr[1] "antaŭ %(num)s minutoj"
 
-#: r2/public/static/js/tippr.js:104
+#: r2/public/static/js/tippr.js:112
 msgid "please wait a few seconds and try again."
 msgstr "bonvolu atendu kelkajn sekundojn kaj provu denove."
 
-#: r2/public/static/js/tippr.js:106 r2/public/static/js/ui.js:657
+#: r2/public/static/js/tippr.js:114 r2/public/static/js/ui.js:665
 #, python-format
 msgid "an error occurred (status: %(status)s)"
 msgstr ""
@@ -7175,35 +7099,35 @@ msgstr ""
 msgid "view vault traffic"
 msgstr "vidi vault-a datumtrafico"
 
-#: r2/public/static/js/traffic.js:13 r2/templates/adminuser.html:144 r2/templates/flairlist.html:34 r2/templates/userlisting.html:170
+#: r2/public/static/js/traffic.js:13 r2/templates/adminuser.html:169 r2/templates/flairlist.html:34 r2/templates/userlisting.html:170
 msgid "go"
 msgstr "ek"
 
-#: r2/public/static/js/ui.js:96
+#: r2/public/static/js/ui.js:83
 msgid "menu"
 msgstr ""
 
-#: r2/public/static/js/ui.js:112 r2/templates/goldpayment.html:47 r2/templates/tippr.html:258
+#: r2/public/static/js/ui.js:99 r2/templates/goldpayment.html:47 r2/templates/tippr.html:250
 msgid "close"
 msgstr ""
 
-#: r2/public/static/js/ui.js:919 r2/public/static/js/ui.js:973
+#: r2/public/static/js/ui.js:929 r2/public/static/js/ui.js:983
 msgid "full permissions"
 msgstr "ĉiuj permesoj"
 
-#: r2/public/static/js/ui.js:1022
+#: r2/public/static/js/ui.js:1032
 msgid "no permissions"
 msgstr "neniuj permesoj"
 
-#: r2/public/static/js/ui.js:1118 r2/templates/goldsubscription.html:50 r2/templates/printablebuttons.html:687 r2/templates/printablebuttons.html:709
+#: r2/public/static/js/ui.js:1131 r2/templates/goldsubscription.html:50 r2/templates/printablebuttons.html:687 r2/templates/printablebuttons.html:709
 msgid "are you sure?"
 msgstr "Ĉu vi certas?"
 
-#: r2/public/static/js/ui.js:1119 r2/templates/adminuser.html:60 r2/templates/adminuser.html:76 r2/templates/fraudform.html:35 r2/templates/goldsubscription.html:53 r2/templates/optout.html:40 r2/templates/optout.html:56 r2/templates/printablebuttons.html:689 r2/templates/printablebuttons.html:738
+#: r2/public/static/js/ui.js:1132 r2/templates/adminuser.html:63 r2/templates/adminuser.html:79 r2/templates/fraudform.html:35 r2/templates/goldsubscription.html:53 r2/templates/optout.html:40 r2/templates/optout.html:56 r2/templates/printablebuttons.html:689 r2/templates/printablebuttons.html:738
 msgid "yes"
 msgstr "jes"
 
-#: r2/public/static/js/ui.js:1120 r2/templates/adminuser.html:81 r2/templates/fraudform.html:40 r2/templates/goldsubscription.html:56 r2/templates/optout.html:43 r2/templates/optout.html:59 r2/templates/printablebuttons.html:199 r2/templates/printablebuttons.html:691 r2/templates/printablebuttons.html:741
+#: r2/public/static/js/ui.js:1133 r2/templates/adminuser.html:84 r2/templates/fraudform.html:40 r2/templates/goldsubscription.html:56 r2/templates/optout.html:43 r2/templates/optout.html:59 r2/templates/printablebuttons.html:199 r2/templates/printablebuttons.html:691 r2/templates/printablebuttons.html:741
 msgid "no"
 msgstr "ne"
 
@@ -7382,7 +7306,7 @@ msgstr ""
 msgid "saved; leave blank to keep"
 msgstr ""
 
-#: r2/templates/adminantispam.html:20 r2/templates/adminemailsettings.html:20 r2/templates/adminloginsettings.html:19 r2/templates/adminpaymentsettings.html:28 r2/templates/prefupdate.html:64
+#: r2/templates/adminantispam.html:20 r2/templates/adminemailsettings.html:20 r2/templates/adminloginsettings.html:19 r2/templates/adminpaymentsettings.html:28 r2/templates/prefupdate.html:65
 msgid "not set"
 msgstr ""
 
@@ -7442,7 +7366,7 @@ msgstr ""
 msgid "check"
 msgstr ""
 
-#: r2/templates/adminantispam.html:93 r2/templates/adminsitesettings.html:110
+#: r2/templates/adminantispam.html:93 r2/templates/adminsitesettings.html:129
 msgid "sign-ups"
 msgstr ""
 
@@ -7470,7 +7394,7 @@ msgstr ""
 msgid "CleanTalk statistics"
 msgstr "lingvaj datumtrafikaj statistikoj"
 
-#: r2/templates/adminantispam.html:115 r2/templates/adminantispam.html:117 r2/templates/adminantispam.html:133 r2/templates/adminantispam.html:181 r2/templates/adminuser.html:38 r2/templates/adminusers.html:57
+#: r2/templates/adminantispam.html:115 r2/templates/adminantispam.html:117 r2/templates/adminantispam.html:133 r2/templates/adminantispam.html:181 r2/templates/adminuser.html:41 r2/templates/adminusers.html:76
 #, fuzzy
 #| msgid "country"
 msgid "account"
@@ -7570,15 +7494,15 @@ msgstr ""
 msgid "flagged by CleanTalk"
 msgstr ""
 
-#: r2/templates/adminantispam.html:181 r2/templates/adminuser.html:40 r2/templates/adminusers.html:57
+#: r2/templates/adminantispam.html:181 r2/templates/adminuser.html:43 r2/templates/adminusers.html:76
 msgid "joined"
 msgstr ""
 
-#: r2/templates/adminantispam.html:181 r2/templates/adminuser.html:64 r2/templates/adminusers.html:57
+#: r2/templates/adminantispam.html:181 r2/templates/adminuser.html:67 r2/templates/adminusers.html:76
 msgid "karma"
 msgstr ""
 
-#: r2/templates/adminantispam.html:182 r2/templates/adminuser.html:65 r2/templates/adminusers.html:58 r2/templates/login.html:108 r2/templates/newsletter.html:58 r2/templates/newsletterbar.html:43 r2/templates/prefupdate.html:84
+#: r2/templates/adminantispam.html:182 r2/templates/adminuser.html:68 r2/templates/adminusers.html:77 r2/templates/login.html:110 r2/templates/newsletter.html:58 r2/templates/newsletterbar.html:43 r2/templates/prefupdate.html:85 r2/templates/register.html:110
 msgid "email"
 msgstr "retpoŝto"
 
@@ -7607,7 +7531,7 @@ msgstr "malakceptitaj"
 msgid "not spam (dismiss)"
 msgstr ""
 
-#: r2/templates/adminantispam.html:210 r2/templates/adminapps.html:107 r2/templates/adminuser.html:126
+#: r2/templates/adminantispam.html:210 r2/templates/adminapps.html:107 r2/templates/adminuser.html:151
 msgid "suspend"
 msgstr ""
 
@@ -7619,7 +7543,7 @@ msgstr ""
 msgid "apply"
 msgstr ""
 
-#: r2/templates/adminantispam.html:217 r2/templates/adminuser.html:189 r2/templates/adminuser.html:237 r2/templates/adminvault.html:109 r2/templates/adminvault.html:139 r2/templates/adminvaults.html:66 r2/templates/adminvaults.html:78
+#: r2/templates/adminantispam.html:217 r2/templates/adminuser.html:214 r2/templates/adminuser.html:262 r2/templates/adminvault.html:109 r2/templates/adminvault.html:139 r2/templates/adminvaults.html:66 r2/templates/adminvaults.html:78
 msgid "None."
 msgstr ""
 
@@ -7696,17 +7620,21 @@ msgstr "nova nomo"
 msgid "(the site's own)"
 msgstr ""
 
+#: r2/templates/adminapps.html:93 r2/templates/admindomain.html:85 r2/templates/admindomains.html:44 r2/templates/adminfeeds.html:132 r2/templates/adminsupport.html:83 r2/templates/adminsupport.html:88 r2/templates/adminsupportactivity.html:77 r2/templates/adminsupportticket.html:106 r2/templates/adminsupportticket.html:119 r2/templates/adminsupportticket.html:157 r2/templates/adminuser.html:43 r2/templates/adminuser.html:53 r2/templates/adminuser.html:61 r2/templates/adminuser.html:225 r2/templates/adminuser.html:257 r2/templates/adminusers.html:83 r2/templates/adminvault.html:40 r2/templates/adminvault.html:50 r2/templates/adminvaults.html:57 r2/templates/comment.htmllite:49 r2/templates/commentvisitsbox.html:41
+msgid "ago"
+msgstr "antaŭe"
+
 #: r2/templates/adminapps.html:104 r2/templates/printablebuttons.html:57 r2/templates/printablebuttons.html:272
 msgid "approve"
 msgstr ""
 
-#: r2/templates/adminapps.html:110 r2/templates/adminuser.html:124
+#: r2/templates/adminapps.html:110 r2/templates/adminuser.html:149
 #, fuzzy
 #| msgid "other discussions"
 msgid "lift the suspension"
 msgstr "aliaj debatoj"
 
-#: r2/templates/adminapps.html:113 r2/templates/adminbackups.html:139 r2/templates/adminfeeds.html:148 r2/templates/adminuser.html:167 r2/templates/multiinfobar.html:56 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:578 r2/templates/renderablecampaign.html:161 r2/templates/rules.html:135 r2/templates/wikipagesettings.html:79
+#: r2/templates/adminapps.html:113 r2/templates/adminbackups.html:139 r2/templates/adminfeeds.html:148 r2/templates/adminuser.html:192 r2/templates/multiinfobar.html:56 r2/templates/prefsecurity.html:133 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:578 r2/templates/renderablecampaign.html:161 r2/templates/rules.html:135 r2/templates/wikipagesettings.html:79
 msgid "delete"
 msgstr "forviŝu"
 
@@ -8146,7 +8074,7 @@ msgstr ""
 msgid "send a test email"
 msgstr "sendu konfirmilon"
 
-#: r2/templates/adminemailsettings.html:104 r2/templates/adminsitesettings.html:145 r2/templates/adminuser.html:196
+#: r2/templates/adminemailsettings.html:104 r2/templates/adminsitesettings.html:164 r2/templates/adminuser.html:221
 msgid "address"
 msgstr "adreso"
 
@@ -8233,7 +8161,7 @@ msgstr ""
 msgid "Optional, put before each post's title."
 msgstr ""
 
-#: r2/templates/adminfeeds.html:57 r2/templates/adminfeeds.html:107 r2/templates/utils.html:650 r2/templates/vault.html:98
+#: r2/templates/adminfeeds.html:57 r2/templates/adminfeeds.html:107 r2/templates/utils.html:742 r2/templates/vault.html:98
 msgid "NSFW"
 msgstr "MPL/NSFW"
 
@@ -8364,16 +8292,30 @@ msgstr ""
 msgid "Enter your password and one-time code"
 msgstr ""
 
-#: r2/templates/admininterstitial.html:52 r2/templates/admininterstitial.html:62 r2/templates/prefsecurity.html:140 r2/templates/prefsecurity.html:145 r2/templates/prefsecurity.html:213 r2/templates/prefupdate.html:33 r2/templates/prefupdate.html:55 r2/templates/prefupdate.html:116 r2/templates/useriphistory.html:74
+#: r2/templates/admininterstitial.html:52 r2/templates/admininterstitial.html:66 r2/templates/prefsecurity.html:237 r2/templates/prefsecurity.html:242 r2/templates/prefsecurity.html:300 r2/templates/prefupdate.html:33 r2/templates/prefupdate.html:56 r2/templates/prefupdate.html:117 r2/templates/useriphistory.html:74
 msgid "(required)"
 msgstr ""
 
-#: r2/templates/admininterstitial.html:62
+#: r2/templates/admininterstitial.html:64
+msgid "This computer is remembered, so you don't need a one-time code."
+msgstr ""
+
+#: r2/templates/admininterstitial.html:66
 msgid "one-time verification code"
 msgstr ""
 
-#: r2/templates/admininterstitial.html:78
+#: r2/templates/admininterstitial.html:73
 msgid "remember this computer"
+msgstr ""
+
+#: r2/templates/admininterstitial.html:90
+#, fuzzy
+#| msgid "create a new account"
+msgid "forget this computer"
+msgstr "kreu novan konton"
+
+#: r2/templates/admininterstitial.html:91
+msgid "Asks for a one-time code again next time, here and anywhere else this computer was remembered for."
 msgstr ""
 
 #: r2/templates/adminliveconfig.html:41
@@ -8777,6 +8719,60 @@ msgstr "marku kiel legita"
 msgid "Mark this payment refunded (after refunding it in the provider's dashboard) and take back what it bought?"
 msgstr ""
 
+#: r2/templates/adminprivacy.html:17
+#, fuzzy
+#| msgid "invalid request"
+msgid "data export requests"
+msgstr "nevalida peto"
+
+#: r2/templates/adminprivacy.html:20
+msgid "Members ask for a copy of their data on /prefs/privacy, and the privacy_export_q consumer makes it within a few minutes. Requests still waiting or processing after half an hour probably lost their queue item: send them again. Failed ones show why."
+msgstr ""
+
+#: r2/templates/adminprivacy.html:26
+#, fuzzy
+#| msgid "remember me"
+msgid "member"
+msgstr "memoru min"
+
+#: r2/templates/adminprivacy.html:26
+msgid "asked"
+msgstr ""
+
+#: r2/templates/adminprivacy.html:36
+#, fuzzy
+#| msgid "create a new account"
+msgid "[deleted account]"
+msgstr "kreu novan konton"
+
+#: r2/templates/adminprivacy.html:43
+msgid "stuck"
+msgstr ""
+
+#: r2/templates/adminprivacy.html:48
+#, fuzzy
+#| msgid "try again"
+msgid "send again"
+msgstr "provu denove"
+
+#: r2/templates/adminprivacy.html:62
+msgid "No requests waiting, processing or failed."
+msgstr ""
+
+#: r2/templates/adminprivacy.html:65
+msgid "start an export for a member"
+msgstr ""
+
+#: r2/templates/adminprivacy.html:66
+msgid "They get the usual message with the download link when it's ready."
+msgstr ""
+
+#: r2/templates/adminprivacy.html:70
+#, fuzzy
+#| msgid "start date"
+msgid "start export"
+msgstr "komencdato"
+
 #: r2/templates/adminserverstatus.html:25
 msgid "Each server reports its state here once a minute (tippr-job-server_status). Only the latest report is kept; a server that stops reporting is flagged after 3 minutes and dropped after 7 days, or forget it below once it's out of service."
 msgstr ""
@@ -9093,142 +9089,187 @@ msgstr "sendu konfirmilon"
 msgid "The content of the msvalidate.01 tag."
 msgstr "La enhavaĵoj de tiu ĉi paĝo aperas en la sendpaĝo"
 
-#: r2/templates/adminsitesettings.html:95
+#: r2/templates/adminsitesettings.html:94
+#, fuzzy
+#| msgid "item"
+msgid "sitemap"
+msgstr "listero"
+
+#: r2/templates/adminsitesettings.html:96
+#, fuzzy
+#| msgid "Recently viewed links"
+msgid "recent posts"
+msgstr "Lastaj rigarditaj afiŝoj"
+
+#: r2/templates/adminsitesettings.html:97
+#, fuzzy
+#| msgid "everyone"
+msgid "every post"
+msgstr "ĉiu"
+
+#: r2/templates/adminsitesettings.html:98
+msgid "Recent posts: the sitemap lists the public vaults and the 10,000 newest posts, made when asked for. That's fine for a small site. Every post: tippr-job-sitemaps lists every public vault and post each day, in as many sitemaps as that takes, for a site with more than that; until its first run the recent sitemap is shown."
+msgstr ""
+
+#: r2/templates/adminsitesettings.html:100
+#, python-format
+msgid "Last built %(when)s: %(urls)s addresses in %(parts)s sitemaps."
+msgstr ""
+
+#: r2/templates/adminsitesettings.html:106
 msgid "analytics"
 msgstr ""
 
-#: r2/templates/adminsitesettings.html:96
+#: r2/templates/adminsitesettings.html:107
 msgid "The site counts its own traffic for the traffic pages (/traffic, and each vault's traffic stats) without any outside service. To use Google Analytics as well, paste its measurement ID (G-…, or the whole tag Google gives you). It isn't loaded for visitors whose browser asks not to be tracked. In some places (the EU and UK, for example) you need visitors' consent before using it; the privacy policy already says the site may use analytics."
 msgstr ""
 
-#: r2/templates/adminsitesettings.html:98
+#: r2/templates/adminsitesettings.html:109
 msgid "Google Analytics"
 msgstr ""
 
-#: r2/templates/adminsitesettings.html:98
+#: r2/templates/adminsitesettings.html:109
 msgid "The measurement ID, e.g. G-ABC123XYZ. Blank: no Google Analytics."
 msgstr ""
 
-#: r2/templates/adminsitesettings.html:101
+#: r2/templates/adminsitesettings.html:111
+msgid "visitors' consent"
+msgstr ""
+
+#: r2/templates/adminsitesettings.html:113
+#, fuzzy
+#| msgid "first"
+msgid "ask first"
+msgstr "unua"
+
+#: r2/templates/adminsitesettings.html:114
+msgid "don't ask"
+msgstr ""
+
+#: r2/templates/adminsitesettings.html:115
+msgid "Ask first: a banner asks each visitor, and Google Analytics loads only for those who allow it. Their answer is kept in their browser, and with their account when they're signed in (they can change it in their preferences). Don't ask: it loads for everyone, which is only allowed where consent isn't required."
+msgstr ""
+
+#: r2/templates/adminsitesettings.html:120
 msgid "announcement"
 msgstr ""
 
-#: r2/templates/adminsitesettings.html:103
+#: r2/templates/adminsitesettings.html:122
 msgid "banner text"
 msgstr ""
 
-#: r2/templates/adminsitesettings.html:103
+#: r2/templates/adminsitesettings.html:122
 msgid "Shown at the top of every page until someone closes it; it comes back for everyone when you change it. Blank: no banner."
 msgstr ""
 
-#: r2/templates/adminsitesettings.html:104
+#: r2/templates/adminsitesettings.html:123
 #, fuzzy
 #| msgid "Submit a new link"
 msgid "banner link"
 msgstr "Afiŝi novan ligilon"
 
-#: r2/templates/adminsitesettings.html:104
+#: r2/templates/adminsitesettings.html:123
 msgid "Optional: where the banner leads, e.g. a post about the change (https://... or /v/...)."
 msgstr ""
 
-#: r2/templates/adminsitesettings.html:107
+#: r2/templates/adminsitesettings.html:126
 #, fuzzy
 #| msgid "create a new account"
 msgid "new accounts"
 msgstr "kreu novan konton"
 
-#: r2/templates/adminsitesettings.html:114
+#: r2/templates/adminsitesettings.html:133
 msgid "Closed: the sign-up form is replaced by a notice and new accounts are refused. Existing accounts can still log in."
 msgstr ""
 
-#: r2/templates/adminsitesettings.html:119
+#: r2/templates/adminsitesettings.html:138
 msgid "policy pages"
 msgstr ""
 
-#: r2/templates/adminsitesettings.html:120
+#: r2/templates/adminsitesettings.html:139
 msgid "The user agreement, privacy policy, content policy and moderator guidelines start from the templates in docs/policies, filled in with the site name, domain and these two; where they say how to reach you, they link to sections of the contact page (/contact), which offers a message to the admins and the contact address above when it is set. They're wiki pages: edit them at /wiki/useragreement and so on. To rebuild them from the templates after changing these (this replaces any edits):"
 msgstr ""
 
-#: r2/templates/adminsitesettings.html:123
+#: r2/templates/adminsitesettings.html:142
 #, fuzzy
 #| msgid "moderator"
 #| msgid_plural "moderators"
 msgid "operator"
 msgstr "debatestro"
 
-#: r2/templates/adminsitesettings.html:123
+#: r2/templates/adminsitesettings.html:142
 msgid "Who runs the site, by legal name (a company, or your own name). Blank: the site name."
 msgstr ""
 
-#: r2/templates/adminsitesettings.html:124
+#: r2/templates/adminsitesettings.html:143
 msgid "governing law"
 msgstr ""
 
-#: r2/templates/adminsitesettings.html:124
+#: r2/templates/adminsitesettings.html:143
 msgid "Whose laws the policies are under, e.g. \"the State of New York\" or \"England and Wales\". Blank: wherever the operator is established."
 msgstr ""
 
-#: r2/templates/adminsitesettings.html:131 r2/templates/vaultstylesheet.html:120 r2/templates/vaultstylesheetsource.html:46
+#: r2/templates/adminsitesettings.html:150 r2/templates/vaultstylesheet.html:120 r2/templates/vaultstylesheetsource.html:46
 msgid "images"
 msgstr "bildoj"
 
-#: r2/templates/adminsitesettings.html:132
+#: r2/templates/adminsitesettings.html:151
 msgid "Each image is saved on its own as soon as you choose it (the save button above is only for the settings above it). Uploading one replaces the last."
 msgstr ""
 
-#: r2/templates/adminsitesettings.html:134
+#: r2/templates/adminsitesettings.html:153
 #, fuzzy
 #| msgid "logout"
 msgid "logo"
 msgstr "elsalutu"
 
-#: r2/templates/adminsitesettings.html:134
+#: r2/templates/adminsitesettings.html:153
 msgid "Shown at most 48 pixels high in the header; a transparent background works best. Vaults with their own header image show that instead."
 msgstr ""
 
-#: r2/templates/adminsitesettings.html:134
+#: r2/templates/adminsitesettings.html:153
 msgid "The site uses the default tippr logo."
 msgstr ""
 
-#: r2/templates/adminsitesettings.html:136
+#: r2/templates/adminsitesettings.html:155
 msgid "favicon"
 msgstr ""
 
-#: r2/templates/adminsitesettings.html:136
+#: r2/templates/adminsitesettings.html:155
 msgid "The icon in browser tabs and bookmarks. A square PNG of 192 or 512 pixels works everywhere."
 msgstr ""
 
-#: r2/templates/adminsitesettings.html:136
+#: r2/templates/adminsitesettings.html:155
 msgid "The site uses the default tippr icon."
 msgstr ""
 
-#: r2/templates/adminsitesettings.html:138
+#: r2/templates/adminsitesettings.html:157
 #, fuzzy
 #| msgid "share"
 msgid "share image"
 msgstr "konigu"
 
-#: r2/templates/adminsitesettings.html:138
+#: r2/templates/adminsitesettings.html:157
 msgid "The picture shown when the front page or a vault is shared on social media or in chat apps (posts use their own image when they have one). 1200 by 630 pixels works best."
 msgstr ""
 
-#: r2/templates/adminsitesettings.html:138
+#: r2/templates/adminsitesettings.html:157
 msgid "Shared links show the tippr icon."
 msgstr ""
 
-#: r2/templates/adminsitesettings.html:140
+#: r2/templates/adminsitesettings.html:159
 msgid "Spam protection (captcha and CleanTalk)"
 msgstr ""
 
-#: r2/templates/adminsitesettings.html:146 r2/templates/prefoptions.html:157 r2/templates/promotelinkbase.html:251
+#: r2/templates/adminsitesettings.html:165 r2/templates/prefoptions.html:157 r2/templates/promotelinkbase.html:251
 msgid "media"
 msgstr "medioj"
 
-#: r2/templates/adminsitesettings.html:149
+#: r2/templates/adminsitesettings.html:168
 msgid "The domain is also part of the web server configuration, the TLS certificate and login cookies, so it can't be changed here. To move the site to a new domain (for example after restoring a backup on a new server), point the new domain at the server and re-run the installer with it:"
 msgstr ""
 
-#: r2/templates/adminsitesettings.html:153
+#: r2/templates/adminsitesettings.html:172
 msgid "It keeps the data, passwords and secrets, and updates the config, nginx and the certificate. Everyone has to log in again on the new domain."
 msgstr ""
 
@@ -9279,13 +9320,13 @@ msgstr ""
 msgid "last reply by staff"
 msgstr ""
 
-#: r2/templates/adminsupport.html:76 r2/templates/adminsupportactivity.html:80 r2/templates/adminsupportticket.html:34 r2/templates/adminsupportticket.html:154 r2/templates/adminuser.html:229
+#: r2/templates/adminsupport.html:76 r2/templates/adminsupportactivity.html:80 r2/templates/adminsupportticket.html:34 r2/templates/adminsupportticket.html:154 r2/templates/adminuser.html:254
 #, fuzzy
 #| msgid "subject"
 msgid "(no subject)"
 msgstr "temo"
 
-#: r2/templates/adminsupportactivity.html:27 r2/templates/adminsupportticket.html:27 r2/templates/adminuser.html:182 r2/templates/adminvault.html:132
+#: r2/templates/adminsupportactivity.html:27 r2/templates/adminsupportticket.html:27 r2/templates/adminuser.html:207 r2/templates/adminvault.html:132
 msgid "the system"
 msgstr ""
 
@@ -9450,276 +9491,302 @@ msgstr ""
 msgid "their other tickets"
 msgstr ""
 
-#: r2/templates/adminuser.html:41
+#: r2/templates/adminuser.html:30 r2/templates/adminusers.html:32
+#, fuzzy
+#| msgid "traffic stats"
+msgid "internal status:"
+msgstr "trafikdatumoj"
+
+#: r2/templates/adminuser.html:44
 msgid "registered from"
 msgstr ""
 
-#: r2/templates/adminuser.html:45 r2/templates/adminuser.html:52
+#: r2/templates/adminuser.html:48 r2/templates/adminuser.html:55
 #, fuzzy
 #| msgid "not approved"
 msgid "not recorded"
 msgstr "ne aprobita"
 
-#: r2/templates/adminuser.html:48
+#: r2/templates/adminuser.html:51
 #, fuzzy
 #| msgid "last name"
 msgid "last active"
 msgstr "familia nomo"
 
-#: r2/templates/adminuser.html:64
+#: r2/templates/adminuser.html:67
 #, python-format
 msgid "%(link)d post, %(comment)d comment"
 msgstr ""
 
-#: r2/templates/adminuser.html:68 r2/templates/adminusers.html:70
+#: r2/templates/adminuser.html:71 r2/templates/adminusers.html:89
 #, fuzzy
 #| msgid "verified"
 msgid "(verified)"
 msgstr "konfirmita"
 
-#: r2/templates/adminuser.html:68
+#: r2/templates/adminuser.html:71
 #, fuzzy
 #| msgid "unverified"
 msgid "(not verified)"
 msgstr "nekonfirmita"
 
-#: r2/templates/adminuser.html:73 r2/templates/adminuser.html:150
+#: r2/templates/adminuser.html:76 r2/templates/adminuser.html:175
 msgid "two-factor"
 msgstr ""
 
-#: r2/templates/adminuser.html:73 r2/templates/comment.xml:60
+#: r2/templates/adminuser.html:76 r2/templates/comment.xml:60
 msgid "on"
 msgstr "je"
 
-#: r2/templates/adminuser.html:73
+#: r2/templates/adminuser.html:76
 msgid "off"
 msgstr ""
 
-#: r2/templates/adminuser.html:78
+#: r2/templates/adminuser.html:81
 #, fuzzy, python-format
 #| msgid "%(title)s : %(site)s"
 msgid "(until %(date)s)"
 msgstr "%(title)s:%(site)s"
 
-#: r2/templates/adminuser.html:92
+#: r2/templates/adminuser.html:89 r2/templates/adminusers.html:77
+#, fuzzy
+#| msgid "traffic stats"
+msgid "internal status"
+msgstr "trafikdatumoj"
+
+#: r2/templates/adminuser.html:96
+msgid "e.g. trusted, watch"
+msgstr ""
+
+#: r2/templates/adminuser.html:104
+#, fuzzy
+#| msgid "(optional)"
+msgid "note for the other admins (optional)"
+msgstr "(ne deviga)"
+
+#: r2/templates/adminuser.html:108
+msgid "Only admins see this; the member doesn't. It's shown on /admin/users, where you can list the accounts with each status. Leave both blank to clear it. Changes are logged under admin actions."
+msgstr ""
+
+#: r2/templates/adminuser.html:117
 msgid "days (0: until lifted)"
 msgstr ""
 
-#: r2/templates/adminuser.html:105 r2/templates/adminvault.html:81
+#: r2/templates/adminuser.html:130 r2/templates/adminvault.html:81
 #, fuzzy
 #| msgid "options"
 msgid "actions"
 msgstr "opcioj"
 
-#: r2/templates/adminuser.html:107
+#: r2/templates/adminuser.html:132
 #, fuzzy
 #| msgid "that comment has been deleted"
 msgid "The account is deleted."
 msgstr "tiu komento forviŝiĝis"
 
-#: r2/templates/adminuser.html:109
+#: r2/templates/adminuser.html:134
 msgid "Not available for admins or yourself; take an admin off the employees list on /admin/config first."
 msgstr ""
 
-#: r2/templates/adminuser.html:112
+#: r2/templates/adminuser.html:137
 msgid "timeout"
 msgstr ""
 
-#: r2/templates/adminuser.html:114
+#: r2/templates/adminuser.html:139
 #, fuzzy
 #| msgid "all time"
 msgid "In a timeout"
 msgstr "ĉiam"
 
-#: r2/templates/adminuser.html:114
+#: r2/templates/adminuser.html:139
 #, fuzzy, python-format
 #| msgid "about %(site)s"
 msgid " until %(date)s"
 msgstr "pri %(site)s"
 
-#: r2/templates/adminuser.html:114
+#: r2/templates/adminuser.html:139
 #, fuzzy
 #| msgid "end date"
 msgid " with no end date"
 msgstr "findato"
 
-#: r2/templates/adminuser.html:115
+#: r2/templates/adminuser.html:140
 msgid "lift the timeout"
 msgstr ""
 
-#: r2/templates/adminuser.html:115 r2/templates/adminuser.html:124
+#: r2/templates/adminuser.html:140 r2/templates/adminuser.html:149
 #, fuzzy
 #| msgid "(optional)"
 msgid "note (optional)"
 msgstr "(ne deviga)"
 
-#: r2/templates/adminuser.html:117
+#: r2/templates/adminuser.html:142
 msgid "put in a timeout"
 msgstr ""
 
-#: r2/templates/adminuser.html:117
+#: r2/templates/adminuser.html:142
 msgid "reason (sent to them)"
 msgstr ""
 
-#: r2/templates/adminuser.html:118
+#: r2/templates/adminuser.html:143
 msgid "They can still read and log in, and can message the admins, but can't post, comment, vote or message anyone else."
 msgstr ""
 
-#: r2/templates/adminuser.html:121
+#: r2/templates/adminuser.html:146
 #, fuzzy
 #| msgid "permission"
 msgid "suspension"
 msgstr "permeso"
 
-#: r2/templates/adminuser.html:123
+#: r2/templates/adminuser.html:148
 msgid "Suspended."
 msgstr ""
 
-#: r2/templates/adminuser.html:126 r2/templates/adminuser.html:165
+#: r2/templates/adminuser.html:151 r2/templates/adminuser.html:190
 msgid "reason (logged)"
 msgstr ""
 
-#: r2/templates/adminuser.html:126
+#: r2/templates/adminuser.html:151
 msgid "they can't log in; their sessions and app tokens end"
 msgstr ""
 
-#: r2/templates/adminuser.html:129
+#: r2/templates/adminuser.html:154
 #, fuzzy
 #| msgid "wiki tools"
 msgid "quick tools"
 msgstr "vikia iloj"
 
-#: r2/templates/adminuser.html:134
+#: r2/templates/adminuser.html:159
 #, fuzzy
 #| msgid "choose a vault"
 msgid "choose a tool"
 msgstr "elektu vault-on"
 
-#: r2/templates/adminuser.html:135
+#: r2/templates/adminuser.html:160
 msgid "remove all their posts and comments"
 msgstr ""
 
-#: r2/templates/adminuser.html:136
+#: r2/templates/adminuser.html:161
 msgid "remove all their posts and comments as spam"
 msgstr ""
 
-#: r2/templates/adminuser.html:137
+#: r2/templates/adminuser.html:162
 msgid "delete all their posts and comments"
 msgstr ""
 
-#: r2/templates/adminuser.html:139
+#: r2/templates/adminuser.html:164
 msgid "require them to verify their email again"
 msgstr ""
 
-#: r2/templates/adminuser.html:140
+#: r2/templates/adminuser.html:165
 #, fuzzy
 #| msgid "please enter an email address"
 msgid "remove their email address"
 msgstr "bonvole tajpu retadreson"
 
-#: r2/templates/adminuser.html:143 r2/templates/promotelinkedit.html:106
+#: r2/templates/adminuser.html:168 r2/templates/promotelinkedit.html:106
 msgid "confirm"
 msgstr ""
 
-#: r2/templates/adminuser.html:147
+#: r2/templates/adminuser.html:172
 #, python-format
 msgid "Removed posts and comments stay in each vault's spam queue, where moderators can approve them; \"as spam\" also teaches the spam filter. Deleted ones show as [deleted], as when someone deletes their own. Each acts on their newest %(n)d posts and newest %(n)d comments; run it again for more."
 msgstr ""
 
-#: r2/templates/adminuser.html:151
+#: r2/templates/adminuser.html:176
 #, fuzzy
 #| msgid "reset password"
 msgid "reset two-factor"
 msgstr "nuligi pasvorton"
 
-#: r2/templates/adminuser.html:151
+#: r2/templates/adminuser.html:176
 msgid "why (logged)"
 msgstr ""
 
-#: r2/templates/adminuser.html:152
+#: r2/templates/adminuser.html:177
 msgid "For someone locked out: they can log in with their password and set it up again."
 msgstr ""
 
-#: r2/templates/adminuser.html:155
+#: r2/templates/adminuser.html:180
 #, fuzzy
 #| msgid "create a new account"
 msgid "delete account"
 msgstr "kreu novan konton"
 
-#: r2/templates/adminuser.html:157
+#: r2/templates/adminuser.html:182
 #, python-format
 msgid "Delete %(name)s? This cannot be undone."
 msgstr ""
 
-#: r2/templates/adminuser.html:161
+#: r2/templates/adminuser.html:186
 #, fuzzy
 #| msgid "top %d comments"
 msgid "their posts and comments…"
 msgstr "la %d plej furoraj komentoj"
 
-#: r2/templates/adminuser.html:162 r2/templates/privacysettings.html:116
+#: r2/templates/adminuser.html:187 r2/templates/privacysettings.html:116
 msgid "keep them (shown by [deleted])"
 msgstr ""
 
-#: r2/templates/adminuser.html:163 r2/templates/privacysettings.html:117
+#: r2/templates/adminuser.html:188 r2/templates/privacysettings.html:117
 #, fuzzy
 #| msgid "delete this image"
 msgid "delete them too"
 msgstr "forviŝu bildon"
 
-#: r2/templates/adminuser.html:166
+#: r2/templates/adminuser.html:191
 #, fuzzy
 #| msgid "deleted"
 msgid "delete for good"
 msgstr "forviŝita"
 
-#: r2/templates/adminuser.html:170
+#: r2/templates/adminuser.html:195
 msgid "Final: their sessions and app tokens end, and their password, email address and moderator roles are removed now (not 90 days later, as when people delete their own account). The name can't be registered again."
 msgstr ""
 
-#: r2/templates/adminuser.html:175 r2/templates/adminvault.html:125
+#: r2/templates/adminuser.html:200 r2/templates/adminvault.html:125
 #, fuzzy
 #| msgid "link options"
 msgid "admin actions"
 msgstr "lig-preferoj"
 
-#: r2/templates/adminuser.html:192
+#: r2/templates/adminuser.html:217
 #, fuzzy
 #| msgid "IP address"
 msgid "logins by IP address"
 msgstr "IP-adreso"
 
-#: r2/templates/adminuser.html:193
+#: r2/templates/adminuser.html:218
 msgid "The last 100 days, newest first. Other accounts seen on the same address can be one person's accounts, or just a shared network (a household, school, phone carrier or VPN)."
 msgstr ""
 
-#: r2/templates/adminuser.html:196
+#: r2/templates/adminuser.html:221
 #, fuzzy
 #| msgid "login"
 msgid "last login"
 msgstr "ensalutu"
 
-#: r2/templates/adminuser.html:196
+#: r2/templates/adminuser.html:221
 msgid "other accounts from it"
 msgstr ""
 
-#: r2/templates/adminuser.html:210
+#: r2/templates/adminuser.html:235
 msgid "No logins recorded yet (they're recorded from now on, for public addresses)."
 msgstr ""
 
-#: r2/templates/adminuser.html:213
+#: r2/templates/adminuser.html:238
 #, fuzzy
 #| msgid "moderators"
 msgid "moderates"
 msgstr "debatestroj"
 
-#: r2/templates/adminuser.html:221
+#: r2/templates/adminuser.html:246
 #, fuzzy
 #| msgid "vaults"
 msgid "No vaults."
 msgstr "vaultoj"
 
-#: r2/templates/adminuser.html:224
+#: r2/templates/adminuser.html:249
 msgid "support tickets"
 msgstr ""
 
@@ -9733,27 +9800,38 @@ msgstr "tiu uzulo ne havas retadreson"
 msgid "A username finds that account and names starting with it; an email address finds every account that used it; an IP address finds the accounts that logged in from it (logins are kept for 100 days)."
 msgstr ""
 
-#: r2/templates/adminusers.html:35
-#, fuzzy
-#| msgid "newest"
-msgid "newer"
-msgstr "plej novaj"
-
-#: r2/templates/adminusers.html:41
-msgid "older"
+#: r2/templates/adminusers.html:46
+#, python-format
+msgid "internal status: %(status)s"
 msgstr ""
 
-#: r2/templates/adminusers.html:48
+#: r2/templates/adminusers.html:47 r2/templates/adminusers.html:67
 #, fuzzy
 #| msgid "create a new account"
 msgid "all accounts"
 msgstr "kreu novan konton"
 
-#: r2/templates/adminusers.html:49
+#: r2/templates/adminusers.html:54
+#, fuzzy
+#| msgid "newest"
+msgid "newer"
+msgstr "plej novaj"
+
+#: r2/templates/adminusers.html:60
+msgid "older"
+msgstr ""
+
+#: r2/templates/adminusers.html:68
 msgid "Newest first, including deleted and suspended accounts."
 msgstr ""
 
-#: r2/templates/adminusers.html:84
+#: r2/templates/adminusers.html:101
+#, fuzzy
+#| msgid "note"
+msgid "(note)"
+msgstr "noto"
+
+#: r2/templates/adminusers.html:111
 msgid "No accounts found."
 msgstr ""
 
@@ -10434,7 +10512,7 @@ msgstr ""
 msgid "only tippr gold members can view and submit"
 msgstr ""
 
-#: r2/templates/createvault.html:188 r2/templates/prefoptions.html:449
+#: r2/templates/createvault.html:188 r2/templates/prefoptions.html:456
 msgid "content options"
 msgstr "enhav-preferoj"
 
@@ -10565,104 +10643,108 @@ msgstr ""
 msgid "collapse deleted and removed comments"
 msgstr ""
 
-#: r2/templates/createvault.html:406
+#: r2/templates/createvault.html:407
+msgid "live comments: new comments appear on a thread while people have it open"
+msgstr ""
+
+#: r2/templates/createvault.html:420
 msgid "hide ads (only available for gold only vaults)"
 msgstr ""
 
-#: r2/templates/createvault.html:413
+#: r2/templates/createvault.html:427
 msgid "suggested comment sort"
 msgstr ""
 
-#: r2/templates/createvault.html:413
+#: r2/templates/createvault.html:427
 msgid "(all comment threads will use this sorting method by default)"
 msgstr ""
 
-#: r2/templates/createvault.html:415
+#: r2/templates/createvault.html:429
 msgid "none (recommended for most vaults)"
 msgstr ""
 
-#: r2/templates/createvault.html:424
+#: r2/templates/createvault.html:438
 msgid "Minutes to hide comment scores:"
 msgstr ""
 
-#: r2/templates/createvault.html:446 r2/templates/usertext.html:189 r2/templates/wikieditpage.html:49
+#: r2/templates/createvault.html:460 r2/templates/usertext.html:189 r2/templates/wikieditpage.html:49
 msgid "hide help"
 msgstr "kaŝu helpon"
 
-#: r2/templates/createvault.html:450
+#: r2/templates/createvault.html:464
 #, python-format
 msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to %(domain)s. You will be able to reach your vault through your domain."
 msgstr ""
 
-#: r2/templates/createvault.html:457
+#: r2/templates/createvault.html:471
 msgid "look and feel"
 msgstr "aspekto kaj konduto"
 
-#: r2/templates/createvault.html:460
+#: r2/templates/createvault.html:474
 msgid "edit the stylesheet"
 msgstr "Prilaboru la stilfolion."
 
-#: r2/templates/createvault.html:464
+#: r2/templates/createvault.html:478
 msgid "leaves this page"
 msgstr "forlasas tiun ĉi paĝon"
 
-#: r2/templates/createvault.html:484
+#: r2/templates/createvault.html:498
 msgid "restore default header"
 msgstr "Restaŭru defaŭltan kapon."
 
-#: r2/templates/createvault.html:504
+#: r2/templates/createvault.html:518
 msgid "related vaults"
 msgstr ""
 
-#: r2/templates/createvault.html:506
+#: r2/templates/createvault.html:520
 msgid "similar or related vaults."
 msgstr ""
 
-#: r2/templates/createvault.html:582
+#: r2/templates/createvault.html:596
 msgid "mobile look and feel"
 msgstr ""
 
-#: r2/templates/createvault.html:586
+#: r2/templates/createvault.html:600
 msgid "icon image"
 msgstr ""
 
-#: r2/templates/createvault.html:586
+#: r2/templates/createvault.html:600
 msgid "icon must be 256x256 pixels. PNG or JPG only."
 msgstr ""
 
-#: r2/templates/createvault.html:595
+#: r2/templates/createvault.html:609
 msgid "remove custom icon image"
 msgstr ""
 
-#: r2/templates/createvault.html:604
+#: r2/templates/createvault.html:618
 msgid "header image"
 msgstr ""
 
-#: r2/templates/createvault.html:604
+#: r2/templates/createvault.html:618
 msgid "header should have 10:3 aspect ratio. PNG or JPG only."
 msgstr ""
 
-#: r2/templates/createvault.html:605
+#: r2/templates/createvault.html:619
 msgid "minimum size: 640x192px"
 msgstr ""
 
-#: r2/templates/createvault.html:605
+#: r2/templates/createvault.html:619
 msgid "maximum size: 1280x384px"
 msgstr ""
 
-#: r2/templates/createvault.html:614
+#: r2/templates/createvault.html:628
 msgid "remove custom header image"
 msgstr ""
 
-#: r2/templates/createvault.html:624
+#: r2/templates/createvault.html:638
 msgid "color"
 msgstr "koloro"
 
-#: r2/templates/createvault.html:624
+#: r2/templates/createvault.html:638
 msgid "used as a thematic color for your vault on mobile"
 msgstr ""
 
-#: r2/templates/createvault.html:655 r2/templates/flairpane.html:91 r2/templates/prefoptions.html:600
+#: r2/templates/createvault.html:669 r2/templates/flairpane.html:91 r2/templates/prefoptions.html:616
 msgid "save options"
 msgstr "konservu opciojn"
 
@@ -10724,7 +10806,7 @@ msgstr ""
 msgid "filter vault"
 msgstr ""
 
-#: r2/templates/filteredinfobar.html:48 r2/templates/modlisting.html:58 r2/templates/prefsecurity.html:219 r2/templates/userlisting.html:99 r2/templates/vaultselector.html:30 r2/templates/wikipagesettings.html:70
+#: r2/templates/filteredinfobar.html:48 r2/templates/modlisting.html:58 r2/templates/prefsecurity.html:306 r2/templates/userlisting.html:99 r2/templates/vaultselector.html:30 r2/templates/wikipagesettings.html:70
 msgid "add"
 msgstr "aldonu"
 
@@ -11010,7 +11092,7 @@ msgstr ""
 msgid "continue"
 msgstr ""
 
-#: r2/templates/gold.html:214 r2/templates/linkedsignin.html:25 r2/templates/listingsuggestions.html:32 r2/templates/unreadmessagessuggestions.html:27
+#: r2/templates/gold.html:214 r2/templates/linkedsignin.html:37 r2/templates/listingsuggestions.html:32 r2/templates/unreadmessagessuggestions.html:27
 msgid "or"
 msgstr "aŭ"
 
@@ -11459,25 +11541,25 @@ msgstr "kreu novan konton"
 msgid "It's linked to your %(provider)s account, so signing in with %(provider)s is enough from now on. The password lets you log in without it too."
 msgstr ""
 
-#: r2/templates/linkedloginlink.html:50 r2/templates/login.html:81
+#: r2/templates/linkedloginlink.html:50 r2/templates/login.html:81 r2/templates/register.html:81
 msgid "choose a username"
 msgstr ""
 
-#: r2/templates/linkedloginlink.html:60 r2/templates/login.html:101 r2/templates/login.html:104 r2/templates/login.html:231 r2/templates/prefupdate.html:131 r2/templates/resetpassword.html:48
+#: r2/templates/linkedloginlink.html:60 r2/templates/login.html:103 r2/templates/login.html:106 r2/templates/login.html:234 r2/templates/prefupdate.html:132 r2/templates/register.html:103 r2/templates/register.html:106 r2/templates/register.html:234 r2/templates/resetpassword.html:48
 msgid "verify password"
 msgstr "konfirmu pasvorton"
 
-#: r2/templates/linkedloginlink.html:62 r2/templates/login.html:112
+#: r2/templates/linkedloginlink.html:62 r2/templates/login.html:114 r2/templates/register.html:114
 #, fuzzy
 #| msgid "(optional)"
 msgid "email (optional)"
 msgstr "(ne deviga)"
 
-#: r2/templates/linkedloginlink.html:70 r2/templates/login.html:136
+#: r2/templates/linkedloginlink.html:70 r2/templates/login.html:138 r2/templates/register.html:138
 msgid "type the letters from the image"
 msgstr ""
 
-#: r2/templates/linkedloginlink.html:77 r2/templates/login.html:120 r2/templates/login.html:246 r2/templates/loginformwide.html:51
+#: r2/templates/linkedloginlink.html:77 r2/templates/login.html:122 r2/templates/login.html:249 r2/templates/loginformwide.html:52 r2/templates/register.html:122 r2/templates/register.html:249
 msgid "remember me"
 msgstr "memoru min"
 
@@ -11487,25 +11569,37 @@ msgstr "memoru min"
 msgid "make the account"
 msgstr "kreu novan konton"
 
-#: r2/templates/linkedloginotp.html:19
+#: r2/templates/linkedloginotp.html:20
 msgid "Your account uses two-factor sign-in: enter the code from your authenticator app (or one of your recovery codes)."
 msgstr ""
 
-#: r2/templates/linkedloginotp.html:21
+#: r2/templates/linkedloginotp.html:22
+msgid "Your account uses two-factor sign-in: confirm it's you with your passkey."
+msgstr ""
+
+#: r2/templates/linkedloginotp.html:25
 msgid "That code isn't right. Try again."
 msgstr ""
 
-#: r2/templates/linkedloginotp.html:33
+#: r2/templates/linkedloginotp.html:26
+msgid "Codes follow the clock: if they keep failing, check that your phone sets its time automatically."
+msgstr ""
+
+#: r2/templates/linkedloginotp.html:38
 #, python-format
 msgid "don't ask again on this device for %(days)s days"
 msgstr ""
 
-#: r2/templates/linkedsignin.html:29
+#: r2/templates/linkedsignin.html:26
+msgid "sign in with a passkey"
+msgstr ""
+
+#: r2/templates/linkedsignin.html:41
 #, python-format
 msgid "sign in with %(provider)s"
 msgstr ""
 
-#: r2/templates/linkedsignin.html:32
+#: r2/templates/linkedsignin.html:44
 msgid "for accounts that linked one (preferences, security)"
 msgstr ""
 
@@ -11618,77 +11712,81 @@ msgstr ""
 msgid "New comments can no longer be added."
 msgstr ""
 
-#: r2/templates/login.html:42
+#: r2/templates/login.html:42 r2/templates/register.html:42
 msgid "You are logged in. Go use the site!"
 msgstr ""
 
-#: r2/templates/login.html:46
+#: r2/templates/login.html:46 r2/templates/register.html:46
 msgid "You need to login to do that."
 msgstr ""
 
-#: r2/templates/login.html:108 r2/templates/login.html:209
+#: r2/templates/login.html:110 r2/templates/login.html:212 r2/templates/register.html:110 r2/templates/register.html:212
 msgid "optional"
 msgstr "nedeviga"
 
-#: r2/templates/login.html:156
+#: r2/templates/login.html:158 r2/templates/register.html:158
 msgid "get the best of tippr emailed to you once a week."
 msgstr ""
 
-#: r2/templates/login.html:157 r2/templates/welcomebar.html:32
+#: r2/templates/login.html:159 r2/templates/register.html:159 r2/templates/welcomebar.html:32
 msgid "learn more"
 msgstr "pli da informaĵo"
 
-#: r2/templates/login.html:164 r2/templates/login.html:259
+#: r2/templates/login.html:166 r2/templates/login.html:262 r2/templates/register.html:166 r2/templates/register.html:262
 msgid "sign up"
 msgstr ""
 
-#: r2/templates/login.html:199
+#: r2/templates/login.html:202 r2/templates/register.html:202
 msgid "try another"
 msgstr ""
 
-#: r2/templates/login.html:200
+#: r2/templates/login.html:203 r2/templates/register.html:203
 msgid "available!"
 msgstr ""
 
-#: r2/templates/login.html:209
+#: r2/templates/login.html:212 r2/templates/register.html:212
 msgid "account recovery email"
 msgstr ""
 
-#: r2/templates/login.html:213
+#: r2/templates/login.html:216 r2/templates/register.html:216
 msgid "we only send email at your request"
 msgstr ""
 
-#: r2/templates/login.html:252
+#: r2/templates/login.html:255 r2/templates/register.html:255
 msgid "recover password"
 msgstr "retrovu pasvorton"
 
-#: r2/templates/login.html:281
+#: r2/templates/login.html:284 r2/templates/register.html:284
 msgid "create a new account"
 msgstr "kreu novan konton"
 
-#: r2/templates/login.html:286
+#: r2/templates/login.html:289 r2/templates/register.html:289
 msgid "This site isn't taking new accounts right now."
 msgstr ""
 
-#: r2/templates/login.html:288
+#: r2/templates/login.html:291 r2/templates/register.html:291
 #, python-format
 msgid "To ask about an account, write to %(address)s."
 msgstr ""
 
-#: r2/templates/login.html:299
+#: r2/templates/login.html:302 r2/templates/register.html:302
 #, python-format
 msgid "By signing up, you agree to our %(terms)s and that you have read our %(privacy_policy)s and %(content_policy)s."
 msgstr ""
 
-#: r2/templates/login.html:300
+#: r2/templates/login.html:303 r2/templates/register.html:303
 msgid "Terms"
 msgstr "Kondiĉoj"
 
-#: r2/templates/login.html:302 r2/templates/tipprfooter.html:54
+#: r2/templates/login.html:304 r2/templates/privacysettings.html:99 r2/templates/register.html:304 r2/templates/tipprfooter.html:50
+msgid "Privacy Policy"
+msgstr ""
+
+#: r2/templates/login.html:305 r2/templates/register.html:305 r2/templates/tipprfooter.html:54
 msgid "Content Policy"
 msgstr ""
 
-#: r2/templates/loginformwide.html:57
+#: r2/templates/loginformwide.html:58
 msgid "login"
 msgstr "ensalutu"
 
@@ -11933,7 +12031,7 @@ msgstr ""
 msgid "(not needed if you entered one in the last 15 minutes)"
 msgstr ""
 
-#: r2/templates/newlink.html:165
+#: r2/templates/newlink.html:166
 #, python-format
 msgid "please be mindful of the %(content_policy)s."
 msgstr ""
@@ -12535,522 +12633,650 @@ msgstr ""
 msgid "(on comments pages, buttons to jump between top-level comments, the submitter's, yours, new ones or ones with links)"
 msgstr ""
 
-#: r2/templates/prefoptions.html:314
+#: r2/templates/prefoptions.html:315
+#, fuzzy
+#| msgid "top %d comments"
+msgid "live comments"
+msgstr "la %d plej furoraj komentoj"
+
+#: r2/templates/prefoptions.html:317
+msgid "(new comments appear on a thread while you have it open, in vaults that use them)"
+msgstr ""
+
+#: r2/templates/prefoptions.html:321
 #, fuzzy
 #| msgid "account activity"
 msgid "account switcher"
 msgstr "konto-aktiveco"
 
-#: r2/templates/prefoptions.html:316
+#: r2/templates/prefoptions.html:323
 msgid "(a \"switch account\" menu by your name, to move between your accounts without logging out; logging out forgets them)"
 msgstr ""
 
-#: r2/templates/prefoptions.html:319
+#: r2/templates/prefoptions.html:326
 #, fuzzy
 #| msgid "invite moderator"
 msgid "night mode"
 msgstr "inviti moderatoron"
 
-#: r2/templates/prefoptions.html:321
+#: r2/templates/prefoptions.html:328
 msgid "(light text on a dark background)"
 msgstr ""
 
-#: r2/templates/prefoptions.html:324
+#: r2/templates/prefoptions.html:331
 #, fuzzy
 #| msgid "gilded comment"
 msgid "hide child comments links"
 msgstr "orita komentoj"
 
-#: r2/templates/prefoptions.html:327
+#: r2/templates/prefoptions.html:334
 msgid "(on comments pages, links to fold up the replies under each comment, or all of them at once)"
 msgstr ""
 
-#: r2/templates/prefoptions.html:333
+#: r2/templates/prefoptions.html:340
 #, fuzzy
 #| msgid "%s (filtered)"
 msgid "filters"
 msgstr "%s (filtrita)"
 
-#: r2/templates/prefoptions.html:336
+#: r2/templates/prefoptions.html:343
 msgid "Posts that match are left out of listings (never your own). One per line, or separated by commas."
 msgstr ""
 
-#: r2/templates/prefoptions.html:340
+#: r2/templates/prefoptions.html:347
 #, fuzzy
 #| msgid "no title found"
 msgid "title keywords"
 msgstr "titolo ne trovita"
 
-#: r2/templates/prefoptions.html:340
+#: r2/templates/prefoptions.html:347
 msgid "whole words or phrases, in any case"
 msgstr ""
 
-#: r2/templates/prefoptions.html:341
+#: r2/templates/prefoptions.html:348
 msgid "example.com also hides its subdomains"
 msgstr ""
 
-#: r2/templates/prefoptions.html:342
+#: r2/templates/prefoptions.html:349
 msgid "still shown when you visit the vault itself"
 msgstr ""
 
-#: r2/templates/prefoptions.html:343
+#: r2/templates/prefoptions.html:350
 msgid "only hides their posts; to stop seeing them altogether, block them"
 msgstr ""
 
-#: r2/templates/prefoptions.html:356
+#: r2/templates/prefoptions.html:363
 msgid "comment options"
 msgstr "komentoj"
 
-#: r2/templates/prefoptions.html:359
+#: r2/templates/prefoptions.html:366
 #, python-format
 msgid "sort comments by %(sort)s"
 msgstr ""
 
-#: r2/templates/prefoptions.html:362
+#: r2/templates/prefoptions.html:369
 msgid "ignore suggested sorts"
 msgstr ""
 
-#: r2/templates/prefoptions.html:363
+#: r2/templates/prefoptions.html:370
 msgid "(suggested sorts may be set by community moderators for specific threads or vaults, like Q&As)"
 msgstr ""
 
-#: r2/templates/prefoptions.html:366
+#: r2/templates/prefoptions.html:373
 msgid "show a dagger (†) on comments voted controversial"
 msgstr "montru obeluson (†) je komentoj, kiuj estis voĉdonataj kiel polemikaj"
 
-#: r2/templates/prefoptions.html:367
+#: r2/templates/prefoptions.html:374
 msgid "(a controversial comment is one that's been both upvoted and downvoted significantly)"
 msgstr ""
 
-#: r2/templates/prefoptions.html:374
+#: r2/templates/prefoptions.html:381
 #, python-format
 msgid "don't show me comments with a score less than %(num)s"
 msgstr "ne montru komentojn kiam la poentaro pli malaltas ol %(num)s"
 
-#: r2/templates/prefoptions.html:375
+#: r2/templates/prefoptions.html:382
 msgid "(leave blank to show all comments)"
 msgstr ""
 
-#: r2/templates/prefoptions.html:383
+#: r2/templates/prefoptions.html:390
 #, python-format
 msgid "display %(num)s comments by default"
 msgstr "montru po %(num)s komentojn"
 
-#: r2/templates/prefoptions.html:388
+#: r2/templates/prefoptions.html:395
 msgid "the smaller the number, the faster your comments pages will load"
 msgstr ""
 
-#: r2/templates/prefoptions.html:393
+#: r2/templates/prefoptions.html:400
 msgid "messaging options"
 msgstr "mesaĝoj"
 
-#: r2/templates/prefoptions.html:395
+#: r2/templates/prefoptions.html:402
 msgid "show message conversations in the inbox"
 msgstr "montru mesaĝ-konversaciojn en la poŝtkesto"
 
-#: r2/templates/prefoptions.html:398
+#: r2/templates/prefoptions.html:405
 msgid "(only applies when you go to the 'messages' panel)"
 msgstr "(tio nur okazos kiam vi iros al la sekcio 'mesaĝoj')"
 
-#: r2/templates/prefoptions.html:402
+#: r2/templates/prefoptions.html:409
 msgid "collapse messages after I've read them"
 msgstr "duonkaŝu mesaĝojn post legado"
 
-#: r2/templates/prefoptions.html:405
+#: r2/templates/prefoptions.html:412
 msgid "(otherwise, you'll have to collapse them yourself)"
 msgstr "(alie, vi mem devos duonkaŝi ilin)"
 
-#: r2/templates/prefoptions.html:409
+#: r2/templates/prefoptions.html:416
 msgid "mark messages as read when I open my inbox"
 msgstr "novaj mesaĝoj aŭtomate aperos kiel legitaj je iro al la kesto"
 
-#: r2/templates/prefoptions.html:412
+#: r2/templates/prefoptions.html:419
 msgid "(otherwise, they will be marked as read when you click them)"
 msgstr "(alie, ili aperos kiel legitaj nur kiam vi klikos sur ili)"
 
-#: r2/templates/prefoptions.html:415
+#: r2/templates/prefoptions.html:422
 msgid "notify me when people say my username"
 msgstr ""
 
-#: r2/templates/prefoptions.html:418
+#: r2/templates/prefoptions.html:425
 msgid "send messages as emails"
 msgstr ""
 
-#: r2/templates/prefoptions.html:418
+#: r2/templates/prefoptions.html:425
 msgid "requires a verified email"
 msgstr ""
 
-#: r2/templates/prefoptions.html:421
+#: r2/templates/prefoptions.html:428
 msgid "enable threaded modmail display"
 msgstr ""
 
-#: r2/templates/prefoptions.html:425 r2/templates/widgetdemopanel.html:201
+#: r2/templates/prefoptions.html:432 r2/templates/widgetdemopanel.html:201
 msgid "display options"
 msgstr "montrado"
 
-#: r2/templates/prefoptions.html:427
+#: r2/templates/prefoptions.html:434
 msgid "allow vaults to show me custom themes"
 msgstr ""
 
-#: r2/templates/prefoptions.html:430
+#: r2/templates/prefoptions.html:437
 msgid "(you can also choose which vault themes to disable on an individual level)"
 msgstr ""
 
-#: r2/templates/prefoptions.html:434
+#: r2/templates/prefoptions.html:441
 msgid "show user flair"
 msgstr ""
 
-#: r2/templates/prefoptions.html:436
+#: r2/templates/prefoptions.html:443
 msgid "show link flair"
 msgstr ""
 
-#: r2/templates/prefoptions.html:439
+#: r2/templates/prefoptions.html:446
 msgid "show self-serve advertising tab on front page"
 msgstr ""
 
-#: r2/templates/prefoptions.html:444
+#: r2/templates/prefoptions.html:451
 msgid "show legacy search page"
 msgstr ""
 
-#: r2/templates/prefoptions.html:451
+#: r2/templates/prefoptions.html:458
 msgid "I am over eighteen years old and willing to view adult content"
 msgstr ""
 
-#: r2/templates/prefoptions.html:452
+#: r2/templates/prefoptions.html:459
 msgid "required to view some vaults"
 msgstr ""
 
-#: r2/templates/prefoptions.html:454
+#: r2/templates/prefoptions.html:461
 msgid "label posts that are not safe for work (NSFW)"
 msgstr "marku afiŝojn kiuj malsekuras por laborejo (MPL/NSFW)"
 
-#: r2/templates/prefoptions.html:457
+#: r2/templates/prefoptions.html:464
 msgid "posts labelled as made with AI:"
 msgstr ""
 
-#: r2/templates/prefoptions.html:466
+#: r2/templates/prefoptions.html:473
 msgid "posts in vaults that are for AI content are always shown there"
 msgstr ""
 
-#: r2/templates/prefoptions.html:468
+#: r2/templates/prefoptions.html:475
 msgid "enable private RSS feeds"
 msgstr "konsentu privatajn RSS-avertojn"
 
-#: r2/templates/prefoptions.html:470
+#: r2/templates/prefoptions.html:477
 msgid "(available from the 'RSS feed' tab in prefs)"
 msgstr ""
 
-#: r2/templates/prefoptions.html:473
+#: r2/templates/prefoptions.html:480
 msgid "privacy options"
 msgstr "privateco"
 
-#: r2/templates/prefoptions.html:475
+#: r2/templates/prefoptions.html:482
 msgid "make my votes public"
 msgstr "miaj voĉdonoj estu publikaj"
 
-#: r2/templates/prefoptions.html:482
+#: r2/templates/prefoptions.html:489
 #, python-format
 msgid "let everyone see %(link1)s and %(link2)s"
 msgstr ""
 
-#: r2/templates/prefoptions.html:485
+#: r2/templates/prefoptions.html:492
 msgid "don't allow search engines to index my user profile"
 msgstr ""
 
-#: r2/templates/prefoptions.html:496
+#: r2/templates/prefoptions.html:502
+msgid "Google Analytics, which helps the site's admins see how it's used:"
+msgstr ""
+
+#: r2/templates/prefoptions.html:503 r2/templates/utils.html:546
+#, fuzzy
+#| msgid "Allow"
+msgid "allow"
+msgstr "Permesu"
+
+#: r2/templates/prefoptions.html:504 r2/templates/utils.html:547
+msgid "don't allow"
+msgstr ""
+
+#: r2/templates/prefoptions.html:505
+msgid "kept with your account, on every device you sign in on"
+msgstr ""
+
+#: r2/templates/prefoptions.html:511
 msgid "beta options"
 msgstr ""
 
-#: r2/templates/prefoptions.html:498
+#: r2/templates/prefoptions.html:513
 msgid "I would like to beta test features for tippr"
 msgstr ""
 
-#: r2/templates/prefoptions.html:504
+#: r2/templates/prefoptions.html:519
 #, python-format
 msgid "by enabling you'll be subscribed to %(beta_vault_link)s automatically."
 msgstr ""
 
-#: r2/templates/prefoptions.html:506
+#: r2/templates/prefoptions.html:521
 #, python-brace-format
 msgid "details on the /v/{beta_vault} wiki"
 msgstr ""
 
-#: r2/templates/prefoptions.html:515 r2/templates/prefoptions.html:538
+#: r2/templates/prefoptions.html:530 r2/templates/prefoptions.html:553
 msgid "gold options"
 msgstr ""
 
-#: r2/templates/prefoptions.html:517
+#: r2/templates/prefoptions.html:532
 msgid "hide ads"
 msgstr ""
 
-#: r2/templates/prefoptions.html:519
+#: r2/templates/prefoptions.html:534
 msgid "remember what links I've visited"
 msgstr ""
 
-#: r2/templates/prefoptions.html:520
+#: r2/templates/prefoptions.html:535
 msgid "we'll remember and mark what links you've already read, even between computers"
 msgstr ""
 
-#: r2/templates/prefoptions.html:522 r2/templates/prefoptions.html:540
+#: r2/templates/prefoptions.html:537 r2/templates/prefoptions.html:555
 msgid "highlight new comments"
 msgstr ""
 
-#: r2/templates/prefoptions.html:524
+#: r2/templates/prefoptions.html:539
 msgid "we'll remember your visits for 48 hours and show you which comments you haven't seen yet"
 msgstr "ni memoros viajn vizitojn dum 48 horoj kaj mostros al vi tiujn komentojn, kiujn vi ankoraŭ ne vidis"
 
-#: r2/templates/prefoptions.html:527
+#: r2/templates/prefoptions.html:542
 msgid "show gold expiration"
 msgstr ""
 
-#: r2/templates/prefoptions.html:529
+#: r2/templates/prefoptions.html:544
 msgid "show how much gold you have remaining on your userpage"
 msgstr ""
 
-#: r2/templates/prefoptions.html:533
+#: r2/templates/prefoptions.html:548
 #, python-format
 msgid "use a month of my %(coin_link)s to automatically renew my gold if it expires"
 msgstr ""
 
-#: r2/templates/prefoptions.html:543
+#: r2/templates/prefoptions.html:558
 #, python-format
 msgid "since you don't have %(gold_link)s, this will only apply in vaults you moderate"
 msgstr ""
 
-#: r2/templates/prefoptions.html:551
+#: r2/templates/prefoptions.html:566
 msgid "tippr themes"
 msgstr ""
 
-#: r2/templates/prefoptions.html:555
+#: r2/templates/prefoptions.html:570
 msgid "tippr themes change the appearance of tippr.  They are used anywhere another custom theme is not present."
 msgstr ""
 
-#: r2/templates/prefoptions.html:559
+#: r2/templates/prefoptions.html:574
 msgid "Note: For security reasons this page will not be changed by themes"
 msgstr ""
 
-#: r2/templates/prefoptions.html:563
+#: r2/templates/prefoptions.html:578
 msgid "use tippr theme"
 msgstr ""
 
-#: r2/templates/prefoptions.html:564
+#: r2/templates/prefoptions.html:579
 msgid "hover to preview"
 msgstr ""
 
-#: r2/templates/prefoptions.html:583
+#: r2/templates/prefoptions.html:598
 msgid "warning: use non-featured themes at your own risk"
 msgstr ""
 
-#: r2/templates/prefsecurity.html:43
+#: r2/templates/prefsecurity.html:44
+#, fuzzy
+#| msgid "recover password"
+msgid "save your recovery codes"
+msgstr "retrovu pasvorton"
+
+#: r2/templates/prefsecurity.html:45
+msgid "Save these recovery codes somewhere safe (print them, or keep them in a password manager). Each one works once in place of a code from your app, if you lose your phone. They won't be shown again."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:51
+msgid "If you lose your phone or key: sign in with one of these codes, then remove the lost method below and add a new one."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:57
 msgid "two-factor authentication"
 msgstr "dupaŝa aŭtentigo"
 
-#: r2/templates/prefsecurity.html:46
-msgid "two-factor authentication is **on**. you're asked for a code from one of your methods below when changing your password or email address, and when linking or unlinking a sign-in. a code you enter counts for 15 minutes."
+#: r2/templates/prefsecurity.html:62
+msgid "two-factor authentication is **on**. you're asked for a code from one of your methods when changing your password or email address, and when linking or unlinking a sign-in."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:50
+#: r2/templates/prefsecurity.html:64
+msgid "two-factor authentication is **on**. you're asked to confirm it's you with your passkey when changing your password or email address, and when linking or unlinking a sign-in."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:69
+msgid "Passkey created. Next time a code is asked for, choose \"use a passkey\"."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:73
+msgid "You signed in with a recovery code."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:74
+msgid "If you lost your phone or key, delete it from the list below and create a passkey or add a new app, so you aren't locked out next time."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:76
+#, python-format
+msgid "You have %(count)s recovery codes left."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:78
+msgid "That was your last recovery code: make new ones below."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:91
+#, python-format
+msgid "Unlocked: you can make changes here for %(minutes)s more minutes."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:97
+msgid "To change anything here, enter a code from your authenticator app first. It counts for 15 minutes."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:101
+msgid "To change anything here, confirm it's you with your passkey first. It counts for 15 minutes."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:105 r2/templates/printablebuttons.html:82
+msgid "unlock"
+msgstr ""
+
+#: r2/templates/prefsecurity.html:113
 #, fuzzy
 #| msgid "your edit"
 msgid "your methods"
 msgstr "via redakto"
 
-#: r2/templates/prefsecurity.html:55
+#: r2/templates/prefsecurity.html:118
 #, fuzzy
 #| msgid "kind"
 msgid "kind_name"
 msgstr "tipo"
 
-#: r2/templates/prefsecurity.html:56
+#: r2/templates/prefsecurity.html:119
 #, python-format
 msgid "added %(when)s"
 msgstr ""
 
-#: r2/templates/prefsecurity.html:58
+#: r2/templates/prefsecurity.html:121
 #, fuzzy, python-format
 #| msgid "last name"
 msgid "last used %(when)s"
 msgstr "familia nomo"
 
-#: r2/templates/prefsecurity.html:78
-msgid "Removing your only method turns two-factor off, so it needs your password too."
+#: r2/templates/prefsecurity.html:143
+msgid "Deleting your only method turns two-factor off, so it needs your password too."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:82
+#: r2/templates/prefsecurity.html:146
+msgid "Your passkeys also sign you in on their own: on the login form, choose one from the username box (or \"sign in with a passkey\"), with no password or code."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:147
+msgid "Deleting a passkey here stops it working on this site. Your device or password manager keeps its copy until you delete it there too."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:152
+msgid "You have one method. Add a second one (a passkey on another device, or an app on another phone), so losing one doesn't lock you out."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:155
+msgid "A passkey is the safest method: it only works on this site, so a fake login page can't use it. A code from an app can be typed into a fake page."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:160
 #, fuzzy
 #| msgid "add moderator"
 msgid "add a method"
 msgstr "aldonu debatestron"
 
-#: r2/templates/prefsecurity.html:86
-msgid "also ask for a code"
-msgstr ""
-
-#: r2/templates/prefsecurity.html:89
-msgid "when logging in, with your password or a linked account (Google, GitHub...)"
-msgstr ""
-
-#: r2/templates/prefsecurity.html:90
-#, python-format
-msgid "you can choose to skip it for %(days)s days on a device you trust"
-msgstr ""
-
-#: r2/templates/prefsecurity.html:94
-msgid "when saving your preferences"
-msgstr ""
-
-#: r2/templates/prefsecurity.html:98
-msgid "when submitting a post"
-msgstr ""
-
-#: r2/templates/prefsecurity.html:100
-msgid "a code you enter counts for 15 minutes, so you aren't asked again and again. apps you've allowed (OAuth) aren't asked."
-msgstr ""
-
-#: r2/templates/prefsecurity.html:107
+#: r2/templates/prefsecurity.html:166
 #, fuzzy
 #| msgid "recover password"
 msgid "recovery codes"
 msgstr "retrovu pasvorton"
 
-#: r2/templates/prefsecurity.html:109
-msgid "Save these recovery codes somewhere safe (print them, or keep them in a password manager). Each one works once in place of a code from your app, if you lose your phone. They won't be shown again."
-msgstr ""
-
-#: r2/templates/prefsecurity.html:117
+#: r2/templates/prefsecurity.html:168
 msgid "Recovery codes work once each in place of a code from your app, if you lose your phone."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:119
+#: r2/templates/prefsecurity.html:170
 #, python-format
 msgid "You have %(count)s left."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:121
+#: r2/templates/prefsecurity.html:172
 msgid "You have none left: make new ones now."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:127
+#: r2/templates/prefsecurity.html:177
 msgid "make new recovery codes"
 msgstr ""
 
-#: r2/templates/prefsecurity.html:131
+#: r2/templates/prefsecurity.html:180
 msgid "Making new ones stops the old ones working."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:137
-#, fuzzy
-#| msgid "turn admin off"
-msgid "turn it off"
-msgstr "elŝaltu administradon"
+#: r2/templates/prefsecurity.html:187
+msgid "also ask for a code"
+msgstr ""
 
-#: r2/templates/prefsecurity.html:138
+#: r2/templates/prefsecurity.html:191
+msgid "when logging in, with your password or a linked account (Google, GitHub...)"
+msgstr ""
+
+#: r2/templates/prefsecurity.html:192
+#, python-format
+msgid "you can choose to skip it for %(days)s days on a device you trust"
+msgstr ""
+
+#: r2/templates/prefsecurity.html:196
+msgid "when saving your preferences"
+msgstr ""
+
+#: r2/templates/prefsecurity.html:200
+msgid "when submitting a post"
+msgstr ""
+
+#: r2/templates/prefsecurity.html:202
+msgid "a code you enter counts for 15 minutes, so you aren't asked again and again. apps you've allowed (OAuth) aren't asked."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:215
+#, fuzzy
+#| msgid "remember me"
+msgid "remembered devices"
+msgstr "memoru min"
+
+#: r2/templates/prefsecurity.html:218
+msgid "Done: every device will be asked for a code again."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:220
+msgid "This device is remembered, so it isn't asked for a code."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:222
+msgid "This device isn't remembered."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:224
+msgid "If you lost a device you chose to skip the code on, or used a shared computer, forget them all: each one is asked for a code again next time."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:226
+msgid "forget all remembered devices"
+msgstr ""
+
+#: r2/templates/prefsecurity.html:228
+msgid "Nobody is logged out. To end the logins themselves, use \"log out of all other sessions\" on the account activity page."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:233
+#, fuzzy
+#| msgid "two-factor authentication"
+msgid "turn off two-factor authentication…"
+msgstr "dupaŝa aŭtentigo"
+
+#: r2/templates/prefsecurity.html:235
 msgid "to turn it off (removing every method and the recovery codes), enter your password and a code."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:152
+#: r2/templates/prefsecurity.html:249
 #, fuzzy
 #| msgid "turn admin off"
 msgid "turn off"
 msgstr "elŝaltu administradon"
 
-#: r2/templates/prefsecurity.html:156
+#: r2/templates/prefsecurity.html:254
 msgid "This site asks moderators and staff to use two-factor sign-in: your moderator tools work again once it's on."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:158
+#: r2/templates/prefsecurity.html:256
 msgid "with two-factor authentication on, changing your password or email address, and linking or unlinking a sign-in, also need a second step: a code from an authenticator app on your phone (Google Authenticator, Authy, 1Password and the like). someone who learns your password, or gets into a linked Google or Facebook account, can't take over your account here. you can add more than one method, and remove them later."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:168
-msgid "To add an authenticator app, enter a code from one of your methods first."
+#: r2/templates/prefsecurity.html:257
+msgid "When you add your first method you get recovery codes to save: they let you in if you lose your phone or key."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:170
+#: r2/templates/prefsecurity.html:269
 #, fuzzy
 #| msgid "update your password"
 msgid "To start, enter your password."
 msgstr "aktualigu vian pasvorton"
 
-#: r2/templates/prefsecurity.html:179
+#: r2/templates/prefsecurity.html:273
+#, fuzzy
+#| msgid "(optional)"
+msgid "name (optional, like phone or work)"
+msgstr "(ne deviga)"
+
+#: r2/templates/prefsecurity.html:277
+#, fuzzy
+#| msgid "create a vault"
+msgid "create a passkey"
+msgstr "krei vaulton"
+
+#: r2/templates/prefsecurity.html:279
+msgid "Passkeys are encrypted digital keys you create using your fingerprint, face or screen lock. They're saved in your password manager (like Google Password Manager or iCloud Keychain), so you can use them on your other devices too."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:280
+msgid "A passkey only works on this site, so a fake login page can't use it, and it signs you in without your password. Don't create one on a shared computer."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:283
 msgid "add an authenticator app"
 msgstr ""
 
-#: r2/templates/prefsecurity.html:186
-msgid "Or add a passkey: your phone, computer or security key confirms it's you with a fingerprint, face or PIN."
+#: r2/templates/prefsecurity.html:284
+msgid "An app on your phone (Google Authenticator, Authy, 1Password and the like) shows a new 6-digit code every 30 seconds."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:188
-msgid "Enter a code from one of your methods first."
+#: r2/templates/prefsecurity.html:293
+msgid "1. Scan this QR code with your authenticator app, or type the key under it into the app. This key isn't shown again."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:190
-#, fuzzy
-#| msgid "update your password"
-msgid "Enter your password first."
-msgstr "aktualigu vian pasvorton"
-
-#: r2/templates/prefsecurity.html:198
-#, fuzzy
-#| msgid "(optional)"
-msgid "name (optional)"
-msgstr "(ne deviga)"
-
-#: r2/templates/prefsecurity.html:199
-msgid "add a passkey"
+#: r2/templates/prefsecurity.html:296
+msgid "2. name it"
 msgstr ""
 
-#: r2/templates/prefsecurity.html:206
-msgid "scan the QR code with your authenticator app, or enter the key below in it. you WILL NOT have another chance to see this key."
-msgstr ""
-
-#: r2/templates/prefsecurity.html:209
+#: r2/templates/prefsecurity.html:296
 msgid "(optional, like phone or work)"
 msgstr ""
 
-#: r2/templates/prefsecurity.html:213
-#, fuzzy
-#| msgid "remove moderator"
-msgid "code from the app"
-msgstr "forigi moderatoron"
+#: r2/templates/prefsecurity.html:300
+msgid "3. the code the app shows"
+msgstr ""
 
-#: r2/templates/prefsecurity.html:227
+#: r2/templates/prefsecurity.html:314
 msgid "sign in with another account"
 msgstr ""
 
-#: r2/templates/prefsecurity.html:229
+#: r2/templates/prefsecurity.html:316
 msgid "Link a Google, Facebook, GitHub or Discord account to sign in with it instead of your password. It only signs in to this account, and you can unlink it at any time. Your password keeps working."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:231
+#: r2/templates/prefsecurity.html:318
 msgid "Linked. You can now sign in with it on the login page."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:234
+#: r2/templates/prefsecurity.html:322
 msgid "Linking or unlinking needs your two-factor code (one you entered in the last 15 minutes counts)."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:242
+#: r2/templates/prefsecurity.html:330
 #, fuzzy
 #| msgid "link"
 #| msgid_plural "links"
 msgid "linked"
 msgstr "ligo"
 
-#: r2/templates/prefsecurity.html:254
+#: r2/templates/prefsecurity.html:344
 #, fuzzy
 #| msgid "link"
 #| msgid_plural "links"
 msgid "unlink"
 msgstr "ligo"
 
-#: r2/templates/prefsecurity.html:259
+#: r2/templates/prefsecurity.html:349
 #, fuzzy
 #| msgid "normal link"
 msgid "not linked"
 msgstr "normala ligo"
 
-#: r2/templates/prefsecurity.html:266 r2/templates/prefsecurity.html:270
+#: r2/templates/prefsecurity.html:360 r2/templates/prefsecurity.html:364
 #, fuzzy, python-format
 #| msgid "links from %(site)s"
 msgid "link %(provider)s"
@@ -13060,47 +13286,47 @@ msgstr "ligoj el %(site)s"
 msgid "(entered a moment ago)"
 msgstr ""
 
-#: r2/templates/prefupdate.html:48
+#: r2/templates/prefupdate.html:49
 msgid "verify your email"
 msgstr "kontrolu vian retpoŝtadreson"
 
-#: r2/templates/prefupdate.html:50
+#: r2/templates/prefupdate.html:51
 msgid "update your email"
 msgstr "aktualigu vian retpoŝtadreson"
 
-#: r2/templates/prefupdate.html:55 r2/templates/prefupdate.html:116 r2/templates/useriphistory.html:74
+#: r2/templates/prefupdate.html:56 r2/templates/prefupdate.html:117 r2/templates/useriphistory.html:74
 msgid "current password"
 msgstr ""
 
-#: r2/templates/prefupdate.html:67
+#: r2/templates/prefupdate.html:68
 msgid "verified"
 msgstr "konfirmita"
 
-#: r2/templates/prefupdate.html:70
+#: r2/templates/prefupdate.html:71
 msgid "verification pending"
 msgstr "konfirmota"
 
-#: r2/templates/prefupdate.html:71
+#: r2/templates/prefupdate.html:72
 msgid "click to resend"
 msgstr ""
 
-#: r2/templates/prefupdate.html:73
+#: r2/templates/prefupdate.html:74
 msgid "unverified"
 msgstr "nekonfirmita"
 
-#: r2/templates/prefupdate.html:74
+#: r2/templates/prefupdate.html:75
 msgid "click to verify"
 msgstr ""
 
-#: r2/templates/prefupdate.html:95
+#: r2/templates/prefupdate.html:96
 msgid "send verification email"
 msgstr "sendu konfirmilon"
 
-#: r2/templates/prefupdate.html:113
+#: r2/templates/prefupdate.html:114
 msgid "update your password"
 msgstr "aktualigu vian pasvorton"
 
-#: r2/templates/prefupdate.html:124 r2/templates/resetpassword.html:41
+#: r2/templates/prefupdate.html:125 r2/templates/resetpassword.html:41
 msgid "new password"
 msgstr ""
 
@@ -13123,10 +13349,6 @@ msgstr "denuncu"
 
 #: r2/templates/printablebuttons.html:79
 msgid "lock"
-msgstr ""
-
-#: r2/templates/printablebuttons.html:82
-msgid "unlock"
 msgstr ""
 
 #: r2/templates/printablebuttons.html:85
@@ -13225,7 +13447,7 @@ msgstr "fraŭdo"
 msgid "permalink"
 msgstr "daŭrligo"
 
-#: r2/templates/printablebuttons.html:486 r2/templates/printablebuttons.html:559 r2/templates/starkcomment.html:34
+#: r2/templates/printablebuttons.html:486 r2/templates/printablebuttons.html:559
 msgid "context"
 msgstr "kunteksto"
 
@@ -13317,6 +13539,16 @@ msgstr ""
 #| msgid "History"
 msgid "Export History"
 msgstr "Historio"
+
+#: r2/templates/privacysettings.html:64
+msgid "Date"
+msgstr ""
+
+#: r2/templates/privacysettings.html:64
+#, fuzzy
+#| msgid "status"
+msgid "Status"
+msgstr "statuso"
 
 #: r2/templates/privacysettings.html:64
 #, fuzzy
@@ -14340,6 +14572,10 @@ msgstr ""
 msgid "Use of this site constitutes acceptance of our %(user_agreement)s, %(privacy_policy)s and %(content_policy)s"
 msgstr "Uzo de ĉi tiu retejo konstituigas akcepton de niaj %(user_agreement)s kaj %(privacy_policy)s"
 
+#: r2/templates/tipprfooter.html:46
+msgid "User Agreement"
+msgstr ""
+
 #: r2/templates/tipprheader.html:42
 msgid "jump to content"
 msgstr ""
@@ -14378,34 +14614,34 @@ msgstr ""
 msgid "mod messages"
 msgstr ""
 
-#: r2/templates/tipprtraffic.html:96
+#: r2/templates/tipprtraffic.html:101
 msgid "traffic by day of week"
 msgstr "datumtrafiko po tago de la semajno"
 
-#: r2/templates/tipprtraffic.html:116
+#: r2/templates/tipprtraffic.html:121
 msgid "daily mean"
 msgstr ""
 
-#: r2/templates/tipprtraffic.html:134
+#: r2/templates/tipprtraffic.html:139
 #, fuzzy
 #| msgid "hour"
 #| msgid_plural "hours"
 msgid "24 hours"
 msgstr "horo"
 
-#: r2/templates/tipprtraffic.html:135
+#: r2/templates/tipprtraffic.html:140
 #, fuzzy
 #| msgid "days"
 msgid "7 days"
 msgstr "tagoj"
 
-#: r2/templates/tipprtraffic.html:136
+#: r2/templates/tipprtraffic.html:141
 #, fuzzy
 #| msgid "days"
 msgid "30 days"
 msgstr "tagoj"
 
-#: r2/templates/tipprtraffic.html:153
+#: r2/templates/tipprtraffic.html:158
 msgid "moderator actions, 30 days"
 msgstr ""
 
@@ -14617,19 +14853,27 @@ msgstr ""
 msgid "uploading"
 msgstr "alŝuto"
 
-#: r2/templates/utils.html:630
+#: r2/templates/utils.html:538
+msgid "analytics consent"
+msgstr ""
+
+#: r2/templates/utils.html:540
+msgid "This site would like to use Google Analytics to see how it's used, which sets cookies and sends Google details of your visit. Is that all right?"
+msgstr ""
+
+#: r2/templates/utils.html:722
 msgid "last edited"
 msgstr ""
 
-#: r2/templates/utils.html:649
+#: r2/templates/utils.html:741
 msgid "Adult content: Not Safe For Work"
 msgstr "Plenkreskulaĵo: Maltaŭga Por Laborejo"
 
-#: r2/templates/utils.html:655
+#: r2/templates/utils.html:747
 msgid "Quarantined content: Content may be highly offensive"
 msgstr ""
 
-#: r2/templates/utils.html:656
+#: r2/templates/utils.html:748
 msgid "Quarantined"
 msgstr ""
 

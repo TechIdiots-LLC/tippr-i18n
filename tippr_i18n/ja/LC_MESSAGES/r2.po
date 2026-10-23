@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tippr\n"
 "Report-Msgid-Bugs-To: https://github.com/TechIdiots-LLC/tippr-i18n/issues\n"
-"POT-Creation-Date: 2026-10-22 03:41-0400\n"
+"POT-Creation-Date: 2026-10-23 17:51-0400\n"
 "PO-Revision-Date: 2017-01-23 14:36-0500\n"
 "Last-Translator: tippr translators\n"
 "Language-Team: Japanese\n"
@@ -16,633 +16,473 @@ msgstr ""
 "Display-Name-en: Japanese\n"
 "X-Machine-Translation: Machine-translated by Claude (Anthropic) for tippr; please review and correct\n"
 
-#: r2/controllers/admin.py:116
+#: r2/controllers/admin.py:117
 msgid "Choose an image of at most 1 MB."
 msgstr "1 MB以下の画像を選んでください。"
 
-#: r2/controllers/adminprivacy.py:70
-msgid "Privacy Dashboard"
-msgstr "プライバシー ダッシュボード"
-
-#: r2/controllers/adminprivacy.py:101
-#, python-format
-msgid "User Data: %s"
-msgstr "ユーザーデータ: %s"
-
-#: r2/controllers/adminprivacy.py:132
-msgid "Request approved and queued for processing."
-msgstr "リクエストを承認し、処理キューに追加しました。"
-
-#: r2/controllers/adminprivacy.py:139
-msgid "Request rejected."
-msgstr "リクエストを却下しました。"
-
-#: r2/controllers/adminprivacy.py:147
-msgid "Request marked as completed."
-msgstr "リクエストを完了にしました。"
-
-#: r2/controllers/adminprivacy.py:201
-#, python-format
-msgid "Data export initiated for %s."
-msgstr "%s のデータエクスポートを開始しました。"
-
-#: r2/controllers/adminprivacy.py:240
-msgid "Privacy Request Overview"
-msgstr "プライバシーリクエストの概要"
-
-#: r2/controllers/adminprivacy.py:244
-msgid "Pending Requests"
-msgstr "保留中のリクエスト"
-
-#: r2/controllers/adminprivacy.py:251
-msgid "Pending Privacy Requests"
-msgstr "保留中のプライバシーリクエスト"
-
-#: r2/controllers/adminprivacy.py:256
-msgid "User"
-msgstr "ユーザー"
-
-#: r2/controllers/adminprivacy.py:257 r2/controllers/adminprivacy.py:385
-msgid "Type"
-msgstr "種類"
-
-#: r2/controllers/adminprivacy.py:258 r2/controllers/adminprivacy.py:385 r2/templates/privacysettings.html:64
-msgid "Date"
-msgstr "日付"
-
-#: r2/controllers/adminprivacy.py:259
-msgid "IP"
-msgstr "IP"
-
-#: r2/controllers/adminprivacy.py:260 r2/controllers/adminprivacy.py:416
-msgid "Actions"
-msgstr "操作"
-
-#: r2/controllers/adminprivacy.py:278
-msgid "Approve"
-msgstr "承認"
-
-#: r2/controllers/adminprivacy.py:280
-msgid "Reject"
-msgstr "却下"
-
-#: r2/controllers/adminprivacy.py:286
-msgid "No pending privacy requests."
-msgstr "保留中のプライバシーリクエストはありません。"
-
-#: r2/controllers/adminprivacy.py:292
-msgid "Quick Actions"
-msgstr "クイック操作"
-
-#: r2/controllers/adminprivacy.py:295
-msgid "Trigger Data Export:"
-msgstr "データエクスポートを開始:"
-
-#: r2/controllers/adminprivacy.py:296 r2/public/static/js/enhancements.js:1082 r2/templates/adminemailsettings.html:69 r2/templates/adminvault.html:68 r2/templates/linkedloginlink.html:39 r2/templates/login.html:77 r2/templates/login.html:86 r2/templates/login.html:194 r2/templates/loginformwide.html:44 r2/templates/password.html:41 r2/templates/privacysettings.html:124 r2/templates/userlisting.html:164
-msgid "username"
-msgstr "ユーザ名"
-
-#: r2/controllers/adminprivacy.py:297
-msgid "Export"
-msgstr "エクスポート"
-
-#: r2/controllers/adminprivacy.py:303
-msgid "Resources"
-msgstr "リソース"
-
-#: r2/controllers/adminprivacy.py:305 r2/templates/login.html:301 r2/templates/privacysettings.html:99 r2/templates/tipprfooter.html:50
-msgid "Privacy Policy"
-msgstr "プライバシーポリシー"
-
-#: r2/controllers/adminprivacy.py:306 r2/templates/tipprfooter.html:46
-msgid "User Agreement"
-msgstr "利用規約"
-
-#: r2/controllers/adminprivacy.py:307
-msgid "Moderator Guidelines"
-msgstr "モデレーターのガイドライン"
-
-#: r2/controllers/adminprivacy.py:359
-msgid "User Information"
-msgstr "ユーザー情報"
-
-#: r2/controllers/adminprivacy.py:361
-msgid "Username"
-msgstr "ユーザー名"
-
-#: r2/controllers/adminprivacy.py:362
-msgid "User ID"
-msgstr "ユーザーID"
-
-#: r2/controllers/adminprivacy.py:364
-msgid "Email"
-msgstr "メール"
-
-#: r2/controllers/adminprivacy.py:366
-msgid "Email Verified"
-msgstr "メール確認済み"
-
-#: r2/controllers/adminprivacy.py:368
-msgid "Created"
-msgstr "作成日"
-
-#: r2/controllers/adminprivacy.py:369
-msgid "Link Karma"
-msgstr "リンクカルマ"
-
-#: r2/controllers/adminprivacy.py:370
-msgid "Comment Karma"
-msgstr "コメントカルマ"
-
-#: r2/controllers/adminprivacy.py:372
-msgid "Deleted"
-msgstr "削除済み"
-
-#: r2/controllers/adminprivacy.py:374
-msgid "Banned"
-msgstr "停止中"
-
-#: r2/controllers/adminprivacy.py:380
-msgid "Privacy Requests"
-msgstr "プライバシーリクエスト"
-
-#: r2/controllers/adminprivacy.py:385 r2/templates/privacysettings.html:64
-msgid "Status"
-msgstr "状態"
-
-#: r2/controllers/adminprivacy.py:385
-msgid "Notes"
-msgstr "メモ"
-
-#: r2/controllers/adminprivacy.py:397
-msgid "No privacy requests from this user."
-msgstr "このユーザーからのプライバシーリクエストはありません。"
-
-#: r2/controllers/adminprivacy.py:402
-msgid "Admin Notes"
-msgstr "管理者メモ"
-
-#: r2/controllers/adminprivacy.py:411
-msgid "No admin notes for this user."
-msgstr "このユーザーの管理者メモはありません。"
-
-#: r2/controllers/adminprivacy.py:420
-msgid "Generate Data Export"
-msgstr "データエクスポートを作成"
-
-#: r2/controllers/api.py:221 r2/controllers/api.py:247 r2/controllers/api.py:4357 r2/controllers/api.py:4427 r2/controllers/listingcontroller.py:754 r2/lib/pages/pages.py:6291
+#: r2/controllers/api.py:222 r2/controllers/api.py:248 r2/controllers/api.py:4398 r2/controllers/api.py:4468 r2/controllers/listingcontroller.py:754 r2/lib/pages/pages.py:6361
 msgid "API"
 msgstr "API"
 
-#: r2/controllers/api.py:272
+#: r2/controllers/api.py:273
 msgid "this is too long"
 msgstr "長すぎます"
 
-#: r2/controllers/api.py:286 r2/lib/errors.py:72
+#: r2/controllers/api.py:287 r2/lib/errors.py:72
 msgid "that user doesn't exist"
 msgstr "そのユーザは存在しません"
 
-#: r2/controllers/api.py:290
+#: r2/controllers/api.py:291
 #, python-format
 msgid "you can tag at most %(n)d users"
 msgstr "タグを付けられるユーザーは最大 %(n)d 人です"
 
-#: r2/controllers/api.py:308
+#: r2/controllers/api.py:309
 msgid "wrong username or password"
 msgstr "ユーザー名またはパスワードが違います"
 
-#: r2/controllers/api.py:310
+#: r2/controllers/api.py:311
 msgid "that's the account you're using"
 msgstr "それは今使っているアカウントです"
 
-#: r2/controllers/api.py:312
+#: r2/controllers/api.py:313
 #, python-format
 msgid "you can keep at most %(n)d other accounts"
 msgstr "ほかのアカウントは最大 %(n)d 個まで保存できます"
 
-#: r2/controllers/api.py:317
+#: r2/controllers/api.py:318
 msgid "enter that account's two-factor code"
 msgstr "そのアカウントの 2 段階認証コードを入力してください"
 
-#: r2/controllers/api.py:333
+#: r2/controllers/api.py:334
 msgid "that account isn't available to switch to; add it again"
 msgstr "そのアカウントには切り替えられません。もう一度追加してください"
 
-#: r2/controllers/api.py:512
+#: r2/controllers/api.py:547
 msgid "your message has been delivered"
 msgstr "メッセージを送りました"
 
-#: r2/controllers/api.py:734
+#: r2/controllers/api.py:769
 msgid "no title found"
 msgstr "タイトルが見つかりませんでした"
 
-#: r2/controllers/api.py:828 r2/controllers/linked_logins.py:173 r2/controllers/linked_logins.py:219 r2/controllers/linked_logins.py:239 r2/controllers/linked_logins.py:256
+#: r2/controllers/api.py:863 r2/controllers/linked_logins.py:184 r2/controllers/linked_logins.py:232 r2/controllers/linked_logins.py:252 r2/controllers/linked_logins.py:330
 msgid "That sign-in took too long. Please start again."
 msgstr "サインインに時間がかかりすぎました。最初からやり直してください。"
 
-#: r2/controllers/api.py:833
+#: r2/controllers/api.py:868
 msgid "That account is linked already: sign in with it."
 msgstr "そのアカウントはすでに連携されています。それでサインインしてください。"
 
-#: r2/controllers/api.py:1367 r2/controllers/api.py:1748 r2/controllers/api.py:2648 r2/controllers/api.py:2948 r2/controllers/api.py:3269 r2/controllers/api.py:4149 r2/controllers/api.py:4205 r2/controllers/api.py:4259 r2/controllers/api.py:4492 r2/controllers/api.py:4497 r2/controllers/api.py:4732 r2/controllers/api.py:4797 r2/controllers/api.py:4875 r2/controllers/api.py:4941 r2/controllers/api.py:5014 r2/controllers/api.py:5100 r2/controllers/api.py:5132 r2/controllers/api.py:5152 r2/controllers/api.py:5636 r2/controllers/api.py:5676 r2/controllers/api.py:5850 r2/controllers/api.py:5868 r2/controllers/api.py:6192 r2/lib/pages/pages.py:6182
+#: r2/controllers/api.py:1402 r2/controllers/api.py:1783 r2/controllers/api.py:2683 r2/controllers/api.py:2983 r2/controllers/api.py:3310 r2/controllers/api.py:4190 r2/controllers/api.py:4246 r2/controllers/api.py:4300 r2/controllers/api.py:4533 r2/controllers/api.py:4538 r2/controllers/api.py:4773 r2/controllers/api.py:4838 r2/controllers/api.py:4916 r2/controllers/api.py:4982 r2/controllers/api.py:5055 r2/controllers/api.py:5146 r2/controllers/api.py:5178 r2/controllers/api.py:5198 r2/controllers/api.py:5692 r2/controllers/api.py:5732 r2/controllers/api.py:5966 r2/controllers/api.py:5984 r2/controllers/api.py:6332 r2/lib/pages/pages.py:6252
 msgid "saved"
 msgstr "保存済み"
 
-#: r2/controllers/api.py:1437
+#: r2/controllers/api.py:1472
 msgid "all other sessions have been logged out"
 msgstr "すべてのセッションをログアウトしました"
 
-#: r2/controllers/api.py:1496
+#: r2/controllers/api.py:1531
 msgid "you should be getting a verification email shortly."
 msgstr "まもなく登録確認メールが届きます"
 
-#: r2/controllers/api.py:1498 r2/controllers/api.py:1511
+#: r2/controllers/api.py:1533 r2/controllers/api.py:1546
 msgid "your email has been updated"
 msgstr "メールアドレスが更新されました"
 
-#: r2/controllers/api.py:1546
+#: r2/controllers/api.py:1581
 msgid "your password has been updated"
 msgstr "パスワードが更新されました"
 
-#: r2/controllers/api.py:2005 r2/lib/menus.py:195 r2/templates/adminserverstatus.html:141
+#: r2/controllers/api.py:2040 r2/lib/menus.py:196 r2/templates/adminserverstatus.html:141
 msgid "reported"
 msgstr "報告したもの"
 
-#: r2/controllers/api.py:2426 r2/lib/support.py:91
+#: r2/controllers/api.py:2461 r2/lib/support.py:91
 msgid "replied"
 msgstr "返信済み"
 
-#: r2/controllers/api.py:2631
+#: r2/controllers/api.py:2666
 msgid "validation errors"
 msgstr "検証エラー"
 
-#: r2/controllers/api.py:2751 r2/controllers/api.py:2778 r2/controllers/api.py:2805 r2/controllers/listingcontroller.py:1036 r2/lib/menus.py:194 r2/public/static/js/tippr.js:223 r2/templates/adminapps.html:51 r2/templates/adminuser.html:56 r2/templates/deleteduserinterstitial.html:34 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:578 r2/templates/vaultstylesheetbase.html:47
+#: r2/controllers/api.py:2786 r2/controllers/api.py:2813 r2/controllers/api.py:2840 r2/controllers/listingcontroller.py:1036 r2/lib/menus.py:195 r2/public/static/js/tippr.js:231 r2/templates/adminapps.html:51 r2/templates/adminuser.html:59 r2/templates/deleteduserinterstitial.html:34 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:578 r2/templates/vaultstylesheetbase.html:47
 msgid "deleted"
 msgstr "削除したもの"
 
-#: r2/controllers/api.py:2882
+#: r2/controllers/api.py:2917
 msgid "bad image name"
 msgstr "画像名が正しくありません"
 
-#: r2/controllers/api.py:2888
+#: r2/controllers/api.py:2923
 #, python-format
 msgid "too many images (you only get %d)"
 msgstr "画像が多すぎます (%d 件のみ取得できます)"
 
-#: r2/controllers/api.py:2893 r2/controllers/api.py:2917
+#: r2/controllers/api.py:2928 r2/controllers/api.py:2952
 msgid "Invalid image or general image error"
 msgstr "無効な画像、または画像エラー"
 
-#: r2/controllers/api.py:2898
+#: r2/controllers/api.py:2933
 #, python-format
 msgid "must be %dx%d pixels"
 msgstr "必須 %dx%d ピクセル"
 
-#: r2/controllers/api.py:2902
+#: r2/controllers/api.py:2937
 msgid "10:3 aspect ratio required"
 msgstr "10:3のアスペクト比であることが必要とされています。"
 
-#: r2/controllers/api.py:2905
+#: r2/controllers/api.py:2940
 #, python-format
 msgid "max %dx%d pixels"
 msgstr "最大 %dx%d ピクセル"
 
-#: r2/controllers/api.py:2908
+#: r2/controllers/api.py:2943
 #, python-format
 msgid "min %dx%d pixels"
 msgstr "最小 %dx%d ピクセル"
 
-#: r2/controllers/api.py:3961
+#: r2/controllers/api.py:4002
 msgid "an email will be sent to that account's address shortly"
 msgstr "そのアカウントのメールアドレスに間もなくメッセージをお送りします"
 
-#: r2/controllers/api.py:3964
+#: r2/controllers/api.py:4005
 msgid "try again tomorrow"
 msgstr "また明日試してみて下さい"
 
-#: r2/controllers/api.py:4011
+#: r2/controllers/api.py:4052
 msgid "password updated"
 msgstr "パスワードが更新されました"
 
-#: r2/controllers/api.py:4217 r2/controllers/api.py:4448
+#: r2/controllers/api.py:4258 r2/controllers/api.py:4489
 msgid "invalid css class"
 msgstr "CSS class が無効"
 
-#: r2/controllers/api.py:4220 r2/controllers/api.py:4451
+#: r2/controllers/api.py:4261 r2/controllers/api.py:4492
 msgid "too many css classes"
 msgstr "css classの数が多すぎます"
 
-#: r2/controllers/api.py:4472
+#: r2/controllers/api.py:4513
 msgid "max flair templates reached"
 msgstr "flairのテンプレート数が上限に達しています"
 
-#: r2/controllers/api.py:4937
+#: r2/controllers/api.py:4978
 #, python-format
 msgid "saved, but these aren't on until their keys are filled in: %(names)s"
 msgstr "保存しましたが、キーを入力するまで次のものは有効になりません: %(names)s"
 
-#: r2/controllers/api.py:4959
+#: r2/controllers/api.py:5000
 msgid "the keys work"
 msgstr "キーは有効です"
 
-#: r2/controllers/api.py:4960 r2/controllers/api.py:4977
+#: r2/controllers/api.py:5001 r2/controllers/api.py:5018
 #, python-format
 msgid "didn't work: %(error)s"
 msgstr "うまくいきませんでした: %(error)s"
 
-#: r2/controllers/api.py:4965
+#: r2/controllers/api.py:5006
 msgid "no such payment"
 msgstr "その支払いはありません"
 
-#: r2/controllers/api.py:4980 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminusers.html:58 r2/templates/adminvaults.html:50
+#: r2/controllers/api.py:5021 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminprivacy.html:26 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminusers.html:77 r2/templates/adminvaults.html:50
 msgid "status"
 msgstr "ステータス"
 
-#: r2/controllers/api.py:5005 r2/controllers/linked_logins.py:93 r2/controllers/linked_logins.py:176 r2/lib/pages/pages.py:1350 r2/lib/pages/pages.py:1399 r2/templates/createvault.html:57 r2/templates/goldpayment.html:168 r2/templates/linkedsignin.html:29 r2/templates/listingchooser.html:69 r2/templates/prefapps.html:153 r2/templates/prefapps.html:348 r2/templates/prefsecurity.html:209
+#: r2/controllers/api.py:5046 r2/controllers/linked_logins.py:93 r2/controllers/linked_logins.py:187 r2/lib/pages/pages.py:1373 r2/lib/pages/pages.py:1423 r2/templates/createvault.html:57 r2/templates/goldpayment.html:168 r2/templates/linkedsignin.html:41 r2/templates/listingchooser.html:69 r2/templates/prefapps.html:153 r2/templates/prefapps.html:348
 msgid "name"
 msgstr "名前"
 
-#: r2/controllers/api.py:5010
+#: r2/controllers/api.py:5051
 #, python-format
 msgid "saved, but these aren't on until their ID and secret are filled in: %(names)s"
 msgstr "保存しましたが、ID とシークレットを入力するまで次のものは有効になりません: %(names)s"
 
-#: r2/controllers/api.py:5114 r2/controllers/api.py:5140
+#: r2/controllers/api.py:5160 r2/controllers/api.py:5186
 msgid "this site's live config is managed in ZooKeeper"
 msgstr "このサイトのライブ設定は ZooKeeper で管理されています"
 
-#: r2/controllers/api.py:5118
+#: r2/controllers/api.py:5164
 msgid "unknown setting"
 msgstr "不明な設定です"
 
-#: r2/controllers/api.py:5126 r2/controllers/api.py:5150
+#: r2/controllers/api.py:5172 r2/controllers/api.py:5196
 #, python-format
 msgid "not saved: %(error)s"
 msgstr "保存されませんでした: %(error)s"
 
-#: r2/controllers/api.py:5156
+#: r2/controllers/api.py:5202
 #, python-format
 msgid "%(saved)d saved; %(failed)d not saved (see below)"
 msgstr "%(saved)d 件保存、%(failed)d 件は保存されませんでした (下を参照)"
 
-#: r2/controllers/api.py:5162
+#: r2/controllers/api.py:5208
 msgid "nothing changed"
 msgstr "何も変わっていません"
 
-#: r2/controllers/api.py:5178
+#: r2/controllers/api.py:5224
 #, python-format
 msgid "couldn't empty: %(servers)s"
 msgstr "空にできませんでした: %(servers)s"
 
-#: r2/controllers/api.py:5203
+#: r2/controllers/api.py:5249
 msgid "every account has been checked"
 msgstr "すべてのアカウントを確認しました"
 
-#: r2/controllers/api.py:5215
+#: r2/controllers/api.py:5261
 msgid "select some accounts"
 msgstr "アカウントを選んでください"
 
-#: r2/controllers/api.py:5257 r2/controllers/api.py:5338
+#: r2/controllers/api.py:5305 r2/controllers/api.py:5394
 msgid "no such account"
 msgstr "そのアカウントは存在しません"
 
-#: r2/controllers/api.py:5260 r2/controllers/api.py:5330
+#: r2/controllers/api.py:5308 r2/controllers/api.py:5386
 msgid "unknown action"
 msgstr "不明な操作です"
 
-#: r2/controllers/api.py:5263
+#: r2/controllers/api.py:5319
 msgid "not on admins (take them off the employees list on /admin/config first)"
 msgstr "管理者には使えません(先に /admin/config の従業員リストから外してください)"
 
-#: r2/controllers/api.py:5267
+#: r2/controllers/api.py:5323
 msgid "the account is deleted"
 msgstr "アカウントは削除されています"
 
-#: r2/controllers/api.py:5270
+#: r2/controllers/api.py:5326
 msgid "give a reason (it's logged, and a timeout's reason is sent to them)"
 msgstr "理由を入力してください(記録され、一時停止の理由は本人に送られます)"
 
-#: r2/controllers/api.py:5274 r2/controllers/api.py:5355
+#: r2/controllers/api.py:5330 r2/controllers/api.py:5411
 msgid "tick the box to confirm"
 msgstr "確認のためにチェックを入れてください"
 
-#: r2/controllers/api.py:5277
+#: r2/controllers/api.py:5333
 msgid "choose whether to keep or delete their posts"
 msgstr "投稿を残すか削除するかを選んでください"
 
-#: r2/controllers/api.py:5280
+#: r2/controllers/api.py:5336
 msgid "they have no email address"
 msgstr "メールアドレスがありません"
 
-#: r2/controllers/api.py:5327 r2/controllers/api.py:5433
+#: r2/controllers/api.py:5383 r2/controllers/api.py:5489
 msgid "no such vault"
 msgstr "その vault は存在しません"
 
-#: r2/controllers/api.py:5342
+#: r2/controllers/api.py:5398
 msgid "they're already a moderator"
 msgstr "すでにモデレーターです"
 
-#: r2/controllers/api.py:5345
+#: r2/controllers/api.py:5401
 msgid "they're banned from the vault; unban them first"
 msgstr "この vault から追放されています。先に追放を解除してください"
 
-#: r2/controllers/api.py:5350
+#: r2/controllers/api.py:5406
 msgid "they aren't a moderator"
 msgstr "モデレーターではありません"
 
-#: r2/controllers/api.py:5362
+#: r2/controllers/api.py:5418
 msgid "unban the vault first"
 msgstr "先に vault の禁止を解除してください"
 
-#: r2/controllers/api.py:5381
+#: r2/controllers/api.py:5437
 msgid "no such app"
 msgstr "そのアプリは存在しません"
 
-#: r2/controllers/api.py:5384
+#: r2/controllers/api.py:5440
 msgid "the site's own apps can't be deleted here"
 msgstr "サイト自身のアプリはここでは削除できません"
 
-#: r2/controllers/api.py:5427
+#: r2/controllers/api.py:5483
 msgid "give the feed's http(s) address"
 msgstr "フィードの http(s) アドレスを入力してください"
 
-#: r2/controllers/api.py:5436
+#: r2/controllers/api.py:5492
 msgid "pick one of the AI labels"
 msgstr "AI ラベルのどれかを選んでください"
 
-#: r2/controllers/api.py:5440
+#: r2/controllers/api.py:5496
 #, python-format
 msgid "/v/%(vault)s doesn't accept %(label)s posts"
 msgstr "/v/%(vault)s は %(label)s の投稿を受け付けていません"
 
-#: r2/controllers/api.py:5446
+#: r2/controllers/api.py:5502
 msgid "give the bot account a valid username"
 msgstr "ボットアカウントに有効なユーザー名を入力してください"
 
-#: r2/controllers/api.py:5455
+#: r2/controllers/api.py:5511
 msgid "that account is suspended or deleted"
 msgstr "そのアカウントは停止または削除されています"
 
-#: r2/controllers/api.py:5462 r2/controllers/api.py:5477
+#: r2/controllers/api.py:5518 r2/controllers/api.py:5533
 msgid "no such feed"
 msgstr "そのフィードは存在しません"
 
-#: r2/controllers/api.py:5500
+#: r2/controllers/api.py:5556
 msgid "give a domain"
 msgstr "ドメインを入力してください"
 
-#: r2/controllers/api.py:5506
+#: r2/controllers/api.py:5562
 msgid "choose what the ban does"
 msgstr "禁止の動作を選んでください"
 
-#: r2/controllers/api.py:5509
+#: r2/controllers/api.py:5565
 msgid "give a reason (members see it when the link is refused)"
 msgstr "理由を入力してください(リンクが拒否されたときにメンバーに表示されます)"
 
-#: r2/controllers/api.py:5514
+#: r2/controllers/api.py:5570
 msgid "that's not a domain"
 msgstr "それはドメインではありません"
 
-#: r2/controllers/api.py:5541 r2/controllers/api.py:5560 r2/controllers/api.py:5577 r2/controllers/api.py:5595
+#: r2/controllers/api.py:5597 r2/controllers/api.py:5616 r2/controllers/api.py:5633 r2/controllers/api.py:5651
 msgid "no such ticket"
 msgstr "そのチケットは存在しません"
 
-#: r2/controllers/api.py:5608
+#: r2/controllers/api.py:5664
 msgid "they can't reply in this category"
 msgstr "このカテゴリでは返信できません"
 
-#: r2/controllers/api.py:5628
+#: r2/controllers/api.py:5684
 msgid "not on the employees list"
 msgstr "従業員リストに入っていません"
 
-#: r2/controllers/api.py:5680
+#: r2/controllers/api.py:5736
 msgid "saved; CleanTalk needs an access key to work"
 msgstr "保存しました。CleanTalk を使うにはアクセスキーが必要です"
 
-#: r2/controllers/api.py:5683
+#: r2/controllers/api.py:5739
 #, python-format
 msgid "saved; CleanTalk says: %(problem)s"
 msgstr "保存しました。CleanTalk の応答: %(problem)s"
 
-#: r2/controllers/api.py:5685
+#: r2/controllers/api.py:5741
 msgid "saved; the CleanTalk key works"
 msgstr "保存しました。CleanTalk のキーは有効です"
 
-#: r2/controllers/api.py:5722
+#: r2/controllers/api.py:5778
 msgid "that isn't a release with an installer"
 msgstr "それはインストーラー付きのリリースではありません"
 
-#: r2/controllers/api.py:5725
+#: r2/controllers/api.py:5781
 msgid "a server is updating now; wait for it to finish"
 msgstr "サーバーを更新中です。終わるまでお待ちください"
 
-#: r2/controllers/api.py:5767
+#: r2/controllers/api.py:5883
 msgid "Copy the key now; it isn't shown again."
 msgstr "今すぐキーをコピーしてください。二度と表示されません。"
 
-#: r2/controllers/api.py:5776
+#: r2/controllers/api.py:5892
 msgid "tippr-backup isn't installed on this server (re-run the installer)."
 msgstr "このサーバーには tippr-backup がインストールされていません(インストーラーを再実行してください)。"
 
-#: r2/controllers/api.py:5781
+#: r2/controllers/api.py:5897
 msgid "no such backup"
 msgstr "そのバックアップは存在しません"
 
-#: r2/controllers/api.py:5786
+#: r2/controllers/api.py:5902
 #, python-format
 msgid "Type this site's domain (%(domain)s) to confirm."
 msgstr "確認のため、このサイトのドメイン(%(domain)s)を入力してください。"
 
-#: r2/controllers/api.py:5799
+#: r2/controllers/api.py:5915
 msgid "Enter the other server's address and its transfer key."
 msgstr "もう一方のサーバーのアドレスと転送キーを入力してください。"
 
-#: r2/controllers/api.py:5803
+#: r2/controllers/api.py:5919
 msgid "That isn't a backup name."
 msgstr "それはバックアップ名ではありません。"
 
-#: r2/controllers/api.py:5824
+#: r2/controllers/api.py:5940
 msgid "tippr test email"
 msgstr "tippr のテストメール"
 
-#: r2/controllers/api.py:5825
+#: r2/controllers/api.py:5941
 #, python-format
 msgid "This is a test message from %(domain)s. Email is working."
 msgstr "これは %(domain)s からのテストメッセージです。メールは正常に動作しています。"
 
-#: r2/controllers/api.py:5829
+#: r2/controllers/api.py:5945
 #, python-format
 msgid "failed: %(error)s"
 msgstr "失敗しました: %(error)s"
 
-#: r2/controllers/api.py:5831
+#: r2/controllers/api.py:5947
 #, python-format
 msgid "sent to %(address)s"
 msgstr "%(address)s に送信しました"
 
-#: r2/controllers/api.py:5864
+#: r2/controllers/api.py:5980
 msgid "no gold to take"
 msgstr "あげるゴールドはない"
 
-#: r2/controllers/api.py:6017 r2/controllers/api.py:6047
+#: r2/controllers/api.py:6144 r2/controllers/api.py:6174
 msgid "that's as many authenticator apps as an account can have"
 msgstr "1 つのアカウントで使える認証アプリの数の上限です"
 
-#: r2/controllers/api.py:6090
+#: r2/controllers/api.py:6222
+msgid "That code didn't work. Codes follow the clock, so check that your phone sets its time automatically."
+msgstr ""
+
+#: r2/controllers/api.py:6225
 msgid "enter a code from one of your methods first"
 msgstr "まず、いずれかの方法のコードを入力してください"
 
-#: r2/controllers/api.py:6092
+#: r2/controllers/api.py:6228
+#, fuzzy
+#| msgid "That code isn't right. Try again."
+msgid "That password isn't right. Try again."
+msgstr "コードが正しくありません。もう一度お試しください。"
+
+#: r2/controllers/api.py:6229
 msgid "enter your password first"
 msgstr "まずパスワードを入力してください"
 
-#: r2/controllers/api.py:6110
+#: r2/controllers/api.py:6247
 msgid "that passkey couldn't be added"
 msgstr "そのパスキーを追加できませんでした"
 
-#: r2/controllers/api.py:6145
+#: r2/controllers/api.py:6285
 msgid "that passkey wasn't accepted"
 msgstr "そのパスキーは受け付けられませんでした"
 
-#: r2/controllers/api.py:6272
+#: r2/controllers/api.py:6444
 #, python-format
 msgid "accounts need to be %(n)d days old"
 msgstr "アカウント作成から %(n)d 日以上必要です"
 
-#: r2/controllers/api.py:6276
+#: r2/controllers/api.py:6448
 #, python-format
 msgid "accounts need %(n)d karma"
 msgstr "アカウントに %(n)d 以上のカルマが必要です"
 
-#: r2/controllers/api.py:6279
+#: r2/controllers/api.py:6451
 msgid "verify your email address first"
 msgstr "先にメールアドレスを確認してください"
 
-#: r2/controllers/api.py:6321 r2/lib/errors.py:157
+#: r2/controllers/api.py:6493 r2/lib/errors.py:158
 msgid "this app can not be modified from this interface"
 msgstr "このアプリケーションにこのインターフェースから変更を加えることができません。"
 
-#: r2/controllers/api.py:6328 r2/lib/errors.py:136
+#: r2/controllers/api.py:6500 r2/lib/errors.py:136
 msgid "invalid client id"
 msgstr "無効なクライアント ID"
 
-#: r2/controllers/api.py:6331
+#: r2/controllers/api.py:6503
 msgid "cannot update deleted app"
 msgstr "削除されたアプリはアップデート出来ません"
 
-#: r2/controllers/api.py:6334
+#: r2/controllers/api.py:6506
 msgid "app does not belong to you"
 msgstr "あなたのアプリではありません"
 
-#: r2/controllers/api.py:6342
+#: r2/controllers/api.py:6514
 msgid "application updated"
 msgstr "アプリが更新されました"
 
-#: r2/controllers/api.py:6366
+#: r2/controllers/api.py:6538
 msgid "application created"
 msgstr "アプリを作りました"
 
-#: r2/controllers/api.py:6401
+#: r2/controllers/api.py:6573
 msgid "developer added"
 msgstr "開発者を追加しました"
 
@@ -658,7 +498,7 @@ msgstr "tippr用ボタン"
 msgid "tippr widget"
 msgstr "tippr用ウィジェット"
 
-#: r2/controllers/embed.py:74 r2/controllers/policies.py:76 r2/lib/pages/pages.py:1136 r2/lib/pages/pages.py:6287 r2/templates/printablebuttons.html:150
+#: r2/controllers/embed.py:74 r2/controllers/policies.py:76 r2/lib/pages/pages.py:1136 r2/lib/pages/pages.py:6357 r2/templates/printablebuttons.html:150
 msgid "help"
 msgstr "ヘルプ"
 
@@ -692,7 +532,7 @@ msgstr "指定されたページは存在しません"
 msgid "suspended"
 msgstr "中断されました。"
 
-#: r2/controllers/front.py:247 r2/lib/pages/pages.py:6169
+#: r2/controllers/front.py:247 r2/lib/pages/pages.py:6239
 msgid "explore"
 msgstr "探索する"
 
@@ -710,188 +550,188 @@ msgstr "全 %d 件のコメント"
 msgid "top %d comments"
 msgstr "上位 %d 件のコメント"
 
-#: r2/controllers/front.py:595
+#: r2/controllers/front.py:611
 #, python-format
 msgid "show all %d"
 msgstr "全て表示する %d"
 
-#: r2/controllers/front.py:597
+#: r2/controllers/front.py:613
 #, python-format
 msgid "show %d"
 msgstr "表示する %d"
 
-#: r2/controllers/front.py:614 r2/controllers/front.py:617 r2/templates/adminvaults.html:25
+#: r2/controllers/front.py:630 r2/controllers/front.py:633 r2/templates/adminvaults.html:25
 msgid "create a vault"
 msgstr "vaultを作成"
 
-#: r2/controllers/front.py:722 r2/controllers/front.py:728 r2/controllers/listingcontroller.py:801 r2/controllers/listingcontroller.py:816 r2/controllers/listingcontroller.py:1180 r2/controllers/listingcontroller.py:1191 r2/lib/menus.py:202 r2/lib/menus.py:452 r2/lib/menus.py:665 r2/lib/pages/pages.py:5056 r2/lib/pages/pages.py:5065 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
+#: r2/controllers/front.py:738 r2/controllers/front.py:744 r2/controllers/listingcontroller.py:801 r2/controllers/listingcontroller.py:816 r2/controllers/listingcontroller.py:1180 r2/controllers/listingcontroller.py:1191 r2/lib/menus.py:203 r2/lib/menus.py:453 r2/lib/menus.py:666 r2/lib/pages/pages.py:5126 r2/lib/pages/pages.py:5135 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
 msgid "all"
 msgstr "すべて"
 
-#: r2/controllers/front.py:744
+#: r2/controllers/front.py:760
 msgid "admins*"
 msgstr "管理者*"
 
-#: r2/controllers/front.py:747
+#: r2/controllers/front.py:763
 msgid "filter by action"
 msgstr "アクションでフィルタする"
 
-#: r2/controllers/front.py:749
+#: r2/controllers/front.py:765
 msgid "filter by moderator"
 msgstr "モデレーターで絞り込む"
 
-#: r2/controllers/front.py:931
+#: r2/controllers/front.py:947
 msgid "posts and comments"
 msgstr "投稿とコメント"
 
-#: r2/controllers/front.py:932 r2/controllers/front.py:1250 r2/controllers/front.py:1270 r2/lib/permissions.py:95 r2/templates/adminfeeds.html:87 r2/templates/adminuser.html:33
+#: r2/controllers/front.py:948 r2/controllers/front.py:1266 r2/controllers/front.py:1286 r2/lib/permissions.py:95 r2/templates/adminfeeds.html:87 r2/templates/adminuser.html:36
 msgid "posts"
 msgstr "投稿"
 
-#: r2/controllers/front.py:933 r2/controllers/listingcontroller.py:1783 r2/lib/pages/pages.py:5810 r2/templates/adminuser.html:34 r2/templates/createvault.html:288 r2/templates/link.xml:95
+#: r2/controllers/front.py:949 r2/controllers/listingcontroller.py:1783 r2/lib/pages/pages.py:5880 r2/templates/adminuser.html:37 r2/templates/createvault.html:288 r2/templates/link.xml:95
 msgid "comments"
 msgstr "個のコメント"
 
-#: r2/controllers/front.py:935
+#: r2/controllers/front.py:951
 msgid "show"
 msgstr "表示"
 
-#: r2/controllers/front.py:1023
+#: r2/controllers/front.py:1039
 msgid "Posts & Comments"
 msgstr "投稿＆コメント"
 
-#: r2/controllers/front.py:1024
+#: r2/controllers/front.py:1040
 msgid "Posts only"
 msgstr "投稿のみ"
 
-#: r2/controllers/front.py:1025
+#: r2/controllers/front.py:1041
 msgid "Comments only"
 msgstr "コメントのみ"
 
-#: r2/controllers/front.py:1027
+#: r2/controllers/front.py:1043
 #, python-format
 msgid "Rules for /v/%(vault)s"
 msgstr "/v/%(vault)s のルール"
 
-#: r2/controllers/front.py:1065 r2/lib/menus.py:164
+#: r2/controllers/front.py:1081 r2/lib/menus.py:164
 msgid "awards"
 msgstr "アワード"
 
-#: r2/controllers/front.py:1104
+#: r2/controllers/front.py:1120
 msgid "other discussions"
 msgstr "その他のディスカッション"
 
-#: r2/controllers/front.py:1158 r2/controllers/front.py:1322
+#: r2/controllers/front.py:1174 r2/controllers/front.py:1338
 msgid "search results"
 msgstr "検索結果"
 
-#: r2/controllers/front.py:1293 r2/controllers/listingcontroller.py:1532 r2/lib/menus.py:95 r2/lib/menus.py:176 r2/templates/adminvault.html:23 r2/templates/adminvaults.html:22 r2/templates/pagenamenav.html:62 r2/templates/prefoptions.html:342 r2/templates/promotelinkbase.html:765
+#: r2/controllers/front.py:1309 r2/controllers/listingcontroller.py:1532 r2/lib/menus.py:95 r2/lib/menus.py:177 r2/templates/adminvault.html:23 r2/templates/adminvaults.html:22 r2/templates/pagenamenav.html:62 r2/templates/prefoptions.html:349 r2/templates/promotelinkbase.html:765
 msgid "vaults"
 msgstr "vault"
 
-#: r2/controllers/front.py:1440
+#: r2/controllers/front.py:1456
 msgid "seen it"
 msgstr "見ました"
 
-#: r2/controllers/front.py:1458 r2/models/vault.py:2428 r2/templates/multiinfobar.html:37
+#: r2/controllers/front.py:1474 r2/models/vault.py:2423 r2/templates/multiinfobar.html:37
 #, python-format
 msgid "%s vaults"
 msgstr "%s の vault"
 
-#: r2/controllers/front.py:1476 r2/lib/menus.py:83 r2/templates/fraudform.html:45 r2/templates/newlink.html:175 r2/templates/reportform.html:68 r2/templates/usertableitem.html:82
+#: r2/controllers/front.py:1492 r2/lib/menus.py:83 r2/templates/fraudform.html:45 r2/templates/newlink.html:176 r2/templates/reportform.html:68 r2/templates/usertableitem.html:82
 msgid "submit"
 msgstr "投稿"
 
-#: r2/controllers/front.py:1529 r2/lib/menus.py:89 r2/templates/privacysettings.html:110
+#: r2/controllers/front.py:1545 r2/lib/menus.py:89 r2/templates/privacysettings.html:110
 msgid "contact us"
 msgstr "お問い合わせ"
 
-#: r2/controllers/front.py:1541
+#: r2/controllers/front.py:1557
 msgid "Claimed! Enjoy your tippr gold membership."
 msgstr "主張！あなたのtipprのゴールドメンバーシップをお楽しみください。"
 
-#: r2/controllers/front.py:1545
+#: r2/controllers/front.py:1561
 msgid "Your gold has been claimed! Now go to someone's userpage and give them a present!"
 msgstr "受け取りました！今度は誰かのユーザーページに行ってプレゼントを贈りましょう！"
 
-#: r2/controllers/front.py:1549
+#: r2/controllers/front.py:1565
 msgid "Thanks for buying tippr gold! Your payment has been received and your purchase delivered: check your inbox for the details."
 msgstr "tippr gold のご購入ありがとうございます！お支払いを受け付け、ご購入品をお届けしました。詳細は受信箱をご覧ください。"
 
-#: r2/controllers/front.py:1555
+#: r2/controllers/front.py:1571
 msgid "Thanks for buying tippr gold! Your transaction has been completed."
 msgstr "tipprの金を購入してくれてありがとう！トランザクションが完了しました。"
 
-#: r2/controllers/front.py:1558
+#: r2/controllers/front.py:1574
 #, python-format
 msgid "Thanks for buying tippr gold! Your transaction is being processed. If you have any questions please contact us at %(gold_email)s"
 msgstr "tippr gold をご購入いただきありがとうございます!お支払いを処理しています。ご不明な点は %(gold_email)s までお問い合わせください"
 
-#: r2/controllers/front.py:1566 r2/controllers/front.py:1875
+#: r2/controllers/front.py:1582 r2/controllers/front.py:1891
 msgid "thanks"
 msgstr "ありがとう！"
 
-#: r2/controllers/front.py:1583
+#: r2/controllers/front.py:1599
 msgid "claim this award?"
 msgstr "この報酬を要求しますか？"
 
-#: r2/controllers/front.py:1606
+#: r2/controllers/front.py:1622
 msgid "award claim"
 msgstr "報酬の要求権"
 
-#: r2/controllers/front.py:1610 r2/templates/gilding.html:29
+#: r2/controllers/front.py:1626 r2/templates/gilding.html:29
 msgid "gilding"
 msgstr "金メッキ"
 
-#: r2/controllers/front.py:1620 r2/controllers/front.py:1924 r2/controllers/front.py:1951 r2/controllers/front.py:2021 r2/controllers/front.py:2064 r2/lib/menus.py:94 r2/templates/contactus.html:117 r2/templates/contactus.html:119 r2/templates/creditgild.html:34 r2/templates/gold.html:30 r2/templates/goldabout.html:20 r2/templates/goldpayment.html:40 r2/templates/goldthanks.html:29 r2/templates/prefoptions.html:541
+#: r2/controllers/front.py:1636 r2/controllers/front.py:1940 r2/controllers/front.py:1967 r2/controllers/front.py:2037 r2/controllers/front.py:2080 r2/lib/menus.py:94 r2/templates/contactus.html:117 r2/templates/contactus.html:119 r2/templates/creditgild.html:34 r2/templates/gold.html:30 r2/templates/goldabout.html:20 r2/templates/goldpayment.html:40 r2/templates/goldthanks.html:29 r2/templates/prefoptions.html:556
 msgid "tippr gold"
 msgstr "tippr gold"
 
-#: r2/controllers/front.py:1653 r2/public/static/js/enhancements.js:1084 r2/templates/adminemailsettings.html:73 r2/templates/admininterstitial.html:52 r2/templates/linkedloginlink.html:40 r2/templates/linkedloginlink.html:58 r2/templates/login.html:94 r2/templates/login.html:96 r2/templates/login.html:220 r2/templates/loginformwide.html:45 r2/templates/prefsecurity.html:67 r2/templates/prefsecurity.html:140 r2/templates/prefsecurity.html:176 r2/templates/prefsecurity.html:196 r2/templates/privacysettings.html:128
+#: r2/controllers/front.py:1669 r2/public/static/js/enhancements.js:1084 r2/templates/adminemailsettings.html:73 r2/templates/admininterstitial.html:52 r2/templates/linkedloginlink.html:40 r2/templates/linkedloginlink.html:58 r2/templates/login.html:96 r2/templates/login.html:98 r2/templates/login.html:223 r2/templates/loginformwide.html:46 r2/templates/prefsecurity.html:130 r2/templates/prefsecurity.html:237 r2/templates/prefsecurity.html:270 r2/templates/privacysettings.html:128 r2/templates/register.html:96 r2/templates/register.html:98 r2/templates/register.html:223
 msgid "password"
 msgstr "パスワード"
 
-#: r2/controllers/front.py:1673 r2/controllers/front.py:1702
+#: r2/controllers/front.py:1689 r2/controllers/front.py:1718
 msgid "verify email"
 msgstr "メールアドレスを確認する"
 
-#: r2/controllers/front.py:1721 r2/templates/login.html:123 r2/templates/loginformwide.html:52
+#: r2/controllers/front.py:1737 r2/templates/login.html:125 r2/templates/loginformwide.html:53 r2/templates/register.html:125
 msgid "reset password"
 msgstr "パスワードをリセットする"
 
-#: r2/controllers/front.py:1739
+#: r2/controllers/front.py:1755
 msgid "incorrect message token"
 msgstr "不正なメッセージトークンです"
 
-#: r2/controllers/front.py:1748
+#: r2/controllers/front.py:1764
 msgid "emails unsubscribed"
 msgstr "Eメールの購読を解除"
 
-#: r2/controllers/front.py:1827 r2/lib/pages/pages.py:929 r2/templates/admininterstitial.html:84
+#: r2/controllers/front.py:1843 r2/lib/pages/pages.py:929 r2/templates/admininterstitial.html:79
 msgid "turn admin on"
 msgstr "管理モードオン"
 
-#: r2/controllers/front.py:1845 r2/controllers/post.py:167
+#: r2/controllers/front.py:1861 r2/controllers/post.py:166
 msgid "opt out"
 msgstr "参加しない"
 
-#: r2/controllers/front.py:1845 r2/controllers/post.py:178
+#: r2/controllers/front.py:1861 r2/controllers/post.py:177
 msgid "welcome back"
 msgstr "おかえり！"
 
-#: r2/controllers/front.py:1953
+#: r2/controllers/front.py:1969
 msgid "tippr gold isn't for sale on this site right now."
 msgstr "このサイトでは現在 tippr gold を販売していません。"
 
-#: r2/controllers/front.py:1954
+#: r2/controllers/front.py:1970
 msgid "what gold gives you"
 msgstr "gold で得られるもの"
 
-#: r2/controllers/front.py:2074 r2/templates/gold.html:57 r2/templates/gold.html:112 r2/templates/prefoptions.html:532
+#: r2/controllers/front.py:2090 r2/templates/gold.html:57 r2/templates/gold.html:112 r2/templates/prefoptions.html:547
 msgid "Give Gold"
 msgstr "gold を贈る"
 
-#: r2/controllers/front.py:2084 r2/controllers/ipn.py:844
+#: r2/controllers/front.py:2100 r2/controllers/ipn.py:844
 msgid "tippr gold subscription"
 msgstr "tippr ゴールド登録"
 
@@ -1116,11 +956,11 @@ msgstr ""
 "\n"
 "お問い合わせは %(gold_email)s までご連絡いただくようお願いいたします。"
 
-#: r2/controllers/linked_logins.py:43 r2/controllers/linked_logins.py:120 r2/controllers/linked_logins.py:134 r2/controllers/linked_logins.py:160 r2/controllers/linked_logins.py:178 r2/controllers/linked_logins.py:191 r2/controllers/linked_logins.py:264 r2/templates/linkedloginotp.html:35
+#: r2/controllers/linked_logins.py:43 r2/controllers/linked_logins.py:120 r2/controllers/linked_logins.py:134 r2/controllers/linked_logins.py:171 r2/controllers/linked_logins.py:189 r2/controllers/linked_logins.py:202 r2/controllers/linked_logins.py:338 r2/templates/linkedloginotp.html:40
 msgid "sign in"
 msgstr "サインイン"
 
-#: r2/controllers/linked_logins.py:76 r2/controllers/linked_logins.py:98 r2/controllers/linked_logins.py:104 r2/controllers/linked_logins.py:174 r2/controllers/linked_logins.py:200 r2/controllers/linked_logins.py:257 r2/controllers/linked_logins.py:263 r2/templates/login.html:164 r2/templates/login.html:259 r2/templates/login.html:293
+#: r2/controllers/linked_logins.py:76 r2/controllers/linked_logins.py:98 r2/controllers/linked_logins.py:104 r2/controllers/linked_logins.py:185 r2/controllers/linked_logins.py:212 r2/controllers/linked_logins.py:331 r2/controllers/linked_logins.py:337 r2/templates/login.html:166 r2/templates/login.html:262 r2/templates/login.html:296 r2/templates/register.html:166 r2/templates/register.html:262 r2/templates/register.html:296
 msgid "log in"
 msgstr "ログイン"
 
@@ -1132,11 +972,33 @@ msgstr "連携したいアカウントにログインしてから、もう一度
 msgid "back"
 msgstr "戻る"
 
-#: r2/controllers/linked_logins.py:129
+#: r2/controllers/linked_logins.py:129 r2/controllers/linked_logins.py:300
 msgid "That account can't be logged into."
 msgstr "そのアカウントにはログインできません。"
 
-#: r2/controllers/linked_logins.py:262
+#: r2/controllers/linked_logins.py:266 r2/controllers/linked_logins.py:282
+#, fuzzy
+#| msgid "You are already logged in."
+msgid "You're logged in."
+msgstr "すでにログインしています。"
+
+#: r2/controllers/linked_logins.py:289
+#, fuzzy
+#| msgid "please wait a few seconds and try again."
+msgid "Too many tries. Please wait a few minutes and try again."
+msgstr "数秒待ってからもう一度お試しください。"
+
+#: r2/controllers/linked_logins.py:293
+#, fuzzy
+#| msgid "I couldn't understand your search query. Please try again."
+msgid "We couldn't check your passkey. Try again."
+msgstr "あなたの検索クエリーが理解できませんでした。もう一度試してみてください。"
+
+#: r2/controllers/linked_logins.py:307
+msgid "Staff accounts sign in with their password, then a code or passkey."
+msgstr ""
+
+#: r2/controllers/linked_logins.py:336
 msgid "Too many wrong codes. Please start again."
 msgstr "間違ったコードが多すぎます。最初からやり直してください。"
 
@@ -1380,7 +1242,7 @@ msgstr "AutoModerator"
 msgid "using the API"
 msgstr "API の使い方"
 
-#: r2/controllers/policies.py:57 r2/lib/menus.py:198
+#: r2/controllers/policies.py:57 r2/lib/menus.py:199
 msgid "advertising"
 msgstr "広告"
 
@@ -1388,15 +1250,15 @@ msgstr "広告"
 msgid "translating"
 msgstr "翻訳"
 
-#: r2/controllers/policies.py:71 r2/controllers/policies.py:89 r2/lib/menus.py:101 r2/lib/pages/pages.py:6298 r2/templates/contactus.html:92
+#: r2/controllers/policies.py:71 r2/controllers/policies.py:89 r2/lib/menus.py:101 r2/lib/pages/pages.py:6368 r2/templates/contactus.html:92
 msgid "user agreement"
 msgstr "利用規約"
 
-#: r2/controllers/policies.py:72 r2/controllers/policies.py:86 r2/lib/menus.py:102 r2/lib/pages/pages.py:6297 r2/templates/contactus.html:84
+#: r2/controllers/policies.py:72 r2/controllers/policies.py:86 r2/lib/menus.py:102 r2/lib/pages/pages.py:6367 r2/templates/contactus.html:84 r2/templates/utils.html:543
 msgid "privacy policy"
 msgstr "プライバシーポリシー"
 
-#: r2/controllers/policies.py:73 r2/controllers/policies.py:92 r2/lib/menus.py:100 r2/lib/pages/pages.py:6299 r2/templates/contactus.html:69 r2/templates/newlink.html:167 r2/templates/usertext.html:193
+#: r2/controllers/policies.py:73 r2/controllers/policies.py:92 r2/lib/menus.py:100 r2/lib/pages/pages.py:6369 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:193
 msgid "content policy"
 msgstr "コンテンツポリシー"
 
@@ -1404,23 +1266,23 @@ msgstr "コンテンツポリシー"
 msgid "moderator guidelines"
 msgstr "モデレーターのガイドライン"
 
-#: r2/controllers/post.py:91
+#: r2/controllers/post.py:90
 msgid "over 18?"
 msgstr "18歳以上ですか?"
 
-#: r2/controllers/post.py:109 r2/templates/quarantineinterstitial.html:37 r2/templates/vault.html:94
+#: r2/controllers/post.py:108 r2/templates/quarantineinterstitial.html:37 r2/templates/vault.html:94
 msgid "quarantined"
 msgstr "隔離"
 
-#: r2/controllers/privacy.py:130
+#: r2/controllers/privacy.py:111 r2/controllers/privacy.py:139
 msgid "Your data export request has been submitted. You will receive a notification when it is ready."
 msgstr "データエクスポートのリクエストを送信しました。準備ができたら通知します。"
 
-#: r2/controllers/privacy.py:155
+#: r2/controllers/privacy.py:164
 msgid "This request cannot be cancelled."
 msgstr "このリクエストはキャンセルできません。"
 
-#: r2/controllers/privacy.py:159
+#: r2/controllers/privacy.py:168
 msgid "Request cancelled."
 msgstr "リクエストをキャンセルしました。"
 
@@ -1472,7 +1334,7 @@ msgstr "有効なスポンサードリンク"
 msgid "edited live promoted links"
 msgstr "掲載中に編集されたプロモーションリンク"
 
-#: r2/controllers/promotecontroller.py:507 r2/lib/menus.py:201
+#: r2/controllers/promotecontroller.py:507 r2/lib/menus.py:202
 msgid "all promoted links"
 msgstr "全てのプロモートされているリンク"
 
@@ -1536,19 +1398,19 @@ msgstr "画像を選んでください"
 msgid "too big. keep it under 500 KB"
 msgstr "大きすぎます。500 KB 以下にしてください"
 
-#: r2/controllers/tippr_base.py:1456 r2/lib/pages/pages.py:4585 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
+#: r2/controllers/tippr_base.py:1483 r2/lib/pages/pages.py:4655 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
 msgid "banned"
 msgstr "投稿禁止ユーザ"
 
-#: r2/controllers/tippr_base.py:1478
+#: r2/controllers/tippr_base.py:1505
 msgid "gold members only"
 msgstr "ゴールドメンバー限定"
 
-#: r2/controllers/tippr_base.py:1488 r2/templates/createvault.html:140 r2/templates/multiinfobar.html:43 r2/templates/privateinterstitial.html:34 r2/templates/searchresultvault.html:101 r2/templates/vault.html:90
+#: r2/controllers/tippr_base.py:1515 r2/templates/createvault.html:140 r2/templates/multiinfobar.html:43 r2/templates/privateinterstitial.html:34 r2/templates/searchresultvault.html:101 r2/templates/vault.html:90
 msgid "private"
 msgstr "非公開"
 
-#: r2/controllers/tippr_base.py:1590
+#: r2/controllers/tippr_base.py:1619
 msgid "search failed"
 msgstr "検索出来ませんでした"
 
@@ -1577,7 +1439,7 @@ msgstr "このページで vault の AutoModerator を設定します。ルー�
 msgid "viewing revision from %s"
 msgstr "%sのリビジョンを表示"
 
-#: r2/controllers/wiki.py:167 r2/controllers/wiki.py:168 r2/lib/template_helpers.py:767
+#: r2/controllers/wiki.py:167 r2/controllers/wiki.py:168 r2/lib/template_helpers.py:775
 #, python-format
 msgid "%s ago"
 msgstr "%s前"
@@ -1931,7 +1793,7 @@ msgstr "vault を指定してください"
 msgid "this vault has chosen to disable their ads at this time"
 msgstr "現在このvaultは広告をオフにしています。"
 
-#: r2/lib/errors.py:88 r2/lib/validator/validator.py:3229
+#: r2/lib/errors.py:88 r2/lib/validator/validator.py:3268
 msgid "that name isn't going to work"
 msgstr "その名前は使えません"
 
@@ -2188,221 +2050,225 @@ msgid "enter the code from your authenticator app (or a recovery code)"
 msgstr "認証アプリのコード (またはリカバリーコード) を入力してください"
 
 #: r2/lib/errors.py:153
+msgid "that code didn't work. Codes follow the clock, so check that your phone sets its time automatically."
+msgstr ""
+
+#: r2/lib/errors.py:154
 msgid "turn on two-factor authentication (preferences, security) to use these tools"
 msgstr "これらのツールを使うには 2 段階認証をオンにしてください (個人設定、セキュリティ)"
 
-#: r2/lib/errors.py:154
+#: r2/lib/errors.py:155
 msgid "image problem"
 msgstr "イメージの問題"
 
-#: r2/lib/errors.py:155
+#: r2/lib/errors.py:156
 msgid "already added"
 msgstr "すでに追加されています"
 
-#: r2/lib/errors.py:156
+#: r2/lib/errors.py:157
 msgid "too many developers"
 msgstr "開発者が多すぎます"
 
-#: r2/lib/errors.py:158
+#: r2/lib/errors.py:159
 msgid "you cannot add this account from this interface"
 msgstr "このアドバイスを登録できるインターフェイスではありません"
 
-#: r2/lib/errors.py:159
+#: r2/lib/errors.py:160
 msgid "invalid modhash"
 msgstr "無効な modhash です"
 
-#: r2/lib/errors.py:160
+#: r2/lib/errors.py:161
 msgid "that user is already a moderator"
 msgstr "そのユーザーは既にモデレーターです"
 
-#: r2/lib/errors.py:161
+#: r2/lib/errors.py:162
 msgid "You can't perform that action because that user is a moderator."
 msgstr "ユーザーがモデレーターのため、そのアクションは行えません。"
 
-#: r2/lib/errors.py:162
+#: r2/lib/errors.py:163
 msgid "there is no pending invite for that vault"
 msgstr "そのvaultへの保留中の招待はありません。"
 
-#: r2/lib/errors.py:163
+#: r2/lib/errors.py:164
 msgid "you cannot edit the budget of a live ad"
 msgstr "あなたはライブ広告の予算を編集することはできません."
 
-#: r2/lib/errors.py:164
+#: r2/lib/errors.py:165
 msgid "you have too many campaigns for that promotion"
 msgstr "そのプロモーションへのキャンペーンが多すぎます。"
 
-#: r2/lib/errors.py:165
+#: r2/lib/errors.py:166
 msgid "that jsonp callback contains invalid characters"
 msgstr "そのJSONPコールバックに無効な文字が含まれています"
 
-#: r2/lib/errors.py:166
+#: r2/lib/errors.py:167
 msgid "permissions don't apply to that type of user"
 msgstr "権限がそのタイプのユーザーに符合しません"
 
-#: r2/lib/errors.py:167
+#: r2/lib/errors.py:168
 msgid "invalid permissions string"
 msgstr "無効な権限文字列"
 
-#: r2/lib/errors.py:168
+#: r2/lib/errors.py:169
 msgid "invalid multi path"
 msgstr "マルチパスが無効です"
 
-#: r2/lib/errors.py:169
+#: r2/lib/errors.py:170
 #, python-format
 msgid "%(reason)s"
 msgstr "%(reason)s"
 
-#: r2/lib/errors.py:170
+#: r2/lib/errors.py:171
 msgid "that multivault doesn't exist"
 msgstr "そのmultivaultは存在しません"
 
-#: r2/lib/errors.py:171
+#: r2/lib/errors.py:172
 msgid "that multivault already exists"
 msgstr "そのmultivaultは既に存在します"
 
-#: r2/lib/errors.py:172
+#: r2/lib/errors.py:173
 msgid "you can't change that multivault"
 msgstr "あなたはそのmultivaultを変更できません"
 
-#: r2/lib/errors.py:173
+#: r2/lib/errors.py:174
 msgid "no more space for vaults in that multivault"
 msgstr "このmultivaultにはvaultのための空きスペースがありません。"
 
-#: r2/lib/errors.py:174
+#: r2/lib/errors.py:175
 #, python-format
 msgid "can't add special vault %(path)s"
 msgstr "特別な vault %(path)s を追加できません"
 
-#: r2/lib/errors.py:175
+#: r2/lib/errors.py:176
 #, python-format
 msgid "maximum %(max)s vaults"
 msgstr "vault は最大 %(max)s 個まで"
 
-#: r2/lib/errors.py:176
+#: r2/lib/errors.py:177
 msgid "unable to parse JSON data"
 msgstr "JSON データを解析できません"
 
-#: r2/lib/errors.py:177
+#: r2/lib/errors.py:178
 msgid "unexpected JSON structure"
 msgstr "予期しない JSON 構造です"
 
-#: r2/lib/errors.py:178
+#: r2/lib/errors.py:179
 #, python-format
 msgid "JSON missing key: \"%(key)s\""
 msgstr "JSON にキーがありません: \"%(key)s\""
 
-#: r2/lib/errors.py:179
+#: r2/lib/errors.py:180
 msgid "can't change post type"
 msgstr "投稿タイプは変更できません"
 
-#: r2/lib/errors.py:180
+#: r2/lib/errors.py:181
 msgid "invalid location"
 msgstr "無効な場所"
 
-#: r2/lib/errors.py:181
+#: r2/lib/errors.py:182
 msgid "invalid values for frequency cap"
 msgstr "表示頻度の上限の値が無効です"
 
-#: r2/lib/errors.py:182
+#: r2/lib/errors.py:183
 #, python-format
 msgid "frequency cap must be at least %(min)d"
 msgstr "表示頻度の上限は %(min)d 以上にしてください"
 
-#: r2/lib/errors.py:183
+#: r2/lib/errors.py:184
 msgid "that user is banned from the vault"
 msgstr "そのユーザーはこのサブレジットから禁止されています。"
 
-#: r2/lib/errors.py:184
+#: r2/lib/errors.py:185
 msgid "You can't do that while suspended."
 msgstr "アカウント停止中はその操作はできません。"
 
-#: r2/lib/errors.py:185
+#: r2/lib/errors.py:186
 msgid "you must have an active tippr gold subscription to do that"
 msgstr "tipprゴールド会員である必要があります"
 
-#: r2/lib/errors.py:186
+#: r2/lib/errors.py:187
 msgid "insufficient coins"
 msgstr "クレジットが足りません"
 
-#: r2/lib/errors.py:187
+#: r2/lib/errors.py:188
 msgid "gilding is not allowed in this vault"
 msgstr "この vault ではギルディングはできません"
 
-#: r2/lib/errors.py:188
+#: r2/lib/errors.py:189
 msgid "unable to scrape provided url"
 msgstr "そのurlはスクレイピングすることができません"
 
-#: r2/lib/errors.py:189
+#: r2/lib/errors.py:190
 msgid "can't send a message from a vault to another vault"
 msgstr "vault から別の vault にメッセージを送ることはできません"
 
-#: r2/lib/errors.py:190
+#: r2/lib/errors.py:191
 msgid "can't send message to that user"
 msgstr "そのユーザーへメッセージを送ることはできません"
 
-#: r2/lib/errors.py:191
+#: r2/lib/errors.py:192
 msgid "you must be in admin mode for this"
 msgstr "それを実行するには管理者モードで行う必要があります"
 
-#: r2/lib/errors.py:192
+#: r2/lib/errors.py:193
 #, python-format
 msgid "to convert an existing vault to gold only, send a message to %(admin_modmail)s"
 msgstr "既存の vault を gold 限定にするには、%(admin_modmail)s にメッセージを送ってください"
 
-#: r2/lib/errors.py:194
+#: r2/lib/errors.py:195
 msgid "this vault must be 'gold only' to select this"
 msgstr "これを選ぶには、この vault が「gold 限定」である必要があります"
 
-#: r2/lib/errors.py:195
+#: r2/lib/errors.py:196
 msgid "your account is too new or you do not have enough karma to create a vault. please contact the admins to request an exemption."
 msgstr "アカウントが新しすぎるか、vault を作成するのに十分なカルマがありません。例外を希望する場合は管理者に連絡してください。"
 
-#: r2/lib/errors.py:196
+#: r2/lib/errors.py:197
 msgid "you must select at least one mobile OS to target"
 msgstr "対象とするモバイルOSを1つ以上選択してください"
 
-#: r2/lib/errors.py:197 r2/templates/promotelinkbase.html:524
+#: r2/lib/errors.py:198 r2/templates/promotelinkbase.html:524
 msgid "you must select at least one device per OS to target"
 msgstr "対象にするデバイスごとのOSを1つ以上選択してください"
 
-#: r2/lib/errors.py:198
+#: r2/lib/errors.py:199
 msgid "You have been muted from this vault."
 msgstr "あなたはこの vault でミュートされています。"
 
-#: r2/lib/errors.py:199
+#: r2/lib/errors.py:200
 msgid "This user has been muted from the vault."
 msgstr "このユーザーはこの vault でミュートされています。"
 
-#: r2/lib/errors.py:200
+#: r2/lib/errors.py:201
 msgid "please say how much AI went into this post"
 msgstr "この投稿にどの程度 AI を使ったか選んでください"
 
-#: r2/lib/errors.py:201
+#: r2/lib/errors.py:202
 #, python-format
 msgid "this vault only accepts: %(allowed)s"
 msgstr "この vault で受け付けるのは %(allowed)s のみです"
 
-#: r2/lib/errors.py:202
+#: r2/lib/errors.py:203
 msgid "This comment is not stickyable. Ensure that it is a top level comment."
 msgstr "このコメントは固定できません。トップレベルのコメントか確認してください。"
 
-#: r2/lib/errors.py:203 r2/public/static/js/errors.js:7
+#: r2/lib/errors.py:204 r2/public/static/js/errors.js:7
 msgid "A vault rule by that name already exists."
 msgstr "その名前の vault ルールはすでにあります。"
 
-#: r2/lib/errors.py:204
+#: r2/lib/errors.py:205
 msgid "No vault rule by that name exists."
 msgstr "その名前の vault ルールはありません。"
 
-#: r2/lib/errors.py:205 r2/public/static/js/errors.js:8
+#: r2/lib/errors.py:206 r2/public/static/js/errors.js:8
 msgid "This vault already has the maximum number of rules."
 msgstr "すでに上限までルールを設定してあります。"
 
-#: r2/lib/errors.py:206
+#: r2/lib/errors.py:207
 msgid "Cannot access this comment."
 msgstr "コメントを開けません。"
 
-#: r2/lib/errors.py:207
+#: r2/lib/errors.py:208
 msgid "Cannot access this post."
 msgstr "この投稿にはアクセスできません。"
 
@@ -2731,42 +2597,62 @@ msgid "Whether registering an API app needs a verified email address."
 msgstr "API アプリの登録に確認済みのメールアドレスが必要かどうか。"
 
 #: r2/lib/live_config_admin.py:102
+msgid "New comments appear on a thread while people have it open, without reloading. When this is on, each vault's moderators choose whether their vault uses it (in the vault's settings), and each member whether they see it (in their preferences). Needs the websockets service (tippr-websockets) running."
+msgstr ""
+
+#: r2/lib/live_config_admin.py:108
+msgid "Whether a new vault starts with live comments on (its moderators can change it). Vaults that already exist keep their setting."
+msgstr ""
+
+#: r2/lib/live_config_admin.py:111
+msgid "Whether a new account starts with live comments on (the member can change it in their preferences); also what logged-out visitors get. Accounts that already exist keep their setting."
+msgstr ""
+
+#: r2/lib/live_config_admin.py:115
+msgid "The first this many members get the Early Member award, in the order they signed up (the site's own accounts, like AutoModerator and feed bots, don't count). Raising it gives the award to the members it now includes within a day; lowering it doesn't take the award back. 0: nobody gets it automatically (admins can still give it on /admin/awards)."
+msgstr ""
+
+#: r2/lib/live_config_admin.py:122
+msgid "Busy threads whose new comments get a queue of their own, so a flood of comments there doesn't slow down comments everywhere else: the ids of their posts (the part of a post's address after /comments/), comma-separated. Remove a thread once it calms down."
+msgstr ""
+
+#: r2/lib/live_config_admin.py:128
 msgid "Votes a post or comment needs before it can count as controversial."
 msgstr "投稿やコメントが物議を醸していると判断されるのに必要な投票数。"
 
-#: r2/lib/live_config_admin.py:104
+#: r2/lib/live_config_admin.py:130
 msgid "Controversial: the lowest share of upvotes (0 to 1)."
 msgstr "物議: 賛成票の割合の下限(0〜1)。"
 
-#: r2/lib/live_config_admin.py:106
+#: r2/lib/live_config_admin.py:132
 msgid "Controversial: the highest share of upvotes (0 to 1)."
 msgstr "物議: 賛成票の割合の上限(0〜1)。"
 
-#: r2/lib/live_config_admin.py:110
+#: r2/lib/live_config_admin.py:136
 msgid "true or false"
 msgstr "true または false"
 
-#: r2/lib/live_config_admin.py:111
+#: r2/lib/live_config_admin.py:137
 msgid "whole number"
 msgstr "整数"
 
-#: r2/lib/live_config_admin.py:112
+#: r2/lib/live_config_admin.py:138
 msgid "number"
 msgstr "数値"
 
-#: r2/lib/live_config_admin.py:113
+#: r2/lib/live_config_admin.py:139
 msgid "comma-separated list"
 msgstr "カンマ区切りのリスト"
 
-#: r2/lib/live_config_admin.py:114 r2/lib/live_config_admin.py:177 r2/templates/newlink.html:96 r2/templates/promotelinkbase.html:111 r2/templates/promotelinkbase.html:117
+#: r2/lib/live_config_admin.py:140 r2/lib/live_config_admin.py:203 r2/templates/newlink.html:96 r2/templates/promotelinkbase.html:111 r2/templates/promotelinkbase.html:117
 msgid "text"
 msgstr "文章"
 
-#: r2/lib/live_config_admin.py:115
+#: r2/lib/live_config_admin.py:141
 msgid "quoted messages"
 msgstr "引用符で囲んだメッセージ"
 
-#: r2/lib/live_config_admin.py:178
+#: r2/lib/live_config_admin.py:204
 msgid "name:value pairs, comma-separated"
 msgstr "名前:値の組(カンマ区切り)"
 
@@ -2810,7 +2696,7 @@ msgstr "論争中"
 msgid "best"
 msgstr "ベスト"
 
-#: r2/lib/menus.py:62 r2/lib/menus.py:453
+#: r2/lib/menus.py:62 r2/lib/menus.py:454
 msgid "random"
 msgstr "ランダム"
 
@@ -2823,7 +2709,7 @@ msgstr "Q&A"
 msgid "saved {toolbar}"
 msgstr "保存済み"
 
-#: r2/lib/menus.py:65
+#: r2/lib/menus.py:65 r2/templates/prefsecurity.html:278
 msgid "recommended"
 msgstr "お薦め"
 
@@ -2867,7 +2753,7 @@ msgstr "迷惑投稿"
 msgid "autobanned"
 msgstr "自動差し止めました"
 
-#: r2/lib/menus.py:82 r2/lib/pages/pages.py:1269 r2/lib/pages/pages.py:1293
+#: r2/lib/menus.py:82 r2/lib/pages/pages.py:1270 r2/lib/pages/pages.py:1294
 msgid "preferences"
 msgstr "個人設定"
 
@@ -2879,7 +2765,7 @@ msgstr "ウィキ"
 msgid "blog"
 msgstr "ブログ"
 
-#: r2/lib/menus.py:86 r2/templates/utils.html:504
+#: r2/lib/menus.py:86 r2/templates/utils.html:596
 msgid "logout"
 msgstr "ログアウト"
 
@@ -2960,7 +2846,7 @@ msgstr "送信済み"
 msgid "comments {toolbar}"
 msgstr "個のコメント"
 
-#: r2/lib/menus.py:123 r2/templates/prefoptions.html:489
+#: r2/lib/menus.py:123 r2/templates/adminprivacy.html:27 r2/templates/prefoptions.html:496
 msgid "details"
 msgstr "詳細"
 
@@ -2973,7 +2859,7 @@ msgstr "その他のディスカッション (%(num)s)"
 msgid "traffic stats"
 msgstr "アクセス状況統計"
 
-#: r2/lib/menus.py:126 r2/models/modaction.py:182 r2/templates/vaultstylesheet.html:45
+#: r2/lib/menus.py:126 r2/models/modaction.py:183 r2/templates/vaultstylesheet.html:45
 msgid "stylesheet"
 msgstr "スタイルシート"
 
@@ -2989,7 +2875,7 @@ msgstr "情報"
 msgid "edit subscriptions"
 msgstr "購読管理"
 
-#: r2/lib/menus.py:132 r2/lib/pages/pages.py:2285
+#: r2/lib/menus.py:132 r2/lib/pages/pages.py:2309
 msgid "vault settings"
 msgstr "vaultの設定"
 
@@ -3073,11 +2959,11 @@ msgstr "wikiページリスト"
 msgid "popular"
 msgstr "人気"
 
-#: r2/lib/menus.py:157 r2/public/static/js/sponsored.js:87 r2/public/static/js/sponsored.js:97 r2/templates/createvault.html:658 r2/templates/listingchooser.html:71
+#: r2/lib/menus.py:157 r2/public/static/js/sponsored.js:87 r2/public/static/js/sponsored.js:97 r2/templates/createvault.html:672 r2/templates/listingchooser.html:71
 msgid "create"
 msgstr "作成"
 
-#: r2/lib/menus.py:158 r2/lib/pages/pages.py:2910
+#: r2/lib/menus.py:158 r2/lib/pages/pages.py:2934
 msgid "my vaults"
 msgstr "自分のvault"
 
@@ -3121,190 +3007,196 @@ msgstr "サーバー"
 msgid "backups"
 msgstr "バックアップ"
 
-#: r2/lib/menus.py:171 r2/templates/adminsitesettings.html:66
+#: r2/lib/menus.py:171
+#, fuzzy
+#| msgid "export"
+msgid "data exports"
+msgstr "エクスポート"
+
+#: r2/lib/menus.py:172 r2/templates/adminsitesettings.html:66
 msgid "site settings"
 msgstr "サイト設定"
 
-#: r2/lib/menus.py:172 r2/templates/adminantispam.html:30
+#: r2/lib/menus.py:173 r2/templates/adminantispam.html:30
 msgid "spam protection"
 msgstr "スパム対策"
 
-#: r2/lib/menus.py:173 r2/templates/adminliveconfig.html:60
+#: r2/lib/menus.py:174 r2/templates/adminliveconfig.html:60
 msgid "live config"
 msgstr "ライブ設定"
 
-#: r2/lib/menus.py:174 r2/lib/pages/pages.py:938 r2/templates/adminsupport.html:34
+#: r2/lib/menus.py:175 r2/lib/pages/pages.py:938 r2/templates/adminsupport.html:34
 msgid "support"
 msgstr "サポート"
 
-#: r2/lib/menus.py:175 r2/templates/adminuser.html:24 r2/templates/adminusers.html:22 r2/templates/prefoptions.html:343
+#: r2/lib/menus.py:176 r2/templates/adminuser.html:24 r2/templates/adminusers.html:22 r2/templates/prefoptions.html:350
 msgid "users"
 msgstr "ユーザー"
 
-#: r2/lib/menus.py:177 r2/templates/adminapps.html:35
+#: r2/lib/menus.py:178 r2/templates/adminapps.html:35
 msgid "API apps"
 msgstr "API アプリ"
 
-#: r2/lib/menus.py:178
+#: r2/lib/menus.py:179
 msgid "feeds"
 msgstr "フィード"
 
-#: r2/lib/menus.py:179 r2/templates/admindomain.html:22 r2/templates/admindomains.html:22 r2/templates/prefoptions.html:341
+#: r2/lib/menus.py:180 r2/templates/admindomain.html:22 r2/templates/admindomains.html:22 r2/templates/prefoptions.html:348
 msgid "domains"
 msgstr "ドメイン"
 
-#: r2/lib/menus.py:180 r2/templates/adminpaymentsettings.html:116
+#: r2/lib/menus.py:181 r2/templates/adminpaymentsettings.html:116
 msgid "ads"
 msgstr "広告"
 
-#: r2/lib/menus.py:181
+#: r2/lib/menus.py:182
 msgid "promoted"
 msgstr "スポンサードリンク"
 
-#: r2/lib/menus.py:182
+#: r2/lib/menus.py:183
 msgid "sponsor"
 msgstr "スポンサー"
 
-#: r2/lib/menus.py:183
+#: r2/lib/menus.py:184
 msgid "reporters"
 msgstr ""
 "リポーター\n"
 "\n"
 "報告者"
 
-#: r2/lib/menus.py:184 r2/templates/preffeeds.html:117
+#: r2/lib/menus.py:185 r2/templates/preffeeds.html:117
 msgid "reports"
 msgstr "報告"
 
-#: r2/lib/menus.py:185
+#: r2/lib/menus.py:186
 msgid "reported authors"
 msgstr "報告した作者"
 
-#: r2/lib/menus.py:186
+#: r2/lib/menus.py:187
 msgid "info"
 msgstr "情報"
 
-#: r2/lib/menus.py:187 r2/templates/multiinfobar.html:107 r2/templates/printablebuttons.html:368
+#: r2/lib/menus.py:188 r2/templates/multiinfobar.html:107 r2/templates/printablebuttons.html:368
 msgid "share"
 msgstr "シェアする"
 
-#: r2/lib/menus.py:189
+#: r2/lib/menus.py:190
 msgid "overview"
 msgstr "概要"
 
-#: r2/lib/menus.py:190 r2/templates/searchresultlink.html:102
+#: r2/lib/menus.py:191 r2/templates/searchresultlink.html:102
 msgid "submitted"
 msgstr "投稿したもの"
 
-#: r2/lib/menus.py:191
+#: r2/lib/menus.py:192
 msgid "upvoted"
 msgstr "賛成された"
 
-#: r2/lib/menus.py:192
+#: r2/lib/menus.py:193
 msgid "downvoted"
 msgstr "賛同されませんでした"
 
-#: r2/lib/menus.py:193
+#: r2/lib/menus.py:194
 #, python-brace-format
 msgid "hidden {toolbar}"
 msgstr "非表示にしたもの"
 
-#: r2/lib/menus.py:196
+#: r2/lib/menus.py:197
 msgid "voting"
 msgstr "投票"
 
-#: r2/lib/menus.py:199
+#: r2/lib/menus.py:200
 msgid "create promotion"
 msgstr "紹介を作る"
 
-#: r2/lib/menus.py:200
+#: r2/lib/menus.py:201
 msgid "my promoted links"
 msgstr "自分がプロモートしたリンク"
 
-#: r2/lib/menus.py:203
+#: r2/lib/menus.py:204
 msgid "unseen"
 msgstr "見ませんでした"
 
-#: r2/lib/menus.py:204
+#: r2/lib/menus.py:205
 msgid "unapproved campaigns"
 msgstr "承認されなかったキャンペーン"
 
-#: r2/lib/menus.py:205
+#: r2/lib/menus.py:206
 msgid "inventory"
 msgstr "インベントリー"
 
-#: r2/lib/menus.py:206 r2/templates/adminpaymentsettings.html:134 r2/templates/adminpaymentsettings.html:176 r2/templates/adminpaymentsettings.html:201
+#: r2/lib/menus.py:207 r2/templates/adminpaymentsettings.html:134 r2/templates/adminpaymentsettings.html:176 r2/templates/adminpaymentsettings.html:201
 msgid "live"
 msgstr "ライブ"
 
-#: r2/lib/menus.py:207
+#: r2/lib/menus.py:208
 msgid "unpaid"
 msgstr "未払い"
 
-#: r2/lib/menus.py:208 r2/templates/privacysettings.html:28
+#: r2/lib/menus.py:209 r2/templates/privacysettings.html:28
 msgid "pending"
 msgstr "待っています"
 
-#: r2/lib/menus.py:209
+#: r2/lib/menus.py:210
 msgid "rejected"
 msgstr "拒否済み"
 
-#: r2/lib/menus.py:210 r2/templates/renderablecampaign.html:151
+#: r2/lib/menus.py:211 r2/templates/renderablecampaign.html:151
 msgid "edited live"
 msgstr "ライブで編集"
 
-#: r2/lib/menus.py:212
+#: r2/lib/menus.py:213
 msgid "sitewide"
 msgstr "サイトワイド"
 
-#: r2/lib/menus.py:213
+#: r2/lib/menus.py:214
 msgid "languages"
 msgstr "言語"
 
-#: r2/lib/menus.py:214 r2/lib/pages/trafficpages.py:332
+#: r2/lib/menus.py:215 r2/lib/pages/trafficpages.py:337
 msgid "adverts"
 msgstr "広告"
 
-#: r2/lib/menus.py:216
+#: r2/lib/menus.py:217
 msgid "whitelist"
 msgstr "ホワイトリスト"
 
 #. TRANSLATORS: This refers to /v/mod
-#: r2/lib/menus.py:449
+#: r2/lib/menus.py:450
 msgid "mod"
 msgstr "モデレーター"
 
 #. TRANSLATORS: This refers to the user's front page
-#: r2/lib/menus.py:451
+#: r2/lib/menus.py:452
 msgid "front"
 msgstr "フロント"
 
 #. TRANSLATORS: Gold feature, "myrandom", a random vault from your subscriptions
-#: r2/lib/menus.py:455
+#: r2/lib/menus.py:456
 msgid "myrandom"
 msgstr "マイランダム"
 
-#: r2/lib/menus.py:551
+#: r2/lib/menus.py:552
 msgid "sorted by"
 msgstr "並べ替え"
 
-#: r2/lib/menus.py:623
+#: r2/lib/menus.py:624
 msgid "(suggested)"
 msgstr "(提案されたアイデア)"
 
-#: r2/lib/menus.py:661
+#: r2/lib/menus.py:662
 msgid "kind"
 msgstr "種類"
 
-#: r2/lib/menus.py:674
+#: r2/lib/menus.py:675
 msgid "links from"
 msgstr "投稿時期:"
 
-#: r2/lib/menus.py:684
+#: r2/lib/menus.py:685
 msgid "comments from"
 msgstr "のコメント"
 
-#: r2/lib/menus.py:689
+#: r2/lib/menus.py:690
 msgid "links and comments from"
 msgstr "のリンクとコメント"
 
@@ -3360,34 +3252,34 @@ msgstr "wikiとwikiへのアクセスを管理する"
 msgid "discovery"
 msgstr "発見"
 
-#: r2/lib/recommender.py:58 r2/lib/strings.py:257 r2/lib/strings.py:262 r2/lib/template_helpers.py:388 r2/templates/searchresultlink.html:97 r2/templates/vaultstylesheet.html:108
+#: r2/lib/recommender.py:58 r2/lib/strings.py:257 r2/lib/strings.py:262 r2/lib/template_helpers.py:396 r2/templates/searchresultlink.html:97 r2/templates/vaultstylesheet.html:108
 msgid "comment"
 msgid_plural "comments"
 msgstr[0] "個のコメント"
 
-#: r2/lib/site_info.py:140
+#: r2/lib/site_info.py:146
 msgid "That isn't an image tippr can read."
 msgstr "tippr はその画像を読み込めません。"
 
-#: r2/lib/site_info.py:142
+#: r2/lib/site_info.py:148
 #, python-format
 msgid "Use a %(formats)s image."
 msgstr "%(formats)s の画像を使ってください。"
 
-#: r2/lib/site_info.py:145
+#: r2/lib/site_info.py:151
 #, python-format
 msgid "Use an image at most %(n)d pixels wide and high."
 msgstr "幅と高さが %(n)d ピクセル以下の画像を使ってください。"
 
-#: r2/lib/site_info.py:153
+#: r2/lib/site_info.py:159
 msgid "The image couldn't be saved; see the error log."
 msgstr "画像を保存できませんでした。エラーログを確認してください。"
 
-#: r2/lib/site_info.py:211
+#: r2/lib/site_info.py:217
 msgid "the contact page"
 msgstr "お問い合わせページ"
 
-#: r2/lib/strings.py:59 r2/lib/template_helpers.py:271
+#: r2/lib/strings.py:59 r2/lib/template_helpers.py:276
 msgid "submitting..."
 msgstr "送信中..."
 
@@ -3769,12 +3661,12 @@ msgid "link"
 msgid_plural "links"
 msgstr[0] "リンク"
 
-#: r2/lib/pages/pages.py:1499 r2/lib/strings.py:263 r2/templates/messagecompose.html:101
+#: r2/lib/pages/pages.py:1523 r2/lib/strings.py:263 r2/templates/messagecompose.html:101
 msgid "message"
 msgid_plural "messages"
 msgstr[0] "メッセージ"
 
-#: r2/lib/pages/admin_pages.py:116 r2/lib/pages/trafficpages.py:884 r2/lib/strings.py:264 r2/templates/adminfeeds.html:45 r2/templates/adminfeeds.html:86 r2/templates/adminvaults.html:49 r2/templates/sitewidetraffic.html:40 r2/templates/vaulttrafficreport.html:45
+#: r2/lib/pages/admin_pages.py:119 r2/lib/pages/trafficpages.py:889 r2/lib/strings.py:264 r2/templates/adminfeeds.html:45 r2/templates/adminfeeds.html:86 r2/templates/adminvaults.html:49 r2/templates/sitewidetraffic.html:40 r2/templates/vaulttrafficreport.html:45
 msgid "vault"
 msgid_plural "vaults"
 msgstr[0] "vault"
@@ -3829,7 +3721,7 @@ msgid "hour"
 msgid_plural "hours"
 msgstr[0] "時間"
 
-#: r2/lib/pages/pages.py:346 r2/lib/pages/pages.py:5610 r2/lib/strings.py:279 r2/public/static/js/sponsored.js:1477 r2/public/static/js/sponsored.js:1838 r2/templates/intimeoutinterstitial.html:44 r2/templates/tipprtraffic.html:99
+#: r2/lib/pages/pages.py:346 r2/lib/pages/pages.py:5680 r2/lib/strings.py:279 r2/public/static/js/sponsored.js:1477 r2/public/static/js/sponsored.js:1838 r2/templates/intimeoutinterstitial.html:44 r2/templates/tipprtraffic.html:104
 msgid "day"
 msgid_plural "days"
 msgstr[0] "日"
@@ -3868,11 +3760,11 @@ msgstr "モデレーター向けヘルプ"
 msgid "rate limits"
 msgstr "リクエスト制限"
 
-#: r2/lib/support.py:64 r2/models/vault.py:336 r2/public/static/js/enhancements.js:739 r2/templates/adminpaymentsettings.html:108 r2/templates/adminuser.html:74
+#: r2/lib/support.py:64 r2/models/vault.py:333 r2/public/static/js/enhancements.js:739 r2/templates/adminpaymentsettings.html:108 r2/templates/adminuser.html:77
 msgid "gold"
 msgstr "金"
 
-#: r2/lib/support.py:71 r2/templates/adminsitesettings.html:112
+#: r2/lib/support.py:71 r2/templates/adminsitesettings.html:131
 msgid "open"
 msgstr "未対応"
 
@@ -3880,7 +3772,7 @@ msgstr "未対応"
 msgid "waiting on the member"
 msgstr "メンバーの返信待ち"
 
-#: r2/lib/support.py:73 r2/lib/support.py:81 r2/templates/adminsitesettings.html:113 r2/templates/adminsupportactivity.html:42
+#: r2/lib/support.py:73 r2/lib/support.py:81 r2/templates/adminsitesettings.html:132 r2/templates/adminsupportactivity.html:42
 msgid "closed"
 msgstr "クローズ"
 
@@ -4120,79 +4012,79 @@ msgstr "紹介したリンクのアクセス状況を閲覧できます。"
 msgid "you have been added to the list of users able to see [traffic for the sponsored link \"%(title)s\"](%(traffic_url)s)."
 msgstr "[スポンサーリンク「%(title)s」のトラフィック](%(traffic_url)s)を閲覧できるユーザーのリストに追加されました。"
 
-#: r2/lib/template_helpers.py:270
+#: r2/lib/template_helpers.py:275
 msgid "fetching title..."
 msgstr "タイトル取得中..."
 
-#: r2/lib/template_helpers.py:272
+#: r2/lib/template_helpers.py:277
 msgid "loading..."
 msgstr "ロード中..."
 
-#: r2/lib/template_helpers.py:384
+#: r2/lib/template_helpers.py:392
 #, python-brace-format
 msgid "comment {verb}"
 msgstr "コメント"
 
-#: r2/lib/template_helpers.py:433
+#: r2/lib/template_helpers.py:441
 msgid "child"
 msgid_plural "children"
 msgstr[0] "子コメント"
 
-#: r2/lib/template_helpers.py:615 r2/lib/template_helpers.py:687
+#: r2/lib/template_helpers.py:623 r2/lib/template_helpers.py:695
 msgid "friend"
 msgstr "友達"
 
-#: r2/lib/template_helpers.py:622
+#: r2/lib/template_helpers.py:630
 msgid "submitter"
 msgstr "投稿者"
 
-#: r2/lib/template_helpers.py:636
+#: r2/lib/template_helpers.py:644
 msgid "tippr admin, speaking officially"
 msgstr "tipprのアドミン、公式に言えば"
 
-#: r2/lib/template_helpers.py:657
+#: r2/lib/template_helpers.py:665
 msgid "a bot: posts new items from a feed automatically"
 msgstr "ボット: フィードの新しい項目を自動で投稿します"
 
-#: r2/lib/template_helpers.py:680
+#: r2/lib/template_helpers.py:688
 #, python-format
 msgid "moderator of /v/%(tippr)s, speaking officially"
 msgstr "正式に言えば /v/%(tippr)s のモデレーター"
 
-#: r2/lib/template_helpers.py:694
+#: r2/lib/template_helpers.py:702
 #, python-format
 msgid "%(user)s just celebrated a tippr birthday!"
 msgstr "%(user)s は tippr の誕生日を祝いました！"
 
-#: r2/lib/pages/pages.py:1334 r2/lib/template_helpers.py:763 r2/public/static/js/timetext.js:68
+#: r2/lib/pages/pages.py:1340 r2/lib/template_helpers.py:771 r2/public/static/js/timetext.js:68
 msgid "just now"
 msgstr "たった今 "
 
-#: r2/lib/pages/admin_pages.py:107
+#: r2/lib/pages/admin_pages.py:110
 msgid "No notes for this domain"
 msgstr "このドメインにメモはありません。"
 
-#: r2/lib/pages/admin_pages.py:108
+#: r2/lib/pages/admin_pages.py:111
 msgid "No notes for this IP address"
 msgstr "この IP アドレスには注意書きがありません。"
 
-#: r2/lib/pages/admin_pages.py:109
+#: r2/lib/pages/admin_pages.py:112
 msgid "No notes for this vault"
 msgstr "この vault にはメモがありません"
 
-#: r2/lib/pages/admin_pages.py:110
+#: r2/lib/pages/admin_pages.py:113
 msgid "No notes for this user"
 msgstr "このユーザに関する情報はありません。"
 
-#: r2/lib/pages/admin_pages.py:114 r2/models/modaction.py:178 r2/templates/admindomains.html:37 r2/templates/adminsitesettings.html:142 r2/templates/adminsitesettings.html:144 r2/templates/createvault.html:437
+#: r2/lib/pages/admin_pages.py:117 r2/models/modaction.py:179 r2/templates/admindomains.html:37 r2/templates/adminsitesettings.html:161 r2/templates/adminsitesettings.html:163 r2/templates/createvault.html:451
 msgid "domain"
 msgstr "ドメイン"
 
-#: r2/lib/pages/admin_pages.py:115 r2/templates/adminantispam.html:182 r2/templates/useriphistory.html:44
+#: r2/lib/pages/admin_pages.py:118 r2/templates/adminantispam.html:182 r2/templates/useriphistory.html:44
 msgid "IP address"
 msgstr "IPアドレス"
 
-#: r2/lib/pages/admin_pages.py:117 r2/models/listing.py:154
+#: r2/lib/pages/admin_pages.py:120 r2/models/listing.py:154
 msgid "user"
 msgstr "ユーザ"
 
@@ -4266,403 +4158,407 @@ msgstr "最近見たリンク"
 msgid "turn admin off"
 msgstr "管理モードオフ"
 
-#: r2/lib/pages/pages.py:1143
+#: r2/lib/pages/pages.py:1144
 msgid "<3"
 msgstr "<3"
 
-#: r2/lib/pages/pages.py:1335 r2/templates/adminserverstatus.html:142
+#: r2/lib/pages/pages.py:1341 r2/templates/adminserverstatus.html:142
 #, python-format
 msgid "%(time)s ago"
 msgstr "%(time)s前"
 
-#: r2/lib/pages/pages.py:1496
+#: r2/lib/pages/pages.py:1520
 #, python-format
 msgid "%(site)s mail"
 msgstr "%(site)s　メール"
 
-#: r2/lib/pages/pages.py:1573
+#: r2/lib/pages/pages.py:1597
 msgid "sign up or log in"
 msgstr "登録またはログイン"
 
-#: r2/lib/pages/pages.py:1654
+#: r2/lib/pages/pages.py:1678
 msgid "request for permission"
 msgstr "許可をリクエストする"
 
-#: r2/lib/pages/pages.py:1656
+#: r2/lib/pages/pages.py:1680
 msgid "permission"
 msgstr "権限"
 
-#: r2/lib/pages/pages.py:1691 r2/templates/searchform.html:77
+#: r2/lib/pages/pages.py:1715 r2/templates/searchform.html:77
 msgid "enable NSFW results"
 msgstr "閲覧注意とされた結果を含める"
 
-#: r2/lib/pages/pages.py:1714
+#: r2/lib/pages/pages.py:1738
 msgid "bummer"
 msgstr "あらまあ！"
 
-#: r2/lib/pages/pages.py:1726
+#: r2/lib/pages/pages.py:1750
 msgid "this page is no longer available due to a copyright claim."
 msgstr "著作権に関するクレームにより、このページはもう表示出来ません"
 
-#: r2/lib/pages/pages.py:1966
+#: r2/lib/pages/pages.py:1990
 msgid "comments disabled"
 msgstr "コメント無効"
 
-#: r2/lib/pages/pages.py:2286
+#: r2/lib/pages/pages.py:2310
 #, python-format
 msgid "about %(site)s"
 msgstr "%(site)s について"
 
-#: r2/lib/pages/pages.py:2309
+#: r2/lib/pages/pages.py:2333
 msgid "search vaults by name"
 msgstr "vaultの名前で探索"
 
-#: r2/lib/pages/pages.py:2353
+#: r2/lib/pages/pages.py:2377
 #, python-format
 msgid "your front page vaults (%s)"
 msgstr "フロントページのvault (%s)"
 
-#: r2/lib/pages/pages.py:2441 r2/templates/createvault.html:446 r2/templates/spotlightlisting.html:63
+#: r2/lib/pages/pages.py:2465 r2/templates/createvault.html:460 r2/templates/spotlightlisting.html:63
 msgid "what's this?"
 msgstr "これは何ですか？"
 
-#: r2/lib/pages/pages.py:2442
+#: r2/lib/pages/pages.py:2466
 msgid "trophy case"
 msgstr "トロフィーケース"
 
-#: r2/lib/pages/pages.py:2452
+#: r2/lib/pages/pages.py:2476
 msgid "public multivaults"
 msgstr "公開中のマルチ vault"
 
-#: r2/lib/pages/pages.py:2459
+#: r2/lib/pages/pages.py:2483
 msgid "hidden multivaults"
 msgstr "非公開のマルチ vault"
 
-#: r2/lib/pages/pages.py:2480
+#: r2/lib/pages/pages.py:2504
 msgid "moderator of"
 msgstr "次のモデレーターです"
 
-#: r2/lib/pages/pages.py:2544
+#: r2/lib/pages/pages.py:2568
 msgid "less than a day"
 msgstr "一日以内"
 
-#: r2/lib/pages/pages.py:2557
+#: r2/lib/pages/pages.py:2581
 #, python-format
 msgid "Give Gold: %(coins)s month"
 msgid_plural "Give Gold: %(coins)s months"
 msgstr[0] "gold を贈る: %(coins)s か月"
 
-#: r2/lib/pages/pages.py:2565
+#: r2/lib/pages/pages.py:2589
 #, python-format
 msgid "%(gildings)s gilding given out"
 msgid_plural "%(gildings)s gildings given out"
 msgstr[0] "%(gildings)s 件のギルディング"
 
-#: r2/lib/pages/pages.py:2573
+#: r2/lib/pages/pages.py:2597
 #, python-format
 msgid "give tippr gold to %(user)s to show your appreciation"
 msgstr "あなたの評価の証として、tippr goldを%(user)sに贈る"
 
-#: r2/lib/pages/pages.py:2577
+#: r2/lib/pages/pages.py:2601
 msgid "get extra features and help support tippr with a tippr gold subscription"
 msgstr "tippr goldの登録で、追加機能をゲットして、tipprの支援に協力しよう！"
 
-#: r2/lib/pages/pages.py:2581
+#: r2/lib/pages/pages.py:2605
 msgid "renew your tippr gold"
 msgstr "tipprゴールドを更新する"
 
-#: r2/lib/pages/pages.py:2591
+#: r2/lib/pages/pages.py:2615
 #, python-format
 msgid "you have helped pay for *%(time)s* of tippr server time."
 msgstr "tippr サーバー時間の *%(time)s* の支払いを援助しました。"
 
-#: r2/lib/pages/pages.py:2592
+#: r2/lib/pages/pages.py:2616
 #, python-format
 msgid "/u/%(user)s has helped pay for *%%(time)s* of tippr server time."
 msgstr "/u/%(user)s は tippr サーバー時間の *%%(time)s* の支払いを援助しました。"
 
-#: r2/lib/pages/pages.py:2595
+#: r2/lib/pages/pages.py:2619
 #, python-format
 msgid "gifts on your behalf have helped pay for *%(time)s* of tippr server time."
 msgstr "あなたのためのギフトは tippr サーバー時間の *%(time)s* の支払いを援助しました。"
 
-#: r2/lib/pages/pages.py:2597
+#: r2/lib/pages/pages.py:2621
 #, python-format
 msgid "gifts on behalf of /u/%(user)s have helped pay for *%%(time)s* of tippr server time."
 msgstr "/u/%(user)s のためのギフトは tippr サーバー時間の *%%(time)s* の支払いを援助しました。"
 
-#: r2/lib/pages/pages.py:2681
+#: r2/lib/pages/pages.py:2705
 msgid "tippr is a platform for internet communities"
 msgstr "tipprはインターネットコミュニティのためのプラットフォームです。"
 
-#: r2/lib/pages/pages.py:2682
+#: r2/lib/pages/pages.py:2706
 msgid "where your votes shape what the world is talking about."
 msgstr "あなたの投票が、世界でかわされる話題を決めるのです。"
 
-#: r2/lib/pages/pages.py:2981 r2/lib/pages/pages.py:3091
+#: r2/lib/pages/pages.py:3005 r2/lib/pages/pages.py:3115
 msgid "add vault"
 msgstr "vaultを追加"
 
-#: r2/lib/pages/pages.py:3019
+#: r2/lib/pages/pages.py:3043
 #, python-format
 msgid "raise it to %s"
 msgstr "%sに上がります"
 
-#: r2/lib/pages/pages.py:3021 r2/lib/pages/pages.py:3030
+#: r2/lib/pages/pages.py:3045 r2/lib/pages/pages.py:3054
 #, python-format
 msgid "%s visible"
 msgstr "%sが見えます"
 
-#: r2/lib/pages/pages.py:3028
+#: r2/lib/pages/pages.py:3052
 #, python-format
 msgid "%(bonus)s bonus vaults"
 msgstr "%(bonus)sのボーナスvault"
 
-#: r2/lib/pages/pages.py:3398
+#: r2/lib/pages/pages.py:3422
 #, python-format
 msgid "you have a credit card gold subscription. your card (ending in %(last4)s) will be charged %(amount)s on %(date)s."
 msgstr "クレジットカードのゴールド登録があります。あなたのカード (末尾 %(last4)s) は %(date)s に %(amount)s 請求されます。"
 
-#: r2/lib/pages/pages.py:3552
+#: r2/lib/pages/pages.py:3576
 msgid "try entering those letters again"
 msgstr "文字をもう一度入力してください"
 
-#: r2/lib/pages/pages.py:3631 r2/lib/pages/pages.py:6290 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
+#: r2/lib/pages/pages.py:3655 r2/lib/pages/pages.py:6360 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
 msgid "search"
 msgstr "検索"
 
-#: r2/lib/pages/pages.py:4228
+#: r2/lib/pages/pages.py:4289
 #, python-format
 msgid "not heard from for %(time)s"
 msgstr "%(time)s連絡がありません"
 
-#: r2/lib/pages/pages.py:4234
+#: r2/lib/pages/pages.py:4295
 #, python-format
 msgid "memory %(p)s%% used"
 msgstr "メモリ使用率 %(p)s%%"
 
-#: r2/lib/pages/pages.py:4238
+#: r2/lib/pages/pages.py:4299
 #, python-format
 msgid "busy: load %(l)s on %(n)s CPUs"
 msgstr "高負荷: %(n)s CPU で負荷 %(l)s"
 
-#: r2/lib/pages/pages.py:4244
+#: r2/lib/pages/pages.py:4305
 #, python-format
 msgid "disk %(path)s %(p)s%% full"
 msgstr "ディスク %(path)s の使用率 %(p)s%%"
 
-#: r2/lib/pages/pages.py:4248
+#: r2/lib/pages/pages.py:4309
 #, python-format
 msgid "%(service)s is %(state)s"
 msgstr "%(service)s は %(state)s です"
 
-#: r2/lib/pages/pages.py:4251
+#: r2/lib/pages/pages.py:4312
 msgid "a different version from the others"
 msgstr "ほかとバージョンが違います"
 
-#: r2/lib/pages/pages.py:4253
+#: r2/lib/pages/pages.py:4314
 msgid "another server has the same name: set TIPPR_SERVER_NAME on one of them"
 msgstr "同じ名前のサーバーがあります。どちらかで TIPPR_SERVER_NAME を設定してください"
 
-#: r2/lib/pages/pages.py:4308
+#: r2/lib/pages/pages.py:4369
 #, python-format
 msgid "%(n)s seconds"
 msgstr "%(n)s 秒"
 
-#: r2/lib/pages/pages.py:4310
+#: r2/lib/pages/pages.py:4371
 #, python-format
 msgid "%(n)s minutes"
 msgstr "%(n)s 分"
 
-#: r2/lib/pages/pages.py:4312
+#: r2/lib/pages/pages.py:4373
 #, python-format
 msgid "%(n)s hours"
 msgstr "%(n)s 時間"
 
-#: r2/lib/pages/pages.py:4313
+#: r2/lib/pages/pages.py:4374
 #, python-format
 msgid "%(n)s days"
 msgstr "%(n)s 日"
 
-#: r2/lib/pages/pages.py:4526 r2/lib/pages/pages.py:4635
+#: r2/lib/pages/pages.py:4390
+msgid "polling"
+msgstr ""
+
+#: r2/lib/pages/pages.py:4596 r2/lib/pages/pages.py:4705
 msgid "added"
 msgstr "追加済み"
 
-#: r2/lib/pages/pages.py:4594 r2/models/modaction.py:146 r2/templates/printablebuttons.html:608
+#: r2/lib/pages/pages.py:4664 r2/models/modaction.py:146 r2/templates/printablebuttons.html:608
 msgid "muted"
 msgstr "ミュート中"
 
-#: r2/lib/pages/pages.py:4612
+#: r2/lib/pages/pages.py:4682
 msgid "invited"
 msgstr "招待済み"
 
-#: r2/lib/pages/pages.py:4673
+#: r2/lib/pages/pages.py:4743
 msgid "grant flair"
 msgstr "flairを与える"
 
-#: r2/lib/pages/pages.py:4675
+#: r2/lib/pages/pages.py:4745
 msgid "user flair templates"
 msgstr "ユーザー flair テンプレート"
 
-#: r2/lib/pages/pages.py:4677
+#: r2/lib/pages/pages.py:4747
 msgid "link flair templates"
 msgstr "リンク flair テンプレート"
 
-#: r2/lib/pages/pages.py:5049 r2/templates/adminuser.html:70 r2/templates/flairpane.html:79
+#: r2/lib/pages/pages.py:5119 r2/templates/adminuser.html:73 r2/templates/flairpane.html:79
 msgid "none"
 msgstr "なし"
 
-#: r2/lib/pages/pages.py:5180
+#: r2/lib/pages/pages.py:5250
 msgid "suggestions:"
 msgstr "提案:"
 
-#: r2/lib/pages/pages.py:5184
+#: r2/lib/pages/pages.py:5254
 #, python-format
 msgid "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/v/selfserve](%(selfserve)s)."
 msgstr "このページで広告を作成します。ご質問は [ヘルプセンター](%(help_center)s) または [/v/selfserve](%(selfserve)s) へ。"
 
-#: r2/lib/pages/pages.py:5802
+#: r2/lib/pages/pages.py:5872
 msgid "start date"
 msgstr "開始日時"
 
-#: r2/lib/pages/pages.py:5803
+#: r2/lib/pages/pages.py:5873
 msgid "end date"
 msgstr "終了日時"
 
-#: r2/lib/pages/pages.py:5805 r2/templates/createvault.html:266
+#: r2/lib/pages/pages.py:5875 r2/templates/createvault.html:266
 msgid "links"
 msgstr "リンク"
 
-#: r2/lib/pages/pages.py:5807 r2/lib/pages/pages.py:5826 r2/templates/adminpaymentsettings.html:239 r2/templates/promotedlinktraffic.html:42 r2/templates/timeserieschart.html:40
+#: r2/lib/pages/pages.py:5877 r2/lib/pages/pages.py:5896 r2/templates/adminpaymentsettings.html:239 r2/templates/promotedlinktraffic.html:42 r2/templates/timeserieschart.html:40
 msgid "date"
 msgstr "日付"
 
-#: r2/lib/pages/pages.py:5810 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
+#: r2/lib/pages/pages.py:5880 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
 msgid "id"
 msgstr "ID"
 
-#: r2/lib/pages/pages.py:5810 r2/lib/pages/pages.py:5829 r2/templates/promotelinkbase.html:856
+#: r2/lib/pages/pages.py:5880 r2/lib/pages/pages.py:5899 r2/templates/promotelinkbase.html:856
 msgid "owner"
 msgstr "所有者"
 
-#: r2/lib/pages/pages.py:5810 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
+#: r2/lib/pages/pages.py:5880 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
 msgid "url"
 msgstr "url"
 
-#: r2/lib/pages/pages.py:5811
+#: r2/lib/pages/pages.py:5881
 msgid "upvotes"
 msgstr "賛成"
 
-#: r2/lib/pages/pages.py:5811
+#: r2/lib/pages/pages.py:5881
 msgid "downvotes"
 msgstr "反対"
 
-#: r2/lib/pages/pages.py:5811 r2/lib/pages/trafficpages.py:346 r2/lib/pages/trafficpages.py:842 r2/templates/promotedlinktraffic.html:44 r2/templates/promotedlinktraffic.html:124
+#: r2/lib/pages/pages.py:5881 r2/lib/pages/trafficpages.py:351 r2/lib/pages/trafficpages.py:847 r2/templates/promotedlinktraffic.html:44 r2/templates/promotedlinktraffic.html:124
 msgid "clicks"
 msgstr "クリック数"
 
-#: r2/lib/pages/pages.py:5811 r2/lib/pages/trafficpages.py:343 r2/lib/pages/trafficpages.py:467 r2/lib/pages/trafficpages.py:841 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
+#: r2/lib/pages/pages.py:5881 r2/lib/pages/trafficpages.py:348 r2/lib/pages/trafficpages.py:472 r2/lib/pages/trafficpages.py:846 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
 msgid "impressions"
 msgstr "インプレッション"
 
-#: r2/lib/pages/pages.py:5824
+#: r2/lib/pages/pages.py:5894
 msgid "campaigns"
 msgstr "キャンペーン"
 
-#: r2/lib/pages/pages.py:5829
+#: r2/lib/pages/pages.py:5899
 msgid "link id"
 msgstr "リンクID"
 
-#: r2/lib/pages/pages.py:5829
+#: r2/lib/pages/pages.py:5899
 msgid "campaign id"
 msgstr "キャンペーンID"
 
-#: r2/lib/pages/pages.py:5829 r2/templates/promotedlinktraffic.html:117 r2/templates/refundpage.html:56
+#: r2/lib/pages/pages.py:5899 r2/templates/promotedlinktraffic.html:117 r2/templates/refundpage.html:56
 msgid "target"
 msgstr "ターゲット"
 
-#: r2/lib/pages/pages.py:5830 r2/templates/promotelinkedit.html:157
+#: r2/lib/pages/pages.py:5900 r2/templates/promotelinkedit.html:157
 msgid "bid"
 msgstr "ビッド"
 
-#: r2/lib/pages/pages.py:5830
+#: r2/lib/pages/pages.py:5900
 msgid "frontpage clicks"
 msgstr "フロントページのクリック数"
 
-#: r2/lib/pages/pages.py:5830
+#: r2/lib/pages/pages.py:5900
 msgid "frontpage impressions"
 msgstr "フロントページのインプレッション数"
 
-#: r2/lib/pages/pages.py:5831
+#: r2/lib/pages/pages.py:5901
 msgid "vault clicks"
 msgstr "vaultクリック数"
 
-#: r2/lib/pages/pages.py:5831
+#: r2/lib/pages/pages.py:5901
 msgid "vault impressions"
 msgstr "vaultインプレッション数"
 
-#: r2/lib/pages/pages.py:5832 r2/lib/pages/trafficpages.py:473
+#: r2/lib/pages/pages.py:5902 r2/lib/pages/trafficpages.py:478
 msgid "total clicks"
 msgstr "クリックの合計"
 
-#: r2/lib/pages/pages.py:5832
+#: r2/lib/pages/pages.py:5902
 msgid "total impressions"
 msgstr "合計インプレッション数"
 
-#: r2/lib/pages/pages.py:6035 r2/templates/accountactivitybox.html:27
+#: r2/lib/pages/pages.py:6105 r2/templates/accountactivitybox.html:27
 msgid "account activity"
 msgstr "アカウント アクティビティ"
 
-#: r2/lib/pages/pages.py:6167
+#: r2/lib/pages/pages.py:6237
 msgid "subscribed"
 msgstr "購読済み"
 
-#: r2/lib/pages/pages.py:6168 r2/templates/preffeeds.html:58
+#: r2/lib/pages/pages.py:6238 r2/templates/preffeeds.html:58
 msgid "your front page"
 msgstr "あなたのフロントページ"
 
-#: r2/lib/pages/pages.py:6171 r2/lib/pages/pages.py:6176 r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:104
+#: r2/lib/pages/pages.py:6241 r2/lib/pages/pages.py:6246 r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:104
 msgid "everything"
 msgstr "全て"
 
-#: r2/lib/pages/pages.py:6174 r2/lib/pages/pages.py:6177
+#: r2/lib/pages/pages.py:6244 r2/lib/pages/pages.py:6247
 msgid "from all vaults"
 msgstr "全部のvaultより"
 
-#: r2/lib/pages/pages.py:6179
+#: r2/lib/pages/pages.py:6249
 msgid "moderating"
 msgstr "モデレーティング"
 
-#: r2/lib/pages/pages.py:6180
+#: r2/lib/pages/pages.py:6250
 msgid "vaults you mod"
 msgstr "あなたがモデレートしているvault"
 
-#: r2/lib/pages/pages.py:6186
+#: r2/lib/pages/pages.py:6256
 msgid "gold perks"
 msgstr "金の特典."
 
-#: r2/lib/pages/pages.py:6202
+#: r2/lib/pages/pages.py:6272
 msgid "explore multis"
 msgstr "マルチを探す"
 
-#: r2/lib/pages/pages.py:6288
+#: r2/lib/pages/pages.py:6358
 msgid "faq"
 msgstr "FAQ"
 
-#: r2/lib/pages/pages.py:6289 r2/templates/usertext.html:121
+#: r2/lib/pages/pages.py:6359 r2/templates/usertext.html:121
 msgid "formatting"
 msgstr "書式"
 
-#: r2/lib/pages/pages.py:6358
+#: r2/lib/pages/pages.py:6428
 msgid "your subscribed vaults"
 msgstr "登録している vault"
 
-#: r2/lib/pages/pages.py:6471
+#: r2/lib/pages/pages.py:6541
 #, python-format
 msgid "this promoted link uses city level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "この紹介リンクは都市レベルで設定されるため、あなたの現在地を基準にして表示されることがあります。([learn more](%(link)s))"
 
-#: r2/lib/pages/pages.py:6475
+#: r2/lib/pages/pages.py:6545
 #, python-format
 msgid "this promoted link uses country level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "この紹介リンクは国レベルで設定されるため、あなたの現在地を基準にして表示されることがあります。([参考](%(link)s))"
@@ -4672,7 +4568,7 @@ msgstr "この紹介リンクは国レベルで設定されるため、あなた
 msgid "uniques by %s"
 msgstr "%sのユニーク数"
 
-#: r2/lib/pages/trafficpages.py:139 r2/lib/pages/trafficpages.py:885 r2/templates/adverttrafficsummary.html:38 r2/templates/languagetrafficsummary.html:37 r2/templates/sitewidetraffic.html:41 r2/templates/tipprtraffic.html:100 r2/templates/vaulttrafficreport.html:46
+#: r2/lib/pages/trafficpages.py:139 r2/lib/pages/trafficpages.py:890 r2/templates/adverttrafficsummary.html:38 r2/templates/languagetrafficsummary.html:37 r2/templates/sitewidetraffic.html:41 r2/templates/tipprtraffic.html:105 r2/templates/vaulttrafficreport.html:46
 msgid "uniques"
 msgstr "ユニーク数"
 
@@ -4681,7 +4577,7 @@ msgstr "ユニーク数"
 msgid "pageviews by %s"
 msgstr "%sのページビュー数"
 
-#: r2/lib/pages/trafficpages.py:142 r2/lib/pages/trafficpages.py:886 r2/templates/languagetrafficsummary.html:38 r2/templates/sitewidetraffic.html:42 r2/templates/tipprtraffic.html:101 r2/templates/vaulttrafficreport.html:47
+#: r2/lib/pages/trafficpages.py:142 r2/lib/pages/trafficpages.py:891 r2/templates/languagetrafficsummary.html:38 r2/templates/sitewidetraffic.html:42 r2/templates/tipprtraffic.html:106 r2/templates/vaulttrafficreport.html:47
 msgid "pageviews"
 msgstr "ページビュー数"
 
@@ -4694,57 +4590,57 @@ msgstr "%sのトラフィック"
 msgid "[frontpage]"
 msgstr "[フロントページ]"
 
-#: r2/lib/pages/trafficpages.py:293
+#: r2/lib/pages/trafficpages.py:297
 msgid "activity by day"
 msgstr "日ごとのアクティビティ"
 
-#: r2/lib/pages/trafficpages.py:342
+#: r2/lib/pages/trafficpages.py:347
 msgid "total impressions by day"
 msgstr "一日の合計インプレッション数"
 
-#: r2/lib/pages/trafficpages.py:345
+#: r2/lib/pages/trafficpages.py:350
 msgid "total clicks by day"
 msgstr "日別のクリック数"
 
-#: r2/lib/pages/trafficpages.py:350
+#: r2/lib/pages/trafficpages.py:355
 msgid "ad totals"
 msgstr "広告合計"
 
-#: r2/lib/pages/trafficpages.py:387 r2/models/promo.py:345
+#: r2/lib/pages/trafficpages.py:392 r2/models/promo.py:345
 msgid "frontpage"
 msgstr "フロントページ"
 
-#: r2/lib/pages/trafficpages.py:466
+#: r2/lib/pages/trafficpages.py:471
 #, python-format
 msgid "impressions by %s"
 msgstr "%sのインプレッション数"
 
-#: r2/lib/pages/trafficpages.py:470
+#: r2/lib/pages/trafficpages.py:475
 msgid "unique clicks"
 msgstr "ユニーククリック数"
 
-#: r2/lib/pages/trafficpages.py:472
+#: r2/lib/pages/trafficpages.py:477
 #, python-format
 msgid "clicks by %s"
 msgstr "%sのクリック数"
 
-#: r2/lib/pages/trafficpages.py:529
+#: r2/lib/pages/trafficpages.py:534
 msgid "subscriptions by day"
 msgstr "日別の登録数"
 
-#: r2/lib/pages/trafficpages.py:530
+#: r2/lib/pages/trafficpages.py:535
 msgid "subscriptions"
 msgstr "登録数"
 
-#: r2/lib/pages/trafficpages.py:726 r2/templates/promotedlinktraffic.html:61
+#: r2/lib/pages/trafficpages.py:731 r2/templates/promotedlinktraffic.html:61
 msgid "total"
 msgstr "合計"
 
-#: r2/lib/pages/trafficpages.py:840
+#: r2/lib/pages/trafficpages.py:845
 msgid "date and time (UTC)"
 msgstr "日付と時間 (UTC)"
 
-#: r2/lib/pages/trafficpages.py:843
+#: r2/lib/pages/trafficpages.py:848
 msgid "click-through rate (%)"
 msgstr "クリック率 (%)"
 
@@ -4910,64 +4806,55 @@ msgstr "gold の返金"
 msgid "Your gold payment has been refunded, contact %(gold_email)s for details"
 msgstr "gold のお支払いが返金されました。詳細は %(gold_email)s にお問い合わせください"
 
-#: r2/lib/utils/_utils.py:229
-msgid "millisecond"
-msgid_plural "milliseconds"
-msgstr[0] "ミリ秒"
-
-#: r2/lib/utils/_utils.py:248 r2/templates/adminapps.html:93 r2/templates/admindomain.html:85 r2/templates/admindomains.html:44 r2/templates/adminfeeds.html:132 r2/templates/adminsupport.html:83 r2/templates/adminsupport.html:88 r2/templates/adminsupportactivity.html:77 r2/templates/adminsupportticket.html:106 r2/templates/adminsupportticket.html:119 r2/templates/adminsupportticket.html:157 r2/templates/adminuser.html:40 r2/templates/adminuser.html:50 r2/templates/adminuser.html:58 r2/templates/adminuser.html:200 r2/templates/adminuser.html:232 r2/templates/adminusers.html:64 r2/templates/adminvault.html:40 r2/templates/adminvault.html:50 r2/templates/adminvaults.html:57 r2/templates/comment.htmllite:49 r2/templates/commentvisitsbox.html:41
-msgid "ago"
-msgstr "前"
-
-#: r2/lib/validator/validator.py:2079
+#: r2/lib/validator/validator.py:2115
 #, python-format
 msgid "%(min)d to any"
 msgstr "%(min)d～任意"
 
-#: r2/lib/validator/validator.py:2081
+#: r2/lib/validator/validator.py:2117
 #, python-format
 msgid "any to %(max)d"
 msgstr "任意～%(max)d"
 
-#: r2/lib/validator/validator.py:2083
+#: r2/lib/validator/validator.py:2119
 #, python-format
 msgid "%(min)d to %(max)d"
 msgstr "%(min)dから%(max)dまで"
 
-#: r2/lib/validator/validator.py:2809
+#: r2/lib/validator/validator.py:2845
 msgid "a user by name"
 msgstr "という名のユーザ"
 
-#: r2/lib/validator/validator.py:2824
+#: r2/lib/validator/validator.py:2860
 msgid "a [fullname](#fullname) of a link"
 msgstr "リンクの[正式な名前](#fullname)"
 
-#: r2/lib/validator/validator.py:2978
+#: r2/lib/validator/validator.py:3017
 msgid "an app"
 msgstr "アプリ"
 
-#: r2/lib/validator/validator.py:2996
+#: r2/lib/validator/validator.py:3035
 msgid "an app developed by the user"
 msgstr "ユーザーに開発されたアプリ"
 
-#: r2/lib/validator/validator.py:3219
+#: r2/lib/validator/validator.py:3258
 msgid "no spaces allowed"
 msgstr "空白は許可されません"
 
-#: r2/lib/validator/validator.py:3221
+#: r2/lib/validator/validator.py:3260
 #, python-format
 msgid "invalid character: '%s'"
 msgstr "無効な文字: '%s'"
 
-#: r2/lib/validator/validator.py:3223
+#: r2/lib/validator/validator.py:3262
 msgid "can't start with a '_'"
 msgstr "'_' で始めることはできません"
 
-#: r2/lib/validator/validator.py:3225
+#: r2/lib/validator/validator.py:3264
 msgid "that name is too short"
 msgstr "名前が短すぎます"
 
-#: r2/lib/validator/validator.py:3227
+#: r2/lib/validator/validator.py:3266
 msgid "that name is too long"
 msgstr "名前が長すぎます"
 
@@ -5108,90 +4995,90 @@ msgstr "%(author)s が %(tippr)s に %(when)s 投稿"
 msgid "submitted %(when)s by %(author)s"
 msgstr "%(author)s が %(when)s 投稿"
 
-#: r2/models/link.py:1811
+#: r2/models/link.py:1809
 #, python-format
 msgid "%(link)s by %(author)s [sponsored link]"
 msgstr "%(link)s 投稿者 %(author)s [スポンサーリンク]"
 
-#: r2/models/link.py:1813
+#: r2/models/link.py:1811
 #, python-format
 msgid "%(link)s by %(author)s in %(vault)s"
 msgstr "%(vault)s 内の %(author)s によるリンク %(link)s"
 
-#: r2/models/link.py:1840
+#: r2/models/link.py:1838
 msgid "comment score below threshold"
 msgstr "スコアが基準値未満のコメント"
 
-#: r2/models/link.py:1845
+#: r2/models/link.py:1843
 msgid "blocked user"
 msgstr "ブロックされたユーザ"
 
-#: r2/models/link.py:2382
+#: r2/models/link.py:2372
 msgid "comment reply"
 msgstr "コメントの返信"
 
-#: r2/models/link.py:2384
+#: r2/models/link.py:2374
 msgid "post reply"
 msgstr " 返事を投稿する"
 
-#: r2/models/link.py:2386
+#: r2/models/link.py:2376
 msgid "username mention"
 msgstr "ユーザー名の言及"
 
-#: r2/models/link.py:2390 r2/models/link.py:2451
+#: r2/models/link.py:2380 r2/models/link.py:2441
 #, python-format
 msgid "from %(author)s via %(vault)s sent %(when)s"
 msgstr "%(author)s から %(vault)s 経由、%(when)s に送信"
 
-#: r2/models/link.py:2403
+#: r2/models/link.py:2393
 msgid "[message from blocked vault]"
 msgstr "[ブロックした vault からのメッセージ]"
 
-#: r2/models/link.py:2424 r2/models/link.py:2429
+#: r2/models/link.py:2414 r2/models/link.py:2419
 #, python-format
 msgid "vault message via %(vault)s sent %(when)s"
 msgstr "%(vault)s 経由の vault メッセージ、%(when)s に送信"
 
-#: r2/models/link.py:2433 r2/models/link.py:2456
+#: r2/models/link.py:2423 r2/models/link.py:2446
 #, python-format
 msgid "to %(dest)s via %(vault)s sent %(when)s"
 msgstr "%(dest)s 宛て、%(vault)s 経由、%(when)s に送信"
 
-#: r2/models/link.py:2437 r2/models/link.py:2462
+#: r2/models/link.py:2427 r2/models/link.py:2452
 #, python-format
 msgid "from %(author)s via %(vault)s to %(dest)s sent %(when)s"
 msgstr "%(author)s から %(vault)s 経由で %(dest)s 宛て、%(when)s に送信"
 
-#: r2/models/link.py:2453
+#: r2/models/link.py:2443
 #, python-format
 msgid "to %(vault)s sent %(when)s"
 msgstr "%(vault)s 宛て、%(when)s に送信"
 
-#: r2/models/link.py:2459
+#: r2/models/link.py:2449
 #, python-format
 msgid "from %(author)s to %(vault)s sent %(when)s"
 msgstr "%(author)s から %(vault)s 宛て、%(when)s に送信"
 
-#: r2/models/link.py:2477
+#: r2/models/link.py:2467
 #, python-format
 msgid "from %(author)s sent %(when)s"
 msgstr "%(when)s %(author)s から送信"
 
-#: r2/models/link.py:2479
+#: r2/models/link.py:2469
 #, python-format
 msgid "to %(dest)s sent %(when)s"
 msgstr "%(when)s  %(dest)s に送信"
 
-#: r2/models/link.py:2482
+#: r2/models/link.py:2472
 #, python-format
 msgid "to %(dest)s from %(author)s sent %(when)s"
 msgstr "%(when)s %(author)s から %(dest)s へ送信"
 
-#: r2/models/link.py:2505
+#: r2/models/link.py:2495
 msgid "[message from blocked user]"
 msgstr "[ブロックしたユーザからのメッセージ]"
 
-#: r2/models/link.py:2506
+#: r2/models/link.py:2496
 msgid "[unblock user to see this message]"
 msgstr "[このメッセージを表示するにはユーザに対するブロックを解除してください]"
 
@@ -5470,7 +5357,7 @@ msgstr "wiki校正ページ"
 msgid "wiki page permissions"
 msgstr "wikiページ権限"
 
-#: r2/models/modaction.py:95 r2/models/modaction.py:205 r2/templates/printablebuttons.html:250
+#: r2/models/modaction.py:95 r2/models/modaction.py:206 r2/templates/printablebuttons.html:250
 msgid "ignore reports"
 msgstr "報告を無視する"
 
@@ -5743,106 +5630,112 @@ msgid "toggle collapse deleted/removed comments"
 msgstr "削除されたコメントの折りたたみを切り替える"
 
 #: r2/models/modaction.py:177
+#, fuzzy
+#| msgid "top-level comments"
+msgid "toggle live comments"
+msgstr "トップレベルのコメント"
+
+#: r2/models/modaction.py:178
 msgid "toggle exclude banned users' posts from modqueue"
 msgstr "modqueueからサイト全体で禁止されたユーザーの除外切り替え"
 
-#: r2/models/modaction.py:179
+#: r2/models/modaction.py:180
 msgid "toggle show sidebar from cname"
 msgstr "cnameからサイドバーの表示を切り替える"
 
-#: r2/models/modaction.py:180
+#: r2/models/modaction.py:181
 msgid "toggle custom CSS from cname"
 msgstr "cname からカスタム CSS を切り替える"
 
-#: r2/models/modaction.py:181
+#: r2/models/modaction.py:182
 msgid "header title"
 msgstr "ヘッダーのタイトル"
 
-#: r2/models/modaction.py:183
+#: r2/models/modaction.py:184
 msgid "delete header image"
 msgstr "ヘッダーの画像を削除する"
 
-#: r2/models/modaction.py:184
+#: r2/models/modaction.py:185
 msgid "delete image"
 msgstr "画像を削除する"
 
-#: r2/models/modaction.py:185
+#: r2/models/modaction.py:186
 msgid "delete icon image"
 msgstr "アイコン画像を削除する"
 
-#: r2/models/modaction.py:186
+#: r2/models/modaction.py:187
 msgid "delete banner image"
 msgstr "バナー画像を削除する"
 
-#: r2/models/modaction.py:187 r2/templates/createvault.html:474
+#: r2/models/modaction.py:188 r2/templates/createvault.html:488
 msgid "upload header image"
 msgstr "ヘッダーの画像をアップロードする"
 
-#: r2/models/modaction.py:188
+#: r2/models/modaction.py:189
 msgid "upload icon image"
 msgstr "アイコン画像をアップロードする"
 
-#: r2/models/modaction.py:189
+#: r2/models/modaction.py:190
 msgid "upload banner image"
 msgstr "バナー画像をアップロードする"
 
-#: r2/models/modaction.py:190
+#: r2/models/modaction.py:191
 msgid "upload image"
 msgstr "画像をアップロードする"
 
-#: r2/models/modaction.py:192
+#: r2/models/modaction.py:193
 msgid "add/edit flair"
 msgstr "flairを追加・編集する"
 
-#: r2/models/modaction.py:193
+#: r2/models/modaction.py:194
 msgid "delete flair"
 msgstr "flairを削除する"
 
-#: r2/models/modaction.py:194
+#: r2/models/modaction.py:195
 msgid "edit by csv"
 msgstr "csvによる編集"
 
-#: r2/models/modaction.py:195
+#: r2/models/modaction.py:196
 msgid "toggle flair enabled"
 msgstr "フレアーの有効を切り替える"
 
-#: r2/models/modaction.py:196
+#: r2/models/modaction.py:197
 msgid "toggle user flair position"
 msgstr "ユーザーのフレアーポジションを切り替える"
 
-#: r2/models/modaction.py:197
+#: r2/models/modaction.py:198
 msgid "toggle link flair position"
 msgstr "リンクのフレアーポジションを切り替える"
 
-#: r2/models/modaction.py:198
+#: r2/models/modaction.py:199
 msgid "toggle user assigned flair enabled"
 msgstr "有効なフレアを割り当てられたユーザーを切り替える"
 
-#: r2/models/modaction.py:199
+#: r2/models/modaction.py:200
 msgid "toggle submitter assigned link flair enabled"
 msgstr "有効なリンクフレアーを割り当てられた投稿者を切り替える"
 
-#: r2/models/modaction.py:200
+#: r2/models/modaction.py:201
 msgid "add/edit flair templates"
 msgstr "flairのテンプレートを追加・編集する"
 
-#: r2/models/modaction.py:201
+#: r2/models/modaction.py:202
 msgid "delete flair template"
 msgstr "flairのテンプレートを削除する"
 
-#: r2/models/modaction.py:202
+#: r2/models/modaction.py:203
 msgid "clear flair templates"
 msgstr "flairのテンプレートを全て消去する"
 
-#: r2/models/modaction.py:204 r2/templates/createvault.html:510 r2/templates/createvault.html:516 r2/templates/filteredinfobar.html:42 r2/templates/multiinfobar.html:119 r2/templates/prefapps.html:82 r2/templates/prefsecurity.html:70 r2/templates/printablebuttons.html:50 r2/templates/printablebuttons.html:266 r2/templates/trophycase.html:51 r2/templates/usertableitem.html:62
+#: r2/models/modaction.py:205 r2/templates/createvault.html:524 r2/templates/createvault.html:530 r2/templates/filteredinfobar.html:42 r2/templates/multiinfobar.html:119 r2/templates/prefapps.html:82 r2/templates/printablebuttons.html:50 r2/templates/printablebuttons.html:266 r2/templates/trophycase.html:51 r2/templates/usertableitem.html:62
 msgid "remove"
 msgstr "削除する"
 
-#: r2/models/modaction.py:207
+#: r2/models/modaction.py:208
 msgid "set permissions on moderator"
 msgstr "モデレーターに権限を設定"
 
-#: r2/models/modaction.py:208
+#: r2/models/modaction.py:209
 msgid "set permissions on moderator invitation"
 msgstr "モデレーターの招待に権限を設定"
 
@@ -6119,90 +6012,90 @@ msgstr "ウィキページを読む"
 msgid "Read wiki pages through my account"
 msgstr "私のアカウントから wiki ページを読みこむ"
 
-#: r2/models/vault.py:324
+#: r2/models/vault.py:321
 msgid "red"
 msgstr "赤"
 
-#: r2/models/vault.py:325
+#: r2/models/vault.py:322
 msgid "orangered"
 msgstr "橙色"
 
-#: r2/models/vault.py:326
+#: r2/models/vault.py:323
 msgid "orange"
 msgstr "オレンジ色"
 
-#: r2/models/vault.py:327
+#: r2/models/vault.py:324
 msgid "mango"
 msgstr "マンゴー"
 
-#: r2/models/vault.py:328
+#: r2/models/vault.py:325
 msgid "lime"
 msgstr "黄緑色"
 
-#: r2/models/vault.py:329
+#: r2/models/vault.py:326
 msgid "green"
 msgstr "緑"
 
-#: r2/models/vault.py:330
+#: r2/models/vault.py:327
 msgid "mint"
 msgstr "ミント"
 
-#: r2/models/vault.py:331
+#: r2/models/vault.py:328
 msgid "teal"
 msgstr "ティール"
 
-#: r2/models/vault.py:332
+#: r2/models/vault.py:329
 msgid "blue"
 msgstr "青色"
 
-#: r2/models/vault.py:333
+#: r2/models/vault.py:330
 msgid "alien blue"
 msgstr "エイリアンブルー"
 
-#: r2/models/vault.py:334
+#: r2/models/vault.py:331
 msgid "pink"
 msgstr "ピンク"
 
-#: r2/models/vault.py:335
+#: r2/models/vault.py:332
 msgid "purple"
 msgstr "紫"
 
-#: r2/models/vault.py:337
+#: r2/models/vault.py:334
 msgid "brown"
 msgstr "茶"
 
-#: r2/models/vault.py:338
+#: r2/models/vault.py:335
 msgid "pale grey"
 msgstr "薄いグレー"
 
-#: r2/models/vault.py:339
+#: r2/models/vault.py:336
 msgid "grey"
 msgstr "グレー"
 
-#: r2/models/vault.py:340
+#: r2/models/vault.py:337
 msgid "dark grey"
 msgstr "濃いグレー"
 
-#: r2/models/vault.py:341
+#: r2/models/vault.py:338
 msgid "semi black"
 msgstr "黒に近い色"
 
-#: r2/models/vault.py:1821 r2/models/vault.py:1861
+#: r2/models/vault.py:1816 r2/models/vault.py:1856
 #, python-format
 msgid "%s (filtered)"
 msgstr "%s (フィルタ済み)"
 
-#: r2/models/vault.py:2073
+#: r2/models/vault.py:2068
 #, python-format
 msgid "posts from %s"
 msgstr "%s からの投稿"
 
-#: r2/models/vault.py:2427
+#: r2/models/vault.py:2422
 #, python-format
 msgid "%s vaults curated by /u/%s"
 msgstr "%s /u/%s が主催する vault"
 
-#: r2/models/vault.py:2739
+#: r2/models/vault.py:2734
 #, python-format
 msgid "%(domain)s on %(tippr.net)s"
 msgstr " %(tippr.net)s の %(domain)s"
@@ -6280,7 +6173,7 @@ msgstr "コメントを開く"
 msgid "expand or collapse the preview, or the comment"
 msgstr "プレビューまたはコメントを開く/閉じる"
 
-#: r2/public/static/js/enhancements.js:180 r2/public/static/js/enhancements.js:631 r2/public/static/js/saved.js:122 r2/public/static/js/saved.js:161 r2/public/static/js/sponsored.js:97 r2/templates/adminadsettings.html:128 r2/templates/adminantispam.html:106 r2/templates/adminemailsettings.html:95 r2/templates/adminfeeds.html:70 r2/templates/adminloginsettings.html:77 r2/templates/adminpaymentsettings.html:213 r2/templates/adminsitesettings.html:127 r2/templates/adminsupportstaff.html:57 r2/templates/flairlistrow.html:48 r2/templates/flairselector.html:54 r2/templates/moderatorpermissions.html:55 r2/templates/prefsecurity.html:102 r2/templates/prefupdate.html:99 r2/templates/prefupdate.html:153 r2/templates/printablebuttons.html:106 r2/templates/printablebuttons.html:375 r2/templates/printablebuttons.html:480 r2/templates/promotelinkedit.html:218 r2/templates/vaultstylesheet.html:70
+#: r2/public/static/js/enhancements.js:180 r2/public/static/js/enhancements.js:631 r2/public/static/js/saved.js:122 r2/public/static/js/saved.js:161 r2/public/static/js/sponsored.js:97 r2/templates/adminadsettings.html:128 r2/templates/adminantispam.html:106 r2/templates/adminemailsettings.html:95 r2/templates/adminfeeds.html:70 r2/templates/adminloginsettings.html:77 r2/templates/adminpaymentsettings.html:213 r2/templates/adminsitesettings.html:146 r2/templates/adminsupportstaff.html:57 r2/templates/adminuser.html:106 r2/templates/flairlistrow.html:48 r2/templates/flairselector.html:54 r2/templates/moderatorpermissions.html:55 r2/templates/prefsecurity.html:204 r2/templates/prefupdate.html:100 r2/templates/prefupdate.html:154 r2/templates/printablebuttons.html:106 r2/templates/printablebuttons.html:375 r2/templates/printablebuttons.html:480 r2/templates/promotelinkedit.html:218 r2/templates/vaultstylesheet.html:70
 msgid "save"
 msgstr "保存"
 
@@ -6404,11 +6297,11 @@ msgstr "コメントカルマ"
 msgid "change tag"
 msgstr "タグを変更"
 
-#: r2/public/static/js/enhancements.js:762 r2/templates/adminuser.html:32
+#: r2/public/static/js/enhancements.js:762 r2/templates/adminuser.html:35
 msgid "profile"
 msgstr "プロフィール"
 
-#: r2/public/static/js/enhancements.js:765 r2/templates/adminuser.html:35
+#: r2/public/static/js/enhancements.js:765 r2/templates/adminuser.html:38
 msgid "send a message"
 msgstr "メッセージを送る"
 
@@ -6475,11 +6368,15 @@ msgstr "ほかのアカウントはまだありません"
 msgid "add an account"
 msgstr "アカウントを追加"
 
+#: r2/public/static/js/enhancements.js:1082 r2/templates/adminemailsettings.html:69 r2/templates/adminprivacy.html:69 r2/templates/adminvault.html:68 r2/templates/linkedloginlink.html:39 r2/templates/login.html:77 r2/templates/login.html:86 r2/templates/login.html:197 r2/templates/loginformwide.html:44 r2/templates/password.html:41 r2/templates/privacysettings.html:124 r2/templates/register.html:77 r2/templates/register.html:86 r2/templates/register.html:197 r2/templates/userlisting.html:164
+msgid "username"
+msgstr "ユーザ名"
+
 #: r2/public/static/js/enhancements.js:1085
 msgid "add and switch"
 msgstr "追加して切り替え"
 
-#: r2/public/static/js/enhancements.js:1100 r2/templates/linkedloginotp.html:30 r2/templates/newlink.html:155 r2/templates/prefoptions.html:598 r2/templates/prefsecurity.html:37 r2/templates/prefsecurity.html:126 r2/templates/prefsecurity.html:145 r2/templates/prefupdate.html:33 r2/templates/privacysettings.html:133
+#: r2/public/static/js/enhancements.js:1100 r2/templates/linkedloginotp.html:35 r2/templates/newlink.html:155 r2/templates/prefoptions.html:613 r2/templates/prefsecurity.html:37 r2/templates/prefsecurity.html:104 r2/templates/prefsecurity.html:242 r2/templates/prefupdate.html:33 r2/templates/privacysettings.html:133
 msgid "two-factor code"
 msgstr "2 段階認証コード"
 
@@ -6524,6 +6421,14 @@ msgstr "都市は欠落です"
 msgid "missing country"
 msgstr "国は欠落です"
 
+#: r2/public/static/js/here-now.js:40
+#, fuzzy, python-format
+#| msgid "user here now"
+#| msgid_plural "users here now"
+msgid "%(num)s here now"
+msgid_plural "%(num)s here now"
+msgstr[0] "人のユーザーが現在閲覧しています"
+
 #: r2/public/static/js/image-upload.js:9
 msgid "something went wrong."
 msgstr "問題が発生しました。"
@@ -6537,9 +6442,24 @@ msgstr "大きすぎます。上限: "
 msgid "an error occurred. please try again later! (status: %(status)s)"
 msgstr "エラーが発生しました。後でもう一度試してみてください。(ステータス: %(status)s)"
 
-#: r2/public/static/js/jquery.tippr.js:355 r2/public/static/js/saved.js:166 r2/templates/printablebuttons.html:373 r2/templates/printablebuttons.html:476
+#: r2/public/static/js/jquery.tippr.js:370 r2/public/static/js/saved.js:166 r2/templates/printablebuttons.html:373 r2/templates/printablebuttons.html:476
 msgid "unsave"
 msgstr "保存解除"
+
+#: r2/public/static/js/live-comments.js:99
+#, fuzzy, python-format
+#| msgid "%(num)s month"
+#| msgid_plural "%(num)s months"
+msgid "%(num)s comment"
+msgid_plural "%(num)s comments"
+msgstr[0] "%(num)s か月"
+
+#: r2/public/static/js/live-comments.js:102
+#, fuzzy, python-format
+#| msgid "all %d comments"
+msgid "all %(num)s comment"
+msgid_plural "all %(num)s comments"
+msgstr[0] "全 %d 件のコメント"
 
 #: r2/public/static/js/login.js:115
 msgid "You need to be logged in to upvote things."
@@ -6609,7 +6529,7 @@ msgstr "自然"
 msgid "food"
 msgstr "食べ物"
 
-#: r2/public/static/js/markdown-toolbar.js:35 r2/templates/adminsupport.html:72 r2/templates/tipprtraffic.html:130
+#: r2/public/static/js/markdown-toolbar.js:35 r2/templates/adminsupport.html:72 r2/templates/tipprtraffic.html:135
 msgid "activity"
 msgstr "アクティビティ"
 
@@ -6705,21 +6625,75 @@ msgstr "受信箱を確認して登録を完了してください"
 msgid "couldn't reach the site"
 msgstr "サイトに接続できませんでした"
 
-#: r2/public/static/js/passkey.js:94
-msgid "no passkey was used"
-msgstr "パスキーが使われませんでした"
+#: r2/public/static/js/passkey.js:98
+msgid "No passkey was created. Try again, or add an authenticator app instead."
+msgstr ""
 
-#: r2/public/static/js/passkey.js:97
-msgid "that passkey is already added"
-msgstr "そのパスキーはすでに追加されています"
+#: r2/public/static/js/passkey.js:100
+msgid "No passkey was used. Try again, or enter a code instead."
+msgstr ""
 
-#: r2/public/static/js/passkey.js:99
-msgid "the passkey didn't work"
-msgstr "パスキーが使えませんでした"
+#: r2/public/static/js/passkey.js:101
+msgid "No passkey was used. Try again, or use a recovery code instead."
+msgstr ""
 
-#: r2/public/static/js/passkey.js:130
+#: r2/public/static/js/passkey.js:104
+msgid "This device already has a passkey for your account: it is in your list."
+msgstr ""
+
+#: r2/public/static/js/passkey.js:108
+msgid "We couldn't create your passkey. Try again, or add an authenticator app instead."
+msgstr ""
+
+#: r2/public/static/js/passkey.js:110
+msgid "We couldn't check your passkey. Try again, or enter a code instead."
+msgstr ""
+
+#: r2/public/static/js/passkey.js:111
+msgid "We couldn't check your passkey. Try again, or use a recovery code instead."
+msgstr ""
+
+#: r2/public/static/js/passkey.js:159
+#, fuzzy
+#| msgid "use a passkey"
+msgid "or use a passkey"
+msgstr "パスキーを使う"
+
+#: r2/public/static/js/passkey.js:159
 msgid "use a passkey"
 msgstr "パスキーを使う"
+
+#: r2/public/static/js/passkey.js:186
+#, fuzzy
+#| msgid "recovery codes"
+msgid "use a recovery code instead"
+msgstr "リカバリーコード"
+
+#: r2/public/static/js/passkey.js:190
+#, fuzzy
+#| msgid "recovery codes"
+msgid "recovery code"
+msgstr "リカバリーコード"
+
+#: r2/public/static/js/passkey.js:215
+msgid "Follow your browser’s prompt to create a passkey for this site."
+msgstr ""
+
+#: r2/public/static/js/passkey.js:292
+msgid "Follow your browser’s prompt to choose a passkey for this site."
+msgstr ""
+
+#: r2/public/static/js/passkey.js:304
+msgid "Signing in…"
+msgstr ""
+
+#: r2/public/static/js/passkey.js:319
+msgid "No passkey was used. Try again, or log in with your password."
+msgstr ""
+
+#: r2/public/static/js/passkey.js:320
+msgid "We couldn't sign you in with a passkey. Try again, or log in with your password."
+msgstr ""
 
 #: r2/public/static/js/popup.js:29 r2/public/static/js/post-sharing.js:73
 msgid "close this window"
@@ -6755,7 +6729,7 @@ msgstr "メッセージを追加(任意)"
 msgid "send"
 msgstr "送信"
 
-#: r2/public/static/js/post-sharing.js:133 r2/templates/fraudform.html:48 r2/templates/linkcommentssettings.html:78 r2/templates/printablebuttons.html:420 r2/templates/promotelinkedit.html:121 r2/templates/reportform.html:71 r2/templates/rules.html:137 r2/templates/vaultreportform.html:46
+#: r2/public/static/js/post-sharing.js:133 r2/templates/adminprivacy.html:48 r2/templates/fraudform.html:48 r2/templates/linkcommentssettings.html:78 r2/templates/printablebuttons.html:420 r2/templates/promotelinkedit.html:121 r2/templates/reportform.html:71 r2/templates/rules.html:137 r2/templates/vaultreportform.html:46
 msgid "cancel"
 msgstr "取消"
 
@@ -6937,11 +6911,11 @@ msgid "a minute ago"
 msgid_plural "%(num)s minutes ago"
 msgstr[0] "%(num)s分前"
 
-#: r2/public/static/js/tippr.js:104
+#: r2/public/static/js/tippr.js:112
 msgid "please wait a few seconds and try again."
 msgstr "数秒待ってからもう一度お試しください。"
 
-#: r2/public/static/js/tippr.js:106 r2/public/static/js/ui.js:657
+#: r2/public/static/js/tippr.js:114 r2/public/static/js/ui.js:665
 #, python-format
 msgid "an error occurred (status: %(status)s)"
 msgstr "エラーが発生しました(ステータス： %(status)s)"
@@ -6950,35 +6924,35 @@ msgstr "エラーが発生しました(ステータス： %(status)s)"
 msgid "view vault traffic"
 msgstr "vaultのトラフィックを表示"
 
-#: r2/public/static/js/traffic.js:13 r2/templates/adminuser.html:144 r2/templates/flairlist.html:34 r2/templates/userlisting.html:170
+#: r2/public/static/js/traffic.js:13 r2/templates/adminuser.html:169 r2/templates/flairlist.html:34 r2/templates/userlisting.html:170
 msgid "go"
 msgstr "行く"
 
-#: r2/public/static/js/ui.js:96
+#: r2/public/static/js/ui.js:83
 msgid "menu"
 msgstr "メニュー"
 
-#: r2/public/static/js/ui.js:112 r2/templates/goldpayment.html:47 r2/templates/tippr.html:258
+#: r2/public/static/js/ui.js:99 r2/templates/goldpayment.html:47 r2/templates/tippr.html:250
 msgid "close"
 msgstr "閉じる"
 
-#: r2/public/static/js/ui.js:919 r2/public/static/js/ui.js:973
+#: r2/public/static/js/ui.js:929 r2/public/static/js/ui.js:983
 msgid "full permissions"
 msgstr "フル権限"
 
-#: r2/public/static/js/ui.js:1022
+#: r2/public/static/js/ui.js:1032
 msgid "no permissions"
 msgstr "権限なし"
 
-#: r2/public/static/js/ui.js:1118 r2/templates/goldsubscription.html:50 r2/templates/printablebuttons.html:687 r2/templates/printablebuttons.html:709
+#: r2/public/static/js/ui.js:1131 r2/templates/goldsubscription.html:50 r2/templates/printablebuttons.html:687 r2/templates/printablebuttons.html:709
 msgid "are you sure?"
 msgstr "本当にいいですか?"
 
-#: r2/public/static/js/ui.js:1119 r2/templates/adminuser.html:60 r2/templates/adminuser.html:76 r2/templates/fraudform.html:35 r2/templates/goldsubscription.html:53 r2/templates/optout.html:40 r2/templates/optout.html:56 r2/templates/printablebuttons.html:689 r2/templates/printablebuttons.html:738
+#: r2/public/static/js/ui.js:1132 r2/templates/adminuser.html:63 r2/templates/adminuser.html:79 r2/templates/fraudform.html:35 r2/templates/goldsubscription.html:53 r2/templates/optout.html:40 r2/templates/optout.html:56 r2/templates/printablebuttons.html:689 r2/templates/printablebuttons.html:738
 msgid "yes"
 msgstr "はい"
 
-#: r2/public/static/js/ui.js:1120 r2/templates/adminuser.html:81 r2/templates/fraudform.html:40 r2/templates/goldsubscription.html:56 r2/templates/optout.html:43 r2/templates/optout.html:59 r2/templates/printablebuttons.html:199 r2/templates/printablebuttons.html:691 r2/templates/printablebuttons.html:741
+#: r2/public/static/js/ui.js:1133 r2/templates/adminuser.html:84 r2/templates/fraudform.html:40 r2/templates/goldsubscription.html:56 r2/templates/optout.html:43 r2/templates/optout.html:59 r2/templates/printablebuttons.html:199 r2/templates/printablebuttons.html:691 r2/templates/printablebuttons.html:741
 msgid "no"
 msgstr "いいえ"
 
@@ -7151,7 +7125,7 @@ msgstr "EU、英国、スイスでは、Google の同意メッセージが必要
 msgid "saved; leave blank to keep"
 msgstr "保存済み。変更しない場合は空欄のまま"
 
-#: r2/templates/adminantispam.html:20 r2/templates/adminemailsettings.html:20 r2/templates/adminloginsettings.html:19 r2/templates/adminpaymentsettings.html:28 r2/templates/prefupdate.html:64
+#: r2/templates/adminantispam.html:20 r2/templates/adminemailsettings.html:20 r2/templates/adminloginsettings.html:19 r2/templates/adminpaymentsettings.html:28 r2/templates/prefupdate.html:65
 msgid "not set"
 msgstr "セットされていません"
 
@@ -7211,7 +7185,7 @@ msgstr "CleanTalk のダッシュボードから取得します(このサイト�
 msgid "check"
 msgstr "チェック対象"
 
-#: r2/templates/adminantispam.html:93 r2/templates/adminsitesettings.html:110
+#: r2/templates/adminantispam.html:93 r2/templates/adminsitesettings.html:129
 msgid "sign-ups"
 msgstr "登録"
 
@@ -7235,7 +7209,7 @@ msgstr "CleanTalk が確認したものについて: スパムとしてマーク
 msgid "CleanTalk statistics"
 msgstr "CleanTalk の統計"
 
-#: r2/templates/adminantispam.html:115 r2/templates/adminantispam.html:117 r2/templates/adminantispam.html:133 r2/templates/adminantispam.html:181 r2/templates/adminuser.html:38 r2/templates/adminusers.html:57
+#: r2/templates/adminantispam.html:115 r2/templates/adminantispam.html:117 r2/templates/adminantispam.html:133 r2/templates/adminantispam.html:181 r2/templates/adminuser.html:41 r2/templates/adminusers.html:76
 msgid "account"
 msgstr "アカウント"
 
@@ -7322,15 +7296,15 @@ msgstr "すべての結果を消去し、次のチェックで全員を再び対
 msgid "flagged by CleanTalk"
 msgstr "CleanTalk が検出"
 
-#: r2/templates/adminantispam.html:181 r2/templates/adminuser.html:40 r2/templates/adminusers.html:57
+#: r2/templates/adminantispam.html:181 r2/templates/adminuser.html:43 r2/templates/adminusers.html:76
 msgid "joined"
 msgstr "登録日"
 
-#: r2/templates/adminantispam.html:181 r2/templates/adminuser.html:64 r2/templates/adminusers.html:57
+#: r2/templates/adminantispam.html:181 r2/templates/adminuser.html:67 r2/templates/adminusers.html:76
 msgid "karma"
 msgstr "カルマ"
 
-#: r2/templates/adminantispam.html:182 r2/templates/adminuser.html:65 r2/templates/adminusers.html:58 r2/templates/login.html:108 r2/templates/newsletter.html:58 r2/templates/newsletterbar.html:43 r2/templates/prefupdate.html:84
+#: r2/templates/adminantispam.html:182 r2/templates/adminuser.html:68 r2/templates/adminusers.html:77 r2/templates/login.html:110 r2/templates/newsletter.html:58 r2/templates/newsletterbar.html:43 r2/templates/prefupdate.html:85 r2/templates/register.html:110
 msgid "email"
 msgstr "メール"
 
@@ -7355,7 +7329,7 @@ msgstr "選択したもの:"
 msgid "not spam (dismiss)"
 msgstr "スパムではない(無視)"
 
-#: r2/templates/adminantispam.html:210 r2/templates/adminapps.html:107 r2/templates/adminuser.html:126
+#: r2/templates/adminantispam.html:210 r2/templates/adminapps.html:107 r2/templates/adminuser.html:151
 msgid "suspend"
 msgstr "停止する"
 
@@ -7367,7 +7341,7 @@ msgstr "停止してコンテンツをスパムとして削除する"
 msgid "apply"
 msgstr "適用する"
 
-#: r2/templates/adminantispam.html:217 r2/templates/adminuser.html:189 r2/templates/adminuser.html:237 r2/templates/adminvault.html:109 r2/templates/adminvault.html:139 r2/templates/adminvaults.html:66 r2/templates/adminvaults.html:78
+#: r2/templates/adminantispam.html:217 r2/templates/adminuser.html:214 r2/templates/adminuser.html:262 r2/templates/adminvault.html:109 r2/templates/adminvault.html:139 r2/templates/adminvaults.html:66 r2/templates/adminvaults.html:78
 msgid "None."
 msgstr "なし。"
 
@@ -7436,15 +7410,19 @@ msgstr "(名前なし)"
 msgid "(the site's own)"
 msgstr "(サイト自身のもの)"
 
+#: r2/templates/adminapps.html:93 r2/templates/admindomain.html:85 r2/templates/admindomains.html:44 r2/templates/adminfeeds.html:132 r2/templates/adminsupport.html:83 r2/templates/adminsupport.html:88 r2/templates/adminsupportactivity.html:77 r2/templates/adminsupportticket.html:106 r2/templates/adminsupportticket.html:119 r2/templates/adminsupportticket.html:157 r2/templates/adminuser.html:43 r2/templates/adminuser.html:53 r2/templates/adminuser.html:61 r2/templates/adminuser.html:225 r2/templates/adminuser.html:257 r2/templates/adminusers.html:83 r2/templates/adminvault.html:40 r2/templates/adminvault.html:50 r2/templates/adminvaults.html:57 r2/templates/comment.htmllite:49 r2/templates/commentvisitsbox.html:41
+msgid "ago"
+msgstr "前"
+
 #: r2/templates/adminapps.html:104 r2/templates/printablebuttons.html:57 r2/templates/printablebuttons.html:272
 msgid "approve"
 msgstr "承認する"
 
-#: r2/templates/adminapps.html:110 r2/templates/adminuser.html:124
+#: r2/templates/adminapps.html:110 r2/templates/adminuser.html:149
 msgid "lift the suspension"
 msgstr "停止を解除する"
 
-#: r2/templates/adminapps.html:113 r2/templates/adminbackups.html:139 r2/templates/adminfeeds.html:148 r2/templates/adminuser.html:167 r2/templates/multiinfobar.html:56 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:578 r2/templates/renderablecampaign.html:161 r2/templates/rules.html:135 r2/templates/wikipagesettings.html:79
+#: r2/templates/adminapps.html:113 r2/templates/adminbackups.html:139 r2/templates/adminfeeds.html:148 r2/templates/adminuser.html:192 r2/templates/multiinfobar.html:56 r2/templates/prefsecurity.html:133 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:578 r2/templates/renderablecampaign.html:161 r2/templates/rules.html:135 r2/templates/wikipagesettings.html:79
 msgid "delete"
 msgstr "削除"
 
@@ -7852,7 +7830,7 @@ msgstr "サーバーで scripts/gmail_oauth_setup.py を実行して Google ア�
 msgid "send a test email"
 msgstr "テストメールを送信"
 
-#: r2/templates/adminemailsettings.html:104 r2/templates/adminsitesettings.html:145 r2/templates/adminuser.html:196
+#: r2/templates/adminemailsettings.html:104 r2/templates/adminsitesettings.html:164 r2/templates/adminuser.html:221
 msgid "address"
 msgstr "住所"
 
@@ -7925,7 +7903,7 @@ msgstr "タイトルの接頭辞"
 msgid "Optional, put before each post's title."
 msgstr "任意。各投稿のタイトルの前に付けます。"
 
-#: r2/templates/adminfeeds.html:57 r2/templates/adminfeeds.html:107 r2/templates/utils.html:650 r2/templates/vault.html:98
+#: r2/templates/adminfeeds.html:57 r2/templates/adminfeeds.html:107 r2/templates/utils.html:742 r2/templates/vault.html:98
 msgid "NSFW"
 msgstr "閲覧注意"
 
@@ -8038,17 +8016,31 @@ msgstr "関係者の方ですか?"
 msgid "Enter your password and one-time code"
 msgstr "パスワードとワンタイムコードを入力してください"
 
-#: r2/templates/admininterstitial.html:52 r2/templates/admininterstitial.html:62 r2/templates/prefsecurity.html:140 r2/templates/prefsecurity.html:145 r2/templates/prefsecurity.html:213 r2/templates/prefupdate.html:33 r2/templates/prefupdate.html:55 r2/templates/prefupdate.html:116 r2/templates/useriphistory.html:74
+#: r2/templates/admininterstitial.html:52 r2/templates/admininterstitial.html:66 r2/templates/prefsecurity.html:237 r2/templates/prefsecurity.html:242 r2/templates/prefsecurity.html:300 r2/templates/prefupdate.html:33 r2/templates/prefupdate.html:56 r2/templates/prefupdate.html:117 r2/templates/useriphistory.html:74
 msgid "(required)"
 msgstr "(必須)"
 
-#: r2/templates/admininterstitial.html:62
+#: r2/templates/admininterstitial.html:64
+msgid "This computer is remembered, so you don't need a one-time code."
+msgstr ""
+
+#: r2/templates/admininterstitial.html:66
 msgid "one-time verification code"
 msgstr "ワンタイム確認コード"
 
-#: r2/templates/admininterstitial.html:78
+#: r2/templates/admininterstitial.html:73
 msgid "remember this computer"
 msgstr "このコンピューターを記憶する"
+
+#: r2/templates/admininterstitial.html:90
+#, fuzzy
+#| msgid "forget this account"
+msgid "forget this computer"
+msgstr "このアカウントを削除"
+
+#: r2/templates/admininterstitial.html:91
+msgid "Asks for a one-time code again next time, here and anywhere else this computer was remembered for."
+msgstr ""
 
 #: r2/templates/adminliveconfig.html:41
 msgid "Changed here."
@@ -8420,6 +8412,60 @@ msgstr "返金済みにする"
 msgid "Mark this payment refunded (after refunding it in the provider's dashboard) and take back what it bought?"
 msgstr "この支払いを返金済みにして (プロバイダーのダッシュボードで返金した後で)、購入されたものを取り消しますか？"
 
+#: r2/templates/adminprivacy.html:17
+#, fuzzy
+#| msgid "Send a privacy request"
+msgid "data export requests"
+msgstr "プライバシーリクエストを送信"
+
+#: r2/templates/adminprivacy.html:20
+msgid "Members ask for a copy of their data on /prefs/privacy, and the privacy_export_q consumer makes it within a few minutes. Requests still waiting or processing after half an hour probably lost their queue item: send them again. Failed ones show why."
+msgstr ""
+
+#: r2/templates/adminprivacy.html:26
+#, fuzzy
+#| msgid "member for"
+msgid "member"
+msgstr "メンバー歴"
+
+#: r2/templates/adminprivacy.html:26
+msgid "asked"
+msgstr ""
+
+#: r2/templates/adminprivacy.html:36
+#, fuzzy
+#| msgid "delete account"
+msgid "[deleted account]"
+msgstr "アカウントを削除"
+
+#: r2/templates/adminprivacy.html:43
+msgid "stuck"
+msgstr ""
+
+#: r2/templates/adminprivacy.html:48
+#, fuzzy
+#| msgid "start again"
+msgid "send again"
+msgstr "最初からやり直す"
+
+#: r2/templates/adminprivacy.html:62
+msgid "No requests waiting, processing or failed."
+msgstr ""
+
+#: r2/templates/adminprivacy.html:65
+msgid "start an export for a member"
+msgstr ""
+
+#: r2/templates/adminprivacy.html:66
+msgid "They get the usual message with the download link when it's ready."
+msgstr ""
+
+#: r2/templates/adminprivacy.html:70
+#, fuzzy
+#| msgid "start over"
+msgid "start export"
+msgstr "最初からやり直す"
+
 #: r2/templates/adminserverstatus.html:25
 msgid "Each server reports its state here once a minute (tippr-job-server_status). Only the latest report is kept; a server that stops reporting is flagged after 3 minutes and dropped after 7 days, or forget it below once it's out of service."
 msgstr "各サーバーが 1 分ごとにここへ状態を報告します (tippr-job-server_status)。保存されるのは最新の報告だけです。報告が止まったサーバーは 3 分後に警告され、7 日後に削除されます。運用をやめたら下で削除することもできます。"
@@ -8694,131 +8740,176 @@ msgstr "Bing の確認"
 msgid "The content of the msvalidate.01 tag."
 msgstr "msvalidate.01 タグの内容。"
 
-#: r2/templates/adminsitesettings.html:95
+#: r2/templates/adminsitesettings.html:94
+#, fuzzy
+#| msgid "item"
+msgid "sitemap"
+msgstr "項目"
+
+#: r2/templates/adminsitesettings.html:96
+#, fuzzy
+#| msgid "remove post"
+msgid "recent posts"
+msgstr "投稿を除去する"
+
+#: r2/templates/adminsitesettings.html:97
+#, fuzzy
+#| msgid "remove post"
+msgid "every post"
+msgstr "投稿を除去する"
+
+#: r2/templates/adminsitesettings.html:98
+msgid "Recent posts: the sitemap lists the public vaults and the 10,000 newest posts, made when asked for. That's fine for a small site. Every post: tippr-job-sitemaps lists every public vault and post each day, in as many sitemaps as that takes, for a site with more than that; until its first run the recent sitemap is shown."
+msgstr ""
+
+#: r2/templates/adminsitesettings.html:100
+#, python-format
+msgid "Last built %(when)s: %(urls)s addresses in %(parts)s sitemaps."
+msgstr ""
+
+#: r2/templates/adminsitesettings.html:106
 msgid "analytics"
 msgstr "アクセス解析"
 
-#: r2/templates/adminsitesettings.html:96
+#: r2/templates/adminsitesettings.html:107
 msgid "The site counts its own traffic for the traffic pages (/traffic, and each vault's traffic stats) without any outside service. To use Google Analytics as well, paste its measurement ID (G-…, or the whole tag Google gives you). It isn't loaded for visitors whose browser asks not to be tracked. In some places (the EU and UK, for example) you need visitors' consent before using it; the privacy policy already says the site may use analytics."
 msgstr "サイトは外部サービスを使わずに、トラフィックページ(/traffic と各 vault のトラフィック統計)のために自分でトラフィックを数えています。Google アナリティクスも使う場合は、測定 ID(G-…、または Google から渡されるタグ全体)を貼り付けてください。トラッキングを拒否するブラウザーの訪問者には読み込まれません。地域によっては(EU や英国など)、使用する前に訪問者の同意が必要です。プライバシーポリシーには、サイトがアクセス解析を使う場合があることがすでに書かれています。"
 
-#: r2/templates/adminsitesettings.html:98
+#: r2/templates/adminsitesettings.html:109
 msgid "Google Analytics"
 msgstr "Google アナリティクス"
 
-#: r2/templates/adminsitesettings.html:98
+#: r2/templates/adminsitesettings.html:109
 msgid "The measurement ID, e.g. G-ABC123XYZ. Blank: no Google Analytics."
 msgstr "測定 ID(例: G-ABC123XYZ)。空欄: Google アナリティクスなし。"
 
-#: r2/templates/adminsitesettings.html:101
+#: r2/templates/adminsitesettings.html:111
+msgid "visitors' consent"
+msgstr ""
+
+#: r2/templates/adminsitesettings.html:113
+#, fuzzy
+#| msgid "first"
+msgid "ask first"
+msgstr "初め"
+
+#: r2/templates/adminsitesettings.html:114
+msgid "don't ask"
+msgstr ""
+
+#: r2/templates/adminsitesettings.html:115
+msgid "Ask first: a banner asks each visitor, and Google Analytics loads only for those who allow it. Their answer is kept in their browser, and with their account when they're signed in (they can change it in their preferences). Don't ask: it loads for everyone, which is only allowed where consent isn't required."
+msgstr ""
+
+#: r2/templates/adminsitesettings.html:120
 msgid "announcement"
 msgstr "お知らせ"
 
-#: r2/templates/adminsitesettings.html:103
+#: r2/templates/adminsitesettings.html:122
 msgid "banner text"
 msgstr "バナーの文言"
 
-#: r2/templates/adminsitesettings.html:103
+#: r2/templates/adminsitesettings.html:122
 msgid "Shown at the top of every page until someone closes it; it comes back for everyone when you change it. Blank: no banner."
 msgstr "閉じられるまですべてのページの上部に表示されます。変更すると全員に再び表示されます。空欄: バナーなし。"
 
-#: r2/templates/adminsitesettings.html:104
+#: r2/templates/adminsitesettings.html:123
 msgid "banner link"
 msgstr "バナーのリンク"
 
-#: r2/templates/adminsitesettings.html:104
+#: r2/templates/adminsitesettings.html:123
 msgid "Optional: where the banner leads, e.g. a post about the change (https://... or /v/...)."
 msgstr "任意: バナーのリンク先(変更についての投稿など。https://... または /v/...)。"
 
-#: r2/templates/adminsitesettings.html:107
+#: r2/templates/adminsitesettings.html:126
 msgid "new accounts"
 msgstr "新しいアカウント"
 
-#: r2/templates/adminsitesettings.html:114
+#: r2/templates/adminsitesettings.html:133
 msgid "Closed: the sign-up form is replaced by a notice and new accounts are refused. Existing accounts can still log in."
 msgstr "停止中: 登録フォームがお知らせに置き換わり、新しいアカウントは受け付けません。既存のアカウントは引き続きログインできます。"
 
-#: r2/templates/adminsitesettings.html:119
+#: r2/templates/adminsitesettings.html:138
 msgid "policy pages"
 msgstr "ポリシーページ"
 
-#: r2/templates/adminsitesettings.html:120
+#: r2/templates/adminsitesettings.html:139
 msgid "The user agreement, privacy policy, content policy and moderator guidelines start from the templates in docs/policies, filled in with the site name, domain and these two; where they say how to reach you, they link to sections of the contact page (/contact), which offers a message to the admins and the contact address above when it is set. They're wiki pages: edit them at /wiki/useragreement and so on. To rebuild them from the templates after changing these (this replaces any edits):"
 msgstr "利用規約、プライバシーポリシー、コンテンツポリシー、モデレーターのガイドラインは、docs/policies のテンプレートに、サイト名、ドメイン、この 2 つの欄を入れて作られます。連絡方法が書かれている箇所では、お問い合わせページ(/contact)の各セクションにリンクしています。そこでは管理者へのメッセージと、設定されていれば上の連絡先アドレスを案内します。これらは wiki ページなので、/wiki/useragreement などで編集できます。この欄を変えた後でテンプレートから作り直すには(編集内容は置き換わります):"
 
-#: r2/templates/adminsitesettings.html:123
+#: r2/templates/adminsitesettings.html:142
 msgid "operator"
 msgstr "運営者"
 
-#: r2/templates/adminsitesettings.html:123
+#: r2/templates/adminsitesettings.html:142
 msgid "Who runs the site, by legal name (a company, or your own name). Blank: the site name."
 msgstr "サイトを運営している人の正式名称(会社名または自分の名前)。空欄: サイト名。"
 
-#: r2/templates/adminsitesettings.html:124
+#: r2/templates/adminsitesettings.html:143
 msgid "governing law"
 msgstr "準拠法"
 
-#: r2/templates/adminsitesettings.html:124
+#: r2/templates/adminsitesettings.html:143
 msgid "Whose laws the policies are under, e.g. \"the State of New York\" or \"England and Wales\". Blank: wherever the operator is established."
 msgstr "ポリシーが従う法律。例: 「ニューヨーク州」「イングランドおよびウェールズ」。空欄: 運営者の所在地。"
 
-#: r2/templates/adminsitesettings.html:131 r2/templates/vaultstylesheet.html:120 r2/templates/vaultstylesheetsource.html:46
+#: r2/templates/adminsitesettings.html:150 r2/templates/vaultstylesheet.html:120 r2/templates/vaultstylesheetsource.html:46
 msgid "images"
 msgstr "画像"
 
-#: r2/templates/adminsitesettings.html:132
+#: r2/templates/adminsitesettings.html:151
 msgid "Each image is saved on its own as soon as you choose it (the save button above is only for the settings above it). Uploading one replaces the last."
 msgstr "画像は選ぶとすぐにそれぞれ保存されます(上の保存ボタンはその上の設定だけが対象です)。アップロードすると前の画像は置き換わります。"
 
-#: r2/templates/adminsitesettings.html:134
+#: r2/templates/adminsitesettings.html:153
 msgid "logo"
 msgstr "ロゴ"
 
-#: r2/templates/adminsitesettings.html:134
+#: r2/templates/adminsitesettings.html:153
 msgid "Shown at most 48 pixels high in the header; a transparent background works best. Vaults with their own header image show that instead."
 msgstr "ヘッダーに高さ 48 ピクセル以内で表示されます。背景は透明がおすすめです。独自のヘッダー画像がある vault ではその画像が表示されます。"
 
-#: r2/templates/adminsitesettings.html:134
+#: r2/templates/adminsitesettings.html:153
 msgid "The site uses the default tippr logo."
 msgstr "サイトは tippr の既定のロゴを使っています。"
 
-#: r2/templates/adminsitesettings.html:136
+#: r2/templates/adminsitesettings.html:155
 msgid "favicon"
 msgstr "ファビコン"
 
-#: r2/templates/adminsitesettings.html:136
+#: r2/templates/adminsitesettings.html:155
 msgid "The icon in browser tabs and bookmarks. A square PNG of 192 or 512 pixels works everywhere."
 msgstr "ブラウザーのタブやブックマークのアイコン。192 または 512 ピクセルの正方形の PNG ならどこでも使えます。"
 
-#: r2/templates/adminsitesettings.html:136
+#: r2/templates/adminsitesettings.html:155
 msgid "The site uses the default tippr icon."
 msgstr "サイトは tippr の既定のアイコンを使っています。"
 
-#: r2/templates/adminsitesettings.html:138
+#: r2/templates/adminsitesettings.html:157
 msgid "share image"
 msgstr "共有用の画像"
 
-#: r2/templates/adminsitesettings.html:138
+#: r2/templates/adminsitesettings.html:157
 msgid "The picture shown when the front page or a vault is shared on social media or in chat apps (posts use their own image when they have one). 1200 by 630 pixels works best."
 msgstr "トップページや vault が SNS やチャットアプリで共有されたときに表示される画像です(投稿は自身の画像があればそれを使います)。1200 × 630 ピクセルが最適です。"
 
-#: r2/templates/adminsitesettings.html:138
+#: r2/templates/adminsitesettings.html:157
 msgid "Shared links show the tippr icon."
 msgstr "共有されたリンクには tippr のアイコンが表示されます。"
 
-#: r2/templates/adminsitesettings.html:140
+#: r2/templates/adminsitesettings.html:159
 msgid "Spam protection (captcha and CleanTalk)"
 msgstr "スパム対策(CAPTCHA と CleanTalk)"
 
-#: r2/templates/adminsitesettings.html:146 r2/templates/prefoptions.html:157 r2/templates/promotelinkbase.html:251
+#: r2/templates/adminsitesettings.html:165 r2/templates/prefoptions.html:157 r2/templates/promotelinkbase.html:251
 msgid "media"
 msgstr "メディア"
 
-#: r2/templates/adminsitesettings.html:149
+#: r2/templates/adminsitesettings.html:168
 msgid "The domain is also part of the web server configuration, the TLS certificate and login cookies, so it can't be changed here. To move the site to a new domain (for example after restoring a backup on a new server), point the new domain at the server and re-run the installer with it:"
 msgstr "ドメインは Web サーバーの設定、TLS 証明書、ログイン Cookie にも含まれるため、ここでは変更できません。サイトを新しいドメインに移すには(新しいサーバーにバックアップを復元した後など)、新しいドメインをサーバーに向け、そのドメインでインストーラーを再実行してください:"
 
-#: r2/templates/adminsitesettings.html:153
+#: r2/templates/adminsitesettings.html:172
 msgid "It keeps the data, passwords and secrets, and updates the config, nginx and the certificate. Everyone has to log in again on the new domain."
 msgstr "データ、パスワード、シークレットはそのまま残り、設定、nginx、証明書が更新されます。新しいドメインでは全員がもう一度ログインする必要があります。"
 
@@ -8865,11 +8956,11 @@ msgstr "担当"
 msgid "last reply by staff"
 msgstr "スタッフの最終返信"
 
-#: r2/templates/adminsupport.html:76 r2/templates/adminsupportactivity.html:80 r2/templates/adminsupportticket.html:34 r2/templates/adminsupportticket.html:154 r2/templates/adminuser.html:229
+#: r2/templates/adminsupport.html:76 r2/templates/adminsupportactivity.html:80 r2/templates/adminsupportticket.html:34 r2/templates/adminsupportticket.html:154 r2/templates/adminuser.html:254
 msgid "(no subject)"
 msgstr "(件名なし)"
 
-#: r2/templates/adminsupportactivity.html:27 r2/templates/adminsupportticket.html:27 r2/templates/adminuser.html:182 r2/templates/adminvault.html:132
+#: r2/templates/adminsupportactivity.html:27 r2/templates/adminsupportticket.html:27 r2/templates/adminuser.html:207 r2/templates/adminvault.html:132
 msgid "the system"
 msgstr "システム"
 
@@ -9016,228 +9107,254 @@ msgstr "管理チームとして返信"
 msgid "their other tickets"
 msgstr "その人のほかのチケット"
 
-#: r2/templates/adminuser.html:41
+#: r2/templates/adminuser.html:30 r2/templates/adminusers.html:32
+#, fuzzy
+#| msgid "interests"
+msgid "internal status:"
+msgstr "興味関心"
+
+#: r2/templates/adminuser.html:44
 msgid "registered from"
 msgstr "登録時のアドレス"
 
-#: r2/templates/adminuser.html:45 r2/templates/adminuser.html:52
+#: r2/templates/adminuser.html:48 r2/templates/adminuser.html:55
 msgid "not recorded"
 msgstr "記録なし"
 
-#: r2/templates/adminuser.html:48
+#: r2/templates/adminuser.html:51
 msgid "last active"
 msgstr "最終アクティブ"
 
-#: r2/templates/adminuser.html:64
+#: r2/templates/adminuser.html:67
 #, python-format
 msgid "%(link)d post, %(comment)d comment"
 msgstr "投稿 %(link)d、コメント %(comment)d"
 
-#: r2/templates/adminuser.html:68 r2/templates/adminusers.html:70
+#: r2/templates/adminuser.html:71 r2/templates/adminusers.html:89
 msgid "(verified)"
 msgstr "(確認済み)"
 
-#: r2/templates/adminuser.html:68
+#: r2/templates/adminuser.html:71
 msgid "(not verified)"
 msgstr "(未確認)"
 
-#: r2/templates/adminuser.html:73 r2/templates/adminuser.html:150
+#: r2/templates/adminuser.html:76 r2/templates/adminuser.html:175
 msgid "two-factor"
 msgstr "2 段階認証"
 
-#: r2/templates/adminuser.html:73 r2/templates/comment.xml:60
+#: r2/templates/adminuser.html:76 r2/templates/comment.xml:60
 msgid "on"
 msgstr "で"
 
-#: r2/templates/adminuser.html:73
+#: r2/templates/adminuser.html:76
 msgid "off"
 msgstr "オフ"
 
-#: r2/templates/adminuser.html:78
+#: r2/templates/adminuser.html:81
 #, python-format
 msgid "(until %(date)s)"
 msgstr "(%(date)s まで)"
 
-#: r2/templates/adminuser.html:92
+#: r2/templates/adminuser.html:89 r2/templates/adminusers.html:77
+#, fuzzy
+#| msgid "interests"
+msgid "internal status"
+msgstr "興味関心"
+
+#: r2/templates/adminuser.html:96
+msgid "e.g. trusted, watch"
+msgstr ""
+
+#: r2/templates/adminuser.html:104
+#, fuzzy
+#| msgid "night mode ad units (optional)"
+msgid "note for the other admins (optional)"
+msgstr "ナイトモード用の広告ユニット (任意)"
+
+#: r2/templates/adminuser.html:108
+msgid "Only admins see this; the member doesn't. It's shown on /admin/users, where you can list the accounts with each status. Leave both blank to clear it. Changes are logged under admin actions."
+msgstr ""
+
+#: r2/templates/adminuser.html:117
 msgid "days (0: until lifted)"
 msgstr "日(0: 解除するまで)"
 
-#: r2/templates/adminuser.html:105 r2/templates/adminvault.html:81
+#: r2/templates/adminuser.html:130 r2/templates/adminvault.html:81
 msgid "actions"
 msgstr "操作"
 
-#: r2/templates/adminuser.html:107
+#: r2/templates/adminuser.html:132
 msgid "The account is deleted."
 msgstr "このアカウントは削除されています。"
 
-#: r2/templates/adminuser.html:109
+#: r2/templates/adminuser.html:134
 msgid "Not available for admins or yourself; take an admin off the employees list on /admin/config first."
 msgstr "管理者や自分自身には使えません。先に /admin/config の従業員リストから管理者を外してください。"
 
-#: r2/templates/adminuser.html:112
+#: r2/templates/adminuser.html:137
 msgid "timeout"
 msgstr "一時停止"
 
-#: r2/templates/adminuser.html:114
+#: r2/templates/adminuser.html:139
 msgid "In a timeout"
 msgstr "一時停止中"
 
-#: r2/templates/adminuser.html:114
+#: r2/templates/adminuser.html:139
 #, python-format
 msgid " until %(date)s"
 msgstr " %(date)s まで"
 
-#: r2/templates/adminuser.html:114
+#: r2/templates/adminuser.html:139
 msgid " with no end date"
 msgstr " 終了日なし"
 
-#: r2/templates/adminuser.html:115
+#: r2/templates/adminuser.html:140
 msgid "lift the timeout"
 msgstr "一時停止を解除"
 
-#: r2/templates/adminuser.html:115 r2/templates/adminuser.html:124
+#: r2/templates/adminuser.html:140 r2/templates/adminuser.html:149
 msgid "note (optional)"
 msgstr "メモ(任意)"
 
-#: r2/templates/adminuser.html:117
+#: r2/templates/adminuser.html:142
 msgid "put in a timeout"
 msgstr "一時停止にする"
 
-#: r2/templates/adminuser.html:117
+#: r2/templates/adminuser.html:142
 msgid "reason (sent to them)"
 msgstr "理由(本人に送信されます)"
 
-#: r2/templates/adminuser.html:118
+#: r2/templates/adminuser.html:143
 msgid "They can still read and log in, and can message the admins, but can't post, comment, vote or message anyone else."
 msgstr "閲覧、ログイン、管理者へのメッセージはできますが、投稿、コメント、投票、ほかの人へのメッセージはできません。"
 
-#: r2/templates/adminuser.html:121
+#: r2/templates/adminuser.html:146
 msgid "suspension"
 msgstr "アカウント停止"
 
-#: r2/templates/adminuser.html:123
+#: r2/templates/adminuser.html:148
 msgid "Suspended."
 msgstr "停止中。"
 
-#: r2/templates/adminuser.html:126 r2/templates/adminuser.html:165
+#: r2/templates/adminuser.html:151 r2/templates/adminuser.html:190
 msgid "reason (logged)"
 msgstr "理由(記録されます)"
 
-#: r2/templates/adminuser.html:126
+#: r2/templates/adminuser.html:151
 msgid "they can't log in; their sessions and app tokens end"
 msgstr "ログインできなくなり、セッションとアプリのトークンが無効になります"
 
-#: r2/templates/adminuser.html:129
+#: r2/templates/adminuser.html:154
 msgid "quick tools"
 msgstr "クイックツール"
 
-#: r2/templates/adminuser.html:134
+#: r2/templates/adminuser.html:159
 msgid "choose a tool"
 msgstr "ツールを選ぶ"
 
-#: r2/templates/adminuser.html:135
+#: r2/templates/adminuser.html:160
 msgid "remove all their posts and comments"
 msgstr "その人の投稿とコメントをすべて削除する"
 
-#: r2/templates/adminuser.html:136
+#: r2/templates/adminuser.html:161
 msgid "remove all their posts and comments as spam"
 msgstr "その人の投稿とコメントをすべてスパムとして削除する"
 
-#: r2/templates/adminuser.html:137
+#: r2/templates/adminuser.html:162
 msgid "delete all their posts and comments"
 msgstr "その人の投稿とコメントをすべて消去する"
 
-#: r2/templates/adminuser.html:139
+#: r2/templates/adminuser.html:164
 msgid "require them to verify their email again"
 msgstr "メールアドレスの再確認を求める"
 
-#: r2/templates/adminuser.html:140
+#: r2/templates/adminuser.html:165
 msgid "remove their email address"
 msgstr "メールアドレスを削除する"
 
-#: r2/templates/adminuser.html:143 r2/templates/promotelinkedit.html:106
+#: r2/templates/adminuser.html:168 r2/templates/promotelinkedit.html:106
 msgid "confirm"
 msgstr "確認"
 
-#: r2/templates/adminuser.html:147
+#: r2/templates/adminuser.html:172
 #, python-format
 msgid "Removed posts and comments stay in each vault's spam queue, where moderators can approve them; \"as spam\" also teaches the spam filter. Deleted ones show as [deleted], as when someone deletes their own. Each acts on their newest %(n)d posts and newest %(n)d comments; run it again for more."
 msgstr "削除した投稿とコメントは各 vault のスパムキューに残り、モデレーターが承認できます。「スパムとして」を選ぶとスパムフィルターの学習にも使われます。消去したものは、本人が消したときと同じく [削除済み] と表示されます。どのツールも最新の %(n)d 件の投稿と最新の %(n)d 件のコメントが対象です。さらに処理するにはもう一度実行してください。"
 
-#: r2/templates/adminuser.html:151
+#: r2/templates/adminuser.html:176
 msgid "reset two-factor"
 msgstr "2 段階認証をリセット"
 
-#: r2/templates/adminuser.html:151
+#: r2/templates/adminuser.html:176
 msgid "why (logged)"
 msgstr "理由(記録されます)"
 
-#: r2/templates/adminuser.html:152
+#: r2/templates/adminuser.html:177
 msgid "For someone locked out: they can log in with their password and set it up again."
 msgstr "ログインできなくなった人向け: パスワードでログインして、もう一度設定できます。"
 
-#: r2/templates/adminuser.html:155
+#: r2/templates/adminuser.html:180
 msgid "delete account"
 msgstr "アカウントを削除"
 
-#: r2/templates/adminuser.html:157
+#: r2/templates/adminuser.html:182
 #, python-format
 msgid "Delete %(name)s? This cannot be undone."
 msgstr "%(name)s を削除しますか?取り消せません。"
 
-#: r2/templates/adminuser.html:161
+#: r2/templates/adminuser.html:186
 msgid "their posts and comments…"
 msgstr "その人の投稿とコメント…"
 
-#: r2/templates/adminuser.html:162 r2/templates/privacysettings.html:116
+#: r2/templates/adminuser.html:187 r2/templates/privacysettings.html:116
 msgid "keep them (shown by [deleted])"
 msgstr "残す([削除済み] と表示)"
 
-#: r2/templates/adminuser.html:163 r2/templates/privacysettings.html:117
+#: r2/templates/adminuser.html:188 r2/templates/privacysettings.html:117
 msgid "delete them too"
 msgstr "これらも削除する"
 
-#: r2/templates/adminuser.html:166
+#: r2/templates/adminuser.html:191
 msgid "delete for good"
 msgstr "完全に削除する"
 
-#: r2/templates/adminuser.html:170
+#: r2/templates/adminuser.html:195
 msgid "Final: their sessions and app tokens end, and their password, email address and moderator roles are removed now (not 90 days later, as when people delete their own account). The name can't be registered again."
 msgstr "最終的な操作です: セッションとアプリのトークンは無効になり、パスワード、メールアドレス、モデレーターの役割はすぐに削除されます(本人がアカウントを削除したときのように 90 日後ではありません)。この名前は二度と登録できません。"
 
-#: r2/templates/adminuser.html:175 r2/templates/adminvault.html:125
+#: r2/templates/adminuser.html:200 r2/templates/adminvault.html:125
 msgid "admin actions"
 msgstr "管理者の操作"
 
-#: r2/templates/adminuser.html:192
+#: r2/templates/adminuser.html:217
 msgid "logins by IP address"
 msgstr "IP アドレス別のログイン"
 
-#: r2/templates/adminuser.html:193
+#: r2/templates/adminuser.html:218
 msgid "The last 100 days, newest first. Other accounts seen on the same address can be one person's accounts, or just a shared network (a household, school, phone carrier or VPN)."
 msgstr "過去 100 日間、新しい順。同じアドレスで見つかったほかのアカウントは、同じ人のアカウントかもしれませんし、単に共有ネットワーク(家庭、学校、携帯キャリア、VPN)かもしれません。"
 
-#: r2/templates/adminuser.html:196
+#: r2/templates/adminuser.html:221
 msgid "last login"
 msgstr "最終ログイン"
 
-#: r2/templates/adminuser.html:196
+#: r2/templates/adminuser.html:221
 msgid "other accounts from it"
 msgstr "そのアドレスのほかのアカウント"
 
-#: r2/templates/adminuser.html:210
+#: r2/templates/adminuser.html:235
 msgid "No logins recorded yet (they're recorded from now on, for public addresses)."
 msgstr "まだログインの記録はありません(今後、公開アドレスについて記録されます)。"
 
-#: r2/templates/adminuser.html:213
+#: r2/templates/adminuser.html:238
 msgid "moderates"
 msgstr "モデレート中"
 
-#: r2/templates/adminuser.html:221
+#: r2/templates/adminuser.html:246
 msgid "No vaults."
 msgstr "vault なし。"
 
-#: r2/templates/adminuser.html:224
+#: r2/templates/adminuser.html:249
 msgid "support tickets"
 msgstr "サポートチケット"
 
@@ -9249,23 +9366,35 @@ msgstr "ユーザー名、メールアドレス、または IP アドレス"
 msgid "A username finds that account and names starting with it; an email address finds every account that used it; an IP address finds the accounts that logged in from it (logins are kept for 100 days)."
 msgstr "ユーザー名ではそのアカウントとその名前で始まるアカウント、メールアドレスではそれを使ったすべてのアカウント、IP アドレスではそこからログインしたアカウントが見つかります(ログインは 100 日間保存されます)。"
 
-#: r2/templates/adminusers.html:35
-msgid "newer"
-msgstr "新しい順"
+#: r2/templates/adminusers.html:46
+#, fuzzy, python-format
+#| msgid "an error occurred (status: %(status)s)"
+msgid "internal status: %(status)s"
+msgstr "エラーが発生しました(ステータス： %(status)s)"
 
-#: r2/templates/adminusers.html:41
-msgid "older"
-msgstr "古い順"
-
-#: r2/templates/adminusers.html:48
+#: r2/templates/adminusers.html:47 r2/templates/adminusers.html:67
 msgid "all accounts"
 msgstr "すべてのアカウント"
 
-#: r2/templates/adminusers.html:49
+#: r2/templates/adminusers.html:54
+msgid "newer"
+msgstr "新しい順"
+
+#: r2/templates/adminusers.html:60
+msgid "older"
+msgstr "古い順"
+
+#: r2/templates/adminusers.html:68
 msgid "Newest first, including deleted and suspended accounts."
 msgstr "新しい順。削除済みと停止中のアカウントも含みます。"
 
-#: r2/templates/adminusers.html:84
+#: r2/templates/adminusers.html:101
+#, fuzzy
+#| msgid "note"
+msgid "(note)"
+msgstr "ノート"
+
+#: r2/templates/adminusers.html:111
 msgid "No accounts found."
 msgstr "アカウントが見つかりません。"
 
@@ -9902,7 +10031,7 @@ msgstr "ゴールドメンバーのみ"
 msgid "only tippr gold members can view and submit"
 msgstr "tipprゴールドメンバーだけが閲覧と投稿が出来ます"
 
-#: r2/templates/createvault.html:188 r2/templates/prefoptions.html:449
+#: r2/templates/createvault.html:188 r2/templates/prefoptions.html:456
 msgid "content options"
 msgstr "内容に関するオプション"
 
@@ -10030,104 +10159,108 @@ msgstr "トラフィック統計ページをすべての人が利用できるよ
 msgid "collapse deleted and removed comments"
 msgstr "削除・除去されたコメントを折りたたむ"
 
-#: r2/templates/createvault.html:406
+#: r2/templates/createvault.html:407
+msgid "live comments: new comments appear on a thread while people have it open"
+msgstr ""
+
+#: r2/templates/createvault.html:420
 msgid "hide ads (only available for gold only vaults)"
 msgstr "広告を隠す(gold 限定の vault でのみ利用可能)"
 
-#: r2/templates/createvault.html:413
+#: r2/templates/createvault.html:427
 msgid "suggested comment sort"
 msgstr "おすすめのコメントの並び順"
 
-#: r2/templates/createvault.html:413
+#: r2/templates/createvault.html:427
 msgid "(all comment threads will use this sorting method by default)"
 msgstr "(全てのコメントスレッドはデフォルトでこのソート方法を利用しています)"
 
-#: r2/templates/createvault.html:415
+#: r2/templates/createvault.html:429
 msgid "none (recommended for most vaults)"
 msgstr "なし(ほとんどの vault におすすめ)"
 
-#: r2/templates/createvault.html:424
+#: r2/templates/createvault.html:438
 msgid "Minutes to hide comment scores:"
 msgstr "コメントスコアを非表示にする時間（分）:"
 
-#: r2/templates/createvault.html:446 r2/templates/usertext.html:189 r2/templates/wikieditpage.html:49
+#: r2/templates/createvault.html:460 r2/templates/usertext.html:189 r2/templates/wikieditpage.html:49
 msgid "hide help"
 msgstr "ヘルプ非表示"
 
-#: r2/templates/createvault.html:450
+#: r2/templates/createvault.html:464
 #, python-format
 msgid "Own a domain?  Enter it here and then go to your DNS provider and add a CNAME record aliasing your domain to %(domain)s. You will be able to reach your vault through your domain."
 msgstr "ドメインをお持ちですか？ここに入力してから、DNS プロバイダーでドメインを %(domain)s に向ける CNAME レコードを追加してください。自分のドメインから vault にアクセスできるようになります。"
 
-#: r2/templates/createvault.html:457
+#: r2/templates/createvault.html:471
 msgid "look and feel"
 msgstr "外見"
 
-#: r2/templates/createvault.html:460
+#: r2/templates/createvault.html:474
 msgid "edit the stylesheet"
 msgstr "スタイルシートを編集する"
 
-#: r2/templates/createvault.html:464
+#: r2/templates/createvault.html:478
 msgid "leaves this page"
 msgstr "このページを離れる"
 
-#: r2/templates/createvault.html:484
+#: r2/templates/createvault.html:498
 msgid "restore default header"
 msgstr "ディフォルトのヘッダーに戻す"
 
-#: r2/templates/createvault.html:504
+#: r2/templates/createvault.html:518
 msgid "related vaults"
 msgstr "関連する vault"
 
-#: r2/templates/createvault.html:506
+#: r2/templates/createvault.html:520
 msgid "similar or related vaults."
 msgstr "似ている、または関連する vault。"
 
-#: r2/templates/createvault.html:582
+#: r2/templates/createvault.html:596
 msgid "mobile look and feel"
 msgstr "モバイルの見た目"
 
-#: r2/templates/createvault.html:586
+#: r2/templates/createvault.html:600
 msgid "icon image"
 msgstr "アイコン画像"
 
-#: r2/templates/createvault.html:586
+#: r2/templates/createvault.html:600
 msgid "icon must be 256x256 pixels. PNG or JPG only."
 msgstr "アイコンは 256x256 ピクセルにしてください。PNG または JPG のみ。"
 
-#: r2/templates/createvault.html:595
+#: r2/templates/createvault.html:609
 msgid "remove custom icon image"
 msgstr "カスタムアイコン画像を削除する"
 
-#: r2/templates/createvault.html:604
+#: r2/templates/createvault.html:618
 msgid "header image"
 msgstr "ヘッダー画像"
 
-#: r2/templates/createvault.html:604
+#: r2/templates/createvault.html:618
 msgid "header should have 10:3 aspect ratio. PNG or JPG only."
 msgstr "ヘッダーは縦横比 10:3 にしてください。PNG または JPG のみ。"
 
-#: r2/templates/createvault.html:605
+#: r2/templates/createvault.html:619
 msgid "minimum size: 640x192px"
 msgstr "最小サイズ: 640x192px"
 
-#: r2/templates/createvault.html:605
+#: r2/templates/createvault.html:619
 msgid "maximum size: 1280x384px"
 msgstr "最大サイズ: 1280x384px"
 
-#: r2/templates/createvault.html:614
+#: r2/templates/createvault.html:628
 msgid "remove custom header image"
 msgstr "カスタムヘッダー画像を削除する"
 
-#: r2/templates/createvault.html:624
+#: r2/templates/createvault.html:638
 msgid "color"
 msgstr "配色"
 
-#: r2/templates/createvault.html:624
+#: r2/templates/createvault.html:638
 msgid "used as a thematic color for your vault on mobile"
 msgstr "モバイルでの vault のテーマカラーとして使われます"
 
-#: r2/templates/createvault.html:655 r2/templates/flairpane.html:91 r2/templates/prefoptions.html:600
+#: r2/templates/createvault.html:669 r2/templates/flairpane.html:91 r2/templates/prefoptions.html:616
 msgid "save options"
 msgstr "オプションを保存する"
 
@@ -10189,7 +10322,7 @@ msgstr "%s のコンテンツを表示しています(次の vault を除く): "
 msgid "filter vault"
 msgstr "vault を絞り込む"
 
-#: r2/templates/filteredinfobar.html:48 r2/templates/modlisting.html:58 r2/templates/prefsecurity.html:219 r2/templates/userlisting.html:99 r2/templates/vaultselector.html:30 r2/templates/wikipagesettings.html:70
+#: r2/templates/filteredinfobar.html:48 r2/templates/modlisting.html:58 r2/templates/prefsecurity.html:306 r2/templates/userlisting.html:99 r2/templates/vaultselector.html:30 r2/templates/wikipagesettings.html:70
 msgid "add"
 msgstr "追加する"
 
@@ -10473,7 +10606,7 @@ msgstr "メッセージを入力してください"
 msgid "continue"
 msgstr "続ける"
 
-#: r2/templates/gold.html:214 r2/templates/linkedsignin.html:25 r2/templates/listingsuggestions.html:32 r2/templates/unreadmessagessuggestions.html:27
+#: r2/templates/gold.html:214 r2/templates/linkedsignin.html:37 r2/templates/listingsuggestions.html:32 r2/templates/unreadmessagessuggestions.html:27
 msgid "or"
 msgstr "または"
 
@@ -10903,23 +11036,23 @@ msgstr "はじめてですか？アカウントを作成"
 msgid "It's linked to your %(provider)s account, so signing in with %(provider)s is enough from now on. The password lets you log in without it too."
 msgstr "あなたの %(provider)s アカウントに連携されるので、これからは %(provider)s でサインインするだけで済みます。パスワードがあれば、それなしでもログインできます。"
 
-#: r2/templates/linkedloginlink.html:50 r2/templates/login.html:81
+#: r2/templates/linkedloginlink.html:50 r2/templates/login.html:81 r2/templates/register.html:81
 msgid "choose a username"
 msgstr "ユーザ名を決めてください"
 
-#: r2/templates/linkedloginlink.html:60 r2/templates/login.html:101 r2/templates/login.html:104 r2/templates/login.html:231 r2/templates/prefupdate.html:131 r2/templates/resetpassword.html:48
+#: r2/templates/linkedloginlink.html:60 r2/templates/login.html:103 r2/templates/login.html:106 r2/templates/login.html:234 r2/templates/prefupdate.html:132 r2/templates/register.html:103 r2/templates/register.html:106 r2/templates/register.html:234 r2/templates/resetpassword.html:48
 msgid "verify password"
 msgstr "パスワード(確認用に再入力)"
 
-#: r2/templates/linkedloginlink.html:62 r2/templates/login.html:112
+#: r2/templates/linkedloginlink.html:62 r2/templates/login.html:114 r2/templates/register.html:114
 msgid "email (optional)"
 msgstr "メール(任意)"
 
-#: r2/templates/linkedloginlink.html:70 r2/templates/login.html:136
+#: r2/templates/linkedloginlink.html:70 r2/templates/login.html:138 r2/templates/register.html:138
 msgid "type the letters from the image"
 msgstr "画像の文字を入力してください"
 
-#: r2/templates/linkedloginlink.html:77 r2/templates/login.html:120 r2/templates/login.html:246 r2/templates/loginformwide.html:51
+#: r2/templates/linkedloginlink.html:77 r2/templates/login.html:122 r2/templates/login.html:249 r2/templates/loginformwide.html:52 r2/templates/register.html:122 r2/templates/register.html:249
 msgid "remember me"
 msgstr "ログイン情報を覚えておく"
 
@@ -10927,25 +11060,41 @@ msgstr "ログイン情報を覚えておく"
 msgid "make the account"
 msgstr "アカウントを作成"
 
-#: r2/templates/linkedloginotp.html:19
+#: r2/templates/linkedloginotp.html:20
 msgid "Your account uses two-factor sign-in: enter the code from your authenticator app (or one of your recovery codes)."
 msgstr "このアカウントは 2 段階サインインを使っています。認証アプリのコード (またはリカバリーコードのどれか) を入力してください。"
 
-#: r2/templates/linkedloginotp.html:21
+#: r2/templates/linkedloginotp.html:22
+#, fuzzy
+#| msgid "Your account uses two-factor sign-in: enter the code from your authenticator app (or one of your recovery codes)."
+msgid "Your account uses two-factor sign-in: confirm it's you with your passkey."
+msgstr "このアカウントは 2 段階サインインを使っています。認証アプリのコード (またはリカバリーコードのどれか) を入力してください。"
+
+#: r2/templates/linkedloginotp.html:25
 msgid "That code isn't right. Try again."
 msgstr "コードが正しくありません。もう一度お試しください。"
 
-#: r2/templates/linkedloginotp.html:33
+#: r2/templates/linkedloginotp.html:26
+msgid "Codes follow the clock: if they keep failing, check that your phone sets its time automatically."
+msgstr ""
+
+#: r2/templates/linkedloginotp.html:38
 #, python-format
 msgid "don't ask again on this device for %(days)s days"
 msgstr "この端末では %(days)s 日間たずねない"
 
-#: r2/templates/linkedsignin.html:29
+#: r2/templates/linkedsignin.html:26
+#, fuzzy
+#| msgid "sign in with another account"
+msgid "sign in with a passkey"
+msgstr "別のアカウントでサインイン"
+
+#: r2/templates/linkedsignin.html:41
 #, python-format
 msgid "sign in with %(provider)s"
 msgstr "%(provider)s でサインイン"
 
-#: r2/templates/linkedsignin.html:32
+#: r2/templates/linkedsignin.html:44
 msgid "for accounts that linked one (preferences, security)"
 msgstr "連携済みのアカウント向け (個人設定、セキュリティ)"
 
@@ -11051,77 +11200,81 @@ msgstr "この投稿はコミュニティのモデレーターによりロック
 msgid "New comments can no longer be added."
 msgstr "新しいコメントは追加できません。"
 
-#: r2/templates/login.html:42
+#: r2/templates/login.html:42 r2/templates/register.html:42
 msgid "You are logged in. Go use the site!"
 msgstr "ログインしています。サイトをお楽しみください!"
 
-#: r2/templates/login.html:46
+#: r2/templates/login.html:46 r2/templates/register.html:46
 msgid "You need to login to do that."
 msgstr "それを行うにはログインが必要です"
 
-#: r2/templates/login.html:108 r2/templates/login.html:209
+#: r2/templates/login.html:110 r2/templates/login.html:212 r2/templates/register.html:110 r2/templates/register.html:212
 msgid "optional"
 msgstr "省略可能"
 
-#: r2/templates/login.html:156
+#: r2/templates/login.html:158 r2/templates/register.html:158
 msgid "get the best of tippr emailed to you once a week."
 msgstr "tippr の人気投稿を週に 1 回メールで受け取る。"
 
-#: r2/templates/login.html:157 r2/templates/welcomebar.html:32
+#: r2/templates/login.html:159 r2/templates/register.html:159 r2/templates/welcomebar.html:32
 msgid "learn more"
 msgstr "更に知る"
 
-#: r2/templates/login.html:164 r2/templates/login.html:259
+#: r2/templates/login.html:166 r2/templates/login.html:262 r2/templates/register.html:166 r2/templates/register.html:262
 msgid "sign up"
 msgstr "登録"
 
-#: r2/templates/login.html:199
+#: r2/templates/login.html:202 r2/templates/register.html:202
 msgid "try another"
 msgstr "別の方法で試みる"
 
-#: r2/templates/login.html:200
+#: r2/templates/login.html:203 r2/templates/register.html:203
 msgid "available!"
 msgstr "利用可能です！"
 
-#: r2/templates/login.html:209
+#: r2/templates/login.html:212 r2/templates/register.html:212
 msgid "account recovery email"
 msgstr "アカウント回復メール"
 
-#: r2/templates/login.html:213
+#: r2/templates/login.html:216 r2/templates/register.html:216
 msgid "we only send email at your request"
 msgstr "私たちはあなたのリクエストに従いメールを送信します。"
 
-#: r2/templates/login.html:252
+#: r2/templates/login.html:255 r2/templates/register.html:255
 msgid "recover password"
 msgstr "パスワードを再設定する"
 
-#: r2/templates/login.html:281
+#: r2/templates/login.html:284 r2/templates/register.html:284
 msgid "create a new account"
 msgstr "新しいアカウントを作る"
 
-#: r2/templates/login.html:286
+#: r2/templates/login.html:289 r2/templates/register.html:289
 msgid "This site isn't taking new accounts right now."
 msgstr "このサイトは現在、新しいアカウントを受け付けていません。"
 
-#: r2/templates/login.html:288
+#: r2/templates/login.html:291 r2/templates/register.html:291
 #, python-format
 msgid "To ask about an account, write to %(address)s."
 msgstr "アカウントについてのお問い合わせは %(address)s までどうぞ。"
 
-#: r2/templates/login.html:299
+#: r2/templates/login.html:302 r2/templates/register.html:302
 #, python-format
 msgid "By signing up, you agree to our %(terms)s and that you have read our %(privacy_policy)s and %(content_policy)s."
 msgstr "登録すると、%(terms)s に同意し、%(privacy_policy)s と %(content_policy)s を読んだものとみなされます。"
 
-#: r2/templates/login.html:300
+#: r2/templates/login.html:303 r2/templates/register.html:303
 msgid "Terms"
 msgstr "規約"
 
-#: r2/templates/login.html:302 r2/templates/tipprfooter.html:54
+#: r2/templates/login.html:304 r2/templates/privacysettings.html:99 r2/templates/register.html:304 r2/templates/tipprfooter.html:50
+msgid "Privacy Policy"
+msgstr "プライバシーポリシー"
+
+#: r2/templates/login.html:305 r2/templates/register.html:305 r2/templates/tipprfooter.html:54
 msgid "Content Policy"
 msgstr "コンテンツポリシー"
 
-#: r2/templates/loginformwide.html:57
+#: r2/templates/loginformwide.html:58
 msgid "login"
 msgstr "ログイン"
 
@@ -11361,7 +11514,7 @@ msgstr "my inbox内に返信を送信"
 msgid "(not needed if you entered one in the last 15 minutes)"
 msgstr "(過去 15 分以内に入力していれば不要です)"
 
-#: r2/templates/newlink.html:165
+#: r2/templates/newlink.html:166
 #, python-format
 msgid "please be mindful of the %(content_policy)s."
 msgstr "%(content_policy)s を守ってください。"
@@ -11947,483 +12100,636 @@ msgstr "(このブラウザーに記憶されます)"
 msgid "(on comments pages, buttons to jump between top-level comments, the submitter's, yours, new ones or ones with links)"
 msgstr "(コメントページで、トップレベルのコメント、投稿者のもの、自分のもの、新着、リンクのあるものの間を移動するボタン)"
 
-#: r2/templates/prefoptions.html:314
+#: r2/templates/prefoptions.html:315
+#, fuzzy
+#| msgid "top-level comments"
+msgid "live comments"
+msgstr "トップレベルのコメント"
+
+#: r2/templates/prefoptions.html:317
+msgid "(new comments appear on a thread while you have it open, in vaults that use them)"
+msgstr ""
+
+#: r2/templates/prefoptions.html:321
 msgid "account switcher"
 msgstr "アカウント切り替え"
 
-#: r2/templates/prefoptions.html:316
+#: r2/templates/prefoptions.html:323
 msgid "(a \"switch account\" menu by your name, to move between your accounts without logging out; logging out forgets them)"
 msgstr "(名前の横の「アカウントを切り替え」メニューで、ログアウトせずにアカウントを行き来できます。ログアウトすると削除されます)"
 
-#: r2/templates/prefoptions.html:319
+#: r2/templates/prefoptions.html:326
 msgid "night mode"
 msgstr "ナイトモード"
 
-#: r2/templates/prefoptions.html:321
+#: r2/templates/prefoptions.html:328
 msgid "(light text on a dark background)"
 msgstr "(暗い背景に明るい文字)"
 
-#: r2/templates/prefoptions.html:324
+#: r2/templates/prefoptions.html:331
 msgid "hide child comments links"
 msgstr "返信を隠すリンク"
 
-#: r2/templates/prefoptions.html:327
+#: r2/templates/prefoptions.html:334
 msgid "(on comments pages, links to fold up the replies under each comment, or all of them at once)"
 msgstr "(コメントページで、各コメントの下の返信、またはすべての返信を一度に折りたたむリンク)"
 
-#: r2/templates/prefoptions.html:333
+#: r2/templates/prefoptions.html:340
 msgid "filters"
 msgstr "フィルター"
 
-#: r2/templates/prefoptions.html:336
+#: r2/templates/prefoptions.html:343
 msgid "Posts that match are left out of listings (never your own). One per line, or separated by commas."
 msgstr "一致する投稿は一覧に表示されません (自分の投稿は除く)。1 行に 1 つ、またはカンマ区切り。"
 
-#: r2/templates/prefoptions.html:340
+#: r2/templates/prefoptions.html:347
 msgid "title keywords"
 msgstr "タイトルのキーワード"
 
-#: r2/templates/prefoptions.html:340
+#: r2/templates/prefoptions.html:347
 msgid "whole words or phrases, in any case"
 msgstr "単語または語句全体。大文字小文字は区別しません"
 
-#: r2/templates/prefoptions.html:341
+#: r2/templates/prefoptions.html:348
 msgid "example.com also hides its subdomains"
 msgstr "example.com はサブドメインも隠します"
 
-#: r2/templates/prefoptions.html:342
+#: r2/templates/prefoptions.html:349
 msgid "still shown when you visit the vault itself"
 msgstr "その vault 自体を開いたときは表示されます"
 
-#: r2/templates/prefoptions.html:343
+#: r2/templates/prefoptions.html:350
 msgid "only hides their posts; to stop seeing them altogether, block them"
 msgstr "投稿を隠すだけです。まったく見たくない場合はブロックしてください"
 
-#: r2/templates/prefoptions.html:356
+#: r2/templates/prefoptions.html:363
 msgid "comment options"
 msgstr "コメントに関するオプション"
 
-#: r2/templates/prefoptions.html:359
+#: r2/templates/prefoptions.html:366
 #, python-format
 msgid "sort comments by %(sort)s"
 msgstr "コメントを %(sort)s で並べる"
 
-#: r2/templates/prefoptions.html:362
+#: r2/templates/prefoptions.html:369
 msgid "ignore suggested sorts"
 msgstr "おすすめの並び順を無視する"
 
-#: r2/templates/prefoptions.html:363
+#: r2/templates/prefoptions.html:370
 msgid "(suggested sorts may be set by community moderators for specific threads or vaults, like Q&As)"
 msgstr "(おすすめの並び順は、Q&A など特定のスレッドや vault でコミュニティのモデレーターが設定できます)"
 
-#: r2/templates/prefoptions.html:366
+#: r2/templates/prefoptions.html:373
 msgid "show a dagger (†) on comments voted controversial"
 msgstr "論争中のコメントにダガー(†)を表示する"
 
-#: r2/templates/prefoptions.html:367
+#: r2/templates/prefoptions.html:374
 msgid "(a controversial comment is one that's been both upvoted and downvoted significantly)"
 msgstr "(論争中のコメントはupvoteとdownvoteが拮抗しています)"
 
-#: r2/templates/prefoptions.html:374
+#: r2/templates/prefoptions.html:381
 #, python-format
 msgid "don't show me comments with a score less than %(num)s"
 msgstr "スコアが %(num)s未満のコメントは表示しない"
 
-#: r2/templates/prefoptions.html:375
+#: r2/templates/prefoptions.html:382
 msgid "(leave blank to show all comments)"
 msgstr "(すべてのコメントを表示する場合は空欄にする)"
 
-#: r2/templates/prefoptions.html:383
+#: r2/templates/prefoptions.html:390
 #, python-format
 msgid "display %(num)s comments by default"
 msgstr "デフォルトでは %(num)s 個のコメントを表示する"
 
-#: r2/templates/prefoptions.html:388
+#: r2/templates/prefoptions.html:395
 msgid "the smaller the number, the faster your comments pages will load"
 msgstr "数が小さいほどコメントが早く現れます"
 
-#: r2/templates/prefoptions.html:393
+#: r2/templates/prefoptions.html:400
 msgid "messaging options"
 msgstr "メッセージに関するオプション"
 
-#: r2/templates/prefoptions.html:395
+#: r2/templates/prefoptions.html:402
 msgid "show message conversations in the inbox"
 msgstr "メッセージのやりとりを受信箱で表示する"
 
-#: r2/templates/prefoptions.html:398
+#: r2/templates/prefoptions.html:405
 msgid "(only applies when you go to the 'messages' panel)"
 msgstr "(メッセージパネルに行った時のみ用いられます)"
 
-#: r2/templates/prefoptions.html:402
+#: r2/templates/prefoptions.html:409
 msgid "collapse messages after I've read them"
 msgstr "読んだあとにメッセージを折りたたむ"
 
-#: r2/templates/prefoptions.html:405
+#: r2/templates/prefoptions.html:412
 msgid "(otherwise, you'll have to collapse them yourself)"
 msgstr "(そうでなければ、自分で折りたたまければなりません)"
 
-#: r2/templates/prefoptions.html:409
+#: r2/templates/prefoptions.html:416
 msgid "mark messages as read when I open my inbox"
 msgstr "受信箱を開く時にメッセージを既読にする"
 
-#: r2/templates/prefoptions.html:412
+#: r2/templates/prefoptions.html:419
 msgid "(otherwise, they will be marked as read when you click them)"
 msgstr "(そうでなければ、クリックした時に既読としてマークされます)"
 
-#: r2/templates/prefoptions.html:415
+#: r2/templates/prefoptions.html:422
 msgid "notify me when people say my username"
 msgstr "自分のユーザー名を呼ばれたら通知する。"
 
-#: r2/templates/prefoptions.html:418
+#: r2/templates/prefoptions.html:425
 msgid "send messages as emails"
 msgstr "メッセージをメールとして送る"
 
-#: r2/templates/prefoptions.html:418
+#: r2/templates/prefoptions.html:425
 msgid "requires a verified email"
 msgstr "確認済みのメールアドレスが必要です"
 
-#: r2/templates/prefoptions.html:421
+#: r2/templates/prefoptions.html:428
 msgid "enable threaded modmail display"
 msgstr "モデレーターメールをスレッド表示にする"
 
-#: r2/templates/prefoptions.html:425 r2/templates/widgetdemopanel.html:201
+#: r2/templates/prefoptions.html:432 r2/templates/widgetdemopanel.html:201
 msgid "display options"
 msgstr "表示に関するオプション"
 
-#: r2/templates/prefoptions.html:427
+#: r2/templates/prefoptions.html:434
 msgid "allow vaults to show me custom themes"
 msgstr "vault 独自のテーマを表示する"
 
-#: r2/templates/prefoptions.html:430
+#: r2/templates/prefoptions.html:437
 msgid "(you can also choose which vault themes to disable on an individual level)"
 msgstr "(vault ごとにテーマを無効にすることもできます)"
 
-#: r2/templates/prefoptions.html:434
+#: r2/templates/prefoptions.html:441
 msgid "show user flair"
 msgstr "flairを表示する"
 
-#: r2/templates/prefoptions.html:436
+#: r2/templates/prefoptions.html:443
 msgid "show link flair"
 msgstr "リンクフレアーを見せる"
 
-#: r2/templates/prefoptions.html:439
+#: r2/templates/prefoptions.html:446
 msgid "show self-serve advertising tab on front page"
 msgstr "フロントページでセルフサービスの広告タブを表示"
 
-#: r2/templates/prefoptions.html:444
+#: r2/templates/prefoptions.html:451
 msgid "show legacy search page"
 msgstr "旧検索ページを表示する"
 
-#: r2/templates/prefoptions.html:451
+#: r2/templates/prefoptions.html:458
 msgid "I am over eighteen years old and willing to view adult content"
 msgstr "私は18歳以上であり、成人向けコンテンツを見る意思があります。"
 
-#: r2/templates/prefoptions.html:452
+#: r2/templates/prefoptions.html:459
 msgid "required to view some vaults"
 msgstr "いくつかのvaultを見る必要があります"
 
-#: r2/templates/prefoptions.html:454
+#: r2/templates/prefoptions.html:461
 msgid "label posts that are not safe for work (NSFW)"
 msgstr "閲覧注意な投稿にタグを付ける"
 
-#: r2/templates/prefoptions.html:457
+#: r2/templates/prefoptions.html:464
 msgid "posts labelled as made with AI:"
 msgstr "AI で作成とラベルの付いた投稿:"
 
-#: r2/templates/prefoptions.html:466
+#: r2/templates/prefoptions.html:473
 msgid "posts in vaults that are for AI content are always shown there"
 msgstr "AI コンテンツ向けの vault の投稿は、その vault では常に表示されます"
 
-#: r2/templates/prefoptions.html:468
+#: r2/templates/prefoptions.html:475
 msgid "enable private RSS feeds"
 msgstr "非公開のRSSフィードを使用可能にする"
 
-#: r2/templates/prefoptions.html:470
+#: r2/templates/prefoptions.html:477
 msgid "(available from the 'RSS feed' tab in prefs)"
 msgstr "(初期設定の「RSSフィード」)タブから利用可能です。"
 
-#: r2/templates/prefoptions.html:473
+#: r2/templates/prefoptions.html:480
 msgid "privacy options"
 msgstr "プライバシーに関するオプション"
 
-#: r2/templates/prefoptions.html:475
+#: r2/templates/prefoptions.html:482
 msgid "make my votes public"
 msgstr "投票状況を公開する"
 
-#: r2/templates/prefoptions.html:482
+#: r2/templates/prefoptions.html:489
 #, python-format
 msgid "let everyone see %(link1)s and %(link2)s"
 msgstr "%(link1)s と %(link2)sをみんなに公開する"
 
-#: r2/templates/prefoptions.html:485
+#: r2/templates/prefoptions.html:492
 msgid "don't allow search engines to index my user profile"
 msgstr "検索エンジンにマイユーザープロフィールのインデックスを許可しない"
 
-#: r2/templates/prefoptions.html:496
+#: r2/templates/prefoptions.html:502
+msgid "Google Analytics, which helps the site's admins see how it's used:"
+msgstr ""
+
+#: r2/templates/prefoptions.html:503 r2/templates/utils.html:546
+#, fuzzy
+#| msgid "Allow"
+msgid "allow"
+msgstr "許可する"
+
+#: r2/templates/prefoptions.html:504 r2/templates/utils.html:547
+msgid "don't allow"
+msgstr ""
+
+#: r2/templates/prefoptions.html:505
+msgid "kept with your account, on every device you sign in on"
+msgstr ""
+
+#: r2/templates/prefoptions.html:511
 msgid "beta options"
 msgstr "ベータ版のオプション"
 
-#: r2/templates/prefoptions.html:498
+#: r2/templates/prefoptions.html:513
 msgid "I would like to beta test features for tippr"
 msgstr "tippr の機能のベータテストに参加したい"
 
-#: r2/templates/prefoptions.html:504
+#: r2/templates/prefoptions.html:519
 #, python-format
 msgid "by enabling you'll be subscribed to %(beta_vault_link)s automatically."
 msgstr "有効にすると、%(beta_vault_link)s に自動で登録されます。"
 
-#: r2/templates/prefoptions.html:506
+#: r2/templates/prefoptions.html:521
 #, python-brace-format
 msgid "details on the /v/{beta_vault} wiki"
 msgstr "詳しくは /v/{beta_vault} の wiki へ"
 
-#: r2/templates/prefoptions.html:515 r2/templates/prefoptions.html:538
+#: r2/templates/prefoptions.html:530 r2/templates/prefoptions.html:553
 msgid "gold options"
 msgstr "ゴールドに関するオプション"
 
-#: r2/templates/prefoptions.html:517
+#: r2/templates/prefoptions.html:532
 msgid "hide ads"
 msgstr "広告を隠す"
 
-#: r2/templates/prefoptions.html:519
+#: r2/templates/prefoptions.html:534
 msgid "remember what links I've visited"
 msgstr "自分がどんなリンクを訪れたか記憶させておく"
 
-#: r2/templates/prefoptions.html:520
+#: r2/templates/prefoptions.html:535
 msgid "we'll remember and mark what links you've already read, even between computers"
 msgstr "コンピューター間であっても、既読のリンクを記憶し、マークします。"
 
-#: r2/templates/prefoptions.html:522 r2/templates/prefoptions.html:540
+#: r2/templates/prefoptions.html:537 r2/templates/prefoptions.html:555
 msgid "highlight new comments"
 msgstr "新しいコメントをハイライトする"
 
-#: r2/templates/prefoptions.html:524
+#: r2/templates/prefoptions.html:539
 msgid "we'll remember your visits for 48 hours and show you which comments you haven't seen yet"
 msgstr "48時間内のあなたの訪問先を記憶し、どのコメントをまだ見ていないか表示します。"
 
-#: r2/templates/prefoptions.html:527
+#: r2/templates/prefoptions.html:542
 msgid "show gold expiration"
 msgstr "gold の期限を表示する"
 
-#: r2/templates/prefoptions.html:529
+#: r2/templates/prefoptions.html:544
 msgid "show how much gold you have remaining on your userpage"
 msgstr "ユーザーページに gold の残り期間を表示する"
 
-#: r2/templates/prefoptions.html:533
+#: r2/templates/prefoptions.html:548
 #, python-format
 msgid "use a month of my %(coin_link)s to automatically renew my gold if it expires"
 msgstr "gold が切れたら、%(coin_link)s から 1 か月分を使って自動更新する"
 
-#: r2/templates/prefoptions.html:543
+#: r2/templates/prefoptions.html:558
 #, python-format
 msgid "since you don't have %(gold_link)s, this will only apply in vaults you moderate"
 msgstr "%(gold_link)s がないため、これはあなたがモデレートしている vault にだけ適用されます"
 
-#: r2/templates/prefoptions.html:551
+#: r2/templates/prefoptions.html:566
 msgid "tippr themes"
 msgstr "tippr のテーマ"
 
-#: r2/templates/prefoptions.html:555
+#: r2/templates/prefoptions.html:570
 msgid "tippr themes change the appearance of tippr.  They are used anywhere another custom theme is not present."
 msgstr "tippr のテーマは tippr の見た目を変えます。ほかのカスタムテーマがない場所で使われます。"
 
-#: r2/templates/prefoptions.html:559
+#: r2/templates/prefoptions.html:574
 msgid "Note: For security reasons this page will not be changed by themes"
 msgstr "注: セキュリティ上の理由から、このページはテーマで変わりません"
 
-#: r2/templates/prefoptions.html:563
+#: r2/templates/prefoptions.html:578
 msgid "use tippr theme"
 msgstr "tippr のテーマを使う"
 
-#: r2/templates/prefoptions.html:564
+#: r2/templates/prefoptions.html:579
 msgid "hover to preview"
 msgstr "マウスを乗せてプレビュー"
 
-#: r2/templates/prefoptions.html:583
+#: r2/templates/prefoptions.html:598
 msgid "warning: use non-featured themes at your own risk"
 msgstr "注意: 注目以外のテーマは自己責任で使ってください"
 
-#: r2/templates/prefsecurity.html:43
+#: r2/templates/prefsecurity.html:44
+#, fuzzy
+#| msgid "make new recovery codes"
+msgid "save your recovery codes"
+msgstr "新しいリカバリーコードを作る"
+
+#: r2/templates/prefsecurity.html:45
+msgid "Save these recovery codes somewhere safe (print them, or keep them in a password manager). Each one works once in place of a code from your app, if you lose your phone. They won't be shown again."
+msgstr "このリカバリーコードを安全な場所に保管してください (印刷するか、パスワードマネージャーに保存)。スマホをなくしたとき、どれも 1 回だけアプリのコードの代わりに使えます。もう一度表示されることはありません。"
+
+#: r2/templates/prefsecurity.html:51
+msgid "If you lose your phone or key: sign in with one of these codes, then remove the lost method below and add a new one."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:57
 msgid "two-factor authentication"
 msgstr "2 要素認証"
 
-#: r2/templates/prefsecurity.html:46
-msgid "two-factor authentication is **on**. you're asked for a code from one of your methods below when changing your password or email address, and when linking or unlinking a sign-in. a code you enter counts for 15 minutes."
+#: r2/templates/prefsecurity.html:62
+#, fuzzy
+#| msgid "two-factor authentication is **on**. you're asked for a code from one of your methods below when changing your password or email address, and when linking or unlinking a sign-in. a code you enter counts for 15 minutes."
+msgid "two-factor authentication is **on**. you're asked for a code from one of your methods when changing your password or email address, and when linking or unlinking a sign-in."
 msgstr "2 段階認証は**オン**です。パスワードやメールアドレスを変えるとき、サインインを連携・解除するときに、下のどれかの方法のコードを求められます。入力したコードは 15 分間有効です。"
 
-#: r2/templates/prefsecurity.html:50
+#: r2/templates/prefsecurity.html:64
+#, fuzzy
+#| msgid "two-factor authentication is **on**. you're asked for a code from one of your methods below when changing your password or email address, and when linking or unlinking a sign-in. a code you enter counts for 15 minutes."
+msgid "two-factor authentication is **on**. you're asked to confirm it's you with your passkey when changing your password or email address, and when linking or unlinking a sign-in."
+msgstr "2 段階認証は**オン**です。パスワードやメールアドレスを変えるとき、サインインを連携・解除するときに、下のどれかの方法のコードを求められます。入力したコードは 15 分間有効です。"
+
+#: r2/templates/prefsecurity.html:69
+msgid "Passkey created. Next time a code is asked for, choose \"use a passkey\"."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:73
+#, fuzzy
+#| msgid "sign in with another account"
+msgid "You signed in with a recovery code."
+msgstr "別のアカウントでサインイン"
+
+#: r2/templates/prefsecurity.html:74
+msgid "If you lost your phone or key, delete it from the list below and create a passkey or add a new app, so you aren't locked out next time."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:76
+#, fuzzy, python-format
+#| msgid "You have %(count)s left."
+msgid "You have %(count)s recovery codes left."
+msgstr "残りは %(count)s 個です。"
+
+#: r2/templates/prefsecurity.html:78
+#, fuzzy
+#| msgid "You have none left: make new ones now."
+msgid "That was your last recovery code: make new ones below."
+msgstr "もう残っていません。今すぐ新しいコードを作ってください。"
+
+#: r2/templates/prefsecurity.html:91
+#, python-format
+msgid "Unlocked: you can make changes here for %(minutes)s more minutes."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:97
+#, fuzzy
+#| msgid "enter the code from your authenticator app (or a recovery code)"
+msgid "To change anything here, enter a code from your authenticator app first. It counts for 15 minutes."
+msgstr "認証アプリのコード (またはリカバリーコード) を入力してください"
+
+#: r2/templates/prefsecurity.html:101
+msgid "To change anything here, confirm it's you with your passkey first. It counts for 15 minutes."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:105 r2/templates/printablebuttons.html:82
+msgid "unlock"
+msgstr "ロック解除"
+
+#: r2/templates/prefsecurity.html:113
 msgid "your methods"
 msgstr "あなたの方法"
 
-#: r2/templates/prefsecurity.html:55
+#: r2/templates/prefsecurity.html:118
 msgid "kind_name"
 msgstr "kind_name"
 
-#: r2/templates/prefsecurity.html:56
+#: r2/templates/prefsecurity.html:119
 #, python-format
 msgid "added %(when)s"
 msgstr "%(when)s に追加"
 
-#: r2/templates/prefsecurity.html:58
+#: r2/templates/prefsecurity.html:121
 #, python-format
 msgid "last used %(when)s"
 msgstr "最終使用 %(when)s"
 
-#: r2/templates/prefsecurity.html:78
-msgid "Removing your only method turns two-factor off, so it needs your password too."
+#: r2/templates/prefsecurity.html:143
+#, fuzzy
+#| msgid "Removing your only method turns two-factor off, so it needs your password too."
+msgid "Deleting your only method turns two-factor off, so it needs your password too."
 msgstr "唯一の方法を削除すると 2 段階認証がオフになるため、パスワードも必要です。"
 
-#: r2/templates/prefsecurity.html:82
+#: r2/templates/prefsecurity.html:146
+msgid "Your passkeys also sign you in on their own: on the login form, choose one from the username box (or \"sign in with a passkey\"), with no password or code."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:147
+msgid "Deleting a passkey here stops it working on this site. Your device or password manager keeps its copy until you delete it there too."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:152
+msgid "You have one method. Add a second one (a passkey on another device, or an app on another phone), so losing one doesn't lock you out."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:155
+msgid "A passkey is the safest method: it only works on this site, so a fake login page can't use it. A code from an app can be typed into a fake page."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:160
 msgid "add a method"
 msgstr "方法を追加"
 
-#: r2/templates/prefsecurity.html:86
-msgid "also ask for a code"
-msgstr "コードもたずねる"
-
-#: r2/templates/prefsecurity.html:89
-msgid "when logging in, with your password or a linked account (Google, GitHub...)"
-msgstr "ログイン時 (パスワードまたは連携アカウント (Google、GitHub など))"
-
-#: r2/templates/prefsecurity.html:90
-#, python-format
-msgid "you can choose to skip it for %(days)s days on a device you trust"
-msgstr "信頼できる端末では %(days)s 日間省略できます"
-
-#: r2/templates/prefsecurity.html:94
-msgid "when saving your preferences"
-msgstr "個人設定を保存するとき"
-
-#: r2/templates/prefsecurity.html:98
-msgid "when submitting a post"
-msgstr "投稿するとき"
-
-#: r2/templates/prefsecurity.html:100
-msgid "a code you enter counts for 15 minutes, so you aren't asked again and again. apps you've allowed (OAuth) aren't asked."
-msgstr "入力したコードは 15 分間有効なので、何度もたずねられることはありません。許可したアプリ (OAuth) にはたずねません。"
-
-#: r2/templates/prefsecurity.html:107
+#: r2/templates/prefsecurity.html:166
 msgid "recovery codes"
 msgstr "リカバリーコード"
 
-#: r2/templates/prefsecurity.html:109
-msgid "Save these recovery codes somewhere safe (print them, or keep them in a password manager). Each one works once in place of a code from your app, if you lose your phone. They won't be shown again."
-msgstr "このリカバリーコードを安全な場所に保管してください (印刷するか、パスワードマネージャーに保存)。スマホをなくしたとき、どれも 1 回だけアプリのコードの代わりに使えます。もう一度表示されることはありません。"
-
-#: r2/templates/prefsecurity.html:117
+#: r2/templates/prefsecurity.html:168
 msgid "Recovery codes work once each in place of a code from your app, if you lose your phone."
 msgstr "リカバリーコードは、スマホをなくしたときにそれぞれ 1 回だけアプリのコードの代わりに使えます。"
 
-#: r2/templates/prefsecurity.html:119
+#: r2/templates/prefsecurity.html:170
 #, python-format
 msgid "You have %(count)s left."
 msgstr "残りは %(count)s 個です。"
 
-#: r2/templates/prefsecurity.html:121
+#: r2/templates/prefsecurity.html:172
 msgid "You have none left: make new ones now."
 msgstr "もう残っていません。今すぐ新しいコードを作ってください。"
 
-#: r2/templates/prefsecurity.html:127
+#: r2/templates/prefsecurity.html:177
 msgid "make new recovery codes"
 msgstr "新しいリカバリーコードを作る"
 
-#: r2/templates/prefsecurity.html:131
+#: r2/templates/prefsecurity.html:180
 msgid "Making new ones stops the old ones working."
 msgstr "新しく作ると、古いものは使えなくなります。"
 
-#: r2/templates/prefsecurity.html:137
-msgid "turn it off"
-msgstr "オフにする"
+#: r2/templates/prefsecurity.html:187
+msgid "also ask for a code"
+msgstr "コードもたずねる"
 
-#: r2/templates/prefsecurity.html:138
+#: r2/templates/prefsecurity.html:191
+msgid "when logging in, with your password or a linked account (Google, GitHub...)"
+msgstr "ログイン時 (パスワードまたは連携アカウント (Google、GitHub など))"
+
+#: r2/templates/prefsecurity.html:192
+#, python-format
+msgid "you can choose to skip it for %(days)s days on a device you trust"
+msgstr "信頼できる端末では %(days)s 日間省略できます"
+
+#: r2/templates/prefsecurity.html:196
+msgid "when saving your preferences"
+msgstr "個人設定を保存するとき"
+
+#: r2/templates/prefsecurity.html:200
+msgid "when submitting a post"
+msgstr "投稿するとき"
+
+#: r2/templates/prefsecurity.html:202
+msgid "a code you enter counts for 15 minutes, so you aren't asked again and again. apps you've allowed (OAuth) aren't asked."
+msgstr "入力したコードは 15 分間有効なので、何度もたずねられることはありません。許可したアプリ (OAuth) にはたずねません。"
+
+#: r2/templates/prefsecurity.html:215
+#, fuzzy
+#| msgid "remember me"
+msgid "remembered devices"
+msgstr "ログイン情報を覚えておく"
+
+#: r2/templates/prefsecurity.html:218
+msgid "Done: every device will be asked for a code again."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:220
+msgid "This device is remembered, so it isn't asked for a code."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:222
+#, fuzzy
+#| msgid "Visited links remembered"
+msgid "This device isn't remembered."
+msgstr "訪れたリンクを記憶"
+
+#: r2/templates/prefsecurity.html:224
+msgid "If you lost a device you chose to skip the code on, or used a shared computer, forget them all: each one is asked for a code again next time."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:226
+msgid "forget all remembered devices"
+msgstr ""
+
+#: r2/templates/prefsecurity.html:228
+msgid "Nobody is logged out. To end the logins themselves, use \"log out of all other sessions\" on the account activity page."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:233
+#, fuzzy
+#| msgid "two-factor authentication"
+msgid "turn off two-factor authentication…"
+msgstr "2 要素認証"
+
+#: r2/templates/prefsecurity.html:235
 msgid "to turn it off (removing every method and the recovery codes), enter your password and a code."
 msgstr "オフにするには (すべての方法とリカバリーコードを削除)、パスワードとコードを入力してください。"
 
-#: r2/templates/prefsecurity.html:152
+#: r2/templates/prefsecurity.html:249
 msgid "turn off"
 msgstr "オフにする"
 
-#: r2/templates/prefsecurity.html:156
+#: r2/templates/prefsecurity.html:254
 msgid "This site asks moderators and staff to use two-factor sign-in: your moderator tools work again once it's on."
 msgstr "このサイトでは、モデレーターとスタッフに 2 段階サインインをお願いしています。オンにすればモデレーターツールがまた使えるようになります。"
 
-#: r2/templates/prefsecurity.html:158
+#: r2/templates/prefsecurity.html:256
 msgid "with two-factor authentication on, changing your password or email address, and linking or unlinking a sign-in, also need a second step: a code from an authenticator app on your phone (Google Authenticator, Authy, 1Password and the like). someone who learns your password, or gets into a linked Google or Facebook account, can't take over your account here. you can add more than one method, and remove them later."
 msgstr "2 段階認証をオンにすると、パスワードやメールアドレスの変更、サインインの連携や解除に、もう 1 つの手順が必要になります。スマホの認証アプリ (Google Authenticator、Authy、1Password など) のコードです。パスワードを知られたり、連携した Google や Facebook のアカウントに入られたりしても、ここのアカウントは乗っ取られません。方法は複数追加でき、あとで削除もできます。"
 
-#: r2/templates/prefsecurity.html:168
-msgid "To add an authenticator app, enter a code from one of your methods first."
-msgstr "認証アプリを追加するには、まずいずれかの方法のコードを入力してください。"
+#: r2/templates/prefsecurity.html:257
+msgid "When you add your first method you get recovery codes to save: they let you in if you lose your phone or key."
+msgstr ""
 
-#: r2/templates/prefsecurity.html:170
+#: r2/templates/prefsecurity.html:269
 msgid "To start, enter your password."
 msgstr "はじめにパスワードを入力してください。"
 
-#: r2/templates/prefsecurity.html:179
+#: r2/templates/prefsecurity.html:273
+#, fuzzy
+#| msgid "(optional, like phone or work)"
+msgid "name (optional, like phone or work)"
+msgstr "(任意。例: スマホ、仕事用)"
+
+#: r2/templates/prefsecurity.html:277
+#, fuzzy
+#| msgid "use a passkey"
+msgid "create a passkey"
+msgstr "パスキーを使う"
+
+#: r2/templates/prefsecurity.html:279
+msgid "Passkeys are encrypted digital keys you create using your fingerprint, face or screen lock. They're saved in your password manager (like Google Password Manager or iCloud Keychain), so you can use them on your other devices too."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:280
+msgid "A passkey only works on this site, so a fake login page can't use it, and it signs you in without your password. Don't create one on a shared computer."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:283
 msgid "add an authenticator app"
 msgstr "認証アプリを追加"
 
-#: r2/templates/prefsecurity.html:186
-msgid "Or add a passkey: your phone, computer or security key confirms it's you with a fingerprint, face or PIN."
-msgstr "またはパスキーを追加: スマホ、パソコン、セキュリティキーが、指紋、顔、PIN で本人だと確認します。"
+#: r2/templates/prefsecurity.html:284
+msgid "An app on your phone (Google Authenticator, Authy, 1Password and the like) shows a new 6-digit code every 30 seconds."
+msgstr ""
 
-#: r2/templates/prefsecurity.html:188
-msgid "Enter a code from one of your methods first."
-msgstr "まず、いずれかの方法のコードを入力してください。"
-
-#: r2/templates/prefsecurity.html:190
-msgid "Enter your password first."
-msgstr "まずパスワードを入力してください。"
-
-#: r2/templates/prefsecurity.html:198
-msgid "name (optional)"
-msgstr "名前 (任意)"
-
-#: r2/templates/prefsecurity.html:199
-msgid "add a passkey"
-msgstr "パスキーを追加"
-
-#: r2/templates/prefsecurity.html:206
-msgid "scan the QR code with your authenticator app, or enter the key below in it. you WILL NOT have another chance to see this key."
+#: r2/templates/prefsecurity.html:293
+#, fuzzy
+#| msgid "scan the QR code with your authenticator app, or enter the key below in it. you WILL NOT have another chance to see this key."
+msgid "1. Scan this QR code with your authenticator app, or type the key under it into the app. This key isn't shown again."
 msgstr "認証アプリで QR コードを読み取るか、下のキーをアプリに入力してください。このキーをもう一度見ることはできません。"
 
-#: r2/templates/prefsecurity.html:209
+#: r2/templates/prefsecurity.html:296
+msgid "2. name it"
+msgstr ""
+
+#: r2/templates/prefsecurity.html:296
 msgid "(optional, like phone or work)"
 msgstr "(任意。例: スマホ、仕事用)"
 
-#: r2/templates/prefsecurity.html:213
-msgid "code from the app"
-msgstr "アプリのコード"
+#: r2/templates/prefsecurity.html:300
+msgid "3. the code the app shows"
+msgstr ""
 
-#: r2/templates/prefsecurity.html:227
+#: r2/templates/prefsecurity.html:314
 msgid "sign in with another account"
 msgstr "別のアカウントでサインイン"
 
-#: r2/templates/prefsecurity.html:229
+#: r2/templates/prefsecurity.html:316
 msgid "Link a Google, Facebook, GitHub or Discord account to sign in with it instead of your password. It only signs in to this account, and you can unlink it at any time. Your password keeps working."
 msgstr "Google、Facebook、GitHub、Discord のアカウントを連携すると、パスワードの代わりにそれでサインインできます。このアカウントにしかサインインせず、いつでも連携を解除できます。パスワードも引き続き使えます。"
 
-#: r2/templates/prefsecurity.html:231
+#: r2/templates/prefsecurity.html:318
 msgid "Linked. You can now sign in with it on the login page."
 msgstr "連携しました。ログインページからそれでサインインできます。"
 
-#: r2/templates/prefsecurity.html:234
+#: r2/templates/prefsecurity.html:322
 msgid "Linking or unlinking needs your two-factor code (one you entered in the last 15 minutes counts)."
 msgstr "連携や解除には 2 段階認証コードが必要です (過去 15 分以内に入力したものでも可)。"
 
-#: r2/templates/prefsecurity.html:242
+#: r2/templates/prefsecurity.html:330
 msgid "linked"
 msgstr "連携済み"
 
-#: r2/templates/prefsecurity.html:254
+#: r2/templates/prefsecurity.html:344
 msgid "unlink"
 msgstr "連携を解除"
 
-#: r2/templates/prefsecurity.html:259
+#: r2/templates/prefsecurity.html:349
 msgid "not linked"
 msgstr "未連携"
 
-#: r2/templates/prefsecurity.html:266 r2/templates/prefsecurity.html:270
+#: r2/templates/prefsecurity.html:360 r2/templates/prefsecurity.html:364
 #, python-format
 msgid "link %(provider)s"
 msgstr "%(provider)s を連携"
@@ -12432,47 +12738,47 @@ msgstr "%(provider)s を連携"
 msgid "(entered a moment ago)"
 msgstr "(今入力しました)"
 
-#: r2/templates/prefupdate.html:48
+#: r2/templates/prefupdate.html:49
 msgid "verify your email"
 msgstr "メールアドレスを確証する"
 
-#: r2/templates/prefupdate.html:50
+#: r2/templates/prefupdate.html:51
 msgid "update your email"
 msgstr "メールアドレスを更新する"
 
-#: r2/templates/prefupdate.html:55 r2/templates/prefupdate.html:116 r2/templates/useriphistory.html:74
+#: r2/templates/prefupdate.html:56 r2/templates/prefupdate.html:117 r2/templates/useriphistory.html:74
 msgid "current password"
 msgstr "今利用しているパスワード"
 
-#: r2/templates/prefupdate.html:67
+#: r2/templates/prefupdate.html:68
 msgid "verified"
 msgstr "確証済み"
 
-#: r2/templates/prefupdate.html:70
+#: r2/templates/prefupdate.html:71
 msgid "verification pending"
 msgstr "確証中"
 
-#: r2/templates/prefupdate.html:71
+#: r2/templates/prefupdate.html:72
 msgid "click to resend"
 msgstr "クリックしてもう一度送る"
 
-#: r2/templates/prefupdate.html:73
+#: r2/templates/prefupdate.html:74
 msgid "unverified"
 msgstr "未確証"
 
-#: r2/templates/prefupdate.html:74
+#: r2/templates/prefupdate.html:75
 msgid "click to verify"
 msgstr "クリックして確証する"
 
-#: r2/templates/prefupdate.html:95
+#: r2/templates/prefupdate.html:96
 msgid "send verification email"
 msgstr "確認メールを送る"
 
-#: r2/templates/prefupdate.html:113
+#: r2/templates/prefupdate.html:114
 msgid "update your password"
 msgstr "パスワードを更新する"
 
-#: r2/templates/prefupdate.html:124 r2/templates/resetpassword.html:41
+#: r2/templates/prefupdate.html:125 r2/templates/resetpassword.html:41
 msgid "new password"
 msgstr "新しいパスワード"
 
@@ -12496,10 +12802,6 @@ msgstr "問題を報告"
 #: r2/templates/printablebuttons.html:79
 msgid "lock"
 msgstr "ロック"
-
-#: r2/templates/printablebuttons.html:82
-msgid "unlock"
-msgstr "ロック解除"
 
 #: r2/templates/printablebuttons.html:85
 msgid "marked"
@@ -12597,7 +12899,7 @@ msgstr "不正"
 msgid "permalink"
 msgstr "固定リンク"
 
-#: r2/templates/printablebuttons.html:486 r2/templates/printablebuttons.html:559 r2/templates/starkcomment.html:34
+#: r2/templates/printablebuttons.html:486 r2/templates/printablebuttons.html:559
 msgid "context"
 msgstr "元の投稿"
 
@@ -12681,6 +12983,14 @@ msgstr "データエクスポートは 24〜48 時間以内に処理されます
 #: r2/templates/privacysettings.html:61
 msgid "Export History"
 msgstr "エクスポート履歴"
+
+#: r2/templates/privacysettings.html:64
+msgid "Date"
+msgstr "日付"
+
+#: r2/templates/privacysettings.html:64
+msgid "Status"
+msgstr "状態"
 
 #: r2/templates/privacysettings.html:64
 msgid "Action"
@@ -13679,6 +13989,10 @@ msgstr "利用不可"
 msgid "Use of this site constitutes acceptance of our %(user_agreement)s, %(privacy_policy)s and %(content_policy)s"
 msgstr "このサイトを利用することで、%(user_agreement)s、%(privacy_policy)s、%(content_policy)s に同意したものとみなされます"
 
+#: r2/templates/tipprfooter.html:46
+msgid "User Agreement"
+msgstr "利用規約"
+
 #: r2/templates/tipprheader.html:42
 msgid "jump to content"
 msgstr "コンテンツにジャンプする"
@@ -13717,27 +14031,27 @@ msgstr "新着メールなし"
 msgid "mod messages"
 msgstr "MODメッセージ"
 
-#: r2/templates/tipprtraffic.html:96
+#: r2/templates/tipprtraffic.html:101
 msgid "traffic by day of week"
 msgstr "曜日別のアクセス状況"
 
-#: r2/templates/tipprtraffic.html:116
+#: r2/templates/tipprtraffic.html:121
 msgid "daily mean"
 msgstr "日平均"
 
-#: r2/templates/tipprtraffic.html:134
+#: r2/templates/tipprtraffic.html:139
 msgid "24 hours"
 msgstr "24 時間"
 
-#: r2/templates/tipprtraffic.html:135
+#: r2/templates/tipprtraffic.html:140
 msgid "7 days"
 msgstr "7 日"
 
-#: r2/templates/tipprtraffic.html:136
+#: r2/templates/tipprtraffic.html:141
 msgid "30 days"
 msgstr "30 日"
 
-#: r2/templates/tipprtraffic.html:153
+#: r2/templates/tipprtraffic.html:158
 msgid "moderator actions, 30 days"
 msgstr "モデレーターの操作 (30 日)"
 
@@ -13948,19 +14262,29 @@ msgstr "種類: "
 msgid "uploading"
 msgstr "アップロード中"
 
-#: r2/templates/utils.html:630
+#: r2/templates/utils.html:538
+#, fuzzy
+#| msgid "analytics"
+msgid "analytics consent"
+msgstr "アクセス解析"
+
+#: r2/templates/utils.html:540
+msgid "This site would like to use Google Analytics to see how it's used, which sets cookies and sends Google details of your visit. Is that all right?"
+msgstr ""
+
+#: r2/templates/utils.html:722
 msgid "last edited"
 msgstr "最終編集"
 
-#: r2/templates/utils.html:649
+#: r2/templates/utils.html:741
 msgid "Adult content: Not Safe For Work"
 msgstr "成人向け内容：職場閲覧注意"
 
-#: r2/templates/utils.html:655
+#: r2/templates/utils.html:747
 msgid "Quarantined content: Content may be highly offensive"
 msgstr "隔離されたコンテンツ: 非常に不快な内容を含む場合があります"
 
-#: r2/templates/utils.html:656
+#: r2/templates/utils.html:748
 msgid "Quarantined"
 msgstr "隔離中"
 
