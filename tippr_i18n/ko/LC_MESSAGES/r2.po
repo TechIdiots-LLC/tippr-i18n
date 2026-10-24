@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tippr\n"
 "Report-Msgid-Bugs-To: https://github.com/TechIdiots-LLC/tippr-i18n/issues\n"
-"POT-Creation-Date: 2026-10-24 12:25-0400\n"
+"POT-Creation-Date: 2026-10-24 13:04-0400\n"
 "PO-Revision-Date: 2017-01-23 14:36-0500\n"
 "Last-Translator: tippr translators\n"
 "Language-Team: Korean\n"
@@ -20,7 +20,7 @@ msgstr ""
 msgid "Choose an image of at most 1 MB."
 msgstr "1MB 이하의 이미지를 선택하세요."
 
-#: r2/controllers/api.py:223 r2/controllers/api.py:249 r2/controllers/api.py:4436 r2/controllers/api.py:4506 r2/controllers/listingcontroller.py:766 r2/lib/pages/pages.py:6382
+#: r2/controllers/api.py:223 r2/controllers/api.py:249 r2/controllers/api.py:4436 r2/controllers/api.py:4506 r2/controllers/listingcontroller.py:766 r2/lib/pages/pages.py:6400
 msgid "API"
 msgstr "API"
 
@@ -74,7 +74,7 @@ msgstr "로그인 시간이 너무 오래 걸렸습니다. 처음부터 다시 �
 msgid "That account is linked already: sign in with it."
 msgstr "이미 연결된 계정입니다. 그 계정으로 로그인하세요."
 
-#: r2/controllers/api.py:1436 r2/controllers/api.py:1817 r2/controllers/api.py:2719 r2/controllers/api.py:3019 r2/controllers/api.py:3346 r2/controllers/api.py:4228 r2/controllers/api.py:4284 r2/controllers/api.py:4338 r2/controllers/api.py:4571 r2/controllers/api.py:4576 r2/controllers/api.py:4811 r2/controllers/api.py:4876 r2/controllers/api.py:4954 r2/controllers/api.py:5020 r2/controllers/api.py:5093 r2/controllers/api.py:5184 r2/controllers/api.py:5216 r2/controllers/api.py:5236 r2/controllers/api.py:5750 r2/controllers/api.py:5790 r2/controllers/api.py:6024 r2/controllers/api.py:6042 r2/controllers/api.py:6390 r2/lib/pages/pages.py:6273
+#: r2/controllers/api.py:1436 r2/controllers/api.py:1817 r2/controllers/api.py:2719 r2/controllers/api.py:3019 r2/controllers/api.py:3346 r2/controllers/api.py:4228 r2/controllers/api.py:4284 r2/controllers/api.py:4338 r2/controllers/api.py:4571 r2/controllers/api.py:4576 r2/controllers/api.py:4811 r2/controllers/api.py:4876 r2/controllers/api.py:4954 r2/controllers/api.py:5020 r2/controllers/api.py:5093 r2/controllers/api.py:5184 r2/controllers/api.py:5216 r2/controllers/api.py:5236 r2/controllers/api.py:5750 r2/controllers/api.py:5790 r2/controllers/api.py:6024 r2/controllers/api.py:6042 r2/controllers/api.py:6390 r2/lib/pages/pages.py:6291
 msgid "saved"
 msgstr "보관했습니다"
 
@@ -94,7 +94,7 @@ msgstr "메일 주소 정보를 갱신했습니다"
 msgid "your password has been updated"
 msgstr "비밀번호 정보를 갱신했습니다"
 
-#: r2/controllers/api.py:2074 r2/lib/menus.py:196 r2/templates/adminserverstatus.html:141
+#: r2/controllers/api.py:2074 r2/lib/menus.py:196 r2/templates/adminserverstatus.html:161
 msgid "reported"
 msgstr "신고가 접수 됐습니다"
 
@@ -504,7 +504,7 @@ msgstr "tippr 단추"
 msgid "tippr widget"
 msgstr "tippr 위짓"
 
-#: r2/controllers/embed.py:74 r2/controllers/policies.py:76 r2/lib/pages/pages.py:1137 r2/lib/pages/pages.py:6378 r2/templates/printablebuttons.html:150
+#: r2/controllers/embed.py:74 r2/controllers/policies.py:76 r2/lib/pages/pages.py:1137 r2/lib/pages/pages.py:6396 r2/templates/printablebuttons.html:150
 msgid "help"
 msgstr "도움말"
 
@@ -538,7 +538,7 @@ msgstr "요청하신 페이지가 존재하지 않습니다"
 msgid "suspended"
 msgstr "정지됨"
 
-#: r2/controllers/front.py:247 r2/lib/pages/pages.py:6260
+#: r2/controllers/front.py:247 r2/lib/pages/pages.py:6278
 msgid "explore"
 msgstr "둘러보기"
 
@@ -570,7 +570,7 @@ msgstr "%d개 보기"
 msgid "create a vault"
 msgstr "볼트 만들기"
 
-#: r2/controllers/front.py:738 r2/controllers/front.py:744 r2/controllers/listingcontroller.py:813 r2/controllers/listingcontroller.py:828 r2/controllers/listingcontroller.py:1192 r2/controllers/listingcontroller.py:1203 r2/lib/menus.py:203 r2/lib/menus.py:453 r2/lib/menus.py:666 r2/lib/pages/pages.py:5147 r2/lib/pages/pages.py:5156 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
+#: r2/controllers/front.py:738 r2/controllers/front.py:744 r2/controllers/listingcontroller.py:813 r2/controllers/listingcontroller.py:828 r2/controllers/listingcontroller.py:1192 r2/controllers/listingcontroller.py:1203 r2/lib/menus.py:203 r2/lib/menus.py:453 r2/lib/menus.py:666 r2/lib/pages/pages.py:5165 r2/lib/pages/pages.py:5174 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
 msgid "all"
 msgstr "모두"
 
@@ -594,7 +594,7 @@ msgstr "게시물 및 댓글"
 msgid "posts"
 msgstr "글"
 
-#: r2/controllers/front.py:949 r2/controllers/listingcontroller.py:1795 r2/lib/pages/pages.py:5901 r2/templates/adminuser.html:37 r2/templates/createvault.html:288 r2/templates/link.xml:95
+#: r2/controllers/front.py:949 r2/controllers/listingcontroller.py:1795 r2/lib/pages/pages.py:5919 r2/templates/adminuser.html:37 r2/templates/createvault.html:288 r2/templates/link.xml:95
 msgid "comments"
 msgstr "댓글"
 
@@ -1256,15 +1256,15 @@ msgstr "광고"
 msgid "translating"
 msgstr "번역"
 
-#: r2/controllers/policies.py:71 r2/controllers/policies.py:89 r2/lib/menus.py:101 r2/lib/pages/pages.py:6389 r2/templates/contactus.html:92
+#: r2/controllers/policies.py:71 r2/controllers/policies.py:89 r2/lib/menus.py:101 r2/lib/pages/pages.py:6407 r2/templates/contactus.html:92
 msgid "user agreement"
 msgstr "사용자 이용약관"
 
-#: r2/controllers/policies.py:72 r2/controllers/policies.py:86 r2/lib/menus.py:102 r2/lib/pages/pages.py:6388 r2/templates/contactus.html:84 r2/templates/utils.html:543
+#: r2/controllers/policies.py:72 r2/controllers/policies.py:86 r2/lib/menus.py:102 r2/lib/pages/pages.py:6406 r2/templates/contactus.html:84 r2/templates/utils.html:543
 msgid "privacy policy"
 msgstr "개인정보 보호정책"
 
-#: r2/controllers/policies.py:73 r2/controllers/policies.py:92 r2/lib/menus.py:100 r2/lib/pages/pages.py:6390 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:237
+#: r2/controllers/policies.py:73 r2/controllers/policies.py:92 r2/lib/menus.py:100 r2/lib/pages/pages.py:6408 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:237
 msgid "content policy"
 msgstr "콘텐츠 정책"
 
@@ -1404,7 +1404,7 @@ msgstr "이미지를 선택하세요"
 msgid "too big. keep it under 500 KB"
 msgstr "너무 큽니다. 500KB 이하로 해 주세요"
 
-#: r2/controllers/tippr_base.py:1483 r2/lib/pages/pages.py:4676 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
+#: r2/controllers/tippr_base.py:1483 r2/lib/pages/pages.py:4694 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
 msgid "banned"
 msgstr "탈퇴당한 사용자입니다"
 
@@ -1481,6 +1481,22 @@ msgstr "위키 오류"
 #: r2/controllers/wiki.py:394
 msgid "You are doing that too much, please try again later."
 msgstr "너무 자주 하고 계십니다. 잠시 후에 시도해보세요."
+
+#: r2/lib/ad_traffic.py:47
+#, fuzzy
+#| msgid "sidebar ad unit ID"
+msgid "AdSense: sidebar unit"
+msgstr "사이드바 광고 단위 ID"
+
+#: r2/lib/ad_traffic.py:48
+#, fuzzy
+#| msgid "in-feed ad unit ID"
+msgid "AdSense: in-feed units"
+msgstr "인피드 광고 단위 ID"
+
+#: r2/lib/ad_traffic.py:49
+msgid "AdSense: Auto ads pages"
+msgstr ""
 
 #: r2/lib/ai_content.py:35 r2/lib/scales.py:49
 msgid "human-made"
@@ -3005,7 +3021,7 @@ msgstr "결제"
 msgid "sign-in providers"
 msgstr "로그인 제공자"
 
-#: r2/lib/menus.py:169 r2/templates/adminserverstatus.html:24
+#: r2/lib/menus.py:169 r2/templates/adminserverstatus.html:28
 msgid "servers"
 msgstr "서버"
 
@@ -3725,7 +3741,7 @@ msgid "message"
 msgid_plural "messages"
 msgstr[0] "메세지"
 
-#: r2/lib/pages/admin_pages.py:119 r2/lib/pages/trafficpages.py:889 r2/lib/strings.py:264 r2/templates/adminfeeds.html:45 r2/templates/adminfeeds.html:86 r2/templates/adminvaults.html:49 r2/templates/sitewidetraffic.html:40 r2/templates/vaulttrafficreport.html:45
+#: r2/lib/pages/admin_pages.py:119 r2/lib/pages/trafficpages.py:895 r2/lib/strings.py:264 r2/templates/adminfeeds.html:45 r2/templates/adminfeeds.html:86 r2/templates/adminvaults.html:49 r2/templates/sitewidetraffic.html:40 r2/templates/vaulttrafficreport.html:45
 msgid "vault"
 msgid_plural "vaults"
 msgstr[0] "볼트"
@@ -3780,7 +3796,7 @@ msgid "hour"
 msgid_plural "hours"
 msgstr[0] "시간"
 
-#: r2/lib/pages/pages.py:347 r2/lib/pages/pages.py:5701 r2/lib/strings.py:279 r2/public/static/js/sponsored.js:1484 r2/public/static/js/sponsored.js:1851 r2/templates/intimeoutinterstitial.html:44 r2/templates/tipprtraffic.html:104
+#: r2/lib/pages/pages.py:347 r2/lib/pages/pages.py:5719 r2/lib/strings.py:279 r2/public/static/js/sponsored.js:1484 r2/public/static/js/sponsored.js:1851 r2/templates/intimeoutinterstitial.html:44 r2/templates/tipprtraffic.html:104
 msgid "day"
 msgid_plural "days"
 msgstr[0] "일"
@@ -4221,7 +4237,7 @@ msgstr "관리자 사용안함"
 msgid "<3"
 msgstr "<3"
 
-#: r2/lib/pages/pages.py:1342 r2/templates/adminserverstatus.html:142
+#: r2/lib/pages/pages.py:1342 r2/templates/adminserverstatus.html:162
 #, python-format
 msgid "%(time)s ago"
 msgstr "%(time)s 전"
@@ -4378,7 +4394,7 @@ msgstr "신용카드로 골드를 구독하고 있습니다. 당신의 카드 (%
 msgid "try entering those letters again"
 msgstr "이 글자를 다시 입력하세요"
 
-#: r2/lib/pages/pages.py:3660 r2/lib/pages/pages.py:6381 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
+#: r2/lib/pages/pages.py:3660 r2/lib/pages/pages.py:6399 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
 msgid "search"
 msgstr "검색"
 
@@ -4415,213 +4431,213 @@ msgstr "다른 서버와 버전이 다릅니다"
 msgid "another server has the same name: set TIPPR_SERVER_NAME on one of them"
 msgstr "같은 이름의 서버가 있습니다. 한쪽에 TIPPR_SERVER_NAME을 설정하세요"
 
-#: r2/lib/pages/pages.py:4384
+#: r2/lib/pages/pages.py:4402
 #, python-format
 msgid "%(n)s seconds"
 msgstr "%(n)s초"
 
-#: r2/lib/pages/pages.py:4386
+#: r2/lib/pages/pages.py:4404
 #, python-format
 msgid "%(n)s minutes"
 msgstr "%(n)s분"
 
-#: r2/lib/pages/pages.py:4388
+#: r2/lib/pages/pages.py:4406
 #, python-format
 msgid "%(n)s hours"
 msgstr "%(n)s시간"
 
-#: r2/lib/pages/pages.py:4389
+#: r2/lib/pages/pages.py:4407
 #, python-format
 msgid "%(n)s days"
 msgstr "%(n)s일"
 
-#: r2/lib/pages/pages.py:4405
+#: r2/lib/pages/pages.py:4423
 msgid "polling"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4411
+#: r2/lib/pages/pages.py:4429
 msgid "off (no event collector)"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4617 r2/lib/pages/pages.py:4726
+#: r2/lib/pages/pages.py:4635 r2/lib/pages/pages.py:4744
 msgid "added"
 msgstr "추가했습니다"
 
-#: r2/lib/pages/pages.py:4685 r2/models/modaction.py:146 r2/templates/printablebuttons.html:615
+#: r2/lib/pages/pages.py:4703 r2/models/modaction.py:146 r2/templates/printablebuttons.html:615
 msgid "muted"
 msgstr "음소거됨"
 
-#: r2/lib/pages/pages.py:4703
+#: r2/lib/pages/pages.py:4721
 msgid "invited"
 msgstr "초대됨"
 
-#: r2/lib/pages/pages.py:4764
+#: r2/lib/pages/pages.py:4782
 msgid "grant flair"
 msgstr "플레어 주기"
 
-#: r2/lib/pages/pages.py:4766
+#: r2/lib/pages/pages.py:4784
 msgid "user flair templates"
 msgstr "사용자 플레어 템플릿"
 
-#: r2/lib/pages/pages.py:4768
+#: r2/lib/pages/pages.py:4786
 msgid "link flair templates"
 msgstr "링크 플레어 템플릿"
 
-#: r2/lib/pages/pages.py:5140 r2/templates/adminuser.html:73 r2/templates/adminuser.html:98 r2/templates/adminuser.html:108 r2/templates/flairpane.html:79
+#: r2/lib/pages/pages.py:5158 r2/templates/adminuser.html:73 r2/templates/adminuser.html:98 r2/templates/adminuser.html:108 r2/templates/flairpane.html:79
 msgid "none"
 msgstr "없음"
 
-#: r2/lib/pages/pages.py:5271
+#: r2/lib/pages/pages.py:5289
 msgid "suggestions:"
 msgstr "제안:"
 
-#: r2/lib/pages/pages.py:5275
+#: r2/lib/pages/pages.py:5293
 #, python-format
 msgid "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/v/selfserve](%(selfserve)s)."
 msgstr "이 페이지에서 광고를 만드세요. 궁금한 점이 있으신가요? [도움말 센터](%(help_center)s)나 [/v/selfserve](%(selfserve)s)를 확인하세요."
 
-#: r2/lib/pages/pages.py:5893
+#: r2/lib/pages/pages.py:5911
 msgid "start date"
 msgstr "시작일"
 
-#: r2/lib/pages/pages.py:5894
+#: r2/lib/pages/pages.py:5912
 msgid "end date"
 msgstr "종료일"
 
-#: r2/lib/pages/pages.py:5896 r2/templates/createvault.html:266
+#: r2/lib/pages/pages.py:5914 r2/templates/createvault.html:266
 msgid "links"
 msgstr "링크"
 
-#: r2/lib/pages/pages.py:5898 r2/lib/pages/pages.py:5917 r2/templates/adminpaymentsettings.html:239 r2/templates/promotedlinktraffic.html:42 r2/templates/timeserieschart.html:40
+#: r2/lib/pages/pages.py:5916 r2/lib/pages/pages.py:5935 r2/templates/adminpaymentsettings.html:239 r2/templates/promotedlinktraffic.html:42 r2/templates/timeserieschart.html:40
 msgid "date"
 msgstr "날자"
 
-#: r2/lib/pages/pages.py:5901 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
+#: r2/lib/pages/pages.py:5919 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
 msgid "id"
 msgstr "아이디"
 
-#: r2/lib/pages/pages.py:5901 r2/lib/pages/pages.py:5920 r2/templates/promotelinkbase.html:856
+#: r2/lib/pages/pages.py:5919 r2/lib/pages/pages.py:5938 r2/templates/promotelinkbase.html:856
 msgid "owner"
 msgstr "소유자"
 
-#: r2/lib/pages/pages.py:5901 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
+#: r2/lib/pages/pages.py:5919 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
 msgid "url"
 msgstr "URL"
 
-#: r2/lib/pages/pages.py:5902
+#: r2/lib/pages/pages.py:5920
 msgid "upvotes"
 msgstr "추천"
 
-#: r2/lib/pages/pages.py:5902
+#: r2/lib/pages/pages.py:5920
 msgid "downvotes"
 msgstr "비추천"
 
-#: r2/lib/pages/pages.py:5902 r2/lib/pages/trafficpages.py:351 r2/lib/pages/trafficpages.py:847 r2/templates/promotedlinktraffic.html:44 r2/templates/promotedlinktraffic.html:124
+#: r2/lib/pages/pages.py:5920 r2/lib/pages/trafficpages.py:351 r2/lib/pages/trafficpages.py:853 r2/templates/promotedlinktraffic.html:44 r2/templates/promotedlinktraffic.html:124
 msgid "clicks"
 msgstr "클릭수"
 
-#: r2/lib/pages/pages.py:5902 r2/lib/pages/trafficpages.py:348 r2/lib/pages/trafficpages.py:472 r2/lib/pages/trafficpages.py:846 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
+#: r2/lib/pages/pages.py:5920 r2/lib/pages/trafficpages.py:348 r2/lib/pages/trafficpages.py:478 r2/lib/pages/trafficpages.py:852 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
 msgid "impressions"
 msgstr "노출 수"
 
-#: r2/lib/pages/pages.py:5915
+#: r2/lib/pages/pages.py:5933
 msgid "campaigns"
 msgstr "캠페인"
 
-#: r2/lib/pages/pages.py:5920
+#: r2/lib/pages/pages.py:5938
 msgid "link id"
 msgstr "링크 번호"
 
-#: r2/lib/pages/pages.py:5920
+#: r2/lib/pages/pages.py:5938
 msgid "campaign id"
 msgstr "광고 번호"
 
-#: r2/lib/pages/pages.py:5920 r2/templates/promotedlinktraffic.html:117 r2/templates/refundpage.html:56
+#: r2/lib/pages/pages.py:5938 r2/templates/promotedlinktraffic.html:117 r2/templates/refundpage.html:56
 msgid "target"
 msgstr "타겟"
 
-#: r2/lib/pages/pages.py:5921 r2/templates/promotelinkedit.html:157
+#: r2/lib/pages/pages.py:5939 r2/templates/promotelinkedit.html:157
 msgid "bid"
 msgstr "입찰"
 
-#: r2/lib/pages/pages.py:5921
+#: r2/lib/pages/pages.py:5939
 msgid "frontpage clicks"
 msgstr "대문 클릭수"
 
-#: r2/lib/pages/pages.py:5921
+#: r2/lib/pages/pages.py:5939
 msgid "frontpage impressions"
 msgstr "대문에 대한 인상"
 
-#: r2/lib/pages/pages.py:5922
+#: r2/lib/pages/pages.py:5940
 msgid "vault clicks"
 msgstr "볼트 클릭수"
 
-#: r2/lib/pages/pages.py:5922
+#: r2/lib/pages/pages.py:5940
 msgid "vault impressions"
 msgstr "볼트에 대한 인상"
 
-#: r2/lib/pages/pages.py:5923 r2/lib/pages/trafficpages.py:478
+#: r2/lib/pages/pages.py:5941 r2/lib/pages/trafficpages.py:484
 msgid "total clicks"
 msgstr "총 클릭수"
 
-#: r2/lib/pages/pages.py:5923
+#: r2/lib/pages/pages.py:5941
 msgid "total impressions"
 msgstr "종합적 인상"
 
-#: r2/lib/pages/pages.py:6126 r2/templates/accountactivitybox.html:27
+#: r2/lib/pages/pages.py:6144 r2/templates/accountactivitybox.html:27
 msgid "account activity"
 msgstr "계정 활동"
 
-#: r2/lib/pages/pages.py:6258
+#: r2/lib/pages/pages.py:6276
 msgid "subscribed"
 msgstr "구독된"
 
-#: r2/lib/pages/pages.py:6259 r2/templates/preffeeds.html:58
+#: r2/lib/pages/pages.py:6277 r2/templates/preffeeds.html:58
 msgid "your front page"
 msgstr "당신의 대문"
 
-#: r2/lib/pages/pages.py:6262 r2/lib/pages/pages.py:6267 r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:104
+#: r2/lib/pages/pages.py:6280 r2/lib/pages/pages.py:6285 r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:104
 msgid "everything"
 msgstr "모든것"
 
-#: r2/lib/pages/pages.py:6265 r2/lib/pages/pages.py:6268
+#: r2/lib/pages/pages.py:6283 r2/lib/pages/pages.py:6286
 msgid "from all vaults"
 msgstr "모든 볼트에서"
 
-#: r2/lib/pages/pages.py:6270
+#: r2/lib/pages/pages.py:6288
 msgid "moderating"
 msgstr "관리하는"
 
-#: r2/lib/pages/pages.py:6271
+#: r2/lib/pages/pages.py:6289
 msgid "vaults you mod"
 msgstr "관리 중인 볼트"
 
-#: r2/lib/pages/pages.py:6277
+#: r2/lib/pages/pages.py:6295
 msgid "gold perks"
 msgstr "골드 perks"
 
-#: r2/lib/pages/pages.py:6293
+#: r2/lib/pages/pages.py:6311
 msgid "explore multis"
 msgstr "멀티 탐색하기"
 
-#: r2/lib/pages/pages.py:6379
+#: r2/lib/pages/pages.py:6397
 msgid "faq"
 msgstr "FAQ"
 
-#: r2/lib/pages/pages.py:6380 r2/templates/usertext.html:159
+#: r2/lib/pages/pages.py:6398 r2/templates/usertext.html:159
 msgid "formatting"
 msgstr "서식"
 
-#: r2/lib/pages/pages.py:6449
+#: r2/lib/pages/pages.py:6467
 msgid "your subscribed vaults"
 msgstr "당신이 구독한 볼트"
 
-#: r2/lib/pages/pages.py:6562
+#: r2/lib/pages/pages.py:6580
 #, python-format
 msgid "this promoted link uses city level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "이 광고 링크는 도시 단위 타기팅을 사용하므로 위치 때문에 표시되었을 수 있습니다. ([자세히 알아보기](%(link)s))"
 
-#: r2/lib/pages/pages.py:6566
+#: r2/lib/pages/pages.py:6584
 #, python-format
 msgid "this promoted link uses country level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "이 광고 링크는 국가 단위 타기팅을 사용하므로 위치 때문에 표시되었을 수 있습니다. ([자세히 알아보기](%(link)s))"
@@ -4631,7 +4647,7 @@ msgstr "이 광고 링크는 국가 단위 타기팅을 사용하므로 위치 �
 msgid "uniques by %s"
 msgstr "%s당 고유 방문객 수"
 
-#: r2/lib/pages/trafficpages.py:139 r2/lib/pages/trafficpages.py:890 r2/templates/adverttrafficsummary.html:38 r2/templates/languagetrafficsummary.html:37 r2/templates/sitewidetraffic.html:41 r2/templates/tipprtraffic.html:105 r2/templates/vaulttrafficreport.html:46
+#: r2/lib/pages/trafficpages.py:139 r2/lib/pages/trafficpages.py:896 r2/templates/adverttrafficsummary.html:38 r2/templates/languagetrafficsummary.html:37 r2/templates/sitewidetraffic.html:41 r2/templates/tipprtraffic.html:105 r2/templates/vaulttrafficreport.html:46
 msgid "uniques"
 msgstr "고유 방문객 수"
 
@@ -4640,7 +4656,7 @@ msgstr "고유 방문객 수"
 msgid "pageviews by %s"
 msgstr "%s당 조회수"
 
-#: r2/lib/pages/trafficpages.py:142 r2/lib/pages/trafficpages.py:891 r2/templates/languagetrafficsummary.html:38 r2/templates/sitewidetraffic.html:42 r2/templates/tipprtraffic.html:106 r2/templates/vaulttrafficreport.html:47
+#: r2/lib/pages/trafficpages.py:142 r2/lib/pages/trafficpages.py:897 r2/templates/languagetrafficsummary.html:38 r2/templates/sitewidetraffic.html:42 r2/templates/tipprtraffic.html:106 r2/templates/vaulttrafficreport.html:47
 msgid "pageviews"
 msgstr "조회수"
 
@@ -4658,52 +4674,58 @@ msgid "activity by day"
 msgstr "일별 활동"
 
 #: r2/lib/pages/trafficpages.py:347
-msgid "total impressions by day"
+#, fuzzy
+#| msgid "total impressions by day"
+msgid "sponsored post impressions by day"
 msgstr "일별 총 노출 수"
 
 #: r2/lib/pages/trafficpages.py:350
-msgid "total clicks by day"
+#, fuzzy
+#| msgid "total clicks by day"
+msgid "sponsored post clicks by day"
 msgstr "일일 총 클릭수"
 
 #: r2/lib/pages/trafficpages.py:355
-msgid "ad totals"
-msgstr "총 광고"
+#, fuzzy
+#| msgid "sponsored link"
+msgid "sponsored post totals"
+msgstr "스폰서 링크"
 
 #: r2/lib/pages/trafficpages.py:392 r2/models/promo.py:345
 msgid "frontpage"
 msgstr "대문"
 
-#: r2/lib/pages/trafficpages.py:471
+#: r2/lib/pages/trafficpages.py:477
 #, python-format
 msgid "impressions by %s"
 msgstr "%s의 의견"
 
-#: r2/lib/pages/trafficpages.py:475
+#: r2/lib/pages/trafficpages.py:481
 msgid "unique clicks"
 msgstr "고유 클릭수"
 
-#: r2/lib/pages/trafficpages.py:477
+#: r2/lib/pages/trafficpages.py:483
 #, python-format
 msgid "clicks by %s"
 msgstr "%s 에 의해 클릭됨"
 
-#: r2/lib/pages/trafficpages.py:534
+#: r2/lib/pages/trafficpages.py:540
 msgid "subscriptions by day"
 msgstr "일간 구독수"
 
-#: r2/lib/pages/trafficpages.py:535
+#: r2/lib/pages/trafficpages.py:541
 msgid "subscriptions"
 msgstr "구독"
 
-#: r2/lib/pages/trafficpages.py:731 r2/templates/promotedlinktraffic.html:61
+#: r2/lib/pages/trafficpages.py:737 r2/templates/promotedlinktraffic.html:61
 msgid "total"
 msgstr "총"
 
-#: r2/lib/pages/trafficpages.py:845
+#: r2/lib/pages/trafficpages.py:851
 msgid "date and time (UTC)"
 msgstr "날짜와 시간 (UTC)"
 
-#: r2/lib/pages/trafficpages.py:848
+#: r2/lib/pages/trafficpages.py:854
 msgid "click-through rate (%)"
 msgstr "클릭률(%)"
 
@@ -6162,6 +6184,17 @@ msgstr "/u/%s님이 큐레이션한 볼트 %s개"
 #, python-format
 msgid "%(domain)s on %(tippr.net)s"
 msgstr "%(tippr.net)s 의 %(domain)s"
+
+#: r2/public/static/js/admin-servers.js:79
+msgid "The site isn't answering: it's down while a server installs the update. This page keeps checking and catches up when it's back."
+msgstr ""
+
+#: r2/public/static/js/admin-servers.js:81
+#, fuzzy, python-format
+#| msgid "%(n)s minutes"
+msgid "(down %(num)s minute so far)"
+msgid_plural "(down %(num)s minutes so far)"
+msgstr[0] "%(n)s분"
 
 #: r2/public/static/js/embed.js:7
 msgid "Embed preview:"
@@ -8611,195 +8644,210 @@ msgstr ""
 msgid "start export"
 msgstr "처음부터 다시"
 
-#: r2/templates/adminserverstatus.html:25
+#: r2/templates/adminserverstatus.html:29
 msgid "Each server reports its state here once a minute (tippr-job-server_status). Only the latest report is kept; a server that stops reporting is flagged after 3 minutes and dropped after 7 days, or forget it below once it's out of service."
 msgstr "각 서버가 1분마다 여기에 상태를 보고합니다 (tippr-job-server_status). 최신 보고만 보관합니다. 보고를 멈춘 서버는 3분 뒤 표시되고 7일 뒤 지워지며, 운영을 그만두면 아래에서 지울 수도 있습니다."
 
-#: r2/templates/adminserverstatus.html:28
+#: r2/templates/adminserverstatus.html:32
 msgid "No server has reported yet. Reports start within a minute of installing or upgrading (the tippr-job-server_status timer)."
 msgstr "아직 보고한 서버가 없습니다. 보고는 설치나 업데이트 후 1분 안에 시작됩니다 (tippr-job-server_status 타이머)."
 
-#: r2/templates/adminserverstatus.html:33
+#: r2/templates/adminserverstatus.html:37
 msgid "updates"
 msgstr "업데이트"
 
-#: r2/templates/adminserverstatus.html:35
+#: r2/templates/adminserverstatus.html:39
 #, python-format
 msgid "GitHub couldn't be asked about releases (%(error)s); trying again in a few minutes."
 msgstr "GitHub에 릴리스를 물어보지 못했습니다 (%(error)s). 몇 분 뒤 다시 시도합니다."
 
-#: r2/templates/adminserverstatus.html:37
+#: r2/templates/adminserverstatus.html:41
 #, python-format
 msgid "No release of %(repo)s has an installer yet."
 msgstr "%(repo)s의 릴리스 중 아직 설치 프로그램이 있는 것이 없습니다."
 
-#: r2/templates/adminserverstatus.html:40
+#: r2/templates/adminserverstatus.html:44
 msgid "The newest release is"
 msgstr "최신 릴리스:"
 
-#: r2/templates/adminserverstatus.html:47
+#: r2/templates/adminserverstatus.html:51
 #, python-format
 msgid "an update is available for %(n)s of your servers"
 msgstr "서버 %(n)s대에 업데이트가 있습니다"
 
-#: r2/templates/adminserverstatus.html:49
+#: r2/templates/adminserverstatus.html:53
 msgid "every server runs it, or a newer one."
 msgstr "모든 서버가 이것이나 더 새 버전을 쓰고 있습니다."
 
-#: r2/templates/adminserverstatus.html:53
+#: r2/templates/adminserverstatus.html:57
 msgid "A pre-release is out too:"
 msgstr "사전 릴리스도 나왔습니다:"
 
-#: r2/templates/adminserverstatus.html:56
+#: r2/templates/adminserverstatus.html:60
 msgid "Read the release's notes before updating: anything that needs doing by hand is in them."
 msgstr "업데이트하기 전에 릴리스 노트를 읽으세요. 직접 해야 하는 일은 모두 거기에 있습니다."
 
-#: r2/templates/adminserverstatus.html:63
+#: r2/templates/adminserverstatus.html:67
 #, python-format
 msgid "%(user)s asked for %(version)s %(time)s ago%(backup)s."
 msgstr "%(user)s님이 %(time)s 전에 %(version)s을(를) 요청했습니다%(backup)s."
 
-#: r2/templates/adminserverstatus.html:63
+#: r2/templates/adminserverstatus.html:67
 msgid ", with a backup first"
 msgstr " (먼저 백업)"
 
-#: r2/templates/adminserverstatus.html:64
+#: r2/templates/adminserverstatus.html:68
 #, fuzzy
 #| msgid "Each server updates within a minute or so of its turn, one at a time; the site is down on each for 5-10 minutes while it does. Its state is on its card below."
 msgid "Each server updates within a minute or so of its turn, one at a time; the site is down on each for a few minutes while it does. Its state is on its card below."
 msgstr "각 서버는 차례가 오고 1분쯤 뒤에 한 대씩 업데이트됩니다. 그동안 각 서버에서 사이트가 5~10분 멈춥니다. 상태는 아래 각 서버의 카드에 나옵니다."
 
 #: r2/templates/adminserverstatus.html:70
+msgid "This page keeps itself up to date until it's done, including while the site is down."
+msgstr ""
+
+#: r2/templates/adminserverstatus.html:78
 msgid "clear this"
 msgstr "지우기"
 
-#: r2/templates/adminserverstatus.html:71
+#: r2/templates/adminserverstatus.html:79
 msgid "(servers that haven't started don't; this doesn't undo an update)"
 msgstr "(아직 시작하지 않은 서버는 하지 않습니다. 이미 한 업데이트를 되돌리지는 않습니다)"
 
-#: r2/templates/adminserverstatus.html:77
+#: r2/templates/adminserverstatus.html:85
 #, fuzzy
 #| msgid "Update the servers to this release? Each one goes down for 5-10 minutes while it updates, one at a time. Make a Proxmox snapshot first if you can."
 msgid "Update the servers to this release? Each one goes down for a few minutes while it updates, one at a time. Make a Proxmox snapshot first if you can."
 msgstr "서버를 이 릴리스로 업데이트할까요? 업데이트하는 동안 각 서버가 한 대씩 5~10분 멈춥니다. 가능하면 먼저 Proxmox 스냅샷을 만드세요."
 
-#: r2/templates/adminserverstatus.html:83
+#: r2/templates/adminserverstatus.html:91
 msgid " (pre-release)"
 msgstr " (사전 릴리스)"
 
-#: r2/templates/adminserverstatus.html:86
+#: r2/templates/adminserverstatus.html:94
 msgid "make a site backup first"
 msgstr "먼저 사이트 백업 만들기"
 
-#: r2/templates/adminserverstatus.html:87
+#: r2/templates/adminserverstatus.html:95
 msgid "update the servers"
 msgstr "서버 업데이트"
 
-#: r2/templates/adminserverstatus.html:89
+#: r2/templates/adminserverstatus.html:97
 msgid "Each server downloads the release's installer from GitHub, checks it against the release's checksums, and re-runs the installer, as in the Proxmox upgrade steps. If the site doesn't come back, it puts the old version back. Only Proxmox containers (with tippr-firstboot) can update this way. A snapshot of the container first is still the surest way back."
 msgstr "각 서버는 GitHub에서 릴리스의 설치 프로그램을 내려받아 릴리스의 체크섬으로 확인한 뒤, Proxmox 업그레이드 절차처럼 설치 프로그램을 다시 실행합니다. 사이트가 다시 올라오지 않으면 이전 버전으로 되돌립니다. 이 방법으로 업데이트할 수 있는 것은 Proxmox 컨테이너(tippr-firstboot가 있는 것)뿐입니다. 그래도 먼저 컨테이너 스냅샷을 만들어 두는 것이 가장 확실하게 되돌리는 방법입니다."
 
-#: r2/templates/adminserverstatus.html:92
+#: r2/templates/adminserverstatus.html:100
 msgid "Updating from this page is off (TIPPR_WEB_UPDATES=0 in the installer)."
 msgstr "이 페이지에서의 업데이트는 꺼져 있습니다 (설치 프로그램에서 TIPPR_WEB_UPDATES=0)."
 
-#: r2/templates/adminserverstatus.html:114
+#: r2/templates/adminserverstatus.html:123
 msgid "version"
 msgstr "버전"
 
-#: r2/templates/adminserverstatus.html:120
+#: r2/templates/adminserverstatus.html:129
 #, python-format
 msgid "%(version)s is out"
 msgstr "%(version)s이(가) 나왔습니다"
 
-#: r2/templates/adminserverstatus.html:125
+#: r2/templates/adminserverstatus.html:135 r2/templates/adminserverstatus.html:156
 msgid "update"
 msgstr "업데이트"
 
-#: r2/templates/adminserverstatus.html:128
+#: r2/templates/adminserverstatus.html:138
 #, python-format
 msgid "to %(version)s"
 msgstr "%(version)s(으)로"
 
-#: r2/templates/adminserverstatus.html:130
+#: r2/templates/adminserverstatus.html:140
 #, python-format
 msgid "(from %(version)s)"
 msgstr "(%(version)s에서)"
 
-#: r2/templates/adminserverstatus.html:136
+#: r2/templates/adminserverstatus.html:143
+#, fuzzy, python-format
+#| msgid "up %(time)s"
+msgid "for %(time)s"
+msgstr "%(time)s째 작동 중"
+
+#: r2/templates/adminserverstatus.html:150
 msgid "log"
 msgstr "로그"
 
-#: r2/templates/adminserverstatus.html:144
+#: r2/templates/adminserverstatus.html:158
+#, python-format
+msgid "asked for %(version)s: it starts within a minute, or when it's this server's turn"
+msgstr ""
+
+#: r2/templates/adminserverstatus.html:164
 #, python-format
 msgid "up %(time)s"
 msgstr "%(time)s째 작동 중"
 
-#: r2/templates/adminserverstatus.html:147
+#: r2/templates/adminserverstatus.html:167
 msgid "load"
 msgstr "부하"
 
-#: r2/templates/adminserverstatus.html:149
+#: r2/templates/adminserverstatus.html:169
 #, python-format
 msgid "(1, 5 and 15 minutes, on %(n)s CPUs)"
 msgstr "(1, 5, 15분, CPU %(n)s개)"
 
-#: r2/templates/adminserverstatus.html:151
+#: r2/templates/adminserverstatus.html:171
 msgid "memory"
 msgstr "메모리"
 
-#: r2/templates/adminserverstatus.html:154
+#: r2/templates/adminserverstatus.html:174
 #, python-format
 msgid "%(used)s of %(total)s used (%(p)s%%)"
 msgstr "%(total)s 중 %(used)s 사용 (%(p)s%%)"
 
-#: r2/templates/adminserverstatus.html:156
+#: r2/templates/adminserverstatus.html:176
 #, python-format
 msgid "swap %(used)s of %(total)s"
 msgstr "스왑 %(total)s 중 %(used)s"
 
-#: r2/templates/adminserverstatus.html:161
+#: r2/templates/adminserverstatus.html:181
 msgid "disk"
 msgstr "디스크"
 
-#: r2/templates/adminserverstatus.html:165
+#: r2/templates/adminserverstatus.html:185
 #, python-format
 msgid "%(used)s of %(total)s used (%(p)s%%), %(free)s free"
 msgstr "%(total)s 중 %(used)s 사용 (%(p)s%%), %(free)s 남음"
 
-#: r2/templates/adminserverstatus.html:169
+#: r2/templates/adminserverstatus.html:189
 msgid "services"
 msgstr "서비스"
 
-#: r2/templates/adminserverstatus.html:178
+#: r2/templates/adminserverstatus.html:198
 msgid "Forget this server? It comes back if it reports again."
 msgstr "이 서버를 지울까요? 다시 보고하면 돌아옵니다."
 
-#: r2/templates/adminserverstatus.html:180
+#: r2/templates/adminserverstatus.html:200
 msgid "forget"
 msgstr "지우기"
 
-#: r2/templates/adminserverstatus.html:186
+#: r2/templates/adminserverstatus.html:206
 msgid "queues"
 msgstr "큐"
 
-#: r2/templates/adminserverstatus.html:188
+#: r2/templates/adminserverstatus.html:208
 msgid "RabbitMQ couldn't be asked about its queues."
 msgstr "RabbitMQ에 큐를 물어보지 못했습니다."
 
-#: r2/templates/adminserverstatus.html:190
+#: r2/templates/adminserverstatus.html:210
 msgid "Work waiting for the queue processors (tippr-consumers). A queue that keeps growing means they aren't keeping up, or aren't running."
 msgstr "큐 처리기(tippr-consumers)를 기다리는 작업입니다. 계속 늘어나는 큐는 처리가 따라가지 못하거나 돌지 않는다는 뜻입니다."
 
-#: r2/templates/adminserverstatus.html:192
+#: r2/templates/adminserverstatus.html:212
 msgid "queue"
 msgstr "큐"
 
-#: r2/templates/adminserverstatus.html:192
+#: r2/templates/adminserverstatus.html:212
 msgid "waiting"
 msgstr "대기 중"
 
-#: r2/templates/adminserverstatus.html:192
+#: r2/templates/adminserverstatus.html:212
 msgid "processors"
 msgstr "처리기"
 
@@ -9690,12 +9738,18 @@ msgid "What people who haven't subscribed to anything see, and what new accounts
 msgstr "아무것도 구독하지 않은 사람이 보는 볼트와 새 계정이 구독하게 되는 볼트입니다. 여기 각 볼트 페이지에서 바꾸세요."
 
 #: r2/templates/adverttrafficsummary.html:34
-msgid "top adverts"
+#, fuzzy
+#| msgid "top adverts"
+msgid "top adverts this month"
 msgstr "상위 광고"
 
 #: r2/templates/adverttrafficsummary.html:37
 msgid "ad"
 msgstr "광고"
+
+#: r2/templates/adverttrafficsummary.html:57
+msgid "Sponsored posts count an impression when the site shows one in a listing, and a click when someone follows it. AdSense units count each one the site puts on a page; whether Google filled it, and its clicks and earnings, are in your AdSense account."
+msgstr ""
 
 #: r2/templates/allinfobar.html:40
 msgid "Exclude your subscribed vaults"
@@ -11100,7 +11154,9 @@ msgid "language traffic statistics"
 msgstr "언어 트래픽 통계"
 
 #: r2/templates/languagetrafficsummary.html:33
-msgid "traffic by language"
+#, fuzzy
+#| msgid "traffic by language"
+msgid "traffic by language this month"
 msgstr "언어별 트래픽"
 
 #: r2/templates/linkcommentssettings.html:44
@@ -14088,7 +14144,9 @@ msgid "note: you will only be eligible for a gilding trophy if this is set to \"
 msgstr "참고: 이 항목이 \"모두\"로 설정된 경우에만 골드 선물 트로피를 받을 수 있습니다"
 
 #: r2/templates/sitewidetraffic.html:37
-msgid "top vaults"
+#, fuzzy
+#| msgid "top vaults"
+msgid "top vaults this month"
 msgstr "최고의 볼트"
 
 #: r2/templates/sitewidetraffic.html:37 r2/templates/vaulttrafficreport.html:36

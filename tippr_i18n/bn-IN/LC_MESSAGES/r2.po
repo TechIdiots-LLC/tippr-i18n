@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tippr\n"
 "Report-Msgid-Bugs-To: https://github.com/TechIdiots-LLC/tippr-i18n/issues\n"
-"POT-Creation-Date: 2026-10-24 12:25-0400\n"
+"POT-Creation-Date: 2026-10-24 13:04-0400\n"
 "PO-Revision-Date: 2017-04-24 18:44-0400\n"
 "Last-Translator: tippr translators\n"
 "Language-Team: Bengali, India\n"
@@ -19,7 +19,7 @@ msgstr ""
 msgid "Choose an image of at most 1 MB."
 msgstr ""
 
-#: r2/controllers/api.py:223 r2/controllers/api.py:249 r2/controllers/api.py:4436 r2/controllers/api.py:4506 r2/controllers/listingcontroller.py:766 r2/lib/pages/pages.py:6382
+#: r2/controllers/api.py:223 r2/controllers/api.py:249 r2/controllers/api.py:4436 r2/controllers/api.py:4506 r2/controllers/listingcontroller.py:766 r2/lib/pages/pages.py:6400
 msgid "API"
 msgstr "এপিআই"
 
@@ -77,7 +77,7 @@ msgstr ""
 msgid "That account is linked already: sign in with it."
 msgstr ""
 
-#: r2/controllers/api.py:1436 r2/controllers/api.py:1817 r2/controllers/api.py:2719 r2/controllers/api.py:3019 r2/controllers/api.py:3346 r2/controllers/api.py:4228 r2/controllers/api.py:4284 r2/controllers/api.py:4338 r2/controllers/api.py:4571 r2/controllers/api.py:4576 r2/controllers/api.py:4811 r2/controllers/api.py:4876 r2/controllers/api.py:4954 r2/controllers/api.py:5020 r2/controllers/api.py:5093 r2/controllers/api.py:5184 r2/controllers/api.py:5216 r2/controllers/api.py:5236 r2/controllers/api.py:5750 r2/controllers/api.py:5790 r2/controllers/api.py:6024 r2/controllers/api.py:6042 r2/controllers/api.py:6390 r2/lib/pages/pages.py:6273
+#: r2/controllers/api.py:1436 r2/controllers/api.py:1817 r2/controllers/api.py:2719 r2/controllers/api.py:3019 r2/controllers/api.py:3346 r2/controllers/api.py:4228 r2/controllers/api.py:4284 r2/controllers/api.py:4338 r2/controllers/api.py:4571 r2/controllers/api.py:4576 r2/controllers/api.py:4811 r2/controllers/api.py:4876 r2/controllers/api.py:4954 r2/controllers/api.py:5020 r2/controllers/api.py:5093 r2/controllers/api.py:5184 r2/controllers/api.py:5216 r2/controllers/api.py:5236 r2/controllers/api.py:5750 r2/controllers/api.py:5790 r2/controllers/api.py:6024 r2/controllers/api.py:6042 r2/controllers/api.py:6390 r2/lib/pages/pages.py:6291
 msgid "saved"
 msgstr "সেভ করা হয়েছে"
 
@@ -97,7 +97,7 @@ msgstr "আপনার ই-মেইল এড্রেস হালনাগ�
 msgid "your password has been updated"
 msgstr "আপনার পাসওয়ার্ড হালনাগাদ করা হয়েছে"
 
-#: r2/controllers/api.py:2074 r2/lib/menus.py:196 r2/templates/adminserverstatus.html:141
+#: r2/controllers/api.py:2074 r2/lib/menus.py:196 r2/templates/adminserverstatus.html:161
 msgid "reported"
 msgstr "রিপোর্ট করা হয়েছে"
 
@@ -544,7 +544,7 @@ msgstr "রেডিট বাটন"
 msgid "tippr widget"
 msgstr "রেডিট উইজেট"
 
-#: r2/controllers/embed.py:74 r2/controllers/policies.py:76 r2/lib/pages/pages.py:1137 r2/lib/pages/pages.py:6378 r2/templates/printablebuttons.html:150
+#: r2/controllers/embed.py:74 r2/controllers/policies.py:76 r2/lib/pages/pages.py:1137 r2/lib/pages/pages.py:6396 r2/templates/printablebuttons.html:150
 msgid "help"
 msgstr "সাহায্য"
 
@@ -578,7 +578,7 @@ msgstr "আপনি যেই পেজ দেখার অনুরোধ ক�
 msgid "suspended"
 msgstr ""
 
-#: r2/controllers/front.py:247 r2/lib/pages/pages.py:6260
+#: r2/controllers/front.py:247 r2/lib/pages/pages.py:6278
 msgid "explore"
 msgstr "এক্সপ্লোর করুন"
 
@@ -610,7 +610,7 @@ msgstr "প্রদর্শন কর %d"
 msgid "create a vault"
 msgstr "একটি সাবরেডিট তৈরি করুন"
 
-#: r2/controllers/front.py:738 r2/controllers/front.py:744 r2/controllers/listingcontroller.py:813 r2/controllers/listingcontroller.py:828 r2/controllers/listingcontroller.py:1192 r2/controllers/listingcontroller.py:1203 r2/lib/menus.py:203 r2/lib/menus.py:453 r2/lib/menus.py:666 r2/lib/pages/pages.py:5147 r2/lib/pages/pages.py:5156 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
+#: r2/controllers/front.py:738 r2/controllers/front.py:744 r2/controllers/listingcontroller.py:813 r2/controllers/listingcontroller.py:828 r2/controllers/listingcontroller.py:1192 r2/controllers/listingcontroller.py:1203 r2/lib/menus.py:203 r2/lib/menus.py:453 r2/lib/menus.py:666 r2/lib/pages/pages.py:5165 r2/lib/pages/pages.py:5174 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
 msgid "all"
 msgstr "প্রত্যেকটি"
 
@@ -634,7 +634,7 @@ msgstr ""
 msgid "posts"
 msgstr "পোস্টগুলি"
 
-#: r2/controllers/front.py:949 r2/controllers/listingcontroller.py:1795 r2/lib/pages/pages.py:5901 r2/templates/adminuser.html:37 r2/templates/createvault.html:288 r2/templates/link.xml:95
+#: r2/controllers/front.py:949 r2/controllers/listingcontroller.py:1795 r2/lib/pages/pages.py:5919 r2/templates/adminuser.html:37 r2/templates/createvault.html:288 r2/templates/link.xml:95
 msgid "comments"
 msgstr "কমেন্টস"
 
@@ -1295,15 +1295,15 @@ msgstr "বিজ্ঞাপন দেওয়া"
 msgid "translating"
 msgstr "অনুবাদ করতে সাহায্য করুন"
 
-#: r2/controllers/policies.py:71 r2/controllers/policies.py:89 r2/lib/menus.py:101 r2/lib/pages/pages.py:6389 r2/templates/contactus.html:92
+#: r2/controllers/policies.py:71 r2/controllers/policies.py:89 r2/lib/menus.py:101 r2/lib/pages/pages.py:6407 r2/templates/contactus.html:92
 msgid "user agreement"
 msgstr "ইউজার চুক্তি"
 
-#: r2/controllers/policies.py:72 r2/controllers/policies.py:86 r2/lib/menus.py:102 r2/lib/pages/pages.py:6388 r2/templates/contactus.html:84 r2/templates/utils.html:543
+#: r2/controllers/policies.py:72 r2/controllers/policies.py:86 r2/lib/menus.py:102 r2/lib/pages/pages.py:6406 r2/templates/contactus.html:84 r2/templates/utils.html:543
 msgid "privacy policy"
 msgstr "প্রাইভেসি পলিসি"
 
-#: r2/controllers/policies.py:73 r2/controllers/policies.py:92 r2/lib/menus.py:100 r2/lib/pages/pages.py:6390 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:237
+#: r2/controllers/policies.py:73 r2/controllers/policies.py:92 r2/lib/menus.py:100 r2/lib/pages/pages.py:6408 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:237
 msgid "content policy"
 msgstr "বিষয়বস্তু নীতি"
 
@@ -1453,7 +1453,7 @@ msgstr ""
 msgid "too big. keep it under 500 KB"
 msgstr ""
 
-#: r2/controllers/tippr_base.py:1483 r2/lib/pages/pages.py:4676 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
+#: r2/controllers/tippr_base.py:1483 r2/lib/pages/pages.py:4694 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
 msgid "banned"
 msgstr "নিষিদ্ধ"
 
@@ -1530,6 +1530,18 @@ msgstr "উইকি র ভুল"
 #: r2/controllers/wiki.py:394
 msgid "You are doing that too much, please try again later."
 msgstr "আপনি এটা খুব বেশি করছেন, কিছুক্ষণ পর আবার চেষ্টা করুন।"
+
+#: r2/lib/ad_traffic.py:47
+msgid "AdSense: sidebar unit"
+msgstr ""
+
+#: r2/lib/ad_traffic.py:48
+msgid "AdSense: in-feed units"
+msgstr ""
+
+#: r2/lib/ad_traffic.py:49
+msgid "AdSense: Auto ads pages"
+msgstr ""
 
 #: r2/lib/ai_content.py:35 r2/lib/scales.py:49
 msgid "human-made"
@@ -3076,7 +3088,7 @@ msgstr "পেমেন্ট সাবমিট করা হয়ে গেছ�
 msgid "sign-in providers"
 msgstr ""
 
-#: r2/lib/menus.py:169 r2/templates/adminserverstatus.html:24
+#: r2/lib/menus.py:169 r2/templates/adminserverstatus.html:28
 msgid "servers"
 msgstr ""
 
@@ -3795,7 +3807,7 @@ msgid_plural "messages"
 msgstr[0] "মেসেজ"
 msgstr[1] "মেসেজ"
 
-#: r2/lib/pages/admin_pages.py:119 r2/lib/pages/trafficpages.py:889 r2/lib/strings.py:264 r2/templates/adminfeeds.html:45 r2/templates/adminfeeds.html:86 r2/templates/adminvaults.html:49 r2/templates/sitewidetraffic.html:40 r2/templates/vaulttrafficreport.html:45
+#: r2/lib/pages/admin_pages.py:119 r2/lib/pages/trafficpages.py:895 r2/lib/strings.py:264 r2/templates/adminfeeds.html:45 r2/templates/adminfeeds.html:86 r2/templates/adminvaults.html:49 r2/templates/sitewidetraffic.html:40 r2/templates/vaulttrafficreport.html:45
 msgid "vault"
 msgid_plural "vaults"
 msgstr[0] "সাবরেডিট"
@@ -3861,7 +3873,7 @@ msgid_plural "hours"
 msgstr[0] "ঘণ্টা"
 msgstr[1] "ঘণ্টা"
 
-#: r2/lib/pages/pages.py:347 r2/lib/pages/pages.py:5701 r2/lib/strings.py:279 r2/public/static/js/sponsored.js:1484 r2/public/static/js/sponsored.js:1851 r2/templates/intimeoutinterstitial.html:44 r2/templates/tipprtraffic.html:104
+#: r2/lib/pages/pages.py:347 r2/lib/pages/pages.py:5719 r2/lib/strings.py:279 r2/public/static/js/sponsored.js:1484 r2/public/static/js/sponsored.js:1851 r2/templates/intimeoutinterstitial.html:44 r2/templates/tipprtraffic.html:104
 msgid "day"
 msgid_plural "days"
 msgstr[0] "দিন"
@@ -4265,7 +4277,7 @@ msgstr "প্রশাসন বন্ধ করুন"
 msgid "<3"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1342 r2/templates/adminserverstatus.html:142
+#: r2/lib/pages/pages.py:1342 r2/templates/adminserverstatus.html:162
 #, fuzzy, python-format
 #| msgid "%s ago"
 msgid "%(time)s ago"
@@ -4426,7 +4438,7 @@ msgstr "আপনার কাছে একটি ক্রেডিট কা�
 msgid "try entering those letters again"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3660 r2/lib/pages/pages.py:6381 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
+#: r2/lib/pages/pages.py:3660 r2/lib/pages/pages.py:6399 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
 msgid "search"
 msgstr ""
 
@@ -4463,220 +4475,220 @@ msgstr ""
 msgid "another server has the same name: set TIPPR_SERVER_NAME on one of them"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4384
+#: r2/lib/pages/pages.py:4402
 #, fuzzy, python-format
 #| msgid "second"
 #| msgid_plural "seconds"
 msgid "%(n)s seconds"
 msgstr "সেকেন্ড"
 
-#: r2/lib/pages/pages.py:4386
+#: r2/lib/pages/pages.py:4404
 #, fuzzy, python-format
 #| msgid "minute"
 #| msgid_plural "minutes"
 msgid "%(n)s minutes"
 msgstr "মিনিট"
 
-#: r2/lib/pages/pages.py:4388
+#: r2/lib/pages/pages.py:4406
 #, fuzzy, python-format
 #| msgid "this hour"
 msgid "%(n)s hours"
 msgstr "এই ঘণ্টা"
 
-#: r2/lib/pages/pages.py:4389
+#: r2/lib/pages/pages.py:4407
 #, python-format
 msgid "%(n)s days"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4405
+#: r2/lib/pages/pages.py:4423
 msgid "polling"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4411
+#: r2/lib/pages/pages.py:4429
 msgid "off (no event collector)"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4617 r2/lib/pages/pages.py:4726
+#: r2/lib/pages/pages.py:4635 r2/lib/pages/pages.py:4744
 msgid "added"
 msgstr "যোগ করা হয়েছে"
 
-#: r2/lib/pages/pages.py:4685 r2/models/modaction.py:146 r2/templates/printablebuttons.html:615
+#: r2/lib/pages/pages.py:4703 r2/models/modaction.py:146 r2/templates/printablebuttons.html:615
 msgid "muted"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4703
+#: r2/lib/pages/pages.py:4721
 msgid "invited"
 msgstr "আমন্ত্রন জানানো হয়েছে"
 
-#: r2/lib/pages/pages.py:4764
+#: r2/lib/pages/pages.py:4782
 msgid "grant flair"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4766
+#: r2/lib/pages/pages.py:4784
 msgid "user flair templates"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4768
+#: r2/lib/pages/pages.py:4786
 msgid "link flair templates"
 msgstr ""
 
-#: r2/lib/pages/pages.py:5140 r2/templates/adminuser.html:73 r2/templates/adminuser.html:98 r2/templates/adminuser.html:108 r2/templates/flairpane.html:79
+#: r2/lib/pages/pages.py:5158 r2/templates/adminuser.html:73 r2/templates/adminuser.html:98 r2/templates/adminuser.html:108 r2/templates/flairpane.html:79
 msgid "none"
 msgstr "কোনোটা না"
 
-#: r2/lib/pages/pages.py:5271
+#: r2/lib/pages/pages.py:5289
 msgid "suggestions:"
 msgstr ""
 
-#: r2/lib/pages/pages.py:5275
+#: r2/lib/pages/pages.py:5293
 #, python-format
 msgid "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/v/selfserve](%(selfserve)s)."
 msgstr ""
 
-#: r2/lib/pages/pages.py:5893
+#: r2/lib/pages/pages.py:5911
 msgid "start date"
 msgstr "শুরু হওয়ার তারিখ"
 
-#: r2/lib/pages/pages.py:5894
+#: r2/lib/pages/pages.py:5912
 msgid "end date"
 msgstr "শেষ হওয়ার তারিখ"
 
-#: r2/lib/pages/pages.py:5896 r2/templates/createvault.html:266
+#: r2/lib/pages/pages.py:5914 r2/templates/createvault.html:266
 msgid "links"
 msgstr "লিঙ্কস"
 
-#: r2/lib/pages/pages.py:5898 r2/lib/pages/pages.py:5917 r2/templates/adminpaymentsettings.html:239 r2/templates/promotedlinktraffic.html:42 r2/templates/timeserieschart.html:40
+#: r2/lib/pages/pages.py:5916 r2/lib/pages/pages.py:5935 r2/templates/adminpaymentsettings.html:239 r2/templates/promotedlinktraffic.html:42 r2/templates/timeserieschart.html:40
 msgid "date"
 msgstr "তারিখ"
 
-#: r2/lib/pages/pages.py:5901 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
+#: r2/lib/pages/pages.py:5919 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
 msgid "id"
 msgstr "আইডি"
 
-#: r2/lib/pages/pages.py:5901 r2/lib/pages/pages.py:5920 r2/templates/promotelinkbase.html:856
+#: r2/lib/pages/pages.py:5919 r2/lib/pages/pages.py:5938 r2/templates/promotelinkbase.html:856
 msgid "owner"
 msgstr "মালিক"
 
-#: r2/lib/pages/pages.py:5901 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
+#: r2/lib/pages/pages.py:5919 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
 msgid "url"
 msgstr "ইউআরএল"
 
-#: r2/lib/pages/pages.py:5902
+#: r2/lib/pages/pages.py:5920
 msgid "upvotes"
 msgstr "আপভোট সংখ্যা"
 
-#: r2/lib/pages/pages.py:5902
+#: r2/lib/pages/pages.py:5920
 msgid "downvotes"
 msgstr "ডাউনভোট সংখ্যা"
 
-#: r2/lib/pages/pages.py:5902 r2/lib/pages/trafficpages.py:351 r2/lib/pages/trafficpages.py:847 r2/templates/promotedlinktraffic.html:44 r2/templates/promotedlinktraffic.html:124
+#: r2/lib/pages/pages.py:5920 r2/lib/pages/trafficpages.py:351 r2/lib/pages/trafficpages.py:853 r2/templates/promotedlinktraffic.html:44 r2/templates/promotedlinktraffic.html:124
 msgid "clicks"
 msgstr "ক্লিক্স"
 
-#: r2/lib/pages/pages.py:5902 r2/lib/pages/trafficpages.py:348 r2/lib/pages/trafficpages.py:472 r2/lib/pages/trafficpages.py:846 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
+#: r2/lib/pages/pages.py:5920 r2/lib/pages/trafficpages.py:348 r2/lib/pages/trafficpages.py:478 r2/lib/pages/trafficpages.py:852 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
 msgid "impressions"
 msgstr "ছাপাগুলি"
 
-#: r2/lib/pages/pages.py:5915
+#: r2/lib/pages/pages.py:5933
 msgid "campaigns"
 msgstr "অভিযান"
 
-#: r2/lib/pages/pages.py:5920
+#: r2/lib/pages/pages.py:5938
 msgid "link id"
 msgstr "লিঙ্ক আইডি"
 
-#: r2/lib/pages/pages.py:5920
+#: r2/lib/pages/pages.py:5938
 msgid "campaign id"
 msgstr "অভিযানের আইডি"
 
-#: r2/lib/pages/pages.py:5920 r2/templates/promotedlinktraffic.html:117 r2/templates/refundpage.html:56
+#: r2/lib/pages/pages.py:5938 r2/templates/promotedlinktraffic.html:117 r2/templates/refundpage.html:56
 msgid "target"
 msgstr "লক্ষ্য"
 
-#: r2/lib/pages/pages.py:5921 r2/templates/promotelinkedit.html:157
+#: r2/lib/pages/pages.py:5939 r2/templates/promotelinkedit.html:157
 msgid "bid"
 msgstr "নিলাম ডাকা"
 
-#: r2/lib/pages/pages.py:5921
+#: r2/lib/pages/pages.py:5939
 msgid "frontpage clicks"
 msgstr "ফ্রন্টপেজ ক্লিক্স"
 
-#: r2/lib/pages/pages.py:5921
+#: r2/lib/pages/pages.py:5939
 msgid "frontpage impressions"
 msgstr "ফ্রন্টপেজ এর ছাপাগুলি"
 
-#: r2/lib/pages/pages.py:5922
+#: r2/lib/pages/pages.py:5940
 msgid "vault clicks"
 msgstr "সাবরেডিট ক্লিক্স"
 
-#: r2/lib/pages/pages.py:5922
+#: r2/lib/pages/pages.py:5940
 msgid "vault impressions"
 msgstr "সাবরেডিটের ছাপাগুলি"
 
-#: r2/lib/pages/pages.py:5923 r2/lib/pages/trafficpages.py:478
+#: r2/lib/pages/pages.py:5941 r2/lib/pages/trafficpages.py:484
 msgid "total clicks"
 msgstr "মোট ক্লিক্স"
 
-#: r2/lib/pages/pages.py:5923
+#: r2/lib/pages/pages.py:5941
 msgid "total impressions"
 msgstr "ছাপাগুলির মোট"
 
-#: r2/lib/pages/pages.py:6126 r2/templates/accountactivitybox.html:27
+#: r2/lib/pages/pages.py:6144 r2/templates/accountactivitybox.html:27
 msgid "account activity"
 msgstr "অ্যাকাউন্টের গতিবিধি"
 
-#: r2/lib/pages/pages.py:6258
+#: r2/lib/pages/pages.py:6276
 msgid "subscribed"
 msgstr "সাবস্ক্রাইব্দ"
 
-#: r2/lib/pages/pages.py:6259 r2/templates/preffeeds.html:58
+#: r2/lib/pages/pages.py:6277 r2/templates/preffeeds.html:58
 msgid "your front page"
 msgstr "আপনার ফ্রন্ট পেজ"
 
-#: r2/lib/pages/pages.py:6262 r2/lib/pages/pages.py:6267 r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:104
+#: r2/lib/pages/pages.py:6280 r2/lib/pages/pages.py:6285 r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:104
 msgid "everything"
 msgstr "সবকিছু"
 
-#: r2/lib/pages/pages.py:6265 r2/lib/pages/pages.py:6268
+#: r2/lib/pages/pages.py:6283 r2/lib/pages/pages.py:6286
 msgid "from all vaults"
 msgstr "প্রত্যেক সাবরেডিট থেকে"
 
-#: r2/lib/pages/pages.py:6270
+#: r2/lib/pages/pages.py:6288
 msgid "moderating"
 msgstr "মডারেট করছেন"
 
-#: r2/lib/pages/pages.py:6271
+#: r2/lib/pages/pages.py:6289
 msgid "vaults you mod"
 msgstr "সাবরেডিট যেখানে আপনি একজন মডারেটর"
 
-#: r2/lib/pages/pages.py:6277
+#: r2/lib/pages/pages.py:6295
 msgid "gold perks"
 msgstr "গোল্ডের সুবিধা"
 
-#: r2/lib/pages/pages.py:6293
+#: r2/lib/pages/pages.py:6311
 msgid "explore multis"
 msgstr "মাল্টিরেডিটগুলি দেখুন"
 
-#: r2/lib/pages/pages.py:6379
+#: r2/lib/pages/pages.py:6397
 msgid "faq"
 msgstr ""
 
-#: r2/lib/pages/pages.py:6380 r2/templates/usertext.html:159
+#: r2/lib/pages/pages.py:6398 r2/templates/usertext.html:159
 #, fuzzy
 #| msgid "moderating"
 msgid "formatting"
 msgstr "মডারেট করছেন"
 
-#: r2/lib/pages/pages.py:6449
+#: r2/lib/pages/pages.py:6467
 msgid "your subscribed vaults"
 msgstr ""
 
-#: r2/lib/pages/pages.py:6562
+#: r2/lib/pages/pages.py:6580
 #, python-format
 msgid "this promoted link uses city level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "এই প্রচারিত বা উন্নীত লিঙ্কটি শহর ভিত্তিক এবং আপনার অবস্থানের জন্য আপনাকে দেখানো হয়েছে। ([বিশদে জানুন](%(link)s))"
 
-#: r2/lib/pages/pages.py:6566
+#: r2/lib/pages/pages.py:6584
 #, python-format
 msgid "this promoted link uses country level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "এই প্রচারিত বা উন্নীত লিঙ্কটি দেশ ভিত্তিক এবং আপনার অবস্থানের জন্য আপনাকে দেখানো হয়েছে। ([বিশদে জানুন](%(link)s))"
@@ -4686,7 +4698,7 @@ msgstr "এই প্রচারিত বা উন্নীত লিঙ্�
 msgid "uniques by %s"
 msgstr "%s দিয়ে অনন্যগুলি"
 
-#: r2/lib/pages/trafficpages.py:139 r2/lib/pages/trafficpages.py:890 r2/templates/adverttrafficsummary.html:38 r2/templates/languagetrafficsummary.html:37 r2/templates/sitewidetraffic.html:41 r2/templates/tipprtraffic.html:105 r2/templates/vaulttrafficreport.html:46
+#: r2/lib/pages/trafficpages.py:139 r2/lib/pages/trafficpages.py:896 r2/templates/adverttrafficsummary.html:38 r2/templates/languagetrafficsummary.html:37 r2/templates/sitewidetraffic.html:41 r2/templates/tipprtraffic.html:105 r2/templates/vaulttrafficreport.html:46
 msgid "uniques"
 msgstr "অনন্য"
 
@@ -4695,7 +4707,7 @@ msgstr "অনন্য"
 msgid "pageviews by %s"
 msgstr "%s অনুসারে পেজভিউস"
 
-#: r2/lib/pages/trafficpages.py:142 r2/lib/pages/trafficpages.py:891 r2/templates/languagetrafficsummary.html:38 r2/templates/sitewidetraffic.html:42 r2/templates/tipprtraffic.html:106 r2/templates/vaulttrafficreport.html:47
+#: r2/lib/pages/trafficpages.py:142 r2/lib/pages/trafficpages.py:897 r2/templates/languagetrafficsummary.html:38 r2/templates/sitewidetraffic.html:42 r2/templates/tipprtraffic.html:106 r2/templates/vaulttrafficreport.html:47
 msgid "pageviews"
 msgstr "পেজভিউস"
 
@@ -4715,52 +4727,58 @@ msgid "activity by day"
 msgstr "অ্যাকাউন্টের গতিবিধি"
 
 #: r2/lib/pages/trafficpages.py:347
-msgid "total impressions by day"
+#, fuzzy
+#| msgid "total impressions by day"
+msgid "sponsored post impressions by day"
 msgstr "দিনানুসারে মোট ছাপ"
 
 #: r2/lib/pages/trafficpages.py:350
-msgid "total clicks by day"
+#, fuzzy
+#| msgid "total clicks by day"
+msgid "sponsored post clicks by day"
 msgstr "দিনানুসারে মোট ক্লিক্স"
 
 #: r2/lib/pages/trafficpages.py:355
-msgid "ad totals"
-msgstr "মোট বিজ্ঞাপন"
+#, fuzzy
+#| msgid "promoted links"
+msgid "sponsored post totals"
+msgstr "উন্নীত করা লিঙ্ক গুলি"
 
 #: r2/lib/pages/trafficpages.py:392 r2/models/promo.py:345
 msgid "frontpage"
 msgstr "ফ্রন্টপেজ"
 
-#: r2/lib/pages/trafficpages.py:471
+#: r2/lib/pages/trafficpages.py:477
 #, python-format
 msgid "impressions by %s"
 msgstr "%s অনুসারে ছাপ"
 
-#: r2/lib/pages/trafficpages.py:475
+#: r2/lib/pages/trafficpages.py:481
 msgid "unique clicks"
 msgstr "একক ক্লিক্স"
 
-#: r2/lib/pages/trafficpages.py:477
+#: r2/lib/pages/trafficpages.py:483
 #, python-format
 msgid "clicks by %s"
 msgstr "%s অনুসারে ক্লিক্স"
 
-#: r2/lib/pages/trafficpages.py:534
+#: r2/lib/pages/trafficpages.py:540
 msgid "subscriptions by day"
 msgstr "দিনানুসারে সদস্যতা"
 
-#: r2/lib/pages/trafficpages.py:535
+#: r2/lib/pages/trafficpages.py:541
 msgid "subscriptions"
 msgstr "সদস্যতাগুলি"
 
-#: r2/lib/pages/trafficpages.py:731 r2/templates/promotedlinktraffic.html:61
+#: r2/lib/pages/trafficpages.py:737 r2/templates/promotedlinktraffic.html:61
 msgid "total"
 msgstr "মোট"
 
-#: r2/lib/pages/trafficpages.py:845
+#: r2/lib/pages/trafficpages.py:851
 msgid "date and time (UTC)"
 msgstr "দিন ও সময় (ইউটীসী)"
 
-#: r2/lib/pages/trafficpages.py:848
+#: r2/lib/pages/trafficpages.py:854
 msgid "click-through rate (%)"
 msgstr "ক্লিক করার হার (%)"
 
@@ -6259,6 +6277,19 @@ msgstr ""
 #, python-format
 msgid "%(domain)s on %(tippr.net)s"
 msgstr ""
+
+#: r2/public/static/js/admin-servers.js:79
+msgid "The site isn't answering: it's down while a server installs the update. This page keeps checking and catches up when it's back."
+msgstr ""
+
+#: r2/public/static/js/admin-servers.js:81
+#, fuzzy, python-format
+#| msgid "minute"
+#| msgid_plural "minutes"
+msgid "(down %(num)s minute so far)"
+msgid_plural "(down %(num)s minutes so far)"
+msgstr[0] "মিনিট"
+msgstr[1] "মিনিট"
 
 #: r2/public/static/js/embed.js:7
 msgid "Embed preview:"
@@ -8886,207 +8917,222 @@ msgstr ""
 msgid "start export"
 msgstr "শুরু হওয়ার তারিখ"
 
-#: r2/templates/adminserverstatus.html:25
+#: r2/templates/adminserverstatus.html:29
 msgid "Each server reports its state here once a minute (tippr-job-server_status). Only the latest report is kept; a server that stops reporting is flagged after 3 minutes and dropped after 7 days, or forget it below once it's out of service."
 msgstr ""
 
-#: r2/templates/adminserverstatus.html:28
+#: r2/templates/adminserverstatus.html:32
 msgid "No server has reported yet. Reports start within a minute of installing or upgrading (the tippr-job-server_status timer)."
 msgstr ""
 
-#: r2/templates/adminserverstatus.html:33
+#: r2/templates/adminserverstatus.html:37
 #, fuzzy
 #| msgid "date"
 msgid "updates"
 msgstr "তারিখ"
 
-#: r2/templates/adminserverstatus.html:35
+#: r2/templates/adminserverstatus.html:39
 #, python-format
 msgid "GitHub couldn't be asked about releases (%(error)s); trying again in a few minutes."
 msgstr ""
 
-#: r2/templates/adminserverstatus.html:37
+#: r2/templates/adminserverstatus.html:41
 #, python-format
 msgid "No release of %(repo)s has an installer yet."
 msgstr ""
 
-#: r2/templates/adminserverstatus.html:40
+#: r2/templates/adminserverstatus.html:44
 msgid "The newest release is"
 msgstr ""
 
-#: r2/templates/adminserverstatus.html:47
+#: r2/templates/adminserverstatus.html:51
 #, python-format
 msgid "an update is available for %(n)s of your servers"
 msgstr ""
 
-#: r2/templates/adminserverstatus.html:49
+#: r2/templates/adminserverstatus.html:53
 msgid "every server runs it, or a newer one."
 msgstr ""
 
-#: r2/templates/adminserverstatus.html:53
+#: r2/templates/adminserverstatus.html:57
 msgid "A pre-release is out too:"
 msgstr ""
 
-#: r2/templates/adminserverstatus.html:56
+#: r2/templates/adminserverstatus.html:60
 msgid "Read the release's notes before updating: anything that needs doing by hand is in them."
 msgstr ""
 
-#: r2/templates/adminserverstatus.html:63
+#: r2/templates/adminserverstatus.html:67
 #, python-format
 msgid "%(user)s asked for %(version)s %(time)s ago%(backup)s."
 msgstr ""
 
-#: r2/templates/adminserverstatus.html:63
+#: r2/templates/adminserverstatus.html:67
 msgid ", with a backup first"
 msgstr ""
 
-#: r2/templates/adminserverstatus.html:64
+#: r2/templates/adminserverstatus.html:68
 msgid "Each server updates within a minute or so of its turn, one at a time; the site is down on each for a few minutes while it does. Its state is on its card below."
 msgstr ""
 
 #: r2/templates/adminserverstatus.html:70
+msgid "This page keeps itself up to date until it's done, including while the site is down."
+msgstr ""
+
+#: r2/templates/adminserverstatus.html:78
 msgid "clear this"
 msgstr ""
 
-#: r2/templates/adminserverstatus.html:71
+#: r2/templates/adminserverstatus.html:79
 msgid "(servers that haven't started don't; this doesn't undo an update)"
 msgstr ""
 
-#: r2/templates/adminserverstatus.html:77
+#: r2/templates/adminserverstatus.html:85
 msgid "Update the servers to this release? Each one goes down for a few minutes while it updates, one at a time. Make a Proxmox snapshot first if you can."
 msgstr ""
 
-#: r2/templates/adminserverstatus.html:83
+#: r2/templates/adminserverstatus.html:91
 msgid " (pre-release)"
 msgstr ""
 
-#: r2/templates/adminserverstatus.html:86
+#: r2/templates/adminserverstatus.html:94
 msgid "make a site backup first"
 msgstr ""
 
-#: r2/templates/adminserverstatus.html:87
+#: r2/templates/adminserverstatus.html:95
 msgid "update the servers"
 msgstr ""
 
-#: r2/templates/adminserverstatus.html:89
+#: r2/templates/adminserverstatus.html:97
 msgid "Each server downloads the release's installer from GitHub, checks it against the release's checksums, and re-runs the installer, as in the Proxmox upgrade steps. If the site doesn't come back, it puts the old version back. Only Proxmox containers (with tippr-firstboot) can update this way. A snapshot of the container first is still the surest way back."
 msgstr ""
 
-#: r2/templates/adminserverstatus.html:92
+#: r2/templates/adminserverstatus.html:100
 msgid "Updating from this page is off (TIPPR_WEB_UPDATES=0 in the installer)."
 msgstr ""
 
-#: r2/templates/adminserverstatus.html:114
+#: r2/templates/adminserverstatus.html:123
 #, fuzzy
 #| msgid "controversial"
 msgid "version"
 msgstr "বিতর্কিত"
 
-#: r2/templates/adminserverstatus.html:120
+#: r2/templates/adminserverstatus.html:129
 #, python-format
 msgid "%(version)s is out"
 msgstr ""
 
-#: r2/templates/adminserverstatus.html:125
+#: r2/templates/adminserverstatus.html:135 r2/templates/adminserverstatus.html:156
 #, fuzzy
 #| msgid "date"
 msgid "update"
 msgstr "তারিখ"
 
-#: r2/templates/adminserverstatus.html:128
+#: r2/templates/adminserverstatus.html:138
 #, fuzzy, python-format
 #| msgid "no permissions"
 msgid "to %(version)s"
 msgstr "কোনও অনুমতি নেই"
 
-#: r2/templates/adminserverstatus.html:130
+#: r2/templates/adminserverstatus.html:140
 #, python-format
 msgid "(from %(version)s)"
 msgstr ""
 
-#: r2/templates/adminserverstatus.html:136
+#: r2/templates/adminserverstatus.html:143
+#, fuzzy, python-format
+#| msgid "a user by name"
+msgid "for %(time)s"
+msgstr "একটি ইউজার নাম অনুসারে"
+
+#: r2/templates/adminserverstatus.html:150
 #, fuzzy
 #| msgid "blog"
 msgid "log"
 msgstr "ব্লগ"
 
-#: r2/templates/adminserverstatus.html:144
+#: r2/templates/adminserverstatus.html:158
+#, python-format
+msgid "asked for %(version)s: it starts within a minute, or when it's this server's turn"
+msgstr ""
+
+#: r2/templates/adminserverstatus.html:164
 #, fuzzy, python-format
 #| msgid "a user by name"
 msgid "up %(time)s"
 msgstr "একটি ইউজার নাম অনুসারে"
 
-#: r2/templates/adminserverstatus.html:147
+#: r2/templates/adminserverstatus.html:167
 msgid "load"
 msgstr ""
 
-#: r2/templates/adminserverstatus.html:149
+#: r2/templates/adminserverstatus.html:169
 #, python-format
 msgid "(1, 5 and 15 minutes, on %(n)s CPUs)"
 msgstr ""
 
-#: r2/templates/adminserverstatus.html:151
+#: r2/templates/adminserverstatus.html:171
 msgid "memory"
 msgstr ""
 
-#: r2/templates/adminserverstatus.html:154
+#: r2/templates/adminserverstatus.html:174
 #, python-format
 msgid "%(used)s of %(total)s used (%(p)s%%)"
 msgstr ""
 
-#: r2/templates/adminserverstatus.html:156
+#: r2/templates/adminserverstatus.html:176
 #, python-format
 msgid "swap %(used)s of %(total)s"
 msgstr ""
 
-#: r2/templates/adminserverstatus.html:161
+#: r2/templates/adminserverstatus.html:181
 msgid "disk"
 msgstr ""
 
-#: r2/templates/adminserverstatus.html:165
+#: r2/templates/adminserverstatus.html:185
 #, python-format
 msgid "%(used)s of %(total)s used (%(p)s%%), %(free)s free"
 msgstr ""
 
-#: r2/templates/adminserverstatus.html:169
+#: r2/templates/adminserverstatus.html:189
 #, fuzzy
 #| msgid "overview"
 msgid "services"
 msgstr "পরিদর্শন"
 
-#: r2/templates/adminserverstatus.html:178
+#: r2/templates/adminserverstatus.html:198
 msgid "Forget this server? It comes back if it reports again."
 msgstr ""
 
-#: r2/templates/adminserverstatus.html:180
+#: r2/templates/adminserverstatus.html:200
 #, fuzzy
 #| msgid "target"
 msgid "forget"
 msgstr "লক্ষ্য"
 
-#: r2/templates/adminserverstatus.html:186
+#: r2/templates/adminserverstatus.html:206
 msgid "queues"
 msgstr ""
 
-#: r2/templates/adminserverstatus.html:188
+#: r2/templates/adminserverstatus.html:208
 msgid "RabbitMQ couldn't be asked about its queues."
 msgstr ""
 
-#: r2/templates/adminserverstatus.html:190
+#: r2/templates/adminserverstatus.html:210
 msgid "Work waiting for the queue processors (tippr-consumers). A queue that keeps growing means they aren't keeping up, or aren't running."
 msgstr ""
 
-#: r2/templates/adminserverstatus.html:192
+#: r2/templates/adminserverstatus.html:212
 msgid "queue"
 msgstr ""
 
-#: r2/templates/adminserverstatus.html:192
+#: r2/templates/adminserverstatus.html:212
 #, fuzzy
 #| msgid "editing"
 msgid "waiting"
 msgstr "এডিটিং"
 
-#: r2/templates/adminserverstatus.html:192
+#: r2/templates/adminserverstatus.html:212
 msgid "processors"
 msgstr ""
 
@@ -10088,11 +10134,17 @@ msgid "What people who haven't subscribed to anything see, and what new accounts
 msgstr ""
 
 #: r2/templates/adverttrafficsummary.html:34
-msgid "top adverts"
-msgstr ""
+#, fuzzy
+#| msgid "this month"
+msgid "top adverts this month"
+msgstr "এই মাস"
 
 #: r2/templates/adverttrafficsummary.html:37
 msgid "ad"
+msgstr ""
+
+#: r2/templates/adverttrafficsummary.html:57
+msgid "Sponsored posts count an impression when the site shows one in a listing, and a click when someone follows it. AdSense units count each one the site puts on a page; whether Google filled it, and its clicks and earnings, are in your AdSense account."
 msgstr ""
 
 #: r2/templates/allinfobar.html:40
@@ -11534,7 +11586,7 @@ msgid "language traffic statistics"
 msgstr ""
 
 #: r2/templates/languagetrafficsummary.html:33
-msgid "traffic by language"
+msgid "traffic by language this month"
 msgstr ""
 
 #: r2/templates/linkcommentssettings.html:44
@@ -14576,8 +14628,10 @@ msgid "note: you will only be eligible for a gilding trophy if this is set to \"
 msgstr ""
 
 #: r2/templates/sitewidetraffic.html:37
-msgid "top vaults"
-msgstr ""
+#, fuzzy
+#| msgid "this month"
+msgid "top vaults this month"
+msgstr "এই মাস"
 
 #: r2/templates/sitewidetraffic.html:37 r2/templates/vaulttrafficreport.html:36
 msgid "make report"

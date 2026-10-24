@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tippr\n"
 "Report-Msgid-Bugs-To: https://github.com/TechIdiots-LLC/tippr-i18n/issues\n"
-"POT-Creation-Date: 2026-10-24 12:25-0400\n"
+"POT-Creation-Date: 2026-10-24 13:04-0400\n"
 "PO-Revision-Date: 2017-04-24 18:49-0400\n"
 "Last-Translator: tippr translators\n"
 "Language-Team: Chinese Traditional\n"
@@ -19,7 +19,7 @@ msgstr ""
 msgid "Choose an image of at most 1 MB."
 msgstr "請選擇不超過 1 MB 的圖片。"
 
-#: r2/controllers/api.py:223 r2/controllers/api.py:249 r2/controllers/api.py:4436 r2/controllers/api.py:4506 r2/controllers/listingcontroller.py:766 r2/lib/pages/pages.py:6382
+#: r2/controllers/api.py:223 r2/controllers/api.py:249 r2/controllers/api.py:4436 r2/controllers/api.py:4506 r2/controllers/listingcontroller.py:766 r2/lib/pages/pages.py:6400
 msgid "API"
 msgstr "API"
 
@@ -73,7 +73,7 @@ msgstr "這次登入花太久了，請重新開始。"
 msgid "That account is linked already: sign in with it."
 msgstr "該帳號已經連結：請用它登入。"
 
-#: r2/controllers/api.py:1436 r2/controllers/api.py:1817 r2/controllers/api.py:2719 r2/controllers/api.py:3019 r2/controllers/api.py:3346 r2/controllers/api.py:4228 r2/controllers/api.py:4284 r2/controllers/api.py:4338 r2/controllers/api.py:4571 r2/controllers/api.py:4576 r2/controllers/api.py:4811 r2/controllers/api.py:4876 r2/controllers/api.py:4954 r2/controllers/api.py:5020 r2/controllers/api.py:5093 r2/controllers/api.py:5184 r2/controllers/api.py:5216 r2/controllers/api.py:5236 r2/controllers/api.py:5750 r2/controllers/api.py:5790 r2/controllers/api.py:6024 r2/controllers/api.py:6042 r2/controllers/api.py:6390 r2/lib/pages/pages.py:6273
+#: r2/controllers/api.py:1436 r2/controllers/api.py:1817 r2/controllers/api.py:2719 r2/controllers/api.py:3019 r2/controllers/api.py:3346 r2/controllers/api.py:4228 r2/controllers/api.py:4284 r2/controllers/api.py:4338 r2/controllers/api.py:4571 r2/controllers/api.py:4576 r2/controllers/api.py:4811 r2/controllers/api.py:4876 r2/controllers/api.py:4954 r2/controllers/api.py:5020 r2/controllers/api.py:5093 r2/controllers/api.py:5184 r2/controllers/api.py:5216 r2/controllers/api.py:5236 r2/controllers/api.py:5750 r2/controllers/api.py:5790 r2/controllers/api.py:6024 r2/controllers/api.py:6042 r2/controllers/api.py:6390 r2/lib/pages/pages.py:6291
 msgid "saved"
 msgstr "已儲存"
 
@@ -93,7 +93,7 @@ msgstr "已更新您的電子郵件地址"
 msgid "your password has been updated"
 msgstr "已更新您的密碼"
 
-#: r2/controllers/api.py:2074 r2/lib/menus.py:196 r2/templates/adminserverstatus.html:141
+#: r2/controllers/api.py:2074 r2/lib/menus.py:196 r2/templates/adminserverstatus.html:161
 msgid "reported"
 msgstr "檢舉過的"
 
@@ -503,7 +503,7 @@ msgstr "tippr 按鈕"
 msgid "tippr widget"
 msgstr "tippr 小工具"
 
-#: r2/controllers/embed.py:74 r2/controllers/policies.py:76 r2/lib/pages/pages.py:1137 r2/lib/pages/pages.py:6378 r2/templates/printablebuttons.html:150
+#: r2/controllers/embed.py:74 r2/controllers/policies.py:76 r2/lib/pages/pages.py:1137 r2/lib/pages/pages.py:6396 r2/templates/printablebuttons.html:150
 msgid "help"
 msgstr "幫助"
 
@@ -537,7 +537,7 @@ msgstr "您要求的網頁不存在"
 msgid "suspended"
 msgstr "已停權"
 
-#: r2/controllers/front.py:247 r2/lib/pages/pages.py:6260
+#: r2/controllers/front.py:247 r2/lib/pages/pages.py:6278
 msgid "explore"
 msgstr "探索"
 
@@ -569,7 +569,7 @@ msgstr "顯示%d"
 msgid "create a vault"
 msgstr "建立看板"
 
-#: r2/controllers/front.py:738 r2/controllers/front.py:744 r2/controllers/listingcontroller.py:813 r2/controllers/listingcontroller.py:828 r2/controllers/listingcontroller.py:1192 r2/controllers/listingcontroller.py:1203 r2/lib/menus.py:203 r2/lib/menus.py:453 r2/lib/menus.py:666 r2/lib/pages/pages.py:5147 r2/lib/pages/pages.py:5156 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
+#: r2/controllers/front.py:738 r2/controllers/front.py:744 r2/controllers/listingcontroller.py:813 r2/controllers/listingcontroller.py:828 r2/controllers/listingcontroller.py:1192 r2/controllers/listingcontroller.py:1203 r2/lib/menus.py:203 r2/lib/menus.py:453 r2/lib/menus.py:666 r2/lib/pages/pages.py:5165 r2/lib/pages/pages.py:5174 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
 msgid "all"
 msgstr "所有"
 
@@ -593,7 +593,7 @@ msgstr "貼文和留言"
 msgid "posts"
 msgstr "貼文"
 
-#: r2/controllers/front.py:949 r2/controllers/listingcontroller.py:1795 r2/lib/pages/pages.py:5901 r2/templates/adminuser.html:37 r2/templates/createvault.html:288 r2/templates/link.xml:95
+#: r2/controllers/front.py:949 r2/controllers/listingcontroller.py:1795 r2/lib/pages/pages.py:5919 r2/templates/adminuser.html:37 r2/templates/createvault.html:288 r2/templates/link.xml:95
 msgid "comments"
 msgstr "留言"
 
@@ -1255,15 +1255,15 @@ msgstr "廣告"
 msgid "translating"
 msgstr "翻譯"
 
-#: r2/controllers/policies.py:71 r2/controllers/policies.py:89 r2/lib/menus.py:101 r2/lib/pages/pages.py:6389 r2/templates/contactus.html:92
+#: r2/controllers/policies.py:71 r2/controllers/policies.py:89 r2/lib/menus.py:101 r2/lib/pages/pages.py:6407 r2/templates/contactus.html:92
 msgid "user agreement"
 msgstr "使用者協議"
 
-#: r2/controllers/policies.py:72 r2/controllers/policies.py:86 r2/lib/menus.py:102 r2/lib/pages/pages.py:6388 r2/templates/contactus.html:84 r2/templates/utils.html:543
+#: r2/controllers/policies.py:72 r2/controllers/policies.py:86 r2/lib/menus.py:102 r2/lib/pages/pages.py:6406 r2/templates/contactus.html:84 r2/templates/utils.html:543
 msgid "privacy policy"
 msgstr "隱私權條款"
 
-#: r2/controllers/policies.py:73 r2/controllers/policies.py:92 r2/lib/menus.py:100 r2/lib/pages/pages.py:6390 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:237
+#: r2/controllers/policies.py:73 r2/controllers/policies.py:92 r2/lib/menus.py:100 r2/lib/pages/pages.py:6408 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:237
 msgid "content policy"
 msgstr "內容政策"
 
@@ -1403,7 +1403,7 @@ msgstr "選擇圖片"
 msgid "too big. keep it under 500 KB"
 msgstr "太大了。請保持在 500 KB 以下"
 
-#: r2/controllers/tippr_base.py:1483 r2/lib/pages/pages.py:4676 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
+#: r2/controllers/tippr_base.py:1483 r2/lib/pages/pages.py:4694 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
 msgid "banned"
 msgstr "已禁止"
 
@@ -1480,6 +1480,22 @@ msgstr "維基錯誤"
 #: r2/controllers/wiki.py:394
 msgid "You are doing that too much, please try again later."
 msgstr "你嘗試太多次了，請稍後再試。"
+
+#: r2/lib/ad_traffic.py:47
+#, fuzzy
+#| msgid "sidebar ad unit ID"
+msgid "AdSense: sidebar unit"
+msgstr "側邊欄廣告單元 ID"
+
+#: r2/lib/ad_traffic.py:48
+#, fuzzy
+#| msgid "in-feed ad unit ID"
+msgid "AdSense: in-feed units"
+msgstr "動態內廣告單元 ID"
+
+#: r2/lib/ad_traffic.py:49
+msgid "AdSense: Auto ads pages"
+msgstr ""
 
 #: r2/lib/ai_content.py:35 r2/lib/scales.py:49
 msgid "human-made"
@@ -3004,7 +3020,7 @@ msgstr "付款"
 msgid "sign-in providers"
 msgstr "登入服務提供者"
 
-#: r2/lib/menus.py:169 r2/templates/adminserverstatus.html:24
+#: r2/lib/menus.py:169 r2/templates/adminserverstatus.html:28
 msgid "servers"
 msgstr "伺服器"
 
@@ -3724,7 +3740,7 @@ msgid "message"
 msgid_plural "messages"
 msgstr[0] "信息"
 
-#: r2/lib/pages/admin_pages.py:119 r2/lib/pages/trafficpages.py:889 r2/lib/strings.py:264 r2/templates/adminfeeds.html:45 r2/templates/adminfeeds.html:86 r2/templates/adminvaults.html:49 r2/templates/sitewidetraffic.html:40 r2/templates/vaulttrafficreport.html:45
+#: r2/lib/pages/admin_pages.py:119 r2/lib/pages/trafficpages.py:895 r2/lib/strings.py:264 r2/templates/adminfeeds.html:45 r2/templates/adminfeeds.html:86 r2/templates/adminvaults.html:49 r2/templates/sitewidetraffic.html:40 r2/templates/vaulttrafficreport.html:45
 msgid "vault"
 msgid_plural "vaults"
 msgstr[0] "看板"
@@ -3779,7 +3795,7 @@ msgid "hour"
 msgid_plural "hours"
 msgstr[0] "小時"
 
-#: r2/lib/pages/pages.py:347 r2/lib/pages/pages.py:5701 r2/lib/strings.py:279 r2/public/static/js/sponsored.js:1484 r2/public/static/js/sponsored.js:1851 r2/templates/intimeoutinterstitial.html:44 r2/templates/tipprtraffic.html:104
+#: r2/lib/pages/pages.py:347 r2/lib/pages/pages.py:5719 r2/lib/strings.py:279 r2/public/static/js/sponsored.js:1484 r2/public/static/js/sponsored.js:1851 r2/templates/intimeoutinterstitial.html:44 r2/templates/tipprtraffic.html:104
 msgid "day"
 msgid_plural "days"
 msgstr[0] "天"
@@ -4220,7 +4236,7 @@ msgstr "關掉管理權限"
 msgid "<3"
 msgstr "<3"
 
-#: r2/lib/pages/pages.py:1342 r2/templates/adminserverstatus.html:142
+#: r2/lib/pages/pages.py:1342 r2/templates/adminserverstatus.html:162
 #, python-format
 msgid "%(time)s ago"
 msgstr "%(time)s前"
@@ -4377,7 +4393,7 @@ msgstr "你有信用卡金幣訂閱。你的卡片（末四碼 %(last4)s）將�
 msgid "try entering those letters again"
 msgstr "請再輸入一次那些字母"
 
-#: r2/lib/pages/pages.py:3660 r2/lib/pages/pages.py:6381 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
+#: r2/lib/pages/pages.py:3660 r2/lib/pages/pages.py:6399 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
 msgid "search"
 msgstr "搜尋"
 
@@ -4414,213 +4430,213 @@ msgstr "版本與其他的不同"
 msgid "another server has the same name: set TIPPR_SERVER_NAME on one of them"
 msgstr "另一台伺服器使用相同名稱：請在其中一台設定 TIPPR_SERVER_NAME"
 
-#: r2/lib/pages/pages.py:4384
+#: r2/lib/pages/pages.py:4402
 #, python-format
 msgid "%(n)s seconds"
 msgstr "%(n)s 秒"
 
-#: r2/lib/pages/pages.py:4386
+#: r2/lib/pages/pages.py:4404
 #, python-format
 msgid "%(n)s minutes"
 msgstr "%(n)s 分鐘"
 
-#: r2/lib/pages/pages.py:4388
+#: r2/lib/pages/pages.py:4406
 #, python-format
 msgid "%(n)s hours"
 msgstr "%(n)s 小時"
 
-#: r2/lib/pages/pages.py:4389
+#: r2/lib/pages/pages.py:4407
 #, python-format
 msgid "%(n)s days"
 msgstr "%(n)s 天"
 
-#: r2/lib/pages/pages.py:4405
+#: r2/lib/pages/pages.py:4423
 msgid "polling"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4411
+#: r2/lib/pages/pages.py:4429
 msgid "off (no event collector)"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4617 r2/lib/pages/pages.py:4726
+#: r2/lib/pages/pages.py:4635 r2/lib/pages/pages.py:4744
 msgid "added"
 msgstr "加入時間"
 
-#: r2/lib/pages/pages.py:4685 r2/models/modaction.py:146 r2/templates/printablebuttons.html:615
+#: r2/lib/pages/pages.py:4703 r2/models/modaction.py:146 r2/templates/printablebuttons.html:615
 msgid "muted"
 msgstr "已靜音"
 
-#: r2/lib/pages/pages.py:4703
+#: r2/lib/pages/pages.py:4721
 msgid "invited"
 msgstr "已邀請"
 
-#: r2/lib/pages/pages.py:4764
+#: r2/lib/pages/pages.py:4782
 msgid "grant flair"
 msgstr "賦予標籤"
 
-#: r2/lib/pages/pages.py:4766
+#: r2/lib/pages/pages.py:4784
 msgid "user flair templates"
 msgstr "使用者標籤範本"
 
-#: r2/lib/pages/pages.py:4768
+#: r2/lib/pages/pages.py:4786
 msgid "link flair templates"
 msgstr "連結標籤範本"
 
-#: r2/lib/pages/pages.py:5140 r2/templates/adminuser.html:73 r2/templates/adminuser.html:98 r2/templates/adminuser.html:108 r2/templates/flairpane.html:79
+#: r2/lib/pages/pages.py:5158 r2/templates/adminuser.html:73 r2/templates/adminuser.html:98 r2/templates/adminuser.html:108 r2/templates/flairpane.html:79
 msgid "none"
 msgstr "無"
 
-#: r2/lib/pages/pages.py:5271
+#: r2/lib/pages/pages.py:5289
 msgid "suggestions:"
 msgstr "建議："
 
-#: r2/lib/pages/pages.py:5275
+#: r2/lib/pages/pages.py:5293
 #, python-format
 msgid "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/v/selfserve](%(selfserve)s)."
 msgstr "於此頁面建立您的廣告。有任何疑惑？到 [幫助中心](%(help_center)s) 或 [/v/selfserve](%(selfserve)s) 看看吧。"
 
-#: r2/lib/pages/pages.py:5893
+#: r2/lib/pages/pages.py:5911
 msgid "start date"
 msgstr "開始日期"
 
-#: r2/lib/pages/pages.py:5894
+#: r2/lib/pages/pages.py:5912
 msgid "end date"
 msgstr "結束日期"
 
-#: r2/lib/pages/pages.py:5896 r2/templates/createvault.html:266
+#: r2/lib/pages/pages.py:5914 r2/templates/createvault.html:266
 msgid "links"
 msgstr "連結"
 
-#: r2/lib/pages/pages.py:5898 r2/lib/pages/pages.py:5917 r2/templates/adminpaymentsettings.html:239 r2/templates/promotedlinktraffic.html:42 r2/templates/timeserieschart.html:40
+#: r2/lib/pages/pages.py:5916 r2/lib/pages/pages.py:5935 r2/templates/adminpaymentsettings.html:239 r2/templates/promotedlinktraffic.html:42 r2/templates/timeserieschart.html:40
 msgid "date"
 msgstr "日期"
 
-#: r2/lib/pages/pages.py:5901 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
+#: r2/lib/pages/pages.py:5919 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
 msgid "id"
 msgstr "id"
 
-#: r2/lib/pages/pages.py:5901 r2/lib/pages/pages.py:5920 r2/templates/promotelinkbase.html:856
+#: r2/lib/pages/pages.py:5919 r2/lib/pages/pages.py:5938 r2/templates/promotelinkbase.html:856
 msgid "owner"
 msgstr "所有者"
 
-#: r2/lib/pages/pages.py:5901 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
+#: r2/lib/pages/pages.py:5919 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
 msgid "url"
 msgstr "網址"
 
-#: r2/lib/pages/pages.py:5902
+#: r2/lib/pages/pages.py:5920
 msgid "upvotes"
 msgstr "好評"
 
-#: r2/lib/pages/pages.py:5902
+#: r2/lib/pages/pages.py:5920
 msgid "downvotes"
 msgstr "負評"
 
-#: r2/lib/pages/pages.py:5902 r2/lib/pages/trafficpages.py:351 r2/lib/pages/trafficpages.py:847 r2/templates/promotedlinktraffic.html:44 r2/templates/promotedlinktraffic.html:124
+#: r2/lib/pages/pages.py:5920 r2/lib/pages/trafficpages.py:351 r2/lib/pages/trafficpages.py:853 r2/templates/promotedlinktraffic.html:44 r2/templates/promotedlinktraffic.html:124
 msgid "clicks"
 msgstr "點擊"
 
-#: r2/lib/pages/pages.py:5902 r2/lib/pages/trafficpages.py:348 r2/lib/pages/trafficpages.py:472 r2/lib/pages/trafficpages.py:846 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
+#: r2/lib/pages/pages.py:5920 r2/lib/pages/trafficpages.py:348 r2/lib/pages/trafficpages.py:478 r2/lib/pages/trafficpages.py:852 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
 msgid "impressions"
 msgstr "印象"
 
-#: r2/lib/pages/pages.py:5915
+#: r2/lib/pages/pages.py:5933
 msgid "campaigns"
 msgstr "活動"
 
-#: r2/lib/pages/pages.py:5920
+#: r2/lib/pages/pages.py:5938
 msgid "link id"
 msgstr "連結 id"
 
-#: r2/lib/pages/pages.py:5920
+#: r2/lib/pages/pages.py:5938
 msgid "campaign id"
 msgstr "活動 id"
 
-#: r2/lib/pages/pages.py:5920 r2/templates/promotedlinktraffic.html:117 r2/templates/refundpage.html:56
+#: r2/lib/pages/pages.py:5938 r2/templates/promotedlinktraffic.html:117 r2/templates/refundpage.html:56
 msgid "target"
 msgstr "目標"
 
-#: r2/lib/pages/pages.py:5921 r2/templates/promotelinkedit.html:157
+#: r2/lib/pages/pages.py:5939 r2/templates/promotelinkedit.html:157
 msgid "bid"
 msgstr "競標"
 
-#: r2/lib/pages/pages.py:5921
+#: r2/lib/pages/pages.py:5939
 msgid "frontpage clicks"
 msgstr "頭版點擊"
 
-#: r2/lib/pages/pages.py:5921
+#: r2/lib/pages/pages.py:5939
 msgid "frontpage impressions"
 msgstr "頭版印象"
 
-#: r2/lib/pages/pages.py:5922
+#: r2/lib/pages/pages.py:5940
 msgid "vault clicks"
 msgstr "看板點擊"
 
-#: r2/lib/pages/pages.py:5922
+#: r2/lib/pages/pages.py:5940
 msgid "vault impressions"
 msgstr "看板印象"
 
-#: r2/lib/pages/pages.py:5923 r2/lib/pages/trafficpages.py:478
+#: r2/lib/pages/pages.py:5941 r2/lib/pages/trafficpages.py:484
 msgid "total clicks"
 msgstr "總共點閱率"
 
-#: r2/lib/pages/pages.py:5923
+#: r2/lib/pages/pages.py:5941
 msgid "total impressions"
 msgstr "總曝光次數"
 
-#: r2/lib/pages/pages.py:6126 r2/templates/accountactivitybox.html:27
+#: r2/lib/pages/pages.py:6144 r2/templates/accountactivitybox.html:27
 msgid "account activity"
 msgstr "帳號活動"
 
-#: r2/lib/pages/pages.py:6258
+#: r2/lib/pages/pages.py:6276
 msgid "subscribed"
 msgstr "已訂閱"
 
-#: r2/lib/pages/pages.py:6259 r2/templates/preffeeds.html:58
+#: r2/lib/pages/pages.py:6277 r2/templates/preffeeds.html:58
 msgid "your front page"
 msgstr "您的首頁"
 
-#: r2/lib/pages/pages.py:6262 r2/lib/pages/pages.py:6267 r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:104
+#: r2/lib/pages/pages.py:6280 r2/lib/pages/pages.py:6285 r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:104
 msgid "everything"
 msgstr "全部"
 
-#: r2/lib/pages/pages.py:6265 r2/lib/pages/pages.py:6268
+#: r2/lib/pages/pages.py:6283 r2/lib/pages/pages.py:6286
 msgid "from all vaults"
 msgstr "來自所有看板"
 
-#: r2/lib/pages/pages.py:6270
+#: r2/lib/pages/pages.py:6288
 msgid "moderating"
 msgstr "正管理著"
 
-#: r2/lib/pages/pages.py:6271
+#: r2/lib/pages/pages.py:6289
 msgid "vaults you mod"
 msgstr "您擔任版主的看板"
 
-#: r2/lib/pages/pages.py:6277
+#: r2/lib/pages/pages.py:6295
 msgid "gold perks"
 msgstr "金幣利益"
 
-#: r2/lib/pages/pages.py:6293
+#: r2/lib/pages/pages.py:6311
 msgid "explore multis"
 msgstr "探索看板群組"
 
-#: r2/lib/pages/pages.py:6379
+#: r2/lib/pages/pages.py:6397
 msgid "faq"
 msgstr "常見問題"
 
-#: r2/lib/pages/pages.py:6380 r2/templates/usertext.html:159
+#: r2/lib/pages/pages.py:6398 r2/templates/usertext.html:159
 msgid "formatting"
 msgstr "格式"
 
-#: r2/lib/pages/pages.py:6449
+#: r2/lib/pages/pages.py:6467
 msgid "your subscribed vaults"
 msgstr "你已訂閱的看板"
 
-#: r2/lib/pages/pages.py:6562
+#: r2/lib/pages/pages.py:6580
 #, python-format
 msgid "this promoted link uses city level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "這個推廣連結使用城市層級的鎖定，可能因為你的所在地而顯示給你。（[了解更多](%(link)s)）"
 
-#: r2/lib/pages/pages.py:6566
+#: r2/lib/pages/pages.py:6584
 #, python-format
 msgid "this promoted link uses country level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "這個推廣連結使用國家層級的鎖定，可能因為你的所在地而顯示給你。（[了解更多](%(link)s)）"
@@ -4630,7 +4646,7 @@ msgstr "這個推廣連結使用國家層級的鎖定，可能因為你的所在
 msgid "uniques by %s"
 msgstr "%s 的不重複造訪數"
 
-#: r2/lib/pages/trafficpages.py:139 r2/lib/pages/trafficpages.py:890 r2/templates/adverttrafficsummary.html:38 r2/templates/languagetrafficsummary.html:37 r2/templates/sitewidetraffic.html:41 r2/templates/tipprtraffic.html:105 r2/templates/vaulttrafficreport.html:46
+#: r2/lib/pages/trafficpages.py:139 r2/lib/pages/trafficpages.py:896 r2/templates/adverttrafficsummary.html:38 r2/templates/languagetrafficsummary.html:37 r2/templates/sitewidetraffic.html:41 r2/templates/tipprtraffic.html:105 r2/templates/vaulttrafficreport.html:46
 msgid "uniques"
 msgstr "不重複訪客"
 
@@ -4639,7 +4655,7 @@ msgstr "不重複訪客"
 msgid "pageviews by %s"
 msgstr "%s 的頁面瀏覽數"
 
-#: r2/lib/pages/trafficpages.py:142 r2/lib/pages/trafficpages.py:891 r2/templates/languagetrafficsummary.html:38 r2/templates/sitewidetraffic.html:42 r2/templates/tipprtraffic.html:106 r2/templates/vaulttrafficreport.html:47
+#: r2/lib/pages/trafficpages.py:142 r2/lib/pages/trafficpages.py:897 r2/templates/languagetrafficsummary.html:38 r2/templates/sitewidetraffic.html:42 r2/templates/tipprtraffic.html:106 r2/templates/vaulttrafficreport.html:47
 msgid "pageviews"
 msgstr "點閱數"
 
@@ -4657,52 +4673,58 @@ msgid "activity by day"
 msgstr "每日活動"
 
 #: r2/lib/pages/trafficpages.py:347
-msgid "total impressions by day"
+#, fuzzy
+#| msgid "total impressions by day"
+msgid "sponsored post impressions by day"
 msgstr "每日總曝光數"
 
 #: r2/lib/pages/trafficpages.py:350
-msgid "total clicks by day"
+#, fuzzy
+#| msgid "total clicks by day"
+msgid "sponsored post clicks by day"
 msgstr "每日總計點擊數"
 
 #: r2/lib/pages/trafficpages.py:355
-msgid "ad totals"
-msgstr "廣告總計數"
+#, fuzzy
+#| msgid "sponsored link"
+msgid "sponsored post totals"
+msgstr "贊助連結"
 
 #: r2/lib/pages/trafficpages.py:392 r2/models/promo.py:345
 msgid "frontpage"
 msgstr "首頁"
 
-#: r2/lib/pages/trafficpages.py:471
+#: r2/lib/pages/trafficpages.py:477
 #, python-format
 msgid "impressions by %s"
 msgstr "每%s曝光次數"
 
-#: r2/lib/pages/trafficpages.py:475
+#: r2/lib/pages/trafficpages.py:481
 msgid "unique clicks"
 msgstr "不重複點擊"
 
-#: r2/lib/pages/trafficpages.py:477
+#: r2/lib/pages/trafficpages.py:483
 #, python-format
 msgid "clicks by %s"
 msgstr "%s 的點擊數"
 
-#: r2/lib/pages/trafficpages.py:534
+#: r2/lib/pages/trafficpages.py:540
 msgid "subscriptions by day"
 msgstr "每日訂閱數"
 
-#: r2/lib/pages/trafficpages.py:535
+#: r2/lib/pages/trafficpages.py:541
 msgid "subscriptions"
 msgstr "訂閱"
 
-#: r2/lib/pages/trafficpages.py:731 r2/templates/promotedlinktraffic.html:61
+#: r2/lib/pages/trafficpages.py:737 r2/templates/promotedlinktraffic.html:61
 msgid "total"
 msgstr "總計"
 
-#: r2/lib/pages/trafficpages.py:845
+#: r2/lib/pages/trafficpages.py:851
 msgid "date and time (UTC)"
 msgstr "日期與時間(UTC)"
 
-#: r2/lib/pages/trafficpages.py:848
+#: r2/lib/pages/trafficpages.py:854
 msgid "click-through rate (%)"
 msgstr "點閱率 (%)"
 
@@ -6161,6 +6183,17 @@ msgstr "%s 個看板，由 /u/%s 策劃"
 #, python-format
 msgid "%(domain)s on %(tippr.net)s"
 msgstr "%(tippr.net)s 上的 %(domain)s"
+
+#: r2/public/static/js/admin-servers.js:79
+msgid "The site isn't answering: it's down while a server installs the update. This page keeps checking and catches up when it's back."
+msgstr ""
+
+#: r2/public/static/js/admin-servers.js:81
+#, fuzzy, python-format
+#| msgid "%(n)s minutes"
+msgid "(down %(num)s minute so far)"
+msgid_plural "(down %(num)s minutes so far)"
+msgstr[0] "%(n)s 分鐘"
 
 #: r2/public/static/js/embed.js:7
 msgid "Embed preview:"
@@ -8610,195 +8643,210 @@ msgstr ""
 msgid "start export"
 msgstr "重新開始"
 
-#: r2/templates/adminserverstatus.html:25
+#: r2/templates/adminserverstatus.html:29
 msgid "Each server reports its state here once a minute (tippr-job-server_status). Only the latest report is kept; a server that stops reporting is flagged after 3 minutes and dropped after 7 days, or forget it below once it's out of service."
 msgstr "每台伺服器每分鐘在這裡回報一次狀態（tippr-job-server_status）。只保留最新的回報；停止回報的伺服器會在 3 分鐘後被標記，7 天後被移除，或在它停止服務後於下方忘記它。"
 
-#: r2/templates/adminserverstatus.html:28
+#: r2/templates/adminserverstatus.html:32
 msgid "No server has reported yet. Reports start within a minute of installing or upgrading (the tippr-job-server_status timer)."
 msgstr "還沒有伺服器回報。安裝或升級後一分鐘內就會開始回報（tippr-job-server_status 計時器）。"
 
-#: r2/templates/adminserverstatus.html:33
+#: r2/templates/adminserverstatus.html:37
 msgid "updates"
 msgstr "更新"
 
-#: r2/templates/adminserverstatus.html:35
+#: r2/templates/adminserverstatus.html:39
 #, python-format
 msgid "GitHub couldn't be asked about releases (%(error)s); trying again in a few minutes."
 msgstr "無法向 GitHub 詢問發布版本（%(error)s）；幾分鐘後會再試一次。"
 
-#: r2/templates/adminserverstatus.html:37
+#: r2/templates/adminserverstatus.html:41
 #, python-format
 msgid "No release of %(repo)s has an installer yet."
 msgstr "%(repo)s 還沒有附安裝程式的發布版本。"
 
-#: r2/templates/adminserverstatus.html:40
+#: r2/templates/adminserverstatus.html:44
 msgid "The newest release is"
 msgstr "最新的發布版本是"
 
-#: r2/templates/adminserverstatus.html:47
+#: r2/templates/adminserverstatus.html:51
 #, python-format
 msgid "an update is available for %(n)s of your servers"
 msgstr "你有 %(n)s 台伺服器可以更新"
 
-#: r2/templates/adminserverstatus.html:49
+#: r2/templates/adminserverstatus.html:53
 msgid "every server runs it, or a newer one."
 msgstr "所有伺服器都在使用這個版本或更新的版本。"
 
-#: r2/templates/adminserverstatus.html:53
+#: r2/templates/adminserverstatus.html:57
 msgid "A pre-release is out too:"
 msgstr "也有預先發布版本："
 
-#: r2/templates/adminserverstatus.html:56
+#: r2/templates/adminserverstatus.html:60
 msgid "Read the release's notes before updating: anything that needs doing by hand is in them."
 msgstr "更新前請閱讀發布說明：需要手動處理的事項都寫在裡面。"
 
-#: r2/templates/adminserverstatus.html:63
+#: r2/templates/adminserverstatus.html:67
 #, python-format
 msgid "%(user)s asked for %(version)s %(time)s ago%(backup)s."
 msgstr "%(user)s 在 %(time)s前要求了 %(version)s%(backup)s。"
 
-#: r2/templates/adminserverstatus.html:63
+#: r2/templates/adminserverstatus.html:67
 msgid ", with a backup first"
 msgstr "，並先進行備份"
 
-#: r2/templates/adminserverstatus.html:64
+#: r2/templates/adminserverstatus.html:68
 #, fuzzy
 #| msgid "Each server updates within a minute or so of its turn, one at a time; the site is down on each for 5-10 minutes while it does. Its state is on its card below."
 msgid "Each server updates within a minute or so of its turn, one at a time; the site is down on each for a few minutes while it does. Its state is on its card below."
 msgstr "每台伺服器輪到時會在一分鐘左右內更新，一次一台；更新期間該台的網站會停止 5-10 分鐘。它的狀態顯示在下方的卡片上。"
 
 #: r2/templates/adminserverstatus.html:70
+msgid "This page keeps itself up to date until it's done, including while the site is down."
+msgstr ""
+
+#: r2/templates/adminserverstatus.html:78
 msgid "clear this"
 msgstr "清除"
 
-#: r2/templates/adminserverstatus.html:71
+#: r2/templates/adminserverstatus.html:79
 msgid "(servers that haven't started don't; this doesn't undo an update)"
 msgstr "（尚未開始的伺服器不會執行；這不會復原已完成的更新）"
 
-#: r2/templates/adminserverstatus.html:77
+#: r2/templates/adminserverstatus.html:85
 #, fuzzy
 #| msgid "Update the servers to this release? Each one goes down for 5-10 minutes while it updates, one at a time. Make a Proxmox snapshot first if you can."
 msgid "Update the servers to this release? Each one goes down for a few minutes while it updates, one at a time. Make a Proxmox snapshot first if you can."
 msgstr "要將伺服器更新到這個發布版本嗎？每台更新時會停止 5-10 分鐘，一次一台。可以的話請先建立 Proxmox 快照。"
 
-#: r2/templates/adminserverstatus.html:83
+#: r2/templates/adminserverstatus.html:91
 msgid " (pre-release)"
 msgstr "（預先發布）"
 
-#: r2/templates/adminserverstatus.html:86
+#: r2/templates/adminserverstatus.html:94
 msgid "make a site backup first"
 msgstr "先建立網站備份"
 
-#: r2/templates/adminserverstatus.html:87
+#: r2/templates/adminserverstatus.html:95
 msgid "update the servers"
 msgstr "更新伺服器"
 
-#: r2/templates/adminserverstatus.html:89
+#: r2/templates/adminserverstatus.html:97
 msgid "Each server downloads the release's installer from GitHub, checks it against the release's checksums, and re-runs the installer, as in the Proxmox upgrade steps. If the site doesn't come back, it puts the old version back. Only Proxmox containers (with tippr-firstboot) can update this way. A snapshot of the container first is still the surest way back."
 msgstr "每台伺服器會從 GitHub 下載該發布版本的安裝程式，依發布版本的檢查碼驗證，然後重新執行安裝程式，就像 Proxmox 升級步驟一樣。如果網站沒有恢復，會換回舊版本。只有 Proxmox 容器（含 tippr-firstboot）可以用這種方式更新。事先建立容器快照仍是最可靠的退路。"
 
-#: r2/templates/adminserverstatus.html:92
+#: r2/templates/adminserverstatus.html:100
 msgid "Updating from this page is off (TIPPR_WEB_UPDATES=0 in the installer)."
 msgstr "已關閉從這個頁面更新（安裝程式中的 TIPPR_WEB_UPDATES=0）。"
 
-#: r2/templates/adminserverstatus.html:114
+#: r2/templates/adminserverstatus.html:123
 msgid "version"
 msgstr "版本"
 
-#: r2/templates/adminserverstatus.html:120
+#: r2/templates/adminserverstatus.html:129
 #, python-format
 msgid "%(version)s is out"
 msgstr "%(version)s 已發布"
 
-#: r2/templates/adminserverstatus.html:125
+#: r2/templates/adminserverstatus.html:135 r2/templates/adminserverstatus.html:156
 msgid "update"
 msgstr "更新"
 
-#: r2/templates/adminserverstatus.html:128
+#: r2/templates/adminserverstatus.html:138
 #, python-format
 msgid "to %(version)s"
 msgstr "到 %(version)s"
 
-#: r2/templates/adminserverstatus.html:130
+#: r2/templates/adminserverstatus.html:140
 #, python-format
 msgid "(from %(version)s)"
 msgstr "（從 %(version)s）"
 
-#: r2/templates/adminserverstatus.html:136
+#: r2/templates/adminserverstatus.html:143
+#, fuzzy, python-format
+#| msgid "up %(time)s"
+msgid "for %(time)s"
+msgstr "已運作 %(time)s"
+
+#: r2/templates/adminserverstatus.html:150
 msgid "log"
 msgstr "記錄"
 
-#: r2/templates/adminserverstatus.html:144
+#: r2/templates/adminserverstatus.html:158
+#, python-format
+msgid "asked for %(version)s: it starts within a minute, or when it's this server's turn"
+msgstr ""
+
+#: r2/templates/adminserverstatus.html:164
 #, python-format
 msgid "up %(time)s"
 msgstr "已運作 %(time)s"
 
-#: r2/templates/adminserverstatus.html:147
+#: r2/templates/adminserverstatus.html:167
 msgid "load"
 msgstr "負載"
 
-#: r2/templates/adminserverstatus.html:149
+#: r2/templates/adminserverstatus.html:169
 #, python-format
 msgid "(1, 5 and 15 minutes, on %(n)s CPUs)"
 msgstr "（1、5 和 15 分鐘，%(n)s 顆 CPU）"
 
-#: r2/templates/adminserverstatus.html:151
+#: r2/templates/adminserverstatus.html:171
 msgid "memory"
 msgstr "記憶體"
 
-#: r2/templates/adminserverstatus.html:154
+#: r2/templates/adminserverstatus.html:174
 #, python-format
 msgid "%(used)s of %(total)s used (%(p)s%%)"
 msgstr "已使用 %(total)s 中的 %(used)s（%(p)s%%）"
 
-#: r2/templates/adminserverstatus.html:156
+#: r2/templates/adminserverstatus.html:176
 #, python-format
 msgid "swap %(used)s of %(total)s"
 msgstr "swap %(total)s 中的 %(used)s"
 
-#: r2/templates/adminserverstatus.html:161
+#: r2/templates/adminserverstatus.html:181
 msgid "disk"
 msgstr "磁碟"
 
-#: r2/templates/adminserverstatus.html:165
+#: r2/templates/adminserverstatus.html:185
 #, python-format
 msgid "%(used)s of %(total)s used (%(p)s%%), %(free)s free"
 msgstr "已使用 %(total)s 中的 %(used)s（%(p)s%%），剩餘 %(free)s"
 
-#: r2/templates/adminserverstatus.html:169
+#: r2/templates/adminserverstatus.html:189
 msgid "services"
 msgstr "服務"
 
-#: r2/templates/adminserverstatus.html:178
+#: r2/templates/adminserverstatus.html:198
 msgid "Forget this server? It comes back if it reports again."
 msgstr "要忘記這台伺服器嗎？如果它再次回報就會回來。"
 
-#: r2/templates/adminserverstatus.html:180
+#: r2/templates/adminserverstatus.html:200
 msgid "forget"
 msgstr "忘記"
 
-#: r2/templates/adminserverstatus.html:186
+#: r2/templates/adminserverstatus.html:206
 msgid "queues"
 msgstr "佇列"
 
-#: r2/templates/adminserverstatus.html:188
+#: r2/templates/adminserverstatus.html:208
 msgid "RabbitMQ couldn't be asked about its queues."
 msgstr "無法向 RabbitMQ 詢問它的佇列。"
 
-#: r2/templates/adminserverstatus.html:190
+#: r2/templates/adminserverstatus.html:210
 msgid "Work waiting for the queue processors (tippr-consumers). A queue that keeps growing means they aren't keeping up, or aren't running."
 msgstr "等待佇列處理程式（tippr-consumers）處理的工作。持續增長的佇列表示它們跟不上，或沒有在執行。"
 
-#: r2/templates/adminserverstatus.html:192
+#: r2/templates/adminserverstatus.html:212
 msgid "queue"
 msgstr "佇列"
 
-#: r2/templates/adminserverstatus.html:192
+#: r2/templates/adminserverstatus.html:212
 msgid "waiting"
 msgstr "等待中"
 
-#: r2/templates/adminserverstatus.html:192
+#: r2/templates/adminserverstatus.html:212
 msgid "processors"
 msgstr "處理程式"
 
@@ -9689,12 +9737,18 @@ msgid "What people who haven't subscribed to anything see, and what new accounts
 msgstr "沒有訂閱任何看板的人會看到什麼，以及新帳號會訂閱什麼。可以在這裡每個看板的頁面上變更。"
 
 #: r2/templates/adverttrafficsummary.html:34
-msgid "top adverts"
+#, fuzzy
+#| msgid "top adverts"
+msgid "top adverts this month"
 msgstr "熱門廣告"
 
 #: r2/templates/adverttrafficsummary.html:37
 msgid "ad"
 msgstr "廣告"
+
+#: r2/templates/adverttrafficsummary.html:57
+msgid "Sponsored posts count an impression when the site shows one in a listing, and a click when someone follows it. AdSense units count each one the site puts on a page; whether Google filled it, and its clicks and earnings, are in your AdSense account."
+msgstr ""
 
 #: r2/templates/allinfobar.html:40
 msgid "Exclude your subscribed vaults"
@@ -11099,7 +11153,9 @@ msgid "language traffic statistics"
 msgstr "語言流量統計"
 
 #: r2/templates/languagetrafficsummary.html:33
-msgid "traffic by language"
+#, fuzzy
+#| msgid "traffic by language"
+msgid "traffic by language this month"
 msgstr "各語言流量"
 
 #: r2/templates/linkcommentssettings.html:44
@@ -14087,7 +14143,9 @@ msgid "note: you will only be eligible for a gilding trophy if this is set to \"
 msgstr "注意：只有設定為「所有人」時，你才有資格獲得贈金獎盃"
 
 #: r2/templates/sitewidetraffic.html:37
-msgid "top vaults"
+#, fuzzy
+#| msgid "top vaults"
+msgid "top vaults this month"
 msgstr "熱門看板"
 
 #: r2/templates/sitewidetraffic.html:37 r2/templates/vaulttrafficreport.html:36
