@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tippr\n"
 "Report-Msgid-Bugs-To: https://github.com/TechIdiots-LLC/tippr-i18n/issues\n"
-"POT-Creation-Date: 2026-10-24 11:24-0400\n"
+"POT-Creation-Date: 2026-10-24 12:25-0400\n"
 "PO-Revision-Date: 2017-04-24 19:32-0400\n"
 "Last-Translator: tippr translators\n"
 "Language-Team: Serbian (Cyrillic)\n"
@@ -19,7 +19,7 @@ msgstr ""
 msgid "Choose an image of at most 1 MB."
 msgstr "Изаберите слику од највише 1 MB."
 
-#: r2/controllers/api.py:223 r2/controllers/api.py:249 r2/controllers/api.py:4403 r2/controllers/api.py:4473 r2/controllers/listingcontroller.py:766 r2/lib/pages/pages.py:6382
+#: r2/controllers/api.py:223 r2/controllers/api.py:249 r2/controllers/api.py:4436 r2/controllers/api.py:4506 r2/controllers/listingcontroller.py:766 r2/lib/pages/pages.py:6382
 msgid "API"
 msgstr "АПИ"
 
@@ -57,437 +57,437 @@ msgstr "унесите двофакторски код тог налога"
 msgid "that account isn't available to switch to; add it again"
 msgstr "на тај налог није могуће прећи; додајте га поново"
 
-#: r2/controllers/api.py:548
+#: r2/controllers/api.py:581
 msgid "your message has been delivered"
 msgstr "порука је испоручена"
 
-#: r2/controllers/api.py:770
+#: r2/controllers/api.py:803
 msgid "no title found"
 msgstr "ниједан наслов није пронађен"
 
-#: r2/controllers/api.py:864 r2/controllers/linked_logins.py:184 r2/controllers/linked_logins.py:232 r2/controllers/linked_logins.py:252 r2/controllers/linked_logins.py:330
+#: r2/controllers/api.py:897 r2/controllers/linked_logins.py:184 r2/controllers/linked_logins.py:232 r2/controllers/linked_logins.py:252 r2/controllers/linked_logins.py:330
 msgid "That sign-in took too long. Please start again."
 msgstr "Пријављивање је трајало предуго. Почните поново."
 
-#: r2/controllers/api.py:869
+#: r2/controllers/api.py:902
 msgid "That account is linked already: sign in with it."
 msgstr "Тај налог је већ повезан: пријавите се њиме."
 
-#: r2/controllers/api.py:1403 r2/controllers/api.py:1784 r2/controllers/api.py:2686 r2/controllers/api.py:2986 r2/controllers/api.py:3313 r2/controllers/api.py:4195 r2/controllers/api.py:4251 r2/controllers/api.py:4305 r2/controllers/api.py:4538 r2/controllers/api.py:4543 r2/controllers/api.py:4778 r2/controllers/api.py:4843 r2/controllers/api.py:4921 r2/controllers/api.py:4987 r2/controllers/api.py:5060 r2/controllers/api.py:5151 r2/controllers/api.py:5183 r2/controllers/api.py:5203 r2/controllers/api.py:5717 r2/controllers/api.py:5757 r2/controllers/api.py:5991 r2/controllers/api.py:6009 r2/controllers/api.py:6357 r2/lib/pages/pages.py:6273
+#: r2/controllers/api.py:1436 r2/controllers/api.py:1817 r2/controllers/api.py:2719 r2/controllers/api.py:3019 r2/controllers/api.py:3346 r2/controllers/api.py:4228 r2/controllers/api.py:4284 r2/controllers/api.py:4338 r2/controllers/api.py:4571 r2/controllers/api.py:4576 r2/controllers/api.py:4811 r2/controllers/api.py:4876 r2/controllers/api.py:4954 r2/controllers/api.py:5020 r2/controllers/api.py:5093 r2/controllers/api.py:5184 r2/controllers/api.py:5216 r2/controllers/api.py:5236 r2/controllers/api.py:5750 r2/controllers/api.py:5790 r2/controllers/api.py:6024 r2/controllers/api.py:6042 r2/controllers/api.py:6390 r2/lib/pages/pages.py:6273
 msgid "saved"
 msgstr "сачувано"
 
-#: r2/controllers/api.py:1473
+#: r2/controllers/api.py:1506
 msgid "all other sessions have been logged out"
 msgstr "све остале сесије су одјављене"
 
-#: r2/controllers/api.py:1532
+#: r2/controllers/api.py:1565
 msgid "you should be getting a verification email shortly."
 msgstr "ускоро ћете добити верификациону е-поруку."
 
-#: r2/controllers/api.py:1534 r2/controllers/api.py:1547
+#: r2/controllers/api.py:1567 r2/controllers/api.py:1580
 msgid "your email has been updated"
 msgstr "е-адреса је ажурирана"
 
-#: r2/controllers/api.py:1582
+#: r2/controllers/api.py:1615
 msgid "your password has been updated"
 msgstr "лозинка је ажурирана"
 
-#: r2/controllers/api.py:2041 r2/lib/menus.py:196 r2/templates/adminserverstatus.html:141
+#: r2/controllers/api.py:2074 r2/lib/menus.py:196 r2/templates/adminserverstatus.html:141
 msgid "reported"
 msgstr "пријављено"
 
-#: r2/controllers/api.py:2464 r2/lib/support.py:91
+#: r2/controllers/api.py:2497 r2/lib/support.py:91
 msgid "replied"
 msgstr "одговорено"
 
-#: r2/controllers/api.py:2669
+#: r2/controllers/api.py:2702
 msgid "validation errors"
 msgstr "грешке у валидацији"
 
-#: r2/controllers/api.py:2789 r2/controllers/api.py:2816 r2/controllers/api.py:2843 r2/controllers/listingcontroller.py:1048 r2/lib/menus.py:195 r2/public/static/js/tippr.js:235 r2/templates/adminapps.html:51 r2/templates/adminuser.html:59 r2/templates/deleteduserinterstitial.html:34 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:578 r2/templates/vaultstylesheetbase.html:47
+#: r2/controllers/api.py:2822 r2/controllers/api.py:2849 r2/controllers/api.py:2876 r2/controllers/listingcontroller.py:1048 r2/lib/menus.py:195 r2/public/static/js/tippr.js:235 r2/templates/adminapps.html:51 r2/templates/adminuser.html:59 r2/templates/deleteduserinterstitial.html:34 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:585 r2/templates/vaultstylesheetbase.html:47
 msgid "deleted"
 msgstr "избрисано"
 
-#: r2/controllers/api.py:2920
+#: r2/controllers/api.py:2953
 msgid "bad image name"
 msgstr "неисправно име слике"
 
-#: r2/controllers/api.py:2926
+#: r2/controllers/api.py:2959
 #, python-format
 msgid "too many images (you only get %d)"
 msgstr "сувише слика (имате право на %d)"
 
-#: r2/controllers/api.py:2931 r2/controllers/api.py:2955
+#: r2/controllers/api.py:2964 r2/controllers/api.py:2988
 msgid "Invalid image or general image error"
 msgstr "Неважећа слика или општа грешка у вези са сликом"
 
-#: r2/controllers/api.py:2936
+#: r2/controllers/api.py:2969
 #, python-format
 msgid "must be %dx%d pixels"
 msgstr "мора бити %dx%d пиксела"
 
-#: r2/controllers/api.py:2940
+#: r2/controllers/api.py:2973
 msgid "10:3 aspect ratio required"
 msgstr "потребан је однос страница 10:3"
 
-#: r2/controllers/api.py:2943
+#: r2/controllers/api.py:2976
 #, python-format
 msgid "max %dx%d pixels"
 msgstr "највише %dx%d пиксела"
 
-#: r2/controllers/api.py:2946
+#: r2/controllers/api.py:2979
 #, python-format
 msgid "min %dx%d pixels"
 msgstr "најмање %dx%d пиксела"
 
-#: r2/controllers/api.py:4007
+#: r2/controllers/api.py:4040
 msgid "an email will be sent to that account's address shortly"
 msgstr "е-порука ће ускоро бити послата на адресу тог налога"
 
-#: r2/controllers/api.py:4010
+#: r2/controllers/api.py:4043
 msgid "try again tomorrow"
 msgstr "покушајте поново сутра"
 
-#: r2/controllers/api.py:4057
+#: r2/controllers/api.py:4090
 msgid "password updated"
 msgstr "лозинка је ажурирана"
 
-#: r2/controllers/api.py:4263 r2/controllers/api.py:4494
+#: r2/controllers/api.py:4296 r2/controllers/api.py:4527
 msgid "invalid css class"
 msgstr "неважећа css класа"
 
-#: r2/controllers/api.py:4266 r2/controllers/api.py:4497
+#: r2/controllers/api.py:4299 r2/controllers/api.py:4530
 msgid "too many css classes"
 msgstr "превише css класа"
 
-#: r2/controllers/api.py:4518
+#: r2/controllers/api.py:4551
 msgid "max flair templates reached"
 msgstr "достигнут је лимит шаблона за беџеве"
 
-#: r2/controllers/api.py:4983
+#: r2/controllers/api.py:5016
 #, python-format
 msgid "saved, but these aren't on until their keys are filled in: %(names)s"
 msgstr "сачувано, али ови нису укључени док им се не попуне кључеви: %(names)s"
 
-#: r2/controllers/api.py:5005
+#: r2/controllers/api.py:5038
 msgid "the keys work"
 msgstr "кључеви раде"
 
-#: r2/controllers/api.py:5006 r2/controllers/api.py:5023
+#: r2/controllers/api.py:5039 r2/controllers/api.py:5056
 #, python-format
 msgid "didn't work: %(error)s"
 msgstr "није успело: %(error)s"
 
-#: r2/controllers/api.py:5011
+#: r2/controllers/api.py:5044
 msgid "no such payment"
 msgstr "таква уплата не постоји"
 
-#: r2/controllers/api.py:5026 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminprivacy.html:26 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminuser.html:89 r2/templates/adminusers.html:77 r2/templates/adminvaults.html:50
+#: r2/controllers/api.py:5059 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminprivacy.html:26 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminuser.html:89 r2/templates/adminusers.html:77 r2/templates/adminvaults.html:50
 msgid "status"
 msgstr "статус"
 
-#: r2/controllers/api.py:5051 r2/controllers/linked_logins.py:93 r2/controllers/linked_logins.py:187 r2/lib/pages/pages.py:1374 r2/lib/pages/pages.py:1424 r2/templates/createvault.html:57 r2/templates/goldpayment.html:168 r2/templates/linkedsignin.html:41 r2/templates/listingchooser.html:69 r2/templates/prefapps.html:153 r2/templates/prefapps.html:348
+#: r2/controllers/api.py:5084 r2/controllers/linked_logins.py:93 r2/controllers/linked_logins.py:187 r2/lib/pages/pages.py:1374 r2/lib/pages/pages.py:1424 r2/templates/createvault.html:57 r2/templates/goldpayment.html:168 r2/templates/linkedsignin.html:41 r2/templates/listingchooser.html:69 r2/templates/prefapps.html:153 r2/templates/prefapps.html:348
 msgid "name"
 msgstr "име"
 
-#: r2/controllers/api.py:5056
+#: r2/controllers/api.py:5089
 #, python-format
 msgid "saved, but these aren't on until their ID and secret are filled in: %(names)s"
 msgstr "сачувано, али ови нису укључени док им се не попуне ID и тајна: %(names)s"
 
-#: r2/controllers/api.py:5165 r2/controllers/api.py:5191
+#: r2/controllers/api.py:5198 r2/controllers/api.py:5224
 msgid "this site's live config is managed in ZooKeeper"
 msgstr "живом конфигурацијом овог сајта се управља у ZooKeeper-у"
 
-#: r2/controllers/api.py:5169
+#: r2/controllers/api.py:5202
 msgid "unknown setting"
 msgstr "непознато подешавање"
 
-#: r2/controllers/api.py:5177 r2/controllers/api.py:5201
+#: r2/controllers/api.py:5210 r2/controllers/api.py:5234
 #, python-format
 msgid "not saved: %(error)s"
 msgstr "није сачувано: %(error)s"
 
-#: r2/controllers/api.py:5207
+#: r2/controllers/api.py:5240
 #, python-format
 msgid "%(saved)d saved; %(failed)d not saved (see below)"
 msgstr "сачувано: %(saved)d; није сачувано: %(failed)d (погледајте испод)"
 
-#: r2/controllers/api.py:5213
+#: r2/controllers/api.py:5246
 msgid "nothing changed"
 msgstr "ништа није промењено"
 
-#: r2/controllers/api.py:5229
+#: r2/controllers/api.py:5262
 #, python-format
 msgid "couldn't empty: %(servers)s"
 msgstr "није могуће испразнити: %(servers)s"
 
-#: r2/controllers/api.py:5254
+#: r2/controllers/api.py:5287
 msgid "every account has been checked"
 msgstr "сви налози су проверени"
 
-#: r2/controllers/api.py:5266
+#: r2/controllers/api.py:5299
 msgid "select some accounts"
 msgstr "изаберите неке налоге"
 
-#: r2/controllers/api.py:5313 r2/controllers/api.py:5419
+#: r2/controllers/api.py:5346 r2/controllers/api.py:5452
 msgid "no such account"
 msgstr "такав налог не постоји"
 
-#: r2/controllers/api.py:5316 r2/controllers/api.py:5411
+#: r2/controllers/api.py:5349 r2/controllers/api.py:5444
 msgid "unknown action"
 msgstr "непозната радња"
 
-#: r2/controllers/api.py:5330
+#: r2/controllers/api.py:5363
 #, fuzzy
 #| msgid "no permissions"
 msgid "choose a permission"
 msgstr "нема дозвола"
 
-#: r2/controllers/api.py:5344
+#: r2/controllers/api.py:5377
 msgid "not on admins (take them off the employees list on /admin/config first)"
 msgstr "не на администраторе (прво их уклоните са списка запослених у /admin/config)"
 
-#: r2/controllers/api.py:5348
+#: r2/controllers/api.py:5381
 msgid "the account is deleted"
 msgstr "налог је избрисан"
 
-#: r2/controllers/api.py:5351
+#: r2/controllers/api.py:5384
 msgid "give a reason (it's logged, and a timeout's reason is sent to them)"
 msgstr "наведите разлог (бележи се, а разлог привремене суспензије им се шаље)"
 
-#: r2/controllers/api.py:5355 r2/controllers/api.py:5436
+#: r2/controllers/api.py:5388 r2/controllers/api.py:5469
 msgid "tick the box to confirm"
 msgstr "означите поље за потврду"
 
-#: r2/controllers/api.py:5358
+#: r2/controllers/api.py:5391
 msgid "choose whether to keep or delete their posts"
 msgstr "изаберите да ли да се њихови постови задрже или избришу"
 
-#: r2/controllers/api.py:5361
+#: r2/controllers/api.py:5394
 msgid "they have no email address"
 msgstr "немају адресу е-поште"
 
-#: r2/controllers/api.py:5408 r2/controllers/api.py:5514
+#: r2/controllers/api.py:5441 r2/controllers/api.py:5547
 msgid "no such vault"
 msgstr "такав волт не постоји"
 
-#: r2/controllers/api.py:5423
+#: r2/controllers/api.py:5456
 msgid "they're already a moderator"
 msgstr "већ су модератор"
 
-#: r2/controllers/api.py:5426
+#: r2/controllers/api.py:5459
 msgid "they're banned from the vault; unban them first"
 msgstr "забрањени су у волту; прво им скините забрану"
 
-#: r2/controllers/api.py:5431
+#: r2/controllers/api.py:5464
 msgid "they aren't a moderator"
 msgstr "нису модератор"
 
-#: r2/controllers/api.py:5443
+#: r2/controllers/api.py:5476
 msgid "unban the vault first"
 msgstr "прво скините забрану са волта"
 
-#: r2/controllers/api.py:5462
+#: r2/controllers/api.py:5495
 msgid "no such app"
 msgstr "таква апликација не постоји"
 
-#: r2/controllers/api.py:5465
+#: r2/controllers/api.py:5498
 msgid "the site's own apps can't be deleted here"
 msgstr "сопствене апликације сајта не могу се брисати овде"
 
-#: r2/controllers/api.py:5508
+#: r2/controllers/api.py:5541
 msgid "give the feed's http(s) address"
 msgstr "наведите http(s) адресу фида"
 
-#: r2/controllers/api.py:5517
+#: r2/controllers/api.py:5550
 msgid "pick one of the AI labels"
 msgstr "изаберите једну од AI ознака"
 
-#: r2/controllers/api.py:5521
+#: r2/controllers/api.py:5554
 #, python-format
 msgid "/v/%(vault)s doesn't accept %(label)s posts"
 msgstr "/v/%(vault)s не прихвата постове типа %(label)s"
 
-#: r2/controllers/api.py:5527
+#: r2/controllers/api.py:5560
 msgid "give the bot account a valid username"
 msgstr "дајте бот налогу исправно корисничко име"
 
-#: r2/controllers/api.py:5536
+#: r2/controllers/api.py:5569
 msgid "that account is suspended or deleted"
 msgstr "тај налог је суспендован или избрисан"
 
-#: r2/controllers/api.py:5543 r2/controllers/api.py:5558
+#: r2/controllers/api.py:5576 r2/controllers/api.py:5591
 msgid "no such feed"
 msgstr "такав фид не постоји"
 
-#: r2/controllers/api.py:5581
+#: r2/controllers/api.py:5614
 msgid "give a domain"
 msgstr "наведите домен"
 
-#: r2/controllers/api.py:5587
+#: r2/controllers/api.py:5620
 msgid "choose what the ban does"
 msgstr "изаберите шта забрана ради"
 
-#: r2/controllers/api.py:5590
+#: r2/controllers/api.py:5623
 msgid "give a reason (members see it when the link is refused)"
 msgstr "наведите разлог (чланови га виде када се линк одбије)"
 
-#: r2/controllers/api.py:5595
+#: r2/controllers/api.py:5628
 msgid "that's not a domain"
 msgstr "то није домен"
 
-#: r2/controllers/api.py:5622 r2/controllers/api.py:5641 r2/controllers/api.py:5658 r2/controllers/api.py:5676
+#: r2/controllers/api.py:5655 r2/controllers/api.py:5674 r2/controllers/api.py:5691 r2/controllers/api.py:5709
 msgid "no such ticket"
 msgstr "такав тикет не постоји"
 
-#: r2/controllers/api.py:5689
+#: r2/controllers/api.py:5722
 msgid "they can't reply in this category"
 msgstr "не могу да одговарају у овој категорији"
 
-#: r2/controllers/api.py:5709
+#: r2/controllers/api.py:5742
 msgid "not on the employees list"
 msgstr "није на списку запослених"
 
-#: r2/controllers/api.py:5761
+#: r2/controllers/api.py:5794
 msgid "saved; CleanTalk needs an access key to work"
 msgstr "сачувано; CleanTalk-у је потребан приступни кључ да би радио"
 
-#: r2/controllers/api.py:5764
+#: r2/controllers/api.py:5797
 #, python-format
 msgid "saved; CleanTalk says: %(problem)s"
 msgstr "сачувано; CleanTalk каже: %(problem)s"
 
-#: r2/controllers/api.py:5766
+#: r2/controllers/api.py:5799
 msgid "saved; the CleanTalk key works"
 msgstr "сачувано; CleanTalk кључ ради"
 
-#: r2/controllers/api.py:5803
+#: r2/controllers/api.py:5836
 msgid "that isn't a release with an installer"
 msgstr "то није издање са инсталатором"
 
-#: r2/controllers/api.py:5806
+#: r2/controllers/api.py:5839
 msgid "a server is updating now; wait for it to finish"
 msgstr "сервер се управо ажурира; сачекајте да заврши"
 
-#: r2/controllers/api.py:5908
+#: r2/controllers/api.py:5941
 msgid "Copy the key now; it isn't shown again."
 msgstr "Копирајте кључ сада; неће бити поново приказан."
 
-#: r2/controllers/api.py:5917
+#: r2/controllers/api.py:5950
 msgid "tippr-backup isn't installed on this server (re-run the installer)."
 msgstr "tippr-backup није инсталиран на овом серверу (поново покрените инсталатор)."
 
-#: r2/controllers/api.py:5922
+#: r2/controllers/api.py:5955
 msgid "no such backup"
 msgstr "таква резервна копија не постоји"
 
-#: r2/controllers/api.py:5927
+#: r2/controllers/api.py:5960
 #, python-format
 msgid "Type this site's domain (%(domain)s) to confirm."
 msgstr "Унесите домен овог сајта (%(domain)s) за потврду."
 
-#: r2/controllers/api.py:5940
+#: r2/controllers/api.py:5973
 msgid "Enter the other server's address and its transfer key."
 msgstr "Унесите адресу другог сервера и његов кључ за пренос."
 
-#: r2/controllers/api.py:5944
+#: r2/controllers/api.py:5977
 msgid "That isn't a backup name."
 msgstr "То није назив резервне копије."
 
-#: r2/controllers/api.py:5965
+#: r2/controllers/api.py:5998
 msgid "tippr test email"
 msgstr "tippr пробна порука е-поште"
 
-#: r2/controllers/api.py:5966
+#: r2/controllers/api.py:5999
 #, python-format
 msgid "This is a test message from %(domain)s. Email is working."
 msgstr "Ово је пробна порука са %(domain)s. Е-пошта ради."
 
-#: r2/controllers/api.py:5970
+#: r2/controllers/api.py:6003
 #, python-format
 msgid "failed: %(error)s"
 msgstr "није успело: %(error)s"
 
-#: r2/controllers/api.py:5972
+#: r2/controllers/api.py:6005
 #, python-format
 msgid "sent to %(address)s"
 msgstr "послато на %(address)s"
 
-#: r2/controllers/api.py:6005
+#: r2/controllers/api.py:6038
 msgid "no gold to take"
 msgstr "нема злата за одузимање"
 
-#: r2/controllers/api.py:6169 r2/controllers/api.py:6199
+#: r2/controllers/api.py:6202 r2/controllers/api.py:6232
 msgid "that's as many authenticator apps as an account can have"
 msgstr "налог већ има највећи дозвољени број апликација за аутентификацију"
 
-#: r2/controllers/api.py:6247
+#: r2/controllers/api.py:6280
 msgid "That code didn't work. Codes follow the clock, so check that your phone sets its time automatically."
 msgstr ""
 
-#: r2/controllers/api.py:6250
+#: r2/controllers/api.py:6283
 msgid "enter a code from one of your methods first"
 msgstr "прво унесите код из једне од својих метода"
 
-#: r2/controllers/api.py:6253
+#: r2/controllers/api.py:6286
 #, fuzzy
 #| msgid "That code isn't right. Try again."
 msgid "That password isn't right. Try again."
 msgstr "Тај код није тачан. Покушајте поново."
 
-#: r2/controllers/api.py:6254
+#: r2/controllers/api.py:6287
 msgid "enter your password first"
 msgstr "прво унесите своју лозинку"
 
-#: r2/controllers/api.py:6272
+#: r2/controllers/api.py:6305
 msgid "that passkey couldn't be added"
 msgstr "тај приступни кључ није могуће додати"
 
-#: r2/controllers/api.py:6310
+#: r2/controllers/api.py:6343
 msgid "that passkey wasn't accepted"
 msgstr "тај приступни кључ није прихваћен"
 
-#: r2/controllers/api.py:6469
+#: r2/controllers/api.py:6502
 #, python-format
 msgid "accounts need to be %(n)d days old"
 msgstr "налози морају бити стари најмање %(n)d дана"
 
-#: r2/controllers/api.py:6473
+#: r2/controllers/api.py:6506
 #, python-format
 msgid "accounts need %(n)d karma"
 msgstr "налозима је потребно %(n)d карме"
 
-#: r2/controllers/api.py:6476
+#: r2/controllers/api.py:6509
 msgid "verify your email address first"
 msgstr "прво потврдите своју адресу е-поште"
 
-#: r2/controllers/api.py:6518 r2/lib/errors.py:158
+#: r2/controllers/api.py:6551 r2/lib/errors.py:158
 msgid "this app can not be modified from this interface"
 msgstr "ова апликација не може да се мења преко овог интерфејса"
 
-#: r2/controllers/api.py:6525 r2/lib/errors.py:136
+#: r2/controllers/api.py:6558 r2/lib/errors.py:136
 msgid "invalid client id"
 msgstr "неважећи ИД клијента"
 
-#: r2/controllers/api.py:6528
+#: r2/controllers/api.py:6561
 msgid "cannot update deleted app"
 msgstr "није могуће ажурирати избрисану апликацију"
 
-#: r2/controllers/api.py:6531
+#: r2/controllers/api.py:6564
 msgid "app does not belong to you"
 msgstr "апликација вам не припада"
 
-#: r2/controllers/api.py:6539
+#: r2/controllers/api.py:6572
 msgid "application updated"
 msgstr "апликација је ажурирана"
 
-#: r2/controllers/api.py:6563
+#: r2/controllers/api.py:6596
 msgid "application created"
 msgstr "апликација је креирана"
 
-#: r2/controllers/api.py:6598
+#: r2/controllers/api.py:6631
 msgid "developer added"
 msgstr "програмер је додат"
 
@@ -1107,11 +1107,11 @@ msgstr "позлате које је дао %(user)s"
 msgid "profile for %(user)s"
 msgstr "профил за %(user)s"
 
-#: r2/controllers/listingcontroller.py:1021 r2/lib/menus.py:110 r2/templates/printablebuttons.html:591 r2/templates/printablebuttons.html:598
+#: r2/controllers/listingcontroller.py:1021 r2/lib/menus.py:110 r2/templates/printablebuttons.html:598 r2/templates/printablebuttons.html:605
 msgid "blocked"
 msgstr "блокиран"
 
-#: r2/controllers/listingcontroller.py:1193 r2/controllers/listingcontroller.py:1204 r2/templates/printablebuttons.html:618
+#: r2/controllers/listingcontroller.py:1193 r2/controllers/listingcontroller.py:1204 r2/templates/printablebuttons.html:625
 msgid "unread"
 msgstr "непрочитано"
 
@@ -1481,7 +1481,7 @@ msgstr "Вики грешка"
 msgid "You are doing that too much, please try again later."
 msgstr "Превише то радите, покушајте поново касније."
 
-#: r2/lib/ai_content.py:35
+#: r2/lib/ai_content.py:35 r2/lib/scales.py:49
 msgid "human-made"
 msgstr "направио човек"
 
@@ -1706,7 +1706,7 @@ msgstr "та лозинка је неприхватљива"
 msgid "wrong password"
 msgstr "погрешна лозинка"
 
-#: r2/lib/errors.py:65 r2/public/static/js/login.js:385
+#: r2/lib/errors.py:65 r2/public/static/js/login.js:390
 msgid "passwords do not match"
 msgstr "лозинке се не поклапају"
 
@@ -3261,6 +3261,60 @@ msgstr[0] "коментар"
 msgstr[1] "коментара"
 msgstr[2] "коментара"
 
+#: r2/lib/scales.py:48
+#, fuzzy
+#| msgid "help"
+msgid "helpful"
+msgstr "помоћ"
+
+#: r2/lib/scales.py:48
+#, fuzzy
+#| msgid "help"
+msgid "unhelpful"
+msgstr "помоћ"
+
+#: r2/lib/scales.py:49
+msgid "probably AI"
+msgstr ""
+
+#: r2/lib/scales.py:50
+msgid "beginner-friendly"
+msgstr ""
+
+#: r2/lib/scales.py:50
+msgid "in-depth"
+msgstr ""
+
+#: r2/lib/scales.py:51
+msgid "practical"
+msgstr ""
+
+#: r2/lib/scales.py:51
+#, fuzzy
+#| msgid "just now"
+msgid "just for fun"
+msgstr "управо сада"
+
+#: r2/lib/scales.py:53
+#, fuzzy
+#| msgid "source code"
+msgid "well-sourced"
+msgstr "изворни код"
+
+#: r2/lib/scales.py:53
+msgid "opinion"
+msgstr ""
+
+#: r2/lib/scales.py:54
+msgid "calm"
+msgstr ""
+
+#: r2/lib/scales.py:54
+#, fuzzy
+#| msgid "created"
+msgid "heated"
+msgstr "направљено"
+
 #: r2/lib/site_info.py:146
 msgid "That isn't an image tippr can read."
 msgstr "То није слика коју tippr може да прочита."
@@ -4434,7 +4488,7 @@ msgstr ""
 msgid "added"
 msgstr "додато"
 
-#: r2/lib/pages/pages.py:4685 r2/models/modaction.py:146 r2/templates/printablebuttons.html:608
+#: r2/lib/pages/pages.py:4685 r2/models/modaction.py:146 r2/templates/printablebuttons.html:615
 msgid "muted"
 msgstr "утишан"
 
@@ -4698,7 +4752,7 @@ msgstr "проценат кликова (%)"
 msgid "view"
 msgstr "прикажи"
 
-#: r2/lib/pages/wiki.py:119 r2/templates/adminfeeds.html:150 r2/templates/prefapps.html:93 r2/templates/printablebuttons.html:363 r2/templates/printablebuttons.html:396 r2/templates/printablebuttons.html:507 r2/templates/renderablecampaign.html:155 r2/templates/wrappeduser.html:91
+#: r2/lib/pages/wiki.py:119 r2/templates/adminfeeds.html:150 r2/templates/prefapps.html:93 r2/templates/printablebuttons.html:363 r2/templates/printablebuttons.html:403 r2/templates/printablebuttons.html:514 r2/templates/renderablecampaign.html:155 r2/templates/wrappeduser.html:91
 msgid "edit"
 msgstr "уреди"
 
@@ -5459,11 +5513,11 @@ msgstr "закључај пост"
 msgid "unlock post"
 msgstr "откључај пост"
 
-#: r2/models/modaction.py:105 r2/templates/printablebuttons.html:608
+#: r2/models/modaction.py:105 r2/templates/printablebuttons.html:615
 msgid "mute user"
 msgstr "утишај корисника"
 
-#: r2/models/modaction.py:106 r2/templates/printablebuttons.html:605
+#: r2/models/modaction.py:106 r2/templates/printablebuttons.html:612
 msgid "unmute user"
 msgstr "укини утишавање корисника"
 
@@ -5599,7 +5653,7 @@ msgstr "закључао"
 msgid "unlocked"
 msgstr "откључао"
 
-#: r2/models/modaction.py:147 r2/templates/printablebuttons.html:605
+#: r2/models/modaction.py:147 r2/templates/printablebuttons.html:612
 msgid "unmuted"
 msgstr "укинуо утишавање"
 
@@ -6190,7 +6244,7 @@ msgstr "Овај параметар може да се промени и пос�
 msgid "Copy this code and paste it into your website:"
 msgstr "Копирајте овај код и налепите га на свој сајт:"
 
-#: r2/public/static/js/enhancements.js:87 r2/public/static/js/markdown-toolbar.js:275
+#: r2/public/static/js/enhancements.js:87 r2/public/static/js/markdown-toolbar.js:275 r2/public/static/js/scales.js:38
 msgid "loading…"
 msgstr "учитава се…"
 
@@ -6235,7 +6289,7 @@ msgstr "отвори коментаре"
 msgid "expand or collapse the preview, or the comment"
 msgstr "прошири или скупи преглед или коментар"
 
-#: r2/public/static/js/enhancements.js:180 r2/public/static/js/enhancements.js:631 r2/public/static/js/saved.js:122 r2/public/static/js/saved.js:161 r2/public/static/js/sponsored.js:97 r2/templates/adminadsettings.html:128 r2/templates/adminantispam.html:106 r2/templates/adminemailsettings.html:95 r2/templates/adminfeeds.html:70 r2/templates/adminloginsettings.html:77 r2/templates/adminpaymentsettings.html:213 r2/templates/adminsitesettings.html:146 r2/templates/adminsupportstaff.html:57 r2/templates/adminuser.html:103 r2/templates/adminuser.html:122 r2/templates/adminuser.html:147 r2/templates/flairlistrow.html:48 r2/templates/flairselector.html:54 r2/templates/moderatorpermissions.html:55 r2/templates/prefsecurity.html:204 r2/templates/prefupdate.html:100 r2/templates/prefupdate.html:154 r2/templates/printablebuttons.html:106 r2/templates/printablebuttons.html:375 r2/templates/printablebuttons.html:480 r2/templates/promotelinkedit.html:218 r2/templates/vaultstylesheet.html:70
+#: r2/public/static/js/enhancements.js:180 r2/public/static/js/enhancements.js:631 r2/public/static/js/saved.js:122 r2/public/static/js/saved.js:161 r2/public/static/js/sponsored.js:97 r2/templates/adminadsettings.html:128 r2/templates/adminantispam.html:106 r2/templates/adminemailsettings.html:95 r2/templates/adminfeeds.html:70 r2/templates/adminloginsettings.html:77 r2/templates/adminpaymentsettings.html:213 r2/templates/adminsitesettings.html:146 r2/templates/adminsupportstaff.html:57 r2/templates/adminuser.html:103 r2/templates/adminuser.html:122 r2/templates/adminuser.html:147 r2/templates/flairlistrow.html:48 r2/templates/flairselector.html:54 r2/templates/moderatorpermissions.html:55 r2/templates/prefsecurity.html:204 r2/templates/prefupdate.html:100 r2/templates/prefupdate.html:154 r2/templates/printablebuttons.html:106 r2/templates/printablebuttons.html:382 r2/templates/printablebuttons.html:487 r2/templates/promotelinkedit.html:218 r2/templates/vaultstylesheet.html:70
 msgid "save"
 msgstr "сачувај"
 
@@ -6514,7 +6568,7 @@ msgstr "превелико. нека буде мање од "
 msgid "an error occurred. please try again later! (status: %(status)s)"
 msgstr "дошло је до грешке. молимо вас да покушате касније! (статус: %(status)s)"
 
-#: r2/public/static/js/jquery.tippr.js:370 r2/public/static/js/saved.js:166 r2/templates/printablebuttons.html:373 r2/templates/printablebuttons.html:476
+#: r2/public/static/js/jquery.tippr.js:370 r2/public/static/js/saved.js:166 r2/templates/printablebuttons.html:380 r2/templates/printablebuttons.html:483
 msgid "unsave"
 msgstr "одсними"
 
@@ -6550,38 +6604,44 @@ msgid "You need to be logged in to vote on things."
 msgstr "Морате бити пријављени да бисте гласали."
 
 #: r2/public/static/js/login.js:130
+#, fuzzy
+#| msgid "You need to be logged in to do that."
+msgid "You need to be logged in to tip the scales."
+msgstr "Морате бити пријављени да бисте то урадили."
+
+#: r2/public/static/js/login.js:135
 msgid "You need to be logged in to give gold."
 msgstr "Морате бити пријављени да бисте поклањали злато."
 
-#: r2/public/static/js/login.js:139
+#: r2/public/static/js/login.js:144
 msgid "You need to be logged in to subscribe to vaults."
 msgstr "Морате бити пријављени да бисте пратили волтове."
 
-#: r2/public/static/js/login.js:144 r2/public/static/js/login.js:149
+#: r2/public/static/js/login.js:149 r2/public/static/js/login.js:154
 msgid "You need to be logged in to submit things."
 msgstr "Морате бити пријављени да бисте објављивали."
 
-#: r2/public/static/js/login.js:154
+#: r2/public/static/js/login.js:159
 msgid "You need to be logged in to do that."
 msgstr "Морате бити пријављени да бисте то урадили."
 
-#: r2/public/static/js/login.js:293
+#: r2/public/static/js/login.js:298
 msgid "try using our secure login form."
 msgstr "пробајте да користите наш образац за безбедно пријављивање."
 
-#: r2/public/static/js/login.js:335
+#: r2/public/static/js/login.js:340
 msgid "Password is strong"
 msgstr "Лозинка је јака"
 
-#: r2/public/static/js/login.js:337
+#: r2/public/static/js/login.js:342
 msgid "Password is good"
 msgstr "Лозинка је добра"
 
-#: r2/public/static/js/login.js:339
+#: r2/public/static/js/login.js:344
 msgid "Password is fair"
 msgstr "Лозинка је прихватљива"
 
-#: r2/public/static/js/login.js:341
+#: r2/public/static/js/login.js:346
 msgid "Password is weak"
 msgstr "Лозинка је слаба"
 
@@ -6821,7 +6881,7 @@ msgstr "додај поруку (опционо)"
 msgid "send"
 msgstr "пошаљи"
 
-#: r2/public/static/js/post-sharing.js:133 r2/templates/adminprivacy.html:48 r2/templates/fraudform.html:48 r2/templates/linkcommentssettings.html:78 r2/templates/printablebuttons.html:420 r2/templates/promotelinkedit.html:121 r2/templates/reportform.html:71 r2/templates/rules.html:137 r2/templates/vaultreportform.html:46
+#: r2/public/static/js/post-sharing.js:133 r2/templates/adminprivacy.html:48 r2/templates/fraudform.html:48 r2/templates/linkcommentssettings.html:78 r2/templates/printablebuttons.html:427 r2/templates/promotelinkedit.html:121 r2/templates/reportform.html:71 r2/templates/rules.html:137 r2/templates/vaultreportform.html:46
 msgid "cancel"
 msgstr "откажи"
 
@@ -6873,6 +6933,62 @@ msgstr "без категорије"
 #: r2/public/static/js/saved.js:123
 msgid "new category"
 msgstr "нова категорија"
+
+#: r2/public/static/js/scales.js:37 r2/templates/printablebuttons.html:375
+msgid "scales"
+msgstr ""
+
+#: r2/public/static/js/scales.js:43 r2/public/static/js/scales.js:54
+#, fuzzy
+#| msgid "an error occurred (status: %(status)s)"
+msgid "an error occurred"
+msgstr "дошло је до грешке (статус: %(status)s)"
+
+#: r2/public/static/js/scales.js:81
+#, fuzzy, python-format
+#| msgid "%(num)s month"
+#| msgid_plural "%(num)s months"
+msgid "%(num)s tip"
+msgid_plural "%(num)s tips"
+msgstr[0] "%(num)s месец"
+msgstr[1] "%(num)s месеца"
+msgstr[2] "%(num)s месеци"
+
+#: r2/public/static/js/scales.js:85
+#, fuzzy
+#| msgid "not yet"
+msgid "no tips yet"
+msgstr "још не"
+
+#: r2/public/static/js/scales.js:97 r2/public/static/js/scales.js:172
+msgid "fewer scales"
+msgstr ""
+
+#: r2/public/static/js/scales.js:97 r2/public/static/js/scales.js:172
+#, fuzzy
+#| msgid "more comments"
+msgid "more scales"
+msgstr "још коментара"
+
+#: r2/public/static/js/scales.js:102
+msgid "How others have tipped your post."
+msgstr ""
+
+#: r2/public/static/js/scales.js:104
+msgid "Tip a scale to see how others tipped it."
+msgstr ""
+
+#: r2/public/static/js/scales.js:107
+#, fuzzy
+#| msgid "create rule"
+msgid "Breaks a rule?"
+msgstr "направи правило"
+
+#: r2/public/static/js/scales.js:109
+#, fuzzy
+#| msgid "report"
+msgid "report it"
+msgstr "пријави"
 
 #: r2/public/static/js/sponsored.js:91
 msgid "+ close"
@@ -7046,15 +7162,15 @@ msgstr "све дозволе"
 msgid "no permissions"
 msgstr "нема дозвола"
 
-#: r2/public/static/js/ui.js:1131 r2/templates/goldsubscription.html:50 r2/templates/printablebuttons.html:687 r2/templates/printablebuttons.html:709
+#: r2/public/static/js/ui.js:1131 r2/templates/goldsubscription.html:50 r2/templates/printablebuttons.html:694 r2/templates/printablebuttons.html:716
 msgid "are you sure?"
 msgstr "јесте ли сигурни?"
 
-#: r2/public/static/js/ui.js:1132 r2/templates/adminuser.html:63 r2/templates/adminuser.html:79 r2/templates/fraudform.html:35 r2/templates/goldsubscription.html:53 r2/templates/optout.html:40 r2/templates/optout.html:56 r2/templates/printablebuttons.html:689 r2/templates/printablebuttons.html:738
+#: r2/public/static/js/ui.js:1132 r2/templates/adminuser.html:63 r2/templates/adminuser.html:79 r2/templates/fraudform.html:35 r2/templates/goldsubscription.html:53 r2/templates/optout.html:40 r2/templates/optout.html:56 r2/templates/printablebuttons.html:696 r2/templates/printablebuttons.html:745
 msgid "yes"
 msgstr "да"
 
-#: r2/public/static/js/ui.js:1133 r2/templates/adminuser.html:84 r2/templates/fraudform.html:40 r2/templates/goldsubscription.html:56 r2/templates/optout.html:43 r2/templates/optout.html:59 r2/templates/printablebuttons.html:199 r2/templates/printablebuttons.html:691 r2/templates/printablebuttons.html:741
+#: r2/public/static/js/ui.js:1133 r2/templates/adminuser.html:84 r2/templates/fraudform.html:40 r2/templates/goldsubscription.html:56 r2/templates/optout.html:43 r2/templates/optout.html:59 r2/templates/printablebuttons.html:199 r2/templates/printablebuttons.html:698 r2/templates/printablebuttons.html:748
 msgid "no"
 msgstr "не"
 
@@ -7524,7 +7640,7 @@ msgstr "одобри"
 msgid "lift the suspension"
 msgstr "укини суспензију"
 
-#: r2/templates/adminapps.html:113 r2/templates/adminbackups.html:139 r2/templates/adminfeeds.html:148 r2/templates/adminuser.html:233 r2/templates/multiinfobar.html:56 r2/templates/prefsecurity.html:133 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:578 r2/templates/renderablecampaign.html:161 r2/templates/rules.html:135 r2/templates/wikipagesettings.html:79
+#: r2/templates/adminapps.html:113 r2/templates/adminbackups.html:139 r2/templates/adminfeeds.html:148 r2/templates/adminuser.html:233 r2/templates/multiinfobar.html:56 r2/templates/prefsecurity.html:133 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:585 r2/templates/renderablecampaign.html:161 r2/templates/rules.html:135 r2/templates/wikipagesettings.html:79
 msgid "delete"
 msgstr "избриши"
 
@@ -7749,7 +7865,7 @@ msgstr "ограничење учесталости искључено"
 msgid "timings"
 msgstr "трајања"
 
-#: r2/templates/adminbar.html:64 r2/templates/exploreitem.html:46 r2/templates/listingchooser.html:53 r2/templates/printablebuttons.html:383
+#: r2/templates/adminbar.html:64 r2/templates/exploreitem.html:46 r2/templates/listingchooser.html:53 r2/templates/printablebuttons.html:390
 msgid "hide"
 msgstr "сакриј"
 
@@ -9544,7 +9660,7 @@ msgstr "белешка"
 msgid "No accounts found."
 msgstr "Нису пронађени налози."
 
-#: r2/templates/adminvault.html:35 r2/templates/printablebuttons.html:442
+#: r2/templates/adminvault.html:35 r2/templates/printablebuttons.html:449
 msgid "traffic"
 msgstr "саобраћај"
 
@@ -11086,19 +11202,19 @@ msgstr "постави као предложено сортирање"
 msgid "suggested sort set"
 msgstr "предложено сортирање је постављено"
 
-#: r2/templates/linkcommentssettings.html:97 r2/templates/printablebuttons.html:512
+#: r2/templates/linkcommentssettings.html:97 r2/templates/printablebuttons.html:519
 msgid "disable inbox replies"
 msgstr "искључи одговоре у примљеним порукама"
 
-#: r2/templates/linkcommentssettings.html:97 r2/templates/printablebuttons.html:512
+#: r2/templates/linkcommentssettings.html:97 r2/templates/printablebuttons.html:519
 msgid "inbox replies disabled"
 msgstr "одговори у примљеним порукама су искључени"
 
-#: r2/templates/linkcommentssettings.html:101 r2/templates/printablebuttons.html:516
+#: r2/templates/linkcommentssettings.html:101 r2/templates/printablebuttons.html:523
 msgid "enable inbox replies"
 msgstr "укључи одговоре у примљеним порукама"
 
-#: r2/templates/linkcommentssettings.html:101 r2/templates/printablebuttons.html:516
+#: r2/templates/linkcommentssettings.html:101 r2/templates/printablebuttons.html:523
 msgid "inbox replies enabled"
 msgstr "одговори у примљеним порукама су укључени"
 
@@ -11495,7 +11611,7 @@ msgstr "више нисте модератор"
 msgid "stop being a moderator?"
 msgstr "не желите више да будете модератор?"
 
-#: r2/templates/modlisting.html:48 r2/templates/printablebuttons.html:426
+#: r2/templates/modlisting.html:48 r2/templates/printablebuttons.html:433
 msgid "accept"
 msgstr "прихвати"
 
@@ -11545,7 +11661,7 @@ msgstr "настави ову тему"
 msgid "curated by /u/%s"
 msgstr "уређује /u/%s"
 
-#: r2/templates/multiinfobar.html:46 r2/templates/printablebuttons.html:384
+#: r2/templates/multiinfobar.html:46 r2/templates/printablebuttons.html:391
 msgid "hidden"
 msgstr "сакривено"
 
@@ -13037,64 +13153,64 @@ msgstr "<без разлога>"
 msgid "user reports:"
 msgstr "пријаве корисника:"
 
-#: r2/templates/printablebuttons.html:379
+#: r2/templates/printablebuttons.html:386
 msgid "unhide"
 msgstr "откриј"
 
-#: r2/templates/printablebuttons.html:380
+#: r2/templates/printablebuttons.html:387
 msgid "unhidden"
 msgstr "откривено"
 
-#: r2/templates/printablebuttons.html:420
+#: r2/templates/printablebuttons.html:427
 msgid "reject"
 msgstr "одбиј"
 
-#: r2/templates/printablebuttons.html:427
+#: r2/templates/printablebuttons.html:434
 msgid "accepted"
 msgstr "прихваћено"
 
-#: r2/templates/printablebuttons.html:435
+#: r2/templates/printablebuttons.html:442
 msgid "fraud"
 msgstr "превара"
 
-#: r2/templates/printablebuttons.html:466 r2/templates/printablebuttons.html:570
+#: r2/templates/printablebuttons.html:473 r2/templates/printablebuttons.html:577
 msgid "permalink"
 msgstr "перманентни линк"
 
-#: r2/templates/printablebuttons.html:486 r2/templates/printablebuttons.html:559
+#: r2/templates/printablebuttons.html:493 r2/templates/printablebuttons.html:566
 msgid "context"
 msgstr "контекст"
 
-#: r2/templates/printablebuttons.html:490 r2/templates/printablebuttons.html:563
+#: r2/templates/printablebuttons.html:497 r2/templates/printablebuttons.html:570
 msgid "full comments"
 msgstr "цели коментари"
 
-#: r2/templates/printablebuttons.html:500
+#: r2/templates/printablebuttons.html:507
 msgid "parent"
 msgstr "почетни коментар"
 
-#: r2/templates/printablebuttons.html:531 r2/templates/printablebuttons.html:533 r2/templates/printablebuttons.html:626
+#: r2/templates/printablebuttons.html:538 r2/templates/printablebuttons.html:540 r2/templates/printablebuttons.html:633
 #, python-brace-format
 msgid "reply {verb}"
 msgstr "одговори"
 
-#: r2/templates/printablebuttons.html:588
+#: r2/templates/printablebuttons.html:595
 msgid "unblock vault"
 msgstr "одблокирај волт"
 
-#: r2/templates/printablebuttons.html:588
+#: r2/templates/printablebuttons.html:595
 msgid "unblocked"
 msgstr "одблокирано"
 
-#: r2/templates/printablebuttons.html:591
+#: r2/templates/printablebuttons.html:598
 msgid "block vault"
 msgstr "блокирај волт"
 
-#: r2/templates/printablebuttons.html:598
+#: r2/templates/printablebuttons.html:605
 msgid "block user"
 msgstr "блокирај корисника"
 
-#: r2/templates/printablebuttons.html:616
+#: r2/templates/printablebuttons.html:623
 msgid "mark unread"
 msgstr "означи као непрочитано"
 
