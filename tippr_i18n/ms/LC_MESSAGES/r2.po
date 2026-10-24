@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tippr\n"
 "Report-Msgid-Bugs-To: https://github.com/TechIdiots-LLC/tippr-i18n/issues\n"
-"POT-Creation-Date: 2026-10-23 17:51-0400\n"
+"POT-Creation-Date: 2026-10-23 20:15-0400\n"
 "PO-Revision-Date: 2017-01-23 14:37-0500\n"
 "Last-Translator: tippr translators\n"
 "Language-Team: Malay\n"
@@ -19,7 +19,7 @@ msgstr ""
 msgid "Choose an image of at most 1 MB."
 msgstr "Pilih imej yang tidak melebihi 1 MB."
 
-#: r2/controllers/api.py:222 r2/controllers/api.py:248 r2/controllers/api.py:4398 r2/controllers/api.py:4468 r2/controllers/listingcontroller.py:754 r2/lib/pages/pages.py:6361
+#: r2/controllers/api.py:222 r2/controllers/api.py:248 r2/controllers/api.py:4398 r2/controllers/api.py:4468 r2/controllers/listingcontroller.py:754 r2/lib/pages/pages.py:6377
 msgid "API"
 msgstr "API"
 
@@ -73,7 +73,7 @@ msgstr "Log masuk itu mengambil masa terlalu lama. Sila mulakan semula."
 msgid "That account is linked already: sign in with it."
 msgstr "Akaun itu sudah dipautkan: log masuk dengannya."
 
-#: r2/controllers/api.py:1402 r2/controllers/api.py:1783 r2/controllers/api.py:2683 r2/controllers/api.py:2983 r2/controllers/api.py:3310 r2/controllers/api.py:4190 r2/controllers/api.py:4246 r2/controllers/api.py:4300 r2/controllers/api.py:4533 r2/controllers/api.py:4538 r2/controllers/api.py:4773 r2/controllers/api.py:4838 r2/controllers/api.py:4916 r2/controllers/api.py:4982 r2/controllers/api.py:5055 r2/controllers/api.py:5146 r2/controllers/api.py:5178 r2/controllers/api.py:5198 r2/controllers/api.py:5692 r2/controllers/api.py:5732 r2/controllers/api.py:5966 r2/controllers/api.py:5984 r2/controllers/api.py:6332 r2/lib/pages/pages.py:6252
+#: r2/controllers/api.py:1402 r2/controllers/api.py:1783 r2/controllers/api.py:2683 r2/controllers/api.py:2983 r2/controllers/api.py:3310 r2/controllers/api.py:4190 r2/controllers/api.py:4246 r2/controllers/api.py:4300 r2/controllers/api.py:4533 r2/controllers/api.py:4538 r2/controllers/api.py:4773 r2/controllers/api.py:4838 r2/controllers/api.py:4916 r2/controllers/api.py:4982 r2/controllers/api.py:5055 r2/controllers/api.py:5146 r2/controllers/api.py:5178 r2/controllers/api.py:5198 r2/controllers/api.py:5712 r2/controllers/api.py:5752 r2/controllers/api.py:5986 r2/controllers/api.py:6004 r2/controllers/api.py:6352 r2/lib/pages/pages.py:6268
 msgid "saved"
 msgstr "disimpan"
 
@@ -183,7 +183,7 @@ msgstr "tidak berjaya: %(error)s"
 msgid "no such payment"
 msgstr "tiada pembayaran sebegitu"
 
-#: r2/controllers/api.py:5021 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminprivacy.html:26 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminusers.html:77 r2/templates/adminvaults.html:50
+#: r2/controllers/api.py:5021 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminprivacy.html:26 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminuser.html:89 r2/templates/adminusers.html:77 r2/templates/adminvaults.html:50
 msgid "status"
 msgstr "status"
 
@@ -231,257 +231,263 @@ msgstr "setiap akaun telah disemak"
 msgid "select some accounts"
 msgstr "pilih beberapa akaun"
 
-#: r2/controllers/api.py:5305 r2/controllers/api.py:5394
+#: r2/controllers/api.py:5308 r2/controllers/api.py:5414
 msgid "no such account"
 msgstr "tiada akaun sebegitu"
 
-#: r2/controllers/api.py:5308 r2/controllers/api.py:5386
+#: r2/controllers/api.py:5311 r2/controllers/api.py:5406
 msgid "unknown action"
 msgstr "tindakan tidak diketahui"
 
-#: r2/controllers/api.py:5319
+#: r2/controllers/api.py:5325
+#, fuzzy
+#| msgid "no permissions"
+msgid "choose a permission"
+msgstr "tidak ada keizinan"
+
+#: r2/controllers/api.py:5339
 msgid "not on admins (take them off the employees list on /admin/config first)"
 msgstr "tidak untuk pentadbir (keluarkan mereka daripada senarai pekerja di /admin/config dahulu)"
 
-#: r2/controllers/api.py:5323
+#: r2/controllers/api.py:5343
 msgid "the account is deleted"
 msgstr "akaun telah dihapuskan"
 
-#: r2/controllers/api.py:5326
+#: r2/controllers/api.py:5346
 msgid "give a reason (it's logged, and a timeout's reason is sent to them)"
 msgstr "berikan sebab (ia direkodkan, dan sebab masa tamat dihantar kepada mereka)"
 
-#: r2/controllers/api.py:5330 r2/controllers/api.py:5411
+#: r2/controllers/api.py:5350 r2/controllers/api.py:5431
 msgid "tick the box to confirm"
 msgstr "tandakan kotak untuk mengesahkan"
 
-#: r2/controllers/api.py:5333
+#: r2/controllers/api.py:5353
 msgid "choose whether to keep or delete their posts"
 msgstr "pilih sama ada mahu simpan atau hapus kiriman mereka"
 
-#: r2/controllers/api.py:5336
+#: r2/controllers/api.py:5356
 msgid "they have no email address"
 msgstr "mereka tiada alamat e-mel"
 
-#: r2/controllers/api.py:5383 r2/controllers/api.py:5489
+#: r2/controllers/api.py:5403 r2/controllers/api.py:5509
 msgid "no such vault"
 msgstr "tiada vault sebegitu"
 
-#: r2/controllers/api.py:5398
+#: r2/controllers/api.py:5418
 msgid "they're already a moderator"
 msgstr "mereka sudah pun pengendali"
 
-#: r2/controllers/api.py:5401
+#: r2/controllers/api.py:5421
 msgid "they're banned from the vault; unban them first"
 msgstr "mereka diharamkan daripada vault; tarik balik pengharaman dahulu"
 
-#: r2/controllers/api.py:5406
+#: r2/controllers/api.py:5426
 msgid "they aren't a moderator"
 msgstr "mereka bukan pengendali"
 
-#: r2/controllers/api.py:5418
+#: r2/controllers/api.py:5438
 msgid "unban the vault first"
 msgstr "tarik balik pengharaman vault dahulu"
 
-#: r2/controllers/api.py:5437
+#: r2/controllers/api.py:5457
 msgid "no such app"
 msgstr "tiada aplikasi sebegitu"
 
-#: r2/controllers/api.py:5440
+#: r2/controllers/api.py:5460
 msgid "the site's own apps can't be deleted here"
 msgstr "aplikasi milik laman sendiri tidak boleh dihapuskan di sini"
 
-#: r2/controllers/api.py:5483
+#: r2/controllers/api.py:5503
 msgid "give the feed's http(s) address"
 msgstr "berikan alamat http(s) suapan"
 
-#: r2/controllers/api.py:5492
+#: r2/controllers/api.py:5512
 msgid "pick one of the AI labels"
 msgstr "pilih salah satu label AI"
 
-#: r2/controllers/api.py:5496
+#: r2/controllers/api.py:5516
 #, python-format
 msgid "/v/%(vault)s doesn't accept %(label)s posts"
 msgstr "/v/%(vault)s tidak menerima kiriman %(label)s"
 
-#: r2/controllers/api.py:5502
+#: r2/controllers/api.py:5522
 msgid "give the bot account a valid username"
 msgstr "berikan akaun bot nama pengguna yang sah"
 
-#: r2/controllers/api.py:5511
+#: r2/controllers/api.py:5531
 msgid "that account is suspended or deleted"
 msgstr "akaun itu digantung atau dihapuskan"
 
-#: r2/controllers/api.py:5518 r2/controllers/api.py:5533
+#: r2/controllers/api.py:5538 r2/controllers/api.py:5553
 msgid "no such feed"
 msgstr "tiada suapan sebegitu"
 
-#: r2/controllers/api.py:5556
+#: r2/controllers/api.py:5576
 msgid "give a domain"
 msgstr "berikan domain"
 
-#: r2/controllers/api.py:5562
+#: r2/controllers/api.py:5582
 msgid "choose what the ban does"
 msgstr "pilih apa yang dilakukan oleh pengharaman"
 
-#: r2/controllers/api.py:5565
+#: r2/controllers/api.py:5585
 msgid "give a reason (members see it when the link is refused)"
 msgstr "berikan sebab (ahli melihatnya apabila pautan ditolak)"
 
-#: r2/controllers/api.py:5570
+#: r2/controllers/api.py:5590
 msgid "that's not a domain"
 msgstr "itu bukan domain"
 
-#: r2/controllers/api.py:5597 r2/controllers/api.py:5616 r2/controllers/api.py:5633 r2/controllers/api.py:5651
+#: r2/controllers/api.py:5617 r2/controllers/api.py:5636 r2/controllers/api.py:5653 r2/controllers/api.py:5671
 msgid "no such ticket"
 msgstr "tiada tiket sebegitu"
 
-#: r2/controllers/api.py:5664
+#: r2/controllers/api.py:5684
 msgid "they can't reply in this category"
 msgstr "mereka tidak boleh membalas dalam kategori ini"
 
-#: r2/controllers/api.py:5684
+#: r2/controllers/api.py:5704
 msgid "not on the employees list"
 msgstr "tiada dalam senarai pekerja"
 
-#: r2/controllers/api.py:5736
+#: r2/controllers/api.py:5756
 msgid "saved; CleanTalk needs an access key to work"
 msgstr "disimpan; CleanTalk memerlukan kunci akses untuk berfungsi"
 
-#: r2/controllers/api.py:5739
+#: r2/controllers/api.py:5759
 #, python-format
 msgid "saved; CleanTalk says: %(problem)s"
 msgstr "disimpan; CleanTalk berkata: %(problem)s"
 
-#: r2/controllers/api.py:5741
+#: r2/controllers/api.py:5761
 msgid "saved; the CleanTalk key works"
 msgstr "disimpan; kunci CleanTalk berfungsi"
 
-#: r2/controllers/api.py:5778
+#: r2/controllers/api.py:5798
 msgid "that isn't a release with an installer"
 msgstr "itu bukan keluaran yang mempunyai pemasang"
 
-#: r2/controllers/api.py:5781
+#: r2/controllers/api.py:5801
 msgid "a server is updating now; wait for it to finish"
 msgstr "sebuah pelayan sedang dikemas kini; tunggu sehingga ia selesai"
 
-#: r2/controllers/api.py:5883
+#: r2/controllers/api.py:5903
 msgid "Copy the key now; it isn't shown again."
 msgstr "Salin kunci sekarang; ia tidak akan ditunjukkan lagi."
 
-#: r2/controllers/api.py:5892
+#: r2/controllers/api.py:5912
 msgid "tippr-backup isn't installed on this server (re-run the installer)."
 msgstr "tippr-backup tidak dipasang pada pelayan ini (jalankan semula pemasang)."
 
-#: r2/controllers/api.py:5897
+#: r2/controllers/api.py:5917
 msgid "no such backup"
 msgstr "tiada sandaran sebegitu"
 
-#: r2/controllers/api.py:5902
+#: r2/controllers/api.py:5922
 #, python-format
 msgid "Type this site's domain (%(domain)s) to confirm."
 msgstr "Taip domain laman ini (%(domain)s) untuk mengesahkan."
 
-#: r2/controllers/api.py:5915
+#: r2/controllers/api.py:5935
 msgid "Enter the other server's address and its transfer key."
 msgstr "Masukkan alamat pelayan lain dan kunci pemindahannya."
 
-#: r2/controllers/api.py:5919
+#: r2/controllers/api.py:5939
 msgid "That isn't a backup name."
 msgstr "Itu bukan nama sandaran."
 
-#: r2/controllers/api.py:5940
+#: r2/controllers/api.py:5960
 msgid "tippr test email"
 msgstr "e-mel ujian tippr"
 
-#: r2/controllers/api.py:5941
+#: r2/controllers/api.py:5961
 #, python-format
 msgid "This is a test message from %(domain)s. Email is working."
 msgstr "Ini ialah mesej ujian daripada %(domain)s. E-mel berfungsi."
 
-#: r2/controllers/api.py:5945
+#: r2/controllers/api.py:5965
 #, python-format
 msgid "failed: %(error)s"
 msgstr "gagal: %(error)s"
 
-#: r2/controllers/api.py:5947
+#: r2/controllers/api.py:5967
 #, python-format
 msgid "sent to %(address)s"
 msgstr "dihantar ke %(address)s"
 
-#: r2/controllers/api.py:5980
+#: r2/controllers/api.py:6000
 msgid "no gold to take"
 msgstr "tiada emas untuk diterima"
 
-#: r2/controllers/api.py:6144 r2/controllers/api.py:6174
+#: r2/controllers/api.py:6164 r2/controllers/api.py:6194
 msgid "that's as many authenticator apps as an account can have"
 msgstr "itulah jumlah maksimum aplikasi pengesah yang boleh dimiliki sesebuah akaun"
 
-#: r2/controllers/api.py:6222
+#: r2/controllers/api.py:6242
 msgid "That code didn't work. Codes follow the clock, so check that your phone sets its time automatically."
 msgstr ""
 
-#: r2/controllers/api.py:6225
+#: r2/controllers/api.py:6245
 msgid "enter a code from one of your methods first"
 msgstr "masukkan kod daripada salah satu kaedah anda dahulu"
 
-#: r2/controllers/api.py:6228
+#: r2/controllers/api.py:6248
 #, fuzzy
 #| msgid "That code isn't right. Try again."
 msgid "That password isn't right. Try again."
 msgstr "Kod itu tidak betul. Cuba lagi."
 
-#: r2/controllers/api.py:6229
+#: r2/controllers/api.py:6249
 msgid "enter your password first"
 msgstr "masukkan kata laluan anda dahulu"
 
-#: r2/controllers/api.py:6247
+#: r2/controllers/api.py:6267
 msgid "that passkey couldn't be added"
 msgstr "kunci laluan itu tidak dapat ditambah"
 
-#: r2/controllers/api.py:6285
+#: r2/controllers/api.py:6305
 msgid "that passkey wasn't accepted"
 msgstr "kunci laluan itu tidak diterima"
 
-#: r2/controllers/api.py:6444
+#: r2/controllers/api.py:6464
 #, python-format
 msgid "accounts need to be %(n)d days old"
 msgstr "akaun perlu berusia %(n)d hari"
 
-#: r2/controllers/api.py:6448
+#: r2/controllers/api.py:6468
 #, python-format
 msgid "accounts need %(n)d karma"
 msgstr "akaun memerlukan %(n)d karma"
 
-#: r2/controllers/api.py:6451
+#: r2/controllers/api.py:6471
 msgid "verify your email address first"
 msgstr "sahkan alamat e-mel anda dahulu"
 
-#: r2/controllers/api.py:6493 r2/lib/errors.py:158
+#: r2/controllers/api.py:6513 r2/lib/errors.py:158
 msgid "this app can not be modified from this interface"
 msgstr "aplikasi ini tidak boleh diubah suai daripada antara muka ini"
 
-#: r2/controllers/api.py:6500 r2/lib/errors.py:136
+#: r2/controllers/api.py:6520 r2/lib/errors.py:136
 msgid "invalid client id"
 msgstr "id klien tak sah"
 
-#: r2/controllers/api.py:6503
+#: r2/controllers/api.py:6523
 msgid "cannot update deleted app"
 msgstr "tidak boleh mengemas kini app yang terhapus"
 
-#: r2/controllers/api.py:6506
+#: r2/controllers/api.py:6526
 msgid "app does not belong to you"
 msgstr "app tidak dimiliki anda"
 
-#: r2/controllers/api.py:6514
+#: r2/controllers/api.py:6534
 msgid "application updated"
 msgstr "aplikasi dinaiktarafkan"
 
-#: r2/controllers/api.py:6538
+#: r2/controllers/api.py:6558
 msgid "application created"
 msgstr "aplikasi dicipta"
 
-#: r2/controllers/api.py:6573
+#: r2/controllers/api.py:6593
 msgid "developer added"
 msgstr "Developer ditambah"
 
@@ -497,7 +503,7 @@ msgstr "butang tippr"
 msgid "tippr widget"
 msgstr "wiget tippr"
 
-#: r2/controllers/embed.py:74 r2/controllers/policies.py:76 r2/lib/pages/pages.py:1136 r2/lib/pages/pages.py:6357 r2/templates/printablebuttons.html:150
+#: r2/controllers/embed.py:74 r2/controllers/policies.py:76 r2/lib/pages/pages.py:1136 r2/lib/pages/pages.py:6373 r2/templates/printablebuttons.html:150
 msgid "help"
 msgstr "bantuan"
 
@@ -531,7 +537,7 @@ msgstr "laman yang anda mohon tidak wujud"
 msgid "suspended"
 msgstr "digantung"
 
-#: r2/controllers/front.py:247 r2/lib/pages/pages.py:6239
+#: r2/controllers/front.py:247 r2/lib/pages/pages.py:6255
 msgid "explore"
 msgstr "jelajah"
 
@@ -563,7 +569,7 @@ msgstr "tunjuk %d"
 msgid "create a vault"
 msgstr "cipta vault"
 
-#: r2/controllers/front.py:738 r2/controllers/front.py:744 r2/controllers/listingcontroller.py:801 r2/controllers/listingcontroller.py:816 r2/controllers/listingcontroller.py:1180 r2/controllers/listingcontroller.py:1191 r2/lib/menus.py:203 r2/lib/menus.py:453 r2/lib/menus.py:666 r2/lib/pages/pages.py:5126 r2/lib/pages/pages.py:5135 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
+#: r2/controllers/front.py:738 r2/controllers/front.py:744 r2/controllers/listingcontroller.py:801 r2/controllers/listingcontroller.py:816 r2/controllers/listingcontroller.py:1180 r2/controllers/listingcontroller.py:1191 r2/lib/menus.py:203 r2/lib/menus.py:453 r2/lib/menus.py:666 r2/lib/pages/pages.py:5142 r2/lib/pages/pages.py:5151 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
 msgid "all"
 msgstr "semua"
 
@@ -587,7 +593,7 @@ msgstr "kiriman dan komen"
 msgid "posts"
 msgstr "kiriman"
 
-#: r2/controllers/front.py:949 r2/controllers/listingcontroller.py:1783 r2/lib/pages/pages.py:5880 r2/templates/adminuser.html:37 r2/templates/createvault.html:288 r2/templates/link.xml:95
+#: r2/controllers/front.py:949 r2/controllers/listingcontroller.py:1783 r2/lib/pages/pages.py:5896 r2/templates/adminuser.html:37 r2/templates/createvault.html:288 r2/templates/link.xml:95
 msgid "comments"
 msgstr "komen"
 
@@ -1249,15 +1255,15 @@ msgstr "pengiklanan"
 msgid "translating"
 msgstr "terjemahan"
 
-#: r2/controllers/policies.py:71 r2/controllers/policies.py:89 r2/lib/menus.py:101 r2/lib/pages/pages.py:6368 r2/templates/contactus.html:92
+#: r2/controllers/policies.py:71 r2/controllers/policies.py:89 r2/lib/menus.py:101 r2/lib/pages/pages.py:6384 r2/templates/contactus.html:92
 msgid "user agreement"
 msgstr "persetujuan pengguna"
 
-#: r2/controllers/policies.py:72 r2/controllers/policies.py:86 r2/lib/menus.py:102 r2/lib/pages/pages.py:6367 r2/templates/contactus.html:84 r2/templates/utils.html:543
+#: r2/controllers/policies.py:72 r2/controllers/policies.py:86 r2/lib/menus.py:102 r2/lib/pages/pages.py:6383 r2/templates/contactus.html:84 r2/templates/utils.html:543
 msgid "privacy policy"
 msgstr "dasar kerahsiaan"
 
-#: r2/controllers/policies.py:73 r2/controllers/policies.py:92 r2/lib/menus.py:100 r2/lib/pages/pages.py:6369 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:193
+#: r2/controllers/policies.py:73 r2/controllers/policies.py:92 r2/lib/menus.py:100 r2/lib/pages/pages.py:6385 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:193
 msgid "content policy"
 msgstr "polisi kandungan"
 
@@ -1397,7 +1403,7 @@ msgstr "pilih imej"
 msgid "too big. keep it under 500 KB"
 msgstr "terlalu besar. pastikan di bawah 500 KB"
 
-#: r2/controllers/tippr_base.py:1483 r2/lib/pages/pages.py:4655 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
+#: r2/controllers/tippr_base.py:1483 r2/lib/pages/pages.py:4671 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
 msgid "banned"
 msgstr "diharamkan"
 
@@ -3719,7 +3725,7 @@ msgid "hour"
 msgid_plural "hours"
 msgstr[0] "jam"
 
-#: r2/lib/pages/pages.py:346 r2/lib/pages/pages.py:5680 r2/lib/strings.py:279 r2/public/static/js/sponsored.js:1477 r2/public/static/js/sponsored.js:1838 r2/templates/intimeoutinterstitial.html:44 r2/templates/tipprtraffic.html:104
+#: r2/lib/pages/pages.py:346 r2/lib/pages/pages.py:5696 r2/lib/strings.py:279 r2/public/static/js/sponsored.js:1477 r2/public/static/js/sponsored.js:1838 r2/templates/intimeoutinterstitial.html:44 r2/templates/tipprtraffic.html:104
 msgid "day"
 msgid_plural "days"
 msgstr[0] "hari"
@@ -4317,246 +4323,250 @@ msgstr "anda mempunyai langganan emas kad kredit. Kad anda (berakhir dengan %(la
 msgid "try entering those letters again"
 msgstr "cuba masukkan huruf-huruf itu sekali lagi"
 
-#: r2/lib/pages/pages.py:3655 r2/lib/pages/pages.py:6360 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
+#: r2/lib/pages/pages.py:3655 r2/lib/pages/pages.py:6376 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
 msgid "search"
 msgstr "cari"
 
-#: r2/lib/pages/pages.py:4289
+#: r2/lib/pages/pages.py:4299
 #, python-format
 msgid "not heard from for %(time)s"
 msgstr "tiada khabar selama %(time)s"
 
-#: r2/lib/pages/pages.py:4295
+#: r2/lib/pages/pages.py:4305
 #, python-format
 msgid "memory %(p)s%% used"
 msgstr "memori %(p)s%% digunakan"
 
-#: r2/lib/pages/pages.py:4299
+#: r2/lib/pages/pages.py:4309
 #, python-format
 msgid "busy: load %(l)s on %(n)s CPUs"
 msgstr "sibuk: beban %(l)s pada %(n)s CPU"
 
-#: r2/lib/pages/pages.py:4305
+#: r2/lib/pages/pages.py:4315
 #, python-format
 msgid "disk %(path)s %(p)s%% full"
 msgstr "cakera %(path)s %(p)s%% penuh"
 
-#: r2/lib/pages/pages.py:4309
+#: r2/lib/pages/pages.py:4319
 #, python-format
 msgid "%(service)s is %(state)s"
 msgstr "%(service)s dalam keadaan %(state)s"
 
-#: r2/lib/pages/pages.py:4312
+#: r2/lib/pages/pages.py:4322
 msgid "a different version from the others"
 msgstr "versi yang berbeza daripada yang lain"
 
-#: r2/lib/pages/pages.py:4314
+#: r2/lib/pages/pages.py:4324
 msgid "another server has the same name: set TIPPR_SERVER_NAME on one of them"
 msgstr "pelayan lain mempunyai nama yang sama: tetapkan TIPPR_SERVER_NAME pada salah satu daripadanya"
 
-#: r2/lib/pages/pages.py:4369
+#: r2/lib/pages/pages.py:4379
 #, python-format
 msgid "%(n)s seconds"
 msgstr "%(n)s saat"
 
-#: r2/lib/pages/pages.py:4371
+#: r2/lib/pages/pages.py:4381
 #, python-format
 msgid "%(n)s minutes"
 msgstr "%(n)s minit"
 
-#: r2/lib/pages/pages.py:4373
+#: r2/lib/pages/pages.py:4383
 #, python-format
 msgid "%(n)s hours"
 msgstr "%(n)s jam"
 
-#: r2/lib/pages/pages.py:4374
+#: r2/lib/pages/pages.py:4384
 #, python-format
 msgid "%(n)s days"
 msgstr "%(n)s hari"
 
-#: r2/lib/pages/pages.py:4390
+#: r2/lib/pages/pages.py:4400
 msgid "polling"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4596 r2/lib/pages/pages.py:4705
+#: r2/lib/pages/pages.py:4406
+msgid "off (no event collector)"
+msgstr ""
+
+#: r2/lib/pages/pages.py:4612 r2/lib/pages/pages.py:4721
 msgid "added"
 msgstr "ditambah"
 
-#: r2/lib/pages/pages.py:4664 r2/models/modaction.py:146 r2/templates/printablebuttons.html:608
+#: r2/lib/pages/pages.py:4680 r2/models/modaction.py:146 r2/templates/printablebuttons.html:608
 msgid "muted"
 msgstr "dibisukan"
 
-#: r2/lib/pages/pages.py:4682
+#: r2/lib/pages/pages.py:4698
 msgid "invited"
 msgstr "dipelawakan"
 
-#: r2/lib/pages/pages.py:4743
+#: r2/lib/pages/pages.py:4759
 msgid "grant flair"
 msgstr "berikan flair"
 
-#: r2/lib/pages/pages.py:4745
+#: r2/lib/pages/pages.py:4761
 msgid "user flair templates"
 msgstr "template tanda nama pengguna"
 
-#: r2/lib/pages/pages.py:4747
+#: r2/lib/pages/pages.py:4763
 msgid "link flair templates"
 msgstr "template tanda nama pautan"
 
-#: r2/lib/pages/pages.py:5119 r2/templates/adminuser.html:73 r2/templates/flairpane.html:79
+#: r2/lib/pages/pages.py:5135 r2/templates/adminuser.html:73 r2/templates/adminuser.html:98 r2/templates/adminuser.html:108 r2/templates/flairpane.html:79
 msgid "none"
 msgstr "tiada"
 
-#: r2/lib/pages/pages.py:5250
+#: r2/lib/pages/pages.py:5266
 msgid "suggestions:"
 msgstr "usulan"
 
-#: r2/lib/pages/pages.py:5254
+#: r2/lib/pages/pages.py:5270
 #, python-format
 msgid "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/v/selfserve](%(selfserve)s)."
 msgstr "Cipta iklan anda di halaman ini. Ada soalan? Lihatlah [Pertolongan](%(help_center)s) atau [/v/selfserve](%(selfserve)s)."
 
-#: r2/lib/pages/pages.py:5872
+#: r2/lib/pages/pages.py:5888
 msgid "start date"
 msgstr "tarikh bermula"
 
-#: r2/lib/pages/pages.py:5873
+#: r2/lib/pages/pages.py:5889
 msgid "end date"
 msgstr "tarikh berakhir"
 
-#: r2/lib/pages/pages.py:5875 r2/templates/createvault.html:266
+#: r2/lib/pages/pages.py:5891 r2/templates/createvault.html:266
 msgid "links"
 msgstr "pautan"
 
-#: r2/lib/pages/pages.py:5877 r2/lib/pages/pages.py:5896 r2/templates/adminpaymentsettings.html:239 r2/templates/promotedlinktraffic.html:42 r2/templates/timeserieschart.html:40
+#: r2/lib/pages/pages.py:5893 r2/lib/pages/pages.py:5912 r2/templates/adminpaymentsettings.html:239 r2/templates/promotedlinktraffic.html:42 r2/templates/timeserieschart.html:40
 msgid "date"
 msgstr "tarikh"
 
-#: r2/lib/pages/pages.py:5880 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
+#: r2/lib/pages/pages.py:5896 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
 msgid "id"
 msgstr "id"
 
-#: r2/lib/pages/pages.py:5880 r2/lib/pages/pages.py:5899 r2/templates/promotelinkbase.html:856
+#: r2/lib/pages/pages.py:5896 r2/lib/pages/pages.py:5915 r2/templates/promotelinkbase.html:856
 msgid "owner"
 msgstr "pemilik"
 
-#: r2/lib/pages/pages.py:5880 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
+#: r2/lib/pages/pages.py:5896 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
 msgid "url"
 msgstr "url"
 
-#: r2/lib/pages/pages.py:5881
+#: r2/lib/pages/pages.py:5897
 msgid "upvotes"
 msgstr "upvote"
 
-#: r2/lib/pages/pages.py:5881
+#: r2/lib/pages/pages.py:5897
 msgid "downvotes"
 msgstr "downvote"
 
-#: r2/lib/pages/pages.py:5881 r2/lib/pages/trafficpages.py:351 r2/lib/pages/trafficpages.py:847 r2/templates/promotedlinktraffic.html:44 r2/templates/promotedlinktraffic.html:124
+#: r2/lib/pages/pages.py:5897 r2/lib/pages/trafficpages.py:351 r2/lib/pages/trafficpages.py:847 r2/templates/promotedlinktraffic.html:44 r2/templates/promotedlinktraffic.html:124
 msgid "clicks"
 msgstr "klik"
 
-#: r2/lib/pages/pages.py:5881 r2/lib/pages/trafficpages.py:348 r2/lib/pages/trafficpages.py:472 r2/lib/pages/trafficpages.py:846 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
+#: r2/lib/pages/pages.py:5897 r2/lib/pages/trafficpages.py:348 r2/lib/pages/trafficpages.py:472 r2/lib/pages/trafficpages.py:846 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
 msgid "impressions"
 msgstr "impresi"
 
-#: r2/lib/pages/pages.py:5894
+#: r2/lib/pages/pages.py:5910
 msgid "campaigns"
 msgstr "kempen"
 
-#: r2/lib/pages/pages.py:5899
+#: r2/lib/pages/pages.py:5915
 msgid "link id"
 msgstr "id pautan"
 
-#: r2/lib/pages/pages.py:5899
+#: r2/lib/pages/pages.py:5915
 msgid "campaign id"
 msgstr "id kempen"
 
-#: r2/lib/pages/pages.py:5899 r2/templates/promotedlinktraffic.html:117 r2/templates/refundpage.html:56
+#: r2/lib/pages/pages.py:5915 r2/templates/promotedlinktraffic.html:117 r2/templates/refundpage.html:56
 msgid "target"
 msgstr "sasaran"
 
-#: r2/lib/pages/pages.py:5900 r2/templates/promotelinkedit.html:157
+#: r2/lib/pages/pages.py:5916 r2/templates/promotelinkedit.html:157
 msgid "bid"
 msgstr "bida"
 
-#: r2/lib/pages/pages.py:5900
+#: r2/lib/pages/pages.py:5916
 msgid "frontpage clicks"
 msgstr "klik halaman depan"
 
-#: r2/lib/pages/pages.py:5900
+#: r2/lib/pages/pages.py:5916
 msgid "frontpage impressions"
 msgstr "impresi halaman depan"
 
-#: r2/lib/pages/pages.py:5901
+#: r2/lib/pages/pages.py:5917
 msgid "vault clicks"
 msgstr "jumlah klik vault"
 
-#: r2/lib/pages/pages.py:5901
+#: r2/lib/pages/pages.py:5917
 msgid "vault impressions"
 msgstr "jumlah impresi vault"
 
-#: r2/lib/pages/pages.py:5902 r2/lib/pages/trafficpages.py:478
+#: r2/lib/pages/pages.py:5918 r2/lib/pages/trafficpages.py:478
 msgid "total clicks"
 msgstr "jumlah klik"
 
-#: r2/lib/pages/pages.py:5902
+#: r2/lib/pages/pages.py:5918
 msgid "total impressions"
 msgstr "jumlah impressi"
 
-#: r2/lib/pages/pages.py:6105 r2/templates/accountactivitybox.html:27
+#: r2/lib/pages/pages.py:6121 r2/templates/accountactivitybox.html:27
 msgid "account activity"
 msgstr "aktiviti akaun"
 
-#: r2/lib/pages/pages.py:6237
+#: r2/lib/pages/pages.py:6253
 msgid "subscribed"
 msgstr "dilanggan"
 
-#: r2/lib/pages/pages.py:6238 r2/templates/preffeeds.html:58
+#: r2/lib/pages/pages.py:6254 r2/templates/preffeeds.html:58
 msgid "your front page"
 msgstr "halaman depan anda"
 
-#: r2/lib/pages/pages.py:6241 r2/lib/pages/pages.py:6246 r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:104
+#: r2/lib/pages/pages.py:6257 r2/lib/pages/pages.py:6262 r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:104
 msgid "everything"
 msgstr "semua"
 
-#: r2/lib/pages/pages.py:6244 r2/lib/pages/pages.py:6247
+#: r2/lib/pages/pages.py:6260 r2/lib/pages/pages.py:6263
 msgid "from all vaults"
 msgstr "daripada semua vault"
 
-#: r2/lib/pages/pages.py:6249
+#: r2/lib/pages/pages.py:6265
 msgid "moderating"
 msgstr "pengendalian"
 
-#: r2/lib/pages/pages.py:6250
+#: r2/lib/pages/pages.py:6266
 msgid "vaults you mod"
 msgstr "vault yang anda tadbirkan"
 
-#: r2/lib/pages/pages.py:6256
+#: r2/lib/pages/pages.py:6272
 msgid "gold perks"
 msgstr "kelebihan gold"
 
-#: r2/lib/pages/pages.py:6272
+#: r2/lib/pages/pages.py:6288
 msgid "explore multis"
 msgstr "jelajah multi"
 
-#: r2/lib/pages/pages.py:6358
+#: r2/lib/pages/pages.py:6374
 msgid "faq"
 msgstr "soalan lazim"
 
-#: r2/lib/pages/pages.py:6359 r2/templates/usertext.html:121
+#: r2/lib/pages/pages.py:6375 r2/templates/usertext.html:121
 msgid "formatting"
 msgstr "pemformatan"
 
-#: r2/lib/pages/pages.py:6428
+#: r2/lib/pages/pages.py:6444
 msgid "your subscribed vaults"
 msgstr "Vault yang telah anda langgani"
 
-#: r2/lib/pages/pages.py:6541
+#: r2/lib/pages/pages.py:6557
 #, python-format
 msgid "this promoted link uses city level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "Pautan berkeutamaan ini menggunakan penyesuaian pada tahap bandar dan mungkin telah dipaparkan kerana lokasi anda ([Maklumat lanjut](%(link)s))"
 
-#: r2/lib/pages/pages.py:6545
+#: r2/lib/pages/pages.py:6561
 #, python-format
 msgid "this promoted link uses country level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "Pautan berkeutamaan ini menggunakan penyesuaian pada tahap negara dan mungkin telah dipaparkan kerana lokasi anda ([Maklumat lanjut](%(link)s))"
@@ -6171,7 +6181,7 @@ msgstr "buka komen"
 msgid "expand or collapse the preview, or the comment"
 msgstr "kembangkan atau runtuhkan pratonton, atau komen"
 
-#: r2/public/static/js/enhancements.js:180 r2/public/static/js/enhancements.js:631 r2/public/static/js/saved.js:122 r2/public/static/js/saved.js:161 r2/public/static/js/sponsored.js:97 r2/templates/adminadsettings.html:128 r2/templates/adminantispam.html:106 r2/templates/adminemailsettings.html:95 r2/templates/adminfeeds.html:70 r2/templates/adminloginsettings.html:77 r2/templates/adminpaymentsettings.html:213 r2/templates/adminsitesettings.html:146 r2/templates/adminsupportstaff.html:57 r2/templates/adminuser.html:106 r2/templates/flairlistrow.html:48 r2/templates/flairselector.html:54 r2/templates/moderatorpermissions.html:55 r2/templates/prefsecurity.html:204 r2/templates/prefupdate.html:100 r2/templates/prefupdate.html:154 r2/templates/printablebuttons.html:106 r2/templates/printablebuttons.html:375 r2/templates/printablebuttons.html:480 r2/templates/promotelinkedit.html:218 r2/templates/vaultstylesheet.html:70
+#: r2/public/static/js/enhancements.js:180 r2/public/static/js/enhancements.js:631 r2/public/static/js/saved.js:122 r2/public/static/js/saved.js:161 r2/public/static/js/sponsored.js:97 r2/templates/adminadsettings.html:128 r2/templates/adminantispam.html:106 r2/templates/adminemailsettings.html:95 r2/templates/adminfeeds.html:70 r2/templates/adminloginsettings.html:77 r2/templates/adminpaymentsettings.html:213 r2/templates/adminsitesettings.html:146 r2/templates/adminsupportstaff.html:57 r2/templates/adminuser.html:103 r2/templates/adminuser.html:122 r2/templates/adminuser.html:147 r2/templates/flairlistrow.html:48 r2/templates/flairselector.html:54 r2/templates/moderatorpermissions.html:55 r2/templates/prefsecurity.html:204 r2/templates/prefupdate.html:100 r2/templates/prefupdate.html:154 r2/templates/printablebuttons.html:106 r2/templates/printablebuttons.html:375 r2/templates/printablebuttons.html:480 r2/templates/promotelinkedit.html:218 r2/templates/vaultstylesheet.html:70
 msgid "save"
 msgstr "simpan"
 
@@ -6922,7 +6932,7 @@ msgstr "ralat telah berlaku  (status: %(status)s)"
 msgid "view vault traffic"
 msgstr "lihat trafik vault"
 
-#: r2/public/static/js/traffic.js:13 r2/templates/adminuser.html:169 r2/templates/flairlist.html:34 r2/templates/userlisting.html:170
+#: r2/public/static/js/traffic.js:13 r2/templates/adminuser.html:210 r2/templates/flairlist.html:34 r2/templates/userlisting.html:170
 msgid "go"
 msgstr "pergi"
 
@@ -7327,7 +7337,7 @@ msgstr "Dipilih:"
 msgid "not spam (dismiss)"
 msgstr "bukan spam (abaikan)"
 
-#: r2/templates/adminantispam.html:210 r2/templates/adminapps.html:107 r2/templates/adminuser.html:151
+#: r2/templates/adminantispam.html:210 r2/templates/adminapps.html:107 r2/templates/adminuser.html:192
 msgid "suspend"
 msgstr "gantung"
 
@@ -7339,7 +7349,7 @@ msgstr "gantung dan buang kandungan mereka sebagai spam"
 msgid "apply"
 msgstr "guna"
 
-#: r2/templates/adminantispam.html:217 r2/templates/adminuser.html:214 r2/templates/adminuser.html:262 r2/templates/adminvault.html:109 r2/templates/adminvault.html:139 r2/templates/adminvaults.html:66 r2/templates/adminvaults.html:78
+#: r2/templates/adminantispam.html:217 r2/templates/adminuser.html:255 r2/templates/adminuser.html:303 r2/templates/adminvault.html:109 r2/templates/adminvault.html:139 r2/templates/adminvaults.html:66 r2/templates/adminvaults.html:78
 msgid "None."
 msgstr "Tiada."
 
@@ -7408,7 +7418,7 @@ msgstr "(tiada nama)"
 msgid "(the site's own)"
 msgstr "(milik laman sendiri)"
 
-#: r2/templates/adminapps.html:93 r2/templates/admindomain.html:85 r2/templates/admindomains.html:44 r2/templates/adminfeeds.html:132 r2/templates/adminsupport.html:83 r2/templates/adminsupport.html:88 r2/templates/adminsupportactivity.html:77 r2/templates/adminsupportticket.html:106 r2/templates/adminsupportticket.html:119 r2/templates/adminsupportticket.html:157 r2/templates/adminuser.html:43 r2/templates/adminuser.html:53 r2/templates/adminuser.html:61 r2/templates/adminuser.html:225 r2/templates/adminuser.html:257 r2/templates/adminusers.html:83 r2/templates/adminvault.html:40 r2/templates/adminvault.html:50 r2/templates/adminvaults.html:57 r2/templates/comment.htmllite:49 r2/templates/commentvisitsbox.html:41
+#: r2/templates/adminapps.html:93 r2/templates/admindomain.html:85 r2/templates/admindomains.html:44 r2/templates/adminfeeds.html:132 r2/templates/adminsupport.html:83 r2/templates/adminsupport.html:88 r2/templates/adminsupportactivity.html:77 r2/templates/adminsupportticket.html:106 r2/templates/adminsupportticket.html:119 r2/templates/adminsupportticket.html:157 r2/templates/adminuser.html:43 r2/templates/adminuser.html:53 r2/templates/adminuser.html:61 r2/templates/adminuser.html:266 r2/templates/adminuser.html:298 r2/templates/adminusers.html:83 r2/templates/adminvault.html:40 r2/templates/adminvault.html:50 r2/templates/adminvaults.html:57 r2/templates/comment.htmllite:49 r2/templates/commentvisitsbox.html:41
 msgid "ago"
 msgstr "lalu"
 
@@ -7416,11 +7426,11 @@ msgstr "lalu"
 msgid "approve"
 msgstr "luluskan"
 
-#: r2/templates/adminapps.html:110 r2/templates/adminuser.html:149
+#: r2/templates/adminapps.html:110 r2/templates/adminuser.html:190
 msgid "lift the suspension"
 msgstr "tarik balik penggantungan"
 
-#: r2/templates/adminapps.html:113 r2/templates/adminbackups.html:139 r2/templates/adminfeeds.html:148 r2/templates/adminuser.html:192 r2/templates/multiinfobar.html:56 r2/templates/prefsecurity.html:133 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:578 r2/templates/renderablecampaign.html:161 r2/templates/rules.html:135 r2/templates/wikipagesettings.html:79
+#: r2/templates/adminapps.html:113 r2/templates/adminbackups.html:139 r2/templates/adminfeeds.html:148 r2/templates/adminuser.html:233 r2/templates/multiinfobar.html:56 r2/templates/prefsecurity.html:133 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:578 r2/templates/renderablecampaign.html:161 r2/templates/rules.html:135 r2/templates/wikipagesettings.html:79
 msgid "delete"
 msgstr "hapus"
 
@@ -7828,7 +7838,7 @@ msgstr "Jalankan scripts/gmail_oauth_setup.py pada pelayan untuk menyambungkan a
 msgid "send a test email"
 msgstr "hantar e-mel ujian"
 
-#: r2/templates/adminemailsettings.html:104 r2/templates/adminsitesettings.html:164 r2/templates/adminuser.html:221
+#: r2/templates/adminemailsettings.html:104 r2/templates/adminsitesettings.html:164 r2/templates/adminuser.html:262
 msgid "address"
 msgstr "alamat"
 
@@ -8517,7 +8527,9 @@ msgid ", with a backup first"
 msgstr ", dengan sandaran dahulu"
 
 #: r2/templates/adminserverstatus.html:64
-msgid "Each server updates within a minute or so of its turn, one at a time; the site is down on each for 5-10 minutes while it does. Its state is on its card below."
+#, fuzzy
+#| msgid "Each server updates within a minute or so of its turn, one at a time; the site is down on each for 5-10 minutes while it does. Its state is on its card below."
+msgid "Each server updates within a minute or so of its turn, one at a time; the site is down on each for a few minutes while it does. Its state is on its card below."
 msgstr "Setiap pelayan dikemas kini dalam masa seminit atau lebih selepas gilirannya, satu demi satu; laman tidak berfungsi pada setiap pelayan selama 5-10 minit semasa ia berbuat demikian. Keadaannya ditunjukkan pada kadnya di bawah."
 
 #: r2/templates/adminserverstatus.html:70
@@ -8529,7 +8541,9 @@ msgid "(servers that haven't started don't; this doesn't undo an update)"
 msgstr "(pelayan yang belum bermula tidak akan bermula; ini tidak membuat asal kemas kini)"
 
 #: r2/templates/adminserverstatus.html:77
-msgid "Update the servers to this release? Each one goes down for 5-10 minutes while it updates, one at a time. Make a Proxmox snapshot first if you can."
+#, fuzzy
+#| msgid "Update the servers to this release? Each one goes down for 5-10 minutes while it updates, one at a time. Make a Proxmox snapshot first if you can."
+msgid "Update the servers to this release? Each one goes down for a few minutes while it updates, one at a time. Make a Proxmox snapshot first if you can."
 msgstr "Kemas kini pelayan kepada keluaran ini? Setiap satu akan mati selama 5-10 minit semasa dikemas kini, satu demi satu. Buat snapshot Proxmox dahulu jika boleh."
 
 #: r2/templates/adminserverstatus.html:83
@@ -8954,11 +8968,11 @@ msgstr "ditugaskan"
 msgid "last reply by staff"
 msgstr "balasan terakhir oleh kakitangan"
 
-#: r2/templates/adminsupport.html:76 r2/templates/adminsupportactivity.html:80 r2/templates/adminsupportticket.html:34 r2/templates/adminsupportticket.html:154 r2/templates/adminuser.html:254
+#: r2/templates/adminsupport.html:76 r2/templates/adminsupportactivity.html:80 r2/templates/adminsupportticket.html:34 r2/templates/adminsupportticket.html:154 r2/templates/adminuser.html:295
 msgid "(no subject)"
 msgstr "(tiada subjek)"
 
-#: r2/templates/adminsupportactivity.html:27 r2/templates/adminsupportticket.html:27 r2/templates/adminuser.html:207 r2/templates/adminvault.html:132
+#: r2/templates/adminsupportactivity.html:27 r2/templates/adminsupportticket.html:27 r2/templates/adminuser.html:248 r2/templates/adminvault.html:132
 msgid "the system"
 msgstr "sistem"
 
@@ -9136,7 +9150,7 @@ msgstr "(disahkan)"
 msgid "(not verified)"
 msgstr "(tidak disahkan)"
 
-#: r2/templates/adminuser.html:76 r2/templates/adminuser.html:175
+#: r2/templates/adminuser.html:76 r2/templates/adminuser.html:216
 msgid "two-factor"
 msgstr "dua faktor"
 
@@ -9153,206 +9167,240 @@ msgstr "mati"
 msgid "(until %(date)s)"
 msgstr "(sehingga %(date)s)"
 
-#: r2/templates/adminuser.html:89 r2/templates/adminusers.html:77
+#: r2/templates/adminuser.html:91
+#, fuzzy
+#| msgid "permission"
+msgid "staff permission"
+msgstr "kebenaran"
+
+#: r2/templates/adminuser.html:106
+msgid "Admins can turn on admin mode (everything on /admin); sponsors manage ads; employees are staff without either. The same list as \"employees\" on /admin/config; you can't remove your own admin permission."
+msgstr ""
+
+#: r2/templates/adminuser.html:109
+msgid "The live config is managed outside the site (ZooKeeper), so it can't be changed here."
+msgstr ""
+
+#: r2/templates/adminuser.html:112
+#, fuzzy
+#| msgid "all accounts"
+msgid "internal account"
+msgstr "semua akaun"
+
+#: r2/templates/adminuser.html:114
+#, fuzzy, python-format
+#| msgid "(the site's own)"
+msgid "yes: the site's %(kind)s"
+msgstr "(milik laman sendiri)"
+
+#: r2/templates/adminuser.html:121
+msgid "one of the site's own accounts (a test account, a bot), not a member"
+msgstr ""
+
+#: r2/templates/adminuser.html:126
+msgid "The site's own accounts are labelled on /admin/users and don't take an Early Member place."
+msgstr ""
+
+#: r2/templates/adminuser.html:130 r2/templates/adminusers.html:77
 #, fuzzy
 #| msgid "interests"
 msgid "internal status"
 msgstr "minat"
 
-#: r2/templates/adminuser.html:96
+#: r2/templates/adminuser.html:137
 msgid "e.g. trusted, watch"
 msgstr ""
 
-#: r2/templates/adminuser.html:104
+#: r2/templates/adminuser.html:145
 #, fuzzy
 #| msgid "night mode ad units (optional)"
 msgid "note for the other admins (optional)"
 msgstr "unit iklan mod malam (pilihan)"
 
-#: r2/templates/adminuser.html:108
+#: r2/templates/adminuser.html:149
 msgid "Only admins see this; the member doesn't. It's shown on /admin/users, where you can list the accounts with each status. Leave both blank to clear it. Changes are logged under admin actions."
 msgstr ""
 
-#: r2/templates/adminuser.html:117
+#: r2/templates/adminuser.html:158
 msgid "days (0: until lifted)"
 msgstr "hari (0: sehingga ditarik balik)"
 
-#: r2/templates/adminuser.html:130 r2/templates/adminvault.html:81
+#: r2/templates/adminuser.html:171 r2/templates/adminvault.html:81
 msgid "actions"
 msgstr "tindakan"
 
-#: r2/templates/adminuser.html:132
+#: r2/templates/adminuser.html:173
 msgid "The account is deleted."
 msgstr "Akaun telah dihapuskan."
 
-#: r2/templates/adminuser.html:134
+#: r2/templates/adminuser.html:175
 msgid "Not available for admins or yourself; take an admin off the employees list on /admin/config first."
 msgstr "Tidak tersedia untuk pentadbir atau diri anda sendiri; keluarkan pentadbir daripada senarai pekerja di /admin/config dahulu."
 
-#: r2/templates/adminuser.html:137
+#: r2/templates/adminuser.html:178
 msgid "timeout"
 msgstr "masa tamat"
 
-#: r2/templates/adminuser.html:139
+#: r2/templates/adminuser.html:180
 msgid "In a timeout"
 msgstr "Dalam masa tamat"
 
-#: r2/templates/adminuser.html:139
+#: r2/templates/adminuser.html:180
 #, python-format
 msgid " until %(date)s"
 msgstr " sehingga %(date)s"
 
-#: r2/templates/adminuser.html:139
+#: r2/templates/adminuser.html:180
 msgid " with no end date"
 msgstr " tanpa tarikh tamat"
 
-#: r2/templates/adminuser.html:140
+#: r2/templates/adminuser.html:181
 msgid "lift the timeout"
 msgstr "tarik balik masa tamat"
 
-#: r2/templates/adminuser.html:140 r2/templates/adminuser.html:149
+#: r2/templates/adminuser.html:181 r2/templates/adminuser.html:190
 msgid "note (optional)"
 msgstr "nota (pilihan)"
 
-#: r2/templates/adminuser.html:142
+#: r2/templates/adminuser.html:183
 msgid "put in a timeout"
 msgstr "letakkan dalam masa tamat"
 
-#: r2/templates/adminuser.html:142
+#: r2/templates/adminuser.html:183
 msgid "reason (sent to them)"
 msgstr "sebab (dihantar kepada mereka)"
 
-#: r2/templates/adminuser.html:143
+#: r2/templates/adminuser.html:184
 msgid "They can still read and log in, and can message the admins, but can't post, comment, vote or message anyone else."
 msgstr "Mereka masih boleh membaca dan log masuk, dan boleh menghantar mesej kepada pentadbir, tetapi tidak boleh menyiarkan, memberi komen, mengundi atau menghantar mesej kepada orang lain."
 
-#: r2/templates/adminuser.html:146
+#: r2/templates/adminuser.html:187
 msgid "suspension"
 msgstr "penggantungan"
 
-#: r2/templates/adminuser.html:148
+#: r2/templates/adminuser.html:189
 msgid "Suspended."
 msgstr "Digantung."
 
-#: r2/templates/adminuser.html:151 r2/templates/adminuser.html:190
+#: r2/templates/adminuser.html:192 r2/templates/adminuser.html:231
 msgid "reason (logged)"
 msgstr "sebab (direkodkan)"
 
-#: r2/templates/adminuser.html:151
+#: r2/templates/adminuser.html:192
 msgid "they can't log in; their sessions and app tokens end"
 msgstr "mereka tidak boleh log masuk; sesi dan token aplikasi mereka tamat"
 
-#: r2/templates/adminuser.html:154
+#: r2/templates/adminuser.html:195
 msgid "quick tools"
 msgstr "alat pantas"
 
-#: r2/templates/adminuser.html:159
+#: r2/templates/adminuser.html:200
 msgid "choose a tool"
 msgstr "pilih alat"
 
-#: r2/templates/adminuser.html:160
+#: r2/templates/adminuser.html:201
 msgid "remove all their posts and comments"
 msgstr "buang semua kiriman dan komen mereka"
 
-#: r2/templates/adminuser.html:161
+#: r2/templates/adminuser.html:202
 msgid "remove all their posts and comments as spam"
 msgstr "buang semua kiriman dan komen mereka sebagai spam"
 
-#: r2/templates/adminuser.html:162
+#: r2/templates/adminuser.html:203
 msgid "delete all their posts and comments"
 msgstr "hapus semua kiriman dan komen mereka"
 
-#: r2/templates/adminuser.html:164
+#: r2/templates/adminuser.html:205
 msgid "require them to verify their email again"
 msgstr "minta mereka mengesahkan e-mel mereka semula"
 
-#: r2/templates/adminuser.html:165
+#: r2/templates/adminuser.html:206
 msgid "remove their email address"
 msgstr "buang alamat e-mel mereka"
 
-#: r2/templates/adminuser.html:168 r2/templates/promotelinkedit.html:106
+#: r2/templates/adminuser.html:209 r2/templates/promotelinkedit.html:106
 msgid "confirm"
 msgstr "sahkan"
 
-#: r2/templates/adminuser.html:172
+#: r2/templates/adminuser.html:213
 #, python-format
 msgid "Removed posts and comments stay in each vault's spam queue, where moderators can approve them; \"as spam\" also teaches the spam filter. Deleted ones show as [deleted], as when someone deletes their own. Each acts on their newest %(n)d posts and newest %(n)d comments; run it again for more."
 msgstr "Kiriman dan komen yang dibuang kekal dalam baris gilir spam setiap vault, di mana pengendali boleh meluluskannya; \"sebagai spam\" juga mengajar penapis spam. Yang dihapuskan ditunjukkan sebagai [dihapuskan], seperti apabila seseorang menghapus milik sendiri. Setiap satu bertindak pada %(n)d kiriman terbaharu dan %(n)d komen terbaharu mereka; jalankan semula untuk lebih banyak."
 
-#: r2/templates/adminuser.html:176
+#: r2/templates/adminuser.html:217
 msgid "reset two-factor"
 msgstr "tetapkan semula dua faktor"
 
-#: r2/templates/adminuser.html:176
+#: r2/templates/adminuser.html:217
 msgid "why (logged)"
 msgstr "mengapa (direkodkan)"
 
-#: r2/templates/adminuser.html:177
+#: r2/templates/adminuser.html:218
 msgid "For someone locked out: they can log in with their password and set it up again."
 msgstr "Untuk seseorang yang terkunci di luar: mereka boleh log masuk dengan kata laluan mereka dan menyediakannya semula."
 
-#: r2/templates/adminuser.html:180
+#: r2/templates/adminuser.html:221
 msgid "delete account"
 msgstr "hapus akaun"
 
-#: r2/templates/adminuser.html:182
+#: r2/templates/adminuser.html:223
 #, python-format
 msgid "Delete %(name)s? This cannot be undone."
 msgstr "Hapus %(name)s? Ini tidak boleh dibuat asal."
 
-#: r2/templates/adminuser.html:186
+#: r2/templates/adminuser.html:227
 msgid "their posts and comments…"
 msgstr "kiriman dan komen mereka…"
 
-#: r2/templates/adminuser.html:187 r2/templates/privacysettings.html:116
+#: r2/templates/adminuser.html:228 r2/templates/privacysettings.html:116
 msgid "keep them (shown by [deleted])"
 msgstr "simpan (ditunjukkan oleh [dihapuskan])"
 
-#: r2/templates/adminuser.html:188 r2/templates/privacysettings.html:117
+#: r2/templates/adminuser.html:229 r2/templates/privacysettings.html:117
 msgid "delete them too"
 msgstr "hapus juga"
 
-#: r2/templates/adminuser.html:191
+#: r2/templates/adminuser.html:232
 msgid "delete for good"
 msgstr "hapus selama-lamanya"
 
-#: r2/templates/adminuser.html:195
+#: r2/templates/adminuser.html:236
 msgid "Final: their sessions and app tokens end, and their password, email address and moderator roles are removed now (not 90 days later, as when people delete their own account). The name can't be registered again."
 msgstr "Muktamad: sesi dan token aplikasi mereka tamat, dan kata laluan, alamat e-mel dan peranan pengendali mereka dibuang sekarang (bukan 90 hari kemudian, seperti apabila orang menghapus akaun sendiri). Nama itu tidak boleh didaftarkan semula."
 
-#: r2/templates/adminuser.html:200 r2/templates/adminvault.html:125
+#: r2/templates/adminuser.html:241 r2/templates/adminvault.html:125
 msgid "admin actions"
 msgstr "tindakan pentadbir"
 
-#: r2/templates/adminuser.html:217
+#: r2/templates/adminuser.html:258
 msgid "logins by IP address"
 msgstr "log masuk mengikut alamat IP"
 
-#: r2/templates/adminuser.html:218
+#: r2/templates/adminuser.html:259
 msgid "The last 100 days, newest first. Other accounts seen on the same address can be one person's accounts, or just a shared network (a household, school, phone carrier or VPN)."
 msgstr "100 hari terakhir, terbaharu dahulu. Akaun lain yang dilihat pada alamat yang sama boleh jadi akaun milik seorang, atau hanya rangkaian kongsi (isi rumah, sekolah, syarikat telefon atau VPN)."
 
-#: r2/templates/adminuser.html:221
+#: r2/templates/adminuser.html:262
 msgid "last login"
 msgstr "log masuk terakhir"
 
-#: r2/templates/adminuser.html:221
+#: r2/templates/adminuser.html:262
 msgid "other accounts from it"
 msgstr "akaun lain daripadanya"
 
-#: r2/templates/adminuser.html:235
+#: r2/templates/adminuser.html:276
 msgid "No logins recorded yet (they're recorded from now on, for public addresses)."
 msgstr "Belum ada log masuk direkodkan (ia direkodkan mulai sekarang, untuk alamat awam)."
 
-#: r2/templates/adminuser.html:238
+#: r2/templates/adminuser.html:279
 msgid "moderates"
 msgstr "mengendalikan"
 
-#: r2/templates/adminuser.html:246
+#: r2/templates/adminuser.html:287
 msgid "No vaults."
 msgstr "Tiada vault."
 
-#: r2/templates/adminuser.html:249
+#: r2/templates/adminuser.html:290
 msgid "support tickets"
 msgstr "tiket sokongan"
 
@@ -12321,7 +12369,7 @@ msgid "don't allow search engines to index my user profile"
 msgstr "jangan benarkan enjin carian mengindeks profil pengguna saya"
 
 #: r2/templates/prefoptions.html:502
-msgid "Google Analytics, which helps the site's admins see how it's used:"
+msgid "optional analytics cookies, which help the site's admins see how it's used (see the privacy policy):"
 msgstr ""
 
 #: r2/templates/prefoptions.html:503 r2/templates/utils.html:546
@@ -14265,7 +14313,7 @@ msgid "analytics consent"
 msgstr "analitik"
 
 #: r2/templates/utils.html:540
-msgid "This site would like to use Google Analytics to see how it's used, which sets cookies and sends Google details of your visit. Is that all right?"
+msgid "We'd like to use optional analytics cookies to see how the site is used. Is that all right?"
 msgstr ""
 
 #: r2/templates/utils.html:722

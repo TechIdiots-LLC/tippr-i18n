@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tippr\n"
 "Report-Msgid-Bugs-To: https://github.com/TechIdiots-LLC/tippr-i18n/issues\n"
-"POT-Creation-Date: 2026-10-23 17:51-0400\n"
+"POT-Creation-Date: 2026-10-23 20:15-0400\n"
 "PO-Revision-Date: 2017-01-23 14:41-0500\n"
 "Last-Translator: tippr translators\n"
 "Language-Team: Turkish\n"
@@ -21,7 +21,7 @@ msgstr ""
 msgid "Choose an image of at most 1 MB."
 msgstr "En fazla 1 MB'lık bir görsel seç."
 
-#: r2/controllers/api.py:222 r2/controllers/api.py:248 r2/controllers/api.py:4398 r2/controllers/api.py:4468 r2/controllers/listingcontroller.py:754 r2/lib/pages/pages.py:6361
+#: r2/controllers/api.py:222 r2/controllers/api.py:248 r2/controllers/api.py:4398 r2/controllers/api.py:4468 r2/controllers/listingcontroller.py:754 r2/lib/pages/pages.py:6377
 msgid "API"
 msgstr "API"
 
@@ -75,7 +75,7 @@ msgstr "Giriş çok uzun sürdü. Lütfen baştan başla."
 msgid "That account is linked already: sign in with it."
 msgstr "Bu hesap zaten bağlı: onunla giriş yap."
 
-#: r2/controllers/api.py:1402 r2/controllers/api.py:1783 r2/controllers/api.py:2683 r2/controllers/api.py:2983 r2/controllers/api.py:3310 r2/controllers/api.py:4190 r2/controllers/api.py:4246 r2/controllers/api.py:4300 r2/controllers/api.py:4533 r2/controllers/api.py:4538 r2/controllers/api.py:4773 r2/controllers/api.py:4838 r2/controllers/api.py:4916 r2/controllers/api.py:4982 r2/controllers/api.py:5055 r2/controllers/api.py:5146 r2/controllers/api.py:5178 r2/controllers/api.py:5198 r2/controllers/api.py:5692 r2/controllers/api.py:5732 r2/controllers/api.py:5966 r2/controllers/api.py:5984 r2/controllers/api.py:6332 r2/lib/pages/pages.py:6252
+#: r2/controllers/api.py:1402 r2/controllers/api.py:1783 r2/controllers/api.py:2683 r2/controllers/api.py:2983 r2/controllers/api.py:3310 r2/controllers/api.py:4190 r2/controllers/api.py:4246 r2/controllers/api.py:4300 r2/controllers/api.py:4533 r2/controllers/api.py:4538 r2/controllers/api.py:4773 r2/controllers/api.py:4838 r2/controllers/api.py:4916 r2/controllers/api.py:4982 r2/controllers/api.py:5055 r2/controllers/api.py:5146 r2/controllers/api.py:5178 r2/controllers/api.py:5198 r2/controllers/api.py:5712 r2/controllers/api.py:5752 r2/controllers/api.py:5986 r2/controllers/api.py:6004 r2/controllers/api.py:6352 r2/lib/pages/pages.py:6268
 msgid "saved"
 msgstr "kaydedilen"
 
@@ -185,7 +185,7 @@ msgstr "olmadı: %(error)s"
 msgid "no such payment"
 msgstr "böyle bir ödeme yok"
 
-#: r2/controllers/api.py:5021 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminprivacy.html:26 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminusers.html:77 r2/templates/adminvaults.html:50
+#: r2/controllers/api.py:5021 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminprivacy.html:26 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminuser.html:89 r2/templates/adminusers.html:77 r2/templates/adminvaults.html:50
 msgid "status"
 msgstr "durum"
 
@@ -233,257 +233,263 @@ msgstr "tüm hesaplar kontrol edildi"
 msgid "select some accounts"
 msgstr "birkaç hesap seç"
 
-#: r2/controllers/api.py:5305 r2/controllers/api.py:5394
+#: r2/controllers/api.py:5308 r2/controllers/api.py:5414
 msgid "no such account"
 msgstr "böyle bir hesap yok"
 
-#: r2/controllers/api.py:5308 r2/controllers/api.py:5386
+#: r2/controllers/api.py:5311 r2/controllers/api.py:5406
 msgid "unknown action"
 msgstr "bilinmeyen işlem"
 
-#: r2/controllers/api.py:5319
+#: r2/controllers/api.py:5325
+#, fuzzy
+#| msgid "no permissions"
+msgid "choose a permission"
+msgstr "izin yok"
+
+#: r2/controllers/api.py:5339
 msgid "not on admins (take them off the employees list on /admin/config first)"
 msgstr "yöneticilere uygulanamaz (önce onları /admin/config üzerindeki çalışan listesinden çıkar)"
 
-#: r2/controllers/api.py:5323
+#: r2/controllers/api.py:5343
 msgid "the account is deleted"
 msgstr "hesap silindi"
 
-#: r2/controllers/api.py:5326
+#: r2/controllers/api.py:5346
 msgid "give a reason (it's logged, and a timeout's reason is sent to them)"
 msgstr "bir sebep belirt (kaydedilir; zaman aşımı sebebi kullanıcıya gönderilir)"
 
-#: r2/controllers/api.py:5330 r2/controllers/api.py:5411
+#: r2/controllers/api.py:5350 r2/controllers/api.py:5431
 msgid "tick the box to confirm"
 msgstr "onaylamak için kutuyu işaretle"
 
-#: r2/controllers/api.py:5333
+#: r2/controllers/api.py:5353
 msgid "choose whether to keep or delete their posts"
 msgstr "gönderilerinin saklanacağını mı silineceğini mi seç"
 
-#: r2/controllers/api.py:5336
+#: r2/controllers/api.py:5356
 msgid "they have no email address"
 msgstr "kullanıcının e-posta adresi yok"
 
-#: r2/controllers/api.py:5383 r2/controllers/api.py:5489
+#: r2/controllers/api.py:5403 r2/controllers/api.py:5509
 msgid "no such vault"
 msgstr "böyle bir vault yok"
 
-#: r2/controllers/api.py:5398
+#: r2/controllers/api.py:5418
 msgid "they're already a moderator"
 msgstr "zaten moderatör"
 
-#: r2/controllers/api.py:5401
+#: r2/controllers/api.py:5421
 msgid "they're banned from the vault; unban them first"
 msgstr "vault'tan yasaklı; önce yasağını kaldır"
 
-#: r2/controllers/api.py:5406
+#: r2/controllers/api.py:5426
 msgid "they aren't a moderator"
 msgstr "moderatör değil"
 
-#: r2/controllers/api.py:5418
+#: r2/controllers/api.py:5438
 msgid "unban the vault first"
 msgstr "önce vault'un yasağını kaldır"
 
-#: r2/controllers/api.py:5437
+#: r2/controllers/api.py:5457
 msgid "no such app"
 msgstr "böyle bir uygulama yok"
 
-#: r2/controllers/api.py:5440
+#: r2/controllers/api.py:5460
 msgid "the site's own apps can't be deleted here"
 msgstr "sitenin kendi uygulamaları buradan kaldırılamaz"
 
-#: r2/controllers/api.py:5483
+#: r2/controllers/api.py:5503
 msgid "give the feed's http(s) address"
 msgstr "bir http(s) besleme adresi gir"
 
-#: r2/controllers/api.py:5492
+#: r2/controllers/api.py:5512
 msgid "pick one of the AI labels"
 msgstr "yapay zekâ etiketlerinden birini seç"
 
-#: r2/controllers/api.py:5496
+#: r2/controllers/api.py:5516
 #, python-format
 msgid "/v/%(vault)s doesn't accept %(label)s posts"
 msgstr "/v/%(vault)s %(label)s gönderileri kabul etmiyor"
 
-#: r2/controllers/api.py:5502
+#: r2/controllers/api.py:5522
 msgid "give the bot account a valid username"
 msgstr "bot hesabı için geçerli bir kullanıcı adı gir"
 
-#: r2/controllers/api.py:5511
+#: r2/controllers/api.py:5531
 msgid "that account is suspended or deleted"
 msgstr "bu hesap askıya alınmış veya silinmiş"
 
-#: r2/controllers/api.py:5518 r2/controllers/api.py:5533
+#: r2/controllers/api.py:5538 r2/controllers/api.py:5553
 msgid "no such feed"
 msgstr "böyle bir besleme yok"
 
-#: r2/controllers/api.py:5556
+#: r2/controllers/api.py:5576
 msgid "give a domain"
 msgstr "bir alan adı gir"
 
-#: r2/controllers/api.py:5562
+#: r2/controllers/api.py:5582
 msgid "choose what the ban does"
 msgstr "yasağın ne yapacağını seç"
 
-#: r2/controllers/api.py:5565
+#: r2/controllers/api.py:5585
 msgid "give a reason (members see it when the link is refused)"
 msgstr "bir sebep belirt (bağlantı reddedildiğinde üyeler bunu görür)"
 
-#: r2/controllers/api.py:5570
+#: r2/controllers/api.py:5590
 msgid "that's not a domain"
 msgstr "bu bir alan adı değil"
 
-#: r2/controllers/api.py:5597 r2/controllers/api.py:5616 r2/controllers/api.py:5633 r2/controllers/api.py:5651
+#: r2/controllers/api.py:5617 r2/controllers/api.py:5636 r2/controllers/api.py:5653 r2/controllers/api.py:5671
 msgid "no such ticket"
 msgstr "böyle bir destek talebi yok"
 
-#: r2/controllers/api.py:5664
+#: r2/controllers/api.py:5684
 msgid "they can't reply in this category"
 msgstr "bu kategoride yanıt veremez"
 
-#: r2/controllers/api.py:5684
+#: r2/controllers/api.py:5704
 msgid "not on the employees list"
 msgstr "çalışan listesinde değil"
 
-#: r2/controllers/api.py:5736
+#: r2/controllers/api.py:5756
 msgid "saved; CleanTalk needs an access key to work"
 msgstr "kaydedildi; CleanTalk için bir erişim anahtarı gerekiyor"
 
-#: r2/controllers/api.py:5739
+#: r2/controllers/api.py:5759
 #, python-format
 msgid "saved; CleanTalk says: %(problem)s"
 msgstr "kaydedildi; CleanTalk diyor ki: %(problem)s"
 
-#: r2/controllers/api.py:5741
+#: r2/controllers/api.py:5761
 msgid "saved; the CleanTalk key works"
 msgstr "kaydedildi; CleanTalk anahtarı çalışıyor"
 
-#: r2/controllers/api.py:5778
+#: r2/controllers/api.py:5798
 msgid "that isn't a release with an installer"
 msgstr "bu, kurulum dosyası olan bir sürüm değil"
 
-#: r2/controllers/api.py:5781
+#: r2/controllers/api.py:5801
 msgid "a server is updating now; wait for it to finish"
 msgstr "şu an bir sunucu güncelleniyor; bitmesini bekle"
 
-#: r2/controllers/api.py:5883
+#: r2/controllers/api.py:5903
 msgid "Copy the key now; it isn't shown again."
 msgstr "Anahtarı şimdi kopyala: bir daha gösterilmeyecek."
 
-#: r2/controllers/api.py:5892
+#: r2/controllers/api.py:5912
 msgid "tippr-backup isn't installed on this server (re-run the installer)."
 msgstr "tippr-backup bu sunucuda kurulu değil (yükleyiciyi yeniden çalıştır)."
 
-#: r2/controllers/api.py:5897
+#: r2/controllers/api.py:5917
 msgid "no such backup"
 msgstr "böyle bir yedek yok"
 
-#: r2/controllers/api.py:5902
+#: r2/controllers/api.py:5922
 #, python-format
 msgid "Type this site's domain (%(domain)s) to confirm."
 msgstr "Onaylamak için bu sitenin alan adını (%(domain)s) yaz."
 
-#: r2/controllers/api.py:5915
+#: r2/controllers/api.py:5935
 msgid "Enter the other server's address and its transfer key."
 msgstr "Diğer sunucunun adresini ve aktarım anahtarını gir."
 
-#: r2/controllers/api.py:5919
+#: r2/controllers/api.py:5939
 msgid "That isn't a backup name."
 msgstr "Bu bir yedek adı değil."
 
-#: r2/controllers/api.py:5940
+#: r2/controllers/api.py:5960
 msgid "tippr test email"
 msgstr "tippr test e-postası"
 
-#: r2/controllers/api.py:5941
+#: r2/controllers/api.py:5961
 #, python-format
 msgid "This is a test message from %(domain)s. Email is working."
 msgstr "Bu, %(domain)s tarafından gönderilen bir test mesajı. E-posta çalışıyor."
 
-#: r2/controllers/api.py:5945
+#: r2/controllers/api.py:5965
 #, python-format
 msgid "failed: %(error)s"
 msgstr "hata: %(error)s"
 
-#: r2/controllers/api.py:5947
+#: r2/controllers/api.py:5967
 #, python-format
 msgid "sent to %(address)s"
 msgstr "%(address)s adresine gönderildi"
 
-#: r2/controllers/api.py:5980
+#: r2/controllers/api.py:6000
 msgid "no gold to take"
 msgstr "alınacak gold yok"
 
-#: r2/controllers/api.py:6144 r2/controllers/api.py:6174
+#: r2/controllers/api.py:6164 r2/controllers/api.py:6194
 msgid "that's as many authenticator apps as an account can have"
 msgstr "bir hesabın sahip olabileceği kimlik doğrulama uygulaması sayısının sınırı bu"
 
-#: r2/controllers/api.py:6222
+#: r2/controllers/api.py:6242
 msgid "That code didn't work. Codes follow the clock, so check that your phone sets its time automatically."
 msgstr ""
 
-#: r2/controllers/api.py:6225
+#: r2/controllers/api.py:6245
 msgid "enter a code from one of your methods first"
 msgstr "önce yöntemlerinden birinden bir kod gir"
 
-#: r2/controllers/api.py:6228
+#: r2/controllers/api.py:6248
 #, fuzzy
 #| msgid "That code isn't right. Try again."
 msgid "That password isn't right. Try again."
 msgstr "Bu kod doğru değil. Tekrar dene."
 
-#: r2/controllers/api.py:6229
+#: r2/controllers/api.py:6249
 msgid "enter your password first"
 msgstr "önce şifreni gir"
 
-#: r2/controllers/api.py:6247
+#: r2/controllers/api.py:6267
 msgid "that passkey couldn't be added"
 msgstr "bu geçiş anahtarı eklenemedi"
 
-#: r2/controllers/api.py:6285
+#: r2/controllers/api.py:6305
 msgid "that passkey wasn't accepted"
 msgstr "bu geçiş anahtarı kabul edilmedi"
 
-#: r2/controllers/api.py:6444
+#: r2/controllers/api.py:6464
 #, python-format
 msgid "accounts need to be %(n)d days old"
 msgstr "hesapların en az %(n)d günlük olması gerekiyor"
 
-#: r2/controllers/api.py:6448
+#: r2/controllers/api.py:6468
 #, python-format
 msgid "accounts need %(n)d karma"
 msgstr "hesapların %(n)d karmaya ihtiyacı var"
 
-#: r2/controllers/api.py:6451
+#: r2/controllers/api.py:6471
 msgid "verify your email address first"
 msgstr "önce e-posta adresini doğrula"
 
-#: r2/controllers/api.py:6493 r2/lib/errors.py:158
+#: r2/controllers/api.py:6513 r2/lib/errors.py:158
 msgid "this app can not be modified from this interface"
 msgstr "bu uygulama bu arayüz üzerinden düzenlenemez"
 
-#: r2/controllers/api.py:6500 r2/lib/errors.py:136
+#: r2/controllers/api.py:6520 r2/lib/errors.py:136
 msgid "invalid client id"
 msgstr "hatalı kullanıcı id'si"
 
-#: r2/controllers/api.py:6503
+#: r2/controllers/api.py:6523
 msgid "cannot update deleted app"
 msgstr "silinen uygulama güncellenemez"
 
-#: r2/controllers/api.py:6506
+#: r2/controllers/api.py:6526
 msgid "app does not belong to you"
 msgstr "uygulama sana ait değil"
 
-#: r2/controllers/api.py:6514
+#: r2/controllers/api.py:6534
 msgid "application updated"
 msgstr "uygulama güncellendi"
 
-#: r2/controllers/api.py:6538
+#: r2/controllers/api.py:6558
 msgid "application created"
 msgstr "uygulama oluşturuldu"
 
-#: r2/controllers/api.py:6573
+#: r2/controllers/api.py:6593
 msgid "developer added"
 msgstr "geliştirici eklendi"
 
@@ -499,7 +505,7 @@ msgstr "tippr düğmeleri"
 msgid "tippr widget"
 msgstr "tippr kutucuğu"
 
-#: r2/controllers/embed.py:74 r2/controllers/policies.py:76 r2/lib/pages/pages.py:1136 r2/lib/pages/pages.py:6357 r2/templates/printablebuttons.html:150
+#: r2/controllers/embed.py:74 r2/controllers/policies.py:76 r2/lib/pages/pages.py:1136 r2/lib/pages/pages.py:6373 r2/templates/printablebuttons.html:150
 msgid "help"
 msgstr "yardım"
 
@@ -533,7 +539,7 @@ msgstr "aradığın sayfa mevcut değil"
 msgid "suspended"
 msgstr "askıya alındı"
 
-#: r2/controllers/front.py:247 r2/lib/pages/pages.py:6239
+#: r2/controllers/front.py:247 r2/lib/pages/pages.py:6255
 msgid "explore"
 msgstr "keşfet"
 
@@ -565,7 +571,7 @@ msgstr "%d adet göster"
 msgid "create a vault"
 msgstr "vault oluştur"
 
-#: r2/controllers/front.py:738 r2/controllers/front.py:744 r2/controllers/listingcontroller.py:801 r2/controllers/listingcontroller.py:816 r2/controllers/listingcontroller.py:1180 r2/controllers/listingcontroller.py:1191 r2/lib/menus.py:203 r2/lib/menus.py:453 r2/lib/menus.py:666 r2/lib/pages/pages.py:5126 r2/lib/pages/pages.py:5135 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
+#: r2/controllers/front.py:738 r2/controllers/front.py:744 r2/controllers/listingcontroller.py:801 r2/controllers/listingcontroller.py:816 r2/controllers/listingcontroller.py:1180 r2/controllers/listingcontroller.py:1191 r2/lib/menus.py:203 r2/lib/menus.py:453 r2/lib/menus.py:666 r2/lib/pages/pages.py:5142 r2/lib/pages/pages.py:5151 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
 msgid "all"
 msgstr "tümü"
 
@@ -589,7 +595,7 @@ msgstr "gönderiler ve yorumlar"
 msgid "posts"
 msgstr "gönderiler"
 
-#: r2/controllers/front.py:949 r2/controllers/listingcontroller.py:1783 r2/lib/pages/pages.py:5880 r2/templates/adminuser.html:37 r2/templates/createvault.html:288 r2/templates/link.xml:95
+#: r2/controllers/front.py:949 r2/controllers/listingcontroller.py:1783 r2/lib/pages/pages.py:5896 r2/templates/adminuser.html:37 r2/templates/createvault.html:288 r2/templates/link.xml:95
 msgid "comments"
 msgstr "yorumlar"
 
@@ -1251,15 +1257,15 @@ msgstr "reklam"
 msgid "translating"
 msgstr "çeviri"
 
-#: r2/controllers/policies.py:71 r2/controllers/policies.py:89 r2/lib/menus.py:101 r2/lib/pages/pages.py:6368 r2/templates/contactus.html:92
+#: r2/controllers/policies.py:71 r2/controllers/policies.py:89 r2/lib/menus.py:101 r2/lib/pages/pages.py:6384 r2/templates/contactus.html:92
 msgid "user agreement"
 msgstr "kullanıcı sözleşmesi"
 
-#: r2/controllers/policies.py:72 r2/controllers/policies.py:86 r2/lib/menus.py:102 r2/lib/pages/pages.py:6367 r2/templates/contactus.html:84 r2/templates/utils.html:543
+#: r2/controllers/policies.py:72 r2/controllers/policies.py:86 r2/lib/menus.py:102 r2/lib/pages/pages.py:6383 r2/templates/contactus.html:84 r2/templates/utils.html:543
 msgid "privacy policy"
 msgstr "gizlilik ilkeleri"
 
-#: r2/controllers/policies.py:73 r2/controllers/policies.py:92 r2/lib/menus.py:100 r2/lib/pages/pages.py:6369 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:193
+#: r2/controllers/policies.py:73 r2/controllers/policies.py:92 r2/lib/menus.py:100 r2/lib/pages/pages.py:6385 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:193
 msgid "content policy"
 msgstr "içerik politikası"
 
@@ -1399,7 +1405,7 @@ msgstr "bir görsel seç"
 msgid "too big. keep it under 500 KB"
 msgstr "çok büyük. 500 KB'ın altında tut"
 
-#: r2/controllers/tippr_base.py:1483 r2/lib/pages/pages.py:4655 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
+#: r2/controllers/tippr_base.py:1483 r2/lib/pages/pages.py:4671 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
 msgid "banned"
 msgstr "yasaklı"
 
@@ -3736,7 +3742,7 @@ msgid_plural "hours"
 msgstr[0] "saat"
 msgstr[1] "saat"
 
-#: r2/lib/pages/pages.py:346 r2/lib/pages/pages.py:5680 r2/lib/strings.py:279 r2/public/static/js/sponsored.js:1477 r2/public/static/js/sponsored.js:1838 r2/templates/intimeoutinterstitial.html:44 r2/templates/tipprtraffic.html:104
+#: r2/lib/pages/pages.py:346 r2/lib/pages/pages.py:5696 r2/lib/strings.py:279 r2/public/static/js/sponsored.js:1477 r2/public/static/js/sponsored.js:1838 r2/templates/intimeoutinterstitial.html:44 r2/templates/tipprtraffic.html:104
 msgid "day"
 msgid_plural "days"
 msgstr[0] "gün"
@@ -4340,246 +4346,250 @@ msgstr "kredi kartıyla gold aboneliğin var. %(date)s tarihinde kartından (%(l
 msgid "try entering those letters again"
 msgstr "bu harfleri tekrar yaz"
 
-#: r2/lib/pages/pages.py:3655 r2/lib/pages/pages.py:6360 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
+#: r2/lib/pages/pages.py:3655 r2/lib/pages/pages.py:6376 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
 msgid "search"
 msgstr "ara"
 
-#: r2/lib/pages/pages.py:4289
+#: r2/lib/pages/pages.py:4299
 #, python-format
 msgid "not heard from for %(time)s"
 msgstr "%(time)s süredir haber yok"
 
-#: r2/lib/pages/pages.py:4295
+#: r2/lib/pages/pages.py:4305
 #, python-format
 msgid "memory %(p)s%% used"
 msgstr "belleğin %%%(p)s'i kullanımda"
 
-#: r2/lib/pages/pages.py:4299
+#: r2/lib/pages/pages.py:4309
 #, python-format
 msgid "busy: load %(l)s on %(n)s CPUs"
 msgstr "meşgul: %(n)s CPU'da %(l)s yük"
 
-#: r2/lib/pages/pages.py:4305
+#: r2/lib/pages/pages.py:4315
 #, python-format
 msgid "disk %(path)s %(p)s%% full"
 msgstr "%(path)s diski %%%(p)s dolu"
 
-#: r2/lib/pages/pages.py:4309
+#: r2/lib/pages/pages.py:4319
 #, python-format
 msgid "%(service)s is %(state)s"
 msgstr "%(service)s: %(state)s"
 
-#: r2/lib/pages/pages.py:4312
+#: r2/lib/pages/pages.py:4322
 msgid "a different version from the others"
 msgstr "ötekilerden farklı bir sürüm"
 
-#: r2/lib/pages/pages.py:4314
+#: r2/lib/pages/pages.py:4324
 msgid "another server has the same name: set TIPPR_SERVER_NAME on one of them"
 msgstr "başka bir sunucu da aynı adı taşıyor: birinde TIPPR_SERVER_NAME ayarla"
 
-#: r2/lib/pages/pages.py:4369
+#: r2/lib/pages/pages.py:4379
 #, python-format
 msgid "%(n)s seconds"
 msgstr "%(n)s saniye"
 
-#: r2/lib/pages/pages.py:4371
+#: r2/lib/pages/pages.py:4381
 #, python-format
 msgid "%(n)s minutes"
 msgstr "%(n)s dakika"
 
-#: r2/lib/pages/pages.py:4373
+#: r2/lib/pages/pages.py:4383
 #, python-format
 msgid "%(n)s hours"
 msgstr "%(n)s saat"
 
-#: r2/lib/pages/pages.py:4374
+#: r2/lib/pages/pages.py:4384
 #, python-format
 msgid "%(n)s days"
 msgstr "%(n)s gün"
 
-#: r2/lib/pages/pages.py:4390
+#: r2/lib/pages/pages.py:4400
 msgid "polling"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4596 r2/lib/pages/pages.py:4705
+#: r2/lib/pages/pages.py:4406
+msgid "off (no event collector)"
+msgstr ""
+
+#: r2/lib/pages/pages.py:4612 r2/lib/pages/pages.py:4721
 msgid "added"
 msgstr "eklendi"
 
-#: r2/lib/pages/pages.py:4664 r2/models/modaction.py:146 r2/templates/printablebuttons.html:608
+#: r2/lib/pages/pages.py:4680 r2/models/modaction.py:146 r2/templates/printablebuttons.html:608
 msgid "muted"
 msgstr "susturuldu"
 
-#: r2/lib/pages/pages.py:4682
+#: r2/lib/pages/pages.py:4698
 msgid "invited"
 msgstr "davet edildi"
 
-#: r2/lib/pages/pages.py:4743
+#: r2/lib/pages/pages.py:4759
 msgid "grant flair"
 msgstr "rozet ver"
 
-#: r2/lib/pages/pages.py:4745
+#: r2/lib/pages/pages.py:4761
 msgid "user flair templates"
 msgstr "kullanıcı rozet şablonları"
 
-#: r2/lib/pages/pages.py:4747
+#: r2/lib/pages/pages.py:4763
 msgid "link flair templates"
 msgstr "bağlantı rozeti şablonları"
 
-#: r2/lib/pages/pages.py:5119 r2/templates/adminuser.html:73 r2/templates/flairpane.html:79
+#: r2/lib/pages/pages.py:5135 r2/templates/adminuser.html:73 r2/templates/adminuser.html:98 r2/templates/adminuser.html:108 r2/templates/flairpane.html:79
 msgid "none"
 msgstr "hiçbiri"
 
-#: r2/lib/pages/pages.py:5250
+#: r2/lib/pages/pages.py:5266
 msgid "suggestions:"
 msgstr "öneriler:"
 
-#: r2/lib/pages/pages.py:5254
+#: r2/lib/pages/pages.py:5270
 #, python-format
 msgid "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/v/selfserve](%(selfserve)s)."
 msgstr "Bu sayfada reklamını oluştur. Soruların mı var? [Yardım Merkezi'ne](%(help_center)s) veya [/v/selfserve'e](%(selfserve)s) bir bak."
 
-#: r2/lib/pages/pages.py:5872
+#: r2/lib/pages/pages.py:5888
 msgid "start date"
 msgstr "başlangıç tarihi"
 
-#: r2/lib/pages/pages.py:5873
+#: r2/lib/pages/pages.py:5889
 msgid "end date"
 msgstr "bitiş tarihi"
 
-#: r2/lib/pages/pages.py:5875 r2/templates/createvault.html:266
+#: r2/lib/pages/pages.py:5891 r2/templates/createvault.html:266
 msgid "links"
 msgstr "bağlantılar"
 
-#: r2/lib/pages/pages.py:5877 r2/lib/pages/pages.py:5896 r2/templates/adminpaymentsettings.html:239 r2/templates/promotedlinktraffic.html:42 r2/templates/timeserieschart.html:40
+#: r2/lib/pages/pages.py:5893 r2/lib/pages/pages.py:5912 r2/templates/adminpaymentsettings.html:239 r2/templates/promotedlinktraffic.html:42 r2/templates/timeserieschart.html:40
 msgid "date"
 msgstr "tarih"
 
-#: r2/lib/pages/pages.py:5880 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
+#: r2/lib/pages/pages.py:5896 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
 msgid "id"
 msgstr "id"
 
-#: r2/lib/pages/pages.py:5880 r2/lib/pages/pages.py:5899 r2/templates/promotelinkbase.html:856
+#: r2/lib/pages/pages.py:5896 r2/lib/pages/pages.py:5915 r2/templates/promotelinkbase.html:856
 msgid "owner"
 msgstr "sahibi"
 
-#: r2/lib/pages/pages.py:5880 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
+#: r2/lib/pages/pages.py:5896 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
 msgid "url"
 msgstr "adres"
 
-#: r2/lib/pages/pages.py:5881
+#: r2/lib/pages/pages.py:5897
 msgid "upvotes"
 msgstr "olumlu oylar"
 
-#: r2/lib/pages/pages.py:5881
+#: r2/lib/pages/pages.py:5897
 msgid "downvotes"
 msgstr "olumsuz oylar"
 
-#: r2/lib/pages/pages.py:5881 r2/lib/pages/trafficpages.py:351 r2/lib/pages/trafficpages.py:847 r2/templates/promotedlinktraffic.html:44 r2/templates/promotedlinktraffic.html:124
+#: r2/lib/pages/pages.py:5897 r2/lib/pages/trafficpages.py:351 r2/lib/pages/trafficpages.py:847 r2/templates/promotedlinktraffic.html:44 r2/templates/promotedlinktraffic.html:124
 msgid "clicks"
 msgstr "tıklama"
 
-#: r2/lib/pages/pages.py:5881 r2/lib/pages/trafficpages.py:348 r2/lib/pages/trafficpages.py:472 r2/lib/pages/trafficpages.py:846 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
+#: r2/lib/pages/pages.py:5897 r2/lib/pages/trafficpages.py:348 r2/lib/pages/trafficpages.py:472 r2/lib/pages/trafficpages.py:846 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
 msgid "impressions"
 msgstr "gösterim"
 
-#: r2/lib/pages/pages.py:5894
+#: r2/lib/pages/pages.py:5910
 msgid "campaigns"
 msgstr "kampanyalar"
 
-#: r2/lib/pages/pages.py:5899
+#: r2/lib/pages/pages.py:5915
 msgid "link id"
 msgstr "bağlantı no"
 
-#: r2/lib/pages/pages.py:5899
+#: r2/lib/pages/pages.py:5915
 msgid "campaign id"
 msgstr "kampanya no"
 
-#: r2/lib/pages/pages.py:5899 r2/templates/promotedlinktraffic.html:117 r2/templates/refundpage.html:56
+#: r2/lib/pages/pages.py:5915 r2/templates/promotedlinktraffic.html:117 r2/templates/refundpage.html:56
 msgid "target"
 msgstr "hedef"
 
-#: r2/lib/pages/pages.py:5900 r2/templates/promotelinkedit.html:157
+#: r2/lib/pages/pages.py:5916 r2/templates/promotelinkedit.html:157
 msgid "bid"
 msgstr "teklif"
 
-#: r2/lib/pages/pages.py:5900
+#: r2/lib/pages/pages.py:5916
 msgid "frontpage clicks"
 msgstr "ön sayfa tıklamaları"
 
-#: r2/lib/pages/pages.py:5900
+#: r2/lib/pages/pages.py:5916
 msgid "frontpage impressions"
 msgstr "ön sayfa gösterimi"
 
-#: r2/lib/pages/pages.py:5901
+#: r2/lib/pages/pages.py:5917
 msgid "vault clicks"
 msgstr "vault tıklaması"
 
-#: r2/lib/pages/pages.py:5901
+#: r2/lib/pages/pages.py:5917
 msgid "vault impressions"
 msgstr "vault gösterimi"
 
-#: r2/lib/pages/pages.py:5902 r2/lib/pages/trafficpages.py:478
+#: r2/lib/pages/pages.py:5918 r2/lib/pages/trafficpages.py:478
 msgid "total clicks"
 msgstr "toplam tıklama"
 
-#: r2/lib/pages/pages.py:5902
+#: r2/lib/pages/pages.py:5918
 msgid "total impressions"
 msgstr "toplam gösterim"
 
-#: r2/lib/pages/pages.py:6105 r2/templates/accountactivitybox.html:27
+#: r2/lib/pages/pages.py:6121 r2/templates/accountactivitybox.html:27
 msgid "account activity"
 msgstr "hesap etkinliği"
 
-#: r2/lib/pages/pages.py:6237
+#: r2/lib/pages/pages.py:6253
 msgid "subscribed"
 msgstr "abonelikler"
 
-#: r2/lib/pages/pages.py:6238 r2/templates/preffeeds.html:58
+#: r2/lib/pages/pages.py:6254 r2/templates/preffeeds.html:58
 msgid "your front page"
 msgstr "ana sayfan"
 
-#: r2/lib/pages/pages.py:6241 r2/lib/pages/pages.py:6246 r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:104
+#: r2/lib/pages/pages.py:6257 r2/lib/pages/pages.py:6262 r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:104
 msgid "everything"
 msgstr "her şey"
 
-#: r2/lib/pages/pages.py:6244 r2/lib/pages/pages.py:6247
+#: r2/lib/pages/pages.py:6260 r2/lib/pages/pages.py:6263
 msgid "from all vaults"
 msgstr "tüm vault'lardan"
 
-#: r2/lib/pages/pages.py:6249
+#: r2/lib/pages/pages.py:6265
 msgid "moderating"
 msgstr "yönettiklerin"
 
-#: r2/lib/pages/pages.py:6250
+#: r2/lib/pages/pages.py:6266
 msgid "vaults you mod"
 msgstr "yönettiğin vault'lar"
 
-#: r2/lib/pages/pages.py:6256
+#: r2/lib/pages/pages.py:6272
 msgid "gold perks"
 msgstr "gold ayrıcalıkları"
 
-#: r2/lib/pages/pages.py:6272
+#: r2/lib/pages/pages.py:6288
 msgid "explore multis"
 msgstr "multi'leri keşfet"
 
-#: r2/lib/pages/pages.py:6358
+#: r2/lib/pages/pages.py:6374
 msgid "faq"
 msgstr "SSS"
 
-#: r2/lib/pages/pages.py:6359 r2/templates/usertext.html:121
+#: r2/lib/pages/pages.py:6375 r2/templates/usertext.html:121
 msgid "formatting"
 msgstr "biçimlendirme"
 
-#: r2/lib/pages/pages.py:6428
+#: r2/lib/pages/pages.py:6444
 msgid "your subscribed vaults"
 msgstr "abone olduğun vault'lar"
 
-#: r2/lib/pages/pages.py:6541
+#: r2/lib/pages/pages.py:6557
 #, python-format
 msgid "this promoted link uses city level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "bu sponsorlı bağlantı şehre göre gösterilir ve konumun yüzünden gösterilmektedir. ([daha fazla bilgi](%(link)s))"
 
-#: r2/lib/pages/pages.py:6545
+#: r2/lib/pages/pages.py:6561
 #, python-format
 msgid "this promoted link uses country level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "bu sponsorlı bağlantı ülkeye göre gösterilir ve konumun yüzünden gösterilmektedir. ([daha fazla bilgi](%(link)s))"
@@ -6200,7 +6210,7 @@ msgstr "yorumları aç"
 msgid "expand or collapse the preview, or the comment"
 msgstr "önizlemeyi ya da yorumu aç veya kapat"
 
-#: r2/public/static/js/enhancements.js:180 r2/public/static/js/enhancements.js:631 r2/public/static/js/saved.js:122 r2/public/static/js/saved.js:161 r2/public/static/js/sponsored.js:97 r2/templates/adminadsettings.html:128 r2/templates/adminantispam.html:106 r2/templates/adminemailsettings.html:95 r2/templates/adminfeeds.html:70 r2/templates/adminloginsettings.html:77 r2/templates/adminpaymentsettings.html:213 r2/templates/adminsitesettings.html:146 r2/templates/adminsupportstaff.html:57 r2/templates/adminuser.html:106 r2/templates/flairlistrow.html:48 r2/templates/flairselector.html:54 r2/templates/moderatorpermissions.html:55 r2/templates/prefsecurity.html:204 r2/templates/prefupdate.html:100 r2/templates/prefupdate.html:154 r2/templates/printablebuttons.html:106 r2/templates/printablebuttons.html:375 r2/templates/printablebuttons.html:480 r2/templates/promotelinkedit.html:218 r2/templates/vaultstylesheet.html:70
+#: r2/public/static/js/enhancements.js:180 r2/public/static/js/enhancements.js:631 r2/public/static/js/saved.js:122 r2/public/static/js/saved.js:161 r2/public/static/js/sponsored.js:97 r2/templates/adminadsettings.html:128 r2/templates/adminantispam.html:106 r2/templates/adminemailsettings.html:95 r2/templates/adminfeeds.html:70 r2/templates/adminloginsettings.html:77 r2/templates/adminpaymentsettings.html:213 r2/templates/adminsitesettings.html:146 r2/templates/adminsupportstaff.html:57 r2/templates/adminuser.html:103 r2/templates/adminuser.html:122 r2/templates/adminuser.html:147 r2/templates/flairlistrow.html:48 r2/templates/flairselector.html:54 r2/templates/moderatorpermissions.html:55 r2/templates/prefsecurity.html:204 r2/templates/prefupdate.html:100 r2/templates/prefupdate.html:154 r2/templates/printablebuttons.html:106 r2/templates/printablebuttons.html:375 r2/templates/printablebuttons.html:480 r2/templates/promotelinkedit.html:218 r2/templates/vaultstylesheet.html:70
 msgid "save"
 msgstr "kaydet"
 
@@ -6963,7 +6973,7 @@ msgstr "bir hata oluştu (durum: %(status)s)"
 msgid "view vault traffic"
 msgstr "vault trafiğini görüntüle"
 
-#: r2/public/static/js/traffic.js:13 r2/templates/adminuser.html:169 r2/templates/flairlist.html:34 r2/templates/userlisting.html:170
+#: r2/public/static/js/traffic.js:13 r2/templates/adminuser.html:210 r2/templates/flairlist.html:34 r2/templates/userlisting.html:170
 msgid "go"
 msgstr "git"
 
@@ -7368,7 +7378,7 @@ msgstr "Seçilenler:"
 msgid "not spam (dismiss)"
 msgstr "spam değil (yok say)"
 
-#: r2/templates/adminantispam.html:210 r2/templates/adminapps.html:107 r2/templates/adminuser.html:151
+#: r2/templates/adminantispam.html:210 r2/templates/adminapps.html:107 r2/templates/adminuser.html:192
 msgid "suspend"
 msgstr "askıya al"
 
@@ -7380,7 +7390,7 @@ msgstr "askıya al ve içeriğini spam olarak kaldır"
 msgid "apply"
 msgstr "uygula"
 
-#: r2/templates/adminantispam.html:217 r2/templates/adminuser.html:214 r2/templates/adminuser.html:262 r2/templates/adminvault.html:109 r2/templates/adminvault.html:139 r2/templates/adminvaults.html:66 r2/templates/adminvaults.html:78
+#: r2/templates/adminantispam.html:217 r2/templates/adminuser.html:255 r2/templates/adminuser.html:303 r2/templates/adminvault.html:109 r2/templates/adminvault.html:139 r2/templates/adminvaults.html:66 r2/templates/adminvaults.html:78
 msgid "None."
 msgstr "Yok."
 
@@ -7449,7 +7459,7 @@ msgstr "(adsız)"
 msgid "(the site's own)"
 msgstr "(sitenin kendi uygulaması)"
 
-#: r2/templates/adminapps.html:93 r2/templates/admindomain.html:85 r2/templates/admindomains.html:44 r2/templates/adminfeeds.html:132 r2/templates/adminsupport.html:83 r2/templates/adminsupport.html:88 r2/templates/adminsupportactivity.html:77 r2/templates/adminsupportticket.html:106 r2/templates/adminsupportticket.html:119 r2/templates/adminsupportticket.html:157 r2/templates/adminuser.html:43 r2/templates/adminuser.html:53 r2/templates/adminuser.html:61 r2/templates/adminuser.html:225 r2/templates/adminuser.html:257 r2/templates/adminusers.html:83 r2/templates/adminvault.html:40 r2/templates/adminvault.html:50 r2/templates/adminvaults.html:57 r2/templates/comment.htmllite:49 r2/templates/commentvisitsbox.html:41
+#: r2/templates/adminapps.html:93 r2/templates/admindomain.html:85 r2/templates/admindomains.html:44 r2/templates/adminfeeds.html:132 r2/templates/adminsupport.html:83 r2/templates/adminsupport.html:88 r2/templates/adminsupportactivity.html:77 r2/templates/adminsupportticket.html:106 r2/templates/adminsupportticket.html:119 r2/templates/adminsupportticket.html:157 r2/templates/adminuser.html:43 r2/templates/adminuser.html:53 r2/templates/adminuser.html:61 r2/templates/adminuser.html:266 r2/templates/adminuser.html:298 r2/templates/adminusers.html:83 r2/templates/adminvault.html:40 r2/templates/adminvault.html:50 r2/templates/adminvaults.html:57 r2/templates/comment.htmllite:49 r2/templates/commentvisitsbox.html:41
 msgid "ago"
 msgstr "önce"
 
@@ -7457,11 +7467,11 @@ msgstr "önce"
 msgid "approve"
 msgstr "onayla"
 
-#: r2/templates/adminapps.html:110 r2/templates/adminuser.html:149
+#: r2/templates/adminapps.html:110 r2/templates/adminuser.html:190
 msgid "lift the suspension"
 msgstr "askıyı kaldır"
 
-#: r2/templates/adminapps.html:113 r2/templates/adminbackups.html:139 r2/templates/adminfeeds.html:148 r2/templates/adminuser.html:192 r2/templates/multiinfobar.html:56 r2/templates/prefsecurity.html:133 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:578 r2/templates/renderablecampaign.html:161 r2/templates/rules.html:135 r2/templates/wikipagesettings.html:79
+#: r2/templates/adminapps.html:113 r2/templates/adminbackups.html:139 r2/templates/adminfeeds.html:148 r2/templates/adminuser.html:233 r2/templates/multiinfobar.html:56 r2/templates/prefsecurity.html:133 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:578 r2/templates/renderablecampaign.html:161 r2/templates/rules.html:135 r2/templates/wikipagesettings.html:79
 msgid "delete"
 msgstr "sil"
 
@@ -7869,7 +7879,7 @@ msgstr "Bir Google hesabı bağlamak için sunucuda scripts/gmail_oauth_setup.py
 msgid "send a test email"
 msgstr "test e-postası gönder"
 
-#: r2/templates/adminemailsettings.html:104 r2/templates/adminsitesettings.html:164 r2/templates/adminuser.html:221
+#: r2/templates/adminemailsettings.html:104 r2/templates/adminsitesettings.html:164 r2/templates/adminuser.html:262
 msgid "address"
 msgstr "adres"
 
@@ -8558,7 +8568,9 @@ msgid ", with a backup first"
 msgstr ", önce bir yedekle"
 
 #: r2/templates/adminserverstatus.html:64
-msgid "Each server updates within a minute or so of its turn, one at a time; the site is down on each for 5-10 minutes while it does. Its state is on its card below."
+#, fuzzy
+#| msgid "Each server updates within a minute or so of its turn, one at a time; the site is down on each for 5-10 minutes while it does. Its state is on its card below."
+msgid "Each server updates within a minute or so of its turn, one at a time; the site is down on each for a few minutes while it does. Its state is on its card below."
 msgstr "Her sunucu sırası geldikten yaklaşık bir dakika sonra, teker teker güncellenir; bu sırada site her birinde 5-10 dakika kapalı olur. Durumu aşağıdaki kartındadır."
 
 #: r2/templates/adminserverstatus.html:70
@@ -8570,7 +8582,9 @@ msgid "(servers that haven't started don't; this doesn't undo an update)"
 msgstr "(başlamamış sunucular başlamaz; bu bir güncellemeyi geri almaz)"
 
 #: r2/templates/adminserverstatus.html:77
-msgid "Update the servers to this release? Each one goes down for 5-10 minutes while it updates, one at a time. Make a Proxmox snapshot first if you can."
+#, fuzzy
+#| msgid "Update the servers to this release? Each one goes down for 5-10 minutes while it updates, one at a time. Make a Proxmox snapshot first if you can."
+msgid "Update the servers to this release? Each one goes down for a few minutes while it updates, one at a time. Make a Proxmox snapshot first if you can."
 msgstr "Sunucular bu sürüme güncellensin mi? Her biri güncellenirken 5-10 dakika kapalı olur, teker teker. Yapabiliyorsan önce bir Proxmox anlık görüntüsü al."
 
 #: r2/templates/adminserverstatus.html:83
@@ -8995,11 +9009,11 @@ msgstr "atanan"
 msgid "last reply by staff"
 msgstr "ekibin son yanıtı"
 
-#: r2/templates/adminsupport.html:76 r2/templates/adminsupportactivity.html:80 r2/templates/adminsupportticket.html:34 r2/templates/adminsupportticket.html:154 r2/templates/adminuser.html:254
+#: r2/templates/adminsupport.html:76 r2/templates/adminsupportactivity.html:80 r2/templates/adminsupportticket.html:34 r2/templates/adminsupportticket.html:154 r2/templates/adminuser.html:295
 msgid "(no subject)"
 msgstr "(konu yok)"
 
-#: r2/templates/adminsupportactivity.html:27 r2/templates/adminsupportticket.html:27 r2/templates/adminuser.html:207 r2/templates/adminvault.html:132
+#: r2/templates/adminsupportactivity.html:27 r2/templates/adminsupportticket.html:27 r2/templates/adminuser.html:248 r2/templates/adminvault.html:132
 msgid "the system"
 msgstr "sistem"
 
@@ -9177,7 +9191,7 @@ msgstr "(doğrulandı)"
 msgid "(not verified)"
 msgstr "(doğrulanmadı)"
 
-#: r2/templates/adminuser.html:76 r2/templates/adminuser.html:175
+#: r2/templates/adminuser.html:76 r2/templates/adminuser.html:216
 msgid "two-factor"
 msgstr "iki adımlı giriş"
 
@@ -9194,206 +9208,240 @@ msgstr "kapalı"
 msgid "(until %(date)s)"
 msgstr "(%(date)s tarihine kadar)"
 
-#: r2/templates/adminuser.html:89 r2/templates/adminusers.html:77
+#: r2/templates/adminuser.html:91
+#, fuzzy
+#| msgid "permission"
+msgid "staff permission"
+msgstr "izin"
+
+#: r2/templates/adminuser.html:106
+msgid "Admins can turn on admin mode (everything on /admin); sponsors manage ads; employees are staff without either. The same list as \"employees\" on /admin/config; you can't remove your own admin permission."
+msgstr ""
+
+#: r2/templates/adminuser.html:109
+msgid "The live config is managed outside the site (ZooKeeper), so it can't be changed here."
+msgstr ""
+
+#: r2/templates/adminuser.html:112
+#, fuzzy
+#| msgid "all accounts"
+msgid "internal account"
+msgstr "tüm hesaplar"
+
+#: r2/templates/adminuser.html:114
+#, fuzzy, python-format
+#| msgid "(the site's own)"
+msgid "yes: the site's %(kind)s"
+msgstr "(sitenin kendi uygulaması)"
+
+#: r2/templates/adminuser.html:121
+msgid "one of the site's own accounts (a test account, a bot), not a member"
+msgstr ""
+
+#: r2/templates/adminuser.html:126
+msgid "The site's own accounts are labelled on /admin/users and don't take an Early Member place."
+msgstr ""
+
+#: r2/templates/adminuser.html:130 r2/templates/adminusers.html:77
 #, fuzzy
 #| msgid "interests"
 msgid "internal status"
 msgstr "ilgi alanları"
 
-#: r2/templates/adminuser.html:96
+#: r2/templates/adminuser.html:137
 msgid "e.g. trusted, watch"
 msgstr ""
 
-#: r2/templates/adminuser.html:104
+#: r2/templates/adminuser.html:145
 #, fuzzy
 #| msgid "night mode ad units (optional)"
 msgid "note for the other admins (optional)"
 msgstr "gece modu reklam birimleri (isteğe bağlı)"
 
-#: r2/templates/adminuser.html:108
+#: r2/templates/adminuser.html:149
 msgid "Only admins see this; the member doesn't. It's shown on /admin/users, where you can list the accounts with each status. Leave both blank to clear it. Changes are logged under admin actions."
 msgstr ""
 
-#: r2/templates/adminuser.html:117
+#: r2/templates/adminuser.html:158
 msgid "days (0: until lifted)"
 msgstr "gün (0: kaldırılana kadar)"
 
-#: r2/templates/adminuser.html:130 r2/templates/adminvault.html:81
+#: r2/templates/adminuser.html:171 r2/templates/adminvault.html:81
 msgid "actions"
 msgstr "işlemler"
 
-#: r2/templates/adminuser.html:132
+#: r2/templates/adminuser.html:173
 msgid "The account is deleted."
 msgstr "Hesap silindi."
 
-#: r2/templates/adminuser.html:134
+#: r2/templates/adminuser.html:175
 msgid "Not available for admins or yourself; take an admin off the employees list on /admin/config first."
 msgstr "Yöneticiler veya kendin için kullanılamaz; önce bir yöneticiyi /admin/config üzerindeki çalışan listesinden çıkar."
 
-#: r2/templates/adminuser.html:137
+#: r2/templates/adminuser.html:178
 msgid "timeout"
 msgstr "zaman aşımı"
 
-#: r2/templates/adminuser.html:139
+#: r2/templates/adminuser.html:180
 msgid "In a timeout"
 msgstr "Zaman aşımında"
 
-#: r2/templates/adminuser.html:139
+#: r2/templates/adminuser.html:180
 #, python-format
 msgid " until %(date)s"
 msgstr " %(date)s tarihine kadar"
 
-#: r2/templates/adminuser.html:139
+#: r2/templates/adminuser.html:180
 msgid " with no end date"
 msgstr " bitiş tarihi olmadan"
 
-#: r2/templates/adminuser.html:140
+#: r2/templates/adminuser.html:181
 msgid "lift the timeout"
 msgstr "zaman aşımını kaldır"
 
-#: r2/templates/adminuser.html:140 r2/templates/adminuser.html:149
+#: r2/templates/adminuser.html:181 r2/templates/adminuser.html:190
 msgid "note (optional)"
 msgstr "not (isteğe bağlı)"
 
-#: r2/templates/adminuser.html:142
+#: r2/templates/adminuser.html:183
 msgid "put in a timeout"
 msgstr "zaman aşımı ver"
 
-#: r2/templates/adminuser.html:142
+#: r2/templates/adminuser.html:183
 msgid "reason (sent to them)"
 msgstr "sebep (kendisine gönderilir)"
 
-#: r2/templates/adminuser.html:143
+#: r2/templates/adminuser.html:184
 msgid "They can still read and log in, and can message the admins, but can't post, comment, vote or message anyone else."
 msgstr "Okumaya, giriş yapmaya ve yöneticilere mesaj göndermeye devam edebilir, ama gönderi paylaşamaz, yorum yapamaz, oy veremez veya başka birine mesaj gönderemez."
 
-#: r2/templates/adminuser.html:146
+#: r2/templates/adminuser.html:187
 msgid "suspension"
 msgstr "askıya alma"
 
-#: r2/templates/adminuser.html:148
+#: r2/templates/adminuser.html:189
 msgid "Suspended."
 msgstr "Askıya alındı."
 
-#: r2/templates/adminuser.html:151 r2/templates/adminuser.html:190
+#: r2/templates/adminuser.html:192 r2/templates/adminuser.html:231
 msgid "reason (logged)"
 msgstr "sebep (kaydedilir)"
 
-#: r2/templates/adminuser.html:151
+#: r2/templates/adminuser.html:192
 msgid "they can't log in; their sessions and app tokens end"
 msgstr "giriş yapamaz; oturumları ve uygulama belirteçleri sona erer"
 
-#: r2/templates/adminuser.html:154
+#: r2/templates/adminuser.html:195
 msgid "quick tools"
 msgstr "hızlı araçlar"
 
-#: r2/templates/adminuser.html:159
+#: r2/templates/adminuser.html:200
 msgid "choose a tool"
 msgstr "bir araç seç"
 
-#: r2/templates/adminuser.html:160
+#: r2/templates/adminuser.html:201
 msgid "remove all their posts and comments"
 msgstr "tüm gönderilerini ve yorumlarını kaldır"
 
-#: r2/templates/adminuser.html:161
+#: r2/templates/adminuser.html:202
 msgid "remove all their posts and comments as spam"
 msgstr "tüm gönderilerini ve yorumlarını spam olarak kaldır"
 
-#: r2/templates/adminuser.html:162
+#: r2/templates/adminuser.html:203
 msgid "delete all their posts and comments"
 msgstr "tüm gönderilerini ve yorumlarını sil"
 
-#: r2/templates/adminuser.html:164
+#: r2/templates/adminuser.html:205
 msgid "require them to verify their email again"
 msgstr "e-postasını yeniden doğrulamasını iste"
 
-#: r2/templates/adminuser.html:165
+#: r2/templates/adminuser.html:206
 msgid "remove their email address"
 msgstr "e-posta adresini kaldır"
 
-#: r2/templates/adminuser.html:168 r2/templates/promotelinkedit.html:106
+#: r2/templates/adminuser.html:209 r2/templates/promotelinkedit.html:106
 msgid "confirm"
 msgstr "onayla"
 
-#: r2/templates/adminuser.html:172
+#: r2/templates/adminuser.html:213
 #, python-format
 msgid "Removed posts and comments stay in each vault's spam queue, where moderators can approve them; \"as spam\" also teaches the spam filter. Deleted ones show as [deleted], as when someone deletes their own. Each acts on their newest %(n)d posts and newest %(n)d comments; run it again for more."
 msgstr "Kaldırılan gönderiler ve yorumlar her vault'un spam kuyruğunda kalır, moderatörler onları orada onaylayabilir; \"spam olarak\" ayrıca spam filtresini eğitir. Silinenler, birinin kendi içeriğini sildiği zamanki gibi [deleted] olarak görünür. Her biri en yeni %(n)d gönderisi ve en yeni %(n)d yorumu üzerinde çalışır; daha fazlası için yeniden çalıştır."
 
-#: r2/templates/adminuser.html:176
+#: r2/templates/adminuser.html:217
 msgid "reset two-factor"
 msgstr "iki adımlı girişi sıfırla"
 
-#: r2/templates/adminuser.html:176
+#: r2/templates/adminuser.html:217
 msgid "why (logged)"
 msgstr "neden (kaydedilir)"
 
-#: r2/templates/adminuser.html:177
+#: r2/templates/adminuser.html:218
 msgid "For someone locked out: they can log in with their password and set it up again."
 msgstr "Hesabına giremeyen biri için: parolasıyla giriş yapıp yeniden kurabilir."
 
-#: r2/templates/adminuser.html:180
+#: r2/templates/adminuser.html:221
 msgid "delete account"
 msgstr "hesabı sil"
 
-#: r2/templates/adminuser.html:182
+#: r2/templates/adminuser.html:223
 #, python-format
 msgid "Delete %(name)s? This cannot be undone."
 msgstr "%(name)s silinsin mi? Bu geri alınamaz."
 
-#: r2/templates/adminuser.html:186
+#: r2/templates/adminuser.html:227
 msgid "their posts and comments…"
 msgstr "gönderileri ve yorumları…"
 
-#: r2/templates/adminuser.html:187 r2/templates/privacysettings.html:116
+#: r2/templates/adminuser.html:228 r2/templates/privacysettings.html:116
 msgid "keep them (shown by [deleted])"
 msgstr "sakla ([deleted] ile gösterilir)"
 
-#: r2/templates/adminuser.html:188 r2/templates/privacysettings.html:117
+#: r2/templates/adminuser.html:229 r2/templates/privacysettings.html:117
 msgid "delete them too"
 msgstr "onları da sil"
 
-#: r2/templates/adminuser.html:191
+#: r2/templates/adminuser.html:232
 msgid "delete for good"
 msgstr "kalıcı olarak sil"
 
-#: r2/templates/adminuser.html:195
+#: r2/templates/adminuser.html:236
 msgid "Final: their sessions and app tokens end, and their password, email address and moderator roles are removed now (not 90 days later, as when people delete their own account). The name can't be registered again."
 msgstr "Kesin: oturumları ve uygulama belirteçleri sona erer; parolası, e-posta adresi ve moderatör rolleri hemen kaldırılır (insanlar kendi hesaplarını sildiğinde olduğu gibi 90 gün sonra değil). Ad yeniden kaydedilemez."
 
-#: r2/templates/adminuser.html:200 r2/templates/adminvault.html:125
+#: r2/templates/adminuser.html:241 r2/templates/adminvault.html:125
 msgid "admin actions"
 msgstr "yönetici işlemleri"
 
-#: r2/templates/adminuser.html:217
+#: r2/templates/adminuser.html:258
 msgid "logins by IP address"
 msgstr "IP adresine göre girişler"
 
-#: r2/templates/adminuser.html:218
+#: r2/templates/adminuser.html:259
 msgid "The last 100 days, newest first. Other accounts seen on the same address can be one person's accounts, or just a shared network (a household, school, phone carrier or VPN)."
 msgstr "Son 100 gün, en yenisi önce. Aynı adreste görülen diğer hesaplar bir kişinin hesapları olabilir ya da sadece paylaşılan bir ağ (bir ev, okul, mobil operatör veya VPN)."
 
-#: r2/templates/adminuser.html:221
+#: r2/templates/adminuser.html:262
 msgid "last login"
 msgstr "son giriş"
 
-#: r2/templates/adminuser.html:221
+#: r2/templates/adminuser.html:262
 msgid "other accounts from it"
 msgstr "oradan gelen diğer hesaplar"
 
-#: r2/templates/adminuser.html:235
+#: r2/templates/adminuser.html:276
 msgid "No logins recorded yet (they're recorded from now on, for public addresses)."
 msgstr "Henüz kayıtlı giriş yok (bundan sonra herkese açık adresler için kaydediliyor)."
 
-#: r2/templates/adminuser.html:238
+#: r2/templates/adminuser.html:279
 msgid "moderates"
 msgstr "moderatörü olduğu"
 
-#: r2/templates/adminuser.html:246
+#: r2/templates/adminuser.html:287
 msgid "No vaults."
 msgstr "Vault yok."
 
-#: r2/templates/adminuser.html:249
+#: r2/templates/adminuser.html:290
 msgid "support tickets"
 msgstr "destek talepleri"
 
@@ -12363,7 +12411,7 @@ msgid "don't allow search engines to index my user profile"
 msgstr "arama motorlarının kullanıcı profilimi indekslemesine izin verme"
 
 #: r2/templates/prefoptions.html:502
-msgid "Google Analytics, which helps the site's admins see how it's used:"
+msgid "optional analytics cookies, which help the site's admins see how it's used (see the privacy policy):"
 msgstr ""
 
 #: r2/templates/prefoptions.html:503 r2/templates/utils.html:546
@@ -14307,7 +14355,7 @@ msgid "analytics consent"
 msgstr "analitik"
 
 #: r2/templates/utils.html:540
-msgid "This site would like to use Google Analytics to see how it's used, which sets cookies and sends Google details of your visit. Is that all right?"
+msgid "We'd like to use optional analytics cookies to see how the site is used. Is that all right?"
 msgstr ""
 
 #: r2/templates/utils.html:722

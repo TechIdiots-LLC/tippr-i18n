@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tippr\n"
 "Report-Msgid-Bugs-To: https://github.com/TechIdiots-LLC/tippr-i18n/issues\n"
-"POT-Creation-Date: 2026-10-23 17:51-0400\n"
+"POT-Creation-Date: 2026-10-23 20:15-0400\n"
 "PO-Revision-Date: 2017-01-23 14:33-0500\n"
 "Last-Translator: tippr translators\n"
 "Language-Team: Finnish\n"
@@ -19,7 +19,7 @@ msgstr ""
 msgid "Choose an image of at most 1 MB."
 msgstr "Valitse enintään 1 Mt:n kuva."
 
-#: r2/controllers/api.py:222 r2/controllers/api.py:248 r2/controllers/api.py:4398 r2/controllers/api.py:4468 r2/controllers/listingcontroller.py:754 r2/lib/pages/pages.py:6361
+#: r2/controllers/api.py:222 r2/controllers/api.py:248 r2/controllers/api.py:4398 r2/controllers/api.py:4468 r2/controllers/listingcontroller.py:754 r2/lib/pages/pages.py:6377
 msgid "API"
 msgstr "API"
 
@@ -73,7 +73,7 @@ msgstr "Kirjautuminen kesti liian kauan. Aloita alusta."
 msgid "That account is linked already: sign in with it."
 msgstr "Tili on jo yhdistetty: kirjaudu sillä."
 
-#: r2/controllers/api.py:1402 r2/controllers/api.py:1783 r2/controllers/api.py:2683 r2/controllers/api.py:2983 r2/controllers/api.py:3310 r2/controllers/api.py:4190 r2/controllers/api.py:4246 r2/controllers/api.py:4300 r2/controllers/api.py:4533 r2/controllers/api.py:4538 r2/controllers/api.py:4773 r2/controllers/api.py:4838 r2/controllers/api.py:4916 r2/controllers/api.py:4982 r2/controllers/api.py:5055 r2/controllers/api.py:5146 r2/controllers/api.py:5178 r2/controllers/api.py:5198 r2/controllers/api.py:5692 r2/controllers/api.py:5732 r2/controllers/api.py:5966 r2/controllers/api.py:5984 r2/controllers/api.py:6332 r2/lib/pages/pages.py:6252
+#: r2/controllers/api.py:1402 r2/controllers/api.py:1783 r2/controllers/api.py:2683 r2/controllers/api.py:2983 r2/controllers/api.py:3310 r2/controllers/api.py:4190 r2/controllers/api.py:4246 r2/controllers/api.py:4300 r2/controllers/api.py:4533 r2/controllers/api.py:4538 r2/controllers/api.py:4773 r2/controllers/api.py:4838 r2/controllers/api.py:4916 r2/controllers/api.py:4982 r2/controllers/api.py:5055 r2/controllers/api.py:5146 r2/controllers/api.py:5178 r2/controllers/api.py:5198 r2/controllers/api.py:5712 r2/controllers/api.py:5752 r2/controllers/api.py:5986 r2/controllers/api.py:6004 r2/controllers/api.py:6352 r2/lib/pages/pages.py:6268
 msgid "saved"
 msgstr "tallennetut"
 
@@ -183,7 +183,7 @@ msgstr "ei toiminut: %(error)s"
 msgid "no such payment"
 msgstr "maksua ei löydy"
 
-#: r2/controllers/api.py:5021 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminprivacy.html:26 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminusers.html:77 r2/templates/adminvaults.html:50
+#: r2/controllers/api.py:5021 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminprivacy.html:26 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminuser.html:89 r2/templates/adminusers.html:77 r2/templates/adminvaults.html:50
 msgid "status"
 msgstr "tila"
 
@@ -231,257 +231,263 @@ msgstr "jokainen tili on tarkistettu"
 msgid "select some accounts"
 msgstr "valitse joitakin tilejä"
 
-#: r2/controllers/api.py:5305 r2/controllers/api.py:5394
+#: r2/controllers/api.py:5308 r2/controllers/api.py:5414
 msgid "no such account"
 msgstr "tiliä ei löydy"
 
-#: r2/controllers/api.py:5308 r2/controllers/api.py:5386
+#: r2/controllers/api.py:5311 r2/controllers/api.py:5406
 msgid "unknown action"
 msgstr "tuntematon toiminto"
 
-#: r2/controllers/api.py:5319
+#: r2/controllers/api.py:5325
+#, fuzzy
+#| msgid "no permissions"
+msgid "choose a permission"
+msgstr "ei käyttöoikeuksia"
+
+#: r2/controllers/api.py:5339
 msgid "not on admins (take them off the employees list on /admin/config first)"
 msgstr "ei ylläpitäjille (poista heidät ensin työntekijäluettelosta sivulla /admin/config)"
 
-#: r2/controllers/api.py:5323
+#: r2/controllers/api.py:5343
 msgid "the account is deleted"
 msgstr "tili on poistettu"
 
-#: r2/controllers/api.py:5326
+#: r2/controllers/api.py:5346
 msgid "give a reason (it's logged, and a timeout's reason is sent to them)"
 msgstr "anna syy (se kirjataan, ja jäähyn syy lähetetään heille)"
 
-#: r2/controllers/api.py:5330 r2/controllers/api.py:5411
+#: r2/controllers/api.py:5350 r2/controllers/api.py:5431
 msgid "tick the box to confirm"
 msgstr "vahvista rastittamalla ruutu"
 
-#: r2/controllers/api.py:5333
+#: r2/controllers/api.py:5353
 msgid "choose whether to keep or delete their posts"
 msgstr "valitse, säilytetäänkö vai poistetaanko heidän viestinsä"
 
-#: r2/controllers/api.py:5336
+#: r2/controllers/api.py:5356
 msgid "they have no email address"
 msgstr "heillä ei ole sähköpostiosoitetta"
 
-#: r2/controllers/api.py:5383 r2/controllers/api.py:5489
+#: r2/controllers/api.py:5403 r2/controllers/api.py:5509
 msgid "no such vault"
 msgstr "vaultia ei löydy"
 
-#: r2/controllers/api.py:5398
+#: r2/controllers/api.py:5418
 msgid "they're already a moderator"
 msgstr "hän on jo moderaattori"
 
-#: r2/controllers/api.py:5401
+#: r2/controllers/api.py:5421
 msgid "they're banned from the vault; unban them first"
 msgstr "hänet on estetty vaultista; poista esto ensin"
 
-#: r2/controllers/api.py:5406
+#: r2/controllers/api.py:5426
 msgid "they aren't a moderator"
 msgstr "hän ei ole moderaattori"
 
-#: r2/controllers/api.py:5418
+#: r2/controllers/api.py:5438
 msgid "unban the vault first"
 msgstr "poista vaultin esto ensin"
 
-#: r2/controllers/api.py:5437
+#: r2/controllers/api.py:5457
 msgid "no such app"
 msgstr "sovellusta ei löydy"
 
-#: r2/controllers/api.py:5440
+#: r2/controllers/api.py:5460
 msgid "the site's own apps can't be deleted here"
 msgstr "sivuston omia sovelluksia ei voi poistaa täällä"
 
-#: r2/controllers/api.py:5483
+#: r2/controllers/api.py:5503
 msgid "give the feed's http(s) address"
 msgstr "anna syötteen http(s)-osoite"
 
-#: r2/controllers/api.py:5492
+#: r2/controllers/api.py:5512
 msgid "pick one of the AI labels"
 msgstr "valitse yksi tekoälymerkinnöistä"
 
-#: r2/controllers/api.py:5496
+#: r2/controllers/api.py:5516
 #, python-format
 msgid "/v/%(vault)s doesn't accept %(label)s posts"
 msgstr "/v/%(vault)s ei hyväksy %(label)s-viestejä"
 
-#: r2/controllers/api.py:5502
+#: r2/controllers/api.py:5522
 msgid "give the bot account a valid username"
 msgstr "anna bottitilille kelvollinen käyttäjänimi"
 
-#: r2/controllers/api.py:5511
+#: r2/controllers/api.py:5531
 msgid "that account is suspended or deleted"
 msgstr "tili on jäädytetty tai poistettu"
 
-#: r2/controllers/api.py:5518 r2/controllers/api.py:5533
+#: r2/controllers/api.py:5538 r2/controllers/api.py:5553
 msgid "no such feed"
 msgstr "syötettä ei löydy"
 
-#: r2/controllers/api.py:5556
+#: r2/controllers/api.py:5576
 msgid "give a domain"
 msgstr "anna verkkotunnus"
 
-#: r2/controllers/api.py:5562
+#: r2/controllers/api.py:5582
 msgid "choose what the ban does"
 msgstr "valitse, mitä esto tekee"
 
-#: r2/controllers/api.py:5565
+#: r2/controllers/api.py:5585
 msgid "give a reason (members see it when the link is refused)"
 msgstr "anna syy (jäsenet näkevät sen, kun linkki hylätään)"
 
-#: r2/controllers/api.py:5570
+#: r2/controllers/api.py:5590
 msgid "that's not a domain"
 msgstr "se ei ole verkkotunnus"
 
-#: r2/controllers/api.py:5597 r2/controllers/api.py:5616 r2/controllers/api.py:5633 r2/controllers/api.py:5651
+#: r2/controllers/api.py:5617 r2/controllers/api.py:5636 r2/controllers/api.py:5653 r2/controllers/api.py:5671
 msgid "no such ticket"
 msgstr "tukipyyntöä ei löydy"
 
-#: r2/controllers/api.py:5664
+#: r2/controllers/api.py:5684
 msgid "they can't reply in this category"
 msgstr "he eivät voi vastata tässä luokassa"
 
-#: r2/controllers/api.py:5684
+#: r2/controllers/api.py:5704
 msgid "not on the employees list"
 msgstr "ei työntekijäluettelossa"
 
-#: r2/controllers/api.py:5736
+#: r2/controllers/api.py:5756
 msgid "saved; CleanTalk needs an access key to work"
 msgstr "tallennettu; CleanTalk tarvitsee toimiakseen käyttöavaimen"
 
-#: r2/controllers/api.py:5739
+#: r2/controllers/api.py:5759
 #, python-format
 msgid "saved; CleanTalk says: %(problem)s"
 msgstr "tallennettu; CleanTalk sanoo: %(problem)s"
 
-#: r2/controllers/api.py:5741
+#: r2/controllers/api.py:5761
 msgid "saved; the CleanTalk key works"
 msgstr "tallennettu; CleanTalk-avain toimii"
 
-#: r2/controllers/api.py:5778
+#: r2/controllers/api.py:5798
 msgid "that isn't a release with an installer"
 msgstr "se ei ole julkaisu, jossa on asennusohjelma"
 
-#: r2/controllers/api.py:5781
+#: r2/controllers/api.py:5801
 msgid "a server is updating now; wait for it to finish"
 msgstr "palvelinta päivitetään parhaillaan; odota, että se valmistuu"
 
-#: r2/controllers/api.py:5883
+#: r2/controllers/api.py:5903
 msgid "Copy the key now; it isn't shown again."
 msgstr "Kopioi avain nyt; sitä ei näytetä uudelleen."
 
-#: r2/controllers/api.py:5892
+#: r2/controllers/api.py:5912
 msgid "tippr-backup isn't installed on this server (re-run the installer)."
 msgstr "tippr-backup ei ole asennettuna tälle palvelimelle (aja asennusohjelma uudelleen)."
 
-#: r2/controllers/api.py:5897
+#: r2/controllers/api.py:5917
 msgid "no such backup"
 msgstr "varmuuskopiota ei löydy"
 
-#: r2/controllers/api.py:5902
+#: r2/controllers/api.py:5922
 #, python-format
 msgid "Type this site's domain (%(domain)s) to confirm."
 msgstr "Vahvista kirjoittamalla tämän sivuston verkkotunnus (%(domain)s)."
 
-#: r2/controllers/api.py:5915
+#: r2/controllers/api.py:5935
 msgid "Enter the other server's address and its transfer key."
 msgstr "Anna toisen palvelimen osoite ja sen siirtoavain."
 
-#: r2/controllers/api.py:5919
+#: r2/controllers/api.py:5939
 msgid "That isn't a backup name."
 msgstr "Se ei ole varmuuskopion nimi."
 
-#: r2/controllers/api.py:5940
+#: r2/controllers/api.py:5960
 msgid "tippr test email"
 msgstr "tippr-testisähköposti"
 
-#: r2/controllers/api.py:5941
+#: r2/controllers/api.py:5961
 #, python-format
 msgid "This is a test message from %(domain)s. Email is working."
 msgstr "Tämä on testiviesti osoitteesta %(domain)s. Sähköposti toimii."
 
-#: r2/controllers/api.py:5945
+#: r2/controllers/api.py:5965
 #, python-format
 msgid "failed: %(error)s"
 msgstr "epäonnistui: %(error)s"
 
-#: r2/controllers/api.py:5947
+#: r2/controllers/api.py:5967
 #, python-format
 msgid "sent to %(address)s"
 msgstr "lähetetty osoitteeseen %(address)s"
 
-#: r2/controllers/api.py:5980
+#: r2/controllers/api.py:6000
 msgid "no gold to take"
 msgstr "ei kultaa kerättäväksi"
 
-#: r2/controllers/api.py:6144 r2/controllers/api.py:6174
+#: r2/controllers/api.py:6164 r2/controllers/api.py:6194
 msgid "that's as many authenticator apps as an account can have"
 msgstr "tilillä on jo enimmäismäärä todennussovelluksia"
 
-#: r2/controllers/api.py:6222
+#: r2/controllers/api.py:6242
 msgid "That code didn't work. Codes follow the clock, so check that your phone sets its time automatically."
 msgstr ""
 
-#: r2/controllers/api.py:6225
+#: r2/controllers/api.py:6245
 msgid "enter a code from one of your methods first"
 msgstr "anna ensin koodi jostakin menetelmästäsi"
 
-#: r2/controllers/api.py:6228
+#: r2/controllers/api.py:6248
 #, fuzzy
 #| msgid "That code isn't right. Try again."
 msgid "That password isn't right. Try again."
 msgstr "Koodi ei ole oikein. Yritä uudelleen."
 
-#: r2/controllers/api.py:6229
+#: r2/controllers/api.py:6249
 msgid "enter your password first"
 msgstr "anna ensin salasanasi"
 
-#: r2/controllers/api.py:6247
+#: r2/controllers/api.py:6267
 msgid "that passkey couldn't be added"
 msgstr "pääsyavainta ei voitu lisätä"
 
-#: r2/controllers/api.py:6285
+#: r2/controllers/api.py:6305
 msgid "that passkey wasn't accepted"
 msgstr "pääsyavainta ei hyväksytty"
 
-#: r2/controllers/api.py:6444
+#: r2/controllers/api.py:6464
 #, python-format
 msgid "accounts need to be %(n)d days old"
 msgstr "tilin on oltava %(n)d päivää vanha"
 
-#: r2/controllers/api.py:6448
+#: r2/controllers/api.py:6468
 #, python-format
 msgid "accounts need %(n)d karma"
 msgstr "tili tarvitsee %(n)d karmaa"
 
-#: r2/controllers/api.py:6451
+#: r2/controllers/api.py:6471
 msgid "verify your email address first"
 msgstr "vahvista ensin sähköpostiosoitteesi"
 
-#: r2/controllers/api.py:6493 r2/lib/errors.py:158
+#: r2/controllers/api.py:6513 r2/lib/errors.py:158
 msgid "this app can not be modified from this interface"
 msgstr "tätä sovellusta ei voi muokata tässä käyttöliittymässä"
 
-#: r2/controllers/api.py:6500 r2/lib/errors.py:136
+#: r2/controllers/api.py:6520 r2/lib/errors.py:136
 msgid "invalid client id"
 msgstr "virheellinen käyttäjätunnus"
 
-#: r2/controllers/api.py:6503
+#: r2/controllers/api.py:6523
 msgid "cannot update deleted app"
 msgstr "ei voida päivittää poistettua sovellusta"
 
-#: r2/controllers/api.py:6506
+#: r2/controllers/api.py:6526
 msgid "app does not belong to you"
 msgstr "et ole sovelluksen omistaja"
 
-#: r2/controllers/api.py:6514
+#: r2/controllers/api.py:6534
 msgid "application updated"
 msgstr "sovellus päivitetty"
 
-#: r2/controllers/api.py:6538
+#: r2/controllers/api.py:6558
 msgid "application created"
 msgstr "sovellus luotu"
 
-#: r2/controllers/api.py:6573
+#: r2/controllers/api.py:6593
 msgid "developer added"
 msgstr "kehittäjä lisätty"
 
@@ -497,7 +503,7 @@ msgstr "tippr-napit"
 msgid "tippr widget"
 msgstr "tippr-widgetit"
 
-#: r2/controllers/embed.py:74 r2/controllers/policies.py:76 r2/lib/pages/pages.py:1136 r2/lib/pages/pages.py:6357 r2/templates/printablebuttons.html:150
+#: r2/controllers/embed.py:74 r2/controllers/policies.py:76 r2/lib/pages/pages.py:1136 r2/lib/pages/pages.py:6373 r2/templates/printablebuttons.html:150
 msgid "help"
 msgstr "ohjeita"
 
@@ -531,7 +537,7 @@ msgstr "sivua, jota pyysit, ei ole olemassa"
 msgid "suspended"
 msgstr "jäädytetty"
 
-#: r2/controllers/front.py:247 r2/lib/pages/pages.py:6239
+#: r2/controllers/front.py:247 r2/lib/pages/pages.py:6255
 msgid "explore"
 msgstr "tutustu"
 
@@ -563,7 +569,7 @@ msgstr "näytä %d"
 msgid "create a vault"
 msgstr "luo vault"
 
-#: r2/controllers/front.py:738 r2/controllers/front.py:744 r2/controllers/listingcontroller.py:801 r2/controllers/listingcontroller.py:816 r2/controllers/listingcontroller.py:1180 r2/controllers/listingcontroller.py:1191 r2/lib/menus.py:203 r2/lib/menus.py:453 r2/lib/menus.py:666 r2/lib/pages/pages.py:5126 r2/lib/pages/pages.py:5135 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
+#: r2/controllers/front.py:738 r2/controllers/front.py:744 r2/controllers/listingcontroller.py:801 r2/controllers/listingcontroller.py:816 r2/controllers/listingcontroller.py:1180 r2/controllers/listingcontroller.py:1191 r2/lib/menus.py:203 r2/lib/menus.py:453 r2/lib/menus.py:666 r2/lib/pages/pages.py:5142 r2/lib/pages/pages.py:5151 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
 msgid "all"
 msgstr "kaikki"
 
@@ -587,7 +593,7 @@ msgstr "viestit ja kommentit"
 msgid "posts"
 msgstr "viestit"
 
-#: r2/controllers/front.py:949 r2/controllers/listingcontroller.py:1783 r2/lib/pages/pages.py:5880 r2/templates/adminuser.html:37 r2/templates/createvault.html:288 r2/templates/link.xml:95
+#: r2/controllers/front.py:949 r2/controllers/listingcontroller.py:1783 r2/lib/pages/pages.py:5896 r2/templates/adminuser.html:37 r2/templates/createvault.html:288 r2/templates/link.xml:95
 msgid "comments"
 msgstr "kommentit"
 
@@ -1249,15 +1255,15 @@ msgstr "mainonta"
 msgid "translating"
 msgstr "kääntäminen"
 
-#: r2/controllers/policies.py:71 r2/controllers/policies.py:89 r2/lib/menus.py:101 r2/lib/pages/pages.py:6368 r2/templates/contactus.html:92
+#: r2/controllers/policies.py:71 r2/controllers/policies.py:89 r2/lib/menus.py:101 r2/lib/pages/pages.py:6384 r2/templates/contactus.html:92
 msgid "user agreement"
 msgstr "käyttäjäsopimus"
 
-#: r2/controllers/policies.py:72 r2/controllers/policies.py:86 r2/lib/menus.py:102 r2/lib/pages/pages.py:6367 r2/templates/contactus.html:84 r2/templates/utils.html:543
+#: r2/controllers/policies.py:72 r2/controllers/policies.py:86 r2/lib/menus.py:102 r2/lib/pages/pages.py:6383 r2/templates/contactus.html:84 r2/templates/utils.html:543
 msgid "privacy policy"
 msgstr "yksityisyyskäytäntö"
 
-#: r2/controllers/policies.py:73 r2/controllers/policies.py:92 r2/lib/menus.py:100 r2/lib/pages/pages.py:6369 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:193
+#: r2/controllers/policies.py:73 r2/controllers/policies.py:92 r2/lib/menus.py:100 r2/lib/pages/pages.py:6385 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:193
 msgid "content policy"
 msgstr "sisältökäytäntö"
 
@@ -1397,7 +1403,7 @@ msgstr "valitse kuva"
 msgid "too big. keep it under 500 KB"
 msgstr "liian suuri. pidä se alle 500 kt:ssa"
 
-#: r2/controllers/tippr_base.py:1483 r2/lib/pages/pages.py:4655 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
+#: r2/controllers/tippr_base.py:1483 r2/lib/pages/pages.py:4671 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
 msgid "banned"
 msgstr "jäähyllä"
 
@@ -3736,7 +3742,7 @@ msgid_plural "hours"
 msgstr[0] "tuntia"
 msgstr[1] "tuntia"
 
-#: r2/lib/pages/pages.py:346 r2/lib/pages/pages.py:5680 r2/lib/strings.py:279 r2/public/static/js/sponsored.js:1477 r2/public/static/js/sponsored.js:1838 r2/templates/intimeoutinterstitial.html:44 r2/templates/tipprtraffic.html:104
+#: r2/lib/pages/pages.py:346 r2/lib/pages/pages.py:5696 r2/lib/strings.py:279 r2/public/static/js/sponsored.js:1477 r2/public/static/js/sponsored.js:1838 r2/templates/intimeoutinterstitial.html:44 r2/templates/tipprtraffic.html:104
 msgid "day"
 msgid_plural "days"
 msgstr[0] "päivä"
@@ -4340,246 +4346,250 @@ msgstr "sinulla on luottokortilla maksettu gold-tilaus. korttiasi (päättyy %(l
 msgid "try entering those letters again"
 msgstr "yritä kirjoittaa kirjaimet uudelleen"
 
-#: r2/lib/pages/pages.py:3655 r2/lib/pages/pages.py:6360 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
+#: r2/lib/pages/pages.py:3655 r2/lib/pages/pages.py:6376 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
 msgid "search"
 msgstr "hae"
 
-#: r2/lib/pages/pages.py:4289
+#: r2/lib/pages/pages.py:4299
 #, python-format
 msgid "not heard from for %(time)s"
 msgstr "ei kuulumisia %(time)s"
 
-#: r2/lib/pages/pages.py:4295
+#: r2/lib/pages/pages.py:4305
 #, python-format
 msgid "memory %(p)s%% used"
 msgstr "muistia käytetty %(p)s%%"
 
-#: r2/lib/pages/pages.py:4299
+#: r2/lib/pages/pages.py:4309
 #, python-format
 msgid "busy: load %(l)s on %(n)s CPUs"
 msgstr "kiireinen: kuorma %(l)s, %(n)s suoritinta"
 
-#: r2/lib/pages/pages.py:4305
+#: r2/lib/pages/pages.py:4315
 #, python-format
 msgid "disk %(path)s %(p)s%% full"
 msgstr "levy %(path)s %(p)s%% täynnä"
 
-#: r2/lib/pages/pages.py:4309
+#: r2/lib/pages/pages.py:4319
 #, python-format
 msgid "%(service)s is %(state)s"
 msgstr "%(service)s: %(state)s"
 
-#: r2/lib/pages/pages.py:4312
+#: r2/lib/pages/pages.py:4322
 msgid "a different version from the others"
 msgstr "eri versio kuin muilla"
 
-#: r2/lib/pages/pages.py:4314
+#: r2/lib/pages/pages.py:4324
 msgid "another server has the same name: set TIPPR_SERVER_NAME on one of them"
 msgstr "toisella palvelimella on sama nimi: aseta TIPPR_SERVER_NAME toiselle niistä"
 
-#: r2/lib/pages/pages.py:4369
+#: r2/lib/pages/pages.py:4379
 #, python-format
 msgid "%(n)s seconds"
 msgstr "%(n)s sekuntia"
 
-#: r2/lib/pages/pages.py:4371
+#: r2/lib/pages/pages.py:4381
 #, python-format
 msgid "%(n)s minutes"
 msgstr "%(n)s minuuttia"
 
-#: r2/lib/pages/pages.py:4373
+#: r2/lib/pages/pages.py:4383
 #, python-format
 msgid "%(n)s hours"
 msgstr "%(n)s tuntia"
 
-#: r2/lib/pages/pages.py:4374
+#: r2/lib/pages/pages.py:4384
 #, python-format
 msgid "%(n)s days"
 msgstr "%(n)s päivää"
 
-#: r2/lib/pages/pages.py:4390
+#: r2/lib/pages/pages.py:4400
 msgid "polling"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4596 r2/lib/pages/pages.py:4705
+#: r2/lib/pages/pages.py:4406
+msgid "off (no event collector)"
+msgstr ""
+
+#: r2/lib/pages/pages.py:4612 r2/lib/pages/pages.py:4721
 msgid "added"
 msgstr "lisätty"
 
-#: r2/lib/pages/pages.py:4664 r2/models/modaction.py:146 r2/templates/printablebuttons.html:608
+#: r2/lib/pages/pages.py:4680 r2/models/modaction.py:146 r2/templates/printablebuttons.html:608
 msgid "muted"
 msgstr "mykistetty"
 
-#: r2/lib/pages/pages.py:4682
+#: r2/lib/pages/pages.py:4698
 msgid "invited"
 msgstr "kutsuttu"
 
-#: r2/lib/pages/pages.py:4743
+#: r2/lib/pages/pages.py:4759
 msgid "grant flair"
 msgstr "myönnä flair"
 
-#: r2/lib/pages/pages.py:4745
+#: r2/lib/pages/pages.py:4761
 msgid "user flair templates"
 msgstr "käyttäjän flair-pohjat"
 
-#: r2/lib/pages/pages.py:4747
+#: r2/lib/pages/pages.py:4763
 msgid "link flair templates"
 msgstr "postauksen flair-pohjat"
 
-#: r2/lib/pages/pages.py:5119 r2/templates/adminuser.html:73 r2/templates/flairpane.html:79
+#: r2/lib/pages/pages.py:5135 r2/templates/adminuser.html:73 r2/templates/adminuser.html:98 r2/templates/adminuser.html:108 r2/templates/flairpane.html:79
 msgid "none"
 msgstr "ei mitään"
 
-#: r2/lib/pages/pages.py:5250
+#: r2/lib/pages/pages.py:5266
 msgid "suggestions:"
 msgstr "ehdotuksia:"
 
-#: r2/lib/pages/pages.py:5254
+#: r2/lib/pages/pages.py:5270
 #, python-format
 msgid "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/v/selfserve](%(selfserve)s)."
 msgstr "Luo mainos tälle sivulle. Kysymyksiä? Katso [Help Center](%(help_center)s) tai [/v/selfserve](%(selfserve)s)."
 
-#: r2/lib/pages/pages.py:5872
+#: r2/lib/pages/pages.py:5888
 msgid "start date"
 msgstr "aloituspäivä"
 
-#: r2/lib/pages/pages.py:5873
+#: r2/lib/pages/pages.py:5889
 msgid "end date"
 msgstr "loppumispäivä"
 
-#: r2/lib/pages/pages.py:5875 r2/templates/createvault.html:266
+#: r2/lib/pages/pages.py:5891 r2/templates/createvault.html:266
 msgid "links"
 msgstr "linkit"
 
-#: r2/lib/pages/pages.py:5877 r2/lib/pages/pages.py:5896 r2/templates/adminpaymentsettings.html:239 r2/templates/promotedlinktraffic.html:42 r2/templates/timeserieschart.html:40
+#: r2/lib/pages/pages.py:5893 r2/lib/pages/pages.py:5912 r2/templates/adminpaymentsettings.html:239 r2/templates/promotedlinktraffic.html:42 r2/templates/timeserieschart.html:40
 msgid "date"
 msgstr "päivämäärä"
 
-#: r2/lib/pages/pages.py:5880 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
+#: r2/lib/pages/pages.py:5896 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
 msgid "id"
 msgstr "tunnus"
 
-#: r2/lib/pages/pages.py:5880 r2/lib/pages/pages.py:5899 r2/templates/promotelinkbase.html:856
+#: r2/lib/pages/pages.py:5896 r2/lib/pages/pages.py:5915 r2/templates/promotelinkbase.html:856
 msgid "owner"
 msgstr "omistaja"
 
-#: r2/lib/pages/pages.py:5880 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
+#: r2/lib/pages/pages.py:5896 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
 msgid "url"
 msgstr "url"
 
-#: r2/lib/pages/pages.py:5881
+#: r2/lib/pages/pages.py:5897
 msgid "upvotes"
 msgstr "tykkäykset"
 
-#: r2/lib/pages/pages.py:5881
+#: r2/lib/pages/pages.py:5897
 msgid "downvotes"
 msgstr "inhoamiset"
 
-#: r2/lib/pages/pages.py:5881 r2/lib/pages/trafficpages.py:351 r2/lib/pages/trafficpages.py:847 r2/templates/promotedlinktraffic.html:44 r2/templates/promotedlinktraffic.html:124
+#: r2/lib/pages/pages.py:5897 r2/lib/pages/trafficpages.py:351 r2/lib/pages/trafficpages.py:847 r2/templates/promotedlinktraffic.html:44 r2/templates/promotedlinktraffic.html:124
 msgid "clicks"
 msgstr "klikkauksia"
 
-#: r2/lib/pages/pages.py:5881 r2/lib/pages/trafficpages.py:348 r2/lib/pages/trafficpages.py:472 r2/lib/pages/trafficpages.py:846 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
+#: r2/lib/pages/pages.py:5897 r2/lib/pages/trafficpages.py:348 r2/lib/pages/trafficpages.py:472 r2/lib/pages/trafficpages.py:846 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
 msgid "impressions"
 msgstr "***jälkiä***"
 
-#: r2/lib/pages/pages.py:5894
+#: r2/lib/pages/pages.py:5910
 msgid "campaigns"
 msgstr "kampanjat"
 
-#: r2/lib/pages/pages.py:5899
+#: r2/lib/pages/pages.py:5915
 msgid "link id"
 msgstr "linkin id"
 
-#: r2/lib/pages/pages.py:5899
+#: r2/lib/pages/pages.py:5915
 msgid "campaign id"
 msgstr "kampanjatunnus"
 
-#: r2/lib/pages/pages.py:5899 r2/templates/promotedlinktraffic.html:117 r2/templates/refundpage.html:56
+#: r2/lib/pages/pages.py:5915 r2/templates/promotedlinktraffic.html:117 r2/templates/refundpage.html:56
 msgid "target"
 msgstr "kohde"
 
-#: r2/lib/pages/pages.py:5900 r2/templates/promotelinkedit.html:157
+#: r2/lib/pages/pages.py:5916 r2/templates/promotelinkedit.html:157
 msgid "bid"
 msgstr "tarjoa"
 
-#: r2/lib/pages/pages.py:5900
+#: r2/lib/pages/pages.py:5916
 msgid "frontpage clicks"
 msgstr "etusivun klikkaukset"
 
-#: r2/lib/pages/pages.py:5900
+#: r2/lib/pages/pages.py:5916
 msgid "frontpage impressions"
 msgstr "etusivun vaikutelmat"
 
-#: r2/lib/pages/pages.py:5901
+#: r2/lib/pages/pages.py:5917
 msgid "vault clicks"
 msgstr "vaultin napsautukset"
 
-#: r2/lib/pages/pages.py:5901
+#: r2/lib/pages/pages.py:5917
 msgid "vault impressions"
 msgstr "vaultin näyttökerrat"
 
-#: r2/lib/pages/pages.py:5902 r2/lib/pages/trafficpages.py:478
+#: r2/lib/pages/pages.py:5918 r2/lib/pages/trafficpages.py:478
 msgid "total clicks"
 msgstr "klikkaukset yhteensä"
 
-#: r2/lib/pages/pages.py:5902
+#: r2/lib/pages/pages.py:5918
 msgid "total impressions"
 msgstr "kaikki vaikutelmat"
 
-#: r2/lib/pages/pages.py:6105 r2/templates/accountactivitybox.html:27
+#: r2/lib/pages/pages.py:6121 r2/templates/accountactivitybox.html:27
 msgid "account activity"
 msgstr "tilin käyttö"
 
-#: r2/lib/pages/pages.py:6237
+#: r2/lib/pages/pages.py:6253
 msgid "subscribed"
 msgstr "tilattu"
 
-#: r2/lib/pages/pages.py:6238 r2/templates/preffeeds.html:58
+#: r2/lib/pages/pages.py:6254 r2/templates/preffeeds.html:58
 msgid "your front page"
 msgstr "etusivusi"
 
-#: r2/lib/pages/pages.py:6241 r2/lib/pages/pages.py:6246 r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:104
+#: r2/lib/pages/pages.py:6257 r2/lib/pages/pages.py:6262 r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:104
 msgid "everything"
 msgstr "kaikki"
 
-#: r2/lib/pages/pages.py:6244 r2/lib/pages/pages.py:6247
+#: r2/lib/pages/pages.py:6260 r2/lib/pages/pages.py:6263
 msgid "from all vaults"
 msgstr "kaikista vaulteista"
 
-#: r2/lib/pages/pages.py:6249
+#: r2/lib/pages/pages.py:6265
 msgid "moderating"
 msgstr "valvomasi"
 
-#: r2/lib/pages/pages.py:6250
+#: r2/lib/pages/pages.py:6266
 msgid "vaults you mod"
 msgstr "moderoimasi vaultit"
 
-#: r2/lib/pages/pages.py:6256
+#: r2/lib/pages/pages.py:6272
 msgid "gold perks"
 msgstr "kultaedut"
 
-#: r2/lib/pages/pages.py:6272
+#: r2/lib/pages/pages.py:6288
 msgid "explore multis"
 msgstr "tutki multeja"
 
-#: r2/lib/pages/pages.py:6358
+#: r2/lib/pages/pages.py:6374
 msgid "faq"
 msgstr "UKK"
 
-#: r2/lib/pages/pages.py:6359 r2/templates/usertext.html:121
+#: r2/lib/pages/pages.py:6375 r2/templates/usertext.html:121
 msgid "formatting"
 msgstr "muotoilu"
 
-#: r2/lib/pages/pages.py:6428
+#: r2/lib/pages/pages.py:6444
 msgid "your subscribed vaults"
 msgstr "tilaamasi vaultit"
 
-#: r2/lib/pages/pages.py:6541
+#: r2/lib/pages/pages.py:6557
 #, python-format
 msgid "this promoted link uses city level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "tämä mainostettu linkki käyttää kaupunkitason kohdistusta, ja se on voitu näyttää sinulle sijaintisi vuoksi. ([lue lisää](%(link)s))"
 
-#: r2/lib/pages/pages.py:6545
+#: r2/lib/pages/pages.py:6561
 #, python-format
 msgid "this promoted link uses country level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "tämä mainostettu linkki käyttää maakohtaista sijaintia ja saattaa olla näytetty sinulle sijaintisi perusteella ([Lisätietoja](%(link)s))"
@@ -6200,7 +6210,7 @@ msgstr "avaa kommentit"
 msgid "expand or collapse the preview, or the comment"
 msgstr "laajenna tai tiivistä esikatselu tai kommentti"
 
-#: r2/public/static/js/enhancements.js:180 r2/public/static/js/enhancements.js:631 r2/public/static/js/saved.js:122 r2/public/static/js/saved.js:161 r2/public/static/js/sponsored.js:97 r2/templates/adminadsettings.html:128 r2/templates/adminantispam.html:106 r2/templates/adminemailsettings.html:95 r2/templates/adminfeeds.html:70 r2/templates/adminloginsettings.html:77 r2/templates/adminpaymentsettings.html:213 r2/templates/adminsitesettings.html:146 r2/templates/adminsupportstaff.html:57 r2/templates/adminuser.html:106 r2/templates/flairlistrow.html:48 r2/templates/flairselector.html:54 r2/templates/moderatorpermissions.html:55 r2/templates/prefsecurity.html:204 r2/templates/prefupdate.html:100 r2/templates/prefupdate.html:154 r2/templates/printablebuttons.html:106 r2/templates/printablebuttons.html:375 r2/templates/printablebuttons.html:480 r2/templates/promotelinkedit.html:218 r2/templates/vaultstylesheet.html:70
+#: r2/public/static/js/enhancements.js:180 r2/public/static/js/enhancements.js:631 r2/public/static/js/saved.js:122 r2/public/static/js/saved.js:161 r2/public/static/js/sponsored.js:97 r2/templates/adminadsettings.html:128 r2/templates/adminantispam.html:106 r2/templates/adminemailsettings.html:95 r2/templates/adminfeeds.html:70 r2/templates/adminloginsettings.html:77 r2/templates/adminpaymentsettings.html:213 r2/templates/adminsitesettings.html:146 r2/templates/adminsupportstaff.html:57 r2/templates/adminuser.html:103 r2/templates/adminuser.html:122 r2/templates/adminuser.html:147 r2/templates/flairlistrow.html:48 r2/templates/flairselector.html:54 r2/templates/moderatorpermissions.html:55 r2/templates/prefsecurity.html:204 r2/templates/prefupdate.html:100 r2/templates/prefupdate.html:154 r2/templates/printablebuttons.html:106 r2/templates/printablebuttons.html:375 r2/templates/printablebuttons.html:480 r2/templates/promotelinkedit.html:218 r2/templates/vaultstylesheet.html:70
 msgid "save"
 msgstr "tallenna"
 
@@ -6963,7 +6973,7 @@ msgstr "virhe tapahtui (tila: %(status)s)"
 msgid "view vault traffic"
 msgstr "näytä vaultin liikenne"
 
-#: r2/public/static/js/traffic.js:13 r2/templates/adminuser.html:169 r2/templates/flairlist.html:34 r2/templates/userlisting.html:170
+#: r2/public/static/js/traffic.js:13 r2/templates/adminuser.html:210 r2/templates/flairlist.html:34 r2/templates/userlisting.html:170
 msgid "go"
 msgstr "mene"
 
@@ -7368,7 +7378,7 @@ msgstr "Valitut:"
 msgid "not spam (dismiss)"
 msgstr "ei roskapostia (hylkää)"
 
-#: r2/templates/adminantispam.html:210 r2/templates/adminapps.html:107 r2/templates/adminuser.html:151
+#: r2/templates/adminantispam.html:210 r2/templates/adminapps.html:107 r2/templates/adminuser.html:192
 msgid "suspend"
 msgstr "jäädytä"
 
@@ -7380,7 +7390,7 @@ msgstr "jäädytä ja poista heidän sisältönsä roskapostina"
 msgid "apply"
 msgstr "käytä"
 
-#: r2/templates/adminantispam.html:217 r2/templates/adminuser.html:214 r2/templates/adminuser.html:262 r2/templates/adminvault.html:109 r2/templates/adminvault.html:139 r2/templates/adminvaults.html:66 r2/templates/adminvaults.html:78
+#: r2/templates/adminantispam.html:217 r2/templates/adminuser.html:255 r2/templates/adminuser.html:303 r2/templates/adminvault.html:109 r2/templates/adminvault.html:139 r2/templates/adminvaults.html:66 r2/templates/adminvaults.html:78
 msgid "None."
 msgstr "Ei mitään."
 
@@ -7449,7 +7459,7 @@ msgstr "(ei nimeä)"
 msgid "(the site's own)"
 msgstr "(sivuston oma)"
 
-#: r2/templates/adminapps.html:93 r2/templates/admindomain.html:85 r2/templates/admindomains.html:44 r2/templates/adminfeeds.html:132 r2/templates/adminsupport.html:83 r2/templates/adminsupport.html:88 r2/templates/adminsupportactivity.html:77 r2/templates/adminsupportticket.html:106 r2/templates/adminsupportticket.html:119 r2/templates/adminsupportticket.html:157 r2/templates/adminuser.html:43 r2/templates/adminuser.html:53 r2/templates/adminuser.html:61 r2/templates/adminuser.html:225 r2/templates/adminuser.html:257 r2/templates/adminusers.html:83 r2/templates/adminvault.html:40 r2/templates/adminvault.html:50 r2/templates/adminvaults.html:57 r2/templates/comment.htmllite:49 r2/templates/commentvisitsbox.html:41
+#: r2/templates/adminapps.html:93 r2/templates/admindomain.html:85 r2/templates/admindomains.html:44 r2/templates/adminfeeds.html:132 r2/templates/adminsupport.html:83 r2/templates/adminsupport.html:88 r2/templates/adminsupportactivity.html:77 r2/templates/adminsupportticket.html:106 r2/templates/adminsupportticket.html:119 r2/templates/adminsupportticket.html:157 r2/templates/adminuser.html:43 r2/templates/adminuser.html:53 r2/templates/adminuser.html:61 r2/templates/adminuser.html:266 r2/templates/adminuser.html:298 r2/templates/adminusers.html:83 r2/templates/adminvault.html:40 r2/templates/adminvault.html:50 r2/templates/adminvaults.html:57 r2/templates/comment.htmllite:49 r2/templates/commentvisitsbox.html:41
 msgid "ago"
 msgstr "sitten"
 
@@ -7457,11 +7467,11 @@ msgstr "sitten"
 msgid "approve"
 msgstr "hyväksy"
 
-#: r2/templates/adminapps.html:110 r2/templates/adminuser.html:149
+#: r2/templates/adminapps.html:110 r2/templates/adminuser.html:190
 msgid "lift the suspension"
 msgstr "poista jäädytys"
 
-#: r2/templates/adminapps.html:113 r2/templates/adminbackups.html:139 r2/templates/adminfeeds.html:148 r2/templates/adminuser.html:192 r2/templates/multiinfobar.html:56 r2/templates/prefsecurity.html:133 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:578 r2/templates/renderablecampaign.html:161 r2/templates/rules.html:135 r2/templates/wikipagesettings.html:79
+#: r2/templates/adminapps.html:113 r2/templates/adminbackups.html:139 r2/templates/adminfeeds.html:148 r2/templates/adminuser.html:233 r2/templates/multiinfobar.html:56 r2/templates/prefsecurity.html:133 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:578 r2/templates/renderablecampaign.html:161 r2/templates/rules.html:135 r2/templates/wikipagesettings.html:79
 msgid "delete"
 msgstr "poista"
 
@@ -7869,7 +7879,7 @@ msgstr "Aja scripts/gmail_oauth_setup.py palvelimella yhdistääksesi Google-til
 msgid "send a test email"
 msgstr "lähetä testisähköposti"
 
-#: r2/templates/adminemailsettings.html:104 r2/templates/adminsitesettings.html:164 r2/templates/adminuser.html:221
+#: r2/templates/adminemailsettings.html:104 r2/templates/adminsitesettings.html:164 r2/templates/adminuser.html:262
 msgid "address"
 msgstr "osoite"
 
@@ -8558,7 +8568,9 @@ msgid ", with a backup first"
 msgstr ", ensin varmuuskopion kanssa"
 
 #: r2/templates/adminserverstatus.html:64
-msgid "Each server updates within a minute or so of its turn, one at a time; the site is down on each for 5-10 minutes while it does. Its state is on its card below."
+#, fuzzy
+#| msgid "Each server updates within a minute or so of its turn, one at a time; the site is down on each for 5-10 minutes while it does. Its state is on its card below."
+msgid "Each server updates within a minute or so of its turn, one at a time; the site is down on each for a few minutes while it does. Its state is on its card below."
 msgstr "Jokainen palvelin päivittyy noin minuutin kuluessa vuorostaan, yksi kerrallaan; sivusto on kullakin poissa käytöstä 5–10 minuuttia päivityksen ajan. Sen tila näkyy alla sen kortilla."
 
 #: r2/templates/adminserverstatus.html:70
@@ -8570,7 +8582,9 @@ msgid "(servers that haven't started don't; this doesn't undo an update)"
 msgstr "(palvelimet, jotka eivät ole aloittaneet, eivät päivity; tämä ei kumoa päivitystä)"
 
 #: r2/templates/adminserverstatus.html:77
-msgid "Update the servers to this release? Each one goes down for 5-10 minutes while it updates, one at a time. Make a Proxmox snapshot first if you can."
+#, fuzzy
+#| msgid "Update the servers to this release? Each one goes down for 5-10 minutes while it updates, one at a time. Make a Proxmox snapshot first if you can."
+msgid "Update the servers to this release? Each one goes down for a few minutes while it updates, one at a time. Make a Proxmox snapshot first if you can."
 msgstr "Päivitetäänkö palvelimet tähän julkaisuun? Jokainen on poissa käytöstä 5–10 minuuttia päivittyessään, yksi kerrallaan. Ota ensin Proxmox-tilannevedos, jos voit."
 
 #: r2/templates/adminserverstatus.html:83
@@ -8995,11 +9009,11 @@ msgstr "osoitettu"
 msgid "last reply by staff"
 msgstr "henkilökunnan viimeisin vastaus"
 
-#: r2/templates/adminsupport.html:76 r2/templates/adminsupportactivity.html:80 r2/templates/adminsupportticket.html:34 r2/templates/adminsupportticket.html:154 r2/templates/adminuser.html:254
+#: r2/templates/adminsupport.html:76 r2/templates/adminsupportactivity.html:80 r2/templates/adminsupportticket.html:34 r2/templates/adminsupportticket.html:154 r2/templates/adminuser.html:295
 msgid "(no subject)"
 msgstr "(ei aihetta)"
 
-#: r2/templates/adminsupportactivity.html:27 r2/templates/adminsupportticket.html:27 r2/templates/adminuser.html:207 r2/templates/adminvault.html:132
+#: r2/templates/adminsupportactivity.html:27 r2/templates/adminsupportticket.html:27 r2/templates/adminuser.html:248 r2/templates/adminvault.html:132
 msgid "the system"
 msgstr "järjestelmä"
 
@@ -9177,7 +9191,7 @@ msgstr "(vahvistettu)"
 msgid "(not verified)"
 msgstr "(ei vahvistettu)"
 
-#: r2/templates/adminuser.html:76 r2/templates/adminuser.html:175
+#: r2/templates/adminuser.html:76 r2/templates/adminuser.html:216
 msgid "two-factor"
 msgstr "kaksivaiheinen"
 
@@ -9194,206 +9208,240 @@ msgstr "pois"
 msgid "(until %(date)s)"
 msgstr "(%(date)s asti)"
 
-#: r2/templates/adminuser.html:89 r2/templates/adminusers.html:77
+#: r2/templates/adminuser.html:91
+#, fuzzy
+#| msgid "permission"
+msgid "staff permission"
+msgstr "oikeudet"
+
+#: r2/templates/adminuser.html:106
+msgid "Admins can turn on admin mode (everything on /admin); sponsors manage ads; employees are staff without either. The same list as \"employees\" on /admin/config; you can't remove your own admin permission."
+msgstr ""
+
+#: r2/templates/adminuser.html:109
+msgid "The live config is managed outside the site (ZooKeeper), so it can't be changed here."
+msgstr ""
+
+#: r2/templates/adminuser.html:112
+#, fuzzy
+#| msgid "all accounts"
+msgid "internal account"
+msgstr "kaikki tilit"
+
+#: r2/templates/adminuser.html:114
+#, fuzzy, python-format
+#| msgid "(the site's own)"
+msgid "yes: the site's %(kind)s"
+msgstr "(sivuston oma)"
+
+#: r2/templates/adminuser.html:121
+msgid "one of the site's own accounts (a test account, a bot), not a member"
+msgstr ""
+
+#: r2/templates/adminuser.html:126
+msgid "The site's own accounts are labelled on /admin/users and don't take an Early Member place."
+msgstr ""
+
+#: r2/templates/adminuser.html:130 r2/templates/adminusers.html:77
 #, fuzzy
 #| msgid "interests"
 msgid "internal status"
 msgstr "kiinnostuksen kohteet"
 
-#: r2/templates/adminuser.html:96
+#: r2/templates/adminuser.html:137
 msgid "e.g. trusted, watch"
 msgstr ""
 
-#: r2/templates/adminuser.html:104
+#: r2/templates/adminuser.html:145
 #, fuzzy
 #| msgid "night mode ad units (optional)"
 msgid "note for the other admins (optional)"
 msgstr "yötilan mainosyksiköt (valinnainen)"
 
-#: r2/templates/adminuser.html:108
+#: r2/templates/adminuser.html:149
 msgid "Only admins see this; the member doesn't. It's shown on /admin/users, where you can list the accounts with each status. Leave both blank to clear it. Changes are logged under admin actions."
 msgstr ""
 
-#: r2/templates/adminuser.html:117
+#: r2/templates/adminuser.html:158
 msgid "days (0: until lifted)"
 msgstr "päivää (0: kunnes poistetaan)"
 
-#: r2/templates/adminuser.html:130 r2/templates/adminvault.html:81
+#: r2/templates/adminuser.html:171 r2/templates/adminvault.html:81
 msgid "actions"
 msgstr "toiminnot"
 
-#: r2/templates/adminuser.html:132
+#: r2/templates/adminuser.html:173
 msgid "The account is deleted."
 msgstr "Tili on poistettu."
 
-#: r2/templates/adminuser.html:134
+#: r2/templates/adminuser.html:175
 msgid "Not available for admins or yourself; take an admin off the employees list on /admin/config first."
 msgstr "Ei käytettävissä ylläpitäjille tai itsellesi; poista ylläpitäjä ensin työntekijäluettelosta sivulla /admin/config."
 
-#: r2/templates/adminuser.html:137
+#: r2/templates/adminuser.html:178
 msgid "timeout"
 msgstr "jäähy"
 
-#: r2/templates/adminuser.html:139
+#: r2/templates/adminuser.html:180
 msgid "In a timeout"
 msgstr "Jäähyllä"
 
-#: r2/templates/adminuser.html:139
+#: r2/templates/adminuser.html:180
 #, python-format
 msgid " until %(date)s"
 msgstr " %(date)s asti"
 
-#: r2/templates/adminuser.html:139
+#: r2/templates/adminuser.html:180
 msgid " with no end date"
 msgstr " ilman päättymispäivää"
 
-#: r2/templates/adminuser.html:140
+#: r2/templates/adminuser.html:181
 msgid "lift the timeout"
 msgstr "poista jäähy"
 
-#: r2/templates/adminuser.html:140 r2/templates/adminuser.html:149
+#: r2/templates/adminuser.html:181 r2/templates/adminuser.html:190
 msgid "note (optional)"
 msgstr "muistiinpano (valinnainen)"
 
-#: r2/templates/adminuser.html:142
+#: r2/templates/adminuser.html:183
 msgid "put in a timeout"
 msgstr "aseta jäähylle"
 
-#: r2/templates/adminuser.html:142
+#: r2/templates/adminuser.html:183
 msgid "reason (sent to them)"
 msgstr "syy (lähetetään heille)"
 
-#: r2/templates/adminuser.html:143
+#: r2/templates/adminuser.html:184
 msgid "They can still read and log in, and can message the admins, but can't post, comment, vote or message anyone else."
 msgstr "He voivat yhä lukea ja kirjautua sekä lähettää viestejä ylläpitäjille, mutta eivät voi lähettää viestejä, kommentoida, äänestää tai lähettää yksityisviestejä muille."
 
-#: r2/templates/adminuser.html:146
+#: r2/templates/adminuser.html:187
 msgid "suspension"
 msgstr "jäädytys"
 
-#: r2/templates/adminuser.html:148
+#: r2/templates/adminuser.html:189
 msgid "Suspended."
 msgstr "Jäädytetty."
 
-#: r2/templates/adminuser.html:151 r2/templates/adminuser.html:190
+#: r2/templates/adminuser.html:192 r2/templates/adminuser.html:231
 msgid "reason (logged)"
 msgstr "syy (kirjataan)"
 
-#: r2/templates/adminuser.html:151
+#: r2/templates/adminuser.html:192
 msgid "they can't log in; their sessions and app tokens end"
 msgstr "he eivät voi kirjautua; heidän istuntonsa ja sovellustunnisteensa päättyvät"
 
-#: r2/templates/adminuser.html:154
+#: r2/templates/adminuser.html:195
 msgid "quick tools"
 msgstr "pikatyökalut"
 
-#: r2/templates/adminuser.html:159
+#: r2/templates/adminuser.html:200
 msgid "choose a tool"
 msgstr "valitse työkalu"
 
-#: r2/templates/adminuser.html:160
+#: r2/templates/adminuser.html:201
 msgid "remove all their posts and comments"
 msgstr "poista kaikki heidän viestinsä ja kommenttinsa"
 
-#: r2/templates/adminuser.html:161
+#: r2/templates/adminuser.html:202
 msgid "remove all their posts and comments as spam"
 msgstr "poista kaikki heidän viestinsä ja kommenttinsa roskapostina"
 
-#: r2/templates/adminuser.html:162
+#: r2/templates/adminuser.html:203
 msgid "delete all their posts and comments"
 msgstr "tuhoa kaikki heidän viestinsä ja kommenttinsa"
 
-#: r2/templates/adminuser.html:164
+#: r2/templates/adminuser.html:205
 msgid "require them to verify their email again"
 msgstr "vaadi heitä vahvistamaan sähköpostinsa uudelleen"
 
-#: r2/templates/adminuser.html:165
+#: r2/templates/adminuser.html:206
 msgid "remove their email address"
 msgstr "poista heidän sähköpostiosoitteensa"
 
-#: r2/templates/adminuser.html:168 r2/templates/promotelinkedit.html:106
+#: r2/templates/adminuser.html:209 r2/templates/promotelinkedit.html:106
 msgid "confirm"
 msgstr "Vahvista"
 
-#: r2/templates/adminuser.html:172
+#: r2/templates/adminuser.html:213
 #, python-format
 msgid "Removed posts and comments stay in each vault's spam queue, where moderators can approve them; \"as spam\" also teaches the spam filter. Deleted ones show as [deleted], as when someone deletes their own. Each acts on their newest %(n)d posts and newest %(n)d comments; run it again for more."
 msgstr "Poistetut viestit ja kommentit jäävät kunkin vaultin roskapostijonoon, jossa moderaattorit voivat hyväksyä ne; \"roskapostina\" myös opettaa roskapostisuodatinta. Tuhotut näkyvät muodossa [deleted], kuten kun joku poistaa omansa. Kukin toiminto koskee heidän %(n)d uusinta viestiään ja %(n)d uusinta kommenttiaan; aja se uudelleen lisää varten."
 
-#: r2/templates/adminuser.html:176
+#: r2/templates/adminuser.html:217
 msgid "reset two-factor"
 msgstr "nollaa kaksivaiheinen"
 
-#: r2/templates/adminuser.html:176
+#: r2/templates/adminuser.html:217
 msgid "why (logged)"
 msgstr "miksi (kirjataan)"
 
-#: r2/templates/adminuser.html:177
+#: r2/templates/adminuser.html:218
 msgid "For someone locked out: they can log in with their password and set it up again."
 msgstr "Lukkojen taakse jääneelle: hän voi kirjautua salasanallaan ja määrittää sen uudelleen."
 
-#: r2/templates/adminuser.html:180
+#: r2/templates/adminuser.html:221
 msgid "delete account"
 msgstr "poista tili"
 
-#: r2/templates/adminuser.html:182
+#: r2/templates/adminuser.html:223
 #, python-format
 msgid "Delete %(name)s? This cannot be undone."
 msgstr "Poistetaanko %(name)s? Tätä ei voi kumota."
 
-#: r2/templates/adminuser.html:186
+#: r2/templates/adminuser.html:227
 msgid "their posts and comments…"
 msgstr "heidän viestinsä ja kommenttinsa…"
 
-#: r2/templates/adminuser.html:187 r2/templates/privacysettings.html:116
+#: r2/templates/adminuser.html:228 r2/templates/privacysettings.html:116
 msgid "keep them (shown by [deleted])"
 msgstr "säilytä ne (näytetään muodossa [deleted])"
 
-#: r2/templates/adminuser.html:188 r2/templates/privacysettings.html:117
+#: r2/templates/adminuser.html:229 r2/templates/privacysettings.html:117
 msgid "delete them too"
 msgstr "poista nekin"
 
-#: r2/templates/adminuser.html:191
+#: r2/templates/adminuser.html:232
 msgid "delete for good"
 msgstr "poista lopullisesti"
 
-#: r2/templates/adminuser.html:195
+#: r2/templates/adminuser.html:236
 msgid "Final: their sessions and app tokens end, and their password, email address and moderator roles are removed now (not 90 days later, as when people delete their own account). The name can't be registered again."
 msgstr "Lopullinen: heidän istuntonsa ja sovellustunnisteensa päättyvät, ja heidän salasanansa, sähköpostiosoitteensa ja moderaattoriroolinsa poistetaan nyt (ei 90 päivää myöhemmin, kuten kun ihmiset poistavat oman tilinsä). Nimeä ei voi rekisteröidä uudelleen."
 
-#: r2/templates/adminuser.html:200 r2/templates/adminvault.html:125
+#: r2/templates/adminuser.html:241 r2/templates/adminvault.html:125
 msgid "admin actions"
 msgstr "ylläpitotoiminnot"
 
-#: r2/templates/adminuser.html:217
+#: r2/templates/adminuser.html:258
 msgid "logins by IP address"
 msgstr "kirjautumiset IP-osoitteen mukaan"
 
-#: r2/templates/adminuser.html:218
+#: r2/templates/adminuser.html:259
 msgid "The last 100 days, newest first. Other accounts seen on the same address can be one person's accounts, or just a shared network (a household, school, phone carrier or VPN)."
 msgstr "Viimeiset 100 päivää, uusimmat ensin. Samassa osoitteessa nähdyt muut tilit voivat olla yhden ihmisen tilejä tai vain jaettu verkko (kotitalous, koulu, puhelinoperaattori tai VPN)."
 
-#: r2/templates/adminuser.html:221
+#: r2/templates/adminuser.html:262
 msgid "last login"
 msgstr "viimeisin kirjautuminen"
 
-#: r2/templates/adminuser.html:221
+#: r2/templates/adminuser.html:262
 msgid "other accounts from it"
 msgstr "muut tilit samasta osoitteesta"
 
-#: r2/templates/adminuser.html:235
+#: r2/templates/adminuser.html:276
 msgid "No logins recorded yet (they're recorded from now on, for public addresses)."
 msgstr "Ei vielä kirjattuja kirjautumisia (ne kirjataan tästä eteenpäin julkisista osoitteista)."
 
-#: r2/templates/adminuser.html:238
+#: r2/templates/adminuser.html:279
 msgid "moderates"
 msgstr "moderoi"
 
-#: r2/templates/adminuser.html:246
+#: r2/templates/adminuser.html:287
 msgid "No vaults."
 msgstr "Ei vaultteja."
 
-#: r2/templates/adminuser.html:249
+#: r2/templates/adminuser.html:290
 msgid "support tickets"
 msgstr "tukipyynnöt"
 
@@ -12363,7 +12411,7 @@ msgid "don't allow search engines to index my user profile"
 msgstr "älä anna tietojani julkisiin hakukoneisiin"
 
 #: r2/templates/prefoptions.html:502
-msgid "Google Analytics, which helps the site's admins see how it's used:"
+msgid "optional analytics cookies, which help the site's admins see how it's used (see the privacy policy):"
 msgstr ""
 
 #: r2/templates/prefoptions.html:503 r2/templates/utils.html:546
@@ -14307,7 +14355,7 @@ msgid "analytics consent"
 msgstr "analytiikka"
 
 #: r2/templates/utils.html:540
-msgid "This site would like to use Google Analytics to see how it's used, which sets cookies and sends Google details of your visit. Is that all right?"
+msgid "We'd like to use optional analytics cookies to see how the site is used. Is that all right?"
 msgstr ""
 
 #: r2/templates/utils.html:722
