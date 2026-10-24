@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tippr\n"
 "Report-Msgid-Bugs-To: https://github.com/TechIdiots-LLC/tippr-i18n/issues\n"
-"POT-Creation-Date: 2026-10-23 20:15-0400\n"
+"POT-Creation-Date: 2026-10-24 09:58-0400\n"
 "PO-Revision-Date: 2017-01-23 14:36-0500\n"
 "Last-Translator: tippr translators\n"
 "Language-Team: Korean\n"
@@ -20,475 +20,475 @@ msgstr ""
 msgid "Choose an image of at most 1 MB."
 msgstr "1MB 이하의 이미지를 선택하세요."
 
-#: r2/controllers/api.py:222 r2/controllers/api.py:248 r2/controllers/api.py:4398 r2/controllers/api.py:4468 r2/controllers/listingcontroller.py:754 r2/lib/pages/pages.py:6377
+#: r2/controllers/api.py:223 r2/controllers/api.py:249 r2/controllers/api.py:4403 r2/controllers/api.py:4473 r2/controllers/listingcontroller.py:766 r2/lib/pages/pages.py:6382
 msgid "API"
 msgstr "API"
 
-#: r2/controllers/api.py:273
+#: r2/controllers/api.py:274
 msgid "this is too long"
 msgstr "너무 깁니다"
 
-#: r2/controllers/api.py:287 r2/lib/errors.py:72
+#: r2/controllers/api.py:288 r2/lib/errors.py:72
 msgid "that user doesn't exist"
 msgstr "존재하지 않는 아이디입니다"
 
-#: r2/controllers/api.py:291
+#: r2/controllers/api.py:292
 #, python-format
 msgid "you can tag at most %(n)d users"
 msgstr "태그는 최대 %(n)d명까지 달 수 있습니다"
 
-#: r2/controllers/api.py:309
+#: r2/controllers/api.py:310
 msgid "wrong username or password"
 msgstr "사용자 이름 또는 비밀번호가 틀렸습니다"
 
-#: r2/controllers/api.py:311
+#: r2/controllers/api.py:312
 msgid "that's the account you're using"
 msgstr "지금 사용 중인 계정입니다"
 
-#: r2/controllers/api.py:313
+#: r2/controllers/api.py:314
 #, python-format
 msgid "you can keep at most %(n)d other accounts"
 msgstr "다른 계정은 최대 %(n)d개까지 보관할 수 있습니다"
 
-#: r2/controllers/api.py:318
+#: r2/controllers/api.py:319
 msgid "enter that account's two-factor code"
 msgstr "그 계정의 2단계 인증 코드를 입력하세요"
 
-#: r2/controllers/api.py:334
+#: r2/controllers/api.py:335
 msgid "that account isn't available to switch to; add it again"
 msgstr "그 계정으로 전환할 수 없습니다. 다시 추가하세요"
 
-#: r2/controllers/api.py:547
+#: r2/controllers/api.py:548
 msgid "your message has been delivered"
 msgstr "메시지가 전송되었습니다"
 
-#: r2/controllers/api.py:769
+#: r2/controllers/api.py:770
 msgid "no title found"
 msgstr "제목이 없습니다"
 
-#: r2/controllers/api.py:863 r2/controllers/linked_logins.py:184 r2/controllers/linked_logins.py:232 r2/controllers/linked_logins.py:252 r2/controllers/linked_logins.py:330
+#: r2/controllers/api.py:864 r2/controllers/linked_logins.py:184 r2/controllers/linked_logins.py:232 r2/controllers/linked_logins.py:252 r2/controllers/linked_logins.py:330
 msgid "That sign-in took too long. Please start again."
 msgstr "로그인 시간이 너무 오래 걸렸습니다. 처음부터 다시 시작하세요."
 
-#: r2/controllers/api.py:868
+#: r2/controllers/api.py:869
 msgid "That account is linked already: sign in with it."
 msgstr "이미 연결된 계정입니다. 그 계정으로 로그인하세요."
 
-#: r2/controllers/api.py:1402 r2/controllers/api.py:1783 r2/controllers/api.py:2683 r2/controllers/api.py:2983 r2/controllers/api.py:3310 r2/controllers/api.py:4190 r2/controllers/api.py:4246 r2/controllers/api.py:4300 r2/controllers/api.py:4533 r2/controllers/api.py:4538 r2/controllers/api.py:4773 r2/controllers/api.py:4838 r2/controllers/api.py:4916 r2/controllers/api.py:4982 r2/controllers/api.py:5055 r2/controllers/api.py:5146 r2/controllers/api.py:5178 r2/controllers/api.py:5198 r2/controllers/api.py:5712 r2/controllers/api.py:5752 r2/controllers/api.py:5986 r2/controllers/api.py:6004 r2/controllers/api.py:6352 r2/lib/pages/pages.py:6268
+#: r2/controllers/api.py:1403 r2/controllers/api.py:1784 r2/controllers/api.py:2686 r2/controllers/api.py:2986 r2/controllers/api.py:3313 r2/controllers/api.py:4195 r2/controllers/api.py:4251 r2/controllers/api.py:4305 r2/controllers/api.py:4538 r2/controllers/api.py:4543 r2/controllers/api.py:4778 r2/controllers/api.py:4843 r2/controllers/api.py:4921 r2/controllers/api.py:4987 r2/controllers/api.py:5060 r2/controllers/api.py:5151 r2/controllers/api.py:5183 r2/controllers/api.py:5203 r2/controllers/api.py:5717 r2/controllers/api.py:5757 r2/controllers/api.py:5991 r2/controllers/api.py:6009 r2/controllers/api.py:6357 r2/lib/pages/pages.py:6273
 msgid "saved"
 msgstr "보관했습니다"
 
-#: r2/controllers/api.py:1472
+#: r2/controllers/api.py:1473
 msgid "all other sessions have been logged out"
 msgstr "모든 세션이 로그아웃 되었습니다."
 
-#: r2/controllers/api.py:1531
+#: r2/controllers/api.py:1532
 msgid "you should be getting a verification email shortly."
 msgstr "인증 메일이 발송되었습니다."
 
-#: r2/controllers/api.py:1533 r2/controllers/api.py:1546
+#: r2/controllers/api.py:1534 r2/controllers/api.py:1547
 msgid "your email has been updated"
 msgstr "메일 주소 정보를 갱신했습니다"
 
-#: r2/controllers/api.py:1581
+#: r2/controllers/api.py:1582
 msgid "your password has been updated"
 msgstr "비밀번호 정보를 갱신했습니다"
 
-#: r2/controllers/api.py:2040 r2/lib/menus.py:196 r2/templates/adminserverstatus.html:141
+#: r2/controllers/api.py:2041 r2/lib/menus.py:196 r2/templates/adminserverstatus.html:141
 msgid "reported"
 msgstr "신고가 접수 됐습니다"
 
-#: r2/controllers/api.py:2461 r2/lib/support.py:91
+#: r2/controllers/api.py:2464 r2/lib/support.py:91
 msgid "replied"
 msgstr "답변함"
 
-#: r2/controllers/api.py:2666
+#: r2/controllers/api.py:2669
 msgid "validation errors"
 msgstr "검증 오류"
 
-#: r2/controllers/api.py:2786 r2/controllers/api.py:2813 r2/controllers/api.py:2840 r2/controllers/listingcontroller.py:1036 r2/lib/menus.py:195 r2/public/static/js/tippr.js:231 r2/templates/adminapps.html:51 r2/templates/adminuser.html:59 r2/templates/deleteduserinterstitial.html:34 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:578 r2/templates/vaultstylesheetbase.html:47
+#: r2/controllers/api.py:2789 r2/controllers/api.py:2816 r2/controllers/api.py:2843 r2/controllers/listingcontroller.py:1048 r2/lib/menus.py:195 r2/public/static/js/tippr.js:235 r2/templates/adminapps.html:51 r2/templates/adminuser.html:59 r2/templates/deleteduserinterstitial.html:34 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:578 r2/templates/vaultstylesheetbase.html:47
 msgid "deleted"
 msgstr "삭제되었습니다"
 
-#: r2/controllers/api.py:2917
+#: r2/controllers/api.py:2920
 msgid "bad image name"
 msgstr "그림파일 이름 관련 오류가 발생했습니다. 그림파일 이름을 확인하십시오"
 
-#: r2/controllers/api.py:2923
+#: r2/controllers/api.py:2926
 #, python-format
 msgid "too many images (you only get %d)"
 msgstr "그림이 너무 많습니다 (한 번에 그림 %d 개 만 올릴 수 있습니다)"
 
-#: r2/controllers/api.py:2928 r2/controllers/api.py:2952
+#: r2/controllers/api.py:2931 r2/controllers/api.py:2955
 msgid "Invalid image or general image error"
 msgstr "이미지가 올바르지 않거나 오류입니다"
 
-#: r2/controllers/api.py:2933
+#: r2/controllers/api.py:2936
 #, python-format
 msgid "must be %dx%d pixels"
 msgstr "%dx%d 픽셀이어야 합니다"
 
-#: r2/controllers/api.py:2937
+#: r2/controllers/api.py:2940
 msgid "10:3 aspect ratio required"
 msgstr "10:3 화면비가 필요합니다"
 
-#: r2/controllers/api.py:2940
+#: r2/controllers/api.py:2943
 #, python-format
 msgid "max %dx%d pixels"
 msgstr "최대 %dx%d 픽셀"
 
-#: r2/controllers/api.py:2943
+#: r2/controllers/api.py:2946
 #, python-format
 msgid "min %dx%d pixels"
 msgstr "최소 %dx%d 픽셀"
 
-#: r2/controllers/api.py:4002
+#: r2/controllers/api.py:4007
 msgid "an email will be sent to that account's address shortly"
 msgstr "잠시 후에 입력하신 주소로 메일을 보내드리도록 하겠습니다"
 
-#: r2/controllers/api.py:4005
+#: r2/controllers/api.py:4010
 msgid "try again tomorrow"
 msgstr "내일 다시 시도하세요"
 
-#: r2/controllers/api.py:4052
+#: r2/controllers/api.py:4057
 msgid "password updated"
 msgstr "비밀번호가 변경되었습니다."
 
-#: r2/controllers/api.py:4258 r2/controllers/api.py:4489
+#: r2/controllers/api.py:4263 r2/controllers/api.py:4494
 msgid "invalid css class"
 msgstr "CSS 클래스가 올바르지 않습니다"
 
-#: r2/controllers/api.py:4261 r2/controllers/api.py:4492
+#: r2/controllers/api.py:4266 r2/controllers/api.py:4497
 msgid "too many css classes"
 msgstr "CSS 클래스가 너무 많습니다"
 
-#: r2/controllers/api.py:4513
+#: r2/controllers/api.py:4518
 msgid "max flair templates reached"
 msgstr "플레어 템플릿을 더 추가할 수 없습니다"
 
-#: r2/controllers/api.py:4978
+#: r2/controllers/api.py:4983
 #, python-format
 msgid "saved, but these aren't on until their keys are filled in: %(names)s"
 msgstr "저장했지만, 키를 입력하기 전까지는 다음이 작동하지 않습니다: %(names)s"
 
-#: r2/controllers/api.py:5000
+#: r2/controllers/api.py:5005
 msgid "the keys work"
 msgstr "키가 작동합니다"
 
-#: r2/controllers/api.py:5001 r2/controllers/api.py:5018
+#: r2/controllers/api.py:5006 r2/controllers/api.py:5023
 #, python-format
 msgid "didn't work: %(error)s"
 msgstr "실패했습니다: %(error)s"
 
-#: r2/controllers/api.py:5006
+#: r2/controllers/api.py:5011
 msgid "no such payment"
 msgstr "그런 결제는 없습니다"
 
-#: r2/controllers/api.py:5021 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminprivacy.html:26 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminuser.html:89 r2/templates/adminusers.html:77 r2/templates/adminvaults.html:50
+#: r2/controllers/api.py:5026 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminprivacy.html:26 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminuser.html:89 r2/templates/adminusers.html:77 r2/templates/adminvaults.html:50
 msgid "status"
 msgstr "상태"
 
-#: r2/controllers/api.py:5046 r2/controllers/linked_logins.py:93 r2/controllers/linked_logins.py:187 r2/lib/pages/pages.py:1373 r2/lib/pages/pages.py:1423 r2/templates/createvault.html:57 r2/templates/goldpayment.html:168 r2/templates/linkedsignin.html:41 r2/templates/listingchooser.html:69 r2/templates/prefapps.html:153 r2/templates/prefapps.html:348
+#: r2/controllers/api.py:5051 r2/controllers/linked_logins.py:93 r2/controllers/linked_logins.py:187 r2/lib/pages/pages.py:1374 r2/lib/pages/pages.py:1424 r2/templates/createvault.html:57 r2/templates/goldpayment.html:168 r2/templates/linkedsignin.html:41 r2/templates/listingchooser.html:69 r2/templates/prefapps.html:153 r2/templates/prefapps.html:348
 msgid "name"
 msgstr "이름"
 
-#: r2/controllers/api.py:5051
+#: r2/controllers/api.py:5056
 #, python-format
 msgid "saved, but these aren't on until their ID and secret are filled in: %(names)s"
 msgstr "저장했지만, ID와 시크릿을 입력하기 전까지는 다음이 작동하지 않습니다: %(names)s"
 
-#: r2/controllers/api.py:5160 r2/controllers/api.py:5186
+#: r2/controllers/api.py:5165 r2/controllers/api.py:5191
 msgid "this site's live config is managed in ZooKeeper"
 msgstr "이 사이트의 실시간 설정은 ZooKeeper에서 관리됩니다"
 
-#: r2/controllers/api.py:5164
+#: r2/controllers/api.py:5169
 msgid "unknown setting"
 msgstr "알 수 없는 설정"
 
-#: r2/controllers/api.py:5172 r2/controllers/api.py:5196
+#: r2/controllers/api.py:5177 r2/controllers/api.py:5201
 #, python-format
 msgid "not saved: %(error)s"
 msgstr "저장되지 않음: %(error)s"
 
-#: r2/controllers/api.py:5202
+#: r2/controllers/api.py:5207
 #, python-format
 msgid "%(saved)d saved; %(failed)d not saved (see below)"
 msgstr "%(saved)d개 저장, %(failed)d개 저장 안 됨 (아래 참고)"
 
-#: r2/controllers/api.py:5208
+#: r2/controllers/api.py:5213
 msgid "nothing changed"
 msgstr "바뀐 것이 없습니다"
 
-#: r2/controllers/api.py:5224
+#: r2/controllers/api.py:5229
 #, python-format
 msgid "couldn't empty: %(servers)s"
 msgstr "비우지 못했습니다: %(servers)s"
 
-#: r2/controllers/api.py:5249
+#: r2/controllers/api.py:5254
 msgid "every account has been checked"
 msgstr "모든 계정을 확인했습니다"
 
-#: r2/controllers/api.py:5261
+#: r2/controllers/api.py:5266
 msgid "select some accounts"
 msgstr "계정을 선택하세요"
 
-#: r2/controllers/api.py:5308 r2/controllers/api.py:5414
+#: r2/controllers/api.py:5313 r2/controllers/api.py:5419
 msgid "no such account"
 msgstr "해당 계정이 없습니다"
 
-#: r2/controllers/api.py:5311 r2/controllers/api.py:5406
+#: r2/controllers/api.py:5316 r2/controllers/api.py:5411
 msgid "unknown action"
 msgstr "알 수 없는 작업"
 
-#: r2/controllers/api.py:5325
+#: r2/controllers/api.py:5330
 #, fuzzy
 #| msgid "no permissions"
 msgid "choose a permission"
 msgstr "권한 없음"
 
-#: r2/controllers/api.py:5339
+#: r2/controllers/api.py:5344
 msgid "not on admins (take them off the employees list on /admin/config first)"
 msgstr "관리자에게는 사용할 수 없습니다(먼저 /admin/config의 직원 목록에서 제외하세요)"
 
-#: r2/controllers/api.py:5343
+#: r2/controllers/api.py:5348
 msgid "the account is deleted"
 msgstr "계정이 삭제되었습니다"
 
-#: r2/controllers/api.py:5346
+#: r2/controllers/api.py:5351
 msgid "give a reason (it's logged, and a timeout's reason is sent to them)"
 msgstr "사유를 입력하세요(기록되며, 일시 정지 사유는 당사자에게 전송됩니다)"
 
-#: r2/controllers/api.py:5350 r2/controllers/api.py:5431
+#: r2/controllers/api.py:5355 r2/controllers/api.py:5436
 msgid "tick the box to confirm"
 msgstr "확인하려면 상자를 체크하세요"
 
-#: r2/controllers/api.py:5353
+#: r2/controllers/api.py:5358
 msgid "choose whether to keep or delete their posts"
 msgstr "게시물을 유지할지 삭제할지 선택하세요"
 
-#: r2/controllers/api.py:5356
+#: r2/controllers/api.py:5361
 msgid "they have no email address"
 msgstr "이메일 주소가 없는 사용자입니다"
 
-#: r2/controllers/api.py:5403 r2/controllers/api.py:5509
+#: r2/controllers/api.py:5408 r2/controllers/api.py:5514
 msgid "no such vault"
 msgstr "해당 볼트가 없습니다"
 
-#: r2/controllers/api.py:5418
+#: r2/controllers/api.py:5423
 msgid "they're already a moderator"
 msgstr "이미 모더레이터입니다"
 
-#: r2/controllers/api.py:5421
+#: r2/controllers/api.py:5426
 msgid "they're banned from the vault; unban them first"
 msgstr "이 볼트에서 차단된 사용자입니다. 먼저 차단을 해제하세요"
 
-#: r2/controllers/api.py:5426
+#: r2/controllers/api.py:5431
 msgid "they aren't a moderator"
 msgstr "모더레이터가 아닙니다"
 
-#: r2/controllers/api.py:5438
+#: r2/controllers/api.py:5443
 msgid "unban the vault first"
 msgstr "먼저 볼트 차단을 해제하세요"
 
-#: r2/controllers/api.py:5457
+#: r2/controllers/api.py:5462
 msgid "no such app"
 msgstr "해당 앱이 없습니다"
 
-#: r2/controllers/api.py:5460
+#: r2/controllers/api.py:5465
 msgid "the site's own apps can't be deleted here"
 msgstr "사이트 자체 앱은 여기서 제거할 수 없습니다"
 
-#: r2/controllers/api.py:5503
+#: r2/controllers/api.py:5508
 msgid "give the feed's http(s) address"
 msgstr "http(s) 피드 주소를 입력하세요"
 
-#: r2/controllers/api.py:5512
+#: r2/controllers/api.py:5517
 msgid "pick one of the AI labels"
 msgstr "AI 라벨 중 하나를 고르세요"
 
-#: r2/controllers/api.py:5516
+#: r2/controllers/api.py:5521
 #, python-format
 msgid "/v/%(vault)s doesn't accept %(label)s posts"
 msgstr "/v/%(vault)s 볼트는 %(label)s 게시물을 받지 않습니다"
 
-#: r2/controllers/api.py:5522
+#: r2/controllers/api.py:5527
 msgid "give the bot account a valid username"
 msgstr "봇 계정에 쓸 올바른 사용자 이름을 입력하세요"
 
-#: r2/controllers/api.py:5531
+#: r2/controllers/api.py:5536
 msgid "that account is suspended or deleted"
 msgstr "이 계정은 정지되었거나 삭제되었습니다"
 
-#: r2/controllers/api.py:5538 r2/controllers/api.py:5553
+#: r2/controllers/api.py:5543 r2/controllers/api.py:5558
 msgid "no such feed"
 msgstr "해당 피드가 없습니다"
 
-#: r2/controllers/api.py:5576
+#: r2/controllers/api.py:5581
 msgid "give a domain"
 msgstr "도메인을 입력하세요"
 
-#: r2/controllers/api.py:5582
+#: r2/controllers/api.py:5587
 msgid "choose what the ban does"
 msgstr "차단 방식을 선택하세요"
 
-#: r2/controllers/api.py:5585
+#: r2/controllers/api.py:5590
 msgid "give a reason (members see it when the link is refused)"
 msgstr "사유를 입력하세요(링크가 거부될 때 회원에게 표시됩니다)"
 
-#: r2/controllers/api.py:5590
+#: r2/controllers/api.py:5595
 msgid "that's not a domain"
 msgstr "도메인이 아닙니다"
 
-#: r2/controllers/api.py:5617 r2/controllers/api.py:5636 r2/controllers/api.py:5653 r2/controllers/api.py:5671
+#: r2/controllers/api.py:5622 r2/controllers/api.py:5641 r2/controllers/api.py:5658 r2/controllers/api.py:5676
 msgid "no such ticket"
 msgstr "해당 문의가 없습니다"
 
-#: r2/controllers/api.py:5684
+#: r2/controllers/api.py:5689
 msgid "they can't reply in this category"
 msgstr "이 카테고리에서는 답변할 수 없습니다"
 
-#: r2/controllers/api.py:5704
+#: r2/controllers/api.py:5709
 msgid "not on the employees list"
 msgstr "직원 목록에 없습니다"
 
-#: r2/controllers/api.py:5756
+#: r2/controllers/api.py:5761
 msgid "saved; CleanTalk needs an access key to work"
 msgstr "저장됨. CleanTalk에는 액세스 키가 필요합니다"
 
-#: r2/controllers/api.py:5759
+#: r2/controllers/api.py:5764
 #, python-format
 msgid "saved; CleanTalk says: %(problem)s"
 msgstr "저장됨. CleanTalk 응답: %(problem)s"
 
-#: r2/controllers/api.py:5761
+#: r2/controllers/api.py:5766
 msgid "saved; the CleanTalk key works"
 msgstr "저장됨. CleanTalk 키가 작동합니다"
 
-#: r2/controllers/api.py:5798
+#: r2/controllers/api.py:5803
 msgid "that isn't a release with an installer"
 msgstr "설치 프로그램이 있는 릴리스가 아닙니다"
 
-#: r2/controllers/api.py:5801
+#: r2/controllers/api.py:5806
 msgid "a server is updating now; wait for it to finish"
 msgstr "지금 서버를 업데이트하고 있습니다. 끝날 때까지 기다리세요"
 
-#: r2/controllers/api.py:5903
+#: r2/controllers/api.py:5908
 msgid "Copy the key now; it isn't shown again."
 msgstr "키를 지금 복사하세요. 다시 표시되지 않습니다."
 
-#: r2/controllers/api.py:5912
+#: r2/controllers/api.py:5917
 msgid "tippr-backup isn't installed on this server (re-run the installer)."
 msgstr "이 서버에 tippr-backup이 설치되어 있지 않습니다(설치 프로그램을 다시 실행하세요)."
 
-#: r2/controllers/api.py:5917
+#: r2/controllers/api.py:5922
 msgid "no such backup"
 msgstr "해당 백업이 없습니다"
 
-#: r2/controllers/api.py:5922
+#: r2/controllers/api.py:5927
 #, python-format
 msgid "Type this site's domain (%(domain)s) to confirm."
 msgstr "확인하려면 이 사이트의 도메인(%(domain)s)을 입력하세요."
 
-#: r2/controllers/api.py:5935
+#: r2/controllers/api.py:5940
 msgid "Enter the other server's address and its transfer key."
 msgstr "다른 서버의 주소와 전송 키를 입력하세요."
 
-#: r2/controllers/api.py:5939
+#: r2/controllers/api.py:5944
 msgid "That isn't a backup name."
 msgstr "백업 이름이 아닙니다."
 
-#: r2/controllers/api.py:5960
+#: r2/controllers/api.py:5965
 msgid "tippr test email"
 msgstr "tippr 테스트 이메일"
 
-#: r2/controllers/api.py:5961
+#: r2/controllers/api.py:5966
 #, python-format
 msgid "This is a test message from %(domain)s. Email is working."
 msgstr "%(domain)s에서 보낸 테스트 메시지입니다. 이메일이 작동합니다."
 
-#: r2/controllers/api.py:5965
+#: r2/controllers/api.py:5970
 #, python-format
 msgid "failed: %(error)s"
 msgstr "오류: %(error)s"
 
-#: r2/controllers/api.py:5967
+#: r2/controllers/api.py:5972
 #, python-format
 msgid "sent to %(address)s"
 msgstr "%(address)s(으)로 보냈습니다"
 
-#: r2/controllers/api.py:6000
+#: r2/controllers/api.py:6005
 msgid "no gold to take"
 msgstr "가져갈 골드 없음"
 
-#: r2/controllers/api.py:6164 r2/controllers/api.py:6194
+#: r2/controllers/api.py:6169 r2/controllers/api.py:6199
 msgid "that's as many authenticator apps as an account can have"
 msgstr "한 계정에 둘 수 있는 인증 앱의 최대 개수입니다"
 
-#: r2/controllers/api.py:6242
+#: r2/controllers/api.py:6247
 msgid "That code didn't work. Codes follow the clock, so check that your phone sets its time automatically."
 msgstr ""
 
-#: r2/controllers/api.py:6245
+#: r2/controllers/api.py:6250
 msgid "enter a code from one of your methods first"
 msgstr "먼저 등록한 방법 중 하나의 코드를 입력하세요"
 
-#: r2/controllers/api.py:6248
+#: r2/controllers/api.py:6253
 #, fuzzy
 #| msgid "That code isn't right. Try again."
 msgid "That password isn't right. Try again."
 msgstr "코드가 맞지 않습니다. 다시 시도하세요."
 
-#: r2/controllers/api.py:6249
+#: r2/controllers/api.py:6254
 msgid "enter your password first"
 msgstr "먼저 비밀번호를 입력하세요"
 
-#: r2/controllers/api.py:6267
+#: r2/controllers/api.py:6272
 msgid "that passkey couldn't be added"
 msgstr "그 패스키를 추가하지 못했습니다"
 
-#: r2/controllers/api.py:6305
+#: r2/controllers/api.py:6310
 msgid "that passkey wasn't accepted"
 msgstr "그 패스키가 승인되지 않았습니다"
 
-#: r2/controllers/api.py:6464
+#: r2/controllers/api.py:6469
 #, python-format
 msgid "accounts need to be %(n)d days old"
 msgstr "계정이 생성된 지 %(n)d일 이상이어야 합니다"
 
-#: r2/controllers/api.py:6468
+#: r2/controllers/api.py:6473
 #, python-format
 msgid "accounts need %(n)d karma"
 msgstr "계정에 카르마가 %(n)d 이상 필요합니다"
 
-#: r2/controllers/api.py:6471
+#: r2/controllers/api.py:6476
 msgid "verify your email address first"
 msgstr "먼저 이메일 주소를 인증하세요"
 
-#: r2/controllers/api.py:6513 r2/lib/errors.py:158
+#: r2/controllers/api.py:6518 r2/lib/errors.py:158
 msgid "this app can not be modified from this interface"
 msgstr "이 앱은 이 인터페이스에서 수정할 수 없습니다"
 
-#: r2/controllers/api.py:6520 r2/lib/errors.py:136
+#: r2/controllers/api.py:6525 r2/lib/errors.py:136
 msgid "invalid client id"
 msgstr "올바르지 않은 클라이언트 아이디"
 
-#: r2/controllers/api.py:6523
+#: r2/controllers/api.py:6528
 msgid "cannot update deleted app"
 msgstr "삭제된 앱을 업데이트 할 수 없습니다."
 
-#: r2/controllers/api.py:6526
+#: r2/controllers/api.py:6531
 msgid "app does not belong to you"
 msgstr "앱에 대한 소유권이 없습니다."
 
-#: r2/controllers/api.py:6534
+#: r2/controllers/api.py:6539
 msgid "application updated"
 msgstr "어플리케이션이 업데이트되었습니다."
 
-#: r2/controllers/api.py:6558
+#: r2/controllers/api.py:6563
 msgid "application created"
 msgstr "어플리케이션이 만들어졌습니다."
 
-#: r2/controllers/api.py:6593
+#: r2/controllers/api.py:6598
 msgid "developer added"
 msgstr "개발자가 추가되었습니다."
 
@@ -504,7 +504,7 @@ msgstr "tippr 단추"
 msgid "tippr widget"
 msgstr "tippr 위짓"
 
-#: r2/controllers/embed.py:74 r2/controllers/policies.py:76 r2/lib/pages/pages.py:1136 r2/lib/pages/pages.py:6373 r2/templates/printablebuttons.html:150
+#: r2/controllers/embed.py:74 r2/controllers/policies.py:76 r2/lib/pages/pages.py:1137 r2/lib/pages/pages.py:6378 r2/templates/printablebuttons.html:150
 msgid "help"
 msgstr "도움말"
 
@@ -534,11 +534,11 @@ msgstr "페이지를 찾을 수 없습니다"
 msgid "the page you requested does not exist"
 msgstr "요청하신 페이지가 존재하지 않습니다"
 
-#: r2/controllers/error.py:220 r2/controllers/listingcontroller.py:999 r2/templates/adminapps.html:51 r2/templates/banneduserinterstitial.html:35 r2/templates/intimeoutinterstitial.html:34 r2/templates/intimeoutinterstitial.html:40
+#: r2/controllers/error.py:220 r2/controllers/listingcontroller.py:1011 r2/templates/adminapps.html:51 r2/templates/banneduserinterstitial.html:35 r2/templates/intimeoutinterstitial.html:34 r2/templates/intimeoutinterstitial.html:40
 msgid "suspended"
 msgstr "정지됨"
 
-#: r2/controllers/front.py:247 r2/lib/pages/pages.py:6255
+#: r2/controllers/front.py:247 r2/lib/pages/pages.py:6260
 msgid "explore"
 msgstr "둘러보기"
 
@@ -570,7 +570,7 @@ msgstr "%d개 보기"
 msgid "create a vault"
 msgstr "볼트 만들기"
 
-#: r2/controllers/front.py:738 r2/controllers/front.py:744 r2/controllers/listingcontroller.py:801 r2/controllers/listingcontroller.py:816 r2/controllers/listingcontroller.py:1180 r2/controllers/listingcontroller.py:1191 r2/lib/menus.py:203 r2/lib/menus.py:453 r2/lib/menus.py:666 r2/lib/pages/pages.py:5142 r2/lib/pages/pages.py:5151 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
+#: r2/controllers/front.py:738 r2/controllers/front.py:744 r2/controllers/listingcontroller.py:813 r2/controllers/listingcontroller.py:828 r2/controllers/listingcontroller.py:1192 r2/controllers/listingcontroller.py:1203 r2/lib/menus.py:203 r2/lib/menus.py:453 r2/lib/menus.py:666 r2/lib/pages/pages.py:5147 r2/lib/pages/pages.py:5156 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
 msgid "all"
 msgstr "모두"
 
@@ -594,7 +594,7 @@ msgstr "게시물 및 댓글"
 msgid "posts"
 msgstr "글"
 
-#: r2/controllers/front.py:949 r2/controllers/listingcontroller.py:1783 r2/lib/pages/pages.py:5896 r2/templates/adminuser.html:37 r2/templates/createvault.html:288 r2/templates/link.xml:95
+#: r2/controllers/front.py:949 r2/controllers/listingcontroller.py:1795 r2/lib/pages/pages.py:5901 r2/templates/adminuser.html:37 r2/templates/createvault.html:288 r2/templates/link.xml:95
 msgid "comments"
 msgstr "댓글"
 
@@ -631,7 +631,7 @@ msgstr "다른 토론"
 msgid "search results"
 msgstr "검색 결과"
 
-#: r2/controllers/front.py:1309 r2/controllers/listingcontroller.py:1532 r2/lib/menus.py:95 r2/lib/menus.py:177 r2/templates/adminvault.html:23 r2/templates/adminvaults.html:22 r2/templates/pagenamenav.html:62 r2/templates/prefoptions.html:349 r2/templates/promotelinkbase.html:765
+#: r2/controllers/front.py:1309 r2/controllers/listingcontroller.py:1544 r2/lib/menus.py:95 r2/lib/menus.py:177 r2/templates/adminvault.html:23 r2/templates/adminvaults.html:22 r2/templates/pagenamenav.html:62 r2/templates/prefoptions.html:355 r2/templates/promotelinkbase.html:765
 msgid "vaults"
 msgstr "볼트"
 
@@ -689,11 +689,11 @@ msgstr "상 받기"
 msgid "gilding"
 msgstr "글라이딩"
 
-#: r2/controllers/front.py:1636 r2/controllers/front.py:1940 r2/controllers/front.py:1967 r2/controllers/front.py:2037 r2/controllers/front.py:2080 r2/lib/menus.py:94 r2/templates/contactus.html:117 r2/templates/contactus.html:119 r2/templates/creditgild.html:34 r2/templates/gold.html:30 r2/templates/goldabout.html:20 r2/templates/goldpayment.html:40 r2/templates/goldthanks.html:29 r2/templates/prefoptions.html:556
+#: r2/controllers/front.py:1636 r2/controllers/front.py:1940 r2/controllers/front.py:1967 r2/controllers/front.py:2037 r2/controllers/front.py:2080 r2/lib/menus.py:94 r2/templates/contactus.html:117 r2/templates/contactus.html:119 r2/templates/creditgild.html:34 r2/templates/gold.html:30 r2/templates/goldabout.html:20 r2/templates/goldpayment.html:40 r2/templates/goldthanks.html:29 r2/templates/prefoptions.html:562
 msgid "tippr gold"
 msgstr "tippr 골드"
 
-#: r2/controllers/front.py:1669 r2/public/static/js/enhancements.js:1084 r2/templates/adminemailsettings.html:73 r2/templates/admininterstitial.html:52 r2/templates/linkedloginlink.html:40 r2/templates/linkedloginlink.html:58 r2/templates/login.html:96 r2/templates/login.html:98 r2/templates/login.html:223 r2/templates/loginformwide.html:46 r2/templates/prefsecurity.html:130 r2/templates/prefsecurity.html:237 r2/templates/prefsecurity.html:270 r2/templates/privacysettings.html:128 r2/templates/register.html:96 r2/templates/register.html:98 r2/templates/register.html:223
+#: r2/controllers/front.py:1669 r2/public/static/js/enhancements.js:1084 r2/templates/adminemailsettings.html:73 r2/templates/admininterstitial.html:56 r2/templates/linkedloginlink.html:40 r2/templates/linkedloginlink.html:58 r2/templates/login.html:96 r2/templates/login.html:98 r2/templates/login.html:223 r2/templates/loginformwide.html:46 r2/templates/prefsecurity.html:130 r2/templates/prefsecurity.html:237 r2/templates/prefsecurity.html:270 r2/templates/privacysettings.html:128
 msgid "password"
 msgstr "비밀번호"
 
@@ -701,7 +701,7 @@ msgstr "비밀번호"
 msgid "verify email"
 msgstr "이메일 인증"
 
-#: r2/controllers/front.py:1737 r2/templates/login.html:125 r2/templates/loginformwide.html:53 r2/templates/register.html:125
+#: r2/controllers/front.py:1737 r2/templates/login.html:125 r2/templates/loginformwide.html:53
 msgid "reset password"
 msgstr "비밀번호 초기화하기"
 
@@ -713,7 +713,7 @@ msgstr "잘못된 메시지 토큰"
 msgid "emails unsubscribed"
 msgstr "이메일 구독취소됨"
 
-#: r2/controllers/front.py:1843 r2/lib/pages/pages.py:929 r2/templates/admininterstitial.html:79
+#: r2/controllers/front.py:1843 r2/lib/pages/pages.py:930 r2/templates/admininterstitial.html:83
 msgid "turn admin on"
 msgstr "관리자 사용"
 
@@ -733,7 +733,7 @@ msgstr "지금은 이 사이트에서 tippr 골드를 판매하지 않습니다.
 msgid "what gold gives you"
 msgstr "골드로 얻는 것"
 
-#: r2/controllers/front.py:2090 r2/templates/gold.html:57 r2/templates/gold.html:112 r2/templates/prefoptions.html:547
+#: r2/controllers/front.py:2090 r2/templates/gold.html:57 r2/templates/gold.html:112 r2/templates/prefoptions.html:553
 msgid "Give Gold"
 msgstr "골드 선물하기"
 
@@ -966,7 +966,7 @@ msgstr ""
 msgid "sign in"
 msgstr "로그인"
 
-#: r2/controllers/linked_logins.py:76 r2/controllers/linked_logins.py:98 r2/controllers/linked_logins.py:104 r2/controllers/linked_logins.py:185 r2/controllers/linked_logins.py:212 r2/controllers/linked_logins.py:331 r2/controllers/linked_logins.py:337 r2/templates/login.html:166 r2/templates/login.html:262 r2/templates/login.html:296 r2/templates/register.html:166 r2/templates/register.html:262 r2/templates/register.html:296
+#: r2/controllers/linked_logins.py:76 r2/controllers/linked_logins.py:98 r2/controllers/linked_logins.py:104 r2/controllers/linked_logins.py:185 r2/controllers/linked_logins.py:212 r2/controllers/linked_logins.py:331 r2/controllers/linked_logins.py:337 r2/templates/login.html:166 r2/templates/login.html:262 r2/templates/login.html:296
 msgid "log in"
 msgstr "로그인하기"
 
@@ -1008,143 +1008,143 @@ msgstr ""
 msgid "Too many wrong codes. Please start again."
 msgstr "틀린 코드가 너무 많습니다. 처음부터 다시 시작하세요."
 
-#: r2/controllers/listingcontroller.py:596
+#: r2/controllers/listingcontroller.py:608
 msgid "newest submissions"
 msgstr "최신 링크"
 
-#: r2/controllers/listingcontroller.py:624
+#: r2/controllers/listingcontroller.py:636
 msgid "rising submissions"
 msgstr "뜨는 게시물"
 
-#: r2/controllers/listingcontroller.py:677
+#: r2/controllers/listingcontroller.py:689
 msgid "top scoring links"
 msgstr "고득점 링크"
 
-#: r2/controllers/listingcontroller.py:681
+#: r2/controllers/listingcontroller.py:693
 msgid "most controversial links"
 msgstr "화제가 되는 링크"
 
-#: r2/controllers/listingcontroller.py:695
+#: r2/controllers/listingcontroller.py:707
 msgid "promoted links"
 msgstr "홍보 링크"
 
-#: r2/controllers/listingcontroller.py:699
+#: r2/controllers/listingcontroller.py:711
 #, python-format
 msgid "want to advertise? [click here!](%(link)s)"
 msgstr "광고를 하고 싶으신가요? [클릭하세요](%(link)s)"
 
-#: r2/controllers/listingcontroller.py:734
+#: r2/controllers/listingcontroller.py:746
 msgid "you're really bored now, eh?"
 msgstr "많이 심심한가 보시내요?"
 
-#: r2/controllers/listingcontroller.py:809
+#: r2/controllers/listingcontroller.py:821
 msgid "filter by vault"
 msgstr "볼트로 검색 결과 제한"
 
-#: r2/controllers/listingcontroller.py:823
+#: r2/controllers/listingcontroller.py:835
 msgid "filter by category"
 msgstr "분류에 따라 필터"
 
-#: r2/controllers/listingcontroller.py:829
+#: r2/controllers/listingcontroller.py:841
 msgid "gildings received"
 msgstr "받은 골드"
 
-#: r2/controllers/listingcontroller.py:830
+#: r2/controllers/listingcontroller.py:842
 msgid "gildings given"
 msgstr "준 골드"
 
-#: r2/controllers/listingcontroller.py:836
+#: r2/controllers/listingcontroller.py:848
 #, python-format
 msgid "overview for %(user)s"
 msgstr "%(user)s님의 활동 한 눈에 보기"
 
-#: r2/controllers/listingcontroller.py:837
+#: r2/controllers/listingcontroller.py:849
 #, python-format
 msgid "comments by %(user)s"
 msgstr "%(user)s님께서 남기신 댓글"
 
-#: r2/controllers/listingcontroller.py:838
+#: r2/controllers/listingcontroller.py:850
 #, python-format
 msgid "submitted by %(user)s"
 msgstr "%(user)s님께서 올리신 링크"
 
-#: r2/controllers/listingcontroller.py:839
+#: r2/controllers/listingcontroller.py:851
 #, python-format
 msgid "gilded by %(user)s"
 msgstr "%(user)s 에 의해 골드를 받음"
 
-#: r2/controllers/listingcontroller.py:840
+#: r2/controllers/listingcontroller.py:852
 #, python-format
 msgid "upvoted by %(user)s"
 msgstr "%(user)s 에 의해 추천됨"
 
-#: r2/controllers/listingcontroller.py:841
+#: r2/controllers/listingcontroller.py:853
 #, python-format
 msgid "downvoted by %(user)s"
 msgstr "%(user)s 에 의해 비추천됨"
 
-#: r2/controllers/listingcontroller.py:842
+#: r2/controllers/listingcontroller.py:854
 #, python-format
 msgid "saved by %(user)s"
 msgstr "%(user)s 에 의해 보관됨"
 
-#: r2/controllers/listingcontroller.py:843
+#: r2/controllers/listingcontroller.py:855
 #, python-format
 msgid "hidden by %(user)s"
 msgstr "%(user)s님께서 숨긴 링크"
 
-#: r2/controllers/listingcontroller.py:844
+#: r2/controllers/listingcontroller.py:856
 #, python-format
 msgid "promoted by %(user)s"
 msgstr "%(user)s님이 홍보"
 
-#: r2/controllers/listingcontroller.py:846
+#: r2/controllers/listingcontroller.py:858
 #, python-format
 msgid "gildings given by %(user)s"
 msgstr "%(user)s 에 의해 받은 금화들"
 
-#: r2/controllers/listingcontroller.py:848
+#: r2/controllers/listingcontroller.py:860
 #, python-format
 msgid "profile for %(user)s"
 msgstr "%(user)s님의 프로필"
 
-#: r2/controllers/listingcontroller.py:1009 r2/lib/menus.py:110 r2/templates/printablebuttons.html:591 r2/templates/printablebuttons.html:598
+#: r2/controllers/listingcontroller.py:1021 r2/lib/menus.py:110 r2/templates/printablebuttons.html:591 r2/templates/printablebuttons.html:598
 msgid "blocked"
 msgstr "차단됨"
 
-#: r2/controllers/listingcontroller.py:1181 r2/controllers/listingcontroller.py:1192 r2/templates/printablebuttons.html:618
+#: r2/controllers/listingcontroller.py:1193 r2/controllers/listingcontroller.py:1204 r2/templates/printablebuttons.html:618
 msgid "unread"
 msgstr "읽지 않음"
 
-#: r2/controllers/listingcontroller.py:1183
+#: r2/controllers/listingcontroller.py:1195
 msgid "comment replies"
 msgstr "댓글"
 
-#: r2/controllers/listingcontroller.py:1184
+#: r2/controllers/listingcontroller.py:1196
 msgid "post replies"
 msgstr "댓글 쓰기"
 
-#: r2/controllers/listingcontroller.py:1185
+#: r2/controllers/listingcontroller.py:1197
 msgid "username mentions"
 msgstr "아이디 언급"
 
-#: r2/controllers/listingcontroller.py:1199 r2/templates/tipprheader.html:119 r2/templates/tipprheader.html:124
+#: r2/controllers/listingcontroller.py:1211 r2/templates/tipprheader.html:119 r2/templates/tipprheader.html:124
 msgid "messages"
 msgstr "메세지"
 
-#: r2/controllers/listingcontroller.py:1678
+#: r2/controllers/listingcontroller.py:1690
 msgid "vaults: "
 msgstr "볼트: "
 
-#: r2/controllers/listingcontroller.py:1830
+#: r2/controllers/listingcontroller.py:1842
 msgid "To block a user click 'block user'  below a message from a user you wish to block from messaging you."
 msgstr "사용자를 차단하려면 원치 않는 사용자가 보낸 메시지 하단에 위치한 '사용자 차단' 버튼을 누르십시오."
 
-#: r2/controllers/listingcontroller.py:2093 r2/lib/menus.py:60
+#: r2/controllers/listingcontroller.py:2105 r2/lib/menus.py:60
 msgid "gilded"
 msgstr "골드"
 
-#: r2/controllers/listingcontroller.py:2109
+#: r2/controllers/listingcontroller.py:2121
 #, python-format
 msgid "gildings in this vault have paid for %(time)s of server time"
 msgstr "이 볼트의 골드 선물로 서버 시간 %(time)s을(를) 충당했습니다"
@@ -1256,15 +1256,15 @@ msgstr "광고"
 msgid "translating"
 msgstr "번역"
 
-#: r2/controllers/policies.py:71 r2/controllers/policies.py:89 r2/lib/menus.py:101 r2/lib/pages/pages.py:6384 r2/templates/contactus.html:92
+#: r2/controllers/policies.py:71 r2/controllers/policies.py:89 r2/lib/menus.py:101 r2/lib/pages/pages.py:6389 r2/templates/contactus.html:92
 msgid "user agreement"
 msgstr "사용자 이용약관"
 
-#: r2/controllers/policies.py:72 r2/controllers/policies.py:86 r2/lib/menus.py:102 r2/lib/pages/pages.py:6383 r2/templates/contactus.html:84 r2/templates/utils.html:543
+#: r2/controllers/policies.py:72 r2/controllers/policies.py:86 r2/lib/menus.py:102 r2/lib/pages/pages.py:6388 r2/templates/contactus.html:84 r2/templates/utils.html:543
 msgid "privacy policy"
 msgstr "개인정보 보호정책"
 
-#: r2/controllers/policies.py:73 r2/controllers/policies.py:92 r2/lib/menus.py:100 r2/lib/pages/pages.py:6385 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:193
+#: r2/controllers/policies.py:73 r2/controllers/policies.py:92 r2/lib/menus.py:100 r2/lib/pages/pages.py:6390 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:193
 msgid "content policy"
 msgstr "콘텐츠 정책"
 
@@ -1404,7 +1404,7 @@ msgstr "이미지를 선택하세요"
 msgid "too big. keep it under 500 KB"
 msgstr "너무 큽니다. 500KB 이하로 해 주세요"
 
-#: r2/controllers/tippr_base.py:1483 r2/lib/pages/pages.py:4671 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
+#: r2/controllers/tippr_base.py:1483 r2/lib/pages/pages.py:4676 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
 msgid "banned"
 msgstr "탈퇴당한 사용자입니다"
 
@@ -1707,7 +1707,7 @@ msgstr "해당 비밀번호가 옳지 않습니다"
 msgid "wrong password"
 msgstr "비밀번호가 틀립니다"
 
-#: r2/lib/errors.py:65 r2/public/static/js/login.js:378
+#: r2/lib/errors.py:65 r2/public/static/js/login.js:385
 msgid "passwords do not match"
 msgstr "입력하신 비밀번호가 일치하지 않습니다"
 
@@ -2759,7 +2759,7 @@ msgstr "스팸"
 msgid "autobanned"
 msgstr "자동차단됨"
 
-#: r2/lib/menus.py:82 r2/lib/pages/pages.py:1270 r2/lib/pages/pages.py:1294
+#: r2/lib/menus.py:82 r2/lib/pages/pages.py:1271 r2/lib/pages/pages.py:1295
 msgid "preferences"
 msgstr "사용자설정"
 
@@ -2852,7 +2852,7 @@ msgstr "보낸 메세지"
 msgid "comments {toolbar}"
 msgstr "댓글"
 
-#: r2/lib/menus.py:123 r2/templates/adminprivacy.html:27 r2/templates/prefoptions.html:496
+#: r2/lib/menus.py:123 r2/templates/adminprivacy.html:27 r2/templates/prefoptions.html:502
 msgid "details"
 msgstr "추가정보"
 
@@ -2873,7 +2873,7 @@ msgstr "스타일 시트"
 msgid "home"
 msgstr "홈"
 
-#: r2/lib/menus.py:130 r2/lib/pages/pages.py:1127
+#: r2/lib/menus.py:130 r2/lib/pages/pages.py:1128
 msgid "about"
 msgstr "에 대해"
 
@@ -2881,7 +2881,7 @@ msgstr "에 대해"
 msgid "edit subscriptions"
 msgstr "구독 수정"
 
-#: r2/lib/menus.py:132 r2/lib/pages/pages.py:2309
+#: r2/lib/menus.py:132 r2/lib/pages/pages.py:2314
 msgid "vault settings"
 msgstr "볼트 설정"
 
@@ -2889,11 +2889,11 @@ msgstr "볼트 설정"
 msgid "edit stylesheet"
 msgstr "스타일시트 편집"
 
-#: r2/lib/menus.py:134 r2/public/static/js/messagecompose.js:177
+#: r2/lib/menus.py:134 r2/public/static/js/messagecompose.js:192
 msgid "rules"
 msgstr "규칙"
 
-#: r2/lib/menus.py:135 r2/lib/pages/pages.py:880 r2/templates/adminvault.html:33 r2/templates/adminvault.html:101
+#: r2/lib/menus.py:135 r2/lib/pages/pages.py:881 r2/templates/adminvault.html:33 r2/templates/adminvault.html:101
 msgid "moderators"
 msgstr "운영자"
 
@@ -2969,7 +2969,7 @@ msgstr "인기"
 msgid "create"
 msgstr "만들기"
 
-#: r2/lib/menus.py:158 r2/lib/pages/pages.py:2934
+#: r2/lib/menus.py:158 r2/lib/pages/pages.py:2939
 msgid "my vaults"
 msgstr "나의 볼트들"
 
@@ -3031,11 +3031,11 @@ msgstr "스팸 방지"
 msgid "live config"
 msgstr "실시간 설정"
 
-#: r2/lib/menus.py:175 r2/lib/pages/pages.py:938 r2/templates/adminsupport.html:34
+#: r2/lib/menus.py:175 r2/lib/pages/pages.py:939 r2/templates/adminsupport.html:34
 msgid "support"
 msgstr "지원"
 
-#: r2/lib/menus.py:176 r2/templates/adminuser.html:24 r2/templates/adminusers.html:22 r2/templates/prefoptions.html:350
+#: r2/lib/menus.py:176 r2/templates/adminuser.html:24 r2/templates/adminusers.html:22 r2/templates/prefoptions.html:356
 msgid "users"
 msgstr "사용자"
 
@@ -3047,7 +3047,7 @@ msgstr "API 앱"
 msgid "feeds"
 msgstr "피드"
 
-#: r2/lib/menus.py:180 r2/templates/admindomain.html:22 r2/templates/admindomains.html:22 r2/templates/prefoptions.html:348
+#: r2/lib/menus.py:180 r2/templates/admindomain.html:22 r2/templates/admindomains.html:22 r2/templates/prefoptions.html:354
 msgid "domains"
 msgstr "도메인"
 
@@ -3666,7 +3666,7 @@ msgid "link"
 msgid_plural "links"
 msgstr[0] "링크"
 
-#: r2/lib/pages/pages.py:1523 r2/lib/strings.py:263 r2/templates/messagecompose.html:101
+#: r2/lib/pages/pages.py:1524 r2/lib/strings.py:263 r2/templates/messagecompose.html:101
 msgid "message"
 msgid_plural "messages"
 msgstr[0] "메세지"
@@ -3726,7 +3726,7 @@ msgid "hour"
 msgid_plural "hours"
 msgstr[0] "시간"
 
-#: r2/lib/pages/pages.py:346 r2/lib/pages/pages.py:5696 r2/lib/strings.py:279 r2/public/static/js/sponsored.js:1477 r2/public/static/js/sponsored.js:1838 r2/templates/intimeoutinterstitial.html:44 r2/templates/tipprtraffic.html:104
+#: r2/lib/pages/pages.py:347 r2/lib/pages/pages.py:5701 r2/lib/strings.py:279 r2/public/static/js/sponsored.js:1484 r2/public/static/js/sponsored.js:1851 r2/templates/intimeoutinterstitial.html:44 r2/templates/tipprtraffic.html:104
 msgid "day"
 msgid_plural "days"
 msgstr[0] "일"
@@ -4061,7 +4061,7 @@ msgstr "/v/%(tippr)s의 관리자, 공식적인 발언입니다"
 msgid "%(user)s just celebrated a tippr birthday!"
 msgstr "%(user)s 가 tippr 생일을 맞았습니다!"
 
-#: r2/lib/pages/pages.py:1340 r2/lib/template_helpers.py:771 r2/public/static/js/timetext.js:68
+#: r2/lib/pages/pages.py:1341 r2/lib/template_helpers.py:771 r2/public/static/js/timetext.js:68
 msgid "just now"
 msgstr "방금 전"
 
@@ -4093,481 +4093,481 @@ msgstr "IP 주소"
 msgid "user"
 msgstr "사용자"
 
-#: r2/lib/pages/pages.py:178
+#: r2/lib/pages/pages.py:179
 #, python-format
 msgid "%d %b %Y"
 msgstr "%Y년 %b월 %d일"
 
-#: r2/lib/pages/pages.py:338
+#: r2/lib/pages/pages.py:339
 msgid "This site asks moderators and staff to use two-factor sign-in. Turn it on under [preferences, security](/prefs/security) to use your moderator tools."
 msgstr "이 사이트는 운영자와 직원에게 2단계 로그인을 요청합니다. 운영 도구를 쓰려면 [사용자설정, 보안](/prefs/security)에서 켜세요."
 
-#: r2/lib/pages/pages.py:521
+#: r2/lib/pages/pages.py:522
 msgid "wiki tools"
 msgstr "위키 도구"
 
-#: r2/lib/pages/pages.py:647
+#: r2/lib/pages/pages.py:648
 msgid "moderation tools"
 msgstr "운영자 도구"
 
-#: r2/lib/pages/pages.py:715
+#: r2/lib/pages/pages.py:716
 msgid "these vaults"
 msgstr "이 볼트들"
 
-#: r2/lib/pages/pages.py:729
+#: r2/lib/pages/pages.py:730
 msgid "this vault is archived and no longer accepting submissions."
 msgstr "이 볼트는 보관되어 더 이상 게시물을 받지 않습니다."
 
-#: r2/lib/pages/pages.py:731
+#: r2/lib/pages/pages.py:732
 msgid "Submissions disabled"
 msgstr "등록이 비활성화됨"
 
-#: r2/lib/pages/pages.py:738
+#: r2/lib/pages/pages.py:739
 msgid "Only approved users may post in this community."
 msgstr "승인된 사용자만 이 커뮤니티에 게시할 수 있습니다."
 
-#: r2/lib/pages/pages.py:741
+#: r2/lib/pages/pages.py:742
 msgid "Anyone can view or comment, but only Tippr Gold members can post in this community."
 msgstr "누구나 보거나 댓글을 달 수 있지만, 이 커뮤니티에 게시할 수 있는 사람은 Tippr 골드 회원뿐입니다."
 
-#: r2/lib/pages/pages.py:744
+#: r2/lib/pages/pages.py:745
 msgid "Submissions restricted"
 msgstr "등록이 제한됨"
 
-#: r2/lib/pages/pages.py:832
+#: r2/lib/pages/pages.py:833
 msgid "Create your own vault"
 msgstr "볼트 만들기"
 
-#: r2/lib/pages/pages.py:856
+#: r2/lib/pages/pages.py:857
 #, python-format
 msgid "...and %d more"
 msgstr "...그리고 %d개 더"
 
-#: r2/lib/pages/pages.py:858
+#: r2/lib/pages/pages.py:859
 msgid "about moderation team"
 msgstr "관리 팀에 대하여"
 
-#: r2/lib/pages/pages.py:863 r2/templates/contactus.html:60
+#: r2/lib/pages/pages.py:864 r2/templates/contactus.html:60
 msgid "message the admins"
 msgstr "운영자들에게 메시지 보내기"
 
-#: r2/lib/pages/pages.py:865 r2/templates/privateinterstitial.html:50
+#: r2/lib/pages/pages.py:866 r2/templates/privateinterstitial.html:50
 msgid "message the moderators"
 msgstr "관리자들에게 메시지 보내기"
 
-#: r2/lib/pages/pages.py:892
+#: r2/lib/pages/pages.py:893
 msgid "Recently viewed links"
 msgstr "최근 본 링크"
 
-#: r2/lib/pages/pages.py:922
+#: r2/lib/pages/pages.py:923
 msgid "turn admin off"
 msgstr "관리자 사용안함"
 
-#: r2/lib/pages/pages.py:1144
+#: r2/lib/pages/pages.py:1145
 msgid "<3"
 msgstr "<3"
 
-#: r2/lib/pages/pages.py:1341 r2/templates/adminserverstatus.html:142
+#: r2/lib/pages/pages.py:1342 r2/templates/adminserverstatus.html:142
 #, python-format
 msgid "%(time)s ago"
 msgstr "%(time)s 전"
 
-#: r2/lib/pages/pages.py:1520
+#: r2/lib/pages/pages.py:1521
 #, python-format
 msgid "%(site)s mail"
 msgstr "%(site)s 메일"
 
-#: r2/lib/pages/pages.py:1597
+#: r2/lib/pages/pages.py:1598
 msgid "sign up or log in"
 msgstr "가입 또는 로그인"
 
-#: r2/lib/pages/pages.py:1678
+#: r2/lib/pages/pages.py:1679
 msgid "request for permission"
 msgstr "권한 요청"
 
-#: r2/lib/pages/pages.py:1680
+#: r2/lib/pages/pages.py:1681
 msgid "permission"
 msgstr "허가"
 
-#: r2/lib/pages/pages.py:1715 r2/templates/searchform.html:77
+#: r2/lib/pages/pages.py:1716 r2/templates/searchform.html:77
 msgid "enable NSFW results"
 msgstr "청소년 이용불가 컨텐츠 보기"
 
-#: r2/lib/pages/pages.py:1738
+#: r2/lib/pages/pages.py:1739
 msgid "bummer"
 msgstr "이런"
 
-#: r2/lib/pages/pages.py:1750
+#: r2/lib/pages/pages.py:1751
 msgid "this page is no longer available due to a copyright claim."
 msgstr "저작권 주장 때문에 더 이상 볼 수 없는 페이지입니다."
 
-#: r2/lib/pages/pages.py:1990
+#: r2/lib/pages/pages.py:1992
 msgid "comments disabled"
 msgstr "댓글 비활성화됨"
 
-#: r2/lib/pages/pages.py:2310
+#: r2/lib/pages/pages.py:2315
 #, python-format
 msgid "about %(site)s"
 msgstr "%(site)s에 대하여"
 
-#: r2/lib/pages/pages.py:2333
+#: r2/lib/pages/pages.py:2338
 msgid "search vaults by name"
 msgstr "이름으로 볼트 찾기"
 
-#: r2/lib/pages/pages.py:2377
+#: r2/lib/pages/pages.py:2382
 #, python-format
 msgid "your front page vaults (%s)"
 msgstr "첫 페이지 볼트(%s)"
 
-#: r2/lib/pages/pages.py:2465 r2/templates/createvault.html:460 r2/templates/spotlightlisting.html:63
+#: r2/lib/pages/pages.py:2470 r2/templates/createvault.html:460 r2/templates/spotlightlisting.html:63
 msgid "what's this?"
 msgstr "이건 뭐죠?"
 
-#: r2/lib/pages/pages.py:2466
+#: r2/lib/pages/pages.py:2471
 msgid "trophy case"
 msgstr "트로피 케이스"
 
-#: r2/lib/pages/pages.py:2476
+#: r2/lib/pages/pages.py:2481
 msgid "public multivaults"
 msgstr "공용 멀티볼트"
 
-#: r2/lib/pages/pages.py:2483
+#: r2/lib/pages/pages.py:2488
 msgid "hidden multivaults"
 msgstr "숨겨진 멀티볼트"
 
-#: r2/lib/pages/pages.py:2504
+#: r2/lib/pages/pages.py:2509
 msgid "moderator of"
 msgstr "관리자"
 
-#: r2/lib/pages/pages.py:2568
+#: r2/lib/pages/pages.py:2573
 msgid "less than a day"
 msgstr "하루도 안됀"
 
-#: r2/lib/pages/pages.py:2581
+#: r2/lib/pages/pages.py:2586
 #, python-format
 msgid "Give Gold: %(coins)s month"
 msgid_plural "Give Gold: %(coins)s months"
 msgstr[0] "골드 선물하기: %(coins)s개월"
 
-#: r2/lib/pages/pages.py:2589
+#: r2/lib/pages/pages.py:2594
 #, python-format
 msgid "%(gildings)s gilding given out"
 msgid_plural "%(gildings)s gildings given out"
 msgstr[0] "골드 선물 %(gildings)s회"
 
-#: r2/lib/pages/pages.py:2597
+#: r2/lib/pages/pages.py:2602
 #, python-format
 msgid "give tippr gold to %(user)s to show your appreciation"
 msgstr "%(user)s에게 tippr 골드 주기"
 
-#: r2/lib/pages/pages.py:2601
+#: r2/lib/pages/pages.py:2606
 msgid "get extra features and help support tippr with a tippr gold subscription"
 msgstr "tippr 골드 구독으로 추가 기능을 이용하고 tippr를 후원하세요"
 
-#: r2/lib/pages/pages.py:2605
+#: r2/lib/pages/pages.py:2610
 msgid "renew your tippr gold"
 msgstr "tippr 골드 갱신"
 
-#: r2/lib/pages/pages.py:2615
+#: r2/lib/pages/pages.py:2620
 #, python-format
 msgid "you have helped pay for *%(time)s* of tippr server time."
 msgstr "내가 tippr 서버 시간 *%(time)s*의 비용을 함께 냈습니다."
 
-#: r2/lib/pages/pages.py:2616
+#: r2/lib/pages/pages.py:2621
 #, python-format
 msgid "/u/%(user)s has helped pay for *%%(time)s* of tippr server time."
 msgstr "/u/%(user)s님이 tippr 서버 시간 *%%(time)s*의 비용을 함께 냈습니다."
 
-#: r2/lib/pages/pages.py:2619
+#: r2/lib/pages/pages.py:2624
 #, python-format
 msgid "gifts on your behalf have helped pay for *%(time)s* of tippr server time."
 msgstr "나를 대신해 보낸 선물이 tippr 서버 시간 *%(time)s*의 비용을 함께 냈습니다."
 
-#: r2/lib/pages/pages.py:2621
+#: r2/lib/pages/pages.py:2626
 #, python-format
 msgid "gifts on behalf of /u/%(user)s have helped pay for *%%(time)s* of tippr server time."
 msgstr "/u/%(user)s님을 대신해 보낸 선물이 tippr 서버 시간 *%%(time)s*의 비용을 함께 냈습니다."
 
-#: r2/lib/pages/pages.py:2705
+#: r2/lib/pages/pages.py:2710
 msgid "tippr is a platform for internet communities"
 msgstr "tippr는 인터넷 커뮤니티를 위한 플랫폼입니다."
 
-#: r2/lib/pages/pages.py:2706
+#: r2/lib/pages/pages.py:2711
 msgid "where your votes shape what the world is talking about."
 msgstr "여러분들이 투표를 통해 세상의 화두를 이끌어갈 수 있는 곳입니다."
 
-#: r2/lib/pages/pages.py:3005 r2/lib/pages/pages.py:3115
+#: r2/lib/pages/pages.py:3010 r2/lib/pages/pages.py:3120
 msgid "add vault"
 msgstr "볼트 추가"
 
-#: r2/lib/pages/pages.py:3043
+#: r2/lib/pages/pages.py:3048
 #, python-format
 msgid "raise it to %s"
 msgstr "%s로 올리기"
 
-#: r2/lib/pages/pages.py:3045 r2/lib/pages/pages.py:3054
+#: r2/lib/pages/pages.py:3050 r2/lib/pages/pages.py:3059
 #, python-format
 msgid "%s visible"
 msgstr "%s 보임"
 
-#: r2/lib/pages/pages.py:3052
+#: r2/lib/pages/pages.py:3057
 #, python-format
 msgid "%(bonus)s bonus vaults"
 msgstr "보너스 볼트 %(bonus)s개"
 
-#: r2/lib/pages/pages.py:3422
+#: r2/lib/pages/pages.py:3427
 #, python-format
 msgid "you have a credit card gold subscription. your card (ending in %(last4)s) will be charged %(amount)s on %(date)s."
 msgstr "신용카드로 골드를 구독하고 있습니다. 당신의 카드 (%(last4)s에 만료)는 %(date)s에 %(amount)s 만큼을 청구할 것입니다."
 
-#: r2/lib/pages/pages.py:3576
+#: r2/lib/pages/pages.py:3581
 msgid "try entering those letters again"
 msgstr "이 글자를 다시 입력하세요"
 
-#: r2/lib/pages/pages.py:3655 r2/lib/pages/pages.py:6376 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
+#: r2/lib/pages/pages.py:3660 r2/lib/pages/pages.py:6381 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
 msgid "search"
 msgstr "검색"
 
-#: r2/lib/pages/pages.py:4299
+#: r2/lib/pages/pages.py:4304
 #, python-format
 msgid "not heard from for %(time)s"
 msgstr "%(time)s 동안 소식 없음"
 
-#: r2/lib/pages/pages.py:4305
+#: r2/lib/pages/pages.py:4310
 #, python-format
 msgid "memory %(p)s%% used"
 msgstr "메모리 %(p)s%% 사용"
 
-#: r2/lib/pages/pages.py:4309
+#: r2/lib/pages/pages.py:4314
 #, python-format
 msgid "busy: load %(l)s on %(n)s CPUs"
 msgstr "바쁨: CPU %(n)s개에서 부하 %(l)s"
 
-#: r2/lib/pages/pages.py:4315
+#: r2/lib/pages/pages.py:4320
 #, python-format
 msgid "disk %(path)s %(p)s%% full"
 msgstr "디스크 %(path)s %(p)s%% 참"
 
-#: r2/lib/pages/pages.py:4319
+#: r2/lib/pages/pages.py:4324
 #, python-format
 msgid "%(service)s is %(state)s"
 msgstr "%(service)s: %(state)s"
 
-#: r2/lib/pages/pages.py:4322
+#: r2/lib/pages/pages.py:4327
 msgid "a different version from the others"
 msgstr "다른 서버와 버전이 다릅니다"
 
-#: r2/lib/pages/pages.py:4324
+#: r2/lib/pages/pages.py:4329
 msgid "another server has the same name: set TIPPR_SERVER_NAME on one of them"
 msgstr "같은 이름의 서버가 있습니다. 한쪽에 TIPPR_SERVER_NAME을 설정하세요"
 
-#: r2/lib/pages/pages.py:4379
+#: r2/lib/pages/pages.py:4384
 #, python-format
 msgid "%(n)s seconds"
 msgstr "%(n)s초"
 
-#: r2/lib/pages/pages.py:4381
+#: r2/lib/pages/pages.py:4386
 #, python-format
 msgid "%(n)s minutes"
 msgstr "%(n)s분"
 
-#: r2/lib/pages/pages.py:4383
+#: r2/lib/pages/pages.py:4388
 #, python-format
 msgid "%(n)s hours"
 msgstr "%(n)s시간"
 
-#: r2/lib/pages/pages.py:4384
+#: r2/lib/pages/pages.py:4389
 #, python-format
 msgid "%(n)s days"
 msgstr "%(n)s일"
 
-#: r2/lib/pages/pages.py:4400
+#: r2/lib/pages/pages.py:4405
 msgid "polling"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4406
+#: r2/lib/pages/pages.py:4411
 msgid "off (no event collector)"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4612 r2/lib/pages/pages.py:4721
+#: r2/lib/pages/pages.py:4617 r2/lib/pages/pages.py:4726
 msgid "added"
 msgstr "추가했습니다"
 
-#: r2/lib/pages/pages.py:4680 r2/models/modaction.py:146 r2/templates/printablebuttons.html:608
+#: r2/lib/pages/pages.py:4685 r2/models/modaction.py:146 r2/templates/printablebuttons.html:608
 msgid "muted"
 msgstr "음소거됨"
 
-#: r2/lib/pages/pages.py:4698
+#: r2/lib/pages/pages.py:4703
 msgid "invited"
 msgstr "초대됨"
 
-#: r2/lib/pages/pages.py:4759
+#: r2/lib/pages/pages.py:4764
 msgid "grant flair"
 msgstr "플레어 주기"
 
-#: r2/lib/pages/pages.py:4761
+#: r2/lib/pages/pages.py:4766
 msgid "user flair templates"
 msgstr "사용자 플레어 템플릿"
 
-#: r2/lib/pages/pages.py:4763
+#: r2/lib/pages/pages.py:4768
 msgid "link flair templates"
 msgstr "링크 플레어 템플릿"
 
-#: r2/lib/pages/pages.py:5135 r2/templates/adminuser.html:73 r2/templates/adminuser.html:98 r2/templates/adminuser.html:108 r2/templates/flairpane.html:79
+#: r2/lib/pages/pages.py:5140 r2/templates/adminuser.html:73 r2/templates/adminuser.html:98 r2/templates/adminuser.html:108 r2/templates/flairpane.html:79
 msgid "none"
 msgstr "없음"
 
-#: r2/lib/pages/pages.py:5266
+#: r2/lib/pages/pages.py:5271
 msgid "suggestions:"
 msgstr "제안:"
 
-#: r2/lib/pages/pages.py:5270
+#: r2/lib/pages/pages.py:5275
 #, python-format
 msgid "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/v/selfserve](%(selfserve)s)."
 msgstr "이 페이지에서 광고를 만드세요. 궁금한 점이 있으신가요? [도움말 센터](%(help_center)s)나 [/v/selfserve](%(selfserve)s)를 확인하세요."
 
-#: r2/lib/pages/pages.py:5888
+#: r2/lib/pages/pages.py:5893
 msgid "start date"
 msgstr "시작일"
 
-#: r2/lib/pages/pages.py:5889
+#: r2/lib/pages/pages.py:5894
 msgid "end date"
 msgstr "종료일"
 
-#: r2/lib/pages/pages.py:5891 r2/templates/createvault.html:266
+#: r2/lib/pages/pages.py:5896 r2/templates/createvault.html:266
 msgid "links"
 msgstr "링크"
 
-#: r2/lib/pages/pages.py:5893 r2/lib/pages/pages.py:5912 r2/templates/adminpaymentsettings.html:239 r2/templates/promotedlinktraffic.html:42 r2/templates/timeserieschart.html:40
+#: r2/lib/pages/pages.py:5898 r2/lib/pages/pages.py:5917 r2/templates/adminpaymentsettings.html:239 r2/templates/promotedlinktraffic.html:42 r2/templates/timeserieschart.html:40
 msgid "date"
 msgstr "날자"
 
-#: r2/lib/pages/pages.py:5896 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
+#: r2/lib/pages/pages.py:5901 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
 msgid "id"
 msgstr "아이디"
 
-#: r2/lib/pages/pages.py:5896 r2/lib/pages/pages.py:5915 r2/templates/promotelinkbase.html:856
+#: r2/lib/pages/pages.py:5901 r2/lib/pages/pages.py:5920 r2/templates/promotelinkbase.html:856
 msgid "owner"
 msgstr "소유자"
 
-#: r2/lib/pages/pages.py:5896 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
+#: r2/lib/pages/pages.py:5901 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
 msgid "url"
 msgstr "URL"
 
-#: r2/lib/pages/pages.py:5897
+#: r2/lib/pages/pages.py:5902
 msgid "upvotes"
 msgstr "추천"
 
-#: r2/lib/pages/pages.py:5897
+#: r2/lib/pages/pages.py:5902
 msgid "downvotes"
 msgstr "비추천"
 
-#: r2/lib/pages/pages.py:5897 r2/lib/pages/trafficpages.py:351 r2/lib/pages/trafficpages.py:847 r2/templates/promotedlinktraffic.html:44 r2/templates/promotedlinktraffic.html:124
+#: r2/lib/pages/pages.py:5902 r2/lib/pages/trafficpages.py:351 r2/lib/pages/trafficpages.py:847 r2/templates/promotedlinktraffic.html:44 r2/templates/promotedlinktraffic.html:124
 msgid "clicks"
 msgstr "클릭수"
 
-#: r2/lib/pages/pages.py:5897 r2/lib/pages/trafficpages.py:348 r2/lib/pages/trafficpages.py:472 r2/lib/pages/trafficpages.py:846 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
+#: r2/lib/pages/pages.py:5902 r2/lib/pages/trafficpages.py:348 r2/lib/pages/trafficpages.py:472 r2/lib/pages/trafficpages.py:846 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
 msgid "impressions"
 msgstr "노출 수"
 
-#: r2/lib/pages/pages.py:5910
+#: r2/lib/pages/pages.py:5915
 msgid "campaigns"
 msgstr "캠페인"
 
-#: r2/lib/pages/pages.py:5915
+#: r2/lib/pages/pages.py:5920
 msgid "link id"
 msgstr "링크 번호"
 
-#: r2/lib/pages/pages.py:5915
+#: r2/lib/pages/pages.py:5920
 msgid "campaign id"
 msgstr "광고 번호"
 
-#: r2/lib/pages/pages.py:5915 r2/templates/promotedlinktraffic.html:117 r2/templates/refundpage.html:56
+#: r2/lib/pages/pages.py:5920 r2/templates/promotedlinktraffic.html:117 r2/templates/refundpage.html:56
 msgid "target"
 msgstr "타겟"
 
-#: r2/lib/pages/pages.py:5916 r2/templates/promotelinkedit.html:157
+#: r2/lib/pages/pages.py:5921 r2/templates/promotelinkedit.html:157
 msgid "bid"
 msgstr "입찰"
 
-#: r2/lib/pages/pages.py:5916
+#: r2/lib/pages/pages.py:5921
 msgid "frontpage clicks"
 msgstr "대문 클릭수"
 
-#: r2/lib/pages/pages.py:5916
+#: r2/lib/pages/pages.py:5921
 msgid "frontpage impressions"
 msgstr "대문에 대한 인상"
 
-#: r2/lib/pages/pages.py:5917
+#: r2/lib/pages/pages.py:5922
 msgid "vault clicks"
 msgstr "볼트 클릭수"
 
-#: r2/lib/pages/pages.py:5917
+#: r2/lib/pages/pages.py:5922
 msgid "vault impressions"
 msgstr "볼트에 대한 인상"
 
-#: r2/lib/pages/pages.py:5918 r2/lib/pages/trafficpages.py:478
+#: r2/lib/pages/pages.py:5923 r2/lib/pages/trafficpages.py:478
 msgid "total clicks"
 msgstr "총 클릭수"
 
-#: r2/lib/pages/pages.py:5918
+#: r2/lib/pages/pages.py:5923
 msgid "total impressions"
 msgstr "종합적 인상"
 
-#: r2/lib/pages/pages.py:6121 r2/templates/accountactivitybox.html:27
+#: r2/lib/pages/pages.py:6126 r2/templates/accountactivitybox.html:27
 msgid "account activity"
 msgstr "계정 활동"
 
-#: r2/lib/pages/pages.py:6253
+#: r2/lib/pages/pages.py:6258
 msgid "subscribed"
 msgstr "구독된"
 
-#: r2/lib/pages/pages.py:6254 r2/templates/preffeeds.html:58
+#: r2/lib/pages/pages.py:6259 r2/templates/preffeeds.html:58
 msgid "your front page"
 msgstr "당신의 대문"
 
-#: r2/lib/pages/pages.py:6257 r2/lib/pages/pages.py:6262 r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:104
+#: r2/lib/pages/pages.py:6262 r2/lib/pages/pages.py:6267 r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:104
 msgid "everything"
 msgstr "모든것"
 
-#: r2/lib/pages/pages.py:6260 r2/lib/pages/pages.py:6263
+#: r2/lib/pages/pages.py:6265 r2/lib/pages/pages.py:6268
 msgid "from all vaults"
 msgstr "모든 볼트에서"
 
-#: r2/lib/pages/pages.py:6265
+#: r2/lib/pages/pages.py:6270
 msgid "moderating"
 msgstr "관리하는"
 
-#: r2/lib/pages/pages.py:6266
+#: r2/lib/pages/pages.py:6271
 msgid "vaults you mod"
 msgstr "관리 중인 볼트"
 
-#: r2/lib/pages/pages.py:6272
+#: r2/lib/pages/pages.py:6277
 msgid "gold perks"
 msgstr "골드 perks"
 
-#: r2/lib/pages/pages.py:6288
+#: r2/lib/pages/pages.py:6293
 msgid "explore multis"
 msgstr "멀티 탐색하기"
 
-#: r2/lib/pages/pages.py:6374
+#: r2/lib/pages/pages.py:6379
 msgid "faq"
 msgstr "FAQ"
 
-#: r2/lib/pages/pages.py:6375 r2/templates/usertext.html:121
+#: r2/lib/pages/pages.py:6380 r2/templates/usertext.html:121
 msgid "formatting"
 msgstr "서식"
 
-#: r2/lib/pages/pages.py:6444
+#: r2/lib/pages/pages.py:6449
 msgid "your subscribed vaults"
 msgstr "당신이 구독한 볼트"
 
-#: r2/lib/pages/pages.py:6557
+#: r2/lib/pages/pages.py:6562
 #, python-format
 msgid "this promoted link uses city level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "이 광고 링크는 도시 단위 타기팅을 사용하므로 위치 때문에 표시되었을 수 있습니다. ([자세히 알아보기](%(link)s))"
 
-#: r2/lib/pages/pages.py:6561
+#: r2/lib/pages/pages.py:6566
 #, python-format
 msgid "this promoted link uses country level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "이 광고 링크는 국가 단위 타기팅을 사용하므로 위치 때문에 표시되었을 수 있습니다. ([자세히 알아보기](%(link)s))"
@@ -4883,7 +4883,7 @@ msgstr "존재하는 페이지의 이름 또는 새로운 페이지 만들기"
 msgid "the starting point revision for this edit"
 msgstr "이 편집의 시작점이 되는 리비전"
 
-#: r2/models/admintools.py:291
+#: r2/models/admintools.py:301
 #, python-format
 msgid ""
 "[Click here for details on how to set up an automatically-renewing subscription or to renew.](/gold) If you have any thoughts, complaints, rants, suggestions about tippr gold, please contact us at %(gold_email)s. Your feedback would be much appreciated.\n"
@@ -4894,32 +4894,32 @@ msgstr ""
 "\n"
 "후원해 주셔서 감사합니다."
 
-#: r2/models/admintools.py:312
+#: r2/models/admintools.py:322
 msgid "Your tippr gold subscription has expired."
 msgstr "당신의 tippr 골드 구독기간이 만료되었습니다."
 
-#: r2/models/admintools.py:313
+#: r2/models/admintools.py:323
 msgid "Your subscription to tippr gold has expired."
 msgstr "당신의 tippr 골드 구독기간이 만료되었습니다."
 
-#: r2/models/admintools.py:325
+#: r2/models/admintools.py:335
 msgid "Your tippr gold subscription is about to expire!"
 msgstr "당신의 tippr 골드 구독기간이 곧 만료됩니다!"
 
-#: r2/models/admintools.py:327
+#: r2/models/admintools.py:337
 msgid "Your subscription to tippr gold will be expiring soon."
 msgstr "당신 tippr 골드 구독기간이 곧 완료됩니다."
 
-#: r2/models/builder.py:308
+#: r2/models/builder.py:307
 msgid "a moderator"
 msgstr "관리자"
 
-#: r2/models/builder.py:311
+#: r2/models/builder.py:310
 #, python-format
 msgid "approved by %(who)s at %(when)s"
 msgstr "%(who)s님이 %(when)s에 승인함"
 
-#: r2/models/builder.py:315
+#: r2/models/builder.py:314
 #, python-format
 msgid "approved by %s"
 msgstr "%s에게 승인됨"
@@ -4964,130 +4964,130 @@ msgid "a user has gifted tippr gold to %(recipient)s for this submission."
 msgid_plural "tippr users have gifted %(months)d months of tippr gold to %(recipient)s for this submission."
 msgstr[0] "tippr 사용자들이 이 게시물에 대해 %(recipient)s님에게 tippr 골드 %(months)d개월을 선물했습니다."
 
-#: r2/models/link.py:916
+#: r2/models/link.py:926
 #, python-format
 msgid "by %(author)s to %(tippr)s"
 msgstr "%(author)s가 %(tippr)s로"
 
-#: r2/models/link.py:919 r2/templates/adminnotessidebar.html:50
+#: r2/models/link.py:929 r2/templates/adminnotessidebar.html:50
 #, python-format
 msgid "by %(author)s"
 msgstr "%(author)s가"
 
-#: r2/models/link.py:923
+#: r2/models/link.py:933
 #, python-format
 msgid "%(score)s submitted %(when)s %(lastedited)s"
 msgstr "%(score)s %(when)s 제출 %(lastedited)s"
 
-#: r2/models/link.py:927
+#: r2/models/link.py:937
 #, python-format
 msgid "submitted %(when)s %(lastedited)s by %(author)s to %(tippr)s"
 msgstr "%(author)s님이 %(when)s에 %(tippr)s에 제출 %(lastedited)s"
 
-#: r2/models/link.py:930
+#: r2/models/link.py:940
 #, python-format
 msgid "submitted %(when)s %(lastedited)s by %(author)s"
 msgstr "%(author)s님이 %(when)s에 제출 %(lastedited)s"
 
-#: r2/models/link.py:935
+#: r2/models/link.py:945
 #, python-format
 msgid "%(score)s submitted %(when)s"
 msgstr "%(score)s %(when)s 제출"
 
-#: r2/models/link.py:938
+#: r2/models/link.py:948
 #, python-format
 msgid "submitted %(when)s by %(author)s to %(tippr)s"
 msgstr "%(when)s 전 %(author)s님이 %(tippr)s에 등록함"
 
-#: r2/models/link.py:941
+#: r2/models/link.py:951
 #, python-format
 msgid "submitted %(when)s by %(author)s"
 msgstr "%(author)s님이 %(when)s에 제출"
 
-#: r2/models/link.py:1809
+#: r2/models/link.py:1841
 #, python-format
 msgid "%(link)s by %(author)s [sponsored link]"
 msgstr "%(author)s님의 %(link)s [스폰서 링크]"
 
-#: r2/models/link.py:1811
+#: r2/models/link.py:1843
 #, python-format
 msgid "%(link)s by %(author)s in %(vault)s"
 msgstr "%(vault)s의 %(link)s, 작성자 %(author)s"
 
-#: r2/models/link.py:1838
+#: r2/models/link.py:1870
 msgid "comment score below threshold"
 msgstr "설정하신 최소 댓글 점수에 못 미쳐 숨긴 글"
 
-#: r2/models/link.py:1843
+#: r2/models/link.py:1875
 msgid "blocked user"
 msgstr "차단된 사용자"
 
-#: r2/models/link.py:2372
+#: r2/models/link.py:2404
 msgid "comment reply"
 msgstr "덧글 답변"
 
-#: r2/models/link.py:2374
+#: r2/models/link.py:2406
 msgid "post reply"
 msgstr "답변 등록"
 
-#: r2/models/link.py:2376
+#: r2/models/link.py:2408
 msgid "username mention"
 msgstr "아이디 언급"
 
-#: r2/models/link.py:2380 r2/models/link.py:2441
+#: r2/models/link.py:2412 r2/models/link.py:2473
 #, python-format
 msgid "from %(author)s via %(vault)s sent %(when)s"
 msgstr "%(author)s님이 %(vault)s을(를) 통해 %(when)s에 보냄"
 
-#: r2/models/link.py:2393
+#: r2/models/link.py:2425
 msgid "[message from blocked vault]"
 msgstr "[차단한 볼트에서 온 메시지]"
 
-#: r2/models/link.py:2414 r2/models/link.py:2419
+#: r2/models/link.py:2446 r2/models/link.py:2451
 #, python-format
 msgid "vault message via %(vault)s sent %(when)s"
 msgstr "%(vault)s의 볼트 메시지, %(when)s에 보냄"
 
-#: r2/models/link.py:2423 r2/models/link.py:2446
+#: r2/models/link.py:2455 r2/models/link.py:2478
 #, python-format
 msgid "to %(dest)s via %(vault)s sent %(when)s"
 msgstr "%(vault)s을(를) 통해 %(dest)s님에게 %(when)s에 보냄"
 
-#: r2/models/link.py:2427 r2/models/link.py:2452
+#: r2/models/link.py:2459 r2/models/link.py:2484
 #, python-format
 msgid "from %(author)s via %(vault)s to %(dest)s sent %(when)s"
 msgstr "%(author)s님이 %(vault)s을(를) 통해 %(dest)s님에게 %(when)s에 보냄"
 
-#: r2/models/link.py:2443
+#: r2/models/link.py:2475
 #, python-format
 msgid "to %(vault)s sent %(when)s"
 msgstr "%(vault)s에 %(when)s에 보냄"
 
-#: r2/models/link.py:2449
+#: r2/models/link.py:2481
 #, python-format
 msgid "from %(author)s to %(vault)s sent %(when)s"
 msgstr "%(author)s님이 %(vault)s에 %(when)s에 보냄"
 
-#: r2/models/link.py:2467
+#: r2/models/link.py:2499
 #, python-format
 msgid "from %(author)s sent %(when)s"
 msgstr "%(author)s님이 %(when)s에 보냄"
 
-#: r2/models/link.py:2469
+#: r2/models/link.py:2501
 #, python-format
 msgid "to %(dest)s sent %(when)s"
 msgstr "%(dest)s님에게 %(when)s에 보냄"
 
-#: r2/models/link.py:2472
+#: r2/models/link.py:2504
 #, python-format
 msgid "to %(dest)s from %(author)s sent %(when)s"
 msgstr "%(author)s님이 %(dest)s님에게 %(when)s에 보냄"
 
-#: r2/models/link.py:2495
+#: r2/models/link.py:2527
 msgid "[message from blocked user]"
 msgstr "[차단된 유저의 메세지]"
 
-#: r2/models/link.py:2496
+#: r2/models/link.py:2528
 msgid "[unblock user to see this message]"
 msgstr "[이 메세지를 보시려면 유저 블록을 푸세요]"
 
@@ -6230,7 +6230,7 @@ msgstr "모든 답글 보기"
 msgid "hide images"
 msgstr "이미지 숨기기"
 
-#: r2/public/static/js/enhancements.js:458 r2/public/static/js/enhancements.js:523 r2/templates/prefoptions.html:265
+#: r2/public/static/js/enhancements.js:458 r2/public/static/js/enhancements.js:523 r2/templates/prefoptions.html:271
 msgid "show images"
 msgstr "이미지 보기"
 
@@ -6340,7 +6340,7 @@ msgstr "링크가 있는 것"
 msgid "jump between"
 msgstr "이동:"
 
-#: r2/public/static/js/enhancements.js:974 r2/templates/prefoptions.html:309
+#: r2/public/static/js/enhancements.js:974 r2/templates/prefoptions.html:315
 msgid "comment navigator"
 msgstr "댓글 탐색기"
 
@@ -6377,7 +6377,7 @@ msgstr "아직 다른 계정이 없습니다"
 msgid "add an account"
 msgstr "계정 추가"
 
-#: r2/public/static/js/enhancements.js:1082 r2/templates/adminemailsettings.html:69 r2/templates/adminprivacy.html:69 r2/templates/adminvault.html:68 r2/templates/linkedloginlink.html:39 r2/templates/login.html:77 r2/templates/login.html:86 r2/templates/login.html:197 r2/templates/loginformwide.html:44 r2/templates/password.html:41 r2/templates/privacysettings.html:124 r2/templates/register.html:77 r2/templates/register.html:86 r2/templates/register.html:197 r2/templates/userlisting.html:164
+#: r2/public/static/js/enhancements.js:1082 r2/templates/adminemailsettings.html:69 r2/templates/adminprivacy.html:69 r2/templates/adminvault.html:68 r2/templates/linkedloginlink.html:39 r2/templates/login.html:77 r2/templates/login.html:86 r2/templates/login.html:197 r2/templates/loginformwide.html:44 r2/templates/password.html:41 r2/templates/privacysettings.html:124 r2/templates/userlisting.html:164
 msgid "username"
 msgstr "사용하실 아이디"
 
@@ -6385,7 +6385,7 @@ msgstr "사용하실 아이디"
 msgid "add and switch"
 msgstr "추가하고 전환"
 
-#: r2/public/static/js/enhancements.js:1100 r2/templates/linkedloginotp.html:35 r2/templates/newlink.html:155 r2/templates/prefoptions.html:613 r2/templates/prefsecurity.html:37 r2/templates/prefsecurity.html:104 r2/templates/prefsecurity.html:242 r2/templates/prefupdate.html:33 r2/templates/privacysettings.html:133
+#: r2/public/static/js/enhancements.js:1100 r2/templates/linkedloginotp.html:35 r2/templates/newlink.html:155 r2/templates/prefoptions.html:619 r2/templates/prefsecurity.html:37 r2/templates/prefsecurity.html:104 r2/templates/prefsecurity.html:242 r2/templates/prefupdate.html:33 r2/templates/privacysettings.html:133
 msgid "two-factor code"
 msgstr "2단계 인증 코드"
 
@@ -6498,23 +6498,23 @@ msgstr "제출하려면 로그인해야 합니다."
 msgid "You need to be logged in to do that."
 msgstr "해당 작업을 수행하려면 로그인해야 합니다."
 
-#: r2/public/static/js/login.js:286
+#: r2/public/static/js/login.js:293
 msgid "try using our secure login form."
 msgstr "저희들의 보안 로그인 양식을 사용해보세요"
 
-#: r2/public/static/js/login.js:328
+#: r2/public/static/js/login.js:335
 msgid "Password is strong"
 msgstr "강력한 비밀번호"
 
-#: r2/public/static/js/login.js:330
+#: r2/public/static/js/login.js:337
 msgid "Password is good"
 msgstr "좋은 비밀번호"
 
-#: r2/public/static/js/login.js:332
+#: r2/public/static/js/login.js:339
 msgid "Password is fair"
 msgstr "보통 비밀번호"
 
-#: r2/public/static/js/login.js:334
+#: r2/public/static/js/login.js:341
 msgid "Password is weak"
 msgstr "취약한 비밀번호"
 
@@ -6606,23 +6606,23 @@ msgstr "미리 볼 내용이 없습니다"
 msgid "preview failed"
 msgstr "미리보기 실패"
 
-#: r2/public/static/js/multi.js:509
+#: r2/public/static/js/multi.js:525
 msgid "awesomeness goes here"
 msgstr "멋진 내용을 여기에"
 
-#: r2/public/static/js/multi.js:510
+#: r2/public/static/js/multi.js:526
 msgid "add a vault to your multi."
 msgstr "멀티에 볼트 추가하기"
 
-#: r2/public/static/js/multi.js:563
+#: r2/public/static/js/multi.js:579
 msgid "categorize"
 msgstr "분류"
 
-#: r2/public/static/js/multi.js:579
+#: r2/public/static/js/multi.js:596
 msgid "open this multi"
 msgstr "이 멀티 열기"
 
-#: r2/public/static/js/multi.js:583
+#: r2/public/static/js/multi.js:600
 msgid "create a new multi"
 msgstr "새 멀티 만들기"
 
@@ -6716,7 +6716,7 @@ msgstr "공유 대상:"
 msgid "Link:"
 msgstr "링크:"
 
-#: r2/public/static/js/post-sharing.js:101 r2/public/static/js/post-sharing.js:333 r2/templates/multiinfobar.html:51 r2/templates/multiinfobar.html:85
+#: r2/public/static/js/post-sharing.js:101 r2/public/static/js/post-sharing.js:335 r2/templates/multiinfobar.html:51 r2/templates/multiinfobar.html:85
 msgid "copy"
 msgstr "복사하기"
 
@@ -6746,32 +6746,32 @@ msgstr "닫기"
 msgid "sent!"
 msgstr "보냈습니다!"
 
-#: r2/public/static/js/post-sharing.js:295
+#: r2/public/static/js/post-sharing.js:296
 msgid "Your Mastodon server (for example mastodon.social):"
 msgstr "Mastodon 서버(예: mastodon.social):"
 
-#: r2/public/static/js/post-sharing.js:302
+#: r2/public/static/js/post-sharing.js:303
 msgid "That doesn't look like a server name."
 msgstr "서버 이름으로 보이지 않습니다."
 
-#: r2/public/static/js/post-sharing.js:332
+#: r2/public/static/js/post-sharing.js:334
 msgid "copied!"
 msgstr "복사했습니다!"
 
-#: r2/public/static/js/post-sharing.js:513
+#: r2/public/static/js/post-sharing.js:515
 #, python-format
 msgid "Share to %(name)s"
 msgstr "%(name)s에 공유"
 
-#: r2/public/static/js/post-sharing.js:524
+#: r2/public/static/js/post-sharing.js:528
 msgid "More ways to share"
 msgstr "다른 공유 방법"
 
-#: r2/public/static/js/post-sharing.js:542
+#: r2/public/static/js/post-sharing.js:546
 msgid "Email to a Friend"
 msgstr "친구에게 이메일 보내기"
 
-#: r2/public/static/js/post-sharing.js:549
+#: r2/public/static/js/post-sharing.js:553
 msgid "Private Message a Friend on Tippr"
 msgstr "Tippr에서 친구에게 개인 메시지 보내기"
 
@@ -6795,98 +6795,98 @@ msgstr "새 카테고리"
 msgid "+ close"
 msgstr "+ 닫기"
 
-#: r2/public/static/js/sponsored.js:299
+#: r2/public/static/js/sponsored.js:303
 msgid "Please confirm the details of your campaign"
 msgstr "캠페인 세부 정보를 확인하세요"
 
-#: r2/public/static/js/sponsored.js:302
+#: r2/public/static/js/sponsored.js:306
 #, python-format
 msgid "your budget must be at least $%(minBudgetDollars)s"
 msgstr "예산은 $%(minBudgetDollars)s 이상이어야 합니다"
 
-#: r2/public/static/js/sponsored.js:306
+#: r2/public/static/js/sponsored.js:310
 #, python-format
 msgid "your budget must not exceed $%(maxBudgetDollars)s"
 msgstr "예산은 $%(maxBudgetDollars)s을(를) 넘을 수 없습니다"
 
-#: r2/public/static/js/sponsored.js:313
+#: r2/public/static/js/sponsored.js:317
 msgid "Your campaign must be capable of claiming at least 1,000 impressions per day. Please adjust your bid, budget, or schedule in order to enable this."
 msgstr "캠페인은 하루 1,000회 이상 노출될 수 있어야 합니다. 입찰가, 예산 또는 일정을 조정하세요."
 
-#: r2/public/static/js/sponsored.js:317
+#: r2/public/static/js/sponsored.js:321
 #, python-format
 msgid "your bid must be at least $%(minBid)s"
 msgstr "입찰가는 $%(minBid)s 이상이어야 합니다"
 
-#: r2/public/static/js/sponsored.js:321
+#: r2/public/static/js/sponsored.js:325
 #, python-format
 msgid "your bid must not exceed $%(maxBid)s"
 msgstr "입찰가는 $%(maxBid)s을(를) 넘을 수 없습니다"
 
-#: r2/public/static/js/sponsored.js:339 r2/public/static/js/sponsored.js:364 r2/public/static/js/sponsored.js:391
+#: r2/public/static/js/sponsored.js:343 r2/public/static/js/sponsored.js:368 r2/public/static/js/sponsored.js:395
 msgid "the campaign you requested is available!"
 msgstr "요청한 캠페인을 이용할 수 있습니다!"
 
-#: r2/public/static/js/sponsored.js:343 r2/public/static/js/sponsored.js:381
+#: r2/public/static/js/sponsored.js:347 r2/public/static/js/sponsored.js:385
 #, python-format
 msgid "the maximum budget available is $%(totalBudgetDollars)s (%(impressions)s impressions)"
 msgstr "사용 가능한 최대 예산은 $%(totalBudgetDollars)s입니다(노출 %(impressions)s회)"
 
-#: r2/public/static/js/sponsored.js:354
+#: r2/public/static/js/sponsored.js:358
 #, python-format
 msgid "we expect to only have %(available)s impressions on %(target)s. we may not fully deliver."
 msgstr "%(target)s에서 예상되는 노출 수는 %(available)s회뿐입니다. 모두 게재하지 못할 수도 있습니다."
 
-#: r2/public/static/js/sponsored.js:373
+#: r2/public/static/js/sponsored.js:377
 #, python-format
 msgid "want to maximize your campaign? for only $%(difference)s more you can buy all available inventory for your selected dates!"
 msgstr "캠페인 효과를 최대로 높이고 싶으신가요? $%(difference)s만 더 내면 선택한 날짜의 남은 재고를 모두 구매할 수 있습니다!"
 
-#: r2/public/static/js/sponsored.js:397
+#: r2/public/static/js/sponsored.js:401
 msgid "the campaign you requested is too small! this campaign is available:"
 msgstr "요청한 캠페인이 너무 작습니다! 다음 캠페인을 이용할 수 있습니다:"
 
-#: r2/public/static/js/sponsored.js:405
+#: r2/public/static/js/sponsored.js:409
 msgid "the campaign you requested is too small!"
 msgstr "요청한 캠페인이 너무 작습니다!"
 
-#: r2/public/static/js/sponsored.js:414
+#: r2/public/static/js/sponsored.js:418
 msgid "the campaign you requested is too big! the largest campaign available is:"
 msgstr "요청한 캠페인이 너무 큽니다! 이용할 수 있는 가장 큰 캠페인:"
 
-#: r2/public/static/js/sponsored.js:440
+#: r2/public/static/js/sponsored.js:444
 #, python-format
 msgid "we have insufficient available inventory targeting %(target)s to fulfill your requested dates. the following campaigns are available:"
 msgstr "요청한 날짜에 %(target)s을(를) 대상으로 할 재고가 부족합니다. 이용 가능한 캠페인은 다음과 같습니다:"
 
-#: r2/public/static/js/sponsored.js:453
+#: r2/public/static/js/sponsored.js:457
 #, python-format
 msgid "inventory for %(target)s is sold out for your requested dates. please try a different target or different dates."
 msgstr "요청한 날짜의 %(target)s 재고가 매진되었습니다. 다른 대상이나 날짜를 선택하세요."
 
-#: r2/public/static/js/sponsored.js:1001
+#: r2/public/static/js/sponsored.js:1005
 msgid "house campaigns, man."
 msgstr "자체 캠페인입니다."
 
-#: r2/public/static/js/sponsored.js:1014
+#: r2/public/static/js/sponsored.js:1018
 #, python-format
 msgid "maximum possible impressions: %(impressions)s"
 msgstr "가능한 최대 노출 수: %(impressions)s"
 
-#: r2/public/static/js/sponsored.js:1060
+#: r2/public/static/js/sponsored.js:1064
 msgid "sorry, there was an error retrieving available impressions. please try again later."
 msgstr "죄송합니다. 이용할 수 있는 노출 수를 가져오는 중 오류가 발생했습니다. 나중에 다시 시도하세요."
 
-#: r2/public/static/js/sponsored.js:1477 r2/public/static/js/sponsored.js:1838
+#: r2/public/static/js/sponsored.js:1484 r2/public/static/js/sponsored.js:1851
 msgid "days"
 msgstr "일"
 
-#: r2/public/static/js/sponsored.js:1483
+#: r2/public/static/js/sponsored.js:1490
 #, python-format
 msgid "$%(cpm)s per 1,000 impressions"
 msgstr "노출 1,000회당 $%(cpm)s"
 
-#: r2/public/static/js/sponsored.js:2051
+#: r2/public/static/js/sponsored.js:2065
 msgid "Created new campaign!"
 msgstr "새 캠페인을 만들었습니다!"
 
@@ -6920,20 +6920,20 @@ msgid "a minute ago"
 msgid_plural "%(num)s minutes ago"
 msgstr[0] "%(num)s 분 전"
 
-#: r2/public/static/js/tippr.js:112
+#: r2/public/static/js/tippr.js:116
 msgid "please wait a few seconds and try again."
 msgstr "몇초만 기다리시고 다시 시도해보세요"
 
-#: r2/public/static/js/tippr.js:114 r2/public/static/js/ui.js:665
+#: r2/public/static/js/tippr.js:118 r2/public/static/js/ui.js:665
 #, python-format
 msgid "an error occurred (status: %(status)s)"
 msgstr "오류가 발생했습니다 (상태: %(status)s)"
 
-#: r2/public/static/js/traffic.js:11
+#: r2/public/static/js/traffic.js:12
 msgid "view vault traffic"
 msgstr "볼트 트래픽 보기"
 
-#: r2/public/static/js/traffic.js:13 r2/templates/adminuser.html:210 r2/templates/flairlist.html:34 r2/templates/userlisting.html:170
+#: r2/public/static/js/traffic.js:14 r2/templates/adminuser.html:210 r2/templates/flairlist.html:34 r2/templates/userlisting.html:170
 msgid "go"
 msgstr "가요"
 
@@ -6986,27 +6986,27 @@ msgstr "NSFW 미디어를 보여 주기 전에 물어봅니다."
 msgid "Click to see NSFW"
 msgstr "클릭해서 NSFW 보기"
 
-#: r2/public/static/js/expando/nsfwflow.js:111
+#: r2/public/static/js/expando/nsfwflow.js:112
 msgid "Always show NSFW media?"
 msgstr "NSFW 미디어를 항상 표시할까요?"
 
-#: r2/public/static/js/expando/nsfwflow.js:112
+#: r2/public/static/js/expando/nsfwflow.js:113
 msgid "Ok, we changed your preferences to always show NSFW media."
 msgstr "NSFW 미디어를 항상 표시하도록 설정을 변경했습니다."
 
-#: r2/public/static/js/expando/nsfwflow.js:113
+#: r2/public/static/js/expando/nsfwflow.js:114
 msgid "Undo"
 msgstr "실행 취소"
 
-#: r2/public/static/js/expando/nsfwflow.js:116
+#: r2/public/static/js/expando/nsfwflow.js:118
 msgid "Your account is set up to always show this content in the future."
 msgstr "앞으로 이런 콘텐츠를 항상 표시하도록 계정이 설정되었습니다."
 
-#: r2/public/static/js/expando/nsfwflow.js:117
+#: r2/public/static/js/expando/nsfwflow.js:119
 msgid "Change your preferences to hide NSFW media?"
 msgstr "NSFW 미디어를 숨기도록 설정을 변경할까요?"
 
-#: r2/public/static/js/expando/nsfwflow.js:118
+#: r2/public/static/js/expando/nsfwflow.js:120
 msgid "Hide NSFW"
 msgstr "NSFW 숨기기"
 
@@ -7313,7 +7313,7 @@ msgstr "가입일"
 msgid "karma"
 msgstr "카르마"
 
-#: r2/templates/adminantispam.html:182 r2/templates/adminuser.html:68 r2/templates/adminusers.html:77 r2/templates/login.html:110 r2/templates/newsletter.html:58 r2/templates/newsletterbar.html:43 r2/templates/prefupdate.html:85 r2/templates/register.html:110
+#: r2/templates/adminantispam.html:182 r2/templates/adminuser.html:68 r2/templates/adminusers.html:77 r2/templates/login.html:110 r2/templates/newsletter.html:58 r2/templates/newsletterbar.html:43 r2/templates/prefupdate.html:85
 msgid "email"
 msgstr "메일 주소"
 
@@ -7419,7 +7419,7 @@ msgstr "(이름 없음)"
 msgid "(the site's own)"
 msgstr "(사이트 자체 앱)"
 
-#: r2/templates/adminapps.html:93 r2/templates/admindomain.html:85 r2/templates/admindomains.html:44 r2/templates/adminfeeds.html:132 r2/templates/adminsupport.html:83 r2/templates/adminsupport.html:88 r2/templates/adminsupportactivity.html:77 r2/templates/adminsupportticket.html:106 r2/templates/adminsupportticket.html:119 r2/templates/adminsupportticket.html:157 r2/templates/adminuser.html:43 r2/templates/adminuser.html:53 r2/templates/adminuser.html:61 r2/templates/adminuser.html:266 r2/templates/adminuser.html:298 r2/templates/adminusers.html:83 r2/templates/adminvault.html:40 r2/templates/adminvault.html:50 r2/templates/adminvaults.html:57 r2/templates/comment.htmllite:49 r2/templates/commentvisitsbox.html:41
+#: r2/templates/adminapps.html:93 r2/templates/admindomain.html:85 r2/templates/admindomains.html:44 r2/templates/adminfeeds.html:132 r2/templates/adminuser.html:43 r2/templates/adminuser.html:53 r2/templates/adminuser.html:61 r2/templates/adminuser.html:266 r2/templates/adminuser.html:298 r2/templates/adminusers.html:83 r2/templates/adminvault.html:40 r2/templates/adminvault.html:50 r2/templates/adminvaults.html:57 r2/templates/comment.htmllite:49 r2/templates/commentvisitsbox.html:41
 msgid "ago"
 msgstr "전"
 
@@ -8021,33 +8021,39 @@ msgstr "개월"
 msgid "Are you one of us?"
 msgstr "우리 중 한 명인가요?"
 
-#: r2/templates/admininterstitial.html:42
+#: r2/templates/admininterstitial.html:43
+#, fuzzy
+#| msgid "update your password"
+msgid "Enter your password"
+msgstr "비밀번호 변경"
+
+#: r2/templates/admininterstitial.html:45
 msgid "Enter your password and one-time code"
 msgstr "비밀번호와 일회용 코드를 입력하세요"
 
-#: r2/templates/admininterstitial.html:52 r2/templates/admininterstitial.html:66 r2/templates/prefsecurity.html:237 r2/templates/prefsecurity.html:242 r2/templates/prefsecurity.html:300 r2/templates/prefupdate.html:33 r2/templates/prefupdate.html:56 r2/templates/prefupdate.html:117 r2/templates/useriphistory.html:74
+#: r2/templates/admininterstitial.html:56 r2/templates/admininterstitial.html:70 r2/templates/prefsecurity.html:237 r2/templates/prefsecurity.html:242 r2/templates/prefsecurity.html:300 r2/templates/prefupdate.html:33 r2/templates/prefupdate.html:56 r2/templates/prefupdate.html:117 r2/templates/useriphistory.html:74
 msgid "(required)"
 msgstr "(필수)"
 
-#: r2/templates/admininterstitial.html:64
+#: r2/templates/admininterstitial.html:68
 msgid "This computer is remembered, so you don't need a one-time code."
 msgstr ""
 
-#: r2/templates/admininterstitial.html:66
+#: r2/templates/admininterstitial.html:70
 msgid "one-time verification code"
 msgstr "일회용 인증 코드"
 
-#: r2/templates/admininterstitial.html:73
+#: r2/templates/admininterstitial.html:77
 msgid "remember this computer"
 msgstr "이 컴퓨터를 기억하기"
 
-#: r2/templates/admininterstitial.html:90
+#: r2/templates/admininterstitial.html:94
 #, fuzzy
 #| msgid "forget this account"
 msgid "forget this computer"
 msgstr "이 계정 지우기"
 
-#: r2/templates/admininterstitial.html:91
+#: r2/templates/admininterstitial.html:95
 msgid "Asks for a one-time code again next time, here and anywhere else this computer was remembered for."
 msgstr ""
 
@@ -10078,7 +10084,7 @@ msgstr "골드 전용"
 msgid "only tippr gold members can view and submit"
 msgstr "tippr 골드 회원만 보고 제출할 수 있음"
 
-#: r2/templates/createvault.html:188 r2/templates/prefoptions.html:456
+#: r2/templates/createvault.html:188 r2/templates/prefoptions.html:462
 msgid "content options"
 msgstr "내용 설정"
 
@@ -10179,11 +10185,15 @@ msgid "other options"
 msgstr "다른 설정"
 
 #: r2/templates/createvault.html:326
-msgid "viewers must be over eighteen years old"
-msgstr "이용자 연령 18세 이상으로 제한"
+#, fuzzy
+#| msgid "toggle viewers must be over 18"
+msgid "NSFW: viewers must be 18 or older"
+msgstr "만 19세 이상이 되어야 한다는 페이지 토글"
 
 #: r2/templates/createvault.html:338
-msgid "allow this vault to be included /v/all as well as the default and trending lists"
+#, fuzzy
+#| msgid "allow this vault to be included /v/all as well as the default and trending lists"
+msgid "allow this vault to be included in /v/all as well as the default and trending lists"
 msgstr "이 볼트를 /v/all과 기본 및 인기 목록에 포함하도록 허용"
 
 #: r2/templates/createvault.html:350
@@ -10307,7 +10317,7 @@ msgstr "색상"
 msgid "used as a thematic color for your vault on mobile"
 msgstr "모바일에서 볼트의 테마 색상으로 사용됩니다"
 
-#: r2/templates/createvault.html:669 r2/templates/flairpane.html:91 r2/templates/prefoptions.html:616
+#: r2/templates/createvault.html:669 r2/templates/flairpane.html:91 r2/templates/prefoptions.html:622
 msgid "save options"
 msgstr "설정 저장하기"
 
@@ -11083,23 +11093,23 @@ msgstr "처음 오셨나요? 계정 만들기"
 msgid "It's linked to your %(provider)s account, so signing in with %(provider)s is enough from now on. The password lets you log in without it too."
 msgstr "%(provider)s 계정에 연결되므로 앞으로는 %(provider)s(으)로 로그인하면 됩니다. 비밀번호가 있으면 그것 없이도 로그인할 수 있습니다."
 
-#: r2/templates/linkedloginlink.html:50 r2/templates/login.html:81 r2/templates/register.html:81
+#: r2/templates/linkedloginlink.html:50 r2/templates/login.html:81
 msgid "choose a username"
 msgstr "사용자 이름 정하기"
 
-#: r2/templates/linkedloginlink.html:60 r2/templates/login.html:103 r2/templates/login.html:106 r2/templates/login.html:234 r2/templates/prefupdate.html:132 r2/templates/register.html:103 r2/templates/register.html:106 r2/templates/register.html:234 r2/templates/resetpassword.html:48
+#: r2/templates/linkedloginlink.html:60 r2/templates/login.html:103 r2/templates/login.html:106 r2/templates/login.html:234 r2/templates/prefupdate.html:132 r2/templates/resetpassword.html:48
 msgid "verify password"
 msgstr "비밀번호 확인"
 
-#: r2/templates/linkedloginlink.html:62 r2/templates/login.html:114 r2/templates/register.html:114
+#: r2/templates/linkedloginlink.html:62 r2/templates/login.html:114
 msgid "email (optional)"
 msgstr "이메일(선택 사항)"
 
-#: r2/templates/linkedloginlink.html:70 r2/templates/login.html:138 r2/templates/register.html:138
+#: r2/templates/linkedloginlink.html:70 r2/templates/login.html:138
 msgid "type the letters from the image"
 msgstr "이미지의 글자를 입력하세요"
 
-#: r2/templates/linkedloginlink.html:77 r2/templates/login.html:122 r2/templates/login.html:249 r2/templates/loginformwide.html:52 r2/templates/register.html:122 r2/templates/register.html:249
+#: r2/templates/linkedloginlink.html:77 r2/templates/login.html:122 r2/templates/login.html:249 r2/templates/loginformwide.html:52
 msgid "remember me"
 msgstr "이 컴퓨터에서 나를 기억하기"
 
@@ -11247,77 +11257,77 @@ msgstr "이 게시물은 커뮤니티 모더레이터가 잠갔습니다"
 msgid "New comments can no longer be added."
 msgstr "더 이상 새 댓글을 달 수 없게 됩니다."
 
-#: r2/templates/login.html:42 r2/templates/register.html:42
+#: r2/templates/login.html:42
 msgid "You are logged in. Go use the site!"
 msgstr "로그인되었습니다. 사이트를 이용하세요!"
 
-#: r2/templates/login.html:46 r2/templates/register.html:46
+#: r2/templates/login.html:46
 msgid "You need to login to do that."
 msgstr "해당 작업을 수행하려면 로그인해야 합니다."
 
-#: r2/templates/login.html:110 r2/templates/login.html:212 r2/templates/register.html:110 r2/templates/register.html:212
+#: r2/templates/login.html:110 r2/templates/login.html:212
 msgid "optional"
 msgstr "선택사항"
 
-#: r2/templates/login.html:158 r2/templates/register.html:158
+#: r2/templates/login.html:158
 msgid "get the best of tippr emailed to you once a week."
 msgstr "tippr의 베스트를 일주일에 한 번 이메일로 받아 보세요."
 
-#: r2/templates/login.html:159 r2/templates/register.html:159 r2/templates/welcomebar.html:32
+#: r2/templates/login.html:159 r2/templates/welcomebar.html:32
 msgid "learn more"
 msgstr "더 알아보기"
 
-#: r2/templates/login.html:166 r2/templates/login.html:262 r2/templates/register.html:166 r2/templates/register.html:262
+#: r2/templates/login.html:166 r2/templates/login.html:262
 msgid "sign up"
 msgstr "회원 가입"
 
-#: r2/templates/login.html:202 r2/templates/register.html:202
+#: r2/templates/login.html:202
 msgid "try another"
 msgstr "다른 -----something---로 다시 시도해보세요"
 
-#: r2/templates/login.html:203 r2/templates/register.html:203
+#: r2/templates/login.html:203
 msgid "available!"
 msgstr "사용 가능합니다!"
 
-#: r2/templates/login.html:212 r2/templates/register.html:212
+#: r2/templates/login.html:212
 msgid "account recovery email"
 msgstr "비밀번호 분실 시 필요한 메일 계정"
 
-#: r2/templates/login.html:216 r2/templates/register.html:216
+#: r2/templates/login.html:216
 msgid "we only send email at your request"
 msgstr "이메일은 요청하실 경우에만 발송합니다"
 
-#: r2/templates/login.html:255 r2/templates/register.html:255
+#: r2/templates/login.html:255
 msgid "recover password"
 msgstr "비밀번호 되찾기"
 
-#: r2/templates/login.html:284 r2/templates/register.html:284
+#: r2/templates/login.html:284
 msgid "create a new account"
 msgstr "새 계정 만들기"
 
-#: r2/templates/login.html:289 r2/templates/register.html:289
+#: r2/templates/login.html:289
 msgid "This site isn't taking new accounts right now."
 msgstr "이 사이트는 현재 새 계정을 받지 않습니다."
 
-#: r2/templates/login.html:291 r2/templates/register.html:291
+#: r2/templates/login.html:291
 #, python-format
 msgid "To ask about an account, write to %(address)s."
 msgstr "계정에 대해 문의하려면 %(address)s(으)로 연락하세요."
 
-#: r2/templates/login.html:302 r2/templates/register.html:302
+#: r2/templates/login.html:302
 #, python-format
 msgid "By signing up, you agree to our %(terms)s and that you have read our %(privacy_policy)s and %(content_policy)s."
 msgstr "가입하면 %(terms)s에 동의하고 %(privacy_policy)s 및 %(content_policy)s을(를) 읽었음을 확인하는 것입니다."
 
-#: r2/templates/login.html:303 r2/templates/register.html:303
+#: r2/templates/login.html:303
 msgid "Terms"
 msgstr "이용약관"
 
-#: r2/templates/login.html:304 r2/templates/privacysettings.html:99 r2/templates/register.html:304 r2/templates/tipprfooter.html:50
+#: r2/templates/login.html:304 r2/templates/privacysettings.html:99 r2/templates/tipprfooter.html:50
 msgid "Privacy Policy"
 msgstr "개인 정보 취급 방침"
 
-#: r2/templates/login.html:305 r2/templates/register.html:305 r2/templates/tipprfooter.html:54
+#: r2/templates/login.html:305 r2/templates/tipprfooter.html:54
 msgid "Content Policy"
 msgstr "콘텐츠 정책"
 
@@ -11989,485 +11999,495 @@ msgstr "직장에서 (좀 더) 안전하게 "
 msgid "(Don't show thumbnails next to anything labeled NSFW)"
 msgstr "(NSFW 라벨이 붙은 항목 옆에 썸네일을 표시하지 않음)"
 
-#: r2/templates/prefoptions.html:194
+#: r2/templates/prefoptions.html:192
+#, fuzzy
+#| msgid "show the spotlight box on the front page"
+msgid "show NSFW posts on the front page and /v/all"
+msgstr "메인 화면에 스팟라잇 박스 보기"
+
+#: r2/templates/prefoptions.html:195
+msgid "(they're always shown in their own vaults)"
+msgstr ""
+
+#: r2/templates/prefoptions.html:200
 msgid "link options"
 msgstr "링크 설정"
 
-#: r2/templates/prefoptions.html:197
+#: r2/templates/prefoptions.html:203
 msgid "show the spotlight box on the front page"
 msgstr "메인 화면에 스팟라잇 박스 보기"
 
-#: r2/templates/prefoptions.html:200
+#: r2/templates/prefoptions.html:206
 msgid "(it shows new and promoted links, and gives you a say in what's spam and what isn't.)"
 msgstr "(새로운 링크와 홍보된 링크를 볼 수 있고, 스팸을 구분할 수 있게 됩니다.)"
 
-#: r2/templates/prefoptions.html:204
+#: r2/templates/prefoptions.html:210
 msgid "show trending vaults on the front page"
 msgstr "뜨고 있는 볼트를 프론트 페이지에서 보기."
 
-#: r2/templates/prefoptions.html:207
+#: r2/templates/prefoptions.html:213
 msgid "(a list of popular and notable vaults to check out)"
 msgstr "(인기 많고 주목할만한 볼트를 둘러보기 위한 목록)"
 
-#: r2/templates/prefoptions.html:212
+#: r2/templates/prefoptions.html:218
 msgid "show multivaults in the side panel"
 msgstr "사이드 패널에 멀티볼트 표시"
 
-#: r2/templates/prefoptions.html:215
+#: r2/templates/prefoptions.html:221
 msgid "(your sets of vaults to view together, and the form to make one)"
 msgstr "(함께 볼 볼트 모음과 새로 만드는 양식)"
 
-#: r2/templates/prefoptions.html:218
+#: r2/templates/prefoptions.html:224
 msgid "show me links I've recently viewed"
 msgstr "최근에 확인한 링크 표시"
 
-#: r2/templates/prefoptions.html:219
+#: r2/templates/prefoptions.html:225
 msgid "compress the link display"
 msgstr "링크 주소를 간략하게 표시한다"
 
-#: r2/templates/prefoptions.html:220
+#: r2/templates/prefoptions.html:226
 msgid "show additional details in the domain text when available"
 msgstr "가능한 경우 도메인 텍스트에 추가 정보 표시"
 
-#: r2/templates/prefoptions.html:223
+#: r2/templates/prefoptions.html:229
 msgid "(such as the source vault or the content author's url/name)"
 msgstr "(원본 볼트나 콘텐츠 작성자의 URL/이름 등)"
 
-#: r2/templates/prefoptions.html:226
+#: r2/templates/prefoptions.html:232
 msgid "don't show me submissions after I've upvoted them"
 msgstr "추천한 게시물은 보이게 하지 않음"
 
-#: r2/templates/prefoptions.html:228 r2/templates/prefoptions.html:232
+#: r2/templates/prefoptions.html:234 r2/templates/prefoptions.html:238
 msgid "(except my own)"
 msgstr "(내 링크 제외)"
 
-#: r2/templates/prefoptions.html:230
+#: r2/templates/prefoptions.html:236
 msgid "don't show me submissions after I've downvoted them"
 msgstr "비추천한 게시물은 보이게 하지 않음"
 
-#: r2/templates/prefoptions.html:235
+#: r2/templates/prefoptions.html:241
 #, python-format
 msgid "display %(num)s links at once"
 msgstr "한 페이지에 링크를 %(num)s 개 씩 보고싶다"
 
-#: r2/templates/prefoptions.html:242
+#: r2/templates/prefoptions.html:248
 #, python-format
 msgid "don't show me submissions with a score less than %(num)s"
 msgstr "%(num)s점 이하인 게시물은 보이게 하지 않음"
 
-#: r2/templates/prefoptions.html:243
+#: r2/templates/prefoptions.html:249
 msgid "(leave blank to show all submissions)"
 msgstr "(모든 게시물을 보려면 공백으로 남기세요.)"
 
-#: r2/templates/prefoptions.html:248
+#: r2/templates/prefoptions.html:254
 msgid "enhancements"
 msgstr "향상 기능"
 
-#: r2/templates/prefoptions.html:251
+#: r2/templates/prefoptions.html:257
 msgid "infinite scroll"
 msgstr "무한 스크롤"
 
-#: r2/templates/prefoptions.html:254
+#: r2/templates/prefoptions.html:260
 msgid "(load the next page of a listing when you reach the bottom)"
 msgstr "(맨 아래에 닿으면 목록의 다음 페이지 불러오기)"
 
-#: r2/templates/prefoptions.html:258
+#: r2/templates/prefoptions.html:264
 msgid "keyboard navigation"
 msgstr "키보드 탐색"
 
-#: r2/templates/prefoptions.html:261
+#: r2/templates/prefoptions.html:267
 msgid "(j and k move between posts and comments, a and z vote; press ? on any page for the full list)"
 msgstr "(j와 k로 게시물과 댓글 사이를 이동하고 a와 z로 투표합니다. 어느 페이지에서든 ?를 누르면 전체 목록이 나옵니다)"
 
-#: r2/templates/prefoptions.html:268
+#: r2/templates/prefoptions.html:274
 msgid "(a button on posts that link to an image to show it in the listing, and a \"show images\" link to show them all)"
 msgstr "(이미지로 연결되는 게시물에 목록에서 이미지를 보여 주는 버튼과, 모두 보여 주는 \"이미지 보기\" 링크)"
 
-#: r2/templates/prefoptions.html:272
+#: r2/templates/prefoptions.html:278
 msgid "expand images automatically"
 msgstr "이미지 자동으로 펼치기"
 
-#: r2/templates/prefoptions.html:274
+#: r2/templates/prefoptions.html:280
 msgid "(except NSFW and spoiler posts)"
 msgstr "(NSFW와 스포일러 게시물 제외)"
 
-#: r2/templates/prefoptions.html:277
+#: r2/templates/prefoptions.html:283
 msgid "user tags"
 msgstr "사용자 태그"
 
-#: r2/templates/prefoptions.html:280
+#: r2/templates/prefoptions.html:286
 msgid "(a tag button by usernames, to note who someone is; only you see your tags)"
 msgstr "(사용자 이름 옆의 태그 버튼으로 누구인지 메모합니다. 태그는 나만 봅니다)"
 
-#: r2/templates/prefoptions.html:284
+#: r2/templates/prefoptions.html:290
 msgid "user info on hover"
 msgstr "마우스를 올리면 사용자 정보"
 
-#: r2/templates/prefoptions.html:286
+#: r2/templates/prefoptions.html:292
 msgid "(hold the mouse over a username to see their karma, how long they've been here and your tag)"
 msgstr "(사용자 이름 위에 마우스를 올리면 카르마, 가입 기간, 내 태그가 보입니다)"
 
-#: r2/templates/prefoptions.html:289
+#: r2/templates/prefoptions.html:295
 msgid "show the parent comment on hover"
 msgstr "마우스를 올리면 상위 댓글 보기"
 
-#: r2/templates/prefoptions.html:291
+#: r2/templates/prefoptions.html:297
 msgid "(hold the mouse over a reply's \"parent\" link to read the comment it replies to)"
 msgstr "(답글의 \"상위\" 링크 위에 마우스를 올리면 답하는 댓글을 읽을 수 있습니다)"
 
-#: r2/templates/prefoptions.html:294
+#: r2/templates/prefoptions.html:300
 msgid "count new comments"
 msgstr "새 댓글 세기"
 
-#: r2/templates/prefoptions.html:296
+#: r2/templates/prefoptions.html:302
 msgid "(\"3 new\" by posts you've opened before, and the new comments highlighted when you go back; remembered in this browser)"
 msgstr "(전에 연 게시물 옆에 \"새 글 3개\", 돌아오면 새 댓글 강조. 이 브라우저에 기억됩니다)"
 
-#: r2/templates/prefoptions.html:299
+#: r2/templates/prefoptions.html:305
 msgid "posts you've opened:"
 msgstr "열어 본 게시물:"
 
-#: r2/templates/prefoptions.html:301
+#: r2/templates/prefoptions.html:307
 msgid "show as usual"
 msgstr "평소대로 보기"
 
-#: r2/templates/prefoptions.html:301
+#: r2/templates/prefoptions.html:307
 msgid "fade them"
 msgstr "흐리게"
 
-#: r2/templates/prefoptions.html:301
+#: r2/templates/prefoptions.html:307
 msgid "hide them"
 msgstr "숨기기"
 
-#: r2/templates/prefoptions.html:306
+#: r2/templates/prefoptions.html:312
 msgid "(remembered in this browser)"
 msgstr "(이 브라우저에 기억됩니다)"
 
-#: r2/templates/prefoptions.html:311
+#: r2/templates/prefoptions.html:317
 msgid "(on comments pages, buttons to jump between top-level comments, the submitter's, yours, new ones or ones with links)"
 msgstr "(댓글 페이지에서 최상위 댓글, 작성자의 댓글, 내 댓글, 새 댓글, 링크가 있는 댓글 사이를 이동하는 버튼)"
 
-#: r2/templates/prefoptions.html:315
+#: r2/templates/prefoptions.html:321
 #, fuzzy
 #| msgid "top-level comments"
 msgid "live comments"
 msgstr "최상위 댓글"
 
-#: r2/templates/prefoptions.html:317
+#: r2/templates/prefoptions.html:323
 msgid "(new comments appear on a thread while you have it open, in vaults that use them)"
 msgstr ""
 
-#: r2/templates/prefoptions.html:321
+#: r2/templates/prefoptions.html:327
 msgid "account switcher"
 msgstr "계정 전환기"
 
-#: r2/templates/prefoptions.html:323
+#: r2/templates/prefoptions.html:329
 msgid "(a \"switch account\" menu by your name, to move between your accounts without logging out; logging out forgets them)"
 msgstr "(이름 옆의 \"계정 전환\" 메뉴로 로그아웃하지 않고 계정을 오갑니다. 로그아웃하면 지워집니다)"
 
-#: r2/templates/prefoptions.html:326
+#: r2/templates/prefoptions.html:332
 msgid "night mode"
 msgstr "야간 모드"
 
-#: r2/templates/prefoptions.html:328
+#: r2/templates/prefoptions.html:334
 msgid "(light text on a dark background)"
 msgstr "(어두운 배경에 밝은 글자)"
 
-#: r2/templates/prefoptions.html:331
+#: r2/templates/prefoptions.html:337
 msgid "hide child comments links"
 msgstr "답글 숨기기 링크"
 
-#: r2/templates/prefoptions.html:334
+#: r2/templates/prefoptions.html:340
 msgid "(on comments pages, links to fold up the replies under each comment, or all of them at once)"
 msgstr "(댓글 페이지에서 각 댓글 아래 답글이나 전체 답글을 한 번에 접는 링크)"
 
-#: r2/templates/prefoptions.html:340
+#: r2/templates/prefoptions.html:346
 msgid "filters"
 msgstr "필터"
 
-#: r2/templates/prefoptions.html:343
+#: r2/templates/prefoptions.html:349
 msgid "Posts that match are left out of listings (never your own). One per line, or separated by commas."
 msgstr "일치하는 게시물은 목록에서 빠집니다 (내 게시물은 제외). 한 줄에 하나, 또는 쉼표로 구분."
 
-#: r2/templates/prefoptions.html:347
+#: r2/templates/prefoptions.html:353
 msgid "title keywords"
 msgstr "제목 키워드"
 
-#: r2/templates/prefoptions.html:347
+#: r2/templates/prefoptions.html:353
 msgid "whole words or phrases, in any case"
 msgstr "단어나 구 전체, 대소문자 구분 없음"
 
-#: r2/templates/prefoptions.html:348
+#: r2/templates/prefoptions.html:354
 msgid "example.com also hides its subdomains"
 msgstr "example.com은 하위 도메인도 숨깁니다"
 
-#: r2/templates/prefoptions.html:349
+#: r2/templates/prefoptions.html:355
 msgid "still shown when you visit the vault itself"
 msgstr "그 볼트 자체를 방문하면 그래도 보입니다"
 
-#: r2/templates/prefoptions.html:350
+#: r2/templates/prefoptions.html:356
 msgid "only hides their posts; to stop seeing them altogether, block them"
 msgstr "게시물만 숨깁니다. 아예 보지 않으려면 차단하세요"
 
-#: r2/templates/prefoptions.html:363
+#: r2/templates/prefoptions.html:369
 msgid "comment options"
 msgstr "댓글 설정"
 
-#: r2/templates/prefoptions.html:366
+#: r2/templates/prefoptions.html:372
 #, python-format
 msgid "sort comments by %(sort)s"
 msgstr "댓글을 %(sort)s순으로 정렬함"
 
-#: r2/templates/prefoptions.html:369
+#: r2/templates/prefoptions.html:375
 msgid "ignore suggested sorts"
 msgstr "추천된 정렬 방식 무시하기"
 
-#: r2/templates/prefoptions.html:370
+#: r2/templates/prefoptions.html:376
 msgid "(suggested sorts may be set by community moderators for specific threads or vaults, like Q&As)"
 msgstr "(추천된 정렬 방식은 공동체 관리자가 Q&A와 같은 특정 스레드나 볼트에 설정할 수 있습니다.)"
 
-#: r2/templates/prefoptions.html:373
+#: r2/templates/prefoptions.html:379
 msgid "show a dagger (†) on comments voted controversial"
 msgstr "논쟁적인 투표가 이루어지는 코멘트에 단검 (†) 표시하기"
 
-#: r2/templates/prefoptions.html:374
+#: r2/templates/prefoptions.html:380
 msgid "(a controversial comment is one that's been both upvoted and downvoted significantly)"
 msgstr "(논쟁적인 댓글이란 추천과 비추천 두 가지를 상당히 많이 받고 있는 댓글입니다.)"
 
-#: r2/templates/prefoptions.html:381
+#: r2/templates/prefoptions.html:387
 #, python-format
 msgid "don't show me comments with a score less than %(num)s"
 msgstr "점수가 %(num)s점 이하 인 댓글은 숨겼으면 한다"
 
-#: r2/templates/prefoptions.html:382
+#: r2/templates/prefoptions.html:388
 msgid "(leave blank to show all comments)"
 msgstr "(모든 댓글을 보려면 공백으로 남기세요.)"
 
-#: r2/templates/prefoptions.html:390
+#: r2/templates/prefoptions.html:396
 #, python-format
 msgid "display %(num)s comments by default"
 msgstr "한 페이지에 댓글 %(num)s 개 씩 보고싶다"
 
-#: r2/templates/prefoptions.html:395
+#: r2/templates/prefoptions.html:401
 msgid "the smaller the number, the faster your comments pages will load"
 msgstr "작으면 작을수록 로딩 속도가 올라갑니다"
 
-#: r2/templates/prefoptions.html:400
+#: r2/templates/prefoptions.html:406
 msgid "messaging options"
 msgstr "메세징 설정"
 
-#: r2/templates/prefoptions.html:402
+#: r2/templates/prefoptions.html:408
 msgid "show message conversations in the inbox"
 msgstr "받은편지함에서 메세지 대화 보기"
 
-#: r2/templates/prefoptions.html:405
+#: r2/templates/prefoptions.html:411
 msgid "(only applies when you go to the 'messages' panel)"
 msgstr "('메세지' 패널에 가실 때만 적용됩니다.)"
 
-#: r2/templates/prefoptions.html:409
+#: r2/templates/prefoptions.html:415
 msgid "collapse messages after I've read them"
 msgstr "읽은 메일은 보지 않기"
 
-#: r2/templates/prefoptions.html:412
+#: r2/templates/prefoptions.html:418
 msgid "(otherwise, you'll have to collapse them yourself)"
 msgstr "(선택을 안 하시면, 일일히 보이지 않게 만들어야 됩니다.)"
 
-#: r2/templates/prefoptions.html:416
+#: r2/templates/prefoptions.html:422
 msgid "mark messages as read when I open my inbox"
 msgstr "받은편지함을 열 때 메세지를 읽은 상태로 표시"
 
-#: r2/templates/prefoptions.html:419
+#: r2/templates/prefoptions.html:425
 msgid "(otherwise, they will be marked as read when you click them)"
 msgstr "(선택을 안 하시면, 클릭을 하셔야 읽은 상태로 표시 됩니다.)"
 
-#: r2/templates/prefoptions.html:422
+#: r2/templates/prefoptions.html:428
 msgid "notify me when people say my username"
 msgstr "다른 사람이 내 사용자명을 부를 때 알리기"
 
-#: r2/templates/prefoptions.html:425
+#: r2/templates/prefoptions.html:431
 msgid "send messages as emails"
 msgstr "메시지를 이메일로 보내기"
 
-#: r2/templates/prefoptions.html:425
+#: r2/templates/prefoptions.html:431
 msgid "requires a verified email"
 msgstr "확인된 이메일 주소가 필요합니다"
 
-#: r2/templates/prefoptions.html:428
+#: r2/templates/prefoptions.html:434
 msgid "enable threaded modmail display"
 msgstr "스레드형 모드메일 표시 사용"
 
-#: r2/templates/prefoptions.html:432 r2/templates/widgetdemopanel.html:201
+#: r2/templates/prefoptions.html:438 r2/templates/widgetdemopanel.html:201
 msgid "display options"
 msgstr "스타일 설정"
 
-#: r2/templates/prefoptions.html:434
+#: r2/templates/prefoptions.html:440
 msgid "allow vaults to show me custom themes"
 msgstr "볼트 자체 스킨을 보이도록 허용"
 
-#: r2/templates/prefoptions.html:437
+#: r2/templates/prefoptions.html:443
 msgid "(you can also choose which vault themes to disable on an individual level)"
 msgstr "(사용하지 않을 볼트 테마를 하나씩 고를 수도 있습니다)"
 
-#: r2/templates/prefoptions.html:441
+#: r2/templates/prefoptions.html:447
 msgid "show user flair"
 msgstr "사용자 플레어 보기"
 
-#: r2/templates/prefoptions.html:443
+#: r2/templates/prefoptions.html:449
 msgid "show link flair"
 msgstr "링크 플레어 보이기"
 
-#: r2/templates/prefoptions.html:446
+#: r2/templates/prefoptions.html:452
 msgid "show self-serve advertising tab on front page"
 msgstr "첫 페이지에 셀프 서비스 광고 탭 표시"
 
-#: r2/templates/prefoptions.html:451
+#: r2/templates/prefoptions.html:457
 msgid "show legacy search page"
 msgstr "이전 검색 페이지 표시"
 
-#: r2/templates/prefoptions.html:458
+#: r2/templates/prefoptions.html:464
 msgid "I am over eighteen years old and willing to view adult content"
 msgstr "나이가 만18세 이상이며, 성인 콘텐츠를 볼 수 있습니다."
 
-#: r2/templates/prefoptions.html:459
+#: r2/templates/prefoptions.html:465
 msgid "required to view some vaults"
 msgstr "일부 볼트를 보려면 필요합니다"
 
-#: r2/templates/prefoptions.html:461
+#: r2/templates/prefoptions.html:467
 msgid "label posts that are not safe for work (NSFW)"
 msgstr "NSFW게시물(안전하지 않은 게시물)을 표시하기"
 
-#: r2/templates/prefoptions.html:464
+#: r2/templates/prefoptions.html:470
 msgid "posts labelled as made with AI:"
 msgstr "AI로 만들었다는 라벨이 붙은 게시물:"
 
-#: r2/templates/prefoptions.html:473
+#: r2/templates/prefoptions.html:479
 msgid "posts in vaults that are for AI content are always shown there"
 msgstr "AI 콘텐츠용 볼트의 게시물은 그곳에서 항상 표시됩니다"
 
-#: r2/templates/prefoptions.html:475
+#: r2/templates/prefoptions.html:481
 msgid "enable private RSS feeds"
 msgstr "개인적인 RSS를 활성화합니다"
 
-#: r2/templates/prefoptions.html:477
+#: r2/templates/prefoptions.html:483
 msgid "(available from the 'RSS feed' tab in prefs)"
 msgstr "(설정에 있는 'RSS피드'에서 가능)"
 
-#: r2/templates/prefoptions.html:480
+#: r2/templates/prefoptions.html:486
 msgid "privacy options"
 msgstr "계정 정보 공개 설정"
 
-#: r2/templates/prefoptions.html:482
+#: r2/templates/prefoptions.html:488
 msgid "make my votes public"
 msgstr "내가 링크에 매긴 점수를 공개하고 싶다 links only or comments as well"
 
-#: r2/templates/prefoptions.html:489
+#: r2/templates/prefoptions.html:495
 #, python-format
 msgid "let everyone see %(link1)s and %(link2)s"
 msgstr "%(link1)s와 %(link2)s를 모두에게 공개"
 
-#: r2/templates/prefoptions.html:492
+#: r2/templates/prefoptions.html:498
 msgid "don't allow search engines to index my user profile"
 msgstr "검색엔진이 나의 유저 프로필을 검색하는것을 허락하지 않음"
 
-#: r2/templates/prefoptions.html:502
+#: r2/templates/prefoptions.html:508
 msgid "optional analytics cookies, which help the site's admins see how it's used (see the privacy policy):"
 msgstr ""
 
-#: r2/templates/prefoptions.html:503 r2/templates/utils.html:546
+#: r2/templates/prefoptions.html:509 r2/templates/utils.html:546
 #, fuzzy
 #| msgid "Allow"
 msgid "allow"
 msgstr "허용"
 
-#: r2/templates/prefoptions.html:504 r2/templates/utils.html:547
+#: r2/templates/prefoptions.html:510 r2/templates/utils.html:547
 msgid "don't allow"
 msgstr ""
 
-#: r2/templates/prefoptions.html:505
+#: r2/templates/prefoptions.html:511
 msgid "kept with your account, on every device you sign in on"
 msgstr ""
 
-#: r2/templates/prefoptions.html:511
+#: r2/templates/prefoptions.html:517
 msgid "beta options"
 msgstr "베타 옵션"
 
-#: r2/templates/prefoptions.html:513
+#: r2/templates/prefoptions.html:519
 msgid "I would like to beta test features for tippr"
 msgstr "tippr의 기능을 베타 테스트하고 싶습니다"
 
-#: r2/templates/prefoptions.html:519
+#: r2/templates/prefoptions.html:525
 #, python-format
 msgid "by enabling you'll be subscribed to %(beta_vault_link)s automatically."
 msgstr "켜면 %(beta_vault_link)s을(를) 자동으로 구독합니다."
 
-#: r2/templates/prefoptions.html:521
+#: r2/templates/prefoptions.html:527
 #, python-brace-format
 msgid "details on the /v/{beta_vault} wiki"
 msgstr "자세한 내용은 /v/{beta_vault} 위키 참고"
 
-#: r2/templates/prefoptions.html:530 r2/templates/prefoptions.html:553
+#: r2/templates/prefoptions.html:536 r2/templates/prefoptions.html:559
 msgid "gold options"
 msgstr "골드 옵션"
 
-#: r2/templates/prefoptions.html:532
+#: r2/templates/prefoptions.html:538
 msgid "hide ads"
 msgstr "광고 숨기기"
 
-#: r2/templates/prefoptions.html:534
+#: r2/templates/prefoptions.html:540
 msgid "remember what links I've visited"
 msgstr "내가 방문했던 링크 기억하기"
 
-#: r2/templates/prefoptions.html:535
+#: r2/templates/prefoptions.html:541
 msgid "we'll remember and mark what links you've already read, even between computers"
 msgstr "당신이 모든 컴퓨터에서 읽은 게시물을 저장합니다."
 
-#: r2/templates/prefoptions.html:537 r2/templates/prefoptions.html:555
+#: r2/templates/prefoptions.html:543 r2/templates/prefoptions.html:561
 msgid "highlight new comments"
 msgstr "새로운 댓글 표시하기"
 
-#: r2/templates/prefoptions.html:539
+#: r2/templates/prefoptions.html:545
 msgid "we'll remember your visits for 48 hours and show you which comments you haven't seen yet"
 msgstr "회원님의 방문을 48시간동안 기억하고 아직 보시지 않은 댓글을 보여드리겠습니다."
 
-#: r2/templates/prefoptions.html:542
+#: r2/templates/prefoptions.html:548
 msgid "show gold expiration"
 msgstr "골드 만료일 표시"
 
-#: r2/templates/prefoptions.html:544
+#: r2/templates/prefoptions.html:550
 msgid "show how much gold you have remaining on your userpage"
 msgstr "사용자 페이지에 남은 골드 표시"
 
-#: r2/templates/prefoptions.html:548
+#: r2/templates/prefoptions.html:554
 #, python-format
 msgid "use a month of my %(coin_link)s to automatically renew my gold if it expires"
 msgstr "골드가 만료되면 %(coin_link)s에서 한 달분을 써서 자동으로 갱신"
 
-#: r2/templates/prefoptions.html:558
+#: r2/templates/prefoptions.html:564
 #, python-format
 msgid "since you don't have %(gold_link)s, this will only apply in vaults you moderate"
 msgstr "%(gold_link)s이(가) 없으므로 내가 관리하는 볼트에서만 적용됩니다"
 
-#: r2/templates/prefoptions.html:566
+#: r2/templates/prefoptions.html:572
 msgid "tippr themes"
 msgstr "tippr 테마"
 
-#: r2/templates/prefoptions.html:570
+#: r2/templates/prefoptions.html:576
 msgid "tippr themes change the appearance of tippr.  They are used anywhere another custom theme is not present."
 msgstr "tippr 테마는 tippr의 모양을 바꿉니다. 다른 사용자 지정 테마가 없는 모든 곳에 적용됩니다."
 
-#: r2/templates/prefoptions.html:574
+#: r2/templates/prefoptions.html:580
 msgid "Note: For security reasons this page will not be changed by themes"
 msgstr "참고: 보안상의 이유로 이 문서는 테마의 영향을 받지 않습니다"
 
-#: r2/templates/prefoptions.html:578
+#: r2/templates/prefoptions.html:584
 msgid "use tippr theme"
 msgstr "tippr 테마 사용"
 
-#: r2/templates/prefoptions.html:579
+#: r2/templates/prefoptions.html:585
 msgid "hover to preview"
 msgstr "마우스를 올려 미리보기"
 
-#: r2/templates/prefoptions.html:598
+#: r2/templates/prefoptions.html:604
 msgid "warning: use non-featured themes at your own risk"
 msgstr "경고: 비추천 테마의 사용은 자기 자신이 책임져야 합니다"
 

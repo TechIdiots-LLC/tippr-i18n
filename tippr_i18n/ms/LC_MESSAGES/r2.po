@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tippr\n"
 "Report-Msgid-Bugs-To: https://github.com/TechIdiots-LLC/tippr-i18n/issues\n"
-"POT-Creation-Date: 2026-10-23 20:15-0400\n"
+"POT-Creation-Date: 2026-10-24 09:58-0400\n"
 "PO-Revision-Date: 2017-01-23 14:37-0500\n"
 "Last-Translator: tippr translators\n"
 "Language-Team: Malay\n"
@@ -19,475 +19,475 @@ msgstr ""
 msgid "Choose an image of at most 1 MB."
 msgstr "Pilih imej yang tidak melebihi 1 MB."
 
-#: r2/controllers/api.py:222 r2/controllers/api.py:248 r2/controllers/api.py:4398 r2/controllers/api.py:4468 r2/controllers/listingcontroller.py:754 r2/lib/pages/pages.py:6377
+#: r2/controllers/api.py:223 r2/controllers/api.py:249 r2/controllers/api.py:4403 r2/controllers/api.py:4473 r2/controllers/listingcontroller.py:766 r2/lib/pages/pages.py:6382
 msgid "API"
 msgstr "API"
 
-#: r2/controllers/api.py:273
+#: r2/controllers/api.py:274
 msgid "this is too long"
 msgstr "ini terlalu panjang"
 
-#: r2/controllers/api.py:287 r2/lib/errors.py:72
+#: r2/controllers/api.py:288 r2/lib/errors.py:72
 msgid "that user doesn't exist"
 msgstr "pengguna itu tidak wujud"
 
-#: r2/controllers/api.py:291
+#: r2/controllers/api.py:292
 #, python-format
 msgid "you can tag at most %(n)d users"
 msgstr "anda boleh tag paling banyak %(n)d pengguna"
 
-#: r2/controllers/api.py:309
+#: r2/controllers/api.py:310
 msgid "wrong username or password"
 msgstr "nama pengguna atau kata laluan salah"
 
-#: r2/controllers/api.py:311
+#: r2/controllers/api.py:312
 msgid "that's the account you're using"
 msgstr "itulah akaun yang sedang anda gunakan"
 
-#: r2/controllers/api.py:313
+#: r2/controllers/api.py:314
 #, python-format
 msgid "you can keep at most %(n)d other accounts"
 msgstr "anda boleh simpan paling banyak %(n)d akaun lain"
 
-#: r2/controllers/api.py:318
+#: r2/controllers/api.py:319
 msgid "enter that account's two-factor code"
 msgstr "masukkan kod dua faktor akaun itu"
 
-#: r2/controllers/api.py:334
+#: r2/controllers/api.py:335
 msgid "that account isn't available to switch to; add it again"
 msgstr "akaun itu tidak boleh ditukar kepadanya; tambahkannya semula"
 
-#: r2/controllers/api.py:547
+#: r2/controllers/api.py:548
 msgid "your message has been delivered"
 msgstr "mesej anda telah dihantar"
 
-#: r2/controllers/api.py:769
+#: r2/controllers/api.py:770
 msgid "no title found"
 msgstr "tajuk tidak ditemui"
 
-#: r2/controllers/api.py:863 r2/controllers/linked_logins.py:184 r2/controllers/linked_logins.py:232 r2/controllers/linked_logins.py:252 r2/controllers/linked_logins.py:330
+#: r2/controllers/api.py:864 r2/controllers/linked_logins.py:184 r2/controllers/linked_logins.py:232 r2/controllers/linked_logins.py:252 r2/controllers/linked_logins.py:330
 msgid "That sign-in took too long. Please start again."
 msgstr "Log masuk itu mengambil masa terlalu lama. Sila mulakan semula."
 
-#: r2/controllers/api.py:868
+#: r2/controllers/api.py:869
 msgid "That account is linked already: sign in with it."
 msgstr "Akaun itu sudah dipautkan: log masuk dengannya."
 
-#: r2/controllers/api.py:1402 r2/controllers/api.py:1783 r2/controllers/api.py:2683 r2/controllers/api.py:2983 r2/controllers/api.py:3310 r2/controllers/api.py:4190 r2/controllers/api.py:4246 r2/controllers/api.py:4300 r2/controllers/api.py:4533 r2/controllers/api.py:4538 r2/controllers/api.py:4773 r2/controllers/api.py:4838 r2/controllers/api.py:4916 r2/controllers/api.py:4982 r2/controllers/api.py:5055 r2/controllers/api.py:5146 r2/controllers/api.py:5178 r2/controllers/api.py:5198 r2/controllers/api.py:5712 r2/controllers/api.py:5752 r2/controllers/api.py:5986 r2/controllers/api.py:6004 r2/controllers/api.py:6352 r2/lib/pages/pages.py:6268
+#: r2/controllers/api.py:1403 r2/controllers/api.py:1784 r2/controllers/api.py:2686 r2/controllers/api.py:2986 r2/controllers/api.py:3313 r2/controllers/api.py:4195 r2/controllers/api.py:4251 r2/controllers/api.py:4305 r2/controllers/api.py:4538 r2/controllers/api.py:4543 r2/controllers/api.py:4778 r2/controllers/api.py:4843 r2/controllers/api.py:4921 r2/controllers/api.py:4987 r2/controllers/api.py:5060 r2/controllers/api.py:5151 r2/controllers/api.py:5183 r2/controllers/api.py:5203 r2/controllers/api.py:5717 r2/controllers/api.py:5757 r2/controllers/api.py:5991 r2/controllers/api.py:6009 r2/controllers/api.py:6357 r2/lib/pages/pages.py:6273
 msgid "saved"
 msgstr "disimpan"
 
-#: r2/controllers/api.py:1472
+#: r2/controllers/api.py:1473
 msgid "all other sessions have been logged out"
 msgstr "semua sesi lain telah dilog keluar"
 
-#: r2/controllers/api.py:1531
+#: r2/controllers/api.py:1532
 msgid "you should be getting a verification email shortly."
 msgstr "anda akan menerima emel pengesahan sebentar lagi."
 
-#: r2/controllers/api.py:1533 r2/controllers/api.py:1546
+#: r2/controllers/api.py:1534 r2/controllers/api.py:1547
 msgid "your email has been updated"
 msgstr "e-mel anda telah dikemaskinikan"
 
-#: r2/controllers/api.py:1581
+#: r2/controllers/api.py:1582
 msgid "your password has been updated"
 msgstr "kata laluan anda telah dikemaskinikan"
 
-#: r2/controllers/api.py:2040 r2/lib/menus.py:196 r2/templates/adminserverstatus.html:141
+#: r2/controllers/api.py:2041 r2/lib/menus.py:196 r2/templates/adminserverstatus.html:141
 msgid "reported"
 msgstr "dilaporkan"
 
-#: r2/controllers/api.py:2461 r2/lib/support.py:91
+#: r2/controllers/api.py:2464 r2/lib/support.py:91
 msgid "replied"
 msgstr "dibalas"
 
-#: r2/controllers/api.py:2666
+#: r2/controllers/api.py:2669
 msgid "validation errors"
 msgstr "ralat pengesahan "
 
-#: r2/controllers/api.py:2786 r2/controllers/api.py:2813 r2/controllers/api.py:2840 r2/controllers/listingcontroller.py:1036 r2/lib/menus.py:195 r2/public/static/js/tippr.js:231 r2/templates/adminapps.html:51 r2/templates/adminuser.html:59 r2/templates/deleteduserinterstitial.html:34 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:578 r2/templates/vaultstylesheetbase.html:47
+#: r2/controllers/api.py:2789 r2/controllers/api.py:2816 r2/controllers/api.py:2843 r2/controllers/listingcontroller.py:1048 r2/lib/menus.py:195 r2/public/static/js/tippr.js:235 r2/templates/adminapps.html:51 r2/templates/adminuser.html:59 r2/templates/deleteduserinterstitial.html:34 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:578 r2/templates/vaultstylesheetbase.html:47
 msgid "deleted"
 msgstr "dihapus"
 
-#: r2/controllers/api.py:2917
+#: r2/controllers/api.py:2920
 msgid "bad image name"
 msgstr "nama imej rosak"
 
-#: r2/controllers/api.py:2923
+#: r2/controllers/api.py:2926
 #, python-format
 msgid "too many images (you only get %d)"
 msgstr "terlalu banyak imej (anda hanya ada %d)"
 
-#: r2/controllers/api.py:2928 r2/controllers/api.py:2952
+#: r2/controllers/api.py:2931 r2/controllers/api.py:2955
 msgid "Invalid image or general image error"
 msgstr "imej tak sah atau ralat imej am"
 
-#: r2/controllers/api.py:2933
+#: r2/controllers/api.py:2936
 #, python-format
 msgid "must be %dx%d pixels"
 msgstr "Mestilah %dx%d pixel"
 
-#: r2/controllers/api.py:2937
+#: r2/controllers/api.py:2940
 msgid "10:3 aspect ratio required"
 msgstr "nisbah aspek 10:3 diperlukan"
 
-#: r2/controllers/api.py:2940
+#: r2/controllers/api.py:2943
 #, python-format
 msgid "max %dx%d pixels"
 msgstr "Pixel %dx%d maksimum"
 
-#: r2/controllers/api.py:2943
+#: r2/controllers/api.py:2946
 #, python-format
 msgid "min %dx%d pixels"
 msgstr "minimum %dx%d pixel"
 
-#: r2/controllers/api.py:4002
+#: r2/controllers/api.py:4007
 msgid "an email will be sent to that account's address shortly"
 msgstr "satu e-mel akan dihantar kepada alamat akaun tersebut sebentar lagi"
 
-#: r2/controllers/api.py:4005
+#: r2/controllers/api.py:4010
 msgid "try again tomorrow"
 msgstr "sila cuba lagi pada keesokan hari"
 
-#: r2/controllers/api.py:4052
+#: r2/controllers/api.py:4057
 msgid "password updated"
 msgstr "kata laluan dikemaskinikan"
 
-#: r2/controllers/api.py:4258 r2/controllers/api.py:4489
+#: r2/controllers/api.py:4263 r2/controllers/api.py:4494
 msgid "invalid css class"
 msgstr "kelas css tak sah"
 
-#: r2/controllers/api.py:4261 r2/controllers/api.py:4492
+#: r2/controllers/api.py:4266 r2/controllers/api.py:4497
 msgid "too many css classes"
 msgstr "terlalu banyak kelas css"
 
-#: r2/controllers/api.py:4513
+#: r2/controllers/api.py:4518
 msgid "max flair templates reached"
 msgstr "templat flair maksimum telah dicapai"
 
-#: r2/controllers/api.py:4978
+#: r2/controllers/api.py:4983
 #, python-format
 msgid "saved, but these aren't on until their keys are filled in: %(names)s"
 msgstr "disimpan, tetapi yang berikut tidak aktif sehingga kuncinya diisi: %(names)s"
 
-#: r2/controllers/api.py:5000
+#: r2/controllers/api.py:5005
 msgid "the keys work"
 msgstr "kunci berfungsi"
 
-#: r2/controllers/api.py:5001 r2/controllers/api.py:5018
+#: r2/controllers/api.py:5006 r2/controllers/api.py:5023
 #, python-format
 msgid "didn't work: %(error)s"
 msgstr "tidak berjaya: %(error)s"
 
-#: r2/controllers/api.py:5006
+#: r2/controllers/api.py:5011
 msgid "no such payment"
 msgstr "tiada pembayaran sebegitu"
 
-#: r2/controllers/api.py:5021 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminprivacy.html:26 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminuser.html:89 r2/templates/adminusers.html:77 r2/templates/adminvaults.html:50
+#: r2/controllers/api.py:5026 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminprivacy.html:26 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminuser.html:89 r2/templates/adminusers.html:77 r2/templates/adminvaults.html:50
 msgid "status"
 msgstr "status"
 
-#: r2/controllers/api.py:5046 r2/controllers/linked_logins.py:93 r2/controllers/linked_logins.py:187 r2/lib/pages/pages.py:1373 r2/lib/pages/pages.py:1423 r2/templates/createvault.html:57 r2/templates/goldpayment.html:168 r2/templates/linkedsignin.html:41 r2/templates/listingchooser.html:69 r2/templates/prefapps.html:153 r2/templates/prefapps.html:348
+#: r2/controllers/api.py:5051 r2/controllers/linked_logins.py:93 r2/controllers/linked_logins.py:187 r2/lib/pages/pages.py:1374 r2/lib/pages/pages.py:1424 r2/templates/createvault.html:57 r2/templates/goldpayment.html:168 r2/templates/linkedsignin.html:41 r2/templates/listingchooser.html:69 r2/templates/prefapps.html:153 r2/templates/prefapps.html:348
 msgid "name"
 msgstr "nama"
 
-#: r2/controllers/api.py:5051
+#: r2/controllers/api.py:5056
 #, python-format
 msgid "saved, but these aren't on until their ID and secret are filled in: %(names)s"
 msgstr "disimpan, tetapi yang berikut tidak aktif sehingga ID dan rahsianya diisi: %(names)s"
 
-#: r2/controllers/api.py:5160 r2/controllers/api.py:5186
+#: r2/controllers/api.py:5165 r2/controllers/api.py:5191
 msgid "this site's live config is managed in ZooKeeper"
 msgstr "konfigurasi langsung laman ini diuruskan dalam ZooKeeper"
 
-#: r2/controllers/api.py:5164
+#: r2/controllers/api.py:5169
 msgid "unknown setting"
 msgstr "tetapan tidak diketahui"
 
-#: r2/controllers/api.py:5172 r2/controllers/api.py:5196
+#: r2/controllers/api.py:5177 r2/controllers/api.py:5201
 #, python-format
 msgid "not saved: %(error)s"
 msgstr "tidak disimpan: %(error)s"
 
-#: r2/controllers/api.py:5202
+#: r2/controllers/api.py:5207
 #, python-format
 msgid "%(saved)d saved; %(failed)d not saved (see below)"
 msgstr "%(saved)d disimpan; %(failed)d tidak disimpan (lihat di bawah)"
 
-#: r2/controllers/api.py:5208
+#: r2/controllers/api.py:5213
 msgid "nothing changed"
 msgstr "tiada apa-apa berubah"
 
-#: r2/controllers/api.py:5224
+#: r2/controllers/api.py:5229
 #, python-format
 msgid "couldn't empty: %(servers)s"
 msgstr "tidak dapat dikosongkan: %(servers)s"
 
-#: r2/controllers/api.py:5249
+#: r2/controllers/api.py:5254
 msgid "every account has been checked"
 msgstr "setiap akaun telah disemak"
 
-#: r2/controllers/api.py:5261
+#: r2/controllers/api.py:5266
 msgid "select some accounts"
 msgstr "pilih beberapa akaun"
 
-#: r2/controllers/api.py:5308 r2/controllers/api.py:5414
+#: r2/controllers/api.py:5313 r2/controllers/api.py:5419
 msgid "no such account"
 msgstr "tiada akaun sebegitu"
 
-#: r2/controllers/api.py:5311 r2/controllers/api.py:5406
+#: r2/controllers/api.py:5316 r2/controllers/api.py:5411
 msgid "unknown action"
 msgstr "tindakan tidak diketahui"
 
-#: r2/controllers/api.py:5325
+#: r2/controllers/api.py:5330
 #, fuzzy
 #| msgid "no permissions"
 msgid "choose a permission"
 msgstr "tidak ada keizinan"
 
-#: r2/controllers/api.py:5339
+#: r2/controllers/api.py:5344
 msgid "not on admins (take them off the employees list on /admin/config first)"
 msgstr "tidak untuk pentadbir (keluarkan mereka daripada senarai pekerja di /admin/config dahulu)"
 
-#: r2/controllers/api.py:5343
+#: r2/controllers/api.py:5348
 msgid "the account is deleted"
 msgstr "akaun telah dihapuskan"
 
-#: r2/controllers/api.py:5346
+#: r2/controllers/api.py:5351
 msgid "give a reason (it's logged, and a timeout's reason is sent to them)"
 msgstr "berikan sebab (ia direkodkan, dan sebab masa tamat dihantar kepada mereka)"
 
-#: r2/controllers/api.py:5350 r2/controllers/api.py:5431
+#: r2/controllers/api.py:5355 r2/controllers/api.py:5436
 msgid "tick the box to confirm"
 msgstr "tandakan kotak untuk mengesahkan"
 
-#: r2/controllers/api.py:5353
+#: r2/controllers/api.py:5358
 msgid "choose whether to keep or delete their posts"
 msgstr "pilih sama ada mahu simpan atau hapus kiriman mereka"
 
-#: r2/controllers/api.py:5356
+#: r2/controllers/api.py:5361
 msgid "they have no email address"
 msgstr "mereka tiada alamat e-mel"
 
-#: r2/controllers/api.py:5403 r2/controllers/api.py:5509
+#: r2/controllers/api.py:5408 r2/controllers/api.py:5514
 msgid "no such vault"
 msgstr "tiada vault sebegitu"
 
-#: r2/controllers/api.py:5418
+#: r2/controllers/api.py:5423
 msgid "they're already a moderator"
 msgstr "mereka sudah pun pengendali"
 
-#: r2/controllers/api.py:5421
+#: r2/controllers/api.py:5426
 msgid "they're banned from the vault; unban them first"
 msgstr "mereka diharamkan daripada vault; tarik balik pengharaman dahulu"
 
-#: r2/controllers/api.py:5426
+#: r2/controllers/api.py:5431
 msgid "they aren't a moderator"
 msgstr "mereka bukan pengendali"
 
-#: r2/controllers/api.py:5438
+#: r2/controllers/api.py:5443
 msgid "unban the vault first"
 msgstr "tarik balik pengharaman vault dahulu"
 
-#: r2/controllers/api.py:5457
+#: r2/controllers/api.py:5462
 msgid "no such app"
 msgstr "tiada aplikasi sebegitu"
 
-#: r2/controllers/api.py:5460
+#: r2/controllers/api.py:5465
 msgid "the site's own apps can't be deleted here"
 msgstr "aplikasi milik laman sendiri tidak boleh dihapuskan di sini"
 
-#: r2/controllers/api.py:5503
+#: r2/controllers/api.py:5508
 msgid "give the feed's http(s) address"
 msgstr "berikan alamat http(s) suapan"
 
-#: r2/controllers/api.py:5512
+#: r2/controllers/api.py:5517
 msgid "pick one of the AI labels"
 msgstr "pilih salah satu label AI"
 
-#: r2/controllers/api.py:5516
+#: r2/controllers/api.py:5521
 #, python-format
 msgid "/v/%(vault)s doesn't accept %(label)s posts"
 msgstr "/v/%(vault)s tidak menerima kiriman %(label)s"
 
-#: r2/controllers/api.py:5522
+#: r2/controllers/api.py:5527
 msgid "give the bot account a valid username"
 msgstr "berikan akaun bot nama pengguna yang sah"
 
-#: r2/controllers/api.py:5531
+#: r2/controllers/api.py:5536
 msgid "that account is suspended or deleted"
 msgstr "akaun itu digantung atau dihapuskan"
 
-#: r2/controllers/api.py:5538 r2/controllers/api.py:5553
+#: r2/controllers/api.py:5543 r2/controllers/api.py:5558
 msgid "no such feed"
 msgstr "tiada suapan sebegitu"
 
-#: r2/controllers/api.py:5576
+#: r2/controllers/api.py:5581
 msgid "give a domain"
 msgstr "berikan domain"
 
-#: r2/controllers/api.py:5582
+#: r2/controllers/api.py:5587
 msgid "choose what the ban does"
 msgstr "pilih apa yang dilakukan oleh pengharaman"
 
-#: r2/controllers/api.py:5585
+#: r2/controllers/api.py:5590
 msgid "give a reason (members see it when the link is refused)"
 msgstr "berikan sebab (ahli melihatnya apabila pautan ditolak)"
 
-#: r2/controllers/api.py:5590
+#: r2/controllers/api.py:5595
 msgid "that's not a domain"
 msgstr "itu bukan domain"
 
-#: r2/controllers/api.py:5617 r2/controllers/api.py:5636 r2/controllers/api.py:5653 r2/controllers/api.py:5671
+#: r2/controllers/api.py:5622 r2/controllers/api.py:5641 r2/controllers/api.py:5658 r2/controllers/api.py:5676
 msgid "no such ticket"
 msgstr "tiada tiket sebegitu"
 
-#: r2/controllers/api.py:5684
+#: r2/controllers/api.py:5689
 msgid "they can't reply in this category"
 msgstr "mereka tidak boleh membalas dalam kategori ini"
 
-#: r2/controllers/api.py:5704
+#: r2/controllers/api.py:5709
 msgid "not on the employees list"
 msgstr "tiada dalam senarai pekerja"
 
-#: r2/controllers/api.py:5756
+#: r2/controllers/api.py:5761
 msgid "saved; CleanTalk needs an access key to work"
 msgstr "disimpan; CleanTalk memerlukan kunci akses untuk berfungsi"
 
-#: r2/controllers/api.py:5759
+#: r2/controllers/api.py:5764
 #, python-format
 msgid "saved; CleanTalk says: %(problem)s"
 msgstr "disimpan; CleanTalk berkata: %(problem)s"
 
-#: r2/controllers/api.py:5761
+#: r2/controllers/api.py:5766
 msgid "saved; the CleanTalk key works"
 msgstr "disimpan; kunci CleanTalk berfungsi"
 
-#: r2/controllers/api.py:5798
+#: r2/controllers/api.py:5803
 msgid "that isn't a release with an installer"
 msgstr "itu bukan keluaran yang mempunyai pemasang"
 
-#: r2/controllers/api.py:5801
+#: r2/controllers/api.py:5806
 msgid "a server is updating now; wait for it to finish"
 msgstr "sebuah pelayan sedang dikemas kini; tunggu sehingga ia selesai"
 
-#: r2/controllers/api.py:5903
+#: r2/controllers/api.py:5908
 msgid "Copy the key now; it isn't shown again."
 msgstr "Salin kunci sekarang; ia tidak akan ditunjukkan lagi."
 
-#: r2/controllers/api.py:5912
+#: r2/controllers/api.py:5917
 msgid "tippr-backup isn't installed on this server (re-run the installer)."
 msgstr "tippr-backup tidak dipasang pada pelayan ini (jalankan semula pemasang)."
 
-#: r2/controllers/api.py:5917
+#: r2/controllers/api.py:5922
 msgid "no such backup"
 msgstr "tiada sandaran sebegitu"
 
-#: r2/controllers/api.py:5922
+#: r2/controllers/api.py:5927
 #, python-format
 msgid "Type this site's domain (%(domain)s) to confirm."
 msgstr "Taip domain laman ini (%(domain)s) untuk mengesahkan."
 
-#: r2/controllers/api.py:5935
+#: r2/controllers/api.py:5940
 msgid "Enter the other server's address and its transfer key."
 msgstr "Masukkan alamat pelayan lain dan kunci pemindahannya."
 
-#: r2/controllers/api.py:5939
+#: r2/controllers/api.py:5944
 msgid "That isn't a backup name."
 msgstr "Itu bukan nama sandaran."
 
-#: r2/controllers/api.py:5960
+#: r2/controllers/api.py:5965
 msgid "tippr test email"
 msgstr "e-mel ujian tippr"
 
-#: r2/controllers/api.py:5961
+#: r2/controllers/api.py:5966
 #, python-format
 msgid "This is a test message from %(domain)s. Email is working."
 msgstr "Ini ialah mesej ujian daripada %(domain)s. E-mel berfungsi."
 
-#: r2/controllers/api.py:5965
+#: r2/controllers/api.py:5970
 #, python-format
 msgid "failed: %(error)s"
 msgstr "gagal: %(error)s"
 
-#: r2/controllers/api.py:5967
+#: r2/controllers/api.py:5972
 #, python-format
 msgid "sent to %(address)s"
 msgstr "dihantar ke %(address)s"
 
-#: r2/controllers/api.py:6000
+#: r2/controllers/api.py:6005
 msgid "no gold to take"
 msgstr "tiada emas untuk diterima"
 
-#: r2/controllers/api.py:6164 r2/controllers/api.py:6194
+#: r2/controllers/api.py:6169 r2/controllers/api.py:6199
 msgid "that's as many authenticator apps as an account can have"
 msgstr "itulah jumlah maksimum aplikasi pengesah yang boleh dimiliki sesebuah akaun"
 
-#: r2/controllers/api.py:6242
+#: r2/controllers/api.py:6247
 msgid "That code didn't work. Codes follow the clock, so check that your phone sets its time automatically."
 msgstr ""
 
-#: r2/controllers/api.py:6245
+#: r2/controllers/api.py:6250
 msgid "enter a code from one of your methods first"
 msgstr "masukkan kod daripada salah satu kaedah anda dahulu"
 
-#: r2/controllers/api.py:6248
+#: r2/controllers/api.py:6253
 #, fuzzy
 #| msgid "That code isn't right. Try again."
 msgid "That password isn't right. Try again."
 msgstr "Kod itu tidak betul. Cuba lagi."
 
-#: r2/controllers/api.py:6249
+#: r2/controllers/api.py:6254
 msgid "enter your password first"
 msgstr "masukkan kata laluan anda dahulu"
 
-#: r2/controllers/api.py:6267
+#: r2/controllers/api.py:6272
 msgid "that passkey couldn't be added"
 msgstr "kunci laluan itu tidak dapat ditambah"
 
-#: r2/controllers/api.py:6305
+#: r2/controllers/api.py:6310
 msgid "that passkey wasn't accepted"
 msgstr "kunci laluan itu tidak diterima"
 
-#: r2/controllers/api.py:6464
+#: r2/controllers/api.py:6469
 #, python-format
 msgid "accounts need to be %(n)d days old"
 msgstr "akaun perlu berusia %(n)d hari"
 
-#: r2/controllers/api.py:6468
+#: r2/controllers/api.py:6473
 #, python-format
 msgid "accounts need %(n)d karma"
 msgstr "akaun memerlukan %(n)d karma"
 
-#: r2/controllers/api.py:6471
+#: r2/controllers/api.py:6476
 msgid "verify your email address first"
 msgstr "sahkan alamat e-mel anda dahulu"
 
-#: r2/controllers/api.py:6513 r2/lib/errors.py:158
+#: r2/controllers/api.py:6518 r2/lib/errors.py:158
 msgid "this app can not be modified from this interface"
 msgstr "aplikasi ini tidak boleh diubah suai daripada antara muka ini"
 
-#: r2/controllers/api.py:6520 r2/lib/errors.py:136
+#: r2/controllers/api.py:6525 r2/lib/errors.py:136
 msgid "invalid client id"
 msgstr "id klien tak sah"
 
-#: r2/controllers/api.py:6523
+#: r2/controllers/api.py:6528
 msgid "cannot update deleted app"
 msgstr "tidak boleh mengemas kini app yang terhapus"
 
-#: r2/controllers/api.py:6526
+#: r2/controllers/api.py:6531
 msgid "app does not belong to you"
 msgstr "app tidak dimiliki anda"
 
-#: r2/controllers/api.py:6534
+#: r2/controllers/api.py:6539
 msgid "application updated"
 msgstr "aplikasi dinaiktarafkan"
 
-#: r2/controllers/api.py:6558
+#: r2/controllers/api.py:6563
 msgid "application created"
 msgstr "aplikasi dicipta"
 
-#: r2/controllers/api.py:6593
+#: r2/controllers/api.py:6598
 msgid "developer added"
 msgstr "Developer ditambah"
 
@@ -503,7 +503,7 @@ msgstr "butang tippr"
 msgid "tippr widget"
 msgstr "wiget tippr"
 
-#: r2/controllers/embed.py:74 r2/controllers/policies.py:76 r2/lib/pages/pages.py:1136 r2/lib/pages/pages.py:6373 r2/templates/printablebuttons.html:150
+#: r2/controllers/embed.py:74 r2/controllers/policies.py:76 r2/lib/pages/pages.py:1137 r2/lib/pages/pages.py:6378 r2/templates/printablebuttons.html:150
 msgid "help"
 msgstr "bantuan"
 
@@ -533,11 +533,11 @@ msgstr "laman tidak ditemui"
 msgid "the page you requested does not exist"
 msgstr "laman yang anda mohon tidak wujud"
 
-#: r2/controllers/error.py:220 r2/controllers/listingcontroller.py:999 r2/templates/adminapps.html:51 r2/templates/banneduserinterstitial.html:35 r2/templates/intimeoutinterstitial.html:34 r2/templates/intimeoutinterstitial.html:40
+#: r2/controllers/error.py:220 r2/controllers/listingcontroller.py:1011 r2/templates/adminapps.html:51 r2/templates/banneduserinterstitial.html:35 r2/templates/intimeoutinterstitial.html:34 r2/templates/intimeoutinterstitial.html:40
 msgid "suspended"
 msgstr "digantung"
 
-#: r2/controllers/front.py:247 r2/lib/pages/pages.py:6255
+#: r2/controllers/front.py:247 r2/lib/pages/pages.py:6260
 msgid "explore"
 msgstr "jelajah"
 
@@ -569,7 +569,7 @@ msgstr "tunjuk %d"
 msgid "create a vault"
 msgstr "cipta vault"
 
-#: r2/controllers/front.py:738 r2/controllers/front.py:744 r2/controllers/listingcontroller.py:801 r2/controllers/listingcontroller.py:816 r2/controllers/listingcontroller.py:1180 r2/controllers/listingcontroller.py:1191 r2/lib/menus.py:203 r2/lib/menus.py:453 r2/lib/menus.py:666 r2/lib/pages/pages.py:5142 r2/lib/pages/pages.py:5151 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
+#: r2/controllers/front.py:738 r2/controllers/front.py:744 r2/controllers/listingcontroller.py:813 r2/controllers/listingcontroller.py:828 r2/controllers/listingcontroller.py:1192 r2/controllers/listingcontroller.py:1203 r2/lib/menus.py:203 r2/lib/menus.py:453 r2/lib/menus.py:666 r2/lib/pages/pages.py:5147 r2/lib/pages/pages.py:5156 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
 msgid "all"
 msgstr "semua"
 
@@ -593,7 +593,7 @@ msgstr "kiriman dan komen"
 msgid "posts"
 msgstr "kiriman"
 
-#: r2/controllers/front.py:949 r2/controllers/listingcontroller.py:1783 r2/lib/pages/pages.py:5896 r2/templates/adminuser.html:37 r2/templates/createvault.html:288 r2/templates/link.xml:95
+#: r2/controllers/front.py:949 r2/controllers/listingcontroller.py:1795 r2/lib/pages/pages.py:5901 r2/templates/adminuser.html:37 r2/templates/createvault.html:288 r2/templates/link.xml:95
 msgid "comments"
 msgstr "komen"
 
@@ -630,7 +630,7 @@ msgstr "perbincangan lain"
 msgid "search results"
 msgstr "hasil pencarian"
 
-#: r2/controllers/front.py:1309 r2/controllers/listingcontroller.py:1532 r2/lib/menus.py:95 r2/lib/menus.py:177 r2/templates/adminvault.html:23 r2/templates/adminvaults.html:22 r2/templates/pagenamenav.html:62 r2/templates/prefoptions.html:349 r2/templates/promotelinkbase.html:765
+#: r2/controllers/front.py:1309 r2/controllers/listingcontroller.py:1544 r2/lib/menus.py:95 r2/lib/menus.py:177 r2/templates/adminvault.html:23 r2/templates/adminvaults.html:22 r2/templates/pagenamenav.html:62 r2/templates/prefoptions.html:355 r2/templates/promotelinkbase.html:765
 msgid "vaults"
 msgstr "vault"
 
@@ -688,11 +688,11 @@ msgstr "tuntutan anugerah"
 msgid "gilding"
 msgstr "Pemberian emas"
 
-#: r2/controllers/front.py:1636 r2/controllers/front.py:1940 r2/controllers/front.py:1967 r2/controllers/front.py:2037 r2/controllers/front.py:2080 r2/lib/menus.py:94 r2/templates/contactus.html:117 r2/templates/contactus.html:119 r2/templates/creditgild.html:34 r2/templates/gold.html:30 r2/templates/goldabout.html:20 r2/templates/goldpayment.html:40 r2/templates/goldthanks.html:29 r2/templates/prefoptions.html:556
+#: r2/controllers/front.py:1636 r2/controllers/front.py:1940 r2/controllers/front.py:1967 r2/controllers/front.py:2037 r2/controllers/front.py:2080 r2/lib/menus.py:94 r2/templates/contactus.html:117 r2/templates/contactus.html:119 r2/templates/creditgild.html:34 r2/templates/gold.html:30 r2/templates/goldabout.html:20 r2/templates/goldpayment.html:40 r2/templates/goldthanks.html:29 r2/templates/prefoptions.html:562
 msgid "tippr gold"
 msgstr "tippr gold"
 
-#: r2/controllers/front.py:1669 r2/public/static/js/enhancements.js:1084 r2/templates/adminemailsettings.html:73 r2/templates/admininterstitial.html:52 r2/templates/linkedloginlink.html:40 r2/templates/linkedloginlink.html:58 r2/templates/login.html:96 r2/templates/login.html:98 r2/templates/login.html:223 r2/templates/loginformwide.html:46 r2/templates/prefsecurity.html:130 r2/templates/prefsecurity.html:237 r2/templates/prefsecurity.html:270 r2/templates/privacysettings.html:128 r2/templates/register.html:96 r2/templates/register.html:98 r2/templates/register.html:223
+#: r2/controllers/front.py:1669 r2/public/static/js/enhancements.js:1084 r2/templates/adminemailsettings.html:73 r2/templates/admininterstitial.html:56 r2/templates/linkedloginlink.html:40 r2/templates/linkedloginlink.html:58 r2/templates/login.html:96 r2/templates/login.html:98 r2/templates/login.html:223 r2/templates/loginformwide.html:46 r2/templates/prefsecurity.html:130 r2/templates/prefsecurity.html:237 r2/templates/prefsecurity.html:270 r2/templates/privacysettings.html:128
 msgid "password"
 msgstr "kata laluan"
 
@@ -700,7 +700,7 @@ msgstr "kata laluan"
 msgid "verify email"
 msgstr "sahkan emel"
 
-#: r2/controllers/front.py:1737 r2/templates/login.html:125 r2/templates/loginformwide.html:53 r2/templates/register.html:125
+#: r2/controllers/front.py:1737 r2/templates/login.html:125 r2/templates/loginformwide.html:53
 msgid "reset password"
 msgstr "set semula kata laluan"
 
@@ -712,7 +712,7 @@ msgstr "token mesej tidak betul"
 msgid "emails unsubscribed"
 msgstr "emel tidak dilanggan"
 
-#: r2/controllers/front.py:1843 r2/lib/pages/pages.py:929 r2/templates/admininterstitial.html:79
+#: r2/controllers/front.py:1843 r2/lib/pages/pages.py:930 r2/templates/admininterstitial.html:83
 msgid "turn admin on"
 msgstr "menghidup fungsi pentadbir"
 
@@ -732,7 +732,7 @@ msgstr "tippr gold tidak dijual di laman ini buat masa ini."
 msgid "what gold gives you"
 msgstr "apa yang diberikan oleh emas kepada anda"
 
-#: r2/controllers/front.py:2090 r2/templates/gold.html:57 r2/templates/gold.html:112 r2/templates/prefoptions.html:547
+#: r2/controllers/front.py:2090 r2/templates/gold.html:57 r2/templates/gold.html:112 r2/templates/prefoptions.html:553
 msgid "Give Gold"
 msgstr "Beri Emas"
 
@@ -965,7 +965,7 @@ msgstr ""
 msgid "sign in"
 msgstr "log masuk"
 
-#: r2/controllers/linked_logins.py:76 r2/controllers/linked_logins.py:98 r2/controllers/linked_logins.py:104 r2/controllers/linked_logins.py:185 r2/controllers/linked_logins.py:212 r2/controllers/linked_logins.py:331 r2/controllers/linked_logins.py:337 r2/templates/login.html:166 r2/templates/login.html:262 r2/templates/login.html:296 r2/templates/register.html:166 r2/templates/register.html:262 r2/templates/register.html:296
+#: r2/controllers/linked_logins.py:76 r2/controllers/linked_logins.py:98 r2/controllers/linked_logins.py:104 r2/controllers/linked_logins.py:185 r2/controllers/linked_logins.py:212 r2/controllers/linked_logins.py:331 r2/controllers/linked_logins.py:337 r2/templates/login.html:166 r2/templates/login.html:262 r2/templates/login.html:296
 msgid "log in"
 msgstr "log masuk"
 
@@ -1007,143 +1007,143 @@ msgstr ""
 msgid "Too many wrong codes. Please start again."
 msgstr "Terlalu banyak kod yang salah. Sila mulakan semula."
 
-#: r2/controllers/listingcontroller.py:596
+#: r2/controllers/listingcontroller.py:608
 msgid "newest submissions"
 msgstr "kiriman terbaru"
 
-#: r2/controllers/listingcontroller.py:624
+#: r2/controllers/listingcontroller.py:636
 msgid "rising submissions"
 msgstr "Kiriman sedang menaik"
 
-#: r2/controllers/listingcontroller.py:677
+#: r2/controllers/listingcontroller.py:689
 msgid "top scoring links"
 msgstr "pautan berskor tertinggi"
 
-#: r2/controllers/listingcontroller.py:681
+#: r2/controllers/listingcontroller.py:693
 msgid "most controversial links"
 msgstr "pautan paling kontroversi"
 
-#: r2/controllers/listingcontroller.py:695
+#: r2/controllers/listingcontroller.py:707
 msgid "promoted links"
 msgstr "pautan yang dipromosikan"
 
-#: r2/controllers/listingcontroller.py:699
+#: r2/controllers/listingcontroller.py:711
 #, python-format
 msgid "want to advertise? [click here!](%(link)s)"
 msgstr "Ingin beriklan? [tekan sini!](%(link)s)"
 
-#: r2/controllers/listingcontroller.py:734
+#: r2/controllers/listingcontroller.py:746
 msgid "you're really bored now, eh?"
 msgstr "anda benar-benar bosan, kan?"
 
-#: r2/controllers/listingcontroller.py:809
+#: r2/controllers/listingcontroller.py:821
 msgid "filter by vault"
 msgstr "tapis mengikut vault"
 
-#: r2/controllers/listingcontroller.py:823
+#: r2/controllers/listingcontroller.py:835
 msgid "filter by category"
 msgstr "tapis mengikuti kategori"
 
-#: r2/controllers/listingcontroller.py:829
+#: r2/controllers/listingcontroller.py:841
 msgid "gildings received"
 msgstr "Permohonan diterima"
 
-#: r2/controllers/listingcontroller.py:830
+#: r2/controllers/listingcontroller.py:842
 msgid "gildings given"
 msgstr "Permohonan diberikan"
 
-#: r2/controllers/listingcontroller.py:836
+#: r2/controllers/listingcontroller.py:848
 #, python-format
 msgid "overview for %(user)s"
 msgstr "tinjauan keseluruhan untuk %(user)s"
 
-#: r2/controllers/listingcontroller.py:837
+#: r2/controllers/listingcontroller.py:849
 #, python-format
 msgid "comments by %(user)s"
 msgstr "komen oleh %(user)s"
 
-#: r2/controllers/listingcontroller.py:838
+#: r2/controllers/listingcontroller.py:850
 #, python-format
 msgid "submitted by %(user)s"
 msgstr "dikirimkan oleh %(user)s"
 
-#: r2/controllers/listingcontroller.py:839
+#: r2/controllers/listingcontroller.py:851
 #, python-format
 msgid "gilded by %(user)s"
 msgstr "Permohonan mengikut %(user)s"
 
-#: r2/controllers/listingcontroller.py:840
+#: r2/controllers/listingcontroller.py:852
 #, python-format
 msgid "upvoted by %(user)s"
 msgstr "Disokong oleh %(user)s"
 
-#: r2/controllers/listingcontroller.py:841
+#: r2/controllers/listingcontroller.py:853
 #, python-format
 msgid "downvoted by %(user)s"
 msgstr "Dikecam oleh %(user)s"
 
-#: r2/controllers/listingcontroller.py:842
+#: r2/controllers/listingcontroller.py:854
 #, python-format
 msgid "saved by %(user)s"
 msgstr "Disimpan mengikut %(user)s"
 
-#: r2/controllers/listingcontroller.py:843
+#: r2/controllers/listingcontroller.py:855
 #, python-format
 msgid "hidden by %(user)s"
 msgstr "disembunyikan oleh %(user)s"
 
-#: r2/controllers/listingcontroller.py:844
+#: r2/controllers/listingcontroller.py:856
 #, python-format
 msgid "promoted by %(user)s"
 msgstr "dinaikkan mengikut %(user)s"
 
-#: r2/controllers/listingcontroller.py:846
+#: r2/controllers/listingcontroller.py:858
 #, python-format
 msgid "gildings given by %(user)s"
 msgstr "Emas yang diberi %(user)s"
 
-#: r2/controllers/listingcontroller.py:848
+#: r2/controllers/listingcontroller.py:860
 #, python-format
 msgid "profile for %(user)s"
 msgstr "profil untuk %(user)s"
 
-#: r2/controllers/listingcontroller.py:1009 r2/lib/menus.py:110 r2/templates/printablebuttons.html:591 r2/templates/printablebuttons.html:598
+#: r2/controllers/listingcontroller.py:1021 r2/lib/menus.py:110 r2/templates/printablebuttons.html:591 r2/templates/printablebuttons.html:598
 msgid "blocked"
 msgstr "disekat"
 
-#: r2/controllers/listingcontroller.py:1181 r2/controllers/listingcontroller.py:1192 r2/templates/printablebuttons.html:618
+#: r2/controllers/listingcontroller.py:1193 r2/controllers/listingcontroller.py:1204 r2/templates/printablebuttons.html:618
 msgid "unread"
 msgstr "belum dibaca"
 
-#: r2/controllers/listingcontroller.py:1183
+#: r2/controllers/listingcontroller.py:1195
 msgid "comment replies"
 msgstr "balasan komen"
 
-#: r2/controllers/listingcontroller.py:1184
+#: r2/controllers/listingcontroller.py:1196
 msgid "post replies"
 msgstr "balasan kiriman"
 
-#: r2/controllers/listingcontroller.py:1185
+#: r2/controllers/listingcontroller.py:1197
 msgid "username mentions"
 msgstr "sebutan nama pengguna"
 
-#: r2/controllers/listingcontroller.py:1199 r2/templates/tipprheader.html:119 r2/templates/tipprheader.html:124
+#: r2/controllers/listingcontroller.py:1211 r2/templates/tipprheader.html:119 r2/templates/tipprheader.html:124
 msgid "messages"
 msgstr "mesej"
 
-#: r2/controllers/listingcontroller.py:1678
+#: r2/controllers/listingcontroller.py:1690
 msgid "vaults: "
 msgstr "vault: "
 
-#: r2/controllers/listingcontroller.py:1830
+#: r2/controllers/listingcontroller.py:1842
 msgid "To block a user click 'block user'  below a message from a user you wish to block from messaging you."
 msgstr "Untuk menyekat pengguna, ketiklah \"sekat pengguna\" di bawah mesej pengguna yang ingin disekat."
 
-#: r2/controllers/listingcontroller.py:2093 r2/lib/menus.py:60
+#: r2/controllers/listingcontroller.py:2105 r2/lib/menus.py:60
 msgid "gilded"
 msgstr "disepuh"
 
-#: r2/controllers/listingcontroller.py:2109
+#: r2/controllers/listingcontroller.py:2121
 #, python-format
 msgid "gildings in this vault have paid for %(time)s of server time"
 msgstr "Pemberian emas di vault ini telah membayar untuk %(time)s masa server"
@@ -1255,15 +1255,15 @@ msgstr "pengiklanan"
 msgid "translating"
 msgstr "terjemahan"
 
-#: r2/controllers/policies.py:71 r2/controllers/policies.py:89 r2/lib/menus.py:101 r2/lib/pages/pages.py:6384 r2/templates/contactus.html:92
+#: r2/controllers/policies.py:71 r2/controllers/policies.py:89 r2/lib/menus.py:101 r2/lib/pages/pages.py:6389 r2/templates/contactus.html:92
 msgid "user agreement"
 msgstr "persetujuan pengguna"
 
-#: r2/controllers/policies.py:72 r2/controllers/policies.py:86 r2/lib/menus.py:102 r2/lib/pages/pages.py:6383 r2/templates/contactus.html:84 r2/templates/utils.html:543
+#: r2/controllers/policies.py:72 r2/controllers/policies.py:86 r2/lib/menus.py:102 r2/lib/pages/pages.py:6388 r2/templates/contactus.html:84 r2/templates/utils.html:543
 msgid "privacy policy"
 msgstr "dasar kerahsiaan"
 
-#: r2/controllers/policies.py:73 r2/controllers/policies.py:92 r2/lib/menus.py:100 r2/lib/pages/pages.py:6385 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:193
+#: r2/controllers/policies.py:73 r2/controllers/policies.py:92 r2/lib/menus.py:100 r2/lib/pages/pages.py:6390 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:193
 msgid "content policy"
 msgstr "polisi kandungan"
 
@@ -1403,7 +1403,7 @@ msgstr "pilih imej"
 msgid "too big. keep it under 500 KB"
 msgstr "terlalu besar. pastikan di bawah 500 KB"
 
-#: r2/controllers/tippr_base.py:1483 r2/lib/pages/pages.py:4671 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
+#: r2/controllers/tippr_base.py:1483 r2/lib/pages/pages.py:4676 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
 msgid "banned"
 msgstr "diharamkan"
 
@@ -1706,7 +1706,7 @@ msgstr "kata laluan itu tidak boleh diterima"
 msgid "wrong password"
 msgstr "Kata kunci salah"
 
-#: r2/lib/errors.py:65 r2/public/static/js/login.js:378
+#: r2/lib/errors.py:65 r2/public/static/js/login.js:385
 msgid "passwords do not match"
 msgstr "kata laluan tidak sama"
 
@@ -2758,7 +2758,7 @@ msgstr "spam"
 msgid "autobanned"
 msgstr "diharamkan secara automatik"
 
-#: r2/lib/menus.py:82 r2/lib/pages/pages.py:1270 r2/lib/pages/pages.py:1294
+#: r2/lib/menus.py:82 r2/lib/pages/pages.py:1271 r2/lib/pages/pages.py:1295
 msgid "preferences"
 msgstr "pilihan"
 
@@ -2851,7 +2851,7 @@ msgstr "dihantar"
 msgid "comments {toolbar}"
 msgstr "komen {toolbar}"
 
-#: r2/lib/menus.py:123 r2/templates/adminprivacy.html:27 r2/templates/prefoptions.html:496
+#: r2/lib/menus.py:123 r2/templates/adminprivacy.html:27 r2/templates/prefoptions.html:502
 msgid "details"
 msgstr "butiran"
 
@@ -2872,7 +2872,7 @@ msgstr "lembaran gaya"
 msgid "home"
 msgstr "halaman utama"
 
-#: r2/lib/menus.py:130 r2/lib/pages/pages.py:1127
+#: r2/lib/menus.py:130 r2/lib/pages/pages.py:1128
 msgid "about"
 msgstr "mengenai"
 
@@ -2880,7 +2880,7 @@ msgstr "mengenai"
 msgid "edit subscriptions"
 msgstr "sunting langganan"
 
-#: r2/lib/menus.py:132 r2/lib/pages/pages.py:2309
+#: r2/lib/menus.py:132 r2/lib/pages/pages.py:2314
 msgid "vault settings"
 msgstr "tetapan vault"
 
@@ -2888,11 +2888,11 @@ msgstr "tetapan vault"
 msgid "edit stylesheet"
 msgstr "ubah stylesheet"
 
-#: r2/lib/menus.py:134 r2/public/static/js/messagecompose.js:177
+#: r2/lib/menus.py:134 r2/public/static/js/messagecompose.js:192
 msgid "rules"
 msgstr "peraturan"
 
-#: r2/lib/menus.py:135 r2/lib/pages/pages.py:880 r2/templates/adminvault.html:33 r2/templates/adminvault.html:101
+#: r2/lib/menus.py:135 r2/lib/pages/pages.py:881 r2/templates/adminvault.html:33 r2/templates/adminvault.html:101
 msgid "moderators"
 msgstr "pengendali"
 
@@ -2968,7 +2968,7 @@ msgstr "popular"
 msgid "create"
 msgstr "cipta"
 
-#: r2/lib/menus.py:158 r2/lib/pages/pages.py:2934
+#: r2/lib/menus.py:158 r2/lib/pages/pages.py:2939
 msgid "my vaults"
 msgstr "vault saya"
 
@@ -3030,11 +3030,11 @@ msgstr "perlindungan spam"
 msgid "live config"
 msgstr "konfigurasi langsung"
 
-#: r2/lib/menus.py:175 r2/lib/pages/pages.py:938 r2/templates/adminsupport.html:34
+#: r2/lib/menus.py:175 r2/lib/pages/pages.py:939 r2/templates/adminsupport.html:34
 msgid "support"
 msgstr "sokongan"
 
-#: r2/lib/menus.py:176 r2/templates/adminuser.html:24 r2/templates/adminusers.html:22 r2/templates/prefoptions.html:350
+#: r2/lib/menus.py:176 r2/templates/adminuser.html:24 r2/templates/adminusers.html:22 r2/templates/prefoptions.html:356
 msgid "users"
 msgstr "pengguna"
 
@@ -3046,7 +3046,7 @@ msgstr "aplikasi API"
 msgid "feeds"
 msgstr "suapan"
 
-#: r2/lib/menus.py:180 r2/templates/admindomain.html:22 r2/templates/admindomains.html:22 r2/templates/prefoptions.html:348
+#: r2/lib/menus.py:180 r2/templates/admindomain.html:22 r2/templates/admindomains.html:22 r2/templates/prefoptions.html:354
 msgid "domains"
 msgstr "domain"
 
@@ -3665,7 +3665,7 @@ msgid "link"
 msgid_plural "links"
 msgstr[0] "pautan"
 
-#: r2/lib/pages/pages.py:1523 r2/lib/strings.py:263 r2/templates/messagecompose.html:101
+#: r2/lib/pages/pages.py:1524 r2/lib/strings.py:263 r2/templates/messagecompose.html:101
 msgid "message"
 msgid_plural "messages"
 msgstr[0] "mesej"
@@ -3725,7 +3725,7 @@ msgid "hour"
 msgid_plural "hours"
 msgstr[0] "jam"
 
-#: r2/lib/pages/pages.py:346 r2/lib/pages/pages.py:5696 r2/lib/strings.py:279 r2/public/static/js/sponsored.js:1477 r2/public/static/js/sponsored.js:1838 r2/templates/intimeoutinterstitial.html:44 r2/templates/tipprtraffic.html:104
+#: r2/lib/pages/pages.py:347 r2/lib/pages/pages.py:5701 r2/lib/strings.py:279 r2/public/static/js/sponsored.js:1484 r2/public/static/js/sponsored.js:1851 r2/templates/intimeoutinterstitial.html:44 r2/templates/tipprtraffic.html:104
 msgid "day"
 msgid_plural "days"
 msgstr[0] "hari"
@@ -4060,7 +4060,7 @@ msgstr "pengendali /v/%(tippr)s, bercakap secara rasmi"
 msgid "%(user)s just celebrated a tippr birthday!"
 msgstr "%(user)s baru sahaja menyambut hari jadi tippr!"
 
-#: r2/lib/pages/pages.py:1340 r2/lib/template_helpers.py:771 r2/public/static/js/timetext.js:68
+#: r2/lib/pages/pages.py:1341 r2/lib/template_helpers.py:771 r2/public/static/js/timetext.js:68
 msgid "just now"
 msgstr "baru sahaja"
 
@@ -4092,481 +4092,481 @@ msgstr "alamat IP"
 msgid "user"
 msgstr "pengguna"
 
-#: r2/lib/pages/pages.py:178
+#: r2/lib/pages/pages.py:179
 #, python-format
 msgid "%d %b %Y"
 msgstr "%d %b %Y"
 
-#: r2/lib/pages/pages.py:338
+#: r2/lib/pages/pages.py:339
 msgid "This site asks moderators and staff to use two-factor sign-in. Turn it on under [preferences, security](/prefs/security) to use your moderator tools."
 msgstr "Laman ini meminta pengendali dan kakitangan menggunakan log masuk dua faktor. Hidupkannya di [pilihan, keselamatan](/prefs/security) untuk menggunakan alat pengendali anda."
 
-#: r2/lib/pages/pages.py:521
+#: r2/lib/pages/pages.py:522
 msgid "wiki tools"
 msgstr "alatan wiki"
 
-#: r2/lib/pages/pages.py:647
+#: r2/lib/pages/pages.py:648
 msgid "moderation tools"
 msgstr "alatan pengendalian"
 
-#: r2/lib/pages/pages.py:715
+#: r2/lib/pages/pages.py:716
 msgid "these vaults"
 msgstr "vault ini"
 
-#: r2/lib/pages/pages.py:729
+#: r2/lib/pages/pages.py:730
 msgid "this vault is archived and no longer accepting submissions."
 msgstr "vault ini telah diarkibkan dan tidak lagi menerima kiriman."
 
-#: r2/lib/pages/pages.py:731
+#: r2/lib/pages/pages.py:732
 msgid "Submissions disabled"
 msgstr "Kiriman dinyahdayakan"
 
-#: r2/lib/pages/pages.py:738
+#: r2/lib/pages/pages.py:739
 msgid "Only approved users may post in this community."
 msgstr "Hanya pengguna yang diluluskan boleh menyiarkan dalam komuniti ini."
 
-#: r2/lib/pages/pages.py:741
+#: r2/lib/pages/pages.py:742
 msgid "Anyone can view or comment, but only Tippr Gold members can post in this community."
 msgstr "Sesiapa sahaja boleh melihat atau memberi komen, tetapi hanya ahli Tippr Gold boleh menyiarkan dalam komuniti ini."
 
-#: r2/lib/pages/pages.py:744
+#: r2/lib/pages/pages.py:745
 msgid "Submissions restricted"
 msgstr "Kiriman terbatas"
 
-#: r2/lib/pages/pages.py:832
+#: r2/lib/pages/pages.py:833
 msgid "Create your own vault"
 msgstr "Cipta vault anda sendiri"
 
-#: r2/lib/pages/pages.py:856
+#: r2/lib/pages/pages.py:857
 #, python-format
 msgid "...and %d more"
 msgstr "...dan %d lagi"
 
-#: r2/lib/pages/pages.py:858
+#: r2/lib/pages/pages.py:859
 msgid "about moderation team"
 msgstr "tentang pasukan pengendali"
 
-#: r2/lib/pages/pages.py:863 r2/templates/contactus.html:60
+#: r2/lib/pages/pages.py:864 r2/templates/contactus.html:60
 msgid "message the admins"
 msgstr "hantar mesej kepada pentadbir"
 
-#: r2/lib/pages/pages.py:865 r2/templates/privateinterstitial.html:50
+#: r2/lib/pages/pages.py:866 r2/templates/privateinterstitial.html:50
 msgid "message the moderators"
 msgstr "hantar mesej kepada pengendali"
 
-#: r2/lib/pages/pages.py:892
+#: r2/lib/pages/pages.py:893
 msgid "Recently viewed links"
 msgstr "Pautan yang baru dilihat"
 
-#: r2/lib/pages/pages.py:922
+#: r2/lib/pages/pages.py:923
 msgid "turn admin off"
 msgstr "matikan fungsi pentadbir"
 
-#: r2/lib/pages/pages.py:1144
+#: r2/lib/pages/pages.py:1145
 msgid "<3"
 msgstr "<3"
 
-#: r2/lib/pages/pages.py:1341 r2/templates/adminserverstatus.html:142
+#: r2/lib/pages/pages.py:1342 r2/templates/adminserverstatus.html:142
 #, python-format
 msgid "%(time)s ago"
 msgstr "%(time)s yang lalu"
 
-#: r2/lib/pages/pages.py:1520
+#: r2/lib/pages/pages.py:1521
 #, python-format
 msgid "%(site)s mail"
 msgstr "mel %(site)s"
 
-#: r2/lib/pages/pages.py:1597
+#: r2/lib/pages/pages.py:1598
 msgid "sign up or log in"
 msgstr "daftar atau log masuk"
 
-#: r2/lib/pages/pages.py:1678
+#: r2/lib/pages/pages.py:1679
 msgid "request for permission"
 msgstr "minta kebenaran"
 
-#: r2/lib/pages/pages.py:1680
+#: r2/lib/pages/pages.py:1681
 msgid "permission"
 msgstr "kebenaran"
 
-#: r2/lib/pages/pages.py:1715 r2/templates/searchform.html:77
+#: r2/lib/pages/pages.py:1716 r2/templates/searchform.html:77
 msgid "enable NSFW results"
 msgstr "benarkan carian NSFW"
 
-#: r2/lib/pages/pages.py:1738
+#: r2/lib/pages/pages.py:1739
 msgid "bummer"
 msgstr "sedihnya"
 
-#: r2/lib/pages/pages.py:1750
+#: r2/lib/pages/pages.py:1751
 msgid "this page is no longer available due to a copyright claim."
 msgstr "halaman ini tidak lagi wujud kerana tuntutan hak cipta."
 
-#: r2/lib/pages/pages.py:1990
+#: r2/lib/pages/pages.py:1992
 msgid "comments disabled"
 msgstr "komen dimatikan"
 
-#: r2/lib/pages/pages.py:2310
+#: r2/lib/pages/pages.py:2315
 #, python-format
 msgid "about %(site)s"
 msgstr "mengenai %(site)s"
 
-#: r2/lib/pages/pages.py:2333
+#: r2/lib/pages/pages.py:2338
 msgid "search vaults by name"
 msgstr "cari vault menggunakan nama"
 
-#: r2/lib/pages/pages.py:2377
+#: r2/lib/pages/pages.py:2382
 #, python-format
 msgid "your front page vaults (%s)"
 msgstr "halaman depan vault anda (%s)"
 
-#: r2/lib/pages/pages.py:2465 r2/templates/createvault.html:460 r2/templates/spotlightlisting.html:63
+#: r2/lib/pages/pages.py:2470 r2/templates/createvault.html:460 r2/templates/spotlightlisting.html:63
 msgid "what's this?"
 msgstr "apa ini?"
 
-#: r2/lib/pages/pages.py:2466
+#: r2/lib/pages/pages.py:2471
 msgid "trophy case"
 msgstr "ruang trofi"
 
-#: r2/lib/pages/pages.py:2476
+#: r2/lib/pages/pages.py:2481
 msgid "public multivaults"
 msgstr "multivault awam"
 
-#: r2/lib/pages/pages.py:2483
+#: r2/lib/pages/pages.py:2488
 msgid "hidden multivaults"
 msgstr "multivault yang tersembunyi"
 
-#: r2/lib/pages/pages.py:2504
+#: r2/lib/pages/pages.py:2509
 msgid "moderator of"
 msgstr "pengendali"
 
-#: r2/lib/pages/pages.py:2568
+#: r2/lib/pages/pages.py:2573
 msgid "less than a day"
 msgstr "kurang daripada sehari"
 
-#: r2/lib/pages/pages.py:2581
+#: r2/lib/pages/pages.py:2586
 #, python-format
 msgid "Give Gold: %(coins)s month"
 msgid_plural "Give Gold: %(coins)s months"
 msgstr[0] "Beri Emas: %(coins)s bulan"
 
-#: r2/lib/pages/pages.py:2589
+#: r2/lib/pages/pages.py:2594
 #, python-format
 msgid "%(gildings)s gilding given out"
 msgid_plural "%(gildings)s gildings given out"
 msgstr[0] "%(gildings)s emas yang telah diberi "
 
-#: r2/lib/pages/pages.py:2597
+#: r2/lib/pages/pages.py:2602
 #, python-format
 msgid "give tippr gold to %(user)s to show your appreciation"
 msgstr "beri emas tippr kepada %(user)s untuk menunjukkan penghargaan"
 
-#: r2/lib/pages/pages.py:2601
+#: r2/lib/pages/pages.py:2606
 msgid "get extra features and help support tippr with a tippr gold subscription"
 msgstr "dapatkan feature lebih dan bantu tippr dengan langganan emas tippr"
 
-#: r2/lib/pages/pages.py:2605
+#: r2/lib/pages/pages.py:2610
 msgid "renew your tippr gold"
 msgstr "perbaharui tippr gold anda"
 
-#: r2/lib/pages/pages.py:2615
+#: r2/lib/pages/pages.py:2620
 #, python-format
 msgid "you have helped pay for *%(time)s* of tippr server time."
 msgstr "anda telah membantu membayar untuk %(time)s masa server tippr"
 
-#: r2/lib/pages/pages.py:2616
+#: r2/lib/pages/pages.py:2621
 #, python-format
 msgid "/u/%(user)s has helped pay for *%%(time)s* of tippr server time."
 msgstr "/u/%(user)s telah membantu membayar untuk %%(time)s server tippr."
 
-#: r2/lib/pages/pages.py:2619
+#: r2/lib/pages/pages.py:2624
 #, python-format
 msgid "gifts on your behalf have helped pay for *%(time)s* of tippr server time."
 msgstr "hadiah dari pihak anda telah membantu membayar untuk %(time)s masa server tippr"
 
-#: r2/lib/pages/pages.py:2621
+#: r2/lib/pages/pages.py:2626
 #, python-format
 msgid "gifts on behalf of /u/%(user)s have helped pay for *%%(time)s* of tippr server time."
 msgstr "hadiah bagi pihak /u/%(user)s telah membantu membayar untuk %%(time)s masa server tippr."
 
-#: r2/lib/pages/pages.py:2705
+#: r2/lib/pages/pages.py:2710
 msgid "tippr is a platform for internet communities"
 msgstr "Tippr adalah musyawarah untuk masyarakat internet."
 
-#: r2/lib/pages/pages.py:2706
+#: r2/lib/pages/pages.py:2711
 msgid "where your votes shape what the world is talking about."
 msgstr "Di mana undian anda membentuk apa yang dibincangkan dunia"
 
-#: r2/lib/pages/pages.py:3005 r2/lib/pages/pages.py:3115
+#: r2/lib/pages/pages.py:3010 r2/lib/pages/pages.py:3120
 msgid "add vault"
 msgstr "tambah vault"
 
-#: r2/lib/pages/pages.py:3043
+#: r2/lib/pages/pages.py:3048
 #, python-format
 msgid "raise it to %s"
 msgstr "naikkan ke %s"
 
-#: r2/lib/pages/pages.py:3045 r2/lib/pages/pages.py:3054
+#: r2/lib/pages/pages.py:3050 r2/lib/pages/pages.py:3059
 #, python-format
 msgid "%s visible"
 msgstr "%s tampak"
 
-#: r2/lib/pages/pages.py:3052
+#: r2/lib/pages/pages.py:3057
 #, python-format
 msgid "%(bonus)s bonus vaults"
 msgstr "%(bonus)s vault bonus"
 
-#: r2/lib/pages/pages.py:3422
+#: r2/lib/pages/pages.py:3427
 #, python-format
 msgid "you have a credit card gold subscription. your card (ending in %(last4)s) will be charged %(amount)s on %(date)s."
 msgstr "anda mempunyai langganan emas kad kredit. Kad anda (berakhir dengan %(last4)s) akan membayar sebanyak %(amount)s pada %(date)s."
 
-#: r2/lib/pages/pages.py:3576
+#: r2/lib/pages/pages.py:3581
 msgid "try entering those letters again"
 msgstr "cuba masukkan huruf-huruf itu sekali lagi"
 
-#: r2/lib/pages/pages.py:3655 r2/lib/pages/pages.py:6376 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
+#: r2/lib/pages/pages.py:3660 r2/lib/pages/pages.py:6381 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
 msgid "search"
 msgstr "cari"
 
-#: r2/lib/pages/pages.py:4299
+#: r2/lib/pages/pages.py:4304
 #, python-format
 msgid "not heard from for %(time)s"
 msgstr "tiada khabar selama %(time)s"
 
-#: r2/lib/pages/pages.py:4305
+#: r2/lib/pages/pages.py:4310
 #, python-format
 msgid "memory %(p)s%% used"
 msgstr "memori %(p)s%% digunakan"
 
-#: r2/lib/pages/pages.py:4309
+#: r2/lib/pages/pages.py:4314
 #, python-format
 msgid "busy: load %(l)s on %(n)s CPUs"
 msgstr "sibuk: beban %(l)s pada %(n)s CPU"
 
-#: r2/lib/pages/pages.py:4315
+#: r2/lib/pages/pages.py:4320
 #, python-format
 msgid "disk %(path)s %(p)s%% full"
 msgstr "cakera %(path)s %(p)s%% penuh"
 
-#: r2/lib/pages/pages.py:4319
+#: r2/lib/pages/pages.py:4324
 #, python-format
 msgid "%(service)s is %(state)s"
 msgstr "%(service)s dalam keadaan %(state)s"
 
-#: r2/lib/pages/pages.py:4322
+#: r2/lib/pages/pages.py:4327
 msgid "a different version from the others"
 msgstr "versi yang berbeza daripada yang lain"
 
-#: r2/lib/pages/pages.py:4324
+#: r2/lib/pages/pages.py:4329
 msgid "another server has the same name: set TIPPR_SERVER_NAME on one of them"
 msgstr "pelayan lain mempunyai nama yang sama: tetapkan TIPPR_SERVER_NAME pada salah satu daripadanya"
 
-#: r2/lib/pages/pages.py:4379
+#: r2/lib/pages/pages.py:4384
 #, python-format
 msgid "%(n)s seconds"
 msgstr "%(n)s saat"
 
-#: r2/lib/pages/pages.py:4381
+#: r2/lib/pages/pages.py:4386
 #, python-format
 msgid "%(n)s minutes"
 msgstr "%(n)s minit"
 
-#: r2/lib/pages/pages.py:4383
+#: r2/lib/pages/pages.py:4388
 #, python-format
 msgid "%(n)s hours"
 msgstr "%(n)s jam"
 
-#: r2/lib/pages/pages.py:4384
+#: r2/lib/pages/pages.py:4389
 #, python-format
 msgid "%(n)s days"
 msgstr "%(n)s hari"
 
-#: r2/lib/pages/pages.py:4400
+#: r2/lib/pages/pages.py:4405
 msgid "polling"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4406
+#: r2/lib/pages/pages.py:4411
 msgid "off (no event collector)"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4612 r2/lib/pages/pages.py:4721
+#: r2/lib/pages/pages.py:4617 r2/lib/pages/pages.py:4726
 msgid "added"
 msgstr "ditambah"
 
-#: r2/lib/pages/pages.py:4680 r2/models/modaction.py:146 r2/templates/printablebuttons.html:608
+#: r2/lib/pages/pages.py:4685 r2/models/modaction.py:146 r2/templates/printablebuttons.html:608
 msgid "muted"
 msgstr "dibisukan"
 
-#: r2/lib/pages/pages.py:4698
+#: r2/lib/pages/pages.py:4703
 msgid "invited"
 msgstr "dipelawakan"
 
-#: r2/lib/pages/pages.py:4759
+#: r2/lib/pages/pages.py:4764
 msgid "grant flair"
 msgstr "berikan flair"
 
-#: r2/lib/pages/pages.py:4761
+#: r2/lib/pages/pages.py:4766
 msgid "user flair templates"
 msgstr "template tanda nama pengguna"
 
-#: r2/lib/pages/pages.py:4763
+#: r2/lib/pages/pages.py:4768
 msgid "link flair templates"
 msgstr "template tanda nama pautan"
 
-#: r2/lib/pages/pages.py:5135 r2/templates/adminuser.html:73 r2/templates/adminuser.html:98 r2/templates/adminuser.html:108 r2/templates/flairpane.html:79
+#: r2/lib/pages/pages.py:5140 r2/templates/adminuser.html:73 r2/templates/adminuser.html:98 r2/templates/adminuser.html:108 r2/templates/flairpane.html:79
 msgid "none"
 msgstr "tiada"
 
-#: r2/lib/pages/pages.py:5266
+#: r2/lib/pages/pages.py:5271
 msgid "suggestions:"
 msgstr "usulan"
 
-#: r2/lib/pages/pages.py:5270
+#: r2/lib/pages/pages.py:5275
 #, python-format
 msgid "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/v/selfserve](%(selfserve)s)."
 msgstr "Cipta iklan anda di halaman ini. Ada soalan? Lihatlah [Pertolongan](%(help_center)s) atau [/v/selfserve](%(selfserve)s)."
 
-#: r2/lib/pages/pages.py:5888
+#: r2/lib/pages/pages.py:5893
 msgid "start date"
 msgstr "tarikh bermula"
 
-#: r2/lib/pages/pages.py:5889
+#: r2/lib/pages/pages.py:5894
 msgid "end date"
 msgstr "tarikh berakhir"
 
-#: r2/lib/pages/pages.py:5891 r2/templates/createvault.html:266
+#: r2/lib/pages/pages.py:5896 r2/templates/createvault.html:266
 msgid "links"
 msgstr "pautan"
 
-#: r2/lib/pages/pages.py:5893 r2/lib/pages/pages.py:5912 r2/templates/adminpaymentsettings.html:239 r2/templates/promotedlinktraffic.html:42 r2/templates/timeserieschart.html:40
+#: r2/lib/pages/pages.py:5898 r2/lib/pages/pages.py:5917 r2/templates/adminpaymentsettings.html:239 r2/templates/promotedlinktraffic.html:42 r2/templates/timeserieschart.html:40
 msgid "date"
 msgstr "tarikh"
 
-#: r2/lib/pages/pages.py:5896 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
+#: r2/lib/pages/pages.py:5901 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
 msgid "id"
 msgstr "id"
 
-#: r2/lib/pages/pages.py:5896 r2/lib/pages/pages.py:5915 r2/templates/promotelinkbase.html:856
+#: r2/lib/pages/pages.py:5901 r2/lib/pages/pages.py:5920 r2/templates/promotelinkbase.html:856
 msgid "owner"
 msgstr "pemilik"
 
-#: r2/lib/pages/pages.py:5896 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
+#: r2/lib/pages/pages.py:5901 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
 msgid "url"
 msgstr "url"
 
-#: r2/lib/pages/pages.py:5897
+#: r2/lib/pages/pages.py:5902
 msgid "upvotes"
 msgstr "upvote"
 
-#: r2/lib/pages/pages.py:5897
+#: r2/lib/pages/pages.py:5902
 msgid "downvotes"
 msgstr "downvote"
 
-#: r2/lib/pages/pages.py:5897 r2/lib/pages/trafficpages.py:351 r2/lib/pages/trafficpages.py:847 r2/templates/promotedlinktraffic.html:44 r2/templates/promotedlinktraffic.html:124
+#: r2/lib/pages/pages.py:5902 r2/lib/pages/trafficpages.py:351 r2/lib/pages/trafficpages.py:847 r2/templates/promotedlinktraffic.html:44 r2/templates/promotedlinktraffic.html:124
 msgid "clicks"
 msgstr "klik"
 
-#: r2/lib/pages/pages.py:5897 r2/lib/pages/trafficpages.py:348 r2/lib/pages/trafficpages.py:472 r2/lib/pages/trafficpages.py:846 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
+#: r2/lib/pages/pages.py:5902 r2/lib/pages/trafficpages.py:348 r2/lib/pages/trafficpages.py:472 r2/lib/pages/trafficpages.py:846 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
 msgid "impressions"
 msgstr "impresi"
 
-#: r2/lib/pages/pages.py:5910
+#: r2/lib/pages/pages.py:5915
 msgid "campaigns"
 msgstr "kempen"
 
-#: r2/lib/pages/pages.py:5915
+#: r2/lib/pages/pages.py:5920
 msgid "link id"
 msgstr "id pautan"
 
-#: r2/lib/pages/pages.py:5915
+#: r2/lib/pages/pages.py:5920
 msgid "campaign id"
 msgstr "id kempen"
 
-#: r2/lib/pages/pages.py:5915 r2/templates/promotedlinktraffic.html:117 r2/templates/refundpage.html:56
+#: r2/lib/pages/pages.py:5920 r2/templates/promotedlinktraffic.html:117 r2/templates/refundpage.html:56
 msgid "target"
 msgstr "sasaran"
 
-#: r2/lib/pages/pages.py:5916 r2/templates/promotelinkedit.html:157
+#: r2/lib/pages/pages.py:5921 r2/templates/promotelinkedit.html:157
 msgid "bid"
 msgstr "bida"
 
-#: r2/lib/pages/pages.py:5916
+#: r2/lib/pages/pages.py:5921
 msgid "frontpage clicks"
 msgstr "klik halaman depan"
 
-#: r2/lib/pages/pages.py:5916
+#: r2/lib/pages/pages.py:5921
 msgid "frontpage impressions"
 msgstr "impresi halaman depan"
 
-#: r2/lib/pages/pages.py:5917
+#: r2/lib/pages/pages.py:5922
 msgid "vault clicks"
 msgstr "jumlah klik vault"
 
-#: r2/lib/pages/pages.py:5917
+#: r2/lib/pages/pages.py:5922
 msgid "vault impressions"
 msgstr "jumlah impresi vault"
 
-#: r2/lib/pages/pages.py:5918 r2/lib/pages/trafficpages.py:478
+#: r2/lib/pages/pages.py:5923 r2/lib/pages/trafficpages.py:478
 msgid "total clicks"
 msgstr "jumlah klik"
 
-#: r2/lib/pages/pages.py:5918
+#: r2/lib/pages/pages.py:5923
 msgid "total impressions"
 msgstr "jumlah impressi"
 
-#: r2/lib/pages/pages.py:6121 r2/templates/accountactivitybox.html:27
+#: r2/lib/pages/pages.py:6126 r2/templates/accountactivitybox.html:27
 msgid "account activity"
 msgstr "aktiviti akaun"
 
-#: r2/lib/pages/pages.py:6253
+#: r2/lib/pages/pages.py:6258
 msgid "subscribed"
 msgstr "dilanggan"
 
-#: r2/lib/pages/pages.py:6254 r2/templates/preffeeds.html:58
+#: r2/lib/pages/pages.py:6259 r2/templates/preffeeds.html:58
 msgid "your front page"
 msgstr "halaman depan anda"
 
-#: r2/lib/pages/pages.py:6257 r2/lib/pages/pages.py:6262 r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:104
+#: r2/lib/pages/pages.py:6262 r2/lib/pages/pages.py:6267 r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:104
 msgid "everything"
 msgstr "semua"
 
-#: r2/lib/pages/pages.py:6260 r2/lib/pages/pages.py:6263
+#: r2/lib/pages/pages.py:6265 r2/lib/pages/pages.py:6268
 msgid "from all vaults"
 msgstr "daripada semua vault"
 
-#: r2/lib/pages/pages.py:6265
+#: r2/lib/pages/pages.py:6270
 msgid "moderating"
 msgstr "pengendalian"
 
-#: r2/lib/pages/pages.py:6266
+#: r2/lib/pages/pages.py:6271
 msgid "vaults you mod"
 msgstr "vault yang anda tadbirkan"
 
-#: r2/lib/pages/pages.py:6272
+#: r2/lib/pages/pages.py:6277
 msgid "gold perks"
 msgstr "kelebihan gold"
 
-#: r2/lib/pages/pages.py:6288
+#: r2/lib/pages/pages.py:6293
 msgid "explore multis"
 msgstr "jelajah multi"
 
-#: r2/lib/pages/pages.py:6374
+#: r2/lib/pages/pages.py:6379
 msgid "faq"
 msgstr "soalan lazim"
 
-#: r2/lib/pages/pages.py:6375 r2/templates/usertext.html:121
+#: r2/lib/pages/pages.py:6380 r2/templates/usertext.html:121
 msgid "formatting"
 msgstr "pemformatan"
 
-#: r2/lib/pages/pages.py:6444
+#: r2/lib/pages/pages.py:6449
 msgid "your subscribed vaults"
 msgstr "Vault yang telah anda langgani"
 
-#: r2/lib/pages/pages.py:6557
+#: r2/lib/pages/pages.py:6562
 #, python-format
 msgid "this promoted link uses city level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "Pautan berkeutamaan ini menggunakan penyesuaian pada tahap bandar dan mungkin telah dipaparkan kerana lokasi anda ([Maklumat lanjut](%(link)s))"
 
-#: r2/lib/pages/pages.py:6561
+#: r2/lib/pages/pages.py:6566
 #, python-format
 msgid "this promoted link uses country level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "Pautan berkeutamaan ini menggunakan penyesuaian pada tahap negara dan mungkin telah dipaparkan kerana lokasi anda ([Maklumat lanjut](%(link)s))"
@@ -4882,7 +4882,7 @@ msgstr "nama halaman sedia ada atau halaman baharu untuk dicipta"
 msgid "the starting point revision for this edit"
 msgstr "semakan titik permulaan untuk suntingan ini"
 
-#: r2/models/admintools.py:291
+#: r2/models/admintools.py:301
 #, python-format
 msgid ""
 "[Click here for details on how to set up an automatically-renewing subscription or to renew.](/gold) If you have any thoughts, complaints, rants, suggestions about tippr gold, please contact us at %(gold_email)s. Your feedback would be much appreciated.\n"
@@ -4893,32 +4893,32 @@ msgstr ""
 "\n"
 "Terima kasih atas sokongan anda selama ini."
 
-#: r2/models/admintools.py:312
+#: r2/models/admintools.py:322
 msgid "Your tippr gold subscription has expired."
 msgstr "Langganan tippr gold anda telah tamat tempoh."
 
-#: r2/models/admintools.py:313
+#: r2/models/admintools.py:323
 msgid "Your subscription to tippr gold has expired."
 msgstr "Langganan anda kepada tippr gold telah tamat tempoh."
 
-#: r2/models/admintools.py:325
+#: r2/models/admintools.py:335
 msgid "Your tippr gold subscription is about to expire!"
 msgstr "Langganan tippr gold anda hampir tamat tempoh!"
 
-#: r2/models/admintools.py:327
+#: r2/models/admintools.py:337
 msgid "Your subscription to tippr gold will be expiring soon."
 msgstr "Langganan anda kepada tippr gold akan tamat tempoh tidak lama lagi."
 
-#: r2/models/builder.py:308
+#: r2/models/builder.py:307
 msgid "a moderator"
 msgstr "seorang pengendali"
 
-#: r2/models/builder.py:311
+#: r2/models/builder.py:310
 #, python-format
 msgid "approved by %(who)s at %(when)s"
 msgstr "diluluskan oleh %(who)s pada %(when)s"
 
-#: r2/models/builder.py:315
+#: r2/models/builder.py:314
 #, python-format
 msgid "approved by %s"
 msgstr "diluluskan oleh %s"
@@ -4963,130 +4963,130 @@ msgid "a user has gifted tippr gold to %(recipient)s for this submission."
 msgid_plural "tippr users have gifted %(months)d months of tippr gold to %(recipient)s for this submission."
 msgstr[0] "pengguna tippr telah menghadiahkan %(months)d bulan tippr gold kepada %(recipient)s untuk kiriman ini."
 
-#: r2/models/link.py:916
+#: r2/models/link.py:926
 #, python-format
 msgid "by %(author)s to %(tippr)s"
 msgstr "oleh %(author)s ke %(tippr)s"
 
-#: r2/models/link.py:919 r2/templates/adminnotessidebar.html:50
+#: r2/models/link.py:929 r2/templates/adminnotessidebar.html:50
 #, python-format
 msgid "by %(author)s"
 msgstr "oleh %(author)s"
 
-#: r2/models/link.py:923
+#: r2/models/link.py:933
 #, python-format
 msgid "%(score)s submitted %(when)s %(lastedited)s"
 msgstr "%(score)s dihantar %(when)s %(lastedited)s"
 
-#: r2/models/link.py:927
+#: r2/models/link.py:937
 #, python-format
 msgid "submitted %(when)s %(lastedited)s by %(author)s to %(tippr)s"
 msgstr "dihantar %(when)s %(lastedited)s oleh %(author)s ke %(tippr)s"
 
-#: r2/models/link.py:930
+#: r2/models/link.py:940
 #, python-format
 msgid "submitted %(when)s %(lastedited)s by %(author)s"
 msgstr "dihantar %(when)s %(lastedited)s oleh %(author)s"
 
-#: r2/models/link.py:935
+#: r2/models/link.py:945
 #, python-format
 msgid "%(score)s submitted %(when)s"
 msgstr "%(score)s dihantar %(when)s"
 
-#: r2/models/link.py:938
+#: r2/models/link.py:948
 #, python-format
 msgid "submitted %(when)s by %(author)s to %(tippr)s"
 msgstr "dihantar %(when)s oleh %(author)s ke %(tippr)s"
 
-#: r2/models/link.py:941
+#: r2/models/link.py:951
 #, python-format
 msgid "submitted %(when)s by %(author)s"
 msgstr "dihantar %(when)s oleh %(author)s"
 
-#: r2/models/link.py:1809
+#: r2/models/link.py:1841
 #, python-format
 msgid "%(link)s by %(author)s [sponsored link]"
 msgstr "%(link)s oleh %(author)s [pautan tajaan]"
 
-#: r2/models/link.py:1811
+#: r2/models/link.py:1843
 #, python-format
 msgid "%(link)s by %(author)s in %(vault)s"
 msgstr "%(link)s oleh %(author)s dalam %(vault)s"
 
-#: r2/models/link.py:1838
+#: r2/models/link.py:1870
 msgid "comment score below threshold"
 msgstr "skor komen di bawah ambang"
 
-#: r2/models/link.py:1843
+#: r2/models/link.py:1875
 msgid "blocked user"
 msgstr "pengguna yang disekat"
 
-#: r2/models/link.py:2372
+#: r2/models/link.py:2404
 msgid "comment reply"
 msgstr "balasan komen"
 
-#: r2/models/link.py:2374
+#: r2/models/link.py:2406
 msgid "post reply"
 msgstr "kirimkan komen"
 
-#: r2/models/link.py:2376
+#: r2/models/link.py:2408
 msgid "username mention"
 msgstr "sebutan nama pengguna"
 
-#: r2/models/link.py:2380 r2/models/link.py:2441
+#: r2/models/link.py:2412 r2/models/link.py:2473
 #, python-format
 msgid "from %(author)s via %(vault)s sent %(when)s"
 msgstr "daripada %(author)s melalui %(vault)s dihantar %(when)s"
 
-#: r2/models/link.py:2393
+#: r2/models/link.py:2425
 msgid "[message from blocked vault]"
 msgstr "[mesej daripada vault yang disekat]"
 
-#: r2/models/link.py:2414 r2/models/link.py:2419
+#: r2/models/link.py:2446 r2/models/link.py:2451
 #, python-format
 msgid "vault message via %(vault)s sent %(when)s"
 msgstr "mesej vault melalui %(vault)s dihantar %(when)s"
 
-#: r2/models/link.py:2423 r2/models/link.py:2446
+#: r2/models/link.py:2455 r2/models/link.py:2478
 #, python-format
 msgid "to %(dest)s via %(vault)s sent %(when)s"
 msgstr "kepada %(dest)s melalui %(vault)s dihantar %(when)s"
 
-#: r2/models/link.py:2427 r2/models/link.py:2452
+#: r2/models/link.py:2459 r2/models/link.py:2484
 #, python-format
 msgid "from %(author)s via %(vault)s to %(dest)s sent %(when)s"
 msgstr "daripada %(author)s melalui %(vault)s kepada %(dest)s dihantar %(when)s"
 
-#: r2/models/link.py:2443
+#: r2/models/link.py:2475
 #, python-format
 msgid "to %(vault)s sent %(when)s"
 msgstr "kepada %(vault)s dihantar %(when)s"
 
-#: r2/models/link.py:2449
+#: r2/models/link.py:2481
 #, python-format
 msgid "from %(author)s to %(vault)s sent %(when)s"
 msgstr "daripada %(author)s kepada %(vault)s dihantar %(when)s"
 
-#: r2/models/link.py:2467
+#: r2/models/link.py:2499
 #, python-format
 msgid "from %(author)s sent %(when)s"
 msgstr "daripada %(author)s dihantar %(when)s"
 
-#: r2/models/link.py:2469
+#: r2/models/link.py:2501
 #, python-format
 msgid "to %(dest)s sent %(when)s"
 msgstr "kepada %(dest)s dihantar %(when)s"
 
-#: r2/models/link.py:2472
+#: r2/models/link.py:2504
 #, python-format
 msgid "to %(dest)s from %(author)s sent %(when)s"
 msgstr "kepada %(dest)s daripada %(author)s dihantar %(when)s"
 
-#: r2/models/link.py:2495
+#: r2/models/link.py:2527
 msgid "[message from blocked user]"
 msgstr "[mesej dari pengguna yang disekat]"
 
-#: r2/models/link.py:2496
+#: r2/models/link.py:2528
 msgid "[unblock user to see this message]"
 msgstr "[nyahsekat pengguna ini untuk membaca mesej]"
 
@@ -6229,7 +6229,7 @@ msgstr "tunjukkan semua balasan"
 msgid "hide images"
 msgstr "sorokkan imej"
 
-#: r2/public/static/js/enhancements.js:458 r2/public/static/js/enhancements.js:523 r2/templates/prefoptions.html:265
+#: r2/public/static/js/enhancements.js:458 r2/public/static/js/enhancements.js:523 r2/templates/prefoptions.html:271
 msgid "show images"
 msgstr "tunjukkan imej"
 
@@ -6339,7 +6339,7 @@ msgstr "dengan pautan"
 msgid "jump between"
 msgstr "lompat antara"
 
-#: r2/public/static/js/enhancements.js:974 r2/templates/prefoptions.html:309
+#: r2/public/static/js/enhancements.js:974 r2/templates/prefoptions.html:315
 msgid "comment navigator"
 msgstr "navigator komen"
 
@@ -6376,7 +6376,7 @@ msgstr "belum ada akaun lain"
 msgid "add an account"
 msgstr "tambah akaun"
 
-#: r2/public/static/js/enhancements.js:1082 r2/templates/adminemailsettings.html:69 r2/templates/adminprivacy.html:69 r2/templates/adminvault.html:68 r2/templates/linkedloginlink.html:39 r2/templates/login.html:77 r2/templates/login.html:86 r2/templates/login.html:197 r2/templates/loginformwide.html:44 r2/templates/password.html:41 r2/templates/privacysettings.html:124 r2/templates/register.html:77 r2/templates/register.html:86 r2/templates/register.html:197 r2/templates/userlisting.html:164
+#: r2/public/static/js/enhancements.js:1082 r2/templates/adminemailsettings.html:69 r2/templates/adminprivacy.html:69 r2/templates/adminvault.html:68 r2/templates/linkedloginlink.html:39 r2/templates/login.html:77 r2/templates/login.html:86 r2/templates/login.html:197 r2/templates/loginformwide.html:44 r2/templates/password.html:41 r2/templates/privacysettings.html:124 r2/templates/userlisting.html:164
 msgid "username"
 msgstr "nama pengguna"
 
@@ -6384,7 +6384,7 @@ msgstr "nama pengguna"
 msgid "add and switch"
 msgstr "tambah dan tukar"
 
-#: r2/public/static/js/enhancements.js:1100 r2/templates/linkedloginotp.html:35 r2/templates/newlink.html:155 r2/templates/prefoptions.html:613 r2/templates/prefsecurity.html:37 r2/templates/prefsecurity.html:104 r2/templates/prefsecurity.html:242 r2/templates/prefupdate.html:33 r2/templates/privacysettings.html:133
+#: r2/public/static/js/enhancements.js:1100 r2/templates/linkedloginotp.html:35 r2/templates/newlink.html:155 r2/templates/prefoptions.html:619 r2/templates/prefsecurity.html:37 r2/templates/prefsecurity.html:104 r2/templates/prefsecurity.html:242 r2/templates/prefupdate.html:33 r2/templates/privacysettings.html:133
 msgid "two-factor code"
 msgstr "kod dua faktor"
 
@@ -6497,23 +6497,23 @@ msgstr "Anda perlu log masuk untuk menghantar."
 msgid "You need to be logged in to do that."
 msgstr "Anda perlu log masuk untuk melakukannya."
 
-#: r2/public/static/js/login.js:286
+#: r2/public/static/js/login.js:293
 msgid "try using our secure login form."
 msgstr "cuba gunakan borang log masuk selamat kami."
 
-#: r2/public/static/js/login.js:328
+#: r2/public/static/js/login.js:335
 msgid "Password is strong"
 msgstr "Kata laluan kuat"
 
-#: r2/public/static/js/login.js:330
+#: r2/public/static/js/login.js:337
 msgid "Password is good"
 msgstr "Kata laluan baik"
 
-#: r2/public/static/js/login.js:332
+#: r2/public/static/js/login.js:339
 msgid "Password is fair"
 msgstr "Kata laluan sederhana"
 
-#: r2/public/static/js/login.js:334
+#: r2/public/static/js/login.js:341
 msgid "Password is weak"
 msgstr "Kata laluan lemah"
 
@@ -6605,23 +6605,23 @@ msgstr "tiada apa untuk dipratonton"
 msgid "preview failed"
 msgstr "pratonton gagal"
 
-#: r2/public/static/js/multi.js:509
+#: r2/public/static/js/multi.js:525
 msgid "awesomeness goes here"
 msgstr "kehebatan di sini"
 
-#: r2/public/static/js/multi.js:510
+#: r2/public/static/js/multi.js:526
 msgid "add a vault to your multi."
 msgstr "tambah vault pada multi anda."
 
-#: r2/public/static/js/multi.js:563
+#: r2/public/static/js/multi.js:579
 msgid "categorize"
 msgstr "kategorikan"
 
-#: r2/public/static/js/multi.js:579
+#: r2/public/static/js/multi.js:596
 msgid "open this multi"
 msgstr "buka multi ini"
 
-#: r2/public/static/js/multi.js:583
+#: r2/public/static/js/multi.js:600
 msgid "create a new multi"
 msgstr "cipta multi baharu"
 
@@ -6715,7 +6715,7 @@ msgstr "Kongsi dengan:"
 msgid "Link:"
 msgstr "Pautan:"
 
-#: r2/public/static/js/post-sharing.js:101 r2/public/static/js/post-sharing.js:333 r2/templates/multiinfobar.html:51 r2/templates/multiinfobar.html:85
+#: r2/public/static/js/post-sharing.js:101 r2/public/static/js/post-sharing.js:335 r2/templates/multiinfobar.html:51 r2/templates/multiinfobar.html:85
 msgid "copy"
 msgstr "salin"
 
@@ -6745,32 +6745,32 @@ msgstr "batal"
 msgid "sent!"
 msgstr "dihantar!"
 
-#: r2/public/static/js/post-sharing.js:295
+#: r2/public/static/js/post-sharing.js:296
 msgid "Your Mastodon server (for example mastodon.social):"
 msgstr "Pelayan Mastodon anda (contohnya mastodon.social):"
 
-#: r2/public/static/js/post-sharing.js:302
+#: r2/public/static/js/post-sharing.js:303
 msgid "That doesn't look like a server name."
 msgstr "Itu tidak kelihatan seperti nama pelayan."
 
-#: r2/public/static/js/post-sharing.js:332
+#: r2/public/static/js/post-sharing.js:334
 msgid "copied!"
 msgstr "disalin!"
 
-#: r2/public/static/js/post-sharing.js:513
+#: r2/public/static/js/post-sharing.js:515
 #, python-format
 msgid "Share to %(name)s"
 msgstr "Kongsi ke %(name)s"
 
-#: r2/public/static/js/post-sharing.js:524
+#: r2/public/static/js/post-sharing.js:528
 msgid "More ways to share"
 msgstr "Lebih banyak cara untuk berkongsi"
 
-#: r2/public/static/js/post-sharing.js:542
+#: r2/public/static/js/post-sharing.js:546
 msgid "Email to a Friend"
 msgstr "E-mel kepada Rakan"
 
-#: r2/public/static/js/post-sharing.js:549
+#: r2/public/static/js/post-sharing.js:553
 msgid "Private Message a Friend on Tippr"
 msgstr "Mesej Peribadi kepada Rakan di Tippr"
 
@@ -6794,98 +6794,98 @@ msgstr "kategori baharu"
 msgid "+ close"
 msgstr "+ tutup"
 
-#: r2/public/static/js/sponsored.js:299
+#: r2/public/static/js/sponsored.js:303
 msgid "Please confirm the details of your campaign"
 msgstr "Sila sahkan butiran kempen anda"
 
-#: r2/public/static/js/sponsored.js:302
+#: r2/public/static/js/sponsored.js:306
 #, python-format
 msgid "your budget must be at least $%(minBudgetDollars)s"
 msgstr "bajet anda mesti sekurang-kurangnya $%(minBudgetDollars)s"
 
-#: r2/public/static/js/sponsored.js:306
+#: r2/public/static/js/sponsored.js:310
 #, python-format
 msgid "your budget must not exceed $%(maxBudgetDollars)s"
 msgstr "bajet anda tidak boleh melebihi $%(maxBudgetDollars)s"
 
-#: r2/public/static/js/sponsored.js:313
+#: r2/public/static/js/sponsored.js:317
 msgid "Your campaign must be capable of claiming at least 1,000 impressions per day. Please adjust your bid, budget, or schedule in order to enable this."
 msgstr "Kempen anda mesti mampu memperoleh sekurang-kurangnya 1,000 impresi sehari. Sila laraskan bidaan, bajet atau jadual anda untuk membolehkannya."
 
-#: r2/public/static/js/sponsored.js:317
+#: r2/public/static/js/sponsored.js:321
 #, python-format
 msgid "your bid must be at least $%(minBid)s"
 msgstr "bidaan anda mesti sekurang-kurangnya $%(minBid)s"
 
-#: r2/public/static/js/sponsored.js:321
+#: r2/public/static/js/sponsored.js:325
 #, python-format
 msgid "your bid must not exceed $%(maxBid)s"
 msgstr "bidaan anda tidak boleh melebihi $%(maxBid)s"
 
-#: r2/public/static/js/sponsored.js:339 r2/public/static/js/sponsored.js:364 r2/public/static/js/sponsored.js:391
+#: r2/public/static/js/sponsored.js:343 r2/public/static/js/sponsored.js:368 r2/public/static/js/sponsored.js:395
 msgid "the campaign you requested is available!"
 msgstr "kempen yang anda minta tersedia!"
 
-#: r2/public/static/js/sponsored.js:343 r2/public/static/js/sponsored.js:381
+#: r2/public/static/js/sponsored.js:347 r2/public/static/js/sponsored.js:385
 #, python-format
 msgid "the maximum budget available is $%(totalBudgetDollars)s (%(impressions)s impressions)"
 msgstr "bajet maksimum yang tersedia ialah $%(totalBudgetDollars)s (%(impressions)s impresi)"
 
-#: r2/public/static/js/sponsored.js:354
+#: r2/public/static/js/sponsored.js:358
 #, python-format
 msgid "we expect to only have %(available)s impressions on %(target)s. we may not fully deliver."
 msgstr "kami jangka hanya ada %(available)s impresi pada %(target)s. kami mungkin tidak dapat menghantar sepenuhnya."
 
-#: r2/public/static/js/sponsored.js:373
+#: r2/public/static/js/sponsored.js:377
 #, python-format
 msgid "want to maximize your campaign? for only $%(difference)s more you can buy all available inventory for your selected dates!"
 msgstr "mahu memaksimumkan kempen anda? dengan hanya $%(difference)s lagi anda boleh membeli semua inventori yang tersedia untuk tarikh pilihan anda!"
 
-#: r2/public/static/js/sponsored.js:397
+#: r2/public/static/js/sponsored.js:401
 msgid "the campaign you requested is too small! this campaign is available:"
 msgstr "kempen yang anda minta terlalu kecil! kempen ini tersedia:"
 
-#: r2/public/static/js/sponsored.js:405
+#: r2/public/static/js/sponsored.js:409
 msgid "the campaign you requested is too small!"
 msgstr "kempen yang anda minta terlalu kecil!"
 
-#: r2/public/static/js/sponsored.js:414
+#: r2/public/static/js/sponsored.js:418
 msgid "the campaign you requested is too big! the largest campaign available is:"
 msgstr "kempen yang anda minta terlalu besar! kempen terbesar yang tersedia ialah:"
 
-#: r2/public/static/js/sponsored.js:440
+#: r2/public/static/js/sponsored.js:444
 #, python-format
 msgid "we have insufficient available inventory targeting %(target)s to fulfill your requested dates. the following campaigns are available:"
 msgstr "inventori yang menyasarkan %(target)s tidak mencukupi untuk tarikh yang anda minta. kempen berikut tersedia:"
 
-#: r2/public/static/js/sponsored.js:453
+#: r2/public/static/js/sponsored.js:457
 #, python-format
 msgid "inventory for %(target)s is sold out for your requested dates. please try a different target or different dates."
 msgstr "inventori untuk %(target)s telah habis dijual bagi tarikh yang anda minta. sila cuba sasaran atau tarikh lain."
 
-#: r2/public/static/js/sponsored.js:1001
+#: r2/public/static/js/sponsored.js:1005
 msgid "house campaigns, man."
 msgstr "kempen dalaman, bro."
 
-#: r2/public/static/js/sponsored.js:1014
+#: r2/public/static/js/sponsored.js:1018
 #, python-format
 msgid "maximum possible impressions: %(impressions)s"
 msgstr "impresi maksimum yang mungkin: %(impressions)s"
 
-#: r2/public/static/js/sponsored.js:1060
+#: r2/public/static/js/sponsored.js:1064
 msgid "sorry, there was an error retrieving available impressions. please try again later."
 msgstr "maaf, berlaku ralat semasa mendapatkan impresi yang tersedia. sila cuba lagi kemudian."
 
-#: r2/public/static/js/sponsored.js:1477 r2/public/static/js/sponsored.js:1838
+#: r2/public/static/js/sponsored.js:1484 r2/public/static/js/sponsored.js:1851
 msgid "days"
 msgstr "hari"
 
-#: r2/public/static/js/sponsored.js:1483
+#: r2/public/static/js/sponsored.js:1490
 #, python-format
 msgid "$%(cpm)s per 1,000 impressions"
 msgstr "$%(cpm)s setiap 1,000 impresi"
 
-#: r2/public/static/js/sponsored.js:2051
+#: r2/public/static/js/sponsored.js:2065
 msgid "Created new campaign!"
 msgstr "Kempen baharu dicipta!"
 
@@ -6919,20 +6919,20 @@ msgid "a minute ago"
 msgid_plural "%(num)s minutes ago"
 msgstr[0] "%(num)s minit yang lalu"
 
-#: r2/public/static/js/tippr.js:112
+#: r2/public/static/js/tippr.js:116
 msgid "please wait a few seconds and try again."
 msgstr "sila tunggu beberapa saat dan cuba lagi."
 
-#: r2/public/static/js/tippr.js:114 r2/public/static/js/ui.js:665
+#: r2/public/static/js/tippr.js:118 r2/public/static/js/ui.js:665
 #, python-format
 msgid "an error occurred (status: %(status)s)"
 msgstr "ralat telah berlaku  (status: %(status)s)"
 
-#: r2/public/static/js/traffic.js:11
+#: r2/public/static/js/traffic.js:12
 msgid "view vault traffic"
 msgstr "lihat trafik vault"
 
-#: r2/public/static/js/traffic.js:13 r2/templates/adminuser.html:210 r2/templates/flairlist.html:34 r2/templates/userlisting.html:170
+#: r2/public/static/js/traffic.js:14 r2/templates/adminuser.html:210 r2/templates/flairlist.html:34 r2/templates/userlisting.html:170
 msgid "go"
 msgstr "pergi"
 
@@ -6985,27 +6985,27 @@ msgstr "Kami akan bertanya sebelum menunjukkan media NSFW."
 msgid "Click to see NSFW"
 msgstr "Klik untuk melihat NSFW"
 
-#: r2/public/static/js/expando/nsfwflow.js:111
+#: r2/public/static/js/expando/nsfwflow.js:112
 msgid "Always show NSFW media?"
 msgstr "Sentiasa tunjukkan media NSFW?"
 
-#: r2/public/static/js/expando/nsfwflow.js:112
+#: r2/public/static/js/expando/nsfwflow.js:113
 msgid "Ok, we changed your preferences to always show NSFW media."
 msgstr "Baik, kami telah menukar pilihan anda untuk sentiasa menunjukkan media NSFW."
 
-#: r2/public/static/js/expando/nsfwflow.js:113
+#: r2/public/static/js/expando/nsfwflow.js:114
 msgid "Undo"
 msgstr "Buat asal"
 
-#: r2/public/static/js/expando/nsfwflow.js:116
+#: r2/public/static/js/expando/nsfwflow.js:118
 msgid "Your account is set up to always show this content in the future."
 msgstr "Akaun anda ditetapkan untuk sentiasa menunjukkan kandungan ini pada masa hadapan."
 
-#: r2/public/static/js/expando/nsfwflow.js:117
+#: r2/public/static/js/expando/nsfwflow.js:119
 msgid "Change your preferences to hide NSFW media?"
 msgstr "Tukar pilihan anda untuk menyorokkan media NSFW?"
 
-#: r2/public/static/js/expando/nsfwflow.js:118
+#: r2/public/static/js/expando/nsfwflow.js:120
 msgid "Hide NSFW"
 msgstr "Sorokkan NSFW"
 
@@ -7312,7 +7312,7 @@ msgstr "menyertai"
 msgid "karma"
 msgstr "karma"
 
-#: r2/templates/adminantispam.html:182 r2/templates/adminuser.html:68 r2/templates/adminusers.html:77 r2/templates/login.html:110 r2/templates/newsletter.html:58 r2/templates/newsletterbar.html:43 r2/templates/prefupdate.html:85 r2/templates/register.html:110
+#: r2/templates/adminantispam.html:182 r2/templates/adminuser.html:68 r2/templates/adminusers.html:77 r2/templates/login.html:110 r2/templates/newsletter.html:58 r2/templates/newsletterbar.html:43 r2/templates/prefupdate.html:85
 msgid "email"
 msgstr "e-mel"
 
@@ -7418,7 +7418,7 @@ msgstr "(tiada nama)"
 msgid "(the site's own)"
 msgstr "(milik laman sendiri)"
 
-#: r2/templates/adminapps.html:93 r2/templates/admindomain.html:85 r2/templates/admindomains.html:44 r2/templates/adminfeeds.html:132 r2/templates/adminsupport.html:83 r2/templates/adminsupport.html:88 r2/templates/adminsupportactivity.html:77 r2/templates/adminsupportticket.html:106 r2/templates/adminsupportticket.html:119 r2/templates/adminsupportticket.html:157 r2/templates/adminuser.html:43 r2/templates/adminuser.html:53 r2/templates/adminuser.html:61 r2/templates/adminuser.html:266 r2/templates/adminuser.html:298 r2/templates/adminusers.html:83 r2/templates/adminvault.html:40 r2/templates/adminvault.html:50 r2/templates/adminvaults.html:57 r2/templates/comment.htmllite:49 r2/templates/commentvisitsbox.html:41
+#: r2/templates/adminapps.html:93 r2/templates/admindomain.html:85 r2/templates/admindomains.html:44 r2/templates/adminfeeds.html:132 r2/templates/adminuser.html:43 r2/templates/adminuser.html:53 r2/templates/adminuser.html:61 r2/templates/adminuser.html:266 r2/templates/adminuser.html:298 r2/templates/adminusers.html:83 r2/templates/adminvault.html:40 r2/templates/adminvault.html:50 r2/templates/adminvaults.html:57 r2/templates/comment.htmllite:49 r2/templates/commentvisitsbox.html:41
 msgid "ago"
 msgstr "lalu"
 
@@ -8020,33 +8020,39 @@ msgstr "bulan"
 msgid "Are you one of us?"
 msgstr "Adakah anda salah seorang daripada kami?"
 
-#: r2/templates/admininterstitial.html:42
+#: r2/templates/admininterstitial.html:43
+#, fuzzy
+#| msgid "update your password"
+msgid "Enter your password"
+msgstr "kemas kinikan kata laluan anda"
+
+#: r2/templates/admininterstitial.html:45
 msgid "Enter your password and one-time code"
 msgstr "Masukkan kata laluan dan kod sekali guna anda"
 
-#: r2/templates/admininterstitial.html:52 r2/templates/admininterstitial.html:66 r2/templates/prefsecurity.html:237 r2/templates/prefsecurity.html:242 r2/templates/prefsecurity.html:300 r2/templates/prefupdate.html:33 r2/templates/prefupdate.html:56 r2/templates/prefupdate.html:117 r2/templates/useriphistory.html:74
+#: r2/templates/admininterstitial.html:56 r2/templates/admininterstitial.html:70 r2/templates/prefsecurity.html:237 r2/templates/prefsecurity.html:242 r2/templates/prefsecurity.html:300 r2/templates/prefupdate.html:33 r2/templates/prefupdate.html:56 r2/templates/prefupdate.html:117 r2/templates/useriphistory.html:74
 msgid "(required)"
 msgstr "(wajib)"
 
-#: r2/templates/admininterstitial.html:64
+#: r2/templates/admininterstitial.html:68
 msgid "This computer is remembered, so you don't need a one-time code."
 msgstr ""
 
-#: r2/templates/admininterstitial.html:66
+#: r2/templates/admininterstitial.html:70
 msgid "one-time verification code"
 msgstr "kod pengesahan sekali guna"
 
-#: r2/templates/admininterstitial.html:73
+#: r2/templates/admininterstitial.html:77
 msgid "remember this computer"
 msgstr "ingat komputer ini"
 
-#: r2/templates/admininterstitial.html:90
+#: r2/templates/admininterstitial.html:94
 #, fuzzy
 #| msgid "forget this account"
 msgid "forget this computer"
 msgstr "lupakan akaun ini"
 
-#: r2/templates/admininterstitial.html:91
+#: r2/templates/admininterstitial.html:95
 msgid "Asks for a one-time code again next time, here and anywhere else this computer was remembered for."
 msgstr ""
 
@@ -10077,7 +10083,7 @@ msgstr "emas sahaja"
 msgid "only tippr gold members can view and submit"
 msgstr "hanya ahli tippr gold boleh melihat dan menghantar"
 
-#: r2/templates/createvault.html:188 r2/templates/prefoptions.html:456
+#: r2/templates/createvault.html:188 r2/templates/prefoptions.html:462
 msgid "content options"
 msgstr "pilihan kandungan"
 
@@ -10178,11 +10184,15 @@ msgid "other options"
 msgstr "pilihan lain"
 
 #: r2/templates/createvault.html:326
-msgid "viewers must be over eighteen years old"
-msgstr "pembaca mesti melebihi umur lapan belas tahun"
+#, fuzzy
+#| msgid "toggle viewers must be over 18"
+msgid "NSFW: viewers must be 18 or older"
+msgstr "togol penonton mesti berumur lebih 18 tahun"
 
 #: r2/templates/createvault.html:338
-msgid "allow this vault to be included /v/all as well as the default and trending lists"
+#, fuzzy
+#| msgid "allow this vault to be included /v/all as well as the default and trending lists"
+msgid "allow this vault to be included in /v/all as well as the default and trending lists"
 msgstr "benarkan vault ini dimasukkan ke /v/all serta senarai lalai dan sohor kini"
 
 #: r2/templates/createvault.html:350
@@ -10306,7 +10316,7 @@ msgstr "warna"
 msgid "used as a thematic color for your vault on mobile"
 msgstr "digunakan sebagai warna tema untuk vault anda pada mudah alih"
 
-#: r2/templates/createvault.html:669 r2/templates/flairpane.html:91 r2/templates/prefoptions.html:616
+#: r2/templates/createvault.html:669 r2/templates/flairpane.html:91 r2/templates/prefoptions.html:622
 msgid "save options"
 msgstr "simpan piihan"
 
@@ -11082,23 +11092,23 @@ msgstr "Baharu di sini? Buat akaun"
 msgid "It's linked to your %(provider)s account, so signing in with %(provider)s is enough from now on. The password lets you log in without it too."
 msgstr "Ia dipautkan ke akaun %(provider)s anda, jadi log masuk dengan %(provider)s sudah memadai mulai sekarang. Kata laluan membolehkan anda log masuk tanpanya juga."
 
-#: r2/templates/linkedloginlink.html:50 r2/templates/login.html:81 r2/templates/register.html:81
+#: r2/templates/linkedloginlink.html:50 r2/templates/login.html:81
 msgid "choose a username"
 msgstr "pilih nama pengguna"
 
-#: r2/templates/linkedloginlink.html:60 r2/templates/login.html:103 r2/templates/login.html:106 r2/templates/login.html:234 r2/templates/prefupdate.html:132 r2/templates/register.html:103 r2/templates/register.html:106 r2/templates/register.html:234 r2/templates/resetpassword.html:48
+#: r2/templates/linkedloginlink.html:60 r2/templates/login.html:103 r2/templates/login.html:106 r2/templates/login.html:234 r2/templates/prefupdate.html:132 r2/templates/resetpassword.html:48
 msgid "verify password"
 msgstr "sahkan kata laluan"
 
-#: r2/templates/linkedloginlink.html:62 r2/templates/login.html:114 r2/templates/register.html:114
+#: r2/templates/linkedloginlink.html:62 r2/templates/login.html:114
 msgid "email (optional)"
 msgstr "e-mel (pilihan)"
 
-#: r2/templates/linkedloginlink.html:70 r2/templates/login.html:138 r2/templates/register.html:138
+#: r2/templates/linkedloginlink.html:70 r2/templates/login.html:138
 msgid "type the letters from the image"
 msgstr "taip huruf daripada imej"
 
-#: r2/templates/linkedloginlink.html:77 r2/templates/login.html:122 r2/templates/login.html:249 r2/templates/loginformwide.html:52 r2/templates/register.html:122 r2/templates/register.html:249
+#: r2/templates/linkedloginlink.html:77 r2/templates/login.html:122 r2/templates/login.html:249 r2/templates/loginformwide.html:52
 msgid "remember me"
 msgstr "ingat saya"
 
@@ -11246,77 +11256,77 @@ msgstr "Kiriman ini telah dikunci oleh pengendali komuniti"
 msgid "New comments can no longer be added."
 msgstr "Komen baharu tidak boleh ditambah lagi."
 
-#: r2/templates/login.html:42 r2/templates/register.html:42
+#: r2/templates/login.html:42
 msgid "You are logged in. Go use the site!"
 msgstr "Anda telah log masuk. Pergilah gunakan laman!"
 
-#: r2/templates/login.html:46 r2/templates/register.html:46
+#: r2/templates/login.html:46
 msgid "You need to login to do that."
 msgstr "Anda perlu log masuk untuk melakukannya."
 
-#: r2/templates/login.html:110 r2/templates/login.html:212 r2/templates/register.html:110 r2/templates/register.html:212
+#: r2/templates/login.html:110 r2/templates/login.html:212
 msgid "optional"
 msgstr "pilihan"
 
-#: r2/templates/login.html:158 r2/templates/register.html:158
+#: r2/templates/login.html:158
 msgid "get the best of tippr emailed to you once a week."
 msgstr "dapatkan yang terbaik daripada tippr melalui e-mel seminggu sekali."
 
-#: r2/templates/login.html:159 r2/templates/register.html:159 r2/templates/welcomebar.html:32
+#: r2/templates/login.html:159 r2/templates/welcomebar.html:32
 msgid "learn more"
 msgstr "ketahui lebih lanjut"
 
-#: r2/templates/login.html:166 r2/templates/login.html:262 r2/templates/register.html:166 r2/templates/register.html:262
+#: r2/templates/login.html:166 r2/templates/login.html:262
 msgid "sign up"
 msgstr "daftar"
 
-#: r2/templates/login.html:202 r2/templates/register.html:202
+#: r2/templates/login.html:202
 msgid "try another"
 msgstr "cuba yang lain"
 
-#: r2/templates/login.html:203 r2/templates/register.html:203
+#: r2/templates/login.html:203
 msgid "available!"
 msgstr "tersedia!"
 
-#: r2/templates/login.html:212 r2/templates/register.html:212
+#: r2/templates/login.html:212
 msgid "account recovery email"
 msgstr "e-mel pemulihan akaun"
 
-#: r2/templates/login.html:216 r2/templates/register.html:216
+#: r2/templates/login.html:216
 msgid "we only send email at your request"
 msgstr "kami hanya menghantar e-mel atas permintaan anda"
 
-#: r2/templates/login.html:255 r2/templates/register.html:255
+#: r2/templates/login.html:255
 msgid "recover password"
 msgstr "pulihkan kata laluan"
 
-#: r2/templates/login.html:284 r2/templates/register.html:284
+#: r2/templates/login.html:284
 msgid "create a new account"
 msgstr "cipta akaun baharu"
 
-#: r2/templates/login.html:289 r2/templates/register.html:289
+#: r2/templates/login.html:289
 msgid "This site isn't taking new accounts right now."
 msgstr "Laman ini tidak menerima akaun baharu buat masa ini."
 
-#: r2/templates/login.html:291 r2/templates/register.html:291
+#: r2/templates/login.html:291
 #, python-format
 msgid "To ask about an account, write to %(address)s."
 msgstr "Untuk bertanya tentang akaun, tulis kepada %(address)s."
 
-#: r2/templates/login.html:302 r2/templates/register.html:302
+#: r2/templates/login.html:302
 #, python-format
 msgid "By signing up, you agree to our %(terms)s and that you have read our %(privacy_policy)s and %(content_policy)s."
 msgstr "Dengan mendaftar, anda bersetuju dengan %(terms)s kami dan bahawa anda telah membaca %(privacy_policy)s dan %(content_policy)s kami."
 
-#: r2/templates/login.html:303 r2/templates/register.html:303
+#: r2/templates/login.html:303
 msgid "Terms"
 msgstr "Terma"
 
-#: r2/templates/login.html:304 r2/templates/privacysettings.html:99 r2/templates/register.html:304 r2/templates/tipprfooter.html:50
+#: r2/templates/login.html:304 r2/templates/privacysettings.html:99 r2/templates/tipprfooter.html:50
 msgid "Privacy Policy"
 msgstr "Dasar Privasi"
 
-#: r2/templates/login.html:305 r2/templates/register.html:305 r2/templates/tipprfooter.html:54
+#: r2/templates/login.html:305 r2/templates/tipprfooter.html:54
 msgid "Content Policy"
 msgstr "Dasar Kandungan"
 
@@ -11988,485 +11998,495 @@ msgstr "jadikan (lebih) selamat untuk tempat kerja "
 msgid "(Don't show thumbnails next to anything labeled NSFW)"
 msgstr "(Jangan tunjukkan lakaran kecil di sebelah apa-apa yang berlabel NSFW)"
 
-#: r2/templates/prefoptions.html:194
+#: r2/templates/prefoptions.html:192
+#, fuzzy
+#| msgid "show the spotlight box on the front page"
+msgid "show NSFW posts on the front page and /v/all"
+msgstr "tunjukkan kotak sorotan di halaman depan"
+
+#: r2/templates/prefoptions.html:195
+msgid "(they're always shown in their own vaults)"
+msgstr ""
+
+#: r2/templates/prefoptions.html:200
 msgid "link options"
 msgstr "pilihan pautan"
 
-#: r2/templates/prefoptions.html:197
+#: r2/templates/prefoptions.html:203
 msgid "show the spotlight box on the front page"
 msgstr "tunjukkan kotak sorotan di halaman depan"
 
-#: r2/templates/prefoptions.html:200
+#: r2/templates/prefoptions.html:206
 msgid "(it shows new and promoted links, and gives you a say in what's spam and what isn't.)"
 msgstr "(ia menunjukkan pautan baharu dan dipromosikan, dan memberi anda suara dalam menentukan apa yang spam dan apa yang bukan.)"
 
-#: r2/templates/prefoptions.html:204
+#: r2/templates/prefoptions.html:210
 msgid "show trending vaults on the front page"
 msgstr "tunjukkan vault hangat di halaman depan"
 
-#: r2/templates/prefoptions.html:207
+#: r2/templates/prefoptions.html:213
 msgid "(a list of popular and notable vaults to check out)"
 msgstr "(senarai vault yang popular dan menarik untuk dilihat)"
 
-#: r2/templates/prefoptions.html:212
+#: r2/templates/prefoptions.html:218
 msgid "show multivaults in the side panel"
 msgstr "tunjukkan multivault di panel sisi"
 
-#: r2/templates/prefoptions.html:215
+#: r2/templates/prefoptions.html:221
 msgid "(your sets of vaults to view together, and the form to make one)"
 msgstr "(set vault anda untuk dilihat bersama, dan borang untuk menciptanya)"
 
-#: r2/templates/prefoptions.html:218
+#: r2/templates/prefoptions.html:224
 msgid "show me links I've recently viewed"
 msgstr "tunjukkan pautan yang baru saya lihat"
 
-#: r2/templates/prefoptions.html:219
+#: r2/templates/prefoptions.html:225
 msgid "compress the link display"
 msgstr "mampatkan paparan pautan"
 
-#: r2/templates/prefoptions.html:220
+#: r2/templates/prefoptions.html:226
 msgid "show additional details in the domain text when available"
 msgstr "tunjukkan butiran tambahan dalam teks domain apabila tersedia"
 
-#: r2/templates/prefoptions.html:223
+#: r2/templates/prefoptions.html:229
 msgid "(such as the source vault or the content author's url/name)"
 msgstr "(seperti vault sumber atau url/nama pengarang kandungan)"
 
-#: r2/templates/prefoptions.html:226
+#: r2/templates/prefoptions.html:232
 msgid "don't show me submissions after I've upvoted them"
 msgstr "jangan tunjukkan kiriman selepas saya mengundi naik"
 
-#: r2/templates/prefoptions.html:228 r2/templates/prefoptions.html:232
+#: r2/templates/prefoptions.html:234 r2/templates/prefoptions.html:238
 msgid "(except my own)"
 msgstr "(kecuali milik saya sendiri)"
 
-#: r2/templates/prefoptions.html:230
+#: r2/templates/prefoptions.html:236
 msgid "don't show me submissions after I've downvoted them"
 msgstr "jangan tunjukkan kiriman selepas saya mengundi turun"
 
-#: r2/templates/prefoptions.html:235
+#: r2/templates/prefoptions.html:241
 #, python-format
 msgid "display %(num)s links at once"
 msgstr "paparkan %(num)s pautan sekali gus"
 
-#: r2/templates/prefoptions.html:242
+#: r2/templates/prefoptions.html:248
 #, python-format
 msgid "don't show me submissions with a score less than %(num)s"
 msgstr "jangan tunjukkan kiriman dengan skor kurang daripada %(num)s"
 
-#: r2/templates/prefoptions.html:243
+#: r2/templates/prefoptions.html:249
 msgid "(leave blank to show all submissions)"
 msgstr "(biarkan kosong untuk menunjukkan semua kiriman)"
 
-#: r2/templates/prefoptions.html:248
+#: r2/templates/prefoptions.html:254
 msgid "enhancements"
 msgstr "penambahbaikan"
 
-#: r2/templates/prefoptions.html:251
+#: r2/templates/prefoptions.html:257
 msgid "infinite scroll"
 msgstr "tatal tanpa had"
 
-#: r2/templates/prefoptions.html:254
+#: r2/templates/prefoptions.html:260
 msgid "(load the next page of a listing when you reach the bottom)"
 msgstr "(muatkan halaman seterusnya senarai apabila anda sampai ke bawah)"
 
-#: r2/templates/prefoptions.html:258
+#: r2/templates/prefoptions.html:264
 msgid "keyboard navigation"
 msgstr "navigasi papan kekunci"
 
-#: r2/templates/prefoptions.html:261
+#: r2/templates/prefoptions.html:267
 msgid "(j and k move between posts and comments, a and z vote; press ? on any page for the full list)"
 msgstr "(j dan k bergerak antara kiriman dan komen, a dan z mengundi; tekan ? pada mana-mana halaman untuk senarai penuh)"
 
-#: r2/templates/prefoptions.html:268
+#: r2/templates/prefoptions.html:274
 msgid "(a button on posts that link to an image to show it in the listing, and a \"show images\" link to show them all)"
 msgstr "(butang pada kiriman yang memautkan imej untuk menunjukkannya dalam senarai, dan pautan \"tunjukkan imej\" untuk menunjukkan semuanya)"
 
-#: r2/templates/prefoptions.html:272
+#: r2/templates/prefoptions.html:278
 msgid "expand images automatically"
 msgstr "kembangkan imej secara automatik"
 
-#: r2/templates/prefoptions.html:274
+#: r2/templates/prefoptions.html:280
 msgid "(except NSFW and spoiler posts)"
 msgstr "(kecuali kiriman NSFW dan spoiler)"
 
-#: r2/templates/prefoptions.html:277
+#: r2/templates/prefoptions.html:283
 msgid "user tags"
 msgstr "tag pengguna"
 
-#: r2/templates/prefoptions.html:280
+#: r2/templates/prefoptions.html:286
 msgid "(a tag button by usernames, to note who someone is; only you see your tags)"
 msgstr "(butang tag di sebelah nama pengguna, untuk mencatat siapa seseorang itu; hanya anda yang melihat tag anda)"
 
-#: r2/templates/prefoptions.html:284
+#: r2/templates/prefoptions.html:290
 msgid "user info on hover"
 msgstr "maklumat pengguna apabila dilalui tetikus"
 
-#: r2/templates/prefoptions.html:286
+#: r2/templates/prefoptions.html:292
 msgid "(hold the mouse over a username to see their karma, how long they've been here and your tag)"
 msgstr "(letakkan tetikus di atas nama pengguna untuk melihat karma mereka, berapa lama mereka di sini dan tag anda)"
 
-#: r2/templates/prefoptions.html:289
+#: r2/templates/prefoptions.html:295
 msgid "show the parent comment on hover"
 msgstr "tunjukkan komen induk apabila dilalui tetikus"
 
-#: r2/templates/prefoptions.html:291
+#: r2/templates/prefoptions.html:297
 msgid "(hold the mouse over a reply's \"parent\" link to read the comment it replies to)"
 msgstr "(letakkan tetikus di atas pautan \"induk\" balasan untuk membaca komen yang dibalasnya)"
 
-#: r2/templates/prefoptions.html:294
+#: r2/templates/prefoptions.html:300
 msgid "count new comments"
 msgstr "kira komen baharu"
 
-#: r2/templates/prefoptions.html:296
+#: r2/templates/prefoptions.html:302
 msgid "(\"3 new\" by posts you've opened before, and the new comments highlighted when you go back; remembered in this browser)"
 msgstr "(\"3 baharu\" di sebelah kiriman yang pernah anda buka, dan komen baharu diserlahkan apabila anda kembali; diingati dalam pelayar ini)"
 
-#: r2/templates/prefoptions.html:299
+#: r2/templates/prefoptions.html:305
 msgid "posts you've opened:"
 msgstr "kiriman yang telah anda buka:"
 
-#: r2/templates/prefoptions.html:301
+#: r2/templates/prefoptions.html:307
 msgid "show as usual"
 msgstr "tunjukkan seperti biasa"
 
-#: r2/templates/prefoptions.html:301
+#: r2/templates/prefoptions.html:307
 msgid "fade them"
 msgstr "malapkan"
 
-#: r2/templates/prefoptions.html:301
+#: r2/templates/prefoptions.html:307
 msgid "hide them"
 msgstr "sorokkan"
 
-#: r2/templates/prefoptions.html:306
+#: r2/templates/prefoptions.html:312
 msgid "(remembered in this browser)"
 msgstr "(diingati dalam pelayar ini)"
 
-#: r2/templates/prefoptions.html:311
+#: r2/templates/prefoptions.html:317
 msgid "(on comments pages, buttons to jump between top-level comments, the submitter's, yours, new ones or ones with links)"
 msgstr "(pada halaman komen, butang untuk melompat antara komen peringkat atas, milik penghantar, milik anda, yang baharu atau yang mempunyai pautan)"
 
-#: r2/templates/prefoptions.html:315
+#: r2/templates/prefoptions.html:321
 #, fuzzy
 #| msgid "top-level comments"
 msgid "live comments"
 msgstr "komen peringkat atas"
 
-#: r2/templates/prefoptions.html:317
+#: r2/templates/prefoptions.html:323
 msgid "(new comments appear on a thread while you have it open, in vaults that use them)"
 msgstr ""
 
-#: r2/templates/prefoptions.html:321
+#: r2/templates/prefoptions.html:327
 msgid "account switcher"
 msgstr "penukar akaun"
 
-#: r2/templates/prefoptions.html:323
+#: r2/templates/prefoptions.html:329
 msgid "(a \"switch account\" menu by your name, to move between your accounts without logging out; logging out forgets them)"
 msgstr "(menu \"tukar akaun\" di sebelah nama anda, untuk bertukar antara akaun anda tanpa log keluar; log keluar akan melupakannya)"
 
-#: r2/templates/prefoptions.html:326
+#: r2/templates/prefoptions.html:332
 msgid "night mode"
 msgstr "mod malam"
 
-#: r2/templates/prefoptions.html:328
+#: r2/templates/prefoptions.html:334
 msgid "(light text on a dark background)"
 msgstr "(teks cerah pada latar belakang gelap)"
 
-#: r2/templates/prefoptions.html:331
+#: r2/templates/prefoptions.html:337
 msgid "hide child comments links"
 msgstr "pautan sorok balasan"
 
-#: r2/templates/prefoptions.html:334
+#: r2/templates/prefoptions.html:340
 msgid "(on comments pages, links to fold up the replies under each comment, or all of them at once)"
 msgstr "(pada halaman komen, pautan untuk melipat balasan di bawah setiap komen, atau semuanya sekali gus)"
 
-#: r2/templates/prefoptions.html:340
+#: r2/templates/prefoptions.html:346
 msgid "filters"
 msgstr "penapis"
 
-#: r2/templates/prefoptions.html:343
+#: r2/templates/prefoptions.html:349
 msgid "Posts that match are left out of listings (never your own). One per line, or separated by commas."
 msgstr "Kiriman yang sepadan ditinggalkan daripada senarai (tidak sekali-kali milik anda). Satu setiap baris, atau dipisahkan dengan koma."
 
-#: r2/templates/prefoptions.html:347
+#: r2/templates/prefoptions.html:353
 msgid "title keywords"
 msgstr "kata kunci tajuk"
 
-#: r2/templates/prefoptions.html:347
+#: r2/templates/prefoptions.html:353
 msgid "whole words or phrases, in any case"
 msgstr "perkataan atau frasa penuh, dalam apa jua huruf"
 
-#: r2/templates/prefoptions.html:348
+#: r2/templates/prefoptions.html:354
 msgid "example.com also hides its subdomains"
 msgstr "example.com turut menyorokkan subdomainnya"
 
-#: r2/templates/prefoptions.html:349
+#: r2/templates/prefoptions.html:355
 msgid "still shown when you visit the vault itself"
 msgstr "masih ditunjukkan apabila anda melawat vault itu sendiri"
 
-#: r2/templates/prefoptions.html:350
+#: r2/templates/prefoptions.html:356
 msgid "only hides their posts; to stop seeing them altogether, block them"
 msgstr "hanya menyorokkan kiriman mereka; untuk berhenti melihat mereka sepenuhnya, sekat mereka"
 
-#: r2/templates/prefoptions.html:363
+#: r2/templates/prefoptions.html:369
 msgid "comment options"
 msgstr "pilihan komen"
 
-#: r2/templates/prefoptions.html:366
+#: r2/templates/prefoptions.html:372
 #, python-format
 msgid "sort comments by %(sort)s"
 msgstr "isih komen mengikut %(sort)s"
 
-#: r2/templates/prefoptions.html:369
+#: r2/templates/prefoptions.html:375
 msgid "ignore suggested sorts"
 msgstr "abaikan isihan cadangan"
 
-#: r2/templates/prefoptions.html:370
+#: r2/templates/prefoptions.html:376
 msgid "(suggested sorts may be set by community moderators for specific threads or vaults, like Q&As)"
 msgstr "(isihan cadangan mungkin ditetapkan oleh pengendali komuniti untuk bebenang atau vault tertentu, seperti soal jawab)"
 
-#: r2/templates/prefoptions.html:373
+#: r2/templates/prefoptions.html:379
 msgid "show a dagger (†) on comments voted controversial"
 msgstr "tunjukkan pisau belati (†) pada komen yang diundi kontroversial"
 
-#: r2/templates/prefoptions.html:374
+#: r2/templates/prefoptions.html:380
 msgid "(a controversial comment is one that's been both upvoted and downvoted significantly)"
 msgstr "(komen kontroversial ialah komen yang telah diundi naik dan turun dengan ketara)"
 
-#: r2/templates/prefoptions.html:381
+#: r2/templates/prefoptions.html:387
 #, python-format
 msgid "don't show me comments with a score less than %(num)s"
 msgstr "jangan tunjukkan komen dengan skor kurang daripada %(num)s"
 
-#: r2/templates/prefoptions.html:382
+#: r2/templates/prefoptions.html:388
 msgid "(leave blank to show all comments)"
 msgstr "(biarkan kosong untuk menunjukkan semua komen)"
 
-#: r2/templates/prefoptions.html:390
+#: r2/templates/prefoptions.html:396
 #, python-format
 msgid "display %(num)s comments by default"
 msgstr "paparkan %(num)s komen secara lalai"
 
-#: r2/templates/prefoptions.html:395
+#: r2/templates/prefoptions.html:401
 msgid "the smaller the number, the faster your comments pages will load"
 msgstr "semakin kecil nombornya, semakin cepat halaman komen anda dimuatkan"
 
-#: r2/templates/prefoptions.html:400
+#: r2/templates/prefoptions.html:406
 msgid "messaging options"
 msgstr "pilihan pemesejan"
 
-#: r2/templates/prefoptions.html:402
+#: r2/templates/prefoptions.html:408
 msgid "show message conversations in the inbox"
 msgstr "tunjukkan perbualan mesej dalam peti masuk"
 
-#: r2/templates/prefoptions.html:405
+#: r2/templates/prefoptions.html:411
 msgid "(only applies when you go to the 'messages' panel)"
 msgstr "(hanya berkuat kuasa apabila anda pergi ke panel 'mesej')"
 
-#: r2/templates/prefoptions.html:409
+#: r2/templates/prefoptions.html:415
 msgid "collapse messages after I've read them"
 msgstr "runtuhkan mesej selepas saya membacanya"
 
-#: r2/templates/prefoptions.html:412
+#: r2/templates/prefoptions.html:418
 msgid "(otherwise, you'll have to collapse them yourself)"
 msgstr "(jika tidak, anda perlu meruntuhkannya sendiri)"
 
-#: r2/templates/prefoptions.html:416
+#: r2/templates/prefoptions.html:422
 msgid "mark messages as read when I open my inbox"
 msgstr "tandakan mesej sebagai dibaca apabila saya membuka peti masuk"
 
-#: r2/templates/prefoptions.html:419
+#: r2/templates/prefoptions.html:425
 msgid "(otherwise, they will be marked as read when you click them)"
 msgstr "(jika tidak, mesej akan ditanda sebagai dibaca apabila anda mengkliknya)"
 
-#: r2/templates/prefoptions.html:422
+#: r2/templates/prefoptions.html:428
 msgid "notify me when people say my username"
 msgstr "beritahu saya apabila orang lain menyebut nama pengguna saya"
 
-#: r2/templates/prefoptions.html:425
+#: r2/templates/prefoptions.html:431
 msgid "send messages as emails"
 msgstr "hantar mesej sebagai e-mel"
 
-#: r2/templates/prefoptions.html:425
+#: r2/templates/prefoptions.html:431
 msgid "requires a verified email"
 msgstr "memerlukan e-mel yang disahkan"
 
-#: r2/templates/prefoptions.html:428
+#: r2/templates/prefoptions.html:434
 msgid "enable threaded modmail display"
 msgstr "dayakan paparan modmail berbebenang"
 
-#: r2/templates/prefoptions.html:432 r2/templates/widgetdemopanel.html:201
+#: r2/templates/prefoptions.html:438 r2/templates/widgetdemopanel.html:201
 msgid "display options"
 msgstr "pilihan paparan"
 
-#: r2/templates/prefoptions.html:434
+#: r2/templates/prefoptions.html:440
 msgid "allow vaults to show me custom themes"
 msgstr "benarkan vault menunjukkan tema tersuai kepada saya"
 
-#: r2/templates/prefoptions.html:437
+#: r2/templates/prefoptions.html:443
 msgid "(you can also choose which vault themes to disable on an individual level)"
 msgstr "(anda juga boleh memilih tema vault yang ingin dimatikan secara individu)"
 
-#: r2/templates/prefoptions.html:441
+#: r2/templates/prefoptions.html:447
 msgid "show user flair"
 msgstr "tunjukkan flair pengguna"
 
-#: r2/templates/prefoptions.html:443
+#: r2/templates/prefoptions.html:449
 msgid "show link flair"
 msgstr "tunjukkan flair pautan"
 
-#: r2/templates/prefoptions.html:446
+#: r2/templates/prefoptions.html:452
 msgid "show self-serve advertising tab on front page"
 msgstr "tunjukkan tab pengiklanan layan sendiri di halaman depan"
 
-#: r2/templates/prefoptions.html:451
+#: r2/templates/prefoptions.html:457
 msgid "show legacy search page"
 msgstr "tunjukkan halaman carian lama"
 
-#: r2/templates/prefoptions.html:458
+#: r2/templates/prefoptions.html:464
 msgid "I am over eighteen years old and willing to view adult content"
 msgstr "Saya berusia lebih daripada lapan belas tahun dan ingin melihat kandungan dewasa"
 
-#: r2/templates/prefoptions.html:459
+#: r2/templates/prefoptions.html:465
 msgid "required to view some vaults"
 msgstr "diperlukan untuk melihat sesetengah vault"
 
-#: r2/templates/prefoptions.html:461
+#: r2/templates/prefoptions.html:467
 msgid "label posts that are not safe for work (NSFW)"
 msgstr "labelkan kiriman yang tidak selamat untuk tempat kerja (NSFW)"
 
-#: r2/templates/prefoptions.html:464
+#: r2/templates/prefoptions.html:470
 msgid "posts labelled as made with AI:"
 msgstr "kiriman yang dilabel sebagai dibuat dengan AI:"
 
-#: r2/templates/prefoptions.html:473
+#: r2/templates/prefoptions.html:479
 msgid "posts in vaults that are for AI content are always shown there"
 msgstr "kiriman dalam vault untuk kandungan AI sentiasa ditunjukkan di sana"
 
-#: r2/templates/prefoptions.html:475
+#: r2/templates/prefoptions.html:481
 msgid "enable private RSS feeds"
 msgstr "dayakan suapan RSS peribadi"
 
-#: r2/templates/prefoptions.html:477
+#: r2/templates/prefoptions.html:483
 msgid "(available from the 'RSS feed' tab in prefs)"
 msgstr "(tersedia daripada tab 'RSS feed' dalam pilihan)"
 
-#: r2/templates/prefoptions.html:480
+#: r2/templates/prefoptions.html:486
 msgid "privacy options"
 msgstr "tetapan kerahsian"
 
-#: r2/templates/prefoptions.html:482
+#: r2/templates/prefoptions.html:488
 msgid "make my votes public"
 msgstr "jadikan undian saya awam"
 
-#: r2/templates/prefoptions.html:489
+#: r2/templates/prefoptions.html:495
 #, python-format
 msgid "let everyone see %(link1)s and %(link2)s"
 msgstr "benarkan semua orang melihat %(link1)s dan %(link2)s"
 
-#: r2/templates/prefoptions.html:492
+#: r2/templates/prefoptions.html:498
 msgid "don't allow search engines to index my user profile"
 msgstr "jangan benarkan enjin carian mengindeks profil pengguna saya"
 
-#: r2/templates/prefoptions.html:502
+#: r2/templates/prefoptions.html:508
 msgid "optional analytics cookies, which help the site's admins see how it's used (see the privacy policy):"
 msgstr ""
 
-#: r2/templates/prefoptions.html:503 r2/templates/utils.html:546
+#: r2/templates/prefoptions.html:509 r2/templates/utils.html:546
 #, fuzzy
 #| msgid "Allow"
 msgid "allow"
 msgstr "Benarkan"
 
-#: r2/templates/prefoptions.html:504 r2/templates/utils.html:547
+#: r2/templates/prefoptions.html:510 r2/templates/utils.html:547
 msgid "don't allow"
 msgstr ""
 
-#: r2/templates/prefoptions.html:505
+#: r2/templates/prefoptions.html:511
 msgid "kept with your account, on every device you sign in on"
 msgstr ""
 
-#: r2/templates/prefoptions.html:511
+#: r2/templates/prefoptions.html:517
 msgid "beta options"
 msgstr "tetapan beta"
 
-#: r2/templates/prefoptions.html:513
+#: r2/templates/prefoptions.html:519
 msgid "I would like to beta test features for tippr"
 msgstr "Saya ingin menggunakan ciri-ciri ujian beta tippr"
 
-#: r2/templates/prefoptions.html:519
+#: r2/templates/prefoptions.html:525
 #, python-format
 msgid "by enabling you'll be subscribed to %(beta_vault_link)s automatically."
 msgstr "dengan mendayakan, anda akan dilanggankan kepada %(beta_vault_link)s secara automatik."
 
-#: r2/templates/prefoptions.html:521
+#: r2/templates/prefoptions.html:527
 #, python-brace-format
 msgid "details on the /v/{beta_vault} wiki"
 msgstr "butiran di wiki /v/{beta_vault}"
 
-#: r2/templates/prefoptions.html:530 r2/templates/prefoptions.html:553
+#: r2/templates/prefoptions.html:536 r2/templates/prefoptions.html:559
 msgid "gold options"
 msgstr "tetapan gold"
 
-#: r2/templates/prefoptions.html:532
+#: r2/templates/prefoptions.html:538
 msgid "hide ads"
 msgstr "sorok iklan"
 
-#: r2/templates/prefoptions.html:534
+#: r2/templates/prefoptions.html:540
 msgid "remember what links I've visited"
 msgstr "ingat pautan yang telah saya lawati"
 
-#: r2/templates/prefoptions.html:535
+#: r2/templates/prefoptions.html:541
 msgid "we'll remember and mark what links you've already read, even between computers"
 msgstr "kami akan mengingati dan menandakan pautan yang telah anda baca, malah antara komputer"
 
-#: r2/templates/prefoptions.html:537 r2/templates/prefoptions.html:555
+#: r2/templates/prefoptions.html:543 r2/templates/prefoptions.html:561
 msgid "highlight new comments"
 msgstr "serlahkan komen baharu"
 
-#: r2/templates/prefoptions.html:539
+#: r2/templates/prefoptions.html:545
 msgid "we'll remember your visits for 48 hours and show you which comments you haven't seen yet"
 msgstr "kami akan mengingati lawatan anda selama 48 jam dan menunjukkan komen yang belum anda lihat"
 
-#: r2/templates/prefoptions.html:542
+#: r2/templates/prefoptions.html:548
 msgid "show gold expiration"
 msgstr "tunjukkan tarikh luput emas"
 
-#: r2/templates/prefoptions.html:544
+#: r2/templates/prefoptions.html:550
 msgid "show how much gold you have remaining on your userpage"
 msgstr "tunjukkan berapa banyak emas yang masih anda miliki pada halaman pengguna anda"
 
-#: r2/templates/prefoptions.html:548
+#: r2/templates/prefoptions.html:554
 #, python-format
 msgid "use a month of my %(coin_link)s to automatically renew my gold if it expires"
 msgstr "gunakan sebulan daripada %(coin_link)s saya untuk memperbaharui emas saya secara automatik jika ia tamat tempoh"
 
-#: r2/templates/prefoptions.html:558
+#: r2/templates/prefoptions.html:564
 #, python-format
 msgid "since you don't have %(gold_link)s, this will only apply in vaults you moderate"
 msgstr "kerana anda tidak mempunyai %(gold_link)s, ini hanya berkuat kuasa dalam vault yang anda kendalikan"
 
-#: r2/templates/prefoptions.html:566
+#: r2/templates/prefoptions.html:572
 msgid "tippr themes"
 msgstr "tema tippr"
 
-#: r2/templates/prefoptions.html:570
+#: r2/templates/prefoptions.html:576
 msgid "tippr themes change the appearance of tippr.  They are used anywhere another custom theme is not present."
 msgstr "tema tippr mengubah rupa tippr. Ia digunakan di mana-mana sahaja yang tiada tema tersuai lain."
 
-#: r2/templates/prefoptions.html:574
+#: r2/templates/prefoptions.html:580
 msgid "Note: For security reasons this page will not be changed by themes"
 msgstr "Nota: Atas sebab keselamatan halaman ini tidak akan diubah oleh tema"
 
-#: r2/templates/prefoptions.html:578
+#: r2/templates/prefoptions.html:584
 msgid "use tippr theme"
 msgstr "gunakan tema tippr"
 
-#: r2/templates/prefoptions.html:579
+#: r2/templates/prefoptions.html:585
 msgid "hover to preview"
 msgstr "lalukan tetikus untuk pratonton"
 
-#: r2/templates/prefoptions.html:598
+#: r2/templates/prefoptions.html:604
 msgid "warning: use non-featured themes at your own risk"
 msgstr "amaran: gunakan tema yang tidak ditampilkan atas risiko anda sendiri"
 

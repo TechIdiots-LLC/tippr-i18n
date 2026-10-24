@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tippr\n"
 "Report-Msgid-Bugs-To: https://github.com/TechIdiots-LLC/tippr-i18n/issues\n"
-"POT-Creation-Date: 2026-10-23 20:15-0400\n"
+"POT-Creation-Date: 2026-10-24 09:58-0400\n"
 "PO-Revision-Date: 2017-04-24 19:31-0400\n"
 "Last-Translator: tippr translators\n"
 "Language-Team: Scottish Gaelic\n"
@@ -19,475 +19,475 @@ msgstr ""
 msgid "Choose an image of at most 1 MB."
 msgstr "Tagh dealbh nach eil nas motha na 1 MB."
 
-#: r2/controllers/api.py:222 r2/controllers/api.py:248 r2/controllers/api.py:4398 r2/controllers/api.py:4468 r2/controllers/listingcontroller.py:754 r2/lib/pages/pages.py:6377
+#: r2/controllers/api.py:223 r2/controllers/api.py:249 r2/controllers/api.py:4403 r2/controllers/api.py:4473 r2/controllers/listingcontroller.py:766 r2/lib/pages/pages.py:6382
 msgid "API"
 msgstr "API"
 
-#: r2/controllers/api.py:273
+#: r2/controllers/api.py:274
 msgid "this is too long"
 msgstr "tha seo ro fhada"
 
-#: r2/controllers/api.py:287 r2/lib/errors.py:72
+#: r2/controllers/api.py:288 r2/lib/errors.py:72
 msgid "that user doesn't exist"
 msgstr "chan eil an cleachdaiche sin ann"
 
-#: r2/controllers/api.py:291
+#: r2/controllers/api.py:292
 #, python-format
 msgid "you can tag at most %(n)d users"
 msgstr "'s urrainn dhut %(n)d cleachdaiche(an) a thaga air a' char as motha"
 
-#: r2/controllers/api.py:309
+#: r2/controllers/api.py:310
 msgid "wrong username or password"
 msgstr "ainm-cleachdaiche no facal-faire cearr"
 
-#: r2/controllers/api.py:311
+#: r2/controllers/api.py:312
 msgid "that's the account you're using"
 msgstr "sin an cunntas a tha thu a' cleachdadh"
 
-#: r2/controllers/api.py:313
+#: r2/controllers/api.py:314
 #, python-format
 msgid "you can keep at most %(n)d other accounts"
 msgstr "'s urrainn dhut %(n)d cunntas(an) eile a chumail air a' char as motha"
 
-#: r2/controllers/api.py:318
+#: r2/controllers/api.py:319
 msgid "enter that account's two-factor code"
 msgstr "cuir a-steach còd dà-cheumnach a' chunntais sin"
 
-#: r2/controllers/api.py:334
+#: r2/controllers/api.py:335
 msgid "that account isn't available to switch to; add it again"
 msgstr "chan urrainn dhut leum chun a' chunntais sin; cuir ris a-rithist e"
 
-#: r2/controllers/api.py:547
+#: r2/controllers/api.py:548
 msgid "your message has been delivered"
 msgstr "chaidh do theachdaireachd a libhrigeadh."
 
-#: r2/controllers/api.py:769
+#: r2/controllers/api.py:770
 msgid "no title found"
 msgstr "cha deach tiotal a lorg"
 
-#: r2/controllers/api.py:863 r2/controllers/linked_logins.py:184 r2/controllers/linked_logins.py:232 r2/controllers/linked_logins.py:252 r2/controllers/linked_logins.py:330
+#: r2/controllers/api.py:864 r2/controllers/linked_logins.py:184 r2/controllers/linked_logins.py:232 r2/controllers/linked_logins.py:252 r2/controllers/linked_logins.py:330
 msgid "That sign-in took too long. Please start again."
 msgstr "Thug an clàradh a-steach sin ro fhada. Tòisich às ùr."
 
-#: r2/controllers/api.py:868
+#: r2/controllers/api.py:869
 msgid "That account is linked already: sign in with it."
 msgstr "Tha an cunntas sin ceangailte mu thràth: clàraich a-steach leis."
 
-#: r2/controllers/api.py:1402 r2/controllers/api.py:1783 r2/controllers/api.py:2683 r2/controllers/api.py:2983 r2/controllers/api.py:3310 r2/controllers/api.py:4190 r2/controllers/api.py:4246 r2/controllers/api.py:4300 r2/controllers/api.py:4533 r2/controllers/api.py:4538 r2/controllers/api.py:4773 r2/controllers/api.py:4838 r2/controllers/api.py:4916 r2/controllers/api.py:4982 r2/controllers/api.py:5055 r2/controllers/api.py:5146 r2/controllers/api.py:5178 r2/controllers/api.py:5198 r2/controllers/api.py:5712 r2/controllers/api.py:5752 r2/controllers/api.py:5986 r2/controllers/api.py:6004 r2/controllers/api.py:6352 r2/lib/pages/pages.py:6268
+#: r2/controllers/api.py:1403 r2/controllers/api.py:1784 r2/controllers/api.py:2686 r2/controllers/api.py:2986 r2/controllers/api.py:3313 r2/controllers/api.py:4195 r2/controllers/api.py:4251 r2/controllers/api.py:4305 r2/controllers/api.py:4538 r2/controllers/api.py:4543 r2/controllers/api.py:4778 r2/controllers/api.py:4843 r2/controllers/api.py:4921 r2/controllers/api.py:4987 r2/controllers/api.py:5060 r2/controllers/api.py:5151 r2/controllers/api.py:5183 r2/controllers/api.py:5203 r2/controllers/api.py:5717 r2/controllers/api.py:5757 r2/controllers/api.py:5991 r2/controllers/api.py:6009 r2/controllers/api.py:6357 r2/lib/pages/pages.py:6273
 msgid "saved"
 msgstr "air a shàbhaladh"
 
-#: r2/controllers/api.py:1472
+#: r2/controllers/api.py:1473
 msgid "all other sessions have been logged out"
 msgstr "chaidh gach seisean eile a chlàradh a-mach"
 
-#: r2/controllers/api.py:1531
+#: r2/controllers/api.py:1532
 msgid "you should be getting a verification email shortly."
 msgstr "bu chòir gum faigh thu post-d dearbhaidh a dh'aithghearr."
 
-#: r2/controllers/api.py:1533 r2/controllers/api.py:1546
+#: r2/controllers/api.py:1534 r2/controllers/api.py:1547
 msgid "your email has been updated"
 msgstr "chaidh am post-d agad ùrachadh"
 
-#: r2/controllers/api.py:1581
+#: r2/controllers/api.py:1582
 msgid "your password has been updated"
 msgstr "chaidh am facal-faire agad ùrachadh"
 
-#: r2/controllers/api.py:2040 r2/lib/menus.py:196 r2/templates/adminserverstatus.html:141
+#: r2/controllers/api.py:2041 r2/lib/menus.py:196 r2/templates/adminserverstatus.html:141
 msgid "reported"
 msgstr "air aithris a dhèanamh"
 
-#: r2/controllers/api.py:2461 r2/lib/support.py:91
+#: r2/controllers/api.py:2464 r2/lib/support.py:91
 msgid "replied"
 msgstr "air freagairt a thoirt"
 
-#: r2/controllers/api.py:2666
+#: r2/controllers/api.py:2669
 msgid "validation errors"
 msgstr "mearachdan dearbhaidh"
 
-#: r2/controllers/api.py:2786 r2/controllers/api.py:2813 r2/controllers/api.py:2840 r2/controllers/listingcontroller.py:1036 r2/lib/menus.py:195 r2/public/static/js/tippr.js:231 r2/templates/adminapps.html:51 r2/templates/adminuser.html:59 r2/templates/deleteduserinterstitial.html:34 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:578 r2/templates/vaultstylesheetbase.html:47
+#: r2/controllers/api.py:2789 r2/controllers/api.py:2816 r2/controllers/api.py:2843 r2/controllers/listingcontroller.py:1048 r2/lib/menus.py:195 r2/public/static/js/tippr.js:235 r2/templates/adminapps.html:51 r2/templates/adminuser.html:59 r2/templates/deleteduserinterstitial.html:34 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:578 r2/templates/vaultstylesheetbase.html:47
 msgid "deleted"
 msgstr "air sguabadh às"
 
-#: r2/controllers/api.py:2917
+#: r2/controllers/api.py:2920
 msgid "bad image name"
 msgstr "droch-ainm air an dealbh"
 
-#: r2/controllers/api.py:2923
+#: r2/controllers/api.py:2926
 #, python-format
 msgid "too many images (you only get %d)"
 msgstr "cus dealbhan (chan fhaighear ach %d)"
 
-#: r2/controllers/api.py:2928 r2/controllers/api.py:2952
+#: r2/controllers/api.py:2931 r2/controllers/api.py:2955
 msgid "Invalid image or general image error"
 msgstr "Dealbh mì-dhligheach no mearachd eile leis an dealbh"
 
-#: r2/controllers/api.py:2933
+#: r2/controllers/api.py:2936
 #, python-format
 msgid "must be %dx%d pixels"
 msgstr "feumaidh e a bhith %dx%d piogsail"
 
-#: r2/controllers/api.py:2937
+#: r2/controllers/api.py:2940
 msgid "10:3 aspect ratio required"
 msgstr "feumar co-mheas 10:3"
 
-#: r2/controllers/api.py:2940
+#: r2/controllers/api.py:2943
 #, python-format
 msgid "max %dx%d pixels"
 msgstr "%dx%d piogsail air a' char as motha"
 
-#: r2/controllers/api.py:2943
+#: r2/controllers/api.py:2946
 #, python-format
 msgid "min %dx%d pixels"
 msgstr "%dx%d piogsail air a' char as lugha"
 
-#: r2/controllers/api.py:4002
+#: r2/controllers/api.py:4007
 msgid "an email will be sent to that account's address shortly"
 msgstr "thèid post-d a chur gu seòladh a' chunntais sin a dh'aithghearr"
 
-#: r2/controllers/api.py:4005
+#: r2/controllers/api.py:4010
 msgid "try again tomorrow"
 msgstr "feuch ris a-rithist a-màireach"
 
-#: r2/controllers/api.py:4052
+#: r2/controllers/api.py:4057
 msgid "password updated"
 msgstr "chaidh am facal-faire ùrachadh"
 
-#: r2/controllers/api.py:4258 r2/controllers/api.py:4489
+#: r2/controllers/api.py:4263 r2/controllers/api.py:4494
 msgid "invalid css class"
 msgstr "clas css mì-dhligheach"
 
-#: r2/controllers/api.py:4261 r2/controllers/api.py:4492
+#: r2/controllers/api.py:4266 r2/controllers/api.py:4497
 msgid "too many css classes"
 msgstr "tha cus chlasaichean css ann"
 
-#: r2/controllers/api.py:4513
+#: r2/controllers/api.py:4518
 msgid "max flair templates reached"
 msgstr "tha na tha ceadaichte de theamplaidean flair agad"
 
-#: r2/controllers/api.py:4978
+#: r2/controllers/api.py:4983
 #, python-format
 msgid "saved, but these aren't on until their keys are filled in: %(names)s"
 msgstr "air a shàbhaladh, ach chan eil iad seo air gus an lìonar na h-iuchraichean aca: %(names)s"
 
-#: r2/controllers/api.py:5000
+#: r2/controllers/api.py:5005
 msgid "the keys work"
 msgstr "tha na h-iuchraichean ag obair"
 
-#: r2/controllers/api.py:5001 r2/controllers/api.py:5018
+#: r2/controllers/api.py:5006 r2/controllers/api.py:5023
 #, python-format
 msgid "didn't work: %(error)s"
 msgstr "cha do dh'obraich e: %(error)s"
 
-#: r2/controllers/api.py:5006
+#: r2/controllers/api.py:5011
 msgid "no such payment"
 msgstr "chan eil pàigheadh mar sin ann"
 
-#: r2/controllers/api.py:5021 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminprivacy.html:26 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminuser.html:89 r2/templates/adminusers.html:77 r2/templates/adminvaults.html:50
+#: r2/controllers/api.py:5026 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminprivacy.html:26 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminuser.html:89 r2/templates/adminusers.html:77 r2/templates/adminvaults.html:50
 msgid "status"
 msgstr "staid"
 
-#: r2/controllers/api.py:5046 r2/controllers/linked_logins.py:93 r2/controllers/linked_logins.py:187 r2/lib/pages/pages.py:1373 r2/lib/pages/pages.py:1423 r2/templates/createvault.html:57 r2/templates/goldpayment.html:168 r2/templates/linkedsignin.html:41 r2/templates/listingchooser.html:69 r2/templates/prefapps.html:153 r2/templates/prefapps.html:348
+#: r2/controllers/api.py:5051 r2/controllers/linked_logins.py:93 r2/controllers/linked_logins.py:187 r2/lib/pages/pages.py:1374 r2/lib/pages/pages.py:1424 r2/templates/createvault.html:57 r2/templates/goldpayment.html:168 r2/templates/linkedsignin.html:41 r2/templates/listingchooser.html:69 r2/templates/prefapps.html:153 r2/templates/prefapps.html:348
 msgid "name"
 msgstr "ainm"
 
-#: r2/controllers/api.py:5051
+#: r2/controllers/api.py:5056
 #, python-format
 msgid "saved, but these aren't on until their ID and secret are filled in: %(names)s"
 msgstr "air a shàbhaladh, ach chan eil iad seo air gus an lìonar an ID 's an rùn aca: %(names)s"
 
-#: r2/controllers/api.py:5160 r2/controllers/api.py:5186
+#: r2/controllers/api.py:5165 r2/controllers/api.py:5191
 msgid "this site's live config is managed in ZooKeeper"
 msgstr "tha rèiteachadh beò na làraich seo ga stiùireadh ann an ZooKeeper"
 
-#: r2/controllers/api.py:5164
+#: r2/controllers/api.py:5169
 msgid "unknown setting"
 msgstr "roghainn neo-aithnichte"
 
-#: r2/controllers/api.py:5172 r2/controllers/api.py:5196
+#: r2/controllers/api.py:5177 r2/controllers/api.py:5201
 #, python-format
 msgid "not saved: %(error)s"
 msgstr "cha deach a shàbhaladh: %(error)s"
 
-#: r2/controllers/api.py:5202
+#: r2/controllers/api.py:5207
 #, python-format
 msgid "%(saved)d saved; %(failed)d not saved (see below)"
 msgstr "%(saved)d air an sàbhaladh; %(failed)d gun sàbhaladh (faic gu h-ìosal)"
 
-#: r2/controllers/api.py:5208
+#: r2/controllers/api.py:5213
 msgid "nothing changed"
 msgstr "cha do dh'atharraich dad"
 
-#: r2/controllers/api.py:5224
+#: r2/controllers/api.py:5229
 #, python-format
 msgid "couldn't empty: %(servers)s"
 msgstr "cha b' urrainn falamhachadh: %(servers)s"
 
-#: r2/controllers/api.py:5249
+#: r2/controllers/api.py:5254
 msgid "every account has been checked"
 msgstr "chaidh gach cunntas a sgrùdadh"
 
-#: r2/controllers/api.py:5261
+#: r2/controllers/api.py:5266
 msgid "select some accounts"
 msgstr "tagh cunntasan"
 
-#: r2/controllers/api.py:5308 r2/controllers/api.py:5414
+#: r2/controllers/api.py:5313 r2/controllers/api.py:5419
 msgid "no such account"
 msgstr "chan eil cunntas mar sin ann"
 
-#: r2/controllers/api.py:5311 r2/controllers/api.py:5406
+#: r2/controllers/api.py:5316 r2/controllers/api.py:5411
 msgid "unknown action"
 msgstr "gnìomh neo-aithnichte"
 
-#: r2/controllers/api.py:5325
+#: r2/controllers/api.py:5330
 #, fuzzy
 #| msgid "no permissions"
 msgid "choose a permission"
 msgstr "gun cheand"
 
-#: r2/controllers/api.py:5339
+#: r2/controllers/api.py:5344
 msgid "not on admins (take them off the employees list on /admin/config first)"
 msgstr "chan ann air rianairean (thoir far liosta an luchd-obrach iad air /admin/config an toiseach)"
 
-#: r2/controllers/api.py:5343
+#: r2/controllers/api.py:5348
 msgid "the account is deleted"
 msgstr "chaidh an cunntas a sguabadh às"
 
-#: r2/controllers/api.py:5346
+#: r2/controllers/api.py:5351
 msgid "give a reason (it's logged, and a timeout's reason is sent to them)"
 msgstr "thoir adhbhar (thèid a chlàradh, agus thèid adhbhar na fois-ùine a chur thuca)"
 
-#: r2/controllers/api.py:5350 r2/controllers/api.py:5431
+#: r2/controllers/api.py:5355 r2/controllers/api.py:5436
 msgid "tick the box to confirm"
 msgstr "cuir cromag sa bhogsa airson dearbhadh"
 
-#: r2/controllers/api.py:5353
+#: r2/controllers/api.py:5358
 msgid "choose whether to keep or delete their posts"
 msgstr "tagh an cùm thu no an sguab thu às na puist aca"
 
-#: r2/controllers/api.py:5356
+#: r2/controllers/api.py:5361
 msgid "they have no email address"
 msgstr "chan eil seòladh puist-d aca"
 
-#: r2/controllers/api.py:5403 r2/controllers/api.py:5509
+#: r2/controllers/api.py:5408 r2/controllers/api.py:5514
 msgid "no such vault"
 msgstr "chan eil vault mar sin ann"
 
-#: r2/controllers/api.py:5418
+#: r2/controllers/api.py:5423
 msgid "they're already a moderator"
 msgstr "'s e modaratair a th' annta mu thràth"
 
-#: r2/controllers/api.py:5421
+#: r2/controllers/api.py:5426
 msgid "they're banned from the vault; unban them first"
 msgstr "tha iad toirmisgte bhon vault; thoir an toirmeasg dhiubh an toiseach"
 
-#: r2/controllers/api.py:5426
+#: r2/controllers/api.py:5431
 msgid "they aren't a moderator"
 msgstr "chan e modaratair a th' annta"
 
-#: r2/controllers/api.py:5438
+#: r2/controllers/api.py:5443
 msgid "unban the vault first"
 msgstr "thoir an toirmeasg far na vault an toiseach"
 
-#: r2/controllers/api.py:5457
+#: r2/controllers/api.py:5462
 msgid "no such app"
 msgstr "chan eil aplacaid mar sin ann"
 
-#: r2/controllers/api.py:5460
+#: r2/controllers/api.py:5465
 msgid "the site's own apps can't be deleted here"
 msgstr "chan urrainnear aplacaidean na làraich fhèin a sguabadh às an-seo"
 
-#: r2/controllers/api.py:5503
+#: r2/controllers/api.py:5508
 msgid "give the feed's http(s) address"
 msgstr "thoir seòladh http(s) an inbhir"
 
-#: r2/controllers/api.py:5512
+#: r2/controllers/api.py:5517
 msgid "pick one of the AI labels"
 msgstr "tagh fear de leubailean an AI"
 
-#: r2/controllers/api.py:5516
+#: r2/controllers/api.py:5521
 #, python-format
 msgid "/v/%(vault)s doesn't accept %(label)s posts"
 msgstr "cha ghabh /v/%(vault)s ri puist %(label)s"
 
-#: r2/controllers/api.py:5522
+#: r2/controllers/api.py:5527
 msgid "give the bot account a valid username"
 msgstr "thoir ainm-cleachdaiche dligheach do chunntas a' bhot"
 
-#: r2/controllers/api.py:5531
+#: r2/controllers/api.py:5536
 msgid "that account is suspended or deleted"
 msgstr "tha an cunntas sin na stad no air a sguabadh às"
 
-#: r2/controllers/api.py:5538 r2/controllers/api.py:5553
+#: r2/controllers/api.py:5543 r2/controllers/api.py:5558
 msgid "no such feed"
 msgstr "chan eil inbhir mar sin ann"
 
-#: r2/controllers/api.py:5576
+#: r2/controllers/api.py:5581
 msgid "give a domain"
 msgstr "thoir àrainn"
 
-#: r2/controllers/api.py:5582
+#: r2/controllers/api.py:5587
 msgid "choose what the ban does"
 msgstr "tagh dè nì an toirmeasg"
 
-#: r2/controllers/api.py:5585
+#: r2/controllers/api.py:5590
 msgid "give a reason (members see it when the link is refused)"
 msgstr "thoir adhbhar (chì na buill e nuair a thèid an ceangal a dhiùltadh)"
 
-#: r2/controllers/api.py:5590
+#: r2/controllers/api.py:5595
 msgid "that's not a domain"
 msgstr "chan e àrainn a tha sin"
 
-#: r2/controllers/api.py:5617 r2/controllers/api.py:5636 r2/controllers/api.py:5653 r2/controllers/api.py:5671
+#: r2/controllers/api.py:5622 r2/controllers/api.py:5641 r2/controllers/api.py:5658 r2/controllers/api.py:5676
 msgid "no such ticket"
 msgstr "chan eil tiogaid mar sin ann"
 
-#: r2/controllers/api.py:5684
+#: r2/controllers/api.py:5689
 msgid "they can't reply in this category"
 msgstr "chan urrainn dhaibh freagairt san roinn-seòrsa seo"
 
-#: r2/controllers/api.py:5704
+#: r2/controllers/api.py:5709
 msgid "not on the employees list"
 msgstr "chan eil e air liosta an luchd-obrach"
 
-#: r2/controllers/api.py:5756
+#: r2/controllers/api.py:5761
 msgid "saved; CleanTalk needs an access key to work"
 msgstr "air a shàbhaladh; feumaidh CleanTalk iuchair inntrigidh airson obrachadh"
 
-#: r2/controllers/api.py:5759
+#: r2/controllers/api.py:5764
 #, python-format
 msgid "saved; CleanTalk says: %(problem)s"
 msgstr "air a shàbhaladh; tha CleanTalk ag ràdh: %(problem)s"
 
-#: r2/controllers/api.py:5761
+#: r2/controllers/api.py:5766
 msgid "saved; the CleanTalk key works"
 msgstr "air a shàbhaladh; tha iuchair CleanTalk ag obair"
 
-#: r2/controllers/api.py:5798
+#: r2/controllers/api.py:5803
 msgid "that isn't a release with an installer"
 msgstr "chan e sgaoileadh le stàlaichear a tha sin"
 
-#: r2/controllers/api.py:5801
+#: r2/controllers/api.py:5806
 msgid "a server is updating now; wait for it to finish"
 msgstr "tha frithealaiche ga ùrachadh an-dràsta; fuirich gus an crìochnaich e"
 
-#: r2/controllers/api.py:5903
+#: r2/controllers/api.py:5908
 msgid "Copy the key now; it isn't shown again."
 msgstr "Dèan lethbhreac dhen iuchair an-dràsta; cha tèid a sealltainn a-rithist."
 
-#: r2/controllers/api.py:5912
+#: r2/controllers/api.py:5917
 msgid "tippr-backup isn't installed on this server (re-run the installer)."
 msgstr "Chan eil tippr-backup air a stàladh air an fhrithealaiche seo (ruith an stàlaichear a-rithist)."
 
-#: r2/controllers/api.py:5917
+#: r2/controllers/api.py:5922
 msgid "no such backup"
 msgstr "chan eil lethbhreac-glèidhidh mar sin ann"
 
-#: r2/controllers/api.py:5922
+#: r2/controllers/api.py:5927
 #, python-format
 msgid "Type this site's domain (%(domain)s) to confirm."
 msgstr "Sgrìobh àrainn na làraich seo (%(domain)s) airson dearbhadh."
 
-#: r2/controllers/api.py:5935
+#: r2/controllers/api.py:5940
 msgid "Enter the other server's address and its transfer key."
 msgstr "Cuir a-steach seòladh an fhrithealaiche eile agus an iuchair tar-chuir aige."
 
-#: r2/controllers/api.py:5939
+#: r2/controllers/api.py:5944
 msgid "That isn't a backup name."
 msgstr "Chan e ainm lethbhric-ghlèidhidh a tha sin."
 
-#: r2/controllers/api.py:5960
+#: r2/controllers/api.py:5965
 msgid "tippr test email"
 msgstr "post-d deuchainn tippr"
 
-#: r2/controllers/api.py:5961
+#: r2/controllers/api.py:5966
 #, python-format
 msgid "This is a test message from %(domain)s. Email is working."
 msgstr "Seo teachdaireachd deuchainn o %(domain)s. Tha am post-d ag obair."
 
-#: r2/controllers/api.py:5965
+#: r2/controllers/api.py:5970
 #, python-format
 msgid "failed: %(error)s"
 msgstr "dh'fhàillig e: %(error)s"
 
-#: r2/controllers/api.py:5967
+#: r2/controllers/api.py:5972
 #, python-format
 msgid "sent to %(address)s"
 msgstr "air a chur gu %(address)s"
 
-#: r2/controllers/api.py:6000
+#: r2/controllers/api.py:6005
 msgid "no gold to take"
 msgstr "chan eil òr ann ri thoirt air falbh"
 
-#: r2/controllers/api.py:6164 r2/controllers/api.py:6194
+#: r2/controllers/api.py:6169 r2/controllers/api.py:6199
 msgid "that's as many authenticator apps as an account can have"
 msgstr "sin na tha de dh'aplacaidean dearbhaidh a dh'fhaodas a bhith aig cunntas"
 
-#: r2/controllers/api.py:6242
+#: r2/controllers/api.py:6247
 msgid "That code didn't work. Codes follow the clock, so check that your phone sets its time automatically."
 msgstr ""
 
-#: r2/controllers/api.py:6245
+#: r2/controllers/api.py:6250
 msgid "enter a code from one of your methods first"
 msgstr "cuir a-steach còd o fhear de na dòighean agad an toiseach"
 
-#: r2/controllers/api.py:6248
+#: r2/controllers/api.py:6253
 #, fuzzy
 #| msgid "That code isn't right. Try again."
 msgid "That password isn't right. Try again."
 msgstr "Chan eil an còd sin ceart. Feuch ris a-rithist."
 
-#: r2/controllers/api.py:6249
+#: r2/controllers/api.py:6254
 msgid "enter your password first"
 msgstr "cuir a-steach am facal-faire agad an toiseach"
 
-#: r2/controllers/api.py:6267
+#: r2/controllers/api.py:6272
 msgid "that passkey couldn't be added"
 msgstr "cha b' urrainn an iuchair-fhaire sin a chur ris"
 
-#: r2/controllers/api.py:6305
+#: r2/controllers/api.py:6310
 msgid "that passkey wasn't accepted"
 msgstr "cha deach gabhail ris an iuchair-fhaire sin"
 
-#: r2/controllers/api.py:6464
+#: r2/controllers/api.py:6469
 #, python-format
 msgid "accounts need to be %(n)d days old"
 msgstr "feumaidh na cunntasan a bhith %(n)d là(ithean) a dh'aois"
 
-#: r2/controllers/api.py:6468
+#: r2/controllers/api.py:6473
 #, python-format
 msgid "accounts need %(n)d karma"
 msgstr "feumaidh na cunntasan %(n)d karma"
 
-#: r2/controllers/api.py:6471
+#: r2/controllers/api.py:6476
 msgid "verify your email address first"
 msgstr "dearbh an seòladh puist-d agad an toiseach"
 
-#: r2/controllers/api.py:6513 r2/lib/errors.py:158
+#: r2/controllers/api.py:6518 r2/lib/errors.py:158
 msgid "this app can not be modified from this interface"
 msgstr "chan urrainnear an aplacaid seo atharrachadh on eadar-aghaidh seo"
 
-#: r2/controllers/api.py:6520 r2/lib/errors.py:136
+#: r2/controllers/api.py:6525 r2/lib/errors.py:136
 msgid "invalid client id"
 msgstr "id cliaint mì-dhligheach"
 
-#: r2/controllers/api.py:6523
+#: r2/controllers/api.py:6528
 msgid "cannot update deleted app"
 msgstr "cha ghabh aplacaid a sguab thu às ùrachadh"
 
-#: r2/controllers/api.py:6526
+#: r2/controllers/api.py:6531
 msgid "app does not belong to you"
 msgstr "chan ann agadsa a tha an aplacaid"
 
-#: r2/controllers/api.py:6534
+#: r2/controllers/api.py:6539
 msgid "application updated"
 msgstr "chaidh an aplacaid ùrachadh"
 
-#: r2/controllers/api.py:6558
+#: r2/controllers/api.py:6563
 msgid "application created"
 msgstr "chaidh an aplacaid a chruthachadh"
 
-#: r2/controllers/api.py:6593
+#: r2/controllers/api.py:6598
 msgid "developer added"
 msgstr "chaidh an neach-leasachaidh a chur ris"
 
@@ -503,7 +503,7 @@ msgstr "putanan tippr"
 msgid "tippr widget"
 msgstr "widget tippr"
 
-#: r2/controllers/embed.py:74 r2/controllers/policies.py:76 r2/lib/pages/pages.py:1136 r2/lib/pages/pages.py:6373 r2/templates/printablebuttons.html:150
+#: r2/controllers/embed.py:74 r2/controllers/policies.py:76 r2/lib/pages/pages.py:1137 r2/lib/pages/pages.py:6378 r2/templates/printablebuttons.html:150
 msgid "help"
 msgstr "cobhair"
 
@@ -533,11 +533,11 @@ msgstr "cha deach an duilleag a lorg"
 msgid "the page you requested does not exist"
 msgstr "chan eil an duilleag a dh'iarr thu ann"
 
-#: r2/controllers/error.py:220 r2/controllers/listingcontroller.py:999 r2/templates/adminapps.html:51 r2/templates/banneduserinterstitial.html:35 r2/templates/intimeoutinterstitial.html:34 r2/templates/intimeoutinterstitial.html:40
+#: r2/controllers/error.py:220 r2/controllers/listingcontroller.py:1011 r2/templates/adminapps.html:51 r2/templates/banneduserinterstitial.html:35 r2/templates/intimeoutinterstitial.html:34 r2/templates/intimeoutinterstitial.html:40
 msgid "suspended"
 msgstr "na stad"
 
-#: r2/controllers/front.py:247 r2/lib/pages/pages.py:6255
+#: r2/controllers/front.py:247 r2/lib/pages/pages.py:6260
 msgid "explore"
 msgstr "rùraich"
 
@@ -569,7 +569,7 @@ msgstr "seall %d"
 msgid "create a vault"
 msgstr "cruthaich vault"
 
-#: r2/controllers/front.py:738 r2/controllers/front.py:744 r2/controllers/listingcontroller.py:801 r2/controllers/listingcontroller.py:816 r2/controllers/listingcontroller.py:1180 r2/controllers/listingcontroller.py:1191 r2/lib/menus.py:203 r2/lib/menus.py:453 r2/lib/menus.py:666 r2/lib/pages/pages.py:5142 r2/lib/pages/pages.py:5151 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
+#: r2/controllers/front.py:738 r2/controllers/front.py:744 r2/controllers/listingcontroller.py:813 r2/controllers/listingcontroller.py:828 r2/controllers/listingcontroller.py:1192 r2/controllers/listingcontroller.py:1203 r2/lib/menus.py:203 r2/lib/menus.py:453 r2/lib/menus.py:666 r2/lib/pages/pages.py:5147 r2/lib/pages/pages.py:5156 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
 msgid "all"
 msgstr "na h-uile"
 
@@ -593,7 +593,7 @@ msgstr "puist is beachdan"
 msgid "posts"
 msgstr "puist"
 
-#: r2/controllers/front.py:949 r2/controllers/listingcontroller.py:1783 r2/lib/pages/pages.py:5896 r2/templates/adminuser.html:37 r2/templates/createvault.html:288 r2/templates/link.xml:95
+#: r2/controllers/front.py:949 r2/controllers/listingcontroller.py:1795 r2/lib/pages/pages.py:5901 r2/templates/adminuser.html:37 r2/templates/createvault.html:288 r2/templates/link.xml:95
 msgid "comments"
 msgstr "beachdan"
 
@@ -630,7 +630,7 @@ msgstr "deasbadan eile"
 msgid "search results"
 msgstr "toraidhean luirg"
 
-#: r2/controllers/front.py:1309 r2/controllers/listingcontroller.py:1532 r2/lib/menus.py:95 r2/lib/menus.py:177 r2/templates/adminvault.html:23 r2/templates/adminvaults.html:22 r2/templates/pagenamenav.html:62 r2/templates/prefoptions.html:349 r2/templates/promotelinkbase.html:765
+#: r2/controllers/front.py:1309 r2/controllers/listingcontroller.py:1544 r2/lib/menus.py:95 r2/lib/menus.py:177 r2/templates/adminvault.html:23 r2/templates/adminvaults.html:22 r2/templates/pagenamenav.html:62 r2/templates/prefoptions.html:355 r2/templates/promotelinkbase.html:765
 msgid "vaults"
 msgstr "vaults"
 
@@ -688,11 +688,11 @@ msgstr "tagradh duaise"
 msgid "gilding"
 msgstr "òradh"
 
-#: r2/controllers/front.py:1636 r2/controllers/front.py:1940 r2/controllers/front.py:1967 r2/controllers/front.py:2037 r2/controllers/front.py:2080 r2/lib/menus.py:94 r2/templates/contactus.html:117 r2/templates/contactus.html:119 r2/templates/creditgild.html:34 r2/templates/gold.html:30 r2/templates/goldabout.html:20 r2/templates/goldpayment.html:40 r2/templates/goldthanks.html:29 r2/templates/prefoptions.html:556
+#: r2/controllers/front.py:1636 r2/controllers/front.py:1940 r2/controllers/front.py:1967 r2/controllers/front.py:2037 r2/controllers/front.py:2080 r2/lib/menus.py:94 r2/templates/contactus.html:117 r2/templates/contactus.html:119 r2/templates/creditgild.html:34 r2/templates/gold.html:30 r2/templates/goldabout.html:20 r2/templates/goldpayment.html:40 r2/templates/goldthanks.html:29 r2/templates/prefoptions.html:562
 msgid "tippr gold"
 msgstr "tippr òir"
 
-#: r2/controllers/front.py:1669 r2/public/static/js/enhancements.js:1084 r2/templates/adminemailsettings.html:73 r2/templates/admininterstitial.html:52 r2/templates/linkedloginlink.html:40 r2/templates/linkedloginlink.html:58 r2/templates/login.html:96 r2/templates/login.html:98 r2/templates/login.html:223 r2/templates/loginformwide.html:46 r2/templates/prefsecurity.html:130 r2/templates/prefsecurity.html:237 r2/templates/prefsecurity.html:270 r2/templates/privacysettings.html:128 r2/templates/register.html:96 r2/templates/register.html:98 r2/templates/register.html:223
+#: r2/controllers/front.py:1669 r2/public/static/js/enhancements.js:1084 r2/templates/adminemailsettings.html:73 r2/templates/admininterstitial.html:56 r2/templates/linkedloginlink.html:40 r2/templates/linkedloginlink.html:58 r2/templates/login.html:96 r2/templates/login.html:98 r2/templates/login.html:223 r2/templates/loginformwide.html:46 r2/templates/prefsecurity.html:130 r2/templates/prefsecurity.html:237 r2/templates/prefsecurity.html:270 r2/templates/privacysettings.html:128
 msgid "password"
 msgstr "facal-faire"
 
@@ -700,7 +700,7 @@ msgstr "facal-faire"
 msgid "verify email"
 msgstr "dearbh am post-d"
 
-#: r2/controllers/front.py:1737 r2/templates/login.html:125 r2/templates/loginformwide.html:53 r2/templates/register.html:125
+#: r2/controllers/front.py:1737 r2/templates/login.html:125 r2/templates/loginformwide.html:53
 msgid "reset password"
 msgstr "ath-shuidhich am facal-faire"
 
@@ -712,7 +712,7 @@ msgstr "tòcan teachdaireachd cearr"
 msgid "emails unsubscribed"
 msgstr "chaidh crìoch a chur air na puist-d"
 
-#: r2/controllers/front.py:1843 r2/lib/pages/pages.py:929 r2/templates/admininterstitial.html:79
+#: r2/controllers/front.py:1843 r2/lib/pages/pages.py:930 r2/templates/admininterstitial.html:83
 msgid "turn admin on"
 msgstr "cuir an rianachd air"
 
@@ -732,7 +732,7 @@ msgstr "Chan eil òr tippr ri reic air an làrach seo an-dràsta."
 msgid "what gold gives you"
 msgstr "na bheir an t-òr dhut"
 
-#: r2/controllers/front.py:2090 r2/templates/gold.html:57 r2/templates/gold.html:112 r2/templates/prefoptions.html:547
+#: r2/controllers/front.py:2090 r2/templates/gold.html:57 r2/templates/gold.html:112 r2/templates/prefoptions.html:553
 msgid "Give Gold"
 msgstr "Thoir òir"
 
@@ -965,7 +965,7 @@ msgstr ""
 msgid "sign in"
 msgstr "clàraich a-steach"
 
-#: r2/controllers/linked_logins.py:76 r2/controllers/linked_logins.py:98 r2/controllers/linked_logins.py:104 r2/controllers/linked_logins.py:185 r2/controllers/linked_logins.py:212 r2/controllers/linked_logins.py:331 r2/controllers/linked_logins.py:337 r2/templates/login.html:166 r2/templates/login.html:262 r2/templates/login.html:296 r2/templates/register.html:166 r2/templates/register.html:262 r2/templates/register.html:296
+#: r2/controllers/linked_logins.py:76 r2/controllers/linked_logins.py:98 r2/controllers/linked_logins.py:104 r2/controllers/linked_logins.py:185 r2/controllers/linked_logins.py:212 r2/controllers/linked_logins.py:331 r2/controllers/linked_logins.py:337 r2/templates/login.html:166 r2/templates/login.html:262 r2/templates/login.html:296
 msgid "log in"
 msgstr "clàraich a-steach"
 
@@ -1007,143 +1007,143 @@ msgstr ""
 msgid "Too many wrong codes. Please start again."
 msgstr "Cus chòdan cearra. Tòisich às ùr."
 
-#: r2/controllers/listingcontroller.py:596
+#: r2/controllers/listingcontroller.py:608
 msgid "newest submissions"
 msgstr "na tha air ùr-chur"
 
-#: r2/controllers/listingcontroller.py:624
+#: r2/controllers/listingcontroller.py:636
 msgid "rising submissions"
 msgstr "air a chur is a' dol an àirde"
 
-#: r2/controllers/listingcontroller.py:677
+#: r2/controllers/listingcontroller.py:689
 msgid "top scoring links"
 msgstr "gràinnean-mullaich nan ceangal"
 
-#: r2/controllers/listingcontroller.py:681
+#: r2/controllers/listingcontroller.py:693
 msgid "most controversial links"
 msgstr "na ceanglaichean as connspaidiche"
 
-#: r2/controllers/listingcontroller.py:695
+#: r2/controllers/listingcontroller.py:707
 msgid "promoted links"
 msgstr "ceanglaichean brosnaichte"
 
-#: r2/controllers/listingcontroller.py:699
+#: r2/controllers/listingcontroller.py:711
 #, python-format
 msgid "want to advertise? [click here!](%(link)s)"
 msgstr "airson sanasachd a dhèanamh? [briog an-seo!](%(link)s)"
 
-#: r2/controllers/listingcontroller.py:734
+#: r2/controllers/listingcontroller.py:746
 msgid "you're really bored now, eh?"
 msgstr "nach tusa tha air do shàrachadh a-nis, homh?"
 
-#: r2/controllers/listingcontroller.py:809
+#: r2/controllers/listingcontroller.py:821
 msgid "filter by vault"
 msgstr "criathraich a-rèir vault"
 
-#: r2/controllers/listingcontroller.py:823
+#: r2/controllers/listingcontroller.py:835
 msgid "filter by category"
 msgstr "criathraich a-rèir roinn-seòrsa"
 
-#: r2/controllers/listingcontroller.py:829
+#: r2/controllers/listingcontroller.py:841
 msgid "gildings received"
 msgstr "an t-òr a chaidh a chur"
 
-#: r2/controllers/listingcontroller.py:830
+#: r2/controllers/listingcontroller.py:842
 msgid "gildings given"
 msgstr "an t-òr a chaidh a thoirt"
 
-#: r2/controllers/listingcontroller.py:836
+#: r2/controllers/listingcontroller.py:848
 #, python-format
 msgid "overview for %(user)s"
 msgstr "am for-shealladh aig %(user)s"
 
-#: r2/controllers/listingcontroller.py:837
+#: r2/controllers/listingcontroller.py:849
 #, python-format
 msgid "comments by %(user)s"
 msgstr "beachdan le %(user)s"
 
-#: r2/controllers/listingcontroller.py:838
+#: r2/controllers/listingcontroller.py:850
 #, python-format
 msgid "submitted by %(user)s"
 msgstr "air a chur a-null le %(user)s"
 
-#: r2/controllers/listingcontroller.py:839
+#: r2/controllers/listingcontroller.py:851
 #, python-format
 msgid "gilded by %(user)s"
 msgstr "chaidh òr a chur air le %(user)s"
 
-#: r2/controllers/listingcontroller.py:840
+#: r2/controllers/listingcontroller.py:852
 #, python-format
 msgid "upvoted by %(user)s"
 msgstr "le upvote o %(user)s"
 
-#: r2/controllers/listingcontroller.py:841
+#: r2/controllers/listingcontroller.py:853
 #, python-format
 msgid "downvoted by %(user)s"
 msgstr "bhòt %(user)s sìos e"
 
-#: r2/controllers/listingcontroller.py:842
+#: r2/controllers/listingcontroller.py:854
 #, python-format
 msgid "saved by %(user)s"
 msgstr "air a shàbhaladh le %(user)s"
 
-#: r2/controllers/listingcontroller.py:843
+#: r2/controllers/listingcontroller.py:855
 #, python-format
 msgid "hidden by %(user)s"
 msgstr "falaichte le %(user)s"
 
-#: r2/controllers/listingcontroller.py:844
+#: r2/controllers/listingcontroller.py:856
 #, python-format
 msgid "promoted by %(user)s"
 msgstr "brosnaichte le %(user)s"
 
-#: r2/controllers/listingcontroller.py:846
+#: r2/controllers/listingcontroller.py:858
 #, python-format
 msgid "gildings given by %(user)s"
 msgstr "òr a chaidh a thoirt le %(user)s"
 
-#: r2/controllers/listingcontroller.py:848
+#: r2/controllers/listingcontroller.py:860
 #, python-format
 msgid "profile for %(user)s"
 msgstr "a' phròifil aig %(user)s"
 
-#: r2/controllers/listingcontroller.py:1009 r2/lib/menus.py:110 r2/templates/printablebuttons.html:591 r2/templates/printablebuttons.html:598
+#: r2/controllers/listingcontroller.py:1021 r2/lib/menus.py:110 r2/templates/printablebuttons.html:591 r2/templates/printablebuttons.html:598
 msgid "blocked"
 msgstr "bacte"
 
-#: r2/controllers/listingcontroller.py:1181 r2/controllers/listingcontroller.py:1192 r2/templates/printablebuttons.html:618
+#: r2/controllers/listingcontroller.py:1193 r2/controllers/listingcontroller.py:1204 r2/templates/printablebuttons.html:618
 msgid "unread"
 msgstr "gun leughadh"
 
-#: r2/controllers/listingcontroller.py:1183
+#: r2/controllers/listingcontroller.py:1195
 msgid "comment replies"
 msgstr "freagairtean air a' bheachd"
 
-#: r2/controllers/listingcontroller.py:1184
+#: r2/controllers/listingcontroller.py:1196
 msgid "post replies"
 msgstr "freagairtean air a' phost"
 
-#: r2/controllers/listingcontroller.py:1185
+#: r2/controllers/listingcontroller.py:1197
 msgid "username mentions"
 msgstr "iomraidhean air an ainm-chleachdaiche"
 
-#: r2/controllers/listingcontroller.py:1199 r2/templates/tipprheader.html:119 r2/templates/tipprheader.html:124
+#: r2/controllers/listingcontroller.py:1211 r2/templates/tipprheader.html:119 r2/templates/tipprheader.html:124
 msgid "messages"
 msgstr "teachdaireachdan"
 
-#: r2/controllers/listingcontroller.py:1678
+#: r2/controllers/listingcontroller.py:1690
 msgid "vaults: "
 msgstr "vaults: "
 
-#: r2/controllers/listingcontroller.py:1830
+#: r2/controllers/listingcontroller.py:1842
 msgid "To block a user click 'block user'  below a message from a user you wish to block from messaging you."
 msgstr "Gus bacadh a chur air cleachdaiche, briog air \"bac an cleachdaiche\" fo theachdaireachd a chaidh a chur thugad le cuideigin a bu toigh leat bacadh a chur orra."
 
-#: r2/controllers/listingcontroller.py:2093 r2/lib/menus.py:60
+#: r2/controllers/listingcontroller.py:2105 r2/lib/menus.py:60
 msgid "gilded"
 msgstr "òr orra"
 
-#: r2/controllers/listingcontroller.py:2109
+#: r2/controllers/listingcontroller.py:2121
 #, python-format
 msgid "gildings in this vault have paid for %(time)s of server time"
 msgstr "phàidh an t-òradh san t-vault seo airson %(time)s a dh'àm frithealaiche"
@@ -1255,15 +1255,15 @@ msgstr "sanasachd"
 msgid "translating"
 msgstr "eadar-theangachadh"
 
-#: r2/controllers/policies.py:71 r2/controllers/policies.py:89 r2/lib/menus.py:101 r2/lib/pages/pages.py:6384 r2/templates/contactus.html:92
+#: r2/controllers/policies.py:71 r2/controllers/policies.py:89 r2/lib/menus.py:101 r2/lib/pages/pages.py:6389 r2/templates/contactus.html:92
 msgid "user agreement"
 msgstr "aonta a' chleachdaiche"
 
-#: r2/controllers/policies.py:72 r2/controllers/policies.py:86 r2/lib/menus.py:102 r2/lib/pages/pages.py:6383 r2/templates/contactus.html:84 r2/templates/utils.html:543
+#: r2/controllers/policies.py:72 r2/controllers/policies.py:86 r2/lib/menus.py:102 r2/lib/pages/pages.py:6388 r2/templates/contactus.html:84 r2/templates/utils.html:543
 msgid "privacy policy"
 msgstr "am poileasaidh prìobhaideachd"
 
-#: r2/controllers/policies.py:73 r2/controllers/policies.py:92 r2/lib/menus.py:100 r2/lib/pages/pages.py:6385 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:193
+#: r2/controllers/policies.py:73 r2/controllers/policies.py:92 r2/lib/menus.py:100 r2/lib/pages/pages.py:6390 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:193
 msgid "content policy"
 msgstr "poileasaidh na susbainte"
 
@@ -1403,7 +1403,7 @@ msgstr "tagh dealbh"
 msgid "too big. keep it under 500 KB"
 msgstr "ro mhòr. cùm fo 500 KB e"
 
-#: r2/controllers/tippr_base.py:1483 r2/lib/pages/pages.py:4671 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
+#: r2/controllers/tippr_base.py:1483 r2/lib/pages/pages.py:4676 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
 msgid "banned"
 msgstr "bacte"
 
@@ -1706,7 +1706,7 @@ msgstr "cha ghabh sinn ris an fhacal-fhaire sin"
 msgid "wrong password"
 msgstr "tha am facal-faire cearr"
 
-#: r2/lib/errors.py:65 r2/public/static/js/login.js:378
+#: r2/lib/errors.py:65 r2/public/static/js/login.js:385
 msgid "passwords do not match"
 msgstr "chan eil an dà fhacal-faire co-ionnann"
 
@@ -2758,7 +2758,7 @@ msgstr "spama"
 msgid "autobanned"
 msgstr "bacte gu fèin-obrachail"
 
-#: r2/lib/menus.py:82 r2/lib/pages/pages.py:1270 r2/lib/pages/pages.py:1294
+#: r2/lib/menus.py:82 r2/lib/pages/pages.py:1271 r2/lib/pages/pages.py:1295
 msgid "preferences"
 msgstr "roghainnean"
 
@@ -2851,7 +2851,7 @@ msgstr "air a chur"
 msgid "comments {toolbar}"
 msgstr "beachdan"
 
-#: r2/lib/menus.py:123 r2/templates/adminprivacy.html:27 r2/templates/prefoptions.html:496
+#: r2/lib/menus.py:123 r2/templates/adminprivacy.html:27 r2/templates/prefoptions.html:502
 msgid "details"
 msgstr "mion-fhiosrachadh"
 
@@ -2872,7 +2872,7 @@ msgstr "siota-stoidhle"
 msgid "home"
 msgstr "dhachaigh"
 
-#: r2/lib/menus.py:130 r2/lib/pages/pages.py:1127
+#: r2/lib/menus.py:130 r2/lib/pages/pages.py:1128
 msgid "about"
 msgstr "mu dhèidhinn"
 
@@ -2880,7 +2880,7 @@ msgstr "mu dhèidhinn"
 msgid "edit subscriptions"
 msgstr "deasaich na fo-sgrìobhaidhean"
 
-#: r2/lib/menus.py:132 r2/lib/pages/pages.py:2309
+#: r2/lib/menus.py:132 r2/lib/pages/pages.py:2314
 msgid "vault settings"
 msgstr "roghainnean vault"
 
@@ -2888,11 +2888,11 @@ msgstr "roghainnean vault"
 msgid "edit stylesheet"
 msgstr "deasaich an siota-stoidhle"
 
-#: r2/lib/menus.py:134 r2/public/static/js/messagecompose.js:177
+#: r2/lib/menus.py:134 r2/public/static/js/messagecompose.js:192
 msgid "rules"
 msgstr "riaghailtean"
 
-#: r2/lib/menus.py:135 r2/lib/pages/pages.py:880 r2/templates/adminvault.html:33 r2/templates/adminvault.html:101
+#: r2/lib/menus.py:135 r2/lib/pages/pages.py:881 r2/templates/adminvault.html:33 r2/templates/adminvault.html:101
 msgid "moderators"
 msgstr "modaratair"
 
@@ -2968,7 +2968,7 @@ msgstr "fèill mhòr"
 msgid "create"
 msgstr "cruthaich"
 
-#: r2/lib/menus.py:158 r2/lib/pages/pages.py:2934
+#: r2/lib/menus.py:158 r2/lib/pages/pages.py:2939
 msgid "my vaults"
 msgstr "na vaults agam"
 
@@ -3030,11 +3030,11 @@ msgstr "dìon o spama"
 msgid "live config"
 msgstr "rèiteachadh beò"
 
-#: r2/lib/menus.py:175 r2/lib/pages/pages.py:938 r2/templates/adminsupport.html:34
+#: r2/lib/menus.py:175 r2/lib/pages/pages.py:939 r2/templates/adminsupport.html:34
 msgid "support"
 msgstr "taic"
 
-#: r2/lib/menus.py:176 r2/templates/adminuser.html:24 r2/templates/adminusers.html:22 r2/templates/prefoptions.html:350
+#: r2/lib/menus.py:176 r2/templates/adminuser.html:24 r2/templates/adminusers.html:22 r2/templates/prefoptions.html:356
 msgid "users"
 msgstr "cleachdaichean"
 
@@ -3046,7 +3046,7 @@ msgstr "aplacaidean API"
 msgid "feeds"
 msgstr "inbhirean"
 
-#: r2/lib/menus.py:180 r2/templates/admindomain.html:22 r2/templates/admindomains.html:22 r2/templates/prefoptions.html:348
+#: r2/lib/menus.py:180 r2/templates/admindomain.html:22 r2/templates/admindomains.html:22 r2/templates/prefoptions.html:354
 msgid "domains"
 msgstr "àrainnean"
 
@@ -3674,7 +3674,7 @@ msgstr[1] "cheangal"
 msgstr[2] "ceanglaichean"
 msgstr[3] "ceangal"
 
-#: r2/lib/pages/pages.py:1523 r2/lib/strings.py:263 r2/templates/messagecompose.html:101
+#: r2/lib/pages/pages.py:1524 r2/lib/strings.py:263 r2/templates/messagecompose.html:101
 msgid "message"
 msgid_plural "messages"
 msgstr[0] "teachdaireachd"
@@ -3770,7 +3770,7 @@ msgstr[1] "uair a thìde"
 msgstr[2] "uairean a thìde"
 msgstr[3] "uair a thìde"
 
-#: r2/lib/pages/pages.py:346 r2/lib/pages/pages.py:5696 r2/lib/strings.py:279 r2/public/static/js/sponsored.js:1477 r2/public/static/js/sponsored.js:1838 r2/templates/intimeoutinterstitial.html:44 r2/templates/tipprtraffic.html:104
+#: r2/lib/pages/pages.py:347 r2/lib/pages/pages.py:5701 r2/lib/strings.py:279 r2/public/static/js/sponsored.js:1484 r2/public/static/js/sponsored.js:1851 r2/templates/intimeoutinterstitial.html:44 r2/templates/tipprtraffic.html:104
 msgid "day"
 msgid_plural "days"
 msgstr[0] "latha"
@@ -4117,7 +4117,7 @@ msgstr "modaratair /v/%(tippr)s, a' bruidhinn gu h-oifigeil"
 msgid "%(user)s just celebrated a tippr birthday!"
 msgstr "tha %(user)s air co-là breith tippr a chomharradh!"
 
-#: r2/lib/pages/pages.py:1340 r2/lib/template_helpers.py:771 r2/public/static/js/timetext.js:68
+#: r2/lib/pages/pages.py:1341 r2/lib/template_helpers.py:771 r2/public/static/js/timetext.js:68
 msgid "just now"
 msgstr "an-dràsta fhèin"
 
@@ -4149,157 +4149,157 @@ msgstr "Seòladh IP"
 msgid "user"
 msgstr "cleachdaiche"
 
-#: r2/lib/pages/pages.py:178
+#: r2/lib/pages/pages.py:179
 #, python-format
 msgid "%d %b %Y"
 msgstr "%d %b %Y"
 
-#: r2/lib/pages/pages.py:338
+#: r2/lib/pages/pages.py:339
 msgid "This site asks moderators and staff to use two-factor sign-in. Turn it on under [preferences, security](/prefs/security) to use your moderator tools."
 msgstr "Iarraidh an làrach seo air modaratairean is luchd-obrach an clàradh a-steach dà-cheumnach a chleachdadh. Cuir air e fo [roghainnean, tèarainteachd](/prefs/security) airson na h-innealan modarataireachd agad a chleachdadh."
 
-#: r2/lib/pages/pages.py:521
+#: r2/lib/pages/pages.py:522
 msgid "wiki tools"
 msgstr "innealan na h-uici"
 
-#: r2/lib/pages/pages.py:647
+#: r2/lib/pages/pages.py:648
 msgid "moderation tools"
 msgstr "innealan na modarataireachd"
 
-#: r2/lib/pages/pages.py:715
+#: r2/lib/pages/pages.py:716
 msgid "these vaults"
 msgstr "na vaults seo"
 
-#: r2/lib/pages/pages.py:729
+#: r2/lib/pages/pages.py:730
 msgid "this vault is archived and no longer accepting submissions."
 msgstr "chaidh an vault seo a chur san tasg-lann is cha ghabh e ri rudan ùra tuilleadh."
 
-#: r2/lib/pages/pages.py:731
+#: r2/lib/pages/pages.py:732
 msgid "Submissions disabled"
 msgstr "Chan fhaodar dad a chur ann"
 
-#: r2/lib/pages/pages.py:738
+#: r2/lib/pages/pages.py:739
 msgid "Only approved users may post in this community."
 msgstr "Chan fhaod ach cleachdaichean le aonta postadh sa choimhearsnachd seo."
 
-#: r2/lib/pages/pages.py:741
+#: r2/lib/pages/pages.py:742
 msgid "Anyone can view or comment, but only Tippr Gold members can post in this community."
 msgstr "'S urrainn do dhuine sam bith coimhead no beachd a thoirt, ach chan fhaod ach buill Òr Tippr postadh sa choimhearsnachd seo."
 
-#: r2/lib/pages/pages.py:744
+#: r2/lib/pages/pages.py:745
 msgid "Submissions restricted"
 msgstr "Tha cuingeachadh air cur"
 
-#: r2/lib/pages/pages.py:832
+#: r2/lib/pages/pages.py:833
 msgid "Create your own vault"
 msgstr "Cruthaich vault thu fhèin"
 
-#: r2/lib/pages/pages.py:856
+#: r2/lib/pages/pages.py:857
 #, python-format
 msgid "...and %d more"
 msgstr "...agus %d a bharrachd"
 
-#: r2/lib/pages/pages.py:858
+#: r2/lib/pages/pages.py:859
 msgid "about moderation team"
 msgstr "mu sgioba na modarataireachd"
 
-#: r2/lib/pages/pages.py:863 r2/templates/contactus.html:60
+#: r2/lib/pages/pages.py:864 r2/templates/contactus.html:60
 msgid "message the admins"
 msgstr "cuir teachdaireachd gu na rianairean"
 
-#: r2/lib/pages/pages.py:865 r2/templates/privateinterstitial.html:50
+#: r2/lib/pages/pages.py:866 r2/templates/privateinterstitial.html:50
 msgid "message the moderators"
 msgstr "cuir teachdaireachd gu na modaratairean"
 
-#: r2/lib/pages/pages.py:892
+#: r2/lib/pages/pages.py:893
 msgid "Recently viewed links"
 msgstr "Ceanglaichean air an dugadh sùil o chionn goirid"
 
-#: r2/lib/pages/pages.py:922
+#: r2/lib/pages/pages.py:923
 msgid "turn admin off"
 msgstr "cuir an rianachd dheth"
 
-#: r2/lib/pages/pages.py:1144
+#: r2/lib/pages/pages.py:1145
 msgid "<3"
 msgstr "<3"
 
-#: r2/lib/pages/pages.py:1341 r2/templates/adminserverstatus.html:142
+#: r2/lib/pages/pages.py:1342 r2/templates/adminserverstatus.html:142
 #, python-format
 msgid "%(time)s ago"
 msgstr "%(time)s air ais"
 
-#: r2/lib/pages/pages.py:1520
+#: r2/lib/pages/pages.py:1521
 #, python-format
 msgid "%(site)s mail"
 msgstr "post %(site)s"
 
-#: r2/lib/pages/pages.py:1597
+#: r2/lib/pages/pages.py:1598
 msgid "sign up or log in"
 msgstr "clàraich no clàraich a-steach"
 
-#: r2/lib/pages/pages.py:1678
+#: r2/lib/pages/pages.py:1679
 msgid "request for permission"
 msgstr "iarrtas airson cead"
 
-#: r2/lib/pages/pages.py:1680
+#: r2/lib/pages/pages.py:1681
 msgid "permission"
 msgstr "cead"
 
-#: r2/lib/pages/pages.py:1715 r2/templates/searchform.html:77
+#: r2/lib/pages/pages.py:1716 r2/templates/searchform.html:77
 msgid "enable NSFW results"
 msgstr "cuir an comas toraidhean NSFW"
 
-#: r2/lib/pages/pages.py:1738
+#: r2/lib/pages/pages.py:1739
 msgid "bummer"
 msgstr "daingead"
 
-#: r2/lib/pages/pages.py:1750
+#: r2/lib/pages/pages.py:1751
 msgid "this page is no longer available due to a copyright claim."
 msgstr "chan eil an duilleag seo ri fhaighinn tuilleadh ri linn tagradh còrach-lethbhreac."
 
-#: r2/lib/pages/pages.py:1990
+#: r2/lib/pages/pages.py:1992
 msgid "comments disabled"
 msgstr "beachdan à comas"
 
-#: r2/lib/pages/pages.py:2310
+#: r2/lib/pages/pages.py:2315
 #, python-format
 msgid "about %(site)s"
 msgstr "mu %(site)s"
 
-#: r2/lib/pages/pages.py:2333
+#: r2/lib/pages/pages.py:2338
 msgid "search vaults by name"
 msgstr "lorg vault a-rèir ainm"
 
-#: r2/lib/pages/pages.py:2377
+#: r2/lib/pages/pages.py:2382
 #, python-format
 msgid "your front page vaults (%s)"
 msgstr "vaults na prìomh-dhuilleige agad (%s)"
 
-#: r2/lib/pages/pages.py:2465 r2/templates/createvault.html:460 r2/templates/spotlightlisting.html:63
+#: r2/lib/pages/pages.py:2470 r2/templates/createvault.html:460 r2/templates/spotlightlisting.html:63
 msgid "what's this?"
 msgstr "dè tha seo?"
 
-#: r2/lib/pages/pages.py:2466
+#: r2/lib/pages/pages.py:2471
 msgid "trophy case"
 msgstr "preas nan geall-dùbhlain"
 
-#: r2/lib/pages/pages.py:2476
+#: r2/lib/pages/pages.py:2481
 msgid "public multivaults"
 msgstr "multivaults poblach"
 
-#: r2/lib/pages/pages.py:2483
+#: r2/lib/pages/pages.py:2488
 msgid "hidden multivaults"
 msgstr "ioma-vaults falaichte"
 
-#: r2/lib/pages/pages.py:2504
+#: r2/lib/pages/pages.py:2509
 msgid "moderator of"
 msgstr "modaratair"
 
-#: r2/lib/pages/pages.py:2568
+#: r2/lib/pages/pages.py:2573
 msgid "less than a day"
 msgstr "nas lugha na latha"
 
-#: r2/lib/pages/pages.py:2581
+#: r2/lib/pages/pages.py:2586
 #, python-format
 msgid "Give Gold: %(coins)s month"
 msgid_plural "Give Gold: %(coins)s months"
@@ -4308,7 +4308,7 @@ msgstr[1] "Thoir Òr: %(coins)s mhìos"
 msgstr[2] "Thoir Òr: %(coins)s mìosan"
 msgstr[3] "Thoir Òr: %(coins)s mìos"
 
-#: r2/lib/pages/pages.py:2589
+#: r2/lib/pages/pages.py:2594
 #, python-format
 msgid "%(gildings)s gilding given out"
 msgid_plural "%(gildings)s gildings given out"
@@ -4317,319 +4317,319 @@ msgstr[1] "chaidh òr a thoirt seachad %(gildings)s thuras"
 msgstr[2] "chaidh òr a thoirt seachad %(gildings)s tursan"
 msgstr[3] "chaidh òr a thoirt seachad %(gildings)s turas"
 
-#: r2/lib/pages/pages.py:2597
+#: r2/lib/pages/pages.py:2602
 #, python-format
 msgid "give tippr gold to %(user)s to show your appreciation"
 msgstr "thoir tippr òir dha %(user)s gus luach a chur anns na rinn iad"
 
-#: r2/lib/pages/pages.py:2601
+#: r2/lib/pages/pages.py:2606
 msgid "get extra features and help support tippr with a tippr gold subscription"
 msgstr "faigh feartan is taic a bharrachd airson tippr le ballrachd tippr òir"
 
-#: r2/lib/pages/pages.py:2605
+#: r2/lib/pages/pages.py:2610
 msgid "renew your tippr gold"
 msgstr "ath-nuadhaich an tippr òir agad"
 
-#: r2/lib/pages/pages.py:2615
+#: r2/lib/pages/pages.py:2620
 #, python-format
 msgid "you have helped pay for *%(time)s* of tippr server time."
 msgstr "phàigh an taic a chuir thu rinn airson *%(time)s* a dh'àm air frithealaichean tippr."
 
-#: r2/lib/pages/pages.py:2616
+#: r2/lib/pages/pages.py:2621
 #, python-format
 msgid "/u/%(user)s has helped pay for *%%(time)s* of tippr server time."
 msgstr "phàigh an taic a chuir /u/%(user)s rinn airson *%%(time)s* a dh'àm air frithealaichean tippr."
 
-#: r2/lib/pages/pages.py:2619
+#: r2/lib/pages/pages.py:2624
 #, python-format
 msgid "gifts on your behalf have helped pay for *%(time)s* of tippr server time."
 msgstr "phàigh na preusantan a thugadh às do leth airson *%(time)s* a dh'àm air frithealaichean tippr."
 
-#: r2/lib/pages/pages.py:2621
+#: r2/lib/pages/pages.py:2626
 #, python-format
 msgid "gifts on behalf of /u/%(user)s have helped pay for *%%(time)s* of tippr server time."
 msgstr "phàigh na preusantan a thugadh às leth /u/%(user)s airson *%%(time)s* a dh'àm air frithealaichean tippr."
 
-#: r2/lib/pages/pages.py:2705
+#: r2/lib/pages/pages.py:2710
 msgid "tippr is a platform for internet communities"
 msgstr "'s e ùrlar airson coimhearsnachdan-lìn a tha ann an tippr"
 
-#: r2/lib/pages/pages.py:2706
+#: r2/lib/pages/pages.py:2711
 msgid "where your votes shape what the world is talking about."
 msgstr "far a bheil na bhòtan agad a dhealbhadh deasbadan an t-saoghail."
 
-#: r2/lib/pages/pages.py:3005 r2/lib/pages/pages.py:3115
+#: r2/lib/pages/pages.py:3010 r2/lib/pages/pages.py:3120
 msgid "add vault"
 msgstr "cuir vault ris"
 
-#: r2/lib/pages/pages.py:3043
+#: r2/lib/pages/pages.py:3048
 #, python-format
 msgid "raise it to %s"
 msgstr "cuir an àirde seo gu %s"
 
-#: r2/lib/pages/pages.py:3045 r2/lib/pages/pages.py:3054
+#: r2/lib/pages/pages.py:3050 r2/lib/pages/pages.py:3059
 #, python-format
 msgid "%s visible"
 msgstr "%s ri fhaicinn"
 
-#: r2/lib/pages/pages.py:3052
+#: r2/lib/pages/pages.py:3057
 #, python-format
 msgid "%(bonus)s bonus vaults"
 msgstr "%(bonus)s vaults duaise"
 
-#: r2/lib/pages/pages.py:3422
+#: r2/lib/pages/pages.py:3427
 #, python-format
 msgid "you have a credit card gold subscription. your card (ending in %(last4)s) will be charged %(amount)s on %(date)s."
 msgstr "tha fo-sgrìobhadh òir agad 's tu 'ga phàigheadh le cairt-chreidis. thèid %(amount)s iarraidh air a' chairt agad (a tha a' crìochnachadh le %(last4)s) %(date)s."
 
-#: r2/lib/pages/pages.py:3576
+#: r2/lib/pages/pages.py:3581
 msgid "try entering those letters again"
 msgstr "feuch ris na litrichean sin a chur a-steach a-rithist"
 
-#: r2/lib/pages/pages.py:3655 r2/lib/pages/pages.py:6376 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
+#: r2/lib/pages/pages.py:3660 r2/lib/pages/pages.py:6381 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
 msgid "search"
 msgstr "lorg"
 
-#: r2/lib/pages/pages.py:4299
+#: r2/lib/pages/pages.py:4304
 #, python-format
 msgid "not heard from for %(time)s"
 msgstr "cha chualas bhuaithe o chionn %(time)s"
 
-#: r2/lib/pages/pages.py:4305
+#: r2/lib/pages/pages.py:4310
 #, python-format
 msgid "memory %(p)s%% used"
 msgstr "cuimhne %(p)s%% ga cleachdadh"
 
-#: r2/lib/pages/pages.py:4309
+#: r2/lib/pages/pages.py:4314
 #, python-format
 msgid "busy: load %(l)s on %(n)s CPUs"
 msgstr "trang: luchd %(l)s air %(n)s CPU(ichean)"
 
-#: r2/lib/pages/pages.py:4315
+#: r2/lib/pages/pages.py:4320
 #, python-format
 msgid "disk %(path)s %(p)s%% full"
 msgstr "diosga %(path)s %(p)s%% làn"
 
-#: r2/lib/pages/pages.py:4319
+#: r2/lib/pages/pages.py:4324
 #, python-format
 msgid "%(service)s is %(state)s"
 msgstr "tha %(service)s %(state)s"
 
-#: r2/lib/pages/pages.py:4322
+#: r2/lib/pages/pages.py:4327
 msgid "a different version from the others"
 msgstr "tionndadh eadar-dhealaichte on fheadhainn eile"
 
-#: r2/lib/pages/pages.py:4324
+#: r2/lib/pages/pages.py:4329
 msgid "another server has the same name: set TIPPR_SERVER_NAME on one of them"
 msgstr "tha an aon ainm air frithealaiche eile: suidhich TIPPR_SERVER_NAME air fear dhiubh"
 
-#: r2/lib/pages/pages.py:4379
+#: r2/lib/pages/pages.py:4384
 #, python-format
 msgid "%(n)s seconds"
 msgstr "%(n)s diog(an)"
 
-#: r2/lib/pages/pages.py:4381
+#: r2/lib/pages/pages.py:4386
 #, python-format
 msgid "%(n)s minutes"
 msgstr "%(n)s mionaid(ean)"
 
-#: r2/lib/pages/pages.py:4383
+#: r2/lib/pages/pages.py:4388
 #, python-format
 msgid "%(n)s hours"
 msgstr "%(n)s uair(ean) a thìde"
 
-#: r2/lib/pages/pages.py:4384
+#: r2/lib/pages/pages.py:4389
 #, python-format
 msgid "%(n)s days"
 msgstr "%(n)s là(ithean)"
 
-#: r2/lib/pages/pages.py:4400
+#: r2/lib/pages/pages.py:4405
 msgid "polling"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4406
+#: r2/lib/pages/pages.py:4411
 msgid "off (no event collector)"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4612 r2/lib/pages/pages.py:4721
+#: r2/lib/pages/pages.py:4617 r2/lib/pages/pages.py:4726
 msgid "added"
 msgstr "air a chur ris"
 
-#: r2/lib/pages/pages.py:4680 r2/models/modaction.py:146 r2/templates/printablebuttons.html:608
+#: r2/lib/pages/pages.py:4685 r2/models/modaction.py:146 r2/templates/printablebuttons.html:608
 msgid "muted"
 msgstr "mùchte"
 
-#: r2/lib/pages/pages.py:4698
+#: r2/lib/pages/pages.py:4703
 msgid "invited"
 msgstr "air cuireadh a thoirt"
 
-#: r2/lib/pages/pages.py:4759
+#: r2/lib/pages/pages.py:4764
 msgid "grant flair"
 msgstr "thoir flair"
 
-#: r2/lib/pages/pages.py:4761
+#: r2/lib/pages/pages.py:4766
 msgid "user flair templates"
 msgstr "teamplaidean flair chleachdaichean"
 
-#: r2/lib/pages/pages.py:4763
+#: r2/lib/pages/pages.py:4768
 msgid "link flair templates"
 msgstr "teamplaidean flair cheanglaichean"
 
-#: r2/lib/pages/pages.py:5135 r2/templates/adminuser.html:73 r2/templates/adminuser.html:98 r2/templates/adminuser.html:108 r2/templates/flairpane.html:79
+#: r2/lib/pages/pages.py:5140 r2/templates/adminuser.html:73 r2/templates/adminuser.html:98 r2/templates/adminuser.html:108 r2/templates/flairpane.html:79
 msgid "none"
 msgstr "chan eil gin"
 
-#: r2/lib/pages/pages.py:5266
+#: r2/lib/pages/pages.py:5271
 msgid "suggestions:"
 msgstr "molaidhean:"
 
-#: r2/lib/pages/pages.py:5270
+#: r2/lib/pages/pages.py:5275
 #, python-format
 msgid "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/v/selfserve](%(selfserve)s)."
 msgstr "Cruthaich an sanas agad air an duilleag seo. A bheil ceistean agad? Thoir sùil air an [Ionad-cobhrach](%(help_center)s) no [/v/selfserve](%(selfserve)s)."
 
-#: r2/lib/pages/pages.py:5888
+#: r2/lib/pages/pages.py:5893
 msgid "start date"
 msgstr "ceann-là tòiseachaidh"
 
-#: r2/lib/pages/pages.py:5889
+#: r2/lib/pages/pages.py:5894
 msgid "end date"
 msgstr "ceann-là crìochnachaidh"
 
-#: r2/lib/pages/pages.py:5891 r2/templates/createvault.html:266
+#: r2/lib/pages/pages.py:5896 r2/templates/createvault.html:266
 msgid "links"
 msgstr "ceanglaichean"
 
-#: r2/lib/pages/pages.py:5893 r2/lib/pages/pages.py:5912 r2/templates/adminpaymentsettings.html:239 r2/templates/promotedlinktraffic.html:42 r2/templates/timeserieschart.html:40
+#: r2/lib/pages/pages.py:5898 r2/lib/pages/pages.py:5917 r2/templates/adminpaymentsettings.html:239 r2/templates/promotedlinktraffic.html:42 r2/templates/timeserieschart.html:40
 msgid "date"
 msgstr "ceann-là"
 
-#: r2/lib/pages/pages.py:5896 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
+#: r2/lib/pages/pages.py:5901 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
 msgid "id"
 msgstr "id"
 
-#: r2/lib/pages/pages.py:5896 r2/lib/pages/pages.py:5915 r2/templates/promotelinkbase.html:856
+#: r2/lib/pages/pages.py:5901 r2/lib/pages/pages.py:5920 r2/templates/promotelinkbase.html:856
 msgid "owner"
 msgstr "seilbheadair"
 
-#: r2/lib/pages/pages.py:5896 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
+#: r2/lib/pages/pages.py:5901 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
 msgid "url"
 msgstr "url"
 
-#: r2/lib/pages/pages.py:5897
+#: r2/lib/pages/pages.py:5902
 msgid "upvotes"
 msgstr "'ga bhòtadh suas"
 
-#: r2/lib/pages/pages.py:5897
+#: r2/lib/pages/pages.py:5902
 msgid "downvotes"
 msgstr "'ga bhòtadh sìos"
 
-#: r2/lib/pages/pages.py:5897 r2/lib/pages/trafficpages.py:351 r2/lib/pages/trafficpages.py:847 r2/templates/promotedlinktraffic.html:44 r2/templates/promotedlinktraffic.html:124
+#: r2/lib/pages/pages.py:5902 r2/lib/pages/trafficpages.py:351 r2/lib/pages/trafficpages.py:847 r2/templates/promotedlinktraffic.html:44 r2/templates/promotedlinktraffic.html:124
 msgid "clicks"
 msgstr "briogaidhean"
 
-#: r2/lib/pages/pages.py:5897 r2/lib/pages/trafficpages.py:348 r2/lib/pages/trafficpages.py:472 r2/lib/pages/trafficpages.py:846 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
+#: r2/lib/pages/pages.py:5902 r2/lib/pages/trafficpages.py:348 r2/lib/pages/trafficpages.py:472 r2/lib/pages/trafficpages.py:846 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
 msgid "impressions"
 msgstr "seallaidhean"
 
-#: r2/lib/pages/pages.py:5910
+#: r2/lib/pages/pages.py:5915
 msgid "campaigns"
 msgstr "iomairtean"
 
-#: r2/lib/pages/pages.py:5915
+#: r2/lib/pages/pages.py:5920
 msgid "link id"
 msgstr "id a' cheangail"
 
-#: r2/lib/pages/pages.py:5915
+#: r2/lib/pages/pages.py:5920
 msgid "campaign id"
 msgstr "id na h-iomairt"
 
-#: r2/lib/pages/pages.py:5915 r2/templates/promotedlinktraffic.html:117 r2/templates/refundpage.html:56
+#: r2/lib/pages/pages.py:5920 r2/templates/promotedlinktraffic.html:117 r2/templates/refundpage.html:56
 msgid "target"
 msgstr "targaid"
 
-#: r2/lib/pages/pages.py:5916 r2/templates/promotelinkedit.html:157
+#: r2/lib/pages/pages.py:5921 r2/templates/promotelinkedit.html:157
 msgid "bid"
 msgstr "tairgse"
 
-#: r2/lib/pages/pages.py:5916
+#: r2/lib/pages/pages.py:5921
 msgid "frontpage clicks"
 msgstr "briogaidhean air an duilleag mhòr"
 
-#: r2/lib/pages/pages.py:5916
+#: r2/lib/pages/pages.py:5921
 msgid "frontpage impressions"
 msgstr "impressions na duilleige mhòr"
 
-#: r2/lib/pages/pages.py:5917
+#: r2/lib/pages/pages.py:5922
 msgid "vault clicks"
 msgstr "briogaidhean vault"
 
-#: r2/lib/pages/pages.py:5917
+#: r2/lib/pages/pages.py:5922
 msgid "vault impressions"
 msgstr "seallaidhean na vault"
 
-#: r2/lib/pages/pages.py:5918 r2/lib/pages/trafficpages.py:478
+#: r2/lib/pages/pages.py:5923 r2/lib/pages/trafficpages.py:478
 msgid "total clicks"
 msgstr "briogaidhean uile gu lèir"
 
-#: r2/lib/pages/pages.py:5918
+#: r2/lib/pages/pages.py:5923
 msgid "total impressions"
 msgstr "impressions uile gu lèir"
 
-#: r2/lib/pages/pages.py:6121 r2/templates/accountactivitybox.html:27
+#: r2/lib/pages/pages.py:6126 r2/templates/accountactivitybox.html:27
 msgid "account activity"
 msgstr "gnìomhachd a' chunntais"
 
-#: r2/lib/pages/pages.py:6253
+#: r2/lib/pages/pages.py:6258
 msgid "subscribed"
 msgstr "fo-sgrìobhte"
 
-#: r2/lib/pages/pages.py:6254 r2/templates/preffeeds.html:58
+#: r2/lib/pages/pages.py:6259 r2/templates/preffeeds.html:58
 msgid "your front page"
 msgstr "an duilleag mhòr agad"
 
-#: r2/lib/pages/pages.py:6257 r2/lib/pages/pages.py:6262 r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:104
+#: r2/lib/pages/pages.py:6262 r2/lib/pages/pages.py:6267 r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:104
 msgid "everything"
 msgstr "a h-uile rud"
 
-#: r2/lib/pages/pages.py:6260 r2/lib/pages/pages.py:6263
+#: r2/lib/pages/pages.py:6265 r2/lib/pages/pages.py:6268
 msgid "from all vaults"
 msgstr "o gach vault"
 
-#: r2/lib/pages/pages.py:6265
+#: r2/lib/pages/pages.py:6270
 msgid "moderating"
 msgstr "a' modarataireachd"
 
-#: r2/lib/pages/pages.py:6266
+#: r2/lib/pages/pages.py:6271
 msgid "vaults you mod"
 msgstr "vaults a tha fo mhodarataireachd agad"
 
-#: r2/lib/pages/pages.py:6272
+#: r2/lib/pages/pages.py:6277
 msgid "gold perks"
 msgstr "sochairean òir"
 
-#: r2/lib/pages/pages.py:6288
+#: r2/lib/pages/pages.py:6293
 msgid "explore multis"
 msgstr "rùraich na multis"
 
-#: r2/lib/pages/pages.py:6374
+#: r2/lib/pages/pages.py:6379
 msgid "faq"
 msgstr "ceistean cumanta"
 
-#: r2/lib/pages/pages.py:6375 r2/templates/usertext.html:121
+#: r2/lib/pages/pages.py:6380 r2/templates/usertext.html:121
 msgid "formatting"
 msgstr "fòrmatadh"
 
-#: r2/lib/pages/pages.py:6444
+#: r2/lib/pages/pages.py:6449
 msgid "your subscribed vaults"
 msgstr "na vaults a tha fo-sgrìobhadh agad annta"
 
-#: r2/lib/pages/pages.py:6557
+#: r2/lib/pages/pages.py:6562
 #, python-format
 msgid "this promoted link uses city level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "tha an ceangal brosnaichte seo ag amas air daoine a-rèir a' bhaile sa bheil iad a' fuireach agus dh'fhaoidte gum faic thu e a chionn 's gu bheil thu a' fuireach ann an àite iomchaidh. ([barrachd fiosrachaidh](%(link)s))"
 
-#: r2/lib/pages/pages.py:6561
+#: r2/lib/pages/pages.py:6566
 #, python-format
 msgid "this promoted link uses country level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "tha an ceangal brosnaichte seo ag amas air daoine a-rèir na dùthcha sa bheil iad a' fuireach agus dh'fhaoidte gum faic thu e a chionn 's gu bheil thu a' fuireach ann an àite iomchaidh. ([barrachd fiosrachaidh](%(link)s))"
@@ -4945,7 +4945,7 @@ msgstr "ainm duilleige a tha ann mu thràth no duilleag a tha ri chruthachadh"
 msgid "the starting point revision for this edit"
 msgstr "an lèirmheas tùsail airson an deasachaidh seo"
 
-#: r2/models/admintools.py:291
+#: r2/models/admintools.py:301
 #, python-format
 msgid ""
 "[Click here for details on how to set up an automatically-renewing subscription or to renew.](/gold) If you have any thoughts, complaints, rants, suggestions about tippr gold, please contact us at %(gold_email)s. Your feedback would be much appreciated.\n"
@@ -4956,32 +4956,32 @@ msgstr ""
 "\n"
 "Mòran taing airson do thaic roimhe."
 
-#: r2/models/admintools.py:312
+#: r2/models/admintools.py:322
 msgid "Your tippr gold subscription has expired."
 msgstr "Dh'fhalbh an ùine air an fho-sgrìobhadh tippr òir"
 
-#: r2/models/admintools.py:313
+#: r2/models/admintools.py:323
 msgid "Your subscription to tippr gold has expired."
 msgstr "Dh'fhalbh an ùine air an fho-sgrìobhadh tippr òir."
 
-#: r2/models/admintools.py:325
+#: r2/models/admintools.py:335
 msgid "Your tippr gold subscription is about to expire!"
 msgstr "Falbhaidh an ùine air an fho-sgrìobhadh tippr òir agad a dh'aithghearr!"
 
-#: r2/models/admintools.py:327
+#: r2/models/admintools.py:337
 msgid "Your subscription to tippr gold will be expiring soon."
 msgstr "Falbhaidh an ùine air an fho-sgrìobhadh tippr òir agad a dh'aithghearr."
 
-#: r2/models/builder.py:308
+#: r2/models/builder.py:307
 msgid "a moderator"
 msgstr "modaratair"
 
-#: r2/models/builder.py:311
+#: r2/models/builder.py:310
 #, python-format
 msgid "approved by %(who)s at %(when)s"
 msgstr "thug %(who)s aonta ris aig %(when)s"
 
-#: r2/models/builder.py:315
+#: r2/models/builder.py:314
 #, python-format
 msgid "approved by %s"
 msgstr "le aonta o %s"
@@ -5044,130 +5044,130 @@ msgstr[1] "thug cleachdaichean tippr %(months)d mhìos de dh'òr tippr do %(reci
 msgstr[2] "thug cleachdaichean tippr %(months)d mìosan de dh'òr tippr do %(recipient)s airson a' phuist seo."
 msgstr[3] "thug cleachdaichean tippr %(months)d mìos de dh'òr tippr do %(recipient)s airson a' phuist seo."
 
-#: r2/models/link.py:916
+#: r2/models/link.py:926
 #, python-format
 msgid "by %(author)s to %(tippr)s"
 msgstr "le %(author)s ri %(tippr)s"
 
-#: r2/models/link.py:919 r2/templates/adminnotessidebar.html:50
+#: r2/models/link.py:929 r2/templates/adminnotessidebar.html:50
 #, python-format
 msgid "by %(author)s"
 msgstr "le %(author)s"
 
-#: r2/models/link.py:923
+#: r2/models/link.py:933
 #, python-format
 msgid "%(score)s submitted %(when)s %(lastedited)s"
 msgstr "%(score)s air a chur %(when)s air ais%(lastedited)s"
 
-#: r2/models/link.py:927
+#: r2/models/link.py:937
 #, python-format
 msgid "submitted %(when)s %(lastedited)s by %(author)s to %(tippr)s"
 msgstr "air a chur ri %(tippr)s %(when)s air ais%(lastedited)s le %(author)s"
 
-#: r2/models/link.py:930
+#: r2/models/link.py:940
 #, python-format
 msgid "submitted %(when)s %(lastedited)s by %(author)s"
 msgstr "air a chur %(when)s air ais%(lastedited)s le %(author)s"
 
-#: r2/models/link.py:935
+#: r2/models/link.py:945
 #, python-format
 msgid "%(score)s submitted %(when)s"
 msgstr "%(score)s air a chur %(when)s"
 
-#: r2/models/link.py:938
+#: r2/models/link.py:948
 #, python-format
 msgid "submitted %(when)s by %(author)s to %(tippr)s"
 msgstr "air a chur ri %(tippr)s %(when)s air ais le %(author)s"
 
-#: r2/models/link.py:941
+#: r2/models/link.py:951
 #, python-format
 msgid "submitted %(when)s by %(author)s"
 msgstr "air a chur %(when)s le %(author)s"
 
-#: r2/models/link.py:1809
+#: r2/models/link.py:1841
 #, python-format
 msgid "%(link)s by %(author)s [sponsored link]"
 msgstr "%(link)s le %(author)s [ceangal sponsairichte]"
 
-#: r2/models/link.py:1811
+#: r2/models/link.py:1843
 #, python-format
 msgid "%(link)s by %(author)s in %(vault)s"
 msgstr "%(link)s le %(author)s ann an %(vault)s"
 
-#: r2/models/link.py:1838
+#: r2/models/link.py:1870
 msgid "comment score below threshold"
 msgstr "tha sgòr nam beachdan fon stairsneach"
 
-#: r2/models/link.py:1843
+#: r2/models/link.py:1875
 msgid "blocked user"
 msgstr "cleachdaiche bacte"
 
-#: r2/models/link.py:2372
+#: r2/models/link.py:2404
 msgid "comment reply"
 msgstr "freagairt air a' bheachd"
 
-#: r2/models/link.py:2374
+#: r2/models/link.py:2406
 msgid "post reply"
 msgstr "freagairt air a' phost"
 
-#: r2/models/link.py:2376
+#: r2/models/link.py:2408
 msgid "username mention"
 msgstr "iomradh air an ainm-chleachdaiche"
 
-#: r2/models/link.py:2380 r2/models/link.py:2441
+#: r2/models/link.py:2412 r2/models/link.py:2473
 #, python-format
 msgid "from %(author)s via %(vault)s sent %(when)s"
 msgstr "o %(author)s tro %(vault)s air a chur %(when)s"
 
-#: r2/models/link.py:2393
+#: r2/models/link.py:2425
 msgid "[message from blocked vault]"
 msgstr "[teachdaireachd o vault bacte]"
 
-#: r2/models/link.py:2414 r2/models/link.py:2419
+#: r2/models/link.py:2446 r2/models/link.py:2451
 #, python-format
 msgid "vault message via %(vault)s sent %(when)s"
 msgstr "teachdaireachd vault tro %(vault)s air a cur %(when)s"
 
-#: r2/models/link.py:2423 r2/models/link.py:2446
+#: r2/models/link.py:2455 r2/models/link.py:2478
 #, python-format
 msgid "to %(dest)s via %(vault)s sent %(when)s"
 msgstr "gu %(dest)s tro %(vault)s air a chur %(when)s"
 
-#: r2/models/link.py:2427 r2/models/link.py:2452
+#: r2/models/link.py:2459 r2/models/link.py:2484
 #, python-format
 msgid "from %(author)s via %(vault)s to %(dest)s sent %(when)s"
 msgstr "o %(author)s tro %(vault)s gu %(dest)s air a chur %(when)s"
 
-#: r2/models/link.py:2443
+#: r2/models/link.py:2475
 #, python-format
 msgid "to %(vault)s sent %(when)s"
 msgstr "gu %(vault)s air a chur %(when)s"
 
-#: r2/models/link.py:2449
+#: r2/models/link.py:2481
 #, python-format
 msgid "from %(author)s to %(vault)s sent %(when)s"
 msgstr "o %(author)s gu %(vault)s air a chur %(when)s"
 
-#: r2/models/link.py:2467
+#: r2/models/link.py:2499
 #, python-format
 msgid "from %(author)s sent %(when)s"
 msgstr "o %(author)s %(when)s"
 
-#: r2/models/link.py:2469
+#: r2/models/link.py:2501
 #, python-format
 msgid "to %(dest)s sent %(when)s"
 msgstr "gu %(dest)s  %(when)s"
 
-#: r2/models/link.py:2472
+#: r2/models/link.py:2504
 #, python-format
 msgid "to %(dest)s from %(author)s sent %(when)s"
 msgstr "gu %(dest)s o %(author)s %(when)s air ais"
 
-#: r2/models/link.py:2495
+#: r2/models/link.py:2527
 msgid "[message from blocked user]"
 msgstr "[teachdaireachd o chleachdaiche bacte]"
 
-#: r2/models/link.py:2496
+#: r2/models/link.py:2528
 msgid "[unblock user to see this message]"
 msgstr "[thoir am bacadh far a' chleachdaiche gus an teachdaireachd seo fhaicinn]"
 
@@ -6310,7 +6310,7 @@ msgstr "seall gach freagairt"
 msgid "hide images"
 msgstr "falaich na dealbhan"
 
-#: r2/public/static/js/enhancements.js:458 r2/public/static/js/enhancements.js:523 r2/templates/prefoptions.html:265
+#: r2/public/static/js/enhancements.js:458 r2/public/static/js/enhancements.js:523 r2/templates/prefoptions.html:271
 msgid "show images"
 msgstr "seall na dealbhan"
 
@@ -6432,7 +6432,7 @@ msgstr "le ceanglaichean"
 msgid "jump between"
 msgstr "leum eadar"
 
-#: r2/public/static/js/enhancements.js:974 r2/templates/prefoptions.html:309
+#: r2/public/static/js/enhancements.js:974 r2/templates/prefoptions.html:315
 msgid "comment navigator"
 msgstr "seòladair nam beachdan"
 
@@ -6469,7 +6469,7 @@ msgstr "chan eil cunntas eile ann fhathast"
 msgid "add an account"
 msgstr "cuir cunntas ris"
 
-#: r2/public/static/js/enhancements.js:1082 r2/templates/adminemailsettings.html:69 r2/templates/adminprivacy.html:69 r2/templates/adminvault.html:68 r2/templates/linkedloginlink.html:39 r2/templates/login.html:77 r2/templates/login.html:86 r2/templates/login.html:197 r2/templates/loginformwide.html:44 r2/templates/password.html:41 r2/templates/privacysettings.html:124 r2/templates/register.html:77 r2/templates/register.html:86 r2/templates/register.html:197 r2/templates/userlisting.html:164
+#: r2/public/static/js/enhancements.js:1082 r2/templates/adminemailsettings.html:69 r2/templates/adminprivacy.html:69 r2/templates/adminvault.html:68 r2/templates/linkedloginlink.html:39 r2/templates/login.html:77 r2/templates/login.html:86 r2/templates/login.html:197 r2/templates/loginformwide.html:44 r2/templates/password.html:41 r2/templates/privacysettings.html:124 r2/templates/userlisting.html:164
 msgid "username"
 msgstr "ainm-cleachdaiche"
 
@@ -6477,7 +6477,7 @@ msgstr "ainm-cleachdaiche"
 msgid "add and switch"
 msgstr "cuir ris is leum"
 
-#: r2/public/static/js/enhancements.js:1100 r2/templates/linkedloginotp.html:35 r2/templates/newlink.html:155 r2/templates/prefoptions.html:613 r2/templates/prefsecurity.html:37 r2/templates/prefsecurity.html:104 r2/templates/prefsecurity.html:242 r2/templates/prefupdate.html:33 r2/templates/privacysettings.html:133
+#: r2/public/static/js/enhancements.js:1100 r2/templates/linkedloginotp.html:35 r2/templates/newlink.html:155 r2/templates/prefoptions.html:619 r2/templates/prefsecurity.html:37 r2/templates/prefsecurity.html:104 r2/templates/prefsecurity.html:242 r2/templates/prefupdate.html:33 r2/templates/privacysettings.html:133
 msgid "two-factor code"
 msgstr "còd dà-cheumnach"
 
@@ -6599,23 +6599,23 @@ msgstr "Feumaidh tu clàradh a-steach mus cuir thu rud sam bith."
 msgid "You need to be logged in to do that."
 msgstr "Feumaidh tu clàradh a-steach airson sin a dhèanamh."
 
-#: r2/public/static/js/login.js:286
+#: r2/public/static/js/login.js:293
 msgid "try using our secure login form."
 msgstr "feuch am foirm againn airson clàradh a-steach tèarainte."
 
-#: r2/public/static/js/login.js:328
+#: r2/public/static/js/login.js:335
 msgid "Password is strong"
 msgstr "Tha am facal-faire làidir"
 
-#: r2/public/static/js/login.js:330
+#: r2/public/static/js/login.js:337
 msgid "Password is good"
 msgstr "Tha am facal-faire math"
 
-#: r2/public/static/js/login.js:332
+#: r2/public/static/js/login.js:339
 msgid "Password is fair"
 msgstr "Tha am facal-faire meadhanach"
 
-#: r2/public/static/js/login.js:334
+#: r2/public/static/js/login.js:341
 msgid "Password is weak"
 msgstr "Tha am facal-faire lag"
 
@@ -6707,23 +6707,23 @@ msgstr "chan eil càil ri ro-shealltainn"
 msgid "preview failed"
 msgstr "dh'fhàillig an ro-shealladh"
 
-#: r2/public/static/js/multi.js:509
+#: r2/public/static/js/multi.js:525
 msgid "awesomeness goes here"
 msgstr "tha mìorbhaileachd a' dol an-seo"
 
-#: r2/public/static/js/multi.js:510
+#: r2/public/static/js/multi.js:526
 msgid "add a vault to your multi."
 msgstr "cuir vault ris a' mhulti agad."
 
-#: r2/public/static/js/multi.js:563
+#: r2/public/static/js/multi.js:579
 msgid "categorize"
 msgstr "cuir ann an roinn-seòrsa"
 
-#: r2/public/static/js/multi.js:579
+#: r2/public/static/js/multi.js:596
 msgid "open this multi"
 msgstr "fosgail am multi seo"
 
-#: r2/public/static/js/multi.js:583
+#: r2/public/static/js/multi.js:600
 msgid "create a new multi"
 msgstr "cruthaich multi ùr"
 
@@ -6817,7 +6817,7 @@ msgstr "Co-roinn le:"
 msgid "Link:"
 msgstr "Ceangal:"
 
-#: r2/public/static/js/post-sharing.js:101 r2/public/static/js/post-sharing.js:333 r2/templates/multiinfobar.html:51 r2/templates/multiinfobar.html:85
+#: r2/public/static/js/post-sharing.js:101 r2/public/static/js/post-sharing.js:335 r2/templates/multiinfobar.html:51 r2/templates/multiinfobar.html:85
 msgid "copy"
 msgstr "lethbhreac"
 
@@ -6847,32 +6847,32 @@ msgstr "sguir dheth"
 msgid "sent!"
 msgstr "air a chur!"
 
-#: r2/public/static/js/post-sharing.js:295
+#: r2/public/static/js/post-sharing.js:296
 msgid "Your Mastodon server (for example mastodon.social):"
 msgstr "Am frithealaiche Mastodon agad (mar eisimpleir mastodon.social):"
 
-#: r2/public/static/js/post-sharing.js:302
+#: r2/public/static/js/post-sharing.js:303
 msgid "That doesn't look like a server name."
 msgstr "Chan eil coltas ainm frithealaiche air sin."
 
-#: r2/public/static/js/post-sharing.js:332
+#: r2/public/static/js/post-sharing.js:334
 msgid "copied!"
 msgstr "lethbhreac air a dhèanamh!"
 
-#: r2/public/static/js/post-sharing.js:513
+#: r2/public/static/js/post-sharing.js:515
 #, python-format
 msgid "Share to %(name)s"
 msgstr "Co-roinn air %(name)s"
 
-#: r2/public/static/js/post-sharing.js:524
+#: r2/public/static/js/post-sharing.js:528
 msgid "More ways to share"
 msgstr "Barrachd dhòighean airson co-roinneadh"
 
-#: r2/public/static/js/post-sharing.js:542
+#: r2/public/static/js/post-sharing.js:546
 msgid "Email to a Friend"
 msgstr "Cuir post-d gu caraid"
 
-#: r2/public/static/js/post-sharing.js:549
+#: r2/public/static/js/post-sharing.js:553
 msgid "Private Message a Friend on Tippr"
 msgstr "Teachdaireachd phrìobhaideach gu caraid air Tippr"
 
@@ -6896,98 +6896,98 @@ msgstr "roinn-seòrsa ùr"
 msgid "+ close"
 msgstr "+ dùin"
 
-#: r2/public/static/js/sponsored.js:299
+#: r2/public/static/js/sponsored.js:303
 msgid "Please confirm the details of your campaign"
 msgstr "Dearbh mion-fhiosrachadh na h-iomairt agad"
 
-#: r2/public/static/js/sponsored.js:302
+#: r2/public/static/js/sponsored.js:306
 #, python-format
 msgid "your budget must be at least $%(minBudgetDollars)s"
 msgstr "feumaidh am buidseat agad a bhith co-dhiù $%(minBudgetDollars)s"
 
-#: r2/public/static/js/sponsored.js:306
+#: r2/public/static/js/sponsored.js:310
 #, python-format
 msgid "your budget must not exceed $%(maxBudgetDollars)s"
 msgstr "chan fhaod am buidseat agad a dhol thairis air $%(maxBudgetDollars)s"
 
-#: r2/public/static/js/sponsored.js:313
+#: r2/public/static/js/sponsored.js:317
 msgid "Your campaign must be capable of claiming at least 1,000 impressions per day. Please adjust your bid, budget, or schedule in order to enable this."
 msgstr "Feumaidh an iomairt agad a bhith comasach air co-dhiù 1,000 sealladh fhaighinn gach latha. Atharraich an tairgse, am buidseat no an clàr-ama agad airson seo a dhèanamh comasach."
 
-#: r2/public/static/js/sponsored.js:317
+#: r2/public/static/js/sponsored.js:321
 #, python-format
 msgid "your bid must be at least $%(minBid)s"
 msgstr "feumaidh an tairgse agad a bhith co-dhiù $%(minBid)s"
 
-#: r2/public/static/js/sponsored.js:321
+#: r2/public/static/js/sponsored.js:325
 #, python-format
 msgid "your bid must not exceed $%(maxBid)s"
 msgstr "chan fhaod an tairgse agad a dhol thairis air $%(maxBid)s"
 
-#: r2/public/static/js/sponsored.js:339 r2/public/static/js/sponsored.js:364 r2/public/static/js/sponsored.js:391
+#: r2/public/static/js/sponsored.js:343 r2/public/static/js/sponsored.js:368 r2/public/static/js/sponsored.js:395
 msgid "the campaign you requested is available!"
 msgstr "tha an iomairt a dh'iarr thu ri fhaighinn!"
 
-#: r2/public/static/js/sponsored.js:343 r2/public/static/js/sponsored.js:381
+#: r2/public/static/js/sponsored.js:347 r2/public/static/js/sponsored.js:385
 #, python-format
 msgid "the maximum budget available is $%(totalBudgetDollars)s (%(impressions)s impressions)"
 msgstr "'s e $%(totalBudgetDollars)s (%(impressions)s seallaidhean) am buidseat as motha a tha ri fhaighinn"
 
-#: r2/public/static/js/sponsored.js:354
+#: r2/public/static/js/sponsored.js:358
 #, python-format
 msgid "we expect to only have %(available)s impressions on %(target)s. we may not fully deliver."
 msgstr "chan eil dùil againn ach ri %(available)s seallaidhean air %(target)s. dh'fhaoidte nach lìbhrig sinn a h-uile càil."
 
-#: r2/public/static/js/sponsored.js:373
+#: r2/public/static/js/sponsored.js:377
 #, python-format
 msgid "want to maximize your campaign? for only $%(difference)s more you can buy all available inventory for your selected dates!"
 msgstr "a bheil thu airson an iomairt agad a mheudachadh? airson dìreach $%(difference)s a bharrachd, 's urrainn dhut gach stoc a tha ri fhaighinn airson nan ceann-latha a thagh thu a cheannach!"
 
-#: r2/public/static/js/sponsored.js:397
+#: r2/public/static/js/sponsored.js:401
 msgid "the campaign you requested is too small! this campaign is available:"
 msgstr "tha an iomairt a dh'iarr thu ro bheag! tha an iomairt seo ri fhaighinn:"
 
-#: r2/public/static/js/sponsored.js:405
+#: r2/public/static/js/sponsored.js:409
 msgid "the campaign you requested is too small!"
 msgstr "tha an iomairt a dh'iarr thu ro bheag!"
 
-#: r2/public/static/js/sponsored.js:414
+#: r2/public/static/js/sponsored.js:418
 msgid "the campaign you requested is too big! the largest campaign available is:"
 msgstr "tha an iomairt a dh'iarr thu ro mhòr! seo an iomairt as motha a tha ri fhaighinn:"
 
-#: r2/public/static/js/sponsored.js:440
+#: r2/public/static/js/sponsored.js:444
 #, python-format
 msgid "we have insufficient available inventory targeting %(target)s to fulfill your requested dates. the following campaigns are available:"
 msgstr "chan eil stoc gu leòr ri fhaighinn a tha a' targaideachadh %(target)s airson nan ceann-latha a dh'iarr thu. tha na h-iomairtean a leanas ri fhaighinn:"
 
-#: r2/public/static/js/sponsored.js:453
+#: r2/public/static/js/sponsored.js:457
 #, python-format
 msgid "inventory for %(target)s is sold out for your requested dates. please try a different target or different dates."
 msgstr "chaidh stoc %(target)s a reic gu lèir airson nan ceann-latha a dh'iarr thu. feuch targaid no ceann-latha eile."
 
-#: r2/public/static/js/sponsored.js:1001
+#: r2/public/static/js/sponsored.js:1005
 msgid "house campaigns, man."
 msgstr "iomairtean an taighe, a charaid."
 
-#: r2/public/static/js/sponsored.js:1014
+#: r2/public/static/js/sponsored.js:1018
 #, python-format
 msgid "maximum possible impressions: %(impressions)s"
 msgstr "na tha de sheallaidhean comasach air a' char as motha: %(impressions)s"
 
-#: r2/public/static/js/sponsored.js:1060
+#: r2/public/static/js/sponsored.js:1064
 msgid "sorry, there was an error retrieving available impressions. please try again later."
 msgstr "tha sinn duilich ach thachair mearachd nuair a bha sinn a' faighinn nan impressions a tha ri làimh. nach fheuch thu ris a-rithist an ceann greis?"
 
-#: r2/public/static/js/sponsored.js:1477 r2/public/static/js/sponsored.js:1838
+#: r2/public/static/js/sponsored.js:1484 r2/public/static/js/sponsored.js:1851
 msgid "days"
 msgstr "latha"
 
-#: r2/public/static/js/sponsored.js:1483
+#: r2/public/static/js/sponsored.js:1490
 #, python-format
 msgid "$%(cpm)s per 1,000 impressions"
 msgstr "$%(cpm)s airson gach 1,000 impression"
 
-#: r2/public/static/js/sponsored.js:2051
+#: r2/public/static/js/sponsored.js:2065
 msgid "Created new campaign!"
 msgstr "Chaidh iomairt ùr a chruthachadh!"
 
@@ -7036,20 +7036,20 @@ msgstr[1] "%(num)s mhionaid air ais"
 msgstr[2] "%(num)s mionaidean air ais"
 msgstr[3] "%(num)s mionaid air ais"
 
-#: r2/public/static/js/tippr.js:112
+#: r2/public/static/js/tippr.js:116
 msgid "please wait a few seconds and try again."
 msgstr "fuirich diog no dhà is feuch ris a-rithist."
 
-#: r2/public/static/js/tippr.js:114 r2/public/static/js/ui.js:665
+#: r2/public/static/js/tippr.js:118 r2/public/static/js/ui.js:665
 #, python-format
 msgid "an error occurred (status: %(status)s)"
 msgstr "thachair mearachd (staid: %(status)s)"
 
-#: r2/public/static/js/traffic.js:11
+#: r2/public/static/js/traffic.js:12
 msgid "view vault traffic"
 msgstr "faic trafaig an t-vault"
 
-#: r2/public/static/js/traffic.js:13 r2/templates/adminuser.html:210 r2/templates/flairlist.html:34 r2/templates/userlisting.html:170
+#: r2/public/static/js/traffic.js:14 r2/templates/adminuser.html:210 r2/templates/flairlist.html:34 r2/templates/userlisting.html:170
 msgid "go"
 msgstr "siuthad"
 
@@ -7102,27 +7102,27 @@ msgstr "Faighnichidh sinn mus seall sinn meadhanan NSFW."
 msgid "Click to see NSFW"
 msgstr "Briog airson NSFW fhaicinn"
 
-#: r2/public/static/js/expando/nsfwflow.js:111
+#: r2/public/static/js/expando/nsfwflow.js:112
 msgid "Always show NSFW media?"
 msgstr "An seall sinn meadhanan NSFW an-còmhnaidh?"
 
-#: r2/public/static/js/expando/nsfwflow.js:112
+#: r2/public/static/js/expando/nsfwflow.js:113
 msgid "Ok, we changed your preferences to always show NSFW media."
 msgstr "Ceart, dh'atharraich sinn na roghainnean agad gus meadhanan NSFW a shealltainn an-còmhnaidh."
 
-#: r2/public/static/js/expando/nsfwflow.js:113
+#: r2/public/static/js/expando/nsfwflow.js:114
 msgid "Undo"
 msgstr "Neo-dhèan"
 
-#: r2/public/static/js/expando/nsfwflow.js:116
+#: r2/public/static/js/expando/nsfwflow.js:118
 msgid "Your account is set up to always show this content in the future."
 msgstr "Tha an cunntas agad air a shuidheachadh gus an t-susbaint seo a shealltainn an-còmhnaidh o seo a-mach."
 
-#: r2/public/static/js/expando/nsfwflow.js:117
+#: r2/public/static/js/expando/nsfwflow.js:119
 msgid "Change your preferences to hide NSFW media?"
 msgstr "An atharraich thu na roghainnean agad gus meadhanan NSFW fhalach?"
 
-#: r2/public/static/js/expando/nsfwflow.js:118
+#: r2/public/static/js/expando/nsfwflow.js:120
 msgid "Hide NSFW"
 msgstr "Falaich NSFW"
 
@@ -7429,7 +7429,7 @@ msgstr "chaidh e na bhall"
 msgid "karma"
 msgstr "karma"
 
-#: r2/templates/adminantispam.html:182 r2/templates/adminuser.html:68 r2/templates/adminusers.html:77 r2/templates/login.html:110 r2/templates/newsletter.html:58 r2/templates/newsletterbar.html:43 r2/templates/prefupdate.html:85 r2/templates/register.html:110
+#: r2/templates/adminantispam.html:182 r2/templates/adminuser.html:68 r2/templates/adminusers.html:77 r2/templates/login.html:110 r2/templates/newsletter.html:58 r2/templates/newsletterbar.html:43 r2/templates/prefupdate.html:85
 msgid "email"
 msgstr "post-d"
 
@@ -7535,7 +7535,7 @@ msgstr "(gun ainm)"
 msgid "(the site's own)"
 msgstr "(aig an làrach fhèin)"
 
-#: r2/templates/adminapps.html:93 r2/templates/admindomain.html:85 r2/templates/admindomains.html:44 r2/templates/adminfeeds.html:132 r2/templates/adminsupport.html:83 r2/templates/adminsupport.html:88 r2/templates/adminsupportactivity.html:77 r2/templates/adminsupportticket.html:106 r2/templates/adminsupportticket.html:119 r2/templates/adminsupportticket.html:157 r2/templates/adminuser.html:43 r2/templates/adminuser.html:53 r2/templates/adminuser.html:61 r2/templates/adminuser.html:266 r2/templates/adminuser.html:298 r2/templates/adminusers.html:83 r2/templates/adminvault.html:40 r2/templates/adminvault.html:50 r2/templates/adminvaults.html:57 r2/templates/comment.htmllite:49 r2/templates/commentvisitsbox.html:41
+#: r2/templates/adminapps.html:93 r2/templates/admindomain.html:85 r2/templates/admindomains.html:44 r2/templates/adminfeeds.html:132 r2/templates/adminuser.html:43 r2/templates/adminuser.html:53 r2/templates/adminuser.html:61 r2/templates/adminuser.html:266 r2/templates/adminuser.html:298 r2/templates/adminusers.html:83 r2/templates/adminvault.html:40 r2/templates/adminvault.html:50 r2/templates/adminvaults.html:57 r2/templates/comment.htmllite:49 r2/templates/commentvisitsbox.html:41
 msgid "ago"
 msgstr "air ais"
 
@@ -8137,33 +8137,39 @@ msgstr "mìosan"
 msgid "Are you one of us?"
 msgstr "A bheil thu nad dhuine dhinn?"
 
-#: r2/templates/admininterstitial.html:42
+#: r2/templates/admininterstitial.html:43
+#, fuzzy
+#| msgid "update your password"
+msgid "Enter your password"
+msgstr "ùraich am facal-faire agad"
+
+#: r2/templates/admininterstitial.html:45
 msgid "Enter your password and one-time code"
 msgstr "Cuir a-steach am facal-faire agad is an còd aon-turais"
 
-#: r2/templates/admininterstitial.html:52 r2/templates/admininterstitial.html:66 r2/templates/prefsecurity.html:237 r2/templates/prefsecurity.html:242 r2/templates/prefsecurity.html:300 r2/templates/prefupdate.html:33 r2/templates/prefupdate.html:56 r2/templates/prefupdate.html:117 r2/templates/useriphistory.html:74
+#: r2/templates/admininterstitial.html:56 r2/templates/admininterstitial.html:70 r2/templates/prefsecurity.html:237 r2/templates/prefsecurity.html:242 r2/templates/prefsecurity.html:300 r2/templates/prefupdate.html:33 r2/templates/prefupdate.html:56 r2/templates/prefupdate.html:117 r2/templates/useriphistory.html:74
 msgid "(required)"
 msgstr "(riatanach)"
 
-#: r2/templates/admininterstitial.html:64
+#: r2/templates/admininterstitial.html:68
 msgid "This computer is remembered, so you don't need a one-time code."
 msgstr ""
 
-#: r2/templates/admininterstitial.html:66
+#: r2/templates/admininterstitial.html:70
 msgid "one-time verification code"
 msgstr "còd dearbhaidh aon-turais"
 
-#: r2/templates/admininterstitial.html:73
+#: r2/templates/admininterstitial.html:77
 msgid "remember this computer"
 msgstr "cum an coimpiutair seo an cuimhne"
 
-#: r2/templates/admininterstitial.html:90
+#: r2/templates/admininterstitial.html:94
 #, fuzzy
 #| msgid "forget this account"
 msgid "forget this computer"
 msgstr "dìochuimhnich an cunntas seo"
 
-#: r2/templates/admininterstitial.html:91
+#: r2/templates/admininterstitial.html:95
 msgid "Asks for a one-time code again next time, here and anywhere else this computer was remembered for."
 msgstr ""
 
@@ -10194,7 +10200,7 @@ msgstr "òr a-mhàin"
 msgid "only tippr gold members can view and submit"
 msgstr "chan fhaic is chan fhaod ach buill òr tippr postadh"
 
-#: r2/templates/createvault.html:188 r2/templates/prefoptions.html:456
+#: r2/templates/createvault.html:188 r2/templates/prefoptions.html:462
 msgid "content options"
 msgstr "roghainnean susbaint"
 
@@ -10295,11 +10301,15 @@ msgid "other options"
 msgstr "roghainnean eile"
 
 #: r2/templates/createvault.html:326
-msgid "viewers must be over eighteen years old"
-msgstr "feumaidh an luchd-coimhid a bhith nas sine nach ochd bliadhna deug"
+#, fuzzy
+#| msgid "toggle viewers must be over 18"
+msgid "NSFW: viewers must be 18 or older"
+msgstr "toglaich: feumaidh luchd-leughaidh a bhith nas sine na 18"
 
 #: r2/templates/createvault.html:338
-msgid "allow this vault to be included /v/all as well as the default and trending lists"
+#, fuzzy
+#| msgid "allow this vault to be included /v/all as well as the default and trending lists"
+msgid "allow this vault to be included in /v/all as well as the default and trending lists"
 msgstr "leig leis a' vault seo a bhith ann an /v/all cho math ris na liostaichean bunaiteach is treandach"
 
 #: r2/templates/createvault.html:350
@@ -10423,7 +10433,7 @@ msgstr "dath"
 msgid "used as a thematic color for your vault on mobile"
 msgstr "ga chleachdadh mar dhath na vault agad air mobile"
 
-#: r2/templates/createvault.html:669 r2/templates/flairpane.html:91 r2/templates/prefoptions.html:616
+#: r2/templates/createvault.html:669 r2/templates/flairpane.html:91 r2/templates/prefoptions.html:622
 msgid "save options"
 msgstr "sàbhail na roghainnean"
 
@@ -11199,23 +11209,23 @@ msgstr "Ùr an-seo? Dèan cunntas"
 msgid "It's linked to your %(provider)s account, so signing in with %(provider)s is enough from now on. The password lets you log in without it too."
 msgstr "Tha e ceangailte ris a' chunntas %(provider)s agad, mar sin bidh clàradh a-steach le %(provider)s gu leòr o seo a-mach. Leigidh am facal-faire leat clàradh a-steach as aonais cuideachd."
 
-#: r2/templates/linkedloginlink.html:50 r2/templates/login.html:81 r2/templates/register.html:81
+#: r2/templates/linkedloginlink.html:50 r2/templates/login.html:81
 msgid "choose a username"
 msgstr "tagh ainm-cleachdaiche"
 
-#: r2/templates/linkedloginlink.html:60 r2/templates/login.html:103 r2/templates/login.html:106 r2/templates/login.html:234 r2/templates/prefupdate.html:132 r2/templates/register.html:103 r2/templates/register.html:106 r2/templates/register.html:234 r2/templates/resetpassword.html:48
+#: r2/templates/linkedloginlink.html:60 r2/templates/login.html:103 r2/templates/login.html:106 r2/templates/login.html:234 r2/templates/prefupdate.html:132 r2/templates/resetpassword.html:48
 msgid "verify password"
 msgstr "dearbh am facal-faire"
 
-#: r2/templates/linkedloginlink.html:62 r2/templates/login.html:114 r2/templates/register.html:114
+#: r2/templates/linkedloginlink.html:62 r2/templates/login.html:114
 msgid "email (optional)"
 msgstr "post-d (roghainneil)"
 
-#: r2/templates/linkedloginlink.html:70 r2/templates/login.html:138 r2/templates/register.html:138
+#: r2/templates/linkedloginlink.html:70 r2/templates/login.html:138
 msgid "type the letters from the image"
 msgstr "sgrìobh na litrichean on dealbh"
 
-#: r2/templates/linkedloginlink.html:77 r2/templates/login.html:122 r2/templates/login.html:249 r2/templates/loginformwide.html:52 r2/templates/register.html:122 r2/templates/register.html:249
+#: r2/templates/linkedloginlink.html:77 r2/templates/login.html:122 r2/templates/login.html:249 r2/templates/loginformwide.html:52
 msgid "remember me"
 msgstr "cum an cuimhne mi"
 
@@ -11363,77 +11373,77 @@ msgstr "Chaidh am post seo a ghlasadh le modaratairean na coimhearsnachd"
 msgid "New comments can no longer be added."
 msgstr "Chan urrainnear beachdan ùra a chur ris tuilleadh."
 
-#: r2/templates/login.html:42 r2/templates/register.html:42
+#: r2/templates/login.html:42
 msgid "You are logged in. Go use the site!"
 msgstr "Tha thu air clàradh a-steach. Siuthad, cleachd an làrach!"
 
-#: r2/templates/login.html:46 r2/templates/register.html:46
+#: r2/templates/login.html:46
 msgid "You need to login to do that."
 msgstr "Feumaidh tu clàradh a-steach airson sin a dhèanamh."
 
-#: r2/templates/login.html:110 r2/templates/login.html:212 r2/templates/register.html:110 r2/templates/register.html:212
+#: r2/templates/login.html:110 r2/templates/login.html:212
 msgid "optional"
 msgstr "roghainneil"
 
-#: r2/templates/login.html:158 r2/templates/register.html:158
+#: r2/templates/login.html:158
 msgid "get the best of tippr emailed to you once a week."
 msgstr "faigh na rudan as fheàrr air tippr air post-d aon turas san t-seachdain."
 
-#: r2/templates/login.html:159 r2/templates/register.html:159 r2/templates/welcomebar.html:32
+#: r2/templates/login.html:159 r2/templates/welcomebar.html:32
 msgid "learn more"
 msgstr "barrachd fiosrachaidh"
 
-#: r2/templates/login.html:166 r2/templates/login.html:262 r2/templates/register.html:166 r2/templates/register.html:262
+#: r2/templates/login.html:166 r2/templates/login.html:262
 msgid "sign up"
 msgstr "clàraich"
 
-#: r2/templates/login.html:202 r2/templates/register.html:202
+#: r2/templates/login.html:202
 msgid "try another"
 msgstr "feuch fear eile"
 
-#: r2/templates/login.html:203 r2/templates/register.html:203
+#: r2/templates/login.html:203
 msgid "available!"
 msgstr "tha seo ri fhaighinn!"
 
-#: r2/templates/login.html:212 r2/templates/register.html:212
+#: r2/templates/login.html:212
 msgid "account recovery email"
 msgstr "post-d airson aiseag a' chunntais"
 
-#: r2/templates/login.html:216 r2/templates/register.html:216
+#: r2/templates/login.html:216
 msgid "we only send email at your request"
 msgstr "cha chuir sinn post-d thugad ach ma dh'iarras tu seo oirnn"
 
-#: r2/templates/login.html:255 r2/templates/register.html:255
+#: r2/templates/login.html:255
 msgid "recover password"
 msgstr "aisig am facal-faire"
 
-#: r2/templates/login.html:284 r2/templates/register.html:284
+#: r2/templates/login.html:284
 msgid "create a new account"
 msgstr "cruthaich cunntas ùr"
 
-#: r2/templates/login.html:289 r2/templates/register.html:289
+#: r2/templates/login.html:289
 msgid "This site isn't taking new accounts right now."
 msgstr "Chan eil an làrach seo a' gabhail ri cunntasan ùra an-dràsta."
 
-#: r2/templates/login.html:291 r2/templates/register.html:291
+#: r2/templates/login.html:291
 #, python-format
 msgid "To ask about an account, write to %(address)s."
 msgstr "Airson faighneachd mu chunntas, sgrìobh gu %(address)s."
 
-#: r2/templates/login.html:302 r2/templates/register.html:302
+#: r2/templates/login.html:302
 #, python-format
 msgid "By signing up, you agree to our %(terms)s and that you have read our %(privacy_policy)s and %(content_policy)s."
 msgstr "Le bhith a' clàradh, tha thu ag aontachadh ris na %(terms)s againn agus gun do leugh thu am %(privacy_policy)s is am %(content_policy)s againn."
 
-#: r2/templates/login.html:303 r2/templates/register.html:303
+#: r2/templates/login.html:303
 msgid "Terms"
 msgstr "Teirmichean"
 
-#: r2/templates/login.html:304 r2/templates/privacysettings.html:99 r2/templates/register.html:304 r2/templates/tipprfooter.html:50
+#: r2/templates/login.html:304 r2/templates/privacysettings.html:99 r2/templates/tipprfooter.html:50
 msgid "Privacy Policy"
 msgstr "Am poileasaidh prìobhaideachd"
 
-#: r2/templates/login.html:305 r2/templates/register.html:305 r2/templates/tipprfooter.html:54
+#: r2/templates/login.html:305 r2/templates/tipprfooter.html:54
 msgid "Content Policy"
 msgstr "Poileasaidh na susbainte"
 
@@ -12108,485 +12118,495 @@ msgstr "dèan (nas) sàbhailte e airson na h-obrach "
 msgid "(Don't show thumbnails next to anything labeled NSFW)"
 msgstr "(Na seall dealbhagan ri taobh rud sam bith le leubail NSFW)"
 
-#: r2/templates/prefoptions.html:194
+#: r2/templates/prefoptions.html:192
+#, fuzzy
+#| msgid "show the spotlight box on the front page"
+msgid "show NSFW posts on the front page and /v/all"
+msgstr "seall bogsa an t-solais air a' phrìomh-dhuilleag"
+
+#: r2/templates/prefoptions.html:195
+msgid "(they're always shown in their own vaults)"
+msgstr ""
+
+#: r2/templates/prefoptions.html:200
 msgid "link options"
 msgstr "roghainnean nan ceanglaichean"
 
-#: r2/templates/prefoptions.html:197
+#: r2/templates/prefoptions.html:203
 msgid "show the spotlight box on the front page"
 msgstr "seall bogsa an t-solais air a' phrìomh-dhuilleag"
 
-#: r2/templates/prefoptions.html:200
+#: r2/templates/prefoptions.html:206
 msgid "(it shows new and promoted links, and gives you a say in what's spam and what isn't.)"
 msgstr "(seallaidh seo ceanglaichean ùra 's brosnaichte agus bidh cothrom agad na rudan a chomharradh a tha 'na spama 's feadhainn nach eil.)"
 
-#: r2/templates/prefoptions.html:204
+#: r2/templates/prefoptions.html:210
 msgid "show trending vaults on the front page"
 msgstr "seall vaults treandach air a' phrìomh-dhuilleag"
 
-#: r2/templates/prefoptions.html:207
+#: r2/templates/prefoptions.html:213
 msgid "(a list of popular and notable vaults to check out)"
 msgstr "(liosta de vaults air a bheil fèill mhòr as fhiach coimhead orra)"
 
-#: r2/templates/prefoptions.html:212
+#: r2/templates/prefoptions.html:218
 msgid "show multivaults in the side panel"
 msgstr "seall ioma-vaults sa phanail-taoibh"
 
-#: r2/templates/prefoptions.html:215
+#: r2/templates/prefoptions.html:221
 msgid "(your sets of vaults to view together, and the form to make one)"
 msgstr "(na seataichean de vaults agad airson am faicinn còmhla, agus am foirm airson fear a dhèanamh)"
 
-#: r2/templates/prefoptions.html:218
+#: r2/templates/prefoptions.html:224
 msgid "show me links I've recently viewed"
 msgstr "seall dhomh ceanglaichean a choimhead mi orra o chionn goirid"
 
-#: r2/templates/prefoptions.html:219
+#: r2/templates/prefoptions.html:225
 msgid "compress the link display"
 msgstr "co-theannaich taisbeanadh nan ceangal"
 
-#: r2/templates/prefoptions.html:220
+#: r2/templates/prefoptions.html:226
 msgid "show additional details in the domain text when available"
 msgstr "seall mion-fhiosrachadh a bharrachd ann an teacsa na h-àrainne ma bhios gin ann"
 
-#: r2/templates/prefoptions.html:223
+#: r2/templates/prefoptions.html:229
 msgid "(such as the source vault or the content author's url/name)"
 msgstr "(can an vault tùsail no url/ainm ùghdar na susbaint)"
 
-#: r2/templates/prefoptions.html:226
+#: r2/templates/prefoptions.html:232
 msgid "don't show me submissions after I've upvoted them"
 msgstr "na seall puist dhomh an dèidh dhomh am bhòtadh suas"
 
-#: r2/templates/prefoptions.html:228 r2/templates/prefoptions.html:232
+#: r2/templates/prefoptions.html:234 r2/templates/prefoptions.html:238
 msgid "(except my own)"
 msgstr "(ach an fheadhainn agam fhìn)"
 
-#: r2/templates/prefoptions.html:230
+#: r2/templates/prefoptions.html:236
 msgid "don't show me submissions after I've downvoted them"
 msgstr "na seall puist dhomh an dèidh dhomh am bhòtadh sìos"
 
-#: r2/templates/prefoptions.html:235
+#: r2/templates/prefoptions.html:241
 #, python-format
 msgid "display %(num)s links at once"
 msgstr "seall %(num)s ceangal aig an aon àm"
 
-#: r2/templates/prefoptions.html:242
+#: r2/templates/prefoptions.html:248
 #, python-format
 msgid "don't show me submissions with a score less than %(num)s"
 msgstr "na seall dhomh puist is beachdan aig a bheil sgòr nas lugha na %(num)s"
 
-#: r2/templates/prefoptions.html:243
+#: r2/templates/prefoptions.html:249
 msgid "(leave blank to show all submissions)"
 msgstr "(fàg bàn e airson gach post a shealltainn)"
 
-#: r2/templates/prefoptions.html:248
+#: r2/templates/prefoptions.html:254
 msgid "enhancements"
 msgstr "leasachaidhean"
 
-#: r2/templates/prefoptions.html:251
+#: r2/templates/prefoptions.html:257
 msgid "infinite scroll"
 msgstr "sgroladh gun chrìoch"
 
-#: r2/templates/prefoptions.html:254
+#: r2/templates/prefoptions.html:260
 msgid "(load the next page of a listing when you reach the bottom)"
 msgstr "(luchdaich an ath dhuilleag de liosta nuair a ruigeas tu a bonn)"
 
-#: r2/templates/prefoptions.html:258
+#: r2/templates/prefoptions.html:264
 msgid "keyboard navigation"
 msgstr "seòladaireachd a' mheur-chlàir"
 
-#: r2/templates/prefoptions.html:261
+#: r2/templates/prefoptions.html:267
 msgid "(j and k move between posts and comments, a and z vote; press ? on any page for the full list)"
 msgstr "(gluaisidh j is k eadar puist is beachdan, bhòtaidh a is z; brùth ? air duilleag sam bith airson an liosta shlàn)"
 
-#: r2/templates/prefoptions.html:268
+#: r2/templates/prefoptions.html:274
 msgid "(a button on posts that link to an image to show it in the listing, and a \"show images\" link to show them all)"
 msgstr "(putan air puist a cheanglas ri dealbh airson a shealltainn san liosta, agus ceangal \"seall na dealbhan\" airson an sealltainn uile)"
 
-#: r2/templates/prefoptions.html:272
+#: r2/templates/prefoptions.html:278
 msgid "expand images automatically"
 msgstr "leudaich dealbhan gu fèin-obrachail"
 
-#: r2/templates/prefoptions.html:274
+#: r2/templates/prefoptions.html:280
 msgid "(except NSFW and spoiler posts)"
 msgstr "(ach puist NSFW is millidh)"
 
-#: r2/templates/prefoptions.html:277
+#: r2/templates/prefoptions.html:283
 msgid "user tags"
 msgstr "tagaichean chleachdaichean"
 
-#: r2/templates/prefoptions.html:280
+#: r2/templates/prefoptions.html:286
 msgid "(a tag button by usernames, to note who someone is; only you see your tags)"
 msgstr "(putan taga ri taobh ainmean-chleachdaichean, airson nòta a dhèanamh cò th' ann an cuideigin; chan fhaic duine ach thu fhèin na tagaichean agad)"
 
-#: r2/templates/prefoptions.html:284
+#: r2/templates/prefoptions.html:290
 msgid "user info on hover"
 msgstr "fiosrachadh cleachdaiche le fantainn os a chionn"
 
-#: r2/templates/prefoptions.html:286
+#: r2/templates/prefoptions.html:292
 msgid "(hold the mouse over a username to see their karma, how long they've been here and your tag)"
 msgstr "(cùm an luchag os cionn ainm-cleachdaiche airson an karma aca fhaicinn, dè cho fada 's a tha iad air a bhith an-seo agus an taga agad)"
 
-#: r2/templates/prefoptions.html:289
+#: r2/templates/prefoptions.html:295
 msgid "show the parent comment on hover"
 msgstr "seall am beachd-pàrant le fantainn os a chionn"
 
-#: r2/templates/prefoptions.html:291
+#: r2/templates/prefoptions.html:297
 msgid "(hold the mouse over a reply's \"parent\" link to read the comment it replies to)"
 msgstr "(cùm an luchag os cionn ceangal \"pàrant\" freagairt airson am beachd ris a bheil i a' freagairt a leughadh)"
 
-#: r2/templates/prefoptions.html:294
+#: r2/templates/prefoptions.html:300
 msgid "count new comments"
 msgstr "cunnt beachdan ùra"
 
-#: r2/templates/prefoptions.html:296
+#: r2/templates/prefoptions.html:302
 msgid "(\"3 new\" by posts you've opened before, and the new comments highlighted when you go back; remembered in this browser)"
 msgstr "(\"3 ùra\" ri taobh puist a dh'fhosgail thu roimhe, agus na beachdan ùra air an soillseachadh nuair a thilleas tu; air a chuimhneachadh sa bhrabhsair seo)"
 
-#: r2/templates/prefoptions.html:299
+#: r2/templates/prefoptions.html:305
 msgid "posts you've opened:"
 msgstr "puist a dh'fhosgail thu:"
 
-#: r2/templates/prefoptions.html:301
+#: r2/templates/prefoptions.html:307
 msgid "show as usual"
 msgstr "seall mar as àbhaist"
 
-#: r2/templates/prefoptions.html:301
+#: r2/templates/prefoptions.html:307
 msgid "fade them"
 msgstr "fannaich iad"
 
-#: r2/templates/prefoptions.html:301
+#: r2/templates/prefoptions.html:307
 msgid "hide them"
 msgstr "falaich iad"
 
-#: r2/templates/prefoptions.html:306
+#: r2/templates/prefoptions.html:312
 msgid "(remembered in this browser)"
 msgstr "(air a chuimhneachadh sa bhrabhsair seo)"
 
-#: r2/templates/prefoptions.html:311
+#: r2/templates/prefoptions.html:317
 msgid "(on comments pages, buttons to jump between top-level comments, the submitter's, yours, new ones or ones with links)"
 msgstr "(air duilleagan nam beachdan, putanan airson leum eadar beachdan aig a' bhàrr, feadhainn an neach-cuir, an fheadhainn agad, feadhainn ùra no feadhainn le ceanglaichean)"
 
-#: r2/templates/prefoptions.html:315
+#: r2/templates/prefoptions.html:321
 #, fuzzy
 #| msgid "top-level comments"
 msgid "live comments"
 msgstr "beachdan aig a' bhàrr"
 
-#: r2/templates/prefoptions.html:317
+#: r2/templates/prefoptions.html:323
 msgid "(new comments appear on a thread while you have it open, in vaults that use them)"
 msgstr ""
 
-#: r2/templates/prefoptions.html:321
+#: r2/templates/prefoptions.html:327
 msgid "account switcher"
 msgstr "suidsear chunntasan"
 
-#: r2/templates/prefoptions.html:323
+#: r2/templates/prefoptions.html:329
 msgid "(a \"switch account\" menu by your name, to move between your accounts without logging out; logging out forgets them)"
 msgstr "(clàr-taice \"leum gu cunntas eile\" ri taobh d' ainm, airson gluasad eadar na cunntasan agad gun chlàradh a-mach; nì clàradh a-mach dìochuimhne orra)"
 
-#: r2/templates/prefoptions.html:326
+#: r2/templates/prefoptions.html:332
 msgid "night mode"
 msgstr "modh oidhche"
 
-#: r2/templates/prefoptions.html:328
+#: r2/templates/prefoptions.html:334
 msgid "(light text on a dark background)"
 msgstr "(teacsa soilleir air cùlaibh dorcha)"
 
-#: r2/templates/prefoptions.html:331
+#: r2/templates/prefoptions.html:337
 msgid "hide child comments links"
 msgstr "ceanglaichean airson freagairtean fhalach"
 
-#: r2/templates/prefoptions.html:334
+#: r2/templates/prefoptions.html:340
 msgid "(on comments pages, links to fold up the replies under each comment, or all of them at once)"
 msgstr "(air duilleagan nam beachdan, ceanglaichean airson na freagairtean fo gach beachd a phasgadh, no iad uile aig an aon àm)"
 
-#: r2/templates/prefoptions.html:340
+#: r2/templates/prefoptions.html:346
 msgid "filters"
 msgstr "criathragan"
 
-#: r2/templates/prefoptions.html:343
+#: r2/templates/prefoptions.html:349
 msgid "Posts that match are left out of listings (never your own). One per line, or separated by commas."
 msgstr "Thèid puist a fhreagras fhàgail às na liostaichean (chan ann an fheadhainn agad fhèin idir). Aon air gach loidhne, no air an sgaradh le cromagan."
 
-#: r2/templates/prefoptions.html:347
+#: r2/templates/prefoptions.html:353
 msgid "title keywords"
 msgstr "faclan-luirg an tiotail"
 
-#: r2/templates/prefoptions.html:347
+#: r2/templates/prefoptions.html:353
 msgid "whole words or phrases, in any case"
 msgstr "faclan no abairtean slàna, gun diofar eadar litrichean mòra is beaga"
 
-#: r2/templates/prefoptions.html:348
+#: r2/templates/prefoptions.html:354
 msgid "example.com also hides its subdomains"
 msgstr "falaichidh example.com na fo-àrainnean aige cuideachd"
 
-#: r2/templates/prefoptions.html:349
+#: r2/templates/prefoptions.html:355
 msgid "still shown when you visit the vault itself"
 msgstr "fhathast gan sealltainn nuair a thadhlas tu air an vault fhèin"
 
-#: r2/templates/prefoptions.html:350
+#: r2/templates/prefoptions.html:356
 msgid "only hides their posts; to stop seeing them altogether, block them"
 msgstr "cha dèan e ach na puist aca fhalach; airson sgur dhen fhaicinn gu tur, bac iad"
 
-#: r2/templates/prefoptions.html:363
+#: r2/templates/prefoptions.html:369
 msgid "comment options"
 msgstr "roghainnean nam beachdan"
 
-#: r2/templates/prefoptions.html:366
+#: r2/templates/prefoptions.html:372
 #, python-format
 msgid "sort comments by %(sort)s"
 msgstr "seòrsaich na beachdan a rèir %(sort)s"
 
-#: r2/templates/prefoptions.html:369
+#: r2/templates/prefoptions.html:375
 msgid "ignore suggested sorts"
 msgstr "leig seachad seòrsachaidhean molta"
 
-#: r2/templates/prefoptions.html:370
+#: r2/templates/prefoptions.html:376
 msgid "(suggested sorts may be set by community moderators for specific threads or vaults, like Q&As)"
 msgstr "(dh'fhaoidte gun suidhich modaratairean na coimhearsnachd seòrsachaidhean molta airson snàithleanan no vaults sònraichte, mar cheistean is fhreagairtean)"
 
-#: r2/templates/prefoptions.html:373
+#: r2/templates/prefoptions.html:379
 msgid "show a dagger (†) on comments voted controversial"
 msgstr "seall daga (†) ri taobh beachdan a fhuair bhòt gu bheil iad connspaideach"
 
-#: r2/templates/prefoptions.html:374
+#: r2/templates/prefoptions.html:380
 msgid "(a controversial comment is one that's been both upvoted and downvoted significantly)"
 msgstr "(tha beachd connspaideach 'na bheachd a chaidh a bhòtadh suas is sìos gu mòr)"
 
-#: r2/templates/prefoptions.html:381
+#: r2/templates/prefoptions.html:387
 #, python-format
 msgid "don't show me comments with a score less than %(num)s"
 msgstr "na seall beachdan dhomh aig a bheil sgòr nas lugha na %(num)s"
 
-#: r2/templates/prefoptions.html:382
+#: r2/templates/prefoptions.html:388
 msgid "(leave blank to show all comments)"
 msgstr "(fàg bàn e airson gach beachd a shealltainn)"
 
-#: r2/templates/prefoptions.html:390
+#: r2/templates/prefoptions.html:396
 #, python-format
 msgid "display %(num)s comments by default"
 msgstr "seall %(num)s beachd a ghnàth"
 
-#: r2/templates/prefoptions.html:395
+#: r2/templates/prefoptions.html:401
 msgid "the smaller the number, the faster your comments pages will load"
 msgstr "mar as lugha an àireamh, 's ann as luaithe a thèid duilleagan nam beachdan a luchdadh"
 
-#: r2/templates/prefoptions.html:400
+#: r2/templates/prefoptions.html:406
 msgid "messaging options"
 msgstr "roghainnean nan teachdaireachdan"
 
-#: r2/templates/prefoptions.html:402
+#: r2/templates/prefoptions.html:408
 msgid "show message conversations in the inbox"
 msgstr "seall còmhraidhean theachdaireachdan sa bhogsa a-steach"
 
-#: r2/templates/prefoptions.html:405
+#: r2/templates/prefoptions.html:411
 msgid "(only applies when you go to the 'messages' panel)"
 msgstr "(cha bhi buaidh aige seo ach ann am panail nan teachdaireachdan)"
 
-#: r2/templates/prefoptions.html:409
+#: r2/templates/prefoptions.html:415
 msgid "collapse messages after I've read them"
 msgstr "co-theannaich teachdaireachdan an dèidh dhomh an leughadh"
 
-#: r2/templates/prefoptions.html:412
+#: r2/templates/prefoptions.html:418
 msgid "(otherwise, you'll have to collapse them yourself)"
 msgstr "(air neo bi agad ris an co-theannachadh thu fhèin)"
 
-#: r2/templates/prefoptions.html:416
+#: r2/templates/prefoptions.html:422
 msgid "mark messages as read when I open my inbox"
 msgstr "cuir comharra gun deach na teachdaireachdan a leughadh nuair a dh'fhosglas mi am bogsa a-steach agam"
 
-#: r2/templates/prefoptions.html:419
+#: r2/templates/prefoptions.html:425
 msgid "(otherwise, they will be marked as read when you click them)"
 msgstr "(air neo thèid comharra a chur riutha gun deach an leughadh nuair a bhriogas tu orra)"
 
-#: r2/templates/prefoptions.html:422
+#: r2/templates/prefoptions.html:428
 msgid "notify me when people say my username"
 msgstr "thoir brath dhomh nuair a bheir daoine iomradh air an ainm-chleachdaiche agam"
 
-#: r2/templates/prefoptions.html:425
+#: r2/templates/prefoptions.html:431
 msgid "send messages as emails"
 msgstr "cuir teachdaireachdan mar phuist-d"
 
-#: r2/templates/prefoptions.html:425
+#: r2/templates/prefoptions.html:431
 msgid "requires a verified email"
 msgstr "feumach air post-d dearbhte"
 
-#: r2/templates/prefoptions.html:428
+#: r2/templates/prefoptions.html:434
 msgid "enable threaded modmail display"
 msgstr "cuir an comas sealladh snàithleanach air post nam modaratairean"
 
-#: r2/templates/prefoptions.html:432 r2/templates/widgetdemopanel.html:201
+#: r2/templates/prefoptions.html:438 r2/templates/widgetdemopanel.html:201
 msgid "display options"
 msgstr "roghainnean taisbeanaidh"
 
-#: r2/templates/prefoptions.html:434
+#: r2/templates/prefoptions.html:440
 msgid "allow vaults to show me custom themes"
 msgstr "leig le vaults ùrlaran gnàthaichte a shealltainn dhomh"
 
-#: r2/templates/prefoptions.html:437
+#: r2/templates/prefoptions.html:443
 msgid "(you can also choose which vault themes to disable on an individual level)"
 msgstr "('s urrainn dhut taghadh cuideachd dè na h-ùrlaran vault a chuireas tu à comas fa leth)"
 
-#: r2/templates/prefoptions.html:441
+#: r2/templates/prefoptions.html:447
 msgid "show user flair"
 msgstr "seall flair nan cleachdaichean"
 
-#: r2/templates/prefoptions.html:443
+#: r2/templates/prefoptions.html:449
 msgid "show link flair"
 msgstr "seall flair nan ceanglaichean"
 
-#: r2/templates/prefoptions.html:446
+#: r2/templates/prefoptions.html:452
 msgid "show self-serve advertising tab on front page"
 msgstr "seall taba na sanasachd fèin-fhrithealaidh air a' phrìomh-dhuilleag"
 
-#: r2/templates/prefoptions.html:451
+#: r2/templates/prefoptions.html:457
 msgid "show legacy search page"
 msgstr "seall an t-seann duilleag luirg"
 
-#: r2/templates/prefoptions.html:458
+#: r2/templates/prefoptions.html:464
 msgid "I am over eighteen years old and willing to view adult content"
 msgstr "Tha mi nas sine na ochd bliadhna deug a dh'aois agus tha mi deònach susbaint inbheach fhaicinn"
 
-#: r2/templates/prefoptions.html:459
+#: r2/templates/prefoptions.html:465
 msgid "required to view some vaults"
 msgstr "tha feum air seo mus fhaicear cuid de vaults"
 
-#: r2/templates/prefoptions.html:461
+#: r2/templates/prefoptions.html:467
 msgid "label posts that are not safe for work (NSFW)"
 msgstr "cuir leubail ri puist nach eil sàbhailte san àite-obrach (NFSW)"
 
-#: r2/templates/prefoptions.html:464
+#: r2/templates/prefoptions.html:470
 msgid "posts labelled as made with AI:"
 msgstr "puist le leubail gun deach an dèanamh le AI:"
 
-#: r2/templates/prefoptions.html:473
+#: r2/templates/prefoptions.html:479
 msgid "posts in vaults that are for AI content are always shown there"
 msgstr "thèid puist ann an vaults airson susbaint AI a shealltainn an-sin an-còmhnaidh"
 
-#: r2/templates/prefoptions.html:475
+#: r2/templates/prefoptions.html:481
 msgid "enable private RSS feeds"
 msgstr "cuir an comas inbhirean RSS prìobhaideach"
 
-#: r2/templates/prefoptions.html:477
+#: r2/templates/prefoptions.html:483
 msgid "(available from the 'RSS feed' tab in prefs)"
 msgstr "(ri do làimh air an taba \"Inbhir RSS\" sna roghainnean)"
 
-#: r2/templates/prefoptions.html:480
+#: r2/templates/prefoptions.html:486
 msgid "privacy options"
 msgstr "roghainnean prìobhaideachd"
 
-#: r2/templates/prefoptions.html:482
+#: r2/templates/prefoptions.html:488
 msgid "make my votes public"
 msgstr "nochd mo bhòtan gu poblach"
 
-#: r2/templates/prefoptions.html:489
+#: r2/templates/prefoptions.html:495
 #, python-format
 msgid "let everyone see %(link1)s and %(link2)s"
 msgstr "leig le duine sam bith %(link1)s agus %(link2)s fhaicinn4"
 
-#: r2/templates/prefoptions.html:492
+#: r2/templates/prefoptions.html:498
 msgid "don't allow search engines to index my user profile"
 msgstr "na leig le einnseanan-luirg a' phròifil agam inneacsadh"
 
-#: r2/templates/prefoptions.html:502
+#: r2/templates/prefoptions.html:508
 msgid "optional analytics cookies, which help the site's admins see how it's used (see the privacy policy):"
 msgstr ""
 
-#: r2/templates/prefoptions.html:503 r2/templates/utils.html:546
+#: r2/templates/prefoptions.html:509 r2/templates/utils.html:546
 #, fuzzy
 #| msgid "Allow"
 msgid "allow"
 msgstr "Ceadaich"
 
-#: r2/templates/prefoptions.html:504 r2/templates/utils.html:547
+#: r2/templates/prefoptions.html:510 r2/templates/utils.html:547
 msgid "don't allow"
 msgstr ""
 
-#: r2/templates/prefoptions.html:505
+#: r2/templates/prefoptions.html:511
 msgid "kept with your account, on every device you sign in on"
 msgstr ""
 
-#: r2/templates/prefoptions.html:511
+#: r2/templates/prefoptions.html:517
 msgid "beta options"
 msgstr "roghainnean beta"
 
-#: r2/templates/prefoptions.html:513
+#: r2/templates/prefoptions.html:519
 msgid "I would like to beta test features for tippr"
 msgstr "Bu toigh leam deuchainn beta a dhèanamh air gleusan tippr"
 
-#: r2/templates/prefoptions.html:519
+#: r2/templates/prefoptions.html:525
 #, python-format
 msgid "by enabling you'll be subscribed to %(beta_vault_link)s automatically."
 msgstr "ma chuireas tu an comas e, thèid do chur fo-sgrìobhte do %(beta_vault_link)s gu fèin-obrachail."
 
-#: r2/templates/prefoptions.html:521
+#: r2/templates/prefoptions.html:527
 #, python-brace-format
 msgid "details on the /v/{beta_vault} wiki"
 msgstr "mion-fhiosrachadh air uicipeid /v/{beta_vault}"
 
-#: r2/templates/prefoptions.html:530 r2/templates/prefoptions.html:553
+#: r2/templates/prefoptions.html:536 r2/templates/prefoptions.html:559
 msgid "gold options"
 msgstr "roghainnean òir"
 
-#: r2/templates/prefoptions.html:532
+#: r2/templates/prefoptions.html:538
 msgid "hide ads"
 msgstr "falaich sanasan"
 
-#: r2/templates/prefoptions.html:534
+#: r2/templates/prefoptions.html:540
 msgid "remember what links I've visited"
 msgstr "cuimhnich na ceanglaichean air an do thadhail mi"
 
-#: r2/templates/prefoptions.html:535
+#: r2/templates/prefoptions.html:541
 msgid "we'll remember and mark what links you've already read, even between computers"
 msgstr "cuimhnichidh sinn na ceanglaichean a leugh thu roimh 's cuiridh sinn comharran riutha, fiù ma bhios tu air diofar coimpiutairean"
 
-#: r2/templates/prefoptions.html:537 r2/templates/prefoptions.html:555
+#: r2/templates/prefoptions.html:543 r2/templates/prefoptions.html:561
 msgid "highlight new comments"
 msgstr "comharraich beachdan ùra"
 
-#: r2/templates/prefoptions.html:539
+#: r2/templates/prefoptions.html:545
 msgid "we'll remember your visits for 48 hours and show you which comments you haven't seen yet"
 msgstr "cuimhnichidh sinn na thadhail thu air fad 48 uair a thìde agus comharraichidh sinn na beachdan nach fhaca thu fhathast"
 
-#: r2/templates/prefoptions.html:542
+#: r2/templates/prefoptions.html:548
 msgid "show gold expiration"
 msgstr "seall cuin a dh'fhalbhas an ùine air an òr"
 
-#: r2/templates/prefoptions.html:544
+#: r2/templates/prefoptions.html:550
 msgid "show how much gold you have remaining on your userpage"
 msgstr "seall dè na tha de dh'òr agad air fhàgail air duilleag a' chleachdaiche agad"
 
-#: r2/templates/prefoptions.html:548
+#: r2/templates/prefoptions.html:554
 #, python-format
 msgid "use a month of my %(coin_link)s to automatically renew my gold if it expires"
 msgstr "cleachd mìos de %(coin_link)s agam airson an t-òr agam ath-nuadhachadh gu fèin-obrachail ma dh'fhalbhas an ùine air"
 
-#: r2/templates/prefoptions.html:558
+#: r2/templates/prefoptions.html:564
 #, python-format
 msgid "since you don't have %(gold_link)s, this will only apply in vaults you moderate"
 msgstr "o nach eil %(gold_link)s agad, cha bhi seo an sàs ach sna vaults a tha thu a' modaratadh"
 
-#: r2/templates/prefoptions.html:566
+#: r2/templates/prefoptions.html:572
 msgid "tippr themes"
 msgstr "ùrlaran tippr"
 
-#: r2/templates/prefoptions.html:570
+#: r2/templates/prefoptions.html:576
 msgid "tippr themes change the appearance of tippr.  They are used anywhere another custom theme is not present."
 msgstr "tippr themes change the appearance of tippr. They are used anywhere another custom theme is not present."
 
-#: r2/templates/prefoptions.html:574
+#: r2/templates/prefoptions.html:580
 msgid "Note: For security reasons this page will not be changed by themes"
 msgstr "An aire: Air adhbharan tèarainteachd, cha tèid an duilleag seo atharrachadh le ùrlaran"
 
-#: r2/templates/prefoptions.html:578
+#: r2/templates/prefoptions.html:584
 msgid "use tippr theme"
 msgstr "cleachd ùrlar tippr"
 
-#: r2/templates/prefoptions.html:579
+#: r2/templates/prefoptions.html:585
 msgid "hover to preview"
 msgstr "fan os a chionn airson ro-shealladh"
 
-#: r2/templates/prefoptions.html:598
+#: r2/templates/prefoptions.html:604
 msgid "warning: use non-featured themes at your own risk"
 msgstr "rabhadh: cleachd ùrlaran nach eil brosnaichte air do chunnart fhèin"
 

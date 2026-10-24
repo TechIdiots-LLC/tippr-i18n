@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tippr\n"
 "Report-Msgid-Bugs-To: https://github.com/TechIdiots-LLC/tippr-i18n/issues\n"
-"POT-Creation-Date: 2026-10-23 20:15-0400\n"
+"POT-Creation-Date: 2026-10-24 09:58-0400\n"
 "PO-Revision-Date: 2017-04-24 18:49-0400\n"
 "Last-Translator: tippr translators\n"
 "Language-Team: Chinese Traditional\n"
@@ -19,475 +19,475 @@ msgstr ""
 msgid "Choose an image of at most 1 MB."
 msgstr "請選擇不超過 1 MB 的圖片。"
 
-#: r2/controllers/api.py:222 r2/controllers/api.py:248 r2/controllers/api.py:4398 r2/controllers/api.py:4468 r2/controllers/listingcontroller.py:754 r2/lib/pages/pages.py:6377
+#: r2/controllers/api.py:223 r2/controllers/api.py:249 r2/controllers/api.py:4403 r2/controllers/api.py:4473 r2/controllers/listingcontroller.py:766 r2/lib/pages/pages.py:6382
 msgid "API"
 msgstr "API"
 
-#: r2/controllers/api.py:273
+#: r2/controllers/api.py:274
 msgid "this is too long"
 msgstr "這太長了"
 
-#: r2/controllers/api.py:287 r2/lib/errors.py:72
+#: r2/controllers/api.py:288 r2/lib/errors.py:72
 msgid "that user doesn't exist"
 msgstr "該使用者不存在"
 
-#: r2/controllers/api.py:291
+#: r2/controllers/api.py:292
 #, python-format
 msgid "you can tag at most %(n)d users"
 msgstr "你最多可以標記 %(n)d 位使用者"
 
-#: r2/controllers/api.py:309
+#: r2/controllers/api.py:310
 msgid "wrong username or password"
 msgstr "使用者名稱或密碼錯誤"
 
-#: r2/controllers/api.py:311
+#: r2/controllers/api.py:312
 msgid "that's the account you're using"
 msgstr "這就是你正在使用的帳號"
 
-#: r2/controllers/api.py:313
+#: r2/controllers/api.py:314
 #, python-format
 msgid "you can keep at most %(n)d other accounts"
 msgstr "你最多可以保留 %(n)d 個其他帳號"
 
-#: r2/controllers/api.py:318
+#: r2/controllers/api.py:319
 msgid "enter that account's two-factor code"
 msgstr "請輸入該帳號的兩段驗證碼"
 
-#: r2/controllers/api.py:334
+#: r2/controllers/api.py:335
 msgid "that account isn't available to switch to; add it again"
 msgstr "無法切換到該帳號；請重新加入"
 
-#: r2/controllers/api.py:547
+#: r2/controllers/api.py:548
 msgid "your message has been delivered"
 msgstr "您的訊息已經送出"
 
-#: r2/controllers/api.py:769
+#: r2/controllers/api.py:770
 msgid "no title found"
 msgstr "找不到標題"
 
-#: r2/controllers/api.py:863 r2/controllers/linked_logins.py:184 r2/controllers/linked_logins.py:232 r2/controllers/linked_logins.py:252 r2/controllers/linked_logins.py:330
+#: r2/controllers/api.py:864 r2/controllers/linked_logins.py:184 r2/controllers/linked_logins.py:232 r2/controllers/linked_logins.py:252 r2/controllers/linked_logins.py:330
 msgid "That sign-in took too long. Please start again."
 msgstr "這次登入花太久了，請重新開始。"
 
-#: r2/controllers/api.py:868
+#: r2/controllers/api.py:869
 msgid "That account is linked already: sign in with it."
 msgstr "該帳號已經連結：請用它登入。"
 
-#: r2/controllers/api.py:1402 r2/controllers/api.py:1783 r2/controllers/api.py:2683 r2/controllers/api.py:2983 r2/controllers/api.py:3310 r2/controllers/api.py:4190 r2/controllers/api.py:4246 r2/controllers/api.py:4300 r2/controllers/api.py:4533 r2/controllers/api.py:4538 r2/controllers/api.py:4773 r2/controllers/api.py:4838 r2/controllers/api.py:4916 r2/controllers/api.py:4982 r2/controllers/api.py:5055 r2/controllers/api.py:5146 r2/controllers/api.py:5178 r2/controllers/api.py:5198 r2/controllers/api.py:5712 r2/controllers/api.py:5752 r2/controllers/api.py:5986 r2/controllers/api.py:6004 r2/controllers/api.py:6352 r2/lib/pages/pages.py:6268
+#: r2/controllers/api.py:1403 r2/controllers/api.py:1784 r2/controllers/api.py:2686 r2/controllers/api.py:2986 r2/controllers/api.py:3313 r2/controllers/api.py:4195 r2/controllers/api.py:4251 r2/controllers/api.py:4305 r2/controllers/api.py:4538 r2/controllers/api.py:4543 r2/controllers/api.py:4778 r2/controllers/api.py:4843 r2/controllers/api.py:4921 r2/controllers/api.py:4987 r2/controllers/api.py:5060 r2/controllers/api.py:5151 r2/controllers/api.py:5183 r2/controllers/api.py:5203 r2/controllers/api.py:5717 r2/controllers/api.py:5757 r2/controllers/api.py:5991 r2/controllers/api.py:6009 r2/controllers/api.py:6357 r2/lib/pages/pages.py:6273
 msgid "saved"
 msgstr "已儲存"
 
-#: r2/controllers/api.py:1472
+#: r2/controllers/api.py:1473
 msgid "all other sessions have been logged out"
 msgstr "所有其他的工作階段都已經登出"
 
-#: r2/controllers/api.py:1531
+#: r2/controllers/api.py:1532
 msgid "you should be getting a verification email shortly."
 msgstr "您不久後應該會收到一封認證信。"
 
-#: r2/controllers/api.py:1533 r2/controllers/api.py:1546
+#: r2/controllers/api.py:1534 r2/controllers/api.py:1547
 msgid "your email has been updated"
 msgstr "已更新您的電子郵件地址"
 
-#: r2/controllers/api.py:1581
+#: r2/controllers/api.py:1582
 msgid "your password has been updated"
 msgstr "已更新您的密碼"
 
-#: r2/controllers/api.py:2040 r2/lib/menus.py:196 r2/templates/adminserverstatus.html:141
+#: r2/controllers/api.py:2041 r2/lib/menus.py:196 r2/templates/adminserverstatus.html:141
 msgid "reported"
 msgstr "檢舉過的"
 
-#: r2/controllers/api.py:2461 r2/lib/support.py:91
+#: r2/controllers/api.py:2464 r2/lib/support.py:91
 msgid "replied"
 msgstr "已回應"
 
-#: r2/controllers/api.py:2666
+#: r2/controllers/api.py:2669
 msgid "validation errors"
 msgstr "驗證錯誤"
 
-#: r2/controllers/api.py:2786 r2/controllers/api.py:2813 r2/controllers/api.py:2840 r2/controllers/listingcontroller.py:1036 r2/lib/menus.py:195 r2/public/static/js/tippr.js:231 r2/templates/adminapps.html:51 r2/templates/adminuser.html:59 r2/templates/deleteduserinterstitial.html:34 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:578 r2/templates/vaultstylesheetbase.html:47
+#: r2/controllers/api.py:2789 r2/controllers/api.py:2816 r2/controllers/api.py:2843 r2/controllers/listingcontroller.py:1048 r2/lib/menus.py:195 r2/public/static/js/tippr.js:235 r2/templates/adminapps.html:51 r2/templates/adminuser.html:59 r2/templates/deleteduserinterstitial.html:34 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:578 r2/templates/vaultstylesheetbase.html:47
 msgid "deleted"
 msgstr "已刪除"
 
-#: r2/controllers/api.py:2917
+#: r2/controllers/api.py:2920
 msgid "bad image name"
 msgstr "無效的圖片名稱"
 
-#: r2/controllers/api.py:2923
+#: r2/controllers/api.py:2926
 #, python-format
 msgid "too many images (you only get %d)"
 msgstr "圖片太多（最多 %d 張）"
 
-#: r2/controllers/api.py:2928 r2/controllers/api.py:2952
+#: r2/controllers/api.py:2931 r2/controllers/api.py:2955
 msgid "Invalid image or general image error"
 msgstr "圖片無效或無法處理"
 
-#: r2/controllers/api.py:2933
+#: r2/controllers/api.py:2936
 #, python-format
 msgid "must be %dx%d pixels"
 msgstr "像素必須是 %d x %d"
 
-#: r2/controllers/api.py:2937
+#: r2/controllers/api.py:2940
 msgid "10:3 aspect ratio required"
 msgstr "需要 10:3 的長寬比"
 
-#: r2/controllers/api.py:2940
+#: r2/controllers/api.py:2943
 #, python-format
 msgid "max %dx%d pixels"
 msgstr "最大 %d x %d 畫素"
 
-#: r2/controllers/api.py:2943
+#: r2/controllers/api.py:2946
 #, python-format
 msgid "min %dx%d pixels"
 msgstr "最小 %d x %d 畫素"
 
-#: r2/controllers/api.py:4002
+#: r2/controllers/api.py:4007
 msgid "an email will be sent to that account's address shortly"
 msgstr "一封電子郵件將會被送到該帳號所登記的電子郵件信箱"
 
-#: r2/controllers/api.py:4005
+#: r2/controllers/api.py:4010
 msgid "try again tomorrow"
 msgstr "請明天再試"
 
-#: r2/controllers/api.py:4052
+#: r2/controllers/api.py:4057
 msgid "password updated"
 msgstr "密碼已更新"
 
-#: r2/controllers/api.py:4258 r2/controllers/api.py:4489
+#: r2/controllers/api.py:4263 r2/controllers/api.py:4494
 msgid "invalid css class"
 msgstr "無效的CSS class"
 
-#: r2/controllers/api.py:4261 r2/controllers/api.py:4492
+#: r2/controllers/api.py:4266 r2/controllers/api.py:4497
 msgid "too many css classes"
 msgstr "太多CSS class"
 
-#: r2/controllers/api.py:4513
+#: r2/controllers/api.py:4518
 msgid "max flair templates reached"
 msgstr "已達到標籤範本數量上限"
 
-#: r2/controllers/api.py:4978
+#: r2/controllers/api.py:4983
 #, python-format
 msgid "saved, but these aren't on until their keys are filled in: %(names)s"
 msgstr "已儲存，但以下項目要等填好金鑰後才會啟用：%(names)s"
 
-#: r2/controllers/api.py:5000
+#: r2/controllers/api.py:5005
 msgid "the keys work"
 msgstr "金鑰可以使用"
 
-#: r2/controllers/api.py:5001 r2/controllers/api.py:5018
+#: r2/controllers/api.py:5006 r2/controllers/api.py:5023
 #, python-format
 msgid "didn't work: %(error)s"
 msgstr "沒有成功：%(error)s"
 
-#: r2/controllers/api.py:5006
+#: r2/controllers/api.py:5011
 msgid "no such payment"
 msgstr "沒有這筆付款"
 
-#: r2/controllers/api.py:5021 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminprivacy.html:26 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminuser.html:89 r2/templates/adminusers.html:77 r2/templates/adminvaults.html:50
+#: r2/controllers/api.py:5026 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminprivacy.html:26 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminuser.html:89 r2/templates/adminusers.html:77 r2/templates/adminvaults.html:50
 msgid "status"
 msgstr "狀態"
 
-#: r2/controllers/api.py:5046 r2/controllers/linked_logins.py:93 r2/controllers/linked_logins.py:187 r2/lib/pages/pages.py:1373 r2/lib/pages/pages.py:1423 r2/templates/createvault.html:57 r2/templates/goldpayment.html:168 r2/templates/linkedsignin.html:41 r2/templates/listingchooser.html:69 r2/templates/prefapps.html:153 r2/templates/prefapps.html:348
+#: r2/controllers/api.py:5051 r2/controllers/linked_logins.py:93 r2/controllers/linked_logins.py:187 r2/lib/pages/pages.py:1374 r2/lib/pages/pages.py:1424 r2/templates/createvault.html:57 r2/templates/goldpayment.html:168 r2/templates/linkedsignin.html:41 r2/templates/listingchooser.html:69 r2/templates/prefapps.html:153 r2/templates/prefapps.html:348
 msgid "name"
 msgstr "名稱"
 
-#: r2/controllers/api.py:5051
+#: r2/controllers/api.py:5056
 #, python-format
 msgid "saved, but these aren't on until their ID and secret are filled in: %(names)s"
 msgstr "已儲存，但以下項目要等填好 ID 和密鑰後才會啟用：%(names)s"
 
-#: r2/controllers/api.py:5160 r2/controllers/api.py:5186
+#: r2/controllers/api.py:5165 r2/controllers/api.py:5191
 msgid "this site's live config is managed in ZooKeeper"
 msgstr "本站的即時設定由 ZooKeeper 管理"
 
-#: r2/controllers/api.py:5164
+#: r2/controllers/api.py:5169
 msgid "unknown setting"
 msgstr "未知的設定"
 
-#: r2/controllers/api.py:5172 r2/controllers/api.py:5196
+#: r2/controllers/api.py:5177 r2/controllers/api.py:5201
 #, python-format
 msgid "not saved: %(error)s"
 msgstr "未儲存：%(error)s"
 
-#: r2/controllers/api.py:5202
+#: r2/controllers/api.py:5207
 #, python-format
 msgid "%(saved)d saved; %(failed)d not saved (see below)"
 msgstr "已儲存 %(saved)d 項；%(failed)d 項未儲存（見下方）"
 
-#: r2/controllers/api.py:5208
+#: r2/controllers/api.py:5213
 msgid "nothing changed"
 msgstr "沒有任何變更"
 
-#: r2/controllers/api.py:5224
+#: r2/controllers/api.py:5229
 #, python-format
 msgid "couldn't empty: %(servers)s"
 msgstr "無法清空：%(servers)s"
 
-#: r2/controllers/api.py:5249
+#: r2/controllers/api.py:5254
 msgid "every account has been checked"
 msgstr "所有帳號都已檢查完畢"
 
-#: r2/controllers/api.py:5261
+#: r2/controllers/api.py:5266
 msgid "select some accounts"
 msgstr "請選擇一些帳號"
 
-#: r2/controllers/api.py:5308 r2/controllers/api.py:5414
+#: r2/controllers/api.py:5313 r2/controllers/api.py:5419
 msgid "no such account"
 msgstr "沒有這個帳號"
 
-#: r2/controllers/api.py:5311 r2/controllers/api.py:5406
+#: r2/controllers/api.py:5316 r2/controllers/api.py:5411
 msgid "unknown action"
 msgstr "未知的動作"
 
-#: r2/controllers/api.py:5325
+#: r2/controllers/api.py:5330
 #, fuzzy
 #| msgid "no permissions"
 msgid "choose a permission"
 msgstr "沒有權限"
 
-#: r2/controllers/api.py:5339
+#: r2/controllers/api.py:5344
 msgid "not on admins (take them off the employees list on /admin/config first)"
 msgstr "不能對管理員這樣做（請先到 /admin/config 把他們從員工名單中移除）"
 
-#: r2/controllers/api.py:5343
+#: r2/controllers/api.py:5348
 msgid "the account is deleted"
 msgstr "該帳號已刪除"
 
-#: r2/controllers/api.py:5346
+#: r2/controllers/api.py:5351
 msgid "give a reason (it's logged, and a timeout's reason is sent to them)"
 msgstr "請填寫原因（會被記錄，暫時停權的原因會寄給對方）"
 
-#: r2/controllers/api.py:5350 r2/controllers/api.py:5431
+#: r2/controllers/api.py:5355 r2/controllers/api.py:5436
 msgid "tick the box to confirm"
 msgstr "請勾選方塊以確認"
 
-#: r2/controllers/api.py:5353
+#: r2/controllers/api.py:5358
 msgid "choose whether to keep or delete their posts"
 msgstr "請選擇保留或刪除對方的貼文"
 
-#: r2/controllers/api.py:5356
+#: r2/controllers/api.py:5361
 msgid "they have no email address"
 msgstr "對方沒有電子郵件地址"
 
-#: r2/controllers/api.py:5403 r2/controllers/api.py:5509
+#: r2/controllers/api.py:5408 r2/controllers/api.py:5514
 msgid "no such vault"
 msgstr "沒有這個看板"
 
-#: r2/controllers/api.py:5418
+#: r2/controllers/api.py:5423
 msgid "they're already a moderator"
 msgstr "對方已經是板主"
 
-#: r2/controllers/api.py:5421
+#: r2/controllers/api.py:5426
 msgid "they're banned from the vault; unban them first"
 msgstr "對方已被這個看板禁止；請先解除禁止"
 
-#: r2/controllers/api.py:5426
+#: r2/controllers/api.py:5431
 msgid "they aren't a moderator"
 msgstr "對方不是板主"
 
-#: r2/controllers/api.py:5438
+#: r2/controllers/api.py:5443
 msgid "unban the vault first"
 msgstr "請先解除看板的禁止"
 
-#: r2/controllers/api.py:5457
+#: r2/controllers/api.py:5462
 msgid "no such app"
 msgstr "沒有這個應用程式"
 
-#: r2/controllers/api.py:5460
+#: r2/controllers/api.py:5465
 msgid "the site's own apps can't be deleted here"
 msgstr "本站自己的應用程式不能在這裡刪除"
 
-#: r2/controllers/api.py:5503
+#: r2/controllers/api.py:5508
 msgid "give the feed's http(s) address"
 msgstr "請提供訂閱來源的 http(s) 網址"
 
-#: r2/controllers/api.py:5512
+#: r2/controllers/api.py:5517
 msgid "pick one of the AI labels"
 msgstr "請選擇一個 AI 標籤"
 
-#: r2/controllers/api.py:5516
+#: r2/controllers/api.py:5521
 #, python-format
 msgid "/v/%(vault)s doesn't accept %(label)s posts"
 msgstr "/v/%(vault)s 不接受 %(label)s 的貼文"
 
-#: r2/controllers/api.py:5522
+#: r2/controllers/api.py:5527
 msgid "give the bot account a valid username"
 msgstr "請為機器人帳號提供有效的使用者名稱"
 
-#: r2/controllers/api.py:5531
+#: r2/controllers/api.py:5536
 msgid "that account is suspended or deleted"
 msgstr "該帳號已被停權或刪除"
 
-#: r2/controllers/api.py:5538 r2/controllers/api.py:5553
+#: r2/controllers/api.py:5543 r2/controllers/api.py:5558
 msgid "no such feed"
 msgstr "沒有這個訂閱來源"
 
-#: r2/controllers/api.py:5576
+#: r2/controllers/api.py:5581
 msgid "give a domain"
 msgstr "請提供網域"
 
-#: r2/controllers/api.py:5582
+#: r2/controllers/api.py:5587
 msgid "choose what the ban does"
 msgstr "請選擇禁止的方式"
 
-#: r2/controllers/api.py:5585
+#: r2/controllers/api.py:5590
 msgid "give a reason (members see it when the link is refused)"
 msgstr "請填寫原因（連結被拒絕時會員會看到）"
 
-#: r2/controllers/api.py:5590
+#: r2/controllers/api.py:5595
 msgid "that's not a domain"
 msgstr "這不是網域"
 
-#: r2/controllers/api.py:5617 r2/controllers/api.py:5636 r2/controllers/api.py:5653 r2/controllers/api.py:5671
+#: r2/controllers/api.py:5622 r2/controllers/api.py:5641 r2/controllers/api.py:5658 r2/controllers/api.py:5676
 msgid "no such ticket"
 msgstr "沒有這張工單"
 
-#: r2/controllers/api.py:5684
+#: r2/controllers/api.py:5689
 msgid "they can't reply in this category"
 msgstr "對方不能在這個類別回覆"
 
-#: r2/controllers/api.py:5704
+#: r2/controllers/api.py:5709
 msgid "not on the employees list"
 msgstr "不在員工名單上"
 
-#: r2/controllers/api.py:5756
+#: r2/controllers/api.py:5761
 msgid "saved; CleanTalk needs an access key to work"
 msgstr "已儲存；CleanTalk 需要存取金鑰才能運作"
 
-#: r2/controllers/api.py:5759
+#: r2/controllers/api.py:5764
 #, python-format
 msgid "saved; CleanTalk says: %(problem)s"
 msgstr "已儲存；CleanTalk 表示：%(problem)s"
 
-#: r2/controllers/api.py:5761
+#: r2/controllers/api.py:5766
 msgid "saved; the CleanTalk key works"
 msgstr "已儲存；CleanTalk 金鑰可以使用"
 
-#: r2/controllers/api.py:5798
+#: r2/controllers/api.py:5803
 msgid "that isn't a release with an installer"
 msgstr "這不是附有安裝程式的版本"
 
-#: r2/controllers/api.py:5801
+#: r2/controllers/api.py:5806
 msgid "a server is updating now; wait for it to finish"
 msgstr "目前有伺服器正在更新；請等它完成"
 
-#: r2/controllers/api.py:5903
+#: r2/controllers/api.py:5908
 msgid "Copy the key now; it isn't shown again."
 msgstr "請現在複製金鑰；它不會再顯示。"
 
-#: r2/controllers/api.py:5912
+#: r2/controllers/api.py:5917
 msgid "tippr-backup isn't installed on this server (re-run the installer)."
 msgstr "這台伺服器沒有安裝 tippr-backup（請重新執行安裝程式）。"
 
-#: r2/controllers/api.py:5917
+#: r2/controllers/api.py:5922
 msgid "no such backup"
 msgstr "沒有這個備份"
 
-#: r2/controllers/api.py:5922
+#: r2/controllers/api.py:5927
 #, python-format
 msgid "Type this site's domain (%(domain)s) to confirm."
 msgstr "請輸入本站的網域（%(domain)s）以確認。"
 
-#: r2/controllers/api.py:5935
+#: r2/controllers/api.py:5940
 msgid "Enter the other server's address and its transfer key."
 msgstr "請輸入另一台伺服器的位址和它的轉移金鑰。"
 
-#: r2/controllers/api.py:5939
+#: r2/controllers/api.py:5944
 msgid "That isn't a backup name."
 msgstr "這不是備份名稱。"
 
-#: r2/controllers/api.py:5960
+#: r2/controllers/api.py:5965
 msgid "tippr test email"
 msgstr "tippr 測試郵件"
 
-#: r2/controllers/api.py:5961
+#: r2/controllers/api.py:5966
 #, python-format
 msgid "This is a test message from %(domain)s. Email is working."
 msgstr "這是來自 %(domain)s 的測試訊息。電子郵件運作正常。"
 
-#: r2/controllers/api.py:5965
+#: r2/controllers/api.py:5970
 #, python-format
 msgid "failed: %(error)s"
 msgstr "失敗：%(error)s"
 
-#: r2/controllers/api.py:5967
+#: r2/controllers/api.py:5972
 #, python-format
 msgid "sent to %(address)s"
 msgstr "已寄送至 %(address)s"
 
-#: r2/controllers/api.py:6000
+#: r2/controllers/api.py:6005
 msgid "no gold to take"
 msgstr "不會得到金幣"
 
-#: r2/controllers/api.py:6164 r2/controllers/api.py:6194
+#: r2/controllers/api.py:6169 r2/controllers/api.py:6199
 msgid "that's as many authenticator apps as an account can have"
 msgstr "一個帳號能擁有的驗證器應用程式已達上限"
 
-#: r2/controllers/api.py:6242
+#: r2/controllers/api.py:6247
 msgid "That code didn't work. Codes follow the clock, so check that your phone sets its time automatically."
 msgstr ""
 
-#: r2/controllers/api.py:6245
+#: r2/controllers/api.py:6250
 msgid "enter a code from one of your methods first"
 msgstr "請先輸入你其中一種驗證方式的代碼"
 
-#: r2/controllers/api.py:6248
+#: r2/controllers/api.py:6253
 #, fuzzy
 #| msgid "That code isn't right. Try again."
 msgid "That password isn't right. Try again."
 msgstr "代碼不正確。請再試一次。"
 
-#: r2/controllers/api.py:6249
+#: r2/controllers/api.py:6254
 msgid "enter your password first"
 msgstr "請先輸入你的密碼"
 
-#: r2/controllers/api.py:6267
+#: r2/controllers/api.py:6272
 msgid "that passkey couldn't be added"
 msgstr "無法加入這個通行金鑰"
 
-#: r2/controllers/api.py:6305
+#: r2/controllers/api.py:6310
 msgid "that passkey wasn't accepted"
 msgstr "這個通行金鑰未被接受"
 
-#: r2/controllers/api.py:6464
+#: r2/controllers/api.py:6469
 #, python-format
 msgid "accounts need to be %(n)d days old"
 msgstr "帳號必須註冊滿 %(n)d 天"
 
-#: r2/controllers/api.py:6468
+#: r2/controllers/api.py:6473
 #, python-format
 msgid "accounts need %(n)d karma"
 msgstr "帳號需要 %(n)d karma"
 
-#: r2/controllers/api.py:6471
+#: r2/controllers/api.py:6476
 msgid "verify your email address first"
 msgstr "請先驗證你的電子郵件地址"
 
-#: r2/controllers/api.py:6513 r2/lib/errors.py:158
+#: r2/controllers/api.py:6518 r2/lib/errors.py:158
 msgid "this app can not be modified from this interface"
 msgstr "這個應用程式無法從這個介面修改"
 
-#: r2/controllers/api.py:6520 r2/lib/errors.py:136
+#: r2/controllers/api.py:6525 r2/lib/errors.py:136
 msgid "invalid client id"
 msgstr "不適用的客戶端id"
 
-#: r2/controllers/api.py:6523
+#: r2/controllers/api.py:6528
 msgid "cannot update deleted app"
 msgstr "無法更新刪除的應用程式"
 
-#: r2/controllers/api.py:6526
+#: r2/controllers/api.py:6531
 msgid "app does not belong to you"
 msgstr "這應用程式不屬於你的"
 
-#: r2/controllers/api.py:6534
+#: r2/controllers/api.py:6539
 msgid "application updated"
 msgstr "應用程式已更新"
 
-#: r2/controllers/api.py:6558
+#: r2/controllers/api.py:6563
 msgid "application created"
 msgstr "應用程式已經建立"
 
-#: r2/controllers/api.py:6593
+#: r2/controllers/api.py:6598
 msgid "developer added"
 msgstr "由開發者新增"
 
@@ -503,7 +503,7 @@ msgstr "tippr 按鈕"
 msgid "tippr widget"
 msgstr "tippr 小工具"
 
-#: r2/controllers/embed.py:74 r2/controllers/policies.py:76 r2/lib/pages/pages.py:1136 r2/lib/pages/pages.py:6373 r2/templates/printablebuttons.html:150
+#: r2/controllers/embed.py:74 r2/controllers/policies.py:76 r2/lib/pages/pages.py:1137 r2/lib/pages/pages.py:6378 r2/templates/printablebuttons.html:150
 msgid "help"
 msgstr "幫助"
 
@@ -533,11 +533,11 @@ msgstr "找不到頁面"
 msgid "the page you requested does not exist"
 msgstr "您要求的網頁不存在"
 
-#: r2/controllers/error.py:220 r2/controllers/listingcontroller.py:999 r2/templates/adminapps.html:51 r2/templates/banneduserinterstitial.html:35 r2/templates/intimeoutinterstitial.html:34 r2/templates/intimeoutinterstitial.html:40
+#: r2/controllers/error.py:220 r2/controllers/listingcontroller.py:1011 r2/templates/adminapps.html:51 r2/templates/banneduserinterstitial.html:35 r2/templates/intimeoutinterstitial.html:34 r2/templates/intimeoutinterstitial.html:40
 msgid "suspended"
 msgstr "已停權"
 
-#: r2/controllers/front.py:247 r2/lib/pages/pages.py:6255
+#: r2/controllers/front.py:247 r2/lib/pages/pages.py:6260
 msgid "explore"
 msgstr "探索"
 
@@ -569,7 +569,7 @@ msgstr "顯示%d"
 msgid "create a vault"
 msgstr "建立看板"
 
-#: r2/controllers/front.py:738 r2/controllers/front.py:744 r2/controllers/listingcontroller.py:801 r2/controllers/listingcontroller.py:816 r2/controllers/listingcontroller.py:1180 r2/controllers/listingcontroller.py:1191 r2/lib/menus.py:203 r2/lib/menus.py:453 r2/lib/menus.py:666 r2/lib/pages/pages.py:5142 r2/lib/pages/pages.py:5151 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
+#: r2/controllers/front.py:738 r2/controllers/front.py:744 r2/controllers/listingcontroller.py:813 r2/controllers/listingcontroller.py:828 r2/controllers/listingcontroller.py:1192 r2/controllers/listingcontroller.py:1203 r2/lib/menus.py:203 r2/lib/menus.py:453 r2/lib/menus.py:666 r2/lib/pages/pages.py:5147 r2/lib/pages/pages.py:5156 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
 msgid "all"
 msgstr "所有"
 
@@ -593,7 +593,7 @@ msgstr "貼文和留言"
 msgid "posts"
 msgstr "貼文"
 
-#: r2/controllers/front.py:949 r2/controllers/listingcontroller.py:1783 r2/lib/pages/pages.py:5896 r2/templates/adminuser.html:37 r2/templates/createvault.html:288 r2/templates/link.xml:95
+#: r2/controllers/front.py:949 r2/controllers/listingcontroller.py:1795 r2/lib/pages/pages.py:5901 r2/templates/adminuser.html:37 r2/templates/createvault.html:288 r2/templates/link.xml:95
 msgid "comments"
 msgstr "留言"
 
@@ -630,7 +630,7 @@ msgstr "其他討論"
 msgid "search results"
 msgstr "搜尋結果"
 
-#: r2/controllers/front.py:1309 r2/controllers/listingcontroller.py:1532 r2/lib/menus.py:95 r2/lib/menus.py:177 r2/templates/adminvault.html:23 r2/templates/adminvaults.html:22 r2/templates/pagenamenav.html:62 r2/templates/prefoptions.html:349 r2/templates/promotelinkbase.html:765
+#: r2/controllers/front.py:1309 r2/controllers/listingcontroller.py:1544 r2/lib/menus.py:95 r2/lib/menus.py:177 r2/templates/adminvault.html:23 r2/templates/adminvaults.html:22 r2/templates/pagenamenav.html:62 r2/templates/prefoptions.html:355 r2/templates/promotelinkbase.html:765
 msgid "vaults"
 msgstr "看板"
 
@@ -688,11 +688,11 @@ msgstr "領取獎牌"
 msgid "gilding"
 msgstr "贈送金幣"
 
-#: r2/controllers/front.py:1636 r2/controllers/front.py:1940 r2/controllers/front.py:1967 r2/controllers/front.py:2037 r2/controllers/front.py:2080 r2/lib/menus.py:94 r2/templates/contactus.html:117 r2/templates/contactus.html:119 r2/templates/creditgild.html:34 r2/templates/gold.html:30 r2/templates/goldabout.html:20 r2/templates/goldpayment.html:40 r2/templates/goldthanks.html:29 r2/templates/prefoptions.html:556
+#: r2/controllers/front.py:1636 r2/controllers/front.py:1940 r2/controllers/front.py:1967 r2/controllers/front.py:2037 r2/controllers/front.py:2080 r2/lib/menus.py:94 r2/templates/contactus.html:117 r2/templates/contactus.html:119 r2/templates/creditgild.html:34 r2/templates/gold.html:30 r2/templates/goldabout.html:20 r2/templates/goldpayment.html:40 r2/templates/goldthanks.html:29 r2/templates/prefoptions.html:562
 msgid "tippr gold"
 msgstr "tippr 金幣"
 
-#: r2/controllers/front.py:1669 r2/public/static/js/enhancements.js:1084 r2/templates/adminemailsettings.html:73 r2/templates/admininterstitial.html:52 r2/templates/linkedloginlink.html:40 r2/templates/linkedloginlink.html:58 r2/templates/login.html:96 r2/templates/login.html:98 r2/templates/login.html:223 r2/templates/loginformwide.html:46 r2/templates/prefsecurity.html:130 r2/templates/prefsecurity.html:237 r2/templates/prefsecurity.html:270 r2/templates/privacysettings.html:128 r2/templates/register.html:96 r2/templates/register.html:98 r2/templates/register.html:223
+#: r2/controllers/front.py:1669 r2/public/static/js/enhancements.js:1084 r2/templates/adminemailsettings.html:73 r2/templates/admininterstitial.html:56 r2/templates/linkedloginlink.html:40 r2/templates/linkedloginlink.html:58 r2/templates/login.html:96 r2/templates/login.html:98 r2/templates/login.html:223 r2/templates/loginformwide.html:46 r2/templates/prefsecurity.html:130 r2/templates/prefsecurity.html:237 r2/templates/prefsecurity.html:270 r2/templates/privacysettings.html:128
 msgid "password"
 msgstr "密碼"
 
@@ -700,7 +700,7 @@ msgstr "密碼"
 msgid "verify email"
 msgstr "驗證電子信箱"
 
-#: r2/controllers/front.py:1737 r2/templates/login.html:125 r2/templates/loginformwide.html:53 r2/templates/register.html:125
+#: r2/controllers/front.py:1737 r2/templates/login.html:125 r2/templates/loginformwide.html:53
 msgid "reset password"
 msgstr "重設密碼"
 
@@ -712,7 +712,7 @@ msgstr "不正確的訊息憑證"
 msgid "emails unsubscribed"
 msgstr "已取消訂閱郵件"
 
-#: r2/controllers/front.py:1843 r2/lib/pages/pages.py:929 r2/templates/admininterstitial.html:79
+#: r2/controllers/front.py:1843 r2/lib/pages/pages.py:930 r2/templates/admininterstitial.html:83
 msgid "turn admin on"
 msgstr "打開管理權限"
 
@@ -732,7 +732,7 @@ msgstr "本站目前沒有販售 tippr 金幣。"
 msgid "what gold gives you"
 msgstr "金幣能帶給你什麼"
 
-#: r2/controllers/front.py:2090 r2/templates/gold.html:57 r2/templates/gold.html:112 r2/templates/prefoptions.html:547
+#: r2/controllers/front.py:2090 r2/templates/gold.html:57 r2/templates/gold.html:112 r2/templates/prefoptions.html:553
 msgid "Give Gold"
 msgstr "賦予金幣"
 
@@ -965,7 +965,7 @@ msgstr ""
 msgid "sign in"
 msgstr "登入"
 
-#: r2/controllers/linked_logins.py:76 r2/controllers/linked_logins.py:98 r2/controllers/linked_logins.py:104 r2/controllers/linked_logins.py:185 r2/controllers/linked_logins.py:212 r2/controllers/linked_logins.py:331 r2/controllers/linked_logins.py:337 r2/templates/login.html:166 r2/templates/login.html:262 r2/templates/login.html:296 r2/templates/register.html:166 r2/templates/register.html:262 r2/templates/register.html:296
+#: r2/controllers/linked_logins.py:76 r2/controllers/linked_logins.py:98 r2/controllers/linked_logins.py:104 r2/controllers/linked_logins.py:185 r2/controllers/linked_logins.py:212 r2/controllers/linked_logins.py:331 r2/controllers/linked_logins.py:337 r2/templates/login.html:166 r2/templates/login.html:262 r2/templates/login.html:296
 msgid "log in"
 msgstr "登入"
 
@@ -1007,143 +1007,143 @@ msgstr ""
 msgid "Too many wrong codes. Please start again."
 msgstr "錯誤的代碼太多次。請重新開始。"
 
-#: r2/controllers/listingcontroller.py:596
+#: r2/controllers/listingcontroller.py:608
 msgid "newest submissions"
 msgstr "最新的發文"
 
-#: r2/controllers/listingcontroller.py:624
+#: r2/controllers/listingcontroller.py:636
 msgid "rising submissions"
 msgstr "好評上升中的發文"
 
-#: r2/controllers/listingcontroller.py:677
+#: r2/controllers/listingcontroller.py:689
 msgid "top scoring links"
 msgstr "最高分鏈接"
 
-#: r2/controllers/listingcontroller.py:681
+#: r2/controllers/listingcontroller.py:693
 msgid "most controversial links"
 msgstr "最具爭議鏈接"
 
-#: r2/controllers/listingcontroller.py:695
+#: r2/controllers/listingcontroller.py:707
 msgid "promoted links"
 msgstr "推廣連結"
 
-#: r2/controllers/listingcontroller.py:699
+#: r2/controllers/listingcontroller.py:711
 #, python-format
 msgid "want to advertise? [click here!](%(link)s)"
 msgstr "想要發廣告嗎? [點擊這裡!](%(link)s)"
 
-#: r2/controllers/listingcontroller.py:734
+#: r2/controllers/listingcontroller.py:746
 msgid "you're really bored now, eh?"
 msgstr "您現在很悶吧？"
 
-#: r2/controllers/listingcontroller.py:809
+#: r2/controllers/listingcontroller.py:821
 msgid "filter by vault"
 msgstr "依看板篩選"
 
-#: r2/controllers/listingcontroller.py:823
+#: r2/controllers/listingcontroller.py:835
 msgid "filter by category"
 msgstr "類別過濾"
 
-#: r2/controllers/listingcontroller.py:829
+#: r2/controllers/listingcontroller.py:841
 msgid "gildings received"
 msgstr "贈送的金幣已被收到"
 
-#: r2/controllers/listingcontroller.py:830
+#: r2/controllers/listingcontroller.py:842
 msgid "gildings given"
 msgstr "贈送的金幣已經發送了"
 
-#: r2/controllers/listingcontroller.py:836
+#: r2/controllers/listingcontroller.py:848
 #, python-format
 msgid "overview for %(user)s"
 msgstr "%(user)s 總覽"
 
-#: r2/controllers/listingcontroller.py:837
+#: r2/controllers/listingcontroller.py:849
 #, python-format
 msgid "comments by %(user)s"
 msgstr "%(user)s 的留言"
 
-#: r2/controllers/listingcontroller.py:838
+#: r2/controllers/listingcontroller.py:850
 #, python-format
 msgid "submitted by %(user)s"
 msgstr "由 %(user)s 發表"
 
-#: r2/controllers/listingcontroller.py:839
+#: r2/controllers/listingcontroller.py:851
 #, python-format
 msgid "gilded by %(user)s"
 msgstr "%(user)s 贈送了金幣給您"
 
-#: r2/controllers/listingcontroller.py:840
+#: r2/controllers/listingcontroller.py:852
 #, python-format
 msgid "upvoted by %(user)s"
 msgstr "%(user)s 給予了好評"
 
-#: r2/controllers/listingcontroller.py:841
+#: r2/controllers/listingcontroller.py:853
 #, python-format
 msgid "downvoted by %(user)s"
 msgstr "%(user)s 給予了負評"
 
-#: r2/controllers/listingcontroller.py:842
+#: r2/controllers/listingcontroller.py:854
 #, python-format
 msgid "saved by %(user)s"
 msgstr "%(user)s 儲存的發文"
 
-#: r2/controllers/listingcontroller.py:843
+#: r2/controllers/listingcontroller.py:855
 #, python-format
 msgid "hidden by %(user)s"
 msgstr "被 %(user)s 隱藏"
 
-#: r2/controllers/listingcontroller.py:844
+#: r2/controllers/listingcontroller.py:856
 #, python-format
 msgid "promoted by %(user)s"
 msgstr "宣傳者為 %(user)s"
 
-#: r2/controllers/listingcontroller.py:846
+#: r2/controllers/listingcontroller.py:858
 #, python-format
 msgid "gildings given by %(user)s"
 msgstr "金幣是 %(user)s 贈送的"
 
-#: r2/controllers/listingcontroller.py:848
+#: r2/controllers/listingcontroller.py:860
 #, python-format
 msgid "profile for %(user)s"
 msgstr "%(user)s 的個人檔案"
 
-#: r2/controllers/listingcontroller.py:1009 r2/lib/menus.py:110 r2/templates/printablebuttons.html:591 r2/templates/printablebuttons.html:598
+#: r2/controllers/listingcontroller.py:1021 r2/lib/menus.py:110 r2/templates/printablebuttons.html:591 r2/templates/printablebuttons.html:598
 msgid "blocked"
 msgstr "已阻擋"
 
-#: r2/controllers/listingcontroller.py:1181 r2/controllers/listingcontroller.py:1192 r2/templates/printablebuttons.html:618
+#: r2/controllers/listingcontroller.py:1193 r2/controllers/listingcontroller.py:1204 r2/templates/printablebuttons.html:618
 msgid "unread"
 msgstr "未讀"
 
-#: r2/controllers/listingcontroller.py:1183
+#: r2/controllers/listingcontroller.py:1195
 msgid "comment replies"
 msgstr "留言回覆"
 
-#: r2/controllers/listingcontroller.py:1184
+#: r2/controllers/listingcontroller.py:1196
 msgid "post replies"
 msgstr "貼文回覆"
 
-#: r2/controllers/listingcontroller.py:1185
+#: r2/controllers/listingcontroller.py:1197
 msgid "username mentions"
 msgstr "用戶名被提及"
 
-#: r2/controllers/listingcontroller.py:1199 r2/templates/tipprheader.html:119 r2/templates/tipprheader.html:124
+#: r2/controllers/listingcontroller.py:1211 r2/templates/tipprheader.html:119 r2/templates/tipprheader.html:124
 msgid "messages"
 msgstr "信息"
 
-#: r2/controllers/listingcontroller.py:1678
+#: r2/controllers/listingcontroller.py:1690
 msgid "vaults: "
 msgstr "看板："
 
-#: r2/controllers/listingcontroller.py:1830
+#: r2/controllers/listingcontroller.py:1842
 msgid "To block a user click 'block user'  below a message from a user you wish to block from messaging you."
 msgstr "如要封鎖一名會員，點擊該名會員的一條訊息下方的「封鎖會員」即可封鎖他日後發給您的訊息。"
 
-#: r2/controllers/listingcontroller.py:2093 r2/lib/menus.py:60
+#: r2/controllers/listingcontroller.py:2105 r2/lib/menus.py:60
 msgid "gilded"
 msgstr "含金文章"
 
-#: r2/controllers/listingcontroller.py:2109
+#: r2/controllers/listingcontroller.py:2121
 #, python-format
 msgid "gildings in this vault have paid for %(time)s of server time"
 msgstr "本討論板贈送的金幣已經在伺服器時間：%(time)s 發送出去了"
@@ -1255,15 +1255,15 @@ msgstr "廣告"
 msgid "translating"
 msgstr "翻譯"
 
-#: r2/controllers/policies.py:71 r2/controllers/policies.py:89 r2/lib/menus.py:101 r2/lib/pages/pages.py:6384 r2/templates/contactus.html:92
+#: r2/controllers/policies.py:71 r2/controllers/policies.py:89 r2/lib/menus.py:101 r2/lib/pages/pages.py:6389 r2/templates/contactus.html:92
 msgid "user agreement"
 msgstr "使用者協議"
 
-#: r2/controllers/policies.py:72 r2/controllers/policies.py:86 r2/lib/menus.py:102 r2/lib/pages/pages.py:6383 r2/templates/contactus.html:84 r2/templates/utils.html:543
+#: r2/controllers/policies.py:72 r2/controllers/policies.py:86 r2/lib/menus.py:102 r2/lib/pages/pages.py:6388 r2/templates/contactus.html:84 r2/templates/utils.html:543
 msgid "privacy policy"
 msgstr "隱私權條款"
 
-#: r2/controllers/policies.py:73 r2/controllers/policies.py:92 r2/lib/menus.py:100 r2/lib/pages/pages.py:6385 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:193
+#: r2/controllers/policies.py:73 r2/controllers/policies.py:92 r2/lib/menus.py:100 r2/lib/pages/pages.py:6390 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:193
 msgid "content policy"
 msgstr "內容政策"
 
@@ -1403,7 +1403,7 @@ msgstr "選擇圖片"
 msgid "too big. keep it under 500 KB"
 msgstr "太大了。請保持在 500 KB 以下"
 
-#: r2/controllers/tippr_base.py:1483 r2/lib/pages/pages.py:4671 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
+#: r2/controllers/tippr_base.py:1483 r2/lib/pages/pages.py:4676 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
 msgid "banned"
 msgstr "已禁止"
 
@@ -1706,7 +1706,7 @@ msgstr "不能使用這組密碼"
 msgid "wrong password"
 msgstr "密碼錯誤"
 
-#: r2/lib/errors.py:65 r2/public/static/js/login.js:378
+#: r2/lib/errors.py:65 r2/public/static/js/login.js:385
 msgid "passwords do not match"
 msgstr "密碼不符"
 
@@ -2758,7 +2758,7 @@ msgstr "垃圾訊息"
 msgid "autobanned"
 msgstr "自動阻擋"
 
-#: r2/lib/menus.py:82 r2/lib/pages/pages.py:1270 r2/lib/pages/pages.py:1294
+#: r2/lib/menus.py:82 r2/lib/pages/pages.py:1271 r2/lib/pages/pages.py:1295
 msgid "preferences"
 msgstr "偏好設定"
 
@@ -2851,7 +2851,7 @@ msgstr "寄件備份"
 msgid "comments {toolbar}"
 msgstr "留言"
 
-#: r2/lib/menus.py:123 r2/templates/adminprivacy.html:27 r2/templates/prefoptions.html:496
+#: r2/lib/menus.py:123 r2/templates/adminprivacy.html:27 r2/templates/prefoptions.html:502
 msgid "details"
 msgstr "詳細內容"
 
@@ -2872,7 +2872,7 @@ msgstr "樣式表"
 msgid "home"
 msgstr "首頁"
 
-#: r2/lib/menus.py:130 r2/lib/pages/pages.py:1127
+#: r2/lib/menus.py:130 r2/lib/pages/pages.py:1128
 msgid "about"
 msgstr "關於"
 
@@ -2880,7 +2880,7 @@ msgstr "關於"
 msgid "edit subscriptions"
 msgstr "編輯訂閱"
 
-#: r2/lib/menus.py:132 r2/lib/pages/pages.py:2309
+#: r2/lib/menus.py:132 r2/lib/pages/pages.py:2314
 msgid "vault settings"
 msgstr "看板設定"
 
@@ -2888,11 +2888,11 @@ msgstr "看板設定"
 msgid "edit stylesheet"
 msgstr "編輯樣式表"
 
-#: r2/lib/menus.py:134 r2/public/static/js/messagecompose.js:177
+#: r2/lib/menus.py:134 r2/public/static/js/messagecompose.js:192
 msgid "rules"
 msgstr "守則"
 
-#: r2/lib/menus.py:135 r2/lib/pages/pages.py:880 r2/templates/adminvault.html:33 r2/templates/adminvault.html:101
+#: r2/lib/menus.py:135 r2/lib/pages/pages.py:881 r2/templates/adminvault.html:33 r2/templates/adminvault.html:101
 msgid "moderators"
 msgstr "板主"
 
@@ -2968,7 +2968,7 @@ msgstr "熱門"
 msgid "create"
 msgstr "建立"
 
-#: r2/lib/menus.py:158 r2/lib/pages/pages.py:2934
+#: r2/lib/menus.py:158 r2/lib/pages/pages.py:2939
 msgid "my vaults"
 msgstr "我的看板"
 
@@ -3030,11 +3030,11 @@ msgstr "垃圾訊息防護"
 msgid "live config"
 msgstr "即時設定"
 
-#: r2/lib/menus.py:175 r2/lib/pages/pages.py:938 r2/templates/adminsupport.html:34
+#: r2/lib/menus.py:175 r2/lib/pages/pages.py:939 r2/templates/adminsupport.html:34
 msgid "support"
 msgstr "客服"
 
-#: r2/lib/menus.py:176 r2/templates/adminuser.html:24 r2/templates/adminusers.html:22 r2/templates/prefoptions.html:350
+#: r2/lib/menus.py:176 r2/templates/adminuser.html:24 r2/templates/adminusers.html:22 r2/templates/prefoptions.html:356
 msgid "users"
 msgstr "使用者"
 
@@ -3046,7 +3046,7 @@ msgstr "API 應用程式"
 msgid "feeds"
 msgstr "訂閱來源"
 
-#: r2/lib/menus.py:180 r2/templates/admindomain.html:22 r2/templates/admindomains.html:22 r2/templates/prefoptions.html:348
+#: r2/lib/menus.py:180 r2/templates/admindomain.html:22 r2/templates/admindomains.html:22 r2/templates/prefoptions.html:354
 msgid "domains"
 msgstr "網域"
 
@@ -3665,7 +3665,7 @@ msgid "link"
 msgid_plural "links"
 msgstr[0] "連結"
 
-#: r2/lib/pages/pages.py:1523 r2/lib/strings.py:263 r2/templates/messagecompose.html:101
+#: r2/lib/pages/pages.py:1524 r2/lib/strings.py:263 r2/templates/messagecompose.html:101
 msgid "message"
 msgid_plural "messages"
 msgstr[0] "信息"
@@ -3725,7 +3725,7 @@ msgid "hour"
 msgid_plural "hours"
 msgstr[0] "小時"
 
-#: r2/lib/pages/pages.py:346 r2/lib/pages/pages.py:5696 r2/lib/strings.py:279 r2/public/static/js/sponsored.js:1477 r2/public/static/js/sponsored.js:1838 r2/templates/intimeoutinterstitial.html:44 r2/templates/tipprtraffic.html:104
+#: r2/lib/pages/pages.py:347 r2/lib/pages/pages.py:5701 r2/lib/strings.py:279 r2/public/static/js/sponsored.js:1484 r2/public/static/js/sponsored.js:1851 r2/templates/intimeoutinterstitial.html:44 r2/templates/tipprtraffic.html:104
 msgid "day"
 msgid_plural "days"
 msgstr[0] "天"
@@ -4060,7 +4060,7 @@ msgstr "/v/%(tippr)s 的板主，正式發言"
 msgid "%(user)s just celebrated a tippr birthday!"
 msgstr "%(user)s 剛慶祝了 tippr 生日！"
 
-#: r2/lib/pages/pages.py:1340 r2/lib/template_helpers.py:771 r2/public/static/js/timetext.js:68
+#: r2/lib/pages/pages.py:1341 r2/lib/template_helpers.py:771 r2/public/static/js/timetext.js:68
 msgid "just now"
 msgstr "剛剛"
 
@@ -4092,481 +4092,481 @@ msgstr "IP 地址"
 msgid "user"
 msgstr "使用者"
 
-#: r2/lib/pages/pages.py:178
+#: r2/lib/pages/pages.py:179
 #, python-format
 msgid "%d %b %Y"
 msgstr "%d %b %Y"
 
-#: r2/lib/pages/pages.py:338
+#: r2/lib/pages/pages.py:339
 msgid "This site asks moderators and staff to use two-factor sign-in. Turn it on under [preferences, security](/prefs/security) to use your moderator tools."
 msgstr "本站要求板主和工作人員使用兩段登入。請在[偏好設定、安全性](/prefs/security)中開啟，才能使用你的板主工具。"
 
-#: r2/lib/pages/pages.py:521
+#: r2/lib/pages/pages.py:522
 msgid "wiki tools"
 msgstr "維基工具"
 
-#: r2/lib/pages/pages.py:647
+#: r2/lib/pages/pages.py:648
 msgid "moderation tools"
 msgstr "版面管理工具"
 
-#: r2/lib/pages/pages.py:715
+#: r2/lib/pages/pages.py:716
 msgid "these vaults"
 msgstr "這些vault"
 
-#: r2/lib/pages/pages.py:729
+#: r2/lib/pages/pages.py:730
 msgid "this vault is archived and no longer accepting submissions."
 msgstr "本看板已經歸檔，不再接受發文。"
 
-#: r2/lib/pages/pages.py:731
+#: r2/lib/pages/pages.py:732
 msgid "Submissions disabled"
 msgstr "禁止發文"
 
-#: r2/lib/pages/pages.py:738
+#: r2/lib/pages/pages.py:739
 msgid "Only approved users may post in this community."
 msgstr "只有核准的使用者可以在這個社群發文。"
 
-#: r2/lib/pages/pages.py:741
+#: r2/lib/pages/pages.py:742
 msgid "Anyone can view or comment, but only Tippr Gold members can post in this community."
 msgstr "任何人都可以瀏覽或留言，但只有 Tippr 金幣會員可以在這個社群發文。"
 
-#: r2/lib/pages/pages.py:744
+#: r2/lib/pages/pages.py:745
 msgid "Submissions restricted"
 msgstr "限制發文"
 
-#: r2/lib/pages/pages.py:832
+#: r2/lib/pages/pages.py:833
 msgid "Create your own vault"
 msgstr "建立您自己的看板"
 
-#: r2/lib/pages/pages.py:856
+#: r2/lib/pages/pages.py:857
 #, python-format
 msgid "...and %d more"
 msgstr "...及 %d 更多"
 
-#: r2/lib/pages/pages.py:858
+#: r2/lib/pages/pages.py:859
 msgid "about moderation team"
 msgstr "關於管理員團隊"
 
-#: r2/lib/pages/pages.py:863 r2/templates/contactus.html:60
+#: r2/lib/pages/pages.py:864 r2/templates/contactus.html:60
 msgid "message the admins"
 msgstr "傳信給管理員們"
 
-#: r2/lib/pages/pages.py:865 r2/templates/privateinterstitial.html:50
+#: r2/lib/pages/pages.py:866 r2/templates/privateinterstitial.html:50
 msgid "message the moderators"
 msgstr "寄送訊息給版主"
 
-#: r2/lib/pages/pages.py:892
+#: r2/lib/pages/pages.py:893
 msgid "Recently viewed links"
 msgstr "最近瀏覽連結"
 
-#: r2/lib/pages/pages.py:922
+#: r2/lib/pages/pages.py:923
 msgid "turn admin off"
 msgstr "關掉管理權限"
 
-#: r2/lib/pages/pages.py:1144
+#: r2/lib/pages/pages.py:1145
 msgid "<3"
 msgstr "<3"
 
-#: r2/lib/pages/pages.py:1341 r2/templates/adminserverstatus.html:142
+#: r2/lib/pages/pages.py:1342 r2/templates/adminserverstatus.html:142
 #, python-format
 msgid "%(time)s ago"
 msgstr "%(time)s前"
 
-#: r2/lib/pages/pages.py:1520
+#: r2/lib/pages/pages.py:1521
 #, python-format
 msgid "%(site)s mail"
 msgstr "%(site)s 郵件"
 
-#: r2/lib/pages/pages.py:1597
+#: r2/lib/pages/pages.py:1598
 msgid "sign up or log in"
 msgstr "註冊或登入"
 
-#: r2/lib/pages/pages.py:1678
+#: r2/lib/pages/pages.py:1679
 msgid "request for permission"
 msgstr "要求許可"
 
-#: r2/lib/pages/pages.py:1680
+#: r2/lib/pages/pages.py:1681
 msgid "permission"
 msgstr "全縣"
 
-#: r2/lib/pages/pages.py:1715 r2/templates/searchform.html:77
+#: r2/lib/pages/pages.py:1716 r2/templates/searchform.html:77
 msgid "enable NSFW results"
 msgstr "顯示 NSFW 結果"
 
-#: r2/lib/pages/pages.py:1738
+#: r2/lib/pages/pages.py:1739
 msgid "bummer"
 msgstr "糟糕"
 
-#: r2/lib/pages/pages.py:1750
+#: r2/lib/pages/pages.py:1751
 msgid "this page is no longer available due to a copyright claim."
 msgstr "由於版權申訴，本頁面已經無法使用。"
 
-#: r2/lib/pages/pages.py:1990
+#: r2/lib/pages/pages.py:1992
 msgid "comments disabled"
 msgstr "留言已停用"
 
-#: r2/lib/pages/pages.py:2310
+#: r2/lib/pages/pages.py:2315
 #, python-format
 msgid "about %(site)s"
 msgstr "關於 %(site)s"
 
-#: r2/lib/pages/pages.py:2333
+#: r2/lib/pages/pages.py:2338
 msgid "search vaults by name"
 msgstr "依名稱搜尋看板"
 
-#: r2/lib/pages/pages.py:2377
+#: r2/lib/pages/pages.py:2382
 #, python-format
 msgid "your front page vaults (%s)"
 msgstr "你首頁的看板（%s）"
 
-#: r2/lib/pages/pages.py:2465 r2/templates/createvault.html:460 r2/templates/spotlightlisting.html:63
+#: r2/lib/pages/pages.py:2470 r2/templates/createvault.html:460 r2/templates/spotlightlisting.html:63
 msgid "what's this?"
 msgstr "這是什麼?"
 
-#: r2/lib/pages/pages.py:2466
+#: r2/lib/pages/pages.py:2471
 msgid "trophy case"
 msgstr "獎品展示櫃"
 
-#: r2/lib/pages/pages.py:2476
+#: r2/lib/pages/pages.py:2481
 msgid "public multivaults"
 msgstr "公開看板群組"
 
-#: r2/lib/pages/pages.py:2483
+#: r2/lib/pages/pages.py:2488
 msgid "hidden multivaults"
 msgstr "隱藏的看板群組"
 
-#: r2/lib/pages/pages.py:2504
+#: r2/lib/pages/pages.py:2509
 msgid "moderator of"
 msgstr "版主"
 
-#: r2/lib/pages/pages.py:2568
+#: r2/lib/pages/pages.py:2573
 msgid "less than a day"
 msgstr "少於一天"
 
-#: r2/lib/pages/pages.py:2581
+#: r2/lib/pages/pages.py:2586
 #, python-format
 msgid "Give Gold: %(coins)s month"
 msgid_plural "Give Gold: %(coins)s months"
 msgstr[0] "贈送金幣：%(coins)s 個月"
 
-#: r2/lib/pages/pages.py:2589
+#: r2/lib/pages/pages.py:2594
 #, python-format
 msgid "%(gildings)s gilding given out"
 msgid_plural "%(gildings)s gildings given out"
 msgstr[0] "已送出 %(gildings)s 次金幣"
 
-#: r2/lib/pages/pages.py:2597
+#: r2/lib/pages/pages.py:2602
 #, python-format
 msgid "give tippr gold to %(user)s to show your appreciation"
 msgstr "贈送 %(user)s tippr 金幣以表達您的讚賞"
 
-#: r2/lib/pages/pages.py:2601
+#: r2/lib/pages/pages.py:2606
 msgid "get extra features and help support tippr with a tippr gold subscription"
 msgstr "購買tippr 金幣以獲得額外的功能與協助"
 
-#: r2/lib/pages/pages.py:2605
+#: r2/lib/pages/pages.py:2610
 msgid "renew your tippr gold"
 msgstr "更新您的 tippr 金幣"
 
-#: r2/lib/pages/pages.py:2615
+#: r2/lib/pages/pages.py:2620
 #, python-format
 msgid "you have helped pay for *%(time)s* of tippr server time."
 msgstr "你剛幫付了我們 *%(time)s* 的 tippr 伺服器時數。"
 
-#: r2/lib/pages/pages.py:2616
+#: r2/lib/pages/pages.py:2621
 #, python-format
 msgid "/u/%(user)s has helped pay for *%%(time)s* of tippr server time."
 msgstr "/u/%(user)s 幫忙付了 *%%(time)s* 的伺服器時數。"
 
-#: r2/lib/pages/pages.py:2619
+#: r2/lib/pages/pages.py:2624
 #, python-format
 msgid "gifts on your behalf have helped pay for *%(time)s* of tippr server time."
 msgstr "以你的名義送出的禮物已幫忙支付了 *%(time)s* 的 tippr 伺服器時間。"
 
-#: r2/lib/pages/pages.py:2621
+#: r2/lib/pages/pages.py:2626
 #, python-format
 msgid "gifts on behalf of /u/%(user)s have helped pay for *%%(time)s* of tippr server time."
 msgstr "以 /u/%(user)s 的名義送出的禮物已幫忙支付了 *%%(time)s* 的 tippr 伺服器時間。"
 
-#: r2/lib/pages/pages.py:2705
+#: r2/lib/pages/pages.py:2710
 msgid "tippr is a platform for internet communities"
 msgstr "tippr 是一個網路社群平台"
 
-#: r2/lib/pages/pages.py:2706
+#: r2/lib/pages/pages.py:2711
 msgid "where your votes shape what the world is talking about."
 msgstr "在這裡，您對每則發言的評分，將會影響全世界的話題。"
 
-#: r2/lib/pages/pages.py:3005 r2/lib/pages/pages.py:3115
+#: r2/lib/pages/pages.py:3010 r2/lib/pages/pages.py:3120
 msgid "add vault"
 msgstr "添加看板"
 
-#: r2/lib/pages/pages.py:3043
+#: r2/lib/pages/pages.py:3048
 #, python-format
 msgid "raise it to %s"
 msgstr "提高至 %s"
 
-#: r2/lib/pages/pages.py:3045 r2/lib/pages/pages.py:3054
+#: r2/lib/pages/pages.py:3050 r2/lib/pages/pages.py:3059
 #, python-format
 msgid "%s visible"
 msgstr "%s 可見"
 
-#: r2/lib/pages/pages.py:3052
+#: r2/lib/pages/pages.py:3057
 #, python-format
 msgid "%(bonus)s bonus vaults"
 msgstr "%(bonus)s 個額外看板"
 
-#: r2/lib/pages/pages.py:3422
+#: r2/lib/pages/pages.py:3427
 #, python-format
 msgid "you have a credit card gold subscription. your card (ending in %(last4)s) will be charged %(amount)s on %(date)s."
 msgstr "你有信用卡金幣訂閱。你的卡片（末四碼 %(last4)s）將於 %(date)s 被收取 %(amount)s。"
 
-#: r2/lib/pages/pages.py:3576
+#: r2/lib/pages/pages.py:3581
 msgid "try entering those letters again"
 msgstr "請再輸入一次那些字母"
 
-#: r2/lib/pages/pages.py:3655 r2/lib/pages/pages.py:6376 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
+#: r2/lib/pages/pages.py:3660 r2/lib/pages/pages.py:6381 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
 msgid "search"
 msgstr "搜尋"
 
-#: r2/lib/pages/pages.py:4299
+#: r2/lib/pages/pages.py:4304
 #, python-format
 msgid "not heard from for %(time)s"
 msgstr "已經 %(time)s 沒有回報"
 
-#: r2/lib/pages/pages.py:4305
+#: r2/lib/pages/pages.py:4310
 #, python-format
 msgid "memory %(p)s%% used"
 msgstr "記憶體已使用 %(p)s%%"
 
-#: r2/lib/pages/pages.py:4309
+#: r2/lib/pages/pages.py:4314
 #, python-format
 msgid "busy: load %(l)s on %(n)s CPUs"
 msgstr "忙碌：%(n)s 顆 CPU 上的負載為 %(l)s"
 
-#: r2/lib/pages/pages.py:4315
+#: r2/lib/pages/pages.py:4320
 #, python-format
 msgid "disk %(path)s %(p)s%% full"
 msgstr "磁碟 %(path)s 已滿 %(p)s%%"
 
-#: r2/lib/pages/pages.py:4319
+#: r2/lib/pages/pages.py:4324
 #, python-format
 msgid "%(service)s is %(state)s"
 msgstr "%(service)s 為 %(state)s"
 
-#: r2/lib/pages/pages.py:4322
+#: r2/lib/pages/pages.py:4327
 msgid "a different version from the others"
 msgstr "版本與其他的不同"
 
-#: r2/lib/pages/pages.py:4324
+#: r2/lib/pages/pages.py:4329
 msgid "another server has the same name: set TIPPR_SERVER_NAME on one of them"
 msgstr "另一台伺服器使用相同名稱：請在其中一台設定 TIPPR_SERVER_NAME"
 
-#: r2/lib/pages/pages.py:4379
+#: r2/lib/pages/pages.py:4384
 #, python-format
 msgid "%(n)s seconds"
 msgstr "%(n)s 秒"
 
-#: r2/lib/pages/pages.py:4381
+#: r2/lib/pages/pages.py:4386
 #, python-format
 msgid "%(n)s minutes"
 msgstr "%(n)s 分鐘"
 
-#: r2/lib/pages/pages.py:4383
+#: r2/lib/pages/pages.py:4388
 #, python-format
 msgid "%(n)s hours"
 msgstr "%(n)s 小時"
 
-#: r2/lib/pages/pages.py:4384
+#: r2/lib/pages/pages.py:4389
 #, python-format
 msgid "%(n)s days"
 msgstr "%(n)s 天"
 
-#: r2/lib/pages/pages.py:4400
+#: r2/lib/pages/pages.py:4405
 msgid "polling"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4406
+#: r2/lib/pages/pages.py:4411
 msgid "off (no event collector)"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4612 r2/lib/pages/pages.py:4721
+#: r2/lib/pages/pages.py:4617 r2/lib/pages/pages.py:4726
 msgid "added"
 msgstr "加入時間"
 
-#: r2/lib/pages/pages.py:4680 r2/models/modaction.py:146 r2/templates/printablebuttons.html:608
+#: r2/lib/pages/pages.py:4685 r2/models/modaction.py:146 r2/templates/printablebuttons.html:608
 msgid "muted"
 msgstr "已靜音"
 
-#: r2/lib/pages/pages.py:4698
+#: r2/lib/pages/pages.py:4703
 msgid "invited"
 msgstr "已邀請"
 
-#: r2/lib/pages/pages.py:4759
+#: r2/lib/pages/pages.py:4764
 msgid "grant flair"
 msgstr "賦予標籤"
 
-#: r2/lib/pages/pages.py:4761
+#: r2/lib/pages/pages.py:4766
 msgid "user flair templates"
 msgstr "使用者標籤範本"
 
-#: r2/lib/pages/pages.py:4763
+#: r2/lib/pages/pages.py:4768
 msgid "link flair templates"
 msgstr "連結標籤範本"
 
-#: r2/lib/pages/pages.py:5135 r2/templates/adminuser.html:73 r2/templates/adminuser.html:98 r2/templates/adminuser.html:108 r2/templates/flairpane.html:79
+#: r2/lib/pages/pages.py:5140 r2/templates/adminuser.html:73 r2/templates/adminuser.html:98 r2/templates/adminuser.html:108 r2/templates/flairpane.html:79
 msgid "none"
 msgstr "無"
 
-#: r2/lib/pages/pages.py:5266
+#: r2/lib/pages/pages.py:5271
 msgid "suggestions:"
 msgstr "建議："
 
-#: r2/lib/pages/pages.py:5270
+#: r2/lib/pages/pages.py:5275
 #, python-format
 msgid "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/v/selfserve](%(selfserve)s)."
 msgstr "於此頁面建立您的廣告。有任何疑惑？到 [幫助中心](%(help_center)s) 或 [/v/selfserve](%(selfserve)s) 看看吧。"
 
-#: r2/lib/pages/pages.py:5888
+#: r2/lib/pages/pages.py:5893
 msgid "start date"
 msgstr "開始日期"
 
-#: r2/lib/pages/pages.py:5889
+#: r2/lib/pages/pages.py:5894
 msgid "end date"
 msgstr "結束日期"
 
-#: r2/lib/pages/pages.py:5891 r2/templates/createvault.html:266
+#: r2/lib/pages/pages.py:5896 r2/templates/createvault.html:266
 msgid "links"
 msgstr "連結"
 
-#: r2/lib/pages/pages.py:5893 r2/lib/pages/pages.py:5912 r2/templates/adminpaymentsettings.html:239 r2/templates/promotedlinktraffic.html:42 r2/templates/timeserieschart.html:40
+#: r2/lib/pages/pages.py:5898 r2/lib/pages/pages.py:5917 r2/templates/adminpaymentsettings.html:239 r2/templates/promotedlinktraffic.html:42 r2/templates/timeserieschart.html:40
 msgid "date"
 msgstr "日期"
 
-#: r2/lib/pages/pages.py:5896 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
+#: r2/lib/pages/pages.py:5901 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
 msgid "id"
 msgstr "id"
 
-#: r2/lib/pages/pages.py:5896 r2/lib/pages/pages.py:5915 r2/templates/promotelinkbase.html:856
+#: r2/lib/pages/pages.py:5901 r2/lib/pages/pages.py:5920 r2/templates/promotelinkbase.html:856
 msgid "owner"
 msgstr "所有者"
 
-#: r2/lib/pages/pages.py:5896 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
+#: r2/lib/pages/pages.py:5901 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
 msgid "url"
 msgstr "網址"
 
-#: r2/lib/pages/pages.py:5897
+#: r2/lib/pages/pages.py:5902
 msgid "upvotes"
 msgstr "好評"
 
-#: r2/lib/pages/pages.py:5897
+#: r2/lib/pages/pages.py:5902
 msgid "downvotes"
 msgstr "負評"
 
-#: r2/lib/pages/pages.py:5897 r2/lib/pages/trafficpages.py:351 r2/lib/pages/trafficpages.py:847 r2/templates/promotedlinktraffic.html:44 r2/templates/promotedlinktraffic.html:124
+#: r2/lib/pages/pages.py:5902 r2/lib/pages/trafficpages.py:351 r2/lib/pages/trafficpages.py:847 r2/templates/promotedlinktraffic.html:44 r2/templates/promotedlinktraffic.html:124
 msgid "clicks"
 msgstr "點擊"
 
-#: r2/lib/pages/pages.py:5897 r2/lib/pages/trafficpages.py:348 r2/lib/pages/trafficpages.py:472 r2/lib/pages/trafficpages.py:846 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
+#: r2/lib/pages/pages.py:5902 r2/lib/pages/trafficpages.py:348 r2/lib/pages/trafficpages.py:472 r2/lib/pages/trafficpages.py:846 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
 msgid "impressions"
 msgstr "印象"
 
-#: r2/lib/pages/pages.py:5910
+#: r2/lib/pages/pages.py:5915
 msgid "campaigns"
 msgstr "活動"
 
-#: r2/lib/pages/pages.py:5915
+#: r2/lib/pages/pages.py:5920
 msgid "link id"
 msgstr "連結 id"
 
-#: r2/lib/pages/pages.py:5915
+#: r2/lib/pages/pages.py:5920
 msgid "campaign id"
 msgstr "活動 id"
 
-#: r2/lib/pages/pages.py:5915 r2/templates/promotedlinktraffic.html:117 r2/templates/refundpage.html:56
+#: r2/lib/pages/pages.py:5920 r2/templates/promotedlinktraffic.html:117 r2/templates/refundpage.html:56
 msgid "target"
 msgstr "目標"
 
-#: r2/lib/pages/pages.py:5916 r2/templates/promotelinkedit.html:157
+#: r2/lib/pages/pages.py:5921 r2/templates/promotelinkedit.html:157
 msgid "bid"
 msgstr "競標"
 
-#: r2/lib/pages/pages.py:5916
+#: r2/lib/pages/pages.py:5921
 msgid "frontpage clicks"
 msgstr "頭版點擊"
 
-#: r2/lib/pages/pages.py:5916
+#: r2/lib/pages/pages.py:5921
 msgid "frontpage impressions"
 msgstr "頭版印象"
 
-#: r2/lib/pages/pages.py:5917
+#: r2/lib/pages/pages.py:5922
 msgid "vault clicks"
 msgstr "看板點擊"
 
-#: r2/lib/pages/pages.py:5917
+#: r2/lib/pages/pages.py:5922
 msgid "vault impressions"
 msgstr "看板印象"
 
-#: r2/lib/pages/pages.py:5918 r2/lib/pages/trafficpages.py:478
+#: r2/lib/pages/pages.py:5923 r2/lib/pages/trafficpages.py:478
 msgid "total clicks"
 msgstr "總共點閱率"
 
-#: r2/lib/pages/pages.py:5918
+#: r2/lib/pages/pages.py:5923
 msgid "total impressions"
 msgstr "總曝光次數"
 
-#: r2/lib/pages/pages.py:6121 r2/templates/accountactivitybox.html:27
+#: r2/lib/pages/pages.py:6126 r2/templates/accountactivitybox.html:27
 msgid "account activity"
 msgstr "帳號活動"
 
-#: r2/lib/pages/pages.py:6253
+#: r2/lib/pages/pages.py:6258
 msgid "subscribed"
 msgstr "已訂閱"
 
-#: r2/lib/pages/pages.py:6254 r2/templates/preffeeds.html:58
+#: r2/lib/pages/pages.py:6259 r2/templates/preffeeds.html:58
 msgid "your front page"
 msgstr "您的首頁"
 
-#: r2/lib/pages/pages.py:6257 r2/lib/pages/pages.py:6262 r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:104
+#: r2/lib/pages/pages.py:6262 r2/lib/pages/pages.py:6267 r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:104
 msgid "everything"
 msgstr "全部"
 
-#: r2/lib/pages/pages.py:6260 r2/lib/pages/pages.py:6263
+#: r2/lib/pages/pages.py:6265 r2/lib/pages/pages.py:6268
 msgid "from all vaults"
 msgstr "來自所有看板"
 
-#: r2/lib/pages/pages.py:6265
+#: r2/lib/pages/pages.py:6270
 msgid "moderating"
 msgstr "正管理著"
 
-#: r2/lib/pages/pages.py:6266
+#: r2/lib/pages/pages.py:6271
 msgid "vaults you mod"
 msgstr "您擔任版主的看板"
 
-#: r2/lib/pages/pages.py:6272
+#: r2/lib/pages/pages.py:6277
 msgid "gold perks"
 msgstr "金幣利益"
 
-#: r2/lib/pages/pages.py:6288
+#: r2/lib/pages/pages.py:6293
 msgid "explore multis"
 msgstr "探索看板群組"
 
-#: r2/lib/pages/pages.py:6374
+#: r2/lib/pages/pages.py:6379
 msgid "faq"
 msgstr "常見問題"
 
-#: r2/lib/pages/pages.py:6375 r2/templates/usertext.html:121
+#: r2/lib/pages/pages.py:6380 r2/templates/usertext.html:121
 msgid "formatting"
 msgstr "格式"
 
-#: r2/lib/pages/pages.py:6444
+#: r2/lib/pages/pages.py:6449
 msgid "your subscribed vaults"
 msgstr "你已訂閱的看板"
 
-#: r2/lib/pages/pages.py:6557
+#: r2/lib/pages/pages.py:6562
 #, python-format
 msgid "this promoted link uses city level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "這個推廣連結使用城市層級的鎖定，可能因為你的所在地而顯示給你。（[了解更多](%(link)s)）"
 
-#: r2/lib/pages/pages.py:6561
+#: r2/lib/pages/pages.py:6566
 #, python-format
 msgid "this promoted link uses country level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "這個推廣連結使用國家層級的鎖定，可能因為你的所在地而顯示給你。（[了解更多](%(link)s)）"
@@ -4882,7 +4882,7 @@ msgstr "現有頁面的名稱，或要建立的新頁面名稱"
 msgid "the starting point revision for this edit"
 msgstr "這次編輯的起始修訂版本"
 
-#: r2/models/admintools.py:291
+#: r2/models/admintools.py:301
 #, python-format
 msgid ""
 "[Click here for details on how to set up an automatically-renewing subscription or to renew.](/gold) If you have any thoughts, complaints, rants, suggestions about tippr gold, please contact us at %(gold_email)s. Your feedback would be much appreciated.\n"
@@ -4893,32 +4893,32 @@ msgstr ""
 "\n"
 "感謝你過去的支持。"
 
-#: r2/models/admintools.py:312
+#: r2/models/admintools.py:322
 msgid "Your tippr gold subscription has expired."
 msgstr "你的tippr 金幣已到期。"
 
-#: r2/models/admintools.py:313
+#: r2/models/admintools.py:323
 msgid "Your subscription to tippr gold has expired."
 msgstr "您的tippr gold訂閱已經到期。"
 
-#: r2/models/admintools.py:325
+#: r2/models/admintools.py:335
 msgid "Your tippr gold subscription is about to expire!"
 msgstr "您的tippr gold訂閱即將到期！"
 
-#: r2/models/admintools.py:327
+#: r2/models/admintools.py:337
 msgid "Your subscription to tippr gold will be expiring soon."
 msgstr "您的tippr gold訂閱即將到期。"
 
-#: r2/models/builder.py:308
+#: r2/models/builder.py:307
 msgid "a moderator"
 msgstr "版主"
 
-#: r2/models/builder.py:311
+#: r2/models/builder.py:310
 #, python-format
 msgid "approved by %(who)s at %(when)s"
 msgstr "於 %(when)s 由 %(who)s 核准"
 
-#: r2/models/builder.py:315
+#: r2/models/builder.py:314
 #, python-format
 msgid "approved by %s"
 msgstr "由 %s 核准"
@@ -4963,130 +4963,130 @@ msgid "a user has gifted tippr gold to %(recipient)s for this submission."
 msgid_plural "tippr users have gifted %(months)d months of tippr gold to %(recipient)s for this submission."
 msgstr[0] "tippr 使用者已為這篇貼文送 %(recipient)s %(months)d 個月的 tippr 金幣。"
 
-#: r2/models/link.py:916
+#: r2/models/link.py:926
 #, python-format
 msgid "by %(author)s to %(tippr)s"
 msgstr "由 %(author)s 發表至 %(tippr)s"
 
-#: r2/models/link.py:919 r2/templates/adminnotessidebar.html:50
+#: r2/models/link.py:929 r2/templates/adminnotessidebar.html:50
 #, python-format
 msgid "by %(author)s"
 msgstr "由 %(author)s 發表"
 
-#: r2/models/link.py:923
+#: r2/models/link.py:933
 #, python-format
 msgid "%(score)s submitted %(when)s %(lastedited)s"
 msgstr "%(score)s 發表於 %(when)s %(lastedited)s"
 
-#: r2/models/link.py:927
+#: r2/models/link.py:937
 #, python-format
 msgid "submitted %(when)s %(lastedited)s by %(author)s to %(tippr)s"
 msgstr "%(author)s 於 %(when)s %(lastedited)s 發表至 %(tippr)s"
 
-#: r2/models/link.py:930
+#: r2/models/link.py:940
 #, python-format
 msgid "submitted %(when)s %(lastedited)s by %(author)s"
 msgstr "%(author)s 於 %(when)s %(lastedited)s 發表"
 
-#: r2/models/link.py:935
+#: r2/models/link.py:945
 #, python-format
 msgid "%(score)s submitted %(when)s"
 msgstr "於%(when)s提交了%(score)s"
 
-#: r2/models/link.py:938
+#: r2/models/link.py:948
 #, python-format
 msgid "submitted %(when)s by %(author)s to %(tippr)s"
 msgstr "%(author)s 於 %(when)s 發表至 %(tippr)s"
 
-#: r2/models/link.py:941
+#: r2/models/link.py:951
 #, python-format
 msgid "submitted %(when)s by %(author)s"
 msgstr "%(author)s 於 %(when)s 發表"
 
-#: r2/models/link.py:1809
+#: r2/models/link.py:1841
 #, python-format
 msgid "%(link)s by %(author)s [sponsored link]"
 msgstr "%(link)s，作者 %(author)s [贊助連結]"
 
-#: r2/models/link.py:1811
+#: r2/models/link.py:1843
 #, python-format
 msgid "%(link)s by %(author)s in %(vault)s"
 msgstr "%(link)s 由 %(author)s 於 %(vault)s 發佈"
 
-#: r2/models/link.py:1838
+#: r2/models/link.py:1870
 msgid "comment score below threshold"
 msgstr "留言分數低於臨界標準"
 
-#: r2/models/link.py:1843
+#: r2/models/link.py:1875
 msgid "blocked user"
 msgstr "已封鎖的會員"
 
-#: r2/models/link.py:2372
+#: r2/models/link.py:2404
 msgid "comment reply"
 msgstr "回覆留言"
 
-#: r2/models/link.py:2374
+#: r2/models/link.py:2406
 msgid "post reply"
 msgstr "新增回應"
 
-#: r2/models/link.py:2376
+#: r2/models/link.py:2408
 msgid "username mention"
 msgstr "使用者名稱提及"
 
-#: r2/models/link.py:2380 r2/models/link.py:2441
+#: r2/models/link.py:2412 r2/models/link.py:2473
 #, python-format
 msgid "from %(author)s via %(vault)s sent %(when)s"
 msgstr "來自 %(author)s，經由 %(vault)s，寄送於 %(when)s"
 
-#: r2/models/link.py:2393
+#: r2/models/link.py:2425
 msgid "[message from blocked vault]"
 msgstr "[來自封鎖了的看板的訊息]"
 
-#: r2/models/link.py:2414 r2/models/link.py:2419
+#: r2/models/link.py:2446 r2/models/link.py:2451
 #, python-format
 msgid "vault message via %(vault)s sent %(when)s"
 msgstr "經由 %(vault)s 的看板訊息，寄送於 %(when)s"
 
-#: r2/models/link.py:2423 r2/models/link.py:2446
+#: r2/models/link.py:2455 r2/models/link.py:2478
 #, python-format
 msgid "to %(dest)s via %(vault)s sent %(when)s"
 msgstr "給 %(dest)s，經由 %(vault)s，寄送於 %(when)s"
 
-#: r2/models/link.py:2427 r2/models/link.py:2452
+#: r2/models/link.py:2459 r2/models/link.py:2484
 #, python-format
 msgid "from %(author)s via %(vault)s to %(dest)s sent %(when)s"
 msgstr "來自 %(author)s，經由 %(vault)s 給 %(dest)s，寄送於 %(when)s"
 
-#: r2/models/link.py:2443
+#: r2/models/link.py:2475
 #, python-format
 msgid "to %(vault)s sent %(when)s"
 msgstr "給 %(vault)s，寄送於 %(when)s"
 
-#: r2/models/link.py:2449
+#: r2/models/link.py:2481
 #, python-format
 msgid "from %(author)s to %(vault)s sent %(when)s"
 msgstr "來自 %(author)s 給 %(vault)s，寄送於 %(when)s"
 
-#: r2/models/link.py:2467
+#: r2/models/link.py:2499
 #, python-format
 msgid "from %(author)s sent %(when)s"
 msgstr "來自 %(author)s，寄送於 %(when)s"
 
-#: r2/models/link.py:2469
+#: r2/models/link.py:2501
 #, python-format
 msgid "to %(dest)s sent %(when)s"
 msgstr "給 %(dest)s，寄送於 %(when)s"
 
-#: r2/models/link.py:2472
+#: r2/models/link.py:2504
 #, python-format
 msgid "to %(dest)s from %(author)s sent %(when)s"
 msgstr "來自 %(author)s 給 %(dest)s，寄送於 %(when)s"
 
-#: r2/models/link.py:2495
+#: r2/models/link.py:2527
 msgid "[message from blocked user]"
 msgstr "[來自被封鎖的會員傳來的訊息]"
 
-#: r2/models/link.py:2496
+#: r2/models/link.py:2528
 msgid "[unblock user to see this message]"
 msgstr "[取消封鎖會員以查看訊息]"
 
@@ -6229,7 +6229,7 @@ msgstr "顯示所有子留言"
 msgid "hide images"
 msgstr "隱藏圖片"
 
-#: r2/public/static/js/enhancements.js:458 r2/public/static/js/enhancements.js:523 r2/templates/prefoptions.html:265
+#: r2/public/static/js/enhancements.js:458 r2/public/static/js/enhancements.js:523 r2/templates/prefoptions.html:271
 msgid "show images"
 msgstr "顯示圖片"
 
@@ -6339,7 +6339,7 @@ msgstr "含連結的"
 msgid "jump between"
 msgstr "跳到"
 
-#: r2/public/static/js/enhancements.js:974 r2/templates/prefoptions.html:309
+#: r2/public/static/js/enhancements.js:974 r2/templates/prefoptions.html:315
 msgid "comment navigator"
 msgstr "留言導覽"
 
@@ -6376,7 +6376,7 @@ msgstr "還沒有其他帳號"
 msgid "add an account"
 msgstr "加入帳號"
 
-#: r2/public/static/js/enhancements.js:1082 r2/templates/adminemailsettings.html:69 r2/templates/adminprivacy.html:69 r2/templates/adminvault.html:68 r2/templates/linkedloginlink.html:39 r2/templates/login.html:77 r2/templates/login.html:86 r2/templates/login.html:197 r2/templates/loginformwide.html:44 r2/templates/password.html:41 r2/templates/privacysettings.html:124 r2/templates/register.html:77 r2/templates/register.html:86 r2/templates/register.html:197 r2/templates/userlisting.html:164
+#: r2/public/static/js/enhancements.js:1082 r2/templates/adminemailsettings.html:69 r2/templates/adminprivacy.html:69 r2/templates/adminvault.html:68 r2/templates/linkedloginlink.html:39 r2/templates/login.html:77 r2/templates/login.html:86 r2/templates/login.html:197 r2/templates/loginformwide.html:44 r2/templates/password.html:41 r2/templates/privacysettings.html:124 r2/templates/userlisting.html:164
 msgid "username"
 msgstr "使用者名稱"
 
@@ -6384,7 +6384,7 @@ msgstr "使用者名稱"
 msgid "add and switch"
 msgstr "加入並切換"
 
-#: r2/public/static/js/enhancements.js:1100 r2/templates/linkedloginotp.html:35 r2/templates/newlink.html:155 r2/templates/prefoptions.html:613 r2/templates/prefsecurity.html:37 r2/templates/prefsecurity.html:104 r2/templates/prefsecurity.html:242 r2/templates/prefupdate.html:33 r2/templates/privacysettings.html:133
+#: r2/public/static/js/enhancements.js:1100 r2/templates/linkedloginotp.html:35 r2/templates/newlink.html:155 r2/templates/prefoptions.html:619 r2/templates/prefsecurity.html:37 r2/templates/prefsecurity.html:104 r2/templates/prefsecurity.html:242 r2/templates/prefupdate.html:33 r2/templates/privacysettings.html:133
 msgid "two-factor code"
 msgstr "兩段驗證碼"
 
@@ -6497,23 +6497,23 @@ msgstr "您必須登入才能發佈文章。"
 msgid "You need to be logged in to do that."
 msgstr "您必須登入才能操作。"
 
-#: r2/public/static/js/login.js:286
+#: r2/public/static/js/login.js:293
 msgid "try using our secure login form."
 msgstr "請試試我們的安全登入表單。"
 
-#: r2/public/static/js/login.js:328
+#: r2/public/static/js/login.js:335
 msgid "Password is strong"
 msgstr "密碼強度強"
 
-#: r2/public/static/js/login.js:330
+#: r2/public/static/js/login.js:337
 msgid "Password is good"
 msgstr "密碼強度強"
 
-#: r2/public/static/js/login.js:332
+#: r2/public/static/js/login.js:339
 msgid "Password is fair"
 msgstr "密碼強度中"
 
-#: r2/public/static/js/login.js:334
+#: r2/public/static/js/login.js:341
 msgid "Password is weak"
 msgstr "密碼強度弱"
 
@@ -6605,23 +6605,23 @@ msgstr "沒有可預覽的內容"
 msgid "preview failed"
 msgstr "預覽失敗"
 
-#: r2/public/static/js/multi.js:509
+#: r2/public/static/js/multi.js:525
 msgid "awesomeness goes here"
 msgstr "精彩內容放這裡"
 
-#: r2/public/static/js/multi.js:510
+#: r2/public/static/js/multi.js:526
 msgid "add a vault to your multi."
 msgstr "將看板新增至您的看板群組。"
 
-#: r2/public/static/js/multi.js:563
+#: r2/public/static/js/multi.js:579
 msgid "categorize"
 msgstr "分類"
 
-#: r2/public/static/js/multi.js:579
+#: r2/public/static/js/multi.js:596
 msgid "open this multi"
 msgstr "開啟此看板群組"
 
-#: r2/public/static/js/multi.js:583
+#: r2/public/static/js/multi.js:600
 msgid "create a new multi"
 msgstr "建立新的看板群組"
 
@@ -6715,7 +6715,7 @@ msgstr "分享到:"
 msgid "Link:"
 msgstr "連結:"
 
-#: r2/public/static/js/post-sharing.js:101 r2/public/static/js/post-sharing.js:333 r2/templates/multiinfobar.html:51 r2/templates/multiinfobar.html:85
+#: r2/public/static/js/post-sharing.js:101 r2/public/static/js/post-sharing.js:335 r2/templates/multiinfobar.html:51 r2/templates/multiinfobar.html:85
 msgid "copy"
 msgstr "複製"
 
@@ -6745,32 +6745,32 @@ msgstr "取消"
 msgid "sent!"
 msgstr "已送出！"
 
-#: r2/public/static/js/post-sharing.js:295
+#: r2/public/static/js/post-sharing.js:296
 msgid "Your Mastodon server (for example mastodon.social):"
 msgstr "你的 Mastodon 伺服器（例如 mastodon.social）："
 
-#: r2/public/static/js/post-sharing.js:302
+#: r2/public/static/js/post-sharing.js:303
 msgid "That doesn't look like a server name."
 msgstr "這看起來不像伺服器名稱。"
 
-#: r2/public/static/js/post-sharing.js:332
+#: r2/public/static/js/post-sharing.js:334
 msgid "copied!"
 msgstr "已複製！"
 
-#: r2/public/static/js/post-sharing.js:513
+#: r2/public/static/js/post-sharing.js:515
 #, python-format
 msgid "Share to %(name)s"
 msgstr "分享到 %(name)s"
 
-#: r2/public/static/js/post-sharing.js:524
+#: r2/public/static/js/post-sharing.js:528
 msgid "More ways to share"
 msgstr "更多分享方式"
 
-#: r2/public/static/js/post-sharing.js:542
+#: r2/public/static/js/post-sharing.js:546
 msgid "Email to a Friend"
 msgstr "用電子郵件寄給朋友"
 
-#: r2/public/static/js/post-sharing.js:549
+#: r2/public/static/js/post-sharing.js:553
 msgid "Private Message a Friend on Tippr"
 msgstr "在 Tippr 上傳私人訊息給朋友"
 
@@ -6794,98 +6794,98 @@ msgstr "新分類"
 msgid "+ close"
 msgstr "+ 關閉"
 
-#: r2/public/static/js/sponsored.js:299
+#: r2/public/static/js/sponsored.js:303
 msgid "Please confirm the details of your campaign"
 msgstr "請確認你的活動詳細資訊"
 
-#: r2/public/static/js/sponsored.js:302
+#: r2/public/static/js/sponsored.js:306
 #, python-format
 msgid "your budget must be at least $%(minBudgetDollars)s"
 msgstr "你的預算至少要 $%(minBudgetDollars)s"
 
-#: r2/public/static/js/sponsored.js:306
+#: r2/public/static/js/sponsored.js:310
 #, python-format
 msgid "your budget must not exceed $%(maxBudgetDollars)s"
 msgstr "你的預算不能超過 $%(maxBudgetDollars)s"
 
-#: r2/public/static/js/sponsored.js:313
+#: r2/public/static/js/sponsored.js:317
 msgid "Your campaign must be capable of claiming at least 1,000 impressions per day. Please adjust your bid, budget, or schedule in order to enable this."
 msgstr "你的活動必須能每天取得至少 1,000 次曝光。請調整你的出價、預算或排程以達成此條件。"
 
-#: r2/public/static/js/sponsored.js:317
+#: r2/public/static/js/sponsored.js:321
 #, python-format
 msgid "your bid must be at least $%(minBid)s"
 msgstr "你的出價至少要 $%(minBid)s"
 
-#: r2/public/static/js/sponsored.js:321
+#: r2/public/static/js/sponsored.js:325
 #, python-format
 msgid "your bid must not exceed $%(maxBid)s"
 msgstr "你的出價不能超過 $%(maxBid)s"
 
-#: r2/public/static/js/sponsored.js:339 r2/public/static/js/sponsored.js:364 r2/public/static/js/sponsored.js:391
+#: r2/public/static/js/sponsored.js:343 r2/public/static/js/sponsored.js:368 r2/public/static/js/sponsored.js:395
 msgid "the campaign you requested is available!"
 msgstr "你要求的活動可以進行！"
 
-#: r2/public/static/js/sponsored.js:343 r2/public/static/js/sponsored.js:381
+#: r2/public/static/js/sponsored.js:347 r2/public/static/js/sponsored.js:385
 #, python-format
 msgid "the maximum budget available is $%(totalBudgetDollars)s (%(impressions)s impressions)"
 msgstr "可用的最高預算為 $%(totalBudgetDollars)s（%(impressions)s 次曝光）"
 
-#: r2/public/static/js/sponsored.js:354
+#: r2/public/static/js/sponsored.js:358
 #, python-format
 msgid "we expect to only have %(available)s impressions on %(target)s. we may not fully deliver."
 msgstr "我們預估 %(target)s 只有 %(available)s 次曝光。可能無法完全交付。"
 
-#: r2/public/static/js/sponsored.js:373
+#: r2/public/static/js/sponsored.js:377
 #, python-format
 msgid "want to maximize your campaign? for only $%(difference)s more you can buy all available inventory for your selected dates!"
 msgstr "想讓活動效果最大化嗎？只要再多 $%(difference)s，就能買下你所選日期的所有可用庫存！"
 
-#: r2/public/static/js/sponsored.js:397
+#: r2/public/static/js/sponsored.js:401
 msgid "the campaign you requested is too small! this campaign is available:"
 msgstr "你要求的活動太小了！可以進行的活動如下："
 
-#: r2/public/static/js/sponsored.js:405
+#: r2/public/static/js/sponsored.js:409
 msgid "the campaign you requested is too small!"
 msgstr "你要求的活動太小了！"
 
-#: r2/public/static/js/sponsored.js:414
+#: r2/public/static/js/sponsored.js:418
 msgid "the campaign you requested is too big! the largest campaign available is:"
 msgstr "你要求的活動太大了！可用的最大活動為："
 
-#: r2/public/static/js/sponsored.js:440
+#: r2/public/static/js/sponsored.js:444
 #, python-format
 msgid "we have insufficient available inventory targeting %(target)s to fulfill your requested dates. the following campaigns are available:"
 msgstr "鎖定 %(target)s 的可用庫存不足以滿足你要求的日期。可以進行的活動如下："
 
-#: r2/public/static/js/sponsored.js:453
+#: r2/public/static/js/sponsored.js:457
 #, python-format
 msgid "inventory for %(target)s is sold out for your requested dates. please try a different target or different dates."
 msgstr "%(target)s 在你要求的日期已售完。請嘗試其他目標或日期。"
 
-#: r2/public/static/js/sponsored.js:1001
+#: r2/public/static/js/sponsored.js:1005
 msgid "house campaigns, man."
 msgstr "自家活動啦，老兄。"
 
-#: r2/public/static/js/sponsored.js:1014
+#: r2/public/static/js/sponsored.js:1018
 #, python-format
 msgid "maximum possible impressions: %(impressions)s"
 msgstr "最多可能的曝光數：%(impressions)s"
 
-#: r2/public/static/js/sponsored.js:1060
+#: r2/public/static/js/sponsored.js:1064
 msgid "sorry, there was an error retrieving available impressions. please try again later."
 msgstr "抱歉，取得可用曝光數時發生錯誤。請稍後再試。"
 
-#: r2/public/static/js/sponsored.js:1477 r2/public/static/js/sponsored.js:1838
+#: r2/public/static/js/sponsored.js:1484 r2/public/static/js/sponsored.js:1851
 msgid "days"
 msgstr "天"
 
-#: r2/public/static/js/sponsored.js:1483
+#: r2/public/static/js/sponsored.js:1490
 #, python-format
 msgid "$%(cpm)s per 1,000 impressions"
 msgstr "每 1,000 次曝光 $%(cpm)s"
 
-#: r2/public/static/js/sponsored.js:2051
+#: r2/public/static/js/sponsored.js:2065
 msgid "Created new campaign!"
 msgstr "已建立新活動！"
 
@@ -6919,20 +6919,20 @@ msgid "a minute ago"
 msgid_plural "%(num)s minutes ago"
 msgstr[0] "%(num)s 分鐘前"
 
-#: r2/public/static/js/tippr.js:112
+#: r2/public/static/js/tippr.js:116
 msgid "please wait a few seconds and try again."
 msgstr "請等待幾秒鐘後再試一次。"
 
-#: r2/public/static/js/tippr.js:114 r2/public/static/js/ui.js:665
+#: r2/public/static/js/tippr.js:118 r2/public/static/js/ui.js:665
 #, python-format
 msgid "an error occurred (status: %(status)s)"
 msgstr "錯誤發生。(狀態：%(status)s)"
 
-#: r2/public/static/js/traffic.js:11
+#: r2/public/static/js/traffic.js:12
 msgid "view vault traffic"
 msgstr "檢視看板流量"
 
-#: r2/public/static/js/traffic.js:13 r2/templates/adminuser.html:210 r2/templates/flairlist.html:34 r2/templates/userlisting.html:170
+#: r2/public/static/js/traffic.js:14 r2/templates/adminuser.html:210 r2/templates/flairlist.html:34 r2/templates/userlisting.html:170
 msgid "go"
 msgstr "前往"
 
@@ -6985,27 +6985,27 @@ msgstr "在顯示 NSFW 的圖像/影片前我們會先詢問您的意向。"
 msgid "Click to see NSFW"
 msgstr "點擊以查看 NSFW"
 
-#: r2/public/static/js/expando/nsfwflow.js:111
+#: r2/public/static/js/expando/nsfwflow.js:112
 msgid "Always show NSFW media?"
 msgstr "總是顯示 NSFW 的圖像/影片？"
 
-#: r2/public/static/js/expando/nsfwflow.js:112
+#: r2/public/static/js/expando/nsfwflow.js:113
 msgid "Ok, we changed your preferences to always show NSFW media."
 msgstr "沒問題，我們已更改您的偏好設定，現在總是顯示 NSFW 的圖像/影片。"
 
-#: r2/public/static/js/expando/nsfwflow.js:113
+#: r2/public/static/js/expando/nsfwflow.js:114
 msgid "Undo"
 msgstr "復原"
 
-#: r2/public/static/js/expando/nsfwflow.js:116
+#: r2/public/static/js/expando/nsfwflow.js:118
 msgid "Your account is set up to always show this content in the future."
 msgstr "你的帳號已設定為今後一律顯示這類內容。"
 
-#: r2/public/static/js/expando/nsfwflow.js:117
+#: r2/public/static/js/expando/nsfwflow.js:119
 msgid "Change your preferences to hide NSFW media?"
 msgstr "更改您的偏好設定以隱藏 NSFW 的圖像/影片？"
 
-#: r2/public/static/js/expando/nsfwflow.js:118
+#: r2/public/static/js/expando/nsfwflow.js:120
 msgid "Hide NSFW"
 msgstr "隱藏 NSFW"
 
@@ -7312,7 +7312,7 @@ msgstr "加入時間"
 msgid "karma"
 msgstr "karma"
 
-#: r2/templates/adminantispam.html:182 r2/templates/adminuser.html:68 r2/templates/adminusers.html:77 r2/templates/login.html:110 r2/templates/newsletter.html:58 r2/templates/newsletterbar.html:43 r2/templates/prefupdate.html:85 r2/templates/register.html:110
+#: r2/templates/adminantispam.html:182 r2/templates/adminuser.html:68 r2/templates/adminusers.html:77 r2/templates/login.html:110 r2/templates/newsletter.html:58 r2/templates/newsletterbar.html:43 r2/templates/prefupdate.html:85
 msgid "email"
 msgstr "電子郵件"
 
@@ -7418,7 +7418,7 @@ msgstr "（無名稱）"
 msgid "(the site's own)"
 msgstr "（本站自有）"
 
-#: r2/templates/adminapps.html:93 r2/templates/admindomain.html:85 r2/templates/admindomains.html:44 r2/templates/adminfeeds.html:132 r2/templates/adminsupport.html:83 r2/templates/adminsupport.html:88 r2/templates/adminsupportactivity.html:77 r2/templates/adminsupportticket.html:106 r2/templates/adminsupportticket.html:119 r2/templates/adminsupportticket.html:157 r2/templates/adminuser.html:43 r2/templates/adminuser.html:53 r2/templates/adminuser.html:61 r2/templates/adminuser.html:266 r2/templates/adminuser.html:298 r2/templates/adminusers.html:83 r2/templates/adminvault.html:40 r2/templates/adminvault.html:50 r2/templates/adminvaults.html:57 r2/templates/comment.htmllite:49 r2/templates/commentvisitsbox.html:41
+#: r2/templates/adminapps.html:93 r2/templates/admindomain.html:85 r2/templates/admindomains.html:44 r2/templates/adminfeeds.html:132 r2/templates/adminuser.html:43 r2/templates/adminuser.html:53 r2/templates/adminuser.html:61 r2/templates/adminuser.html:266 r2/templates/adminuser.html:298 r2/templates/adminusers.html:83 r2/templates/adminvault.html:40 r2/templates/adminvault.html:50 r2/templates/adminvaults.html:57 r2/templates/comment.htmllite:49 r2/templates/commentvisitsbox.html:41
 msgid "ago"
 msgstr "前"
 
@@ -8020,33 +8020,39 @@ msgstr "個月"
 msgid "Are you one of us?"
 msgstr "你是我們的一員嗎？"
 
-#: r2/templates/admininterstitial.html:42
+#: r2/templates/admininterstitial.html:43
+#, fuzzy
+#| msgid "update your password"
+msgid "Enter your password"
+msgstr "更新您的密碼"
+
+#: r2/templates/admininterstitial.html:45
 msgid "Enter your password and one-time code"
 msgstr "請輸入你的密碼和一次性代碼"
 
-#: r2/templates/admininterstitial.html:52 r2/templates/admininterstitial.html:66 r2/templates/prefsecurity.html:237 r2/templates/prefsecurity.html:242 r2/templates/prefsecurity.html:300 r2/templates/prefupdate.html:33 r2/templates/prefupdate.html:56 r2/templates/prefupdate.html:117 r2/templates/useriphistory.html:74
+#: r2/templates/admininterstitial.html:56 r2/templates/admininterstitial.html:70 r2/templates/prefsecurity.html:237 r2/templates/prefsecurity.html:242 r2/templates/prefsecurity.html:300 r2/templates/prefupdate.html:33 r2/templates/prefupdate.html:56 r2/templates/prefupdate.html:117 r2/templates/useriphistory.html:74
 msgid "(required)"
 msgstr "(必填)"
 
-#: r2/templates/admininterstitial.html:64
+#: r2/templates/admininterstitial.html:68
 msgid "This computer is remembered, so you don't need a one-time code."
 msgstr ""
 
-#: r2/templates/admininterstitial.html:66
+#: r2/templates/admininterstitial.html:70
 msgid "one-time verification code"
 msgstr "一次性驗證碼"
 
-#: r2/templates/admininterstitial.html:73
+#: r2/templates/admininterstitial.html:77
 msgid "remember this computer"
 msgstr "記住這台電腦"
 
-#: r2/templates/admininterstitial.html:90
+#: r2/templates/admininterstitial.html:94
 #, fuzzy
 #| msgid "forget this account"
 msgid "forget this computer"
 msgstr "忘記這個帳號"
 
-#: r2/templates/admininterstitial.html:91
+#: r2/templates/admininterstitial.html:95
 msgid "Asks for a one-time code again next time, here and anywhere else this computer was remembered for."
 msgstr ""
 
@@ -10077,7 +10083,7 @@ msgstr "僅限黃金會員"
 msgid "only tippr gold members can view and submit"
 msgstr "只有 tippr 金幣會員可以瀏覽和發文"
 
-#: r2/templates/createvault.html:188 r2/templates/prefoptions.html:456
+#: r2/templates/createvault.html:188 r2/templates/prefoptions.html:462
 msgid "content options"
 msgstr "內容選項"
 
@@ -10178,11 +10184,15 @@ msgid "other options"
 msgstr "其他選項"
 
 #: r2/templates/createvault.html:326
-msgid "viewers must be over eighteen years old"
-msgstr "未滿18歲請勿閱讀"
+#, fuzzy
+#| msgid "toggle viewers must be over 18"
+msgid "NSFW: viewers must be 18 or older"
+msgstr "切換觀看者必須年滿 18 歲"
 
 #: r2/templates/createvault.html:338
-msgid "allow this vault to be included /v/all as well as the default and trending lists"
+#, fuzzy
+#| msgid "allow this vault to be included /v/all as well as the default and trending lists"
+msgid "allow this vault to be included in /v/all as well as the default and trending lists"
 msgstr "允許這個看板出現在 /v/all 以及預設和熱門清單中"
 
 #: r2/templates/createvault.html:350
@@ -10306,7 +10316,7 @@ msgstr "配色"
 msgid "used as a thematic color for your vault on mobile"
 msgstr "用作你看板在行動裝置上的主題色"
 
-#: r2/templates/createvault.html:669 r2/templates/flairpane.html:91 r2/templates/prefoptions.html:616
+#: r2/templates/createvault.html:669 r2/templates/flairpane.html:91 r2/templates/prefoptions.html:622
 msgid "save options"
 msgstr "儲存選項"
 
@@ -11082,23 +11092,23 @@ msgstr "第一次來？建立帳號"
 msgid "It's linked to your %(provider)s account, so signing in with %(provider)s is enough from now on. The password lets you log in without it too."
 msgstr "它已連結到你的 %(provider)s 帳號，所以從現在起只要用 %(provider)s 登入就可以了。有了密碼，不用它也能登入。"
 
-#: r2/templates/linkedloginlink.html:50 r2/templates/login.html:81 r2/templates/register.html:81
+#: r2/templates/linkedloginlink.html:50 r2/templates/login.html:81
 msgid "choose a username"
 msgstr "選擇使用者名稱"
 
-#: r2/templates/linkedloginlink.html:60 r2/templates/login.html:103 r2/templates/login.html:106 r2/templates/login.html:234 r2/templates/prefupdate.html:132 r2/templates/register.html:103 r2/templates/register.html:106 r2/templates/register.html:234 r2/templates/resetpassword.html:48
+#: r2/templates/linkedloginlink.html:60 r2/templates/login.html:103 r2/templates/login.html:106 r2/templates/login.html:234 r2/templates/prefupdate.html:132 r2/templates/resetpassword.html:48
 msgid "verify password"
 msgstr "確認密碼"
 
-#: r2/templates/linkedloginlink.html:62 r2/templates/login.html:114 r2/templates/register.html:114
+#: r2/templates/linkedloginlink.html:62 r2/templates/login.html:114
 msgid "email (optional)"
 msgstr "電子郵件（選填）"
 
-#: r2/templates/linkedloginlink.html:70 r2/templates/login.html:138 r2/templates/register.html:138
+#: r2/templates/linkedloginlink.html:70 r2/templates/login.html:138
 msgid "type the letters from the image"
 msgstr "輸入圖片中的字母"
 
-#: r2/templates/linkedloginlink.html:77 r2/templates/login.html:122 r2/templates/login.html:249 r2/templates/loginformwide.html:52 r2/templates/register.html:122 r2/templates/register.html:249
+#: r2/templates/linkedloginlink.html:77 r2/templates/login.html:122 r2/templates/login.html:249 r2/templates/loginformwide.html:52
 msgid "remember me"
 msgstr "記住我"
 
@@ -11246,77 +11256,77 @@ msgstr "這篇貼文已被社群板主鎖定"
 msgid "New comments can no longer be added."
 msgstr "無法再新增留言。"
 
-#: r2/templates/login.html:42 r2/templates/register.html:42
+#: r2/templates/login.html:42
 msgid "You are logged in. Go use the site!"
 msgstr "您已成功登入。歡迎使用本網站!"
 
-#: r2/templates/login.html:46 r2/templates/register.html:46
+#: r2/templates/login.html:46
 msgid "You need to login to do that."
 msgstr "您必須登入才能操作。"
 
-#: r2/templates/login.html:110 r2/templates/login.html:212 r2/templates/register.html:110 r2/templates/register.html:212
+#: r2/templates/login.html:110 r2/templates/login.html:212
 msgid "optional"
 msgstr "選填"
 
-#: r2/templates/login.html:158 r2/templates/register.html:158
+#: r2/templates/login.html:158
 msgid "get the best of tippr emailed to you once a week."
 msgstr "每週一次將 tippr 的精華寄到你的信箱。"
 
-#: r2/templates/login.html:159 r2/templates/register.html:159 r2/templates/welcomebar.html:32
+#: r2/templates/login.html:159 r2/templates/welcomebar.html:32
 msgid "learn more"
 msgstr "進一步了解"
 
-#: r2/templates/login.html:166 r2/templates/login.html:262 r2/templates/register.html:166 r2/templates/register.html:262
+#: r2/templates/login.html:166 r2/templates/login.html:262
 msgid "sign up"
 msgstr "註冊"
 
-#: r2/templates/login.html:202 r2/templates/register.html:202
+#: r2/templates/login.html:202
 msgid "try another"
 msgstr "嘗試其他方法"
 
-#: r2/templates/login.html:203 r2/templates/register.html:203
+#: r2/templates/login.html:203
 msgid "available!"
 msgstr "可以使用！"
 
-#: r2/templates/login.html:212 r2/templates/register.html:212
+#: r2/templates/login.html:212
 msgid "account recovery email"
 msgstr "恢復帳號的電郵地址"
 
-#: r2/templates/login.html:216 r2/templates/register.html:216
+#: r2/templates/login.html:216
 msgid "we only send email at your request"
 msgstr "除非你請我們之外，我們不會寄發任何電子郵件"
 
-#: r2/templates/login.html:255 r2/templates/register.html:255
+#: r2/templates/login.html:255
 msgid "recover password"
 msgstr "回復密碼"
 
-#: r2/templates/login.html:284 r2/templates/register.html:284
+#: r2/templates/login.html:284
 msgid "create a new account"
 msgstr "建立一個新帳號"
 
-#: r2/templates/login.html:289 r2/templates/register.html:289
+#: r2/templates/login.html:289
 msgid "This site isn't taking new accounts right now."
 msgstr "本站目前不接受新帳號。"
 
-#: r2/templates/login.html:291 r2/templates/register.html:291
+#: r2/templates/login.html:291
 #, python-format
 msgid "To ask about an account, write to %(address)s."
 msgstr "如有帳號相關問題，請寫信到 %(address)s。"
 
-#: r2/templates/login.html:302 r2/templates/register.html:302
+#: r2/templates/login.html:302
 #, python-format
 msgid "By signing up, you agree to our %(terms)s and that you have read our %(privacy_policy)s and %(content_policy)s."
 msgstr "註冊即表示你同意我們的%(terms)s，並已閱讀我們的%(privacy_policy)s和%(content_policy)s。"
 
-#: r2/templates/login.html:303 r2/templates/register.html:303
+#: r2/templates/login.html:303
 msgid "Terms"
 msgstr "任期"
 
-#: r2/templates/login.html:304 r2/templates/privacysettings.html:99 r2/templates/register.html:304 r2/templates/tipprfooter.html:50
+#: r2/templates/login.html:304 r2/templates/privacysettings.html:99 r2/templates/tipprfooter.html:50
 msgid "Privacy Policy"
 msgstr "隱私權政策"
 
-#: r2/templates/login.html:305 r2/templates/register.html:305 r2/templates/tipprfooter.html:54
+#: r2/templates/login.html:305 r2/templates/tipprfooter.html:54
 msgid "Content Policy"
 msgstr "內容政策"
 
@@ -11988,485 +11998,495 @@ msgstr "讓內容（比較）適合上班時看 "
 msgid "(Don't show thumbnails next to anything labeled NSFW)"
 msgstr "（不要在任何標記為 NSFW 的內容旁顯示縮圖）"
 
-#: r2/templates/prefoptions.html:194
+#: r2/templates/prefoptions.html:192
+#, fuzzy
+#| msgid "show the spotlight box on the front page"
+msgid "show NSFW posts on the front page and /v/all"
+msgstr "在首頁顯示焦點區塊"
+
+#: r2/templates/prefoptions.html:195
+msgid "(they're always shown in their own vaults)"
+msgstr ""
+
+#: r2/templates/prefoptions.html:200
 msgid "link options"
 msgstr "連結選項"
 
-#: r2/templates/prefoptions.html:197
+#: r2/templates/prefoptions.html:203
 msgid "show the spotlight box on the front page"
 msgstr "在首頁顯示焦點區塊"
 
-#: r2/templates/prefoptions.html:200
+#: r2/templates/prefoptions.html:206
 msgid "(it shows new and promoted links, and gives you a say in what's spam and what isn't.)"
 msgstr "（它會顯示新的和推廣的連結，並讓你參與判斷什麼是垃圾訊息、什麼不是。）"
 
-#: r2/templates/prefoptions.html:204
+#: r2/templates/prefoptions.html:210
 msgid "show trending vaults on the front page"
 msgstr "在首頁顯示熱門看板"
 
-#: r2/templates/prefoptions.html:207
+#: r2/templates/prefoptions.html:213
 msgid "(a list of popular and notable vaults to check out)"
 msgstr "(一個列出熱門或值得查閱的看板清單)"
 
-#: r2/templates/prefoptions.html:212
+#: r2/templates/prefoptions.html:218
 msgid "show multivaults in the side panel"
 msgstr "在側邊面板顯示多重看板"
 
-#: r2/templates/prefoptions.html:215
+#: r2/templates/prefoptions.html:221
 msgid "(your sets of vaults to view together, and the form to make one)"
 msgstr "（你一起瀏覽的看板組合，以及建立組合的表單）"
 
-#: r2/templates/prefoptions.html:218
+#: r2/templates/prefoptions.html:224
 msgid "show me links I've recently viewed"
 msgstr "顯示我最近檢視過的連結"
 
-#: r2/templates/prefoptions.html:219
+#: r2/templates/prefoptions.html:225
 msgid "compress the link display"
 msgstr "壓縮顯示連結"
 
-#: r2/templates/prefoptions.html:220
+#: r2/templates/prefoptions.html:226
 msgid "show additional details in the domain text when available"
 msgstr "可用時在網域文字中顯示額外細節"
 
-#: r2/templates/prefoptions.html:223
+#: r2/templates/prefoptions.html:229
 msgid "(such as the source vault or the content author's url/name)"
 msgstr "（例如來源看板或內容作者的網址/名稱）"
 
-#: r2/templates/prefoptions.html:226
+#: r2/templates/prefoptions.html:232
 msgid "don't show me submissions after I've upvoted them"
 msgstr "不顯示我給予過好評的發文"
 
-#: r2/templates/prefoptions.html:228 r2/templates/prefoptions.html:232
+#: r2/templates/prefoptions.html:234 r2/templates/prefoptions.html:238
 msgid "(except my own)"
 msgstr "(除了我自己)"
 
-#: r2/templates/prefoptions.html:230
+#: r2/templates/prefoptions.html:236
 msgid "don't show me submissions after I've downvoted them"
 msgstr "不顯示我給予過負評的發文"
 
-#: r2/templates/prefoptions.html:235
+#: r2/templates/prefoptions.html:241
 #, python-format
 msgid "display %(num)s links at once"
 msgstr "每次顯示 %(num)s 條連結"
 
-#: r2/templates/prefoptions.html:242
+#: r2/templates/prefoptions.html:248
 #, python-format
 msgid "don't show me submissions with a score less than %(num)s"
 msgstr "不顯示評分低於 %(num)s 的發文"
 
-#: r2/templates/prefoptions.html:243
+#: r2/templates/prefoptions.html:249
 msgid "(leave blank to show all submissions)"
 msgstr "(留空以顯示所有發文)"
 
-#: r2/templates/prefoptions.html:248
+#: r2/templates/prefoptions.html:254
 msgid "enhancements"
 msgstr "增強功能"
 
-#: r2/templates/prefoptions.html:251
+#: r2/templates/prefoptions.html:257
 msgid "infinite scroll"
 msgstr "無限捲動"
 
-#: r2/templates/prefoptions.html:254
+#: r2/templates/prefoptions.html:260
 msgid "(load the next page of a listing when you reach the bottom)"
 msgstr "（捲到底時載入列表的下一頁）"
 
-#: r2/templates/prefoptions.html:258
+#: r2/templates/prefoptions.html:264
 msgid "keyboard navigation"
 msgstr "鍵盤導覽"
 
-#: r2/templates/prefoptions.html:261
+#: r2/templates/prefoptions.html:267
 msgid "(j and k move between posts and comments, a and z vote; press ? on any page for the full list)"
 msgstr "（j 和 k 在貼文和留言間移動，a 和 z 投票；在任何頁面按 ? 查看完整清單）"
 
-#: r2/templates/prefoptions.html:268
+#: r2/templates/prefoptions.html:274
 msgid "(a button on posts that link to an image to show it in the listing, and a \"show images\" link to show them all)"
 msgstr "（連到圖片的貼文上會有按鈕可在列表中顯示圖片，還有「顯示圖片」連結可一次顯示全部）"
 
-#: r2/templates/prefoptions.html:272
+#: r2/templates/prefoptions.html:278
 msgid "expand images automatically"
 msgstr "自動展開圖片"
 
-#: r2/templates/prefoptions.html:274
+#: r2/templates/prefoptions.html:280
 msgid "(except NSFW and spoiler posts)"
 msgstr "（NSFW 和暴雷貼文除外）"
 
-#: r2/templates/prefoptions.html:277
+#: r2/templates/prefoptions.html:283
 msgid "user tags"
 msgstr "使用者標記"
 
-#: r2/templates/prefoptions.html:280
+#: r2/templates/prefoptions.html:286
 msgid "(a tag button by usernames, to note who someone is; only you see your tags)"
 msgstr "（使用者名稱旁的標記按鈕，用來記下某人是誰；只有你看得到你的標記）"
 
-#: r2/templates/prefoptions.html:284
+#: r2/templates/prefoptions.html:290
 msgid "user info on hover"
 msgstr "滑鼠停留時顯示使用者資訊"
 
-#: r2/templates/prefoptions.html:286
+#: r2/templates/prefoptions.html:292
 msgid "(hold the mouse over a username to see their karma, how long they've been here and your tag)"
 msgstr "（將滑鼠停在使用者名稱上，可查看他的 karma、加入多久以及你的標記）"
 
-#: r2/templates/prefoptions.html:289
+#: r2/templates/prefoptions.html:295
 msgid "show the parent comment on hover"
 msgstr "滑鼠停留時顯示上層留言"
 
-#: r2/templates/prefoptions.html:291
+#: r2/templates/prefoptions.html:297
 msgid "(hold the mouse over a reply's \"parent\" link to read the comment it replies to)"
 msgstr "（將滑鼠停在回覆的「上層」連結上，可閱讀它所回覆的留言）"
 
-#: r2/templates/prefoptions.html:294
+#: r2/templates/prefoptions.html:300
 msgid "count new comments"
 msgstr "計算新留言"
 
-#: r2/templates/prefoptions.html:296
+#: r2/templates/prefoptions.html:302
 msgid "(\"3 new\" by posts you've opened before, and the new comments highlighted when you go back; remembered in this browser)"
 msgstr "（在你開過的貼文旁顯示「3 則新的」，回去時標示新留言；記在這個瀏覽器中）"
 
-#: r2/templates/prefoptions.html:299
+#: r2/templates/prefoptions.html:305
 msgid "posts you've opened:"
 msgstr "你開過的貼文："
 
-#: r2/templates/prefoptions.html:301
+#: r2/templates/prefoptions.html:307
 msgid "show as usual"
 msgstr "照常顯示"
 
-#: r2/templates/prefoptions.html:301
+#: r2/templates/prefoptions.html:307
 msgid "fade them"
 msgstr "淡化顯示"
 
-#: r2/templates/prefoptions.html:301
+#: r2/templates/prefoptions.html:307
 msgid "hide them"
 msgstr "隱藏"
 
-#: r2/templates/prefoptions.html:306
+#: r2/templates/prefoptions.html:312
 msgid "(remembered in this browser)"
 msgstr "（記在這個瀏覽器中）"
 
-#: r2/templates/prefoptions.html:311
+#: r2/templates/prefoptions.html:317
 msgid "(on comments pages, buttons to jump between top-level comments, the submitter's, yours, new ones or ones with links)"
 msgstr "（在留言頁面上，可在第一層留言、發文者的留言、你的留言、新留言或含連結的留言之間跳轉的按鈕）"
 
-#: r2/templates/prefoptions.html:315
+#: r2/templates/prefoptions.html:321
 #, fuzzy
 #| msgid "top-level comments"
 msgid "live comments"
 msgstr "第一層留言"
 
-#: r2/templates/prefoptions.html:317
+#: r2/templates/prefoptions.html:323
 msgid "(new comments appear on a thread while you have it open, in vaults that use them)"
 msgstr ""
 
-#: r2/templates/prefoptions.html:321
+#: r2/templates/prefoptions.html:327
 msgid "account switcher"
 msgstr "帳號切換器"
 
-#: r2/templates/prefoptions.html:323
+#: r2/templates/prefoptions.html:329
 msgid "(a \"switch account\" menu by your name, to move between your accounts without logging out; logging out forgets them)"
 msgstr "（你名字旁的「切換帳號」選單，不必登出就能在帳號間切換；登出會忘記它們）"
 
-#: r2/templates/prefoptions.html:326
+#: r2/templates/prefoptions.html:332
 msgid "night mode"
 msgstr "夜間模式"
 
-#: r2/templates/prefoptions.html:328
+#: r2/templates/prefoptions.html:334
 msgid "(light text on a dark background)"
 msgstr "（深色背景上的淺色文字）"
 
-#: r2/templates/prefoptions.html:331
+#: r2/templates/prefoptions.html:337
 msgid "hide child comments links"
 msgstr "隱藏子留言連結"
 
-#: r2/templates/prefoptions.html:334
+#: r2/templates/prefoptions.html:340
 msgid "(on comments pages, links to fold up the replies under each comment, or all of them at once)"
 msgstr "（在留言頁面上，可摺疊每則留言下的回覆，或一次摺疊全部的連結）"
 
-#: r2/templates/prefoptions.html:340
+#: r2/templates/prefoptions.html:346
 msgid "filters"
 msgstr "篩選器"
 
-#: r2/templates/prefoptions.html:343
+#: r2/templates/prefoptions.html:349
 msgid "Posts that match are left out of listings (never your own). One per line, or separated by commas."
 msgstr "符合的貼文會從列表中排除（你自己的永遠不會）。每行一個，或以逗號分隔。"
 
-#: r2/templates/prefoptions.html:347
+#: r2/templates/prefoptions.html:353
 msgid "title keywords"
 msgstr "標題關鍵字"
 
-#: r2/templates/prefoptions.html:347
+#: r2/templates/prefoptions.html:353
 msgid "whole words or phrases, in any case"
 msgstr "完整的字詞或片語，不分大小寫"
 
-#: r2/templates/prefoptions.html:348
+#: r2/templates/prefoptions.html:354
 msgid "example.com also hides its subdomains"
 msgstr "example.com 也會隱藏它的子網域"
 
-#: r2/templates/prefoptions.html:349
+#: r2/templates/prefoptions.html:355
 msgid "still shown when you visit the vault itself"
 msgstr "你造訪該看板本身時仍會顯示"
 
-#: r2/templates/prefoptions.html:350
+#: r2/templates/prefoptions.html:356
 msgid "only hides their posts; to stop seeing them altogether, block them"
 msgstr "只會隱藏他們的貼文；如果完全不想看到他們，請封鎖"
 
-#: r2/templates/prefoptions.html:363
+#: r2/templates/prefoptions.html:369
 msgid "comment options"
 msgstr "留言選項"
 
-#: r2/templates/prefoptions.html:366
+#: r2/templates/prefoptions.html:372
 #, python-format
 msgid "sort comments by %(sort)s"
 msgstr "留言排序方式根據 %(sort)s"
 
-#: r2/templates/prefoptions.html:369
+#: r2/templates/prefoptions.html:375
 msgid "ignore suggested sorts"
 msgstr "忽略建議的排序方式"
 
-#: r2/templates/prefoptions.html:370
+#: r2/templates/prefoptions.html:376
 msgid "(suggested sorts may be set by community moderators for specific threads or vaults, like Q&As)"
 msgstr "(建議的排序方式可能會根據板主為特定的討論串或看板而改變，例如Q&As)"
 
-#: r2/templates/prefoptions.html:373
+#: r2/templates/prefoptions.html:379
 msgid "show a dagger (†) on comments voted controversial"
 msgstr "於具爭議的留言上顯示匕首 (†)"
 
-#: r2/templates/prefoptions.html:374
+#: r2/templates/prefoptions.html:380
 msgid "(a controversial comment is one that's been both upvoted and downvoted significantly)"
 msgstr "(一個具爭議的的留言為好評及負評數都有一定數量的留言)"
 
-#: r2/templates/prefoptions.html:381
+#: r2/templates/prefoptions.html:387
 #, python-format
 msgid "don't show me comments with a score less than %(num)s"
 msgstr "請勿顯示低於此分數的留言：%(num)s"
 
-#: r2/templates/prefoptions.html:382
+#: r2/templates/prefoptions.html:388
 msgid "(leave blank to show all comments)"
 msgstr "（留空以顯示所有留言）"
 
-#: r2/templates/prefoptions.html:390
+#: r2/templates/prefoptions.html:396
 #, python-format
 msgid "display %(num)s comments by default"
 msgstr "預設顯示 %(num)s 則留言"
 
-#: r2/templates/prefoptions.html:395
+#: r2/templates/prefoptions.html:401
 msgid "the smaller the number, the faster your comments pages will load"
 msgstr "此數字越小，您的留言頁面載入的速度就越快"
 
-#: r2/templates/prefoptions.html:400
+#: r2/templates/prefoptions.html:406
 msgid "messaging options"
 msgstr "訊息選項"
 
-#: r2/templates/prefoptions.html:402
+#: r2/templates/prefoptions.html:408
 msgid "show message conversations in the inbox"
 msgstr "在收件匣中顯示訊息對話"
 
-#: r2/templates/prefoptions.html:405
+#: r2/templates/prefoptions.html:411
 msgid "(only applies when you go to the 'messages' panel)"
 msgstr "(僅適用於您造訪「訊息」面板時)"
 
-#: r2/templates/prefoptions.html:409
+#: r2/templates/prefoptions.html:415
 msgid "collapse messages after I've read them"
 msgstr "在我閱讀訊息後將訊息折疊"
 
-#: r2/templates/prefoptions.html:412
+#: r2/templates/prefoptions.html:418
 msgid "(otherwise, you'll have to collapse them yourself)"
 msgstr "(否則您必須自行折疊)"
 
-#: r2/templates/prefoptions.html:416
+#: r2/templates/prefoptions.html:422
 msgid "mark messages as read when I open my inbox"
 msgstr "在我開啟收件匣時將訊息標示為已讀"
 
-#: r2/templates/prefoptions.html:419
+#: r2/templates/prefoptions.html:425
 msgid "(otherwise, they will be marked as read when you click them)"
 msgstr "（否則點擊後會被標記為已讀）"
 
-#: r2/templates/prefoptions.html:422
+#: r2/templates/prefoptions.html:428
 msgid "notify me when people say my username"
 msgstr "有人提及我的使用者名稱時通知我"
 
-#: r2/templates/prefoptions.html:425
+#: r2/templates/prefoptions.html:431
 msgid "send messages as emails"
 msgstr "以電子郵件發送訊息"
 
-#: r2/templates/prefoptions.html:425
+#: r2/templates/prefoptions.html:431
 msgid "requires a verified email"
 msgstr "需要已驗證的電子郵件"
 
-#: r2/templates/prefoptions.html:428
+#: r2/templates/prefoptions.html:434
 msgid "enable threaded modmail display"
 msgstr "啟用討論串式的訊息顯示方式"
 
-#: r2/templates/prefoptions.html:432 r2/templates/widgetdemopanel.html:201
+#: r2/templates/prefoptions.html:438 r2/templates/widgetdemopanel.html:201
 msgid "display options"
 msgstr "顯示選項"
 
-#: r2/templates/prefoptions.html:434
+#: r2/templates/prefoptions.html:440
 msgid "allow vaults to show me custom themes"
 msgstr "允許看板顯示自訂的主題"
 
-#: r2/templates/prefoptions.html:437
+#: r2/templates/prefoptions.html:443
 msgid "(you can also choose which vault themes to disable on an individual level)"
 msgstr "（你也可以個別選擇要停用哪些看板的主題）"
 
-#: r2/templates/prefoptions.html:441
+#: r2/templates/prefoptions.html:447
 msgid "show user flair"
 msgstr "顯示使用者標籤"
 
-#: r2/templates/prefoptions.html:443
+#: r2/templates/prefoptions.html:449
 msgid "show link flair"
 msgstr "顯示連結標籤"
 
-#: r2/templates/prefoptions.html:446
+#: r2/templates/prefoptions.html:452
 msgid "show self-serve advertising tab on front page"
 msgstr "在首頁顯示自助廣告分頁"
 
-#: r2/templates/prefoptions.html:451
+#: r2/templates/prefoptions.html:457
 msgid "show legacy search page"
 msgstr "顯示舊版搜尋頁面"
 
-#: r2/templates/prefoptions.html:458
+#: r2/templates/prefoptions.html:464
 msgid "I am over eighteen years old and willing to view adult content"
 msgstr "我已經年滿十八歲，並願意查覽成人內容"
 
-#: r2/templates/prefoptions.html:459
+#: r2/templates/prefoptions.html:465
 msgid "required to view some vaults"
 msgstr "查看特定看板需選"
 
-#: r2/templates/prefoptions.html:461
+#: r2/templates/prefoptions.html:467
 msgid "label posts that are not safe for work (NSFW)"
 msgstr "為不適合公開閱覽 (NSFW) 的貼文附上標籤"
 
-#: r2/templates/prefoptions.html:464
+#: r2/templates/prefoptions.html:470
 msgid "posts labelled as made with AI:"
 msgstr "標記為使用 AI 製作的貼文："
 
-#: r2/templates/prefoptions.html:473
+#: r2/templates/prefoptions.html:479
 msgid "posts in vaults that are for AI content are always shown there"
 msgstr "AI 內容看板中的貼文在該看板內永遠會顯示"
 
-#: r2/templates/prefoptions.html:475
+#: r2/templates/prefoptions.html:481
 msgid "enable private RSS feeds"
 msgstr "啟用私人 RSS 訂閱"
 
-#: r2/templates/prefoptions.html:477
+#: r2/templates/prefoptions.html:483
 msgid "(available from the 'RSS feed' tab in prefs)"
 msgstr "(可以在偏好設定中的「RSS 訂閱」索引標籤上找到)"
 
-#: r2/templates/prefoptions.html:480
+#: r2/templates/prefoptions.html:486
 msgid "privacy options"
 msgstr "隱私設定"
 
-#: r2/templates/prefoptions.html:482
+#: r2/templates/prefoptions.html:488
 msgid "make my votes public"
 msgstr "公開我的評分紀錄"
 
-#: r2/templates/prefoptions.html:489
+#: r2/templates/prefoptions.html:495
 #, python-format
 msgid "let everyone see %(link1)s and %(link2)s"
 msgstr "讓所有人看到%(link1)s和%(link2)s"
 
-#: r2/templates/prefoptions.html:492
+#: r2/templates/prefoptions.html:498
 msgid "don't allow search engines to index my user profile"
 msgstr "不要讓搜尋引擎收集我的使用者個人檔案的資訊"
 
-#: r2/templates/prefoptions.html:502
+#: r2/templates/prefoptions.html:508
 msgid "optional analytics cookies, which help the site's admins see how it's used (see the privacy policy):"
 msgstr ""
 
-#: r2/templates/prefoptions.html:503 r2/templates/utils.html:546
+#: r2/templates/prefoptions.html:509 r2/templates/utils.html:546
 #, fuzzy
 #| msgid "Allow"
 msgid "allow"
 msgstr "允許"
 
-#: r2/templates/prefoptions.html:504 r2/templates/utils.html:547
+#: r2/templates/prefoptions.html:510 r2/templates/utils.html:547
 msgid "don't allow"
 msgstr ""
 
-#: r2/templates/prefoptions.html:505
+#: r2/templates/prefoptions.html:511
 msgid "kept with your account, on every device you sign in on"
 msgstr ""
 
-#: r2/templates/prefoptions.html:511
+#: r2/templates/prefoptions.html:517
 msgid "beta options"
 msgstr "測試設定"
 
-#: r2/templates/prefoptions.html:513
+#: r2/templates/prefoptions.html:519
 msgid "I would like to beta test features for tippr"
 msgstr "我想要測試 tippr 的新功能"
 
-#: r2/templates/prefoptions.html:519
+#: r2/templates/prefoptions.html:525
 #, python-format
 msgid "by enabling you'll be subscribed to %(beta_vault_link)s automatically."
 msgstr "啟用後，你會自動訂閱 %(beta_vault_link)s。"
 
-#: r2/templates/prefoptions.html:521
+#: r2/templates/prefoptions.html:527
 #, python-brace-format
 msgid "details on the /v/{beta_vault} wiki"
 msgstr "詳情請見 /v/{beta_vault} 維基"
 
-#: r2/templates/prefoptions.html:530 r2/templates/prefoptions.html:553
+#: r2/templates/prefoptions.html:536 r2/templates/prefoptions.html:559
 msgid "gold options"
 msgstr "金幣選項"
 
-#: r2/templates/prefoptions.html:532
+#: r2/templates/prefoptions.html:538
 msgid "hide ads"
 msgstr "隱藏廣告"
 
-#: r2/templates/prefoptions.html:534
+#: r2/templates/prefoptions.html:540
 msgid "remember what links I've visited"
 msgstr "記住我造訪過的連結"
 
-#: r2/templates/prefoptions.html:535
+#: r2/templates/prefoptions.html:541
 msgid "we'll remember and mark what links you've already read, even between computers"
 msgstr "我們會記住並標示你已讀過的連結，即使換了電腦也一樣"
 
-#: r2/templates/prefoptions.html:537 r2/templates/prefoptions.html:555
+#: r2/templates/prefoptions.html:543 r2/templates/prefoptions.html:561
 msgid "highlight new comments"
 msgstr "標記新的留言"
 
-#: r2/templates/prefoptions.html:539
+#: r2/templates/prefoptions.html:545
 msgid "we'll remember your visits for 48 hours and show you which comments you haven't seen yet"
 msgstr "我們會記住您的造訪 48 小時，並向您顯示哪些留言您還沒有看過"
 
-#: r2/templates/prefoptions.html:542
+#: r2/templates/prefoptions.html:548
 msgid "show gold expiration"
 msgstr "顯示金幣到期時間"
 
-#: r2/templates/prefoptions.html:544
+#: r2/templates/prefoptions.html:550
 msgid "show how much gold you have remaining on your userpage"
 msgstr "在你的使用者頁面上顯示你還剩多少金幣"
 
-#: r2/templates/prefoptions.html:548
+#: r2/templates/prefoptions.html:554
 #, python-format
 msgid "use a month of my %(coin_link)s to automatically renew my gold if it expires"
 msgstr "金幣到期時，用我的%(coin_link)s中的一個月自動續訂"
 
-#: r2/templates/prefoptions.html:558
+#: r2/templates/prefoptions.html:564
 #, python-format
 msgid "since you don't have %(gold_link)s, this will only apply in vaults you moderate"
 msgstr "由於你沒有%(gold_link)s，這只會套用在你管理的看板中"
 
-#: r2/templates/prefoptions.html:566
+#: r2/templates/prefoptions.html:572
 msgid "tippr themes"
 msgstr "tippr 主題"
 
-#: r2/templates/prefoptions.html:570
+#: r2/templates/prefoptions.html:576
 msgid "tippr themes change the appearance of tippr.  They are used anywhere another custom theme is not present."
 msgstr "tippr 主題會改變 tippr 的外觀。只要沒有其他自訂主題，就會使用它們。"
 
-#: r2/templates/prefoptions.html:574
+#: r2/templates/prefoptions.html:580
 msgid "Note: For security reasons this page will not be changed by themes"
 msgstr "注意：基於安全考量，這個頁面不會被主題改變"
 
-#: r2/templates/prefoptions.html:578
+#: r2/templates/prefoptions.html:584
 msgid "use tippr theme"
 msgstr "使用 tippr 主題"
 
-#: r2/templates/prefoptions.html:579
+#: r2/templates/prefoptions.html:585
 msgid "hover to preview"
 msgstr "滑鼠停留以預覽"
 
-#: r2/templates/prefoptions.html:598
+#: r2/templates/prefoptions.html:604
 msgid "warning: use non-featured themes at your own risk"
 msgstr "警告：使用非精選主題的風險請自行承擔"
 

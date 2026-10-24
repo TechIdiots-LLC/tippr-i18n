@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tippr\n"
 "Report-Msgid-Bugs-To: https://github.com/TechIdiots-LLC/tippr-i18n/issues\n"
-"POT-Creation-Date: 2026-10-23 20:15-0400\n"
+"POT-Creation-Date: 2026-10-24 09:58-0400\n"
 "PO-Revision-Date: 2017-04-24 18:46-0400\n"
 "Last-Translator: tippr translators\n"
 "Language-Team: Bulgarian\n"
@@ -19,475 +19,475 @@ msgstr ""
 msgid "Choose an image of at most 1 MB."
 msgstr "Избери изображение до 1 MB."
 
-#: r2/controllers/api.py:222 r2/controllers/api.py:248 r2/controllers/api.py:4398 r2/controllers/api.py:4468 r2/controllers/listingcontroller.py:754 r2/lib/pages/pages.py:6377
+#: r2/controllers/api.py:223 r2/controllers/api.py:249 r2/controllers/api.py:4403 r2/controllers/api.py:4473 r2/controllers/listingcontroller.py:766 r2/lib/pages/pages.py:6382
 msgid "API"
 msgstr "API"
 
-#: r2/controllers/api.py:273
+#: r2/controllers/api.py:274
 msgid "this is too long"
 msgstr "това е твърде дълго"
 
-#: r2/controllers/api.py:287 r2/lib/errors.py:72
+#: r2/controllers/api.py:288 r2/lib/errors.py:72
 msgid "that user doesn't exist"
 msgstr "този потребител не съществува "
 
-#: r2/controllers/api.py:291
+#: r2/controllers/api.py:292
 #, python-format
 msgid "you can tag at most %(n)d users"
 msgstr "можеш да отбележиш най-много %(n)d потребители"
 
-#: r2/controllers/api.py:309
+#: r2/controllers/api.py:310
 msgid "wrong username or password"
 msgstr "грешно потребителско име или парола"
 
-#: r2/controllers/api.py:311
+#: r2/controllers/api.py:312
 msgid "that's the account you're using"
 msgstr "това е профилът, който използваш"
 
-#: r2/controllers/api.py:313
+#: r2/controllers/api.py:314
 #, python-format
 msgid "you can keep at most %(n)d other accounts"
 msgstr "можеш да пазиш най-много %(n)d други профила"
 
-#: r2/controllers/api.py:318
+#: r2/controllers/api.py:319
 msgid "enter that account's two-factor code"
 msgstr "въведи двуфакторния код на онзи профил"
 
-#: r2/controllers/api.py:334
+#: r2/controllers/api.py:335
 msgid "that account isn't available to switch to; add it again"
 msgstr "не можеш да превключиш към онзи профил; добави го отново"
 
-#: r2/controllers/api.py:547
+#: r2/controllers/api.py:548
 msgid "your message has been delivered"
 msgstr "съобщението ви е доставено"
 
-#: r2/controllers/api.py:769
+#: r2/controllers/api.py:770
 msgid "no title found"
 msgstr "не е намерено заглавие"
 
-#: r2/controllers/api.py:863 r2/controllers/linked_logins.py:184 r2/controllers/linked_logins.py:232 r2/controllers/linked_logins.py:252 r2/controllers/linked_logins.py:330
+#: r2/controllers/api.py:864 r2/controllers/linked_logins.py:184 r2/controllers/linked_logins.py:232 r2/controllers/linked_logins.py:252 r2/controllers/linked_logins.py:330
 msgid "That sign-in took too long. Please start again."
 msgstr "Влизането отне твърде дълго. Започни отначало."
 
-#: r2/controllers/api.py:868
+#: r2/controllers/api.py:869
 msgid "That account is linked already: sign in with it."
 msgstr "Този профил вече е свързан: влез с него."
 
-#: r2/controllers/api.py:1402 r2/controllers/api.py:1783 r2/controllers/api.py:2683 r2/controllers/api.py:2983 r2/controllers/api.py:3310 r2/controllers/api.py:4190 r2/controllers/api.py:4246 r2/controllers/api.py:4300 r2/controllers/api.py:4533 r2/controllers/api.py:4538 r2/controllers/api.py:4773 r2/controllers/api.py:4838 r2/controllers/api.py:4916 r2/controllers/api.py:4982 r2/controllers/api.py:5055 r2/controllers/api.py:5146 r2/controllers/api.py:5178 r2/controllers/api.py:5198 r2/controllers/api.py:5712 r2/controllers/api.py:5752 r2/controllers/api.py:5986 r2/controllers/api.py:6004 r2/controllers/api.py:6352 r2/lib/pages/pages.py:6268
+#: r2/controllers/api.py:1403 r2/controllers/api.py:1784 r2/controllers/api.py:2686 r2/controllers/api.py:2986 r2/controllers/api.py:3313 r2/controllers/api.py:4195 r2/controllers/api.py:4251 r2/controllers/api.py:4305 r2/controllers/api.py:4538 r2/controllers/api.py:4543 r2/controllers/api.py:4778 r2/controllers/api.py:4843 r2/controllers/api.py:4921 r2/controllers/api.py:4987 r2/controllers/api.py:5060 r2/controllers/api.py:5151 r2/controllers/api.py:5183 r2/controllers/api.py:5203 r2/controllers/api.py:5717 r2/controllers/api.py:5757 r2/controllers/api.py:5991 r2/controllers/api.py:6009 r2/controllers/api.py:6357 r2/lib/pages/pages.py:6273
 msgid "saved"
 msgstr "запазено"
 
-#: r2/controllers/api.py:1472
+#: r2/controllers/api.py:1473
 msgid "all other sessions have been logged out"
 msgstr "всички други сесии са излезли"
 
-#: r2/controllers/api.py:1531
+#: r2/controllers/api.py:1532
 msgid "you should be getting a verification email shortly."
 msgstr "Скоро ще получите и-мейл за потвърждение."
 
-#: r2/controllers/api.py:1533 r2/controllers/api.py:1546
+#: r2/controllers/api.py:1534 r2/controllers/api.py:1547
 msgid "your email has been updated"
 msgstr "Вашият и-мейл е подновен"
 
-#: r2/controllers/api.py:1581
+#: r2/controllers/api.py:1582
 msgid "your password has been updated"
 msgstr "Вашата парола е подновена"
 
-#: r2/controllers/api.py:2040 r2/lib/menus.py:196 r2/templates/adminserverstatus.html:141
+#: r2/controllers/api.py:2041 r2/lib/menus.py:196 r2/templates/adminserverstatus.html:141
 msgid "reported"
 msgstr "докладвано"
 
-#: r2/controllers/api.py:2461 r2/lib/support.py:91
+#: r2/controllers/api.py:2464 r2/lib/support.py:91
 msgid "replied"
 msgstr "отговорено"
 
-#: r2/controllers/api.py:2666
+#: r2/controllers/api.py:2669
 msgid "validation errors"
 msgstr "грешки с потвръждаването"
 
-#: r2/controllers/api.py:2786 r2/controllers/api.py:2813 r2/controllers/api.py:2840 r2/controllers/listingcontroller.py:1036 r2/lib/menus.py:195 r2/public/static/js/tippr.js:231 r2/templates/adminapps.html:51 r2/templates/adminuser.html:59 r2/templates/deleteduserinterstitial.html:34 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:578 r2/templates/vaultstylesheetbase.html:47
+#: r2/controllers/api.py:2789 r2/controllers/api.py:2816 r2/controllers/api.py:2843 r2/controllers/listingcontroller.py:1048 r2/lib/menus.py:195 r2/public/static/js/tippr.js:235 r2/templates/adminapps.html:51 r2/templates/adminuser.html:59 r2/templates/deleteduserinterstitial.html:34 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:578 r2/templates/vaultstylesheetbase.html:47
 msgid "deleted"
 msgstr "изтрито"
 
-#: r2/controllers/api.py:2917
+#: r2/controllers/api.py:2920
 msgid "bad image name"
 msgstr "лошо име на изображението"
 
-#: r2/controllers/api.py:2923
+#: r2/controllers/api.py:2926
 #, python-format
 msgid "too many images (you only get %d)"
 msgstr "прекалено много изображения (може да имате само %d)"
 
-#: r2/controllers/api.py:2928 r2/controllers/api.py:2952
+#: r2/controllers/api.py:2931 r2/controllers/api.py:2955
 msgid "Invalid image or general image error"
 msgstr "Грешно изображение или основна грешка с изображението"
 
-#: r2/controllers/api.py:2933
+#: r2/controllers/api.py:2936
 #, python-format
 msgid "must be %dx%d pixels"
 msgstr "Трябва да бъде %dx%d пиксела"
 
-#: r2/controllers/api.py:2937
+#: r2/controllers/api.py:2940
 msgid "10:3 aspect ratio required"
 msgstr "изисква се съотношение 10:3"
 
-#: r2/controllers/api.py:2940
+#: r2/controllers/api.py:2943
 #, python-format
 msgid "max %dx%d pixels"
 msgstr "максимално %dx%d точки"
 
-#: r2/controllers/api.py:2943
+#: r2/controllers/api.py:2946
 #, python-format
 msgid "min %dx%d pixels"
 msgstr "минимум %dx%d точки"
 
-#: r2/controllers/api.py:4002
+#: r2/controllers/api.py:4007
 msgid "an email will be sent to that account's address shortly"
 msgstr "скоро ще бъде изпратен и-мейл до дадения адрес"
 
-#: r2/controllers/api.py:4005
+#: r2/controllers/api.py:4010
 msgid "try again tomorrow"
 msgstr "пробвайте отново утре"
 
-#: r2/controllers/api.py:4052
+#: r2/controllers/api.py:4057
 msgid "password updated"
 msgstr "паролата е променена"
 
-#: r2/controllers/api.py:4258 r2/controllers/api.py:4489
+#: r2/controllers/api.py:4263 r2/controllers/api.py:4494
 msgid "invalid css class"
 msgstr "невалиден css клас"
 
-#: r2/controllers/api.py:4261 r2/controllers/api.py:4492
+#: r2/controllers/api.py:4266 r2/controllers/api.py:4497
 msgid "too many css classes"
 msgstr "прекалено много css класове"
 
-#: r2/controllers/api.py:4513
+#: r2/controllers/api.py:4518
 msgid "max flair templates reached"
 msgstr "максималният брой шаблони за етикети е достигнат"
 
-#: r2/controllers/api.py:4978
+#: r2/controllers/api.py:4983
 #, python-format
 msgid "saved, but these aren't on until their keys are filled in: %(names)s"
 msgstr "запазено, но тези не са включени, докато не се попълнят ключовете им: %(names)s"
 
-#: r2/controllers/api.py:5000
+#: r2/controllers/api.py:5005
 msgid "the keys work"
 msgstr "ключовете работят"
 
-#: r2/controllers/api.py:5001 r2/controllers/api.py:5018
+#: r2/controllers/api.py:5006 r2/controllers/api.py:5023
 #, python-format
 msgid "didn't work: %(error)s"
 msgstr "не проработи: %(error)s"
 
-#: r2/controllers/api.py:5006
+#: r2/controllers/api.py:5011
 msgid "no such payment"
 msgstr "няма такова плащане"
 
-#: r2/controllers/api.py:5021 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminprivacy.html:26 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminuser.html:89 r2/templates/adminusers.html:77 r2/templates/adminvaults.html:50
+#: r2/controllers/api.py:5026 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminprivacy.html:26 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminuser.html:89 r2/templates/adminusers.html:77 r2/templates/adminvaults.html:50
 msgid "status"
 msgstr "статус"
 
-#: r2/controllers/api.py:5046 r2/controllers/linked_logins.py:93 r2/controllers/linked_logins.py:187 r2/lib/pages/pages.py:1373 r2/lib/pages/pages.py:1423 r2/templates/createvault.html:57 r2/templates/goldpayment.html:168 r2/templates/linkedsignin.html:41 r2/templates/listingchooser.html:69 r2/templates/prefapps.html:153 r2/templates/prefapps.html:348
+#: r2/controllers/api.py:5051 r2/controllers/linked_logins.py:93 r2/controllers/linked_logins.py:187 r2/lib/pages/pages.py:1374 r2/lib/pages/pages.py:1424 r2/templates/createvault.html:57 r2/templates/goldpayment.html:168 r2/templates/linkedsignin.html:41 r2/templates/listingchooser.html:69 r2/templates/prefapps.html:153 r2/templates/prefapps.html:348
 msgid "name"
 msgstr "име"
 
-#: r2/controllers/api.py:5051
+#: r2/controllers/api.py:5056
 #, python-format
 msgid "saved, but these aren't on until their ID and secret are filled in: %(names)s"
 msgstr "запазено, но тези не са включени, докато не се попълнят ID и тайната им: %(names)s"
 
-#: r2/controllers/api.py:5160 r2/controllers/api.py:5186
+#: r2/controllers/api.py:5165 r2/controllers/api.py:5191
 msgid "this site's live config is managed in ZooKeeper"
 msgstr "живата конфигурация на сайта се управлява в ZooKeeper"
 
-#: r2/controllers/api.py:5164
+#: r2/controllers/api.py:5169
 msgid "unknown setting"
 msgstr "непозната настройка"
 
-#: r2/controllers/api.py:5172 r2/controllers/api.py:5196
+#: r2/controllers/api.py:5177 r2/controllers/api.py:5201
 #, python-format
 msgid "not saved: %(error)s"
 msgstr "не е запазено: %(error)s"
 
-#: r2/controllers/api.py:5202
+#: r2/controllers/api.py:5207
 #, python-format
 msgid "%(saved)d saved; %(failed)d not saved (see below)"
 msgstr "%(saved)d запазени; %(failed)d не са запазени (виж по-долу)"
 
-#: r2/controllers/api.py:5208
+#: r2/controllers/api.py:5213
 msgid "nothing changed"
 msgstr "нищо не е променено"
 
-#: r2/controllers/api.py:5224
+#: r2/controllers/api.py:5229
 #, python-format
 msgid "couldn't empty: %(servers)s"
 msgstr "не можа да се изпразни: %(servers)s"
 
-#: r2/controllers/api.py:5249
+#: r2/controllers/api.py:5254
 msgid "every account has been checked"
 msgstr "всички профили са проверени"
 
-#: r2/controllers/api.py:5261
+#: r2/controllers/api.py:5266
 msgid "select some accounts"
 msgstr "избери няколко профила"
 
-#: r2/controllers/api.py:5308 r2/controllers/api.py:5414
+#: r2/controllers/api.py:5313 r2/controllers/api.py:5419
 msgid "no such account"
 msgstr "няма такъв профил"
 
-#: r2/controllers/api.py:5311 r2/controllers/api.py:5406
+#: r2/controllers/api.py:5316 r2/controllers/api.py:5411
 msgid "unknown action"
 msgstr "непознато действие"
 
-#: r2/controllers/api.py:5325
+#: r2/controllers/api.py:5330
 #, fuzzy
 #| msgid "no permissions"
 msgid "choose a permission"
 msgstr "без права"
 
-#: r2/controllers/api.py:5339
+#: r2/controllers/api.py:5344
 msgid "not on admins (take them off the employees list on /admin/config first)"
 msgstr "не и за администратори (първо ги махни от списъка със служители в /admin/config)"
 
-#: r2/controllers/api.py:5343
+#: r2/controllers/api.py:5348
 msgid "the account is deleted"
 msgstr "профилът е изтрит"
 
-#: r2/controllers/api.py:5346
+#: r2/controllers/api.py:5351
 msgid "give a reason (it's logged, and a timeout's reason is sent to them)"
 msgstr "посочи причина (записва се, а причината за временно спиране се изпраща на човека)"
 
-#: r2/controllers/api.py:5350 r2/controllers/api.py:5431
+#: r2/controllers/api.py:5355 r2/controllers/api.py:5436
 msgid "tick the box to confirm"
 msgstr "отметни квадратчето за потвърждение"
 
-#: r2/controllers/api.py:5353
+#: r2/controllers/api.py:5358
 msgid "choose whether to keep or delete their posts"
 msgstr "избери дали публикациите им да се запазят или изтрият"
 
-#: r2/controllers/api.py:5356
+#: r2/controllers/api.py:5361
 msgid "they have no email address"
 msgstr "нямат имейл адрес"
 
-#: r2/controllers/api.py:5403 r2/controllers/api.py:5509
+#: r2/controllers/api.py:5408 r2/controllers/api.py:5514
 msgid "no such vault"
 msgstr "няма такъв волт"
 
-#: r2/controllers/api.py:5418
+#: r2/controllers/api.py:5423
 msgid "they're already a moderator"
 msgstr "вече е модератор"
 
-#: r2/controllers/api.py:5421
+#: r2/controllers/api.py:5426
 msgid "they're banned from the vault; unban them first"
 msgstr "има забрана във волта; първо махни забраната"
 
-#: r2/controllers/api.py:5426
+#: r2/controllers/api.py:5431
 msgid "they aren't a moderator"
 msgstr "не е модератор"
 
-#: r2/controllers/api.py:5438
+#: r2/controllers/api.py:5443
 msgid "unban the vault first"
 msgstr "първо махни забраната на волта"
 
-#: r2/controllers/api.py:5457
+#: r2/controllers/api.py:5462
 msgid "no such app"
 msgstr "няма такова приложение"
 
-#: r2/controllers/api.py:5460
+#: r2/controllers/api.py:5465
 msgid "the site's own apps can't be deleted here"
 msgstr "собствените приложения на сайта не могат да се изтриват тук"
 
-#: r2/controllers/api.py:5503
+#: r2/controllers/api.py:5508
 msgid "give the feed's http(s) address"
 msgstr "посочи http(s) адреса на емисията"
 
-#: r2/controllers/api.py:5512
+#: r2/controllers/api.py:5517
 msgid "pick one of the AI labels"
 msgstr "избери един от AI етикетите"
 
-#: r2/controllers/api.py:5516
+#: r2/controllers/api.py:5521
 #, python-format
 msgid "/v/%(vault)s doesn't accept %(label)s posts"
 msgstr "/v/%(vault)s не приема публикации %(label)s"
 
-#: r2/controllers/api.py:5522
+#: r2/controllers/api.py:5527
 msgid "give the bot account a valid username"
 msgstr "посочи валидно потребителско име за бот профила"
 
-#: r2/controllers/api.py:5531
+#: r2/controllers/api.py:5536
 msgid "that account is suspended or deleted"
 msgstr "този профил е спрян или изтрит"
 
-#: r2/controllers/api.py:5538 r2/controllers/api.py:5553
+#: r2/controllers/api.py:5543 r2/controllers/api.py:5558
 msgid "no such feed"
 msgstr "няма такава емисия"
 
-#: r2/controllers/api.py:5576
+#: r2/controllers/api.py:5581
 msgid "give a domain"
 msgstr "посочи домейн"
 
-#: r2/controllers/api.py:5582
+#: r2/controllers/api.py:5587
 msgid "choose what the ban does"
 msgstr "избери какво прави забраната"
 
-#: r2/controllers/api.py:5585
+#: r2/controllers/api.py:5590
 msgid "give a reason (members see it when the link is refused)"
 msgstr "посочи причина (членовете я виждат, когато връзката бъде отказана)"
 
-#: r2/controllers/api.py:5590
+#: r2/controllers/api.py:5595
 msgid "that's not a domain"
 msgstr "това не е домейн"
 
-#: r2/controllers/api.py:5617 r2/controllers/api.py:5636 r2/controllers/api.py:5653 r2/controllers/api.py:5671
+#: r2/controllers/api.py:5622 r2/controllers/api.py:5641 r2/controllers/api.py:5658 r2/controllers/api.py:5676
 msgid "no such ticket"
 msgstr "няма такава заявка за поддръжка"
 
-#: r2/controllers/api.py:5684
+#: r2/controllers/api.py:5689
 msgid "they can't reply in this category"
 msgstr "не могат да отговарят в тази категория"
 
-#: r2/controllers/api.py:5704
+#: r2/controllers/api.py:5709
 msgid "not on the employees list"
 msgstr "не е в списъка със служители"
 
-#: r2/controllers/api.py:5756
+#: r2/controllers/api.py:5761
 msgid "saved; CleanTalk needs an access key to work"
 msgstr "запазено; CleanTalk се нуждае от ключ за достъп, за да работи"
 
-#: r2/controllers/api.py:5759
+#: r2/controllers/api.py:5764
 #, python-format
 msgid "saved; CleanTalk says: %(problem)s"
 msgstr "запазено; CleanTalk казва: %(problem)s"
 
-#: r2/controllers/api.py:5761
+#: r2/controllers/api.py:5766
 msgid "saved; the CleanTalk key works"
 msgstr "запазено; ключът за CleanTalk работи"
 
-#: r2/controllers/api.py:5798
+#: r2/controllers/api.py:5803
 msgid "that isn't a release with an installer"
 msgstr "това не е версия с инсталатор"
 
-#: r2/controllers/api.py:5801
+#: r2/controllers/api.py:5806
 msgid "a server is updating now; wait for it to finish"
 msgstr "в момента се обновява сървър; изчакай да приключи"
 
-#: r2/controllers/api.py:5903
+#: r2/controllers/api.py:5908
 msgid "Copy the key now; it isn't shown again."
 msgstr "Копирай ключа сега; няма да бъде показан отново."
 
-#: r2/controllers/api.py:5912
+#: r2/controllers/api.py:5917
 msgid "tippr-backup isn't installed on this server (re-run the installer)."
 msgstr "tippr-backup не е инсталиран на този сървър (пусни отново инсталатора)."
 
-#: r2/controllers/api.py:5917
+#: r2/controllers/api.py:5922
 msgid "no such backup"
 msgstr "няма такова резервно копие"
 
-#: r2/controllers/api.py:5922
+#: r2/controllers/api.py:5927
 #, python-format
 msgid "Type this site's domain (%(domain)s) to confirm."
 msgstr "Въведи домейна на сайта (%(domain)s) за потвърждение."
 
-#: r2/controllers/api.py:5935
+#: r2/controllers/api.py:5940
 msgid "Enter the other server's address and its transfer key."
 msgstr "Въведи адреса на другия сървър и неговия ключ за прехвърляне."
 
-#: r2/controllers/api.py:5939
+#: r2/controllers/api.py:5944
 msgid "That isn't a backup name."
 msgstr "Това не е име на резервно копие."
 
-#: r2/controllers/api.py:5960
+#: r2/controllers/api.py:5965
 msgid "tippr test email"
 msgstr "тестов имейл от tippr"
 
-#: r2/controllers/api.py:5961
+#: r2/controllers/api.py:5966
 #, python-format
 msgid "This is a test message from %(domain)s. Email is working."
 msgstr "Това е тестово съобщение от %(domain)s. Имейлът работи."
 
-#: r2/controllers/api.py:5965
+#: r2/controllers/api.py:5970
 #, python-format
 msgid "failed: %(error)s"
 msgstr "неуспешно: %(error)s"
 
-#: r2/controllers/api.py:5967
+#: r2/controllers/api.py:5972
 #, python-format
 msgid "sent to %(address)s"
 msgstr "изпратено до %(address)s"
 
-#: r2/controllers/api.py:6000
+#: r2/controllers/api.py:6005
 msgid "no gold to take"
 msgstr "никакво злато за взимане"
 
-#: r2/controllers/api.py:6164 r2/controllers/api.py:6194
+#: r2/controllers/api.py:6169 r2/controllers/api.py:6199
 msgid "that's as many authenticator apps as an account can have"
 msgstr "профилът вече има максималния брой приложения за удостоверяване"
 
-#: r2/controllers/api.py:6242
+#: r2/controllers/api.py:6247
 msgid "That code didn't work. Codes follow the clock, so check that your phone sets its time automatically."
 msgstr ""
 
-#: r2/controllers/api.py:6245
+#: r2/controllers/api.py:6250
 msgid "enter a code from one of your methods first"
 msgstr "първо въведи код от един от методите си"
 
-#: r2/controllers/api.py:6248
+#: r2/controllers/api.py:6253
 #, fuzzy
 #| msgid "That code isn't right. Try again."
 msgid "That password isn't right. Try again."
 msgstr "Този код не е правилен. Опитай отново."
 
-#: r2/controllers/api.py:6249
+#: r2/controllers/api.py:6254
 msgid "enter your password first"
 msgstr "първо въведи паролата си"
 
-#: r2/controllers/api.py:6267
+#: r2/controllers/api.py:6272
 msgid "that passkey couldn't be added"
 msgstr "този ключ за достъп не можа да бъде добавен"
 
-#: r2/controllers/api.py:6305
+#: r2/controllers/api.py:6310
 msgid "that passkey wasn't accepted"
 msgstr "този ключ за достъп не беше приет"
 
-#: r2/controllers/api.py:6464
+#: r2/controllers/api.py:6469
 #, python-format
 msgid "accounts need to be %(n)d days old"
 msgstr "профилите трябва да са на поне %(n)d дни"
 
-#: r2/controllers/api.py:6468
+#: r2/controllers/api.py:6473
 #, python-format
 msgid "accounts need %(n)d karma"
 msgstr "профилите се нуждаят от %(n)d карма"
 
-#: r2/controllers/api.py:6471
+#: r2/controllers/api.py:6476
 msgid "verify your email address first"
 msgstr "първо потвърди имейл адреса си"
 
-#: r2/controllers/api.py:6513 r2/lib/errors.py:158
+#: r2/controllers/api.py:6518 r2/lib/errors.py:158
 msgid "this app can not be modified from this interface"
 msgstr "това приложение не може да се променя от този интерфейс"
 
-#: r2/controllers/api.py:6520 r2/lib/errors.py:136
+#: r2/controllers/api.py:6525 r2/lib/errors.py:136
 msgid "invalid client id"
 msgstr "невалидна клиентна самоличност"
 
-#: r2/controllers/api.py:6523
+#: r2/controllers/api.py:6528
 msgid "cannot update deleted app"
 msgstr "изтритото приложение не може да бъде обновено"
 
-#: r2/controllers/api.py:6526
+#: r2/controllers/api.py:6531
 msgid "app does not belong to you"
 msgstr "приложението не ви принадлежи"
 
-#: r2/controllers/api.py:6534
+#: r2/controllers/api.py:6539
 msgid "application updated"
 msgstr "приложението е обновено"
 
-#: r2/controllers/api.py:6558
+#: r2/controllers/api.py:6563
 msgid "application created"
 msgstr "приложението е създадено"
 
-#: r2/controllers/api.py:6593
+#: r2/controllers/api.py:6598
 msgid "developer added"
 msgstr "добавен разработчик"
 
@@ -503,7 +503,7 @@ msgstr "tippr бутони"
 msgid "tippr widget"
 msgstr "tippr уиджет"
 
-#: r2/controllers/embed.py:74 r2/controllers/policies.py:76 r2/lib/pages/pages.py:1136 r2/lib/pages/pages.py:6373 r2/templates/printablebuttons.html:150
+#: r2/controllers/embed.py:74 r2/controllers/policies.py:76 r2/lib/pages/pages.py:1137 r2/lib/pages/pages.py:6378 r2/templates/printablebuttons.html:150
 msgid "help"
 msgstr "помощ"
 
@@ -533,11 +533,11 @@ msgstr "страницата не е намерена"
 msgid "the page you requested does not exist"
 msgstr "страницата, която търсите не е намерена"
 
-#: r2/controllers/error.py:220 r2/controllers/listingcontroller.py:999 r2/templates/adminapps.html:51 r2/templates/banneduserinterstitial.html:35 r2/templates/intimeoutinterstitial.html:34 r2/templates/intimeoutinterstitial.html:40
+#: r2/controllers/error.py:220 r2/controllers/listingcontroller.py:1011 r2/templates/adminapps.html:51 r2/templates/banneduserinterstitial.html:35 r2/templates/intimeoutinterstitial.html:34 r2/templates/intimeoutinterstitial.html:40
 msgid "suspended"
 msgstr "спрян"
 
-#: r2/controllers/front.py:247 r2/lib/pages/pages.py:6255
+#: r2/controllers/front.py:247 r2/lib/pages/pages.py:6260
 msgid "explore"
 msgstr "проучи"
 
@@ -569,7 +569,7 @@ msgstr "покажи %d"
 msgid "create a vault"
 msgstr "създай волт"
 
-#: r2/controllers/front.py:738 r2/controllers/front.py:744 r2/controllers/listingcontroller.py:801 r2/controllers/listingcontroller.py:816 r2/controllers/listingcontroller.py:1180 r2/controllers/listingcontroller.py:1191 r2/lib/menus.py:203 r2/lib/menus.py:453 r2/lib/menus.py:666 r2/lib/pages/pages.py:5142 r2/lib/pages/pages.py:5151 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
+#: r2/controllers/front.py:738 r2/controllers/front.py:744 r2/controllers/listingcontroller.py:813 r2/controllers/listingcontroller.py:828 r2/controllers/listingcontroller.py:1192 r2/controllers/listingcontroller.py:1203 r2/lib/menus.py:203 r2/lib/menus.py:453 r2/lib/menus.py:666 r2/lib/pages/pages.py:5147 r2/lib/pages/pages.py:5156 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
 msgid "all"
 msgstr "всички"
 
@@ -593,7 +593,7 @@ msgstr "публикации и коментари"
 msgid "posts"
 msgstr "постове"
 
-#: r2/controllers/front.py:949 r2/controllers/listingcontroller.py:1783 r2/lib/pages/pages.py:5896 r2/templates/adminuser.html:37 r2/templates/createvault.html:288 r2/templates/link.xml:95
+#: r2/controllers/front.py:949 r2/controllers/listingcontroller.py:1795 r2/lib/pages/pages.py:5901 r2/templates/adminuser.html:37 r2/templates/createvault.html:288 r2/templates/link.xml:95
 msgid "comments"
 msgstr "коментари"
 
@@ -630,7 +630,7 @@ msgstr "други дискусии"
 msgid "search results"
 msgstr "резултати от търсенето"
 
-#: r2/controllers/front.py:1309 r2/controllers/listingcontroller.py:1532 r2/lib/menus.py:95 r2/lib/menus.py:177 r2/templates/adminvault.html:23 r2/templates/adminvaults.html:22 r2/templates/pagenamenav.html:62 r2/templates/prefoptions.html:349 r2/templates/promotelinkbase.html:765
+#: r2/controllers/front.py:1309 r2/controllers/listingcontroller.py:1544 r2/lib/menus.py:95 r2/lib/menus.py:177 r2/templates/adminvault.html:23 r2/templates/adminvaults.html:22 r2/templates/pagenamenav.html:62 r2/templates/prefoptions.html:355 r2/templates/promotelinkbase.html:765
 msgid "vaults"
 msgstr "волти"
 
@@ -688,11 +688,11 @@ msgstr "прием на награда"
 msgid "gilding"
 msgstr "плъзгане"
 
-#: r2/controllers/front.py:1636 r2/controllers/front.py:1940 r2/controllers/front.py:1967 r2/controllers/front.py:2037 r2/controllers/front.py:2080 r2/lib/menus.py:94 r2/templates/contactus.html:117 r2/templates/contactus.html:119 r2/templates/creditgild.html:34 r2/templates/gold.html:30 r2/templates/goldabout.html:20 r2/templates/goldpayment.html:40 r2/templates/goldthanks.html:29 r2/templates/prefoptions.html:556
+#: r2/controllers/front.py:1636 r2/controllers/front.py:1940 r2/controllers/front.py:1967 r2/controllers/front.py:2037 r2/controllers/front.py:2080 r2/lib/menus.py:94 r2/templates/contactus.html:117 r2/templates/contactus.html:119 r2/templates/creditgild.html:34 r2/templates/gold.html:30 r2/templates/goldabout.html:20 r2/templates/goldpayment.html:40 r2/templates/goldthanks.html:29 r2/templates/prefoptions.html:562
 msgid "tippr gold"
 msgstr "tippr злато"
 
-#: r2/controllers/front.py:1669 r2/public/static/js/enhancements.js:1084 r2/templates/adminemailsettings.html:73 r2/templates/admininterstitial.html:52 r2/templates/linkedloginlink.html:40 r2/templates/linkedloginlink.html:58 r2/templates/login.html:96 r2/templates/login.html:98 r2/templates/login.html:223 r2/templates/loginformwide.html:46 r2/templates/prefsecurity.html:130 r2/templates/prefsecurity.html:237 r2/templates/prefsecurity.html:270 r2/templates/privacysettings.html:128 r2/templates/register.html:96 r2/templates/register.html:98 r2/templates/register.html:223
+#: r2/controllers/front.py:1669 r2/public/static/js/enhancements.js:1084 r2/templates/adminemailsettings.html:73 r2/templates/admininterstitial.html:56 r2/templates/linkedloginlink.html:40 r2/templates/linkedloginlink.html:58 r2/templates/login.html:96 r2/templates/login.html:98 r2/templates/login.html:223 r2/templates/loginformwide.html:46 r2/templates/prefsecurity.html:130 r2/templates/prefsecurity.html:237 r2/templates/prefsecurity.html:270 r2/templates/privacysettings.html:128
 msgid "password"
 msgstr "парола"
 
@@ -700,7 +700,7 @@ msgstr "парола"
 msgid "verify email"
 msgstr "потвърди и-мейл"
 
-#: r2/controllers/front.py:1737 r2/templates/login.html:125 r2/templates/loginformwide.html:53 r2/templates/register.html:125
+#: r2/controllers/front.py:1737 r2/templates/login.html:125 r2/templates/loginformwide.html:53
 msgid "reset password"
 msgstr "задай нова парола"
 
@@ -712,7 +712,7 @@ msgstr "невалиден символ в съобщението"
 msgid "emails unsubscribed"
 msgstr "имейл е отписан"
 
-#: r2/controllers/front.py:1843 r2/lib/pages/pages.py:929 r2/templates/admininterstitial.html:79
+#: r2/controllers/front.py:1843 r2/lib/pages/pages.py:930 r2/templates/admininterstitial.html:83
 msgid "turn admin on"
 msgstr "включи администратор"
 
@@ -732,7 +732,7 @@ msgstr "tippr gold не се продава на този сайт в момен
 msgid "what gold gives you"
 msgstr "какво ти дава златото"
 
-#: r2/controllers/front.py:2090 r2/templates/gold.html:57 r2/templates/gold.html:112 r2/templates/prefoptions.html:547
+#: r2/controllers/front.py:2090 r2/templates/gold.html:57 r2/templates/gold.html:112 r2/templates/prefoptions.html:553
 msgid "Give Gold"
 msgstr "Връчи злато"
 
@@ -965,7 +965,7 @@ msgstr ""
 msgid "sign in"
 msgstr "вход"
 
-#: r2/controllers/linked_logins.py:76 r2/controllers/linked_logins.py:98 r2/controllers/linked_logins.py:104 r2/controllers/linked_logins.py:185 r2/controllers/linked_logins.py:212 r2/controllers/linked_logins.py:331 r2/controllers/linked_logins.py:337 r2/templates/login.html:166 r2/templates/login.html:262 r2/templates/login.html:296 r2/templates/register.html:166 r2/templates/register.html:262 r2/templates/register.html:296
+#: r2/controllers/linked_logins.py:76 r2/controllers/linked_logins.py:98 r2/controllers/linked_logins.py:104 r2/controllers/linked_logins.py:185 r2/controllers/linked_logins.py:212 r2/controllers/linked_logins.py:331 r2/controllers/linked_logins.py:337 r2/templates/login.html:166 r2/templates/login.html:262 r2/templates/login.html:296
 msgid "log in"
 msgstr "влез"
 
@@ -1007,143 +1007,143 @@ msgstr ""
 msgid "Too many wrong codes. Please start again."
 msgstr "Твърде много грешни кодове. Започни отначало."
 
-#: r2/controllers/listingcontroller.py:596
+#: r2/controllers/listingcontroller.py:608
 msgid "newest submissions"
 msgstr "нови постове"
 
-#: r2/controllers/listingcontroller.py:624
+#: r2/controllers/listingcontroller.py:636
 msgid "rising submissions"
 msgstr "изкачващи се публикации"
 
-#: r2/controllers/listingcontroller.py:677
+#: r2/controllers/listingcontroller.py:689
 msgid "top scoring links"
 msgstr "връзки с най-много точки"
 
-#: r2/controllers/listingcontroller.py:681
+#: r2/controllers/listingcontroller.py:693
 msgid "most controversial links"
 msgstr "най-спорните линкове"
 
-#: r2/controllers/listingcontroller.py:695
+#: r2/controllers/listingcontroller.py:707
 msgid "promoted links"
 msgstr "спонсрирани връзки"
 
-#: r2/controllers/listingcontroller.py:699
+#: r2/controllers/listingcontroller.py:711
 #, python-format
 msgid "want to advertise? [click here!](%(link)s)"
 msgstr "Искате да рекламирате? [Натиснете тук!](%(link)s)"
 
-#: r2/controllers/listingcontroller.py:734
+#: r2/controllers/listingcontroller.py:746
 msgid "you're really bored now, eh?"
 msgstr "Mай Ви е много скучно, а?"
 
-#: r2/controllers/listingcontroller.py:809
+#: r2/controllers/listingcontroller.py:821
 msgid "filter by vault"
 msgstr "филтрирай по волт"
 
-#: r2/controllers/listingcontroller.py:823
+#: r2/controllers/listingcontroller.py:835
 msgid "filter by category"
 msgstr "филтър по категория"
 
-#: r2/controllers/listingcontroller.py:829
+#: r2/controllers/listingcontroller.py:841
 msgid "gildings received"
 msgstr "получени позлатявания"
 
-#: r2/controllers/listingcontroller.py:830
+#: r2/controllers/listingcontroller.py:842
 msgid "gildings given"
 msgstr "изпратени позлатявания"
 
-#: r2/controllers/listingcontroller.py:836
+#: r2/controllers/listingcontroller.py:848
 #, python-format
 msgid "overview for %(user)s"
 msgstr "преглед на %(user)s"
 
-#: r2/controllers/listingcontroller.py:837
+#: r2/controllers/listingcontroller.py:849
 #, python-format
 msgid "comments by %(user)s"
 msgstr "коментари от %(user)s"
 
-#: r2/controllers/listingcontroller.py:838
+#: r2/controllers/listingcontroller.py:850
 #, python-format
 msgid "submitted by %(user)s"
 msgstr "публикувано от %(user)s"
 
-#: r2/controllers/listingcontroller.py:839
+#: r2/controllers/listingcontroller.py:851
 #, python-format
 msgid "gilded by %(user)s"
 msgstr "позлатено от %(user)s"
 
-#: r2/controllers/listingcontroller.py:840
+#: r2/controllers/listingcontroller.py:852
 #, python-format
 msgid "upvoted by %(user)s"
 msgstr "положителен глас от %(user)s"
 
-#: r2/controllers/listingcontroller.py:841
+#: r2/controllers/listingcontroller.py:853
 #, python-format
 msgid "downvoted by %(user)s"
 msgstr "отрицателен глас от %(user)s"
 
-#: r2/controllers/listingcontroller.py:842
+#: r2/controllers/listingcontroller.py:854
 #, python-format
 msgid "saved by %(user)s"
 msgstr "запазено от %(user)s"
 
-#: r2/controllers/listingcontroller.py:843
+#: r2/controllers/listingcontroller.py:855
 #, python-format
 msgid "hidden by %(user)s"
 msgstr "скрито от %(user)s"
 
-#: r2/controllers/listingcontroller.py:844
+#: r2/controllers/listingcontroller.py:856
 #, python-format
 msgid "promoted by %(user)s"
 msgstr "промотирано от %(user)s"
 
-#: r2/controllers/listingcontroller.py:846
+#: r2/controllers/listingcontroller.py:858
 #, python-format
 msgid "gildings given by %(user)s"
 msgstr "Позлатявания от %(user)s"
 
-#: r2/controllers/listingcontroller.py:848
+#: r2/controllers/listingcontroller.py:860
 #, python-format
 msgid "profile for %(user)s"
 msgstr "профил на %(user)s"
 
-#: r2/controllers/listingcontroller.py:1009 r2/lib/menus.py:110 r2/templates/printablebuttons.html:591 r2/templates/printablebuttons.html:598
+#: r2/controllers/listingcontroller.py:1021 r2/lib/menus.py:110 r2/templates/printablebuttons.html:591 r2/templates/printablebuttons.html:598
 msgid "blocked"
 msgstr "блокиран"
 
-#: r2/controllers/listingcontroller.py:1181 r2/controllers/listingcontroller.py:1192 r2/templates/printablebuttons.html:618
+#: r2/controllers/listingcontroller.py:1193 r2/controllers/listingcontroller.py:1204 r2/templates/printablebuttons.html:618
 msgid "unread"
 msgstr "непрочетени"
 
-#: r2/controllers/listingcontroller.py:1183
+#: r2/controllers/listingcontroller.py:1195
 msgid "comment replies"
 msgstr "отговори"
 
-#: r2/controllers/listingcontroller.py:1184
+#: r2/controllers/listingcontroller.py:1196
 msgid "post replies"
 msgstr "отговори"
 
-#: r2/controllers/listingcontroller.py:1185
+#: r2/controllers/listingcontroller.py:1197
 msgid "username mentions"
 msgstr "споменавания на потребителското име"
 
-#: r2/controllers/listingcontroller.py:1199 r2/templates/tipprheader.html:119 r2/templates/tipprheader.html:124
+#: r2/controllers/listingcontroller.py:1211 r2/templates/tipprheader.html:119 r2/templates/tipprheader.html:124
 msgid "messages"
 msgstr "съобщения"
 
-#: r2/controllers/listingcontroller.py:1678
+#: r2/controllers/listingcontroller.py:1690
 msgid "vaults: "
 msgstr "волти:"
 
-#: r2/controllers/listingcontroller.py:1830
+#: r2/controllers/listingcontroller.py:1842
 msgid "To block a user click 'block user'  below a message from a user you wish to block from messaging you."
 msgstr "За да блокираш потребител, натисни 'блокирай потребител' под съобщението на потребителя, който искаш да блокираш."
 
-#: r2/controllers/listingcontroller.py:2093 r2/lib/menus.py:60
+#: r2/controllers/listingcontroller.py:2105 r2/lib/menus.py:60
 msgid "gilded"
 msgstr "позлатено"
 
-#: r2/controllers/listingcontroller.py:2109
+#: r2/controllers/listingcontroller.py:2121
 #, python-format
 msgid "gildings in this vault have paid for %(time)s of server time"
 msgstr "позлатите в този vault са платили за %(time)s от сървърното време"
@@ -1255,15 +1255,15 @@ msgstr "реклама"
 msgid "translating"
 msgstr "превод"
 
-#: r2/controllers/policies.py:71 r2/controllers/policies.py:89 r2/lib/menus.py:101 r2/lib/pages/pages.py:6384 r2/templates/contactus.html:92
+#: r2/controllers/policies.py:71 r2/controllers/policies.py:89 r2/lib/menus.py:101 r2/lib/pages/pages.py:6389 r2/templates/contactus.html:92
 msgid "user agreement"
 msgstr "потребителско споразумение"
 
-#: r2/controllers/policies.py:72 r2/controllers/policies.py:86 r2/lib/menus.py:102 r2/lib/pages/pages.py:6383 r2/templates/contactus.html:84 r2/templates/utils.html:543
+#: r2/controllers/policies.py:72 r2/controllers/policies.py:86 r2/lib/menus.py:102 r2/lib/pages/pages.py:6388 r2/templates/contactus.html:84 r2/templates/utils.html:543
 msgid "privacy policy"
 msgstr "политика на поверителност"
 
-#: r2/controllers/policies.py:73 r2/controllers/policies.py:92 r2/lib/menus.py:100 r2/lib/pages/pages.py:6385 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:193
+#: r2/controllers/policies.py:73 r2/controllers/policies.py:92 r2/lib/menus.py:100 r2/lib/pages/pages.py:6390 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:193
 msgid "content policy"
 msgstr "политика за съдържанието"
 
@@ -1403,7 +1403,7 @@ msgstr "избери изображение"
 msgid "too big. keep it under 500 KB"
 msgstr "твърде голямо. нека е под 500 KB"
 
-#: r2/controllers/tippr_base.py:1483 r2/lib/pages/pages.py:4671 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
+#: r2/controllers/tippr_base.py:1483 r2/lib/pages/pages.py:4676 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
 msgid "banned"
 msgstr "забранен"
 
@@ -1706,7 +1706,7 @@ msgstr "тази парола е неприемлива"
 msgid "wrong password"
 msgstr "грешна парола"
 
-#: r2/lib/errors.py:65 r2/public/static/js/login.js:378
+#: r2/lib/errors.py:65 r2/public/static/js/login.js:385
 msgid "passwords do not match"
 msgstr "паролите не съвпадат "
 
@@ -2758,7 +2758,7 @@ msgstr "спам"
 msgid "autobanned"
 msgstr "автоматичнобаннат"
 
-#: r2/lib/menus.py:82 r2/lib/pages/pages.py:1270 r2/lib/pages/pages.py:1294
+#: r2/lib/menus.py:82 r2/lib/pages/pages.py:1271 r2/lib/pages/pages.py:1295
 msgid "preferences"
 msgstr "настройки"
 
@@ -2851,7 +2851,7 @@ msgstr "изпратени"
 msgid "comments {toolbar}"
 msgstr "коментари"
 
-#: r2/lib/menus.py:123 r2/templates/adminprivacy.html:27 r2/templates/prefoptions.html:496
+#: r2/lib/menus.py:123 r2/templates/adminprivacy.html:27 r2/templates/prefoptions.html:502
 msgid "details"
 msgstr "детайли"
 
@@ -2872,7 +2872,7 @@ msgstr "стил"
 msgid "home"
 msgstr "вкъщи"
 
-#: r2/lib/menus.py:130 r2/lib/pages/pages.py:1127
+#: r2/lib/menus.py:130 r2/lib/pages/pages.py:1128
 msgid "about"
 msgstr "за"
 
@@ -2880,7 +2880,7 @@ msgstr "за"
 msgid "edit subscriptions"
 msgstr "редактирай абонаменти"
 
-#: r2/lib/menus.py:132 r2/lib/pages/pages.py:2309
+#: r2/lib/menus.py:132 r2/lib/pages/pages.py:2314
 msgid "vault settings"
 msgstr "настройки на vault-и"
 
@@ -2888,11 +2888,11 @@ msgstr "настройки на vault-и"
 msgid "edit stylesheet"
 msgstr "редактиране на stylesheet"
 
-#: r2/lib/menus.py:134 r2/public/static/js/messagecompose.js:177
+#: r2/lib/menus.py:134 r2/public/static/js/messagecompose.js:192
 msgid "rules"
 msgstr "правила"
 
-#: r2/lib/menus.py:135 r2/lib/pages/pages.py:880 r2/templates/adminvault.html:33 r2/templates/adminvault.html:101
+#: r2/lib/menus.py:135 r2/lib/pages/pages.py:881 r2/templates/adminvault.html:33 r2/templates/adminvault.html:101
 msgid "moderators"
 msgstr "модератори"
 
@@ -2968,7 +2968,7 @@ msgstr "известни"
 msgid "create"
 msgstr "създаване"
 
-#: r2/lib/menus.py:158 r2/lib/pages/pages.py:2934
+#: r2/lib/menus.py:158 r2/lib/pages/pages.py:2939
 msgid "my vaults"
 msgstr "моите волти"
 
@@ -3030,11 +3030,11 @@ msgstr "защита от спам"
 msgid "live config"
 msgstr "жива конфигурация"
 
-#: r2/lib/menus.py:175 r2/lib/pages/pages.py:938 r2/templates/adminsupport.html:34
+#: r2/lib/menus.py:175 r2/lib/pages/pages.py:939 r2/templates/adminsupport.html:34
 msgid "support"
 msgstr "поддръжка"
 
-#: r2/lib/menus.py:176 r2/templates/adminuser.html:24 r2/templates/adminusers.html:22 r2/templates/prefoptions.html:350
+#: r2/lib/menus.py:176 r2/templates/adminuser.html:24 r2/templates/adminusers.html:22 r2/templates/prefoptions.html:356
 msgid "users"
 msgstr "потребители"
 
@@ -3046,7 +3046,7 @@ msgstr "API приложения"
 msgid "feeds"
 msgstr "емисии"
 
-#: r2/lib/menus.py:180 r2/templates/admindomain.html:22 r2/templates/admindomains.html:22 r2/templates/prefoptions.html:348
+#: r2/lib/menus.py:180 r2/templates/admindomain.html:22 r2/templates/admindomains.html:22 r2/templates/prefoptions.html:354
 msgid "domains"
 msgstr "домейни"
 
@@ -3668,7 +3668,7 @@ msgid_plural "links"
 msgstr[0] "връзка"
 msgstr[1] "връзки"
 
-#: r2/lib/pages/pages.py:1523 r2/lib/strings.py:263 r2/templates/messagecompose.html:101
+#: r2/lib/pages/pages.py:1524 r2/lib/strings.py:263 r2/templates/messagecompose.html:101
 msgid "message"
 msgid_plural "messages"
 msgstr[0] "съобщение"
@@ -3740,7 +3740,7 @@ msgid_plural "hours"
 msgstr[0] "час"
 msgstr[1] "часа"
 
-#: r2/lib/pages/pages.py:346 r2/lib/pages/pages.py:5696 r2/lib/strings.py:279 r2/public/static/js/sponsored.js:1477 r2/public/static/js/sponsored.js:1838 r2/templates/intimeoutinterstitial.html:44 r2/templates/tipprtraffic.html:104
+#: r2/lib/pages/pages.py:347 r2/lib/pages/pages.py:5701 r2/lib/strings.py:279 r2/public/static/js/sponsored.js:1484 r2/public/static/js/sponsored.js:1851 r2/templates/intimeoutinterstitial.html:44 r2/templates/tipprtraffic.html:104
 msgid "day"
 msgid_plural "days"
 msgstr[0] "ден"
@@ -4079,7 +4079,7 @@ msgstr "модератор на /v/%(tippr)s, говори официално"
 msgid "%(user)s just celebrated a tippr birthday!"
 msgstr "%(user)s току що празнува tippr рожденият си ден!"
 
-#: r2/lib/pages/pages.py:1340 r2/lib/template_helpers.py:771 r2/public/static/js/timetext.js:68
+#: r2/lib/pages/pages.py:1341 r2/lib/template_helpers.py:771 r2/public/static/js/timetext.js:68
 msgid "just now"
 msgstr "точно сега"
 
@@ -4111,483 +4111,483 @@ msgstr "IP адрес"
 msgid "user"
 msgstr "потребител"
 
-#: r2/lib/pages/pages.py:178
+#: r2/lib/pages/pages.py:179
 #, python-format
 msgid "%d %b %Y"
 msgstr "%d.%b.%Y"
 
-#: r2/lib/pages/pages.py:338
+#: r2/lib/pages/pages.py:339
 msgid "This site asks moderators and staff to use two-factor sign-in. Turn it on under [preferences, security](/prefs/security) to use your moderator tools."
 msgstr "Този сайт изисква от модераторите и персонала да използват двуфакторно влизане. Включи го в [настройки, сигурност](/prefs/security), за да използваш модераторските си инструменти."
 
-#: r2/lib/pages/pages.py:521
+#: r2/lib/pages/pages.py:522
 msgid "wiki tools"
 msgstr "wiki инструменти"
 
-#: r2/lib/pages/pages.py:647
+#: r2/lib/pages/pages.py:648
 msgid "moderation tools"
 msgstr "инструменти за модерация"
 
-#: r2/lib/pages/pages.py:715
+#: r2/lib/pages/pages.py:716
 msgid "these vaults"
 msgstr "тези vault-и"
 
-#: r2/lib/pages/pages.py:729
+#: r2/lib/pages/pages.py:730
 msgid "this vault is archived and no longer accepting submissions."
 msgstr "vault-ът е архивиран и вече не позволява публикации."
 
-#: r2/lib/pages/pages.py:731
+#: r2/lib/pages/pages.py:732
 msgid "Submissions disabled"
 msgstr "Публикуването деактивирано"
 
-#: r2/lib/pages/pages.py:738
+#: r2/lib/pages/pages.py:739
 msgid "Only approved users may post in this community."
 msgstr "Само одобрени потребители могат да публикуват в тази общност."
 
-#: r2/lib/pages/pages.py:741
+#: r2/lib/pages/pages.py:742
 msgid "Anyone can view or comment, but only Tippr Gold members can post in this community."
 msgstr "Всеки може да гледа и коментира, но само членове с Tippr Gold могат да публикуват в тази общност."
 
-#: r2/lib/pages/pages.py:744
+#: r2/lib/pages/pages.py:745
 msgid "Submissions restricted"
 msgstr "Публикуването ограничено"
 
-#: r2/lib/pages/pages.py:832
+#: r2/lib/pages/pages.py:833
 msgid "Create your own vault"
 msgstr "Създай собствен волт"
 
-#: r2/lib/pages/pages.py:856
+#: r2/lib/pages/pages.py:857
 #, python-format
 msgid "...and %d more"
 msgstr "и %d други"
 
-#: r2/lib/pages/pages.py:858
+#: r2/lib/pages/pages.py:859
 msgid "about moderation team"
 msgstr "за модераторския екип"
 
-#: r2/lib/pages/pages.py:863 r2/templates/contactus.html:60
+#: r2/lib/pages/pages.py:864 r2/templates/contactus.html:60
 msgid "message the admins"
 msgstr "изпрати съобщение на администраторите"
 
-#: r2/lib/pages/pages.py:865 r2/templates/privateinterstitial.html:50
+#: r2/lib/pages/pages.py:866 r2/templates/privateinterstitial.html:50
 msgid "message the moderators"
 msgstr "изпрати съобщение на модераторите"
 
-#: r2/lib/pages/pages.py:892
+#: r2/lib/pages/pages.py:893
 msgid "Recently viewed links"
 msgstr "Наскоро разгледани линкове"
 
-#: r2/lib/pages/pages.py:922
+#: r2/lib/pages/pages.py:923
 msgid "turn admin off"
 msgstr "изключи администратор"
 
-#: r2/lib/pages/pages.py:1144
+#: r2/lib/pages/pages.py:1145
 msgid "<3"
 msgstr "<3"
 
-#: r2/lib/pages/pages.py:1341 r2/templates/adminserverstatus.html:142
+#: r2/lib/pages/pages.py:1342 r2/templates/adminserverstatus.html:142
 #, python-format
 msgid "%(time)s ago"
 msgstr "преди %(time)s"
 
-#: r2/lib/pages/pages.py:1520
+#: r2/lib/pages/pages.py:1521
 #, python-format
 msgid "%(site)s mail"
 msgstr "%(site)s поща"
 
-#: r2/lib/pages/pages.py:1597
+#: r2/lib/pages/pages.py:1598
 msgid "sign up or log in"
 msgstr "регистрирай се или влез"
 
-#: r2/lib/pages/pages.py:1678
+#: r2/lib/pages/pages.py:1679
 msgid "request for permission"
 msgstr "заявка за достъп"
 
-#: r2/lib/pages/pages.py:1680
+#: r2/lib/pages/pages.py:1681
 msgid "permission"
 msgstr "права"
 
-#: r2/lib/pages/pages.py:1715 r2/templates/searchform.html:77
+#: r2/lib/pages/pages.py:1716 r2/templates/searchform.html:77
 msgid "enable NSFW results"
 msgstr "включи NSFW резултати"
 
-#: r2/lib/pages/pages.py:1738
+#: r2/lib/pages/pages.py:1739
 msgid "bummer"
 msgstr "кофти тръпка"
 
-#: r2/lib/pages/pages.py:1750
+#: r2/lib/pages/pages.py:1751
 msgid "this page is no longer available due to a copyright claim."
 msgstr "тази страница е недостъпна поради нарушаване на авторски права."
 
-#: r2/lib/pages/pages.py:1990
+#: r2/lib/pages/pages.py:1992
 msgid "comments disabled"
 msgstr "коментарите са изключени"
 
-#: r2/lib/pages/pages.py:2310
+#: r2/lib/pages/pages.py:2315
 #, python-format
 msgid "about %(site)s"
 msgstr "относно %(site)s"
 
-#: r2/lib/pages/pages.py:2333
+#: r2/lib/pages/pages.py:2338
 msgid "search vaults by name"
 msgstr "търси vault-и по име"
 
-#: r2/lib/pages/pages.py:2377
+#: r2/lib/pages/pages.py:2382
 #, python-format
 msgid "your front page vaults (%s)"
 msgstr "волтовете на началната ти страница (%s)"
 
-#: r2/lib/pages/pages.py:2465 r2/templates/createvault.html:460 r2/templates/spotlightlisting.html:63
+#: r2/lib/pages/pages.py:2470 r2/templates/createvault.html:460 r2/templates/spotlightlisting.html:63
 msgid "what's this?"
 msgstr "какво е това?"
 
-#: r2/lib/pages/pages.py:2466
+#: r2/lib/pages/pages.py:2471
 msgid "trophy case"
 msgstr "трофеи"
 
-#: r2/lib/pages/pages.py:2476
+#: r2/lib/pages/pages.py:2481
 msgid "public multivaults"
 msgstr "публични мултиредити"
 
-#: r2/lib/pages/pages.py:2483
+#: r2/lib/pages/pages.py:2488
 msgid "hidden multivaults"
 msgstr "скрити мултиреддити"
 
-#: r2/lib/pages/pages.py:2504
+#: r2/lib/pages/pages.py:2509
 msgid "moderator of"
 msgstr "модератор на"
 
-#: r2/lib/pages/pages.py:2568
+#: r2/lib/pages/pages.py:2573
 msgid "less than a day"
 msgstr "по-малко от ден"
 
-#: r2/lib/pages/pages.py:2581
+#: r2/lib/pages/pages.py:2586
 #, python-format
 msgid "Give Gold: %(coins)s month"
 msgid_plural "Give Gold: %(coins)s months"
 msgstr[0] "Подари злато: %(coins)s месец"
 msgstr[1] "Подари злато: %(coins)s месеца"
 
-#: r2/lib/pages/pages.py:2589
+#: r2/lib/pages/pages.py:2594
 #, python-format
 msgid "%(gildings)s gilding given out"
 msgid_plural "%(gildings)s gildings given out"
 msgstr[0] "%(gildings)s подарено злато"
 msgstr[1] "%(gildings)s подарени злата"
 
-#: r2/lib/pages/pages.py:2597
+#: r2/lib/pages/pages.py:2602
 #, python-format
 msgid "give tippr gold to %(user)s to show your appreciation"
 msgstr "дай tippr злато на %(user)s в знак на признателност"
 
-#: r2/lib/pages/pages.py:2601
+#: r2/lib/pages/pages.py:2606
 msgid "get extra features and help support tippr with a tippr gold subscription"
 msgstr "получи допълнителни функции и допринеси към tippr с абонамент за tippr злато"
 
-#: r2/lib/pages/pages.py:2605
+#: r2/lib/pages/pages.py:2610
 msgid "renew your tippr gold"
 msgstr "обнови своето tippr злато"
 
-#: r2/lib/pages/pages.py:2615
+#: r2/lib/pages/pages.py:2620
 #, python-format
 msgid "you have helped pay for *%(time)s* of tippr server time."
 msgstr "Вие помогнахте, плащайки за *%(time)s* сървърно време."
 
-#: r2/lib/pages/pages.py:2616
+#: r2/lib/pages/pages.py:2621
 #, python-format
 msgid "/u/%(user)s has helped pay for *%%(time)s* of tippr server time."
 msgstr "/u/%(user)s помогнаха, плащайки за *%%(time)s* сървърно време."
 
-#: r2/lib/pages/pages.py:2619
+#: r2/lib/pages/pages.py:2624
 #, python-format
 msgid "gifts on your behalf have helped pay for *%(time)s* of tippr server time."
 msgstr "Подаръците, закупени от вас, са помогнали да платят %(time)s сървър време."
 
-#: r2/lib/pages/pages.py:2621
+#: r2/lib/pages/pages.py:2626
 #, python-format
 msgid "gifts on behalf of /u/%(user)s have helped pay for *%%(time)s* of tippr server time."
 msgstr "Подаръците, закупени от /u/%(user)s са помогнали да платаят за %%(time)s tippr сървър време."
 
-#: r2/lib/pages/pages.py:2705
+#: r2/lib/pages/pages.py:2710
 msgid "tippr is a platform for internet communities"
 msgstr "tippr е платформа за интернет общности"
 
-#: r2/lib/pages/pages.py:2706
+#: r2/lib/pages/pages.py:2711
 msgid "where your votes shape what the world is talking about."
 msgstr "където твоя глас формира за какво говори света."
 
-#: r2/lib/pages/pages.py:3005 r2/lib/pages/pages.py:3115
+#: r2/lib/pages/pages.py:3010 r2/lib/pages/pages.py:3120
 msgid "add vault"
 msgstr "добави vault"
 
-#: r2/lib/pages/pages.py:3043
+#: r2/lib/pages/pages.py:3048
 #, python-format
 msgid "raise it to %s"
 msgstr "повиши го до %s"
 
-#: r2/lib/pages/pages.py:3045 r2/lib/pages/pages.py:3054
+#: r2/lib/pages/pages.py:3050 r2/lib/pages/pages.py:3059
 #, python-format
 msgid "%s visible"
 msgstr "%s видими"
 
-#: r2/lib/pages/pages.py:3052
+#: r2/lib/pages/pages.py:3057
 #, python-format
 msgid "%(bonus)s bonus vaults"
 msgstr "%(bonus)s бонус волти"
 
-#: r2/lib/pages/pages.py:3422
+#: r2/lib/pages/pages.py:3427
 #, python-format
 msgid "you have a credit card gold subscription. your card (ending in %(last4)s) will be charged %(amount)s on %(date)s."
 msgstr "имате златен абонамент на кредитна карта. Картата (която изтича на %(last4)s) ще бъде таксувана %(amount)s на %(date)s."
 
-#: r2/lib/pages/pages.py:3576
+#: r2/lib/pages/pages.py:3581
 msgid "try entering those letters again"
 msgstr "опитай да въведеш буквите отново"
 
-#: r2/lib/pages/pages.py:3655 r2/lib/pages/pages.py:6376 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
+#: r2/lib/pages/pages.py:3660 r2/lib/pages/pages.py:6381 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
 msgid "search"
 msgstr "търси"
 
-#: r2/lib/pages/pages.py:4299
+#: r2/lib/pages/pages.py:4304
 #, python-format
 msgid "not heard from for %(time)s"
 msgstr "без вест от %(time)s"
 
-#: r2/lib/pages/pages.py:4305
+#: r2/lib/pages/pages.py:4310
 #, python-format
 msgid "memory %(p)s%% used"
 msgstr "използвана памет %(p)s%%"
 
-#: r2/lib/pages/pages.py:4309
+#: r2/lib/pages/pages.py:4314
 #, python-format
 msgid "busy: load %(l)s on %(n)s CPUs"
 msgstr "натоварен: натоварване %(l)s на %(n)s процесора"
 
-#: r2/lib/pages/pages.py:4315
+#: r2/lib/pages/pages.py:4320
 #, python-format
 msgid "disk %(path)s %(p)s%% full"
 msgstr "диск %(path)s е пълен на %(p)s%%"
 
-#: r2/lib/pages/pages.py:4319
+#: r2/lib/pages/pages.py:4324
 #, python-format
 msgid "%(service)s is %(state)s"
 msgstr "%(service)s е %(state)s"
 
-#: r2/lib/pages/pages.py:4322
+#: r2/lib/pages/pages.py:4327
 msgid "a different version from the others"
 msgstr "различна версия от другите"
 
-#: r2/lib/pages/pages.py:4324
+#: r2/lib/pages/pages.py:4329
 msgid "another server has the same name: set TIPPR_SERVER_NAME on one of them"
 msgstr "друг сървър има същото име: задай TIPPR_SERVER_NAME на един от тях"
 
-#: r2/lib/pages/pages.py:4379
+#: r2/lib/pages/pages.py:4384
 #, python-format
 msgid "%(n)s seconds"
 msgstr "%(n)s секунди"
 
-#: r2/lib/pages/pages.py:4381
+#: r2/lib/pages/pages.py:4386
 #, python-format
 msgid "%(n)s minutes"
 msgstr "%(n)s минути"
 
-#: r2/lib/pages/pages.py:4383
+#: r2/lib/pages/pages.py:4388
 #, python-format
 msgid "%(n)s hours"
 msgstr "%(n)s часа"
 
-#: r2/lib/pages/pages.py:4384
+#: r2/lib/pages/pages.py:4389
 #, python-format
 msgid "%(n)s days"
 msgstr "%(n)s дни"
 
-#: r2/lib/pages/pages.py:4400
+#: r2/lib/pages/pages.py:4405
 msgid "polling"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4406
+#: r2/lib/pages/pages.py:4411
 msgid "off (no event collector)"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4612 r2/lib/pages/pages.py:4721
+#: r2/lib/pages/pages.py:4617 r2/lib/pages/pages.py:4726
 msgid "added"
 msgstr "Добавено"
 
-#: r2/lib/pages/pages.py:4680 r2/models/modaction.py:146 r2/templates/printablebuttons.html:608
+#: r2/lib/pages/pages.py:4685 r2/models/modaction.py:146 r2/templates/printablebuttons.html:608
 msgid "muted"
 msgstr "заглушен"
 
-#: r2/lib/pages/pages.py:4698
+#: r2/lib/pages/pages.py:4703
 msgid "invited"
 msgstr "поканен"
 
-#: r2/lib/pages/pages.py:4759
+#: r2/lib/pages/pages.py:4764
 msgid "grant flair"
 msgstr "разреши флеър"
 
-#: r2/lib/pages/pages.py:4761
+#: r2/lib/pages/pages.py:4766
 msgid "user flair templates"
 msgstr "шаблони за потребителски флеър"
 
-#: r2/lib/pages/pages.py:4763
+#: r2/lib/pages/pages.py:4768
 msgid "link flair templates"
 msgstr "шаблони за линк флеър"
 
-#: r2/lib/pages/pages.py:5135 r2/templates/adminuser.html:73 r2/templates/adminuser.html:98 r2/templates/adminuser.html:108 r2/templates/flairpane.html:79
+#: r2/lib/pages/pages.py:5140 r2/templates/adminuser.html:73 r2/templates/adminuser.html:98 r2/templates/adminuser.html:108 r2/templates/flairpane.html:79
 msgid "none"
 msgstr "николко"
 
-#: r2/lib/pages/pages.py:5266
+#: r2/lib/pages/pages.py:5271
 msgid "suggestions:"
 msgstr "Предложения:"
 
-#: r2/lib/pages/pages.py:5270
+#: r2/lib/pages/pages.py:5275
 #, python-format
 msgid "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/v/selfserve](%(selfserve)s)."
 msgstr "Създай рекламата си на тази страница. Имаш въпроси? Виж [Помощния център](%(help_center)s) или [/v/selfserve](%(selfserve)s)."
 
-#: r2/lib/pages/pages.py:5888
+#: r2/lib/pages/pages.py:5893
 msgid "start date"
 msgstr "дата на начало"
 
-#: r2/lib/pages/pages.py:5889
+#: r2/lib/pages/pages.py:5894
 msgid "end date"
 msgstr "дата на край"
 
-#: r2/lib/pages/pages.py:5891 r2/templates/createvault.html:266
+#: r2/lib/pages/pages.py:5896 r2/templates/createvault.html:266
 msgid "links"
 msgstr "линкове"
 
-#: r2/lib/pages/pages.py:5893 r2/lib/pages/pages.py:5912 r2/templates/adminpaymentsettings.html:239 r2/templates/promotedlinktraffic.html:42 r2/templates/timeserieschart.html:40
+#: r2/lib/pages/pages.py:5898 r2/lib/pages/pages.py:5917 r2/templates/adminpaymentsettings.html:239 r2/templates/promotedlinktraffic.html:42 r2/templates/timeserieschart.html:40
 msgid "date"
 msgstr "дата"
 
-#: r2/lib/pages/pages.py:5896 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
+#: r2/lib/pages/pages.py:5901 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
 msgid "id"
 msgstr "id"
 
-#: r2/lib/pages/pages.py:5896 r2/lib/pages/pages.py:5915 r2/templates/promotelinkbase.html:856
+#: r2/lib/pages/pages.py:5901 r2/lib/pages/pages.py:5920 r2/templates/promotelinkbase.html:856
 msgid "owner"
 msgstr "собственик"
 
-#: r2/lib/pages/pages.py:5896 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
+#: r2/lib/pages/pages.py:5901 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
 msgid "url"
 msgstr "УРЛ"
 
-#: r2/lib/pages/pages.py:5897
+#: r2/lib/pages/pages.py:5902
 msgid "upvotes"
 msgstr "гласове за"
 
-#: r2/lib/pages/pages.py:5897
+#: r2/lib/pages/pages.py:5902
 msgid "downvotes"
 msgstr "гласове против"
 
-#: r2/lib/pages/pages.py:5897 r2/lib/pages/trafficpages.py:351 r2/lib/pages/trafficpages.py:847 r2/templates/promotedlinktraffic.html:44 r2/templates/promotedlinktraffic.html:124
+#: r2/lib/pages/pages.py:5902 r2/lib/pages/trafficpages.py:351 r2/lib/pages/trafficpages.py:847 r2/templates/promotedlinktraffic.html:44 r2/templates/promotedlinktraffic.html:124
 msgid "clicks"
 msgstr "кликове"
 
-#: r2/lib/pages/pages.py:5897 r2/lib/pages/trafficpages.py:348 r2/lib/pages/trafficpages.py:472 r2/lib/pages/trafficpages.py:846 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
+#: r2/lib/pages/pages.py:5902 r2/lib/pages/trafficpages.py:348 r2/lib/pages/trafficpages.py:472 r2/lib/pages/trafficpages.py:846 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
 msgid "impressions"
 msgstr "виждания"
 
-#: r2/lib/pages/pages.py:5910
+#: r2/lib/pages/pages.py:5915
 msgid "campaigns"
 msgstr "кампании"
 
-#: r2/lib/pages/pages.py:5915
+#: r2/lib/pages/pages.py:5920
 msgid "link id"
 msgstr "ID връзка"
 
-#: r2/lib/pages/pages.py:5915
+#: r2/lib/pages/pages.py:5920
 msgid "campaign id"
 msgstr "номер на кампанията"
 
-#: r2/lib/pages/pages.py:5915 r2/templates/promotedlinktraffic.html:117 r2/templates/refundpage.html:56
+#: r2/lib/pages/pages.py:5920 r2/templates/promotedlinktraffic.html:117 r2/templates/refundpage.html:56
 msgid "target"
 msgstr "цел"
 
-#: r2/lib/pages/pages.py:5916 r2/templates/promotelinkedit.html:157
+#: r2/lib/pages/pages.py:5921 r2/templates/promotelinkedit.html:157
 msgid "bid"
 msgstr "залог"
 
-#: r2/lib/pages/pages.py:5916
+#: r2/lib/pages/pages.py:5921
 msgid "frontpage clicks"
 msgstr "кликове на началната страница"
 
-#: r2/lib/pages/pages.py:5916
+#: r2/lib/pages/pages.py:5921
 msgid "frontpage impressions"
 msgstr "виждания на началната страница"
 
-#: r2/lib/pages/pages.py:5917
+#: r2/lib/pages/pages.py:5922
 msgid "vault clicks"
 msgstr "кликове в волти"
 
-#: r2/lib/pages/pages.py:5917
+#: r2/lib/pages/pages.py:5922
 msgid "vault impressions"
 msgstr "виждания в волти"
 
-#: r2/lib/pages/pages.py:5918 r2/lib/pages/trafficpages.py:478
+#: r2/lib/pages/pages.py:5923 r2/lib/pages/trafficpages.py:478
 msgid "total clicks"
 msgstr "общ брой кликове"
 
-#: r2/lib/pages/pages.py:5918
+#: r2/lib/pages/pages.py:5923
 msgid "total impressions"
 msgstr "общо виждания"
 
-#: r2/lib/pages/pages.py:6121 r2/templates/accountactivitybox.html:27
+#: r2/lib/pages/pages.py:6126 r2/templates/accountactivitybox.html:27
 msgid "account activity"
 msgstr "акаунтна дейност"
 
-#: r2/lib/pages/pages.py:6253
+#: r2/lib/pages/pages.py:6258
 msgid "subscribed"
 msgstr "абониран"
 
-#: r2/lib/pages/pages.py:6254 r2/templates/preffeeds.html:58
+#: r2/lib/pages/pages.py:6259 r2/templates/preffeeds.html:58
 msgid "your front page"
 msgstr "твоята начална страница"
 
-#: r2/lib/pages/pages.py:6257 r2/lib/pages/pages.py:6262 r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:104
+#: r2/lib/pages/pages.py:6262 r2/lib/pages/pages.py:6267 r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:104
 msgid "everything"
 msgstr "всичко"
 
-#: r2/lib/pages/pages.py:6260 r2/lib/pages/pages.py:6263
+#: r2/lib/pages/pages.py:6265 r2/lib/pages/pages.py:6268
 msgid "from all vaults"
 msgstr "от всички vault-и"
 
-#: r2/lib/pages/pages.py:6265
+#: r2/lib/pages/pages.py:6270
 msgid "moderating"
 msgstr "модерирани"
 
-#: r2/lib/pages/pages.py:6266
+#: r2/lib/pages/pages.py:6271
 msgid "vaults you mod"
 msgstr "vault-и, които модерираш"
 
-#: r2/lib/pages/pages.py:6272
+#: r2/lib/pages/pages.py:6277
 msgid "gold perks"
 msgstr "предимства на златото"
 
-#: r2/lib/pages/pages.py:6288
+#: r2/lib/pages/pages.py:6293
 msgid "explore multis"
 msgstr "разгледай мултита"
 
-#: r2/lib/pages/pages.py:6374
+#: r2/lib/pages/pages.py:6379
 msgid "faq"
 msgstr "чзв"
 
-#: r2/lib/pages/pages.py:6375 r2/templates/usertext.html:121
+#: r2/lib/pages/pages.py:6380 r2/templates/usertext.html:121
 msgid "formatting"
 msgstr "форматиране"
 
-#: r2/lib/pages/pages.py:6444
+#: r2/lib/pages/pages.py:6449
 msgid "your subscribed vaults"
 msgstr "волтовете, за които си абониран"
 
-#: r2/lib/pages/pages.py:6557
+#: r2/lib/pages/pages.py:6562
 #, python-format
 msgid "this promoted link uses city level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "тази рекламна връзка използва набелязване на ниво градове и може да я виждате поради местоположението си. ([learn more](%(link)s))"
 
-#: r2/lib/pages/pages.py:6561
+#: r2/lib/pages/pages.py:6566
 #, python-format
 msgid "this promoted link uses country level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "тази промотирана връзка е насочена по държава и може да ти е показана заради местоположението ти. ([научи повече](%(link)s))"
@@ -4903,7 +4903,7 @@ msgstr "името на съществуваща страница или съз�
 msgid "the starting point revision for this edit"
 msgstr "начална точка за тази редакция"
 
-#: r2/models/admintools.py:291
+#: r2/models/admintools.py:301
 #, python-format
 msgid ""
 "[Click here for details on how to set up an automatically-renewing subscription or to renew.](/gold) If you have any thoughts, complaints, rants, suggestions about tippr gold, please contact us at %(gold_email)s. Your feedback would be much appreciated.\n"
@@ -4914,32 +4914,32 @@ msgstr ""
 "\n"
 "Благодарим ти за досегашната подкрепа."
 
-#: r2/models/admintools.py:312
+#: r2/models/admintools.py:322
 msgid "Your tippr gold subscription has expired."
 msgstr "Абонамента ти за tippr злато изтече."
 
-#: r2/models/admintools.py:313
+#: r2/models/admintools.py:323
 msgid "Your subscription to tippr gold has expired."
 msgstr "Абонамента ти за tippr злато изтече."
 
-#: r2/models/admintools.py:325
+#: r2/models/admintools.py:335
 msgid "Your tippr gold subscription is about to expire!"
 msgstr "Абонамента ти за tippr злато ще изтече!"
 
-#: r2/models/admintools.py:327
+#: r2/models/admintools.py:337
 msgid "Your subscription to tippr gold will be expiring soon."
 msgstr "Абонамента ти за tippr злато изтича скоро."
 
-#: r2/models/builder.py:308
+#: r2/models/builder.py:307
 msgid "a moderator"
 msgstr "модератор"
 
-#: r2/models/builder.py:311
+#: r2/models/builder.py:310
 #, python-format
 msgid "approved by %(who)s at %(when)s"
 msgstr "одобрено от %(who)s на %(when)s"
 
-#: r2/models/builder.py:315
+#: r2/models/builder.py:314
 #, python-format
 msgid "approved by %s"
 msgstr "одобрен от %s"
@@ -4990,130 +4990,130 @@ msgid_plural "tippr users have gifted %(months)d months of tippr gold to %(recip
 msgstr[0] "потребител подари tippr gold на %(recipient)s за тази публикация."
 msgstr[1] "потребители на tippr подариха %(months)d месеца tippr gold на %(recipient)s за тази публикация."
 
-#: r2/models/link.py:916
+#: r2/models/link.py:926
 #, python-format
 msgid "by %(author)s to %(tippr)s"
 msgstr "от %(author)s за %(tippr)s"
 
-#: r2/models/link.py:919 r2/templates/adminnotessidebar.html:50
+#: r2/models/link.py:929 r2/templates/adminnotessidebar.html:50
 #, python-format
 msgid "by %(author)s"
 msgstr "От %(author)s"
 
-#: r2/models/link.py:923
+#: r2/models/link.py:933
 #, python-format
 msgid "%(score)s submitted %(when)s %(lastedited)s"
 msgstr "%(score)s публикувано %(when)s %(lastedited)s"
 
-#: r2/models/link.py:927
+#: r2/models/link.py:937
 #, python-format
 msgid "submitted %(when)s %(lastedited)s by %(author)s to %(tippr)s"
 msgstr "публикувано %(when)s %(lastedited)s от %(author)s в %(tippr)s"
 
-#: r2/models/link.py:930
+#: r2/models/link.py:940
 #, python-format
 msgid "submitted %(when)s %(lastedited)s by %(author)s"
 msgstr "публикувано %(when)s %(lastedited)s от %(author)s"
 
-#: r2/models/link.py:935
+#: r2/models/link.py:945
 #, python-format
 msgid "%(score)s submitted %(when)s"
 msgstr "%(score)s публикувано %(when)s"
 
-#: r2/models/link.py:938
+#: r2/models/link.py:948
 #, python-format
 msgid "submitted %(when)s by %(author)s to %(tippr)s"
 msgstr "публикувано %(when)s от %(author)s в %(tippr)s"
 
-#: r2/models/link.py:941
+#: r2/models/link.py:951
 #, python-format
 msgid "submitted %(when)s by %(author)s"
 msgstr "публикувано %(when)s от %(author)s"
 
-#: r2/models/link.py:1809
+#: r2/models/link.py:1841
 #, python-format
 msgid "%(link)s by %(author)s [sponsored link]"
 msgstr "%(link)s от %(author)s [спонсорирана връзка]"
 
-#: r2/models/link.py:1811
+#: r2/models/link.py:1843
 #, python-format
 msgid "%(link)s by %(author)s in %(vault)s"
 msgstr "%(link)s от %(author)s в %(vault)s"
 
-#: r2/models/link.py:1838
+#: r2/models/link.py:1870
 msgid "comment score below threshold"
 msgstr "коментарът е под минималния резултат"
 
-#: r2/models/link.py:1843
+#: r2/models/link.py:1875
 msgid "blocked user"
 msgstr "блокиран потребител"
 
-#: r2/models/link.py:2372
+#: r2/models/link.py:2404
 msgid "comment reply"
 msgstr "отговор на коментар"
 
-#: r2/models/link.py:2374
+#: r2/models/link.py:2406
 msgid "post reply"
 msgstr "отзив за пост"
 
-#: r2/models/link.py:2376
+#: r2/models/link.py:2408
 msgid "username mention"
 msgstr "споменавания на потребителското име"
 
-#: r2/models/link.py:2380 r2/models/link.py:2441
+#: r2/models/link.py:2412 r2/models/link.py:2473
 #, python-format
 msgid "from %(author)s via %(vault)s sent %(when)s"
 msgstr "от %(author)s чрез %(vault)s, изпратено %(when)s"
 
-#: r2/models/link.py:2393
+#: r2/models/link.py:2425
 msgid "[message from blocked vault]"
 msgstr "[съобщение от блокиран волт]"
 
-#: r2/models/link.py:2414 r2/models/link.py:2419
+#: r2/models/link.py:2446 r2/models/link.py:2451
 #, python-format
 msgid "vault message via %(vault)s sent %(when)s"
 msgstr "съобщение от волт чрез %(vault)s, изпратено %(when)s"
 
-#: r2/models/link.py:2423 r2/models/link.py:2446
+#: r2/models/link.py:2455 r2/models/link.py:2478
 #, python-format
 msgid "to %(dest)s via %(vault)s sent %(when)s"
 msgstr "до %(dest)s чрез %(vault)s, изпратено %(when)s"
 
-#: r2/models/link.py:2427 r2/models/link.py:2452
+#: r2/models/link.py:2459 r2/models/link.py:2484
 #, python-format
 msgid "from %(author)s via %(vault)s to %(dest)s sent %(when)s"
 msgstr "от %(author)s чрез %(vault)s до %(dest)s, изпратено %(when)s"
 
-#: r2/models/link.py:2443
+#: r2/models/link.py:2475
 #, python-format
 msgid "to %(vault)s sent %(when)s"
 msgstr "до %(vault)s, изпратено %(when)s"
 
-#: r2/models/link.py:2449
+#: r2/models/link.py:2481
 #, python-format
 msgid "from %(author)s to %(vault)s sent %(when)s"
 msgstr "от %(author)s до %(vault)s, изпратено %(when)s"
 
-#: r2/models/link.py:2467
+#: r2/models/link.py:2499
 #, python-format
 msgid "from %(author)s sent %(when)s"
 msgstr "от %(author)s изпратено %(when)s"
 
-#: r2/models/link.py:2469
+#: r2/models/link.py:2501
 #, python-format
 msgid "to %(dest)s sent %(when)s"
 msgstr "до %(dest)s изпратено в %(when)s"
 
-#: r2/models/link.py:2472
+#: r2/models/link.py:2504
 #, python-format
 msgid "to %(dest)s from %(author)s sent %(when)s"
 msgstr "изпратено до %(dest)s от %(author)s %(when)s"
 
-#: r2/models/link.py:2495
+#: r2/models/link.py:2527
 msgid "[message from blocked user]"
 msgstr "[съобщение от блокиран потребител]"
 
-#: r2/models/link.py:2496
+#: r2/models/link.py:2528
 msgid "[unblock user to see this message]"
 msgstr "[деблокирайте потребителя за да видите това съобщение]"
 
@@ -6256,7 +6256,7 @@ msgstr "покажи всички дъщерни коментари"
 msgid "hide images"
 msgstr "скрий изображенията"
 
-#: r2/public/static/js/enhancements.js:458 r2/public/static/js/enhancements.js:523 r2/templates/prefoptions.html:265
+#: r2/public/static/js/enhancements.js:458 r2/public/static/js/enhancements.js:523 r2/templates/prefoptions.html:271
 msgid "show images"
 msgstr "покажи изображенията"
 
@@ -6370,7 +6370,7 @@ msgstr "с връзки"
 msgid "jump between"
 msgstr "прескачай между"
 
-#: r2/public/static/js/enhancements.js:974 r2/templates/prefoptions.html:309
+#: r2/public/static/js/enhancements.js:974 r2/templates/prefoptions.html:315
 msgid "comment navigator"
 msgstr "навигация в коментарите"
 
@@ -6407,7 +6407,7 @@ msgstr "още няма други профили"
 msgid "add an account"
 msgstr "добави профил"
 
-#: r2/public/static/js/enhancements.js:1082 r2/templates/adminemailsettings.html:69 r2/templates/adminprivacy.html:69 r2/templates/adminvault.html:68 r2/templates/linkedloginlink.html:39 r2/templates/login.html:77 r2/templates/login.html:86 r2/templates/login.html:197 r2/templates/loginformwide.html:44 r2/templates/password.html:41 r2/templates/privacysettings.html:124 r2/templates/register.html:77 r2/templates/register.html:86 r2/templates/register.html:197 r2/templates/userlisting.html:164
+#: r2/public/static/js/enhancements.js:1082 r2/templates/adminemailsettings.html:69 r2/templates/adminprivacy.html:69 r2/templates/adminvault.html:68 r2/templates/linkedloginlink.html:39 r2/templates/login.html:77 r2/templates/login.html:86 r2/templates/login.html:197 r2/templates/loginformwide.html:44 r2/templates/password.html:41 r2/templates/privacysettings.html:124 r2/templates/userlisting.html:164
 msgid "username"
 msgstr "потребителско име"
 
@@ -6415,7 +6415,7 @@ msgstr "потребителско име"
 msgid "add and switch"
 msgstr "добави и превключи"
 
-#: r2/public/static/js/enhancements.js:1100 r2/templates/linkedloginotp.html:35 r2/templates/newlink.html:155 r2/templates/prefoptions.html:613 r2/templates/prefsecurity.html:37 r2/templates/prefsecurity.html:104 r2/templates/prefsecurity.html:242 r2/templates/prefupdate.html:33 r2/templates/privacysettings.html:133
+#: r2/public/static/js/enhancements.js:1100 r2/templates/linkedloginotp.html:35 r2/templates/newlink.html:155 r2/templates/prefoptions.html:619 r2/templates/prefsecurity.html:37 r2/templates/prefsecurity.html:104 r2/templates/prefsecurity.html:242 r2/templates/prefupdate.html:33 r2/templates/privacysettings.html:133
 msgid "two-factor code"
 msgstr "двуфакторен код"
 
@@ -6531,23 +6531,23 @@ msgstr "Трябва да си влязъл, за да публикуваш."
 msgid "You need to be logged in to do that."
 msgstr "Трябва да си влязъл, за да направиш това."
 
-#: r2/public/static/js/login.js:286
+#: r2/public/static/js/login.js:293
 msgid "try using our secure login form."
 msgstr "влезте с нашия сигурен логин"
 
-#: r2/public/static/js/login.js:328
+#: r2/public/static/js/login.js:335
 msgid "Password is strong"
 msgstr "Паролата е силна"
 
-#: r2/public/static/js/login.js:330
+#: r2/public/static/js/login.js:337
 msgid "Password is good"
 msgstr "Паролата е добра"
 
-#: r2/public/static/js/login.js:332
+#: r2/public/static/js/login.js:339
 msgid "Password is fair"
 msgstr "Паролата е приемлива"
 
-#: r2/public/static/js/login.js:334
+#: r2/public/static/js/login.js:341
 msgid "Password is weak"
 msgstr "Паролата е слаба"
 
@@ -6639,23 +6639,23 @@ msgstr "няма нищо за преглед"
 msgid "preview failed"
 msgstr "прегледът не успя"
 
-#: r2/public/static/js/multi.js:509
+#: r2/public/static/js/multi.js:525
 msgid "awesomeness goes here"
 msgstr "готини неща тук"
 
-#: r2/public/static/js/multi.js:510
+#: r2/public/static/js/multi.js:526
 msgid "add a vault to your multi."
 msgstr "добави vault към своето мулти."
 
-#: r2/public/static/js/multi.js:563
+#: r2/public/static/js/multi.js:579
 msgid "categorize"
 msgstr "категоризирай"
 
-#: r2/public/static/js/multi.js:579
+#: r2/public/static/js/multi.js:596
 msgid "open this multi"
 msgstr "отвори този мулти"
 
-#: r2/public/static/js/multi.js:583
+#: r2/public/static/js/multi.js:600
 msgid "create a new multi"
 msgstr "създай ново мулти"
 
@@ -6749,7 +6749,7 @@ msgstr "Сподели с:"
 msgid "Link:"
 msgstr "Връзка:"
 
-#: r2/public/static/js/post-sharing.js:101 r2/public/static/js/post-sharing.js:333 r2/templates/multiinfobar.html:51 r2/templates/multiinfobar.html:85
+#: r2/public/static/js/post-sharing.js:101 r2/public/static/js/post-sharing.js:335 r2/templates/multiinfobar.html:51 r2/templates/multiinfobar.html:85
 msgid "copy"
 msgstr "копирай"
 
@@ -6779,32 +6779,32 @@ msgstr "откажи"
 msgid "sent!"
 msgstr "изпратено!"
 
-#: r2/public/static/js/post-sharing.js:295
+#: r2/public/static/js/post-sharing.js:296
 msgid "Your Mastodon server (for example mastodon.social):"
 msgstr "Твоят Mastodon сървър (например mastodon.social):"
 
-#: r2/public/static/js/post-sharing.js:302
+#: r2/public/static/js/post-sharing.js:303
 msgid "That doesn't look like a server name."
 msgstr "Това не прилича на име на сървър."
 
-#: r2/public/static/js/post-sharing.js:332
+#: r2/public/static/js/post-sharing.js:334
 msgid "copied!"
 msgstr "копирано!"
 
-#: r2/public/static/js/post-sharing.js:513
+#: r2/public/static/js/post-sharing.js:515
 #, python-format
 msgid "Share to %(name)s"
 msgstr "Сподели в %(name)s"
 
-#: r2/public/static/js/post-sharing.js:524
+#: r2/public/static/js/post-sharing.js:528
 msgid "More ways to share"
 msgstr "Още начини за споделяне"
 
-#: r2/public/static/js/post-sharing.js:542
+#: r2/public/static/js/post-sharing.js:546
 msgid "Email to a Friend"
 msgstr "Изпрати на приятел по имейл"
 
-#: r2/public/static/js/post-sharing.js:549
+#: r2/public/static/js/post-sharing.js:553
 msgid "Private Message a Friend on Tippr"
 msgstr "Изпрати лично съобщение на приятел в Tippr"
 
@@ -6828,98 +6828,98 @@ msgstr "нова категория"
 msgid "+ close"
 msgstr "+ затвори"
 
-#: r2/public/static/js/sponsored.js:299
+#: r2/public/static/js/sponsored.js:303
 msgid "Please confirm the details of your campaign"
 msgstr "Потвърди подробностите за кампанията си"
 
-#: r2/public/static/js/sponsored.js:302
+#: r2/public/static/js/sponsored.js:306
 #, python-format
 msgid "your budget must be at least $%(minBudgetDollars)s"
 msgstr "бюджетът ти трябва да е поне $%(minBudgetDollars)s"
 
-#: r2/public/static/js/sponsored.js:306
+#: r2/public/static/js/sponsored.js:310
 #, python-format
 msgid "your budget must not exceed $%(maxBudgetDollars)s"
 msgstr "бюджетът ти не трябва да надхвърля $%(maxBudgetDollars)s"
 
-#: r2/public/static/js/sponsored.js:313
+#: r2/public/static/js/sponsored.js:317
 msgid "Your campaign must be capable of claiming at least 1,000 impressions per day. Please adjust your bid, budget, or schedule in order to enable this."
 msgstr "Кампанията ти трябва да може да получава поне 1000 импресии на ден. Промени офертата, бюджета или графика си, за да е възможно това."
 
-#: r2/public/static/js/sponsored.js:317
+#: r2/public/static/js/sponsored.js:321
 #, python-format
 msgid "your bid must be at least $%(minBid)s"
 msgstr "офертата ти трябва да е поне $%(minBid)s"
 
-#: r2/public/static/js/sponsored.js:321
+#: r2/public/static/js/sponsored.js:325
 #, python-format
 msgid "your bid must not exceed $%(maxBid)s"
 msgstr "офертата ти не трябва да надхвърля $%(maxBid)s"
 
-#: r2/public/static/js/sponsored.js:339 r2/public/static/js/sponsored.js:364 r2/public/static/js/sponsored.js:391
+#: r2/public/static/js/sponsored.js:343 r2/public/static/js/sponsored.js:368 r2/public/static/js/sponsored.js:395
 msgid "the campaign you requested is available!"
 msgstr "кампанията, която поиска, е налична!"
 
-#: r2/public/static/js/sponsored.js:343 r2/public/static/js/sponsored.js:381
+#: r2/public/static/js/sponsored.js:347 r2/public/static/js/sponsored.js:385
 #, python-format
 msgid "the maximum budget available is $%(totalBudgetDollars)s (%(impressions)s impressions)"
 msgstr "максималният наличен бюджет е $%(totalBudgetDollars)s (%(impressions)s импресии)"
 
-#: r2/public/static/js/sponsored.js:354
+#: r2/public/static/js/sponsored.js:358
 #, python-format
 msgid "we expect to only have %(available)s impressions on %(target)s. we may not fully deliver."
 msgstr "очакваме да имаме само %(available)s импресии в %(target)s. може да не изпълним изцяло."
 
-#: r2/public/static/js/sponsored.js:373
+#: r2/public/static/js/sponsored.js:377
 #, python-format
 msgid "want to maximize your campaign? for only $%(difference)s more you can buy all available inventory for your selected dates!"
 msgstr "искаш ли да увеличиш кампанията си? само за $%(difference)s повече можеш да купиш цялия наличен обем за избраните дати!"
 
-#: r2/public/static/js/sponsored.js:397
+#: r2/public/static/js/sponsored.js:401
 msgid "the campaign you requested is too small! this campaign is available:"
 msgstr "кампанията, която поиска, е твърде малка! налична е тази кампания:"
 
-#: r2/public/static/js/sponsored.js:405
+#: r2/public/static/js/sponsored.js:409
 msgid "the campaign you requested is too small!"
 msgstr "кампанията, която поиска, е твърде малка!"
 
-#: r2/public/static/js/sponsored.js:414
+#: r2/public/static/js/sponsored.js:418
 msgid "the campaign you requested is too big! the largest campaign available is:"
 msgstr "кампанията, която поиска, е твърде голяма! най-голямата налична кампания е:"
 
-#: r2/public/static/js/sponsored.js:440
+#: r2/public/static/js/sponsored.js:444
 #, python-format
 msgid "we have insufficient available inventory targeting %(target)s to fulfill your requested dates. the following campaigns are available:"
 msgstr "нямаме достатъчно наличен обем с насочване към %(target)s за поисканите дати. налични са следните кампании:"
 
-#: r2/public/static/js/sponsored.js:453
+#: r2/public/static/js/sponsored.js:457
 #, python-format
 msgid "inventory for %(target)s is sold out for your requested dates. please try a different target or different dates."
 msgstr "обемът за %(target)s е разпродаден за поисканите дати. опитай с друго насочване или други дати."
 
-#: r2/public/static/js/sponsored.js:1001
+#: r2/public/static/js/sponsored.js:1005
 msgid "house campaigns, man."
 msgstr "вътрешни кампании, човече."
 
-#: r2/public/static/js/sponsored.js:1014
+#: r2/public/static/js/sponsored.js:1018
 #, python-format
 msgid "maximum possible impressions: %(impressions)s"
 msgstr "максимален възможен брой импресии: %(impressions)s"
 
-#: r2/public/static/js/sponsored.js:1060
+#: r2/public/static/js/sponsored.js:1064
 msgid "sorry, there was an error retrieving available impressions. please try again later."
 msgstr "за съжаление имаше проблем при показването на възможните впечатления. моля, опитайте отново, по-късно."
 
-#: r2/public/static/js/sponsored.js:1477 r2/public/static/js/sponsored.js:1838
+#: r2/public/static/js/sponsored.js:1484 r2/public/static/js/sponsored.js:1851
 msgid "days"
 msgstr "дни"
 
-#: r2/public/static/js/sponsored.js:1483
+#: r2/public/static/js/sponsored.js:1490
 #, python-format
 msgid "$%(cpm)s per 1,000 impressions"
 msgstr "$%(cpm)s на 1000 виждания"
 
-#: r2/public/static/js/sponsored.js:2051
+#: r2/public/static/js/sponsored.js:2065
 msgid "Created new campaign!"
 msgstr "Създадена е нова кампания!"
 
@@ -6958,20 +6958,20 @@ msgid_plural "%(num)s minutes ago"
 msgstr[0] "преди една минута"
 msgstr[1] "преди %(num)s минути"
 
-#: r2/public/static/js/tippr.js:112
+#: r2/public/static/js/tippr.js:116
 msgid "please wait a few seconds and try again."
 msgstr "моля, изчакайте няколко секунди и опитайте отново."
 
-#: r2/public/static/js/tippr.js:114 r2/public/static/js/ui.js:665
+#: r2/public/static/js/tippr.js:118 r2/public/static/js/ui.js:665
 #, python-format
 msgid "an error occurred (status: %(status)s)"
 msgstr "възникна грешка (причина: %(status)s)"
 
-#: r2/public/static/js/traffic.js:11
+#: r2/public/static/js/traffic.js:12
 msgid "view vault traffic"
 msgstr "вижте трафика на vault-а"
 
-#: r2/public/static/js/traffic.js:13 r2/templates/adminuser.html:210 r2/templates/flairlist.html:34 r2/templates/userlisting.html:170
+#: r2/public/static/js/traffic.js:14 r2/templates/adminuser.html:210 r2/templates/flairlist.html:34 r2/templates/userlisting.html:170
 msgid "go"
 msgstr "отиди"
 
@@ -7024,27 +7024,27 @@ msgstr "Ще питаме, преди да покажем NSFW медия."
 msgid "Click to see NSFW"
 msgstr "Натисни, за да видиш NSFW"
 
-#: r2/public/static/js/expando/nsfwflow.js:111
+#: r2/public/static/js/expando/nsfwflow.js:112
 msgid "Always show NSFW media?"
 msgstr "Винаги ли да се показва NSFW медия?"
 
-#: r2/public/static/js/expando/nsfwflow.js:112
+#: r2/public/static/js/expando/nsfwflow.js:113
 msgid "Ok, we changed your preferences to always show NSFW media."
 msgstr "Добре, променихме настройките ти да показват винаги NSFW медия."
 
-#: r2/public/static/js/expando/nsfwflow.js:113
+#: r2/public/static/js/expando/nsfwflow.js:114
 msgid "Undo"
 msgstr "Отмени"
 
-#: r2/public/static/js/expando/nsfwflow.js:116
+#: r2/public/static/js/expando/nsfwflow.js:118
 msgid "Your account is set up to always show this content in the future."
 msgstr "Профилът ти е настроен занапред винаги да показва това съдържание."
 
-#: r2/public/static/js/expando/nsfwflow.js:117
+#: r2/public/static/js/expando/nsfwflow.js:119
 msgid "Change your preferences to hide NSFW media?"
 msgstr "Да променим ли настройките ти, за да се скрива NSFW медия?"
 
-#: r2/public/static/js/expando/nsfwflow.js:118
+#: r2/public/static/js/expando/nsfwflow.js:120
 msgid "Hide NSFW"
 msgstr "Скрий NSFW"
 
@@ -7351,7 +7351,7 @@ msgstr "присъединил се"
 msgid "karma"
 msgstr "карма"
 
-#: r2/templates/adminantispam.html:182 r2/templates/adminuser.html:68 r2/templates/adminusers.html:77 r2/templates/login.html:110 r2/templates/newsletter.html:58 r2/templates/newsletterbar.html:43 r2/templates/prefupdate.html:85 r2/templates/register.html:110
+#: r2/templates/adminantispam.html:182 r2/templates/adminuser.html:68 r2/templates/adminusers.html:77 r2/templates/login.html:110 r2/templates/newsletter.html:58 r2/templates/newsletterbar.html:43 r2/templates/prefupdate.html:85
 msgid "email"
 msgstr "имейл"
 
@@ -7457,7 +7457,7 @@ msgstr "(без име)"
 msgid "(the site's own)"
 msgstr "(собствено на сайта)"
 
-#: r2/templates/adminapps.html:93 r2/templates/admindomain.html:85 r2/templates/admindomains.html:44 r2/templates/adminfeeds.html:132 r2/templates/adminsupport.html:83 r2/templates/adminsupport.html:88 r2/templates/adminsupportactivity.html:77 r2/templates/adminsupportticket.html:106 r2/templates/adminsupportticket.html:119 r2/templates/adminsupportticket.html:157 r2/templates/adminuser.html:43 r2/templates/adminuser.html:53 r2/templates/adminuser.html:61 r2/templates/adminuser.html:266 r2/templates/adminuser.html:298 r2/templates/adminusers.html:83 r2/templates/adminvault.html:40 r2/templates/adminvault.html:50 r2/templates/adminvaults.html:57 r2/templates/comment.htmllite:49 r2/templates/commentvisitsbox.html:41
+#: r2/templates/adminapps.html:93 r2/templates/admindomain.html:85 r2/templates/admindomains.html:44 r2/templates/adminfeeds.html:132 r2/templates/adminuser.html:43 r2/templates/adminuser.html:53 r2/templates/adminuser.html:61 r2/templates/adminuser.html:266 r2/templates/adminuser.html:298 r2/templates/adminusers.html:83 r2/templates/adminvault.html:40 r2/templates/adminvault.html:50 r2/templates/adminvaults.html:57 r2/templates/comment.htmllite:49 r2/templates/commentvisitsbox.html:41
 msgid "ago"
 msgstr "преди"
 
@@ -8059,33 +8059,39 @@ msgstr "месеци"
 msgid "Are you one of us?"
 msgstr "Ти от нашите ли си?"
 
-#: r2/templates/admininterstitial.html:42
+#: r2/templates/admininterstitial.html:43
+#, fuzzy
+#| msgid "update your password"
+msgid "Enter your password"
+msgstr "обнови паролата си"
+
+#: r2/templates/admininterstitial.html:45
 msgid "Enter your password and one-time code"
 msgstr "Въведи паролата си и еднократния код"
 
-#: r2/templates/admininterstitial.html:52 r2/templates/admininterstitial.html:66 r2/templates/prefsecurity.html:237 r2/templates/prefsecurity.html:242 r2/templates/prefsecurity.html:300 r2/templates/prefupdate.html:33 r2/templates/prefupdate.html:56 r2/templates/prefupdate.html:117 r2/templates/useriphistory.html:74
+#: r2/templates/admininterstitial.html:56 r2/templates/admininterstitial.html:70 r2/templates/prefsecurity.html:237 r2/templates/prefsecurity.html:242 r2/templates/prefsecurity.html:300 r2/templates/prefupdate.html:33 r2/templates/prefupdate.html:56 r2/templates/prefupdate.html:117 r2/templates/useriphistory.html:74
 msgid "(required)"
 msgstr "(изискано)"
 
-#: r2/templates/admininterstitial.html:64
+#: r2/templates/admininterstitial.html:68
 msgid "This computer is remembered, so you don't need a one-time code."
 msgstr ""
 
-#: r2/templates/admininterstitial.html:66
+#: r2/templates/admininterstitial.html:70
 msgid "one-time verification code"
 msgstr "еднократен код за потвърждение"
 
-#: r2/templates/admininterstitial.html:73
+#: r2/templates/admininterstitial.html:77
 msgid "remember this computer"
 msgstr "запомни ме"
 
-#: r2/templates/admininterstitial.html:90
+#: r2/templates/admininterstitial.html:94
 #, fuzzy
 #| msgid "forget this account"
 msgid "forget this computer"
 msgstr "забрави този профил"
 
-#: r2/templates/admininterstitial.html:91
+#: r2/templates/admininterstitial.html:95
 msgid "Asks for a one-time code again next time, here and anywhere else this computer was remembered for."
 msgstr ""
 
@@ -10116,7 +10122,7 @@ msgstr "само за злато"
 msgid "only tippr gold members can view and submit"
 msgstr "само членове с tippr gold могат да виждат и публикуват"
 
-#: r2/templates/createvault.html:188 r2/templates/prefoptions.html:456
+#: r2/templates/createvault.html:188 r2/templates/prefoptions.html:462
 msgid "content options"
 msgstr "опции за съдържанието"
 
@@ -10217,11 +10223,15 @@ msgid "other options"
 msgstr "други опции"
 
 #: r2/templates/createvault.html:326
-msgid "viewers must be over eighteen years old"
-msgstr "гледащите трябва да имат 18 години"
+#, fuzzy
+#| msgid "toggle viewers must be over 18"
+msgid "NSFW: viewers must be 18 or older"
+msgstr "превключване посетителите трябва да са над 18"
 
 #: r2/templates/createvault.html:338
-msgid "allow this vault to be included /v/all as well as the default and trending lists"
+#, fuzzy
+#| msgid "allow this vault to be included /v/all as well as the default and trending lists"
+msgid "allow this vault to be included in /v/all as well as the default and trending lists"
 msgstr "позволи този волт да се включва в /v/all, както и в списъците по подразбиране и популярните"
 
 #: r2/templates/createvault.html:350
@@ -10345,7 +10355,7 @@ msgstr "цвят"
 msgid "used as a thematic color for your vault on mobile"
 msgstr "използва се като тематичен цвят на волта ти на мобилни устройства"
 
-#: r2/templates/createvault.html:669 r2/templates/flairpane.html:91 r2/templates/prefoptions.html:616
+#: r2/templates/createvault.html:669 r2/templates/flairpane.html:91 r2/templates/prefoptions.html:622
 msgid "save options"
 msgstr "запази настройките"
 
@@ -11121,23 +11131,23 @@ msgstr "Нов си тук? Създай профил"
 msgid "It's linked to your %(provider)s account, so signing in with %(provider)s is enough from now on. The password lets you log in without it too."
 msgstr "Свързан е с профила ти в %(provider)s, така че отсега нататък е достатъчно да влизаш с %(provider)s. Паролата ти позволява да влизаш и без него."
 
-#: r2/templates/linkedloginlink.html:50 r2/templates/login.html:81 r2/templates/register.html:81
+#: r2/templates/linkedloginlink.html:50 r2/templates/login.html:81
 msgid "choose a username"
 msgstr "избери потребителско име"
 
-#: r2/templates/linkedloginlink.html:60 r2/templates/login.html:103 r2/templates/login.html:106 r2/templates/login.html:234 r2/templates/prefupdate.html:132 r2/templates/register.html:103 r2/templates/register.html:106 r2/templates/register.html:234 r2/templates/resetpassword.html:48
+#: r2/templates/linkedloginlink.html:60 r2/templates/login.html:103 r2/templates/login.html:106 r2/templates/login.html:234 r2/templates/prefupdate.html:132 r2/templates/resetpassword.html:48
 msgid "verify password"
 msgstr "Потвърдете паролата."
 
-#: r2/templates/linkedloginlink.html:62 r2/templates/login.html:114 r2/templates/register.html:114
+#: r2/templates/linkedloginlink.html:62 r2/templates/login.html:114
 msgid "email (optional)"
 msgstr "имейл (по избор)"
 
-#: r2/templates/linkedloginlink.html:70 r2/templates/login.html:138 r2/templates/register.html:138
+#: r2/templates/linkedloginlink.html:70 r2/templates/login.html:138
 msgid "type the letters from the image"
 msgstr "въведи буквите от изображението"
 
-#: r2/templates/linkedloginlink.html:77 r2/templates/login.html:122 r2/templates/login.html:249 r2/templates/loginformwide.html:52 r2/templates/register.html:122 r2/templates/register.html:249
+#: r2/templates/linkedloginlink.html:77 r2/templates/login.html:122 r2/templates/login.html:249 r2/templates/loginformwide.html:52
 msgid "remember me"
 msgstr "запомни ме"
 
@@ -11285,77 +11295,77 @@ msgstr "Тази публикация е заключена от модерат�
 msgid "New comments can no longer be added."
 msgstr "Вече не могат да се добавят нови коментари."
 
-#: r2/templates/login.html:42 r2/templates/register.html:42
+#: r2/templates/login.html:42
 msgid "You are logged in. Go use the site!"
 msgstr "Влязъл си. Хайде, използвай сайта!"
 
-#: r2/templates/login.html:46 r2/templates/register.html:46
+#: r2/templates/login.html:46
 msgid "You need to login to do that."
 msgstr "Трябва да влезеш, за да направиш това."
 
-#: r2/templates/login.html:110 r2/templates/login.html:212 r2/templates/register.html:110 r2/templates/register.html:212
+#: r2/templates/login.html:110 r2/templates/login.html:212
 msgid "optional"
 msgstr "незадължително"
 
-#: r2/templates/login.html:158 r2/templates/register.html:158
+#: r2/templates/login.html:158
 msgid "get the best of tippr emailed to you once a week."
 msgstr "получавай най-доброто от tippr по имейл веднъж седмично."
 
-#: r2/templates/login.html:159 r2/templates/register.html:159 r2/templates/welcomebar.html:32
+#: r2/templates/login.html:159 r2/templates/welcomebar.html:32
 msgid "learn more"
 msgstr "научете още"
 
-#: r2/templates/login.html:166 r2/templates/login.html:262 r2/templates/register.html:166 r2/templates/register.html:262
+#: r2/templates/login.html:166 r2/templates/login.html:262
 msgid "sign up"
 msgstr "регистрирай се"
 
-#: r2/templates/login.html:202 r2/templates/register.html:202
+#: r2/templates/login.html:202
 msgid "try another"
 msgstr "пробвай друг"
 
-#: r2/templates/login.html:203 r2/templates/register.html:203
+#: r2/templates/login.html:203
 msgid "available!"
 msgstr "свободно!"
 
-#: r2/templates/login.html:212 r2/templates/register.html:212
+#: r2/templates/login.html:212
 msgid "account recovery email"
 msgstr "имейл за възстановяване на акаунта"
 
-#: r2/templates/login.html:216 r2/templates/register.html:216
+#: r2/templates/login.html:216
 msgid "we only send email at your request"
 msgstr "изпращаме email само по ваша молба"
 
-#: r2/templates/login.html:255 r2/templates/register.html:255
+#: r2/templates/login.html:255
 msgid "recover password"
 msgstr "възстанови парола"
 
-#: r2/templates/login.html:284 r2/templates/register.html:284
+#: r2/templates/login.html:284
 msgid "create a new account"
 msgstr "създаване на нов потребител"
 
-#: r2/templates/login.html:289 r2/templates/register.html:289
+#: r2/templates/login.html:289
 msgid "This site isn't taking new accounts right now."
 msgstr "Този сайт не приема нови профили в момента."
 
-#: r2/templates/login.html:291 r2/templates/register.html:291
+#: r2/templates/login.html:291
 #, python-format
 msgid "To ask about an account, write to %(address)s."
 msgstr "За въпрос относно профил пиши на %(address)s."
 
-#: r2/templates/login.html:302 r2/templates/register.html:302
+#: r2/templates/login.html:302
 #, python-format
 msgid "By signing up, you agree to our %(terms)s and that you have read our %(privacy_policy)s and %(content_policy)s."
 msgstr "С регистрацията се съгласяваш с нашите %(terms)s и потвърждаваш, че си прочел нашите %(privacy_policy)s и %(content_policy)s."
 
-#: r2/templates/login.html:303 r2/templates/register.html:303
+#: r2/templates/login.html:303
 msgid "Terms"
 msgstr "Условия"
 
-#: r2/templates/login.html:304 r2/templates/privacysettings.html:99 r2/templates/register.html:304 r2/templates/tipprfooter.html:50
+#: r2/templates/login.html:304 r2/templates/privacysettings.html:99 r2/templates/tipprfooter.html:50
 msgid "Privacy Policy"
 msgstr "Политика за поверителност"
 
-#: r2/templates/login.html:305 r2/templates/register.html:305 r2/templates/tipprfooter.html:54
+#: r2/templates/login.html:305 r2/templates/tipprfooter.html:54
 msgid "Content Policy"
 msgstr "Политика за съдържанието"
 
@@ -12028,485 +12038,495 @@ msgstr "направи (по-)безопасно за работа "
 msgid "(Don't show thumbnails next to anything labeled NSFW)"
 msgstr "(Не показвай миниатюри до нищо, отбелязано като NSFW)"
 
-#: r2/templates/prefoptions.html:194
+#: r2/templates/prefoptions.html:192
+#, fuzzy
+#| msgid "show the spotlight box on the front page"
+msgid "show NSFW posts on the front page and /v/all"
+msgstr "показвай полето с акценти на началната страница"
+
+#: r2/templates/prefoptions.html:195
+msgid "(they're always shown in their own vaults)"
+msgstr ""
+
+#: r2/templates/prefoptions.html:200
 msgid "link options"
 msgstr "връзки"
 
-#: r2/templates/prefoptions.html:197
+#: r2/templates/prefoptions.html:203
 msgid "show the spotlight box on the front page"
 msgstr "показвай полето с акценти на началната страница"
 
-#: r2/templates/prefoptions.html:200
+#: r2/templates/prefoptions.html:206
 msgid "(it shows new and promoted links, and gives you a say in what's spam and what isn't.)"
 msgstr "(показва нови и промотирани линкове и ти дава възможност да определяш кое е спам и кое не е.)"
 
-#: r2/templates/prefoptions.html:204
+#: r2/templates/prefoptions.html:210
 msgid "show trending vaults on the front page"
 msgstr "показвай популярни волти на началната страница"
 
-#: r2/templates/prefoptions.html:207
+#: r2/templates/prefoptions.html:213
 msgid "(a list of popular and notable vaults to check out)"
 msgstr "(списък с популярни и забележителни волти, които да разгледаш)"
 
-#: r2/templates/prefoptions.html:212
+#: r2/templates/prefoptions.html:218
 msgid "show multivaults in the side panel"
 msgstr "показвай мултиволтовете в страничния панел"
 
-#: r2/templates/prefoptions.html:215
+#: r2/templates/prefoptions.html:221
 msgid "(your sets of vaults to view together, and the form to make one)"
 msgstr "(твоите набори от волти за общо разглеждане и формата за създаване на такъв)"
 
-#: r2/templates/prefoptions.html:218
+#: r2/templates/prefoptions.html:224
 msgid "show me links I've recently viewed"
 msgstr "показвай последно видяни връзки"
 
-#: r2/templates/prefoptions.html:219
+#: r2/templates/prefoptions.html:225
 msgid "compress the link display"
 msgstr "компресирай показването на връзките"
 
-#: r2/templates/prefoptions.html:220
+#: r2/templates/prefoptions.html:226
 msgid "show additional details in the domain text when available"
 msgstr "покажи допълнителна налична информация в текста на домейна"
 
-#: r2/templates/prefoptions.html:223
+#: r2/templates/prefoptions.html:229
 msgid "(such as the source vault or the content author's url/name)"
 msgstr "(като например vault източника или url/name името на автора на съдържанието)"
 
-#: r2/templates/prefoptions.html:226
+#: r2/templates/prefoptions.html:232
 msgid "don't show me submissions after I've upvoted them"
 msgstr "не ми показвай публикации, след като съм им дал положителен глас"
 
-#: r2/templates/prefoptions.html:228 r2/templates/prefoptions.html:232
+#: r2/templates/prefoptions.html:234 r2/templates/prefoptions.html:238
 msgid "(except my own)"
 msgstr "(освен моите)"
 
-#: r2/templates/prefoptions.html:230
+#: r2/templates/prefoptions.html:236
 msgid "don't show me submissions after I've downvoted them"
 msgstr "не ми показвай публикации, след като съм им дал отрицателен глас"
 
-#: r2/templates/prefoptions.html:235
+#: r2/templates/prefoptions.html:241
 #, python-format
 msgid "display %(num)s links at once"
 msgstr "показвай %(num)s връзки наведнъж"
 
-#: r2/templates/prefoptions.html:242
+#: r2/templates/prefoptions.html:248
 #, python-format
 msgid "don't show me submissions with a score less than %(num)s"
 msgstr "не ми показвай публикации с резултат под %(num)s"
 
-#: r2/templates/prefoptions.html:243
+#: r2/templates/prefoptions.html:249
 msgid "(leave blank to show all submissions)"
 msgstr "(остави празно, за да се показват всички публикации)"
 
-#: r2/templates/prefoptions.html:248
+#: r2/templates/prefoptions.html:254
 msgid "enhancements"
 msgstr "подобрения"
 
-#: r2/templates/prefoptions.html:251
+#: r2/templates/prefoptions.html:257
 msgid "infinite scroll"
 msgstr "безкрайно превъртане"
 
-#: r2/templates/prefoptions.html:254
+#: r2/templates/prefoptions.html:260
 msgid "(load the next page of a listing when you reach the bottom)"
 msgstr "(зарежда следващата страница на списък, когато стигнеш дъното)"
 
-#: r2/templates/prefoptions.html:258
+#: r2/templates/prefoptions.html:264
 msgid "keyboard navigation"
 msgstr "навигация с клавиатура"
 
-#: r2/templates/prefoptions.html:261
+#: r2/templates/prefoptions.html:267
 msgid "(j and k move between posts and comments, a and z vote; press ? on any page for the full list)"
 msgstr "(j и k местят между публикации и коментари, a и z гласуват; натисни ? на която и да е страница за пълния списък)"
 
-#: r2/templates/prefoptions.html:268
+#: r2/templates/prefoptions.html:274
 msgid "(a button on posts that link to an image to show it in the listing, and a \"show images\" link to show them all)"
 msgstr "(бутон на публикации с връзка към изображение, за да се покаже в списъка, и връзка „покажи изображенията“, за да се покажат всички)"
 
-#: r2/templates/prefoptions.html:272
+#: r2/templates/prefoptions.html:278
 msgid "expand images automatically"
 msgstr "разгъвай изображенията автоматично"
 
-#: r2/templates/prefoptions.html:274
+#: r2/templates/prefoptions.html:280
 msgid "(except NSFW and spoiler posts)"
 msgstr "(освен NSFW и публикации със спойлер)"
 
-#: r2/templates/prefoptions.html:277
+#: r2/templates/prefoptions.html:283
 msgid "user tags"
 msgstr "етикети на потребители"
 
-#: r2/templates/prefoptions.html:280
+#: r2/templates/prefoptions.html:286
 msgid "(a tag button by usernames, to note who someone is; only you see your tags)"
 msgstr "(бутон за етикет до потребителските имена, за да отбележиш кой е някой; само ти виждаш етикетите си)"
 
-#: r2/templates/prefoptions.html:284
+#: r2/templates/prefoptions.html:290
 msgid "user info on hover"
 msgstr "информация за потребителя при посочване"
 
-#: r2/templates/prefoptions.html:286
+#: r2/templates/prefoptions.html:292
 msgid "(hold the mouse over a username to see their karma, how long they've been here and your tag)"
 msgstr "(задръж мишката над потребителско име, за да видиш кармата му, откога е тук и етикета си)"
 
-#: r2/templates/prefoptions.html:289
+#: r2/templates/prefoptions.html:295
 msgid "show the parent comment on hover"
 msgstr "показвай родителския коментар при посочване"
 
-#: r2/templates/prefoptions.html:291
+#: r2/templates/prefoptions.html:297
 msgid "(hold the mouse over a reply's \"parent\" link to read the comment it replies to)"
 msgstr "(задръж мишката над връзката „родител“ на отговор, за да прочетеш коментара, на който отговаря)"
 
-#: r2/templates/prefoptions.html:294
+#: r2/templates/prefoptions.html:300
 msgid "count new comments"
 msgstr "брой новите коментари"
 
-#: r2/templates/prefoptions.html:296
+#: r2/templates/prefoptions.html:302
 msgid "(\"3 new\" by posts you've opened before, and the new comments highlighted when you go back; remembered in this browser)"
 msgstr "(„3 нови“ до публикации, които си отварял преди, и открояване на новите коментари, когато се върнеш; запомня се в този браузър)"
 
-#: r2/templates/prefoptions.html:299
+#: r2/templates/prefoptions.html:305
 msgid "posts you've opened:"
 msgstr "публикации, които си отварял:"
 
-#: r2/templates/prefoptions.html:301
+#: r2/templates/prefoptions.html:307
 msgid "show as usual"
 msgstr "показвай както обикновено"
 
-#: r2/templates/prefoptions.html:301
+#: r2/templates/prefoptions.html:307
 msgid "fade them"
 msgstr "избледнявай ги"
 
-#: r2/templates/prefoptions.html:301
+#: r2/templates/prefoptions.html:307
 msgid "hide them"
 msgstr "скривай ги"
 
-#: r2/templates/prefoptions.html:306
+#: r2/templates/prefoptions.html:312
 msgid "(remembered in this browser)"
 msgstr "(запомня се в този браузър)"
 
-#: r2/templates/prefoptions.html:311
+#: r2/templates/prefoptions.html:317
 msgid "(on comments pages, buttons to jump between top-level comments, the submitter's, yours, new ones or ones with links)"
 msgstr "(на страниците с коментари, бутони за прескачане между коментари от най-горно ниво, тези на автора, твоите, новите или тези с връзки)"
 
-#: r2/templates/prefoptions.html:315
+#: r2/templates/prefoptions.html:321
 #, fuzzy
 #| msgid "top-level comments"
 msgid "live comments"
 msgstr "коментари от най-горно ниво"
 
-#: r2/templates/prefoptions.html:317
+#: r2/templates/prefoptions.html:323
 msgid "(new comments appear on a thread while you have it open, in vaults that use them)"
 msgstr ""
 
-#: r2/templates/prefoptions.html:321
+#: r2/templates/prefoptions.html:327
 msgid "account switcher"
 msgstr "превключване на профили"
 
-#: r2/templates/prefoptions.html:323
+#: r2/templates/prefoptions.html:329
 msgid "(a \"switch account\" menu by your name, to move between your accounts without logging out; logging out forgets them)"
 msgstr "(меню „смени профила“ до името ти, за да минаваш между профилите си, без да излизаш; излизането ги забравя)"
 
-#: r2/templates/prefoptions.html:326
+#: r2/templates/prefoptions.html:332
 msgid "night mode"
 msgstr "нощен режим"
 
-#: r2/templates/prefoptions.html:328
+#: r2/templates/prefoptions.html:334
 msgid "(light text on a dark background)"
 msgstr "(светъл текст на тъмен фон)"
 
-#: r2/templates/prefoptions.html:331
+#: r2/templates/prefoptions.html:337
 msgid "hide child comments links"
 msgstr "връзки за скриване на дъщерните коментари"
 
-#: r2/templates/prefoptions.html:334
+#: r2/templates/prefoptions.html:340
 msgid "(on comments pages, links to fold up the replies under each comment, or all of them at once)"
 msgstr "(на страниците с коментари, връзки за свиване на отговорите под всеки коментар или на всички наведнъж)"
 
-#: r2/templates/prefoptions.html:340
+#: r2/templates/prefoptions.html:346
 msgid "filters"
 msgstr "филтри"
 
-#: r2/templates/prefoptions.html:343
+#: r2/templates/prefoptions.html:349
 msgid "Posts that match are left out of listings (never your own). One per line, or separated by commas."
 msgstr "Съвпадащите публикации се изключват от списъците (никога твоите). По един на ред или разделени със запетаи."
 
-#: r2/templates/prefoptions.html:347
+#: r2/templates/prefoptions.html:353
 msgid "title keywords"
 msgstr "ключови думи в заглавието"
 
-#: r2/templates/prefoptions.html:347
+#: r2/templates/prefoptions.html:353
 msgid "whole words or phrases, in any case"
 msgstr "цели думи или фрази, без значение от главни и малки букви"
 
-#: r2/templates/prefoptions.html:348
+#: r2/templates/prefoptions.html:354
 msgid "example.com also hides its subdomains"
 msgstr "example.com скрива и поддомейните си"
 
-#: r2/templates/prefoptions.html:349
+#: r2/templates/prefoptions.html:355
 msgid "still shown when you visit the vault itself"
 msgstr "пак се показват, когато посетиш самия волт"
 
-#: r2/templates/prefoptions.html:350
+#: r2/templates/prefoptions.html:356
 msgid "only hides their posts; to stop seeing them altogether, block them"
 msgstr "скрива само публикациите им; за да спреш да ги виждаш изобщо, блокирай ги"
 
-#: r2/templates/prefoptions.html:363
+#: r2/templates/prefoptions.html:369
 msgid "comment options"
 msgstr "коментари"
 
-#: r2/templates/prefoptions.html:366
+#: r2/templates/prefoptions.html:372
 #, python-format
 msgid "sort comments by %(sort)s"
 msgstr "подреждай коментарите по %(sort)s"
 
-#: r2/templates/prefoptions.html:369
+#: r2/templates/prefoptions.html:375
 msgid "ignore suggested sorts"
 msgstr "пренебрегвай препоръчаните подреждания"
 
-#: r2/templates/prefoptions.html:370
+#: r2/templates/prefoptions.html:376
 msgid "(suggested sorts may be set by community moderators for specific threads or vaults, like Q&As)"
 msgstr "(препоръчаните подреждания може да се задават от модераторите на общността за определени нишки или волтове, като въпроси и отговори)"
 
-#: r2/templates/prefoptions.html:373
+#: r2/templates/prefoptions.html:379
 msgid "show a dagger (†) on comments voted controversial"
 msgstr "показвай кама (†) на коментари, гласувани като спорни"
 
-#: r2/templates/prefoptions.html:374
+#: r2/templates/prefoptions.html:380
 msgid "(a controversial comment is one that's been both upvoted and downvoted significantly)"
 msgstr "(спорен коментар е такъв, който е получил значително както положителни, така и отрицателни гласове)"
 
-#: r2/templates/prefoptions.html:381
+#: r2/templates/prefoptions.html:387
 #, python-format
 msgid "don't show me comments with a score less than %(num)s"
 msgstr "не показвай коментари с резултат по-малък от %(num)s"
 
-#: r2/templates/prefoptions.html:382
+#: r2/templates/prefoptions.html:388
 msgid "(leave blank to show all comments)"
 msgstr "(остави празно, за да се показват всички коментари)"
 
-#: r2/templates/prefoptions.html:390
+#: r2/templates/prefoptions.html:396
 #, python-format
 msgid "display %(num)s comments by default"
 msgstr "показвай %(num)s коментара по подразбиране"
 
-#: r2/templates/prefoptions.html:395
+#: r2/templates/prefoptions.html:401
 msgid "the smaller the number, the faster your comments pages will load"
 msgstr "колкото по-малко числото, толкова по-бързо ще ви зареждат страниците с коментари"
 
-#: r2/templates/prefoptions.html:400
+#: r2/templates/prefoptions.html:406
 msgid "messaging options"
 msgstr "опции за събощения"
 
-#: r2/templates/prefoptions.html:402
+#: r2/templates/prefoptions.html:408
 msgid "show message conversations in the inbox"
 msgstr "покажи разговори от съобщения във входящата кутия"
 
-#: r2/templates/prefoptions.html:405
+#: r2/templates/prefoptions.html:411
 msgid "(only applies when you go to the 'messages' panel)"
 msgstr "(важи само когато отидете в панела 'съобщения')"
 
-#: r2/templates/prefoptions.html:409
+#: r2/templates/prefoptions.html:415
 msgid "collapse messages after I've read them"
 msgstr "скрий съобщенията след като съм ги прочел/а"
 
-#: r2/templates/prefoptions.html:412
+#: r2/templates/prefoptions.html:418
 msgid "(otherwise, you'll have to collapse them yourself)"
 msgstr "(иначе, ще трябва сами да ги скривате)"
 
-#: r2/templates/prefoptions.html:416
+#: r2/templates/prefoptions.html:422
 msgid "mark messages as read when I open my inbox"
 msgstr "маркирай съобщенията като прочетени като си влезна във входящата кутия"
 
-#: r2/templates/prefoptions.html:419
+#: r2/templates/prefoptions.html:425
 msgid "(otherwise, they will be marked as read when you click them)"
 msgstr "(иначе, ще бъдат прочетени само след като ги отворите)"
 
-#: r2/templates/prefoptions.html:422
+#: r2/templates/prefoptions.html:428
 msgid "notify me when people say my username"
 msgstr "известявай ме, когато другите ме споменават"
 
-#: r2/templates/prefoptions.html:425
+#: r2/templates/prefoptions.html:431
 msgid "send messages as emails"
 msgstr "изпращай съобщенията като имейли"
 
-#: r2/templates/prefoptions.html:425
+#: r2/templates/prefoptions.html:431
 msgid "requires a verified email"
 msgstr "изисква потвърден имейл"
 
-#: r2/templates/prefoptions.html:428
+#: r2/templates/prefoptions.html:434
 msgid "enable threaded modmail display"
 msgstr "включи показването на модераторската поща на нишки"
 
-#: r2/templates/prefoptions.html:432 r2/templates/widgetdemopanel.html:201
+#: r2/templates/prefoptions.html:438 r2/templates/widgetdemopanel.html:201
 msgid "display options"
 msgstr "показване"
 
-#: r2/templates/prefoptions.html:434
+#: r2/templates/prefoptions.html:440
 msgid "allow vaults to show me custom themes"
 msgstr "позволи на волтовете да ми показват собствени теми"
 
-#: r2/templates/prefoptions.html:437
+#: r2/templates/prefoptions.html:443
 msgid "(you can also choose which vault themes to disable on an individual level)"
 msgstr "(можеш също да избереш кои теми на волтове да изключиш поотделно)"
 
-#: r2/templates/prefoptions.html:441
+#: r2/templates/prefoptions.html:447
 msgid "show user flair"
 msgstr "покажи потребителския флеър"
 
-#: r2/templates/prefoptions.html:443
+#: r2/templates/prefoptions.html:449
 msgid "show link flair"
 msgstr "показвай линк флеър"
 
-#: r2/templates/prefoptions.html:446
+#: r2/templates/prefoptions.html:452
 msgid "show self-serve advertising tab on front page"
 msgstr "показвай раздела за реклама на самообслужване на началната страница"
 
-#: r2/templates/prefoptions.html:451
+#: r2/templates/prefoptions.html:457
 msgid "show legacy search page"
 msgstr "показвай старата страница за търсене"
 
-#: r2/templates/prefoptions.html:458
+#: r2/templates/prefoptions.html:464
 msgid "I am over eighteen years old and willing to view adult content"
 msgstr "Аз съм над 18 години и искам да виждам съдържанието за възрастни"
 
-#: r2/templates/prefoptions.html:459
+#: r2/templates/prefoptions.html:465
 msgid "required to view some vaults"
 msgstr "необходим, за да разглеждаш някои волти"
 
-#: r2/templates/prefoptions.html:461
+#: r2/templates/prefoptions.html:467
 msgid "label posts that are not safe for work (NSFW)"
 msgstr "лепни етикет на постове, които са опасни за работа (ОЗР)"
 
-#: r2/templates/prefoptions.html:464
+#: r2/templates/prefoptions.html:470
 msgid "posts labelled as made with AI:"
 msgstr "публикации с етикет, че са създадени с AI:"
 
-#: r2/templates/prefoptions.html:473
+#: r2/templates/prefoptions.html:479
 msgid "posts in vaults that are for AI content are always shown there"
 msgstr "публикациите във волтове за AI съдържание винаги се показват там"
 
-#: r2/templates/prefoptions.html:475
+#: r2/templates/prefoptions.html:481
 msgid "enable private RSS feeds"
 msgstr "позволи частни RSS фийдове"
 
-#: r2/templates/prefoptions.html:477
+#: r2/templates/prefoptions.html:483
 msgid "(available from the 'RSS feed' tab in prefs)"
 msgstr "(достъпно от 'RSS фийд' в предпочитания)"
 
-#: r2/templates/prefoptions.html:480
+#: r2/templates/prefoptions.html:486
 msgid "privacy options"
 msgstr "поверителност"
 
-#: r2/templates/prefoptions.html:482
+#: r2/templates/prefoptions.html:488
 msgid "make my votes public"
 msgstr "направи гласуването ми публично"
 
-#: r2/templates/prefoptions.html:489
+#: r2/templates/prefoptions.html:495
 #, python-format
 msgid "let everyone see %(link1)s and %(link2)s"
 msgstr "позволи на всички да виждат %(link1)s и %(link2)s"
 
-#: r2/templates/prefoptions.html:492
+#: r2/templates/prefoptions.html:498
 msgid "don't allow search engines to index my user profile"
 msgstr "не позволявай на търсачки да индексират профила ми"
 
-#: r2/templates/prefoptions.html:502
+#: r2/templates/prefoptions.html:508
 msgid "optional analytics cookies, which help the site's admins see how it's used (see the privacy policy):"
 msgstr ""
 
-#: r2/templates/prefoptions.html:503 r2/templates/utils.html:546
+#: r2/templates/prefoptions.html:509 r2/templates/utils.html:546
 #, fuzzy
 #| msgid "Allow"
 msgid "allow"
 msgstr "позволи"
 
-#: r2/templates/prefoptions.html:504 r2/templates/utils.html:547
+#: r2/templates/prefoptions.html:510 r2/templates/utils.html:547
 msgid "don't allow"
 msgstr ""
 
-#: r2/templates/prefoptions.html:505
+#: r2/templates/prefoptions.html:511
 msgid "kept with your account, on every device you sign in on"
 msgstr ""
 
-#: r2/templates/prefoptions.html:511
+#: r2/templates/prefoptions.html:517
 msgid "beta options"
 msgstr "бета настройки"
 
-#: r2/templates/prefoptions.html:513
+#: r2/templates/prefoptions.html:519
 msgid "I would like to beta test features for tippr"
 msgstr "Искам да тествам бета функции на tippr"
 
-#: r2/templates/prefoptions.html:519
+#: r2/templates/prefoptions.html:525
 #, python-format
 msgid "by enabling you'll be subscribed to %(beta_vault_link)s automatically."
 msgstr "ако включиш това, ще бъдеш абониран автоматично за %(beta_vault_link)s."
 
-#: r2/templates/prefoptions.html:521
+#: r2/templates/prefoptions.html:527
 #, python-brace-format
 msgid "details on the /v/{beta_vault} wiki"
 msgstr "подробности в уикито на /v/{beta_vault}"
 
-#: r2/templates/prefoptions.html:530 r2/templates/prefoptions.html:553
+#: r2/templates/prefoptions.html:536 r2/templates/prefoptions.html:559
 msgid "gold options"
 msgstr "опции за злато"
 
-#: r2/templates/prefoptions.html:532
+#: r2/templates/prefoptions.html:538
 msgid "hide ads"
 msgstr "скрий рекламите"
 
-#: r2/templates/prefoptions.html:534
+#: r2/templates/prefoptions.html:540
 msgid "remember what links I've visited"
 msgstr "запомни кои връзки съм посещавал/а"
 
-#: r2/templates/prefoptions.html:535
+#: r2/templates/prefoptions.html:541
 msgid "we'll remember and mark what links you've already read, even between computers"
 msgstr "ще помним и отбелязваме кои връзки вече си прочел, дори между различни компютри"
 
-#: r2/templates/prefoptions.html:537 r2/templates/prefoptions.html:555
+#: r2/templates/prefoptions.html:543 r2/templates/prefoptions.html:561
 msgid "highlight new comments"
 msgstr "маркирай нови коментари"
 
-#: r2/templates/prefoptions.html:539
+#: r2/templates/prefoptions.html:545
 msgid "we'll remember your visits for 48 hours and show you which comments you haven't seen yet"
 msgstr "ще ви запомним посещенията за 48 часа и ще ви покажем коментарите, които все още не сте видяли"
 
-#: r2/templates/prefoptions.html:542
+#: r2/templates/prefoptions.html:548
 msgid "show gold expiration"
 msgstr "показвай изтичането на златото"
 
-#: r2/templates/prefoptions.html:544
+#: r2/templates/prefoptions.html:550
 msgid "show how much gold you have remaining on your userpage"
 msgstr "показвай на потребителската си страница колко злато ти остава"
 
-#: r2/templates/prefoptions.html:548
+#: r2/templates/prefoptions.html:554
 #, python-format
 msgid "use a month of my %(coin_link)s to automatically renew my gold if it expires"
 msgstr "използвай месец от моето %(coin_link)s, за да се поднови автоматично златото ми, ако изтече"
 
-#: r2/templates/prefoptions.html:558
+#: r2/templates/prefoptions.html:564
 #, python-format
 msgid "since you don't have %(gold_link)s, this will only apply in vaults you moderate"
 msgstr "тъй като нямаш %(gold_link)s, това ще важи само във волтовете, които модерираш"
 
-#: r2/templates/prefoptions.html:566
+#: r2/templates/prefoptions.html:572
 msgid "tippr themes"
 msgstr "теми на tippr"
 
-#: r2/templates/prefoptions.html:570
+#: r2/templates/prefoptions.html:576
 msgid "tippr themes change the appearance of tippr.  They are used anywhere another custom theme is not present."
 msgstr "Темите на tippr променят облика на tippr. Използват се навсякъде, където няма друга собствена тема."
 
-#: r2/templates/prefoptions.html:574
+#: r2/templates/prefoptions.html:580
 msgid "Note: For security reasons this page will not be changed by themes"
 msgstr "Забележка: От съображения за сигурност тази страница няма да се променя от темите"
 
-#: r2/templates/prefoptions.html:578
+#: r2/templates/prefoptions.html:584
 msgid "use tippr theme"
 msgstr "използвай темата на tippr"
 
-#: r2/templates/prefoptions.html:579
+#: r2/templates/prefoptions.html:585
 msgid "hover to preview"
 msgstr "посочи за преглед"
 
-#: r2/templates/prefoptions.html:598
+#: r2/templates/prefoptions.html:604
 msgid "warning: use non-featured themes at your own risk"
 msgstr "внимание: използвай непрепоръчани теми на свой риск"
 
