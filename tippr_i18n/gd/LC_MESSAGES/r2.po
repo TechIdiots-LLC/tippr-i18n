@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tippr\n"
 "Report-Msgid-Bugs-To: https://github.com/TechIdiots-LLC/tippr-i18n/issues\n"
-"POT-Creation-Date: 2026-10-24 09:58-0400\n"
+"POT-Creation-Date: 2026-10-24 11:24-0400\n"
 "PO-Revision-Date: 2017-04-24 19:31-0400\n"
 "Last-Translator: tippr translators\n"
 "Language-Team: Scottish Gaelic\n"
@@ -1263,7 +1263,7 @@ msgstr "aonta a' chleachdaiche"
 msgid "privacy policy"
 msgstr "am poileasaidh prìobhaideachd"
 
-#: r2/controllers/policies.py:73 r2/controllers/policies.py:92 r2/lib/menus.py:100 r2/lib/pages/pages.py:6390 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:193
+#: r2/controllers/policies.py:73 r2/controllers/policies.py:92 r2/lib/menus.py:100 r2/lib/pages/pages.py:6390 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:237
 msgid "content policy"
 msgstr "poileasaidh na susbainte"
 
@@ -2517,7 +2517,7 @@ msgstr "impressions gach mìos"
 msgid "clicks by month"
 msgstr "briogaidhean gach mìos"
 
-#: r2/lib/jsontemplates.py:743 r2/templates/link.xml:65 r2/templates/usertext.html:169
+#: r2/lib/jsontemplates.py:743 r2/templates/link.xml:65 r2/templates/usertext.html:213
 msgid "[removed]"
 msgstr "[air a thoirt air falbh]"
 
@@ -3445,8 +3445,8 @@ msgid "You may also want to check the [search help page](%(search_help)s) for mo
 msgstr "Dh'fhaoidte gum faigh thu barrachd fiosrachaidh air [duilleag na cobharach](%(search_help)s) cuideachd."
 
 #: r2/lib/strings.py:120
-msgid "tippr uses a slightly-customized version of [Markdown](http://daringfireball.net/projects/markdown/syntax) for formatting. See below for some basics, or check [the formatting help](/help/formatting) for more detailed help and solutions to common issues."
-msgstr "Cleachdaidh tippr tionndadh beagan gnàthaichte de [Markdown](http://daringfireball.net/projects/markdown/syntax) airson fòrmatadh. Faic gu h-ìosal airson nam bunaitean, no thoir sùil air [cobhair an fhòrmataidh](/help/formatting) airson cobhair nas mionaidiche is fuasglaidhean do dhuilgheadasan cumanta."
+msgid "Formatting uses [Markdown](https://commonmark.org), with a few additions. The basics are below, and [the formatting help](/help/formatting) has the rest."
+msgstr ""
 
 #: r2/lib/strings.py:121
 msgid "Tippr is in \"emergency read-only mode\" right now. :( You won't be able to log in. We're sorry and are working frantically to fix the problem."
@@ -3666,7 +3666,7 @@ msgstr[1] "phuing"
 msgstr[2] "puingean"
 msgstr[3] "puing"
 
-#: r2/lib/strings.py:261 r2/templates/link.xml:93 r2/templates/promotelinkbase.html:101 r2/templates/usertext.html:127
+#: r2/lib/strings.py:261 r2/templates/link.xml:93 r2/templates/promotelinkbase.html:101 r2/templates/usertext.html:166
 msgid "link"
 msgid_plural "links"
 msgstr[0] "cheangal"
@@ -4616,7 +4616,7 @@ msgstr "rùraich na multis"
 msgid "faq"
 msgstr "ceistean cumanta"
 
-#: r2/lib/pages/pages.py:6380 r2/templates/usertext.html:121
+#: r2/lib/pages/pages.py:6380 r2/templates/usertext.html:159
 msgid "formatting"
 msgstr "fòrmatadh"
 
@@ -6217,7 +6217,7 @@ msgstr "'S urrainnear am paramadair seo atharrachadh às dèidh an leabachaidh."
 msgid "Copy this code and paste it into your website:"
 msgstr "Dèan lethbhreac dhen chòd seo is cuir san làrach-lìn agad e:"
 
-#: r2/public/static/js/enhancements.js:87 r2/public/static/js/markdown-toolbar.js:243
+#: r2/public/static/js/enhancements.js:87 r2/public/static/js/markdown-toolbar.js:275
 msgid "loading…"
 msgstr "ga luchdadh…"
 
@@ -6651,59 +6651,75 @@ msgstr "nithean"
 msgid "symbols"
 msgstr "samhlaidhean"
 
-#: r2/public/static/js/markdown-toolbar.js:92
+#: r2/public/static/js/markdown-toolbar.js:107
 msgid "bold text"
 msgstr "teacsa trom"
 
-#: r2/public/static/js/markdown-toolbar.js:93
+#: r2/public/static/js/markdown-toolbar.js:108
 msgid "italic text"
 msgstr "teacsa eadailteach"
 
-#: r2/public/static/js/markdown-toolbar.js:94
+#: r2/public/static/js/markdown-toolbar.js:109
 msgid "struck text"
 msgstr "teacsa air a stialladh"
 
-#: r2/public/static/js/markdown-toolbar.js:95 r2/templates/usertext.html:125
+#: r2/public/static/js/markdown-toolbar.js:110 r2/templates/usertext.html:163
 msgid "superscript"
 msgstr "os-sgrìobhte"
 
-#: r2/public/static/js/markdown-toolbar.js:96 r2/templates/usertext.html:101 r2/templates/usertext.html:102 r2/templates/usertext.html:131
+#: r2/public/static/js/markdown-toolbar.js:111 r2/templates/usertext.html:60 r2/templates/usertext.html:61 r2/templates/usertext.html:164
 msgid "spoiler"
 msgstr "milleadh"
 
-#: r2/public/static/js/markdown-toolbar.js:102 r2/templates/usertext.html:129
+#: r2/public/static/js/markdown-toolbar.js:117 r2/public/static/js/markdown-toolbar.js:120 r2/templates/usertext.html:64 r2/templates/usertext.html:65 r2/templates/usertext.html:169
 msgid "code"
 msgstr "còd"
 
-#: r2/public/static/js/markdown-toolbar.js:105 r2/templates/usertext.html:70 r2/templates/usertext.html:71
+#: r2/public/static/js/markdown-toolbar.js:121 r2/public/static/js/markdown-toolbar.js:128 r2/templates/usertext.html:76 r2/templates/usertext.html:77 r2/templates/usertext.html:167
+#, fuzzy
+#| msgid "pending"
+msgid "heading"
+msgstr "ri dhèanamh"
+
+#: r2/public/static/js/markdown-toolbar.js:122 r2/templates/usertext.html:116 r2/templates/usertext.html:117
 msgid "quoted text"
 msgstr "teacsa an iomraidh"
 
-#: r2/public/static/js/markdown-toolbar.js:106 r2/templates/usertext.html:57 r2/templates/usertext.html:58 r2/templates/usertext.html:59 r2/templates/usertext.html:63 r2/templates/usertext.html:64 r2/templates/usertext.html:65
+#: r2/public/static/js/markdown-toolbar.js:123 r2/public/static/js/markdown-toolbar.js:124 r2/templates/usertext.html:81 r2/templates/usertext.html:82 r2/templates/usertext.html:86 r2/templates/usertext.html:87 r2/templates/usertext.html:93 r2/templates/usertext.html:94 r2/templates/usertext.html:98 r2/templates/usertext.html:99
 msgid "item"
 msgstr "nì"
 
-#: r2/public/static/js/markdown-toolbar.js:109
+#: r2/public/static/js/markdown-toolbar.js:125
+msgid "task"
+msgstr ""
+
+#: r2/public/static/js/markdown-toolbar.js:129
+#, fuzzy
+#| msgid "cancelled"
+msgid "cell"
+msgstr "air sgur dheth"
+
+#: r2/public/static/js/markdown-toolbar.js:141
 msgid "link text"
 msgstr "teacsa a' cheangail"
 
-#: r2/public/static/js/markdown-toolbar.js:144 r2/public/static/js/markdown-toolbar.js:145
+#: r2/public/static/js/markdown-toolbar.js:176 r2/public/static/js/markdown-toolbar.js:177
 msgid "search emoji"
 msgstr "lorg emoji"
 
-#: r2/public/static/js/markdown-toolbar.js:238 r2/public/static/js/markdown-toolbar.js:271 r2/templates/usertext.html:134 r2/templates/vaultstylesheet.html:74 r2/templates/vaultstylesheet.html:89
+#: r2/public/static/js/markdown-toolbar.js:270 r2/public/static/js/markdown-toolbar.js:303 r2/templates/usertext.html:178 r2/templates/vaultstylesheet.html:74 r2/templates/vaultstylesheet.html:89
 msgid "preview"
 msgstr "ro-sheall"
 
-#: r2/public/static/js/markdown-toolbar.js:242
+#: r2/public/static/js/markdown-toolbar.js:274
 msgid "hide preview"
 msgstr "falaich an ro-shealladh"
 
-#: r2/public/static/js/markdown-toolbar.js:258
+#: r2/public/static/js/markdown-toolbar.js:290
 msgid "nothing to preview"
 msgstr "chan eil càil ri ro-shealltainn"
 
-#: r2/public/static/js/markdown-toolbar.js:261
+#: r2/public/static/js/markdown-toolbar.js:293
 msgid "preview failed"
 msgstr "dh'fhàillig an ro-shealladh"
 
@@ -10356,7 +10372,7 @@ msgstr "chan eil gin (molta airson a' mhòr-chuid de vaults)"
 msgid "Minutes to hide comment scores:"
 msgstr "Co mheud mionaid a dh'fhalaichear sgòran nam beachdan:"
 
-#: r2/templates/createvault.html:460 r2/templates/usertext.html:189 r2/templates/wikieditpage.html:49
+#: r2/templates/createvault.html:460 r2/templates/usertext.html:233 r2/templates/wikieditpage.html:49
 msgid "hide help"
 msgstr "falaich a' chobhair"
 
@@ -14388,11 +14404,29 @@ msgstr "chì thu:"
 msgid "italics"
 msgstr "eadailteach"
 
-#: r2/templates/usertext.html:48 r2/templates/usertext.html:49 r2/templates/usertext.html:122
+#: r2/templates/usertext.html:48 r2/templates/usertext.html:49 r2/templates/usertext.html:160
 msgid "bold"
 msgstr "trom"
 
-#: r2/templates/usertext.html:110
+#: r2/templates/usertext.html:52 r2/templates/usertext.html:53 r2/templates/usertext.html:162
+msgid "strikethrough"
+msgstr "stiall troimhe"
+
+#: r2/templates/usertext.html:56 r2/templates/usertext.html:57
+#, fuzzy
+#| msgid "title keywords"
+msgid "two words"
+msgstr "faclan-luirg an tiotail"
+
+#: r2/templates/usertext.html:105 r2/templates/usertext.html:110
+msgid "to do"
+msgstr ""
+
+#: r2/templates/usertext.html:106 r2/templates/usertext.html:111 r2/templates/wikipagesettings.html:79 r2/templates/wikirevision.html:82
+msgid "done"
+msgstr "deiseil"
+
+#: r2/templates/usertext.html:148
 msgid ""
 "Links on their own line will be embedded:\n"
 "\n"
@@ -14402,31 +14436,49 @@ msgstr ""
 "\n"
 "https://example.com"
 
-#: r2/templates/usertext.html:111
+#: r2/templates/usertext.html:149
 msgid "an embedded version of that link"
 msgstr "tionndadh leabaichte dhen cheangal"
 
-#: r2/templates/usertext.html:123
+#: r2/templates/usertext.html:161
 msgid "italic"
 msgstr "eadailteach"
 
-#: r2/templates/usertext.html:124
-msgid "strikethrough"
-msgstr "stiall troimhe"
-
-#: r2/templates/usertext.html:128
+#: r2/templates/usertext.html:168
 msgid "quote"
 msgstr "às-earrann"
 
-#: r2/templates/usertext.html:130
+#: r2/templates/usertext.html:170
+msgid "code block"
+msgstr ""
+
+#: r2/templates/usertext.html:172
 msgid "bulleted list"
 msgstr "liosta pheilearaichte"
 
-#: r2/templates/usertext.html:133
+#: r2/templates/usertext.html:173
+#, fuzzy
+#| msgid "bulleted list"
+msgid "numbered list"
+msgstr "liosta pheilearaichte"
+
+#: r2/templates/usertext.html:174
+#, fuzzy
+#| msgid "first"
+msgid "task list"
+msgstr "an toiseach"
+
+#: r2/templates/usertext.html:175
+#, fuzzy
+#| msgid "enabled"
+msgid "table"
+msgstr "an comas"
+
+#: r2/templates/usertext.html:177
 msgid "emoji"
 msgstr "emoji"
 
-#: r2/templates/usertext.html:189 r2/templates/wikieditpage.html:49
+#: r2/templates/usertext.html:233 r2/templates/wikieditpage.html:49
 msgid "formatting help"
 msgstr "cobhair le fòrmatadh"
 
@@ -14809,10 +14861,6 @@ msgstr "thoir cead do chleachdaichean an duilleag a dheasachadh"
 #: r2/templates/wikipagesettings.html:71
 msgid "username does not exist"
 msgstr "chan eil an t-ainm-cleachdaiche seo ann"
-
-#: r2/templates/wikipagesettings.html:79 r2/templates/wikirevision.html:82
-msgid "done"
-msgstr "deiseil"
 
 #: r2/templates/wikipagesettings.html:86
 msgid "save settings"

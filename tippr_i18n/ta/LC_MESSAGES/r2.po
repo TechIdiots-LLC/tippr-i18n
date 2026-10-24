@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tippr\n"
 "Report-Msgid-Bugs-To: https://github.com/TechIdiots-LLC/tippr-i18n/issues\n"
-"POT-Creation-Date: 2026-10-24 09:58-0400\n"
+"POT-Creation-Date: 2026-10-24 11:24-0400\n"
 "PO-Revision-Date: 2015-07-28 13:59-0400\n"
 "Last-Translator: tippr translators\n"
 "Language-Team: Tamil\n"
@@ -1343,7 +1343,7 @@ msgstr ""
 msgid "privacy policy"
 msgstr ""
 
-#: r2/controllers/policies.py:73 r2/controllers/policies.py:92 r2/lib/menus.py:100 r2/lib/pages/pages.py:6390 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:193
+#: r2/controllers/policies.py:73 r2/controllers/policies.py:92 r2/lib/menus.py:100 r2/lib/pages/pages.py:6390 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:237
 #, fuzzy
 #| msgid "content options"
 msgid "content policy"
@@ -2658,7 +2658,7 @@ msgstr ""
 msgid "clicks by month"
 msgstr ""
 
-#: r2/lib/jsontemplates.py:743 r2/templates/link.xml:65 r2/templates/usertext.html:169
+#: r2/lib/jsontemplates.py:743 r2/templates/link.xml:65 r2/templates/usertext.html:213
 msgid "[removed]"
 msgstr "[நீக்கப்பட்டுவிட்டது]"
 
@@ -3651,10 +3651,8 @@ msgid "You may also want to check the [search help page](%(search_help)s) for mo
 msgstr ""
 
 #: r2/lib/strings.py:120
-#, fuzzy
-#| msgid "tippr uses a slightly-customized version of [Markdown](http://daringfireball.net/projects/markdown/syntax) for formatting. See below for some basics, or check [the commenting wiki page](/wiki/commenting) for more detailed help and solutions to common issues."
-msgid "tippr uses a slightly-customized version of [Markdown](http://daringfireball.net/projects/markdown/syntax) for formatting. See below for some basics, or check [the formatting help](/help/formatting) for more detailed help and solutions to common issues."
-msgstr "tippr uses a slightly-customized version of [Markdown](http://daringfireball.net/projects/markdown/syntax) for formatting. See below for some basics, or check [the commenting wiki page](/wiki/commenting) for more detailed help and solutions to common issues."
+msgid "Formatting uses [Markdown](https://commonmark.org), with a few additions. The basics are below, and [the formatting help](/help/formatting) has the rest."
+msgstr ""
 
 #: r2/lib/strings.py:121
 #, fuzzy
@@ -3867,7 +3865,7 @@ msgid_plural "points"
 msgstr[0] "புள்ளி"
 msgstr[1] "புள்ளிகள்"
 
-#: r2/lib/strings.py:261 r2/templates/link.xml:93 r2/templates/promotelinkbase.html:101 r2/templates/usertext.html:127
+#: r2/lib/strings.py:261 r2/templates/link.xml:93 r2/templates/promotelinkbase.html:101 r2/templates/usertext.html:166
 msgid "link"
 msgid_plural "links"
 msgstr[0] "இணைப்பு"
@@ -4758,7 +4756,7 @@ msgstr ""
 msgid "faq"
 msgstr ""
 
-#: r2/lib/pages/pages.py:6380 r2/templates/usertext.html:121
+#: r2/lib/pages/pages.py:6380 r2/templates/usertext.html:159
 #, fuzzy
 #| msgid "formatting help"
 msgid "formatting"
@@ -6423,7 +6421,7 @@ msgstr ""
 msgid "Copy this code and paste it into your website:"
 msgstr ""
 
-#: r2/public/static/js/enhancements.js:87 r2/public/static/js/markdown-toolbar.js:243
+#: r2/public/static/js/enhancements.js:87 r2/public/static/js/markdown-toolbar.js:275
 #, fuzzy
 #| msgid "uploading"
 msgid "loading…"
@@ -6937,75 +6935,91 @@ msgstr "பொருள்"
 msgid "symbols"
 msgstr ""
 
-#: r2/public/static/js/markdown-toolbar.js:92
+#: r2/public/static/js/markdown-toolbar.js:107
 #, fuzzy
 #| msgid "quoted text"
 msgid "bold text"
 msgstr "மேற்கோளிட்ட உரை"
 
-#: r2/public/static/js/markdown-toolbar.js:93
+#: r2/public/static/js/markdown-toolbar.js:108
 #, fuzzy
 #| msgid "italics"
 msgid "italic text"
 msgstr "முன் சாய்ந்த எழுத்துக்கள்"
 
-#: r2/public/static/js/markdown-toolbar.js:94
+#: r2/public/static/js/markdown-toolbar.js:109
 msgid "struck text"
 msgstr ""
 
-#: r2/public/static/js/markdown-toolbar.js:95 r2/templates/usertext.html:125
+#: r2/public/static/js/markdown-toolbar.js:110 r2/templates/usertext.html:163
 #, fuzzy
 #| msgid "script"
 msgid "superscript"
 msgstr "script"
 
-#: r2/public/static/js/markdown-toolbar.js:96 r2/templates/usertext.html:101 r2/templates/usertext.html:102 r2/templates/usertext.html:131
+#: r2/public/static/js/markdown-toolbar.js:111 r2/templates/usertext.html:60 r2/templates/usertext.html:61 r2/templates/usertext.html:164
 msgid "spoiler"
 msgstr ""
 
-#: r2/public/static/js/markdown-toolbar.js:102 r2/templates/usertext.html:129
+#: r2/public/static/js/markdown-toolbar.js:117 r2/public/static/js/markdown-toolbar.js:120 r2/templates/usertext.html:64 r2/templates/usertext.html:65 r2/templates/usertext.html:169
 #, fuzzy
 #| msgid "the code"
 msgid "code"
 msgstr "சங்கேதச்சொல்"
 
-#: r2/public/static/js/markdown-toolbar.js:105 r2/templates/usertext.html:70 r2/templates/usertext.html:71
+#: r2/public/static/js/markdown-toolbar.js:121 r2/public/static/js/markdown-toolbar.js:128 r2/templates/usertext.html:76 r2/templates/usertext.html:77 r2/templates/usertext.html:167
+#, fuzzy
+#| msgid "pending"
+msgid "heading"
+msgstr "நிலுவையில்"
+
+#: r2/public/static/js/markdown-toolbar.js:122 r2/templates/usertext.html:116 r2/templates/usertext.html:117
 msgid "quoted text"
 msgstr "மேற்கோளிட்ட உரை"
 
-#: r2/public/static/js/markdown-toolbar.js:106 r2/templates/usertext.html:57 r2/templates/usertext.html:58 r2/templates/usertext.html:59 r2/templates/usertext.html:63 r2/templates/usertext.html:64 r2/templates/usertext.html:65
+#: r2/public/static/js/markdown-toolbar.js:123 r2/public/static/js/markdown-toolbar.js:124 r2/templates/usertext.html:81 r2/templates/usertext.html:82 r2/templates/usertext.html:86 r2/templates/usertext.html:87 r2/templates/usertext.html:93 r2/templates/usertext.html:94 r2/templates/usertext.html:98 r2/templates/usertext.html:99
 msgid "item"
 msgstr "தேர்ந்தெடுத்த பொருள்"
 
-#: r2/public/static/js/markdown-toolbar.js:109
+#: r2/public/static/js/markdown-toolbar.js:125
+msgid "task"
+msgstr ""
+
+#: r2/public/static/js/markdown-toolbar.js:129
+#, fuzzy
+#| msgid "cancel"
+msgid "cell"
+msgstr "நிறுத்தவும்"
+
+#: r2/public/static/js/markdown-toolbar.js:141
 #, fuzzy
 #| msgid "link type"
 msgid "link text"
 msgstr "link type"
 
-#: r2/public/static/js/markdown-toolbar.js:144 r2/public/static/js/markdown-toolbar.js:145
+#: r2/public/static/js/markdown-toolbar.js:176 r2/public/static/js/markdown-toolbar.js:177
 #, fuzzy
 #| msgid "search"
 msgid "search emoji"
 msgstr "search"
 
-#: r2/public/static/js/markdown-toolbar.js:238 r2/public/static/js/markdown-toolbar.js:271 r2/templates/usertext.html:134 r2/templates/vaultstylesheet.html:74 r2/templates/vaultstylesheet.html:89
+#: r2/public/static/js/markdown-toolbar.js:270 r2/public/static/js/markdown-toolbar.js:303 r2/templates/usertext.html:178 r2/templates/vaultstylesheet.html:74 r2/templates/vaultstylesheet.html:89
 msgid "preview"
 msgstr ""
 
-#: r2/public/static/js/markdown-toolbar.js:242
+#: r2/public/static/js/markdown-toolbar.js:274
 #, fuzzy
 #| msgid "preview"
 msgid "hide preview"
 msgstr "preview"
 
-#: r2/public/static/js/markdown-toolbar.js:258
+#: r2/public/static/js/markdown-toolbar.js:290
 #, fuzzy
 #| msgid "hover to preview"
 msgid "nothing to preview"
 msgstr "hover to preview"
 
-#: r2/public/static/js/markdown-toolbar.js:261
+#: r2/public/static/js/markdown-toolbar.js:293
 #, fuzzy
 #| msgid "preview"
 msgid "preview failed"
@@ -11066,7 +11080,7 @@ msgstr ""
 msgid "Minutes to hide comment scores:"
 msgstr ""
 
-#: r2/templates/createvault.html:460 r2/templates/usertext.html:189 r2/templates/wikieditpage.html:49
+#: r2/templates/createvault.html:460 r2/templates/usertext.html:233 r2/templates/wikieditpage.html:49
 msgid "hide help"
 msgstr "'உதவி'யை மறைக்கவும் "
 
@@ -15318,11 +15332,31 @@ msgstr "நீங்கள் பார்க்கவும்:"
 msgid "italics"
 msgstr "முன் சாய்ந்த எழுத்துக்கள்"
 
-#: r2/templates/usertext.html:48 r2/templates/usertext.html:49 r2/templates/usertext.html:122
+#: r2/templates/usertext.html:48 r2/templates/usertext.html:49 r2/templates/usertext.html:160
 msgid "bold"
 msgstr "அழுத்தமான எழுத்துக்கள்"
 
-#: r2/templates/usertext.html:110
+#: r2/templates/usertext.html:52 r2/templates/usertext.html:53 r2/templates/usertext.html:162
+#, fuzzy
+#| msgid "strike"
+msgid "strikethrough"
+msgstr "strike"
+
+#: r2/templates/usertext.html:56 r2/templates/usertext.html:57
+#, fuzzy
+#| msgid "site rules"
+msgid "two words"
+msgstr "site rules"
+
+#: r2/templates/usertext.html:105 r2/templates/usertext.html:110
+msgid "to do"
+msgstr ""
+
+#: r2/templates/usertext.html:106 r2/templates/usertext.html:111 r2/templates/wikipagesettings.html:79 r2/templates/wikirevision.html:82
+msgid "done"
+msgstr ""
+
+#: r2/templates/usertext.html:148
 #, fuzzy
 #| msgid ""
 #| "Links on their own line will be embedded:\n"
@@ -15337,39 +15371,53 @@ msgstr ""
 "\n"
 "http://example.com"
 
-#: r2/templates/usertext.html:111
+#: r2/templates/usertext.html:149
 msgid "an embedded version of that link"
 msgstr ""
 
-#: r2/templates/usertext.html:123
+#: r2/templates/usertext.html:161
 #, fuzzy
 #| msgid "italics"
 msgid "italic"
 msgstr "முன் சாய்ந்த எழுத்துக்கள்"
 
-#: r2/templates/usertext.html:124
-#, fuzzy
-#| msgid "strike"
-msgid "strikethrough"
-msgstr "strike"
-
-#: r2/templates/usertext.html:128
+#: r2/templates/usertext.html:168
 #, fuzzy
 #| msgid "quoted text"
 msgid "quote"
 msgstr "மேற்கோளிட்ட உரை"
 
-#: r2/templates/usertext.html:130
+#: r2/templates/usertext.html:170
+msgid "code block"
+msgstr ""
+
+#: r2/templates/usertext.html:172
 #, fuzzy
 #| msgid "unmoderated links"
 msgid "bulleted list"
 msgstr "unmoderated links"
 
-#: r2/templates/usertext.html:133
+#: r2/templates/usertext.html:173
+#, fuzzy
+#| msgid "unmoderated links"
+msgid "numbered list"
+msgstr "unmoderated links"
+
+#: r2/templates/usertext.html:174
+msgid "task list"
+msgstr ""
+
+#: r2/templates/usertext.html:175
+#, fuzzy
+#| msgid "enable"
+msgid "table"
+msgstr "enable"
+
+#: r2/templates/usertext.html:177
 msgid "emoji"
 msgstr ""
 
-#: r2/templates/usertext.html:189 r2/templates/wikieditpage.html:49
+#: r2/templates/usertext.html:233 r2/templates/wikieditpage.html:49
 msgid "formatting help"
 msgstr ""
 
@@ -15761,10 +15809,6 @@ msgstr ""
 
 #: r2/templates/wikipagesettings.html:71
 msgid "username does not exist"
-msgstr ""
-
-#: r2/templates/wikipagesettings.html:79 r2/templates/wikirevision.html:82
-msgid "done"
 msgstr ""
 
 #: r2/templates/wikipagesettings.html:86

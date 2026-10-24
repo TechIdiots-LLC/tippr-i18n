@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tippr\n"
 "Report-Msgid-Bugs-To: https://github.com/TechIdiots-LLC/tippr-i18n/issues\n"
-"POT-Creation-Date: 2026-10-24 09:58-0400\n"
+"POT-Creation-Date: 2026-10-24 11:24-0400\n"
 "PO-Revision-Date: 2017-04-24 19:27-0400\n"
 "Last-Translator: tippr translators\n"
 "Language-Team: Portuguese, Brazilian\n"
@@ -1264,7 +1264,7 @@ msgstr "acordo de usuário"
 msgid "privacy policy"
 msgstr "política de privacidade"
 
-#: r2/controllers/policies.py:73 r2/controllers/policies.py:92 r2/lib/menus.py:100 r2/lib/pages/pages.py:6390 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:193
+#: r2/controllers/policies.py:73 r2/controllers/policies.py:92 r2/lib/menus.py:100 r2/lib/pages/pages.py:6390 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:237
 msgid "content policy"
 msgstr "política de conteúdo"
 
@@ -2518,7 +2518,7 @@ msgstr "impressões por mês"
 msgid "clicks by month"
 msgstr "cliques por mês"
 
-#: r2/lib/jsontemplates.py:743 r2/templates/link.xml:65 r2/templates/usertext.html:169
+#: r2/lib/jsontemplates.py:743 r2/templates/link.xml:65 r2/templates/usertext.html:213
 msgid "[removed]"
 msgstr "[removido]"
 
@@ -3444,8 +3444,8 @@ msgid "You may also want to check the [search help page](%(search_help)s) for mo
 msgstr "Você pode também ver a [página de ajuda da pesquisa](%(search_help)s) para mais informações"
 
 #: r2/lib/strings.py:120
-msgid "tippr uses a slightly-customized version of [Markdown](http://daringfireball.net/projects/markdown/syntax) for formatting. See below for some basics, or check [the formatting help](/help/formatting) for more detailed help and solutions to common issues."
-msgstr "O tippr usa uma versão levemente personalizada do [Markdown](http://daringfireball.net/projects/markdown/syntax) para formatação. Veja o básico abaixo, ou consulte [a ajuda de formatação](/help/formatting) para ajuda mais detalhada e soluções de problemas comuns."
+msgid "Formatting uses [Markdown](https://commonmark.org), with a few additions. The basics are below, and [the formatting help](/help/formatting) has the rest."
+msgstr ""
 
 #: r2/lib/strings.py:121
 msgid "Tippr is in \"emergency read-only mode\" right now. :( You won't be able to log in. We're sorry and are working frantically to fix the problem."
@@ -3663,7 +3663,7 @@ msgid_plural "points"
 msgstr[0] "ponto"
 msgstr[1] "pontos"
 
-#: r2/lib/strings.py:261 r2/templates/link.xml:93 r2/templates/promotelinkbase.html:101 r2/templates/usertext.html:127
+#: r2/lib/strings.py:261 r2/templates/link.xml:93 r2/templates/promotelinkbase.html:101 r2/templates/usertext.html:166
 msgid "link"
 msgid_plural "links"
 msgstr[0] "link"
@@ -4575,7 +4575,7 @@ msgstr "explorar multis"
 msgid "faq"
 msgstr "perguntas frequentes"
 
-#: r2/lib/pages/pages.py:6380 r2/templates/usertext.html:121
+#: r2/lib/pages/pages.py:6380 r2/templates/usertext.html:159
 msgid "formatting"
 msgstr "formatação"
 
@@ -6164,7 +6164,7 @@ msgstr "Este parâmetro pode ser alterado depois de embutido."
 msgid "Copy this code and paste it into your website:"
 msgstr "Copie este código e cole-o em seu site:"
 
-#: r2/public/static/js/enhancements.js:87 r2/public/static/js/markdown-toolbar.js:243
+#: r2/public/static/js/enhancements.js:87 r2/public/static/js/markdown-toolbar.js:275
 msgid "loading…"
 msgstr "carregando…"
 
@@ -6584,59 +6584,75 @@ msgstr "objetos"
 msgid "symbols"
 msgstr "símbolos"
 
-#: r2/public/static/js/markdown-toolbar.js:92
+#: r2/public/static/js/markdown-toolbar.js:107
 msgid "bold text"
 msgstr "texto em negrito"
 
-#: r2/public/static/js/markdown-toolbar.js:93
+#: r2/public/static/js/markdown-toolbar.js:108
 msgid "italic text"
 msgstr "texto em itálico"
 
-#: r2/public/static/js/markdown-toolbar.js:94
+#: r2/public/static/js/markdown-toolbar.js:109
 msgid "struck text"
 msgstr "texto riscado"
 
-#: r2/public/static/js/markdown-toolbar.js:95 r2/templates/usertext.html:125
+#: r2/public/static/js/markdown-toolbar.js:110 r2/templates/usertext.html:163
 msgid "superscript"
 msgstr "sobrescrito"
 
-#: r2/public/static/js/markdown-toolbar.js:96 r2/templates/usertext.html:101 r2/templates/usertext.html:102 r2/templates/usertext.html:131
+#: r2/public/static/js/markdown-toolbar.js:111 r2/templates/usertext.html:60 r2/templates/usertext.html:61 r2/templates/usertext.html:164
 msgid "spoiler"
 msgstr "spoiler"
 
-#: r2/public/static/js/markdown-toolbar.js:102 r2/templates/usertext.html:129
+#: r2/public/static/js/markdown-toolbar.js:117 r2/public/static/js/markdown-toolbar.js:120 r2/templates/usertext.html:64 r2/templates/usertext.html:65 r2/templates/usertext.html:169
 msgid "code"
 msgstr "código"
 
-#: r2/public/static/js/markdown-toolbar.js:105 r2/templates/usertext.html:70 r2/templates/usertext.html:71
+#: r2/public/static/js/markdown-toolbar.js:121 r2/public/static/js/markdown-toolbar.js:128 r2/templates/usertext.html:76 r2/templates/usertext.html:77 r2/templates/usertext.html:167
+#, fuzzy
+#| msgid "pending"
+msgid "heading"
+msgstr "pendente"
+
+#: r2/public/static/js/markdown-toolbar.js:122 r2/templates/usertext.html:116 r2/templates/usertext.html:117
 msgid "quoted text"
 msgstr "texto citado"
 
-#: r2/public/static/js/markdown-toolbar.js:106 r2/templates/usertext.html:57 r2/templates/usertext.html:58 r2/templates/usertext.html:59 r2/templates/usertext.html:63 r2/templates/usertext.html:64 r2/templates/usertext.html:65
+#: r2/public/static/js/markdown-toolbar.js:123 r2/public/static/js/markdown-toolbar.js:124 r2/templates/usertext.html:81 r2/templates/usertext.html:82 r2/templates/usertext.html:86 r2/templates/usertext.html:87 r2/templates/usertext.html:93 r2/templates/usertext.html:94 r2/templates/usertext.html:98 r2/templates/usertext.html:99
 msgid "item"
 msgstr "ítem"
 
-#: r2/public/static/js/markdown-toolbar.js:109
+#: r2/public/static/js/markdown-toolbar.js:125
+msgid "task"
+msgstr ""
+
+#: r2/public/static/js/markdown-toolbar.js:129
+#, fuzzy
+#| msgid "cancelled"
+msgid "cell"
+msgstr "cancelado"
+
+#: r2/public/static/js/markdown-toolbar.js:141
 msgid "link text"
 msgstr "texto do link"
 
-#: r2/public/static/js/markdown-toolbar.js:144 r2/public/static/js/markdown-toolbar.js:145
+#: r2/public/static/js/markdown-toolbar.js:176 r2/public/static/js/markdown-toolbar.js:177
 msgid "search emoji"
 msgstr "buscar emoji"
 
-#: r2/public/static/js/markdown-toolbar.js:238 r2/public/static/js/markdown-toolbar.js:271 r2/templates/usertext.html:134 r2/templates/vaultstylesheet.html:74 r2/templates/vaultstylesheet.html:89
+#: r2/public/static/js/markdown-toolbar.js:270 r2/public/static/js/markdown-toolbar.js:303 r2/templates/usertext.html:178 r2/templates/vaultstylesheet.html:74 r2/templates/vaultstylesheet.html:89
 msgid "preview"
 msgstr "previsão"
 
-#: r2/public/static/js/markdown-toolbar.js:242
+#: r2/public/static/js/markdown-toolbar.js:274
 msgid "hide preview"
 msgstr "ocultar prévia"
 
-#: r2/public/static/js/markdown-toolbar.js:258
+#: r2/public/static/js/markdown-toolbar.js:290
 msgid "nothing to preview"
 msgstr "nada para pré-visualizar"
 
-#: r2/public/static/js/markdown-toolbar.js:261
+#: r2/public/static/js/markdown-toolbar.js:293
 msgid "preview failed"
 msgstr "a prévia falhou"
 
@@ -10279,7 +10295,7 @@ msgstr "nenhum (recomendado para a maioria dos vaults)"
 msgid "Minutes to hide comment scores:"
 msgstr "Minutos para ocultar pontuação de comentários:"
 
-#: r2/templates/createvault.html:460 r2/templates/usertext.html:189 r2/templates/wikieditpage.html:49
+#: r2/templates/createvault.html:460 r2/templates/usertext.html:233 r2/templates/wikieditpage.html:49
 msgid "hide help"
 msgstr "esconder ajuda"
 
@@ -14309,11 +14325,29 @@ msgstr "você vê:"
 msgid "italics"
 msgstr "itálico"
 
-#: r2/templates/usertext.html:48 r2/templates/usertext.html:49 r2/templates/usertext.html:122
+#: r2/templates/usertext.html:48 r2/templates/usertext.html:49 r2/templates/usertext.html:160
 msgid "bold"
 msgstr "negrito"
 
-#: r2/templates/usertext.html:110
+#: r2/templates/usertext.html:52 r2/templates/usertext.html:53 r2/templates/usertext.html:162
+msgid "strikethrough"
+msgstr "tachado"
+
+#: r2/templates/usertext.html:56 r2/templates/usertext.html:57
+#, fuzzy
+#| msgid "title keywords"
+msgid "two words"
+msgstr "palavras-chave do título"
+
+#: r2/templates/usertext.html:105 r2/templates/usertext.html:110
+msgid "to do"
+msgstr ""
+
+#: r2/templates/usertext.html:106 r2/templates/usertext.html:111 r2/templates/wikipagesettings.html:79 r2/templates/wikirevision.html:82
+msgid "done"
+msgstr "pronto"
+
+#: r2/templates/usertext.html:148
 msgid ""
 "Links on their own line will be embedded:\n"
 "\n"
@@ -14323,31 +14357,49 @@ msgstr ""
 "\n"
 "https://example.com"
 
-#: r2/templates/usertext.html:111
+#: r2/templates/usertext.html:149
 msgid "an embedded version of that link"
 msgstr "uma versão incorporada daquele link"
 
-#: r2/templates/usertext.html:123
+#: r2/templates/usertext.html:161
 msgid "italic"
 msgstr "itálico"
 
-#: r2/templates/usertext.html:124
-msgid "strikethrough"
-msgstr "tachado"
-
-#: r2/templates/usertext.html:128
+#: r2/templates/usertext.html:168
 msgid "quote"
 msgstr "citação"
 
-#: r2/templates/usertext.html:130
+#: r2/templates/usertext.html:170
+msgid "code block"
+msgstr ""
+
+#: r2/templates/usertext.html:172
 msgid "bulleted list"
 msgstr "lista com marcadores"
 
-#: r2/templates/usertext.html:133
+#: r2/templates/usertext.html:173
+#, fuzzy
+#| msgid "bulleted list"
+msgid "numbered list"
+msgstr "lista com marcadores"
+
+#: r2/templates/usertext.html:174
+#, fuzzy
+#| msgid "first"
+msgid "task list"
+msgstr "primeiro"
+
+#: r2/templates/usertext.html:175
+#, fuzzy
+#| msgid "enabled"
+msgid "table"
+msgstr "ativado"
+
+#: r2/templates/usertext.html:177
 msgid "emoji"
 msgstr "emoji"
 
-#: r2/templates/usertext.html:189 r2/templates/wikieditpage.html:49
+#: r2/templates/usertext.html:233 r2/templates/wikieditpage.html:49
 msgid "formatting help"
 msgstr "ajuda de formatação"
 
@@ -14730,10 +14782,6 @@ msgstr "permitir que usuários editem a página"
 #: r2/templates/wikipagesettings.html:71
 msgid "username does not exist"
 msgstr "usuário não existe"
-
-#: r2/templates/wikipagesettings.html:79 r2/templates/wikirevision.html:82
-msgid "done"
-msgstr "pronto"
 
 #: r2/templates/wikipagesettings.html:86
 msgid "save settings"
