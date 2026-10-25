@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tippr\n"
 "Report-Msgid-Bugs-To: https://github.com/TechIdiots-LLC/tippr-i18n/issues\n"
-"POT-Creation-Date: 2026-10-24 20:07-0400\n"
+"POT-Creation-Date: 2026-10-25 10:54-0400\n"
 "PO-Revision-Date: 2015-10-26 14:23-0400\n"
 "Last-Translator: tippr translators\n"
 "Language-Team: Kannada\n"
@@ -14,12 +14,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Display-Name: ಕನ್ನಡ\n"
 "Display-Name-en: Kannada (India)\n"
+"X-Machine-Translation: Machine-translated by Claude (Anthropic) for tippr; please review and correct\n"
 
 #: r2/controllers/admin.py:117
 msgid "Choose an image of at most 1 MB."
 msgstr "ಗರಿಷ್ಠ 1 MB ಗಾತ್ರದ ಚಿತ್ರವನ್ನು ಆಯ್ಕೆಮಾಡಿ."
 
-#: r2/controllers/api.py:223 r2/controllers/api.py:249 r2/controllers/api.py:4436 r2/controllers/api.py:4506 r2/controllers/listingcontroller.py:766 r2/lib/pages/pages.py:6405
+#: r2/controllers/api.py:223 r2/controllers/api.py:249 r2/controllers/api.py:4436 r2/controllers/api.py:4506 r2/controllers/listingcontroller.py:766 r2/lib/pages/pages.py:6422
 msgid "API"
 msgstr "ಎಪಿಐ "
 
@@ -73,7 +74,7 @@ msgstr "ಆ ಸೈನ್-ಇನ್‌ಗೆ ತುಂಬಾ ಸಮಯ ಹಿಡ�
 msgid "That account is linked already: sign in with it."
 msgstr "ಆ ಖಾತೆ ಈಗಾಗಲೇ ಜೋಡಿಸಲಾಗಿದೆ: ಅದರಿಂದಲೇ ಸೈನ್ ಇನ್ ಮಾಡಿ."
 
-#: r2/controllers/api.py:1436 r2/controllers/api.py:1817 r2/controllers/api.py:2719 r2/controllers/api.py:3019 r2/controllers/api.py:3346 r2/controllers/api.py:4228 r2/controllers/api.py:4284 r2/controllers/api.py:4338 r2/controllers/api.py:4571 r2/controllers/api.py:4576 r2/controllers/api.py:4811 r2/controllers/api.py:4876 r2/controllers/api.py:4954 r2/controllers/api.py:5020 r2/controllers/api.py:5093 r2/controllers/api.py:5184 r2/controllers/api.py:5216 r2/controllers/api.py:5236 r2/controllers/api.py:5750 r2/controllers/api.py:5790 r2/controllers/api.py:6024 r2/controllers/api.py:6042 r2/controllers/api.py:6390 r2/lib/pages/pages.py:6296
+#: r2/controllers/api.py:1436 r2/controllers/api.py:1817 r2/controllers/api.py:2719 r2/controllers/api.py:3019 r2/controllers/api.py:3346 r2/controllers/api.py:4228 r2/controllers/api.py:4284 r2/controllers/api.py:4338 r2/controllers/api.py:4571 r2/controllers/api.py:4576 r2/controllers/api.py:4811 r2/controllers/api.py:4876 r2/controllers/api.py:4954 r2/controllers/api.py:5020 r2/controllers/api.py:5093 r2/controllers/api.py:5184 r2/controllers/api.py:5216 r2/controllers/api.py:5236 r2/controllers/api.py:5750 r2/controllers/api.py:5790 r2/controllers/api.py:6024 r2/controllers/api.py:6042 r2/controllers/api.py:6390 r2/lib/pages/pages.py:6313
 msgid "saved"
 msgstr "ಉಳಿಸಲಾಗಿದೆ"
 
@@ -105,7 +106,7 @@ msgstr "ಉತ್ತರಿಸಲಾಗಿದೆ "
 msgid "validation errors"
 msgstr "ಕ್ರಮಬದ್ಧಗೊಳಿಸುವಿಕೆ ದೋಷಗಳು"
 
-#: r2/controllers/api.py:2822 r2/controllers/api.py:2849 r2/controllers/api.py:2876 r2/controllers/listingcontroller.py:1048 r2/lib/menus.py:195 r2/public/static/js/tippr.js:235 r2/templates/adminapps.html:51 r2/templates/adminuser.html:59 r2/templates/deleteduserinterstitial.html:34 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:585 r2/templates/vaultstylesheetbase.html:47
+#: r2/controllers/api.py:2822 r2/controllers/api.py:2849 r2/controllers/api.py:2876 r2/controllers/listingcontroller.py:1048 r2/lib/menus.py:195 r2/public/static/js/tippr.js:235 r2/templates/adminapps.html:51 r2/templates/adminuser.html:59 r2/templates/deleteduserinterstitial.html:34 r2/templates/printablebuttons.html:41 r2/templates/printablebuttons.html:586 r2/templates/vaultstylesheetbase.html:47
 msgid "deleted"
 msgstr "ಅಳಿಸಲಾಗಿದೆ"
 
@@ -187,7 +188,7 @@ msgstr "ಅಂತಹ ಪಾವತಿ ಇಲ್ಲ"
 msgid "status"
 msgstr "ಸ್ಥಿತಿ"
 
-#: r2/controllers/api.py:5084 r2/controllers/linked_logins.py:93 r2/controllers/linked_logins.py:187 r2/lib/pages/pages.py:1374 r2/lib/pages/pages.py:1424 r2/templates/createvault.html:57 r2/templates/goldpayment.html:168 r2/templates/linkedsignin.html:41 r2/templates/listingchooser.html:69 r2/templates/prefapps.html:153 r2/templates/prefapps.html:348
+#: r2/controllers/api.py:5084 r2/controllers/linked_logins.py:93 r2/controllers/linked_logins.py:187 r2/lib/pages/pages.py:1388 r2/lib/pages/pages.py:1438 r2/templates/createvault.html:57 r2/templates/goldpayment.html:168 r2/templates/linkedsignin.html:41 r2/templates/listingchooser.html:69 r2/templates/prefapps.html:153 r2/templates/prefapps.html:348
 msgid "name"
 msgstr "ಹೆಸರು "
 
@@ -449,45 +450,45 @@ msgstr "ಆ ಪಾಸ್‌ಕೀ ಸೇರಿಸಲಾಗಲಿಲ್ಲ"
 msgid "that passkey wasn't accepted"
 msgstr "ಆ ಪಾಸ್‌ಕೀ ಸ್ವೀಕರಿಸಲಾಗಲಿಲ್ಲ"
 
-#: r2/controllers/api.py:6502
+#: r2/controllers/api.py:6504
 #, python-format
 msgid "accounts need to be %(n)d days old"
 msgstr "ಖಾತೆಗಳು ಕನಿಷ್ಠ %(n)d ದಿನಗಳಷ್ಟು ಹಳೆಯದಾಗಿರಬೇಕು"
 
-#: r2/controllers/api.py:6506
+#: r2/controllers/api.py:6508
 #, python-format
 msgid "accounts need %(n)d karma"
 msgstr "ಖಾತೆಗಳಿಗೆ %(n)d ಕರ್ಮ ಬೇಕು"
 
-#: r2/controllers/api.py:6509
+#: r2/controllers/api.py:6511
 msgid "verify your email address first"
 msgstr "ಮೊದಲು ನಿಮ್ಮ ಇಮೇಲ್ ವಿಳಾಸವನ್ನು ಪರಿಶೀಲಿಸಿ"
 
-#: r2/controllers/api.py:6551 r2/lib/errors.py:158
+#: r2/controllers/api.py:6553 r2/lib/errors.py:159
 msgid "this app can not be modified from this interface"
 msgstr "ಈ ಆ್ಯಪ್ ಅನ್ನು ಈ ಇಂಟರ್ಫೇಸ್‌ನಿಂದ ಬದಲಾಯಿಸಲಾಗುವುದಿಲ್ಲ"
 
-#: r2/controllers/api.py:6558 r2/lib/errors.py:136
+#: r2/controllers/api.py:6560 r2/lib/errors.py:136
 msgid "invalid client id"
 msgstr "ಅಮಾನ್ಯವಾದ ಕ್ಲೈಂಟ್ ಐಡಿ"
 
-#: r2/controllers/api.py:6561
+#: r2/controllers/api.py:6563
 msgid "cannot update deleted app"
 msgstr "ಅಳಿಸಲಾದ ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ನವೀಕರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ"
 
-#: r2/controllers/api.py:6564
+#: r2/controllers/api.py:6566
 msgid "app does not belong to you"
 msgstr "ಅಪ್ಲಿಕೇಶನ್ ನಿಮಗೆ ಸೇರಿರುವುದಿಲ್ಲ"
 
-#: r2/controllers/api.py:6572
+#: r2/controllers/api.py:6574
 msgid "application updated"
 msgstr "ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ನವೀಕರಿಸಲಾಗಿದೆ"
 
-#: r2/controllers/api.py:6596
+#: r2/controllers/api.py:6598
 msgid "application created"
 msgstr "ಅರ್ಜಿಯನ್ನು ರಚಿಸಲಾಗಿದೆ"
 
-#: r2/controllers/api.py:6631
+#: r2/controllers/api.py:6633
 msgid "developer added"
 msgstr "ಅಭಿವೃದ್ಧಿಕಾರರನ್ನು ಸೇರಿಸಲಾಗಿದೆ"
 
@@ -503,7 +504,7 @@ msgstr "tippr ಗುಂಡಿಗಳು"
 msgid "tippr widget"
 msgstr "tippr ವಿಜೆಟ್"
 
-#: r2/controllers/embed.py:74 r2/controllers/policies.py:51 r2/lib/pages/pages.py:1137 r2/lib/pages/pages.py:6401 r2/templates/printablebuttons.html:150
+#: r2/controllers/embed.py:74 r2/controllers/policies.py:51 r2/lib/pages/pages.py:1136 r2/lib/pages/pages.py:6418 r2/templates/printablebuttons.html:151
 msgid "help"
 msgstr "ಸಹಾಯ"
 
@@ -537,7 +538,7 @@ msgstr "ನೀವು ವಿನಂತಿಸಿದ ಪುಟ ಅಸ್ತಿತ್
 msgid "suspended"
 msgstr "ಅಮಾನತುಗೊಳಿಸಲಾಗಿದೆ"
 
-#: r2/controllers/front.py:247 r2/lib/pages/pages.py:6283
+#: r2/controllers/front.py:247 r2/lib/pages/pages.py:6300
 msgid "explore"
 msgstr "ಹುಡುಕು"
 
@@ -569,7 +570,7 @@ msgstr "%d ನ್ನು ತೋರಿಸು"
 msgid "create a vault"
 msgstr "ವಾಲ್ಟ್ ರಚಿಸಿ"
 
-#: r2/controllers/front.py:738 r2/controllers/front.py:744 r2/controllers/listingcontroller.py:813 r2/controllers/listingcontroller.py:828 r2/controllers/listingcontroller.py:1192 r2/controllers/listingcontroller.py:1203 r2/lib/menus.py:203 r2/lib/menus.py:453 r2/lib/menus.py:666 r2/lib/pages/pages.py:5170 r2/lib/pages/pages.py:5179 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
+#: r2/controllers/front.py:738 r2/controllers/front.py:744 r2/controllers/listingcontroller.py:813 r2/controllers/listingcontroller.py:828 r2/controllers/listingcontroller.py:1192 r2/controllers/listingcontroller.py:1203 r2/lib/menus.py:203 r2/lib/menus.py:453 r2/lib/menus.py:666 r2/lib/pages/pages.py:5187 r2/lib/pages/pages.py:5196 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
 msgid "all"
 msgstr "ಎಲ್ಲ"
 
@@ -593,7 +594,7 @@ msgstr "ಪೋಸ್ಟ್‌ಗಳು ಮತ್ತು ಅನಿಸಿಕೆಗ�
 msgid "posts"
 msgstr "ಪೋಸ್ಟ್‌ಗಳು"
 
-#: r2/controllers/front.py:949 r2/controllers/listingcontroller.py:1795 r2/lib/pages/pages.py:5924 r2/templates/adminuser.html:37 r2/templates/createvault.html:288 r2/templates/link.xml:95
+#: r2/controllers/front.py:949 r2/controllers/listingcontroller.py:1795 r2/lib/pages/pages.py:5941 r2/templates/adminuser.html:37 r2/templates/createvault.html:288 r2/templates/link.xml:95
 msgid "comments"
 msgstr "ಅನಿಸಿಕೆಗಳು"
 
@@ -672,7 +673,7 @@ msgstr "tippr ಚಿನ್ನ ಖರೀದಿಸಿದ್ದಕ್ಕೆ ಧನ�
 msgid "Thanks for buying tippr gold! Your transaction is being processed. If you have any questions please contact us at %(gold_email)s"
 msgstr "tippr ಚಿನ್ನ ಖರೀದಿಸಿದ್ದಕ್ಕೆ ಧನ್ಯವಾದಗಳು! ನಿಮ್ಮ ವಹಿವಾಟು ಪ್ರಕ್ರಿಯೆಯಲ್ಲಿದೆ. ಯಾವುದೇ ಪ್ರಶ್ನೆಗಳಿದ್ದರೆ ದಯವಿಟ್ಟು %(gold_email)s ನಲ್ಲಿ ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ"
 
-#: r2/controllers/front.py:1582 r2/controllers/front.py:1891
+#: r2/controllers/front.py:1582 r2/controllers/front.py:1894
 msgid "thanks"
 msgstr "ಧನ್ಯವಾದ "
 
@@ -688,11 +689,11 @@ msgstr "ಪ್ರಶಸ್ತಿ ಪಡೆಯುವಿಕೆ"
 msgid "gilding"
 msgstr "ಚಿನ್ನ ನೀಡುವಿಕೆ"
 
-#: r2/controllers/front.py:1636 r2/controllers/front.py:1940 r2/controllers/front.py:1967 r2/controllers/front.py:2037 r2/controllers/front.py:2080 r2/lib/menus.py:94 r2/templates/contactus.html:117 r2/templates/contactus.html:119 r2/templates/creditgild.html:34 r2/templates/gold.html:30 r2/templates/goldabout.html:20 r2/templates/goldpayment.html:40 r2/templates/goldthanks.html:29 r2/templates/prefoptions.html:562
+#: r2/controllers/front.py:1636 r2/controllers/front.py:1943 r2/controllers/front.py:1970 r2/controllers/front.py:2040 r2/controllers/front.py:2083 r2/lib/menus.py:94 r2/templates/contactus.html:117 r2/templates/contactus.html:119 r2/templates/creditgild.html:34 r2/templates/gold.html:30 r2/templates/goldabout.html:20 r2/templates/goldpayment.html:40 r2/templates/goldthanks.html:29 r2/templates/prefoptions.html:562
 msgid "tippr gold"
 msgstr "tippr ಚಿನ್ನ"
 
-#: r2/controllers/front.py:1669 r2/public/static/js/enhancements.js:1084 r2/templates/adminemailsettings.html:73 r2/templates/admininterstitial.html:56 r2/templates/linkedloginlink.html:40 r2/templates/linkedloginlink.html:58 r2/templates/login.html:96 r2/templates/login.html:98 r2/templates/login.html:223 r2/templates/loginformwide.html:46 r2/templates/prefsecurity.html:130 r2/templates/prefsecurity.html:237 r2/templates/prefsecurity.html:270 r2/templates/privacysettings.html:128
+#: r2/controllers/front.py:1669 r2/public/static/js/enhancements.js:1084 r2/templates/adminemailsettings.html:73 r2/templates/admininterstitial.html:56 r2/templates/linkedloginlink.html:40 r2/templates/linkedloginlink.html:58 r2/templates/login.html:96 r2/templates/login.html:98 r2/templates/login.html:223 r2/templates/loginformwide.html:46 r2/templates/prefsecurity.html:105 r2/templates/prefsecurity.html:205 r2/templates/prefsecurity.html:238 r2/templates/privacysettings.html:128
 msgid "password"
 msgstr "ಸಂಕೇತ ಪದ"
 
@@ -712,31 +713,31 @@ msgstr "ತಪ್ಪು ಸಂದೇಶ ಟೋಕನ್"
 msgid "emails unsubscribed"
 msgstr "ಇಮೇಲ್ ಚಂದಾ ರದ್ದು"
 
-#: r2/controllers/front.py:1843 r2/lib/pages/pages.py:930 r2/templates/admininterstitial.html:83
+#: r2/controllers/front.py:1846 r2/lib/pages/pages.py:929 r2/templates/admininterstitial.html:83
 msgid "turn admin on"
 msgstr "ನಿರ್ವಾಹಕ ಆನ್ ಮಾಡು "
 
-#: r2/controllers/front.py:1861 r2/controllers/post.py:166
+#: r2/controllers/front.py:1864 r2/controllers/post.py:166
 msgid "opt out"
 msgstr "ಭಾಗವಹಿಸದೆ ಇರು "
 
-#: r2/controllers/front.py:1861 r2/controllers/post.py:177
+#: r2/controllers/front.py:1864 r2/controllers/post.py:177
 msgid "welcome back"
 msgstr "ಮತ್ತೆ ಸ್ವಾಗತ "
 
-#: r2/controllers/front.py:1969
+#: r2/controllers/front.py:1972
 msgid "tippr gold isn't for sale on this site right now."
 msgstr "tippr ಚಿನ್ನ ಈ ಸೈಟ್‌ನಲ್ಲಿ ಇನ್ನೂ ಮಾರಾಟಕ್ಕೆ ಲಭ್ಯವಿಲ್ಲ."
 
-#: r2/controllers/front.py:1970
+#: r2/controllers/front.py:1973
 msgid "what gold gives you"
 msgstr "ಚಿನ್ನದಿಂದ ನಿಮಗೆ ಏನು ಸಿಗುತ್ತದೆ"
 
-#: r2/controllers/front.py:2090 r2/templates/gold.html:57 r2/templates/gold.html:112 r2/templates/prefoptions.html:553
+#: r2/controllers/front.py:2093 r2/templates/gold.html:57 r2/templates/gold.html:112 r2/templates/prefoptions.html:553
 msgid "Give Gold"
 msgstr "ಚಿನ್ನ ಕೊಡಿ"
 
-#: r2/controllers/front.py:2100 r2/controllers/ipn.py:844
+#: r2/controllers/front.py:2103 r2/controllers/ipn.py:844
 msgid "tippr gold subscription"
 msgstr "tippr ಚಿನ್ನ ಚಂದಾದಾರಿಕೆ"
 
@@ -1107,11 +1108,11 @@ msgstr "%(user)s ನೀಡಿದ ಚಿನ್ನ"
 msgid "profile for %(user)s"
 msgstr " %(user)s ನ ವ್ಯಕ್ತಿಚಿತ್ರ"
 
-#: r2/controllers/listingcontroller.py:1021 r2/lib/menus.py:110 r2/templates/printablebuttons.html:598 r2/templates/printablebuttons.html:605
+#: r2/controllers/listingcontroller.py:1021 r2/lib/menus.py:110 r2/templates/printablebuttons.html:599 r2/templates/printablebuttons.html:606
 msgid "blocked"
 msgstr "ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ"
 
-#: r2/controllers/listingcontroller.py:1193 r2/controllers/listingcontroller.py:1204 r2/templates/printablebuttons.html:625
+#: r2/controllers/listingcontroller.py:1193 r2/controllers/listingcontroller.py:1204 r2/templates/printablebuttons.html:626
 msgid "unread"
 msgstr "ಇನ್ನೂ ಓದಿಲ್ಲದವು"
 
@@ -1139,11 +1140,11 @@ msgstr "ವಾಲ್ಟ್: "
 msgid "To block a user click 'block user'  below a message from a user you wish to block from messaging you."
 msgstr "ಬಳಕೆದಾರರನ್ನು ನಿರ್ಬಂಧಿಸಲು, ನೀವು ಸಂದೇಶ ಕಳುಹಿಸದಂತೆ ತಡೆಯಲು ಬಯಸುವ ಬಳಕೆದಾರರ ಸಂದೇಶದ ಕೆಳಗೆ 'ಬಳಕೆದಾರರನ್ನು ನಿರ್ಬಂಧಿಸಿ' ಕ್ಲಿಕ್ ಮಾಡಿ."
 
-#: r2/controllers/listingcontroller.py:2105 r2/lib/menus.py:60
+#: r2/controllers/listingcontroller.py:2109 r2/lib/menus.py:60
 msgid "gilded"
 msgstr "ಚಿನ್ನ ಸಿಕ್ಕಿದೆ"
 
-#: r2/controllers/listingcontroller.py:2121
+#: r2/controllers/listingcontroller.py:2125
 #, python-format
 msgid "gildings in this vault have paid for %(time)s of server time"
 msgstr "ಈ ವಾಲ್ಟ್‌ನಲ್ಲಿ ನೀಡಿದ ಚಿನ್ನ %(time)s ಸರ್ವರ್ ಸಮಯಕ್ಕೆ ಪಾವತಿಸಿದೆ"
@@ -1207,15 +1208,15 @@ msgstr "ಪಾವತಿ ಪೂರ್ಣಗೊಳ್ಳಲಿಲ್ಲ, ಆದ್
 msgid "try again"
 msgstr "ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ"
 
-#: r2/controllers/policies.py:61 r2/lib/help_pages.py:43 r2/lib/menus.py:102 r2/lib/pages/pages.py:6411 r2/templates/contactus.html:84 r2/templates/utils.html:543
+#: r2/controllers/policies.py:61 r2/lib/help_pages.py:43 r2/lib/menus.py:102 r2/lib/pages/pages.py:6428 r2/templates/contactus.html:84 r2/templates/utils.html:543
 msgid "privacy policy"
 msgstr "ಗೌಪ್ಯತಾ ನೀತಿ"
 
-#: r2/controllers/policies.py:64 r2/lib/help_pages.py:42 r2/lib/menus.py:101 r2/lib/pages/pages.py:6412 r2/templates/contactus.html:92
+#: r2/controllers/policies.py:64 r2/lib/help_pages.py:42 r2/lib/menus.py:101 r2/lib/pages/pages.py:6429 r2/templates/contactus.html:92
 msgid "user agreement"
 msgstr "ಬಳಕೆದಾರ ಒಪ್ಪಂದ"
 
-#: r2/controllers/policies.py:67 r2/lib/help_pages.py:44 r2/lib/menus.py:100 r2/lib/pages/pages.py:6413 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:237
+#: r2/controllers/policies.py:67 r2/lib/help_pages.py:44 r2/lib/menus.py:100 r2/lib/pages/pages.py:6430 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:237
 msgid "content policy"
 msgstr "ವಿಷಯ ನೀತಿ"
 
@@ -1231,15 +1232,15 @@ msgstr "ವಯಸ್ಸು ೧೮ ದಾಟಿದಿಯೇ?"
 msgid "quarantined"
 msgstr "ಕ್ವಾರಂಟೈನ್ ಮಾಡಲಾಗಿದೆ"
 
-#: r2/controllers/privacy.py:111 r2/controllers/privacy.py:139
+#: r2/controllers/privacy.py:114 r2/controllers/privacy.py:142
 msgid "Your data export request has been submitted. You will receive a notification when it is ready."
 msgstr "ನಿಮ್ಮ ಡೇಟಾ ರಫ್ತು ವಿನಂತಿಯನ್ನು ಸಲ್ಲಿಸಲಾಗಿದೆ. ಸಿದ್ಧವಾದಾಗ ನಿಮಗೆ ತಿಳಿಸಲಾಗುವುದು."
 
-#: r2/controllers/privacy.py:164
+#: r2/controllers/privacy.py:167
 msgid "This request cannot be cancelled."
 msgstr "ಈ ವಿನಂತಿಯನ್ನು ರದ್ದುಗೊಳಿಸಲಾಗುವುದಿಲ್ಲ."
 
-#: r2/controllers/privacy.py:168
+#: r2/controllers/privacy.py:171
 msgid "Request cancelled."
 msgstr "ವಿನಂತಿಯನ್ನು ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ."
 
@@ -1355,7 +1356,7 @@ msgstr "ಚಿತ್ರ ಆಯ್ಕೆಮಾಡಿ"
 msgid "too big. keep it under 500 KB"
 msgstr "ತುಂಬಾ ದೊಡ್ಡದು. 500 KB ಗಿಂತ ಕಡಿಮೆ ಇರಿಸಿ"
 
-#: r2/controllers/tippr_base.py:1483 r2/lib/pages/pages.py:4699 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
+#: r2/controllers/tippr_base.py:1483 r2/lib/pages/pages.py:4716 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
 msgid "banned"
 msgstr "ನಿಷೇಧಿಸಲಾಗಿದೆ "
 
@@ -1766,7 +1767,7 @@ msgstr "ನೀವು ಒಂದು ವಾಲ್ಟ್ ಅನ್ನು ಸೂಚ�
 msgid "this vault has chosen to disable their ads at this time"
 msgstr "ಈ ವಾಲ್ಟ್ ಸದ್ಯಕ್ಕೆ ತನ್ನ ಜಾಹೀರಾತುಗಳನ್ನು ಆಫ್ ಮಾಡಲು ನಿರ್ಧರಿಸಿದೆ"
 
-#: r2/lib/errors.py:88 r2/lib/validator/validator.py:3268
+#: r2/lib/errors.py:88 r2/lib/validator/validator.py:3276
 msgid "that name isn't going to work"
 msgstr "ಆ ಹೆಸರು ನಡೆಯುವುದಿಲ್ಲ"
 
@@ -2023,225 +2024,229 @@ msgid "enter the code from your authenticator app (or a recovery code)"
 msgstr "ನಿಮ್ಮ ದೃಢೀಕರಣ ಆ್ಯಪ್‌ನಿಂದ ಕೋಡ್ ನಮೂದಿಸಿ (ಅಥವಾ ಒಂದು ಮರುಪಡೆಯುವ ಕೋಡ್)"
 
 #: r2/lib/errors.py:153
-msgid "that code didn't work. Codes follow the clock, so check that your phone sets its time automatically."
+msgid "your preferences locked again while you were away: reload the page to unlock them, then try again"
 msgstr ""
 
 #: r2/lib/errors.py:154
+msgid "that code didn't work. Codes follow the clock, so check that your phone sets its time automatically."
+msgstr ""
+
+#: r2/lib/errors.py:155
 msgid "turn on two-factor authentication (preferences, security) to use these tools"
 msgstr "ಈ ಪರಿಕರಗಳನ್ನು ಬಳಸಲು ಎರಡು-ಅಂಶ ದೃಢೀಕರಣ ಆನ್ ಮಾಡಿ (ಆದ್ಯತೆಗಳು, ಭದ್ರತೆ)"
 
-#: r2/lib/errors.py:155
+#: r2/lib/errors.py:156
 msgid "image problem"
 msgstr "ಚಿತ್ರದ ತೊಂದರೆ"
 
-#: r2/lib/errors.py:156
+#: r2/lib/errors.py:157
 msgid "already added"
 msgstr "ಆಗಲೇ ಸೇರಿಸಲಾಗಿದೆ"
 
-#: r2/lib/errors.py:157
+#: r2/lib/errors.py:158
 msgid "too many developers"
 msgstr "ಹಲವಾರು ಅಭಿವರ್ಧಕರು"
 
-#: r2/lib/errors.py:159
+#: r2/lib/errors.py:160
 msgid "you cannot add this account from this interface"
 msgstr "ಈ ಇಂಟರ್ಫೇಸ್‌ನಿಂದ ನೀವು ಈ ಖಾತೆಯನ್ನು ಸೇರಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ"
 
-#: r2/lib/errors.py:160
+#: r2/lib/errors.py:161
 msgid "invalid modhash"
 msgstr "ಅಮಾನ್ಯ modhash"
 
-#: r2/lib/errors.py:161
+#: r2/lib/errors.py:162
 msgid "that user is already a moderator"
 msgstr "ಆ ಬಳಕೆದಾರ ಈಗಾಗಲೇ ಮಾಡರೇಟರ್ ಆಗಿದ್ದಾರೆ"
 
-#: r2/lib/errors.py:162
+#: r2/lib/errors.py:163
 msgid "You can't perform that action because that user is a moderator."
 msgstr "ಆ ಬಳಕೆದಾರರು ನಿಯಂತ್ರಕರಾಗಿರುವುದರಿಂದ ನೀವು ಆ ಕ್ರಿಯೆ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ."
 
-#: r2/lib/errors.py:163
+#: r2/lib/errors.py:164
 msgid "there is no pending invite for that vault"
 msgstr "ಆ ವಾಲ್ಟ್‌ಗೆ ಯಾವುದೇ ಬಾಕಿ ಆಮಂತ್ರಣವಿಲ್ಲ"
 
-#: r2/lib/errors.py:164
+#: r2/lib/errors.py:165
 msgid "you cannot edit the budget of a live ad"
 msgstr "ಲೈವ್ ಜಾಹೀರಾತಿನ ಬಜೆಟ್ ಅನ್ನು ನೀವು ಸಂಪಾದಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ"
 
-#: r2/lib/errors.py:165
+#: r2/lib/errors.py:166
 msgid "you have too many campaigns for that promotion"
 msgstr "ನಿಮ್ಮ ಪ್ರಚಾರವು ಬಹಳಷ್ಟು ಕಾರ್ಯಾಚರಣೆಗಳನ್ನು ಹೊಂದಿವೆ"
 
-#: r2/lib/errors.py:166
+#: r2/lib/errors.py:167
 msgid "that jsonp callback contains invalid characters"
 msgstr "ಆ ಜೆಸನ್ ಪಿ ಕಾಲ್ ಬ್ಯಾಕ್ ನಲ್ಲಿ ಅಮಾನ್ಯವಾದ ಅಕ್ಷರಗಳಿವೆ "
 
-#: r2/lib/errors.py:167
+#: r2/lib/errors.py:168
 msgid "permissions don't apply to that type of user"
 msgstr "ಆ ಪ್ರಕಾರದ ಬಳಕೆದಾರರಿಗೆ ಅನುಮತಿಗಳು ಅನ್ವಯಿಸುವುದಿಲ್ಲ"
 
-#: r2/lib/errors.py:168
+#: r2/lib/errors.py:169
 msgid "invalid permissions string"
 msgstr "ಅಮಾನ್ಯ ಅನುಮತಿ ಸ್ಟ್ರಿಂಗ್"
 
-#: r2/lib/errors.py:169
+#: r2/lib/errors.py:170
 msgid "invalid multi path"
 msgstr "ಅಮಾನ್ಯ ಮಲ್ಟಿ ಪಥ"
 
-#: r2/lib/errors.py:170
+#: r2/lib/errors.py:171
 #, python-format
 msgid "%(reason)s"
 msgstr "%(reason)s"
 
-#: r2/lib/errors.py:171
+#: r2/lib/errors.py:172
 msgid "that multivault doesn't exist"
 msgstr "ಆ ಮಲ್ಟಿವಾಲ್ಟ್ ಅಸ್ತಿತ್ವದಲ್ಲಿಲ್ಲ"
 
-#: r2/lib/errors.py:172
+#: r2/lib/errors.py:173
 msgid "that multivault already exists"
 msgstr "ಆ ಮಲ್ಟಿವಾಲ್ಟ್ ಈಗಾಗಲೇ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ"
 
-#: r2/lib/errors.py:173
+#: r2/lib/errors.py:174
 msgid "you can't change that multivault"
 msgstr "ನೀವು ಆ ಮಲ್ಟಿವಾಲ್ಟ್ ಅನ್ನು ಬದಲಾಯಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ"
 
-#: r2/lib/errors.py:174
+#: r2/lib/errors.py:175
 msgid "no more space for vaults in that multivault"
 msgstr "ಆ ಮಲ್ಟಿವಾಲ್ಟ್‌ನಲ್ಲಿ ಇನ್ನಷ್ಟು ವಾಲ್ಟ್‌ಗಳಿಗೆ ಸ್ಥಳವಿಲ್ಲ"
 
-#: r2/lib/errors.py:175
+#: r2/lib/errors.py:176
 #, python-format
 msgid "can't add special vault %(path)s"
 msgstr "ವಿಶೇಷ ವಾಲ್ಟ್ %(path)s ಸೇರಿಸಲಾಗುವುದಿಲ್ಲ"
 
-#: r2/lib/errors.py:176
+#: r2/lib/errors.py:177
 #, python-format
 msgid "maximum %(max)s vaults"
 msgstr "ಗರಿಷ್ಠ %(max)s ವಾಲ್ಟ್‌ಗಳು"
 
-#: r2/lib/errors.py:177
+#: r2/lib/errors.py:178
 msgid "unable to parse JSON data"
 msgstr "JSON ಡೇಟಾವನ್ನು ಪಾರ್ಸ್ ಮಾಡಲಾಗಲಿಲ್ಲ"
 
-#: r2/lib/errors.py:178
+#: r2/lib/errors.py:179
 msgid "unexpected JSON structure"
 msgstr "ಅನಿರೀಕ್ಷಿತ JSON ರಚನೆ"
 
-#: r2/lib/errors.py:179
+#: r2/lib/errors.py:180
 #, python-format
 msgid "JSON missing key: \"%(key)s\""
 msgstr "JSON ನಲ್ಲಿ ಕೀಲಿ ಇಲ್ಲ: \"%(key)s\""
 
-#: r2/lib/errors.py:180
+#: r2/lib/errors.py:181
 msgid "can't change post type"
 msgstr "ಪೋಸ್ಟ್‌ನ ಪ್ರಕಾರವನ್ನು ಬದಲಾಯಿಸಲಾಗುವುದಿಲ್ಲ"
 
-#: r2/lib/errors.py:181
+#: r2/lib/errors.py:182
 msgid "invalid location"
 msgstr "ಅಮಾನ್ಯ ಸ್ಥಳ"
 
-#: r2/lib/errors.py:182
+#: r2/lib/errors.py:183
 msgid "invalid values for frequency cap"
 msgstr "ಆವರ್ತನ ಮಿತಿಗೆ ಅಮಾನ್ಯ ಮೌಲ್ಯ"
 
-#: r2/lib/errors.py:183
+#: r2/lib/errors.py:184
 #, python-format
 msgid "frequency cap must be at least %(min)d"
 msgstr "ಆವರ್ತನ ಮಿತಿ ಕನಿಷ್ಠ %(min)d ಆಗಿರಬೇಕು"
 
-#: r2/lib/errors.py:184
+#: r2/lib/errors.py:185
 msgid "that user is banned from the vault"
 msgstr "ಆ ಬಳಕೆದಾರರನ್ನು ಈ ವಾಲ್ಟ್‌ನಿಂದ ನಿಷೇಧಿಸಲಾಗಿದೆ"
 
-#: r2/lib/errors.py:185
+#: r2/lib/errors.py:186
 msgid "You can't do that while suspended."
 msgstr "ಅಮಾನತಿನಲ್ಲಿರುವಾಗ ನೀವು ಅದನ್ನು ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ."
 
-#: r2/lib/errors.py:186
+#: r2/lib/errors.py:187
 msgid "you must have an active tippr gold subscription to do that"
 msgstr "ಅದನ್ನು ಮಾಡಲು ನಿಮಗೆ ಸಕ್ರಿಯ tippr ಚಿನ್ನ ಚಂದಾದಾರಿಕೆ ಇರಬೇಕು"
 
-#: r2/lib/errors.py:187
+#: r2/lib/errors.py:188
 msgid "insufficient coins"
 msgstr "ಸಾಕಷ್ಟು ನಾಣ್ಯಗಳಿಲ್ಲ"
 
-#: r2/lib/errors.py:188
+#: r2/lib/errors.py:189
 msgid "gilding is not allowed in this vault"
 msgstr "ಈ ವಾಲ್ಟ್‌ನಲ್ಲಿ ಚಿನ್ನ ನೀಡಲು ಅನುಮತಿ ಇಲ್ಲ"
 
-#: r2/lib/errors.py:189
+#: r2/lib/errors.py:190
 msgid "unable to scrape provided url"
 msgstr "ನೀಡಿದ url ಓದಲಾಗಲಿಲ್ಲ"
 
-#: r2/lib/errors.py:190
+#: r2/lib/errors.py:191
 msgid "can't send a message from a vault to another vault"
 msgstr "ಒಂದು ವಾಲ್ಟ್‌ನಿಂದ ಇನ್ನೊಂದು ವಾಲ್ಟ್‌ಗೆ ಸಂದೇಶ ಕಳುಹಿಸಲಾಗುವುದಿಲ್ಲ"
 
-#: r2/lib/errors.py:191
+#: r2/lib/errors.py:192
 msgid "can't send message to that user"
 msgstr "ಆ ಬಳಕೆದಾರರಿಗೆ ಸಂದೇಶ ಕಳುಹಿಸಲಾಗುವುದಿಲ್ಲ"
 
-#: r2/lib/errors.py:192
+#: r2/lib/errors.py:193
 msgid "you must be in admin mode for this"
 msgstr "ಇದಕ್ಕಾಗಿ ನೀವು ನಿರ್ವಾಹಕ ಮೋಡ್‌ನಲ್ಲಿರಬೇಕು"
 
-#: r2/lib/errors.py:193
+#: r2/lib/errors.py:194
 #, python-format
 msgid "to convert an existing vault to gold only, send a message to %(admin_modmail)s"
 msgstr "ಈಗಿರುವ ವಾಲ್ಟ್ ಅನ್ನು ಚಿನ್ನ-ಮಾತ್ರಕ್ಕೆ ಬದಲಾಯಿಸಲು, %(admin_modmail)s ಗೆ ಸಂದೇಶ ಕಳುಹಿಸಿ"
 
-#: r2/lib/errors.py:195
+#: r2/lib/errors.py:196
 msgid "this vault must be 'gold only' to select this"
 msgstr "ಇದನ್ನು ಆಯ್ಕೆಮಾಡಲು ಈ ವಾಲ್ಟ್ 'ಚಿನ್ನ ಮಾತ್ರ' ಆಗಿರಬೇಕು"
 
-#: r2/lib/errors.py:196
+#: r2/lib/errors.py:197
 msgid "your account is too new or you do not have enough karma to create a vault. please contact the admins to request an exemption."
 msgstr "ನಿಮ್ಮ ಖಾತೆ ತುಂಬಾ ಹೊಸದು ಅಥವಾ ವಾಲ್ಟ್ ರಚಿಸಲು ನಿಮಗೆ ಸಾಕಷ್ಟು ಕರ್ಮ ಇಲ್ಲ. ವಿನಾಯಿತಿಗಾಗಿ ದಯವಿಟ್ಟು ನಿರ್ವಾಹಕರನ್ನು ಸಂಪರ್ಕಿಸಿ."
 
-#: r2/lib/errors.py:197
+#: r2/lib/errors.py:198
 msgid "you must select at least one mobile OS to target"
 msgstr "ಗುರಿಯಾಗಿಸಲು ನೀವು ಕನಿಷ್ಠ ಒಂದು ಮೊಬೈಲ್ OS ಆಯ್ಕೆಮಾಡಬೇಕು"
 
-#: r2/lib/errors.py:198 r2/templates/promotelinkbase.html:524
+#: r2/lib/errors.py:199 r2/templates/promotelinkbase.html:524
 msgid "you must select at least one device per OS to target"
 msgstr "ಗುರಿಯಾಗಿಸಲು ನೀವು ಪ್ರತಿ OS ಗೆ ಕನಿಷ್ಠ ಒಂದು ಸಾಧನ ಆಯ್ಕೆಮಾಡಬೇಕು"
 
-#: r2/lib/errors.py:199
+#: r2/lib/errors.py:200
 msgid "You have been muted from this vault."
 msgstr "ಈ ವಾಲ್ಟ್‌ನಲ್ಲಿ ನಿಮ್ಮನ್ನು ಮ್ಯೂಟ್ ಮಾಡಲಾಗಿದೆ."
 
-#: r2/lib/errors.py:200
+#: r2/lib/errors.py:201
 msgid "This user has been muted from the vault."
 msgstr "ಈ ಬಳಕೆದಾರರನ್ನು ವಾಲ್ಟ್‌ನಲ್ಲಿ ಮ್ಯೂಟ್ ಮಾಡಲಾಗಿದೆ."
 
-#: r2/lib/errors.py:201
+#: r2/lib/errors.py:202
 msgid "please say how much AI went into this post"
 msgstr "ದಯವಿಟ್ಟು ಈ ಪೋಸ್ಟ್‌ನಲ್ಲಿ ಎಷ್ಟು AI ಬಳಸಲಾಗಿದೆ ಎಂದು ತಿಳಿಸಿ"
 
-#: r2/lib/errors.py:202
+#: r2/lib/errors.py:203
 #, python-format
 msgid "this vault only accepts: %(allowed)s"
 msgstr "ಈ ವಾಲ್ಟ್ ಇವುಗಳನ್ನು ಮಾತ್ರ ಸ್ವೀಕರಿಸುತ್ತದೆ: %(allowed)s"
 
-#: r2/lib/errors.py:203
+#: r2/lib/errors.py:204
 msgid "This comment is not stickyable. Ensure that it is a top level comment."
 msgstr "ಈ ಅನಿಸಿಕೆಯನ್ನು ಪಿನ್ ಮಾಡಲಾಗುವುದಿಲ್ಲ. ಇದು ಮೇಲ್ಮಟ್ಟದ ಅನಿಸಿಕೆ ಎಂದು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ."
 
-#: r2/lib/errors.py:204 r2/public/static/js/errors.js:7
+#: r2/lib/errors.py:205 r2/public/static/js/errors.js:7
 msgid "A vault rule by that name already exists."
 msgstr "ಆ ಹೆಸರಿನ ವಾಲ್ಟ್ ನಿಯಮ ಈಗಾಗಲೇ ಇದೆ."
 
-#: r2/lib/errors.py:205
+#: r2/lib/errors.py:206
 msgid "No vault rule by that name exists."
 msgstr "ಆ ಹೆಸರಿನ ಯಾವುದೇ ವಾಲ್ಟ್ ನಿಯಮ ಇಲ್ಲ."
 
-#: r2/lib/errors.py:206 r2/public/static/js/errors.js:8
+#: r2/lib/errors.py:207 r2/public/static/js/errors.js:8
 msgid "This vault already has the maximum number of rules."
 msgstr "ಈ ವಾಲ್ಟ್‌ನಲ್ಲಿ ಈಗಾಗಲೇ ಗರಿಷ್ಠ ಸಂಖ್ಯೆಯ ನಿಯಮಗಳಿವೆ."
 
-#: r2/lib/errors.py:207
+#: r2/lib/errors.py:208
 msgid "Cannot access this comment."
 msgstr "ಈ ಅನಿಸಿಕೆಯನ್ನು ಪ್ರವೇಶಿಸಲಾಗುವುದಿಲ್ಲ."
 
-#: r2/lib/errors.py:208
+#: r2/lib/errors.py:209
 msgid "Cannot access this post."
 msgstr "ಈ ಪೋಸ್ಟ್ ಅನ್ನು ಪ್ರವೇಶಿಸಲಾಗುವುದಿಲ್ಲ."
 
@@ -2730,7 +2735,7 @@ msgstr "ಪ್ರಶ್ನೋತ್ತರ"
 msgid "saved {toolbar}"
 msgstr "ಉಳಿಸಲಾಗಿದೆ"
 
-#: r2/lib/menus.py:65 r2/templates/prefsecurity.html:278
+#: r2/lib/menus.py:65 r2/templates/prefsecurity.html:246
 msgid "recommended"
 msgstr "ಶಿಫಾರಸು ಮಾಡಲಾದ "
 
@@ -2766,7 +2771,7 @@ msgstr "ಕಳೆದ ವರ್ಷ"
 msgid "all time"
 msgstr "ಶುರುವಿನಿಂದ"
 
-#: r2/lib/menus.py:78 r2/models/rules.py:37 r2/templates/preffeeds.html:120 r2/templates/printablebuttons.html:47 r2/templates/printablebuttons.html:265
+#: r2/lib/menus.py:78 r2/templates/preffeeds.html:120 r2/templates/printablebuttons.html:48 r2/templates/printablebuttons.html:266
 msgid "spam"
 msgstr "ಸ್ಪ್ಯಾಮ್ "
 
@@ -2774,7 +2779,7 @@ msgstr "ಸ್ಪ್ಯಾಮ್ "
 msgid "autobanned"
 msgstr "ಸ್ವಯಂ ನಿಷೇಧಿತ"
 
-#: r2/lib/menus.py:82 r2/lib/pages/pages.py:1271 r2/lib/pages/pages.py:1295
+#: r2/lib/menus.py:82 r2/lib/pages/pages.py:1270 r2/lib/pages/pages.py:1294
 msgid "preferences"
 msgstr "ಆದ್ಯತೆಗಳು "
 
@@ -2888,7 +2893,7 @@ msgstr "ಸ್ಟೈಲ್ ಶೀಟ್"
 msgid "home"
 msgstr "ಮುಖಪುಟ"
 
-#: r2/lib/menus.py:130 r2/lib/pages/pages.py:1128
+#: r2/lib/menus.py:130 r2/lib/pages/pages.py:1127
 msgid "about"
 msgstr "ಅದರ ಕುರಿತು"
 
@@ -2896,7 +2901,7 @@ msgstr "ಅದರ ಕುರಿತು"
 msgid "edit subscriptions"
 msgstr "ವರ್ಗಣಿಗಳನ್ನು ತಿದ್ದು"
 
-#: r2/lib/menus.py:132 r2/lib/pages/pages.py:2314
+#: r2/lib/menus.py:132 r2/lib/pages/pages.py:2328
 msgid "vault settings"
 msgstr "ವಾಲ್ಟ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳು"
 
@@ -2908,7 +2913,7 @@ msgstr "ಸ್ಟೈಲ್‌ಶೀಟ್ ಸಂಪಾದಿಸಿ"
 msgid "rules"
 msgstr "ನಿಯಮಗಳು"
 
-#: r2/lib/menus.py:135 r2/lib/pages/pages.py:881 r2/templates/adminvault.html:33 r2/templates/adminvault.html:101
+#: r2/lib/menus.py:135 r2/lib/pages/pages.py:880 r2/templates/adminvault.html:33 r2/templates/adminvault.html:101
 msgid "moderators"
 msgstr " ನಿಯಂತ್ರಕರು "
 
@@ -2984,7 +2989,7 @@ msgstr "ಜನಪ್ರಿಯ"
 msgid "create"
 msgstr "ರಚಿಸು "
 
-#: r2/lib/menus.py:158 r2/lib/pages/pages.py:2939
+#: r2/lib/menus.py:158 r2/lib/pages/pages.py:2953
 msgid "my vaults"
 msgstr "ನನ್ನ ವಾಲ್ಟ್‌ಗಳು"
 
@@ -3046,7 +3051,7 @@ msgstr "ಸ್ಪ್ಯಾಮ್ ರಕ್ಷಣೆ"
 msgid "live config"
 msgstr "ಲೈವ್ ಕಾನ್ಫಿಗ್"
 
-#: r2/lib/menus.py:175 r2/lib/pages/pages.py:939 r2/templates/adminsupport.html:34
+#: r2/lib/menus.py:175 r2/lib/pages/pages.py:938 r2/templates/adminsupport.html:34
 msgid "support"
 msgstr "ಬೆಂಬಲ"
 
@@ -3094,7 +3099,7 @@ msgstr "ವರದಿಸಲಾದ ಲೇಖಕರು"
 msgid "info"
 msgstr "ಮಾಹಿತಿ"
 
-#: r2/lib/menus.py:188 r2/templates/multiinfobar.html:107 r2/templates/printablebuttons.html:368
+#: r2/lib/menus.py:188 r2/templates/multiinfobar.html:107 r2/templates/printablebuttons.html:369
 msgid "share"
 msgstr "ಹಂಚು "
 
@@ -3242,7 +3247,7 @@ msgstr "ಕಾನ್ಫಿಗ್"
 msgid "edit settings, sidebar, css, images, and AutoModerator config"
 msgstr "ಸೆಟ್ಟಿಂಗ್‌ಗಳು, ಅಡ್ಡಪಟ್ಟಿ, css, ಚಿತ್ರಗಳು ಮತ್ತು AutoModerator ಕಾನ್ಫಿಗ್ ಸಂಪಾದಿಸಿ"
 
-#: r2/lib/permissions.py:87 r2/templates/printablebuttons.html:115
+#: r2/lib/permissions.py:87 r2/templates/printablebuttons.html:116
 msgid "flair"
 msgstr "ಫ್ಲೇರ್"
 
@@ -3749,7 +3754,7 @@ msgstr[0] ""
 "ಕೊಂಡಿಗಳು "
 msgstr[1] "links"
 
-#: r2/lib/pages/pages.py:1524 r2/lib/strings.py:263 r2/templates/messagecompose.html:101
+#: r2/lib/pages/pages.py:1538 r2/lib/strings.py:263 r2/templates/messagecompose.html:101
 msgid "message"
 msgid_plural "messages"
 msgstr[0] ""
@@ -3848,7 +3853,7 @@ msgstr[0] ""
 "ಗಂಟೆಗಳು "
 msgstr[1] "hours"
 
-#: r2/lib/pages/pages.py:347 r2/lib/pages/pages.py:5724 r2/lib/strings.py:279 r2/public/static/js/sponsored.js:1484 r2/public/static/js/sponsored.js:1851 r2/templates/intimeoutinterstitial.html:44 r2/templates/tipprtraffic.html:104
+#: r2/lib/pages/pages.py:346 r2/lib/pages/pages.py:5741 r2/lib/strings.py:279 r2/public/static/js/sponsored.js:1484 r2/public/static/js/sponsored.js:1851 r2/templates/intimeoutinterstitial.html:44 r2/templates/tipprtraffic.html:104
 msgid "day"
 msgid_plural "days"
 msgstr[0] "ದಿನ"
@@ -4196,7 +4201,7 @@ msgstr "/v/%(tippr)sಯ ನಿಯಂತ್ರಕ, ಅಧಿಕೃತವಾಗಿ
 msgid "%(user)s just celebrated a tippr birthday!"
 msgstr "%(user)s ಈಗಷ್ಟೇ tippr ಹುಟ್ಟುಹಬ್ಬ ಆಚರಿಸಿದರು!"
 
-#: r2/lib/pages/pages.py:1341 r2/lib/template_helpers.py:771 r2/public/static/js/timetext.js:68
+#: r2/lib/pages/pages.py:1356 r2/lib/template_helpers.py:771 r2/public/static/js/timetext.js:68
 msgid "just now"
 msgstr "ಈಗಷ್ಟೇ"
 
@@ -4228,498 +4233,498 @@ msgstr "ಐ ಪಿ "
 msgid "user"
 msgstr "ಬಳಕೆದಾರ"
 
-#: r2/lib/pages/pages.py:179
+#: r2/lib/pages/pages.py:178
 #, python-format
 msgid "%d %b %Y"
 msgstr "%d %b %Y"
 
-#: r2/lib/pages/pages.py:339
+#: r2/lib/pages/pages.py:338
 msgid "This site asks moderators and staff to use two-factor sign-in. Turn it on under [preferences, security](/prefs/security) to use your moderator tools."
 msgstr "ಈ ಸೈಟ್ ನಿಯಂತ್ರಕರು ಮತ್ತು ಸಿಬ್ಬಂದಿಗೆ ಎರಡು-ಅಂಶ ಸೈನ್-ಇನ್ ಬಳಸಲು ಕೇಳುತ್ತದೆ. ನಿಮ್ಮ ನಿಯಂತ್ರಕ ಪರಿಕರಗಳನ್ನು ಬಳಸಲು ಅದನ್ನು [ಆದ್ಯತೆಗಳು, ಭದ್ರತೆ](/prefs/security) ಅಡಿಯಲ್ಲಿ ಆನ್ ಮಾಡಿ."
 
-#: r2/lib/pages/pages.py:522
+#: r2/lib/pages/pages.py:521
 msgid "wiki tools"
 msgstr "ವಿಕಿ ಸಾಧನಗಳು"
 
-#: r2/lib/pages/pages.py:648
+#: r2/lib/pages/pages.py:647
 msgid "moderation tools"
 msgstr "ನಿಯಂತ್ರಕ ಸಾಧನಗಳು"
 
-#: r2/lib/pages/pages.py:716
+#: r2/lib/pages/pages.py:715
 msgid "these vaults"
 msgstr "ಈ ವಾಲ್ಟ್‌ಗಳು"
 
-#: r2/lib/pages/pages.py:730
+#: r2/lib/pages/pages.py:729
 msgid "this vault is archived and no longer accepting submissions."
 msgstr "ಈ ವಾಲ್ಟ್ ಸಂಗ್ರಹಿಸಲಾಗಿದೆ ಮತ್ತು ಇನ್ನು ಮುಂದೆ ಸಲ್ಲಿಕೆಗಳನ್ನು ಸ್ವೀಕರಿಸುತ್ತಿಲ್ಲ."
 
-#: r2/lib/pages/pages.py:732
+#: r2/lib/pages/pages.py:731
 msgid "Submissions disabled"
 msgstr "ಸಲ್ಲಿಕೆಗಳನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ"
 
-#: r2/lib/pages/pages.py:739
+#: r2/lib/pages/pages.py:738
 msgid "Only approved users may post in this community."
 msgstr "ಈ ಸಮುದಾಯದಲ್ಲಿ ಅನುಮೋದಿತ ಬಳಕೆದಾರರು ಮಾತ್ರ ಪೋಸ್ಟ್ ಮಾಡಬಹುದು."
 
-#: r2/lib/pages/pages.py:742
+#: r2/lib/pages/pages.py:741
 msgid "Anyone can view or comment, but only Tippr Gold members can post in this community."
 msgstr "ಯಾರಾದರೂ ನೋಡಬಹುದು ಅಥವಾ ಅನಿಸಿಕೆ ಬರೆಯಬಹುದು, ಆದರೆ ಈ ಸಮುದಾಯದಲ್ಲಿ Tippr ಚಿನ್ನ ಸದಸ್ಯರು ಮಾತ್ರ ಪೋಸ್ಟ್ ಮಾಡಬಹುದು."
 
-#: r2/lib/pages/pages.py:745
+#: r2/lib/pages/pages.py:744
 msgid "Submissions restricted"
 msgstr "ಸಲ್ಲಿಕೆಗಳನ್ನು ನಿರ್ಬಂಧಿಸಲಾಗಿದೆ"
 
-#: r2/lib/pages/pages.py:833
+#: r2/lib/pages/pages.py:832
 msgid "Create your own vault"
 msgstr "ನಿಮ್ಮದೇ ವಾಲ್ಟ್ ರಚಿಸಿ"
 
-#: r2/lib/pages/pages.py:857
+#: r2/lib/pages/pages.py:856
 #, python-format
 msgid "...and %d more"
 msgstr "...ಮತ್ತು ಇನ್ನೂ %d"
 
-#: r2/lib/pages/pages.py:859
+#: r2/lib/pages/pages.py:858
 msgid "about moderation team"
 msgstr "ನಿಯಂತ್ರಣ ತಂಡದ ಬಗ್ಗೆ"
 
-#: r2/lib/pages/pages.py:864 r2/templates/contactus.html:60
+#: r2/lib/pages/pages.py:863 r2/templates/contactus.html:60
 msgid "message the admins"
 msgstr "ನಿರ್ವಾಹಕರಿಗೆ ಸಂದೇಶ ಕಳುಹಿಸಿ"
 
-#: r2/lib/pages/pages.py:866 r2/templates/privateinterstitial.html:50
+#: r2/lib/pages/pages.py:865 r2/templates/privateinterstitial.html:50
 msgid "message the moderators"
 msgstr "ನಿಯಂತ್ರಕರಿಗೆ ಸಂದೇಶ ಕಳುಹಿಸಿ"
 
-#: r2/lib/pages/pages.py:893
+#: r2/lib/pages/pages.py:892
 msgid "Recently viewed links"
 msgstr "ಇತ್ತೀಚೆಗೆ ವೀಕ್ಷಿಸಿದ ಕೊಂಡಿಗಳು"
 
-#: r2/lib/pages/pages.py:923
+#: r2/lib/pages/pages.py:922
 msgid "turn admin off"
 msgstr "ನಿರ್ವಾಹಕ ಆಫ್ ಮಾಡು "
 
-#: r2/lib/pages/pages.py:1145
+#: r2/lib/pages/pages.py:1144
 msgid "<3"
 msgstr "<3"
 
-#: r2/lib/pages/pages.py:1342 r2/templates/adminserverstatus.html:166
+#: r2/lib/pages/pages.py:1357 r2/templates/adminserverstatus.html:166
 #, python-format
 msgid "%(time)s ago"
 msgstr "%(time)s ಹಿಂದೆ"
 
-#: r2/lib/pages/pages.py:1521
+#: r2/lib/pages/pages.py:1535
 #, python-format
 msgid "%(site)s mail"
 msgstr "%(site)s ಅಂಚೆ "
 
-#: r2/lib/pages/pages.py:1598
+#: r2/lib/pages/pages.py:1612
 msgid "sign up or log in"
 msgstr "ಸೈನ್ ಅಪ್ ಅಥವಾ ಲಾಗ್ ಇನ್ ಮಾಡಿ"
 
-#: r2/lib/pages/pages.py:1679
+#: r2/lib/pages/pages.py:1693
 msgid "request for permission"
 msgstr "ಅನುಮತಿ ಕೋರಿ"
 
-#: r2/lib/pages/pages.py:1681
+#: r2/lib/pages/pages.py:1695
 msgid "permission"
 msgstr "ಅನುಮತಿ"
 
-#: r2/lib/pages/pages.py:1716 r2/templates/searchform.html:77
+#: r2/lib/pages/pages.py:1730 r2/templates/searchform.html:77
 msgid "enable NSFW results"
 msgstr "NSFW ಫಲಿತಾಂಶಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ"
 
-#: r2/lib/pages/pages.py:1739
+#: r2/lib/pages/pages.py:1753
 msgid "bummer"
 msgstr "ಛೆ"
 
-#: r2/lib/pages/pages.py:1751
+#: r2/lib/pages/pages.py:1765
 msgid "this page is no longer available due to a copyright claim."
 msgstr "ಈ ಪುಟ ಹಕ್ಕುಸ್ವಾಮ್ಯ ಹಕ್ಕಿನ ಪ್ರತಿಪಾದನೆಯ ಕಾರಣ ಇನ್ನು ಮುಂದೆ ಲಭ್ಯವಿಲ್ಲ."
 
-#: r2/lib/pages/pages.py:1992
+#: r2/lib/pages/pages.py:2006
 msgid "comments disabled"
 msgstr "ಅನಿಸಿಕೆಗಳನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ"
 
-#: r2/lib/pages/pages.py:2315
+#: r2/lib/pages/pages.py:2329
 #, python-format
 msgid "about %(site)s"
 msgstr "%(site)sರ ಬಗ್ಗೆ "
 
-#: r2/lib/pages/pages.py:2338
+#: r2/lib/pages/pages.py:2352
 msgid "search vaults by name"
 msgstr "ಹೆಸರಿನಿಂದ ವಾಲ್ಟ್‌ಗಳನ್ನು ಹುಡುಕಿ"
 
-#: r2/lib/pages/pages.py:2382
+#: r2/lib/pages/pages.py:2396
 #, python-format
 msgid "your front page vaults (%s)"
 msgstr "ನಿಮ್ಮ ಮುಖಪುಟದ ವಾಲ್ಟ್‌ಗಳು (%s)"
 
-#: r2/lib/pages/pages.py:2470 r2/templates/createvault.html:460 r2/templates/spotlightlisting.html:63
+#: r2/lib/pages/pages.py:2484 r2/templates/createvault.html:460 r2/templates/spotlightlisting.html:63
 msgid "what's this?"
 msgstr "ಇದೇನು?"
 
-#: r2/lib/pages/pages.py:2471
+#: r2/lib/pages/pages.py:2485
 msgid "trophy case"
 msgstr "ಟ್ರೋಫಿ ಕಪಾಟು"
 
-#: r2/lib/pages/pages.py:2481
+#: r2/lib/pages/pages.py:2495
 msgid "public multivaults"
 msgstr "ಸಾರ್ವಜನಿಕ ಮಲ್ಟಿವಾಲ್ಟ್‌ಗಳು"
 
-#: r2/lib/pages/pages.py:2488
+#: r2/lib/pages/pages.py:2502
 msgid "hidden multivaults"
 msgstr "ಮರೆಮಾಡಿದ ಮಲ್ಟಿವಾಲ್ಟ್‌ಗಳು"
 
-#: r2/lib/pages/pages.py:2509
+#: r2/lib/pages/pages.py:2523
 msgid "moderator of"
 msgstr "ಇವುಗಳ ನಿಯಂತ್ರಕ"
 
-#: r2/lib/pages/pages.py:2573
+#: r2/lib/pages/pages.py:2587
 msgid "less than a day"
 msgstr "ಒಂದು ದಿನ್ನಕ್ಕಿಂತ ಕಡಿಮೆ "
 
-#: r2/lib/pages/pages.py:2586
+#: r2/lib/pages/pages.py:2600
 #, python-format
 msgid "Give Gold: %(coins)s month"
 msgid_plural "Give Gold: %(coins)s months"
 msgstr[0] "ಚಿನ್ನ ಕೊಡಿ: %(coins)s ತಿಂಗಳು"
 msgstr[1] "ಚಿನ್ನ ಕೊಡಿ: %(coins)s ತಿಂಗಳುಗಳು"
 
-#: r2/lib/pages/pages.py:2594
+#: r2/lib/pages/pages.py:2608
 #, python-format
 msgid "%(gildings)s gilding given out"
 msgid_plural "%(gildings)s gildings given out"
 msgstr[0] "%(gildings)s ಬಾರಿ ಚಿನ್ನ ನೀಡಲಾಗಿದೆ"
 msgstr[1] "%(gildings)s ಬಾರಿ ಚಿನ್ನ ನೀಡಲಾಗಿದೆ"
 
-#: r2/lib/pages/pages.py:2602
+#: r2/lib/pages/pages.py:2616
 #, python-format
 msgid "give tippr gold to %(user)s to show your appreciation"
 msgstr "ನಿಮ್ಮ ಮೆಚ್ಚುಗೆ ತೋರಿಸಲು %(user)s ಅವರಿಗೆ tippr ಚಿನ್ನ ನೀಡಿ"
 
-#: r2/lib/pages/pages.py:2606
+#: r2/lib/pages/pages.py:2620
 msgid "get extra features and help support tippr with a tippr gold subscription"
 msgstr "tippr ಚಿನ್ನ ಚಂದಾದಾರಿಕೆಯೊಂದಿಗೆ ಹೆಚ್ಚುವರಿ ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಪಡೆಯಿರಿ ಮತ್ತು tippr ಗೆ ಬೆಂಬಲ ನೀಡಿ"
 
-#: r2/lib/pages/pages.py:2610
+#: r2/lib/pages/pages.py:2624
 msgid "renew your tippr gold"
 msgstr "ನಿಮ್ಮ tippr ಚಿನ್ನ ನವೀಕರಿಸಿ"
 
-#: r2/lib/pages/pages.py:2620
+#: r2/lib/pages/pages.py:2634
 #, python-format
 msgid "you have helped pay for *%(time)s* of tippr server time."
 msgstr "ನೀವು tippr ನ *%(time)s* ಸರ್ವರ್ ಸಮಯಕ್ಕೆ ಪಾವತಿಸಲು ಸಹಾಯ ಮಾಡಿದ್ದೀರಿ."
 
-#: r2/lib/pages/pages.py:2621
+#: r2/lib/pages/pages.py:2635
 #, python-format
 msgid "/u/%(user)s has helped pay for *%%(time)s* of tippr server time."
 msgstr "/u/%(user)s tippr ನ *%%(time)s* ಸರ್ವರ್ ಸಮಯಕ್ಕೆ ಪಾವತಿಸಲು ಸಹಾಯ ಮಾಡಿದ್ದಾರೆ."
 
-#: r2/lib/pages/pages.py:2624
+#: r2/lib/pages/pages.py:2638
 #, python-format
 msgid "gifts on your behalf have helped pay for *%(time)s* of tippr server time."
 msgstr "ನಿಮ್ಮ ಪರವಾಗಿ ನೀಡಿದ ಉಡುಗೊರೆಗಳು tippr ನ *%(time)s* ಸರ್ವರ್ ಸಮಯಕ್ಕೆ ಪಾವತಿಸಲು ಸಹಾಯ ಮಾಡಿವೆ."
 
-#: r2/lib/pages/pages.py:2626
+#: r2/lib/pages/pages.py:2640
 #, python-format
 msgid "gifts on behalf of /u/%(user)s have helped pay for *%%(time)s* of tippr server time."
 msgstr "/u/%(user)s ಅವರ ಪರವಾಗಿ ನೀಡಿದ ಉಡುಗೊರೆಗಳು tippr ನ *%%(time)s* ಸರ್ವರ್ ಸಮಯಕ್ಕೆ ಪಾವತಿಸಲು ಸಹಾಯ ಮಾಡಿವೆ."
 
-#: r2/lib/pages/pages.py:2710
+#: r2/lib/pages/pages.py:2724
 msgid "tippr is a platform for internet communities"
 msgstr "tippr ಅಂತರ್ಜಾಲ ಸಮುದಾಯಗಳ ಒಂದು ವೇದಿಕೆ"
 
-#: r2/lib/pages/pages.py:2711
+#: r2/lib/pages/pages.py:2725
 msgid "where your votes shape what the world is talking about."
 msgstr "ಜಗತ್ತು ಯಾವುದರ ಬಗ್ಗೆ ಮಾತನಾಡುತ್ತಿದೆ ಎಂಬುದನ್ನು ನಿಮ್ಮ ಮತಗಳು ರೂಪಿಸುತ್ತವೆ."
 
-#: r2/lib/pages/pages.py:3010 r2/lib/pages/pages.py:3120
+#: r2/lib/pages/pages.py:3024 r2/lib/pages/pages.py:3134
 msgid "add vault"
 msgstr "ವಾಲ್ಟ್ ಸೇರಿಸಿ"
 
-#: r2/lib/pages/pages.py:3048
+#: r2/lib/pages/pages.py:3062
 #, python-format
 msgid "raise it to %s"
 msgstr " %sಗೆ ಏರಿಸಿ "
 
-#: r2/lib/pages/pages.py:3050 r2/lib/pages/pages.py:3059
+#: r2/lib/pages/pages.py:3064 r2/lib/pages/pages.py:3073
 #, python-format
 msgid "%s visible"
 msgstr "%s ಗೋಚರ"
 
-#: r2/lib/pages/pages.py:3057
+#: r2/lib/pages/pages.py:3071
 #, python-format
 msgid "%(bonus)s bonus vaults"
 msgstr "%(bonus)s ಬೋನಸ್ ವಾಲ್ಟ್‌ಗಳು"
 
-#: r2/lib/pages/pages.py:3427
+#: r2/lib/pages/pages.py:3441
 #, python-format
 msgid "you have a credit card gold subscription. your card (ending in %(last4)s) will be charged %(amount)s on %(date)s."
 msgstr "ನಿಮಗೆ ಕ್ರೆಡಿಟ್ ಕಾರ್ಡ್ ಚಿನ್ನ ಚಂದಾದಾರಿಕೆ ಇದೆ. ನಿಮ್ಮ ಕಾರ್ಡ್‌ನಿಂದ (ಕೊನೆಯ ಅಂಕೆಗಳು %(last4)s) %(date)s ರಂದು %(amount)s ಪಡೆಯಲಾಗುತ್ತದೆ."
 
-#: r2/lib/pages/pages.py:3581
+#: r2/lib/pages/pages.py:3598
 msgid "try entering those letters again"
 msgstr "ಆ ಅಕ್ಷರಗಳನ್ನು ಮತ್ತೆ ನಮೂದಿಸಿ ನೋಡಿ"
 
-#: r2/lib/pages/pages.py:3660 r2/lib/pages/pages.py:6404 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
+#: r2/lib/pages/pages.py:3677 r2/lib/pages/pages.py:6421 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
 msgid "search"
 msgstr "ಹುಡುಕು"
 
-#: r2/lib/pages/pages.py:4298
+#: r2/lib/pages/pages.py:4315
 #, fuzzy
 #| msgid "back"
 msgid "backend"
 msgstr "ಹಿಂದೆ"
 
-#: r2/lib/pages/pages.py:4298
+#: r2/lib/pages/pages.py:4315
 #, fuzzy
 #| msgid "front"
 msgid "frontend"
 msgstr "ಮುಖ"
 
-#: r2/lib/pages/pages.py:4309
+#: r2/lib/pages/pages.py:4326
 #, python-format
 msgid "not heard from for %(time)s"
 msgstr "%(time)s ನಿಂದ ಯಾವುದೇ ಸುದ್ದಿ ಇಲ್ಲ"
 
-#: r2/lib/pages/pages.py:4315
+#: r2/lib/pages/pages.py:4332
 #, python-format
 msgid "memory %(p)s%% used"
 msgstr "ಮೆಮೊರಿ %(p)s%% ಬಳಕೆಯಲ್ಲಿದೆ"
 
-#: r2/lib/pages/pages.py:4319
+#: r2/lib/pages/pages.py:4336
 #, python-format
 msgid "busy: load %(l)s on %(n)s CPUs"
 msgstr "ಕಾರ್ಯನಿರತ: %(n)s CPU ಗಳಲ್ಲಿ ಲೋಡ್ %(l)s"
 
-#: r2/lib/pages/pages.py:4325
+#: r2/lib/pages/pages.py:4342
 #, python-format
 msgid "disk %(path)s %(p)s%% full"
 msgstr "ಡಿಸ್ಕ್ %(path)s %(p)s%% ತುಂಬಿದೆ"
 
-#: r2/lib/pages/pages.py:4329
+#: r2/lib/pages/pages.py:4346
 #, python-format
 msgid "%(service)s is %(state)s"
 msgstr "%(service)s %(state)s ಆಗಿದೆ"
 
-#: r2/lib/pages/pages.py:4332
+#: r2/lib/pages/pages.py:4349
 msgid "a different version from the others"
 msgstr "ಇತರರಿಗಿಂತ ಬೇರೆ ಆವೃತ್ತಿ"
 
-#: r2/lib/pages/pages.py:4334
+#: r2/lib/pages/pages.py:4351
 msgid "another server has the same name: set TIPPR_SERVER_NAME on one of them"
 msgstr "ಇನ್ನೊಂದು ಸರ್ವರ್‌ಗೂ ಇದೇ ಹೆಸರಿದೆ: ಅವುಗಳಲ್ಲಿ ಒಂದರಲ್ಲಿ TIPPR_SERVER_NAME ಹೊಂದಿಸಿ"
 
-#: r2/lib/pages/pages.py:4407
+#: r2/lib/pages/pages.py:4424
 #, python-format
 msgid "%(n)s seconds"
 msgstr "%(n)s ಸೆಕೆಂಡುಗಳು"
 
-#: r2/lib/pages/pages.py:4409
+#: r2/lib/pages/pages.py:4426
 #, python-format
 msgid "%(n)s minutes"
 msgstr "%(n)s ನಿಮಿಷಗಳು"
 
-#: r2/lib/pages/pages.py:4411
+#: r2/lib/pages/pages.py:4428
 #, python-format
 msgid "%(n)s hours"
 msgstr "%(n)s ಗಂಟೆಗಳು"
 
-#: r2/lib/pages/pages.py:4412
+#: r2/lib/pages/pages.py:4429
 #, python-format
 msgid "%(n)s days"
 msgstr "%(n)s ದಿನಗಳು"
 
-#: r2/lib/pages/pages.py:4428
+#: r2/lib/pages/pages.py:4445
 msgid "polling"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4434
+#: r2/lib/pages/pages.py:4451
 msgid "off (no event collector)"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4640 r2/lib/pages/pages.py:4749
+#: r2/lib/pages/pages.py:4657 r2/lib/pages/pages.py:4766
 msgid "added"
 msgstr "ಸೇರಿಸಲಾಗಿದೆ"
 
-#: r2/lib/pages/pages.py:4708 r2/models/modaction.py:146 r2/templates/printablebuttons.html:615
+#: r2/lib/pages/pages.py:4725 r2/models/modaction.py:146 r2/templates/printablebuttons.html:616
 msgid "muted"
 msgstr "ಮ್ಯೂಟ್ ಮಾಡಲಾಗಿದೆ"
 
-#: r2/lib/pages/pages.py:4726
+#: r2/lib/pages/pages.py:4743
 msgid "invited"
 msgstr "ಆಹ್ವಾನಿಸಲಾಗಿದೆ"
 
-#: r2/lib/pages/pages.py:4787
+#: r2/lib/pages/pages.py:4804
 msgid "grant flair"
 msgstr "ಫ್ಲೇರ್ ನೀಡಿ"
 
-#: r2/lib/pages/pages.py:4789
+#: r2/lib/pages/pages.py:4806
 msgid "user flair templates"
 msgstr "ಬಳಕೆದಾರರ ಫ್ಲೇರ್ ನಮೂನೆಗಳು"
 
-#: r2/lib/pages/pages.py:4791
+#: r2/lib/pages/pages.py:4808
 msgid "link flair templates"
 msgstr "ಫ್ಲೇರ್ ನಮೂನೆಗಳನ್ನು ಸಂಪರ್ಕಿಸಿ"
 
-#: r2/lib/pages/pages.py:5163 r2/templates/adminuser.html:73 r2/templates/adminuser.html:98 r2/templates/adminuser.html:108 r2/templates/flairpane.html:79
+#: r2/lib/pages/pages.py:5180 r2/templates/adminuser.html:73 r2/templates/adminuser.html:98 r2/templates/adminuser.html:108 r2/templates/flairpane.html:79
 msgid "none"
 msgstr "ಯಾವುದೂ ಅಲ್ಲ"
 
-#: r2/lib/pages/pages.py:5294
+#: r2/lib/pages/pages.py:5311
 msgid "suggestions:"
 msgstr "ಸಲಹೆಗಳು:"
 
-#: r2/lib/pages/pages.py:5298
+#: r2/lib/pages/pages.py:5315
 #, python-format
 msgid "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/v/selfserve](%(selfserve)s)."
 msgstr "ಈ ಪುಟದಲ್ಲಿ ನಿಮ್ಮ ಜಾಹೀರಾತು ರಚಿಸಿ. ಪ್ರಶ್ನೆಗಳಿವೆಯೇ? [ಸಹಾಯ ಕೇಂದ್ರ](%(help_center)s) ಅಥವಾ [/v/selfserve](%(selfserve)s) ನೋಡಿ."
 
-#: r2/lib/pages/pages.py:5916
+#: r2/lib/pages/pages.py:5933
 msgid "start date"
 msgstr "ಆರಂಭ ದಿನಾಂಕ"
 
-#: r2/lib/pages/pages.py:5917
+#: r2/lib/pages/pages.py:5934
 msgid "end date"
 msgstr "ಮುಕ್ತಾಯ ದಿನಾಂಕ"
 
-#: r2/lib/pages/pages.py:5919 r2/templates/createvault.html:266
+#: r2/lib/pages/pages.py:5936 r2/templates/createvault.html:266
 msgid "links"
 msgstr ""
 "ಕೊಂಡಿ \n"
 "\n"
 "ಕೊಂಡಿಗಳು "
 
-#: r2/lib/pages/pages.py:5921 r2/lib/pages/pages.py:5940 r2/templates/adminpaymentsettings.html:239 r2/templates/promotedlinktraffic.html:42 r2/templates/timeserieschart.html:40
+#: r2/lib/pages/pages.py:5938 r2/lib/pages/pages.py:5957 r2/templates/adminpaymentsettings.html:239 r2/templates/promotedlinktraffic.html:42 r2/templates/timeserieschart.html:40
 msgid "date"
 msgstr "ದಿನಾಂಕ"
 
-#: r2/lib/pages/pages.py:5924 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
+#: r2/lib/pages/pages.py:5941 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
 msgid "id"
 msgstr "ಐಡಿ "
 
-#: r2/lib/pages/pages.py:5924 r2/lib/pages/pages.py:5943 r2/templates/promotelinkbase.html:856
+#: r2/lib/pages/pages.py:5941 r2/lib/pages/pages.py:5960 r2/templates/promotelinkbase.html:856
 msgid "owner"
 msgstr "ಮಾಲೀಕ"
 
-#: r2/lib/pages/pages.py:5924 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
+#: r2/lib/pages/pages.py:5941 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
 msgid "url"
 msgstr "ಯು ಆರ್ ಎಲ್ "
 
-#: r2/lib/pages/pages.py:5925
+#: r2/lib/pages/pages.py:5942
 msgid "upvotes"
 msgstr "ಮೇಲ್ಮತಗಳು"
 
-#: r2/lib/pages/pages.py:5925
+#: r2/lib/pages/pages.py:5942
 msgid "downvotes"
 msgstr "ಕುಮತಗಳು"
 
-#: r2/lib/pages/pages.py:5925 r2/lib/pages/trafficpages.py:351 r2/lib/pages/trafficpages.py:853 r2/templates/promotedlinktraffic.html:44 r2/templates/promotedlinktraffic.html:124
+#: r2/lib/pages/pages.py:5942 r2/lib/pages/trafficpages.py:351 r2/lib/pages/trafficpages.py:853 r2/templates/promotedlinktraffic.html:44 r2/templates/promotedlinktraffic.html:124
 msgid "clicks"
 msgstr "ಕ್ಲಿಕ್ಗಳು"
 
-#: r2/lib/pages/pages.py:5925 r2/lib/pages/trafficpages.py:348 r2/lib/pages/trafficpages.py:478 r2/lib/pages/trafficpages.py:852 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
+#: r2/lib/pages/pages.py:5942 r2/lib/pages/trafficpages.py:348 r2/lib/pages/trafficpages.py:478 r2/lib/pages/trafficpages.py:852 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
 msgid "impressions"
 msgstr "ಗುರುತುಗಳು"
 
-#: r2/lib/pages/pages.py:5938
+#: r2/lib/pages/pages.py:5955
 msgid "campaigns"
 msgstr "ಅಭಿಯಾನಗಳು"
 
-#: r2/lib/pages/pages.py:5943
+#: r2/lib/pages/pages.py:5960
 msgid "link id"
 msgstr "ಕೊಂಡಿ id"
 
-#: r2/lib/pages/pages.py:5943
+#: r2/lib/pages/pages.py:5960
 msgid "campaign id"
 msgstr "ಅಭಿಯಾನ id"
 
-#: r2/lib/pages/pages.py:5943 r2/templates/promotedlinktraffic.html:117 r2/templates/refundpage.html:56
+#: r2/lib/pages/pages.py:5960 r2/templates/promotedlinktraffic.html:117 r2/templates/refundpage.html:56
 msgid "target"
 msgstr "ಗುರಿ"
 
-#: r2/lib/pages/pages.py:5944 r2/templates/promotelinkedit.html:157
+#: r2/lib/pages/pages.py:5961 r2/templates/promotelinkedit.html:157
 msgid "bid"
 msgstr "ಹರಾಜಿನಲ್ಲಿ ಭಾಗವಹಿಸು"
 
-#: r2/lib/pages/pages.py:5944
+#: r2/lib/pages/pages.py:5961
 msgid "frontpage clicks"
 msgstr "ಮುಖಪುಟ ಕ್ಲಿಕ್‌ಗಳು"
 
-#: r2/lib/pages/pages.py:5944
+#: r2/lib/pages/pages.py:5961
 msgid "frontpage impressions"
 msgstr "ಮುಖಪುಟ ಗುರುತುಗಳು"
 
-#: r2/lib/pages/pages.py:5945
+#: r2/lib/pages/pages.py:5962
 msgid "vault clicks"
 msgstr "ವಾಲ್ಟ್ ಕ್ಲಿಕ್‌ಗಳು"
 
-#: r2/lib/pages/pages.py:5945
+#: r2/lib/pages/pages.py:5962
 msgid "vault impressions"
 msgstr "ವಾಲ್ಟ್ ಗುರುತುಗಳು"
 
-#: r2/lib/pages/pages.py:5946 r2/lib/pages/trafficpages.py:484
+#: r2/lib/pages/pages.py:5963 r2/lib/pages/trafficpages.py:484
 msgid "total clicks"
 msgstr "ಒಟ್ಟು ಕ್ಲಿಕ್ಗಳು"
 
-#: r2/lib/pages/pages.py:5946
+#: r2/lib/pages/pages.py:5963
 msgid "total impressions"
 msgstr "ಒಟ್ಟು ಗುರುತುಗಳು"
 
-#: r2/lib/pages/pages.py:6149 r2/templates/accountactivitybox.html:27
+#: r2/lib/pages/pages.py:6166 r2/templates/accountactivitybox.html:27
 msgid "account activity"
 msgstr "ಖಾತೆ ಚಟುವಟಿಕೆ"
 
-#: r2/lib/pages/pages.py:6281
+#: r2/lib/pages/pages.py:6298
 msgid "subscribed"
 msgstr "ಚಂದಾದಾರರಾಗಿದ್ದೀರಿ"
 
-#: r2/lib/pages/pages.py:6282 r2/templates/preffeeds.html:58
+#: r2/lib/pages/pages.py:6299 r2/templates/preffeeds.html:58
 msgid "your front page"
 msgstr "ನಿಮ್ಮ ಮುಖಪುಟ"
 
-#: r2/lib/pages/pages.py:6285 r2/lib/pages/pages.py:6290 r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:104
+#: r2/lib/pages/pages.py:6302 r2/lib/pages/pages.py:6307 r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:104
 msgid "everything"
 msgstr "ಪ್ರತಿಯೊಂದು"
 
-#: r2/lib/pages/pages.py:6288 r2/lib/pages/pages.py:6291
+#: r2/lib/pages/pages.py:6305 r2/lib/pages/pages.py:6308
 msgid "from all vaults"
 msgstr "ಎಲ್ಲಾ ವಾಲ್ಟ್‌ಗಳಿಂದ"
 
-#: r2/lib/pages/pages.py:6293
+#: r2/lib/pages/pages.py:6310
 msgid "moderating"
 msgstr "ನಿಯಂತ್ರಿಸುತ್ತಿರುವ"
 
-#: r2/lib/pages/pages.py:6294
+#: r2/lib/pages/pages.py:6311
 msgid "vaults you mod"
 msgstr "ನೀವು ನಿಯಂತ್ರಿಸುವ ವಾಲ್ಟ್‌ಗಳು"
 
-#: r2/lib/pages/pages.py:6300
+#: r2/lib/pages/pages.py:6317
 msgid "gold perks"
 msgstr "ಚಿನ್ನದ ಸವಲತ್ತುಗಳು"
 
-#: r2/lib/pages/pages.py:6316
+#: r2/lib/pages/pages.py:6333
 msgid "explore multis"
 msgstr "ಮಲ್ಟಿಗಳನ್ನು ಅನ್ವೇಷಿಸಿ"
 
-#: r2/lib/pages/pages.py:6402
+#: r2/lib/pages/pages.py:6419
 msgid "faq"
 msgstr "ಪ್ರಶ್ನೋತ್ತರ"
 
-#: r2/lib/pages/pages.py:6403 r2/templates/usertext.html:159
+#: r2/lib/pages/pages.py:6420 r2/templates/usertext.html:159
 msgid "formatting"
 msgstr "ಫಾರ್ಮ್ಯಾಟಿಂಗ್"
 
-#: r2/lib/pages/pages.py:6472
+#: r2/lib/pages/pages.py:6489
 msgid "your subscribed vaults"
 msgstr "ನೀವು ಚಂದಾದಾರರಾಗಿರುವ ವಾಲ್ಟ್‌ಗಳು"
 
-#: r2/lib/pages/pages.py:6585
+#: r2/lib/pages/pages.py:6602
 #, python-format
 msgid "this promoted link uses city level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "ಈ ಪ್ರಚಾರಿತ ಕೊಂಡಿ ನಗರ ಮಟ್ಟದ ಗುರಿಯನ್ನು ಬಳಸುತ್ತದೆ ಮತ್ತು ನಿಮ್ಮ ಸ್ಥಳದ ಕಾರಣ ನಿಮಗೆ ತೋರಿಸಿರಬಹುದು. ([ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ](%(link)s))"
 
-#: r2/lib/pages/pages.py:6589
+#: r2/lib/pages/pages.py:6606
 #, python-format
 msgid "this promoted link uses country level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "ಈ ಪ್ರಚಾರಿತ ಕೊಂಡಿ ದೇಶ ಮಟ್ಟದ ಗುರಿಯನ್ನು ಬಳಸುತ್ತದೆ ಮತ್ತು ನಿಮ್ಮ ಸ್ಥಳದ ಕಾರಣ ನಿಮಗೆ ತೋರಿಸಿರಬಹುದು. ([ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ](%(link)s))"
@@ -4815,7 +4820,7 @@ msgstr "ಕ್ಲಿಕ್-ಥ್ರೂ ದರ (%)"
 msgid "view"
 msgstr "ವೀಕ್ಷಿಸಿ"
 
-#: r2/lib/pages/wiki.py:119 r2/templates/adminfeeds.html:150 r2/templates/prefapps.html:93 r2/templates/printablebuttons.html:363 r2/templates/printablebuttons.html:403 r2/templates/printablebuttons.html:514 r2/templates/renderablecampaign.html:155 r2/templates/wrappeduser.html:91
+#: r2/lib/pages/wiki.py:119 r2/templates/adminfeeds.html:150 r2/templates/prefapps.html:93 r2/templates/printablebuttons.html:364 r2/templates/printablebuttons.html:404 r2/templates/printablebuttons.html:515 r2/templates/renderablecampaign.html:155 r2/templates/wrappeduser.html:91
 msgid "edit"
 msgstr "ಸಂಪಾದಿಸಿ"
 
@@ -4973,55 +4978,55 @@ msgstr "ಚಿನ್ನ ಮರುಪಾವತಿ"
 msgid "Your gold payment has been refunded, contact %(gold_email)s for details"
 msgstr "ನಿಮ್ಮ ಚಿನ್ನದ ಪಾವತಿಯನ್ನು ಮರುಪಾವತಿಸಲಾಗಿದೆ, ವಿವರಗಳಿಗಾಗಿ %(gold_email)s ಸಂಪರ್ಕಿಸಿ"
 
-#: r2/lib/validator/validator.py:2115
+#: r2/lib/validator/validator.py:2116
 #, python-format
 msgid "%(min)d to any"
 msgstr "%(min)d ಇಂದ ಎಷ್ಟೇ "
 
-#: r2/lib/validator/validator.py:2117
+#: r2/lib/validator/validator.py:2118
 #, python-format
 msgid "any to %(max)d"
 msgstr "ಎಷ್ಟೇ ಇಂದ %(max)d"
 
-#: r2/lib/validator/validator.py:2119
+#: r2/lib/validator/validator.py:2120
 #, python-format
 msgid "%(min)d to %(max)d"
 msgstr "%(min)d ಇಂದ  %(max)d"
 
-#: r2/lib/validator/validator.py:2845
+#: r2/lib/validator/validator.py:2846
 msgid "a user by name"
 msgstr "ಹೆಸರಿನಿಂದ ಒಬ್ಬ ಬಳಕೆದಾರ"
 
-#: r2/lib/validator/validator.py:2860
+#: r2/lib/validator/validator.py:2861
 msgid "a [fullname](#fullname) of a link"
 msgstr "ಕೊಂಡಿಯೊಂದರ [fullname](#fullname)"
 
-#: r2/lib/validator/validator.py:3017
+#: r2/lib/validator/validator.py:3025
 msgid "an app"
 msgstr "ಅಪ್ಲಿಕೇಶನ್"
 
-#: r2/lib/validator/validator.py:3035
+#: r2/lib/validator/validator.py:3043
 msgid "an app developed by the user"
 msgstr "ಬಳಕೆದಾರರಿ೦ದ ಅಭಿವೃದ್ಧಿಪಡಿಸಲಾದ ಅಪ್ಲಿಕೇಶನ್"
 
-#: r2/lib/validator/validator.py:3258
+#: r2/lib/validator/validator.py:3266
 msgid "no spaces allowed"
 msgstr "ಖಾಲಿ ಜಾಗಗಳಿಗೆ ಅನುಮತಿ ಇಲ್ಲ"
 
-#: r2/lib/validator/validator.py:3260
+#: r2/lib/validator/validator.py:3268
 #, python-format
 msgid "invalid character: '%s'"
 msgstr "ಅಮಾನ್ಯ ಅಕ್ಷರ: '%s'"
 
-#: r2/lib/validator/validator.py:3262
+#: r2/lib/validator/validator.py:3270
 msgid "can't start with a '_'"
 msgstr "'_' ನಿಂದ ಆರಂಭವಾಗುವಂತಿಲ್ಲ"
 
-#: r2/lib/validator/validator.py:3264
+#: r2/lib/validator/validator.py:3272
 msgid "that name is too short"
 msgstr "ಆ ಹೆಸರು ತುಂಬಾ ಚಿಕ್ಕದು"
 
-#: r2/lib/validator/validator.py:3266
+#: r2/lib/validator/validator.py:3274
 msgid "that name is too long"
 msgstr "ಆ ಹೆಸರು ತುಂಬಾ ಉದ್ದವಾಗಿದೆ"
 
@@ -5494,7 +5499,7 @@ msgstr "ಕೊಡುಗೆದಾರರನ್ನು ತೆಗೆದುಹಾಕ�
 msgid "edit settings"
 msgstr "ಸಿದ್ಧತೆಗಳನ್ನು ಸಂಪಾದಿಸಿ"
 
-#: r2/models/modaction.py:86 r2/templates/printablebuttons.html:140
+#: r2/models/modaction.py:86 r2/templates/printablebuttons.html:141
 msgid "distinguish"
 msgstr "ಪ್ರತ್ಯೇಕಿಸು"
 
@@ -5530,7 +5535,7 @@ msgstr "ವಿಕಿ ಪುಟ ಪರಿಷ್ಕರಿಸಿ"
 msgid "wiki page permissions"
 msgstr "ವಿಕಿ ಪುಟದ ಅನುಮತಿಗಳು"
 
-#: r2/models/modaction.py:95 r2/models/modaction.py:206 r2/templates/printablebuttons.html:250
+#: r2/models/modaction.py:95 r2/models/modaction.py:206 r2/templates/printablebuttons.html:251
 msgid "ignore reports"
 msgstr "ವರದಿಗಳನ್ನು ನಿರ್ಲಕ್ಷಿಸಿ"
 
@@ -5570,11 +5575,11 @@ msgstr "ಪೋಸ್ಟ್ ಲಾಕ್ ಮಾಡಿ"
 msgid "unlock post"
 msgstr "ಪೋಸ್ಟ್ ಅನ್‌ಲಾಕ್ ಮಾಡಿ"
 
-#: r2/models/modaction.py:105 r2/templates/printablebuttons.html:615
+#: r2/models/modaction.py:105 r2/templates/printablebuttons.html:616
 msgid "mute user"
 msgstr "ಬಳಕೆದಾರರನ್ನು ಮ್ಯೂಟ್ ಮಾಡಿ"
 
-#: r2/models/modaction.py:106 r2/templates/printablebuttons.html:612
+#: r2/models/modaction.py:106 r2/templates/printablebuttons.html:613
 msgid "unmute user"
 msgstr "ಬಳಕೆದಾರರನ್ನು ಅನ್‌ಮ್ಯೂಟ್ ಮಾಡಿ"
 
@@ -5610,11 +5615,11 @@ msgstr "ವಿಕಿ ಕೊಡುಗೆದಾರರನ್ನು ತೆಗೆದ�
 msgid "unbanned"
 msgstr "ನಿಷೇಧಿಸಲಾಗಿಲ್ಲ"
 
-#: r2/models/modaction.py:118 r2/models/modaction.py:120 r2/templates/admindomain.html:88 r2/templates/linkcommentssettings.html:122 r2/templates/printablebuttons.html:50 r2/templates/printablebuttons.html:286 r2/templates/trophycase.html:51
+#: r2/models/modaction.py:118 r2/models/modaction.py:120 r2/templates/admindomain.html:88 r2/templates/linkcommentssettings.html:122 r2/templates/printablebuttons.html:51 r2/templates/printablebuttons.html:287 r2/templates/trophycase.html:51
 msgid "removed"
 msgstr "ತೆಗೆದುಹಾಕಲಾಗಿದೆ"
 
-#: r2/models/modaction.py:119 r2/models/modaction.py:121 r2/models/modaction.py:155 r2/templates/printablebuttons.html:58 r2/templates/printablebuttons.html:289 r2/templates/vaultinfobar.html:135
+#: r2/models/modaction.py:119 r2/models/modaction.py:121 r2/models/modaction.py:155 r2/templates/printablebuttons.html:59 r2/templates/printablebuttons.html:290 r2/templates/vaultinfobar.html:135
 msgid "approved"
 msgstr "ಅನುಮೋದಿಸಲಾಗಿದೆ"
 
@@ -5702,15 +5707,15 @@ msgstr "ಸ್ಪರ್ಧಾ ಮೋಡ್ ಆನ್ ಮಾಡಿದರು"
 msgid "unset contest mode on"
 msgstr "ಸ್ಪರ್ಧಾ ಮೋಡ್ ಆಫ್ ಮಾಡಿದರು"
 
-#: r2/models/modaction.py:144 r2/templates/lockedinterstitial.html:34 r2/templates/printablebuttons.html:79
+#: r2/models/modaction.py:144 r2/templates/lockedinterstitial.html:34 r2/templates/printablebuttons.html:80
 msgid "locked"
 msgstr "ಲಾಕ್ ಮಾಡಿದರು"
 
-#: r2/models/modaction.py:145 r2/templates/printablebuttons.html:82
+#: r2/models/modaction.py:145 r2/templates/printablebuttons.html:83
 msgid "unlocked"
 msgstr "ಅನ್‌ಲಾಕ್ ಮಾಡಿದರು"
 
-#: r2/models/modaction.py:147 r2/templates/printablebuttons.html:612
+#: r2/models/modaction.py:147 r2/templates/printablebuttons.html:613
 msgid "unmuted"
 msgstr "ಅನ್‌ಮ್ಯೂಟ್ ಮಾಡಿದರು"
 
@@ -5900,7 +5905,7 @@ msgstr "ಫ್ಲೇರ್ ನಮೂನೆಗಳನ್ನು ಅಳಿಸಿ"
 msgid "clear flair templates"
 msgstr "ಫ್ಲೇರ್ ನಮೂನೆಗಳನ್ನು ತೆರವುಗೊಳಿಸಿ"
 
-#: r2/models/modaction.py:205 r2/templates/createvault.html:524 r2/templates/createvault.html:530 r2/templates/filteredinfobar.html:42 r2/templates/multiinfobar.html:119 r2/templates/prefapps.html:82 r2/templates/printablebuttons.html:50 r2/templates/printablebuttons.html:266 r2/templates/trophycase.html:51 r2/templates/usertableitem.html:62
+#: r2/models/modaction.py:205 r2/templates/createvault.html:524 r2/templates/createvault.html:530 r2/templates/filteredinfobar.html:42 r2/templates/multiinfobar.html:119 r2/templates/prefapps.html:82 r2/templates/printablebuttons.html:51 r2/templates/printablebuttons.html:267 r2/templates/trophycase.html:51 r2/templates/usertableitem.html:62
 msgid "remove"
 msgstr "ತೆಗೆದುಹಾಕಿ"
 
@@ -5949,33 +5954,42 @@ msgstr "ಹರಾಜು ಆದ್ಯತೆ; ಎಲ್ಲಾ ಸ್ವಯಂ-ಸ�
 msgid "collection: %(name)s"
 msgstr "ಸಂಗ್ರಹ: %(name)s"
 
-#: r2/models/rules.py:38
-msgid "vote manipulation"
-msgstr "ಮತ ತಿರುಚುವಿಕೆ"
+#: r2/models/rules.py:52
+msgid "Spam or vote manipulation"
+msgstr "ಸ್ಪ್ಯಾಮ್ ಅಥವಾ ಮತ ತಿರುಚುವಿಕೆ"
 
-#: r2/models/rules.py:39
-msgid "personal information"
-msgstr "ವೈಯಕ್ತಿಕ ಮಾಹಿತಿ"
+#: r2/models/rules.py:53
+msgid "Harassment or threats"
+msgstr "ಕಿರುಕುಳ ಅಥವಾ ಬೆದರಿಕೆಗಳು"
 
-#: r2/models/rules.py:40
-msgid "sexualizing minors"
-msgstr "ಅಪ್ರಾಪ್ತರ ಲೈಂಗೀಕರಣ"
+#: r2/models/rules.py:54
+msgid "Hateful content"
+msgstr "ದ್ವೇಷಪೂರಿತ ವಿಷಯ"
 
-#: r2/models/rules.py:41
-msgid "breaking tippr"
-msgstr "tippr ಅನ್ನು ಮುರಿಯುವುದು"
+#: r2/models/rules.py:55
+msgid "Someone's personal information"
+msgstr "ಯಾರದೋ ವೈಯಕ್ತಿಕ ಮಾಹಿತಿ"
 
-#: r2/models/rules.py:45
-msgid "Spam"
-msgstr "ಸ್ಪ್ಯಾಮ್"
+#: r2/models/rules.py:56
+msgid "Sexual content involving minors"
+msgstr "ಅಪ್ರಾಪ್ತರನ್ನು ಒಳಗೊಂಡ ಲೈಂಗಿಕ ವಿಷಯ"
 
-#: r2/models/rules.py:46
-msgid "Personal and confidential information"
-msgstr "ವೈಯಕ್ತಿಕ ಮತ್ತು ಗೌಪ್ಯ ಮಾಹಿತಿ"
+#: r2/models/rules.py:57
+msgid "Other illegal content"
+msgstr "ಇತರ ಕಾನೂನುಬಾಹಿರ ವಿಷಯ"
 
-#: r2/models/rules.py:47
-msgid "Threatening, harassing, or inciting violence"
-msgstr "ಬೆದರಿಕೆ, ಕಿರುಕುಳ ಅಥವಾ ಹಿಂಸೆಗೆ ಪ್ರಚೋದನೆ"
+#: r2/models/rules.py:58
+msgid "Impersonation"
+msgstr "ಸೋಗು ಹಾಕುವುದು"
+
+#: r2/models/rules.py:59
+msgid "Malware, phishing or scams"
+msgstr "ಮಾಲ್‌ವೇರ್, ಫಿಶಿಂಗ್ ಅಥವಾ ವಂಚನೆ"
+
+#: r2/models/rules.py:60
+#, python-format
+msgid "Breaking %(site_name)s"
+msgstr "%(site_name)s ಅನ್ನು ಹಾಳುಮಾಡುವುದು"
 
 #: r2/models/token.py:113
 msgid "Any Scope"
@@ -6358,7 +6372,7 @@ msgstr "ಅನಿಸಿಕೆಗಳನ್ನು ತೆರೆಯಿರಿ"
 msgid "expand or collapse the preview, or the comment"
 msgstr "ಮುನ್ನೋಟ ಅಥವಾ ಅನಿಸಿಕೆಯನ್ನು ವಿಸ್ತರಿಸಿ ಅಥವಾ ಮಡಚಿ"
 
-#: r2/public/static/js/enhancements.js:180 r2/public/static/js/enhancements.js:631 r2/public/static/js/saved.js:122 r2/public/static/js/saved.js:161 r2/public/static/js/sponsored.js:97 r2/templates/adminadsettings.html:128 r2/templates/adminantispam.html:106 r2/templates/adminemailsettings.html:95 r2/templates/adminfeeds.html:70 r2/templates/adminloginsettings.html:77 r2/templates/adminpaymentsettings.html:213 r2/templates/adminsitesettings.html:146 r2/templates/adminsupportstaff.html:57 r2/templates/adminuser.html:103 r2/templates/adminuser.html:122 r2/templates/adminuser.html:147 r2/templates/flairlistrow.html:48 r2/templates/flairselector.html:54 r2/templates/moderatorpermissions.html:55 r2/templates/prefsecurity.html:204 r2/templates/prefupdate.html:100 r2/templates/prefupdate.html:154 r2/templates/printablebuttons.html:106 r2/templates/printablebuttons.html:382 r2/templates/printablebuttons.html:487 r2/templates/promotelinkedit.html:218 r2/templates/vaultstylesheet.html:70
+#: r2/public/static/js/enhancements.js:180 r2/public/static/js/enhancements.js:631 r2/public/static/js/saved.js:122 r2/public/static/js/saved.js:161 r2/public/static/js/sponsored.js:97 r2/templates/adminadsettings.html:128 r2/templates/adminantispam.html:106 r2/templates/adminemailsettings.html:95 r2/templates/adminfeeds.html:70 r2/templates/adminloginsettings.html:77 r2/templates/adminpaymentsettings.html:213 r2/templates/adminsitesettings.html:146 r2/templates/adminsupportstaff.html:57 r2/templates/adminuser.html:103 r2/templates/adminuser.html:122 r2/templates/adminuser.html:147 r2/templates/flairlistrow.html:48 r2/templates/flairselector.html:54 r2/templates/moderatorpermissions.html:55 r2/templates/prefsecurity.html:173 r2/templates/prefupdate.html:103 r2/templates/prefupdate.html:157 r2/templates/printablebuttons.html:107 r2/templates/printablebuttons.html:383 r2/templates/printablebuttons.html:488 r2/templates/promotelinkedit.html:218 r2/templates/vaultstylesheet.html:70
 msgid "save"
 msgstr "ಉಳಿಸಿ"
 
@@ -6565,7 +6579,7 @@ msgstr "ಬಳಕೆನಾಮ"
 msgid "add and switch"
 msgstr "ಸೇರಿಸಿ ಮತ್ತು ಬದಲಾಯಿಸಿ"
 
-#: r2/public/static/js/enhancements.js:1100 r2/templates/linkedloginotp.html:35 r2/templates/newlink.html:155 r2/templates/prefoptions.html:619 r2/templates/prefsecurity.html:37 r2/templates/prefsecurity.html:104 r2/templates/prefsecurity.html:242 r2/templates/prefupdate.html:33 r2/templates/privacysettings.html:133
+#: r2/public/static/js/enhancements.js:1100 r2/templates/linkedloginotp.html:35 r2/templates/newlink.html:155 r2/templates/prefsecurity.html:210 r2/templates/prefsunlock.html:40 r2/templates/prefupdate.html:35 r2/templates/privacysettings.html:133
 msgid "two-factor code"
 msgstr "ಎರಡು-ಅಂಶ ಕೋಡ್"
 
@@ -6632,7 +6646,7 @@ msgstr "ತುಂಬಾ ದೊಡ್ಡದು. ಇದಕ್ಕಿಂತ ಕಡ�
 msgid "an error occurred. please try again later! (status: %(status)s)"
 msgstr "ದೋಷ ಉಂಟಾಯಿತು. ದಯವಿಟ್ಟು ನಂತರ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ! (ಸ್ಥಿತಿ: %(status)s)"
 
-#: r2/public/static/js/jquery.tippr.js:370 r2/public/static/js/saved.js:166 r2/templates/printablebuttons.html:380 r2/templates/printablebuttons.html:483
+#: r2/public/static/js/jquery.tippr.js:370 r2/public/static/js/saved.js:166 r2/templates/printablebuttons.html:381 r2/templates/printablebuttons.html:484
 msgid "unsave"
 msgstr "ಉಳಿಸಿ"
 
@@ -6943,7 +6957,7 @@ msgstr "ಐಚ್ಛಿಕ ಸಂದೇಶ ಸೇರಿಸಿ"
 msgid "send"
 msgstr "ಕಳುಹಿಸಿ"
 
-#: r2/public/static/js/post-sharing.js:133 r2/templates/adminprivacy.html:48 r2/templates/fraudform.html:48 r2/templates/linkcommentssettings.html:78 r2/templates/printablebuttons.html:427 r2/templates/promotelinkedit.html:121 r2/templates/reportform.html:71 r2/templates/rules.html:137 r2/templates/vaultreportform.html:46
+#: r2/public/static/js/post-sharing.js:133 r2/templates/adminprivacy.html:48 r2/templates/fraudform.html:48 r2/templates/linkcommentssettings.html:78 r2/templates/printablebuttons.html:428 r2/templates/promotelinkedit.html:121 r2/templates/reportform.html:71 r2/templates/rules.html:137 r2/templates/vaultreportform.html:49
 msgid "cancel"
 msgstr "ರದ್ದುಗೊಳಿಸಿ"
 
@@ -6996,7 +7010,7 @@ msgstr "ಯಾವುದೇ ವರ್ಗವಿಲ್ಲ"
 msgid "new category"
 msgstr "ಹೊಸ ವರ್ಗ"
 
-#: r2/public/static/js/scales.js:37 r2/templates/printablebuttons.html:375
+#: r2/public/static/js/scales.js:37 r2/templates/printablebuttons.html:376
 msgid "scales"
 msgstr ""
 
@@ -7218,15 +7232,15 @@ msgstr "ಪೂರ್ಣ ಅನುಮತಿಗಳು"
 msgid "no permissions"
 msgstr "ಯಾವುದೇ ಅನುಮತಿಗಳಿಲ್ಲ"
 
-#: r2/public/static/js/ui.js:1131 r2/templates/goldsubscription.html:50 r2/templates/printablebuttons.html:694 r2/templates/printablebuttons.html:716
+#: r2/public/static/js/ui.js:1131 r2/templates/goldsubscription.html:50 r2/templates/printablebuttons.html:695 r2/templates/printablebuttons.html:717
 msgid "are you sure?"
 msgstr "ನಿನಗೆ ಇದರ ಬಗ್ಗೆ ಖಾತರಿಯಿದೆಯೇ?"
 
-#: r2/public/static/js/ui.js:1132 r2/templates/adminuser.html:63 r2/templates/adminuser.html:79 r2/templates/fraudform.html:35 r2/templates/goldsubscription.html:53 r2/templates/optout.html:40 r2/templates/optout.html:56 r2/templates/printablebuttons.html:696 r2/templates/printablebuttons.html:745
+#: r2/public/static/js/ui.js:1132 r2/templates/adminuser.html:63 r2/templates/adminuser.html:79 r2/templates/fraudform.html:35 r2/templates/goldsubscription.html:53 r2/templates/optout.html:40 r2/templates/optout.html:56 r2/templates/printablebuttons.html:697 r2/templates/printablebuttons.html:746
 msgid "yes"
 msgstr "ಹೌದು"
 
-#: r2/public/static/js/ui.js:1133 r2/templates/adminuser.html:84 r2/templates/fraudform.html:40 r2/templates/goldsubscription.html:56 r2/templates/optout.html:43 r2/templates/optout.html:59 r2/templates/printablebuttons.html:199 r2/templates/printablebuttons.html:698 r2/templates/printablebuttons.html:748
+#: r2/public/static/js/ui.js:1133 r2/templates/adminuser.html:84 r2/templates/fraudform.html:40 r2/templates/goldsubscription.html:56 r2/templates/optout.html:43 r2/templates/optout.html:59 r2/templates/printablebuttons.html:200 r2/templates/printablebuttons.html:699 r2/templates/printablebuttons.html:749
 msgid "no"
 msgstr "ಇಲ್ಲ"
 
@@ -7399,7 +7413,7 @@ msgstr "EU, UK ಮತ್ತು ಸ್ವಿಟ್ಜರ್ಲ್ಯಾಂಡ್�
 msgid "saved; leave blank to keep"
 msgstr "ಉಳಿಸಲಾಗಿದೆ; ಇಟ್ಟುಕೊಳ್ಳಲು ಖಾಲಿ ಬಿಡಿ"
 
-#: r2/templates/adminantispam.html:20 r2/templates/adminemailsettings.html:20 r2/templates/adminloginsettings.html:19 r2/templates/adminpaymentsettings.html:28 r2/templates/prefupdate.html:65
+#: r2/templates/adminantispam.html:20 r2/templates/adminemailsettings.html:20 r2/templates/adminloginsettings.html:19 r2/templates/adminpaymentsettings.html:28 r2/templates/prefupdate.html:68
 msgid "not set"
 msgstr "ಹೊಂದಿಸಲಾಗಿಲ್ಲ"
 
@@ -7578,7 +7592,7 @@ msgstr "ಸೇರಿದ ದಿನಾಂಕ"
 msgid "karma"
 msgstr "ಕರ್ಮ"
 
-#: r2/templates/adminantispam.html:182 r2/templates/adminuser.html:68 r2/templates/adminusers.html:77 r2/templates/login.html:110 r2/templates/newsletter.html:58 r2/templates/newsletterbar.html:43 r2/templates/prefupdate.html:85
+#: r2/templates/adminantispam.html:182 r2/templates/adminuser.html:68 r2/templates/adminusers.html:77 r2/templates/login.html:110 r2/templates/newsletter.html:58 r2/templates/newsletterbar.html:43 r2/templates/prefupdate.html:88
 msgid "email"
 msgstr "ಈಮೇಲ್"
 
@@ -7688,7 +7702,7 @@ msgstr "(ಸೈಟ್‌ನ ಸ್ವಂತದ್ದು)"
 msgid "ago"
 msgstr "ಹಿಂದೆ "
 
-#: r2/templates/adminapps.html:104 r2/templates/printablebuttons.html:57 r2/templates/printablebuttons.html:272
+#: r2/templates/adminapps.html:104 r2/templates/printablebuttons.html:58 r2/templates/printablebuttons.html:273
 msgid "approve"
 msgstr "ಅನುಮೋದಿಸಿ"
 
@@ -7696,7 +7710,7 @@ msgstr "ಅನುಮೋದಿಸಿ"
 msgid "lift the suspension"
 msgstr "ಅಮಾನತು ತೆಗೆಯಿರಿ"
 
-#: r2/templates/adminapps.html:113 r2/templates/adminbackups.html:139 r2/templates/adminfeeds.html:148 r2/templates/adminuser.html:236 r2/templates/multiinfobar.html:56 r2/templates/prefsecurity.html:133 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:585 r2/templates/renderablecampaign.html:161 r2/templates/rules.html:135 r2/templates/wikipagesettings.html:79
+#: r2/templates/adminapps.html:113 r2/templates/adminbackups.html:139 r2/templates/adminfeeds.html:148 r2/templates/adminuser.html:236 r2/templates/multiinfobar.html:56 r2/templates/prefsecurity.html:108 r2/templates/printablebuttons.html:41 r2/templates/printablebuttons.html:586 r2/templates/renderablecampaign.html:161 r2/templates/rules.html:135 r2/templates/wikipagesettings.html:79
 msgid "delete"
 msgstr "ಅಳಿಸಿ"
 
@@ -7925,7 +7939,7 @@ msgstr "ದರ ಮಿತಿ ನಿಷ್ಕ್ರಿಯ"
 msgid "timings"
 msgstr "ಸಮಯಗಳು"
 
-#: r2/templates/adminbar.html:64 r2/templates/exploreitem.html:46 r2/templates/listingchooser.html:53 r2/templates/printablebuttons.html:390
+#: r2/templates/adminbar.html:64 r2/templates/exploreitem.html:46 r2/templates/listingchooser.html:53 r2/templates/printablebuttons.html:391
 msgid "hide"
 msgstr "ಮರೆಮಾಡಿ"
 
@@ -8189,7 +8203,7 @@ msgstr "ಏನ್ ಎಸ್ ಎಫ್ ಡಬ್ಲ್ಯೂ "
 msgid "mark every post NSFW"
 msgstr "ಪ್ರತಿ ಪೋಸ್ಟ್ ಅನ್ನು NSFW ಎಂದು ಗುರುತಿಸಿ"
 
-#: r2/templates/adminfeeds.html:61 r2/templates/printablebuttons.html:95
+#: r2/templates/adminfeeds.html:61 r2/templates/printablebuttons.html:96
 msgid "AI label"
 msgstr "AI ಲೇಬಲ್"
 
@@ -8300,7 +8314,7 @@ msgstr "ನಿಮ್ಮ ಗುಪ್ತಪದವನ್ನು ನವೀಕರಿ�
 msgid "Enter your password and one-time code"
 msgstr "ನಿಮ್ಮ ಸಂಕೇತ ಪದ ಮತ್ತು ಒಂದು-ಬಾರಿಯ ಕೋಡ್ ನಮೂದಿಸಿ"
 
-#: r2/templates/admininterstitial.html:56 r2/templates/admininterstitial.html:70 r2/templates/prefsecurity.html:237 r2/templates/prefsecurity.html:242 r2/templates/prefsecurity.html:300 r2/templates/prefupdate.html:33 r2/templates/prefupdate.html:56 r2/templates/prefupdate.html:117 r2/templates/useriphistory.html:74
+#: r2/templates/admininterstitial.html:56 r2/templates/admininterstitial.html:70 r2/templates/prefsecurity.html:205 r2/templates/prefsecurity.html:210 r2/templates/prefsecurity.html:268 r2/templates/prefupdate.html:35 r2/templates/prefupdate.html:59 r2/templates/prefupdate.html:120 r2/templates/useriphistory.html:74
 msgid "(required)"
 msgstr "(ಅವಶ್ಯಕ)"
 
@@ -9739,7 +9753,7 @@ msgstr "ಟಿಪ್ಪಣಿ"
 msgid "No accounts found."
 msgstr "ಯಾವುದೇ ಖಾತೆಗಳು ಸಿಗಲಿಲ್ಲ."
 
-#: r2/templates/adminvault.html:35 r2/templates/printablebuttons.html:449
+#: r2/templates/adminvault.html:35 r2/templates/printablebuttons.html:450
 msgid "traffic"
 msgstr "ದಟ್ಟಣೆ"
 
@@ -10611,7 +10625,7 @@ msgstr "ಬಣ್ಣ"
 msgid "used as a thematic color for your vault on mobile"
 msgstr "ಮೊಬೈಲ್‌ನಲ್ಲಿ ನಿಮ್ಮ ವಾಲ್ಟ್‌ಗೆ ಥೀಮ್ ಬಣ್ಣವಾಗಿ ಬಳಸಲಾಗುತ್ತದೆ"
 
-#: r2/templates/createvault.html:669 r2/templates/flairpane.html:91 r2/templates/prefoptions.html:622
+#: r2/templates/createvault.html:669 r2/templates/flairpane.html:91 r2/templates/prefoptions.html:618
 msgid "save options"
 msgstr "ಆಯ್ಕೆಗಳನ್ನು ಉಳಿಸಿ"
 
@@ -10648,7 +10662,7 @@ msgstr "ಇನ್ನಷ್ಟು ಅನಿಸಿಕೆಗಳು"
 msgid "personalized"
 msgstr "ವೈಯಕ್ತಿಕಗೊಳಿಸಿದ"
 
-#: r2/templates/exploreitemlisting.html:51 r2/templates/printablebuttons.html:85
+#: r2/templates/exploreitemlisting.html:51 r2/templates/printablebuttons.html:86
 msgid "nsfw"
 msgstr "ಏನ್ ಎಸ್ ಎಫ್ ಡಬ್ಲ್ಯೂ"
 
@@ -10673,7 +10687,7 @@ msgstr "%s ನ ವಿಷಯವನ್ನು ತೋರಿಸಲಾಗುತ್ತ�
 msgid "filter vault"
 msgstr "ವಾಲ್ಟ್ ಫಿಲ್ಟರ್ ಮಾಡಿ"
 
-#: r2/templates/filteredinfobar.html:48 r2/templates/modlisting.html:58 r2/templates/prefsecurity.html:306 r2/templates/userlisting.html:99 r2/templates/vaultselector.html:30 r2/templates/wikipagesettings.html:70
+#: r2/templates/filteredinfobar.html:48 r2/templates/modlisting.html:58 r2/templates/prefsecurity.html:274 r2/templates/userlisting.html:99 r2/templates/vaultselector.html:30 r2/templates/wikipagesettings.html:70
 msgid "add"
 msgstr "ಸೇರಿಸು"
 
@@ -11289,19 +11303,19 @@ msgstr "ಸೂಚಿತ ವಿಂಗಡಣೆಯಾಗಿ ಹೊಂದಿಸಿ"
 msgid "suggested sort set"
 msgstr "ಸೂಚಿತ ವಿಂಗಡಣೆ ಹೊಂದಿಸಲಾಗಿದೆ"
 
-#: r2/templates/linkcommentssettings.html:97 r2/templates/printablebuttons.html:519
+#: r2/templates/linkcommentssettings.html:97 r2/templates/printablebuttons.html:520
 msgid "disable inbox replies"
 msgstr "ಅಂಚೆಪೆಟ್ಟಿಗೆ ಉತ್ತರಗಳನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಿ"
 
-#: r2/templates/linkcommentssettings.html:97 r2/templates/printablebuttons.html:519
+#: r2/templates/linkcommentssettings.html:97 r2/templates/printablebuttons.html:520
 msgid "inbox replies disabled"
 msgstr "ಅಂಚೆಪೆಟ್ಟಿಗೆ ಉತ್ತರಗಳು ನಿಷ್ಕ್ರಿಯ"
 
-#: r2/templates/linkcommentssettings.html:101 r2/templates/printablebuttons.html:523
+#: r2/templates/linkcommentssettings.html:101 r2/templates/printablebuttons.html:524
 msgid "enable inbox replies"
 msgstr "ಅಂಚೆಪೆಟ್ಟಿಗೆ ಉತ್ತರಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ"
 
-#: r2/templates/linkcommentssettings.html:101 r2/templates/printablebuttons.html:523
+#: r2/templates/linkcommentssettings.html:101 r2/templates/printablebuttons.html:524
 msgid "inbox replies enabled"
 msgstr "ಅಂಚೆಪೆಟ್ಟಿಗೆ ಉತ್ತರಗಳು ಸಕ್ರಿಯ"
 
@@ -11393,7 +11407,7 @@ msgstr "ಇದು ನಿಮ್ಮ %(provider)s ಖಾತೆಗೆ ಜೋಡಿ�
 msgid "choose a username"
 msgstr "ಬಳಕೆನಾಮ ಆಯ್ಕೆಮಾಡಿ"
 
-#: r2/templates/linkedloginlink.html:60 r2/templates/login.html:103 r2/templates/login.html:106 r2/templates/login.html:234 r2/templates/prefupdate.html:132 r2/templates/resetpassword.html:48
+#: r2/templates/linkedloginlink.html:60 r2/templates/login.html:103 r2/templates/login.html:106 r2/templates/login.html:234 r2/templates/prefupdate.html:135 r2/templates/resetpassword.html:48
 msgid "verify password"
 msgstr "ಗುಪ್ತ ಪದವನ್ನು ದೃಢೀಕರಿಸಿ"
 
@@ -11698,7 +11712,7 @@ msgstr "ನೀವು  ಇನ್ನು ಮುಂದೆ ನಿಯಂತ್ರಕ�
 msgid "stop being a moderator?"
 msgstr "ನಿಯಂತ್ರಕ ಹುದ್ದೆ ತ್ಯಜಿಸು?"
 
-#: r2/templates/modlisting.html:48 r2/templates/printablebuttons.html:433
+#: r2/templates/modlisting.html:48 r2/templates/printablebuttons.html:434
 msgid "accept"
 msgstr "ಸ್ವೀಕರಿಸಿ"
 
@@ -11747,7 +11761,7 @@ msgstr "ಈ ಥ್ರೆಡ್ ಮುಂದುವರಿಸಿ "
 msgid "curated by /u/%s"
 msgstr "/u/%s ಆಯ್ದದ್ದು"
 
-#: r2/templates/multiinfobar.html:46 r2/templates/printablebuttons.html:391
+#: r2/templates/multiinfobar.html:46 r2/templates/printablebuttons.html:392
 msgid "hidden"
 msgstr "ಗುಪ್ತ"
 
@@ -12205,7 +12219,9 @@ msgid "we couldn't save the custom stylesheet preference. please see the error b
 msgstr "ಕಸ್ಟಮ್ ಸ್ಟೈಲ್‌ಶೀಟ್ ಆದ್ಯತೆಯನ್ನು ನಾವು ಉಳಿಸಲಾಗಲಿಲ್ಲ. ದಯವಿಟ್ಟು ಕೆಳಗಿನ ದೋಷ ನೋಡಿ"
 
 #: r2/templates/prefoptions.html:108
-msgid "your preferences weren't saved: enter your two-factor code with them"
+#, fuzzy
+#| msgid "your preferences weren't saved: enter your two-factor code with them"
+msgid "your preferences weren't saved: they locked again while you were away. Save them again now."
 msgstr "ನಿಮ್ಮ ಆದ್ಯತೆಗಳನ್ನು ಉಳಿಸಲಾಗಿಲ್ಲ: ಅವುಗಳೊಂದಿಗೆ ನಿಮ್ಮ ಎರಡು-ಅಂಶ ಕೋಡ್ ನಮೂದಿಸಿ"
 
 #: r2/templates/prefoptions.html:110
@@ -12788,361 +12804,382 @@ msgstr "ಮುನ್ನೋಟಕ್ಕೆ ಹೋವರ್ ಮಾಡಿ"
 msgid "warning: use non-featured themes at your own risk"
 msgstr "ಎಚ್ಚರಿಕೆ: ವಿಶೇಷವಲ್ಲದ ಥೀಮ್‌ಗಳನ್ನು ನಿಮ್ಮ ಸ್ವಂತ ಜವಾಬ್ದಾರಿಯಲ್ಲಿ ಬಳಸಿ"
 
-#: r2/templates/prefsecurity.html:44
+#: r2/templates/prefsecurity.html:37
 #, fuzzy
 #| msgid "make new recovery codes"
 msgid "save your recovery codes"
 msgstr "ಹೊಸ ಮರುಪಡೆಯುವ ಕೋಡ್‌ಗಳನ್ನು ರಚಿಸಿ"
 
-#: r2/templates/prefsecurity.html:45
+#: r2/templates/prefsecurity.html:38
 msgid "Save these recovery codes somewhere safe (print them, or keep them in a password manager). Each one works once in place of a code from your app, if you lose your phone. They won't be shown again."
 msgstr "ಈ ಮರುಪಡೆಯುವ ಕೋಡ್‌ಗಳನ್ನು ಎಲ್ಲಾದರೂ ಸುರಕ್ಷಿತವಾಗಿ ಇಡಿ (ಮುದ್ರಿಸಿ, ಅಥವಾ ಪಾಸ್‌ವರ್ಡ್ ಮ್ಯಾನೇಜರ್‌ನಲ್ಲಿ ಇಡಿ). ನಿಮ್ಮ ಫೋನ್ ಕಳೆದುಹೋದರೆ ಪ್ರತಿಯೊಂದೂ ನಿಮ್ಮ ಆ್ಯಪ್‌ನ ಕೋಡ್ ಬದಲು ಒಮ್ಮೆ ಕೆಲಸ ಮಾಡುತ್ತದೆ. ಇವುಗಳನ್ನು ಮತ್ತೆ ತೋರಿಸಲಾಗುವುದಿಲ್ಲ."
 
-#: r2/templates/prefsecurity.html:51
+#: r2/templates/prefsecurity.html:44
 msgid "If you lose your phone or key: sign in with one of these codes, then remove the lost method below and add a new one."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:57
+#: r2/templates/prefsecurity.html:50
 msgid "two-factor authentication"
 msgstr "ಎರಡು-ಅಂಶ ದೃಢೀಕರಣ"
 
+#: r2/templates/prefsecurity.html:55
+#, fuzzy
+#| msgid "two-factor authentication is **on**. you're asked for a code from one of your methods below when changing your password or email address, and when linking or unlinking a sign-in. a code you enter counts for 15 minutes."
+msgid "two-factor authentication is **on**. you're asked for a code from one of your methods before changing your password, email address or linked sign-ins, and before opening this page."
+msgstr "ಎರಡು-ಅಂಶ ದೃಢೀಕರಣ **ಆನ್** ಆಗಿದೆ. ನಿಮ್ಮ ಸಂಕೇತ ಪದ ಅಥವಾ ಇಮೇಲ್ ವಿಳಾಸ ಬದಲಾಯಿಸುವಾಗ, ಮತ್ತು ಸೈನ್-ಇನ್ ಜೋಡಿಸುವಾಗ ಅಥವಾ ತೆಗೆಯುವಾಗ ಕೆಳಗಿನ ನಿಮ್ಮ ಒಂದು ವಿಧಾನದಿಂದ ಕೋಡ್ ಕೇಳಲಾಗುತ್ತದೆ. ನೀವು ನಮೂದಿಸಿದ ಕೋಡ್ 15 ನಿಮಿಷ ಮಾನ್ಯ."
+
+#: r2/templates/prefsecurity.html:57
+#, fuzzy
+#| msgid "two-factor authentication is **on**. you're asked for a code from one of your methods below when changing your password or email address, and when linking or unlinking a sign-in. a code you enter counts for 15 minutes."
+msgid "two-factor authentication is **on**. you're asked to confirm it's you with your passkey before changing your password, email address or linked sign-ins, and before opening this page."
+msgstr "ಎರಡು-ಅಂಶ ದೃಢೀಕರಣ **ಆನ್** ಆಗಿದೆ. ನಿಮ್ಮ ಸಂಕೇತ ಪದ ಅಥವಾ ಇಮೇಲ್ ವಿಳಾಸ ಬದಲಾಯಿಸುವಾಗ, ಮತ್ತು ಸೈನ್-ಇನ್ ಜೋಡಿಸುವಾಗ ಅಥವಾ ತೆಗೆಯುವಾಗ ಕೆಳಗಿನ ನಿಮ್ಮ ಒಂದು ವಿಧಾನದಿಂದ ಕೋಡ್ ಕೇಳಲಾಗುತ್ತದೆ. ನೀವು ನಮೂದಿಸಿದ ಕೋಡ್ 15 ನಿಮಿಷ ಮಾನ್ಯ."
+
 #: r2/templates/prefsecurity.html:62
-#, fuzzy
-#| msgid "two-factor authentication is **on**. you're asked for a code from one of your methods below when changing your password or email address, and when linking or unlinking a sign-in. a code you enter counts for 15 minutes."
-msgid "two-factor authentication is **on**. you're asked for a code from one of your methods when changing your password or email address, and when linking or unlinking a sign-in."
-msgstr "ಎರಡು-ಅಂಶ ದೃಢೀಕರಣ **ಆನ್** ಆಗಿದೆ. ನಿಮ್ಮ ಸಂಕೇತ ಪದ ಅಥವಾ ಇಮೇಲ್ ವಿಳಾಸ ಬದಲಾಯಿಸುವಾಗ, ಮತ್ತು ಸೈನ್-ಇನ್ ಜೋಡಿಸುವಾಗ ಅಥವಾ ತೆಗೆಯುವಾಗ ಕೆಳಗಿನ ನಿಮ್ಮ ಒಂದು ವಿಧಾನದಿಂದ ಕೋಡ್ ಕೇಳಲಾಗುತ್ತದೆ. ನೀವು ನಮೂದಿಸಿದ ಕೋಡ್ 15 ನಿಮಿಷ ಮಾನ್ಯ."
-
-#: r2/templates/prefsecurity.html:64
-#, fuzzy
-#| msgid "two-factor authentication is **on**. you're asked for a code from one of your methods below when changing your password or email address, and when linking or unlinking a sign-in. a code you enter counts for 15 minutes."
-msgid "two-factor authentication is **on**. you're asked to confirm it's you with your passkey when changing your password or email address, and when linking or unlinking a sign-in."
-msgstr "ಎರಡು-ಅಂಶ ದೃಢೀಕರಣ **ಆನ್** ಆಗಿದೆ. ನಿಮ್ಮ ಸಂಕೇತ ಪದ ಅಥವಾ ಇಮೇಲ್ ವಿಳಾಸ ಬದಲಾಯಿಸುವಾಗ, ಮತ್ತು ಸೈನ್-ಇನ್ ಜೋಡಿಸುವಾಗ ಅಥವಾ ತೆಗೆಯುವಾಗ ಕೆಳಗಿನ ನಿಮ್ಮ ಒಂದು ವಿಧಾನದಿಂದ ಕೋಡ್ ಕೇಳಲಾಗುತ್ತದೆ. ನೀವು ನಮೂದಿಸಿದ ಕೋಡ್ 15 ನಿಮಿಷ ಮಾನ್ಯ."
-
-#: r2/templates/prefsecurity.html:69
 msgid "Passkey created. Next time a code is asked for, choose \"use a passkey\"."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:73
+#: r2/templates/prefsecurity.html:66
 #, fuzzy
 #| msgid "sign in with another account"
 msgid "You signed in with a recovery code."
 msgstr "ಇನ್ನೊಂದು ಖಾತೆಯಿಂದ ಸೈನ್ ಇನ್ ಮಾಡಿ"
 
-#: r2/templates/prefsecurity.html:74
+#: r2/templates/prefsecurity.html:67
 msgid "If you lost your phone or key, delete it from the list below and create a passkey or add a new app, so you aren't locked out next time."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:76
+#: r2/templates/prefsecurity.html:69
 #, fuzzy, python-format
 #| msgid "You have %(count)s left."
 msgid "You have %(count)s recovery codes left."
 msgstr "ನಿಮ್ಮ ಬಳಿ %(count)s ಉಳಿದಿವೆ."
 
-#: r2/templates/prefsecurity.html:78
+#: r2/templates/prefsecurity.html:71
 #, fuzzy
 #| msgid "You have none left: make new ones now."
 msgid "That was your last recovery code: make new ones below."
 msgstr "ನಿಮ್ಮ ಬಳಿ ಯಾವುದೂ ಉಳಿದಿಲ್ಲ: ಈಗಲೇ ಹೊಸದನ್ನು ರಚಿಸಿ."
 
-#: r2/templates/prefsecurity.html:91
+#: r2/templates/prefsecurity.html:84
 #, python-format
-msgid "Unlocked: you can make changes here for %(minutes)s more minutes."
+msgid "Unlocked: your preferences lock again %(minutes)s minutes after you last open one."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:97
-#, fuzzy
-#| msgid "enter the code from your authenticator app (or a recovery code)"
-msgid "To change anything here, enter a code from your authenticator app first. It counts for 15 minutes."
-msgstr "ನಿಮ್ಮ ದೃಢೀಕರಣ ಆ್ಯಪ್‌ನಿಂದ ಕೋಡ್ ನಮೂದಿಸಿ (ಅಥವಾ ಒಂದು ಮರುಪಡೆಯುವ ಕೋಡ್)"
-
-#: r2/templates/prefsecurity.html:101
-msgid "To change anything here, confirm it's you with your passkey first. It counts for 15 minutes."
-msgstr ""
-
-#: r2/templates/prefsecurity.html:105 r2/templates/printablebuttons.html:82
-msgid "unlock"
-msgstr "ಅನ್‌ಲಾಕ್ ಮಾಡಿ"
-
-#: r2/templates/prefsecurity.html:113
+#: r2/templates/prefsecurity.html:89
 msgid "your methods"
 msgstr "ನಿಮ್ಮ ವಿಧಾನಗಳು"
 
-#: r2/templates/prefsecurity.html:118
+#: r2/templates/prefsecurity.html:94
 msgid "kind_name"
 msgstr "kind_name"
 
-#: r2/templates/prefsecurity.html:119
+#: r2/templates/prefsecurity.html:95
 #, python-format
 msgid "added %(when)s"
 msgstr "%(when)s ಸೇರಿಸಲಾಗಿದೆ"
 
-#: r2/templates/prefsecurity.html:121
+#: r2/templates/prefsecurity.html:97
 #, python-format
 msgid "last used %(when)s"
 msgstr "ಕೊನೆಯದಾಗಿ ಬಳಸಿದ್ದು %(when)s"
 
-#: r2/templates/prefsecurity.html:143
+#: r2/templates/prefsecurity.html:117
 #, fuzzy
 #| msgid "Removing your only method turns two-factor off, so it needs your password too."
 msgid "Deleting your only method turns two-factor off, so it needs your password too."
 msgstr "ನಿಮ್ಮ ಏಕೈಕ ವಿಧಾನವನ್ನು ತೆಗೆದರೆ ಎರಡು-ಅಂಶ ಆಫ್ ಆಗುತ್ತದೆ, ಆದ್ದರಿಂದ ಅದಕ್ಕೆ ನಿಮ್ಮ ಸಂಕೇತ ಪದವೂ ಬೇಕು."
 
-#: r2/templates/prefsecurity.html:146
+#: r2/templates/prefsecurity.html:120
 msgid "Your passkeys also sign you in on their own: on the login form, choose one from the username box (or \"sign in with a passkey\"), with no password or code."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:147
+#: r2/templates/prefsecurity.html:121
 msgid "Deleting a passkey here stops it working on this site. Your device or password manager keeps its copy until you delete it there too."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:152
+#: r2/templates/prefsecurity.html:126
 msgid "You have one method. Add a second one (a passkey on another device, or an app on another phone), so losing one doesn't lock you out."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:155
+#: r2/templates/prefsecurity.html:129
 msgid "A passkey is the safest method: it only works on this site, so a fake login page can't use it. A code from an app can be typed into a fake page."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:160
+#: r2/templates/prefsecurity.html:133
 msgid "add a method"
 msgstr "ವಿಧಾನ ಸೇರಿಸಿ"
 
-#: r2/templates/prefsecurity.html:166
+#: r2/templates/prefsecurity.html:138
 msgid "recovery codes"
 msgstr "ಮರುಪಡೆಯುವ ಕೋಡ್‌ಗಳು"
 
-#: r2/templates/prefsecurity.html:168
+#: r2/templates/prefsecurity.html:140
 msgid "Recovery codes work once each in place of a code from your app, if you lose your phone."
 msgstr "ನಿಮ್ಮ ಫೋನ್ ಕಳೆದುಹೋದರೆ ಮರುಪಡೆಯುವ ಕೋಡ್‌ಗಳು ಪ್ರತಿಯೊಂದೂ ನಿಮ್ಮ ಆ್ಯಪ್‌ನ ಕೋಡ್ ಬದಲು ಒಮ್ಮೆ ಕೆಲಸ ಮಾಡುತ್ತವೆ."
 
-#: r2/templates/prefsecurity.html:170
+#: r2/templates/prefsecurity.html:142
 #, python-format
 msgid "You have %(count)s left."
 msgstr "ನಿಮ್ಮ ಬಳಿ %(count)s ಉಳಿದಿವೆ."
 
-#: r2/templates/prefsecurity.html:172
+#: r2/templates/prefsecurity.html:144
 msgid "You have none left: make new ones now."
 msgstr "ನಿಮ್ಮ ಬಳಿ ಯಾವುದೂ ಉಳಿದಿಲ್ಲ: ಈಗಲೇ ಹೊಸದನ್ನು ರಚಿಸಿ."
 
-#: r2/templates/prefsecurity.html:177
+#: r2/templates/prefsecurity.html:148
 msgid "make new recovery codes"
 msgstr "ಹೊಸ ಮರುಪಡೆಯುವ ಕೋಡ್‌ಗಳನ್ನು ರಚಿಸಿ"
 
-#: r2/templates/prefsecurity.html:180
+#: r2/templates/prefsecurity.html:151
 msgid "Making new ones stops the old ones working."
 msgstr "ಹೊಸದನ್ನು ರಚಿಸಿದರೆ ಹಳೆಯವು ಕೆಲಸ ನಿಲ್ಲಿಸುತ್ತವೆ."
 
-#: r2/templates/prefsecurity.html:187
+#: r2/templates/prefsecurity.html:157
 msgid "also ask for a code"
 msgstr "ಕೋಡ್ ಕೂಡ ಕೇಳಿ"
 
-#: r2/templates/prefsecurity.html:191
+#: r2/templates/prefsecurity.html:160
 msgid "when logging in, with your password or a linked account (Google, GitHub...)"
 msgstr "ಲಾಗ್ ಇನ್ ಮಾಡುವಾಗ, ನಿಮ್ಮ ಸಂಕೇತ ಪದ ಅಥವಾ ಜೋಡಿಸಿದ ಖಾತೆಯಿಂದ (Google, GitHub...)"
 
-#: r2/templates/prefsecurity.html:192
+#: r2/templates/prefsecurity.html:161
 #, python-format
 msgid "you can choose to skip it for %(days)s days on a device you trust"
 msgstr "ನೀವು ನಂಬುವ ಸಾಧನದಲ್ಲಿ %(days)s ದಿನ ಇದನ್ನು ಬಿಟ್ಟುಬಿಡಲು ಆಯ್ಕೆಮಾಡಬಹುದು"
 
-#: r2/templates/prefsecurity.html:196
-msgid "when saving your preferences"
+#: r2/templates/prefsecurity.html:165
+#, fuzzy
+#| msgid "when saving your preferences"
+msgid "before opening any of your preferences"
 msgstr "ನಿಮ್ಮ ಆದ್ಯತೆಗಳನ್ನು ಉಳಿಸುವಾಗ"
 
-#: r2/templates/prefsecurity.html:200
+#: r2/templates/prefsecurity.html:166
+msgid "otherwise only this page and your password and email address are locked"
+msgstr ""
+
+#: r2/templates/prefsecurity.html:170
 msgid "when submitting a post"
 msgstr "ಪೋಸ್ಟ್ ಸಲ್ಲಿಸುವಾಗ"
 
-#: r2/templates/prefsecurity.html:202
-msgid "a code you enter counts for 15 minutes, so you aren't asked again and again. apps you've allowed (OAuth) aren't asked."
+#: r2/templates/prefsecurity.html:172
+#, fuzzy, python-format
+#| msgid "a code you enter counts for 15 minutes, so you aren't asked again and again. apps you've allowed (OAuth) aren't asked."
+msgid "a code you enter counts for %(minutes)s minutes, and your preferences stay unlocked while you use them, so you aren't asked again and again. apps you've allowed (OAuth) aren't asked."
 msgstr "ನೀವು ನಮೂದಿಸಿದ ಕೋಡ್ 15 ನಿಮಿಷ ಮಾನ್ಯ, ಆದ್ದರಿಂದ ಮತ್ತೆ ಮತ್ತೆ ಕೇಳಲಾಗುವುದಿಲ್ಲ. ನೀವು ಅನುಮತಿಸಿದ ಆ್ಯಪ್‌ಗಳನ್ನು (OAuth) ಕೇಳಲಾಗುವುದಿಲ್ಲ."
 
-#: r2/templates/prefsecurity.html:215
+#: r2/templates/prefsecurity.html:183
 #, fuzzy
 #| msgid "remember me"
 msgid "remembered devices"
 msgstr "ನನ್ನನ್ನು ನೆನಪಿಡಿ"
 
-#: r2/templates/prefsecurity.html:218
+#: r2/templates/prefsecurity.html:186
 msgid "Done: every device will be asked for a code again."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:220
+#: r2/templates/prefsecurity.html:188
 msgid "This device is remembered, so it isn't asked for a code."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:222
+#: r2/templates/prefsecurity.html:190
 #, fuzzy
 #| msgid "Visited links remembered"
 msgid "This device isn't remembered."
 msgstr "ಭೇಟಿ ನೀಡಿದ ಕೊಂಡಿಗಳು ನೆನಪಿನಲ್ಲಿ"
 
-#: r2/templates/prefsecurity.html:224
+#: r2/templates/prefsecurity.html:192
 msgid "If you lost a device you chose to skip the code on, or used a shared computer, forget them all: each one is asked for a code again next time."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:226
+#: r2/templates/prefsecurity.html:194
 msgid "forget all remembered devices"
 msgstr ""
 
-#: r2/templates/prefsecurity.html:228
+#: r2/templates/prefsecurity.html:196
 msgid "Nobody is logged out. To end the logins themselves, use \"log out of all other sessions\" on the account activity page."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:233
+#: r2/templates/prefsecurity.html:201
 #, fuzzy
 #| msgid "two-factor authentication"
 msgid "turn off two-factor authentication…"
 msgstr "ಎರಡು-ಅಂಶ ದೃಢೀಕರಣ"
 
-#: r2/templates/prefsecurity.html:235
+#: r2/templates/prefsecurity.html:203
 msgid "to turn it off (removing every method and the recovery codes), enter your password and a code."
 msgstr "ಅದನ್ನು ಆಫ್ ಮಾಡಲು (ಪ್ರತಿ ವಿಧಾನ ಮತ್ತು ಮರುಪಡೆಯುವ ಕೋಡ್‌ಗಳನ್ನು ತೆಗೆಯುತ್ತಾ), ನಿಮ್ಮ ಸಂಕೇತ ಪದ ಮತ್ತು ಒಂದು ಕೋಡ್ ನಮೂದಿಸಿ."
 
-#: r2/templates/prefsecurity.html:249
+#: r2/templates/prefsecurity.html:217
 msgid "turn off"
 msgstr "ಆಫ್ ಮಾಡಿ"
 
-#: r2/templates/prefsecurity.html:254
+#: r2/templates/prefsecurity.html:222
 msgid "This site asks moderators and staff to use two-factor sign-in: your moderator tools work again once it's on."
 msgstr "ಈ ಸೈಟ್ ನಿಯಂತ್ರಕರು ಮತ್ತು ಸಿಬ್ಬಂದಿಗೆ ಎರಡು-ಅಂಶ ಸೈನ್-ಇನ್ ಬಳಸಲು ಕೇಳುತ್ತದೆ: ಅದು ಆನ್ ಆದ ತಕ್ಷಣ ನಿಮ್ಮ ನಿಯಂತ್ರಕ ಪರಿಕರಗಳು ಮತ್ತೆ ಕೆಲಸ ಮಾಡುತ್ತವೆ."
 
-#: r2/templates/prefsecurity.html:256
+#: r2/templates/prefsecurity.html:224
 msgid "with two-factor authentication on, changing your password or email address, and linking or unlinking a sign-in, also need a second step: a code from an authenticator app on your phone (Google Authenticator, Authy, 1Password and the like). someone who learns your password, or gets into a linked Google or Facebook account, can't take over your account here. you can add more than one method, and remove them later."
 msgstr "ಎರಡು-ಅಂಶ ದೃಢೀಕರಣ ಆನ್ ಇದ್ದಾಗ, ನಿಮ್ಮ ಸಂಕೇತ ಪದ ಅಥವಾ ಇಮೇಲ್ ವಿಳಾಸ ಬದಲಾಯಿಸಲು, ಮತ್ತು ಸೈನ್-ಇನ್ ಜೋಡಿಸಲು ಅಥವಾ ತೆಗೆಯಲು ಎರಡನೇ ಹಂತವೂ ಬೇಕು: ನಿಮ್ಮ ಫೋನ್‌ನಲ್ಲಿನ ದೃಢೀಕರಣ ಆ್ಯಪ್‌ನ (Google Authenticator, Authy, 1Password ಇತ್ಯಾದಿ) ಕೋಡ್. ನಿಮ್ಮ ಸಂಕೇತ ಪದ ತಿಳಿದವರು, ಅಥವಾ ಜೋಡಿಸಿದ Google ಅಥವಾ Facebook ಖಾತೆಗೆ ನುಗ್ಗಿದವರು, ಇಲ್ಲಿ ನಿಮ್ಮ ಖಾತೆಯನ್ನು ವಶಪಡಿಸಿಕೊಳ್ಳಲು ಸಾಧ್ಯವಿಲ್ಲ. ನೀವು ಒಂದಕ್ಕಿಂತ ಹೆಚ್ಚು ವಿಧಾನಗಳನ್ನು ಸೇರಿಸಬಹುದು, ಮತ್ತು ನಂತರ ತೆಗೆಯಬಹುದು."
 
-#: r2/templates/prefsecurity.html:257
+#: r2/templates/prefsecurity.html:225
 msgid "When you add your first method you get recovery codes to save: they let you in if you lose your phone or key."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:269
+#: r2/templates/prefsecurity.html:237
 msgid "To start, enter your password."
 msgstr "ಆರಂಭಿಸಲು, ನಿಮ್ಮ ಸಂಕೇತ ಪದ ನಮೂದಿಸಿ."
 
-#: r2/templates/prefsecurity.html:273
+#: r2/templates/prefsecurity.html:241
 #, fuzzy
 #| msgid "(optional, like phone or work)"
 msgid "name (optional, like phone or work)"
 msgstr "(ಐಚ್ಛಿಕ, ಉದಾ. ಫೋನ್ ಅಥವಾ ಕೆಲಸ)"
 
-#: r2/templates/prefsecurity.html:277
+#: r2/templates/prefsecurity.html:245
 #, fuzzy
 #| msgid "use a passkey"
 msgid "create a passkey"
 msgstr "ಪಾಸ್‌ಕೀ ಬಳಸಿ"
 
-#: r2/templates/prefsecurity.html:279
+#: r2/templates/prefsecurity.html:247
 msgid "Passkeys are encrypted digital keys you create using your fingerprint, face or screen lock. They're saved in your password manager (like Google Password Manager or iCloud Keychain), so you can use them on your other devices too."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:280
+#: r2/templates/prefsecurity.html:248
 msgid "A passkey only works on this site, so a fake login page can't use it, and it signs you in without your password. Don't create one on a shared computer."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:283
+#: r2/templates/prefsecurity.html:251
 msgid "add an authenticator app"
 msgstr "ದೃಢೀಕರಣ ಆ್ಯಪ್ ಸೇರಿಸಿ"
 
-#: r2/templates/prefsecurity.html:284
+#: r2/templates/prefsecurity.html:252
 msgid "An app on your phone (Google Authenticator, Authy, 1Password and the like) shows a new 6-digit code every 30 seconds."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:293
+#: r2/templates/prefsecurity.html:261
 #, fuzzy
 #| msgid "scan the QR code with your authenticator app, or enter the key below in it. you WILL NOT have another chance to see this key."
 msgid "1. Scan this QR code with your authenticator app, or type the key under it into the app. This key isn't shown again."
 msgstr "ನಿಮ್ಮ ದೃಢೀಕರಣ ಆ್ಯಪ್‌ನಿಂದ QR ಕೋಡ್ ಸ್ಕ್ಯಾನ್ ಮಾಡಿ, ಅಥವಾ ಅದರಲ್ಲಿ ಕೆಳಗಿನ ಕೀಲಿ ನಮೂದಿಸಿ. ಈ ಕೀಲಿಯನ್ನು ನೋಡಲು ನಿಮಗೆ ಇನ್ನೊಂದು ಅವಕಾಶ **ಸಿಗುವುದಿಲ್ಲ**."
 
-#: r2/templates/prefsecurity.html:296
+#: r2/templates/prefsecurity.html:264
 msgid "2. name it"
 msgstr ""
 
-#: r2/templates/prefsecurity.html:296
+#: r2/templates/prefsecurity.html:264
 msgid "(optional, like phone or work)"
 msgstr "(ಐಚ್ಛಿಕ, ಉದಾ. ಫೋನ್ ಅಥವಾ ಕೆಲಸ)"
 
-#: r2/templates/prefsecurity.html:300
+#: r2/templates/prefsecurity.html:268
 msgid "3. the code the app shows"
 msgstr ""
 
-#: r2/templates/prefsecurity.html:314
+#: r2/templates/prefsecurity.html:282
 msgid "sign in with another account"
 msgstr "ಇನ್ನೊಂದು ಖಾತೆಯಿಂದ ಸೈನ್ ಇನ್ ಮಾಡಿ"
 
-#: r2/templates/prefsecurity.html:316
+#: r2/templates/prefsecurity.html:284
 msgid "Link a Google, Facebook, GitHub or Discord account to sign in with it instead of your password. It only signs in to this account, and you can unlink it at any time. Your password keeps working."
 msgstr "ಸಂಕೇತ ಪದದ ಬದಲು ಸೈನ್ ಇನ್ ಮಾಡಲು Google, Facebook, GitHub ಅಥವಾ Discord ಖಾತೆಯನ್ನು ಜೋಡಿಸಿ. ಇದು ಈ ಖಾತೆಗೆ ಮಾತ್ರ ಸೈನ್ ಇನ್ ಮಾಡುತ್ತದೆ, ಮತ್ತು ನೀವು ಯಾವಾಗ ಬೇಕಾದರೂ ಅದನ್ನು ತೆಗೆಯಬಹುದು. ನಿಮ್ಮ ಸಂಕೇತ ಪದ ಕೆಲಸ ಮಾಡುತ್ತಲೇ ಇರುತ್ತದೆ."
 
-#: r2/templates/prefsecurity.html:318
+#: r2/templates/prefsecurity.html:286
 msgid "Linked. You can now sign in with it on the login page."
 msgstr "ಜೋಡಿಸಲಾಗಿದೆ. ನೀವು ಈಗ ಲಾಗಿನ್ ಪುಟದಲ್ಲಿ ಇದರಿಂದ ಸೈನ್ ಇನ್ ಮಾಡಬಹುದು."
 
-#: r2/templates/prefsecurity.html:322
-msgid "Linking or unlinking needs your two-factor code (one you entered in the last 15 minutes counts)."
-msgstr "ಜೋಡಿಸಲು ಅಥವಾ ತೆಗೆಯಲು ನಿಮ್ಮ ಎರಡು-ಅಂಶ ಕೋಡ್ ಬೇಕು (ಕಳೆದ 15 ನಿಮಿಷಗಳಲ್ಲಿ ನಮೂದಿಸಿದ್ದೂ ಸಾಕು)."
-
-#: r2/templates/prefsecurity.html:330
+#: r2/templates/prefsecurity.html:294
 msgid "linked"
 msgstr "ಜೋಡಿಸಲಾಗಿದೆ"
 
-#: r2/templates/prefsecurity.html:344
+#: r2/templates/prefsecurity.html:304
 msgid "unlink"
 msgstr "ಜೋಡಣೆ ತೆಗೆಯಿರಿ"
 
-#: r2/templates/prefsecurity.html:349
+#: r2/templates/prefsecurity.html:309
 msgid "not linked"
 msgstr "ಜೋಡಿಸಲಾಗಿಲ್ಲ"
 
-#: r2/templates/prefsecurity.html:360 r2/templates/prefsecurity.html:364
+#: r2/templates/prefsecurity.html:316 r2/templates/prefsecurity.html:320
 #, python-format
 msgid "link %(provider)s"
 msgstr "%(provider)s ಜೋಡಿಸಿ"
 
-#: r2/templates/prefupdate.html:33
-msgid "(entered a moment ago)"
-msgstr "(ಈಗಷ್ಟೇ ನಮೂದಿಸಲಾಗಿದೆ)"
+#: r2/templates/prefsunlock.html:23
+#, fuzzy
+#| msgid "when saving your preferences"
+msgid "unlock your preferences"
+msgstr "ನಿಮ್ಮ ಆದ್ಯತೆಗಳನ್ನು ಉಳಿಸುವಾಗ"
 
-#: r2/templates/prefupdate.html:49
+#: r2/templates/prefsunlock.html:26
+msgid "You chose to keep your preferences locked until you confirm it's you."
+msgstr ""
+
+#: r2/templates/prefsunlock.html:28
+msgid "Changing your password, email address, two-factor sign-in or linked accounts needs you to confirm it's you first."
+msgstr ""
+
+#: r2/templates/prefsunlock.html:35
+#, fuzzy
+#| msgid "enter the code from your authenticator app (or a recovery code)"
+msgid "Enter a code from your authenticator app (or a recovery code)."
+msgstr "ನಿಮ್ಮ ದೃಢೀಕರಣ ಆ್ಯಪ್‌ನಿಂದ ಕೋಡ್ ನಮೂದಿಸಿ (ಅಥವಾ ಒಂದು ಮರುಪಡೆಯುವ ಕೋಡ್)"
+
+#: r2/templates/prefsunlock.html:37
+#, fuzzy
+#| msgid "enter the code from your authenticator app (or a recovery code)"
+msgid "Confirm it's you with your passkey (or a recovery code)."
+msgstr "ನಿಮ್ಮ ದೃಢೀಕರಣ ಆ್ಯಪ್‌ನಿಂದ ಕೋಡ್ ನಮೂದಿಸಿ (ಅಥವಾ ಒಂದು ಮರುಪಡೆಯುವ ಕೋಡ್)"
+
+#: r2/templates/prefsunlock.html:41 r2/templates/printablebuttons.html:83
+msgid "unlock"
+msgstr "ಅನ್‌ಲಾಕ್ ಮಾಡಿ"
+
+#: r2/templates/prefsunlock.html:45
+#, python-format
+msgid "They stay unlocked while you use them, and lock again %(minutes)s minutes after you last opened one."
+msgstr ""
+
+#: r2/templates/prefupdate.html:52
 msgid "verify your email"
 msgstr "ನಿಮ್ಮ ಇಮೇಲ್ ಪರಿಶೀಲಿಸಿ"
 
-#: r2/templates/prefupdate.html:51
+#: r2/templates/prefupdate.html:54
 msgid "update your email"
 msgstr "ನಿಮ್ಮ ಇಮೇಲ್ ನವೀಕರಿಸಿ"
 
-#: r2/templates/prefupdate.html:56 r2/templates/prefupdate.html:117 r2/templates/useriphistory.html:74
+#: r2/templates/prefupdate.html:59 r2/templates/prefupdate.html:120 r2/templates/useriphistory.html:74
 msgid "current password"
 msgstr "ಸದ್ಯದ ಗುಪ್ತಪದ"
 
-#: r2/templates/prefupdate.html:68
+#: r2/templates/prefupdate.html:71
 msgid "verified"
 msgstr "ಪರಿಶೀಲಿಸಲಾಗಿದೆ"
 
-#: r2/templates/prefupdate.html:71
+#: r2/templates/prefupdate.html:74
 msgid "verification pending"
 msgstr "ಪರಿಶೀಲನೆ ಬಾಕಿ ಉಳಿದಿದೆ"
 
-#: r2/templates/prefupdate.html:72
+#: r2/templates/prefupdate.html:75
 msgid "click to resend"
 msgstr "ಮರುಕಳುಹಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ"
 
-#: r2/templates/prefupdate.html:74
+#: r2/templates/prefupdate.html:77
 msgid "unverified"
 msgstr "ಪರಿಶೀಲಿಸಲಾಗಿಲ್ಲ"
 
-#: r2/templates/prefupdate.html:75
+#: r2/templates/prefupdate.html:78
 msgid "click to verify"
 msgstr "ಪರಿಶೀಲಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ"
 
-#: r2/templates/prefupdate.html:96
+#: r2/templates/prefupdate.html:99
 msgid "send verification email"
 msgstr "ಪರಿಶೀಲನಾ ಇಮೇಲ್ ಕಳುಹಿಸಿ"
 
-#: r2/templates/prefupdate.html:114
+#: r2/templates/prefupdate.html:117
 msgid "update your password"
 msgstr "ನಿಮ್ಮ ಗುಪ್ತಪದವನ್ನು ನವೀಕರಿಸಿ"
 
-#: r2/templates/prefupdate.html:125 r2/templates/resetpassword.html:41
+#: r2/templates/prefupdate.html:128 r2/templates/resetpassword.html:41
 msgid "new password"
 msgstr "ಹೊಸ ಗುಪ್ತಪದ"
 
@@ -13155,148 +13192,148 @@ msgstr "%(time)s ರಂದು ತೆಗೆಯಲಾಗಿದೆ"
 msgid "(no need to click for this info; just hover over the checkmark next time)"
 msgstr "(ಈ ಮಾಹಿತಿಗಾಗಿ ಕ್ಲಿಕ್ ಅಗತ್ಯವಿಲ್ಲ; ಮುಂದಿನ ಬಾರಿ ಕೇವಲ ಸರಿಗುರುತು ಸುಳಿದಾಡಿರೆ ಸಾಕು)"
 
-#: r2/templates/printablebuttons.html:47 r2/templates/printablebuttons.html:283
+#: r2/templates/printablebuttons.html:48 r2/templates/printablebuttons.html:284
 msgid "spammed"
 msgstr "ಸ್ಪ್ಯಾಮೀಕರಿಸಲಾಗಿದೆ "
 
-#: r2/templates/printablebuttons.html:74 r2/templates/promotelinkbase.html:849 r2/templates/vaultreportform.html:49
+#: r2/templates/printablebuttons.html:75 r2/templates/promotelinkbase.html:849 r2/templates/vaultreportform.html:52
 msgid "report"
 msgstr "ವರದಿ"
 
-#: r2/templates/printablebuttons.html:79
+#: r2/templates/printablebuttons.html:80
 msgid "lock"
 msgstr "ಲಾಕ್ ಮಾಡಿ"
 
-#: r2/templates/printablebuttons.html:85
+#: r2/templates/printablebuttons.html:86
 msgid "marked"
 msgstr "ಗುರುತಿಸಲಾಗಿದೆ"
 
-#: r2/templates/printablebuttons.html:88
+#: r2/templates/printablebuttons.html:89
 msgid "un-nsfw"
 msgstr "ಏನ್ ಎಸ್ ಎಫ್ ಡಬ್ಲ್ಯೂ ತೆಗೆಯಿರಿ "
 
-#: r2/templates/printablebuttons.html:88
+#: r2/templates/printablebuttons.html:89
 msgid "unmarked"
 msgstr "ಗುರುತು ಹಾಕಿಲ್ಲ"
 
-#: r2/templates/printablebuttons.html:120
+#: r2/templates/printablebuttons.html:121
 msgid "retry thumb"
 msgstr "ಥಂಬ್‌ನೇಲ್ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಿ"
 
-#: r2/templates/printablebuttons.html:120
+#: r2/templates/printablebuttons.html:121
 msgid "check back in a few minutes"
 msgstr "ಕೆಲವು ನಿಮಿಷಗಳಲ್ಲಿ ಮತ್ತೆ ನೋಡಿ"
 
-#: r2/templates/printablebuttons.html:140
+#: r2/templates/printablebuttons.html:141
 msgid "undistinguish"
 msgstr "ಪ್ರತ್ಯೇಕತೆ ತೆಗೆಯಿರಿ"
 
-#: r2/templates/printablebuttons.html:155
+#: r2/templates/printablebuttons.html:156
 msgid "distinguish this?"
 msgstr "ಇದನ್ನು  ಪ್ರತ್ಯೇಕಿಸಬೇಕೇ?"
 
-#: r2/templates/printablebuttons.html:165
+#: r2/templates/printablebuttons.html:166
 msgid "yes & sticky"
 msgstr "ಹೌದು ಮತ್ತು ಅಂಟಿಸಿ"
 
-#: r2/templates/printablebuttons.html:192
+#: r2/templates/printablebuttons.html:193
 msgid "undistinguish this?"
 msgstr "ಇದರ ಪ್ರತ್ಯೇಕತೆ ತೆಗೆಯಬೇಕೇ?"
 
-#: r2/templates/printablebuttons.html:217
+#: r2/templates/printablebuttons.html:218
 msgid "undistinguishing..."
 msgstr "ಪ್ರತ್ಯೇಕತೆ ತೆಗೆಯಲಾಗುತ್ತಿದೆ..."
 
-#: r2/templates/printablebuttons.html:219
+#: r2/templates/printablebuttons.html:220
 msgid "distinguishing..."
 msgstr "ಪ್ರತ್ಯೇಕಿಸುತ್ತಿದ್ದೇವೆ ..."
 
-#: r2/templates/printablebuttons.html:240
+#: r2/templates/printablebuttons.html:241
 msgid "give tippr gold in appreciation of this post."
 msgstr "ಈ ಪೋಸ್ಟ್‌ನ ಮೆಚ್ಚುಗೆಯಾಗಿ tippr ಚಿನ್ನ ನೀಡಿ."
 
-#: r2/templates/printablebuttons.html:243
+#: r2/templates/printablebuttons.html:244
 msgid "give gold"
 msgstr "ಚಿನ್ನ ಕೊಡಿ "
 
-#: r2/templates/printablebuttons.html:270
+#: r2/templates/printablebuttons.html:271
 msgid "reapprove"
 msgstr "ಮತ್ತೆ ಅನುಮೋದಿಸಿ"
 
-#: r2/templates/printablebuttons.html:310
+#: r2/templates/printablebuttons.html:311
 msgid "click to show report reasons"
 msgstr "ವರದಿಯ ಕಾರಣಗಳನ್ನು ತೋರಿಸಲು ಕ್ಲಿಕ್ ಮಾಡಿ"
 
-#: r2/templates/printablebuttons.html:323
+#: r2/templates/printablebuttons.html:324
 msgid "moderator reports:"
 msgstr "ನಿಯಂತ್ರಕರ ವರದಿಗಳು:"
 
-#: r2/templates/printablebuttons.html:329 r2/templates/printablebuttons.html:342
+#: r2/templates/printablebuttons.html:330 r2/templates/printablebuttons.html:343
 msgid "<no reason>"
 msgstr "<ಕಾರಣವಿಲ್ಲ>"
 
-#: r2/templates/printablebuttons.html:336
+#: r2/templates/printablebuttons.html:337
 msgid "user reports:"
 msgstr "ಬಳಕೆದಾರರ ವರದಿಗಳು:"
 
-#: r2/templates/printablebuttons.html:386
+#: r2/templates/printablebuttons.html:387
 msgid "unhide"
 msgstr "ಅಡಗಿಸಬೇಡಿ"
 
-#: r2/templates/printablebuttons.html:387
+#: r2/templates/printablebuttons.html:388
 msgid "unhidden"
 msgstr "ಅಡಗಿಸಲ್ಪಟ್ಟಿಲ್ಲ"
 
-#: r2/templates/printablebuttons.html:427
+#: r2/templates/printablebuttons.html:428
 msgid "reject"
 msgstr "ನಿರಾಕರಿಸಿ"
 
-#: r2/templates/printablebuttons.html:434
+#: r2/templates/printablebuttons.html:435
 msgid "accepted"
 msgstr "ಸ್ವೀಕರಿಸಿದೆ"
 
-#: r2/templates/printablebuttons.html:442
+#: r2/templates/printablebuttons.html:443
 msgid "fraud"
 msgstr "ವಂಚನೆ"
 
-#: r2/templates/printablebuttons.html:473 r2/templates/printablebuttons.html:577
+#: r2/templates/printablebuttons.html:474 r2/templates/printablebuttons.html:578
 msgid "permalink"
 msgstr "ಶಾಶ್ವತಕೊಂಡಿ "
 
-#: r2/templates/printablebuttons.html:493 r2/templates/printablebuttons.html:566
+#: r2/templates/printablebuttons.html:494 r2/templates/printablebuttons.html:567
 msgid "context"
 msgstr "ಸನ್ನಿವೇಶ"
 
-#: r2/templates/printablebuttons.html:497 r2/templates/printablebuttons.html:570
+#: r2/templates/printablebuttons.html:498 r2/templates/printablebuttons.html:571
 msgid "full comments"
 msgstr "ಪೂರ್ಣ ಪ್ರತಿಕ್ರಿಯೆಗಳು"
 
-#: r2/templates/printablebuttons.html:507
+#: r2/templates/printablebuttons.html:508
 msgid "parent"
 msgstr "ಪೋಷಕ"
 
-#: r2/templates/printablebuttons.html:538 r2/templates/printablebuttons.html:540 r2/templates/printablebuttons.html:633
+#: r2/templates/printablebuttons.html:539 r2/templates/printablebuttons.html:541 r2/templates/printablebuttons.html:634
 #, python-brace-format
 msgid "reply {verb}"
 msgstr "ಉತ್ತರಿಸು"
 
-#: r2/templates/printablebuttons.html:595
+#: r2/templates/printablebuttons.html:596
 msgid "unblock vault"
 msgstr "ವಾಲ್ಟ್ ನಿರ್ಬಂಧ ತೆಗೆಯಿರಿ"
 
-#: r2/templates/printablebuttons.html:595
+#: r2/templates/printablebuttons.html:596
 msgid "unblocked"
 msgstr "ನಿರ್ಬಂಧ ತೆಗೆಯಲಾಗಿದೆ"
 
-#: r2/templates/printablebuttons.html:598
+#: r2/templates/printablebuttons.html:599
 msgid "block vault"
 msgstr "ವಾಲ್ಟ್ ನಿರ್ಬಂಧಿಸಿ"
 
-#: r2/templates/printablebuttons.html:605
+#: r2/templates/printablebuttons.html:606
 msgid "block user"
 msgstr "ಬಳಕೆದಾರನನ್ನು ತಡೆಹಿಡಿಯಿರಿ"
 
-#: r2/templates/printablebuttons.html:623
+#: r2/templates/printablebuttons.html:624
 msgid "mark unread"
 msgstr "ಓದಿಲ್ಲವೆ೦ದು ಗುರುತಿಸಿ"
 
@@ -14106,14 +14143,14 @@ msgstr "ಕೊನೆಗೊಳಿಸಿ"
 msgid "why are you reporting this?"
 msgstr "ನೀವು ಇದನ್ನು ಏಕೆ ವರದಿ ಮಾಡುತ್ತಿದ್ದೀರಿ?"
 
-#: r2/templates/reportform.html:54
+#: r2/templates/reportform.html:54 r2/templates/vaultreportform.html:83
 #, python-format
-msgid "tippr rule: %(rule_name)s"
-msgstr "tippr ನಿಯಮ: %(rule_name)s"
+msgid "%(site_name)s rule: %(rule_name)s"
+msgstr "%(site_name)s ನಿಯಮ: %(rule_name)s"
 
-#: r2/templates/reportform.html:62
+#: r2/templates/reportform.html:62 r2/templates/vaultreportform.html:127
 #, python-format
-msgid "other (max %(num)s characters):"
+msgid "Other (max %(num)s characters):"
 msgstr "ಇತರೆ (ಗರಿಷ್ಠ %(num)s ಅಕ್ಷರಗಳು):"
 
 #: r2/templates/rules.html:44
@@ -14742,31 +14779,22 @@ msgstr "ಈ ವಾಲ್ಟ್ ಅನುಮೋದಿಸಿ"
 msgid "ban this vault"
 msgstr "ಈ ವಾಲ್ಟ್ ನಿಷೇಧಿಸಿ"
 
-#: r2/templates/vaultreportform.html:35 r2/templates/vaultreportform.html:36
+#: r2/templates/vaultreportform.html:38 r2/templates/vaultreportform.html:39
 msgid "View the community rules"
 msgstr "ಸಮುದಾಯದ ನಿಯಮಗಳನ್ನು ನೋಡಿ"
 
-#: r2/templates/vaultreportform.html:39
+#: r2/templates/vaultreportform.html:42
 msgid "What rule does this break?"
 msgstr "ಇದು ಯಾವ ನಿಯಮ ಮುರಿಯುತ್ತದೆ?"
 
-#: r2/templates/vaultreportform.html:80
-#, python-format
-msgid "Tippr rule: %(rule_name)s"
-msgstr "Tippr ನಿಯಮ: %(rule_name)s"
-
-#: r2/templates/vaultreportform.html:89 r2/templates/vaultreportform.html:108
+#: r2/templates/vaultreportform.html:92 r2/templates/vaultreportform.html:111
 msgid "Reports go to community moderators anonymously"
 msgstr "ವರದಿಗಳು ಸಮುದಾಯದ ನಿಯಂತ್ರಕರಿಗೆ ಅನಾಮಧೇಯವಾಗಿ ಹೋಗುತ್ತವೆ"
 
-#: r2/templates/vaultreportform.html:110
-msgid "Reports go to Tippr admins"
-msgstr "ವರದಿಗಳು Tippr ನಿರ್ವಾಹಕರಿಗೆ ಹೋಗುತ್ತವೆ"
-
-#: r2/templates/vaultreportform.html:124
+#: r2/templates/vaultreportform.html:113
 #, python-format
-msgid "Other (max %(num)s characters):"
-msgstr "ಇತರೆ (ಗರಿಷ್ಠ %(num)s ಅಕ್ಷರಗಳು):"
+msgid "Reports go to the %(site_name)s admins"
+msgstr "ವರದಿಗಳು %(site_name)s ನಿರ್ವಾಹಕರಿಗೆ ಹೋಗುತ್ತವೆ"
 
 #: r2/templates/vaultstylesheet.html:58 r2/templates/wikieditpage.html:52
 msgid "reason for revision"

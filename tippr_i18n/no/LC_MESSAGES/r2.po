@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tippr\n"
 "Report-Msgid-Bugs-To: https://github.com/TechIdiots-LLC/tippr-i18n/issues\n"
-"POT-Creation-Date: 2026-10-24 20:07-0400\n"
+"POT-Creation-Date: 2026-10-25 10:54-0400\n"
 "PO-Revision-Date: 2017-01-23 14:38-0500\n"
 "Last-Translator: tippr translators\n"
 "Language-Team: Norwegian\n"
@@ -14,12 +14,13 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Display-Name: Norsk\n"
 "Display-Name-en: Norwegian\n"
+"X-Machine-Translation: Machine-translated by Claude (Anthropic) for tippr; please review and correct\n"
 
 #: r2/controllers/admin.py:117
 msgid "Choose an image of at most 1 MB."
 msgstr "Velg et bilde på høyst 1 MB."
 
-#: r2/controllers/api.py:223 r2/controllers/api.py:249 r2/controllers/api.py:4436 r2/controllers/api.py:4506 r2/controllers/listingcontroller.py:766 r2/lib/pages/pages.py:6405
+#: r2/controllers/api.py:223 r2/controllers/api.py:249 r2/controllers/api.py:4436 r2/controllers/api.py:4506 r2/controllers/listingcontroller.py:766 r2/lib/pages/pages.py:6422
 msgid "API"
 msgstr "API"
 
@@ -73,7 +74,7 @@ msgstr "Påloggingen tok for lang tid. Start på nytt."
 msgid "That account is linked already: sign in with it."
 msgstr "Den kontoen er allerede koblet til: logg inn med den."
 
-#: r2/controllers/api.py:1436 r2/controllers/api.py:1817 r2/controllers/api.py:2719 r2/controllers/api.py:3019 r2/controllers/api.py:3346 r2/controllers/api.py:4228 r2/controllers/api.py:4284 r2/controllers/api.py:4338 r2/controllers/api.py:4571 r2/controllers/api.py:4576 r2/controllers/api.py:4811 r2/controllers/api.py:4876 r2/controllers/api.py:4954 r2/controllers/api.py:5020 r2/controllers/api.py:5093 r2/controllers/api.py:5184 r2/controllers/api.py:5216 r2/controllers/api.py:5236 r2/controllers/api.py:5750 r2/controllers/api.py:5790 r2/controllers/api.py:6024 r2/controllers/api.py:6042 r2/controllers/api.py:6390 r2/lib/pages/pages.py:6296
+#: r2/controllers/api.py:1436 r2/controllers/api.py:1817 r2/controllers/api.py:2719 r2/controllers/api.py:3019 r2/controllers/api.py:3346 r2/controllers/api.py:4228 r2/controllers/api.py:4284 r2/controllers/api.py:4338 r2/controllers/api.py:4571 r2/controllers/api.py:4576 r2/controllers/api.py:4811 r2/controllers/api.py:4876 r2/controllers/api.py:4954 r2/controllers/api.py:5020 r2/controllers/api.py:5093 r2/controllers/api.py:5184 r2/controllers/api.py:5216 r2/controllers/api.py:5236 r2/controllers/api.py:5750 r2/controllers/api.py:5790 r2/controllers/api.py:6024 r2/controllers/api.py:6042 r2/controllers/api.py:6390 r2/lib/pages/pages.py:6313
 msgid "saved"
 msgstr "lagret"
 
@@ -105,7 +106,7 @@ msgstr "svart"
 msgid "validation errors"
 msgstr "feil ved validering"
 
-#: r2/controllers/api.py:2822 r2/controllers/api.py:2849 r2/controllers/api.py:2876 r2/controllers/listingcontroller.py:1048 r2/lib/menus.py:195 r2/public/static/js/tippr.js:235 r2/templates/adminapps.html:51 r2/templates/adminuser.html:59 r2/templates/deleteduserinterstitial.html:34 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:585 r2/templates/vaultstylesheetbase.html:47
+#: r2/controllers/api.py:2822 r2/controllers/api.py:2849 r2/controllers/api.py:2876 r2/controllers/listingcontroller.py:1048 r2/lib/menus.py:195 r2/public/static/js/tippr.js:235 r2/templates/adminapps.html:51 r2/templates/adminuser.html:59 r2/templates/deleteduserinterstitial.html:34 r2/templates/printablebuttons.html:41 r2/templates/printablebuttons.html:586 r2/templates/vaultstylesheetbase.html:47
 msgid "deleted"
 msgstr "slettet"
 
@@ -187,7 +188,7 @@ msgstr "ingen slik betaling"
 msgid "status"
 msgstr "status"
 
-#: r2/controllers/api.py:5084 r2/controllers/linked_logins.py:93 r2/controllers/linked_logins.py:187 r2/lib/pages/pages.py:1374 r2/lib/pages/pages.py:1424 r2/templates/createvault.html:57 r2/templates/goldpayment.html:168 r2/templates/linkedsignin.html:41 r2/templates/listingchooser.html:69 r2/templates/prefapps.html:153 r2/templates/prefapps.html:348
+#: r2/controllers/api.py:5084 r2/controllers/linked_logins.py:93 r2/controllers/linked_logins.py:187 r2/lib/pages/pages.py:1388 r2/lib/pages/pages.py:1438 r2/templates/createvault.html:57 r2/templates/goldpayment.html:168 r2/templates/linkedsignin.html:41 r2/templates/listingchooser.html:69 r2/templates/prefapps.html:153 r2/templates/prefapps.html:348
 msgid "name"
 msgstr "navn"
 
@@ -449,45 +450,45 @@ msgstr "den tilgangsnøkkelen kunne ikke legges til"
 msgid "that passkey wasn't accepted"
 msgstr "den tilgangsnøkkelen ble ikke godtatt"
 
-#: r2/controllers/api.py:6502
+#: r2/controllers/api.py:6504
 #, python-format
 msgid "accounts need to be %(n)d days old"
 msgstr "kontoer må være %(n)d dager gamle"
 
-#: r2/controllers/api.py:6506
+#: r2/controllers/api.py:6508
 #, python-format
 msgid "accounts need %(n)d karma"
 msgstr "kontoer trenger %(n)d karma"
 
-#: r2/controllers/api.py:6509
+#: r2/controllers/api.py:6511
 msgid "verify your email address first"
 msgstr "bekreft e-postadressen din først"
 
-#: r2/controllers/api.py:6551 r2/lib/errors.py:158
+#: r2/controllers/api.py:6553 r2/lib/errors.py:159
 msgid "this app can not be modified from this interface"
 msgstr "denne appen kan ikke endres fra dette grensesnittet"
 
-#: r2/controllers/api.py:6558 r2/lib/errors.py:136
+#: r2/controllers/api.py:6560 r2/lib/errors.py:136
 msgid "invalid client id"
 msgstr "ugyldig klient id"
 
-#: r2/controllers/api.py:6561
+#: r2/controllers/api.py:6563
 msgid "cannot update deleted app"
 msgstr "kan ikke oppdatere den slettede applikasjonen"
 
-#: r2/controllers/api.py:6564
+#: r2/controllers/api.py:6566
 msgid "app does not belong to you"
 msgstr "applikasjon tilhører ikke deg"
 
-#: r2/controllers/api.py:6572
+#: r2/controllers/api.py:6574
 msgid "application updated"
 msgstr "applikasjon er oppdatert"
 
-#: r2/controllers/api.py:6596
+#: r2/controllers/api.py:6598
 msgid "application created"
 msgstr "applikasjon opprettet"
 
-#: r2/controllers/api.py:6631
+#: r2/controllers/api.py:6633
 msgid "developer added"
 msgstr "utvikler lagt til"
 
@@ -503,7 +504,7 @@ msgstr "tippr-knapper"
 msgid "tippr widget"
 msgstr "tippr-widget"
 
-#: r2/controllers/embed.py:74 r2/controllers/policies.py:51 r2/lib/pages/pages.py:1137 r2/lib/pages/pages.py:6401 r2/templates/printablebuttons.html:150
+#: r2/controllers/embed.py:74 r2/controllers/policies.py:51 r2/lib/pages/pages.py:1136 r2/lib/pages/pages.py:6418 r2/templates/printablebuttons.html:151
 msgid "help"
 msgstr "hjelp"
 
@@ -537,7 +538,7 @@ msgstr "siden du prøvde å nå finnes ikke"
 msgid "suspended"
 msgstr "suspendert"
 
-#: r2/controllers/front.py:247 r2/lib/pages/pages.py:6283
+#: r2/controllers/front.py:247 r2/lib/pages/pages.py:6300
 msgid "explore"
 msgstr "utforsk"
 
@@ -569,7 +570,7 @@ msgstr "vis %d"
 msgid "create a vault"
 msgstr "opprett en vault"
 
-#: r2/controllers/front.py:738 r2/controllers/front.py:744 r2/controllers/listingcontroller.py:813 r2/controllers/listingcontroller.py:828 r2/controllers/listingcontroller.py:1192 r2/controllers/listingcontroller.py:1203 r2/lib/menus.py:203 r2/lib/menus.py:453 r2/lib/menus.py:666 r2/lib/pages/pages.py:5170 r2/lib/pages/pages.py:5179 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
+#: r2/controllers/front.py:738 r2/controllers/front.py:744 r2/controllers/listingcontroller.py:813 r2/controllers/listingcontroller.py:828 r2/controllers/listingcontroller.py:1192 r2/controllers/listingcontroller.py:1203 r2/lib/menus.py:203 r2/lib/menus.py:453 r2/lib/menus.py:666 r2/lib/pages/pages.py:5187 r2/lib/pages/pages.py:5196 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
 msgid "all"
 msgstr "alle"
 
@@ -593,7 +594,7 @@ msgstr "innlegg og kommentarer"
 msgid "posts"
 msgstr "innlegg"
 
-#: r2/controllers/front.py:949 r2/controllers/listingcontroller.py:1795 r2/lib/pages/pages.py:5924 r2/templates/adminuser.html:37 r2/templates/createvault.html:288 r2/templates/link.xml:95
+#: r2/controllers/front.py:949 r2/controllers/listingcontroller.py:1795 r2/lib/pages/pages.py:5941 r2/templates/adminuser.html:37 r2/templates/createvault.html:288 r2/templates/link.xml:95
 msgid "comments"
 msgstr "kommentarer"
 
@@ -672,7 +673,7 @@ msgstr "Takk for at du kjøpte tippr gull! Transaksjonen er gjennomført."
 msgid "Thanks for buying tippr gold! Your transaction is being processed. If you have any questions please contact us at %(gold_email)s"
 msgstr "Takk for at du kjøpte tippr gold! Transaksjonen behandles. Har du spørsmål, kontakt oss på %(gold_email)s"
 
-#: r2/controllers/front.py:1582 r2/controllers/front.py:1891
+#: r2/controllers/front.py:1582 r2/controllers/front.py:1894
 msgid "thanks"
 msgstr "takk"
 
@@ -688,11 +689,11 @@ msgstr "gjør krav på premie"
 msgid "gilding"
 msgstr "forgylle"
 
-#: r2/controllers/front.py:1636 r2/controllers/front.py:1940 r2/controllers/front.py:1967 r2/controllers/front.py:2037 r2/controllers/front.py:2080 r2/lib/menus.py:94 r2/templates/contactus.html:117 r2/templates/contactus.html:119 r2/templates/creditgild.html:34 r2/templates/gold.html:30 r2/templates/goldabout.html:20 r2/templates/goldpayment.html:40 r2/templates/goldthanks.html:29 r2/templates/prefoptions.html:562
+#: r2/controllers/front.py:1636 r2/controllers/front.py:1943 r2/controllers/front.py:1970 r2/controllers/front.py:2040 r2/controllers/front.py:2083 r2/lib/menus.py:94 r2/templates/contactus.html:117 r2/templates/contactus.html:119 r2/templates/creditgild.html:34 r2/templates/gold.html:30 r2/templates/goldabout.html:20 r2/templates/goldpayment.html:40 r2/templates/goldthanks.html:29 r2/templates/prefoptions.html:562
 msgid "tippr gold"
 msgstr "tippr gold"
 
-#: r2/controllers/front.py:1669 r2/public/static/js/enhancements.js:1084 r2/templates/adminemailsettings.html:73 r2/templates/admininterstitial.html:56 r2/templates/linkedloginlink.html:40 r2/templates/linkedloginlink.html:58 r2/templates/login.html:96 r2/templates/login.html:98 r2/templates/login.html:223 r2/templates/loginformwide.html:46 r2/templates/prefsecurity.html:130 r2/templates/prefsecurity.html:237 r2/templates/prefsecurity.html:270 r2/templates/privacysettings.html:128
+#: r2/controllers/front.py:1669 r2/public/static/js/enhancements.js:1084 r2/templates/adminemailsettings.html:73 r2/templates/admininterstitial.html:56 r2/templates/linkedloginlink.html:40 r2/templates/linkedloginlink.html:58 r2/templates/login.html:96 r2/templates/login.html:98 r2/templates/login.html:223 r2/templates/loginformwide.html:46 r2/templates/prefsecurity.html:105 r2/templates/prefsecurity.html:205 r2/templates/prefsecurity.html:238 r2/templates/privacysettings.html:128
 msgid "password"
 msgstr "passord"
 
@@ -712,31 +713,31 @@ msgstr "feilemeldings emblem"
 msgid "emails unsubscribed"
 msgstr "epost avabonnert"
 
-#: r2/controllers/front.py:1843 r2/lib/pages/pages.py:930 r2/templates/admininterstitial.html:83
+#: r2/controllers/front.py:1846 r2/lib/pages/pages.py:929 r2/templates/admininterstitial.html:83
 msgid "turn admin on"
 msgstr "slå admin på"
 
-#: r2/controllers/front.py:1861 r2/controllers/post.py:166
+#: r2/controllers/front.py:1864 r2/controllers/post.py:166
 msgid "opt out"
 msgstr "velg ut"
 
-#: r2/controllers/front.py:1861 r2/controllers/post.py:177
+#: r2/controllers/front.py:1864 r2/controllers/post.py:177
 msgid "welcome back"
 msgstr "velkommen tilbake"
 
-#: r2/controllers/front.py:1969
+#: r2/controllers/front.py:1972
 msgid "tippr gold isn't for sale on this site right now."
 msgstr "tippr gold er ikke til salgs på denne siden akkurat nå."
 
-#: r2/controllers/front.py:1970
+#: r2/controllers/front.py:1973
 msgid "what gold gives you"
 msgstr "hva gull gir deg"
 
-#: r2/controllers/front.py:2090 r2/templates/gold.html:57 r2/templates/gold.html:112 r2/templates/prefoptions.html:553
+#: r2/controllers/front.py:2093 r2/templates/gold.html:57 r2/templates/gold.html:112 r2/templates/prefoptions.html:553
 msgid "Give Gold"
 msgstr "Gi Gull"
 
-#: r2/controllers/front.py:2100 r2/controllers/ipn.py:844
+#: r2/controllers/front.py:2103 r2/controllers/ipn.py:844
 msgid "tippr gold subscription"
 msgstr "tippr gull-abonnement"
 
@@ -1107,11 +1108,11 @@ msgstr "forgyllinger gitt av %(user)s"
 msgid "profile for %(user)s"
 msgstr "profil for %(user)s"
 
-#: r2/controllers/listingcontroller.py:1021 r2/lib/menus.py:110 r2/templates/printablebuttons.html:598 r2/templates/printablebuttons.html:605
+#: r2/controllers/listingcontroller.py:1021 r2/lib/menus.py:110 r2/templates/printablebuttons.html:599 r2/templates/printablebuttons.html:606
 msgid "blocked"
 msgstr "blokkert"
 
-#: r2/controllers/listingcontroller.py:1193 r2/controllers/listingcontroller.py:1204 r2/templates/printablebuttons.html:625
+#: r2/controllers/listingcontroller.py:1193 r2/controllers/listingcontroller.py:1204 r2/templates/printablebuttons.html:626
 msgid "unread"
 msgstr "ulest"
 
@@ -1139,11 +1140,11 @@ msgstr "vaulter:"
 msgid "To block a user click 'block user'  below a message from a user you wish to block from messaging you."
 msgstr "For å blokkere en bruker, trykk \"blokker bruker\" under en melding du har fått fra en bruker du ønsker å blokkere."
 
-#: r2/controllers/listingcontroller.py:2105 r2/lib/menus.py:60
+#: r2/controllers/listingcontroller.py:2109 r2/lib/menus.py:60
 msgid "gilded"
 msgstr "forgyllet"
 
-#: r2/controllers/listingcontroller.py:2121
+#: r2/controllers/listingcontroller.py:2125
 #, python-format
 msgid "gildings in this vault have paid for %(time)s of server time"
 msgstr "Forgylling i denne vaulten har betalt for %(time)s servertid"
@@ -1207,15 +1208,15 @@ msgstr "Betalingen gikk ikke gjennom, så du er ikke belastet."
 msgid "try again"
 msgstr "prøv igjen"
 
-#: r2/controllers/policies.py:61 r2/lib/help_pages.py:43 r2/lib/menus.py:102 r2/lib/pages/pages.py:6411 r2/templates/contactus.html:84 r2/templates/utils.html:543
+#: r2/controllers/policies.py:61 r2/lib/help_pages.py:43 r2/lib/menus.py:102 r2/lib/pages/pages.py:6428 r2/templates/contactus.html:84 r2/templates/utils.html:543
 msgid "privacy policy"
 msgstr "personvernerklæring"
 
-#: r2/controllers/policies.py:64 r2/lib/help_pages.py:42 r2/lib/menus.py:101 r2/lib/pages/pages.py:6412 r2/templates/contactus.html:92
+#: r2/controllers/policies.py:64 r2/lib/help_pages.py:42 r2/lib/menus.py:101 r2/lib/pages/pages.py:6429 r2/templates/contactus.html:92
 msgid "user agreement"
 msgstr "brukeravtale"
 
-#: r2/controllers/policies.py:67 r2/lib/help_pages.py:44 r2/lib/menus.py:100 r2/lib/pages/pages.py:6413 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:237
+#: r2/controllers/policies.py:67 r2/lib/help_pages.py:44 r2/lib/menus.py:100 r2/lib/pages/pages.py:6430 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:237
 msgid "content policy"
 msgstr "innholdspolicy"
 
@@ -1231,15 +1232,15 @@ msgstr "over 18?"
 msgid "quarantined"
 msgstr "karantene"
 
-#: r2/controllers/privacy.py:111 r2/controllers/privacy.py:139
+#: r2/controllers/privacy.py:114 r2/controllers/privacy.py:142
 msgid "Your data export request has been submitted. You will receive a notification when it is ready."
 msgstr "Forespørselen om dataeksport er sendt. Du får et varsel når den er klar."
 
-#: r2/controllers/privacy.py:164
+#: r2/controllers/privacy.py:167
 msgid "This request cannot be cancelled."
 msgstr "Denne forespørselen kan ikke avbrytes."
 
-#: r2/controllers/privacy.py:168
+#: r2/controllers/privacy.py:171
 msgid "Request cancelled."
 msgstr "Forespørselen er avbrutt."
 
@@ -1355,7 +1356,7 @@ msgstr "velg et bilde"
 msgid "too big. keep it under 500 KB"
 msgstr "for stort. hold det under 500 KB"
 
-#: r2/controllers/tippr_base.py:1483 r2/lib/pages/pages.py:4699 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
+#: r2/controllers/tippr_base.py:1483 r2/lib/pages/pages.py:4716 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
 msgid "banned"
 msgstr "sperret"
 
@@ -1766,7 +1767,7 @@ msgstr "du må angi en vault"
 msgid "this vault has chosen to disable their ads at this time"
 msgstr "denne vaulten har valgt å skru av annonsering for nå"
 
-#: r2/lib/errors.py:88 r2/lib/validator/validator.py:3268
+#: r2/lib/errors.py:88 r2/lib/validator/validator.py:3276
 msgid "that name isn't going to work"
 msgstr "det navnet kommer ikke til å virke"
 
@@ -2023,225 +2024,229 @@ msgid "enter the code from your authenticator app (or a recovery code)"
 msgstr "skriv inn koden fra autentiseringsappen (eller en gjenopprettingskode)"
 
 #: r2/lib/errors.py:153
-msgid "that code didn't work. Codes follow the clock, so check that your phone sets its time automatically."
+msgid "your preferences locked again while you were away: reload the page to unlock them, then try again"
 msgstr ""
 
 #: r2/lib/errors.py:154
+msgid "that code didn't work. Codes follow the clock, so check that your phone sets its time automatically."
+msgstr ""
+
+#: r2/lib/errors.py:155
 msgid "turn on two-factor authentication (preferences, security) to use these tools"
 msgstr "slå på tofaktorautentisering (innstillinger, sikkerhet) for å bruke disse verktøyene"
 
-#: r2/lib/errors.py:155
+#: r2/lib/errors.py:156
 msgid "image problem"
 msgstr "bildeproblem"
 
-#: r2/lib/errors.py:156
+#: r2/lib/errors.py:157
 msgid "already added"
 msgstr "allerede lagt til"
 
-#: r2/lib/errors.py:157
+#: r2/lib/errors.py:158
 msgid "too many developers"
 msgstr "for mange utviklere"
 
-#: r2/lib/errors.py:159
+#: r2/lib/errors.py:160
 msgid "you cannot add this account from this interface"
 msgstr "du kan ikke legge til denne kontoen fra dette grensesnittet"
 
-#: r2/lib/errors.py:160
+#: r2/lib/errors.py:161
 msgid "invalid modhash"
 msgstr "ugyldig modhash"
 
-#: r2/lib/errors.py:161
+#: r2/lib/errors.py:162
 msgid "that user is already a moderator"
 msgstr "den brukeren er allerede en moderator"
 
-#: r2/lib/errors.py:162
+#: r2/lib/errors.py:163
 msgid "You can't perform that action because that user is a moderator."
 msgstr "Du kan ikke utføre handlingen før brukeren er moderator."
 
-#: r2/lib/errors.py:163
+#: r2/lib/errors.py:164
 msgid "there is no pending invite for that vault"
 msgstr "det er ingen ventende invitasjon for denne vaulten"
 
-#: r2/lib/errors.py:164
+#: r2/lib/errors.py:165
 msgid "you cannot edit the budget of a live ad"
 msgstr "du kan ikke endre budsjettet til en aktiv annonse"
 
-#: r2/lib/errors.py:165
+#: r2/lib/errors.py:166
 msgid "you have too many campaigns for that promotion"
 msgstr "du har for mange kampanjer for den fremvisningen"
 
-#: r2/lib/errors.py:166
+#: r2/lib/errors.py:167
 msgid "that jsonp callback contains invalid characters"
 msgstr "JSONP-tilbakekallet inneholder ugyldige tegn"
 
-#: r2/lib/errors.py:167
+#: r2/lib/errors.py:168
 msgid "permissions don't apply to that type of user"
 msgstr "tillatelser gjelder ikke denne typen bruker"
 
-#: r2/lib/errors.py:168
+#: r2/lib/errors.py:169
 msgid "invalid permissions string"
 msgstr "ugyldig tillatelser-streng"
 
-#: r2/lib/errors.py:169
+#: r2/lib/errors.py:170
 msgid "invalid multi path"
 msgstr "ugyldig sti for multi"
 
-#: r2/lib/errors.py:170
+#: r2/lib/errors.py:171
 #, python-format
 msgid "%(reason)s"
 msgstr "%(reason)s"
 
-#: r2/lib/errors.py:171
+#: r2/lib/errors.py:172
 msgid "that multivault doesn't exist"
 msgstr "den multivaulten eksisterer ikke"
 
-#: r2/lib/errors.py:172
+#: r2/lib/errors.py:173
 msgid "that multivault already exists"
 msgstr "den multivaulten eksisterer allerede"
 
-#: r2/lib/errors.py:173
+#: r2/lib/errors.py:174
 msgid "you can't change that multivault"
 msgstr "du kan ikke forandre den multivaulten"
 
-#: r2/lib/errors.py:174
+#: r2/lib/errors.py:175
 msgid "no more space for vaults in that multivault"
 msgstr "den multivaulten har ikke noe mer plass for vaulter"
 
-#: r2/lib/errors.py:175
+#: r2/lib/errors.py:176
 #, python-format
 msgid "can't add special vault %(path)s"
 msgstr "kan ikke legge til spesiell vault %(path)s"
 
-#: r2/lib/errors.py:176
+#: r2/lib/errors.py:177
 #, python-format
 msgid "maximum %(max)s vaults"
 msgstr "maks antall %(max)s vaulter"
 
-#: r2/lib/errors.py:177
+#: r2/lib/errors.py:178
 msgid "unable to parse JSON data"
 msgstr "kunne ikke tyde JSON-innhold"
 
-#: r2/lib/errors.py:178
+#: r2/lib/errors.py:179
 msgid "unexpected JSON structure"
 msgstr "uforventet JSON-struktur"
 
-#: r2/lib/errors.py:179
+#: r2/lib/errors.py:180
 #, python-format
 msgid "JSON missing key: \"%(key)s\""
 msgstr "JSON mangler nøkkel: «%(key)s»"
 
-#: r2/lib/errors.py:180
+#: r2/lib/errors.py:181
 msgid "can't change post type"
 msgstr "kan ikke endre posttype"
 
-#: r2/lib/errors.py:181
+#: r2/lib/errors.py:182
 msgid "invalid location"
 msgstr "ugyldig sted"
 
-#: r2/lib/errors.py:182
+#: r2/lib/errors.py:183
 msgid "invalid values for frequency cap"
 msgstr "ugyldige verdier for hyppighet"
 
-#: r2/lib/errors.py:183
+#: r2/lib/errors.py:184
 #, python-format
 msgid "frequency cap must be at least %(min)d"
 msgstr "frekvenstaket må være minst %(min)d"
 
-#: r2/lib/errors.py:184
+#: r2/lib/errors.py:185
 msgid "that user is banned from the vault"
 msgstr "den brukeren er utestengt fra denne vaulten"
 
-#: r2/lib/errors.py:185
+#: r2/lib/errors.py:186
 msgid "You can't do that while suspended."
 msgstr "Du kan ikke gjøre det mens du er suspendert."
 
-#: r2/lib/errors.py:186
+#: r2/lib/errors.py:187
 msgid "you must have an active tippr gold subscription to do that"
 msgstr "du må ha et aktivt tipprgull-abonnement for å gjøre det"
 
-#: r2/lib/errors.py:187
+#: r2/lib/errors.py:188
 msgid "insufficient coins"
 msgstr "utilstrekkelige coins"
 
-#: r2/lib/errors.py:188
+#: r2/lib/errors.py:189
 msgid "gilding is not allowed in this vault"
 msgstr "det er ikke lov å gi gull i denne vaulten"
 
-#: r2/lib/errors.py:189
+#: r2/lib/errors.py:190
 msgid "unable to scrape provided url"
 msgstr "kunne ikke skrape angitt URL"
 
-#: r2/lib/errors.py:190
+#: r2/lib/errors.py:191
 msgid "can't send a message from a vault to another vault"
 msgstr "Kan ikke sende melding fra et vault til et annet vault"
 
-#: r2/lib/errors.py:191
+#: r2/lib/errors.py:192
 msgid "can't send message to that user"
 msgstr "kan ikke sende melding til den brukeren"
 
-#: r2/lib/errors.py:192
+#: r2/lib/errors.py:193
 msgid "you must be in admin mode for this"
 msgstr "du må være administrator for dette"
 
-#: r2/lib/errors.py:193
+#: r2/lib/errors.py:194
 #, python-format
 msgid "to convert an existing vault to gold only, send a message to %(admin_modmail)s"
 msgstr "for å endre en eksisterende vault til kun gullbrukere, send em melding til %(admin_modmail)s"
 
-#: r2/lib/errors.py:195
+#: r2/lib/errors.py:196
 msgid "this vault must be 'gold only' to select this"
 msgstr "denne vaulten må være satt til 'kun for gullbrukere' for å velge dette"
 
-#: r2/lib/errors.py:196
+#: r2/lib/errors.py:197
 msgid "your account is too new or you do not have enough karma to create a vault. please contact the admins to request an exemption."
 msgstr "kontoen din er for ny, eller du har ikke nok karma til å opprette en vault. kontakt administratorene for å be om unntak."
 
-#: r2/lib/errors.py:197
+#: r2/lib/errors.py:198
 msgid "you must select at least one mobile OS to target"
 msgstr "du må velge minst én mobil plattform"
 
-#: r2/lib/errors.py:198 r2/templates/promotelinkbase.html:524
+#: r2/lib/errors.py:199 r2/templates/promotelinkbase.html:524
 msgid "you must select at least one device per OS to target"
 msgstr "du må velge minst én enhet per plattform"
 
-#: r2/lib/errors.py:199
+#: r2/lib/errors.py:200
 msgid "You have been muted from this vault."
 msgstr "Du har blitt dempet i denne vaulten."
 
-#: r2/lib/errors.py:200
+#: r2/lib/errors.py:201
 msgid "This user has been muted from the vault."
 msgstr "Brukere har blitt dempet fra vaulten."
 
-#: r2/lib/errors.py:201
+#: r2/lib/errors.py:202
 msgid "please say how much AI went into this post"
 msgstr "oppgi hvor mye AI som gikk inn i dette innlegget"
 
-#: r2/lib/errors.py:202
+#: r2/lib/errors.py:203
 #, python-format
 msgid "this vault only accepts: %(allowed)s"
 msgstr "denne vaulten tar bare imot: %(allowed)s"
 
-#: r2/lib/errors.py:203
+#: r2/lib/errors.py:204
 msgid "This comment is not stickyable. Ensure that it is a top level comment."
 msgstr "Denne kommentaren kan ikke festes. Sørg for at den er en kommentar på øverste nivå."
 
-#: r2/lib/errors.py:204 r2/public/static/js/errors.js:7
+#: r2/lib/errors.py:205 r2/public/static/js/errors.js:7
 msgid "A vault rule by that name already exists."
 msgstr "Det finnes allerede en vaultregel med det navnet."
 
-#: r2/lib/errors.py:205
+#: r2/lib/errors.py:206
 msgid "No vault rule by that name exists."
 msgstr "Det finnes ingen vaultregel med det navnet."
 
-#: r2/lib/errors.py:206 r2/public/static/js/errors.js:8
+#: r2/lib/errors.py:207 r2/public/static/js/errors.js:8
 msgid "This vault already has the maximum number of rules."
 msgstr "Denne vaulten har allerede det største antallet regler."
 
-#: r2/lib/errors.py:207
+#: r2/lib/errors.py:208
 msgid "Cannot access this comment."
 msgstr "Kan ikke åpne denne kommentaren."
 
-#: r2/lib/errors.py:208
+#: r2/lib/errors.py:209
 msgid "Cannot access this post."
 msgstr "Kan ikke åpne dette innlegget."
 
@@ -2730,7 +2735,7 @@ msgstr "s&s"
 msgid "saved {toolbar}"
 msgstr "lagret"
 
-#: r2/lib/menus.py:65 r2/templates/prefsecurity.html:278
+#: r2/lib/menus.py:65 r2/templates/prefsecurity.html:246
 msgid "recommended"
 msgstr "anbefalt"
 
@@ -2766,7 +2771,7 @@ msgstr "siste år"
 msgid "all time"
 msgstr "gjennom tidene"
 
-#: r2/lib/menus.py:78 r2/models/rules.py:37 r2/templates/preffeeds.html:120 r2/templates/printablebuttons.html:47 r2/templates/printablebuttons.html:265
+#: r2/lib/menus.py:78 r2/templates/preffeeds.html:120 r2/templates/printablebuttons.html:48 r2/templates/printablebuttons.html:266
 msgid "spam"
 msgstr "spam"
 
@@ -2774,7 +2779,7 @@ msgstr "spam"
 msgid "autobanned"
 msgstr "automatisk blokkert"
 
-#: r2/lib/menus.py:82 r2/lib/pages/pages.py:1271 r2/lib/pages/pages.py:1295
+#: r2/lib/menus.py:82 r2/lib/pages/pages.py:1270 r2/lib/pages/pages.py:1294
 msgid "preferences"
 msgstr "innstillinger"
 
@@ -2888,7 +2893,7 @@ msgstr "stilark"
 msgid "home"
 msgstr "hjem"
 
-#: r2/lib/menus.py:130 r2/lib/pages/pages.py:1128
+#: r2/lib/menus.py:130 r2/lib/pages/pages.py:1127
 msgid "about"
 msgstr "om"
 
@@ -2896,7 +2901,7 @@ msgstr "om"
 msgid "edit subscriptions"
 msgstr "endre abonnementer"
 
-#: r2/lib/menus.py:132 r2/lib/pages/pages.py:2314
+#: r2/lib/menus.py:132 r2/lib/pages/pages.py:2328
 msgid "vault settings"
 msgstr "vault innstillinger"
 
@@ -2908,7 +2913,7 @@ msgstr "rediger stilsett"
 msgid "rules"
 msgstr "regler"
 
-#: r2/lib/menus.py:135 r2/lib/pages/pages.py:881 r2/templates/adminvault.html:33 r2/templates/adminvault.html:101
+#: r2/lib/menus.py:135 r2/lib/pages/pages.py:880 r2/templates/adminvault.html:33 r2/templates/adminvault.html:101
 msgid "moderators"
 msgstr "moderatorer"
 
@@ -2984,7 +2989,7 @@ msgstr "populære"
 msgid "create"
 msgstr "ny"
 
-#: r2/lib/menus.py:158 r2/lib/pages/pages.py:2939
+#: r2/lib/menus.py:158 r2/lib/pages/pages.py:2953
 msgid "my vaults"
 msgstr "mine vaulter"
 
@@ -3046,7 +3051,7 @@ msgstr "spambeskyttelse"
 msgid "live config"
 msgstr "live-konfigurasjon"
 
-#: r2/lib/menus.py:175 r2/lib/pages/pages.py:939 r2/templates/adminsupport.html:34
+#: r2/lib/menus.py:175 r2/lib/pages/pages.py:938 r2/templates/adminsupport.html:34
 msgid "support"
 msgstr "støtte"
 
@@ -3094,7 +3099,7 @@ msgstr "anmeldte skribenter"
 msgid "info"
 msgstr "info"
 
-#: r2/lib/menus.py:188 r2/templates/multiinfobar.html:107 r2/templates/printablebuttons.html:368
+#: r2/lib/menus.py:188 r2/templates/multiinfobar.html:107 r2/templates/printablebuttons.html:369
 msgid "share"
 msgstr "del"
 
@@ -3242,7 +3247,7 @@ msgstr "konfigurasjon"
 msgid "edit settings, sidebar, css, images, and AutoModerator config"
 msgstr "rediger innstillinger, sidepanel, css, bilder og AutoModerator-oppsett"
 
-#: r2/lib/permissions.py:87 r2/templates/printablebuttons.html:115
+#: r2/lib/permissions.py:87 r2/templates/printablebuttons.html:116
 msgid "flair"
 msgstr "flair"
 
@@ -3738,7 +3743,7 @@ msgid_plural "links"
 msgstr[0] "lenke"
 msgstr[1] "lenker"
 
-#: r2/lib/pages/pages.py:1524 r2/lib/strings.py:263 r2/templates/messagecompose.html:101
+#: r2/lib/pages/pages.py:1538 r2/lib/strings.py:263 r2/templates/messagecompose.html:101
 msgid "message"
 msgid_plural "messages"
 msgstr[0] "melding"
@@ -3810,7 +3815,7 @@ msgid_plural "hours"
 msgstr[0] "time"
 msgstr[1] "timer"
 
-#: r2/lib/pages/pages.py:347 r2/lib/pages/pages.py:5724 r2/lib/strings.py:279 r2/public/static/js/sponsored.js:1484 r2/public/static/js/sponsored.js:1851 r2/templates/intimeoutinterstitial.html:44 r2/templates/tipprtraffic.html:104
+#: r2/lib/pages/pages.py:346 r2/lib/pages/pages.py:5741 r2/lib/strings.py:279 r2/public/static/js/sponsored.js:1484 r2/public/static/js/sponsored.js:1851 r2/templates/intimeoutinterstitial.html:44 r2/templates/tipprtraffic.html:104
 msgid "day"
 msgid_plural "days"
 msgstr[0] "dag"
@@ -4149,7 +4154,7 @@ msgstr "moderator av /v/ %(tippr)s , offisielt talende"
 msgid "%(user)s just celebrated a tippr birthday!"
 msgstr "%(user)s har nettopp hatt tippr-bursdag!"
 
-#: r2/lib/pages/pages.py:1341 r2/lib/template_helpers.py:771 r2/public/static/js/timetext.js:68
+#: r2/lib/pages/pages.py:1356 r2/lib/template_helpers.py:771 r2/public/static/js/timetext.js:68
 msgid "just now"
 msgstr "nå nettopp"
 
@@ -4181,495 +4186,495 @@ msgstr "IP-adresse"
 msgid "user"
 msgstr "bruker"
 
-#: r2/lib/pages/pages.py:179
+#: r2/lib/pages/pages.py:178
 #, python-format
 msgid "%d %b %Y"
 msgstr "%d.%b.%Y"
 
-#: r2/lib/pages/pages.py:339
+#: r2/lib/pages/pages.py:338
 msgid "This site asks moderators and staff to use two-factor sign-in. Turn it on under [preferences, security](/prefs/security) to use your moderator tools."
 msgstr "Denne siden ber moderatorer og ansatte bruke tofaktorpålogging. Slå den på under [innstillinger, sikkerhet](/prefs/security) for å bruke moderatorverktøyene dine."
 
-#: r2/lib/pages/pages.py:522
+#: r2/lib/pages/pages.py:521
 msgid "wiki tools"
 msgstr "wiki-verktøy"
 
-#: r2/lib/pages/pages.py:648
+#: r2/lib/pages/pages.py:647
 msgid "moderation tools"
 msgstr "modereringsverktøy"
 
-#: r2/lib/pages/pages.py:716
+#: r2/lib/pages/pages.py:715
 msgid "these vaults"
 msgstr "Disse vaultene"
 
-#: r2/lib/pages/pages.py:730
+#: r2/lib/pages/pages.py:729
 msgid "this vault is archived and no longer accepting submissions."
 msgstr "denne vaulten har blitt arkivert og aksepterer ikke lenger nytt innhold."
 
-#: r2/lib/pages/pages.py:732
+#: r2/lib/pages/pages.py:731
 msgid "Submissions disabled"
 msgstr "Innlegg deaktivert"
 
-#: r2/lib/pages/pages.py:739
+#: r2/lib/pages/pages.py:738
 msgid "Only approved users may post in this community."
 msgstr "Bare godkjente brukere kan poste i dette samfunnet."
 
-#: r2/lib/pages/pages.py:742
+#: r2/lib/pages/pages.py:741
 msgid "Anyone can view or comment, but only Tippr Gold members can post in this community."
 msgstr "Alle kan se eller kommentere, men bare Tippr Gold-medlemmer kan poste i dette fellesskapet."
 
-#: r2/lib/pages/pages.py:745
+#: r2/lib/pages/pages.py:744
 msgid "Submissions restricted"
 msgstr "innlegg begrenset"
 
-#: r2/lib/pages/pages.py:833
+#: r2/lib/pages/pages.py:832
 msgid "Create your own vault"
 msgstr "Opprett din egen vault"
 
-#: r2/lib/pages/pages.py:857
+#: r2/lib/pages/pages.py:856
 #, python-format
 msgid "...and %d more"
 msgstr "… og %d til"
 
-#: r2/lib/pages/pages.py:859
+#: r2/lib/pages/pages.py:858
 msgid "about moderation team"
 msgstr "om moderasjonslaget"
 
-#: r2/lib/pages/pages.py:864 r2/templates/contactus.html:60
+#: r2/lib/pages/pages.py:863 r2/templates/contactus.html:60
 msgid "message the admins"
 msgstr "send melding til administratorene"
 
-#: r2/lib/pages/pages.py:866 r2/templates/privateinterstitial.html:50
+#: r2/lib/pages/pages.py:865 r2/templates/privateinterstitial.html:50
 msgid "message the moderators"
 msgstr "send melding til moderatorene"
 
-#: r2/lib/pages/pages.py:893
+#: r2/lib/pages/pages.py:892
 msgid "Recently viewed links"
 msgstr "Nylig besøkte lenker"
 
-#: r2/lib/pages/pages.py:923
+#: r2/lib/pages/pages.py:922
 msgid "turn admin off"
 msgstr "slå admin av"
 
-#: r2/lib/pages/pages.py:1145
+#: r2/lib/pages/pages.py:1144
 msgid "<3"
 msgstr "<3"
 
-#: r2/lib/pages/pages.py:1342 r2/templates/adminserverstatus.html:166
+#: r2/lib/pages/pages.py:1357 r2/templates/adminserverstatus.html:166
 #, python-format
 msgid "%(time)s ago"
 msgstr "for %(time)s siden"
 
-#: r2/lib/pages/pages.py:1521
+#: r2/lib/pages/pages.py:1535
 #, python-format
 msgid "%(site)s mail"
 msgstr "%(site)s e-post"
 
-#: r2/lib/pages/pages.py:1598
+#: r2/lib/pages/pages.py:1612
 msgid "sign up or log in"
 msgstr "lag en bruker eller logg inn"
 
-#: r2/lib/pages/pages.py:1679
+#: r2/lib/pages/pages.py:1693
 msgid "request for permission"
 msgstr "etterspør tillatelse"
 
-#: r2/lib/pages/pages.py:1681
+#: r2/lib/pages/pages.py:1695
 msgid "permission"
 msgstr "tillatelse"
 
-#: r2/lib/pages/pages.py:1716 r2/templates/searchform.html:77
+#: r2/lib/pages/pages.py:1730 r2/templates/searchform.html:77
 msgid "enable NSFW results"
 msgstr "aktiver NSFW resultater"
 
-#: r2/lib/pages/pages.py:1739
+#: r2/lib/pages/pages.py:1753
 msgid "bummer"
 msgstr "kjipt"
 
-#: r2/lib/pages/pages.py:1751
+#: r2/lib/pages/pages.py:1765
 msgid "this page is no longer available due to a copyright claim."
 msgstr "denne siden er ikke lenger tilgjengelig pga. opphavsrett."
 
-#: r2/lib/pages/pages.py:1992
+#: r2/lib/pages/pages.py:2006
 msgid "comments disabled"
 msgstr "kommentarer deaktivert"
 
-#: r2/lib/pages/pages.py:2315
+#: r2/lib/pages/pages.py:2329
 #, python-format
 msgid "about %(site)s"
 msgstr "om %(site)s"
 
-#: r2/lib/pages/pages.py:2338
+#: r2/lib/pages/pages.py:2352
 msgid "search vaults by name"
 msgstr "søk i vaulter etter navn"
 
-#: r2/lib/pages/pages.py:2382
+#: r2/lib/pages/pages.py:2396
 #, python-format
 msgid "your front page vaults (%s)"
 msgstr "dine forside vaulter (%s)"
 
-#: r2/lib/pages/pages.py:2470 r2/templates/createvault.html:460 r2/templates/spotlightlisting.html:63
+#: r2/lib/pages/pages.py:2484 r2/templates/createvault.html:460 r2/templates/spotlightlisting.html:63
 msgid "what's this?"
 msgstr "hva er dette?"
 
-#: r2/lib/pages/pages.py:2471
+#: r2/lib/pages/pages.py:2485
 msgid "trophy case"
 msgstr "trofèskapet"
 
-#: r2/lib/pages/pages.py:2481
+#: r2/lib/pages/pages.py:2495
 msgid "public multivaults"
 msgstr "offentlige multivaults"
 
-#: r2/lib/pages/pages.py:2488
+#: r2/lib/pages/pages.py:2502
 msgid "hidden multivaults"
 msgstr "gjemte multivaulter"
 
-#: r2/lib/pages/pages.py:2509
+#: r2/lib/pages/pages.py:2523
 msgid "moderator of"
 msgstr "moderator av"
 
-#: r2/lib/pages/pages.py:2573
+#: r2/lib/pages/pages.py:2587
 msgid "less than a day"
 msgstr "mindre enn en dag"
 
-#: r2/lib/pages/pages.py:2586
+#: r2/lib/pages/pages.py:2600
 #, python-format
 msgid "Give Gold: %(coins)s month"
 msgid_plural "Give Gold: %(coins)s months"
 msgstr[0] "Gi gull: %(coins)s måned"
 msgstr[1] "Gi gull: %(coins)s måneder"
 
-#: r2/lib/pages/pages.py:2594
+#: r2/lib/pages/pages.py:2608
 #, python-format
 msgid "%(gildings)s gilding given out"
 msgid_plural "%(gildings)s gildings given out"
 msgstr[0] "%(gildings)s forgylling gitt"
 msgstr[1] "%(gildings)s forgyllinger gitt"
 
-#: r2/lib/pages/pages.py:2602
+#: r2/lib/pages/pages.py:2616
 #, python-format
 msgid "give tippr gold to %(user)s to show your appreciation"
 msgstr "gi tipprgull til %(user)s for å vise din takknemlighet"
 
-#: r2/lib/pages/pages.py:2606
+#: r2/lib/pages/pages.py:2620
 msgid "get extra features and help support tippr with a tippr gold subscription"
 msgstr "få ekstra funksjoner og støtt tippr med et tipprgull abonnement"
 
-#: r2/lib/pages/pages.py:2610
+#: r2/lib/pages/pages.py:2624
 msgid "renew your tippr gold"
 msgstr "forny din tippr gold"
 
-#: r2/lib/pages/pages.py:2620
+#: r2/lib/pages/pages.py:2634
 #, python-format
 msgid "you have helped pay for *%(time)s* of tippr server time."
 msgstr "du har betalt for *%(time)s* av tipprs tjenertid."
 
-#: r2/lib/pages/pages.py:2621
+#: r2/lib/pages/pages.py:2635
 #, python-format
 msgid "/u/%(user)s has helped pay for *%%(time)s* of tippr server time."
 msgstr "/u/%(user)s har betalt for *%%(time)s* av tipprs tjenertid."
 
-#: r2/lib/pages/pages.py:2624
+#: r2/lib/pages/pages.py:2638
 #, python-format
 msgid "gifts on your behalf have helped pay for *%(time)s* of tippr server time."
 msgstr "gaver på dine vegne har betalt for *%(time)s* av tipprs tjenertid."
 
-#: r2/lib/pages/pages.py:2626
+#: r2/lib/pages/pages.py:2640
 #, python-format
 msgid "gifts on behalf of /u/%(user)s have helped pay for *%%(time)s* of tippr server time."
 msgstr "gaver på vegne av /u/%(user)s har betalt for *%%(time)s* av tipprs tjenertid."
 
-#: r2/lib/pages/pages.py:2710
+#: r2/lib/pages/pages.py:2724
 msgid "tippr is a platform for internet communities"
 msgstr "tippr er en platform for kommunikasjon på internett"
 
-#: r2/lib/pages/pages.py:2711
+#: r2/lib/pages/pages.py:2725
 msgid "where your votes shape what the world is talking about."
 msgstr "der dine stemmer former hva verden snakker om"
 
-#: r2/lib/pages/pages.py:3010 r2/lib/pages/pages.py:3120
+#: r2/lib/pages/pages.py:3024 r2/lib/pages/pages.py:3134
 msgid "add vault"
 msgstr "legg til vault"
 
-#: r2/lib/pages/pages.py:3048
+#: r2/lib/pages/pages.py:3062
 #, python-format
 msgid "raise it to %s"
 msgstr "øk til %s"
 
-#: r2/lib/pages/pages.py:3050 r2/lib/pages/pages.py:3059
+#: r2/lib/pages/pages.py:3064 r2/lib/pages/pages.py:3073
 #, python-format
 msgid "%s visible"
 msgstr "%s synlig"
 
-#: r2/lib/pages/pages.py:3057
+#: r2/lib/pages/pages.py:3071
 #, python-format
 msgid "%(bonus)s bonus vaults"
 msgstr "%(bonus)s bonus vaulter"
 
-#: r2/lib/pages/pages.py:3427
+#: r2/lib/pages/pages.py:3441
 #, python-format
 msgid "you have a credit card gold subscription. your card (ending in %(last4)s) will be charged %(amount)s on %(date)s."
 msgstr "du har et gull-abonnement registrert med kredittkort. kortet ditt (slutter på %(last4)s) vil bli belastet med %(amount)s %(date)s."
 
-#: r2/lib/pages/pages.py:3581
+#: r2/lib/pages/pages.py:3598
 msgid "try entering those letters again"
 msgstr "prøv å skrive inn bokstavene igjen"
 
-#: r2/lib/pages/pages.py:3660 r2/lib/pages/pages.py:6404 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
+#: r2/lib/pages/pages.py:3677 r2/lib/pages/pages.py:6421 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
 msgid "search"
 msgstr "søk"
 
-#: r2/lib/pages/pages.py:4298
+#: r2/lib/pages/pages.py:4315
 #, fuzzy
 #| msgid "back"
 msgid "backend"
 msgstr "tilbake"
 
-#: r2/lib/pages/pages.py:4298
+#: r2/lib/pages/pages.py:4315
 #, fuzzy
 #| msgid "front"
 msgid "frontend"
 msgstr "forside"
 
-#: r2/lib/pages/pages.py:4309
+#: r2/lib/pages/pages.py:4326
 #, python-format
 msgid "not heard from for %(time)s"
 msgstr "ikke hørt fra på %(time)s"
 
-#: r2/lib/pages/pages.py:4315
+#: r2/lib/pages/pages.py:4332
 #, python-format
 msgid "memory %(p)s%% used"
 msgstr "minne %(p)s%% brukt"
 
-#: r2/lib/pages/pages.py:4319
+#: r2/lib/pages/pages.py:4336
 #, python-format
 msgid "busy: load %(l)s on %(n)s CPUs"
 msgstr "opptatt: last %(l)s på %(n)s CPU-er"
 
-#: r2/lib/pages/pages.py:4325
+#: r2/lib/pages/pages.py:4342
 #, python-format
 msgid "disk %(path)s %(p)s%% full"
 msgstr "disk %(path)s %(p)s%% full"
 
-#: r2/lib/pages/pages.py:4329
+#: r2/lib/pages/pages.py:4346
 #, python-format
 msgid "%(service)s is %(state)s"
 msgstr "%(service)s er %(state)s"
 
-#: r2/lib/pages/pages.py:4332
+#: r2/lib/pages/pages.py:4349
 msgid "a different version from the others"
 msgstr "en annen versjon enn de andre"
 
-#: r2/lib/pages/pages.py:4334
+#: r2/lib/pages/pages.py:4351
 msgid "another server has the same name: set TIPPR_SERVER_NAME on one of them"
 msgstr "en annen server har samme navn: sett TIPPR_SERVER_NAME på en av dem"
 
-#: r2/lib/pages/pages.py:4407
+#: r2/lib/pages/pages.py:4424
 #, python-format
 msgid "%(n)s seconds"
 msgstr "%(n)s sekunder"
 
-#: r2/lib/pages/pages.py:4409
+#: r2/lib/pages/pages.py:4426
 #, python-format
 msgid "%(n)s minutes"
 msgstr "%(n)s minutter"
 
-#: r2/lib/pages/pages.py:4411
+#: r2/lib/pages/pages.py:4428
 #, python-format
 msgid "%(n)s hours"
 msgstr "%(n)s timer"
 
-#: r2/lib/pages/pages.py:4412
+#: r2/lib/pages/pages.py:4429
 #, python-format
 msgid "%(n)s days"
 msgstr "%(n)s dager"
 
-#: r2/lib/pages/pages.py:4428
+#: r2/lib/pages/pages.py:4445
 msgid "polling"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4434
+#: r2/lib/pages/pages.py:4451
 msgid "off (no event collector)"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4640 r2/lib/pages/pages.py:4749
+#: r2/lib/pages/pages.py:4657 r2/lib/pages/pages.py:4766
 msgid "added"
 msgstr "lagt til"
 
-#: r2/lib/pages/pages.py:4708 r2/models/modaction.py:146 r2/templates/printablebuttons.html:615
+#: r2/lib/pages/pages.py:4725 r2/models/modaction.py:146 r2/templates/printablebuttons.html:616
 msgid "muted"
 msgstr "dempet"
 
-#: r2/lib/pages/pages.py:4726
+#: r2/lib/pages/pages.py:4743
 msgid "invited"
 msgstr "invitert"
 
-#: r2/lib/pages/pages.py:4787
+#: r2/lib/pages/pages.py:4804
 msgid "grant flair"
 msgstr "tillat preg"
 
-#: r2/lib/pages/pages.py:4789
+#: r2/lib/pages/pages.py:4806
 msgid "user flair templates"
 msgstr "bruker preg maler"
 
-#: r2/lib/pages/pages.py:4791
+#: r2/lib/pages/pages.py:4808
 msgid "link flair templates"
 msgstr "link preg maler"
 
-#: r2/lib/pages/pages.py:5163 r2/templates/adminuser.html:73 r2/templates/adminuser.html:98 r2/templates/adminuser.html:108 r2/templates/flairpane.html:79
+#: r2/lib/pages/pages.py:5180 r2/templates/adminuser.html:73 r2/templates/adminuser.html:98 r2/templates/adminuser.html:108 r2/templates/flairpane.html:79
 msgid "none"
 msgstr "ingen"
 
-#: r2/lib/pages/pages.py:5294
+#: r2/lib/pages/pages.py:5311
 msgid "suggestions:"
 msgstr "forslag:"
 
-#: r2/lib/pages/pages.py:5298
+#: r2/lib/pages/pages.py:5315
 #, python-format
 msgid "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/v/selfserve](%(selfserve)s)."
 msgstr "Lag annonsen din på denne siden. Har du spørsmål? Se [hjelpesenteret](%(help_center)s) eller [/v/selfserve](%(selfserve)s)."
 
-#: r2/lib/pages/pages.py:5916
+#: r2/lib/pages/pages.py:5933
 msgid "start date"
 msgstr "startdato"
 
-#: r2/lib/pages/pages.py:5917
+#: r2/lib/pages/pages.py:5934
 msgid "end date"
 msgstr "sluttdato"
 
-#: r2/lib/pages/pages.py:5919 r2/templates/createvault.html:266
+#: r2/lib/pages/pages.py:5936 r2/templates/createvault.html:266
 msgid "links"
 msgstr "lenker"
 
-#: r2/lib/pages/pages.py:5921 r2/lib/pages/pages.py:5940 r2/templates/adminpaymentsettings.html:239 r2/templates/promotedlinktraffic.html:42 r2/templates/timeserieschart.html:40
+#: r2/lib/pages/pages.py:5938 r2/lib/pages/pages.py:5957 r2/templates/adminpaymentsettings.html:239 r2/templates/promotedlinktraffic.html:42 r2/templates/timeserieschart.html:40
 msgid "date"
 msgstr "dato"
 
-#: r2/lib/pages/pages.py:5924 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
+#: r2/lib/pages/pages.py:5941 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
 msgid "id"
 msgstr "ID"
 
-#: r2/lib/pages/pages.py:5924 r2/lib/pages/pages.py:5943 r2/templates/promotelinkbase.html:856
+#: r2/lib/pages/pages.py:5941 r2/lib/pages/pages.py:5960 r2/templates/promotelinkbase.html:856
 msgid "owner"
 msgstr "eier"
 
-#: r2/lib/pages/pages.py:5924 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
+#: r2/lib/pages/pages.py:5941 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
 msgid "url"
 msgstr "url"
 
-#: r2/lib/pages/pages.py:5925
+#: r2/lib/pages/pages.py:5942
 msgid "upvotes"
 msgstr "opp-stemmer"
 
-#: r2/lib/pages/pages.py:5925
+#: r2/lib/pages/pages.py:5942
 msgid "downvotes"
 msgstr "ned-stemmer"
 
-#: r2/lib/pages/pages.py:5925 r2/lib/pages/trafficpages.py:351 r2/lib/pages/trafficpages.py:853 r2/templates/promotedlinktraffic.html:44 r2/templates/promotedlinktraffic.html:124
+#: r2/lib/pages/pages.py:5942 r2/lib/pages/trafficpages.py:351 r2/lib/pages/trafficpages.py:853 r2/templates/promotedlinktraffic.html:44 r2/templates/promotedlinktraffic.html:124
 msgid "clicks"
 msgstr "klikk"
 
-#: r2/lib/pages/pages.py:5925 r2/lib/pages/trafficpages.py:348 r2/lib/pages/trafficpages.py:478 r2/lib/pages/trafficpages.py:852 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
+#: r2/lib/pages/pages.py:5942 r2/lib/pages/trafficpages.py:348 r2/lib/pages/trafficpages.py:478 r2/lib/pages/trafficpages.py:852 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
 msgid "impressions"
 msgstr "inntrykk"
 
-#: r2/lib/pages/pages.py:5938
+#: r2/lib/pages/pages.py:5955
 msgid "campaigns"
 msgstr "kampanjer"
 
-#: r2/lib/pages/pages.py:5943
+#: r2/lib/pages/pages.py:5960
 msgid "link id"
 msgstr "lenke-ID"
 
-#: r2/lib/pages/pages.py:5943
+#: r2/lib/pages/pages.py:5960
 msgid "campaign id"
 msgstr "kampanje-ID"
 
-#: r2/lib/pages/pages.py:5943 r2/templates/promotedlinktraffic.html:117 r2/templates/refundpage.html:56
+#: r2/lib/pages/pages.py:5960 r2/templates/promotedlinktraffic.html:117 r2/templates/refundpage.html:56
 msgid "target"
 msgstr "mål"
 
-#: r2/lib/pages/pages.py:5944 r2/templates/promotelinkedit.html:157
+#: r2/lib/pages/pages.py:5961 r2/templates/promotelinkedit.html:157
 msgid "bid"
 msgstr "bud"
 
-#: r2/lib/pages/pages.py:5944
+#: r2/lib/pages/pages.py:5961
 msgid "frontpage clicks"
 msgstr "forsideklikk"
 
-#: r2/lib/pages/pages.py:5944
+#: r2/lib/pages/pages.py:5961
 msgid "frontpage impressions"
 msgstr "forsidevisninger"
 
-#: r2/lib/pages/pages.py:5945
+#: r2/lib/pages/pages.py:5962
 msgid "vault clicks"
 msgstr "vaultklikk"
 
-#: r2/lib/pages/pages.py:5945
+#: r2/lib/pages/pages.py:5962
 msgid "vault impressions"
 msgstr "vaultvisninger"
 
-#: r2/lib/pages/pages.py:5946 r2/lib/pages/trafficpages.py:484
+#: r2/lib/pages/pages.py:5963 r2/lib/pages/trafficpages.py:484
 msgid "total clicks"
 msgstr "totalt antall klikk"
 
-#: r2/lib/pages/pages.py:5946
+#: r2/lib/pages/pages.py:5963
 msgid "total impressions"
 msgstr "totale visninger"
 
-#: r2/lib/pages/pages.py:6149 r2/templates/accountactivitybox.html:27
+#: r2/lib/pages/pages.py:6166 r2/templates/accountactivitybox.html:27
 msgid "account activity"
 msgstr "kontoaktivitet"
 
-#: r2/lib/pages/pages.py:6281
+#: r2/lib/pages/pages.py:6298
 msgid "subscribed"
 msgstr "abonnert"
 
-#: r2/lib/pages/pages.py:6282 r2/templates/preffeeds.html:58
+#: r2/lib/pages/pages.py:6299 r2/templates/preffeeds.html:58
 msgid "your front page"
 msgstr "din fremside"
 
-#: r2/lib/pages/pages.py:6285 r2/lib/pages/pages.py:6290 r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:104
+#: r2/lib/pages/pages.py:6302 r2/lib/pages/pages.py:6307 r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:104
 msgid "everything"
 msgstr "alt"
 
-#: r2/lib/pages/pages.py:6288 r2/lib/pages/pages.py:6291
+#: r2/lib/pages/pages.py:6305 r2/lib/pages/pages.py:6308
 msgid "from all vaults"
 msgstr "fra alle vaults"
 
-#: r2/lib/pages/pages.py:6293
+#: r2/lib/pages/pages.py:6310
 msgid "moderating"
 msgstr "modererer"
 
-#: r2/lib/pages/pages.py:6294
+#: r2/lib/pages/pages.py:6311
 msgid "vaults you mod"
 msgstr "vaulter du moderèrer"
 
-#: r2/lib/pages/pages.py:6300
+#: r2/lib/pages/pages.py:6317
 msgid "gold perks"
 msgstr "fordeler med gull"
 
-#: r2/lib/pages/pages.py:6316
+#: r2/lib/pages/pages.py:6333
 msgid "explore multis"
 msgstr "utforsk multier"
 
-#: r2/lib/pages/pages.py:6402
+#: r2/lib/pages/pages.py:6419
 msgid "faq"
 msgstr "faq"
 
-#: r2/lib/pages/pages.py:6403 r2/templates/usertext.html:159
+#: r2/lib/pages/pages.py:6420 r2/templates/usertext.html:159
 msgid "formatting"
 msgstr "formatering"
 
-#: r2/lib/pages/pages.py:6472
+#: r2/lib/pages/pages.py:6489
 msgid "your subscribed vaults"
 msgstr "dine abonnerte vaulter"
 
-#: r2/lib/pages/pages.py:6585
+#: r2/lib/pages/pages.py:6602
 #, python-format
 msgid "this promoted link uses city level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "denne reklamerte lenken bruker by-basert målretting og kan bli vist til deg på grunn av ditt bosted. ([lær mer](%(link)s))"
 
-#: r2/lib/pages/pages.py:6589
+#: r2/lib/pages/pages.py:6606
 #, python-format
 msgid "this promoted link uses country level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "denne reklamerte lenken bruker landsbasert målretting og kan bli vist til deg på grunn av din plass. ([lær mer](%(link)s))"
@@ -4765,7 +4770,7 @@ msgstr "gjennomklikkshastighet (%)"
 msgid "view"
 msgstr "vis"
 
-#: r2/lib/pages/wiki.py:119 r2/templates/adminfeeds.html:150 r2/templates/prefapps.html:93 r2/templates/printablebuttons.html:363 r2/templates/printablebuttons.html:403 r2/templates/printablebuttons.html:514 r2/templates/renderablecampaign.html:155 r2/templates/wrappeduser.html:91
+#: r2/lib/pages/wiki.py:119 r2/templates/adminfeeds.html:150 r2/templates/prefapps.html:93 r2/templates/printablebuttons.html:364 r2/templates/printablebuttons.html:404 r2/templates/printablebuttons.html:515 r2/templates/renderablecampaign.html:155 r2/templates/wrappeduser.html:91
 msgid "edit"
 msgstr "rediger"
 
@@ -4923,55 +4928,55 @@ msgstr "refusjon av gull"
 msgid "Your gold payment has been refunded, contact %(gold_email)s for details"
 msgstr "Gullbetalingen din er refundert; kontakt %(gold_email)s for detaljer"
 
-#: r2/lib/validator/validator.py:2115
+#: r2/lib/validator/validator.py:2116
 #, python-format
 msgid "%(min)d to any"
 msgstr "fra %(min)d til slutt "
 
-#: r2/lib/validator/validator.py:2117
+#: r2/lib/validator/validator.py:2118
 #, python-format
 msgid "any to %(max)d"
 msgstr "fra start til %(max)d"
 
-#: r2/lib/validator/validator.py:2119
+#: r2/lib/validator/validator.py:2120
 #, python-format
 msgid "%(min)d to %(max)d"
 msgstr "fra %(min)d til %(max)d"
 
-#: r2/lib/validator/validator.py:2845
+#: r2/lib/validator/validator.py:2846
 msgid "a user by name"
 msgstr "en bruker med navn"
 
-#: r2/lib/validator/validator.py:2860
+#: r2/lib/validator/validator.py:2861
 msgid "a [fullname](#fullname) of a link"
 msgstr "et [fullt navn](#fulltnavn) av en lenke"
 
-#: r2/lib/validator/validator.py:3017
+#: r2/lib/validator/validator.py:3025
 msgid "an app"
 msgstr "en applikasjon"
 
-#: r2/lib/validator/validator.py:3035
+#: r2/lib/validator/validator.py:3043
 msgid "an app developed by the user"
 msgstr "en applikasjon utviklet av brukeren"
 
-#: r2/lib/validator/validator.py:3258
+#: r2/lib/validator/validator.py:3266
 msgid "no spaces allowed"
 msgstr "mellomrom er ikke tillatt"
 
-#: r2/lib/validator/validator.py:3260
+#: r2/lib/validator/validator.py:3268
 #, python-format
 msgid "invalid character: '%s'"
 msgstr "ugyldig bokstav: '%s'"
 
-#: r2/lib/validator/validator.py:3262
+#: r2/lib/validator/validator.py:3270
 msgid "can't start with a '_'"
 msgstr "kan ikke starte med '_'"
 
-#: r2/lib/validator/validator.py:3264
+#: r2/lib/validator/validator.py:3272
 msgid "that name is too short"
 msgstr "det navnet er for kort"
 
-#: r2/lib/validator/validator.py:3266
+#: r2/lib/validator/validator.py:3274
 msgid "that name is too long"
 msgstr "det navnet er for langt"
 
@@ -5444,7 +5449,7 @@ msgstr "fjern bidrager"
 msgid "edit settings"
 msgstr "endre instillinger"
 
-#: r2/models/modaction.py:86 r2/templates/printablebuttons.html:140
+#: r2/models/modaction.py:86 r2/templates/printablebuttons.html:141
 msgid "distinguish"
 msgstr "framheve"
 
@@ -5480,7 +5485,7 @@ msgstr "revisjonsside for wiki"
 msgid "wiki page permissions"
 msgstr "wiki-side tillatelser"
 
-#: r2/models/modaction.py:95 r2/models/modaction.py:206 r2/templates/printablebuttons.html:250
+#: r2/models/modaction.py:95 r2/models/modaction.py:206 r2/templates/printablebuttons.html:251
 msgid "ignore reports"
 msgstr "ignorer rapporter"
 
@@ -5520,11 +5525,11 @@ msgstr "lås post"
 msgid "unlock post"
 msgstr "lås opp innlegg"
 
-#: r2/models/modaction.py:105 r2/templates/printablebuttons.html:615
+#: r2/models/modaction.py:105 r2/templates/printablebuttons.html:616
 msgid "mute user"
 msgstr "demp bruker"
 
-#: r2/models/modaction.py:106 r2/templates/printablebuttons.html:612
+#: r2/models/modaction.py:106 r2/templates/printablebuttons.html:613
 msgid "unmute user"
 msgstr "opphev demping av bruker"
 
@@ -5560,11 +5565,11 @@ msgstr "fjernet wiki-bidragsyter"
 msgid "unbanned"
 msgstr "Opphevet utestenging av brukeren"
 
-#: r2/models/modaction.py:118 r2/models/modaction.py:120 r2/templates/admindomain.html:88 r2/templates/linkcommentssettings.html:122 r2/templates/printablebuttons.html:50 r2/templates/printablebuttons.html:286 r2/templates/trophycase.html:51
+#: r2/models/modaction.py:118 r2/models/modaction.py:120 r2/templates/admindomain.html:88 r2/templates/linkcommentssettings.html:122 r2/templates/printablebuttons.html:51 r2/templates/printablebuttons.html:287 r2/templates/trophycase.html:51
 msgid "removed"
 msgstr "fjernet"
 
-#: r2/models/modaction.py:119 r2/models/modaction.py:121 r2/models/modaction.py:155 r2/templates/printablebuttons.html:58 r2/templates/printablebuttons.html:289 r2/templates/vaultinfobar.html:135
+#: r2/models/modaction.py:119 r2/models/modaction.py:121 r2/models/modaction.py:155 r2/templates/printablebuttons.html:59 r2/templates/printablebuttons.html:290 r2/templates/vaultinfobar.html:135
 msgid "approved"
 msgstr "godkjent"
 
@@ -5652,15 +5657,15 @@ msgstr "slo på konkurransemodus på"
 msgid "unset contest mode on"
 msgstr "slo av konkurransemodus på"
 
-#: r2/models/modaction.py:144 r2/templates/lockedinterstitial.html:34 r2/templates/printablebuttons.html:79
+#: r2/models/modaction.py:144 r2/templates/lockedinterstitial.html:34 r2/templates/printablebuttons.html:80
 msgid "locked"
 msgstr "låst"
 
-#: r2/models/modaction.py:145 r2/templates/printablebuttons.html:82
+#: r2/models/modaction.py:145 r2/templates/printablebuttons.html:83
 msgid "unlocked"
 msgstr "låst opp"
 
-#: r2/models/modaction.py:147 r2/templates/printablebuttons.html:612
+#: r2/models/modaction.py:147 r2/templates/printablebuttons.html:613
 msgid "unmuted"
 msgstr "opphevet demping"
 
@@ -5850,7 +5855,7 @@ msgstr "slett flair mal"
 msgid "clear flair templates"
 msgstr "Rensk flair-maler"
 
-#: r2/models/modaction.py:205 r2/templates/createvault.html:524 r2/templates/createvault.html:530 r2/templates/filteredinfobar.html:42 r2/templates/multiinfobar.html:119 r2/templates/prefapps.html:82 r2/templates/printablebuttons.html:50 r2/templates/printablebuttons.html:266 r2/templates/trophycase.html:51 r2/templates/usertableitem.html:62
+#: r2/models/modaction.py:205 r2/templates/createvault.html:524 r2/templates/createvault.html:530 r2/templates/filteredinfobar.html:42 r2/templates/multiinfobar.html:119 r2/templates/prefapps.html:82 r2/templates/printablebuttons.html:51 r2/templates/printablebuttons.html:267 r2/templates/trophycase.html:51 r2/templates/usertableitem.html:62
 msgid "remove"
 msgstr "fjern"
 
@@ -5899,33 +5904,42 @@ msgstr "auksjonsprioritet; all selvbetjening har auksjonsprioritet"
 msgid "collection: %(name)s"
 msgstr "samling: %(name)s"
 
-#: r2/models/rules.py:38
-msgid "vote manipulation"
-msgstr "stemmemanipulasjon"
+#: r2/models/rules.py:52
+msgid "Spam or vote manipulation"
+msgstr "Søppelpost eller stemmemanipulering"
 
-#: r2/models/rules.py:39
-msgid "personal information"
-msgstr "personlig informasjon"
+#: r2/models/rules.py:53
+msgid "Harassment or threats"
+msgstr "Trakassering eller trusler"
 
-#: r2/models/rules.py:40
-msgid "sexualizing minors"
-msgstr "seksualisering av mindreårige"
+#: r2/models/rules.py:54
+msgid "Hateful content"
+msgstr "Hatefullt innhold"
 
-#: r2/models/rules.py:41
-msgid "breaking tippr"
-msgstr "forringe tippr"
+#: r2/models/rules.py:55
+msgid "Someone's personal information"
+msgstr "Personopplysninger om andre"
 
-#: r2/models/rules.py:45
-msgid "Spam"
-msgstr "Spam"
+#: r2/models/rules.py:56
+msgid "Sexual content involving minors"
+msgstr "Seksuelt innhold med mindreårige"
 
-#: r2/models/rules.py:46
-msgid "Personal and confidential information"
-msgstr "Personlig og fortrolig informasjon"
+#: r2/models/rules.py:57
+msgid "Other illegal content"
+msgstr "Annet ulovlig innhold"
 
-#: r2/models/rules.py:47
-msgid "Threatening, harassing, or inciting violence"
-msgstr "Trusler, trakassering eller oppfordring til vold"
+#: r2/models/rules.py:58
+msgid "Impersonation"
+msgstr "Å utgi seg for å være en annen"
+
+#: r2/models/rules.py:59
+msgid "Malware, phishing or scams"
+msgstr "Skadevare, nettfisking eller svindel"
+
+#: r2/models/rules.py:60
+#, python-format
+msgid "Breaking %(site_name)s"
+msgstr "Å ødelegge for %(site_name)s"
 
 #: r2/models/token.py:113
 msgid "Any Scope"
@@ -6308,7 +6322,7 @@ msgstr "åpne kommentarene"
 msgid "expand or collapse the preview, or the comment"
 msgstr "vis eller skjul forhåndsvisningen eller kommentaren"
 
-#: r2/public/static/js/enhancements.js:180 r2/public/static/js/enhancements.js:631 r2/public/static/js/saved.js:122 r2/public/static/js/saved.js:161 r2/public/static/js/sponsored.js:97 r2/templates/adminadsettings.html:128 r2/templates/adminantispam.html:106 r2/templates/adminemailsettings.html:95 r2/templates/adminfeeds.html:70 r2/templates/adminloginsettings.html:77 r2/templates/adminpaymentsettings.html:213 r2/templates/adminsitesettings.html:146 r2/templates/adminsupportstaff.html:57 r2/templates/adminuser.html:103 r2/templates/adminuser.html:122 r2/templates/adminuser.html:147 r2/templates/flairlistrow.html:48 r2/templates/flairselector.html:54 r2/templates/moderatorpermissions.html:55 r2/templates/prefsecurity.html:204 r2/templates/prefupdate.html:100 r2/templates/prefupdate.html:154 r2/templates/printablebuttons.html:106 r2/templates/printablebuttons.html:382 r2/templates/printablebuttons.html:487 r2/templates/promotelinkedit.html:218 r2/templates/vaultstylesheet.html:70
+#: r2/public/static/js/enhancements.js:180 r2/public/static/js/enhancements.js:631 r2/public/static/js/saved.js:122 r2/public/static/js/saved.js:161 r2/public/static/js/sponsored.js:97 r2/templates/adminadsettings.html:128 r2/templates/adminantispam.html:106 r2/templates/adminemailsettings.html:95 r2/templates/adminfeeds.html:70 r2/templates/adminloginsettings.html:77 r2/templates/adminpaymentsettings.html:213 r2/templates/adminsitesettings.html:146 r2/templates/adminsupportstaff.html:57 r2/templates/adminuser.html:103 r2/templates/adminuser.html:122 r2/templates/adminuser.html:147 r2/templates/flairlistrow.html:48 r2/templates/flairselector.html:54 r2/templates/moderatorpermissions.html:55 r2/templates/prefsecurity.html:173 r2/templates/prefupdate.html:103 r2/templates/prefupdate.html:157 r2/templates/printablebuttons.html:107 r2/templates/printablebuttons.html:383 r2/templates/printablebuttons.html:488 r2/templates/promotelinkedit.html:218 r2/templates/vaultstylesheet.html:70
 msgid "save"
 msgstr "lagre"
 
@@ -6515,7 +6529,7 @@ msgstr "brukernavn"
 msgid "add and switch"
 msgstr "legg til og bytt"
 
-#: r2/public/static/js/enhancements.js:1100 r2/templates/linkedloginotp.html:35 r2/templates/newlink.html:155 r2/templates/prefoptions.html:619 r2/templates/prefsecurity.html:37 r2/templates/prefsecurity.html:104 r2/templates/prefsecurity.html:242 r2/templates/prefupdate.html:33 r2/templates/privacysettings.html:133
+#: r2/public/static/js/enhancements.js:1100 r2/templates/linkedloginotp.html:35 r2/templates/newlink.html:155 r2/templates/prefsecurity.html:210 r2/templates/prefsunlock.html:40 r2/templates/prefupdate.html:35 r2/templates/privacysettings.html:133
 msgid "two-factor code"
 msgstr "tofaktorkode"
 
@@ -6582,7 +6596,7 @@ msgstr "for stort. hold det under "
 msgid "an error occurred. please try again later! (status: %(status)s)"
 msgstr "en feil oppstod. vennligst prøv igjen senere! (status: %(status)s)"
 
-#: r2/public/static/js/jquery.tippr.js:370 r2/public/static/js/saved.js:166 r2/templates/printablebuttons.html:380 r2/templates/printablebuttons.html:483
+#: r2/public/static/js/jquery.tippr.js:370 r2/public/static/js/saved.js:166 r2/templates/printablebuttons.html:381 r2/templates/printablebuttons.html:484
 msgid "unsave"
 msgstr "fjern"
 
@@ -6893,7 +6907,7 @@ msgstr "legg til en valgfri melding"
 msgid "send"
 msgstr "send"
 
-#: r2/public/static/js/post-sharing.js:133 r2/templates/adminprivacy.html:48 r2/templates/fraudform.html:48 r2/templates/linkcommentssettings.html:78 r2/templates/printablebuttons.html:427 r2/templates/promotelinkedit.html:121 r2/templates/reportform.html:71 r2/templates/rules.html:137 r2/templates/vaultreportform.html:46
+#: r2/public/static/js/post-sharing.js:133 r2/templates/adminprivacy.html:48 r2/templates/fraudform.html:48 r2/templates/linkcommentssettings.html:78 r2/templates/printablebuttons.html:428 r2/templates/promotelinkedit.html:121 r2/templates/reportform.html:71 r2/templates/rules.html:137 r2/templates/vaultreportform.html:49
 msgid "cancel"
 msgstr "avbryt"
 
@@ -6946,7 +6960,7 @@ msgstr "ingen kategori"
 msgid "new category"
 msgstr "ny kategori"
 
-#: r2/public/static/js/scales.js:37 r2/templates/printablebuttons.html:375
+#: r2/public/static/js/scales.js:37 r2/templates/printablebuttons.html:376
 msgid "scales"
 msgstr ""
 
@@ -7168,15 +7182,15 @@ msgstr "alle tillatelser"
 msgid "no permissions"
 msgstr "ingen tillatelser"
 
-#: r2/public/static/js/ui.js:1131 r2/templates/goldsubscription.html:50 r2/templates/printablebuttons.html:694 r2/templates/printablebuttons.html:716
+#: r2/public/static/js/ui.js:1131 r2/templates/goldsubscription.html:50 r2/templates/printablebuttons.html:695 r2/templates/printablebuttons.html:717
 msgid "are you sure?"
 msgstr "er du sikker?"
 
-#: r2/public/static/js/ui.js:1132 r2/templates/adminuser.html:63 r2/templates/adminuser.html:79 r2/templates/fraudform.html:35 r2/templates/goldsubscription.html:53 r2/templates/optout.html:40 r2/templates/optout.html:56 r2/templates/printablebuttons.html:696 r2/templates/printablebuttons.html:745
+#: r2/public/static/js/ui.js:1132 r2/templates/adminuser.html:63 r2/templates/adminuser.html:79 r2/templates/fraudform.html:35 r2/templates/goldsubscription.html:53 r2/templates/optout.html:40 r2/templates/optout.html:56 r2/templates/printablebuttons.html:697 r2/templates/printablebuttons.html:746
 msgid "yes"
 msgstr "ja"
 
-#: r2/public/static/js/ui.js:1133 r2/templates/adminuser.html:84 r2/templates/fraudform.html:40 r2/templates/goldsubscription.html:56 r2/templates/optout.html:43 r2/templates/optout.html:59 r2/templates/printablebuttons.html:199 r2/templates/printablebuttons.html:698 r2/templates/printablebuttons.html:748
+#: r2/public/static/js/ui.js:1133 r2/templates/adminuser.html:84 r2/templates/fraudform.html:40 r2/templates/goldsubscription.html:56 r2/templates/optout.html:43 r2/templates/optout.html:59 r2/templates/printablebuttons.html:200 r2/templates/printablebuttons.html:699 r2/templates/printablebuttons.html:749
 msgid "no"
 msgstr "nei"
 
@@ -7349,7 +7363,7 @@ msgstr "I EU, Storbritannia og Sveits krever Google en samtykkemelding: lag en i
 msgid "saved; leave blank to keep"
 msgstr "lagret; la stå tomt for å beholde"
 
-#: r2/templates/adminantispam.html:20 r2/templates/adminemailsettings.html:20 r2/templates/adminloginsettings.html:19 r2/templates/adminpaymentsettings.html:28 r2/templates/prefupdate.html:65
+#: r2/templates/adminantispam.html:20 r2/templates/adminemailsettings.html:20 r2/templates/adminloginsettings.html:19 r2/templates/adminpaymentsettings.html:28 r2/templates/prefupdate.html:68
 msgid "not set"
 msgstr "ikke satt"
 
@@ -7528,7 +7542,7 @@ msgstr "ble med"
 msgid "karma"
 msgstr "karma"
 
-#: r2/templates/adminantispam.html:182 r2/templates/adminuser.html:68 r2/templates/adminusers.html:77 r2/templates/login.html:110 r2/templates/newsletter.html:58 r2/templates/newsletterbar.html:43 r2/templates/prefupdate.html:85
+#: r2/templates/adminantispam.html:182 r2/templates/adminuser.html:68 r2/templates/adminusers.html:77 r2/templates/login.html:110 r2/templates/newsletter.html:58 r2/templates/newsletterbar.html:43 r2/templates/prefupdate.html:88
 msgid "email"
 msgstr "e-post"
 
@@ -7638,7 +7652,7 @@ msgstr "(sidens egen)"
 msgid "ago"
 msgstr "siden"
 
-#: r2/templates/adminapps.html:104 r2/templates/printablebuttons.html:57 r2/templates/printablebuttons.html:272
+#: r2/templates/adminapps.html:104 r2/templates/printablebuttons.html:58 r2/templates/printablebuttons.html:273
 msgid "approve"
 msgstr "godkjenn"
 
@@ -7646,7 +7660,7 @@ msgstr "godkjenn"
 msgid "lift the suspension"
 msgstr "opphev suspensjonen"
 
-#: r2/templates/adminapps.html:113 r2/templates/adminbackups.html:139 r2/templates/adminfeeds.html:148 r2/templates/adminuser.html:236 r2/templates/multiinfobar.html:56 r2/templates/prefsecurity.html:133 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:585 r2/templates/renderablecampaign.html:161 r2/templates/rules.html:135 r2/templates/wikipagesettings.html:79
+#: r2/templates/adminapps.html:113 r2/templates/adminbackups.html:139 r2/templates/adminfeeds.html:148 r2/templates/adminuser.html:236 r2/templates/multiinfobar.html:56 r2/templates/prefsecurity.html:108 r2/templates/printablebuttons.html:41 r2/templates/printablebuttons.html:586 r2/templates/renderablecampaign.html:161 r2/templates/rules.html:135 r2/templates/wikipagesettings.html:79
 msgid "delete"
 msgstr "slett"
 
@@ -7875,7 +7889,7 @@ msgstr "trafikk-kontroll deaktivert"
 msgid "timings"
 msgstr "tidsberegninger"
 
-#: r2/templates/adminbar.html:64 r2/templates/exploreitem.html:46 r2/templates/listingchooser.html:53 r2/templates/printablebuttons.html:390
+#: r2/templates/adminbar.html:64 r2/templates/exploreitem.html:46 r2/templates/listingchooser.html:53 r2/templates/printablebuttons.html:391
 msgid "hide"
 msgstr "gjem"
 
@@ -8139,7 +8153,7 @@ msgstr "NSFW"
 msgid "mark every post NSFW"
 msgstr "merk hvert innlegg NSFW"
 
-#: r2/templates/adminfeeds.html:61 r2/templates/printablebuttons.html:95
+#: r2/templates/adminfeeds.html:61 r2/templates/printablebuttons.html:96
 msgid "AI label"
 msgstr "AI-merkelapp"
 
@@ -8250,7 +8264,7 @@ msgstr "oppdater ditt passord"
 msgid "Enter your password and one-time code"
 msgstr "Skriv passord og engangskode"
 
-#: r2/templates/admininterstitial.html:56 r2/templates/admininterstitial.html:70 r2/templates/prefsecurity.html:237 r2/templates/prefsecurity.html:242 r2/templates/prefsecurity.html:300 r2/templates/prefupdate.html:33 r2/templates/prefupdate.html:56 r2/templates/prefupdate.html:117 r2/templates/useriphistory.html:74
+#: r2/templates/admininterstitial.html:56 r2/templates/admininterstitial.html:70 r2/templates/prefsecurity.html:205 r2/templates/prefsecurity.html:210 r2/templates/prefsecurity.html:268 r2/templates/prefupdate.html:35 r2/templates/prefupdate.html:59 r2/templates/prefupdate.html:120 r2/templates/useriphistory.html:74
 msgid "(required)"
 msgstr "(påkrevd)"
 
@@ -9689,7 +9703,7 @@ msgstr "notat"
 msgid "No accounts found."
 msgstr "Ingen kontoer funnet."
 
-#: r2/templates/adminvault.html:35 r2/templates/printablebuttons.html:449
+#: r2/templates/adminvault.html:35 r2/templates/printablebuttons.html:450
 msgid "traffic"
 msgstr "trafikk"
 
@@ -10561,7 +10575,7 @@ msgstr "farge"
 msgid "used as a thematic color for your vault on mobile"
 msgstr "brukes som temafarge for vaulten din på mobil"
 
-#: r2/templates/createvault.html:669 r2/templates/flairpane.html:91 r2/templates/prefoptions.html:622
+#: r2/templates/createvault.html:669 r2/templates/flairpane.html:91 r2/templates/prefoptions.html:618
 msgid "save options"
 msgstr "lagre"
 
@@ -10598,7 +10612,7 @@ msgstr "flere kommentarer"
 msgid "personalized"
 msgstr "Personlig tilpasset"
 
-#: r2/templates/exploreitemlisting.html:51 r2/templates/printablebuttons.html:85
+#: r2/templates/exploreitemlisting.html:51 r2/templates/printablebuttons.html:86
 msgid "nsfw"
 msgstr "nsfw"
 
@@ -10623,7 +10637,7 @@ msgstr "Viser innhold fra %s, unntatt disse vaultene: "
 msgid "filter vault"
 msgstr "filtrere vault"
 
-#: r2/templates/filteredinfobar.html:48 r2/templates/modlisting.html:58 r2/templates/prefsecurity.html:306 r2/templates/userlisting.html:99 r2/templates/vaultselector.html:30 r2/templates/wikipagesettings.html:70
+#: r2/templates/filteredinfobar.html:48 r2/templates/modlisting.html:58 r2/templates/prefsecurity.html:274 r2/templates/userlisting.html:99 r2/templates/vaultselector.html:30 r2/templates/wikipagesettings.html:70
 msgid "add"
 msgstr "legg til"
 
@@ -11239,19 +11253,19 @@ msgstr "sett som foreslått sortering"
 msgid "suggested sort set"
 msgstr "foreslått sortering satt"
 
-#: r2/templates/linkcommentssettings.html:97 r2/templates/printablebuttons.html:519
+#: r2/templates/linkcommentssettings.html:97 r2/templates/printablebuttons.html:520
 msgid "disable inbox replies"
 msgstr "Deaktiver innbokssvar"
 
-#: r2/templates/linkcommentssettings.html:97 r2/templates/printablebuttons.html:519
+#: r2/templates/linkcommentssettings.html:97 r2/templates/printablebuttons.html:520
 msgid "inbox replies disabled"
 msgstr "innbokssvar deaktivert"
 
-#: r2/templates/linkcommentssettings.html:101 r2/templates/printablebuttons.html:523
+#: r2/templates/linkcommentssettings.html:101 r2/templates/printablebuttons.html:524
 msgid "enable inbox replies"
 msgstr "aktiver innbokssvar"
 
-#: r2/templates/linkcommentssettings.html:101 r2/templates/printablebuttons.html:523
+#: r2/templates/linkcommentssettings.html:101 r2/templates/printablebuttons.html:524
 msgid "inbox replies enabled"
 msgstr "inbokssvar aktivert"
 
@@ -11343,7 +11357,7 @@ msgstr "Den kobles til %(provider)s-kontoen din, så fra nå av er det nok å lo
 msgid "choose a username"
 msgstr "Velg et brukernavn"
 
-#: r2/templates/linkedloginlink.html:60 r2/templates/login.html:103 r2/templates/login.html:106 r2/templates/login.html:234 r2/templates/prefupdate.html:132 r2/templates/resetpassword.html:48
+#: r2/templates/linkedloginlink.html:60 r2/templates/login.html:103 r2/templates/login.html:106 r2/templates/login.html:234 r2/templates/prefupdate.html:135 r2/templates/resetpassword.html:48
 msgid "verify password"
 msgstr "bekreft passord"
 
@@ -11648,7 +11662,7 @@ msgstr "du er ikke lenger en moderator"
 msgid "stop being a moderator?"
 msgstr "stopp med å være moderator?"
 
-#: r2/templates/modlisting.html:48 r2/templates/printablebuttons.html:433
+#: r2/templates/modlisting.html:48 r2/templates/printablebuttons.html:434
 msgid "accept"
 msgstr "aksepter"
 
@@ -11697,7 +11711,7 @@ msgstr "fortsett med denne tråden"
 msgid "curated by /u/%s"
 msgstr "utplukket av /u/%s"
 
-#: r2/templates/multiinfobar.html:46 r2/templates/printablebuttons.html:391
+#: r2/templates/multiinfobar.html:46 r2/templates/printablebuttons.html:392
 msgid "hidden"
 msgstr "gjemt"
 
@@ -12155,7 +12169,9 @@ msgid "we couldn't save the custom stylesheet preference. please see the error b
 msgstr "vi kunne ikke lagre innstillingen for eget stilark. se feilen nedenfor"
 
 #: r2/templates/prefoptions.html:108
-msgid "your preferences weren't saved: enter your two-factor code with them"
+#, fuzzy
+#| msgid "your preferences weren't saved: enter your two-factor code with them"
+msgid "your preferences weren't saved: they locked again while you were away. Save them again now."
 msgstr "innstillingene dine ble ikke lagret: skriv inn tofaktorkoden sammen med dem"
 
 #: r2/templates/prefoptions.html:110
@@ -12738,361 +12754,382 @@ msgstr "pek for å forhåndsvise"
 msgid "warning: use non-featured themes at your own risk"
 msgstr "advarsel: bruk temaer som ikke er fremhevet, på egen risiko"
 
-#: r2/templates/prefsecurity.html:44
+#: r2/templates/prefsecurity.html:37
 #, fuzzy
 #| msgid "make new recovery codes"
 msgid "save your recovery codes"
 msgstr "lag nye gjenopprettingskoder"
 
-#: r2/templates/prefsecurity.html:45
+#: r2/templates/prefsecurity.html:38
 msgid "Save these recovery codes somewhere safe (print them, or keep them in a password manager). Each one works once in place of a code from your app, if you lose your phone. They won't be shown again."
 msgstr "Lagre disse gjenopprettingskodene et trygt sted (skriv dem ut, eller ha dem i en passordbehandler). Hver av dem fungerer én gang i stedet for en kode fra appen din, hvis du mister telefonen. De vises ikke igjen."
 
-#: r2/templates/prefsecurity.html:51
+#: r2/templates/prefsecurity.html:44
 msgid "If you lose your phone or key: sign in with one of these codes, then remove the lost method below and add a new one."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:57
+#: r2/templates/prefsecurity.html:50
 msgid "two-factor authentication"
 msgstr "to-faktor autentisering"
 
+#: r2/templates/prefsecurity.html:55
+#, fuzzy
+#| msgid "two-factor authentication is **on**. you're asked for a code from one of your methods below when changing your password or email address, and when linking or unlinking a sign-in. a code you enter counts for 15 minutes."
+msgid "two-factor authentication is **on**. you're asked for a code from one of your methods before changing your password, email address or linked sign-ins, and before opening this page."
+msgstr "tofaktorautentisering er **på**. du blir bedt om en kode fra en av metodene dine nedenfor når du endrer passord eller e-postadresse, og når du kobler til eller fra en pålogging. en kode du skriver inn, gjelder i 15 minutter."
+
+#: r2/templates/prefsecurity.html:57
+#, fuzzy
+#| msgid "two-factor authentication is **on**. you're asked for a code from one of your methods below when changing your password or email address, and when linking or unlinking a sign-in. a code you enter counts for 15 minutes."
+msgid "two-factor authentication is **on**. you're asked to confirm it's you with your passkey before changing your password, email address or linked sign-ins, and before opening this page."
+msgstr "tofaktorautentisering er **på**. du blir bedt om en kode fra en av metodene dine nedenfor når du endrer passord eller e-postadresse, og når du kobler til eller fra en pålogging. en kode du skriver inn, gjelder i 15 minutter."
+
 #: r2/templates/prefsecurity.html:62
-#, fuzzy
-#| msgid "two-factor authentication is **on**. you're asked for a code from one of your methods below when changing your password or email address, and when linking or unlinking a sign-in. a code you enter counts for 15 minutes."
-msgid "two-factor authentication is **on**. you're asked for a code from one of your methods when changing your password or email address, and when linking or unlinking a sign-in."
-msgstr "tofaktorautentisering er **på**. du blir bedt om en kode fra en av metodene dine nedenfor når du endrer passord eller e-postadresse, og når du kobler til eller fra en pålogging. en kode du skriver inn, gjelder i 15 minutter."
-
-#: r2/templates/prefsecurity.html:64
-#, fuzzy
-#| msgid "two-factor authentication is **on**. you're asked for a code from one of your methods below when changing your password or email address, and when linking or unlinking a sign-in. a code you enter counts for 15 minutes."
-msgid "two-factor authentication is **on**. you're asked to confirm it's you with your passkey when changing your password or email address, and when linking or unlinking a sign-in."
-msgstr "tofaktorautentisering er **på**. du blir bedt om en kode fra en av metodene dine nedenfor når du endrer passord eller e-postadresse, og når du kobler til eller fra en pålogging. en kode du skriver inn, gjelder i 15 minutter."
-
-#: r2/templates/prefsecurity.html:69
 msgid "Passkey created. Next time a code is asked for, choose \"use a passkey\"."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:73
+#: r2/templates/prefsecurity.html:66
 #, fuzzy
 #| msgid "sign in with another account"
 msgid "You signed in with a recovery code."
 msgstr "logg inn med en annen konto"
 
-#: r2/templates/prefsecurity.html:74
+#: r2/templates/prefsecurity.html:67
 msgid "If you lost your phone or key, delete it from the list below and create a passkey or add a new app, so you aren't locked out next time."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:76
+#: r2/templates/prefsecurity.html:69
 #, fuzzy, python-format
 #| msgid "You have %(count)s left."
 msgid "You have %(count)s recovery codes left."
 msgstr "Du har %(count)s igjen."
 
-#: r2/templates/prefsecurity.html:78
+#: r2/templates/prefsecurity.html:71
 #, fuzzy
 #| msgid "You have none left: make new ones now."
 msgid "That was your last recovery code: make new ones below."
 msgstr "Du har ingen igjen: lag nye nå."
 
-#: r2/templates/prefsecurity.html:91
+#: r2/templates/prefsecurity.html:84
 #, python-format
-msgid "Unlocked: you can make changes here for %(minutes)s more minutes."
+msgid "Unlocked: your preferences lock again %(minutes)s minutes after you last open one."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:97
-#, fuzzy
-#| msgid "enter the code from your authenticator app (or a recovery code)"
-msgid "To change anything here, enter a code from your authenticator app first. It counts for 15 minutes."
-msgstr "skriv inn koden fra autentiseringsappen (eller en gjenopprettingskode)"
-
-#: r2/templates/prefsecurity.html:101
-msgid "To change anything here, confirm it's you with your passkey first. It counts for 15 minutes."
-msgstr ""
-
-#: r2/templates/prefsecurity.html:105 r2/templates/printablebuttons.html:82
-msgid "unlock"
-msgstr "lås opp"
-
-#: r2/templates/prefsecurity.html:113
+#: r2/templates/prefsecurity.html:89
 msgid "your methods"
 msgstr "metodene dine"
 
-#: r2/templates/prefsecurity.html:118
+#: r2/templates/prefsecurity.html:94
 msgid "kind_name"
 msgstr "kind_name"
 
-#: r2/templates/prefsecurity.html:119
+#: r2/templates/prefsecurity.html:95
 #, python-format
 msgid "added %(when)s"
 msgstr "lagt til %(when)s"
 
-#: r2/templates/prefsecurity.html:121
+#: r2/templates/prefsecurity.html:97
 #, python-format
 msgid "last used %(when)s"
 msgstr "sist brukt %(when)s"
 
-#: r2/templates/prefsecurity.html:143
+#: r2/templates/prefsecurity.html:117
 #, fuzzy
 #| msgid "Removing your only method turns two-factor off, so it needs your password too."
 msgid "Deleting your only method turns two-factor off, so it needs your password too."
 msgstr "Å fjerne den eneste metoden din slår av tofaktor, så det krever passordet ditt også."
 
-#: r2/templates/prefsecurity.html:146
+#: r2/templates/prefsecurity.html:120
 msgid "Your passkeys also sign you in on their own: on the login form, choose one from the username box (or \"sign in with a passkey\"), with no password or code."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:147
+#: r2/templates/prefsecurity.html:121
 msgid "Deleting a passkey here stops it working on this site. Your device or password manager keeps its copy until you delete it there too."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:152
+#: r2/templates/prefsecurity.html:126
 msgid "You have one method. Add a second one (a passkey on another device, or an app on another phone), so losing one doesn't lock you out."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:155
+#: r2/templates/prefsecurity.html:129
 msgid "A passkey is the safest method: it only works on this site, so a fake login page can't use it. A code from an app can be typed into a fake page."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:160
+#: r2/templates/prefsecurity.html:133
 msgid "add a method"
 msgstr "legg til en metode"
 
-#: r2/templates/prefsecurity.html:166
+#: r2/templates/prefsecurity.html:138
 msgid "recovery codes"
 msgstr "gjenopprettingskoder"
 
-#: r2/templates/prefsecurity.html:168
+#: r2/templates/prefsecurity.html:140
 msgid "Recovery codes work once each in place of a code from your app, if you lose your phone."
 msgstr "Gjenopprettingskoder fungerer én gang hver i stedet for en kode fra appen din, hvis du mister telefonen."
 
-#: r2/templates/prefsecurity.html:170
+#: r2/templates/prefsecurity.html:142
 #, python-format
 msgid "You have %(count)s left."
 msgstr "Du har %(count)s igjen."
 
-#: r2/templates/prefsecurity.html:172
+#: r2/templates/prefsecurity.html:144
 msgid "You have none left: make new ones now."
 msgstr "Du har ingen igjen: lag nye nå."
 
-#: r2/templates/prefsecurity.html:177
+#: r2/templates/prefsecurity.html:148
 msgid "make new recovery codes"
 msgstr "lag nye gjenopprettingskoder"
 
-#: r2/templates/prefsecurity.html:180
+#: r2/templates/prefsecurity.html:151
 msgid "Making new ones stops the old ones working."
 msgstr "Når du lager nye, slutter de gamle å virke."
 
-#: r2/templates/prefsecurity.html:187
+#: r2/templates/prefsecurity.html:157
 msgid "also ask for a code"
 msgstr "be også om en kode"
 
-#: r2/templates/prefsecurity.html:191
+#: r2/templates/prefsecurity.html:160
 msgid "when logging in, with your password or a linked account (Google, GitHub...)"
 msgstr "ved innlogging, med passordet ditt eller en tilkoblet konto (Google, GitHub...)"
 
-#: r2/templates/prefsecurity.html:192
+#: r2/templates/prefsecurity.html:161
 #, python-format
 msgid "you can choose to skip it for %(days)s days on a device you trust"
 msgstr "du kan velge å hoppe over det i %(days)s dager på en enhet du stoler på"
 
-#: r2/templates/prefsecurity.html:196
-msgid "when saving your preferences"
+#: r2/templates/prefsecurity.html:165
+#, fuzzy
+#| msgid "when saving your preferences"
+msgid "before opening any of your preferences"
 msgstr "når du lagrer innstillingene dine"
 
-#: r2/templates/prefsecurity.html:200
+#: r2/templates/prefsecurity.html:166
+msgid "otherwise only this page and your password and email address are locked"
+msgstr ""
+
+#: r2/templates/prefsecurity.html:170
 msgid "when submitting a post"
 msgstr "når du sender inn et innlegg"
 
-#: r2/templates/prefsecurity.html:202
-msgid "a code you enter counts for 15 minutes, so you aren't asked again and again. apps you've allowed (OAuth) aren't asked."
+#: r2/templates/prefsecurity.html:172
+#, fuzzy, python-format
+#| msgid "a code you enter counts for 15 minutes, so you aren't asked again and again. apps you've allowed (OAuth) aren't asked."
+msgid "a code you enter counts for %(minutes)s minutes, and your preferences stay unlocked while you use them, so you aren't asked again and again. apps you've allowed (OAuth) aren't asked."
 msgstr "en kode du skriver inn, gjelder i 15 minutter, så du ikke blir spurt om og om igjen. apper du har gitt tilgang (OAuth), blir ikke spurt."
 
-#: r2/templates/prefsecurity.html:215
+#: r2/templates/prefsecurity.html:183
 #, fuzzy
 #| msgid "remember me"
 msgid "remembered devices"
 msgstr "husk meg"
 
-#: r2/templates/prefsecurity.html:218
+#: r2/templates/prefsecurity.html:186
 msgid "Done: every device will be asked for a code again."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:220
+#: r2/templates/prefsecurity.html:188
 msgid "This device is remembered, so it isn't asked for a code."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:222
+#: r2/templates/prefsecurity.html:190
 #, fuzzy
 #| msgid "Visited links remembered"
 msgid "This device isn't remembered."
 msgstr "Besøkte lenker huskes"
 
-#: r2/templates/prefsecurity.html:224
+#: r2/templates/prefsecurity.html:192
 msgid "If you lost a device you chose to skip the code on, or used a shared computer, forget them all: each one is asked for a code again next time."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:226
+#: r2/templates/prefsecurity.html:194
 msgid "forget all remembered devices"
 msgstr ""
 
-#: r2/templates/prefsecurity.html:228
+#: r2/templates/prefsecurity.html:196
 msgid "Nobody is logged out. To end the logins themselves, use \"log out of all other sessions\" on the account activity page."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:233
+#: r2/templates/prefsecurity.html:201
 #, fuzzy
 #| msgid "two-factor authentication"
 msgid "turn off two-factor authentication…"
 msgstr "to-faktor autentisering"
 
-#: r2/templates/prefsecurity.html:235
+#: r2/templates/prefsecurity.html:203
 msgid "to turn it off (removing every method and the recovery codes), enter your password and a code."
 msgstr "for å slå det av (fjerne alle metoder og gjenopprettingskodene), skriv inn passordet ditt og en kode."
 
-#: r2/templates/prefsecurity.html:249
+#: r2/templates/prefsecurity.html:217
 msgid "turn off"
 msgstr "slå av"
 
-#: r2/templates/prefsecurity.html:254
+#: r2/templates/prefsecurity.html:222
 msgid "This site asks moderators and staff to use two-factor sign-in: your moderator tools work again once it's on."
 msgstr "Denne siden ber moderatorer og ansatte bruke tofaktorpålogging: moderatorverktøyene dine virker igjen når det er slått på."
 
-#: r2/templates/prefsecurity.html:256
+#: r2/templates/prefsecurity.html:224
 msgid "with two-factor authentication on, changing your password or email address, and linking or unlinking a sign-in, also need a second step: a code from an authenticator app on your phone (Google Authenticator, Authy, 1Password and the like). someone who learns your password, or gets into a linked Google or Facebook account, can't take over your account here. you can add more than one method, and remove them later."
 msgstr "med tofaktorautentisering på krever endring av passord eller e-postadresse, og tilkobling eller frakobling av en pålogging, også et ekstra steg: en kode fra en autentiseringsapp på telefonen din (Google Authenticator, Authy, 1Password og lignende). noen som får vite passordet ditt, eller kommer seg inn på en tilkoblet Google- eller Facebook-konto, kan ikke ta over kontoen din her. du kan legge til mer enn én metode og fjerne dem senere."
 
-#: r2/templates/prefsecurity.html:257
+#: r2/templates/prefsecurity.html:225
 msgid "When you add your first method you get recovery codes to save: they let you in if you lose your phone or key."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:269
+#: r2/templates/prefsecurity.html:237
 msgid "To start, enter your password."
 msgstr "For å begynne, skriv inn passordet ditt."
 
-#: r2/templates/prefsecurity.html:273
+#: r2/templates/prefsecurity.html:241
 #, fuzzy
 #| msgid "(optional, like phone or work)"
 msgid "name (optional, like phone or work)"
 msgstr "(valgfritt, f.eks. telefon eller jobb)"
 
-#: r2/templates/prefsecurity.html:277
+#: r2/templates/prefsecurity.html:245
 #, fuzzy
 #| msgid "use a passkey"
 msgid "create a passkey"
 msgstr "bruk en tilgangsnøkkel"
 
-#: r2/templates/prefsecurity.html:279
+#: r2/templates/prefsecurity.html:247
 msgid "Passkeys are encrypted digital keys you create using your fingerprint, face or screen lock. They're saved in your password manager (like Google Password Manager or iCloud Keychain), so you can use them on your other devices too."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:280
+#: r2/templates/prefsecurity.html:248
 msgid "A passkey only works on this site, so a fake login page can't use it, and it signs you in without your password. Don't create one on a shared computer."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:283
+#: r2/templates/prefsecurity.html:251
 msgid "add an authenticator app"
 msgstr "legg til en autentiseringsapp"
 
-#: r2/templates/prefsecurity.html:284
+#: r2/templates/prefsecurity.html:252
 msgid "An app on your phone (Google Authenticator, Authy, 1Password and the like) shows a new 6-digit code every 30 seconds."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:293
+#: r2/templates/prefsecurity.html:261
 #, fuzzy
 #| msgid "scan the QR code with your authenticator app, or enter the key below in it. you WILL NOT have another chance to see this key."
 msgid "1. Scan this QR code with your authenticator app, or type the key under it into the app. This key isn't shown again."
 msgstr "skann QR-koden med autentiseringsappen din, eller skriv inn nøkkelen nedenfor i den. du får IKKE en ny sjanse til å se denne nøkkelen."
 
-#: r2/templates/prefsecurity.html:296
+#: r2/templates/prefsecurity.html:264
 msgid "2. name it"
 msgstr ""
 
-#: r2/templates/prefsecurity.html:296
+#: r2/templates/prefsecurity.html:264
 msgid "(optional, like phone or work)"
 msgstr "(valgfritt, f.eks. telefon eller jobb)"
 
-#: r2/templates/prefsecurity.html:300
+#: r2/templates/prefsecurity.html:268
 msgid "3. the code the app shows"
 msgstr ""
 
-#: r2/templates/prefsecurity.html:314
+#: r2/templates/prefsecurity.html:282
 msgid "sign in with another account"
 msgstr "logg inn med en annen konto"
 
-#: r2/templates/prefsecurity.html:316
+#: r2/templates/prefsecurity.html:284
 msgid "Link a Google, Facebook, GitHub or Discord account to sign in with it instead of your password. It only signs in to this account, and you can unlink it at any time. Your password keeps working."
 msgstr "Koble til en Google-, Facebook-, GitHub- eller Discord-konto for å logge inn med den i stedet for passordet. Den logger bare inn på denne kontoen, og du kan koble den fra når som helst. Passordet ditt fortsetter å virke."
 
-#: r2/templates/prefsecurity.html:318
+#: r2/templates/prefsecurity.html:286
 msgid "Linked. You can now sign in with it on the login page."
 msgstr "Tilkoblet. Nå kan du logge inn med den på innloggingssiden."
 
-#: r2/templates/prefsecurity.html:322
-msgid "Linking or unlinking needs your two-factor code (one you entered in the last 15 minutes counts)."
-msgstr "Tilkobling eller frakobling krever tofaktorkoden din (en du har skrevet inn de siste 15 minuttene, teller)."
-
-#: r2/templates/prefsecurity.html:330
+#: r2/templates/prefsecurity.html:294
 msgid "linked"
 msgstr "tilkoblet"
 
-#: r2/templates/prefsecurity.html:344
+#: r2/templates/prefsecurity.html:304
 msgid "unlink"
 msgstr "koble fra"
 
-#: r2/templates/prefsecurity.html:349
+#: r2/templates/prefsecurity.html:309
 msgid "not linked"
 msgstr "ikke tilkoblet"
 
-#: r2/templates/prefsecurity.html:360 r2/templates/prefsecurity.html:364
+#: r2/templates/prefsecurity.html:316 r2/templates/prefsecurity.html:320
 #, python-format
 msgid "link %(provider)s"
 msgstr "koble til %(provider)s"
 
-#: r2/templates/prefupdate.html:33
-msgid "(entered a moment ago)"
-msgstr "(skrevet inn for et øyeblikk siden)"
+#: r2/templates/prefsunlock.html:23
+#, fuzzy
+#| msgid "when saving your preferences"
+msgid "unlock your preferences"
+msgstr "når du lagrer innstillingene dine"
 
-#: r2/templates/prefupdate.html:49
+#: r2/templates/prefsunlock.html:26
+msgid "You chose to keep your preferences locked until you confirm it's you."
+msgstr ""
+
+#: r2/templates/prefsunlock.html:28
+msgid "Changing your password, email address, two-factor sign-in or linked accounts needs you to confirm it's you first."
+msgstr ""
+
+#: r2/templates/prefsunlock.html:35
+#, fuzzy
+#| msgid "enter the code from your authenticator app (or a recovery code)"
+msgid "Enter a code from your authenticator app (or a recovery code)."
+msgstr "skriv inn koden fra autentiseringsappen (eller en gjenopprettingskode)"
+
+#: r2/templates/prefsunlock.html:37
+#, fuzzy
+#| msgid "enter the code from your authenticator app (or a recovery code)"
+msgid "Confirm it's you with your passkey (or a recovery code)."
+msgstr "skriv inn koden fra autentiseringsappen (eller en gjenopprettingskode)"
+
+#: r2/templates/prefsunlock.html:41 r2/templates/printablebuttons.html:83
+msgid "unlock"
+msgstr "lås opp"
+
+#: r2/templates/prefsunlock.html:45
+#, python-format
+msgid "They stay unlocked while you use them, and lock again %(minutes)s minutes after you last opened one."
+msgstr ""
+
+#: r2/templates/prefupdate.html:52
 msgid "verify your email"
 msgstr "bekreft din e-post"
 
-#: r2/templates/prefupdate.html:51
+#: r2/templates/prefupdate.html:54
 msgid "update your email"
 msgstr "oppdater din e-post"
 
-#: r2/templates/prefupdate.html:56 r2/templates/prefupdate.html:117 r2/templates/useriphistory.html:74
+#: r2/templates/prefupdate.html:59 r2/templates/prefupdate.html:120 r2/templates/useriphistory.html:74
 msgid "current password"
 msgstr "nåværende passord"
 
-#: r2/templates/prefupdate.html:68
+#: r2/templates/prefupdate.html:71
 msgid "verified"
 msgstr "bekreftet"
 
-#: r2/templates/prefupdate.html:71
+#: r2/templates/prefupdate.html:74
 msgid "verification pending"
 msgstr "venter på bekreftelse"
 
-#: r2/templates/prefupdate.html:72
+#: r2/templates/prefupdate.html:75
 msgid "click to resend"
 msgstr "klikk for å sende på nytt"
 
-#: r2/templates/prefupdate.html:74
+#: r2/templates/prefupdate.html:77
 msgid "unverified"
 msgstr "ubekreftet"
 
-#: r2/templates/prefupdate.html:75
+#: r2/templates/prefupdate.html:78
 msgid "click to verify"
 msgstr "klikk for å verifisere"
 
-#: r2/templates/prefupdate.html:96
+#: r2/templates/prefupdate.html:99
 msgid "send verification email"
 msgstr "send e-post for bekreftelse"
 
-#: r2/templates/prefupdate.html:114
+#: r2/templates/prefupdate.html:117
 msgid "update your password"
 msgstr "oppdater ditt passord"
 
-#: r2/templates/prefupdate.html:125 r2/templates/resetpassword.html:41
+#: r2/templates/prefupdate.html:128 r2/templates/resetpassword.html:41
 msgid "new password"
 msgstr "nytt passord"
 
@@ -13105,148 +13142,148 @@ msgstr "fjernet %(time)s"
 msgid "(no need to click for this info; just hover over the checkmark next time)"
 msgstr "(ingen grunn til å klikke for denne informasjonen: bare hold pekeren over haken neste gang)"
 
-#: r2/templates/printablebuttons.html:47 r2/templates/printablebuttons.html:283
+#: r2/templates/printablebuttons.html:48 r2/templates/printablebuttons.html:284
 msgid "spammed"
 msgstr "spammet"
 
-#: r2/templates/printablebuttons.html:74 r2/templates/promotelinkbase.html:849 r2/templates/vaultreportform.html:49
+#: r2/templates/printablebuttons.html:75 r2/templates/promotelinkbase.html:849 r2/templates/vaultreportform.html:52
 msgid "report"
 msgstr "rapporter"
 
-#: r2/templates/printablebuttons.html:79
+#: r2/templates/printablebuttons.html:80
 msgid "lock"
 msgstr "lås"
 
-#: r2/templates/printablebuttons.html:85
+#: r2/templates/printablebuttons.html:86
 msgid "marked"
 msgstr "markert"
 
-#: r2/templates/printablebuttons.html:88
+#: r2/templates/printablebuttons.html:89
 msgid "un-nsfw"
 msgstr "fjern nsfw"
 
-#: r2/templates/printablebuttons.html:88
+#: r2/templates/printablebuttons.html:89
 msgid "unmarked"
 msgstr "umarkert"
 
-#: r2/templates/printablebuttons.html:120
+#: r2/templates/printablebuttons.html:121
 msgid "retry thumb"
 msgstr "prøv miniatyr på nytt"
 
-#: r2/templates/printablebuttons.html:120
+#: r2/templates/printablebuttons.html:121
 msgid "check back in a few minutes"
 msgstr "sjekk igjen om noen minutter"
 
-#: r2/templates/printablebuttons.html:140
+#: r2/templates/printablebuttons.html:141
 msgid "undistinguish"
 msgstr "fjern utheving"
 
-#: r2/templates/printablebuttons.html:155
+#: r2/templates/printablebuttons.html:156
 msgid "distinguish this?"
 msgstr "framheve dette?"
 
-#: r2/templates/printablebuttons.html:165
+#: r2/templates/printablebuttons.html:166
 msgid "yes & sticky"
 msgstr "ja og fest"
 
-#: r2/templates/printablebuttons.html:192
+#: r2/templates/printablebuttons.html:193
 msgid "undistinguish this?"
 msgstr "fjerne uthevingen?"
 
-#: r2/templates/printablebuttons.html:217
+#: r2/templates/printablebuttons.html:218
 msgid "undistinguishing..."
 msgstr "fjerner utheving..."
 
-#: r2/templates/printablebuttons.html:219
+#: r2/templates/printablebuttons.html:220
 msgid "distinguishing..."
 msgstr "framhever..."
 
-#: r2/templates/printablebuttons.html:240
+#: r2/templates/printablebuttons.html:241
 msgid "give tippr gold in appreciation of this post."
 msgstr "gi tippr gull i takknemlighet for innlegget."
 
-#: r2/templates/printablebuttons.html:243
+#: r2/templates/printablebuttons.html:244
 msgid "give gold"
 msgstr "gi gull"
 
-#: r2/templates/printablebuttons.html:270
+#: r2/templates/printablebuttons.html:271
 msgid "reapprove"
 msgstr "godkjenn på ny"
 
-#: r2/templates/printablebuttons.html:310
+#: r2/templates/printablebuttons.html:311
 msgid "click to show report reasons"
 msgstr "klikk for å se anmeldelsesårsaker"
 
-#: r2/templates/printablebuttons.html:323
+#: r2/templates/printablebuttons.html:324
 msgid "moderator reports:"
 msgstr "moderator-rapporter:"
 
-#: r2/templates/printablebuttons.html:329 r2/templates/printablebuttons.html:342
+#: r2/templates/printablebuttons.html:330 r2/templates/printablebuttons.html:343
 msgid "<no reason>"
 msgstr "<ingen grunn>"
 
-#: r2/templates/printablebuttons.html:336
+#: r2/templates/printablebuttons.html:337
 msgid "user reports:"
 msgstr "brukerrapporter:"
 
-#: r2/templates/printablebuttons.html:386
+#: r2/templates/printablebuttons.html:387
 msgid "unhide"
 msgstr "vis"
 
-#: r2/templates/printablebuttons.html:387
+#: r2/templates/printablebuttons.html:388
 msgid "unhidden"
 msgstr "vist"
 
-#: r2/templates/printablebuttons.html:427
+#: r2/templates/printablebuttons.html:428
 msgid "reject"
 msgstr "avvis"
 
-#: r2/templates/printablebuttons.html:434
+#: r2/templates/printablebuttons.html:435
 msgid "accepted"
 msgstr "akspertert"
 
-#: r2/templates/printablebuttons.html:442
+#: r2/templates/printablebuttons.html:443
 msgid "fraud"
 msgstr "svindel"
 
-#: r2/templates/printablebuttons.html:473 r2/templates/printablebuttons.html:577
+#: r2/templates/printablebuttons.html:474 r2/templates/printablebuttons.html:578
 msgid "permalink"
 msgstr "permalenke"
 
-#: r2/templates/printablebuttons.html:493 r2/templates/printablebuttons.html:566
+#: r2/templates/printablebuttons.html:494 r2/templates/printablebuttons.html:567
 msgid "context"
 msgstr "kontekst"
 
-#: r2/templates/printablebuttons.html:497 r2/templates/printablebuttons.html:570
+#: r2/templates/printablebuttons.html:498 r2/templates/printablebuttons.html:571
 msgid "full comments"
 msgstr "alle kommentarer"
 
-#: r2/templates/printablebuttons.html:507
+#: r2/templates/printablebuttons.html:508
 msgid "parent"
 msgstr "foreldre"
 
-#: r2/templates/printablebuttons.html:538 r2/templates/printablebuttons.html:540 r2/templates/printablebuttons.html:633
+#: r2/templates/printablebuttons.html:539 r2/templates/printablebuttons.html:541 r2/templates/printablebuttons.html:634
 #, python-brace-format
 msgid "reply {verb}"
 msgstr "svar"
 
-#: r2/templates/printablebuttons.html:595
+#: r2/templates/printablebuttons.html:596
 msgid "unblock vault"
 msgstr "fjern blokkering av vault"
 
-#: r2/templates/printablebuttons.html:595
+#: r2/templates/printablebuttons.html:596
 msgid "unblocked"
 msgstr "blokkering fjernet"
 
-#: r2/templates/printablebuttons.html:598
+#: r2/templates/printablebuttons.html:599
 msgid "block vault"
 msgstr "blokkér vault"
 
-#: r2/templates/printablebuttons.html:605
+#: r2/templates/printablebuttons.html:606
 msgid "block user"
 msgstr "blokker bruker"
 
-#: r2/templates/printablebuttons.html:623
+#: r2/templates/printablebuttons.html:624
 msgid "mark unread"
 msgstr "marker som ulest"
 
@@ -14056,15 +14093,15 @@ msgstr "avslutt"
 msgid "why are you reporting this?"
 msgstr "Hvorfor rapporterer du dette?"
 
-#: r2/templates/reportform.html:54
+#: r2/templates/reportform.html:54 r2/templates/vaultreportform.html:83
 #, python-format
-msgid "tippr rule: %(rule_name)s"
-msgstr "tippr-regel: %(rule_name)s"
+msgid "%(site_name)s rule: %(rule_name)s"
+msgstr "Regel for %(site_name)s: %(rule_name)s"
 
-#: r2/templates/reportform.html:62
+#: r2/templates/reportform.html:62 r2/templates/vaultreportform.html:127
 #, python-format
-msgid "other (max %(num)s characters):"
-msgstr "Andre (max %(num)s tegn):"
+msgid "Other (max %(num)s characters):"
+msgstr "Annet (maks %(num)s tegn):"
 
 #: r2/templates/rules.html:44
 msgid "Rules that visitors must follow to participate. May be used as reasons to report or ban."
@@ -14692,31 +14729,22 @@ msgstr "godkjenn denne vaulten"
 msgid "ban this vault"
 msgstr "steng ute denne vaulten"
 
-#: r2/templates/vaultreportform.html:35 r2/templates/vaultreportform.html:36
+#: r2/templates/vaultreportform.html:38 r2/templates/vaultreportform.html:39
 msgid "View the community rules"
 msgstr "Se fellesskapets regler"
 
-#: r2/templates/vaultreportform.html:39
+#: r2/templates/vaultreportform.html:42
 msgid "What rule does this break?"
 msgstr "Hvilken regel bryter dette?"
 
-#: r2/templates/vaultreportform.html:80
-#, python-format
-msgid "Tippr rule: %(rule_name)s"
-msgstr "Tippr-regel: %(rule_name)s"
-
-#: r2/templates/vaultreportform.html:89 r2/templates/vaultreportform.html:108
+#: r2/templates/vaultreportform.html:92 r2/templates/vaultreportform.html:111
 msgid "Reports go to community moderators anonymously"
 msgstr "Rapporter går anonymt til fellesskapets moderatorer"
 
-#: r2/templates/vaultreportform.html:110
-msgid "Reports go to Tippr admins"
-msgstr "Rapporter går til Tippr-administratorene"
-
-#: r2/templates/vaultreportform.html:124
+#: r2/templates/vaultreportform.html:113
 #, python-format
-msgid "Other (max %(num)s characters):"
-msgstr "Annet (maks %(num)s tegn):"
+msgid "Reports go to the %(site_name)s admins"
+msgstr "Rapporter går til administratorene av %(site_name)s"
 
 #: r2/templates/vaultstylesheet.html:58 r2/templates/wikieditpage.html:52
 msgid "reason for revision"

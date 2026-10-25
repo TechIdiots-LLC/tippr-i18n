@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tippr\n"
 "Report-Msgid-Bugs-To: https://github.com/TechIdiots-LLC/tippr-i18n/issues\n"
-"POT-Creation-Date: 2026-10-24 20:07-0400\n"
+"POT-Creation-Date: 2026-10-25 10:54-0400\n"
 "PO-Revision-Date: 2017-01-23 14:41-0500\n"
 "Last-Translator: tippr translators\n"
 "Language-Team: Ukrainian\n"
@@ -20,7 +20,7 @@ msgstr ""
 msgid "Choose an image of at most 1 MB."
 msgstr "Виберіть зображення розміром до 1 МБ."
 
-#: r2/controllers/api.py:223 r2/controllers/api.py:249 r2/controllers/api.py:4436 r2/controllers/api.py:4506 r2/controllers/listingcontroller.py:766 r2/lib/pages/pages.py:6405
+#: r2/controllers/api.py:223 r2/controllers/api.py:249 r2/controllers/api.py:4436 r2/controllers/api.py:4506 r2/controllers/listingcontroller.py:766 r2/lib/pages/pages.py:6422
 msgid "API"
 msgstr "API"
 
@@ -74,7 +74,7 @@ msgstr "Вхід тривав надто довго. Почніть спочат
 msgid "That account is linked already: sign in with it."
 msgstr "Цей обліковий запис уже прив’язано: увійдіть за його допомогою."
 
-#: r2/controllers/api.py:1436 r2/controllers/api.py:1817 r2/controllers/api.py:2719 r2/controllers/api.py:3019 r2/controllers/api.py:3346 r2/controllers/api.py:4228 r2/controllers/api.py:4284 r2/controllers/api.py:4338 r2/controllers/api.py:4571 r2/controllers/api.py:4576 r2/controllers/api.py:4811 r2/controllers/api.py:4876 r2/controllers/api.py:4954 r2/controllers/api.py:5020 r2/controllers/api.py:5093 r2/controllers/api.py:5184 r2/controllers/api.py:5216 r2/controllers/api.py:5236 r2/controllers/api.py:5750 r2/controllers/api.py:5790 r2/controllers/api.py:6024 r2/controllers/api.py:6042 r2/controllers/api.py:6390 r2/lib/pages/pages.py:6296
+#: r2/controllers/api.py:1436 r2/controllers/api.py:1817 r2/controllers/api.py:2719 r2/controllers/api.py:3019 r2/controllers/api.py:3346 r2/controllers/api.py:4228 r2/controllers/api.py:4284 r2/controllers/api.py:4338 r2/controllers/api.py:4571 r2/controllers/api.py:4576 r2/controllers/api.py:4811 r2/controllers/api.py:4876 r2/controllers/api.py:4954 r2/controllers/api.py:5020 r2/controllers/api.py:5093 r2/controllers/api.py:5184 r2/controllers/api.py:5216 r2/controllers/api.py:5236 r2/controllers/api.py:5750 r2/controllers/api.py:5790 r2/controllers/api.py:6024 r2/controllers/api.py:6042 r2/controllers/api.py:6390 r2/lib/pages/pages.py:6313
 msgid "saved"
 msgstr "збережене"
 
@@ -106,7 +106,7 @@ msgstr "відповідь вже відправлена"
 msgid "validation errors"
 msgstr "помилки перевірки"
 
-#: r2/controllers/api.py:2822 r2/controllers/api.py:2849 r2/controllers/api.py:2876 r2/controllers/listingcontroller.py:1048 r2/lib/menus.py:195 r2/public/static/js/tippr.js:235 r2/templates/adminapps.html:51 r2/templates/adminuser.html:59 r2/templates/deleteduserinterstitial.html:34 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:585 r2/templates/vaultstylesheetbase.html:47
+#: r2/controllers/api.py:2822 r2/controllers/api.py:2849 r2/controllers/api.py:2876 r2/controllers/listingcontroller.py:1048 r2/lib/menus.py:195 r2/public/static/js/tippr.js:235 r2/templates/adminapps.html:51 r2/templates/adminuser.html:59 r2/templates/deleteduserinterstitial.html:34 r2/templates/printablebuttons.html:41 r2/templates/printablebuttons.html:586 r2/templates/vaultstylesheetbase.html:47
 msgid "deleted"
 msgstr "видалено"
 
@@ -188,7 +188,7 @@ msgstr "такого платежу немає"
 msgid "status"
 msgstr "статус"
 
-#: r2/controllers/api.py:5084 r2/controllers/linked_logins.py:93 r2/controllers/linked_logins.py:187 r2/lib/pages/pages.py:1374 r2/lib/pages/pages.py:1424 r2/templates/createvault.html:57 r2/templates/goldpayment.html:168 r2/templates/linkedsignin.html:41 r2/templates/listingchooser.html:69 r2/templates/prefapps.html:153 r2/templates/prefapps.html:348
+#: r2/controllers/api.py:5084 r2/controllers/linked_logins.py:93 r2/controllers/linked_logins.py:187 r2/lib/pages/pages.py:1388 r2/lib/pages/pages.py:1438 r2/templates/createvault.html:57 r2/templates/goldpayment.html:168 r2/templates/linkedsignin.html:41 r2/templates/listingchooser.html:69 r2/templates/prefapps.html:153 r2/templates/prefapps.html:348
 msgid "name"
 msgstr "ім'я"
 
@@ -450,45 +450,45 @@ msgstr "не вдалося додати цей ключ доступу"
 msgid "that passkey wasn't accepted"
 msgstr "цей ключ доступу не прийнято"
 
-#: r2/controllers/api.py:6502
+#: r2/controllers/api.py:6504
 #, python-format
 msgid "accounts need to be %(n)d days old"
 msgstr "облікові записи мають існувати щонайменше %(n)d дн."
 
-#: r2/controllers/api.py:6506
+#: r2/controllers/api.py:6508
 #, python-format
 msgid "accounts need %(n)d karma"
 msgstr "обліковим записам потрібно %(n)d карми"
 
-#: r2/controllers/api.py:6509
+#: r2/controllers/api.py:6511
 msgid "verify your email address first"
 msgstr "спершу підтвердьте адресу ел. пошти"
 
-#: r2/controllers/api.py:6551 r2/lib/errors.py:158
+#: r2/controllers/api.py:6553 r2/lib/errors.py:159
 msgid "this app can not be modified from this interface"
 msgstr "цей застосунок не можна змінити через цей інтерфейс"
 
-#: r2/controllers/api.py:6558 r2/lib/errors.py:136
+#: r2/controllers/api.py:6560 r2/lib/errors.py:136
 msgid "invalid client id"
 msgstr "неправильний код клієнта"
 
-#: r2/controllers/api.py:6561
+#: r2/controllers/api.py:6563
 msgid "cannot update deleted app"
 msgstr "неможливо оновити програму, котра була видалена"
 
-#: r2/controllers/api.py:6564
+#: r2/controllers/api.py:6566
 msgid "app does not belong to you"
 msgstr "програма вам не належить"
 
-#: r2/controllers/api.py:6572
+#: r2/controllers/api.py:6574
 msgid "application updated"
 msgstr "програму оновлено"
 
-#: r2/controllers/api.py:6596
+#: r2/controllers/api.py:6598
 msgid "application created"
 msgstr "програму створено"
 
-#: r2/controllers/api.py:6631
+#: r2/controllers/api.py:6633
 msgid "developer added"
 msgstr "розробника додано"
 
@@ -504,7 +504,7 @@ msgstr "кнопки tippr"
 msgid "tippr widget"
 msgstr "віджет tippr"
 
-#: r2/controllers/embed.py:74 r2/controllers/policies.py:51 r2/lib/pages/pages.py:1137 r2/lib/pages/pages.py:6401 r2/templates/printablebuttons.html:150
+#: r2/controllers/embed.py:74 r2/controllers/policies.py:51 r2/lib/pages/pages.py:1136 r2/lib/pages/pages.py:6418 r2/templates/printablebuttons.html:151
 msgid "help"
 msgstr "допомога"
 
@@ -538,7 +538,7 @@ msgstr "сторінка, яку ви запитали, не існує"
 msgid "suspended"
 msgstr "у тайм-ауті"
 
-#: r2/controllers/front.py:247 r2/lib/pages/pages.py:6283
+#: r2/controllers/front.py:247 r2/lib/pages/pages.py:6300
 msgid "explore"
 msgstr "розвідати"
 
@@ -570,7 +570,7 @@ msgstr "показати %d"
 msgid "create a vault"
 msgstr "створити волт"
 
-#: r2/controllers/front.py:738 r2/controllers/front.py:744 r2/controllers/listingcontroller.py:813 r2/controllers/listingcontroller.py:828 r2/controllers/listingcontroller.py:1192 r2/controllers/listingcontroller.py:1203 r2/lib/menus.py:203 r2/lib/menus.py:453 r2/lib/menus.py:666 r2/lib/pages/pages.py:5170 r2/lib/pages/pages.py:5179 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
+#: r2/controllers/front.py:738 r2/controllers/front.py:744 r2/controllers/listingcontroller.py:813 r2/controllers/listingcontroller.py:828 r2/controllers/listingcontroller.py:1192 r2/controllers/listingcontroller.py:1203 r2/lib/menus.py:203 r2/lib/menus.py:453 r2/lib/menus.py:666 r2/lib/pages/pages.py:5187 r2/lib/pages/pages.py:5196 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
 msgid "all"
 msgstr "всі"
 
@@ -594,7 +594,7 @@ msgstr "публікації та коментарі"
 msgid "posts"
 msgstr "публікації"
 
-#: r2/controllers/front.py:949 r2/controllers/listingcontroller.py:1795 r2/lib/pages/pages.py:5924 r2/templates/adminuser.html:37 r2/templates/createvault.html:288 r2/templates/link.xml:95
+#: r2/controllers/front.py:949 r2/controllers/listingcontroller.py:1795 r2/lib/pages/pages.py:5941 r2/templates/adminuser.html:37 r2/templates/createvault.html:288 r2/templates/link.xml:95
 msgid "comments"
 msgstr "коментарі"
 
@@ -673,7 +673,7 @@ msgstr "Дякуємо що придбали Золоту підписку tippr
 msgid "Thanks for buying tippr gold! Your transaction is being processed. If you have any questions please contact us at %(gold_email)s"
 msgstr "Дякуємо за покупку tippr gold! Ваш платіж обробляється. Якщо маєте запитання, пишіть нам на %(gold_email)s"
 
-#: r2/controllers/front.py:1582 r2/controllers/front.py:1891
+#: r2/controllers/front.py:1582 r2/controllers/front.py:1894
 msgid "thanks"
 msgstr "дякую"
 
@@ -689,11 +689,11 @@ msgstr "активація нагороди"
 msgid "gilding"
 msgstr "подарувати золото"
 
-#: r2/controllers/front.py:1636 r2/controllers/front.py:1940 r2/controllers/front.py:1967 r2/controllers/front.py:2037 r2/controllers/front.py:2080 r2/lib/menus.py:94 r2/templates/contactus.html:117 r2/templates/contactus.html:119 r2/templates/creditgild.html:34 r2/templates/gold.html:30 r2/templates/goldabout.html:20 r2/templates/goldpayment.html:40 r2/templates/goldthanks.html:29 r2/templates/prefoptions.html:562
+#: r2/controllers/front.py:1636 r2/controllers/front.py:1943 r2/controllers/front.py:1970 r2/controllers/front.py:2040 r2/controllers/front.py:2083 r2/lib/menus.py:94 r2/templates/contactus.html:117 r2/templates/contactus.html:119 r2/templates/creditgild.html:34 r2/templates/gold.html:30 r2/templates/goldabout.html:20 r2/templates/goldpayment.html:40 r2/templates/goldthanks.html:29 r2/templates/prefoptions.html:562
 msgid "tippr gold"
 msgstr "Золота підписка"
 
-#: r2/controllers/front.py:1669 r2/public/static/js/enhancements.js:1084 r2/templates/adminemailsettings.html:73 r2/templates/admininterstitial.html:56 r2/templates/linkedloginlink.html:40 r2/templates/linkedloginlink.html:58 r2/templates/login.html:96 r2/templates/login.html:98 r2/templates/login.html:223 r2/templates/loginformwide.html:46 r2/templates/prefsecurity.html:130 r2/templates/prefsecurity.html:237 r2/templates/prefsecurity.html:270 r2/templates/privacysettings.html:128
+#: r2/controllers/front.py:1669 r2/public/static/js/enhancements.js:1084 r2/templates/adminemailsettings.html:73 r2/templates/admininterstitial.html:56 r2/templates/linkedloginlink.html:40 r2/templates/linkedloginlink.html:58 r2/templates/login.html:96 r2/templates/login.html:98 r2/templates/login.html:223 r2/templates/loginformwide.html:46 r2/templates/prefsecurity.html:105 r2/templates/prefsecurity.html:205 r2/templates/prefsecurity.html:238 r2/templates/privacysettings.html:128
 msgid "password"
 msgstr "пароль"
 
@@ -713,31 +713,31 @@ msgstr "недійсний токен повідомлення"
 msgid "emails unsubscribed"
 msgstr "поштові адреси відписано"
 
-#: r2/controllers/front.py:1843 r2/lib/pages/pages.py:930 r2/templates/admininterstitial.html:83
+#: r2/controllers/front.py:1846 r2/lib/pages/pages.py:929 r2/templates/admininterstitial.html:83
 msgid "turn admin on"
 msgstr "включити адміністрування"
 
-#: r2/controllers/front.py:1861 r2/controllers/post.py:166
+#: r2/controllers/front.py:1864 r2/controllers/post.py:166
 msgid "opt out"
 msgstr "відмовитись"
 
-#: r2/controllers/front.py:1861 r2/controllers/post.py:177
+#: r2/controllers/front.py:1864 r2/controllers/post.py:177
 msgid "welcome back"
 msgstr "ласкаво просимо знову"
 
-#: r2/controllers/front.py:1969
+#: r2/controllers/front.py:1972
 msgid "tippr gold isn't for sale on this site right now."
 msgstr "Золота підписка tippr зараз не продається на цьому сайті."
 
-#: r2/controllers/front.py:1970
+#: r2/controllers/front.py:1973
 msgid "what gold gives you"
 msgstr "що дає золото"
 
-#: r2/controllers/front.py:2090 r2/templates/gold.html:57 r2/templates/gold.html:112 r2/templates/prefoptions.html:553
+#: r2/controllers/front.py:2093 r2/templates/gold.html:57 r2/templates/gold.html:112 r2/templates/prefoptions.html:553
 msgid "Give Gold"
 msgstr "Подарувати Золото"
 
-#: r2/controllers/front.py:2100 r2/controllers/ipn.py:844
+#: r2/controllers/front.py:2103 r2/controllers/ipn.py:844
 msgid "tippr gold subscription"
 msgstr "Золота підписка tippr"
 
@@ -1108,11 +1108,11 @@ msgstr "позолочено учасниками %(user)s"
 msgid "profile for %(user)s"
 msgstr "профіль учасника %(user)s"
 
-#: r2/controllers/listingcontroller.py:1021 r2/lib/menus.py:110 r2/templates/printablebuttons.html:598 r2/templates/printablebuttons.html:605
+#: r2/controllers/listingcontroller.py:1021 r2/lib/menus.py:110 r2/templates/printablebuttons.html:599 r2/templates/printablebuttons.html:606
 msgid "blocked"
 msgstr "заблоковані"
 
-#: r2/controllers/listingcontroller.py:1193 r2/controllers/listingcontroller.py:1204 r2/templates/printablebuttons.html:625
+#: r2/controllers/listingcontroller.py:1193 r2/controllers/listingcontroller.py:1204 r2/templates/printablebuttons.html:626
 msgid "unread"
 msgstr "не прочитане"
 
@@ -1140,11 +1140,11 @@ msgstr "волти: "
 msgid "To block a user click 'block user'  below a message from a user you wish to block from messaging you."
 msgstr "Щоб заблокувати учасника, натисніть «заблокувати» під повідомленням від користувача, який більше не зможе вам писати."
 
-#: r2/controllers/listingcontroller.py:2105 r2/lib/menus.py:60
+#: r2/controllers/listingcontroller.py:2109 r2/lib/menus.py:60
 msgid "gilded"
 msgstr "позолочено"
 
-#: r2/controllers/listingcontroller.py:2121
+#: r2/controllers/listingcontroller.py:2125
 #, python-format
 msgid "gildings in this vault have paid for %(time)s of server time"
 msgstr "подароване в цьому волті золото допомогло нам сплатили за %(time)s серверного часу"
@@ -1208,15 +1208,15 @@ msgstr "Платіж не пройшов, тож гроші не списано.
 msgid "try again"
 msgstr "спробуйте ще раз"
 
-#: r2/controllers/policies.py:61 r2/lib/help_pages.py:43 r2/lib/menus.py:102 r2/lib/pages/pages.py:6411 r2/templates/contactus.html:84 r2/templates/utils.html:543
+#: r2/controllers/policies.py:61 r2/lib/help_pages.py:43 r2/lib/menus.py:102 r2/lib/pages/pages.py:6428 r2/templates/contactus.html:84 r2/templates/utils.html:543
 msgid "privacy policy"
 msgstr "політика приватності"
 
-#: r2/controllers/policies.py:64 r2/lib/help_pages.py:42 r2/lib/menus.py:101 r2/lib/pages/pages.py:6412 r2/templates/contactus.html:92
+#: r2/controllers/policies.py:64 r2/lib/help_pages.py:42 r2/lib/menus.py:101 r2/lib/pages/pages.py:6429 r2/templates/contactus.html:92
 msgid "user agreement"
 msgstr "угода з користувачем"
 
-#: r2/controllers/policies.py:67 r2/lib/help_pages.py:44 r2/lib/menus.py:100 r2/lib/pages/pages.py:6413 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:237
+#: r2/controllers/policies.py:67 r2/lib/help_pages.py:44 r2/lib/menus.py:100 r2/lib/pages/pages.py:6430 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:237
 msgid "content policy"
 msgstr "політика вмісту"
 
@@ -1232,15 +1232,15 @@ msgstr "більше 18 років?"
 msgid "quarantined"
 msgstr "у карантині"
 
-#: r2/controllers/privacy.py:111 r2/controllers/privacy.py:139
+#: r2/controllers/privacy.py:114 r2/controllers/privacy.py:142
 msgid "Your data export request has been submitted. You will receive a notification when it is ready."
 msgstr "Ваш запит на експорт даних надіслано. Ви отримаєте сповіщення, коли він буде готовий."
 
-#: r2/controllers/privacy.py:164
+#: r2/controllers/privacy.py:167
 msgid "This request cannot be cancelled."
 msgstr "Цей запит не можна скасувати."
 
-#: r2/controllers/privacy.py:168
+#: r2/controllers/privacy.py:171
 msgid "Request cancelled."
 msgstr "Запит скасовано."
 
@@ -1356,7 +1356,7 @@ msgstr "виберіть зображення"
 msgid "too big. keep it under 500 KB"
 msgstr "завелике. не більше 500 КБ"
 
-#: r2/controllers/tippr_base.py:1483 r2/lib/pages/pages.py:4699 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
+#: r2/controllers/tippr_base.py:1483 r2/lib/pages/pages.py:4716 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
 msgid "banned"
 msgstr "заблоковано"
 
@@ -1767,7 +1767,7 @@ msgstr "ви повинні вказати волт"
 msgid "this vault has chosen to disable their ads at this time"
 msgstr "у цьому волті зараз вимкнена реклама"
 
-#: r2/lib/errors.py:88 r2/lib/validator/validator.py:3268
+#: r2/lib/errors.py:88 r2/lib/validator/validator.py:3276
 msgid "that name isn't going to work"
 msgstr "таке ім'я не спрацює"
 
@@ -2024,225 +2024,229 @@ msgid "enter the code from your authenticator app (or a recovery code)"
 msgstr "введіть код із застосунку-автентифікатора (або код відновлення)"
 
 #: r2/lib/errors.py:153
-msgid "that code didn't work. Codes follow the clock, so check that your phone sets its time automatically."
+msgid "your preferences locked again while you were away: reload the page to unlock them, then try again"
 msgstr ""
 
 #: r2/lib/errors.py:154
+msgid "that code didn't work. Codes follow the clock, so check that your phone sets its time automatically."
+msgstr ""
+
+#: r2/lib/errors.py:155
 msgid "turn on two-factor authentication (preferences, security) to use these tools"
 msgstr "увімкніть двофакторну автентифікацію (налаштування, безпека), щоб користуватися цими інструментами"
 
-#: r2/lib/errors.py:155
+#: r2/lib/errors.py:156
 msgid "image problem"
 msgstr "проблема зображення"
 
-#: r2/lib/errors.py:156
+#: r2/lib/errors.py:157
 msgid "already added"
 msgstr "вже додано"
 
-#: r2/lib/errors.py:157
+#: r2/lib/errors.py:158
 msgid "too many developers"
 msgstr "занадто багато розробників"
 
-#: r2/lib/errors.py:159
+#: r2/lib/errors.py:160
 msgid "you cannot add this account from this interface"
 msgstr "цей обліковий запис не можна додати через цей інтерфейс"
 
-#: r2/lib/errors.py:160
+#: r2/lib/errors.py:161
 msgid "invalid modhash"
 msgstr "недійсний modhash"
 
-#: r2/lib/errors.py:161
+#: r2/lib/errors.py:162
 msgid "that user is already a moderator"
 msgstr "цей користувач вже модератор"
 
-#: r2/lib/errors.py:162
+#: r2/lib/errors.py:163
 msgid "You can't perform that action because that user is a moderator."
 msgstr "Ви не можете виконати цю дію, бо цей користувач — модератор."
 
-#: r2/lib/errors.py:163
+#: r2/lib/errors.py:164
 msgid "there is no pending invite for that vault"
 msgstr "немає неприйнятих запрошень в цей волт"
 
-#: r2/lib/errors.py:164
+#: r2/lib/errors.py:165
 msgid "you cannot edit the budget of a live ad"
 msgstr "ви не можете редагувати бюджет рекламної кампанії, що є активна"
 
-#: r2/lib/errors.py:165
+#: r2/lib/errors.py:166
 msgid "you have too many campaigns for that promotion"
 msgstr "ви маєте забагато кампаній для цієї рекламної акції"
 
-#: r2/lib/errors.py:166
+#: r2/lib/errors.py:167
 msgid "that jsonp callback contains invalid characters"
 msgstr "той зворотній виклик jsonp містить неприпустимі символи"
 
-#: r2/lib/errors.py:167
+#: r2/lib/errors.py:168
 msgid "permissions don't apply to that type of user"
 msgstr "дозволи не діють на такі групи користувачів"
 
-#: r2/lib/errors.py:168
+#: r2/lib/errors.py:169
 msgid "invalid permissions string"
 msgstr "невірний рядок з дозволами"
 
-#: r2/lib/errors.py:169
+#: r2/lib/errors.py:170
 msgid "invalid multi path"
 msgstr "невірний мульти-шлях"
 
-#: r2/lib/errors.py:170
+#: r2/lib/errors.py:171
 #, python-format
 msgid "%(reason)s"
 msgstr "%(reason)s"
 
-#: r2/lib/errors.py:171
+#: r2/lib/errors.py:172
 msgid "that multivault doesn't exist"
 msgstr "такий мультиреддіт не існує"
 
-#: r2/lib/errors.py:172
+#: r2/lib/errors.py:173
 msgid "that multivault already exists"
 msgstr "такий мультиреддіт уже існує"
 
-#: r2/lib/errors.py:173
+#: r2/lib/errors.py:174
 msgid "you can't change that multivault"
 msgstr "ви не можете змінити той мультиреддит"
 
-#: r2/lib/errors.py:174
+#: r2/lib/errors.py:175
 msgid "no more space for vaults in that multivault"
 msgstr "немає місця для нових волтів в тому мультиволті"
 
-#: r2/lib/errors.py:175
+#: r2/lib/errors.py:176
 #, python-format
 msgid "can't add special vault %(path)s"
 msgstr "не можу додати особливий волт %(path)s"
 
-#: r2/lib/errors.py:176
+#: r2/lib/errors.py:177
 #, python-format
 msgid "maximum %(max)s vaults"
 msgstr "максимум %(max)s волтів"
 
-#: r2/lib/errors.py:177
+#: r2/lib/errors.py:178
 msgid "unable to parse JSON data"
 msgstr "не можу розібрати JSON дані"
 
-#: r2/lib/errors.py:178
+#: r2/lib/errors.py:179
 msgid "unexpected JSON structure"
 msgstr "несподівана структура JSON"
 
-#: r2/lib/errors.py:179
+#: r2/lib/errors.py:180
 #, python-format
 msgid "JSON missing key: \"%(key)s\""
 msgstr "не знайдений JSON ключ: \"%(key)s\""
 
-#: r2/lib/errors.py:180
+#: r2/lib/errors.py:181
 msgid "can't change post type"
 msgstr "неможливо змінити тип публікації"
 
-#: r2/lib/errors.py:181
+#: r2/lib/errors.py:182
 msgid "invalid location"
 msgstr "невірне місцезнаходження"
 
-#: r2/lib/errors.py:182
+#: r2/lib/errors.py:183
 msgid "invalid values for frequency cap"
 msgstr "недійсне значення обмеження частоти"
 
-#: r2/lib/errors.py:183
+#: r2/lib/errors.py:184
 #, python-format
 msgid "frequency cap must be at least %(min)d"
 msgstr "обмеження частоти має бути щонайменше %(min)d"
 
-#: r2/lib/errors.py:184
+#: r2/lib/errors.py:185
 msgid "that user is banned from the vault"
 msgstr "той користувач заблокований на волті"
 
-#: r2/lib/errors.py:185
+#: r2/lib/errors.py:186
 msgid "You can't do that while suspended."
 msgstr "У тайм-ауті цього робити не можна."
 
-#: r2/lib/errors.py:186
+#: r2/lib/errors.py:187
 msgid "you must have an active tippr gold subscription to do that"
 msgstr "ваша золота підписка tippr має бути активною для цього"
 
-#: r2/lib/errors.py:187
+#: r2/lib/errors.py:188
 msgid "insufficient coins"
 msgstr "недостатньо креддитів"
 
-#: r2/lib/errors.py:188
+#: r2/lib/errors.py:189
 msgid "gilding is not allowed in this vault"
 msgstr "дарування золота не дозволене у цьому волті"
 
-#: r2/lib/errors.py:189
+#: r2/lib/errors.py:190
 msgid "unable to scrape provided url"
 msgstr "не вдалося завантажити сторінку з заданого адресу"
 
-#: r2/lib/errors.py:190
+#: r2/lib/errors.py:191
 msgid "can't send a message from a vault to another vault"
 msgstr "переслати повідомлення з одного волта до іншого неможливо"
 
-#: r2/lib/errors.py:191
+#: r2/lib/errors.py:192
 msgid "can't send message to that user"
 msgstr "послати повідомлення цьому користувачу неможливо"
 
-#: r2/lib/errors.py:192
+#: r2/lib/errors.py:193
 msgid "you must be in admin mode for this"
 msgstr "ви маєте бути в режимі адміністратора для цього"
 
-#: r2/lib/errors.py:193
+#: r2/lib/errors.py:194
 #, python-format
 msgid "to convert an existing vault to gold only, send a message to %(admin_modmail)s"
 msgstr "щоб наявний волт став доступним лише для золотих підписників, надішліть повідомлення на %(admin_modmail)s"
 
-#: r2/lib/errors.py:195
+#: r2/lib/errors.py:196
 msgid "this vault must be 'gold only' to select this"
 msgstr "цей волт має бути «лише для золотих». щоб таке вибрати"
 
-#: r2/lib/errors.py:196
+#: r2/lib/errors.py:197
 msgid "your account is too new or you do not have enough karma to create a vault. please contact the admins to request an exemption."
 msgstr "ваш обліковий запис занадто новий або у вас недостатньо карми, щоб створити волт. зв'яжіться з адміністраторами, щоб попросити виняток."
 
-#: r2/lib/errors.py:197
+#: r2/lib/errors.py:198
 msgid "you must select at least one mobile OS to target"
 msgstr "Ви повинні обрати принаймні одну цільову мобільну ОС"
 
-#: r2/lib/errors.py:198 r2/templates/promotelinkbase.html:524
+#: r2/lib/errors.py:199 r2/templates/promotelinkbase.html:524
 msgid "you must select at least one device per OS to target"
 msgstr "Ви повинні обрати принаймні один цільовий пристрій для ОС"
 
-#: r2/lib/errors.py:199
+#: r2/lib/errors.py:200
 msgid "You have been muted from this vault."
 msgstr "Вам заборонили висловлюватися у цьому волті."
 
-#: r2/lib/errors.py:200
+#: r2/lib/errors.py:201
 msgid "This user has been muted from the vault."
 msgstr "Цьому користувачеві заборонили висловлюватися у волті."
 
-#: r2/lib/errors.py:201
+#: r2/lib/errors.py:202
 msgid "please say how much AI went into this post"
 msgstr "вкажіть, наскільки в цій публікації брав участь ШІ"
 
-#: r2/lib/errors.py:202
+#: r2/lib/errors.py:203
 #, python-format
 msgid "this vault only accepts: %(allowed)s"
 msgstr "цей волт приймає лише: %(allowed)s"
 
-#: r2/lib/errors.py:203
+#: r2/lib/errors.py:204
 msgid "This comment is not stickyable. Ensure that it is a top level comment."
 msgstr "Цей коментар не можна закріпити. Переконайтеся, що це коментар верхнього рівня."
 
-#: r2/lib/errors.py:204 r2/public/static/js/errors.js:7
+#: r2/lib/errors.py:205 r2/public/static/js/errors.js:7
 msgid "A vault rule by that name already exists."
 msgstr "Правило волта з такою назвою вже існує."
 
-#: r2/lib/errors.py:205
+#: r2/lib/errors.py:206
 msgid "No vault rule by that name exists."
 msgstr "Правила волта з такою назвою немає."
 
-#: r2/lib/errors.py:206 r2/public/static/js/errors.js:8
+#: r2/lib/errors.py:207 r2/public/static/js/errors.js:8
 msgid "This vault already has the maximum number of rules."
 msgstr "У цьому волті вже максимальна кількість правил."
 
-#: r2/lib/errors.py:207
+#: r2/lib/errors.py:208
 msgid "Cannot access this comment."
 msgstr "Немає доступу до цього коментаря."
 
-#: r2/lib/errors.py:208
+#: r2/lib/errors.py:209
 msgid "Cannot access this post."
 msgstr "Немає доступу до цієї публікації."
 
@@ -2731,7 +2735,7 @@ msgstr "FAQ"
 msgid "saved {toolbar}"
 msgstr "збережені"
 
-#: r2/lib/menus.py:65 r2/templates/prefsecurity.html:278
+#: r2/lib/menus.py:65 r2/templates/prefsecurity.html:246
 msgid "recommended"
 msgstr "рекомендоване"
 
@@ -2767,7 +2771,7 @@ msgstr "останній рік"
 msgid "all time"
 msgstr "за увесь час"
 
-#: r2/lib/menus.py:78 r2/models/rules.py:37 r2/templates/preffeeds.html:120 r2/templates/printablebuttons.html:47 r2/templates/printablebuttons.html:265
+#: r2/lib/menus.py:78 r2/templates/preffeeds.html:120 r2/templates/printablebuttons.html:48 r2/templates/printablebuttons.html:266
 msgid "spam"
 msgstr "спам"
 
@@ -2775,7 +2779,7 @@ msgstr "спам"
 msgid "autobanned"
 msgstr "автоматично заблокований"
 
-#: r2/lib/menus.py:82 r2/lib/pages/pages.py:1271 r2/lib/pages/pages.py:1295
+#: r2/lib/menus.py:82 r2/lib/pages/pages.py:1270 r2/lib/pages/pages.py:1294
 msgid "preferences"
 msgstr "налаштування"
 
@@ -2889,7 +2893,7 @@ msgstr "таблиця стилів"
 msgid "home"
 msgstr "головна"
 
-#: r2/lib/menus.py:130 r2/lib/pages/pages.py:1128
+#: r2/lib/menus.py:130 r2/lib/pages/pages.py:1127
 msgid "about"
 msgstr "про"
 
@@ -2897,7 +2901,7 @@ msgstr "про"
 msgid "edit subscriptions"
 msgstr "редагувати підписки"
 
-#: r2/lib/menus.py:132 r2/lib/pages/pages.py:2314
+#: r2/lib/menus.py:132 r2/lib/pages/pages.py:2328
 msgid "vault settings"
 msgstr "налаштування волту"
 
@@ -2909,7 +2913,7 @@ msgstr "редагувати таблицю стилів"
 msgid "rules"
 msgstr "правила"
 
-#: r2/lib/menus.py:135 r2/lib/pages/pages.py:881 r2/templates/adminvault.html:33 r2/templates/adminvault.html:101
+#: r2/lib/menus.py:135 r2/lib/pages/pages.py:880 r2/templates/adminvault.html:33 r2/templates/adminvault.html:101
 msgid "moderators"
 msgstr "модератори"
 
@@ -2985,7 +2989,7 @@ msgstr "популярні"
 msgid "create"
 msgstr "створити"
 
-#: r2/lib/menus.py:158 r2/lib/pages/pages.py:2939
+#: r2/lib/menus.py:158 r2/lib/pages/pages.py:2953
 msgid "my vaults"
 msgstr "мої волти"
 
@@ -3047,7 +3051,7 @@ msgstr "захист від спаму"
 msgid "live config"
 msgstr "конфігурація в реальному часі"
 
-#: r2/lib/menus.py:175 r2/lib/pages/pages.py:939 r2/templates/adminsupport.html:34
+#: r2/lib/menus.py:175 r2/lib/pages/pages.py:938 r2/templates/adminsupport.html:34
 msgid "support"
 msgstr "підтримка"
 
@@ -3095,7 +3099,7 @@ msgstr "автори на яких були скарги"
 msgid "info"
 msgstr "інформація"
 
-#: r2/lib/menus.py:188 r2/templates/multiinfobar.html:107 r2/templates/printablebuttons.html:368
+#: r2/lib/menus.py:188 r2/templates/multiinfobar.html:107 r2/templates/printablebuttons.html:369
 msgid "share"
 msgstr "поділитися"
 
@@ -3243,7 +3247,7 @@ msgstr "налаштування"
 msgid "edit settings, sidebar, css, images, and AutoModerator config"
 msgstr "редагувати налаштування та настройки бічної панелі, CSS, зображень та АвтоМодератора"
 
-#: r2/lib/permissions.py:87 r2/templates/printablebuttons.html:115
+#: r2/lib/permissions.py:87 r2/templates/printablebuttons.html:116
 msgid "flair"
 msgstr "флаір"
 
@@ -3742,7 +3746,7 @@ msgstr[0] "посилання"
 msgstr[1] "посилання"
 msgstr[2] "посилань"
 
-#: r2/lib/pages/pages.py:1524 r2/lib/strings.py:263 r2/templates/messagecompose.html:101
+#: r2/lib/pages/pages.py:1538 r2/lib/strings.py:263 r2/templates/messagecompose.html:101
 msgid "message"
 msgid_plural "messages"
 msgstr[0] "повідомлення"
@@ -3826,7 +3830,7 @@ msgstr[0] "година"
 msgstr[1] "години"
 msgstr[2] "годин"
 
-#: r2/lib/pages/pages.py:347 r2/lib/pages/pages.py:5724 r2/lib/strings.py:279 r2/public/static/js/sponsored.js:1484 r2/public/static/js/sponsored.js:1851 r2/templates/intimeoutinterstitial.html:44 r2/templates/tipprtraffic.html:104
+#: r2/lib/pages/pages.py:346 r2/lib/pages/pages.py:5741 r2/lib/strings.py:279 r2/public/static/js/sponsored.js:1484 r2/public/static/js/sponsored.js:1851 r2/templates/intimeoutinterstitial.html:44 r2/templates/tipprtraffic.html:104
 msgid "day"
 msgid_plural "days"
 msgstr[0] "день"
@@ -4169,7 +4173,7 @@ msgstr "модератор /v/%(tippr)s, офіціальна розмова"
 msgid "%(user)s just celebrated a tippr birthday!"
 msgstr "%(user)s відсвяткував річницю реєстрації на tippr!"
 
-#: r2/lib/pages/pages.py:1341 r2/lib/template_helpers.py:771 r2/public/static/js/timetext.js:68
+#: r2/lib/pages/pages.py:1356 r2/lib/template_helpers.py:771 r2/public/static/js/timetext.js:68
 msgid "just now"
 msgstr "прямо зараз"
 
@@ -4201,157 +4205,157 @@ msgstr "IP адреса"
 msgid "user"
 msgstr "учасник"
 
-#: r2/lib/pages/pages.py:179
+#: r2/lib/pages/pages.py:178
 #, python-format
 msgid "%d %b %Y"
 msgstr "%d %b %Y"
 
-#: r2/lib/pages/pages.py:339
+#: r2/lib/pages/pages.py:338
 msgid "This site asks moderators and staff to use two-factor sign-in. Turn it on under [preferences, security](/prefs/security) to use your moderator tools."
 msgstr "Цей сайт просить модераторів і персонал користуватися двофакторним входом. Увімкніть його в [налаштуваннях, безпека](/prefs/security), щоб користуватися інструментами модератора."
 
-#: r2/lib/pages/pages.py:522
+#: r2/lib/pages/pages.py:521
 msgid "wiki tools"
 msgstr "вікі функції"
 
-#: r2/lib/pages/pages.py:648
+#: r2/lib/pages/pages.py:647
 msgid "moderation tools"
 msgstr "інструменти модерації"
 
-#: r2/lib/pages/pages.py:716
+#: r2/lib/pages/pages.py:715
 msgid "these vaults"
 msgstr "ці волти"
 
-#: r2/lib/pages/pages.py:730
+#: r2/lib/pages/pages.py:729
 msgid "this vault is archived and no longer accepting submissions."
 msgstr "цей волт був архівований і більше не приймає публикацій."
 
-#: r2/lib/pages/pages.py:732
+#: r2/lib/pages/pages.py:731
 msgid "Submissions disabled"
 msgstr "Публікація матеріалів заборонена"
 
-#: r2/lib/pages/pages.py:739
+#: r2/lib/pages/pages.py:738
 msgid "Only approved users may post in this community."
 msgstr "Лише затверджені користувачі можуть дописувати у цю спільноту."
 
-#: r2/lib/pages/pages.py:742
+#: r2/lib/pages/pages.py:741
 msgid "Anyone can view or comment, but only Tippr Gold members can post in this community."
 msgstr "Будь-хто може переглядати чи коментувати, але лише золоті учасники tippr можуть дописувати у цій спільноті."
 
-#: r2/lib/pages/pages.py:745
+#: r2/lib/pages/pages.py:744
 msgid "Submissions restricted"
 msgstr "Публікація матеріалів обмежена"
 
-#: r2/lib/pages/pages.py:833
+#: r2/lib/pages/pages.py:832
 msgid "Create your own vault"
 msgstr "Створити свій волт"
 
-#: r2/lib/pages/pages.py:857
+#: r2/lib/pages/pages.py:856
 #, python-format
 msgid "...and %d more"
 msgstr "...і ще %d"
 
-#: r2/lib/pages/pages.py:859
+#: r2/lib/pages/pages.py:858
 msgid "about moderation team"
 msgstr "про команду модераторів"
 
-#: r2/lib/pages/pages.py:864 r2/templates/contactus.html:60
+#: r2/lib/pages/pages.py:863 r2/templates/contactus.html:60
 msgid "message the admins"
 msgstr "написати адмінам"
 
-#: r2/lib/pages/pages.py:866 r2/templates/privateinterstitial.html:50
+#: r2/lib/pages/pages.py:865 r2/templates/privateinterstitial.html:50
 msgid "message the moderators"
 msgstr "написати модераторам"
 
-#: r2/lib/pages/pages.py:893
+#: r2/lib/pages/pages.py:892
 msgid "Recently viewed links"
 msgstr "Нещодавно переглянуті посилання"
 
-#: r2/lib/pages/pages.py:923
+#: r2/lib/pages/pages.py:922
 msgid "turn admin off"
 msgstr "вимкнути адміністрування"
 
-#: r2/lib/pages/pages.py:1145
+#: r2/lib/pages/pages.py:1144
 msgid "<3"
 msgstr "<3"
 
-#: r2/lib/pages/pages.py:1342 r2/templates/adminserverstatus.html:166
+#: r2/lib/pages/pages.py:1357 r2/templates/adminserverstatus.html:166
 #, python-format
 msgid "%(time)s ago"
 msgstr "%(time)s тому"
 
-#: r2/lib/pages/pages.py:1521
+#: r2/lib/pages/pages.py:1535
 #, python-format
 msgid "%(site)s mail"
 msgstr "%(site)s пошта"
 
-#: r2/lib/pages/pages.py:1598
+#: r2/lib/pages/pages.py:1612
 msgid "sign up or log in"
 msgstr "зареєструйтеся або увійдіть"
 
-#: r2/lib/pages/pages.py:1679
+#: r2/lib/pages/pages.py:1693
 msgid "request for permission"
 msgstr "запит на дозвіл"
 
-#: r2/lib/pages/pages.py:1681
+#: r2/lib/pages/pages.py:1695
 msgid "permission"
 msgstr "дозвіл"
 
-#: r2/lib/pages/pages.py:1716 r2/templates/searchform.html:77
+#: r2/lib/pages/pages.py:1730 r2/templates/searchform.html:77
 msgid "enable NSFW results"
 msgstr "дозволити результати НЕ ДЛЯ ОФІСУ"
 
-#: r2/lib/pages/pages.py:1739
+#: r2/lib/pages/pages.py:1753
 msgid "bummer"
 msgstr "ледащо"
 
-#: r2/lib/pages/pages.py:1751
+#: r2/lib/pages/pages.py:1765
 msgid "this page is no longer available due to a copyright claim."
 msgstr "ця сторінка більше не доступна у зв'язку з порушенням авторських прав"
 
-#: r2/lib/pages/pages.py:1992
+#: r2/lib/pages/pages.py:2006
 msgid "comments disabled"
 msgstr "коментарі вимкнено"
 
-#: r2/lib/pages/pages.py:2315
+#: r2/lib/pages/pages.py:2329
 #, python-format
 msgid "about %(site)s"
 msgstr "про %(site)s"
 
-#: r2/lib/pages/pages.py:2338
+#: r2/lib/pages/pages.py:2352
 msgid "search vaults by name"
 msgstr "пошук волтів за назвою"
 
-#: r2/lib/pages/pages.py:2382
+#: r2/lib/pages/pages.py:2396
 #, python-format
 msgid "your front page vaults (%s)"
 msgstr "волти вашої головної сторінки (%s)"
 
-#: r2/lib/pages/pages.py:2470 r2/templates/createvault.html:460 r2/templates/spotlightlisting.html:63
+#: r2/lib/pages/pages.py:2484 r2/templates/createvault.html:460 r2/templates/spotlightlisting.html:63
 msgid "what's this?"
 msgstr "що це?"
 
-#: r2/lib/pages/pages.py:2471
+#: r2/lib/pages/pages.py:2485
 msgid "trophy case"
 msgstr "панель трофеїв"
 
-#: r2/lib/pages/pages.py:2481
+#: r2/lib/pages/pages.py:2495
 msgid "public multivaults"
 msgstr "загальнодоступні мультиреддіти"
 
-#: r2/lib/pages/pages.py:2488
+#: r2/lib/pages/pages.py:2502
 msgid "hidden multivaults"
 msgstr "приховані мультиреддіти"
 
-#: r2/lib/pages/pages.py:2509
+#: r2/lib/pages/pages.py:2523
 msgid "moderator of"
 msgstr "модератор"
 
-#: r2/lib/pages/pages.py:2573
+#: r2/lib/pages/pages.py:2587
 msgid "less than a day"
 msgstr "менше ніж за день"
 
-#: r2/lib/pages/pages.py:2586
+#: r2/lib/pages/pages.py:2600
 #, python-format
 msgid "Give Gold: %(coins)s month"
 msgid_plural "Give Gold: %(coins)s months"
@@ -4359,7 +4363,7 @@ msgstr[0] "Подарунок золота: %(coins)s місяць"
 msgstr[1] "Подарунок золота: %(coins)s місяці"
 msgstr[2] "Подарунок золота: %(coins)s місяців"
 
-#: r2/lib/pages/pages.py:2594
+#: r2/lib/pages/pages.py:2608
 #, python-format
 msgid "%(gildings)s gilding given out"
 msgid_plural "%(gildings)s gildings given out"
@@ -4367,331 +4371,331 @@ msgstr[0] "подаровано %(gildings)s золоту підписку"
 msgstr[1] "подаровано %(gildings)s золоті підписки"
 msgstr[2] "подаровано %(gildings)s золотих підписок"
 
-#: r2/lib/pages/pages.py:2602
+#: r2/lib/pages/pages.py:2616
 #, python-format
 msgid "give tippr gold to %(user)s to show your appreciation"
 msgstr "подаруйте Золоту підписку %(user)s щоб показати вашу високу оцінку"
 
-#: r2/lib/pages/pages.py:2606
+#: r2/lib/pages/pages.py:2620
 msgid "get extra features and help support tippr with a tippr gold subscription"
 msgstr "отримайте додаткові можливості та допоможіть підтримати tippr за допомогою Золотої підписки"
 
-#: r2/lib/pages/pages.py:2610
+#: r2/lib/pages/pages.py:2624
 msgid "renew your tippr gold"
 msgstr "поновити Золоту підписку"
 
-#: r2/lib/pages/pages.py:2620
+#: r2/lib/pages/pages.py:2634
 #, python-format
 msgid "you have helped pay for *%(time)s* of tippr server time."
 msgstr "ви допомогли нам сплатити *%(time)s* серверного часу для tippr."
 
-#: r2/lib/pages/pages.py:2621
+#: r2/lib/pages/pages.py:2635
 #, python-format
 msgid "/u/%(user)s has helped pay for *%%(time)s* of tippr server time."
 msgstr "/u/%(user)s допоміг нам сплатити *%%(time)s* серверного часу для tippr."
 
-#: r2/lib/pages/pages.py:2624
+#: r2/lib/pages/pages.py:2638
 #, python-format
 msgid "gifts on your behalf have helped pay for *%(time)s* of tippr server time."
 msgstr "подарунки, зроблені вами, допомогли нам сплатити *%(time)s* серверного часу для tippr."
 
-#: r2/lib/pages/pages.py:2626
+#: r2/lib/pages/pages.py:2640
 #, python-format
 msgid "gifts on behalf of /u/%(user)s have helped pay for *%%(time)s* of tippr server time."
 msgstr "подарунки зроблені користувачем /u/%(user)s допомогли нам сплатити *%%(time)s* серверного часу для tippr."
 
-#: r2/lib/pages/pages.py:2710
+#: r2/lib/pages/pages.py:2724
 msgid "tippr is a platform for internet communities"
 msgstr "tippr є платформою для інтернет-спільнот"
 
-#: r2/lib/pages/pages.py:2711
+#: r2/lib/pages/pages.py:2725
 msgid "where your votes shape what the world is talking about."
 msgstr "де ваш голос може змінити про що зараз говорить весь світ"
 
-#: r2/lib/pages/pages.py:3010 r2/lib/pages/pages.py:3120
+#: r2/lib/pages/pages.py:3024 r2/lib/pages/pages.py:3134
 msgid "add vault"
 msgstr "додати волт"
 
-#: r2/lib/pages/pages.py:3048
+#: r2/lib/pages/pages.py:3062
 #, python-format
 msgid "raise it to %s"
 msgstr "підняти до %s"
 
-#: r2/lib/pages/pages.py:3050 r2/lib/pages/pages.py:3059
+#: r2/lib/pages/pages.py:3064 r2/lib/pages/pages.py:3073
 #, python-format
 msgid "%s visible"
 msgstr "%s видиме"
 
-#: r2/lib/pages/pages.py:3057
+#: r2/lib/pages/pages.py:3071
 #, python-format
 msgid "%(bonus)s bonus vaults"
 msgstr "%(bonus)s бонусні волти"
 
-#: r2/lib/pages/pages.py:3427
+#: r2/lib/pages/pages.py:3441
 #, python-format
 msgid "you have a credit card gold subscription. your card (ending in %(last4)s) will be charged %(amount)s on %(date)s."
 msgstr "ваш акаунт має активну Золоту підписку, яка сплачується банківською картою. з вашої карти (останні цифри якої %(last4)s) буде знята сума %(amount)s %(date)s."
 
-#: r2/lib/pages/pages.py:3581
+#: r2/lib/pages/pages.py:3598
 msgid "try entering those letters again"
 msgstr "введіть ці літери ще раз"
 
-#: r2/lib/pages/pages.py:3660 r2/lib/pages/pages.py:6404 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
+#: r2/lib/pages/pages.py:3677 r2/lib/pages/pages.py:6421 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
 msgid "search"
 msgstr "шукати"
 
-#: r2/lib/pages/pages.py:4298
+#: r2/lib/pages/pages.py:4315
 #, fuzzy
 #| msgid "back"
 msgid "backend"
 msgstr "назад"
 
-#: r2/lib/pages/pages.py:4298
+#: r2/lib/pages/pages.py:4315
 #, fuzzy
 #| msgid "front"
 msgid "frontend"
 msgstr "головна"
 
-#: r2/lib/pages/pages.py:4309
+#: r2/lib/pages/pages.py:4326
 #, python-format
 msgid "not heard from for %(time)s"
 msgstr "немає звісток уже %(time)s"
 
-#: r2/lib/pages/pages.py:4315
+#: r2/lib/pages/pages.py:4332
 #, python-format
 msgid "memory %(p)s%% used"
 msgstr "пам’ять зайнята на %(p)s%%"
 
-#: r2/lib/pages/pages.py:4319
+#: r2/lib/pages/pages.py:4336
 #, python-format
 msgid "busy: load %(l)s on %(n)s CPUs"
 msgstr "зайнятий: навантаження %(l)s на %(n)s ЦП"
 
-#: r2/lib/pages/pages.py:4325
+#: r2/lib/pages/pages.py:4342
 #, python-format
 msgid "disk %(path)s %(p)s%% full"
 msgstr "диск %(path)s заповнений на %(p)s%%"
 
-#: r2/lib/pages/pages.py:4329
+#: r2/lib/pages/pages.py:4346
 #, python-format
 msgid "%(service)s is %(state)s"
 msgstr "%(service)s: %(state)s"
 
-#: r2/lib/pages/pages.py:4332
+#: r2/lib/pages/pages.py:4349
 msgid "a different version from the others"
 msgstr "версія відрізняється від інших"
 
-#: r2/lib/pages/pages.py:4334
+#: r2/lib/pages/pages.py:4351
 msgid "another server has the same name: set TIPPR_SERVER_NAME on one of them"
 msgstr "інший сервер має таке саме ім’я: задайте TIPPR_SERVER_NAME на одному з них"
 
-#: r2/lib/pages/pages.py:4407
+#: r2/lib/pages/pages.py:4424
 #, python-format
 msgid "%(n)s seconds"
 msgstr "%(n)s с"
 
-#: r2/lib/pages/pages.py:4409
+#: r2/lib/pages/pages.py:4426
 #, python-format
 msgid "%(n)s minutes"
 msgstr "%(n)s хв"
 
-#: r2/lib/pages/pages.py:4411
+#: r2/lib/pages/pages.py:4428
 #, python-format
 msgid "%(n)s hours"
 msgstr "%(n)s год"
 
-#: r2/lib/pages/pages.py:4412
+#: r2/lib/pages/pages.py:4429
 #, python-format
 msgid "%(n)s days"
 msgstr "%(n)s дн."
 
-#: r2/lib/pages/pages.py:4428
+#: r2/lib/pages/pages.py:4445
 msgid "polling"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4434
+#: r2/lib/pages/pages.py:4451
 msgid "off (no event collector)"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4640 r2/lib/pages/pages.py:4749
+#: r2/lib/pages/pages.py:4657 r2/lib/pages/pages.py:4766
 msgid "added"
 msgstr "додане"
 
-#: r2/lib/pages/pages.py:4708 r2/models/modaction.py:146 r2/templates/printablebuttons.html:615
+#: r2/lib/pages/pages.py:4725 r2/models/modaction.py:146 r2/templates/printablebuttons.html:616
 msgid "muted"
 msgstr "приглушено"
 
-#: r2/lib/pages/pages.py:4726
+#: r2/lib/pages/pages.py:4743
 msgid "invited"
 msgstr "запрошено"
 
-#: r2/lib/pages/pages.py:4787
+#: r2/lib/pages/pages.py:4804
 msgid "grant flair"
 msgstr "надати флаір"
 
-#: r2/lib/pages/pages.py:4789
+#: r2/lib/pages/pages.py:4806
 msgid "user flair templates"
 msgstr "шаблони флаірів користувача"
 
-#: r2/lib/pages/pages.py:4791
+#: r2/lib/pages/pages.py:4808
 msgid "link flair templates"
 msgstr "шаблони флаірів посилань"
 
-#: r2/lib/pages/pages.py:5163 r2/templates/adminuser.html:73 r2/templates/adminuser.html:98 r2/templates/adminuser.html:108 r2/templates/flairpane.html:79
+#: r2/lib/pages/pages.py:5180 r2/templates/adminuser.html:73 r2/templates/adminuser.html:98 r2/templates/adminuser.html:108 r2/templates/flairpane.html:79
 msgid "none"
 msgstr "нічого"
 
-#: r2/lib/pages/pages.py:5294
+#: r2/lib/pages/pages.py:5311
 msgid "suggestions:"
 msgstr "пропозиції:"
 
-#: r2/lib/pages/pages.py:5298
+#: r2/lib/pages/pages.py:5315
 #, python-format
 msgid "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/v/selfserve](%(selfserve)s)."
 msgstr "Створіть свою рекламу на цій сторінці. Маєте запитання? Подивіться [Центр довідки](%(help_center)s) або [/v/selfserve](%(selfserve)s)."
 
-#: r2/lib/pages/pages.py:5916
+#: r2/lib/pages/pages.py:5933
 msgid "start date"
 msgstr "дата початку"
 
-#: r2/lib/pages/pages.py:5917
+#: r2/lib/pages/pages.py:5934
 msgid "end date"
 msgstr "кінцева дата"
 
-#: r2/lib/pages/pages.py:5919 r2/templates/createvault.html:266
+#: r2/lib/pages/pages.py:5936 r2/templates/createvault.html:266
 msgid "links"
 msgstr "посилання"
 
-#: r2/lib/pages/pages.py:5921 r2/lib/pages/pages.py:5940 r2/templates/adminpaymentsettings.html:239 r2/templates/promotedlinktraffic.html:42 r2/templates/timeserieschart.html:40
+#: r2/lib/pages/pages.py:5938 r2/lib/pages/pages.py:5957 r2/templates/adminpaymentsettings.html:239 r2/templates/promotedlinktraffic.html:42 r2/templates/timeserieschart.html:40
 msgid "date"
 msgstr "дата"
 
-#: r2/lib/pages/pages.py:5924 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
+#: r2/lib/pages/pages.py:5941 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
 msgid "id"
 msgstr "код"
 
-#: r2/lib/pages/pages.py:5924 r2/lib/pages/pages.py:5943 r2/templates/promotelinkbase.html:856
+#: r2/lib/pages/pages.py:5941 r2/lib/pages/pages.py:5960 r2/templates/promotelinkbase.html:856
 msgid "owner"
 msgstr "власник"
 
-#: r2/lib/pages/pages.py:5924 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
+#: r2/lib/pages/pages.py:5941 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
 msgid "url"
 msgstr "url"
 
-#: r2/lib/pages/pages.py:5925
+#: r2/lib/pages/pages.py:5942
 msgid "upvotes"
 msgstr "голоси за"
 
-#: r2/lib/pages/pages.py:5925
+#: r2/lib/pages/pages.py:5942
 msgid "downvotes"
 msgstr "голоси проти"
 
-#: r2/lib/pages/pages.py:5925 r2/lib/pages/trafficpages.py:351 r2/lib/pages/trafficpages.py:853 r2/templates/promotedlinktraffic.html:44 r2/templates/promotedlinktraffic.html:124
+#: r2/lib/pages/pages.py:5942 r2/lib/pages/trafficpages.py:351 r2/lib/pages/trafficpages.py:853 r2/templates/promotedlinktraffic.html:44 r2/templates/promotedlinktraffic.html:124
 msgid "clicks"
 msgstr "кліків"
 
-#: r2/lib/pages/pages.py:5925 r2/lib/pages/trafficpages.py:348 r2/lib/pages/trafficpages.py:478 r2/lib/pages/trafficpages.py:852 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
+#: r2/lib/pages/pages.py:5942 r2/lib/pages/trafficpages.py:348 r2/lib/pages/trafficpages.py:478 r2/lib/pages/trafficpages.py:852 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
 msgid "impressions"
 msgstr "переглядів"
 
-#: r2/lib/pages/pages.py:5938
+#: r2/lib/pages/pages.py:5955
 msgid "campaigns"
 msgstr "кампанії"
 
-#: r2/lib/pages/pages.py:5943
+#: r2/lib/pages/pages.py:5960
 msgid "link id"
 msgstr "код посилання"
 
-#: r2/lib/pages/pages.py:5943
+#: r2/lib/pages/pages.py:5960
 msgid "campaign id"
 msgstr "код кампанії"
 
-#: r2/lib/pages/pages.py:5943 r2/templates/promotedlinktraffic.html:117 r2/templates/refundpage.html:56
+#: r2/lib/pages/pages.py:5960 r2/templates/promotedlinktraffic.html:117 r2/templates/refundpage.html:56
 msgid "target"
 msgstr "мета"
 
-#: r2/lib/pages/pages.py:5944 r2/templates/promotelinkedit.html:157
+#: r2/lib/pages/pages.py:5961 r2/templates/promotelinkedit.html:157
 msgid "bid"
 msgstr "ставка"
 
-#: r2/lib/pages/pages.py:5944
+#: r2/lib/pages/pages.py:5961
 msgid "frontpage clicks"
 msgstr "переходи з головної сторінки"
 
-#: r2/lib/pages/pages.py:5944
+#: r2/lib/pages/pages.py:5961
 msgid "frontpage impressions"
 msgstr "перегляди на головній сторінці"
 
-#: r2/lib/pages/pages.py:5945
+#: r2/lib/pages/pages.py:5962
 msgid "vault clicks"
 msgstr "переходи з волтів"
 
-#: r2/lib/pages/pages.py:5945
+#: r2/lib/pages/pages.py:5962
 msgid "vault impressions"
 msgstr "перегляди у волтах"
 
-#: r2/lib/pages/pages.py:5946 r2/lib/pages/trafficpages.py:484
+#: r2/lib/pages/pages.py:5963 r2/lib/pages/trafficpages.py:484
 msgid "total clicks"
 msgstr "усього кліків"
 
-#: r2/lib/pages/pages.py:5946
+#: r2/lib/pages/pages.py:5963
 msgid "total impressions"
 msgstr "загальна сума переглядів"
 
-#: r2/lib/pages/pages.py:6149 r2/templates/accountactivitybox.html:27
+#: r2/lib/pages/pages.py:6166 r2/templates/accountactivitybox.html:27
 msgid "account activity"
 msgstr "активність акаунта"
 
-#: r2/lib/pages/pages.py:6281
+#: r2/lib/pages/pages.py:6298
 msgid "subscribed"
 msgstr "підписані"
 
-#: r2/lib/pages/pages.py:6282 r2/templates/preffeeds.html:58
+#: r2/lib/pages/pages.py:6299 r2/templates/preffeeds.html:58
 msgid "your front page"
 msgstr "ваша головна сторінка"
 
-#: r2/lib/pages/pages.py:6285 r2/lib/pages/pages.py:6290 r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:104
+#: r2/lib/pages/pages.py:6302 r2/lib/pages/pages.py:6307 r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:104
 msgid "everything"
 msgstr "все"
 
-#: r2/lib/pages/pages.py:6288 r2/lib/pages/pages.py:6291
+#: r2/lib/pages/pages.py:6305 r2/lib/pages/pages.py:6308
 msgid "from all vaults"
 msgstr "з усіх волтів"
 
-#: r2/lib/pages/pages.py:6293
+#: r2/lib/pages/pages.py:6310
 msgid "moderating"
 msgstr "модерується"
 
-#: r2/lib/pages/pages.py:6294
+#: r2/lib/pages/pages.py:6311
 msgid "vaults you mod"
 msgstr "волти, які ви модеруєте"
 
-#: r2/lib/pages/pages.py:6300
+#: r2/lib/pages/pages.py:6317
 msgid "gold perks"
 msgstr "золоті можливості"
 
-#: r2/lib/pages/pages.py:6316
+#: r2/lib/pages/pages.py:6333
 msgid "explore multis"
 msgstr "ознайомитись з мульти"
 
-#: r2/lib/pages/pages.py:6402
+#: r2/lib/pages/pages.py:6419
 msgid "faq"
 msgstr "ЧаПи"
 
-#: r2/lib/pages/pages.py:6403 r2/templates/usertext.html:159
+#: r2/lib/pages/pages.py:6420 r2/templates/usertext.html:159
 msgid "formatting"
 msgstr "оформлення"
 
-#: r2/lib/pages/pages.py:6472
+#: r2/lib/pages/pages.py:6489
 msgid "your subscribed vaults"
 msgstr "ваші підписки на волти"
 
-#: r2/lib/pages/pages.py:6585
+#: r2/lib/pages/pages.py:6602
 #, python-format
 msgid "this promoted link uses city level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "це рекламне посилання націлене на мешканців певного міста і могло бути показане тому що ви десь поблизу. ([дізнайтеся більше](%(link)s))"
 
-#: r2/lib/pages/pages.py:6589
+#: r2/lib/pages/pages.py:6606
 #, python-format
 msgid "this promoted link uses country level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "це рекламне посилання націлене на мешканців певної країни і могло бути показане тому що ви десь поблизу. ([дізнайтеся більше](%(link)s))"
@@ -4787,7 +4791,7 @@ msgstr "процент переходів (%)"
 msgid "view"
 msgstr "перегляд"
 
-#: r2/lib/pages/wiki.py:119 r2/templates/adminfeeds.html:150 r2/templates/prefapps.html:93 r2/templates/printablebuttons.html:363 r2/templates/printablebuttons.html:403 r2/templates/printablebuttons.html:514 r2/templates/renderablecampaign.html:155 r2/templates/wrappeduser.html:91
+#: r2/lib/pages/wiki.py:119 r2/templates/adminfeeds.html:150 r2/templates/prefapps.html:93 r2/templates/printablebuttons.html:364 r2/templates/printablebuttons.html:404 r2/templates/printablebuttons.html:515 r2/templates/renderablecampaign.html:155 r2/templates/wrappeduser.html:91
 msgid "edit"
 msgstr "редагувати"
 
@@ -4945,55 +4949,55 @@ msgstr "повернення за золото"
 msgid "Your gold payment has been refunded, contact %(gold_email)s for details"
 msgstr "Ваш платіж за золото повернуто; подробиці можна дізнатися за адресою %(gold_email)s"
 
-#: r2/lib/validator/validator.py:2115
+#: r2/lib/validator/validator.py:2116
 #, python-format
 msgid "%(min)d to any"
 msgstr "%(min)d до будь-чого"
 
-#: r2/lib/validator/validator.py:2117
+#: r2/lib/validator/validator.py:2118
 #, python-format
 msgid "any to %(max)d"
 msgstr "від будь-чого до %(max)d"
 
-#: r2/lib/validator/validator.py:2119
+#: r2/lib/validator/validator.py:2120
 #, python-format
 msgid "%(min)d to %(max)d"
 msgstr "%(min)d до %(max)d"
 
-#: r2/lib/validator/validator.py:2845
+#: r2/lib/validator/validator.py:2846
 msgid "a user by name"
 msgstr "учасник по імені"
 
-#: r2/lib/validator/validator.py:2860
+#: r2/lib/validator/validator.py:2861
 msgid "a [fullname](#fullname) of a link"
 msgstr "[повна назва](#fullname) посилання"
 
-#: r2/lib/validator/validator.py:3017
+#: r2/lib/validator/validator.py:3025
 msgid "an app"
 msgstr "програма"
 
-#: r2/lib/validator/validator.py:3035
+#: r2/lib/validator/validator.py:3043
 msgid "an app developed by the user"
 msgstr "програма розроблена користувачем"
 
-#: r2/lib/validator/validator.py:3258
+#: r2/lib/validator/validator.py:3266
 msgid "no spaces allowed"
 msgstr "пробіли не дозволені"
 
-#: r2/lib/validator/validator.py:3260
+#: r2/lib/validator/validator.py:3268
 #, python-format
 msgid "invalid character: '%s'"
 msgstr "не дозволений символ: '%s'"
 
-#: r2/lib/validator/validator.py:3262
+#: r2/lib/validator/validator.py:3270
 msgid "can't start with a '_'"
 msgstr "не може починатись з '_'"
 
-#: r2/lib/validator/validator.py:3264
+#: r2/lib/validator/validator.py:3272
 msgid "that name is too short"
 msgstr "ім’я закоротке"
 
-#: r2/lib/validator/validator.py:3266
+#: r2/lib/validator/validator.py:3274
 msgid "that name is too long"
 msgstr "ім’я задовге"
 
@@ -5472,7 +5476,7 @@ msgstr "видалити автора"
 msgid "edit settings"
 msgstr "редагувати налаштування"
 
-#: r2/models/modaction.py:86 r2/templates/printablebuttons.html:140
+#: r2/models/modaction.py:86 r2/templates/printablebuttons.html:141
 msgid "distinguish"
 msgstr "розрізнити"
 
@@ -5508,7 +5512,7 @@ msgstr "сторінка ревізії вікі"
 msgid "wiki page permissions"
 msgstr "дозволи на цю сторінку вікі"
 
-#: r2/models/modaction.py:95 r2/models/modaction.py:206 r2/templates/printablebuttons.html:250
+#: r2/models/modaction.py:95 r2/models/modaction.py:206 r2/templates/printablebuttons.html:251
 msgid "ignore reports"
 msgstr "ігнорувати скарги"
 
@@ -5548,11 +5552,11 @@ msgstr "закрити допис"
 msgid "unlock post"
 msgstr "відкрити допис"
 
-#: r2/models/modaction.py:105 r2/templates/printablebuttons.html:615
+#: r2/models/modaction.py:105 r2/templates/printablebuttons.html:616
 msgid "mute user"
 msgstr "приглушити користувача"
 
-#: r2/models/modaction.py:106 r2/templates/printablebuttons.html:612
+#: r2/models/modaction.py:106 r2/templates/printablebuttons.html:613
 msgid "unmute user"
 msgstr "повернути користувачу голос"
 
@@ -5588,11 +5592,11 @@ msgstr "видалено вікі помічника"
 msgid "unbanned"
 msgstr "розблоковано"
 
-#: r2/models/modaction.py:118 r2/models/modaction.py:120 r2/templates/admindomain.html:88 r2/templates/linkcommentssettings.html:122 r2/templates/printablebuttons.html:50 r2/templates/printablebuttons.html:286 r2/templates/trophycase.html:51
+#: r2/models/modaction.py:118 r2/models/modaction.py:120 r2/templates/admindomain.html:88 r2/templates/linkcommentssettings.html:122 r2/templates/printablebuttons.html:51 r2/templates/printablebuttons.html:287 r2/templates/trophycase.html:51
 msgid "removed"
 msgstr "видалено"
 
-#: r2/models/modaction.py:119 r2/models/modaction.py:121 r2/models/modaction.py:155 r2/templates/printablebuttons.html:58 r2/templates/printablebuttons.html:289 r2/templates/vaultinfobar.html:135
+#: r2/models/modaction.py:119 r2/models/modaction.py:121 r2/models/modaction.py:155 r2/templates/printablebuttons.html:59 r2/templates/printablebuttons.html:290 r2/templates/vaultinfobar.html:135
 msgid "approved"
 msgstr "схвалено"
 
@@ -5680,15 +5684,15 @@ msgstr "увімкнути режим змагання"
 msgid "unset contest mode on"
 msgstr "вимкнути режим змагання"
 
-#: r2/models/modaction.py:144 r2/templates/lockedinterstitial.html:34 r2/templates/printablebuttons.html:79
+#: r2/models/modaction.py:144 r2/templates/lockedinterstitial.html:34 r2/templates/printablebuttons.html:80
 msgid "locked"
 msgstr "закрито"
 
-#: r2/models/modaction.py:145 r2/templates/printablebuttons.html:82
+#: r2/models/modaction.py:145 r2/templates/printablebuttons.html:83
 msgid "unlocked"
 msgstr "відкрито"
 
-#: r2/models/modaction.py:147 r2/templates/printablebuttons.html:612
+#: r2/models/modaction.py:147 r2/templates/printablebuttons.html:613
 msgid "unmuted"
 msgstr "розблоковано"
 
@@ -5878,7 +5882,7 @@ msgstr "видалити шаблон флаір"
 msgid "clear flair templates"
 msgstr "очистити шаблони флаір"
 
-#: r2/models/modaction.py:205 r2/templates/createvault.html:524 r2/templates/createvault.html:530 r2/templates/filteredinfobar.html:42 r2/templates/multiinfobar.html:119 r2/templates/prefapps.html:82 r2/templates/printablebuttons.html:50 r2/templates/printablebuttons.html:266 r2/templates/trophycase.html:51 r2/templates/usertableitem.html:62
+#: r2/models/modaction.py:205 r2/templates/createvault.html:524 r2/templates/createvault.html:530 r2/templates/filteredinfobar.html:42 r2/templates/multiinfobar.html:119 r2/templates/prefapps.html:82 r2/templates/printablebuttons.html:51 r2/templates/printablebuttons.html:267 r2/templates/trophycase.html:51 r2/templates/usertableitem.html:62
 msgid "remove"
 msgstr "видалити"
 
@@ -5927,33 +5931,42 @@ msgstr "пріоритет аукціону; уся самообслуговув
 msgid "collection: %(name)s"
 msgstr "колекція: %(name)s"
 
-#: r2/models/rules.py:38
-msgid "vote manipulation"
-msgstr "маніпулювання голосами"
+#: r2/models/rules.py:52
+msgid "Spam or vote manipulation"
+msgstr "Спам або маніпуляція голосуванням"
 
-#: r2/models/rules.py:39
-msgid "personal information"
-msgstr "особисті дані"
+#: r2/models/rules.py:53
+msgid "Harassment or threats"
+msgstr "Цькування або погрози"
 
-#: r2/models/rules.py:40
-msgid "sexualizing minors"
-msgstr "розбещення неповнолітніх"
+#: r2/models/rules.py:54
+msgid "Hateful content"
+msgstr "Контент, що розпалює ненависть"
 
-#: r2/models/rules.py:41
-msgid "breaking tippr"
-msgstr "намагання зламати tippr"
+#: r2/models/rules.py:55
+msgid "Someone's personal information"
+msgstr "Чужі персональні дані"
 
-#: r2/models/rules.py:45
-msgid "Spam"
-msgstr "Спам"
+#: r2/models/rules.py:56
+msgid "Sexual content involving minors"
+msgstr "Сексуальний контент за участі неповнолітніх"
 
-#: r2/models/rules.py:46
-msgid "Personal and confidential information"
-msgstr "Персональна й конфіденційна інформація"
+#: r2/models/rules.py:57
+msgid "Other illegal content"
+msgstr "Інший незаконний контент"
 
-#: r2/models/rules.py:47
-msgid "Threatening, harassing, or inciting violence"
-msgstr "Погрози, переслідування або заклики до насильства"
+#: r2/models/rules.py:58
+msgid "Impersonation"
+msgstr "Видавання себе за іншу особу"
+
+#: r2/models/rules.py:59
+msgid "Malware, phishing or scams"
+msgstr "Шкідливе ПЗ, фішинг або шахрайство"
+
+#: r2/models/rules.py:60
+#, python-format
+msgid "Breaking %(site_name)s"
+msgstr "Порушення роботи %(site_name)s"
 
 #: r2/models/token.py:113
 msgid "Any Scope"
@@ -6337,7 +6350,7 @@ msgstr "відкрити коментарі"
 msgid "expand or collapse the preview, or the comment"
 msgstr "розгорнути або згорнути попередній перегляд чи коментар"
 
-#: r2/public/static/js/enhancements.js:180 r2/public/static/js/enhancements.js:631 r2/public/static/js/saved.js:122 r2/public/static/js/saved.js:161 r2/public/static/js/sponsored.js:97 r2/templates/adminadsettings.html:128 r2/templates/adminantispam.html:106 r2/templates/adminemailsettings.html:95 r2/templates/adminfeeds.html:70 r2/templates/adminloginsettings.html:77 r2/templates/adminpaymentsettings.html:213 r2/templates/adminsitesettings.html:146 r2/templates/adminsupportstaff.html:57 r2/templates/adminuser.html:103 r2/templates/adminuser.html:122 r2/templates/adminuser.html:147 r2/templates/flairlistrow.html:48 r2/templates/flairselector.html:54 r2/templates/moderatorpermissions.html:55 r2/templates/prefsecurity.html:204 r2/templates/prefupdate.html:100 r2/templates/prefupdate.html:154 r2/templates/printablebuttons.html:106 r2/templates/printablebuttons.html:382 r2/templates/printablebuttons.html:487 r2/templates/promotelinkedit.html:218 r2/templates/vaultstylesheet.html:70
+#: r2/public/static/js/enhancements.js:180 r2/public/static/js/enhancements.js:631 r2/public/static/js/saved.js:122 r2/public/static/js/saved.js:161 r2/public/static/js/sponsored.js:97 r2/templates/adminadsettings.html:128 r2/templates/adminantispam.html:106 r2/templates/adminemailsettings.html:95 r2/templates/adminfeeds.html:70 r2/templates/adminloginsettings.html:77 r2/templates/adminpaymentsettings.html:213 r2/templates/adminsitesettings.html:146 r2/templates/adminsupportstaff.html:57 r2/templates/adminuser.html:103 r2/templates/adminuser.html:122 r2/templates/adminuser.html:147 r2/templates/flairlistrow.html:48 r2/templates/flairselector.html:54 r2/templates/moderatorpermissions.html:55 r2/templates/prefsecurity.html:173 r2/templates/prefupdate.html:103 r2/templates/prefupdate.html:157 r2/templates/printablebuttons.html:107 r2/templates/printablebuttons.html:383 r2/templates/printablebuttons.html:488 r2/templates/promotelinkedit.html:218 r2/templates/vaultstylesheet.html:70
 msgid "save"
 msgstr "зберегти"
 
@@ -6548,7 +6561,7 @@ msgstr "ім’я користувача"
 msgid "add and switch"
 msgstr "додати й перемкнутися"
 
-#: r2/public/static/js/enhancements.js:1100 r2/templates/linkedloginotp.html:35 r2/templates/newlink.html:155 r2/templates/prefoptions.html:619 r2/templates/prefsecurity.html:37 r2/templates/prefsecurity.html:104 r2/templates/prefsecurity.html:242 r2/templates/prefupdate.html:33 r2/templates/privacysettings.html:133
+#: r2/public/static/js/enhancements.js:1100 r2/templates/linkedloginotp.html:35 r2/templates/newlink.html:155 r2/templates/prefsecurity.html:210 r2/templates/prefsunlock.html:40 r2/templates/prefupdate.html:35 r2/templates/privacysettings.html:133
 msgid "two-factor code"
 msgstr "двофакторний код"
 
@@ -6616,7 +6629,7 @@ msgstr "завелике. не більше "
 msgid "an error occurred. please try again later! (status: %(status)s)"
 msgstr "трапилася помилка. будь ласка спробуйте ще раз пізніше! (статус: %(status)s)"
 
-#: r2/public/static/js/jquery.tippr.js:370 r2/public/static/js/saved.js:166 r2/templates/printablebuttons.html:380 r2/templates/printablebuttons.html:483
+#: r2/public/static/js/jquery.tippr.js:370 r2/public/static/js/saved.js:166 r2/templates/printablebuttons.html:381 r2/templates/printablebuttons.html:484
 msgid "unsave"
 msgstr "не зберігати"
 
@@ -6929,7 +6942,7 @@ msgstr "додайте текст за бажанням"
 msgid "send"
 msgstr "надіслати"
 
-#: r2/public/static/js/post-sharing.js:133 r2/templates/adminprivacy.html:48 r2/templates/fraudform.html:48 r2/templates/linkcommentssettings.html:78 r2/templates/printablebuttons.html:427 r2/templates/promotelinkedit.html:121 r2/templates/reportform.html:71 r2/templates/rules.html:137 r2/templates/vaultreportform.html:46
+#: r2/public/static/js/post-sharing.js:133 r2/templates/adminprivacy.html:48 r2/templates/fraudform.html:48 r2/templates/linkcommentssettings.html:78 r2/templates/printablebuttons.html:428 r2/templates/promotelinkedit.html:121 r2/templates/reportform.html:71 r2/templates/rules.html:137 r2/templates/vaultreportform.html:49
 msgid "cancel"
 msgstr "відміна"
 
@@ -6982,7 +6995,7 @@ msgstr "без категорії"
 msgid "new category"
 msgstr "нова категорія"
 
-#: r2/public/static/js/scales.js:37 r2/templates/printablebuttons.html:375
+#: r2/public/static/js/scales.js:37 r2/templates/printablebuttons.html:376
 msgid "scales"
 msgstr ""
 
@@ -7210,15 +7223,15 @@ msgstr "повний дозвіл на все"
 msgid "no permissions"
 msgstr "все заборонено"
 
-#: r2/public/static/js/ui.js:1131 r2/templates/goldsubscription.html:50 r2/templates/printablebuttons.html:694 r2/templates/printablebuttons.html:716
+#: r2/public/static/js/ui.js:1131 r2/templates/goldsubscription.html:50 r2/templates/printablebuttons.html:695 r2/templates/printablebuttons.html:717
 msgid "are you sure?"
 msgstr "ви впевнені?"
 
-#: r2/public/static/js/ui.js:1132 r2/templates/adminuser.html:63 r2/templates/adminuser.html:79 r2/templates/fraudform.html:35 r2/templates/goldsubscription.html:53 r2/templates/optout.html:40 r2/templates/optout.html:56 r2/templates/printablebuttons.html:696 r2/templates/printablebuttons.html:745
+#: r2/public/static/js/ui.js:1132 r2/templates/adminuser.html:63 r2/templates/adminuser.html:79 r2/templates/fraudform.html:35 r2/templates/goldsubscription.html:53 r2/templates/optout.html:40 r2/templates/optout.html:56 r2/templates/printablebuttons.html:697 r2/templates/printablebuttons.html:746
 msgid "yes"
 msgstr "так"
 
-#: r2/public/static/js/ui.js:1133 r2/templates/adminuser.html:84 r2/templates/fraudform.html:40 r2/templates/goldsubscription.html:56 r2/templates/optout.html:43 r2/templates/optout.html:59 r2/templates/printablebuttons.html:199 r2/templates/printablebuttons.html:698 r2/templates/printablebuttons.html:748
+#: r2/public/static/js/ui.js:1133 r2/templates/adminuser.html:84 r2/templates/fraudform.html:40 r2/templates/goldsubscription.html:56 r2/templates/optout.html:43 r2/templates/optout.html:59 r2/templates/printablebuttons.html:200 r2/templates/printablebuttons.html:699 r2/templates/printablebuttons.html:749
 msgid "no"
 msgstr "ні"
 
@@ -7391,7 +7404,7 @@ msgstr "У ЄС, Великій Британії та Швейцарії Google 
 msgid "saved; leave blank to keep"
 msgstr "збережено; залиште порожнім, щоб не змінювати"
 
-#: r2/templates/adminantispam.html:20 r2/templates/adminemailsettings.html:20 r2/templates/adminloginsettings.html:19 r2/templates/adminpaymentsettings.html:28 r2/templates/prefupdate.html:65
+#: r2/templates/adminantispam.html:20 r2/templates/adminemailsettings.html:20 r2/templates/adminloginsettings.html:19 r2/templates/adminpaymentsettings.html:28 r2/templates/prefupdate.html:68
 msgid "not set"
 msgstr "не задано"
 
@@ -7570,7 +7583,7 @@ msgstr "приєднався"
 msgid "karma"
 msgstr "карма"
 
-#: r2/templates/adminantispam.html:182 r2/templates/adminuser.html:68 r2/templates/adminusers.html:77 r2/templates/login.html:110 r2/templates/newsletter.html:58 r2/templates/newsletterbar.html:43 r2/templates/prefupdate.html:85
+#: r2/templates/adminantispam.html:182 r2/templates/adminuser.html:68 r2/templates/adminusers.html:77 r2/templates/login.html:110 r2/templates/newsletter.html:58 r2/templates/newsletterbar.html:43 r2/templates/prefupdate.html:88
 msgid "email"
 msgstr "ел. пошта"
 
@@ -7680,7 +7693,7 @@ msgstr "(власний застосунок сайту)"
 msgid "ago"
 msgstr "тому"
 
-#: r2/templates/adminapps.html:104 r2/templates/printablebuttons.html:57 r2/templates/printablebuttons.html:272
+#: r2/templates/adminapps.html:104 r2/templates/printablebuttons.html:58 r2/templates/printablebuttons.html:273
 msgid "approve"
 msgstr "схвалити"
 
@@ -7688,7 +7701,7 @@ msgstr "схвалити"
 msgid "lift the suspension"
 msgstr "зняти тайм-аут"
 
-#: r2/templates/adminapps.html:113 r2/templates/adminbackups.html:139 r2/templates/adminfeeds.html:148 r2/templates/adminuser.html:236 r2/templates/multiinfobar.html:56 r2/templates/prefsecurity.html:133 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:585 r2/templates/renderablecampaign.html:161 r2/templates/rules.html:135 r2/templates/wikipagesettings.html:79
+#: r2/templates/adminapps.html:113 r2/templates/adminbackups.html:139 r2/templates/adminfeeds.html:148 r2/templates/adminuser.html:236 r2/templates/multiinfobar.html:56 r2/templates/prefsecurity.html:108 r2/templates/printablebuttons.html:41 r2/templates/printablebuttons.html:586 r2/templates/renderablecampaign.html:161 r2/templates/rules.html:135 r2/templates/wikipagesettings.html:79
 msgid "delete"
 msgstr "видалити"
 
@@ -7917,7 +7930,7 @@ msgstr "обмеження навантаження вимкнено"
 msgid "timings"
 msgstr "хронометраж"
 
-#: r2/templates/adminbar.html:64 r2/templates/exploreitem.html:46 r2/templates/listingchooser.html:53 r2/templates/printablebuttons.html:390
+#: r2/templates/adminbar.html:64 r2/templates/exploreitem.html:46 r2/templates/listingchooser.html:53 r2/templates/printablebuttons.html:391
 msgid "hide"
 msgstr "сховати"
 
@@ -8181,7 +8194,7 @@ msgstr "НЕ ДЛЯ ОФІСУ"
 msgid "mark every post NSFW"
 msgstr "позначати кожну публікацію як NSFW"
 
-#: r2/templates/adminfeeds.html:61 r2/templates/printablebuttons.html:95
+#: r2/templates/adminfeeds.html:61 r2/templates/printablebuttons.html:96
 msgid "AI label"
 msgstr "мітка ШІ"
 
@@ -8292,7 +8305,7 @@ msgstr "обновити ваш пароль"
 msgid "Enter your password and one-time code"
 msgstr "Введіть свій пароль і одноразовий код"
 
-#: r2/templates/admininterstitial.html:56 r2/templates/admininterstitial.html:70 r2/templates/prefsecurity.html:237 r2/templates/prefsecurity.html:242 r2/templates/prefsecurity.html:300 r2/templates/prefupdate.html:33 r2/templates/prefupdate.html:56 r2/templates/prefupdate.html:117 r2/templates/useriphistory.html:74
+#: r2/templates/admininterstitial.html:56 r2/templates/admininterstitial.html:70 r2/templates/prefsecurity.html:205 r2/templates/prefsecurity.html:210 r2/templates/prefsecurity.html:268 r2/templates/prefupdate.html:35 r2/templates/prefupdate.html:59 r2/templates/prefupdate.html:120 r2/templates/useriphistory.html:74
 msgid "(required)"
 msgstr "(обов'язково)"
 
@@ -9731,7 +9744,7 @@ msgstr "примітка"
 msgid "No accounts found."
 msgstr "Облікових записів не знайдено."
 
-#: r2/templates/adminvault.html:35 r2/templates/printablebuttons.html:449
+#: r2/templates/adminvault.html:35 r2/templates/printablebuttons.html:450
 msgid "traffic"
 msgstr "трафік"
 
@@ -10603,7 +10616,7 @@ msgstr "колір"
 msgid "used as a thematic color for your vault on mobile"
 msgstr "використано як тематичний колір для Вашого волта на мобільному"
 
-#: r2/templates/createvault.html:669 r2/templates/flairpane.html:91 r2/templates/prefoptions.html:622
+#: r2/templates/createvault.html:669 r2/templates/flairpane.html:91 r2/templates/prefoptions.html:618
 msgid "save options"
 msgstr "зберегти налаштування"
 
@@ -10640,7 +10653,7 @@ msgstr "більше коментарів"
 msgid "personalized"
 msgstr "персоналізовано"
 
-#: r2/templates/exploreitemlisting.html:51 r2/templates/printablebuttons.html:85
+#: r2/templates/exploreitemlisting.html:51 r2/templates/printablebuttons.html:86
 msgid "nsfw"
 msgstr "не для офісу"
 
@@ -10665,7 +10678,7 @@ msgstr "Показано вміст з %s, крім таких волтів: "
 msgid "filter vault"
 msgstr "фільтрувати волт"
 
-#: r2/templates/filteredinfobar.html:48 r2/templates/modlisting.html:58 r2/templates/prefsecurity.html:306 r2/templates/userlisting.html:99 r2/templates/vaultselector.html:30 r2/templates/wikipagesettings.html:70
+#: r2/templates/filteredinfobar.html:48 r2/templates/modlisting.html:58 r2/templates/prefsecurity.html:274 r2/templates/userlisting.html:99 r2/templates/vaultselector.html:30 r2/templates/wikipagesettings.html:70
 msgid "add"
 msgstr "додати"
 
@@ -11281,19 +11294,19 @@ msgstr "зробити запропонованим сортуванням"
 msgid "suggested sort set"
 msgstr "запропоноване сортування встановлено"
 
-#: r2/templates/linkcommentssettings.html:97 r2/templates/printablebuttons.html:519
+#: r2/templates/linkcommentssettings.html:97 r2/templates/printablebuttons.html:520
 msgid "disable inbox replies"
 msgstr "вимкнути відповіді до вхідної скриньки"
 
-#: r2/templates/linkcommentssettings.html:97 r2/templates/printablebuttons.html:519
+#: r2/templates/linkcommentssettings.html:97 r2/templates/printablebuttons.html:520
 msgid "inbox replies disabled"
 msgstr "відповіді до вхідної скриньки вимкнені"
 
-#: r2/templates/linkcommentssettings.html:101 r2/templates/printablebuttons.html:523
+#: r2/templates/linkcommentssettings.html:101 r2/templates/printablebuttons.html:524
 msgid "enable inbox replies"
 msgstr "увімкнути відповіді до вхідної скриньки"
 
-#: r2/templates/linkcommentssettings.html:101 r2/templates/printablebuttons.html:523
+#: r2/templates/linkcommentssettings.html:101 r2/templates/printablebuttons.html:524
 msgid "inbox replies enabled"
 msgstr "відповіді до вхідної скриньки увімкнути"
 
@@ -11385,7 +11398,7 @@ msgstr "Його буде прив’язано до вашого обліков
 msgid "choose a username"
 msgstr "виберіть ім’я користувача"
 
-#: r2/templates/linkedloginlink.html:60 r2/templates/login.html:103 r2/templates/login.html:106 r2/templates/login.html:234 r2/templates/prefupdate.html:132 r2/templates/resetpassword.html:48
+#: r2/templates/linkedloginlink.html:60 r2/templates/login.html:103 r2/templates/login.html:106 r2/templates/login.html:234 r2/templates/prefupdate.html:135 r2/templates/resetpassword.html:48
 msgid "verify password"
 msgstr "перевірте пароль"
 
@@ -11690,7 +11703,7 @@ msgstr "ви вже більше не модератор"
 msgid "stop being a moderator?"
 msgstr "перестати бути модератором?"
 
-#: r2/templates/modlisting.html:48 r2/templates/printablebuttons.html:433
+#: r2/templates/modlisting.html:48 r2/templates/printablebuttons.html:434
 msgid "accept"
 msgstr "прийняти"
 
@@ -11740,7 +11753,7 @@ msgstr "продовжити цю тему"
 msgid "curated by /u/%s"
 msgstr "під наглядом /u/%s"
 
-#: r2/templates/multiinfobar.html:46 r2/templates/printablebuttons.html:391
+#: r2/templates/multiinfobar.html:46 r2/templates/printablebuttons.html:392
 msgid "hidden"
 msgstr "приховане"
 
@@ -12198,7 +12211,9 @@ msgid "we couldn't save the custom stylesheet preference. please see the error b
 msgstr "ми не можемо зберегти ваші налаштування стилів. дивіться помилку нижче"
 
 #: r2/templates/prefoptions.html:108
-msgid "your preferences weren't saved: enter your two-factor code with them"
+#, fuzzy
+#| msgid "your preferences weren't saved: enter your two-factor code with them"
+msgid "your preferences weren't saved: they locked again while you were away. Save them again now."
 msgstr "ваші налаштування не збережено: введіть разом із ними двофакторний код"
 
 #: r2/templates/prefoptions.html:110
@@ -12781,361 +12796,382 @@ msgstr "наведіть для попереднього перегляду"
 msgid "warning: use non-featured themes at your own risk"
 msgstr "попередження: використовуйте сторонні теми на свій страх і ризик"
 
-#: r2/templates/prefsecurity.html:44
+#: r2/templates/prefsecurity.html:37
 #, fuzzy
 #| msgid "make new recovery codes"
 msgid "save your recovery codes"
 msgstr "створити нові коди відновлення"
 
-#: r2/templates/prefsecurity.html:45
+#: r2/templates/prefsecurity.html:38
 msgid "Save these recovery codes somewhere safe (print them, or keep them in a password manager). Each one works once in place of a code from your app, if you lose your phone. They won't be shown again."
 msgstr "Збережіть ці коди відновлення в надійному місці (роздрукуйте їх або тримайте в менеджері паролів). Кожен спрацьовує один раз замість коду із застосунку, якщо ви загубите телефон. Більше їх не покажуть."
 
-#: r2/templates/prefsecurity.html:51
+#: r2/templates/prefsecurity.html:44
 msgid "If you lose your phone or key: sign in with one of these codes, then remove the lost method below and add a new one."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:57
+#: r2/templates/prefsecurity.html:50
 msgid "two-factor authentication"
 msgstr "двохфакторна ідентифікація"
 
+#: r2/templates/prefsecurity.html:55
+#, fuzzy
+#| msgid "two-factor authentication is **on**. you're asked for a code from one of your methods below when changing your password or email address, and when linking or unlinking a sign-in. a code you enter counts for 15 minutes."
+msgid "two-factor authentication is **on**. you're asked for a code from one of your methods before changing your password, email address or linked sign-ins, and before opening this page."
+msgstr "двофакторну автентифікацію **увімкнено**. під час зміни пароля чи адреси пошти, а також прив’язки чи відв’язки входу вас попросять ввести код з одного зі способів нижче. введений код діє 15 хвилин."
+
+#: r2/templates/prefsecurity.html:57
+#, fuzzy
+#| msgid "two-factor authentication is **on**. you're asked for a code from one of your methods below when changing your password or email address, and when linking or unlinking a sign-in. a code you enter counts for 15 minutes."
+msgid "two-factor authentication is **on**. you're asked to confirm it's you with your passkey before changing your password, email address or linked sign-ins, and before opening this page."
+msgstr "двофакторну автентифікацію **увімкнено**. під час зміни пароля чи адреси пошти, а також прив’язки чи відв’язки входу вас попросять ввести код з одного зі способів нижче. введений код діє 15 хвилин."
+
 #: r2/templates/prefsecurity.html:62
-#, fuzzy
-#| msgid "two-factor authentication is **on**. you're asked for a code from one of your methods below when changing your password or email address, and when linking or unlinking a sign-in. a code you enter counts for 15 minutes."
-msgid "two-factor authentication is **on**. you're asked for a code from one of your methods when changing your password or email address, and when linking or unlinking a sign-in."
-msgstr "двофакторну автентифікацію **увімкнено**. під час зміни пароля чи адреси пошти, а також прив’язки чи відв’язки входу вас попросять ввести код з одного зі способів нижче. введений код діє 15 хвилин."
-
-#: r2/templates/prefsecurity.html:64
-#, fuzzy
-#| msgid "two-factor authentication is **on**. you're asked for a code from one of your methods below when changing your password or email address, and when linking or unlinking a sign-in. a code you enter counts for 15 minutes."
-msgid "two-factor authentication is **on**. you're asked to confirm it's you with your passkey when changing your password or email address, and when linking or unlinking a sign-in."
-msgstr "двофакторну автентифікацію **увімкнено**. під час зміни пароля чи адреси пошти, а також прив’язки чи відв’язки входу вас попросять ввести код з одного зі способів нижче. введений код діє 15 хвилин."
-
-#: r2/templates/prefsecurity.html:69
 msgid "Passkey created. Next time a code is asked for, choose \"use a passkey\"."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:73
+#: r2/templates/prefsecurity.html:66
 #, fuzzy
 #| msgid "sign in with another account"
 msgid "You signed in with a recovery code."
 msgstr "увійти з іншим обліковим записом"
 
-#: r2/templates/prefsecurity.html:74
+#: r2/templates/prefsecurity.html:67
 msgid "If you lost your phone or key, delete it from the list below and create a passkey or add a new app, so you aren't locked out next time."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:76
+#: r2/templates/prefsecurity.html:69
 #, fuzzy, python-format
 #| msgid "You have %(count)s left."
 msgid "You have %(count)s recovery codes left."
 msgstr "Залишилося кодів: %(count)s."
 
-#: r2/templates/prefsecurity.html:78
+#: r2/templates/prefsecurity.html:71
 #, fuzzy
 #| msgid "You have none left: make new ones now."
 msgid "That was your last recovery code: make new ones below."
 msgstr "Кодів не залишилося: створіть нові зараз."
 
-#: r2/templates/prefsecurity.html:91
+#: r2/templates/prefsecurity.html:84
 #, python-format
-msgid "Unlocked: you can make changes here for %(minutes)s more minutes."
+msgid "Unlocked: your preferences lock again %(minutes)s minutes after you last open one."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:97
-#, fuzzy
-#| msgid "enter the code from your authenticator app (or a recovery code)"
-msgid "To change anything here, enter a code from your authenticator app first. It counts for 15 minutes."
-msgstr "введіть код із застосунку-автентифікатора (або код відновлення)"
-
-#: r2/templates/prefsecurity.html:101
-msgid "To change anything here, confirm it's you with your passkey first. It counts for 15 minutes."
-msgstr ""
-
-#: r2/templates/prefsecurity.html:105 r2/templates/printablebuttons.html:82
-msgid "unlock"
-msgstr "відкрити"
-
-#: r2/templates/prefsecurity.html:113
+#: r2/templates/prefsecurity.html:89
 msgid "your methods"
 msgstr "ваші способи"
 
-#: r2/templates/prefsecurity.html:118
+#: r2/templates/prefsecurity.html:94
 msgid "kind_name"
 msgstr "kind_name"
 
-#: r2/templates/prefsecurity.html:119
+#: r2/templates/prefsecurity.html:95
 #, python-format
 msgid "added %(when)s"
 msgstr "додано %(when)s"
 
-#: r2/templates/prefsecurity.html:121
+#: r2/templates/prefsecurity.html:97
 #, python-format
 msgid "last used %(when)s"
 msgstr "востаннє використано %(when)s"
 
-#: r2/templates/prefsecurity.html:143
+#: r2/templates/prefsecurity.html:117
 #, fuzzy
 #| msgid "Removing your only method turns two-factor off, so it needs your password too."
 msgid "Deleting your only method turns two-factor off, so it needs your password too."
 msgstr "Видалення єдиного способу вимикає двофакторну автентифікацію, тому потрібен і пароль."
 
-#: r2/templates/prefsecurity.html:146
+#: r2/templates/prefsecurity.html:120
 msgid "Your passkeys also sign you in on their own: on the login form, choose one from the username box (or \"sign in with a passkey\"), with no password or code."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:147
+#: r2/templates/prefsecurity.html:121
 msgid "Deleting a passkey here stops it working on this site. Your device or password manager keeps its copy until you delete it there too."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:152
+#: r2/templates/prefsecurity.html:126
 msgid "You have one method. Add a second one (a passkey on another device, or an app on another phone), so losing one doesn't lock you out."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:155
+#: r2/templates/prefsecurity.html:129
 msgid "A passkey is the safest method: it only works on this site, so a fake login page can't use it. A code from an app can be typed into a fake page."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:160
+#: r2/templates/prefsecurity.html:133
 msgid "add a method"
 msgstr "додати спосіб"
 
-#: r2/templates/prefsecurity.html:166
+#: r2/templates/prefsecurity.html:138
 msgid "recovery codes"
 msgstr "коди відновлення"
 
-#: r2/templates/prefsecurity.html:168
+#: r2/templates/prefsecurity.html:140
 msgid "Recovery codes work once each in place of a code from your app, if you lose your phone."
 msgstr "Коди відновлення спрацьовують по одному разу замість коду із застосунку, якщо ви загубите телефон."
 
-#: r2/templates/prefsecurity.html:170
+#: r2/templates/prefsecurity.html:142
 #, python-format
 msgid "You have %(count)s left."
 msgstr "Залишилося кодів: %(count)s."
 
-#: r2/templates/prefsecurity.html:172
+#: r2/templates/prefsecurity.html:144
 msgid "You have none left: make new ones now."
 msgstr "Кодів не залишилося: створіть нові зараз."
 
-#: r2/templates/prefsecurity.html:177
+#: r2/templates/prefsecurity.html:148
 msgid "make new recovery codes"
 msgstr "створити нові коди відновлення"
 
-#: r2/templates/prefsecurity.html:180
+#: r2/templates/prefsecurity.html:151
 msgid "Making new ones stops the old ones working."
 msgstr "Після створення нових старі перестають працювати."
 
-#: r2/templates/prefsecurity.html:187
+#: r2/templates/prefsecurity.html:157
 msgid "also ask for a code"
 msgstr "також питати код"
 
-#: r2/templates/prefsecurity.html:191
+#: r2/templates/prefsecurity.html:160
 msgid "when logging in, with your password or a linked account (Google, GitHub...)"
 msgstr "під час входу — з паролем або через прив’язаний обліковий запис (Google, GitHub...)"
 
-#: r2/templates/prefsecurity.html:192
+#: r2/templates/prefsecurity.html:161
 #, python-format
 msgid "you can choose to skip it for %(days)s days on a device you trust"
 msgstr "на довіреному пристрої це можна пропускати %(days)s дн."
 
-#: r2/templates/prefsecurity.html:196
-msgid "when saving your preferences"
+#: r2/templates/prefsecurity.html:165
+#, fuzzy
+#| msgid "when saving your preferences"
+msgid "before opening any of your preferences"
 msgstr "під час збереження налаштувань"
 
-#: r2/templates/prefsecurity.html:200
+#: r2/templates/prefsecurity.html:166
+msgid "otherwise only this page and your password and email address are locked"
+msgstr ""
+
+#: r2/templates/prefsecurity.html:170
 msgid "when submitting a post"
 msgstr "під час надсилання публікації"
 
-#: r2/templates/prefsecurity.html:202
-msgid "a code you enter counts for 15 minutes, so you aren't asked again and again. apps you've allowed (OAuth) aren't asked."
+#: r2/templates/prefsecurity.html:172
+#, fuzzy, python-format
+#| msgid "a code you enter counts for 15 minutes, so you aren't asked again and again. apps you've allowed (OAuth) aren't asked."
+msgid "a code you enter counts for %(minutes)s minutes, and your preferences stay unlocked while you use them, so you aren't asked again and again. apps you've allowed (OAuth) aren't asked."
 msgstr "введений код діє 15 хвилин, щоб вас не питали знову й знову. у дозволених вами застосунків (OAuth) код не питається."
 
-#: r2/templates/prefsecurity.html:215
+#: r2/templates/prefsecurity.html:183
 #, fuzzy
 #| msgid "remember me"
 msgid "remembered devices"
 msgstr "запам'ятати мене"
 
-#: r2/templates/prefsecurity.html:218
+#: r2/templates/prefsecurity.html:186
 msgid "Done: every device will be asked for a code again."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:220
+#: r2/templates/prefsecurity.html:188
 msgid "This device is remembered, so it isn't asked for a code."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:222
+#: r2/templates/prefsecurity.html:190
 #, fuzzy
 #| msgid "Visited links remembered"
 msgid "This device isn't remembered."
 msgstr "Запам’ятовування відвіданих посилань"
 
-#: r2/templates/prefsecurity.html:224
+#: r2/templates/prefsecurity.html:192
 msgid "If you lost a device you chose to skip the code on, or used a shared computer, forget them all: each one is asked for a code again next time."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:226
+#: r2/templates/prefsecurity.html:194
 msgid "forget all remembered devices"
 msgstr ""
 
-#: r2/templates/prefsecurity.html:228
+#: r2/templates/prefsecurity.html:196
 msgid "Nobody is logged out. To end the logins themselves, use \"log out of all other sessions\" on the account activity page."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:233
+#: r2/templates/prefsecurity.html:201
 #, fuzzy
 #| msgid "two-factor authentication"
 msgid "turn off two-factor authentication…"
 msgstr "двохфакторна ідентифікація"
 
-#: r2/templates/prefsecurity.html:235
+#: r2/templates/prefsecurity.html:203
 msgid "to turn it off (removing every method and the recovery codes), enter your password and a code."
 msgstr "щоб вимкнути її (видаливши всі способи й коди відновлення), введіть пароль і код."
 
-#: r2/templates/prefsecurity.html:249
+#: r2/templates/prefsecurity.html:217
 msgid "turn off"
 msgstr "вимкнути"
 
-#: r2/templates/prefsecurity.html:254
+#: r2/templates/prefsecurity.html:222
 msgid "This site asks moderators and staff to use two-factor sign-in: your moderator tools work again once it's on."
 msgstr "Цей сайт просить модераторів і персонал користуватися двофакторним входом: інструменти модератора знову запрацюють, щойно ви його ввімкнете."
 
-#: r2/templates/prefsecurity.html:256
+#: r2/templates/prefsecurity.html:224
 msgid "with two-factor authentication on, changing your password or email address, and linking or unlinking a sign-in, also need a second step: a code from an authenticator app on your phone (Google Authenticator, Authy, 1Password and the like). someone who learns your password, or gets into a linked Google or Facebook account, can't take over your account here. you can add more than one method, and remove them later."
 msgstr "з увімкненою двофакторною автентифікацією для зміни пароля чи адреси пошти, а також для прив’язки чи відв’язки входу потрібен другий крок: код із застосунку-автентифікатора на телефоні (Google Authenticator, Authy, 1Password і подібні). той, хто дізнається ваш пароль або проникне в прив’язаний обліковий запис Google чи Facebook, не зможе захопити ваш обліковий запис тут. можна додати кілька способів і згодом видалити їх."
 
-#: r2/templates/prefsecurity.html:257
+#: r2/templates/prefsecurity.html:225
 msgid "When you add your first method you get recovery codes to save: they let you in if you lose your phone or key."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:269
+#: r2/templates/prefsecurity.html:237
 msgid "To start, enter your password."
 msgstr "Для початку введіть пароль."
 
-#: r2/templates/prefsecurity.html:273
+#: r2/templates/prefsecurity.html:241
 #, fuzzy
 #| msgid "(optional, like phone or work)"
 msgid "name (optional, like phone or work)"
 msgstr "(необов’язково, наприклад «телефон» або «робота»)"
 
-#: r2/templates/prefsecurity.html:277
+#: r2/templates/prefsecurity.html:245
 #, fuzzy
 #| msgid "use a passkey"
 msgid "create a passkey"
 msgstr "використати ключ доступу"
 
-#: r2/templates/prefsecurity.html:279
+#: r2/templates/prefsecurity.html:247
 msgid "Passkeys are encrypted digital keys you create using your fingerprint, face or screen lock. They're saved in your password manager (like Google Password Manager or iCloud Keychain), so you can use them on your other devices too."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:280
+#: r2/templates/prefsecurity.html:248
 msgid "A passkey only works on this site, so a fake login page can't use it, and it signs you in without your password. Don't create one on a shared computer."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:283
+#: r2/templates/prefsecurity.html:251
 msgid "add an authenticator app"
 msgstr "додати застосунок-автентифікатор"
 
-#: r2/templates/prefsecurity.html:284
+#: r2/templates/prefsecurity.html:252
 msgid "An app on your phone (Google Authenticator, Authy, 1Password and the like) shows a new 6-digit code every 30 seconds."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:293
+#: r2/templates/prefsecurity.html:261
 #, fuzzy
 #| msgid "scan the QR code with your authenticator app, or enter the key below in it. you WILL NOT have another chance to see this key."
 msgid "1. Scan this QR code with your authenticator app, or type the key under it into the app. This key isn't shown again."
 msgstr "відскануйте QR-код застосунком-автентифікатором або введіть у нього ключ нижче. побачити цей ключ ще раз НЕ вдасться."
 
-#: r2/templates/prefsecurity.html:296
+#: r2/templates/prefsecurity.html:264
 msgid "2. name it"
 msgstr ""
 
-#: r2/templates/prefsecurity.html:296
+#: r2/templates/prefsecurity.html:264
 msgid "(optional, like phone or work)"
 msgstr "(необов’язково, наприклад «телефон» або «робота»)"
 
-#: r2/templates/prefsecurity.html:300
+#: r2/templates/prefsecurity.html:268
 msgid "3. the code the app shows"
 msgstr ""
 
-#: r2/templates/prefsecurity.html:314
+#: r2/templates/prefsecurity.html:282
 msgid "sign in with another account"
 msgstr "увійти з іншим обліковим записом"
 
-#: r2/templates/prefsecurity.html:316
+#: r2/templates/prefsecurity.html:284
 msgid "Link a Google, Facebook, GitHub or Discord account to sign in with it instead of your password. It only signs in to this account, and you can unlink it at any time. Your password keeps working."
 msgstr "Прив’яжіть обліковий запис Google, Facebook, GitHub або Discord, щоб входити з його допомогою замість пароля. Він входить лише в цей обліковий запис, і відв’язати його можна будь-коли. Пароль і далі працює."
 
-#: r2/templates/prefsecurity.html:318
+#: r2/templates/prefsecurity.html:286
 msgid "Linked. You can now sign in with it on the login page."
 msgstr "Прив’язано. Тепер з його допомогою можна увійти на сторінці входу."
 
-#: r2/templates/prefsecurity.html:322
-msgid "Linking or unlinking needs your two-factor code (one you entered in the last 15 minutes counts)."
-msgstr "Для прив’язки чи відв’язки потрібен двофакторний код (підійде введений за останні 15 хвилин)."
-
-#: r2/templates/prefsecurity.html:330
+#: r2/templates/prefsecurity.html:294
 msgid "linked"
 msgstr "прив’язано"
 
-#: r2/templates/prefsecurity.html:344
+#: r2/templates/prefsecurity.html:304
 msgid "unlink"
 msgstr "відв’язати"
 
-#: r2/templates/prefsecurity.html:349
+#: r2/templates/prefsecurity.html:309
 msgid "not linked"
 msgstr "не прив’язано"
 
-#: r2/templates/prefsecurity.html:360 r2/templates/prefsecurity.html:364
+#: r2/templates/prefsecurity.html:316 r2/templates/prefsecurity.html:320
 #, python-format
 msgid "link %(provider)s"
 msgstr "прив’язати %(provider)s"
 
-#: r2/templates/prefupdate.html:33
-msgid "(entered a moment ago)"
-msgstr "(введено щойно)"
+#: r2/templates/prefsunlock.html:23
+#, fuzzy
+#| msgid "when saving your preferences"
+msgid "unlock your preferences"
+msgstr "під час збереження налаштувань"
 
-#: r2/templates/prefupdate.html:49
+#: r2/templates/prefsunlock.html:26
+msgid "You chose to keep your preferences locked until you confirm it's you."
+msgstr ""
+
+#: r2/templates/prefsunlock.html:28
+msgid "Changing your password, email address, two-factor sign-in or linked accounts needs you to confirm it's you first."
+msgstr ""
+
+#: r2/templates/prefsunlock.html:35
+#, fuzzy
+#| msgid "enter the code from your authenticator app (or a recovery code)"
+msgid "Enter a code from your authenticator app (or a recovery code)."
+msgstr "введіть код із застосунку-автентифікатора (або код відновлення)"
+
+#: r2/templates/prefsunlock.html:37
+#, fuzzy
+#| msgid "enter the code from your authenticator app (or a recovery code)"
+msgid "Confirm it's you with your passkey (or a recovery code)."
+msgstr "введіть код із застосунку-автентифікатора (або код відновлення)"
+
+#: r2/templates/prefsunlock.html:41 r2/templates/printablebuttons.html:83
+msgid "unlock"
+msgstr "відкрити"
+
+#: r2/templates/prefsunlock.html:45
+#, python-format
+msgid "They stay unlocked while you use them, and lock again %(minutes)s minutes after you last opened one."
+msgstr ""
+
+#: r2/templates/prefupdate.html:52
 msgid "verify your email"
 msgstr "підтвердіть вашу електронну пошту"
 
-#: r2/templates/prefupdate.html:51
+#: r2/templates/prefupdate.html:54
 msgid "update your email"
 msgstr "обновити вашу електронну пошту"
 
-#: r2/templates/prefupdate.html:56 r2/templates/prefupdate.html:117 r2/templates/useriphistory.html:74
+#: r2/templates/prefupdate.html:59 r2/templates/prefupdate.html:120 r2/templates/useriphistory.html:74
 msgid "current password"
 msgstr "поточний пароль"
 
-#: r2/templates/prefupdate.html:68
+#: r2/templates/prefupdate.html:71
 msgid "verified"
 msgstr "перевірено"
 
-#: r2/templates/prefupdate.html:71
+#: r2/templates/prefupdate.html:74
 msgid "verification pending"
 msgstr "очікує підтвердження"
 
-#: r2/templates/prefupdate.html:72
+#: r2/templates/prefupdate.html:75
 msgid "click to resend"
 msgstr "клікніть для повторної відправки"
 
-#: r2/templates/prefupdate.html:74
+#: r2/templates/prefupdate.html:77
 msgid "unverified"
 msgstr "не перевірено"
 
-#: r2/templates/prefupdate.html:75
+#: r2/templates/prefupdate.html:78
 msgid "click to verify"
 msgstr "клікніть для перевірки"
 
-#: r2/templates/prefupdate.html:96
+#: r2/templates/prefupdate.html:99
 msgid "send verification email"
 msgstr "відправити поштове повідомлення для перевірки"
 
-#: r2/templates/prefupdate.html:114
+#: r2/templates/prefupdate.html:117
 msgid "update your password"
 msgstr "обновити ваш пароль"
 
-#: r2/templates/prefupdate.html:125 r2/templates/resetpassword.html:41
+#: r2/templates/prefupdate.html:128 r2/templates/resetpassword.html:41
 msgid "new password"
 msgstr "новий пароль"
 
@@ -13148,148 +13184,148 @@ msgstr "вилучено %(time)s"
 msgid "(no need to click for this info; just hover over the checkmark next time)"
 msgstr "(не потрібно клікати по цій інформації; просто наведіть курсор наступного разу)"
 
-#: r2/templates/printablebuttons.html:47 r2/templates/printablebuttons.html:283
+#: r2/templates/printablebuttons.html:48 r2/templates/printablebuttons.html:284
 msgid "spammed"
 msgstr "відмічене як спам"
 
-#: r2/templates/printablebuttons.html:74 r2/templates/promotelinkbase.html:849 r2/templates/vaultreportform.html:49
+#: r2/templates/printablebuttons.html:75 r2/templates/promotelinkbase.html:849 r2/templates/vaultreportform.html:52
 msgid "report"
 msgstr "поскаржитись"
 
-#: r2/templates/printablebuttons.html:79
+#: r2/templates/printablebuttons.html:80
 msgid "lock"
 msgstr "закрити"
 
-#: r2/templates/printablebuttons.html:85
+#: r2/templates/printablebuttons.html:86
 msgid "marked"
 msgstr "відмічене"
 
-#: r2/templates/printablebuttons.html:88
+#: r2/templates/printablebuttons.html:89
 msgid "un-nsfw"
 msgstr "зняти відмітку «не для офісу»"
 
-#: r2/templates/printablebuttons.html:88
+#: r2/templates/printablebuttons.html:89
 msgid "unmarked"
 msgstr "не відмічено"
 
-#: r2/templates/printablebuttons.html:120
+#: r2/templates/printablebuttons.html:121
 msgid "retry thumb"
 msgstr "спробувати ще"
 
-#: r2/templates/printablebuttons.html:120
+#: r2/templates/printablebuttons.html:121
 msgid "check back in a few minutes"
 msgstr "перевірте ще раз через кілька хвилин"
 
-#: r2/templates/printablebuttons.html:140
+#: r2/templates/printablebuttons.html:141
 msgid "undistinguish"
 msgstr "зняти виділення"
 
-#: r2/templates/printablebuttons.html:155
+#: r2/templates/printablebuttons.html:156
 msgid "distinguish this?"
 msgstr "розрізнити це?"
 
-#: r2/templates/printablebuttons.html:165
+#: r2/templates/printablebuttons.html:166
 msgid "yes & sticky"
 msgstr "так і закріпити"
 
-#: r2/templates/printablebuttons.html:192
+#: r2/templates/printablebuttons.html:193
 msgid "undistinguish this?"
 msgstr "зняти виділення?"
 
-#: r2/templates/printablebuttons.html:217
+#: r2/templates/printablebuttons.html:218
 msgid "undistinguishing..."
 msgstr "зняття виділення..."
 
-#: r2/templates/printablebuttons.html:219
+#: r2/templates/printablebuttons.html:220
 msgid "distinguishing..."
 msgstr "розрізняю..."
 
-#: r2/templates/printablebuttons.html:240
+#: r2/templates/printablebuttons.html:241
 msgid "give tippr gold in appreciation of this post."
 msgstr "подарувати Золоту підписку як вдячність за публікацію."
 
-#: r2/templates/printablebuttons.html:243
+#: r2/templates/printablebuttons.html:244
 msgid "give gold"
 msgstr "подарувати золото"
 
-#: r2/templates/printablebuttons.html:270
+#: r2/templates/printablebuttons.html:271
 msgid "reapprove"
 msgstr "повторно схвалити"
 
-#: r2/templates/printablebuttons.html:310
+#: r2/templates/printablebuttons.html:311
 msgid "click to show report reasons"
 msgstr "показати причину скарги"
 
-#: r2/templates/printablebuttons.html:323
+#: r2/templates/printablebuttons.html:324
 msgid "moderator reports:"
 msgstr "скарги модераторів:"
 
-#: r2/templates/printablebuttons.html:329 r2/templates/printablebuttons.html:342
+#: r2/templates/printablebuttons.html:330 r2/templates/printablebuttons.html:343
 msgid "<no reason>"
 msgstr "<без причини>"
 
-#: r2/templates/printablebuttons.html:336
+#: r2/templates/printablebuttons.html:337
 msgid "user reports:"
 msgstr "скарги користувачів:"
 
-#: r2/templates/printablebuttons.html:386
+#: r2/templates/printablebuttons.html:387
 msgid "unhide"
 msgstr "показати"
 
-#: r2/templates/printablebuttons.html:387
+#: r2/templates/printablebuttons.html:388
 msgid "unhidden"
 msgstr "показано"
 
-#: r2/templates/printablebuttons.html:427
+#: r2/templates/printablebuttons.html:428
 msgid "reject"
 msgstr "відхилити"
 
-#: r2/templates/printablebuttons.html:434
+#: r2/templates/printablebuttons.html:435
 msgid "accepted"
 msgstr "прийнято"
 
-#: r2/templates/printablebuttons.html:442
+#: r2/templates/printablebuttons.html:443
 msgid "fraud"
 msgstr "шахрайство"
 
-#: r2/templates/printablebuttons.html:473 r2/templates/printablebuttons.html:577
+#: r2/templates/printablebuttons.html:474 r2/templates/printablebuttons.html:578
 msgid "permalink"
 msgstr "постійне посилання"
 
-#: r2/templates/printablebuttons.html:493 r2/templates/printablebuttons.html:566
+#: r2/templates/printablebuttons.html:494 r2/templates/printablebuttons.html:567
 msgid "context"
 msgstr "контекст"
 
-#: r2/templates/printablebuttons.html:497 r2/templates/printablebuttons.html:570
+#: r2/templates/printablebuttons.html:498 r2/templates/printablebuttons.html:571
 msgid "full comments"
 msgstr "всі коментарі"
 
-#: r2/templates/printablebuttons.html:507
+#: r2/templates/printablebuttons.html:508
 msgid "parent"
 msgstr "вище"
 
-#: r2/templates/printablebuttons.html:538 r2/templates/printablebuttons.html:540 r2/templates/printablebuttons.html:633
+#: r2/templates/printablebuttons.html:539 r2/templates/printablebuttons.html:541 r2/templates/printablebuttons.html:634
 #, python-brace-format
 msgid "reply {verb}"
 msgstr "відповісти"
 
-#: r2/templates/printablebuttons.html:595
+#: r2/templates/printablebuttons.html:596
 msgid "unblock vault"
 msgstr "розблокувати волт"
 
-#: r2/templates/printablebuttons.html:595
+#: r2/templates/printablebuttons.html:596
 msgid "unblocked"
 msgstr "розблоковано"
 
-#: r2/templates/printablebuttons.html:598
+#: r2/templates/printablebuttons.html:599
 msgid "block vault"
 msgstr "заблокувати волт"
 
-#: r2/templates/printablebuttons.html:605
+#: r2/templates/printablebuttons.html:606
 msgid "block user"
 msgstr "заблокувати користувача"
 
-#: r2/templates/printablebuttons.html:623
+#: r2/templates/printablebuttons.html:624
 msgid "mark unread"
 msgstr "відмітити як непрочитане"
 
@@ -14099,15 +14135,15 @@ msgstr "завершити"
 msgid "why are you reporting this?"
 msgstr "чому ви скаржитеся?"
 
-#: r2/templates/reportform.html:54
+#: r2/templates/reportform.html:54 r2/templates/vaultreportform.html:83
 #, python-format
-msgid "tippr rule: %(rule_name)s"
-msgstr "правило tippr: %(rule_name)s"
+msgid "%(site_name)s rule: %(rule_name)s"
+msgstr "Правило %(site_name)s: %(rule_name)s"
 
-#: r2/templates/reportform.html:62
+#: r2/templates/reportform.html:62 r2/templates/vaultreportform.html:127
 #, python-format
-msgid "other (max %(num)s characters):"
-msgstr "інше (не більше %(num)s символів):"
+msgid "Other (max %(num)s characters):"
+msgstr "Інше (не більше %(num)s символів):"
 
 #: r2/templates/rules.html:44
 msgid "Rules that visitors must follow to participate. May be used as reasons to report or ban."
@@ -14735,31 +14771,22 @@ msgstr "схвалити цей волт"
 msgid "ban this vault"
 msgstr "заблокувати цей волт"
 
-#: r2/templates/vaultreportform.html:35 r2/templates/vaultreportform.html:36
+#: r2/templates/vaultreportform.html:38 r2/templates/vaultreportform.html:39
 msgid "View the community rules"
 msgstr "Переглянути правила спільноти"
 
-#: r2/templates/vaultreportform.html:39
+#: r2/templates/vaultreportform.html:42
 msgid "What rule does this break?"
 msgstr "Яке правило це порушує?"
 
-#: r2/templates/vaultreportform.html:80
-#, python-format
-msgid "Tippr rule: %(rule_name)s"
-msgstr "Правило Tippr: %(rule_name)s"
-
-#: r2/templates/vaultreportform.html:89 r2/templates/vaultreportform.html:108
+#: r2/templates/vaultreportform.html:92 r2/templates/vaultreportform.html:111
 msgid "Reports go to community moderators anonymously"
 msgstr "Скарги надходять модераторам спільноти анонімно"
 
-#: r2/templates/vaultreportform.html:110
-msgid "Reports go to Tippr admins"
-msgstr "Скарги надходять адміністраторам Tippr"
-
-#: r2/templates/vaultreportform.html:124
+#: r2/templates/vaultreportform.html:113
 #, python-format
-msgid "Other (max %(num)s characters):"
-msgstr "Інше (не більше %(num)s символів):"
+msgid "Reports go to the %(site_name)s admins"
+msgstr "Скарги отримують адміністратори %(site_name)s"
 
 #: r2/templates/vaultstylesheet.html:58 r2/templates/wikieditpage.html:52
 msgid "reason for revision"

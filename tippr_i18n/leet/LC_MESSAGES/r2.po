@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tippr\n"
 "Report-Msgid-Bugs-To: https://github.com/TechIdiots-LLC/tippr-i18n/issues\n"
-"POT-Creation-Date: 2026-10-24 20:07-0400\n"
+"POT-Creation-Date: 2026-10-25 10:54-0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,7 +19,7 @@ msgstr ""
 msgid "Choose an image of at most 1 MB."
 msgstr ""
 
-#: r2/controllers/api.py:223 r2/controllers/api.py:249 r2/controllers/api.py:4436 r2/controllers/api.py:4506 r2/controllers/listingcontroller.py:766 r2/lib/pages/pages.py:6405
+#: r2/controllers/api.py:223 r2/controllers/api.py:249 r2/controllers/api.py:4436 r2/controllers/api.py:4506 r2/controllers/listingcontroller.py:766 r2/lib/pages/pages.py:6422
 msgid "API"
 msgstr "4p!"
 
@@ -75,7 +75,7 @@ msgstr ""
 msgid "That account is linked already: sign in with it."
 msgstr ""
 
-#: r2/controllers/api.py:1436 r2/controllers/api.py:1817 r2/controllers/api.py:2719 r2/controllers/api.py:3019 r2/controllers/api.py:3346 r2/controllers/api.py:4228 r2/controllers/api.py:4284 r2/controllers/api.py:4338 r2/controllers/api.py:4571 r2/controllers/api.py:4576 r2/controllers/api.py:4811 r2/controllers/api.py:4876 r2/controllers/api.py:4954 r2/controllers/api.py:5020 r2/controllers/api.py:5093 r2/controllers/api.py:5184 r2/controllers/api.py:5216 r2/controllers/api.py:5236 r2/controllers/api.py:5750 r2/controllers/api.py:5790 r2/controllers/api.py:6024 r2/controllers/api.py:6042 r2/controllers/api.py:6390 r2/lib/pages/pages.py:6296
+#: r2/controllers/api.py:1436 r2/controllers/api.py:1817 r2/controllers/api.py:2719 r2/controllers/api.py:3019 r2/controllers/api.py:3346 r2/controllers/api.py:4228 r2/controllers/api.py:4284 r2/controllers/api.py:4338 r2/controllers/api.py:4571 r2/controllers/api.py:4576 r2/controllers/api.py:4811 r2/controllers/api.py:4876 r2/controllers/api.py:4954 r2/controllers/api.py:5020 r2/controllers/api.py:5093 r2/controllers/api.py:5184 r2/controllers/api.py:5216 r2/controllers/api.py:5236 r2/controllers/api.py:5750 r2/controllers/api.py:5790 r2/controllers/api.py:6024 r2/controllers/api.py:6042 r2/controllers/api.py:6390 r2/lib/pages/pages.py:6313
 msgid "saved"
 msgstr "54v3d"
 
@@ -107,7 +107,7 @@ msgstr "r3p113)"
 msgid "validation errors"
 msgstr "v41!|)47!0n 3rr0r5"
 
-#: r2/controllers/api.py:2822 r2/controllers/api.py:2849 r2/controllers/api.py:2876 r2/controllers/listingcontroller.py:1048 r2/lib/menus.py:195 r2/public/static/js/tippr.js:235 r2/templates/adminapps.html:51 r2/templates/adminuser.html:59 r2/templates/deleteduserinterstitial.html:34 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:585 r2/templates/vaultstylesheetbase.html:47
+#: r2/controllers/api.py:2822 r2/controllers/api.py:2849 r2/controllers/api.py:2876 r2/controllers/listingcontroller.py:1048 r2/lib/menus.py:195 r2/public/static/js/tippr.js:235 r2/templates/adminapps.html:51 r2/templates/adminuser.html:59 r2/templates/deleteduserinterstitial.html:34 r2/templates/printablebuttons.html:41 r2/templates/printablebuttons.html:586 r2/templates/vaultstylesheetbase.html:47
 msgid "deleted"
 msgstr "d3|373d"
 
@@ -198,7 +198,7 @@ msgstr "(r3473 4((0µn7"
 msgid "status"
 msgstr "57473"
 
-#: r2/controllers/api.py:5084 r2/controllers/linked_logins.py:93 r2/controllers/linked_logins.py:187 r2/lib/pages/pages.py:1374 r2/lib/pages/pages.py:1424 r2/templates/createvault.html:57 r2/templates/goldpayment.html:168 r2/templates/linkedsignin.html:41 r2/templates/listingchooser.html:69 r2/templates/prefapps.html:153 r2/templates/prefapps.html:348
+#: r2/controllers/api.py:5084 r2/controllers/linked_logins.py:93 r2/controllers/linked_logins.py:187 r2/lib/pages/pages.py:1388 r2/lib/pages/pages.py:1438 r2/templates/createvault.html:57 r2/templates/goldpayment.html:168 r2/templates/linkedsignin.html:41 r2/templates/listingchooser.html:69 r2/templates/prefapps.html:153 r2/templates/prefapps.html:348
 msgid "name"
 msgstr "n@m3"
 
@@ -489,51 +489,51 @@ msgstr ""
 msgid "that passkey wasn't accepted"
 msgstr "7h@7 p@55w0r) 1$ un@((3p7@813"
 
-#: r2/controllers/api.py:6502
+#: r2/controllers/api.py:6504
 #, python-format
 msgid "accounts need to be %(n)d days old"
 msgstr ""
 
-#: r2/controllers/api.py:6506
+#: r2/controllers/api.py:6508
 #, python-format
 msgid "accounts need %(n)d karma"
 msgstr ""
 
-#: r2/controllers/api.py:6509
+#: r2/controllers/api.py:6511
 #, fuzzy
 #| msgid "[tippr] verify your email address"
 msgid "verify your email address first"
 msgstr "[r3))17] v3r!phy y0ur 3m@11 4))r3$5"
 
-#: r2/controllers/api.py:6551 r2/lib/errors.py:158
+#: r2/controllers/api.py:6553 r2/lib/errors.py:159
 msgid "this app can not be modified from this interface"
 msgstr ""
 
-#: r2/controllers/api.py:6558 r2/lib/errors.py:136
+#: r2/controllers/api.py:6560 r2/lib/errors.py:136
 msgid "invalid client id"
 msgstr ""
 
-#: r2/controllers/api.py:6561
+#: r2/controllers/api.py:6563
 msgid "cannot update deleted app"
 msgstr ""
 
-#: r2/controllers/api.py:6564
+#: r2/controllers/api.py:6566
 msgid "app does not belong to you"
 msgstr ""
 
-#: r2/controllers/api.py:6572
+#: r2/controllers/api.py:6574
 #, fuzzy
 #| msgid "expiration date"
 msgid "application updated"
 msgstr "3xp1r@710n )@73"
 
-#: r2/controllers/api.py:6596
+#: r2/controllers/api.py:6598
 #, fuzzy
 #| msgid "expiration date"
 msgid "application created"
 msgstr "3xp1r@710n )@73"
 
-#: r2/controllers/api.py:6631
+#: r2/controllers/api.py:6633
 msgid "developer added"
 msgstr ""
 
@@ -549,7 +549,7 @@ msgstr "r3dd17 bu770n5"
 msgid "tippr widget"
 msgstr "r3dd17 w1d637"
 
-#: r2/controllers/embed.py:74 r2/controllers/policies.py:51 r2/lib/pages/pages.py:1137 r2/lib/pages/pages.py:6401 r2/templates/printablebuttons.html:150
+#: r2/controllers/embed.py:74 r2/controllers/policies.py:51 r2/lib/pages/pages.py:1136 r2/lib/pages/pages.py:6418 r2/templates/printablebuttons.html:151
 msgid "help"
 msgstr "h3£p"
 
@@ -586,7 +586,7 @@ msgstr "7h3 p@63 y0u r30_u3$73|) )03$ n07 3x!57"
 msgid "suspended"
 msgstr ""
 
-#: r2/controllers/front.py:247 r2/lib/pages/pages.py:6283
+#: r2/controllers/front.py:247 r2/lib/pages/pages.py:6300
 msgid "explore"
 msgstr ""
 
@@ -620,7 +620,7 @@ msgstr "5h0w %d"
 msgid "create a vault"
 msgstr "(r3473 4 r3ÐÐ17"
 
-#: r2/controllers/front.py:738 r2/controllers/front.py:744 r2/controllers/listingcontroller.py:813 r2/controllers/listingcontroller.py:828 r2/controllers/listingcontroller.py:1192 r2/controllers/listingcontroller.py:1203 r2/lib/menus.py:203 r2/lib/menus.py:453 r2/lib/menus.py:666 r2/lib/pages/pages.py:5170 r2/lib/pages/pages.py:5179 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
+#: r2/controllers/front.py:738 r2/controllers/front.py:744 r2/controllers/listingcontroller.py:813 r2/controllers/listingcontroller.py:828 r2/controllers/listingcontroller.py:1192 r2/controllers/listingcontroller.py:1203 r2/lib/menus.py:203 r2/lib/menus.py:453 r2/lib/menus.py:666 r2/lib/pages/pages.py:5187 r2/lib/pages/pages.py:5196 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
 msgid "all"
 msgstr "4££"
 
@@ -648,7 +648,7 @@ msgstr "70p %d (0mm3n7$"
 msgid "posts"
 msgstr ""
 
-#: r2/controllers/front.py:949 r2/controllers/listingcontroller.py:1795 r2/lib/pages/pages.py:5924 r2/templates/adminuser.html:37 r2/templates/createvault.html:288 r2/templates/link.xml:95
+#: r2/controllers/front.py:949 r2/controllers/listingcontroller.py:1795 r2/lib/pages/pages.py:5941 r2/templates/adminuser.html:37 r2/templates/createvault.html:288 r2/templates/link.xml:95
 msgid "comments"
 msgstr "(0mm3n75"
 
@@ -738,7 +738,7 @@ msgstr ""
 msgid "Thanks for buying tippr gold! Your transaction is being processed. If you have any questions please contact us at %(gold_email)s"
 msgstr ""
 
-#: r2/controllers/front.py:1582 r2/controllers/front.py:1891
+#: r2/controllers/front.py:1582 r2/controllers/front.py:1894
 msgid "thanks"
 msgstr "7h4nX5"
 
@@ -758,11 +758,11 @@ msgstr ""
 msgid "gilding"
 msgstr "up104)!n6"
 
-#: r2/controllers/front.py:1636 r2/controllers/front.py:1940 r2/controllers/front.py:1967 r2/controllers/front.py:2037 r2/controllers/front.py:2080 r2/lib/menus.py:94 r2/templates/contactus.html:117 r2/templates/contactus.html:119 r2/templates/creditgild.html:34 r2/templates/gold.html:30 r2/templates/goldabout.html:20 r2/templates/goldpayment.html:40 r2/templates/goldthanks.html:29 r2/templates/prefoptions.html:562
+#: r2/controllers/front.py:1636 r2/controllers/front.py:1943 r2/controllers/front.py:1970 r2/controllers/front.py:2040 r2/controllers/front.py:2083 r2/lib/menus.py:94 r2/templates/contactus.html:117 r2/templates/contactus.html:119 r2/templates/creditgild.html:34 r2/templates/gold.html:30 r2/templates/goldabout.html:20 r2/templates/goldpayment.html:40 r2/templates/goldthanks.html:29 r2/templates/prefoptions.html:562
 msgid "tippr gold"
 msgstr "r3|))!7 601|)"
 
-#: r2/controllers/front.py:1669 r2/public/static/js/enhancements.js:1084 r2/templates/adminemailsettings.html:73 r2/templates/admininterstitial.html:56 r2/templates/linkedloginlink.html:40 r2/templates/linkedloginlink.html:58 r2/templates/login.html:96 r2/templates/login.html:98 r2/templates/login.html:223 r2/templates/loginformwide.html:46 r2/templates/prefsecurity.html:130 r2/templates/prefsecurity.html:237 r2/templates/prefsecurity.html:270 r2/templates/privacysettings.html:128
+#: r2/controllers/front.py:1669 r2/public/static/js/enhancements.js:1084 r2/templates/adminemailsettings.html:73 r2/templates/admininterstitial.html:56 r2/templates/linkedloginlink.html:40 r2/templates/linkedloginlink.html:58 r2/templates/login.html:96 r2/templates/login.html:98 r2/templates/login.html:223 r2/templates/loginformwide.html:46 r2/templates/prefsecurity.html:105 r2/templates/prefsecurity.html:205 r2/templates/prefsecurity.html:238 r2/templates/privacysettings.html:128
 msgid "password"
 msgstr "p4$$w0rÐ"
 
@@ -785,31 +785,31 @@ msgstr ""
 msgid "emails unsubscribed"
 msgstr "$µb$(r1b3r"
 
-#: r2/controllers/front.py:1843 r2/lib/pages/pages.py:930 r2/templates/admininterstitial.html:83
+#: r2/controllers/front.py:1846 r2/lib/pages/pages.py:929 r2/templates/admininterstitial.html:83
 msgid "turn admin on"
 msgstr "7µrn 4Ðm1n 0n"
 
-#: r2/controllers/front.py:1861 r2/controllers/post.py:166
+#: r2/controllers/front.py:1864 r2/controllers/post.py:166
 msgid "opt out"
 msgstr "0p7 0u7"
 
-#: r2/controllers/front.py:1861 r2/controllers/post.py:177
+#: r2/controllers/front.py:1864 r2/controllers/post.py:177
 msgid "welcome back"
 msgstr "w31(0m3 84(X"
 
-#: r2/controllers/front.py:1969
+#: r2/controllers/front.py:1972
 msgid "tippr gold isn't for sale on this site right now."
 msgstr ""
 
-#: r2/controllers/front.py:1970
+#: r2/controllers/front.py:1973
 msgid "what gold gives you"
 msgstr ""
 
-#: r2/controllers/front.py:2090 r2/templates/gold.html:57 r2/templates/gold.html:112 r2/templates/prefoptions.html:553
+#: r2/controllers/front.py:2093 r2/templates/gold.html:57 r2/templates/gold.html:112 r2/templates/prefoptions.html:553
 msgid "Give Gold"
 msgstr ""
 
-#: r2/controllers/front.py:2100 r2/controllers/ipn.py:844
+#: r2/controllers/front.py:2103 r2/controllers/ipn.py:844
 #, fuzzy
 #| msgid "edit subscriptions"
 msgid "tippr gold subscription"
@@ -1201,11 +1201,11 @@ msgstr ")1511X3) 8y %(user)s"
 msgid "profile for %(user)s"
 msgstr "pr0ph113 ph0r %(user)s"
 
-#: r2/controllers/listingcontroller.py:1021 r2/lib/menus.py:110 r2/templates/printablebuttons.html:598 r2/templates/printablebuttons.html:605
+#: r2/controllers/listingcontroller.py:1021 r2/lib/menus.py:110 r2/templates/printablebuttons.html:599 r2/templates/printablebuttons.html:606
 msgid "blocked"
 msgstr ""
 
-#: r2/controllers/listingcontroller.py:1193 r2/controllers/listingcontroller.py:1204 r2/templates/printablebuttons.html:625
+#: r2/controllers/listingcontroller.py:1193 r2/controllers/listingcontroller.py:1204 r2/templates/printablebuttons.html:626
 msgid "unread"
 msgstr "unr34|)"
 
@@ -1238,11 +1238,11 @@ msgstr "5u8r3))17"
 msgid "To block a user click 'block user'  below a message from a user you wish to block from messaging you."
 msgstr ""
 
-#: r2/controllers/listingcontroller.py:2105 r2/lib/menus.py:60
+#: r2/controllers/listingcontroller.py:2109 r2/lib/menus.py:60
 msgid "gilded"
 msgstr ""
 
-#: r2/controllers/listingcontroller.py:2121
+#: r2/controllers/listingcontroller.py:2125
 #, python-format
 msgid "gildings in this vault have paid for %(time)s of server time"
 msgstr ""
@@ -1314,19 +1314,19 @@ msgstr ""
 msgid "try again"
 msgstr ""
 
-#: r2/controllers/policies.py:61 r2/lib/help_pages.py:43 r2/lib/menus.py:102 r2/lib/pages/pages.py:6411 r2/templates/contactus.html:84 r2/templates/utils.html:543
+#: r2/controllers/policies.py:61 r2/lib/help_pages.py:43 r2/lib/menus.py:102 r2/lib/pages/pages.py:6428 r2/templates/contactus.html:84 r2/templates/utils.html:543
 #, fuzzy
 #| msgid "privacy options"
 msgid "privacy policy"
 msgstr "pr1v@(y 0p7!0n$"
 
-#: r2/controllers/policies.py:64 r2/lib/help_pages.py:42 r2/lib/menus.py:101 r2/lib/pages/pages.py:6412 r2/templates/contactus.html:92
+#: r2/controllers/policies.py:64 r2/lib/help_pages.py:42 r2/lib/menus.py:101 r2/lib/pages/pages.py:6429 r2/templates/contactus.html:92
 #, fuzzy
 #| msgid "username"
 msgid "user agreement"
 msgstr "µ$3rn4m3"
 
-#: r2/controllers/policies.py:67 r2/lib/help_pages.py:44 r2/lib/menus.py:100 r2/lib/pages/pages.py:6413 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:237
+#: r2/controllers/policies.py:67 r2/lib/help_pages.py:44 r2/lib/menus.py:100 r2/lib/pages/pages.py:6430 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:237
 #, fuzzy
 #| msgid "content options"
 msgid "content policy"
@@ -1346,15 +1346,15 @@ msgstr "0v3r 18?"
 msgid "quarantined"
 msgstr ""
 
-#: r2/controllers/privacy.py:111 r2/controllers/privacy.py:139
+#: r2/controllers/privacy.py:114 r2/controllers/privacy.py:142
 msgid "Your data export request has been submitted. You will receive a notification when it is ready."
 msgstr ""
 
-#: r2/controllers/privacy.py:164
+#: r2/controllers/privacy.py:167
 msgid "This request cannot be cancelled."
 msgstr ""
 
-#: r2/controllers/privacy.py:168
+#: r2/controllers/privacy.py:171
 msgid "Request cancelled."
 msgstr ""
 
@@ -1504,7 +1504,7 @@ msgstr ""
 msgid "too big. keep it under 500 KB"
 msgstr "700 816. X33p 17 un|)3r %(max_size)dX8"
 
-#: r2/controllers/tippr_base.py:1483 r2/lib/pages/pages.py:4699 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
+#: r2/controllers/tippr_base.py:1483 r2/lib/pages/pages.py:4716 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
 msgid "banned"
 msgstr "b4nn3Ð"
 
@@ -1953,7 +1953,7 @@ msgstr ""
 msgid "this vault has chosen to disable their ads at this time"
 msgstr ""
 
-#: r2/lib/errors.py:88 r2/lib/validator/validator.py:3268
+#: r2/lib/errors.py:88 r2/lib/validator/validator.py:3276
 msgid "that name isn't going to work"
 msgstr "7h47 n4m3 1$n'7 901n9 70 w0r|{"
 
@@ -2246,255 +2246,259 @@ msgid "enter the code from your authenticator app (or a recovery code)"
 msgstr ""
 
 #: r2/lib/errors.py:153
-msgid "that code didn't work. Codes follow the clock, so check that your phone sets its time automatically."
+msgid "your preferences locked again while you were away: reload the page to unlock them, then try again"
 msgstr ""
 
 #: r2/lib/errors.py:154
-msgid "turn on two-factor authentication (preferences, security) to use these tools"
+msgid "that code didn't work. Codes follow the clock, so check that your phone sets its time automatically."
 msgstr ""
 
 #: r2/lib/errors.py:155
+msgid "turn on two-factor authentication (preferences, security) to use these tools"
+msgstr ""
+
+#: r2/lib/errors.py:156
 #, fuzzy
 #| msgid "image file"
 msgid "image problem"
 msgstr "!m463 ph113"
 
-#: r2/lib/errors.py:156
+#: r2/lib/errors.py:157
 msgid "already added"
 msgstr ""
 
-#: r2/lib/errors.py:157
+#: r2/lib/errors.py:158
 msgid "too many developers"
 msgstr ""
 
-#: r2/lib/errors.py:159
+#: r2/lib/errors.py:160
 msgid "you cannot add this account from this interface"
 msgstr ""
 
-#: r2/lib/errors.py:160
+#: r2/lib/errors.py:161
 #, fuzzy
 #| msgid "invalid password"
 msgid "invalid modhash"
 msgstr "1nv4|1d p455w0rd"
 
-#: r2/lib/errors.py:161
+#: r2/lib/errors.py:162
 #, fuzzy
 #| msgid "that username is already taken"
 msgid "that user is already a moderator"
 msgstr "7h47 u53rn4m3 15 4|r34dy 74k3n"
 
-#: r2/lib/errors.py:162
+#: r2/lib/errors.py:163
 msgid "You can't perform that action because that user is a moderator."
 msgstr ""
 
-#: r2/lib/errors.py:163
+#: r2/lib/errors.py:164
 msgid "there is no pending invite for that vault"
 msgstr ""
 
-#: r2/lib/errors.py:164
+#: r2/lib/errors.py:165
 msgid "you cannot edit the budget of a live ad"
 msgstr ""
 
-#: r2/lib/errors.py:165
+#: r2/lib/errors.py:166
 msgid "you have too many campaigns for that promotion"
 msgstr ""
 
-#: r2/lib/errors.py:166
+#: r2/lib/errors.py:167
 msgid "that jsonp callback contains invalid characters"
 msgstr ""
 
-#: r2/lib/errors.py:167
+#: r2/lib/errors.py:168
 msgid "permissions don't apply to that type of user"
 msgstr ""
 
-#: r2/lib/errors.py:168
+#: r2/lib/errors.py:169
 #, fuzzy
 #| msgid "invalid password"
 msgid "invalid permissions string"
 msgstr "1nv4|1d p455w0rd"
 
-#: r2/lib/errors.py:169
+#: r2/lib/errors.py:170
 #, fuzzy
 #| msgid "invalid user name"
 msgid "invalid multi path"
 msgstr "1nv4|1d u53r n4m3"
 
-#: r2/lib/errors.py:170
+#: r2/lib/errors.py:171
 #, python-format
 msgid "%(reason)s"
 msgstr ""
 
-#: r2/lib/errors.py:171
+#: r2/lib/errors.py:172
 #, fuzzy
 #| msgid "that tippr doesn't exist"
 msgid "that multivault doesn't exist"
 msgstr "7h@7 r3|)|)17 )03$n'7 3x157"
 
-#: r2/lib/errors.py:172
+#: r2/lib/errors.py:173
 #, fuzzy
 #| msgid "that tippr already exists"
 msgid "that multivault already exists"
 msgstr "7h47 r3))17 @1r34|)y 3x!$75"
 
-#: r2/lib/errors.py:173
+#: r2/lib/errors.py:174
 #, fuzzy
 #| msgid "you can't give that many months"
 msgid "you can't change that multivault"
 msgstr "y0u (@n'7 61v3 7h@7 m4ny m0n7h$"
 
-#: r2/lib/errors.py:174
-msgid "no more space for vaults in that multivault"
-msgstr ""
-
 #: r2/lib/errors.py:175
-#, python-format
-msgid "can't add special vault %(path)s"
+msgid "no more space for vaults in that multivault"
 msgstr ""
 
 #: r2/lib/errors.py:176
 #, python-format
-msgid "maximum %(max)s vaults"
+msgid "can't add special vault %(path)s"
 msgstr ""
 
 #: r2/lib/errors.py:177
-msgid "unable to parse JSON data"
+#, python-format
+msgid "maximum %(max)s vaults"
 msgstr ""
 
 #: r2/lib/errors.py:178
-msgid "unexpected JSON structure"
+msgid "unable to parse JSON data"
 msgstr ""
 
 #: r2/lib/errors.py:179
+msgid "unexpected JSON structure"
+msgstr ""
+
+#: r2/lib/errors.py:180
 #, python-format
 msgid "JSON missing key: \"%(key)s\""
 msgstr ""
 
-#: r2/lib/errors.py:180
+#: r2/lib/errors.py:181
 msgid "can't change post type"
 msgstr ""
 
-#: r2/lib/errors.py:181
+#: r2/lib/errors.py:182
 #, fuzzy
 #| msgid "invalid password"
 msgid "invalid location"
 msgstr "1nv4|1d p455w0rd"
 
-#: r2/lib/errors.py:182
+#: r2/lib/errors.py:183
 msgid "invalid values for frequency cap"
 msgstr ""
 
-#: r2/lib/errors.py:183
+#: r2/lib/errors.py:184
 #, python-format
 msgid "frequency cap must be at least %(min)d"
 msgstr ""
 
-#: r2/lib/errors.py:184
+#: r2/lib/errors.py:185
 msgid "that user is banned from the vault"
 msgstr ""
 
-#: r2/lib/errors.py:185
+#: r2/lib/errors.py:186
 #, fuzzy
 #| msgid "you can't do that"
 msgid "You can't do that while suspended."
 msgstr "y0u c4n'7 d0 7h47"
 
-#: r2/lib/errors.py:186
+#: r2/lib/errors.py:187
 #, fuzzy
 #| msgid "You claimed a tippr gold subscription in the last few minutes."
 msgid "you must have an active tippr gold subscription to do that"
 msgstr "y0u (141m3|) @ r3)|)17 601|) $u85(r!p710n !n 7h3 1@$7 ph3w m1nu73$."
 
-#: r2/lib/errors.py:187
+#: r2/lib/errors.py:188
 msgid "insufficient coins"
 msgstr ""
 
-#: r2/lib/errors.py:188
+#: r2/lib/errors.py:189
 msgid "gilding is not allowed in this vault"
 msgstr ""
 
-#: r2/lib/errors.py:189
+#: r2/lib/errors.py:190
 msgid "unable to scrape provided url"
 msgstr ""
 
-#: r2/lib/errors.py:190
+#: r2/lib/errors.py:191
 msgid "can't send a message from a vault to another vault"
 msgstr ""
 
-#: r2/lib/errors.py:191
+#: r2/lib/errors.py:192
 #, fuzzy
 #| msgid "no email address for that user"
 msgid "can't send message to that user"
 msgstr "n0 3m41£ 4ÐÐr3$$ ƒ0r 7h47 µ$3r"
 
-#: r2/lib/errors.py:192
+#: r2/lib/errors.py:193
 msgid "you must be in admin mode for this"
 msgstr ""
 
-#: r2/lib/errors.py:193
+#: r2/lib/errors.py:194
 #, python-format
 msgid "to convert an existing vault to gold only, send a message to %(admin_modmail)s"
 msgstr ""
 
-#: r2/lib/errors.py:195
+#: r2/lib/errors.py:196
 msgid "this vault must be 'gold only' to select this"
 msgstr ""
 
-#: r2/lib/errors.py:196
+#: r2/lib/errors.py:197
 msgid "your account is too new or you do not have enough karma to create a vault. please contact the admins to request an exemption."
 msgstr ""
 
-#: r2/lib/errors.py:197
+#: r2/lib/errors.py:198
 #, fuzzy
 #| msgid "you must be at least eighteen to view this tippr"
 msgid "you must select at least one mobile OS to target"
 msgstr "y0u mu$7 83 @7 13@$7 316h733n 70 v!3w 7h15 r3|)|)17"
 
-#: r2/lib/errors.py:198 r2/templates/promotelinkbase.html:524
+#: r2/lib/errors.py:199 r2/templates/promotelinkbase.html:524
 #, fuzzy
 #| msgid "you must be at least eighteen to view this tippr"
 msgid "you must select at least one device per OS to target"
 msgstr "y0u mu$7 83 @7 13@$7 316h733n 70 v!3w 7h15 r3|)|)17"
 
-#: r2/lib/errors.py:199
+#: r2/lib/errors.py:200
 msgid "You have been muted from this vault."
 msgstr ""
 
-#: r2/lib/errors.py:200
+#: r2/lib/errors.py:201
 msgid "This user has been muted from the vault."
 msgstr ""
 
-#: r2/lib/errors.py:201
+#: r2/lib/errors.py:202
 msgid "please say how much AI went into this post"
 msgstr ""
 
-#: r2/lib/errors.py:202
+#: r2/lib/errors.py:203
 #, python-format
 msgid "this vault only accepts: %(allowed)s"
 msgstr ""
 
-#: r2/lib/errors.py:203
+#: r2/lib/errors.py:204
 msgid "This comment is not stickyable. Ensure that it is a top level comment."
 msgstr ""
 
-#: r2/lib/errors.py:204 r2/public/static/js/errors.js:7
+#: r2/lib/errors.py:205 r2/public/static/js/errors.js:7
 #, fuzzy
 #| msgid "that tippr already exists"
 msgid "A vault rule by that name already exists."
 msgstr "7h47 r3))17 @1r34|)y 3x!$75"
 
-#: r2/lib/errors.py:205
+#: r2/lib/errors.py:206
 msgid "No vault rule by that name exists."
 msgstr ""
 
-#: r2/lib/errors.py:206 r2/public/static/js/errors.js:8
+#: r2/lib/errors.py:207 r2/public/static/js/errors.js:8
 msgid "This vault already has the maximum number of rules."
 msgstr ""
 
-#: r2/lib/errors.py:207
+#: r2/lib/errors.py:208
 msgid "Cannot access this comment."
 msgstr ""
 
-#: r2/lib/errors.py:208
+#: r2/lib/errors.py:209
 msgid "Cannot access this post."
 msgstr ""
 
@@ -3026,7 +3030,7 @@ msgstr ""
 msgid "saved {toolbar}"
 msgstr "54v3d"
 
-#: r2/lib/menus.py:65 r2/templates/prefsecurity.html:278
+#: r2/lib/menus.py:65 r2/templates/prefsecurity.html:246
 msgid "recommended"
 msgstr "r3(0mm3nÐ3Ð"
 
@@ -3070,7 +3074,7 @@ msgstr "7h15 y34r"
 msgid "all time"
 msgstr "4££ 71m3"
 
-#: r2/lib/menus.py:78 r2/models/rules.py:37 r2/templates/preffeeds.html:120 r2/templates/printablebuttons.html:47 r2/templates/printablebuttons.html:265
+#: r2/lib/menus.py:78 r2/templates/preffeeds.html:120 r2/templates/printablebuttons.html:48 r2/templates/printablebuttons.html:266
 msgid "spam"
 msgstr "$p4m"
 
@@ -3078,7 +3082,7 @@ msgstr "$p4m"
 msgid "autobanned"
 msgstr "4µ70b4nn3Ð"
 
-#: r2/lib/menus.py:82 r2/lib/pages/pages.py:1271 r2/lib/pages/pages.py:1295
+#: r2/lib/menus.py:82 r2/lib/pages/pages.py:1270 r2/lib/pages/pages.py:1294
 msgid "preferences"
 msgstr "pr3ƒ3r3n(3$"
 
@@ -3198,7 +3202,7 @@ msgstr "$7y13$h337"
 msgid "home"
 msgstr "h0m3"
 
-#: r2/lib/menus.py:130 r2/lib/pages/pages.py:1128
+#: r2/lib/menus.py:130 r2/lib/pages/pages.py:1127
 msgid "about"
 msgstr "4b0µ7"
 
@@ -3206,7 +3210,7 @@ msgstr "4b0µ7"
 msgid "edit subscriptions"
 msgstr "3|)!7 $u85(r1p710n5"
 
-#: r2/lib/menus.py:132 r2/lib/pages/pages.py:2314
+#: r2/lib/menus.py:132 r2/lib/pages/pages.py:2328
 #, fuzzy
 #| msgid "community settings"
 msgid "vault settings"
@@ -3222,7 +3226,7 @@ msgstr "3|)17 7h3 $7y13$h337"
 msgid "rules"
 msgstr ""
 
-#: r2/lib/menus.py:135 r2/lib/pages/pages.py:881 r2/templates/adminvault.html:33 r2/templates/adminvault.html:101
+#: r2/lib/menus.py:135 r2/lib/pages/pages.py:880 r2/templates/adminvault.html:33 r2/templates/adminvault.html:101
 msgid "moderators"
 msgstr "m0)3r@70r5"
 
@@ -3316,7 +3320,7 @@ msgstr "p0pµ£4r"
 msgid "create"
 msgstr "(r3473"
 
-#: r2/lib/menus.py:158 r2/lib/pages/pages.py:2939
+#: r2/lib/menus.py:158 r2/lib/pages/pages.py:2953
 #, fuzzy
 #| msgid "vault"
 #| msgid_plural "vaults"
@@ -3393,7 +3397,7 @@ msgstr ")1$p14y 0p710n$"
 msgid "live config"
 msgstr ""
 
-#: r2/lib/menus.py:175 r2/lib/pages/pages.py:939 r2/templates/adminsupport.html:34
+#: r2/lib/menus.py:175 r2/lib/pages/pages.py:938 r2/templates/adminsupport.html:34
 #, fuzzy
 #| msgid "report"
 msgid "support"
@@ -3451,7 +3455,7 @@ msgstr "r3p0r73) @u7h0r$"
 msgid "info"
 msgstr "1nƒ0"
 
-#: r2/lib/menus.py:188 r2/templates/multiinfobar.html:107 r2/templates/printablebuttons.html:368
+#: r2/lib/menus.py:188 r2/templates/multiinfobar.html:107 r2/templates/printablebuttons.html:369
 msgid "share"
 msgstr "5h4r3"
 
@@ -3627,7 +3631,7 @@ msgstr ""
 msgid "edit settings, sidebar, css, images, and AutoModerator config"
 msgstr ""
 
-#: r2/lib/permissions.py:87 r2/templates/printablebuttons.html:115
+#: r2/lib/permissions.py:87 r2/templates/printablebuttons.html:116
 msgid "flair"
 msgstr ""
 
@@ -4124,7 +4128,7 @@ msgid_plural "links"
 msgstr[0] "11nX"
 msgstr[1] "11nX5"
 
-#: r2/lib/pages/pages.py:1524 r2/lib/strings.py:263 r2/templates/messagecompose.html:101
+#: r2/lib/pages/pages.py:1538 r2/lib/strings.py:263 r2/templates/messagecompose.html:101
 msgid "message"
 msgid_plural "messages"
 msgstr[0] "m3$$463"
@@ -4199,7 +4203,7 @@ msgid_plural "hours"
 msgstr[0] "h0ur"
 msgstr[1] "h0ur5"
 
-#: r2/lib/pages/pages.py:347 r2/lib/pages/pages.py:5724 r2/lib/strings.py:279 r2/public/static/js/sponsored.js:1484 r2/public/static/js/sponsored.js:1851 r2/templates/intimeoutinterstitial.html:44 r2/templates/tipprtraffic.html:104
+#: r2/lib/pages/pages.py:346 r2/lib/pages/pages.py:5741 r2/lib/strings.py:279 r2/public/static/js/sponsored.js:1484 r2/public/static/js/sponsored.js:1851 r2/templates/intimeoutinterstitial.html:44 r2/templates/tipprtraffic.html:104
 msgid "day"
 msgid_plural "days"
 msgstr[0] "d4y"
@@ -4485,7 +4489,7 @@ msgstr "m0)3r470r 0ph /v/%(tippr)s, 5p3@X!n6 0phph1(1411y"
 msgid "%(user)s just celebrated a tippr birthday!"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1341 r2/lib/template_helpers.py:771 r2/public/static/js/timetext.js:68
+#: r2/lib/pages/pages.py:1356 r2/lib/template_helpers.py:771 r2/public/static/js/timetext.js:68
 msgid "just now"
 msgstr ""
 
@@ -4521,578 +4525,578 @@ msgstr ""
 msgid "user"
 msgstr "u53r"
 
-#: r2/lib/pages/pages.py:179
+#: r2/lib/pages/pages.py:178
 #, python-format
 msgid "%d %b %Y"
 msgstr ""
 
-#: r2/lib/pages/pages.py:339
+#: r2/lib/pages/pages.py:338
 msgid "This site asks moderators and staff to use two-factor sign-in. Turn it on under [preferences, security](/prefs/security) to use your moderator tools."
 msgstr ""
 
-#: r2/lib/pages/pages.py:522
+#: r2/lib/pages/pages.py:521
 #, fuzzy
 #| msgid "tippr tools"
 msgid "wiki tools"
 msgstr "r3))!7 7001$"
 
-#: r2/lib/pages/pages.py:648
+#: r2/lib/pages/pages.py:647
 #, fuzzy
 #| msgid "moderators"
 msgid "moderation tools"
 msgstr "m0)3r@70r5"
 
-#: r2/lib/pages/pages.py:716
+#: r2/lib/pages/pages.py:715
 #, fuzzy
 #| msgid "these tipprs"
 msgid "these vaults"
 msgstr "7h3$3 r3|))175"
 
-#: r2/lib/pages/pages.py:730
+#: r2/lib/pages/pages.py:729
 msgid "this vault is archived and no longer accepting submissions."
 msgstr ""
 
-#: r2/lib/pages/pages.py:732
+#: r2/lib/pages/pages.py:731
 msgid "Submissions disabled"
 msgstr ""
 
-#: r2/lib/pages/pages.py:739
+#: r2/lib/pages/pages.py:738
 msgid "Only approved users may post in this community."
 msgstr ""
 
-#: r2/lib/pages/pages.py:742
+#: r2/lib/pages/pages.py:741
 msgid "Anyone can view or comment, but only Tippr Gold members can post in this community."
 msgstr ""
 
-#: r2/lib/pages/pages.py:745
+#: r2/lib/pages/pages.py:744
 #, fuzzy
 #| msgid "restricted"
 msgid "Submissions restricted"
 msgstr "r3$7r!(73)"
 
-#: r2/lib/pages/pages.py:833
+#: r2/lib/pages/pages.py:832
 #, fuzzy
 #| msgid "Create your own community"
 msgid "Create your own vault"
 msgstr "(r3@73 y0ur 0wn (0mmun!7y"
 
-#: r2/lib/pages/pages.py:857
+#: r2/lib/pages/pages.py:856
 #, fuzzy, python-format
 #| msgid "%d more"
 msgid "...and %d more"
 msgstr "%d m0r3"
 
-#: r2/lib/pages/pages.py:859
+#: r2/lib/pages/pages.py:858
 msgid "about moderation team"
 msgstr ""
 
-#: r2/lib/pages/pages.py:864 r2/templates/contactus.html:60
+#: r2/lib/pages/pages.py:863 r2/templates/contactus.html:60
 #, fuzzy
 #| msgid "message {share form}"
 msgid "message the admins"
 msgstr "m3$5@63 {$h@r3 ph0rm}"
 
-#: r2/lib/pages/pages.py:866 r2/templates/privateinterstitial.html:50
+#: r2/lib/pages/pages.py:865 r2/templates/privateinterstitial.html:50
 #, fuzzy
 #| msgid "edit moderators"
 msgid "message the moderators"
 msgstr "3|)!7 m0|)3r@70r$"
 
-#: r2/lib/pages/pages.py:893
+#: r2/lib/pages/pages.py:892
 msgid "Recently viewed links"
 msgstr "r3(3n71y v!3w3|) 11nX$"
 
-#: r2/lib/pages/pages.py:923
+#: r2/lib/pages/pages.py:922
 msgid "turn admin off"
 msgstr "7µrn 4Ðm1n 0ƒƒ"
 
-#: r2/lib/pages/pages.py:1145
+#: r2/lib/pages/pages.py:1144
 msgid "<3"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1342 r2/templates/adminserverstatus.html:166
+#: r2/lib/pages/pages.py:1357 r2/templates/adminserverstatus.html:166
 #, fuzzy, python-format
 #| msgid "%(timeago)s ago"
 msgid "%(time)s ago"
 msgstr "%(timeago)s @60"
 
-#: r2/lib/pages/pages.py:1521
+#: r2/lib/pages/pages.py:1535
 #, python-format
 msgid "%(site)s mail"
 msgstr "%(site)s m@!1"
 
-#: r2/lib/pages/pages.py:1598
+#: r2/lib/pages/pages.py:1612
 msgid "sign up or log in"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1679
+#: r2/lib/pages/pages.py:1693
 msgid "request for permission"
 msgstr ""
 
-#: r2/lib/pages/pages.py:1681
+#: r2/lib/pages/pages.py:1695
 #, fuzzy
 #| msgid "impressions"
 msgid "permission"
 msgstr "!mpr3$$!0n5"
 
-#: r2/lib/pages/pages.py:1716 r2/templates/searchform.html:77
+#: r2/lib/pages/pages.py:1730 r2/templates/searchform.html:77
 #, fuzzy
 #| msgid "search results"
 msgid "enable NSFW results"
 msgstr "$34r(h r3$µ£7$"
 
-#: r2/lib/pages/pages.py:1739
+#: r2/lib/pages/pages.py:1753
 msgid "bummer"
 msgstr "8umm3r"
 
-#: r2/lib/pages/pages.py:1751
+#: r2/lib/pages/pages.py:1765
 msgid "this page is no longer available due to a copyright claim."
 msgstr "7h15 p@63 15 n0 10n63r @v@11@813 |)u3 70 @ (0pyr16h7 (1@!m."
 
-#: r2/lib/pages/pages.py:1992
+#: r2/lib/pages/pages.py:2006
 #, fuzzy
 #| msgid "comments by default"
 msgid "comments disabled"
 msgstr "(0mm3n7$ 8y |)3ph@u17"
 
-#: r2/lib/pages/pages.py:2315
+#: r2/lib/pages/pages.py:2329
 #, python-format
 msgid "about %(site)s"
 msgstr "4b0µ7 %(site)s"
 
-#: r2/lib/pages/pages.py:2338
+#: r2/lib/pages/pages.py:2352
 #, fuzzy
 #| msgid "search results"
 msgid "search vaults by name"
 msgstr "$34r(h r3$µ£7$"
 
-#: r2/lib/pages/pages.py:2382
+#: r2/lib/pages/pages.py:2396
 #, fuzzy, python-format
 #| msgid "your front page tipprs"
 msgid "your front page vaults (%s)"
 msgstr "y0ur phr0n7 p@63 r3|))175"
 
-#: r2/lib/pages/pages.py:2470 r2/templates/createvault.html:460 r2/templates/spotlightlisting.html:63
+#: r2/lib/pages/pages.py:2484 r2/templates/createvault.html:460 r2/templates/spotlightlisting.html:63
 msgid "what's this?"
 msgstr "wh47'$ 7h!$?"
 
-#: r2/lib/pages/pages.py:2471
+#: r2/lib/pages/pages.py:2485
 msgid "trophy case"
 msgstr "7r0phy (453"
 
-#: r2/lib/pages/pages.py:2481
+#: r2/lib/pages/pages.py:2495
 msgid "public multivaults"
 msgstr ""
 
-#: r2/lib/pages/pages.py:2488
+#: r2/lib/pages/pages.py:2502
 msgid "hidden multivaults"
 msgstr ""
 
-#: r2/lib/pages/pages.py:2509
+#: r2/lib/pages/pages.py:2523
 #, fuzzy
 #| msgid "moderator"
 #| msgid_plural "moderators"
 msgid "moderator of"
 msgstr "m0)3r@70r"
 
-#: r2/lib/pages/pages.py:2573
+#: r2/lib/pages/pages.py:2587
 msgid "less than a day"
 msgstr "135$ 7h@n 4 |)@y"
 
-#: r2/lib/pages/pages.py:2586
+#: r2/lib/pages/pages.py:2600
 #, python-format
 msgid "Give Gold: %(coins)s month"
 msgid_plural "Give Gold: %(coins)s months"
 msgstr[0] ""
 msgstr[1] ""
 
-#: r2/lib/pages/pages.py:2594
+#: r2/lib/pages/pages.py:2608
 #, python-format
 msgid "%(gildings)s gilding given out"
 msgid_plural "%(gildings)s gildings given out"
 msgstr[0] ""
 msgstr[1] ""
 
-#: r2/lib/pages/pages.py:2602
+#: r2/lib/pages/pages.py:2616
 #, python-format
 msgid "give tippr gold to %(user)s to show your appreciation"
 msgstr ""
 
-#: r2/lib/pages/pages.py:2606
+#: r2/lib/pages/pages.py:2620
 msgid "get extra features and help support tippr with a tippr gold subscription"
 msgstr ""
 
-#: r2/lib/pages/pages.py:2610
+#: r2/lib/pages/pages.py:2624
 msgid "renew your tippr gold"
 msgstr ""
 
-#: r2/lib/pages/pages.py:2620
+#: r2/lib/pages/pages.py:2634
 #, python-format
 msgid "you have helped pay for *%(time)s* of tippr server time."
 msgstr ""
 
-#: r2/lib/pages/pages.py:2621
+#: r2/lib/pages/pages.py:2635
 #, python-format
 msgid "/u/%(user)s has helped pay for *%%(time)s* of tippr server time."
 msgstr ""
 
-#: r2/lib/pages/pages.py:2624
+#: r2/lib/pages/pages.py:2638
 #, python-format
 msgid "gifts on your behalf have helped pay for *%(time)s* of tippr server time."
 msgstr ""
 
-#: r2/lib/pages/pages.py:2626
+#: r2/lib/pages/pages.py:2640
 #, python-format
 msgid "gifts on behalf of /u/%(user)s have helped pay for *%%(time)s* of tippr server time."
 msgstr ""
 
-#: r2/lib/pages/pages.py:2710
+#: r2/lib/pages/pages.py:2724
 msgid "tippr is a platform for internet communities"
 msgstr ""
 
-#: r2/lib/pages/pages.py:2711
+#: r2/lib/pages/pages.py:2725
 msgid "where your votes shape what the world is talking about."
 msgstr ""
 
-#: r2/lib/pages/pages.py:3010 r2/lib/pages/pages.py:3120
+#: r2/lib/pages/pages.py:3024 r2/lib/pages/pages.py:3134
 #, fuzzy
 #| msgid "vault"
 #| msgid_plural "vaults"
 msgid "add vault"
 msgstr "5u8r3))17"
 
-#: r2/lib/pages/pages.py:3048
+#: r2/lib/pages/pages.py:3062
 #, python-format
 msgid "raise it to %s"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3050 r2/lib/pages/pages.py:3059
+#: r2/lib/pages/pages.py:3064 r2/lib/pages/pages.py:3073
 #, python-format
 msgid "%s visible"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3057
+#: r2/lib/pages/pages.py:3071
 #, python-format
 msgid "%(bonus)s bonus vaults"
 msgstr ""
 
-#: r2/lib/pages/pages.py:3427
+#: r2/lib/pages/pages.py:3441
 #, python-format
 msgid "you have a credit card gold subscription. your card (ending in %(last4)s) will be charged %(amount)s on %(date)s."
 msgstr ""
 
-#: r2/lib/pages/pages.py:3581
+#: r2/lib/pages/pages.py:3598
 msgid "try entering those letters again"
 msgstr "7ry 3n73r1n6 7h0$3 13773r$ 46@!n"
 
-#: r2/lib/pages/pages.py:3660 r2/lib/pages/pages.py:6404 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
+#: r2/lib/pages/pages.py:3677 r2/lib/pages/pages.py:6421 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
 #, fuzzy
 #| msgid "search tippr"
 msgid "search"
 msgstr "53@r(h r3)|)17"
 
-#: r2/lib/pages/pages.py:4298
+#: r2/lib/pages/pages.py:4315
 msgid "backend"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4298
+#: r2/lib/pages/pages.py:4315
 #, fuzzy
 #| msgid "+ frontpage"
 msgid "frontend"
 msgstr "+ phr0n7p@63"
 
-#: r2/lib/pages/pages.py:4309
+#: r2/lib/pages/pages.py:4326
 #, fuzzy, python-format
 #| msgid "a community for %(time)s"
 msgid "not heard from for %(time)s"
 msgstr "@ (0mmun!7y ph0r %(time)s"
 
-#: r2/lib/pages/pages.py:4315
+#: r2/lib/pages/pages.py:4332
 #, python-format
 msgid "memory %(p)s%% used"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4319
+#: r2/lib/pages/pages.py:4336
 #, python-format
 msgid "busy: load %(l)s on %(n)s CPUs"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4325
+#: r2/lib/pages/pages.py:4342
 #, python-format
 msgid "disk %(path)s %(p)s%% full"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4329
+#: r2/lib/pages/pages.py:4346
 #, fuzzy, python-format
 #| msgid "%(title)s : %(site)s"
 msgid "%(service)s is %(state)s"
 msgstr "%(title)s : %(site)s"
 
-#: r2/lib/pages/pages.py:4332
+#: r2/lib/pages/pages.py:4349
 msgid "a different version from the others"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4334
+#: r2/lib/pages/pages.py:4351
 msgid "another server has the same name: set TIPPR_SERVER_NAME on one of them"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4407
+#: r2/lib/pages/pages.py:4424
 #, fuzzy, python-format
 #| msgid "second"
 #| msgid_plural "seconds"
 msgid "%(n)s seconds"
 msgstr "53(0n|)"
 
-#: r2/lib/pages/pages.py:4409
+#: r2/lib/pages/pages.py:4426
 #, fuzzy, python-format
 #| msgid "minute"
 #| msgid_plural "minutes"
 msgid "%(n)s minutes"
 msgstr "m1nu73"
 
-#: r2/lib/pages/pages.py:4411
+#: r2/lib/pages/pages.py:4428
 #, fuzzy, python-format
 #| msgid "this hour"
 msgid "%(n)s hours"
 msgstr "7h15 h0ur"
 
-#: r2/lib/pages/pages.py:4412
+#: r2/lib/pages/pages.py:4429
 #, fuzzy, python-format
 #| msgid "%(timeago)s ago"
 msgid "%(n)s days"
 msgstr "%(timeago)s @60"
 
-#: r2/lib/pages/pages.py:4428
+#: r2/lib/pages/pages.py:4445
 msgid "polling"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4434
+#: r2/lib/pages/pages.py:4451
 msgid "off (no event collector)"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4640 r2/lib/pages/pages.py:4749
+#: r2/lib/pages/pages.py:4657 r2/lib/pages/pages.py:4766
 msgid "added"
 msgstr "4|)|)3)"
 
-#: r2/lib/pages/pages.py:4708 r2/models/modaction.py:146 r2/templates/printablebuttons.html:615
+#: r2/lib/pages/pages.py:4725 r2/models/modaction.py:146 r2/templates/printablebuttons.html:616
 msgid "muted"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4726
+#: r2/lib/pages/pages.py:4743
 msgid "invited"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4787
+#: r2/lib/pages/pages.py:4804
 msgid "grant flair"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4789
+#: r2/lib/pages/pages.py:4806
 msgid "user flair templates"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4791
+#: r2/lib/pages/pages.py:4808
 #, fuzzy
 #| msgid "link karma"
 msgid "link flair templates"
 msgstr "11nX X4rm@"
 
-#: r2/lib/pages/pages.py:5163 r2/templates/adminuser.html:73 r2/templates/adminuser.html:98 r2/templates/adminuser.html:108 r2/templates/flairpane.html:79
+#: r2/lib/pages/pages.py:5180 r2/templates/adminuser.html:73 r2/templates/adminuser.html:98 r2/templates/adminuser.html:108 r2/templates/flairpane.html:79
 msgid "none"
 msgstr ""
 
-#: r2/lib/pages/pages.py:5294
+#: r2/lib/pages/pages.py:5311
 #, fuzzy
 #| msgid "suggest title"
 msgid "suggestions:"
 msgstr "$u663$7 71713"
 
-#: r2/lib/pages/pages.py:5298
+#: r2/lib/pages/pages.py:5315
 #, python-format
 msgid "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/v/selfserve](%(selfserve)s)."
 msgstr ""
 
-#: r2/lib/pages/pages.py:5916
+#: r2/lib/pages/pages.py:5933
 msgid "start date"
 msgstr ""
 
-#: r2/lib/pages/pages.py:5917
+#: r2/lib/pages/pages.py:5934
 #, fuzzy
 #| msgid "date"
 msgid "end date"
 msgstr ")473"
 
-#: r2/lib/pages/pages.py:5919 r2/templates/createvault.html:266
+#: r2/lib/pages/pages.py:5936 r2/templates/createvault.html:266
 #, fuzzy
 #| msgid "link"
 #| msgid_plural "links"
 msgid "links"
 msgstr "11nX"
 
-#: r2/lib/pages/pages.py:5921 r2/lib/pages/pages.py:5940 r2/templates/adminpaymentsettings.html:239 r2/templates/promotedlinktraffic.html:42 r2/templates/timeserieschart.html:40
+#: r2/lib/pages/pages.py:5938 r2/lib/pages/pages.py:5957 r2/templates/adminpaymentsettings.html:239 r2/templates/promotedlinktraffic.html:42 r2/templates/timeserieschart.html:40
 msgid "date"
 msgstr ")473"
 
-#: r2/lib/pages/pages.py:5924 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
+#: r2/lib/pages/pages.py:5941 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
 #, fuzzy
 #| msgid "kind"
 msgid "id"
 msgstr "X!n)"
 
-#: r2/lib/pages/pages.py:5924 r2/lib/pages/pages.py:5943 r2/templates/promotelinkbase.html:856
+#: r2/lib/pages/pages.py:5941 r2/lib/pages/pages.py:5960 r2/templates/promotelinkbase.html:856
 msgid "owner"
 msgstr ""
 
-#: r2/lib/pages/pages.py:5924 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
+#: r2/lib/pages/pages.py:5941 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
 msgid "url"
 msgstr "ur1"
 
-#: r2/lib/pages/pages.py:5925
+#: r2/lib/pages/pages.py:5942
 #, fuzzy
 #| msgid "up vote"
 #| msgid_plural "up votes"
 msgid "upvotes"
 msgstr "up v073"
 
-#: r2/lib/pages/pages.py:5925
+#: r2/lib/pages/pages.py:5942
 #, fuzzy
 #| msgid "down vote"
 #| msgid_plural "down votes"
 msgid "downvotes"
 msgstr "|)0wn v073"
 
-#: r2/lib/pages/pages.py:5925 r2/lib/pages/trafficpages.py:351 r2/lib/pages/trafficpages.py:853 r2/templates/promotedlinktraffic.html:44 r2/templates/promotedlinktraffic.html:124
+#: r2/lib/pages/pages.py:5942 r2/lib/pages/trafficpages.py:351 r2/lib/pages/trafficpages.py:853 r2/templates/promotedlinktraffic.html:44 r2/templates/promotedlinktraffic.html:124
 msgid "clicks"
 msgstr ""
 
-#: r2/lib/pages/pages.py:5925 r2/lib/pages/trafficpages.py:348 r2/lib/pages/trafficpages.py:478 r2/lib/pages/trafficpages.py:852 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
+#: r2/lib/pages/pages.py:5942 r2/lib/pages/trafficpages.py:348 r2/lib/pages/trafficpages.py:478 r2/lib/pages/trafficpages.py:852 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
 msgid "impressions"
 msgstr "!mpr3$$!0n5"
 
-#: r2/lib/pages/pages.py:5938
+#: r2/lib/pages/pages.py:5955
 #, fuzzy
 #| msgid "campaign dashboard"
 msgid "campaigns"
 msgstr "(4mp416n |)4$h80@r)"
 
-#: r2/lib/pages/pages.py:5943
+#: r2/lib/pages/pages.py:5960
 #, fuzzy
 #| msgid "link"
 #| msgid_plural "links"
 msgid "link id"
 msgstr "11nX"
 
-#: r2/lib/pages/pages.py:5943
+#: r2/lib/pages/pages.py:5960
 #, fuzzy
 #| msgid "campaign dashboard"
 msgid "campaign id"
 msgstr "(4mp416n |)4$h80@r)"
 
-#: r2/lib/pages/pages.py:5943 r2/templates/promotedlinktraffic.html:117 r2/templates/refundpage.html:56
+#: r2/lib/pages/pages.py:5960 r2/templates/promotedlinktraffic.html:117 r2/templates/refundpage.html:56
 msgid "target"
 msgstr ""
 
-#: r2/lib/pages/pages.py:5944 r2/templates/promotelinkedit.html:157
+#: r2/lib/pages/pages.py:5961 r2/templates/promotelinkedit.html:157
 msgid "bid"
 msgstr ""
 
-#: r2/lib/pages/pages.py:5944
+#: r2/lib/pages/pages.py:5961
 #, fuzzy
 #| msgid "+ frontpage"
 msgid "frontpage clicks"
 msgstr "+ phr0n7p@63"
 
-#: r2/lib/pages/pages.py:5944
+#: r2/lib/pages/pages.py:5961
 #, fuzzy
 #| msgid "impressions"
 msgid "frontpage impressions"
 msgstr "!mpr3$$!0n5"
 
-#: r2/lib/pages/pages.py:5945
+#: r2/lib/pages/pages.py:5962
 msgid "vault clicks"
 msgstr ""
 
-#: r2/lib/pages/pages.py:5945
+#: r2/lib/pages/pages.py:5962
 #, fuzzy
 #| msgid "impressions"
 msgid "vault impressions"
 msgstr "!mpr3$$!0n5"
 
-#: r2/lib/pages/pages.py:5946 r2/lib/pages/trafficpages.py:484
+#: r2/lib/pages/pages.py:5963 r2/lib/pages/trafficpages.py:484
 msgid "total clicks"
 msgstr ""
 
-#: r2/lib/pages/pages.py:5946
+#: r2/lib/pages/pages.py:5963
 #, fuzzy
 #| msgid "impressions"
 msgid "total impressions"
 msgstr "!mpr3$$!0n5"
 
-#: r2/lib/pages/pages.py:6149 r2/templates/accountactivitybox.html:27
+#: r2/lib/pages/pages.py:6166 r2/templates/accountactivitybox.html:27
 msgid "account activity"
 msgstr ""
 
-#: r2/lib/pages/pages.py:6281
+#: r2/lib/pages/pages.py:6298
 #, fuzzy
 #| msgid "subscriber"
 #| msgid_plural "subscribers"
 msgid "subscribed"
 msgstr "$µb$(r1b3r"
 
-#: r2/lib/pages/pages.py:6282 r2/templates/preffeeds.html:58
+#: r2/lib/pages/pages.py:6299 r2/templates/preffeeds.html:58
 msgid "your front page"
 msgstr "y0ur phr0n7 p463"
 
-#: r2/lib/pages/pages.py:6285 r2/lib/pages/pages.py:6290 r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:104
+#: r2/lib/pages/pages.py:6302 r2/lib/pages/pages.py:6307 r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:104
 msgid "everything"
 msgstr "3v3ry7h!n6"
 
-#: r2/lib/pages/pages.py:6288 r2/lib/pages/pages.py:6291
+#: r2/lib/pages/pages.py:6305 r2/lib/pages/pages.py:6308
 msgid "from all vaults"
 msgstr ""
 
-#: r2/lib/pages/pages.py:6293
+#: r2/lib/pages/pages.py:6310
 #, fuzzy
 #| msgid "moderator"
 #| msgid_plural "moderators"
 msgid "moderating"
 msgstr "m0)3r@70r"
 
-#: r2/lib/pages/pages.py:6294
+#: r2/lib/pages/pages.py:6311
 msgid "vaults you mod"
 msgstr ""
 
-#: r2/lib/pages/pages.py:6300
+#: r2/lib/pages/pages.py:6317
 #, fuzzy
 #| msgid "gold options"
 msgid "gold perks"
 msgstr "601|) 0p710n$"
 
-#: r2/lib/pages/pages.py:6316
+#: r2/lib/pages/pages.py:6333
 msgid "explore multis"
 msgstr ""
 
-#: r2/lib/pages/pages.py:6402
+#: r2/lib/pages/pages.py:6419
 msgid "faq"
 msgstr ""
 
-#: r2/lib/pages/pages.py:6403 r2/templates/usertext.html:159
+#: r2/lib/pages/pages.py:6420 r2/templates/usertext.html:159
 #, fuzzy
 #| msgid "formatting help"
 msgid "formatting"
 msgstr "ph0rm4771n6 h31p"
 
-#: r2/lib/pages/pages.py:6472
+#: r2/lib/pages/pages.py:6489
 #, fuzzy
 #| msgid "you have not subscribed to any tipprs."
 msgid "your subscribed vaults"
 msgstr "¥0µ h4v3 n07 $µb$(r1b3Ð 70 4n¥ r3ÐÐ17$."
 
-#: r2/lib/pages/pages.py:6585
+#: r2/lib/pages/pages.py:6602
 #, python-format
 msgid "this promoted link uses city level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr ""
 
-#: r2/lib/pages/pages.py:6589
+#: r2/lib/pages/pages.py:6606
 #, python-format
 msgid "this promoted link uses country level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr ""
@@ -5207,7 +5211,7 @@ msgstr ""
 msgid "view"
 msgstr "pr3v13w"
 
-#: r2/lib/pages/wiki.py:119 r2/templates/adminfeeds.html:150 r2/templates/prefapps.html:93 r2/templates/printablebuttons.html:363 r2/templates/printablebuttons.html:403 r2/templates/printablebuttons.html:514 r2/templates/renderablecampaign.html:155 r2/templates/wrappeduser.html:91
+#: r2/lib/pages/wiki.py:119 r2/templates/adminfeeds.html:150 r2/templates/prefapps.html:93 r2/templates/printablebuttons.html:364 r2/templates/printablebuttons.html:404 r2/templates/printablebuttons.html:515 r2/templates/renderablecampaign.html:155 r2/templates/wrappeduser.html:91
 msgid "edit"
 msgstr "3Ð17"
 
@@ -5386,63 +5390,63 @@ msgstr "r3|))!7 601|)"
 msgid "Your gold payment has been refunded, contact %(gold_email)s for details"
 msgstr ""
 
-#: r2/lib/validator/validator.py:2115
+#: r2/lib/validator/validator.py:2116
 #, python-format
 msgid "%(min)d to any"
 msgstr ""
 
-#: r2/lib/validator/validator.py:2117
+#: r2/lib/validator/validator.py:2118
 #, python-format
 msgid "any to %(max)d"
 msgstr ""
 
-#: r2/lib/validator/validator.py:2119
+#: r2/lib/validator/validator.py:2120
 #, python-format
 msgid "%(min)d to %(max)d"
 msgstr ""
 
-#: r2/lib/validator/validator.py:2845
+#: r2/lib/validator/validator.py:2846
 #, fuzzy
 #| msgid "username"
 msgid "a user by name"
 msgstr "µ$3rn4m3"
 
-#: r2/lib/validator/validator.py:2860
+#: r2/lib/validator/validator.py:2861
 msgid "a [fullname](#fullname) of a link"
 msgstr ""
 
-#: r2/lib/validator/validator.py:3017
+#: r2/lib/validator/validator.py:3025
 #, fuzzy
 #| msgid "iPhone app"
 msgid "an app"
 msgstr "!ph0n3 @pp"
 
-#: r2/lib/validator/validator.py:3035
+#: r2/lib/validator/validator.py:3043
 msgid "an app developed by the user"
 msgstr ""
 
-#: r2/lib/validator/validator.py:3258
+#: r2/lib/validator/validator.py:3266
 #, fuzzy
 #| msgid "any link type is allowed"
 msgid "no spaces allowed"
 msgstr "@ny 11nX 7yp3 !$ @110w3|)"
 
-#: r2/lib/validator/validator.py:3260
+#: r2/lib/validator/validator.py:3268
 #, python-format
 msgid "invalid character: '%s'"
 msgstr ""
 
-#: r2/lib/validator/validator.py:3262
+#: r2/lib/validator/validator.py:3270
 msgid "can't start with a '_'"
 msgstr ""
 
-#: r2/lib/validator/validator.py:3264
+#: r2/lib/validator/validator.py:3272
 #, fuzzy
 #| msgid "that name isn't going to work"
 msgid "that name is too short"
 msgstr "7h47 n4m3 1$n'7 901n9 70 w0r|{"
 
-#: r2/lib/validator/validator.py:3266
+#: r2/lib/validator/validator.py:3274
 #, fuzzy
 #| msgid "that name isn't going to work"
 msgid "that name is too long"
@@ -5976,7 +5980,7 @@ msgstr ""
 msgid "edit settings"
 msgstr ""
 
-#: r2/models/modaction.py:86 r2/templates/printablebuttons.html:140
+#: r2/models/modaction.py:86 r2/templates/printablebuttons.html:141
 msgid "distinguish"
 msgstr ")157!n6u!5h"
 
@@ -6016,7 +6020,7 @@ msgstr "3)17 7h15 p463"
 msgid "wiki page permissions"
 msgstr ""
 
-#: r2/models/modaction.py:95 r2/models/modaction.py:206 r2/templates/printablebuttons.html:250
+#: r2/models/modaction.py:95 r2/models/modaction.py:206 r2/templates/printablebuttons.html:251
 #, fuzzy
 #| msgid "reports"
 msgid "ignore reports"
@@ -6062,13 +6066,13 @@ msgstr ""
 msgid "unlock post"
 msgstr ""
 
-#: r2/models/modaction.py:105 r2/templates/printablebuttons.html:615
+#: r2/models/modaction.py:105 r2/templates/printablebuttons.html:616
 #, fuzzy
 #| msgid "user"
 msgid "mute user"
 msgstr "u53r"
 
-#: r2/models/modaction.py:106 r2/templates/printablebuttons.html:612
+#: r2/models/modaction.py:106 r2/templates/printablebuttons.html:613
 #, fuzzy
 #| msgid "banned users"
 msgid "unmute user"
@@ -6114,11 +6118,11 @@ msgstr ""
 msgid "unbanned"
 msgstr ""
 
-#: r2/models/modaction.py:118 r2/models/modaction.py:120 r2/templates/admindomain.html:88 r2/templates/linkcommentssettings.html:122 r2/templates/printablebuttons.html:50 r2/templates/printablebuttons.html:286 r2/templates/trophycase.html:51
+#: r2/models/modaction.py:118 r2/models/modaction.py:120 r2/templates/admindomain.html:88 r2/templates/linkcommentssettings.html:122 r2/templates/printablebuttons.html:51 r2/templates/printablebuttons.html:287 r2/templates/trophycase.html:51
 msgid "removed"
 msgstr "r3m0v3|)"
 
-#: r2/models/modaction.py:119 r2/models/modaction.py:121 r2/models/modaction.py:155 r2/templates/printablebuttons.html:58 r2/templates/printablebuttons.html:289 r2/templates/vaultinfobar.html:135
+#: r2/models/modaction.py:119 r2/models/modaction.py:121 r2/models/modaction.py:155 r2/templates/printablebuttons.html:59 r2/templates/printablebuttons.html:290 r2/templates/vaultinfobar.html:135
 msgid "approved"
 msgstr "@ppr0v3)"
 
@@ -6216,15 +6220,15 @@ msgstr ""
 msgid "unset contest mode on"
 msgstr ""
 
-#: r2/models/modaction.py:144 r2/templates/lockedinterstitial.html:34 r2/templates/printablebuttons.html:79
+#: r2/models/modaction.py:144 r2/templates/lockedinterstitial.html:34 r2/templates/printablebuttons.html:80
 msgid "locked"
 msgstr ""
 
-#: r2/models/modaction.py:145 r2/templates/printablebuttons.html:82
+#: r2/models/modaction.py:145 r2/templates/printablebuttons.html:83
 msgid "unlocked"
 msgstr ""
 
-#: r2/models/modaction.py:147 r2/templates/printablebuttons.html:612
+#: r2/models/modaction.py:147 r2/templates/printablebuttons.html:613
 msgid "unmuted"
 msgstr ""
 
@@ -6434,7 +6438,7 @@ msgstr ""
 msgid "clear flair templates"
 msgstr ""
 
-#: r2/models/modaction.py:205 r2/templates/createvault.html:524 r2/templates/createvault.html:530 r2/templates/filteredinfobar.html:42 r2/templates/multiinfobar.html:119 r2/templates/prefapps.html:82 r2/templates/printablebuttons.html:50 r2/templates/printablebuttons.html:266 r2/templates/trophycase.html:51 r2/templates/usertableitem.html:62
+#: r2/models/modaction.py:205 r2/templates/createvault.html:524 r2/templates/createvault.html:530 r2/templates/filteredinfobar.html:42 r2/templates/multiinfobar.html:119 r2/templates/prefapps.html:82 r2/templates/printablebuttons.html:51 r2/templates/printablebuttons.html:267 r2/templates/trophycase.html:51 r2/templates/usertableitem.html:62
 msgid "remove"
 msgstr "r3m0v3"
 
@@ -6487,36 +6491,47 @@ msgstr ""
 msgid "collection: %(name)s"
 msgstr ""
 
-#: r2/models/rules.py:38
+#: r2/models/rules.py:52
 #, fuzzy
 #| msgid "other options"
-msgid "vote manipulation"
+msgid "Spam or vote manipulation"
 msgstr "07h3r 0p710n$"
 
-#: r2/models/rules.py:39
-msgid "personal information"
+#: r2/models/rules.py:53
+msgid "Harassment or threats"
 msgstr ""
 
-#: r2/models/rules.py:40
-msgid "sexualizing minors"
-msgstr ""
-
-#: r2/models/rules.py:41
+#: r2/models/rules.py:54
 #, fuzzy
-#| msgid "create a tippr"
-msgid "breaking tippr"
-msgstr "(r3473 4 r3ÐÐ17"
+#| msgid "context"
+msgid "Hateful content"
+msgstr "(0n73x7"
 
-#: r2/models/rules.py:45
-msgid "Spam"
+#: r2/models/rules.py:55
+msgid "Someone's personal information"
 msgstr ""
 
-#: r2/models/rules.py:46
-msgid "Personal and confidential information"
+#: r2/models/rules.py:56
+msgid "Sexual content involving minors"
 msgstr ""
 
-#: r2/models/rules.py:47
-msgid "Threatening, harassing, or inciting violence"
+#: r2/models/rules.py:57
+msgid "Other illegal content"
+msgstr ""
+
+#: r2/models/rules.py:58
+#, fuzzy
+#| msgid "controversial"
+msgid "Impersonation"
+msgstr "(0n7r0v3r$141"
+
+#: r2/models/rules.py:59
+msgid "Malware, phishing or scams"
+msgstr ""
+
+#: r2/models/rules.py:60
+#, python-format
+msgid "Breaking %(site_name)s"
 msgstr ""
 
 #: r2/models/token.py:113
@@ -6956,7 +6971,7 @@ msgstr "70p %d (0mm3n7$"
 msgid "expand or collapse the preview, or the comment"
 msgstr ""
 
-#: r2/public/static/js/enhancements.js:180 r2/public/static/js/enhancements.js:631 r2/public/static/js/saved.js:122 r2/public/static/js/saved.js:161 r2/public/static/js/sponsored.js:97 r2/templates/adminadsettings.html:128 r2/templates/adminantispam.html:106 r2/templates/adminemailsettings.html:95 r2/templates/adminfeeds.html:70 r2/templates/adminloginsettings.html:77 r2/templates/adminpaymentsettings.html:213 r2/templates/adminsitesettings.html:146 r2/templates/adminsupportstaff.html:57 r2/templates/adminuser.html:103 r2/templates/adminuser.html:122 r2/templates/adminuser.html:147 r2/templates/flairlistrow.html:48 r2/templates/flairselector.html:54 r2/templates/moderatorpermissions.html:55 r2/templates/prefsecurity.html:204 r2/templates/prefupdate.html:100 r2/templates/prefupdate.html:154 r2/templates/printablebuttons.html:106 r2/templates/printablebuttons.html:382 r2/templates/printablebuttons.html:487 r2/templates/promotelinkedit.html:218 r2/templates/vaultstylesheet.html:70
+#: r2/public/static/js/enhancements.js:180 r2/public/static/js/enhancements.js:631 r2/public/static/js/saved.js:122 r2/public/static/js/saved.js:161 r2/public/static/js/sponsored.js:97 r2/templates/adminadsettings.html:128 r2/templates/adminantispam.html:106 r2/templates/adminemailsettings.html:95 r2/templates/adminfeeds.html:70 r2/templates/adminloginsettings.html:77 r2/templates/adminpaymentsettings.html:213 r2/templates/adminsitesettings.html:146 r2/templates/adminsupportstaff.html:57 r2/templates/adminuser.html:103 r2/templates/adminuser.html:122 r2/templates/adminuser.html:147 r2/templates/flairlistrow.html:48 r2/templates/flairselector.html:54 r2/templates/moderatorpermissions.html:55 r2/templates/prefsecurity.html:173 r2/templates/prefupdate.html:103 r2/templates/prefupdate.html:157 r2/templates/printablebuttons.html:107 r2/templates/printablebuttons.html:383 r2/templates/printablebuttons.html:488 r2/templates/promotelinkedit.html:218 r2/templates/vaultstylesheet.html:70
 msgid "save"
 msgstr "$4v3"
 
@@ -7223,7 +7238,7 @@ msgstr "µ$3rn4m3"
 msgid "add and switch"
 msgstr ""
 
-#: r2/public/static/js/enhancements.js:1100 r2/templates/linkedloginotp.html:35 r2/templates/newlink.html:155 r2/templates/prefoptions.html:619 r2/templates/prefsecurity.html:37 r2/templates/prefsecurity.html:104 r2/templates/prefsecurity.html:242 r2/templates/prefupdate.html:33 r2/templates/privacysettings.html:133
+#: r2/public/static/js/enhancements.js:1100 r2/templates/linkedloginotp.html:35 r2/templates/newlink.html:155 r2/templates/prefsecurity.html:210 r2/templates/prefsunlock.html:40 r2/templates/prefupdate.html:35 r2/templates/privacysettings.html:133
 #, fuzzy
 #| msgid "reset password"
 msgid "two-factor code"
@@ -7306,7 +7321,7 @@ msgstr "700 816. X33p 17 un|)3r %(max_size)dX8"
 msgid "an error occurred. please try again later! (status: %(status)s)"
 msgstr ""
 
-#: r2/public/static/js/jquery.tippr.js:370 r2/public/static/js/saved.js:166 r2/templates/printablebuttons.html:380 r2/templates/printablebuttons.html:483
+#: r2/public/static/js/jquery.tippr.js:370 r2/public/static/js/saved.js:166 r2/templates/printablebuttons.html:381 r2/templates/printablebuttons.html:484
 msgid "unsave"
 msgstr "µn$4v3"
 
@@ -7652,7 +7667,7 @@ msgstr "send a message"
 msgid "send"
 msgstr "$3nÐ"
 
-#: r2/public/static/js/post-sharing.js:133 r2/templates/adminprivacy.html:48 r2/templates/fraudform.html:48 r2/templates/linkcommentssettings.html:78 r2/templates/printablebuttons.html:427 r2/templates/promotelinkedit.html:121 r2/templates/reportform.html:71 r2/templates/rules.html:137 r2/templates/vaultreportform.html:46
+#: r2/public/static/js/post-sharing.js:133 r2/templates/adminprivacy.html:48 r2/templates/fraudform.html:48 r2/templates/linkcommentssettings.html:78 r2/templates/printablebuttons.html:428 r2/templates/promotelinkedit.html:121 r2/templates/reportform.html:71 r2/templates/rules.html:137 r2/templates/vaultreportform.html:49
 msgid "cancel"
 msgstr "(4n(3£"
 
@@ -7711,7 +7726,7 @@ msgstr ""
 msgid "new category"
 msgstr ""
 
-#: r2/public/static/js/scales.js:37 r2/templates/printablebuttons.html:375
+#: r2/public/static/js/scales.js:37 r2/templates/printablebuttons.html:376
 msgid "scales"
 msgstr ""
 
@@ -7940,15 +7955,15 @@ msgstr ""
 msgid "no permissions"
 msgstr "07h3r )15(u$$!0n5"
 
-#: r2/public/static/js/ui.js:1131 r2/templates/goldsubscription.html:50 r2/templates/printablebuttons.html:694 r2/templates/printablebuttons.html:716
+#: r2/public/static/js/ui.js:1131 r2/templates/goldsubscription.html:50 r2/templates/printablebuttons.html:695 r2/templates/printablebuttons.html:717
 msgid "are you sure?"
 msgstr "4r3 ¥0µ $µr3?"
 
-#: r2/public/static/js/ui.js:1132 r2/templates/adminuser.html:63 r2/templates/adminuser.html:79 r2/templates/fraudform.html:35 r2/templates/goldsubscription.html:53 r2/templates/optout.html:40 r2/templates/optout.html:56 r2/templates/printablebuttons.html:696 r2/templates/printablebuttons.html:745
+#: r2/public/static/js/ui.js:1132 r2/templates/adminuser.html:63 r2/templates/adminuser.html:79 r2/templates/fraudform.html:35 r2/templates/goldsubscription.html:53 r2/templates/optout.html:40 r2/templates/optout.html:56 r2/templates/printablebuttons.html:697 r2/templates/printablebuttons.html:746
 msgid "yes"
 msgstr "¥3$"
 
-#: r2/public/static/js/ui.js:1133 r2/templates/adminuser.html:84 r2/templates/fraudform.html:40 r2/templates/goldsubscription.html:56 r2/templates/optout.html:43 r2/templates/optout.html:59 r2/templates/printablebuttons.html:199 r2/templates/printablebuttons.html:698 r2/templates/printablebuttons.html:748
+#: r2/public/static/js/ui.js:1133 r2/templates/adminuser.html:84 r2/templates/fraudform.html:40 r2/templates/goldsubscription.html:56 r2/templates/optout.html:43 r2/templates/optout.html:59 r2/templates/printablebuttons.html:200 r2/templates/printablebuttons.html:699 r2/templates/printablebuttons.html:749
 msgid "no"
 msgstr "n0"
 
@@ -8127,7 +8142,7 @@ msgstr ""
 msgid "saved; leave blank to keep"
 msgstr ""
 
-#: r2/templates/adminantispam.html:20 r2/templates/adminemailsettings.html:20 r2/templates/adminloginsettings.html:19 r2/templates/adminpaymentsettings.html:28 r2/templates/prefupdate.html:65
+#: r2/templates/adminantispam.html:20 r2/templates/adminemailsettings.html:20 r2/templates/adminloginsettings.html:19 r2/templates/adminpaymentsettings.html:28 r2/templates/prefupdate.html:68
 msgid "not set"
 msgstr "n07 $37"
 
@@ -8319,7 +8334,7 @@ msgstr ""
 msgid "karma"
 msgstr "11nX X4rm@"
 
-#: r2/templates/adminantispam.html:182 r2/templates/adminuser.html:68 r2/templates/adminusers.html:77 r2/templates/login.html:110 r2/templates/newsletter.html:58 r2/templates/newsletterbar.html:43 r2/templates/prefupdate.html:85
+#: r2/templates/adminantispam.html:182 r2/templates/adminuser.html:68 r2/templates/adminusers.html:77 r2/templates/login.html:110 r2/templates/newsletter.html:58 r2/templates/newsletterbar.html:43 r2/templates/prefupdate.html:88
 msgid "email"
 msgstr "3m41£"
 
@@ -8443,7 +8458,7 @@ msgstr ""
 msgid "ago"
 msgstr "490"
 
-#: r2/templates/adminapps.html:104 r2/templates/printablebuttons.html:57 r2/templates/printablebuttons.html:272
+#: r2/templates/adminapps.html:104 r2/templates/printablebuttons.html:58 r2/templates/printablebuttons.html:273
 msgid "approve"
 msgstr "@ppr0v3"
 
@@ -8453,7 +8468,7 @@ msgstr "@ppr0v3"
 msgid "lift the suspension"
 msgstr "07h3r )15(u$$!0n5"
 
-#: r2/templates/adminapps.html:113 r2/templates/adminbackups.html:139 r2/templates/adminfeeds.html:148 r2/templates/adminuser.html:236 r2/templates/multiinfobar.html:56 r2/templates/prefsecurity.html:133 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:585 r2/templates/renderablecampaign.html:161 r2/templates/rules.html:135 r2/templates/wikipagesettings.html:79
+#: r2/templates/adminapps.html:113 r2/templates/adminbackups.html:139 r2/templates/adminfeeds.html:148 r2/templates/adminuser.html:236 r2/templates/multiinfobar.html:56 r2/templates/prefsecurity.html:108 r2/templates/printablebuttons.html:41 r2/templates/printablebuttons.html:586 r2/templates/renderablecampaign.html:161 r2/templates/rules.html:135 r2/templates/wikipagesettings.html:79
 msgid "delete"
 msgstr "d3|373"
 
@@ -8713,7 +8728,7 @@ msgstr "Ð1$4b£3Ð"
 msgid "timings"
 msgstr ""
 
-#: r2/templates/adminbar.html:64 r2/templates/exploreitem.html:46 r2/templates/listingchooser.html:53 r2/templates/printablebuttons.html:390
+#: r2/templates/adminbar.html:64 r2/templates/exploreitem.html:46 r2/templates/listingchooser.html:53 r2/templates/printablebuttons.html:391
 msgid "hide"
 msgstr "h1Ð3"
 
@@ -9010,7 +9025,7 @@ msgstr "n5phw"
 msgid "mark every post NSFW"
 msgstr ""
 
-#: r2/templates/adminfeeds.html:61 r2/templates/printablebuttons.html:95
+#: r2/templates/adminfeeds.html:61 r2/templates/printablebuttons.html:96
 msgid "AI label"
 msgstr ""
 
@@ -9144,7 +9159,7 @@ msgstr "up)473 y0ur p@$$w0r)"
 msgid "Enter your password and one-time code"
 msgstr "¥0µr p4$$w0rÐ h4$ b33n µpÐ473Ð"
 
-#: r2/templates/admininterstitial.html:56 r2/templates/admininterstitial.html:70 r2/templates/prefsecurity.html:237 r2/templates/prefsecurity.html:242 r2/templates/prefsecurity.html:300 r2/templates/prefupdate.html:33 r2/templates/prefupdate.html:56 r2/templates/prefupdate.html:117 r2/templates/useriphistory.html:74
+#: r2/templates/admininterstitial.html:56 r2/templates/admininterstitial.html:70 r2/templates/prefsecurity.html:205 r2/templates/prefsecurity.html:210 r2/templates/prefsecurity.html:268 r2/templates/prefupdate.html:35 r2/templates/prefupdate.html:59 r2/templates/prefupdate.html:120 r2/templates/useriphistory.html:74
 msgid "(required)"
 msgstr "(r30_u1r3|))"
 
@@ -10742,7 +10757,7 @@ msgstr "n073"
 msgid "No accounts found."
 msgstr ""
 
-#: r2/templates/adminvault.html:35 r2/templates/printablebuttons.html:449
+#: r2/templates/adminvault.html:35 r2/templates/printablebuttons.html:450
 msgid "traffic"
 msgstr "7r@phph1("
 
@@ -11696,7 +11711,7 @@ msgstr "(010r"
 msgid "used as a thematic color for your vault on mobile"
 msgstr ""
 
-#: r2/templates/createvault.html:669 r2/templates/flairpane.html:91 r2/templates/prefoptions.html:622
+#: r2/templates/createvault.html:669 r2/templates/flairpane.html:91 r2/templates/prefoptions.html:618
 msgid "save options"
 msgstr "5@v3 0p7!0n$"
 
@@ -11737,7 +11752,7 @@ msgstr "10@) m0r3 (0mm3n75"
 msgid "personalized"
 msgstr ""
 
-#: r2/templates/exploreitemlisting.html:51 r2/templates/printablebuttons.html:85
+#: r2/templates/exploreitemlisting.html:51 r2/templates/printablebuttons.html:86
 msgid "nsfw"
 msgstr ""
 
@@ -11764,7 +11779,7 @@ msgstr ""
 msgid "filter vault"
 msgstr ""
 
-#: r2/templates/filteredinfobar.html:48 r2/templates/modlisting.html:58 r2/templates/prefsecurity.html:306 r2/templates/userlisting.html:99 r2/templates/vaultselector.html:30 r2/templates/wikipagesettings.html:70
+#: r2/templates/filteredinfobar.html:48 r2/templates/modlisting.html:58 r2/templates/prefsecurity.html:274 r2/templates/userlisting.html:99 r2/templates/vaultselector.html:30 r2/templates/wikipagesettings.html:70
 msgid "add"
 msgstr "4ÐÐ"
 
@@ -12455,19 +12470,19 @@ msgstr ""
 msgid "suggested sort set"
 msgstr "$u663$7 71713"
 
-#: r2/templates/linkcommentssettings.html:97 r2/templates/printablebuttons.html:519
+#: r2/templates/linkcommentssettings.html:97 r2/templates/printablebuttons.html:520
 msgid "disable inbox replies"
 msgstr ""
 
-#: r2/templates/linkcommentssettings.html:97 r2/templates/printablebuttons.html:519
+#: r2/templates/linkcommentssettings.html:97 r2/templates/printablebuttons.html:520
 msgid "inbox replies disabled"
 msgstr ""
 
-#: r2/templates/linkcommentssettings.html:101 r2/templates/printablebuttons.html:523
+#: r2/templates/linkcommentssettings.html:101 r2/templates/printablebuttons.html:524
 msgid "enable inbox replies"
 msgstr ""
 
-#: r2/templates/linkcommentssettings.html:101 r2/templates/printablebuttons.html:523
+#: r2/templates/linkcommentssettings.html:101 r2/templates/printablebuttons.html:524
 msgid "inbox replies enabled"
 msgstr ""
 
@@ -12565,7 +12580,7 @@ msgstr ""
 msgid "choose a username"
 msgstr "p£34$3 3n73r 4 µ$3rn4m3"
 
-#: r2/templates/linkedloginlink.html:60 r2/templates/login.html:103 r2/templates/login.html:106 r2/templates/login.html:234 r2/templates/prefupdate.html:132 r2/templates/resetpassword.html:48
+#: r2/templates/linkedloginlink.html:60 r2/templates/login.html:103 r2/templates/login.html:106 r2/templates/login.html:234 r2/templates/prefupdate.html:135 r2/templates/resetpassword.html:48
 msgid "verify password"
 msgstr "v3r1ƒ¥ p4$$w0rÐ"
 
@@ -12903,7 +12918,7 @@ msgstr "y0u 4r3 n0 10n63r 4 m0|)3r@70r"
 msgid "stop being a moderator?"
 msgstr "$70p 83!n6 @ m0)3r@70r?"
 
-#: r2/templates/modlisting.html:48 r2/templates/printablebuttons.html:433
+#: r2/templates/modlisting.html:48 r2/templates/printablebuttons.html:434
 msgid "accept"
 msgstr "4((3p7"
 
@@ -12957,7 +12972,7 @@ msgstr "(0n7!nu3 7h!$ 7hr3@|)"
 msgid "curated by /u/%s"
 msgstr "@ppr0v3) 8y %s"
 
-#: r2/templates/multiinfobar.html:46 r2/templates/printablebuttons.html:391
+#: r2/templates/multiinfobar.html:46 r2/templates/printablebuttons.html:392
 msgid "hidden"
 msgstr "h1dd3n"
 
@@ -13485,7 +13500,7 @@ msgid "we couldn't save the custom stylesheet preference. please see the error b
 msgstr ""
 
 #: r2/templates/prefoptions.html:108
-msgid "your preferences weren't saved: enter your two-factor code with them"
+msgid "your preferences weren't saved: they locked again while you were away. Save them again now."
 msgstr ""
 
 #: r2/templates/prefoptions.html:110
@@ -14136,367 +14151,380 @@ msgstr "0v3rv13w"
 msgid "warning: use non-featured themes at your own risk"
 msgstr ""
 
-#: r2/templates/prefsecurity.html:44
+#: r2/templates/prefsecurity.html:37
 #, fuzzy
 #| msgid "recover password"
 msgid "save your recovery codes"
 msgstr "r3(0v3r p@$$w0r|)"
 
-#: r2/templates/prefsecurity.html:45
+#: r2/templates/prefsecurity.html:38
 msgid "Save these recovery codes somewhere safe (print them, or keep them in a password manager). Each one works once in place of a code from your app, if you lose your phone. They won't be shown again."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:51
+#: r2/templates/prefsecurity.html:44
 msgid "If you lose your phone or key: sign in with one of these codes, then remove the lost method below and add a new one."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:57
+#: r2/templates/prefsecurity.html:50
 msgid "two-factor authentication"
 msgstr ""
 
+#: r2/templates/prefsecurity.html:55
+msgid "two-factor authentication is **on**. you're asked for a code from one of your methods before changing your password, email address or linked sign-ins, and before opening this page."
+msgstr ""
+
+#: r2/templates/prefsecurity.html:57
+msgid "two-factor authentication is **on**. you're asked to confirm it's you with your passkey before changing your password, email address or linked sign-ins, and before opening this page."
+msgstr ""
+
 #: r2/templates/prefsecurity.html:62
-msgid "two-factor authentication is **on**. you're asked for a code from one of your methods when changing your password or email address, and when linking or unlinking a sign-in."
-msgstr ""
-
-#: r2/templates/prefsecurity.html:64
-msgid "two-factor authentication is **on**. you're asked to confirm it's you with your passkey when changing your password or email address, and when linking or unlinking a sign-in."
-msgstr ""
-
-#: r2/templates/prefsecurity.html:69
 msgid "Passkey created. Next time a code is asked for, choose \"use a passkey\"."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:73
+#: r2/templates/prefsecurity.html:66
 msgid "You signed in with a recovery code."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:74
+#: r2/templates/prefsecurity.html:67
 msgid "If you lost your phone or key, delete it from the list below and create a passkey or add a new app, so you aren't locked out next time."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:76
+#: r2/templates/prefsecurity.html:69
 #, python-format
 msgid "You have %(count)s recovery codes left."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:78
+#: r2/templates/prefsecurity.html:71
 msgid "That was your last recovery code: make new ones below."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:91
+#: r2/templates/prefsecurity.html:84
 #, python-format
-msgid "Unlocked: you can make changes here for %(minutes)s more minutes."
+msgid "Unlocked: your preferences lock again %(minutes)s minutes after you last open one."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:97
-msgid "To change anything here, enter a code from your authenticator app first. It counts for 15 minutes."
-msgstr ""
-
-#: r2/templates/prefsecurity.html:101
-msgid "To change anything here, confirm it's you with your passkey first. It counts for 15 minutes."
-msgstr ""
-
-#: r2/templates/prefsecurity.html:105 r2/templates/printablebuttons.html:82
-msgid "unlock"
-msgstr ""
-
-#: r2/templates/prefsecurity.html:113
+#: r2/templates/prefsecurity.html:89
 #, fuzzy
 #| msgid "your email"
 msgid "your methods"
 msgstr "y0ur 3m@!1"
 
-#: r2/templates/prefsecurity.html:118
+#: r2/templates/prefsecurity.html:94
 #, fuzzy
 #| msgid "kind"
 msgid "kind_name"
 msgstr "X!n)"
 
-#: r2/templates/prefsecurity.html:119
+#: r2/templates/prefsecurity.html:95
 #, python-format
 msgid "added %(when)s"
 msgstr ""
 
-#: r2/templates/prefsecurity.html:121
+#: r2/templates/prefsecurity.html:97
 #, fuzzy, python-format
 #| msgid "last name"
 msgid "last used %(when)s"
 msgstr "14$7 n4m3"
 
-#: r2/templates/prefsecurity.html:143
+#: r2/templates/prefsecurity.html:117
 msgid "Deleting your only method turns two-factor off, so it needs your password too."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:146
+#: r2/templates/prefsecurity.html:120
 msgid "Your passkeys also sign you in on their own: on the login form, choose one from the username box (or \"sign in with a passkey\"), with no password or code."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:147
+#: r2/templates/prefsecurity.html:121
 msgid "Deleting a passkey here stops it working on this site. Your device or password manager keeps its copy until you delete it there too."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:152
+#: r2/templates/prefsecurity.html:126
 msgid "You have one method. Add a second one (a passkey on another device, or an app on another phone), so losing one doesn't lock you out."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:155
+#: r2/templates/prefsecurity.html:129
 msgid "A passkey is the safest method: it only works on this site, so a fake login page can't use it. A code from an app can be typed into a fake page."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:160
+#: r2/templates/prefsecurity.html:133
 #, fuzzy
 #| msgid "add moderator"
 msgid "add a method"
 msgstr "4ÐÐ m0Ð3r470r"
 
-#: r2/templates/prefsecurity.html:166
+#: r2/templates/prefsecurity.html:138
 #, fuzzy
 #| msgid "recover password"
 msgid "recovery codes"
 msgstr "r3(0v3r p@$$w0r|)"
 
-#: r2/templates/prefsecurity.html:168
+#: r2/templates/prefsecurity.html:140
 msgid "Recovery codes work once each in place of a code from your app, if you lose your phone."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:170
+#: r2/templates/prefsecurity.html:142
 #, python-format
 msgid "You have %(count)s left."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:172
+#: r2/templates/prefsecurity.html:144
 msgid "You have none left: make new ones now."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:177
+#: r2/templates/prefsecurity.html:148
 msgid "make new recovery codes"
 msgstr ""
 
-#: r2/templates/prefsecurity.html:180
+#: r2/templates/prefsecurity.html:151
 msgid "Making new ones stops the old ones working."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:187
+#: r2/templates/prefsecurity.html:157
 msgid "also ask for a code"
 msgstr ""
 
-#: r2/templates/prefsecurity.html:191
+#: r2/templates/prefsecurity.html:160
 msgid "when logging in, with your password or a linked account (Google, GitHub...)"
 msgstr ""
 
-#: r2/templates/prefsecurity.html:192
+#: r2/templates/prefsecurity.html:161
 #, python-format
 msgid "you can choose to skip it for %(days)s days on a device you trust"
 msgstr ""
 
-#: r2/templates/prefsecurity.html:196
-msgid "when saving your preferences"
+#: r2/templates/prefsecurity.html:165
+msgid "before opening any of your preferences"
 msgstr ""
 
-#: r2/templates/prefsecurity.html:200
+#: r2/templates/prefsecurity.html:166
+msgid "otherwise only this page and your password and email address are locked"
+msgstr ""
+
+#: r2/templates/prefsecurity.html:170
 msgid "when submitting a post"
 msgstr ""
 
-#: r2/templates/prefsecurity.html:202
-msgid "a code you enter counts for 15 minutes, so you aren't asked again and again. apps you've allowed (OAuth) aren't asked."
+#: r2/templates/prefsecurity.html:172
+#, python-format
+msgid "a code you enter counts for %(minutes)s minutes, and your preferences stay unlocked while you use them, so you aren't asked again and again. apps you've allowed (OAuth) aren't asked."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:215
+#: r2/templates/prefsecurity.html:183
 #, fuzzy
 #| msgid "remember me"
 msgid "remembered devices"
 msgstr "r3m3mb3r m3"
 
-#: r2/templates/prefsecurity.html:218
+#: r2/templates/prefsecurity.html:186
 msgid "Done: every device will be asked for a code again."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:220
+#: r2/templates/prefsecurity.html:188
 msgid "This device is remembered, so it isn't asked for a code."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:222
+#: r2/templates/prefsecurity.html:190
 msgid "This device isn't remembered."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:224
+#: r2/templates/prefsecurity.html:192
 msgid "If you lost a device you chose to skip the code on, or used a shared computer, forget them all: each one is asked for a code again next time."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:226
+#: r2/templates/prefsecurity.html:194
 msgid "forget all remembered devices"
 msgstr ""
 
-#: r2/templates/prefsecurity.html:228
+#: r2/templates/prefsecurity.html:196
 msgid "Nobody is logged out. To end the logins themselves, use \"log out of all other sessions\" on the account activity page."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:233
+#: r2/templates/prefsecurity.html:201
 msgid "turn off two-factor authentication…"
 msgstr ""
 
-#: r2/templates/prefsecurity.html:235
+#: r2/templates/prefsecurity.html:203
 msgid "to turn it off (removing every method and the recovery codes), enter your password and a code."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:249
+#: r2/templates/prefsecurity.html:217
 #, fuzzy
 #| msgid "turn admin off"
 msgid "turn off"
 msgstr "7µrn 4Ðm1n 0ƒƒ"
 
-#: r2/templates/prefsecurity.html:254
+#: r2/templates/prefsecurity.html:222
 msgid "This site asks moderators and staff to use two-factor sign-in: your moderator tools work again once it's on."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:256
+#: r2/templates/prefsecurity.html:224
 msgid "with two-factor authentication on, changing your password or email address, and linking or unlinking a sign-in, also need a second step: a code from an authenticator app on your phone (Google Authenticator, Authy, 1Password and the like). someone who learns your password, or gets into a linked Google or Facebook account, can't take over your account here. you can add more than one method, and remove them later."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:257
+#: r2/templates/prefsecurity.html:225
 msgid "When you add your first method you get recovery codes to save: they let you in if you lose your phone or key."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:269
+#: r2/templates/prefsecurity.html:237
 #, fuzzy
 #| msgid "reset password"
 msgid "To start, enter your password."
 msgstr "r3$37 p@5$w0r)"
 
-#: r2/templates/prefsecurity.html:273
+#: r2/templates/prefsecurity.html:241
 #, fuzzy
 #| msgid "(optional)"
 msgid "name (optional, like phone or work)"
 msgstr "(0p7!0n@1)"
 
-#: r2/templates/prefsecurity.html:277
+#: r2/templates/prefsecurity.html:245
 #, fuzzy
 #| msgid "create a community"
 msgid "create a passkey"
 msgstr "(r3@73 4 (0mmun!7y"
 
-#: r2/templates/prefsecurity.html:279
+#: r2/templates/prefsecurity.html:247
 msgid "Passkeys are encrypted digital keys you create using your fingerprint, face or screen lock. They're saved in your password manager (like Google Password Manager or iCloud Keychain), so you can use them on your other devices too."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:280
+#: r2/templates/prefsecurity.html:248
 msgid "A passkey only works on this site, so a fake login page can't use it, and it signs you in without your password. Don't create one on a shared computer."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:283
+#: r2/templates/prefsecurity.html:251
 msgid "add an authenticator app"
 msgstr ""
 
-#: r2/templates/prefsecurity.html:284
+#: r2/templates/prefsecurity.html:252
 msgid "An app on your phone (Google Authenticator, Authy, 1Password and the like) shows a new 6-digit code every 30 seconds."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:293
+#: r2/templates/prefsecurity.html:261
 msgid "1. Scan this QR code with your authenticator app, or type the key under it into the app. This key isn't shown again."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:296
+#: r2/templates/prefsecurity.html:264
 msgid "2. name it"
 msgstr ""
 
-#: r2/templates/prefsecurity.html:296
+#: r2/templates/prefsecurity.html:264
 msgid "(optional, like phone or work)"
 msgstr ""
 
-#: r2/templates/prefsecurity.html:300
+#: r2/templates/prefsecurity.html:268
 msgid "3. the code the app shows"
 msgstr ""
 
-#: r2/templates/prefsecurity.html:314
+#: r2/templates/prefsecurity.html:282
 msgid "sign in with another account"
 msgstr ""
 
-#: r2/templates/prefsecurity.html:316
+#: r2/templates/prefsecurity.html:284
 msgid "Link a Google, Facebook, GitHub or Discord account to sign in with it instead of your password. It only signs in to this account, and you can unlink it at any time. Your password keeps working."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:318
+#: r2/templates/prefsecurity.html:286
 msgid "Linked. You can now sign in with it on the login page."
 msgstr ""
 
-#: r2/templates/prefsecurity.html:322
-msgid "Linking or unlinking needs your two-factor code (one you entered in the last 15 minutes counts)."
-msgstr ""
-
-#: r2/templates/prefsecurity.html:330
+#: r2/templates/prefsecurity.html:294
 #, fuzzy
 #| msgid "link"
 #| msgid_plural "links"
 msgid "linked"
 msgstr "11nX"
 
-#: r2/templates/prefsecurity.html:344
+#: r2/templates/prefsecurity.html:304
 #, fuzzy
 #| msgid "link"
 #| msgid_plural "links"
 msgid "unlink"
 msgstr "11nX"
 
-#: r2/templates/prefsecurity.html:349
+#: r2/templates/prefsecurity.html:309
 #, fuzzy
 #| msgid "normal link"
 msgid "not linked"
 msgstr "n0rm@1 1!nX"
 
-#: r2/templates/prefsecurity.html:360 r2/templates/prefsecurity.html:364
+#: r2/templates/prefsecurity.html:316 r2/templates/prefsecurity.html:320
 #, fuzzy, python-format
 #| msgid "link options"
 msgid "link %(provider)s"
 msgstr "1!nX 0p710n5"
 
-#: r2/templates/prefupdate.html:33
+#: r2/templates/prefsunlock.html:23
 #, fuzzy
-#| msgid "month"
-#| msgid_plural "months"
-msgid "(entered a moment ago)"
-msgstr "m0n7h"
+#| msgid "preferences"
+msgid "unlock your preferences"
+msgstr "pr3ƒ3r3n(3$"
 
-#: r2/templates/prefupdate.html:49
+#: r2/templates/prefsunlock.html:26
+msgid "You chose to keep your preferences locked until you confirm it's you."
+msgstr ""
+
+#: r2/templates/prefsunlock.html:28
+msgid "Changing your password, email address, two-factor sign-in or linked accounts needs you to confirm it's you first."
+msgstr ""
+
+#: r2/templates/prefsunlock.html:35
+msgid "Enter a code from your authenticator app (or a recovery code)."
+msgstr ""
+
+#: r2/templates/prefsunlock.html:37
+msgid "Confirm it's you with your passkey (or a recovery code)."
+msgstr ""
+
+#: r2/templates/prefsunlock.html:41 r2/templates/printablebuttons.html:83
+msgid "unlock"
+msgstr ""
+
+#: r2/templates/prefsunlock.html:45
+#, python-format
+msgid "They stay unlocked while you use them, and lock again %(minutes)s minutes after you last opened one."
+msgstr ""
+
+#: r2/templates/prefupdate.html:52
 msgid "verify your email"
 msgstr "v3r!phy y0ur 3m411"
 
-#: r2/templates/prefupdate.html:51
+#: r2/templates/prefupdate.html:54
 msgid "update your email"
 msgstr "up|)@73 y0ur 3m@11"
 
-#: r2/templates/prefupdate.html:56 r2/templates/prefupdate.html:117 r2/templates/useriphistory.html:74
+#: r2/templates/prefupdate.html:59 r2/templates/prefupdate.html:120 r2/templates/useriphistory.html:74
 msgid "current password"
 msgstr "(urr3n7 p4$5w0r)"
 
-#: r2/templates/prefupdate.html:68
+#: r2/templates/prefupdate.html:71
 msgid "verified"
 msgstr "v3r1ph13)"
 
-#: r2/templates/prefupdate.html:71
+#: r2/templates/prefupdate.html:74
 msgid "verification pending"
 msgstr "v3r!ph!(47!0n p3n)1n6"
 
-#: r2/templates/prefupdate.html:72
+#: r2/templates/prefupdate.html:75
 msgid "click to resend"
 msgstr "(1!(X 70 r3$3n)"
 
-#: r2/templates/prefupdate.html:74
+#: r2/templates/prefupdate.html:77
 msgid "unverified"
 msgstr "unv3r1ph13)"
 
-#: r2/templates/prefupdate.html:75
+#: r2/templates/prefupdate.html:78
 msgid "click to verify"
 msgstr "(1!(X 70 v3r1phy"
 
-#: r2/templates/prefupdate.html:96
+#: r2/templates/prefupdate.html:99
 msgid "send verification email"
 msgstr "$3n|) v3r!ph1(47!0n 3m@!1"
 
-#: r2/templates/prefupdate.html:114
+#: r2/templates/prefupdate.html:117
 msgid "update your password"
 msgstr "up)473 y0ur p@$$w0r)"
 
-#: r2/templates/prefupdate.html:125 r2/templates/resetpassword.html:41
+#: r2/templates/prefupdate.html:128 r2/templates/resetpassword.html:41
 msgid "new password"
 msgstr "n3w p@55w0r|)"
 
@@ -14510,172 +14538,172 @@ msgstr "r3m0v3 %(obj)s"
 msgid "(no need to click for this info; just hover over the checkmark next time)"
 msgstr "(n0 n33) 70 (1!(X ph0r 7h15 1nph0; _/u$7 h0v3r 0v3r 7h3 (h3(Xm4rX n3x7 7!m3)"
 
-#: r2/templates/printablebuttons.html:47 r2/templates/printablebuttons.html:283
+#: r2/templates/printablebuttons.html:48 r2/templates/printablebuttons.html:284
 #, fuzzy
 #| msgid "spam"
 msgid "spammed"
 msgstr "$p4m"
 
-#: r2/templates/printablebuttons.html:74 r2/templates/promotelinkbase.html:849 r2/templates/vaultreportform.html:49
+#: r2/templates/printablebuttons.html:75 r2/templates/promotelinkbase.html:849 r2/templates/vaultreportform.html:52
 msgid "report"
 msgstr "r3p0r7"
 
-#: r2/templates/printablebuttons.html:79
+#: r2/templates/printablebuttons.html:80
 #, fuzzy
 #| msgid "roadblock"
 msgid "lock"
 msgstr "r0@)810(X"
 
-#: r2/templates/printablebuttons.html:85
+#: r2/templates/printablebuttons.html:86
 msgid "marked"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:88
+#: r2/templates/printablebuttons.html:89
 msgid "un-nsfw"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:88
+#: r2/templates/printablebuttons.html:89
 msgid "unmarked"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:120
+#: r2/templates/printablebuttons.html:121
 msgid "retry thumb"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:120
+#: r2/templates/printablebuttons.html:121
 msgid "check back in a few minutes"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:140
+#: r2/templates/printablebuttons.html:141
 #, fuzzy
 #| msgid "distinguish"
 msgid "undistinguish"
 msgstr ")157!n6u!5h"
 
-#: r2/templates/printablebuttons.html:155
+#: r2/templates/printablebuttons.html:156
 msgid "distinguish this?"
 msgstr ")!571n6u!$h 7h!5?"
 
-#: r2/templates/printablebuttons.html:165
+#: r2/templates/printablebuttons.html:166
 msgid "yes & sticky"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:192
+#: r2/templates/printablebuttons.html:193
 #, fuzzy
 #| msgid "distinguish this?"
 msgid "undistinguish this?"
 msgstr ")!571n6u!$h 7h!5?"
 
-#: r2/templates/printablebuttons.html:217
+#: r2/templates/printablebuttons.html:218
 #, fuzzy
 #| msgid "distinguishing..."
 msgid "undistinguishing..."
 msgstr "|)1$7!n6u15h!n6..."
 
-#: r2/templates/printablebuttons.html:219
+#: r2/templates/printablebuttons.html:220
 msgid "distinguishing..."
 msgstr "|)1$7!n6u15h!n6..."
 
-#: r2/templates/printablebuttons.html:240
+#: r2/templates/printablebuttons.html:241
 msgid "give tippr gold in appreciation of this post."
 msgstr ""
 
-#: r2/templates/printablebuttons.html:243
+#: r2/templates/printablebuttons.html:244
 #, fuzzy
 #| msgid "tippr gold"
 msgid "give gold"
 msgstr "r3|))!7 601|)"
 
-#: r2/templates/printablebuttons.html:270
+#: r2/templates/printablebuttons.html:271
 #, fuzzy
 #| msgid "approve"
 msgid "reapprove"
 msgstr "@ppr0v3"
 
-#: r2/templates/printablebuttons.html:310
+#: r2/templates/printablebuttons.html:311
 #, fuzzy
 #| msgid "click to resend"
 msgid "click to show report reasons"
 msgstr "(1!(X 70 r3$3n)"
 
-#: r2/templates/printablebuttons.html:323
+#: r2/templates/printablebuttons.html:324
 #, fuzzy
 #| msgid "moderators"
 msgid "moderator reports:"
 msgstr "m0)3r@70r5"
 
-#: r2/templates/printablebuttons.html:329 r2/templates/printablebuttons.html:342
+#: r2/templates/printablebuttons.html:330 r2/templates/printablebuttons.html:343
 msgid "<no reason>"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:336
+#: r2/templates/printablebuttons.html:337
 #, fuzzy
 #| msgid "reports"
 msgid "user reports:"
 msgstr "r3p0r7$"
 
-#: r2/templates/printablebuttons.html:386
+#: r2/templates/printablebuttons.html:387
 msgid "unhide"
 msgstr "µnh1Ð3"
 
-#: r2/templates/printablebuttons.html:387
+#: r2/templates/printablebuttons.html:388
 msgid "unhidden"
 msgstr "µnh1ÐÐ3n"
 
-#: r2/templates/printablebuttons.html:427
+#: r2/templates/printablebuttons.html:428
 msgid "reject"
 msgstr "r3_/3(7"
 
-#: r2/templates/printablebuttons.html:434
+#: r2/templates/printablebuttons.html:435
 msgid "accepted"
 msgstr "4((3p73|)"
 
-#: r2/templates/printablebuttons.html:442
+#: r2/templates/printablebuttons.html:443
 msgid "fraud"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:473 r2/templates/printablebuttons.html:577
+#: r2/templates/printablebuttons.html:474 r2/templates/printablebuttons.html:578
 msgid "permalink"
 msgstr "p3rm4£1n|{"
 
-#: r2/templates/printablebuttons.html:493 r2/templates/printablebuttons.html:566
+#: r2/templates/printablebuttons.html:494 r2/templates/printablebuttons.html:567
 msgid "context"
 msgstr "(0n73x7"
 
-#: r2/templates/printablebuttons.html:497 r2/templates/printablebuttons.html:570
+#: r2/templates/printablebuttons.html:498 r2/templates/printablebuttons.html:571
 msgid "full comments"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:507
+#: r2/templates/printablebuttons.html:508
 msgid "parent"
 msgstr "p4r3n7"
 
-#: r2/templates/printablebuttons.html:538 r2/templates/printablebuttons.html:540 r2/templates/printablebuttons.html:633
+#: r2/templates/printablebuttons.html:539 r2/templates/printablebuttons.html:541 r2/templates/printablebuttons.html:634
 #, fuzzy, python-brace-format
 #| msgid "reply {verb}"
 msgid "reply {verb}"
 msgstr "r3p1y {v3r8}"
 
-#: r2/templates/printablebuttons.html:595
+#: r2/templates/printablebuttons.html:596
 msgid "unblock vault"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:595
+#: r2/templates/printablebuttons.html:596
 msgid "unblocked"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:598
+#: r2/templates/printablebuttons.html:599
 #, fuzzy
 #| msgid "vault"
 #| msgid_plural "vaults"
 msgid "block vault"
 msgstr "5u8r3))17"
 
-#: r2/templates/printablebuttons.html:605
+#: r2/templates/printablebuttons.html:606
 msgid "block user"
 msgstr ""
 
-#: r2/templates/printablebuttons.html:623
+#: r2/templates/printablebuttons.html:624
 msgid "mark unread"
 msgstr "m4rX unr3@)"
 
@@ -15577,15 +15605,15 @@ msgstr ""
 msgid "why are you reporting this?"
 msgstr ""
 
-#: r2/templates/reportform.html:54
+#: r2/templates/reportform.html:54 r2/templates/vaultreportform.html:83
 #, fuzzy, python-format
 #| msgid "tippror for %(time)s"
-msgid "tippr rule: %(rule_name)s"
+msgid "%(site_name)s rule: %(rule_name)s"
 msgstr "r3|)|)170r ph0r %(time)s"
 
-#: r2/templates/reportform.html:62
+#: r2/templates/reportform.html:62 r2/templates/vaultreportform.html:127
 #, python-format
-msgid "other (max %(num)s characters):"
+msgid "Other (max %(num)s characters):"
 msgstr ""
 
 #: r2/templates/rules.html:44
@@ -16286,32 +16314,23 @@ msgstr "4ppr0v3 7h1$ r3|)|)17"
 msgid "ban this vault"
 msgstr "8@n 7h1$ r3)|)!7"
 
-#: r2/templates/vaultreportform.html:35 r2/templates/vaultreportform.html:36
+#: r2/templates/vaultreportform.html:38 r2/templates/vaultreportform.html:39
 #, fuzzy
 #| msgid "create a community"
 msgid "View the community rules"
 msgstr "(r3@73 4 (0mmun!7y"
 
-#: r2/templates/vaultreportform.html:39
+#: r2/templates/vaultreportform.html:42
 msgid "What rule does this break?"
 msgstr ""
 
-#: r2/templates/vaultreportform.html:80
-#, python-format
-msgid "Tippr rule: %(rule_name)s"
-msgstr ""
-
-#: r2/templates/vaultreportform.html:89 r2/templates/vaultreportform.html:108
+#: r2/templates/vaultreportform.html:92 r2/templates/vaultreportform.html:111
 msgid "Reports go to community moderators anonymously"
 msgstr ""
 
-#: r2/templates/vaultreportform.html:110
-msgid "Reports go to Tippr admins"
-msgstr ""
-
-#: r2/templates/vaultreportform.html:124
+#: r2/templates/vaultreportform.html:113
 #, python-format
-msgid "Other (max %(num)s characters):"
+msgid "Reports go to the %(site_name)s admins"
 msgstr ""
 
 #: r2/templates/vaultstylesheet.html:58 r2/templates/wikieditpage.html:52
