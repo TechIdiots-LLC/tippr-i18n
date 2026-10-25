@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tippr\n"
 "Report-Msgid-Bugs-To: https://github.com/TechIdiots-LLC/tippr-i18n/issues\n"
-"POT-Creation-Date: 2026-10-24 13:04-0400\n"
+"POT-Creation-Date: 2026-10-24 20:07-0400\n"
 "PO-Revision-Date: 2017-01-23 14:32-0500\n"
 "Last-Translator: tippr translators\n"
 "Language-Team: Danish\n"
@@ -20,7 +20,7 @@ msgstr ""
 msgid "Choose an image of at most 1 MB."
 msgstr "Vælg et billede på højst 1 MB."
 
-#: r2/controllers/api.py:223 r2/controllers/api.py:249 r2/controllers/api.py:4436 r2/controllers/api.py:4506 r2/controllers/listingcontroller.py:766 r2/lib/pages/pages.py:6400
+#: r2/controllers/api.py:223 r2/controllers/api.py:249 r2/controllers/api.py:4436 r2/controllers/api.py:4506 r2/controllers/listingcontroller.py:766 r2/lib/pages/pages.py:6405
 msgid "API"
 msgstr "API"
 
@@ -74,7 +74,7 @@ msgstr "Login tog for lang tid. Start forfra."
 msgid "That account is linked already: sign in with it."
 msgstr "Den konto er allerede forbundet: log ind med den."
 
-#: r2/controllers/api.py:1436 r2/controllers/api.py:1817 r2/controllers/api.py:2719 r2/controllers/api.py:3019 r2/controllers/api.py:3346 r2/controllers/api.py:4228 r2/controllers/api.py:4284 r2/controllers/api.py:4338 r2/controllers/api.py:4571 r2/controllers/api.py:4576 r2/controllers/api.py:4811 r2/controllers/api.py:4876 r2/controllers/api.py:4954 r2/controllers/api.py:5020 r2/controllers/api.py:5093 r2/controllers/api.py:5184 r2/controllers/api.py:5216 r2/controllers/api.py:5236 r2/controllers/api.py:5750 r2/controllers/api.py:5790 r2/controllers/api.py:6024 r2/controllers/api.py:6042 r2/controllers/api.py:6390 r2/lib/pages/pages.py:6291
+#: r2/controllers/api.py:1436 r2/controllers/api.py:1817 r2/controllers/api.py:2719 r2/controllers/api.py:3019 r2/controllers/api.py:3346 r2/controllers/api.py:4228 r2/controllers/api.py:4284 r2/controllers/api.py:4338 r2/controllers/api.py:4571 r2/controllers/api.py:4576 r2/controllers/api.py:4811 r2/controllers/api.py:4876 r2/controllers/api.py:4954 r2/controllers/api.py:5020 r2/controllers/api.py:5093 r2/controllers/api.py:5184 r2/controllers/api.py:5216 r2/controllers/api.py:5236 r2/controllers/api.py:5750 r2/controllers/api.py:5790 r2/controllers/api.py:6024 r2/controllers/api.py:6042 r2/controllers/api.py:6390 r2/lib/pages/pages.py:6296
 msgid "saved"
 msgstr "gemt"
 
@@ -94,7 +94,7 @@ msgstr "din email er blevet opdateret"
 msgid "your password has been updated"
 msgstr "dit password er blevet opdateret"
 
-#: r2/controllers/api.py:2074 r2/lib/menus.py:196 r2/templates/adminserverstatus.html:161
+#: r2/controllers/api.py:2074 r2/lib/menus.py:196 r2/templates/adminserverstatus.html:165
 msgid "reported"
 msgstr "anmeldt"
 
@@ -504,7 +504,7 @@ msgstr "tippr knapper"
 msgid "tippr widget"
 msgstr "tippr-widget"
 
-#: r2/controllers/embed.py:74 r2/controllers/policies.py:76 r2/lib/pages/pages.py:1137 r2/lib/pages/pages.py:6396 r2/templates/printablebuttons.html:150
+#: r2/controllers/embed.py:74 r2/controllers/policies.py:51 r2/lib/pages/pages.py:1137 r2/lib/pages/pages.py:6401 r2/templates/printablebuttons.html:150
 msgid "help"
 msgstr "hjælp"
 
@@ -538,7 +538,7 @@ msgstr "siden du forespurgte eksisterer ikke"
 msgid "suspended"
 msgstr "suspenderet"
 
-#: r2/controllers/front.py:247 r2/lib/pages/pages.py:6278
+#: r2/controllers/front.py:247 r2/lib/pages/pages.py:6283
 msgid "explore"
 msgstr "udforsk"
 
@@ -570,7 +570,7 @@ msgstr "vis %d"
 msgid "create a vault"
 msgstr "lav en vault"
 
-#: r2/controllers/front.py:738 r2/controllers/front.py:744 r2/controllers/listingcontroller.py:813 r2/controllers/listingcontroller.py:828 r2/controllers/listingcontroller.py:1192 r2/controllers/listingcontroller.py:1203 r2/lib/menus.py:203 r2/lib/menus.py:453 r2/lib/menus.py:666 r2/lib/pages/pages.py:5165 r2/lib/pages/pages.py:5174 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
+#: r2/controllers/front.py:738 r2/controllers/front.py:744 r2/controllers/listingcontroller.py:813 r2/controllers/listingcontroller.py:828 r2/controllers/listingcontroller.py:1192 r2/controllers/listingcontroller.py:1203 r2/lib/menus.py:203 r2/lib/menus.py:453 r2/lib/menus.py:666 r2/lib/pages/pages.py:5170 r2/lib/pages/pages.py:5179 r2/lib/support.py:82 r2/templates/adminapps.html:51 r2/templates/adminsupport.html:62 r2/templates/createvault.html:272 r2/templates/createvault.html:283 r2/templates/createvault.html:294
 msgid "all"
 msgstr "alle"
 
@@ -594,7 +594,7 @@ msgstr "opslag og kommentarer"
 msgid "posts"
 msgstr "indlæg"
 
-#: r2/controllers/front.py:949 r2/controllers/listingcontroller.py:1795 r2/lib/pages/pages.py:5919 r2/templates/adminuser.html:37 r2/templates/createvault.html:288 r2/templates/link.xml:95
+#: r2/controllers/front.py:949 r2/controllers/listingcontroller.py:1795 r2/lib/pages/pages.py:5924 r2/templates/adminuser.html:37 r2/templates/createvault.html:288 r2/templates/link.xml:95
 msgid "comments"
 msgstr "kommentarer"
 
@@ -1208,67 +1208,19 @@ msgstr "Betalingen gik ikke igennem, så du er ikke blevet opkrævet."
 msgid "try again"
 msgstr "prøv igen"
 
-#: r2/controllers/policies.py:47
-msgid "frequently asked questions"
-msgstr "ofte stillede spørgsmål"
-
-#: r2/controllers/policies.py:48
-msgid "searching"
-msgstr "søgning"
-
-#: r2/controllers/policies.py:49
-msgid "formatting posts and comments"
-msgstr "formatering af opslag og kommentarer"
-
-#: r2/controllers/policies.py:50 r2/lib/menus.py:108
-msgid "RSS feeds"
-msgstr "RSS-feeds"
-
-#: r2/controllers/policies.py:51
-msgid "trophies"
-msgstr "priser"
-
-#: r2/controllers/policies.py:52
-msgid "timeouts and suspensions"
-msgstr "timeouts og udelukkelser"
-
-#: r2/controllers/policies.py:53
-msgid "quarantined vaults"
-msgstr "vaults i karantæne"
-
-#: r2/controllers/policies.py:54
-msgid "muting in moderator mail"
-msgstr "tavshed i moderatorpost"
-
-#: r2/controllers/policies.py:55
-msgid "AutoModerator"
-msgstr "AutoModerator"
-
-#: r2/controllers/policies.py:56
-msgid "using the API"
-msgstr "brug af API'et"
-
-#: r2/controllers/policies.py:57 r2/lib/menus.py:199
-msgid "advertising"
-msgstr "reklamering"
-
-#: r2/controllers/policies.py:58
-msgid "translating"
-msgstr "oversættelse"
-
-#: r2/controllers/policies.py:71 r2/controllers/policies.py:89 r2/lib/menus.py:101 r2/lib/pages/pages.py:6407 r2/templates/contactus.html:92
-msgid "user agreement"
-msgstr "brugeraftale"
-
-#: r2/controllers/policies.py:72 r2/controllers/policies.py:86 r2/lib/menus.py:102 r2/lib/pages/pages.py:6406 r2/templates/contactus.html:84 r2/templates/utils.html:543
+#: r2/controllers/policies.py:61 r2/lib/help_pages.py:43 r2/lib/menus.py:102 r2/lib/pages/pages.py:6411 r2/templates/contactus.html:84 r2/templates/utils.html:543
 msgid "privacy policy"
 msgstr "privatlivspolitik"
 
-#: r2/controllers/policies.py:73 r2/controllers/policies.py:92 r2/lib/menus.py:100 r2/lib/pages/pages.py:6408 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:237
+#: r2/controllers/policies.py:64 r2/lib/help_pages.py:42 r2/lib/menus.py:101 r2/lib/pages/pages.py:6412 r2/templates/contactus.html:92
+msgid "user agreement"
+msgstr "brugeraftale"
+
+#: r2/controllers/policies.py:67 r2/lib/help_pages.py:44 r2/lib/menus.py:100 r2/lib/pages/pages.py:6413 r2/templates/contactus.html:69 r2/templates/newlink.html:168 r2/templates/usertext.html:237
 msgid "content policy"
 msgstr "indholdshåndtering"
 
-#: r2/controllers/policies.py:74 r2/controllers/policies.py:95 r2/templates/contactus.html:99
+#: r2/controllers/policies.py:70 r2/lib/help_pages.py:45 r2/templates/contactus.html:99
 msgid "moderator guidelines"
 msgstr "retningslinjer for moderatorer"
 
@@ -1404,7 +1356,7 @@ msgstr "vælg et billede"
 msgid "too big. keep it under 500 KB"
 msgstr "for stort. hold det under 500 KB"
 
-#: r2/controllers/tippr_base.py:1483 r2/lib/pages/pages.py:4694 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
+#: r2/controllers/tippr_base.py:1483 r2/lib/pages/pages.py:4699 r2/models/modaction.py:112 r2/templates/admindomains.html:34 r2/templates/adminvault.html:48 r2/templates/adminvaults.html:38 r2/templates/adminvaults.html:40 r2/templates/adminvaults.html:42 r2/templates/bannedinterstitial.html:36 r2/templates/subscriptionbox.html:66 r2/templates/vault.html:77 r2/templates/vaultinfobar.html:165
 msgid "banned"
 msgstr "udelukket"
 
@@ -2533,6 +2485,54 @@ msgstr "visninger pr. måned"
 #: r2/lib/generated_strings.py:75
 msgid "clicks by month"
 msgstr "klik per måned"
+
+#: r2/lib/help_pages.py:26
+msgid "frequently asked questions"
+msgstr "ofte stillede spørgsmål"
+
+#: r2/lib/help_pages.py:27
+msgid "searching"
+msgstr "søgning"
+
+#: r2/lib/help_pages.py:28
+msgid "formatting posts and comments"
+msgstr "formatering af opslag og kommentarer"
+
+#: r2/lib/help_pages.py:29 r2/lib/menus.py:108
+msgid "RSS feeds"
+msgstr "RSS-feeds"
+
+#: r2/lib/help_pages.py:30
+msgid "trophies"
+msgstr "priser"
+
+#: r2/lib/help_pages.py:31
+msgid "timeouts and suspensions"
+msgstr "timeouts og udelukkelser"
+
+#: r2/lib/help_pages.py:32
+msgid "quarantined vaults"
+msgstr "vaults i karantæne"
+
+#: r2/lib/help_pages.py:33
+msgid "muting in moderator mail"
+msgstr "tavshed i moderatorpost"
+
+#: r2/lib/help_pages.py:34
+msgid "AutoModerator"
+msgstr "AutoModerator"
+
+#: r2/lib/help_pages.py:35
+msgid "using the API"
+msgstr "brug af API'et"
+
+#: r2/lib/help_pages.py:36 r2/lib/menus.py:199
+msgid "advertising"
+msgstr "reklamering"
+
+#: r2/lib/help_pages.py:37
+msgid "translating"
+msgstr "oversættelse"
 
 #: r2/lib/jsontemplates.py:743 r2/templates/link.xml:65 r2/templates/usertext.html:213
 msgid "[removed]"
@@ -3811,7 +3811,7 @@ msgid_plural "hours"
 msgstr[0] "time"
 msgstr[1] "timer"
 
-#: r2/lib/pages/pages.py:347 r2/lib/pages/pages.py:5719 r2/lib/strings.py:279 r2/public/static/js/sponsored.js:1484 r2/public/static/js/sponsored.js:1851 r2/templates/intimeoutinterstitial.html:44 r2/templates/tipprtraffic.html:104
+#: r2/lib/pages/pages.py:347 r2/lib/pages/pages.py:5724 r2/lib/strings.py:279 r2/public/static/js/sponsored.js:1484 r2/public/static/js/sponsored.js:1851 r2/templates/intimeoutinterstitial.html:44 r2/templates/tipprtraffic.html:104
 msgid "day"
 msgid_plural "days"
 msgstr[0] "dag"
@@ -4256,7 +4256,7 @@ msgstr "slå admin fra"
 msgid "<3"
 msgstr "<3"
 
-#: r2/lib/pages/pages.py:1342 r2/templates/adminserverstatus.html:162
+#: r2/lib/pages/pages.py:1342 r2/templates/adminserverstatus.html:166
 #, python-format
 msgid "%(time)s ago"
 msgstr "for %(time)s siden"
@@ -4415,250 +4415,262 @@ msgstr "du har et guld abonnement på kreditkort. der vil blive trukket %(amount
 msgid "try entering those letters again"
 msgstr "skriv bogstaverne igen"
 
-#: r2/lib/pages/pages.py:3660 r2/lib/pages/pages.py:6399 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
+#: r2/lib/pages/pages.py:3660 r2/lib/pages/pages.py:6404 r2/templates/admindomain.html:26 r2/templates/adminusers.html:27 r2/templates/adminvaults.html:32 r2/templates/searchform.html:65 r2/templates/sponsorlookupuser.html:35
 msgid "search"
 msgstr "søg"
 
-#: r2/lib/pages/pages.py:4304
+#: r2/lib/pages/pages.py:4298
+#, fuzzy
+#| msgid "back"
+msgid "backend"
+msgstr "tilbage"
+
+#: r2/lib/pages/pages.py:4298
+#, fuzzy
+#| msgid "front"
+msgid "frontend"
+msgstr "forside"
+
+#: r2/lib/pages/pages.py:4309
 #, python-format
 msgid "not heard from for %(time)s"
 msgstr "ikke hørt fra i %(time)s"
 
-#: r2/lib/pages/pages.py:4310
+#: r2/lib/pages/pages.py:4315
 #, python-format
 msgid "memory %(p)s%% used"
 msgstr "hukommelse %(p)s%% brugt"
 
-#: r2/lib/pages/pages.py:4314
+#: r2/lib/pages/pages.py:4319
 #, python-format
 msgid "busy: load %(l)s on %(n)s CPUs"
 msgstr "travl: belastning %(l)s på %(n)s CPU'er"
 
-#: r2/lib/pages/pages.py:4320
+#: r2/lib/pages/pages.py:4325
 #, python-format
 msgid "disk %(path)s %(p)s%% full"
 msgstr "disk %(path)s %(p)s%% fuld"
 
-#: r2/lib/pages/pages.py:4324
+#: r2/lib/pages/pages.py:4329
 #, python-format
 msgid "%(service)s is %(state)s"
 msgstr "%(service)s er %(state)s"
 
-#: r2/lib/pages/pages.py:4327
+#: r2/lib/pages/pages.py:4332
 msgid "a different version from the others"
 msgstr "en anden version end de andre"
 
-#: r2/lib/pages/pages.py:4329
+#: r2/lib/pages/pages.py:4334
 msgid "another server has the same name: set TIPPR_SERVER_NAME on one of them"
 msgstr "en anden server har samme navn: sæt TIPPR_SERVER_NAME på en af dem"
 
-#: r2/lib/pages/pages.py:4402
+#: r2/lib/pages/pages.py:4407
 #, python-format
 msgid "%(n)s seconds"
 msgstr "%(n)s sekunder"
 
-#: r2/lib/pages/pages.py:4404
+#: r2/lib/pages/pages.py:4409
 #, python-format
 msgid "%(n)s minutes"
 msgstr "%(n)s minutter"
 
-#: r2/lib/pages/pages.py:4406
+#: r2/lib/pages/pages.py:4411
 #, python-format
 msgid "%(n)s hours"
 msgstr "%(n)s timer"
 
-#: r2/lib/pages/pages.py:4407
+#: r2/lib/pages/pages.py:4412
 #, python-format
 msgid "%(n)s days"
 msgstr "%(n)s dage"
 
-#: r2/lib/pages/pages.py:4423
+#: r2/lib/pages/pages.py:4428
 msgid "polling"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4429
+#: r2/lib/pages/pages.py:4434
 msgid "off (no event collector)"
 msgstr ""
 
-#: r2/lib/pages/pages.py:4635 r2/lib/pages/pages.py:4744
+#: r2/lib/pages/pages.py:4640 r2/lib/pages/pages.py:4749
 msgid "added"
 msgstr "tilføjet"
 
-#: r2/lib/pages/pages.py:4703 r2/models/modaction.py:146 r2/templates/printablebuttons.html:615
+#: r2/lib/pages/pages.py:4708 r2/models/modaction.py:146 r2/templates/printablebuttons.html:615
 msgid "muted"
 msgstr "gjort tavs"
 
-#: r2/lib/pages/pages.py:4721
+#: r2/lib/pages/pages.py:4726
 msgid "invited"
 msgstr "inviteret"
 
-#: r2/lib/pages/pages.py:4782
+#: r2/lib/pages/pages.py:4787
 msgid "grant flair"
 msgstr "bevilg flair"
 
-#: r2/lib/pages/pages.py:4784
+#: r2/lib/pages/pages.py:4789
 msgid "user flair templates"
 msgstr "bruger etiketskabeloner"
 
-#: r2/lib/pages/pages.py:4786
+#: r2/lib/pages/pages.py:4791
 msgid "link flair templates"
 msgstr "link etiketskabeloner"
 
-#: r2/lib/pages/pages.py:5158 r2/templates/adminuser.html:73 r2/templates/adminuser.html:98 r2/templates/adminuser.html:108 r2/templates/flairpane.html:79
+#: r2/lib/pages/pages.py:5163 r2/templates/adminuser.html:73 r2/templates/adminuser.html:98 r2/templates/adminuser.html:108 r2/templates/flairpane.html:79
 msgid "none"
 msgstr "ingen"
 
-#: r2/lib/pages/pages.py:5289
+#: r2/lib/pages/pages.py:5294
 msgid "suggestions:"
 msgstr "forslag:"
 
-#: r2/lib/pages/pages.py:5293
+#: r2/lib/pages/pages.py:5298
 #, python-format
 msgid "Create your ad on this page. Have questions? Check out the [Help Center](%(help_center)s) or [/v/selfserve](%(selfserve)s)."
 msgstr "Opret din annonce på denne side. Har du spørgsmål? Se [Hjælpecenter](%(help_center)s) eller [/v/selfserve](%(selfserve)s)."
 
-#: r2/lib/pages/pages.py:5911
+#: r2/lib/pages/pages.py:5916
 msgid "start date"
 msgstr "startdato"
 
-#: r2/lib/pages/pages.py:5912
+#: r2/lib/pages/pages.py:5917
 msgid "end date"
 msgstr "slutdato"
 
-#: r2/lib/pages/pages.py:5914 r2/templates/createvault.html:266
+#: r2/lib/pages/pages.py:5919 r2/templates/createvault.html:266
 msgid "links"
 msgstr "links"
 
-#: r2/lib/pages/pages.py:5916 r2/lib/pages/pages.py:5935 r2/templates/adminpaymentsettings.html:239 r2/templates/promotedlinktraffic.html:42 r2/templates/timeserieschart.html:40
+#: r2/lib/pages/pages.py:5921 r2/lib/pages/pages.py:5940 r2/templates/adminpaymentsettings.html:239 r2/templates/promotedlinktraffic.html:42 r2/templates/timeserieschart.html:40
 msgid "date"
 msgstr "dato"
 
-#: r2/lib/pages/pages.py:5919 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
+#: r2/lib/pages/pages.py:5924 r2/templates/promotedlinktraffic.html:112 r2/templates/refundpage.html:44 r2/templates/sponsorlookupuser.html:37
 msgid "id"
 msgstr "id"
 
-#: r2/lib/pages/pages.py:5919 r2/lib/pages/pages.py:5938 r2/templates/promotelinkbase.html:856
+#: r2/lib/pages/pages.py:5924 r2/lib/pages/pages.py:5943 r2/templates/promotelinkbase.html:856
 msgid "owner"
 msgstr "ejer"
 
-#: r2/lib/pages/pages.py:5919 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
+#: r2/lib/pages/pages.py:5924 r2/templates/newlink.html:76 r2/templates/promotelinkbase.html:122
 msgid "url"
 msgstr "url"
 
-#: r2/lib/pages/pages.py:5920
+#: r2/lib/pages/pages.py:5925
 msgid "upvotes"
 msgstr "opstemmer"
 
-#: r2/lib/pages/pages.py:5920
+#: r2/lib/pages/pages.py:5925
 msgid "downvotes"
 msgstr "nedstemmer"
 
-#: r2/lib/pages/pages.py:5920 r2/lib/pages/trafficpages.py:351 r2/lib/pages/trafficpages.py:853 r2/templates/promotedlinktraffic.html:44 r2/templates/promotedlinktraffic.html:124
+#: r2/lib/pages/pages.py:5925 r2/lib/pages/trafficpages.py:351 r2/lib/pages/trafficpages.py:853 r2/templates/promotedlinktraffic.html:44 r2/templates/promotedlinktraffic.html:124
 msgid "clicks"
 msgstr "klik"
 
-#: r2/lib/pages/pages.py:5920 r2/lib/pages/trafficpages.py:348 r2/lib/pages/trafficpages.py:478 r2/lib/pages/trafficpages.py:852 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
+#: r2/lib/pages/pages.py:5925 r2/lib/pages/trafficpages.py:348 r2/lib/pages/trafficpages.py:478 r2/lib/pages/trafficpages.py:852 r2/templates/adverttrafficsummary.html:39 r2/templates/promotedlinktraffic.html:43 r2/templates/promotelinkbase.html:706
 msgid "impressions"
 msgstr "indtryk"
 
-#: r2/lib/pages/pages.py:5933
+#: r2/lib/pages/pages.py:5938
 msgid "campaigns"
 msgstr "kampagner"
 
-#: r2/lib/pages/pages.py:5938
+#: r2/lib/pages/pages.py:5943
 msgid "link id"
 msgstr "link-id"
 
-#: r2/lib/pages/pages.py:5938
+#: r2/lib/pages/pages.py:5943
 msgid "campaign id"
 msgstr "kampagne id"
 
-#: r2/lib/pages/pages.py:5938 r2/templates/promotedlinktraffic.html:117 r2/templates/refundpage.html:56
+#: r2/lib/pages/pages.py:5943 r2/templates/promotedlinktraffic.html:117 r2/templates/refundpage.html:56
 msgid "target"
 msgstr "mål"
 
-#: r2/lib/pages/pages.py:5939 r2/templates/promotelinkedit.html:157
+#: r2/lib/pages/pages.py:5944 r2/templates/promotelinkedit.html:157
 msgid "bid"
 msgstr "byd"
 
-#: r2/lib/pages/pages.py:5939
+#: r2/lib/pages/pages.py:5944
 msgid "frontpage clicks"
 msgstr "forsideklik"
 
-#: r2/lib/pages/pages.py:5939
+#: r2/lib/pages/pages.py:5944
 msgid "frontpage impressions"
 msgstr "forsideindtryk"
 
-#: r2/lib/pages/pages.py:5940
+#: r2/lib/pages/pages.py:5945
 msgid "vault clicks"
 msgstr "vaultkliks"
 
-#: r2/lib/pages/pages.py:5940
+#: r2/lib/pages/pages.py:5945
 msgid "vault impressions"
 msgstr "vaultindtryk"
 
-#: r2/lib/pages/pages.py:5941 r2/lib/pages/trafficpages.py:484
+#: r2/lib/pages/pages.py:5946 r2/lib/pages/trafficpages.py:484
 msgid "total clicks"
 msgstr "antal klik"
 
-#: r2/lib/pages/pages.py:5941
+#: r2/lib/pages/pages.py:5946
 msgid "total impressions"
 msgstr "indtryk i alt"
 
-#: r2/lib/pages/pages.py:6144 r2/templates/accountactivitybox.html:27
+#: r2/lib/pages/pages.py:6149 r2/templates/accountactivitybox.html:27
 msgid "account activity"
 msgstr "kontoaktivitet"
 
-#: r2/lib/pages/pages.py:6276
+#: r2/lib/pages/pages.py:6281
 msgid "subscribed"
 msgstr "abonneret"
 
-#: r2/lib/pages/pages.py:6277 r2/templates/preffeeds.html:58
+#: r2/lib/pages/pages.py:6282 r2/templates/preffeeds.html:58
 msgid "your front page"
 msgstr "din forside"
 
-#: r2/lib/pages/pages.py:6280 r2/lib/pages/pages.py:6285 r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:104
+#: r2/lib/pages/pages.py:6285 r2/lib/pages/pages.py:6290 r2/templates/preffeeds.html:81 r2/templates/preffeeds.html:104
 msgid "everything"
 msgstr "alt"
 
-#: r2/lib/pages/pages.py:6283 r2/lib/pages/pages.py:6286
+#: r2/lib/pages/pages.py:6288 r2/lib/pages/pages.py:6291
 msgid "from all vaults"
 msgstr "fra alle vaults"
 
-#: r2/lib/pages/pages.py:6288
+#: r2/lib/pages/pages.py:6293
 msgid "moderating"
 msgstr "moderation"
 
-#: r2/lib/pages/pages.py:6289
+#: r2/lib/pages/pages.py:6294
 msgid "vaults you mod"
 msgstr "vaults du modererer"
 
-#: r2/lib/pages/pages.py:6295
+#: r2/lib/pages/pages.py:6300
 msgid "gold perks"
 msgstr "fordele med guld"
 
-#: r2/lib/pages/pages.py:6311
+#: r2/lib/pages/pages.py:6316
 msgid "explore multis"
 msgstr "udforsk multis"
 
-#: r2/lib/pages/pages.py:6397
+#: r2/lib/pages/pages.py:6402
 msgid "faq"
 msgstr "FAQ"
 
-#: r2/lib/pages/pages.py:6398 r2/templates/usertext.html:159
+#: r2/lib/pages/pages.py:6403 r2/templates/usertext.html:159
 msgid "formatting"
 msgstr "formatering"
 
-#: r2/lib/pages/pages.py:6467
+#: r2/lib/pages/pages.py:6472
 msgid "your subscribed vaults"
 msgstr "dine vault-abonnementer"
 
-#: r2/lib/pages/pages.py:6580
+#: r2/lib/pages/pages.py:6585
 #, python-format
 msgid "this promoted link uses city level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "dette promoverede link bruger by-målretning og er muligvis vist til dig på grund af din placering ([lær mere](%(link)s))"
 
-#: r2/lib/pages/pages.py:6584
+#: r2/lib/pages/pages.py:6589
 #, python-format
 msgid "this promoted link uses country level targeting and may have been shown to you because of your location. ([learn more](%(link)s))"
 msgstr "dette promoverede link bruger land-målretning og er muligvis vist til dig på grund af din placering ([lær mere](%(link)s))"
@@ -7554,7 +7566,7 @@ msgstr "suspender og fjern deres indhold som spam"
 msgid "apply"
 msgstr "anvend"
 
-#: r2/templates/adminantispam.html:217 r2/templates/adminuser.html:255 r2/templates/adminuser.html:303 r2/templates/adminvault.html:109 r2/templates/adminvault.html:139 r2/templates/adminvaults.html:66 r2/templates/adminvaults.html:78
+#: r2/templates/adminantispam.html:217 r2/templates/adminuser.html:258 r2/templates/adminuser.html:306 r2/templates/adminvault.html:109 r2/templates/adminvault.html:139 r2/templates/adminvaults.html:66 r2/templates/adminvaults.html:78
 msgid "None."
 msgstr "Ingen."
 
@@ -7623,7 +7635,7 @@ msgstr "(uden navn)"
 msgid "(the site's own)"
 msgstr "(webstedets egen)"
 
-#: r2/templates/adminapps.html:93 r2/templates/admindomain.html:85 r2/templates/admindomains.html:44 r2/templates/adminfeeds.html:132 r2/templates/adminuser.html:43 r2/templates/adminuser.html:53 r2/templates/adminuser.html:61 r2/templates/adminuser.html:266 r2/templates/adminuser.html:298 r2/templates/adminusers.html:83 r2/templates/adminvault.html:40 r2/templates/adminvault.html:50 r2/templates/adminvaults.html:57 r2/templates/comment.htmllite:49 r2/templates/commentvisitsbox.html:41
+#: r2/templates/adminapps.html:93 r2/templates/admindomain.html:85 r2/templates/admindomains.html:44 r2/templates/adminfeeds.html:132 r2/templates/adminuser.html:43 r2/templates/adminuser.html:53 r2/templates/adminuser.html:61 r2/templates/adminuser.html:269 r2/templates/adminuser.html:301 r2/templates/adminusers.html:83 r2/templates/adminvault.html:40 r2/templates/adminvault.html:50 r2/templates/adminvaults.html:57 r2/templates/comment.htmllite:49 r2/templates/commentvisitsbox.html:41
 msgid "ago"
 msgstr "siden"
 
@@ -7635,7 +7647,7 @@ msgstr "godkend"
 msgid "lift the suspension"
 msgstr "ophæv suspenderingen"
 
-#: r2/templates/adminapps.html:113 r2/templates/adminbackups.html:139 r2/templates/adminfeeds.html:148 r2/templates/adminuser.html:233 r2/templates/multiinfobar.html:56 r2/templates/prefsecurity.html:133 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:585 r2/templates/renderablecampaign.html:161 r2/templates/rules.html:135 r2/templates/wikipagesettings.html:79
+#: r2/templates/adminapps.html:113 r2/templates/adminbackups.html:139 r2/templates/adminfeeds.html:148 r2/templates/adminuser.html:236 r2/templates/multiinfobar.html:56 r2/templates/prefsecurity.html:133 r2/templates/printablebuttons.html:40 r2/templates/printablebuttons.html:585 r2/templates/renderablecampaign.html:161 r2/templates/rules.html:135 r2/templates/wikipagesettings.html:79
 msgid "delete"
 msgstr "slet"
 
@@ -7792,31 +7804,35 @@ msgid "Lets another tippr server copy this server's backups, and ask it to make 
 msgstr "Lader en anden tippr-server kopiere denne servers sikkerhedskopier og bede den lave nye. Giv den til den nye servers administrator. Den udløber efter 7 dage; der findes kun én ad gangen, og sikkerhedskopier indeholder den aldrig."
 
 #: r2/templates/adminbackups.html:205
+msgid "This site is split over several servers, and its backups are on the backend, which another server can't reach through this page. To move them, copy the backup folder from the backend (scp or rsync)."
+msgstr ""
+
+#: r2/templates/adminbackups.html:209
 #, python-format
 msgid "A key is active, made by %(user)s; it expires %(when)s."
 msgstr "En nøgle er aktiv, lavet af %(user)s; den udløber %(when)s."
 
-#: r2/templates/adminbackups.html:207
+#: r2/templates/adminbackups.html:211
 msgid "The last key has expired."
 msgstr "Den seneste nøgle er udløbet."
 
-#: r2/templates/adminbackups.html:212
+#: r2/templates/adminbackups.html:216
 msgid "make a new key"
 msgstr "lav en ny nøgle"
 
-#: r2/templates/adminbackups.html:212
+#: r2/templates/adminbackups.html:216
 msgid "make a key"
 msgstr "lav en nøgle"
 
-#: r2/templates/adminbackups.html:217
+#: r2/templates/adminbackups.html:221
 msgid "revoke the key"
 msgstr "tilbagekald nøglen"
 
-#: r2/templates/adminbackups.html:220
+#: r2/templates/adminbackups.html:224
 msgid "from the command line"
 msgstr "fra kommandolinjen"
 
-#: r2/templates/adminbackups.html:225
+#: r2/templates/adminbackups.html:229
 msgid "A backup folder can also be copied by hand (rsync or scp, as root) into backup_dir on the new server and restored there. See docs/BACKUP.md."
 msgstr "En backupmappe kan også kopieres manuelt (rsync eller scp, som root) til backup_dir på den nye server og gendannes der. Se docs/BACKUP.md."
 
@@ -8043,7 +8059,7 @@ msgstr "Kør scripts/gmail_oauth_setup.py på serveren for at forbinde en Google
 msgid "send a test email"
 msgstr "send en testmail"
 
-#: r2/templates/adminemailsettings.html:104 r2/templates/adminsitesettings.html:164 r2/templates/adminuser.html:262
+#: r2/templates/adminemailsettings.html:104 r2/templates/adminsitesettings.html:164 r2/templates/adminuser.html:265
 msgid "address"
 msgstr "adresse"
 
@@ -8781,114 +8797,118 @@ msgstr "Hver server henter udgivelsens installationsprogram fra GitHub, tjekker 
 msgid "Updating from this page is off (TIPPR_WEB_UPDATES=0 in the installer)."
 msgstr "Opdatering fra denne side er slået fra (TIPPR_WEB_UPDATES=0 i installationsprogrammet)."
 
-#: r2/templates/adminserverstatus.html:123
+#: r2/templates/adminserverstatus.html:115
+msgid "role"
+msgstr ""
+
+#: r2/templates/adminserverstatus.html:127
 msgid "version"
 msgstr "version"
 
-#: r2/templates/adminserverstatus.html:129
+#: r2/templates/adminserverstatus.html:133
 #, python-format
 msgid "%(version)s is out"
 msgstr "%(version)s er ude"
 
-#: r2/templates/adminserverstatus.html:135 r2/templates/adminserverstatus.html:156
+#: r2/templates/adminserverstatus.html:139 r2/templates/adminserverstatus.html:160
 msgid "update"
 msgstr "opdatering"
 
-#: r2/templates/adminserverstatus.html:138
+#: r2/templates/adminserverstatus.html:142
 #, python-format
 msgid "to %(version)s"
 msgstr "til %(version)s"
 
-#: r2/templates/adminserverstatus.html:140
+#: r2/templates/adminserverstatus.html:144
 #, python-format
 msgid "(from %(version)s)"
 msgstr "(fra %(version)s)"
 
-#: r2/templates/adminserverstatus.html:143
+#: r2/templates/adminserverstatus.html:147
 #, fuzzy, python-format
 #| msgid "up %(time)s"
 msgid "for %(time)s"
 msgstr "oppe i %(time)s"
 
-#: r2/templates/adminserverstatus.html:150
+#: r2/templates/adminserverstatus.html:154
 msgid "log"
 msgstr "log"
 
-#: r2/templates/adminserverstatus.html:158
+#: r2/templates/adminserverstatus.html:162
 #, python-format
 msgid "asked for %(version)s: it starts within a minute, or when it's this server's turn"
 msgstr ""
 
-#: r2/templates/adminserverstatus.html:164
+#: r2/templates/adminserverstatus.html:168
 #, python-format
 msgid "up %(time)s"
 msgstr "oppe i %(time)s"
 
-#: r2/templates/adminserverstatus.html:167
+#: r2/templates/adminserverstatus.html:171
 msgid "load"
 msgstr "belastning"
 
-#: r2/templates/adminserverstatus.html:169
+#: r2/templates/adminserverstatus.html:173
 #, python-format
 msgid "(1, 5 and 15 minutes, on %(n)s CPUs)"
 msgstr "(1, 5 og 15 minutter, på %(n)s CPU'er)"
 
-#: r2/templates/adminserverstatus.html:171
+#: r2/templates/adminserverstatus.html:175
 msgid "memory"
 msgstr "hukommelse"
 
-#: r2/templates/adminserverstatus.html:174
+#: r2/templates/adminserverstatus.html:178
 #, python-format
 msgid "%(used)s of %(total)s used (%(p)s%%)"
 msgstr "%(used)s af %(total)s brugt (%(p)s%%)"
 
-#: r2/templates/adminserverstatus.html:176
+#: r2/templates/adminserverstatus.html:180
 #, python-format
 msgid "swap %(used)s of %(total)s"
 msgstr "swap %(used)s af %(total)s"
 
-#: r2/templates/adminserverstatus.html:181
+#: r2/templates/adminserverstatus.html:185
 msgid "disk"
 msgstr "disk"
 
-#: r2/templates/adminserverstatus.html:185
+#: r2/templates/adminserverstatus.html:189
 #, python-format
 msgid "%(used)s of %(total)s used (%(p)s%%), %(free)s free"
 msgstr "%(used)s af %(total)s brugt (%(p)s%%), %(free)s fri"
 
-#: r2/templates/adminserverstatus.html:189
+#: r2/templates/adminserverstatus.html:193
 msgid "services"
 msgstr "tjenester"
 
-#: r2/templates/adminserverstatus.html:198
+#: r2/templates/adminserverstatus.html:202
 msgid "Forget this server? It comes back if it reports again."
 msgstr "Glem denne server? Den kommer tilbage, hvis den rapporterer igen."
 
-#: r2/templates/adminserverstatus.html:200
+#: r2/templates/adminserverstatus.html:205
 msgid "forget"
 msgstr "glem"
 
-#: r2/templates/adminserverstatus.html:206
+#: r2/templates/adminserverstatus.html:211
 msgid "queues"
 msgstr "køer"
 
-#: r2/templates/adminserverstatus.html:208
+#: r2/templates/adminserverstatus.html:213
 msgid "RabbitMQ couldn't be asked about its queues."
 msgstr "RabbitMQ kunne ikke spørges om sine køer."
 
-#: r2/templates/adminserverstatus.html:210
+#: r2/templates/adminserverstatus.html:215
 msgid "Work waiting for the queue processors (tippr-consumers). A queue that keeps growing means they aren't keeping up, or aren't running."
 msgstr "Arbejde, der venter på købehandlerne (tippr-consumers). En kø, der bliver ved med at vokse, betyder, at de ikke kan følge med eller ikke kører."
 
-#: r2/templates/adminserverstatus.html:212
+#: r2/templates/adminserverstatus.html:217
 msgid "queue"
 msgstr "kø"
 
-#: r2/templates/adminserverstatus.html:212
+#: r2/templates/adminserverstatus.html:217
 msgid "waiting"
 msgstr "venter"
 
-#: r2/templates/adminserverstatus.html:212
+#: r2/templates/adminserverstatus.html:217
 msgid "processors"
 msgstr "behandlere"
 
@@ -9194,11 +9214,11 @@ msgstr "tildelt"
 msgid "last reply by staff"
 msgstr "seneste svar fra teamet"
 
-#: r2/templates/adminsupport.html:76 r2/templates/adminsupportactivity.html:80 r2/templates/adminsupportticket.html:34 r2/templates/adminsupportticket.html:154 r2/templates/adminuser.html:295
+#: r2/templates/adminsupport.html:76 r2/templates/adminsupportactivity.html:80 r2/templates/adminsupportticket.html:34 r2/templates/adminsupportticket.html:154 r2/templates/adminuser.html:298
 msgid "(no subject)"
 msgstr "(intet emne)"
 
-#: r2/templates/adminsupportactivity.html:27 r2/templates/adminsupportticket.html:27 r2/templates/adminuser.html:248 r2/templates/adminvault.html:132
+#: r2/templates/adminsupportactivity.html:27 r2/templates/adminsupportticket.html:27 r2/templates/adminuser.html:251 r2/templates/adminvault.html:132
 msgid "the system"
 msgstr "systemet"
 
@@ -9508,7 +9528,7 @@ msgstr "suspendering"
 msgid "Suspended."
 msgstr "Suspenderet."
 
-#: r2/templates/adminuser.html:192 r2/templates/adminuser.html:231
+#: r2/templates/adminuser.html:192 r2/templates/adminuser.html:234
 msgid "reason (logged)"
 msgstr "grund (logges)"
 
@@ -9569,64 +9589,64 @@ msgstr "Til en, der er låst ude: de kan logge ind med deres adgangskode og sæt
 msgid "delete account"
 msgstr "slet konto"
 
-#: r2/templates/adminuser.html:223
+#: r2/templates/adminuser.html:225
 #, python-format
 msgid "Delete %(name)s? This cannot be undone."
 msgstr "Slet %(name)s? Det kan ikke fortrydes."
 
-#: r2/templates/adminuser.html:227
+#: r2/templates/adminuser.html:230
 msgid "their posts and comments…"
 msgstr "deres opslag og kommentarer…"
 
-#: r2/templates/adminuser.html:228 r2/templates/privacysettings.html:116
+#: r2/templates/adminuser.html:231 r2/templates/privacysettings.html:116
 msgid "keep them (shown by [deleted])"
 msgstr "behold dem (vises som [deleted])"
 
-#: r2/templates/adminuser.html:229 r2/templates/privacysettings.html:117
+#: r2/templates/adminuser.html:232 r2/templates/privacysettings.html:117
 msgid "delete them too"
 msgstr "slet dem også"
 
-#: r2/templates/adminuser.html:232
+#: r2/templates/adminuser.html:235
 msgid "delete for good"
 msgstr "slet for altid"
 
-#: r2/templates/adminuser.html:236
+#: r2/templates/adminuser.html:239
 msgid "Final: their sessions and app tokens end, and their password, email address and moderator roles are removed now (not 90 days later, as when people delete their own account). The name can't be registered again."
 msgstr "Endeligt: deres sessioner og app-tokens ophører, og deres adgangskode, e-mailadresse og moderatorroller fjernes nu (ikke 90 dage senere, som når folk sletter deres egen konto). Navnet kan ikke registreres igen."
 
-#: r2/templates/adminuser.html:241 r2/templates/adminvault.html:125
+#: r2/templates/adminuser.html:244 r2/templates/adminvault.html:125
 msgid "admin actions"
 msgstr "administratorhandlinger"
 
-#: r2/templates/adminuser.html:258
+#: r2/templates/adminuser.html:261
 msgid "logins by IP address"
 msgstr "logins efter IP-adresse"
 
-#: r2/templates/adminuser.html:259
+#: r2/templates/adminuser.html:262
 msgid "The last 100 days, newest first. Other accounts seen on the same address can be one person's accounts, or just a shared network (a household, school, phone carrier or VPN)."
 msgstr "De seneste 100 dage, nyeste først. Andre konti set på samme adresse kan være én persons konti eller bare et delt netværk (en husstand, skole, et mobilselskab eller en VPN)."
 
-#: r2/templates/adminuser.html:262
+#: r2/templates/adminuser.html:265
 msgid "last login"
 msgstr "seneste login"
 
-#: r2/templates/adminuser.html:262
+#: r2/templates/adminuser.html:265
 msgid "other accounts from it"
 msgstr "andre konti derfra"
 
-#: r2/templates/adminuser.html:276
+#: r2/templates/adminuser.html:279
 msgid "No logins recorded yet (they're recorded from now on, for public addresses)."
 msgstr "Ingen logins registreret endnu (de registreres fra nu af for offentlige adresser)."
 
-#: r2/templates/adminuser.html:279
+#: r2/templates/adminuser.html:282
 msgid "moderates"
 msgstr "modererer"
 
-#: r2/templates/adminuser.html:287
+#: r2/templates/adminuser.html:290
 msgid "No vaults."
 msgstr "Ingen vaults."
 
-#: r2/templates/adminuser.html:290
+#: r2/templates/adminuser.html:293
 msgid "support tickets"
 msgstr "supporthenvendelser"
 
