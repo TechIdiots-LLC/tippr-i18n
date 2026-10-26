@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tippr\n"
 "Report-Msgid-Bugs-To: https://github.com/TechIdiots-LLC/tippr-i18n/issues\n"
-"POT-Creation-Date: 2026-10-25 10:54-0400\n"
+"POT-Creation-Date: 2026-10-25 20:48-0400\n"
 "PO-Revision-Date: 2017-04-24 18:48-0400\n"
 "Last-Translator: tippr translators\n"
 "Language-Team: Chinese Simplified\n"
@@ -20,7 +20,7 @@ msgstr ""
 msgid "Choose an image of at most 1 MB."
 msgstr "请选择不超过 1 MB 的图片。"
 
-#: r2/controllers/api.py:223 r2/controllers/api.py:249 r2/controllers/api.py:4436 r2/controllers/api.py:4506 r2/controllers/listingcontroller.py:766 r2/lib/pages/pages.py:6422
+#: r2/controllers/api.py:223 r2/controllers/api.py:249 r2/controllers/api.py:4462 r2/controllers/api.py:4532 r2/controllers/listingcontroller.py:766 r2/lib/pages/pages.py:6422
 msgid "API"
 msgstr "API"
 
@@ -58,437 +58,437 @@ msgstr "请输入该账户的两步验证码"
 msgid "that account isn't available to switch to; add it again"
 msgstr "无法切换到该账户；请重新添加"
 
-#: r2/controllers/api.py:581
+#: r2/controllers/api.py:607
 msgid "your message has been delivered"
 msgstr "你的短信已经送达"
 
-#: r2/controllers/api.py:803
+#: r2/controllers/api.py:829
 msgid "no title found"
 msgstr "标题未找到"
 
-#: r2/controllers/api.py:897 r2/controllers/linked_logins.py:184 r2/controllers/linked_logins.py:232 r2/controllers/linked_logins.py:252 r2/controllers/linked_logins.py:330
+#: r2/controllers/api.py:923 r2/controllers/linked_logins.py:184 r2/controllers/linked_logins.py:232 r2/controllers/linked_logins.py:252 r2/controllers/linked_logins.py:330
 msgid "That sign-in took too long. Please start again."
 msgstr "登录耗时太久。请重新开始。"
 
-#: r2/controllers/api.py:902
+#: r2/controllers/api.py:928
 msgid "That account is linked already: sign in with it."
 msgstr "该账户已经关联：请用它登录。"
 
-#: r2/controllers/api.py:1436 r2/controllers/api.py:1817 r2/controllers/api.py:2719 r2/controllers/api.py:3019 r2/controllers/api.py:3346 r2/controllers/api.py:4228 r2/controllers/api.py:4284 r2/controllers/api.py:4338 r2/controllers/api.py:4571 r2/controllers/api.py:4576 r2/controllers/api.py:4811 r2/controllers/api.py:4876 r2/controllers/api.py:4954 r2/controllers/api.py:5020 r2/controllers/api.py:5093 r2/controllers/api.py:5184 r2/controllers/api.py:5216 r2/controllers/api.py:5236 r2/controllers/api.py:5750 r2/controllers/api.py:5790 r2/controllers/api.py:6024 r2/controllers/api.py:6042 r2/controllers/api.py:6390 r2/lib/pages/pages.py:6313
+#: r2/controllers/api.py:1462 r2/controllers/api.py:1843 r2/controllers/api.py:2745 r2/controllers/api.py:3045 r2/controllers/api.py:3372 r2/controllers/api.py:4254 r2/controllers/api.py:4310 r2/controllers/api.py:4364 r2/controllers/api.py:4597 r2/controllers/api.py:4602 r2/controllers/api.py:4837 r2/controllers/api.py:4902 r2/controllers/api.py:4980 r2/controllers/api.py:5046 r2/controllers/api.py:5119 r2/controllers/api.py:5210 r2/controllers/api.py:5242 r2/controllers/api.py:5262 r2/controllers/api.py:5776 r2/controllers/api.py:5816 r2/controllers/api.py:6050 r2/controllers/api.py:6068 r2/controllers/api.py:6416 r2/lib/pages/pages.py:6313
 msgid "saved"
 msgstr "已保存"
 
-#: r2/controllers/api.py:1506
+#: r2/controllers/api.py:1532
 msgid "all other sessions have been logged out"
 msgstr "其他会话已被全部注销。"
 
-#: r2/controllers/api.py:1565
+#: r2/controllers/api.py:1591
 msgid "you should be getting a verification email shortly."
 msgstr "你应该很快会收到验证电子邮件。"
 
-#: r2/controllers/api.py:1567 r2/controllers/api.py:1580
+#: r2/controllers/api.py:1593 r2/controllers/api.py:1606
 msgid "your email has been updated"
 msgstr "你的电子邮件已经更新"
 
-#: r2/controllers/api.py:1615
+#: r2/controllers/api.py:1641
 msgid "your password has been updated"
 msgstr "你的密码已经更新"
 
-#: r2/controllers/api.py:2074 r2/lib/menus.py:196 r2/templates/adminserverstatus.html:165
+#: r2/controllers/api.py:2100 r2/lib/menus.py:196 r2/templates/adminserverstatus.html:165
 msgid "reported"
 msgstr "已举报"
 
-#: r2/controllers/api.py:2497 r2/lib/support.py:91
+#: r2/controllers/api.py:2523 r2/lib/support.py:91
 msgid "replied"
 msgstr "已回复"
 
-#: r2/controllers/api.py:2702
+#: r2/controllers/api.py:2728
 msgid "validation errors"
 msgstr "验证出错"
 
-#: r2/controllers/api.py:2822 r2/controllers/api.py:2849 r2/controllers/api.py:2876 r2/controllers/listingcontroller.py:1048 r2/lib/menus.py:195 r2/public/static/js/tippr.js:235 r2/templates/adminapps.html:51 r2/templates/adminuser.html:59 r2/templates/deleteduserinterstitial.html:34 r2/templates/printablebuttons.html:41 r2/templates/printablebuttons.html:586 r2/templates/vaultstylesheetbase.html:47
+#: r2/controllers/api.py:2848 r2/controllers/api.py:2875 r2/controllers/api.py:2902 r2/controllers/listingcontroller.py:1048 r2/lib/menus.py:195 r2/public/static/js/tippr.js:235 r2/templates/adminapps.html:51 r2/templates/adminuser.html:59 r2/templates/deleteduserinterstitial.html:34 r2/templates/printablebuttons.html:41 r2/templates/printablebuttons.html:586 r2/templates/vaultstylesheetbase.html:47
 msgid "deleted"
 msgstr "已删除"
 
-#: r2/controllers/api.py:2953
+#: r2/controllers/api.py:2979
 msgid "bad image name"
 msgstr "错误的图像名称"
 
-#: r2/controllers/api.py:2959
+#: r2/controllers/api.py:2985
 #, python-format
 msgid "too many images (you only get %d)"
 msgstr "图像过多（最多%d幅）"
 
-#: r2/controllers/api.py:2964 r2/controllers/api.py:2988
+#: r2/controllers/api.py:2990 r2/controllers/api.py:3014
 msgid "Invalid image or general image error"
 msgstr "图片无效或无法处理"
 
-#: r2/controllers/api.py:2969
+#: r2/controllers/api.py:2995
 #, python-format
 msgid "must be %dx%d pixels"
 msgstr "必须为%dx%d像素"
 
-#: r2/controllers/api.py:2973
+#: r2/controllers/api.py:2999
 msgid "10:3 aspect ratio required"
 msgstr "需要10:3长宽比"
 
-#: r2/controllers/api.py:2976
+#: r2/controllers/api.py:3002
 #, python-format
 msgid "max %dx%d pixels"
 msgstr "最大%dx%d像素"
 
-#: r2/controllers/api.py:2979
+#: r2/controllers/api.py:3005
 #, python-format
 msgid "min %dx%d pixels"
 msgstr "最小%dx%d像素"
 
-#: r2/controllers/api.py:4040
+#: r2/controllers/api.py:4066
 msgid "an email will be sent to that account's address shortly"
 msgstr "电子邮件很快会发送至该账户的地址"
 
-#: r2/controllers/api.py:4043
+#: r2/controllers/api.py:4069
 msgid "try again tomorrow"
 msgstr "请明天重试"
 
-#: r2/controllers/api.py:4090
+#: r2/controllers/api.py:4116
 msgid "password updated"
 msgstr "密码已更新"
 
-#: r2/controllers/api.py:4296 r2/controllers/api.py:4527
+#: r2/controllers/api.py:4322 r2/controllers/api.py:4553
 msgid "invalid css class"
 msgstr "无效CSS类"
 
-#: r2/controllers/api.py:4299 r2/controllers/api.py:4530
+#: r2/controllers/api.py:4325 r2/controllers/api.py:4556
 msgid "too many css classes"
 msgstr "CSS类过多"
 
-#: r2/controllers/api.py:4551
+#: r2/controllers/api.py:4577
 msgid "max flair templates reached"
 msgstr "达到最大签名模板数"
 
-#: r2/controllers/api.py:5016
+#: r2/controllers/api.py:5042
 #, python-format
 msgid "saved, but these aren't on until their keys are filled in: %(names)s"
 msgstr "已保存，但以下项目要填好密钥后才会生效：%(names)s"
 
-#: r2/controllers/api.py:5038
+#: r2/controllers/api.py:5064
 msgid "the keys work"
 msgstr "密钥可用"
 
-#: r2/controllers/api.py:5039 r2/controllers/api.py:5056
+#: r2/controllers/api.py:5065 r2/controllers/api.py:5082
 #, python-format
 msgid "didn't work: %(error)s"
 msgstr "没有成功：%(error)s"
 
-#: r2/controllers/api.py:5044
+#: r2/controllers/api.py:5070
 msgid "no such payment"
 msgstr "没有这笔付款"
 
-#: r2/controllers/api.py:5059 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminprivacy.html:26 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminuser.html:89 r2/templates/adminusers.html:77 r2/templates/adminvaults.html:50
+#: r2/controllers/api.py:5085 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminprivacy.html:26 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminuser.html:89 r2/templates/adminusers.html:77 r2/templates/adminvaults.html:50
 msgid "status"
 msgstr "状态"
 
-#: r2/controllers/api.py:5084 r2/controllers/linked_logins.py:93 r2/controllers/linked_logins.py:187 r2/lib/pages/pages.py:1388 r2/lib/pages/pages.py:1438 r2/templates/createvault.html:57 r2/templates/goldpayment.html:168 r2/templates/linkedsignin.html:41 r2/templates/listingchooser.html:69 r2/templates/prefapps.html:153 r2/templates/prefapps.html:348
+#: r2/controllers/api.py:5110 r2/controllers/linked_logins.py:93 r2/controllers/linked_logins.py:187 r2/lib/pages/pages.py:1388 r2/lib/pages/pages.py:1438 r2/templates/createvault.html:57 r2/templates/goldpayment.html:168 r2/templates/linkedsignin.html:41 r2/templates/listingchooser.html:69 r2/templates/prefapps.html:153 r2/templates/prefapps.html:348
 msgid "name"
 msgstr "名称"
 
-#: r2/controllers/api.py:5089
+#: r2/controllers/api.py:5115
 #, python-format
 msgid "saved, but these aren't on until their ID and secret are filled in: %(names)s"
 msgstr "已保存，但以下项目要填好 ID 和密钥后才会生效：%(names)s"
 
-#: r2/controllers/api.py:5198 r2/controllers/api.py:5224
+#: r2/controllers/api.py:5224 r2/controllers/api.py:5250
 msgid "this site's live config is managed in ZooKeeper"
 msgstr "本站的实时配置由 ZooKeeper 管理"
 
-#: r2/controllers/api.py:5202
+#: r2/controllers/api.py:5228
 msgid "unknown setting"
 msgstr "未知设置"
 
-#: r2/controllers/api.py:5210 r2/controllers/api.py:5234
+#: r2/controllers/api.py:5236 r2/controllers/api.py:5260
 #, python-format
 msgid "not saved: %(error)s"
 msgstr "未保存:%(error)s"
 
-#: r2/controllers/api.py:5240
+#: r2/controllers/api.py:5266
 #, python-format
 msgid "%(saved)d saved; %(failed)d not saved (see below)"
 msgstr "已保存 %(saved)d 项；%(failed)d 项未保存（见下方）"
 
-#: r2/controllers/api.py:5246
+#: r2/controllers/api.py:5272
 msgid "nothing changed"
 msgstr "没有任何更改"
 
-#: r2/controllers/api.py:5262
+#: r2/controllers/api.py:5288
 #, python-format
 msgid "couldn't empty: %(servers)s"
 msgstr "无法清空：%(servers)s"
 
-#: r2/controllers/api.py:5287
+#: r2/controllers/api.py:5313
 msgid "every account has been checked"
 msgstr "所有账户都已检查"
 
-#: r2/controllers/api.py:5299
+#: r2/controllers/api.py:5325
 msgid "select some accounts"
 msgstr "请选择一些账户"
 
-#: r2/controllers/api.py:5346 r2/controllers/api.py:5452
+#: r2/controllers/api.py:5372 r2/controllers/api.py:5478
 msgid "no such account"
 msgstr "没有这个账户"
 
-#: r2/controllers/api.py:5349 r2/controllers/api.py:5444
+#: r2/controllers/api.py:5375 r2/controllers/api.py:5470
 msgid "unknown action"
 msgstr "未知操作"
 
-#: r2/controllers/api.py:5363
+#: r2/controllers/api.py:5389
 #, fuzzy
 #| msgid "no permissions"
 msgid "choose a permission"
 msgstr "没有权限"
 
-#: r2/controllers/api.py:5377
+#: r2/controllers/api.py:5403
 msgid "not on admins (take them off the employees list on /admin/config first)"
 msgstr "不能用于管理员(请先在 /admin/config 的员工列表中移除他们)"
 
-#: r2/controllers/api.py:5381
+#: r2/controllers/api.py:5407
 msgid "the account is deleted"
 msgstr "该账户已删除"
 
-#: r2/controllers/api.py:5384
+#: r2/controllers/api.py:5410
 msgid "give a reason (it's logged, and a timeout's reason is sent to them)"
 msgstr "请填写原因(会被记录,禁言的原因会发送给对方)"
 
-#: r2/controllers/api.py:5388 r2/controllers/api.py:5469
+#: r2/controllers/api.py:5414 r2/controllers/api.py:5495
 msgid "tick the box to confirm"
 msgstr "请勾选复选框以确认"
 
-#: r2/controllers/api.py:5391
+#: r2/controllers/api.py:5417
 msgid "choose whether to keep or delete their posts"
 msgstr "请选择保留还是删除其帖子"
 
-#: r2/controllers/api.py:5394
+#: r2/controllers/api.py:5420
 msgid "they have no email address"
 msgstr "对方没有电子邮箱地址"
 
-#: r2/controllers/api.py:5441 r2/controllers/api.py:5547
+#: r2/controllers/api.py:5467 r2/controllers/api.py:5573
 msgid "no such vault"
 msgstr "没有这个版块"
 
-#: r2/controllers/api.py:5456
+#: r2/controllers/api.py:5482
 msgid "they're already a moderator"
 msgstr "对方已经是版主"
 
-#: r2/controllers/api.py:5459
+#: r2/controllers/api.py:5485
 msgid "they're banned from the vault; unban them first"
 msgstr "对方已被此版块封禁;请先解除封禁"
 
-#: r2/controllers/api.py:5464
+#: r2/controllers/api.py:5490
 msgid "they aren't a moderator"
 msgstr "对方不是版主"
 
-#: r2/controllers/api.py:5476
+#: r2/controllers/api.py:5502
 msgid "unban the vault first"
 msgstr "请先解除对版块的封禁"
 
-#: r2/controllers/api.py:5495
+#: r2/controllers/api.py:5521
 msgid "no such app"
 msgstr "没有这个应用"
 
-#: r2/controllers/api.py:5498
+#: r2/controllers/api.py:5524
 msgid "the site's own apps can't be deleted here"
 msgstr "网站自带的应用不能在这里删除"
 
-#: r2/controllers/api.py:5541
+#: r2/controllers/api.py:5567
 msgid "give the feed's http(s) address"
 msgstr "请填写订阅源的 http(s) 地址"
 
-#: r2/controllers/api.py:5550
+#: r2/controllers/api.py:5576
 msgid "pick one of the AI labels"
 msgstr "请选择一个 AI 标签"
 
-#: r2/controllers/api.py:5554
+#: r2/controllers/api.py:5580
 #, python-format
 msgid "/v/%(vault)s doesn't accept %(label)s posts"
 msgstr "/v/%(vault)s 不接受标为%(label)s的帖子"
 
-#: r2/controllers/api.py:5560
+#: r2/controllers/api.py:5586
 msgid "give the bot account a valid username"
 msgstr "请为机器人账户填写有效的用户名"
 
-#: r2/controllers/api.py:5569
+#: r2/controllers/api.py:5595
 msgid "that account is suspended or deleted"
 msgstr "该账户已被封禁或删除"
 
-#: r2/controllers/api.py:5576 r2/controllers/api.py:5591
+#: r2/controllers/api.py:5602 r2/controllers/api.py:5617
 msgid "no such feed"
 msgstr "没有这个订阅源"
 
-#: r2/controllers/api.py:5614
+#: r2/controllers/api.py:5640
 msgid "give a domain"
 msgstr "请填写域名"
 
-#: r2/controllers/api.py:5620
+#: r2/controllers/api.py:5646
 msgid "choose what the ban does"
 msgstr "请选择封禁的效果"
 
-#: r2/controllers/api.py:5623
+#: r2/controllers/api.py:5649
 msgid "give a reason (members see it when the link is refused)"
 msgstr "请填写原因(链接被拒绝时成员会看到)"
 
-#: r2/controllers/api.py:5628
+#: r2/controllers/api.py:5654
 msgid "that's not a domain"
 msgstr "这不是域名"
 
-#: r2/controllers/api.py:5655 r2/controllers/api.py:5674 r2/controllers/api.py:5691 r2/controllers/api.py:5709
+#: r2/controllers/api.py:5681 r2/controllers/api.py:5700 r2/controllers/api.py:5717 r2/controllers/api.py:5735
 msgid "no such ticket"
 msgstr "没有这个工单"
 
-#: r2/controllers/api.py:5722
+#: r2/controllers/api.py:5748
 msgid "they can't reply in this category"
 msgstr "对方不能在此类别中回复"
 
-#: r2/controllers/api.py:5742
+#: r2/controllers/api.py:5768
 msgid "not on the employees list"
 msgstr "不在员工列表中"
 
-#: r2/controllers/api.py:5794
+#: r2/controllers/api.py:5820
 msgid "saved; CleanTalk needs an access key to work"
 msgstr "已保存;CleanTalk 需要访问密钥才能工作"
 
-#: r2/controllers/api.py:5797
+#: r2/controllers/api.py:5823
 #, python-format
 msgid "saved; CleanTalk says: %(problem)s"
 msgstr "已保存;CleanTalk 返回:%(problem)s"
 
-#: r2/controllers/api.py:5799
+#: r2/controllers/api.py:5825
 msgid "saved; the CleanTalk key works"
 msgstr "已保存;CleanTalk 密钥有效"
 
-#: r2/controllers/api.py:5836
+#: r2/controllers/api.py:5862
 msgid "that isn't a release with an installer"
 msgstr "这不是带安装程序的版本"
 
-#: r2/controllers/api.py:5839
+#: r2/controllers/api.py:5865
 msgid "a server is updating now; wait for it to finish"
 msgstr "有服务器正在更新；请等它完成"
 
-#: r2/controllers/api.py:5941
+#: r2/controllers/api.py:5967
 msgid "Copy the key now; it isn't shown again."
 msgstr "请立即复制密钥,之后不会再显示。"
 
-#: r2/controllers/api.py:5950
+#: r2/controllers/api.py:5976
 msgid "tippr-backup isn't installed on this server (re-run the installer)."
 msgstr "此服务器未安装 tippr-backup(请重新运行安装程序)。"
 
-#: r2/controllers/api.py:5955
+#: r2/controllers/api.py:5981
 msgid "no such backup"
 msgstr "没有这个备份"
 
-#: r2/controllers/api.py:5960
+#: r2/controllers/api.py:5986
 #, python-format
 msgid "Type this site's domain (%(domain)s) to confirm."
 msgstr "请输入本站域名(%(domain)s)以确认。"
 
-#: r2/controllers/api.py:5973
+#: r2/controllers/api.py:5999
 msgid "Enter the other server's address and its transfer key."
 msgstr "请输入另一台服务器的地址和它的迁移密钥。"
 
-#: r2/controllers/api.py:5977
+#: r2/controllers/api.py:6003
 msgid "That isn't a backup name."
 msgstr "这不是备份名称。"
 
-#: r2/controllers/api.py:5998
+#: r2/controllers/api.py:6024
 msgid "tippr test email"
 msgstr "tippr 测试邮件"
 
-#: r2/controllers/api.py:5999
+#: r2/controllers/api.py:6025
 #, python-format
 msgid "This is a test message from %(domain)s. Email is working."
 msgstr "这是来自 %(domain)s 的测试邮件。邮件功能正常。"
 
-#: r2/controllers/api.py:6003
+#: r2/controllers/api.py:6029
 #, python-format
 msgid "failed: %(error)s"
 msgstr "失败:%(error)s"
 
-#: r2/controllers/api.py:6005
+#: r2/controllers/api.py:6031
 #, python-format
 msgid "sent to %(address)s"
 msgstr "已发送至 %(address)s"
 
-#: r2/controllers/api.py:6038
+#: r2/controllers/api.py:6064
 msgid "no gold to take"
 msgstr "没有黄金可扣除"
 
-#: r2/controllers/api.py:6202 r2/controllers/api.py:6232
+#: r2/controllers/api.py:6228 r2/controllers/api.py:6258
 msgid "that's as many authenticator apps as an account can have"
 msgstr "一个账户最多只能有这么多身份验证器应用"
 
-#: r2/controllers/api.py:6280
+#: r2/controllers/api.py:6306
 msgid "That code didn't work. Codes follow the clock, so check that your phone sets its time automatically."
 msgstr ""
 
-#: r2/controllers/api.py:6283
+#: r2/controllers/api.py:6309
 msgid "enter a code from one of your methods first"
 msgstr "请先输入你的某种验证方式提供的验证码"
 
-#: r2/controllers/api.py:6286
+#: r2/controllers/api.py:6312
 #, fuzzy
 #| msgid "That code isn't right. Try again."
 msgid "That password isn't right. Try again."
 msgstr "验证码不正确。请重试。"
 
-#: r2/controllers/api.py:6287
+#: r2/controllers/api.py:6313
 msgid "enter your password first"
 msgstr "请先输入密码"
 
-#: r2/controllers/api.py:6305
+#: r2/controllers/api.py:6331
 msgid "that passkey couldn't be added"
 msgstr "无法添加该通行密钥"
 
-#: r2/controllers/api.py:6343
+#: r2/controllers/api.py:6369
 msgid "that passkey wasn't accepted"
 msgstr "该通行密钥未被接受"
 
-#: r2/controllers/api.py:6504
+#: r2/controllers/api.py:6530
 #, python-format
 msgid "accounts need to be %(n)d days old"
 msgstr "账户需要注册满 %(n)d 天"
 
-#: r2/controllers/api.py:6508
+#: r2/controllers/api.py:6534
 #, python-format
 msgid "accounts need %(n)d karma"
 msgstr "账户需要 %(n)d 羯磨"
 
-#: r2/controllers/api.py:6511
+#: r2/controllers/api.py:6537
 msgid "verify your email address first"
 msgstr "请先验证你的电子邮箱地址"
 
-#: r2/controllers/api.py:6553 r2/lib/errors.py:159
+#: r2/controllers/api.py:6579 r2/lib/errors.py:159
 msgid "this app can not be modified from this interface"
 msgstr "不能从本界面修改本App"
 
-#: r2/controllers/api.py:6560 r2/lib/errors.py:136
+#: r2/controllers/api.py:6586 r2/lib/errors.py:136
 msgid "invalid client id"
 msgstr "无效客户ID"
 
-#: r2/controllers/api.py:6563
+#: r2/controllers/api.py:6589
 msgid "cannot update deleted app"
 msgstr "无法更新删除的应用"
 
-#: r2/controllers/api.py:6566
+#: r2/controllers/api.py:6592
 msgid "app does not belong to you"
 msgstr "应用不属于你"
 
-#: r2/controllers/api.py:6574
+#: r2/controllers/api.py:6600
 msgid "application updated"
 msgstr "应用程序已更新"
 
-#: r2/controllers/api.py:6598
+#: r2/controllers/api.py:6624
 msgid "application created"
 msgstr "应用程序已创建"
 
-#: r2/controllers/api.py:6633
+#: r2/controllers/api.py:6659
 msgid "developer added"
 msgstr "开发者已添加"
 
@@ -1450,7 +1450,7 @@ msgstr "信息流广告单元 ID"
 msgid "AdSense: Auto ads pages"
 msgstr ""
 
-#: r2/lib/ai_content.py:35 r2/lib/scales.py:49
+#: r2/lib/ai_content.py:35 r2/lib/scales.py:58
 msgid "human-made"
 msgstr "人工创作"
 
@@ -1458,7 +1458,7 @@ msgstr "人工创作"
 msgid "AI-assisted"
 msgstr "AI 辅助"
 
-#: r2/lib/ai_content.py:37
+#: r2/lib/ai_content.py:37 r2/lib/scales.py:58
 msgid "AI-generated"
 msgstr "AI 生成"
 
@@ -3280,59 +3280,45 @@ msgid "comment"
 msgid_plural "comments"
 msgstr[0] "评论"
 
-#: r2/lib/scales.py:48
-#, fuzzy
-#| msgid "help"
-msgid "helpful"
-msgstr "帮助"
+#: r2/lib/scales.py:59
+msgid "quick overview"
+msgstr "快速概览"
 
-#: r2/lib/scales.py:48
-#, fuzzy
-#| msgid "help"
-msgid "unhelpful"
-msgstr "帮助"
+#: r2/lib/scales.py:59
+msgid "deep dive"
+msgstr "深度解析"
 
-#: r2/lib/scales.py:49
-msgid "probably AI"
-msgstr ""
-
-#: r2/lib/scales.py:50
-msgid "beginner-friendly"
-msgstr ""
-
-#: r2/lib/scales.py:50
-msgid "in-depth"
-msgstr ""
-
-#: r2/lib/scales.py:51
+#: r2/lib/scales.py:60
 msgid "practical"
-msgstr ""
+msgstr "实用"
 
-#: r2/lib/scales.py:51
-#, fuzzy
-#| msgid "just now"
-msgid "just for fun"
-msgstr "刚刚"
+#: r2/lib/scales.py:60
+msgid "thought piece"
+msgstr "思考类"
 
-#: r2/lib/scales.py:53
-#, fuzzy
-#| msgid "source code"
-msgid "well-sourced"
-msgstr "源代码"
+#: r2/lib/scales.py:62
+msgid "data-driven"
+msgstr "数据驱动"
 
-#: r2/lib/scales.py:53
-msgid "opinion"
-msgstr ""
+#: r2/lib/scales.py:62
+msgid "personal experience"
+msgstr "个人经历"
 
-#: r2/lib/scales.py:54
-msgid "calm"
-msgstr ""
+#: r2/lib/scales.py:63
+msgid "matter-of-fact"
+msgstr "就事论事"
 
-#: r2/lib/scales.py:54
-#, fuzzy
-#| msgid "created"
-msgid "heated"
-msgstr "创建时间"
+#: r2/lib/scales.py:63
+msgid "passionate"
+msgstr "充满激情"
+
+#: r2/lib/scales.py:64
+msgid "niche"
+msgstr "小众"
+
+#: r2/lib/scales.py:64
+msgid "broad"
+msgstr "广泛"
 
 #: r2/lib/site_info.py:146
 msgid "That isn't an image tippr can read."
@@ -6247,7 +6233,7 @@ msgstr "该参数可以在嵌入后更改。"
 msgid "Copy this code and paste it into your website:"
 msgstr "复制这些代码并把它们粘贴至你的网站代码中："
 
-#: r2/public/static/js/enhancements.js:87 r2/public/static/js/markdown-toolbar.js:275 r2/public/static/js/scales.js:38
+#: r2/public/static/js/enhancements.js:87 r2/public/static/js/markdown-toolbar.js:275 r2/public/static/js/scales.js:40
 msgid "loading…"
 msgstr "加载中…"
 
@@ -6923,59 +6909,79 @@ msgstr "无类别"
 msgid "new category"
 msgstr "新类别"
 
-#: r2/public/static/js/scales.js:37 r2/templates/printablebuttons.html:376
+#: r2/public/static/js/scales.js:39 r2/templates/printablebuttons.html:376
 msgid "scales"
-msgstr ""
+msgstr "天平"
 
-#: r2/public/static/js/scales.js:43 r2/public/static/js/scales.js:54
-#, fuzzy
-#| msgid "an error occurred (status: %(status)s)"
+#: r2/public/static/js/scales.js:45 r2/public/static/js/scales.js:56
 msgid "an error occurred"
-msgstr "出错（状态：%(status)s）"
+msgstr "发生错误"
 
-#: r2/public/static/js/scales.js:81
-#, fuzzy, python-format
-#| msgid "%(num)s month"
-#| msgid_plural "%(num)s months"
-msgid "%(num)s tip"
-msgid_plural "%(num)s tips"
-msgstr[0] "%(num)s 个月"
-
-#: r2/public/static/js/scales.js:85
-#, fuzzy
-#| msgid "not yet"
-msgid "no tips yet"
-msgstr "尚未"
-
-#: r2/public/static/js/scales.js:97 r2/public/static/js/scales.js:172
-msgid "fewer scales"
-msgstr ""
-
-#: r2/public/static/js/scales.js:97 r2/public/static/js/scales.js:172
-#, fuzzy
-#| msgid "more comments"
-msgid "more scales"
-msgstr "更多评论"
-
-#: r2/public/static/js/scales.js:102
+#: r2/public/static/js/scales.js:89
 msgid "How others have tipped your post."
-msgstr ""
+msgstr "其他人对你帖子的评价。"
+
+#: r2/public/static/js/scales.js:91
+msgid "As a moderator, you see every scale’s tips without tipping."
+msgstr "作为版主，你无需评价即可看到所有天平的评价。"
+
+#: r2/public/static/js/scales.js:93
+msgid "You saw the results, so you can’t tip this post’s scales."
+msgstr "你已查看结果，因此不能再评价此帖子的天平。"
+
+#: r2/public/static/js/scales.js:97
+msgid "Tip a scale to see how others tipped it, or"
+msgstr "评价一个天平即可看到其他人的评价，或者"
+
+#: r2/public/static/js/scales.js:99
+msgid "see the results"
+msgstr "查看结果"
+
+#: r2/public/static/js/scales.js:101
+msgid "(you can’t tip after)."
+msgstr "（之后无法评价）。"
 
 #: r2/public/static/js/scales.js:104
-msgid "Tip a scale to see how others tipped it."
-msgstr ""
-
-#: r2/public/static/js/scales.js:107
-#, fuzzy
-#| msgid "create rule"
 msgid "Breaks a rule?"
-msgstr "创建规则"
+msgstr "违反规则？"
 
-#: r2/public/static/js/scales.js:109
-#, fuzzy
-#| msgid "report"
+#: r2/public/static/js/scales.js:106
 msgid "report it"
 msgstr "举报"
+
+#: r2/public/static/js/scales.js:134
+msgid "no tips yet"
+msgstr "暂无评价"
+
+#: r2/public/static/js/scales.js:136
+#, python-format
+msgid "%(num)s tip"
+msgid_plural "%(num)s tips"
+msgstr[0] "%(num)s 条评价"
+
+#: r2/public/static/js/scales.js:141 r2/public/static/js/scales.js:145
+#, python-format
+msgid "%(num)s %(side)s"
+msgstr "%(side)s %(num)s"
+
+#: r2/public/static/js/scales.js:147
+#, python-format
+msgid "%(num)s tip so far"
+msgid_plural "%(num)s tips so far"
+msgstr[0] "目前 %(num)s 条评价"
+
+#: r2/public/static/js/scales.js:151
+msgid "evenly split"
+msgstr "不相上下"
+
+#: r2/public/static/js/scales.js:155
+#, python-format
+msgid "%(percent)s %(side)s"
+msgstr "%(side)s %(percent)s"
+
+#: r2/public/static/js/scales.js:180
+msgid "See how everyone tipped this post? You won’t be able to tip its scales or change your tips afterwards."
+msgstr "查看所有人对此帖子的评价？之后你将无法评价它的天平或更改你的评价。"
 
 #: r2/public/static/js/sponsored.js:91
 msgid "+ close"

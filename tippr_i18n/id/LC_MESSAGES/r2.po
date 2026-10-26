@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tippr\n"
 "Report-Msgid-Bugs-To: https://github.com/TechIdiots-LLC/tippr-i18n/issues\n"
-"POT-Creation-Date: 2026-10-25 10:54-0400\n"
+"POT-Creation-Date: 2026-10-25 20:48-0400\n"
 "PO-Revision-Date: 2017-01-23 14:35-0500\n"
 "Last-Translator: tippr translators\n"
 "Language-Team: Indonesian\n"
@@ -20,7 +20,7 @@ msgstr ""
 msgid "Choose an image of at most 1 MB."
 msgstr "Pilih gambar berukuran paling besar 1 MB."
 
-#: r2/controllers/api.py:223 r2/controllers/api.py:249 r2/controllers/api.py:4436 r2/controllers/api.py:4506 r2/controllers/listingcontroller.py:766 r2/lib/pages/pages.py:6422
+#: r2/controllers/api.py:223 r2/controllers/api.py:249 r2/controllers/api.py:4462 r2/controllers/api.py:4532 r2/controllers/listingcontroller.py:766 r2/lib/pages/pages.py:6422
 msgid "API"
 msgstr "API"
 
@@ -58,437 +58,437 @@ msgstr "masukkan kode dua faktor akun itu"
 msgid "that account isn't available to switch to; add it again"
 msgstr "akun itu tidak bisa dipindahi; tambahkan lagi"
 
-#: r2/controllers/api.py:581
+#: r2/controllers/api.py:607
 msgid "your message has been delivered"
 msgstr "Pesan anda telah dikirimkan"
 
-#: r2/controllers/api.py:803
+#: r2/controllers/api.py:829
 msgid "no title found"
 msgstr "judul tidak ditemukan"
 
-#: r2/controllers/api.py:897 r2/controllers/linked_logins.py:184 r2/controllers/linked_logins.py:232 r2/controllers/linked_logins.py:252 r2/controllers/linked_logins.py:330
+#: r2/controllers/api.py:923 r2/controllers/linked_logins.py:184 r2/controllers/linked_logins.py:232 r2/controllers/linked_logins.py:252 r2/controllers/linked_logins.py:330
 msgid "That sign-in took too long. Please start again."
 msgstr "Proses masuk itu terlalu lama. Silakan mulai lagi."
 
-#: r2/controllers/api.py:902
+#: r2/controllers/api.py:928
 msgid "That account is linked already: sign in with it."
 msgstr "Akun itu sudah ditautkan: masuk dengan akun itu."
 
-#: r2/controllers/api.py:1436 r2/controllers/api.py:1817 r2/controllers/api.py:2719 r2/controllers/api.py:3019 r2/controllers/api.py:3346 r2/controllers/api.py:4228 r2/controllers/api.py:4284 r2/controllers/api.py:4338 r2/controllers/api.py:4571 r2/controllers/api.py:4576 r2/controllers/api.py:4811 r2/controllers/api.py:4876 r2/controllers/api.py:4954 r2/controllers/api.py:5020 r2/controllers/api.py:5093 r2/controllers/api.py:5184 r2/controllers/api.py:5216 r2/controllers/api.py:5236 r2/controllers/api.py:5750 r2/controllers/api.py:5790 r2/controllers/api.py:6024 r2/controllers/api.py:6042 r2/controllers/api.py:6390 r2/lib/pages/pages.py:6313
+#: r2/controllers/api.py:1462 r2/controllers/api.py:1843 r2/controllers/api.py:2745 r2/controllers/api.py:3045 r2/controllers/api.py:3372 r2/controllers/api.py:4254 r2/controllers/api.py:4310 r2/controllers/api.py:4364 r2/controllers/api.py:4597 r2/controllers/api.py:4602 r2/controllers/api.py:4837 r2/controllers/api.py:4902 r2/controllers/api.py:4980 r2/controllers/api.py:5046 r2/controllers/api.py:5119 r2/controllers/api.py:5210 r2/controllers/api.py:5242 r2/controllers/api.py:5262 r2/controllers/api.py:5776 r2/controllers/api.py:5816 r2/controllers/api.py:6050 r2/controllers/api.py:6068 r2/controllers/api.py:6416 r2/lib/pages/pages.py:6313
 msgid "saved"
 msgstr "telah disimpan"
 
-#: r2/controllers/api.py:1506
+#: r2/controllers/api.py:1532
 msgid "all other sessions have been logged out"
 msgstr "semua sesi lain telah dikeluarkan"
 
-#: r2/controllers/api.py:1565
+#: r2/controllers/api.py:1591
 msgid "you should be getting a verification email shortly."
 msgstr "anda akan mendapatkan email verifikasi secepatnya"
 
-#: r2/controllers/api.py:1567 r2/controllers/api.py:1580
+#: r2/controllers/api.py:1593 r2/controllers/api.py:1606
 msgid "your email has been updated"
 msgstr "email anda telah diperbaharui"
 
-#: r2/controllers/api.py:1615
+#: r2/controllers/api.py:1641
 msgid "your password has been updated"
 msgstr "password anda telah diperbaharui"
 
-#: r2/controllers/api.py:2074 r2/lib/menus.py:196 r2/templates/adminserverstatus.html:165
+#: r2/controllers/api.py:2100 r2/lib/menus.py:196 r2/templates/adminserverstatus.html:165
 msgid "reported"
 msgstr "dilaporkan"
 
-#: r2/controllers/api.py:2497 r2/lib/support.py:91
+#: r2/controllers/api.py:2523 r2/lib/support.py:91
 msgid "replied"
 msgstr "balasan"
 
-#: r2/controllers/api.py:2702
+#: r2/controllers/api.py:2728
 msgid "validation errors"
 msgstr "kegagalan validasi"
 
-#: r2/controllers/api.py:2822 r2/controllers/api.py:2849 r2/controllers/api.py:2876 r2/controllers/listingcontroller.py:1048 r2/lib/menus.py:195 r2/public/static/js/tippr.js:235 r2/templates/adminapps.html:51 r2/templates/adminuser.html:59 r2/templates/deleteduserinterstitial.html:34 r2/templates/printablebuttons.html:41 r2/templates/printablebuttons.html:586 r2/templates/vaultstylesheetbase.html:47
+#: r2/controllers/api.py:2848 r2/controllers/api.py:2875 r2/controllers/api.py:2902 r2/controllers/listingcontroller.py:1048 r2/lib/menus.py:195 r2/public/static/js/tippr.js:235 r2/templates/adminapps.html:51 r2/templates/adminuser.html:59 r2/templates/deleteduserinterstitial.html:34 r2/templates/printablebuttons.html:41 r2/templates/printablebuttons.html:586 r2/templates/vaultstylesheetbase.html:47
 msgid "deleted"
 msgstr "dihapus"
 
-#: r2/controllers/api.py:2953
+#: r2/controllers/api.py:2979
 msgid "bad image name"
 msgstr "nama gambar tidak bisa digunakan."
 
-#: r2/controllers/api.py:2959
+#: r2/controllers/api.py:2985
 #, python-format
 msgid "too many images (you only get %d)"
 msgstr "terlalu banyak gambar (maksimal %d)"
 
-#: r2/controllers/api.py:2964 r2/controllers/api.py:2988
+#: r2/controllers/api.py:2990 r2/controllers/api.py:3014
 msgid "Invalid image or general image error"
 msgstr "Gambar salah atau gambar error umum"
 
-#: r2/controllers/api.py:2969
+#: r2/controllers/api.py:2995
 #, python-format
 msgid "must be %dx%d pixels"
 msgstr "Harus berukuran %dx%d piksel"
 
-#: r2/controllers/api.py:2973
+#: r2/controllers/api.py:2999
 msgid "10:3 aspect ratio required"
 msgstr "rasio aspek 10:3 diperlukan"
 
-#: r2/controllers/api.py:2976
+#: r2/controllers/api.py:3002
 #, python-format
 msgid "max %dx%d pixels"
 msgstr "maksimal %dx%d piksel"
 
-#: r2/controllers/api.py:2979
+#: r2/controllers/api.py:3005
 #, python-format
 msgid "min %dx%d pixels"
 msgstr "minimal %dx%d piksel"
 
-#: r2/controllers/api.py:4040
+#: r2/controllers/api.py:4066
 msgid "an email will be sent to that account's address shortly"
 msgstr "sebauh email akan dikirim alamat akun tujuan sesaat lagi"
 
-#: r2/controllers/api.py:4043
+#: r2/controllers/api.py:4069
 msgid "try again tomorrow"
 msgstr "coba lagi esok hari"
 
-#: r2/controllers/api.py:4090
+#: r2/controllers/api.py:4116
 msgid "password updated"
 msgstr "kata sandi terbaharui"
 
-#: r2/controllers/api.py:4296 r2/controllers/api.py:4527
+#: r2/controllers/api.py:4322 r2/controllers/api.py:4553
 msgid "invalid css class"
 msgstr "css class invalid"
 
-#: r2/controllers/api.py:4299 r2/controllers/api.py:4530
+#: r2/controllers/api.py:4325 r2/controllers/api.py:4556
 msgid "too many css classes"
 msgstr "css class terlalu banyak"
 
-#: r2/controllers/api.py:4551
+#: r2/controllers/api.py:4577
 msgid "max flair templates reached"
 msgstr "batas maksimum template hiasan tercapai"
 
-#: r2/controllers/api.py:5016
+#: r2/controllers/api.py:5042
 #, python-format
 msgid "saved, but these aren't on until their keys are filled in: %(names)s"
 msgstr "tersimpan, tetapi ini belum aktif sampai kuncinya diisi: %(names)s"
 
-#: r2/controllers/api.py:5038
+#: r2/controllers/api.py:5064
 msgid "the keys work"
 msgstr "kuncinya berfungsi"
 
-#: r2/controllers/api.py:5039 r2/controllers/api.py:5056
+#: r2/controllers/api.py:5065 r2/controllers/api.py:5082
 #, python-format
 msgid "didn't work: %(error)s"
 msgstr "tidak berhasil: %(error)s"
 
-#: r2/controllers/api.py:5044
+#: r2/controllers/api.py:5070
 msgid "no such payment"
 msgstr "pembayaran tidak ditemukan"
 
-#: r2/controllers/api.py:5059 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminprivacy.html:26 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminuser.html:89 r2/templates/adminusers.html:77 r2/templates/adminvaults.html:50
+#: r2/controllers/api.py:5085 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminprivacy.html:26 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminuser.html:89 r2/templates/adminusers.html:77 r2/templates/adminvaults.html:50
 msgid "status"
 msgstr "status"
 
-#: r2/controllers/api.py:5084 r2/controllers/linked_logins.py:93 r2/controllers/linked_logins.py:187 r2/lib/pages/pages.py:1388 r2/lib/pages/pages.py:1438 r2/templates/createvault.html:57 r2/templates/goldpayment.html:168 r2/templates/linkedsignin.html:41 r2/templates/listingchooser.html:69 r2/templates/prefapps.html:153 r2/templates/prefapps.html:348
+#: r2/controllers/api.py:5110 r2/controllers/linked_logins.py:93 r2/controllers/linked_logins.py:187 r2/lib/pages/pages.py:1388 r2/lib/pages/pages.py:1438 r2/templates/createvault.html:57 r2/templates/goldpayment.html:168 r2/templates/linkedsignin.html:41 r2/templates/listingchooser.html:69 r2/templates/prefapps.html:153 r2/templates/prefapps.html:348
 msgid "name"
 msgstr "nama"
 
-#: r2/controllers/api.py:5089
+#: r2/controllers/api.py:5115
 #, python-format
 msgid "saved, but these aren't on until their ID and secret are filled in: %(names)s"
 msgstr "tersimpan, tetapi ini belum aktif sampai ID dan rahasianya diisi: %(names)s"
 
-#: r2/controllers/api.py:5198 r2/controllers/api.py:5224
+#: r2/controllers/api.py:5224 r2/controllers/api.py:5250
 msgid "this site's live config is managed in ZooKeeper"
 msgstr "konfigurasi langsung situs ini dikelola di ZooKeeper"
 
-#: r2/controllers/api.py:5202
+#: r2/controllers/api.py:5228
 msgid "unknown setting"
 msgstr "setelan tidak dikenal"
 
-#: r2/controllers/api.py:5210 r2/controllers/api.py:5234
+#: r2/controllers/api.py:5236 r2/controllers/api.py:5260
 #, python-format
 msgid "not saved: %(error)s"
 msgstr "tidak tersimpan: %(error)s"
 
-#: r2/controllers/api.py:5240
+#: r2/controllers/api.py:5266
 #, python-format
 msgid "%(saved)d saved; %(failed)d not saved (see below)"
 msgstr "%(saved)d tersimpan; %(failed)d tidak tersimpan (lihat di bawah)"
 
-#: r2/controllers/api.py:5246
+#: r2/controllers/api.py:5272
 msgid "nothing changed"
 msgstr "tidak ada yang berubah"
 
-#: r2/controllers/api.py:5262
+#: r2/controllers/api.py:5288
 #, python-format
 msgid "couldn't empty: %(servers)s"
 msgstr "tidak bisa dikosongkan: %(servers)s"
 
-#: r2/controllers/api.py:5287
+#: r2/controllers/api.py:5313
 msgid "every account has been checked"
 msgstr "semua akun sudah diperiksa"
 
-#: r2/controllers/api.py:5299
+#: r2/controllers/api.py:5325
 msgid "select some accounts"
 msgstr "pilih beberapa akun"
 
-#: r2/controllers/api.py:5346 r2/controllers/api.py:5452
+#: r2/controllers/api.py:5372 r2/controllers/api.py:5478
 msgid "no such account"
 msgstr "akun tidak ditemukan"
 
-#: r2/controllers/api.py:5349 r2/controllers/api.py:5444
+#: r2/controllers/api.py:5375 r2/controllers/api.py:5470
 msgid "unknown action"
 msgstr "tindakan tidak dikenal"
 
-#: r2/controllers/api.py:5363
+#: r2/controllers/api.py:5389
 #, fuzzy
 #| msgid "no permissions"
 msgid "choose a permission"
 msgstr "tanpa ijin"
 
-#: r2/controllers/api.py:5377
+#: r2/controllers/api.py:5403
 msgid "not on admins (take them off the employees list on /admin/config first)"
 msgstr "tidak berlaku untuk admin (hapus mereka dari daftar karyawan di /admin/config terlebih dahulu)"
 
-#: r2/controllers/api.py:5381
+#: r2/controllers/api.py:5407
 msgid "the account is deleted"
 msgstr "akun ini sudah dihapus"
 
-#: r2/controllers/api.py:5384
+#: r2/controllers/api.py:5410
 msgid "give a reason (it's logged, and a timeout's reason is sent to them)"
 msgstr "berikan alasan (dicatat, dan alasan skors dikirim kepada mereka)"
 
-#: r2/controllers/api.py:5388 r2/controllers/api.py:5469
+#: r2/controllers/api.py:5414 r2/controllers/api.py:5495
 msgid "tick the box to confirm"
 msgstr "centang kotak untuk mengonfirmasi"
 
-#: r2/controllers/api.py:5391
+#: r2/controllers/api.py:5417
 msgid "choose whether to keep or delete their posts"
 msgstr "pilih apakah akan menyimpan atau menghapus postingan mereka"
 
-#: r2/controllers/api.py:5394
+#: r2/controllers/api.py:5420
 msgid "they have no email address"
 msgstr "mereka tidak punya alamat email"
 
-#: r2/controllers/api.py:5441 r2/controllers/api.py:5547
+#: r2/controllers/api.py:5467 r2/controllers/api.py:5573
 msgid "no such vault"
 msgstr "vault tidak ditemukan"
 
-#: r2/controllers/api.py:5456
+#: r2/controllers/api.py:5482
 msgid "they're already a moderator"
 msgstr "mereka sudah menjadi moderator"
 
-#: r2/controllers/api.py:5459
+#: r2/controllers/api.py:5485
 msgid "they're banned from the vault; unban them first"
 msgstr "mereka diblokir dari vault; buka blokirnya dulu"
 
-#: r2/controllers/api.py:5464
+#: r2/controllers/api.py:5490
 msgid "they aren't a moderator"
 msgstr "mereka bukan moderator"
 
-#: r2/controllers/api.py:5476
+#: r2/controllers/api.py:5502
 msgid "unban the vault first"
 msgstr "buka blokir vault dulu"
 
-#: r2/controllers/api.py:5495
+#: r2/controllers/api.py:5521
 msgid "no such app"
 msgstr "aplikasi tidak ditemukan"
 
-#: r2/controllers/api.py:5498
+#: r2/controllers/api.py:5524
 msgid "the site's own apps can't be deleted here"
 msgstr "aplikasi milik situs sendiri tidak bisa dihapus di sini"
 
-#: r2/controllers/api.py:5541
+#: r2/controllers/api.py:5567
 msgid "give the feed's http(s) address"
 msgstr "berikan alamat http(s) feed"
 
-#: r2/controllers/api.py:5550
+#: r2/controllers/api.py:5576
 msgid "pick one of the AI labels"
 msgstr "pilih salah satu label AI"
 
-#: r2/controllers/api.py:5554
+#: r2/controllers/api.py:5580
 #, python-format
 msgid "/v/%(vault)s doesn't accept %(label)s posts"
 msgstr "/v/%(vault)s tidak menerima postingan %(label)s"
 
-#: r2/controllers/api.py:5560
+#: r2/controllers/api.py:5586
 msgid "give the bot account a valid username"
 msgstr "berikan nama pengguna yang valid untuk akun bot"
 
-#: r2/controllers/api.py:5569
+#: r2/controllers/api.py:5595
 msgid "that account is suspended or deleted"
 msgstr "akun itu ditangguhkan atau dihapus"
 
-#: r2/controllers/api.py:5576 r2/controllers/api.py:5591
+#: r2/controllers/api.py:5602 r2/controllers/api.py:5617
 msgid "no such feed"
 msgstr "feed tidak ditemukan"
 
-#: r2/controllers/api.py:5614
+#: r2/controllers/api.py:5640
 msgid "give a domain"
 msgstr "berikan sebuah domain"
 
-#: r2/controllers/api.py:5620
+#: r2/controllers/api.py:5646
 msgid "choose what the ban does"
 msgstr "pilih apa yang dilakukan pemblokiran"
 
-#: r2/controllers/api.py:5623
+#: r2/controllers/api.py:5649
 msgid "give a reason (members see it when the link is refused)"
 msgstr "berikan alasan (anggota melihatnya saat tautan ditolak)"
 
-#: r2/controllers/api.py:5628
+#: r2/controllers/api.py:5654
 msgid "that's not a domain"
 msgstr "itu bukan domain"
 
-#: r2/controllers/api.py:5655 r2/controllers/api.py:5674 r2/controllers/api.py:5691 r2/controllers/api.py:5709
+#: r2/controllers/api.py:5681 r2/controllers/api.py:5700 r2/controllers/api.py:5717 r2/controllers/api.py:5735
 msgid "no such ticket"
 msgstr "tiket tidak ditemukan"
 
-#: r2/controllers/api.py:5722
+#: r2/controllers/api.py:5748
 msgid "they can't reply in this category"
 msgstr "mereka tidak bisa membalas di kategori ini"
 
-#: r2/controllers/api.py:5742
+#: r2/controllers/api.py:5768
 msgid "not on the employees list"
 msgstr "tidak ada di daftar karyawan"
 
-#: r2/controllers/api.py:5794
+#: r2/controllers/api.py:5820
 msgid "saved; CleanTalk needs an access key to work"
 msgstr "tersimpan; CleanTalk perlu kunci akses agar berfungsi"
 
-#: r2/controllers/api.py:5797
+#: r2/controllers/api.py:5823
 #, python-format
 msgid "saved; CleanTalk says: %(problem)s"
 msgstr "tersimpan; CleanTalk mengatakan: %(problem)s"
 
-#: r2/controllers/api.py:5799
+#: r2/controllers/api.py:5825
 msgid "saved; the CleanTalk key works"
 msgstr "tersimpan; kunci CleanTalk berfungsi"
 
-#: r2/controllers/api.py:5836
+#: r2/controllers/api.py:5862
 msgid "that isn't a release with an installer"
 msgstr "itu bukan rilis dengan installer"
 
-#: r2/controllers/api.py:5839
+#: r2/controllers/api.py:5865
 msgid "a server is updating now; wait for it to finish"
 msgstr "sebuah server sedang diperbarui; tunggu sampai selesai"
 
-#: r2/controllers/api.py:5941
+#: r2/controllers/api.py:5967
 msgid "Copy the key now; it isn't shown again."
 msgstr "Salin kuncinya sekarang; kunci ini tidak akan ditampilkan lagi."
 
-#: r2/controllers/api.py:5950
+#: r2/controllers/api.py:5976
 msgid "tippr-backup isn't installed on this server (re-run the installer)."
 msgstr "tippr-backup tidak terpasang di server ini (jalankan ulang installer)."
 
-#: r2/controllers/api.py:5955
+#: r2/controllers/api.py:5981
 msgid "no such backup"
 msgstr "cadangan tidak ditemukan"
 
-#: r2/controllers/api.py:5960
+#: r2/controllers/api.py:5986
 #, python-format
 msgid "Type this site's domain (%(domain)s) to confirm."
 msgstr "Ketik domain situs ini (%(domain)s) untuk mengonfirmasi."
 
-#: r2/controllers/api.py:5973
+#: r2/controllers/api.py:5999
 msgid "Enter the other server's address and its transfer key."
 msgstr "Masukkan alamat server lain dan kunci transfernya."
 
-#: r2/controllers/api.py:5977
+#: r2/controllers/api.py:6003
 msgid "That isn't a backup name."
 msgstr "Itu bukan nama cadangan."
 
-#: r2/controllers/api.py:5998
+#: r2/controllers/api.py:6024
 msgid "tippr test email"
 msgstr "email uji tippr"
 
-#: r2/controllers/api.py:5999
+#: r2/controllers/api.py:6025
 #, python-format
 msgid "This is a test message from %(domain)s. Email is working."
 msgstr "Ini pesan uji dari %(domain)s. Email berfungsi."
 
-#: r2/controllers/api.py:6003
+#: r2/controllers/api.py:6029
 #, python-format
 msgid "failed: %(error)s"
 msgstr "gagal: %(error)s"
 
-#: r2/controllers/api.py:6005
+#: r2/controllers/api.py:6031
 #, python-format
 msgid "sent to %(address)s"
 msgstr "terkirim ke %(address)s"
 
-#: r2/controllers/api.py:6038
+#: r2/controllers/api.py:6064
 msgid "no gold to take"
 msgstr "tidak ada gold untuk diambil"
 
-#: r2/controllers/api.py:6202 r2/controllers/api.py:6232
+#: r2/controllers/api.py:6228 r2/controllers/api.py:6258
 msgid "that's as many authenticator apps as an account can have"
 msgstr "jumlah aplikasi autentikator sudah maksimal untuk satu akun"
 
-#: r2/controllers/api.py:6280
+#: r2/controllers/api.py:6306
 msgid "That code didn't work. Codes follow the clock, so check that your phone sets its time automatically."
 msgstr ""
 
-#: r2/controllers/api.py:6283
+#: r2/controllers/api.py:6309
 msgid "enter a code from one of your methods first"
 msgstr "masukkan kode dari salah satu metodemu terlebih dahulu"
 
-#: r2/controllers/api.py:6286
+#: r2/controllers/api.py:6312
 #, fuzzy
 #| msgid "That code isn't right. Try again."
 msgid "That password isn't right. Try again."
 msgstr "Kode itu salah. Coba lagi."
 
-#: r2/controllers/api.py:6287
+#: r2/controllers/api.py:6313
 msgid "enter your password first"
 msgstr "masukkan kata sandimu terlebih dahulu"
 
-#: r2/controllers/api.py:6305
+#: r2/controllers/api.py:6331
 msgid "that passkey couldn't be added"
 msgstr "kunci sandi itu tidak bisa ditambahkan"
 
-#: r2/controllers/api.py:6343
+#: r2/controllers/api.py:6369
 msgid "that passkey wasn't accepted"
 msgstr "kunci sandi itu tidak diterima"
 
-#: r2/controllers/api.py:6504
+#: r2/controllers/api.py:6530
 #, python-format
 msgid "accounts need to be %(n)d days old"
 msgstr "akun harus berumur %(n)d hari"
 
-#: r2/controllers/api.py:6508
+#: r2/controllers/api.py:6534
 #, python-format
 msgid "accounts need %(n)d karma"
 msgstr "akun memerlukan %(n)d karma"
 
-#: r2/controllers/api.py:6511
+#: r2/controllers/api.py:6537
 msgid "verify your email address first"
 msgstr "verifikasi alamat emailmu terlebih dahulu"
 
-#: r2/controllers/api.py:6553 r2/lib/errors.py:159
+#: r2/controllers/api.py:6579 r2/lib/errors.py:159
 msgid "this app can not be modified from this interface"
 msgstr "aplikasi ini tidak bisa diubah dari antarmuka ini"
 
-#: r2/controllers/api.py:6560 r2/lib/errors.py:136
+#: r2/controllers/api.py:6586 r2/lib/errors.py:136
 msgid "invalid client id"
 msgstr "id pengguna salah"
 
-#: r2/controllers/api.py:6563
+#: r2/controllers/api.py:6589
 msgid "cannot update deleted app"
 msgstr "tidak bisa memperbaharui aplikasi yang terhapus"
 
-#: r2/controllers/api.py:6566
+#: r2/controllers/api.py:6592
 msgid "app does not belong to you"
 msgstr "aplikasi ini bukan milik anda "
 
-#: r2/controllers/api.py:6574
+#: r2/controllers/api.py:6600
 msgid "application updated"
 msgstr "aplikasi telah dibaharui"
 
-#: r2/controllers/api.py:6598
+#: r2/controllers/api.py:6624
 msgid "application created"
 msgstr "aplikasi yang dibuat"
 
-#: r2/controllers/api.py:6633
+#: r2/controllers/api.py:6659
 msgid "developer added"
 msgstr "pengembang ditambahkan"
 
@@ -1450,7 +1450,7 @@ msgstr "ID unit iklan dalam feed"
 msgid "AdSense: Auto ads pages"
 msgstr ""
 
-#: r2/lib/ai_content.py:35 r2/lib/scales.py:49
+#: r2/lib/ai_content.py:35 r2/lib/scales.py:58
 msgid "human-made"
 msgstr "buatan manusia"
 
@@ -1458,7 +1458,7 @@ msgstr "buatan manusia"
 msgid "AI-assisted"
 msgstr "dibantu AI"
 
-#: r2/lib/ai_content.py:37
+#: r2/lib/ai_content.py:37 r2/lib/scales.py:58
 msgid "AI-generated"
 msgstr "dibuat AI"
 
@@ -3280,59 +3280,45 @@ msgid "comment"
 msgid_plural "comments"
 msgstr[0] "komentar"
 
-#: r2/lib/scales.py:48
-#, fuzzy
-#| msgid "help"
-msgid "helpful"
-msgstr "bantuan"
+#: r2/lib/scales.py:59
+msgid "quick overview"
+msgstr "ikhtisar singkat"
 
-#: r2/lib/scales.py:48
-#, fuzzy
-#| msgid "help"
-msgid "unhelpful"
-msgstr "bantuan"
+#: r2/lib/scales.py:59
+msgid "deep dive"
+msgstr "ulasan mendalam"
 
-#: r2/lib/scales.py:49
-msgid "probably AI"
-msgstr ""
-
-#: r2/lib/scales.py:50
-msgid "beginner-friendly"
-msgstr ""
-
-#: r2/lib/scales.py:50
-msgid "in-depth"
-msgstr ""
-
-#: r2/lib/scales.py:51
+#: r2/lib/scales.py:60
 msgid "practical"
-msgstr ""
+msgstr "praktis"
 
-#: r2/lib/scales.py:51
-#, fuzzy
-#| msgid "just now"
-msgid "just for fun"
-msgstr "baru saja"
+#: r2/lib/scales.py:60
+msgid "thought piece"
+msgstr "renungan"
 
-#: r2/lib/scales.py:53
-#, fuzzy
-#| msgid "source code"
-msgid "well-sourced"
-msgstr "kode sumber"
+#: r2/lib/scales.py:62
+msgid "data-driven"
+msgstr "berbasis data"
 
-#: r2/lib/scales.py:53
-msgid "opinion"
-msgstr ""
+#: r2/lib/scales.py:62
+msgid "personal experience"
+msgstr "pengalaman pribadi"
 
-#: r2/lib/scales.py:54
-msgid "calm"
-msgstr ""
+#: r2/lib/scales.py:63
+msgid "matter-of-fact"
+msgstr "lugas"
 
-#: r2/lib/scales.py:54
-#, fuzzy
-#| msgid "created"
-msgid "heated"
-msgstr "dibuat"
+#: r2/lib/scales.py:63
+msgid "passionate"
+msgstr "penuh semangat"
+
+#: r2/lib/scales.py:64
+msgid "niche"
+msgstr "khusus"
+
+#: r2/lib/scales.py:64
+msgid "broad"
+msgstr "umum"
 
 #: r2/lib/site_info.py:146
 msgid "That isn't an image tippr can read."
@@ -6249,7 +6235,7 @@ msgstr "Parameter ini bisa diubah setelah disematkan."
 msgid "Copy this code and paste it into your website:"
 msgstr "Salin kode ini dan tempelkan ke situs webmu:"
 
-#: r2/public/static/js/enhancements.js:87 r2/public/static/js/markdown-toolbar.js:275 r2/public/static/js/scales.js:38
+#: r2/public/static/js/enhancements.js:87 r2/public/static/js/markdown-toolbar.js:275 r2/public/static/js/scales.js:40
 msgid "loading…"
 msgstr "memuat…"
 
@@ -6925,59 +6911,79 @@ msgstr "tanpa kategori"
 msgid "new category"
 msgstr "kategori baru"
 
-#: r2/public/static/js/scales.js:37 r2/templates/printablebuttons.html:376
+#: r2/public/static/js/scales.js:39 r2/templates/printablebuttons.html:376
 msgid "scales"
-msgstr ""
+msgstr "timbangan"
 
-#: r2/public/static/js/scales.js:43 r2/public/static/js/scales.js:54
-#, fuzzy
-#| msgid "an error occurred (status: %(status)s)"
+#: r2/public/static/js/scales.js:45 r2/public/static/js/scales.js:56
 msgid "an error occurred"
-msgstr "terjadi kesalahan (status: %(status)s)"
+msgstr "Terjadi kesalahan"
 
-#: r2/public/static/js/scales.js:81
-#, fuzzy, python-format
-#| msgid "%(num)s month"
-#| msgid_plural "%(num)s months"
-msgid "%(num)s tip"
-msgid_plural "%(num)s tips"
-msgstr[0] "%(num)s bulan"
-
-#: r2/public/static/js/scales.js:85
-#, fuzzy
-#| msgid "not yet"
-msgid "no tips yet"
-msgstr "belum"
-
-#: r2/public/static/js/scales.js:97 r2/public/static/js/scales.js:172
-msgid "fewer scales"
-msgstr ""
-
-#: r2/public/static/js/scales.js:97 r2/public/static/js/scales.js:172
-#, fuzzy
-#| msgid "more comments"
-msgid "more scales"
-msgstr "komentar lain"
-
-#: r2/public/static/js/scales.js:102
+#: r2/public/static/js/scales.js:89
 msgid "How others have tipped your post."
-msgstr ""
+msgstr "Begini orang lain menilai postinganmu."
+
+#: r2/public/static/js/scales.js:91
+msgid "As a moderator, you see every scale’s tips without tipping."
+msgstr "Sebagai moderator, kamu melihat penilaian semua timbangan tanpa menilai."
+
+#: r2/public/static/js/scales.js:93
+msgid "You saw the results, so you can’t tip this post’s scales."
+msgstr "Kamu sudah melihat hasilnya, jadi tidak bisa lagi menilai timbangan postingan ini."
+
+#: r2/public/static/js/scales.js:97
+msgid "Tip a scale to see how others tipped it, or"
+msgstr "Nilai timbangan untuk melihat penilaian orang lain, atau"
+
+#: r2/public/static/js/scales.js:99
+msgid "see the results"
+msgstr "lihat hasilnya"
+
+#: r2/public/static/js/scales.js:101
+msgid "(you can’t tip after)."
+msgstr "(setelah itu kamu tidak bisa menilai)."
 
 #: r2/public/static/js/scales.js:104
-msgid "Tip a scale to see how others tipped it."
-msgstr ""
-
-#: r2/public/static/js/scales.js:107
-#, fuzzy
-#| msgid "create rule"
 msgid "Breaks a rule?"
-msgstr "buat aturan"
+msgstr "Melanggar aturan?"
 
-#: r2/public/static/js/scales.js:109
-#, fuzzy
-#| msgid "report"
+#: r2/public/static/js/scales.js:106
 msgid "report it"
 msgstr "laporkan"
+
+#: r2/public/static/js/scales.js:134
+msgid "no tips yet"
+msgstr "belum ada penilaian"
+
+#: r2/public/static/js/scales.js:136
+#, python-format
+msgid "%(num)s tip"
+msgid_plural "%(num)s tips"
+msgstr[0] "%(num)s penilaian"
+
+#: r2/public/static/js/scales.js:141 r2/public/static/js/scales.js:145
+#, python-format
+msgid "%(num)s %(side)s"
+msgstr "%(num)s × %(side)s"
+
+#: r2/public/static/js/scales.js:147
+#, python-format
+msgid "%(num)s tip so far"
+msgid_plural "%(num)s tips so far"
+msgstr[0] "%(num)s penilaian sejauh ini"
+
+#: r2/public/static/js/scales.js:151
+msgid "evenly split"
+msgstr "seimbang"
+
+#: r2/public/static/js/scales.js:155
+#, python-format
+msgid "%(percent)s %(side)s"
+msgstr "%(percent)s %(side)s"
+
+#: r2/public/static/js/scales.js:180
+msgid "See how everyone tipped this post? You won’t be able to tip its scales or change your tips afterwards."
+msgstr "Lihat bagaimana semua orang menilai postingan ini? Setelah itu kamu tidak bisa menilai timbangannya atau mengubah penilaianmu."
 
 #: r2/public/static/js/sponsored.js:91
 msgid "+ close"

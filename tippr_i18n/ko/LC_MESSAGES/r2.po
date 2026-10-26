@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tippr\n"
 "Report-Msgid-Bugs-To: https://github.com/TechIdiots-LLC/tippr-i18n/issues\n"
-"POT-Creation-Date: 2026-10-25 10:54-0400\n"
+"POT-Creation-Date: 2026-10-25 20:48-0400\n"
 "PO-Revision-Date: 2017-01-23 14:36-0500\n"
 "Last-Translator: tippr translators\n"
 "Language-Team: Korean\n"
@@ -20,7 +20,7 @@ msgstr ""
 msgid "Choose an image of at most 1 MB."
 msgstr "1MB 이하의 이미지를 선택하세요."
 
-#: r2/controllers/api.py:223 r2/controllers/api.py:249 r2/controllers/api.py:4436 r2/controllers/api.py:4506 r2/controllers/listingcontroller.py:766 r2/lib/pages/pages.py:6422
+#: r2/controllers/api.py:223 r2/controllers/api.py:249 r2/controllers/api.py:4462 r2/controllers/api.py:4532 r2/controllers/listingcontroller.py:766 r2/lib/pages/pages.py:6422
 msgid "API"
 msgstr "API"
 
@@ -58,437 +58,437 @@ msgstr "그 계정의 2단계 인증 코드를 입력하세요"
 msgid "that account isn't available to switch to; add it again"
 msgstr "그 계정으로 전환할 수 없습니다. 다시 추가하세요"
 
-#: r2/controllers/api.py:581
+#: r2/controllers/api.py:607
 msgid "your message has been delivered"
 msgstr "메시지가 전송되었습니다"
 
-#: r2/controllers/api.py:803
+#: r2/controllers/api.py:829
 msgid "no title found"
 msgstr "제목이 없습니다"
 
-#: r2/controllers/api.py:897 r2/controllers/linked_logins.py:184 r2/controllers/linked_logins.py:232 r2/controllers/linked_logins.py:252 r2/controllers/linked_logins.py:330
+#: r2/controllers/api.py:923 r2/controllers/linked_logins.py:184 r2/controllers/linked_logins.py:232 r2/controllers/linked_logins.py:252 r2/controllers/linked_logins.py:330
 msgid "That sign-in took too long. Please start again."
 msgstr "로그인 시간이 너무 오래 걸렸습니다. 처음부터 다시 시작하세요."
 
-#: r2/controllers/api.py:902
+#: r2/controllers/api.py:928
 msgid "That account is linked already: sign in with it."
 msgstr "이미 연결된 계정입니다. 그 계정으로 로그인하세요."
 
-#: r2/controllers/api.py:1436 r2/controllers/api.py:1817 r2/controllers/api.py:2719 r2/controllers/api.py:3019 r2/controllers/api.py:3346 r2/controllers/api.py:4228 r2/controllers/api.py:4284 r2/controllers/api.py:4338 r2/controllers/api.py:4571 r2/controllers/api.py:4576 r2/controllers/api.py:4811 r2/controllers/api.py:4876 r2/controllers/api.py:4954 r2/controllers/api.py:5020 r2/controllers/api.py:5093 r2/controllers/api.py:5184 r2/controllers/api.py:5216 r2/controllers/api.py:5236 r2/controllers/api.py:5750 r2/controllers/api.py:5790 r2/controllers/api.py:6024 r2/controllers/api.py:6042 r2/controllers/api.py:6390 r2/lib/pages/pages.py:6313
+#: r2/controllers/api.py:1462 r2/controllers/api.py:1843 r2/controllers/api.py:2745 r2/controllers/api.py:3045 r2/controllers/api.py:3372 r2/controllers/api.py:4254 r2/controllers/api.py:4310 r2/controllers/api.py:4364 r2/controllers/api.py:4597 r2/controllers/api.py:4602 r2/controllers/api.py:4837 r2/controllers/api.py:4902 r2/controllers/api.py:4980 r2/controllers/api.py:5046 r2/controllers/api.py:5119 r2/controllers/api.py:5210 r2/controllers/api.py:5242 r2/controllers/api.py:5262 r2/controllers/api.py:5776 r2/controllers/api.py:5816 r2/controllers/api.py:6050 r2/controllers/api.py:6068 r2/controllers/api.py:6416 r2/lib/pages/pages.py:6313
 msgid "saved"
 msgstr "보관했습니다"
 
-#: r2/controllers/api.py:1506
+#: r2/controllers/api.py:1532
 msgid "all other sessions have been logged out"
 msgstr "모든 세션이 로그아웃 되었습니다."
 
-#: r2/controllers/api.py:1565
+#: r2/controllers/api.py:1591
 msgid "you should be getting a verification email shortly."
 msgstr "인증 메일이 발송되었습니다."
 
-#: r2/controllers/api.py:1567 r2/controllers/api.py:1580
+#: r2/controllers/api.py:1593 r2/controllers/api.py:1606
 msgid "your email has been updated"
 msgstr "메일 주소 정보를 갱신했습니다"
 
-#: r2/controllers/api.py:1615
+#: r2/controllers/api.py:1641
 msgid "your password has been updated"
 msgstr "비밀번호 정보를 갱신했습니다"
 
-#: r2/controllers/api.py:2074 r2/lib/menus.py:196 r2/templates/adminserverstatus.html:165
+#: r2/controllers/api.py:2100 r2/lib/menus.py:196 r2/templates/adminserverstatus.html:165
 msgid "reported"
 msgstr "신고가 접수 됐습니다"
 
-#: r2/controllers/api.py:2497 r2/lib/support.py:91
+#: r2/controllers/api.py:2523 r2/lib/support.py:91
 msgid "replied"
 msgstr "답변함"
 
-#: r2/controllers/api.py:2702
+#: r2/controllers/api.py:2728
 msgid "validation errors"
 msgstr "검증 오류"
 
-#: r2/controllers/api.py:2822 r2/controllers/api.py:2849 r2/controllers/api.py:2876 r2/controllers/listingcontroller.py:1048 r2/lib/menus.py:195 r2/public/static/js/tippr.js:235 r2/templates/adminapps.html:51 r2/templates/adminuser.html:59 r2/templates/deleteduserinterstitial.html:34 r2/templates/printablebuttons.html:41 r2/templates/printablebuttons.html:586 r2/templates/vaultstylesheetbase.html:47
+#: r2/controllers/api.py:2848 r2/controllers/api.py:2875 r2/controllers/api.py:2902 r2/controllers/listingcontroller.py:1048 r2/lib/menus.py:195 r2/public/static/js/tippr.js:235 r2/templates/adminapps.html:51 r2/templates/adminuser.html:59 r2/templates/deleteduserinterstitial.html:34 r2/templates/printablebuttons.html:41 r2/templates/printablebuttons.html:586 r2/templates/vaultstylesheetbase.html:47
 msgid "deleted"
 msgstr "삭제되었습니다"
 
-#: r2/controllers/api.py:2953
+#: r2/controllers/api.py:2979
 msgid "bad image name"
 msgstr "그림파일 이름 관련 오류가 발생했습니다. 그림파일 이름을 확인하십시오"
 
-#: r2/controllers/api.py:2959
+#: r2/controllers/api.py:2985
 #, python-format
 msgid "too many images (you only get %d)"
 msgstr "그림이 너무 많습니다 (한 번에 그림 %d 개 만 올릴 수 있습니다)"
 
-#: r2/controllers/api.py:2964 r2/controllers/api.py:2988
+#: r2/controllers/api.py:2990 r2/controllers/api.py:3014
 msgid "Invalid image or general image error"
 msgstr "이미지가 올바르지 않거나 오류입니다"
 
-#: r2/controllers/api.py:2969
+#: r2/controllers/api.py:2995
 #, python-format
 msgid "must be %dx%d pixels"
 msgstr "%dx%d 픽셀이어야 합니다"
 
-#: r2/controllers/api.py:2973
+#: r2/controllers/api.py:2999
 msgid "10:3 aspect ratio required"
 msgstr "10:3 화면비가 필요합니다"
 
-#: r2/controllers/api.py:2976
+#: r2/controllers/api.py:3002
 #, python-format
 msgid "max %dx%d pixels"
 msgstr "최대 %dx%d 픽셀"
 
-#: r2/controllers/api.py:2979
+#: r2/controllers/api.py:3005
 #, python-format
 msgid "min %dx%d pixels"
 msgstr "최소 %dx%d 픽셀"
 
-#: r2/controllers/api.py:4040
+#: r2/controllers/api.py:4066
 msgid "an email will be sent to that account's address shortly"
 msgstr "잠시 후에 입력하신 주소로 메일을 보내드리도록 하겠습니다"
 
-#: r2/controllers/api.py:4043
+#: r2/controllers/api.py:4069
 msgid "try again tomorrow"
 msgstr "내일 다시 시도하세요"
 
-#: r2/controllers/api.py:4090
+#: r2/controllers/api.py:4116
 msgid "password updated"
 msgstr "비밀번호가 변경되었습니다."
 
-#: r2/controllers/api.py:4296 r2/controllers/api.py:4527
+#: r2/controllers/api.py:4322 r2/controllers/api.py:4553
 msgid "invalid css class"
 msgstr "CSS 클래스가 올바르지 않습니다"
 
-#: r2/controllers/api.py:4299 r2/controllers/api.py:4530
+#: r2/controllers/api.py:4325 r2/controllers/api.py:4556
 msgid "too many css classes"
 msgstr "CSS 클래스가 너무 많습니다"
 
-#: r2/controllers/api.py:4551
+#: r2/controllers/api.py:4577
 msgid "max flair templates reached"
 msgstr "플레어 템플릿을 더 추가할 수 없습니다"
 
-#: r2/controllers/api.py:5016
+#: r2/controllers/api.py:5042
 #, python-format
 msgid "saved, but these aren't on until their keys are filled in: %(names)s"
 msgstr "저장했지만, 키를 입력하기 전까지는 다음이 작동하지 않습니다: %(names)s"
 
-#: r2/controllers/api.py:5038
+#: r2/controllers/api.py:5064
 msgid "the keys work"
 msgstr "키가 작동합니다"
 
-#: r2/controllers/api.py:5039 r2/controllers/api.py:5056
+#: r2/controllers/api.py:5065 r2/controllers/api.py:5082
 #, python-format
 msgid "didn't work: %(error)s"
 msgstr "실패했습니다: %(error)s"
 
-#: r2/controllers/api.py:5044
+#: r2/controllers/api.py:5070
 msgid "no such payment"
 msgstr "그런 결제는 없습니다"
 
-#: r2/controllers/api.py:5059 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminprivacy.html:26 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminuser.html:89 r2/templates/adminusers.html:77 r2/templates/adminvaults.html:50
+#: r2/controllers/api.py:5085 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminprivacy.html:26 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminuser.html:89 r2/templates/adminusers.html:77 r2/templates/adminvaults.html:50
 msgid "status"
 msgstr "상태"
 
-#: r2/controllers/api.py:5084 r2/controllers/linked_logins.py:93 r2/controllers/linked_logins.py:187 r2/lib/pages/pages.py:1388 r2/lib/pages/pages.py:1438 r2/templates/createvault.html:57 r2/templates/goldpayment.html:168 r2/templates/linkedsignin.html:41 r2/templates/listingchooser.html:69 r2/templates/prefapps.html:153 r2/templates/prefapps.html:348
+#: r2/controllers/api.py:5110 r2/controllers/linked_logins.py:93 r2/controllers/linked_logins.py:187 r2/lib/pages/pages.py:1388 r2/lib/pages/pages.py:1438 r2/templates/createvault.html:57 r2/templates/goldpayment.html:168 r2/templates/linkedsignin.html:41 r2/templates/listingchooser.html:69 r2/templates/prefapps.html:153 r2/templates/prefapps.html:348
 msgid "name"
 msgstr "이름"
 
-#: r2/controllers/api.py:5089
+#: r2/controllers/api.py:5115
 #, python-format
 msgid "saved, but these aren't on until their ID and secret are filled in: %(names)s"
 msgstr "저장했지만, ID와 시크릿을 입력하기 전까지는 다음이 작동하지 않습니다: %(names)s"
 
-#: r2/controllers/api.py:5198 r2/controllers/api.py:5224
+#: r2/controllers/api.py:5224 r2/controllers/api.py:5250
 msgid "this site's live config is managed in ZooKeeper"
 msgstr "이 사이트의 실시간 설정은 ZooKeeper에서 관리됩니다"
 
-#: r2/controllers/api.py:5202
+#: r2/controllers/api.py:5228
 msgid "unknown setting"
 msgstr "알 수 없는 설정"
 
-#: r2/controllers/api.py:5210 r2/controllers/api.py:5234
+#: r2/controllers/api.py:5236 r2/controllers/api.py:5260
 #, python-format
 msgid "not saved: %(error)s"
 msgstr "저장되지 않음: %(error)s"
 
-#: r2/controllers/api.py:5240
+#: r2/controllers/api.py:5266
 #, python-format
 msgid "%(saved)d saved; %(failed)d not saved (see below)"
 msgstr "%(saved)d개 저장, %(failed)d개 저장 안 됨 (아래 참고)"
 
-#: r2/controllers/api.py:5246
+#: r2/controllers/api.py:5272
 msgid "nothing changed"
 msgstr "바뀐 것이 없습니다"
 
-#: r2/controllers/api.py:5262
+#: r2/controllers/api.py:5288
 #, python-format
 msgid "couldn't empty: %(servers)s"
 msgstr "비우지 못했습니다: %(servers)s"
 
-#: r2/controllers/api.py:5287
+#: r2/controllers/api.py:5313
 msgid "every account has been checked"
 msgstr "모든 계정을 확인했습니다"
 
-#: r2/controllers/api.py:5299
+#: r2/controllers/api.py:5325
 msgid "select some accounts"
 msgstr "계정을 선택하세요"
 
-#: r2/controllers/api.py:5346 r2/controllers/api.py:5452
+#: r2/controllers/api.py:5372 r2/controllers/api.py:5478
 msgid "no such account"
 msgstr "해당 계정이 없습니다"
 
-#: r2/controllers/api.py:5349 r2/controllers/api.py:5444
+#: r2/controllers/api.py:5375 r2/controllers/api.py:5470
 msgid "unknown action"
 msgstr "알 수 없는 작업"
 
-#: r2/controllers/api.py:5363
+#: r2/controllers/api.py:5389
 #, fuzzy
 #| msgid "no permissions"
 msgid "choose a permission"
 msgstr "권한 없음"
 
-#: r2/controllers/api.py:5377
+#: r2/controllers/api.py:5403
 msgid "not on admins (take them off the employees list on /admin/config first)"
 msgstr "관리자에게는 사용할 수 없습니다(먼저 /admin/config의 직원 목록에서 제외하세요)"
 
-#: r2/controllers/api.py:5381
+#: r2/controllers/api.py:5407
 msgid "the account is deleted"
 msgstr "계정이 삭제되었습니다"
 
-#: r2/controllers/api.py:5384
+#: r2/controllers/api.py:5410
 msgid "give a reason (it's logged, and a timeout's reason is sent to them)"
 msgstr "사유를 입력하세요(기록되며, 일시 정지 사유는 당사자에게 전송됩니다)"
 
-#: r2/controllers/api.py:5388 r2/controllers/api.py:5469
+#: r2/controllers/api.py:5414 r2/controllers/api.py:5495
 msgid "tick the box to confirm"
 msgstr "확인하려면 상자를 체크하세요"
 
-#: r2/controllers/api.py:5391
+#: r2/controllers/api.py:5417
 msgid "choose whether to keep or delete their posts"
 msgstr "게시물을 유지할지 삭제할지 선택하세요"
 
-#: r2/controllers/api.py:5394
+#: r2/controllers/api.py:5420
 msgid "they have no email address"
 msgstr "이메일 주소가 없는 사용자입니다"
 
-#: r2/controllers/api.py:5441 r2/controllers/api.py:5547
+#: r2/controllers/api.py:5467 r2/controllers/api.py:5573
 msgid "no such vault"
 msgstr "해당 볼트가 없습니다"
 
-#: r2/controllers/api.py:5456
+#: r2/controllers/api.py:5482
 msgid "they're already a moderator"
 msgstr "이미 모더레이터입니다"
 
-#: r2/controllers/api.py:5459
+#: r2/controllers/api.py:5485
 msgid "they're banned from the vault; unban them first"
 msgstr "이 볼트에서 차단된 사용자입니다. 먼저 차단을 해제하세요"
 
-#: r2/controllers/api.py:5464
+#: r2/controllers/api.py:5490
 msgid "they aren't a moderator"
 msgstr "모더레이터가 아닙니다"
 
-#: r2/controllers/api.py:5476
+#: r2/controllers/api.py:5502
 msgid "unban the vault first"
 msgstr "먼저 볼트 차단을 해제하세요"
 
-#: r2/controllers/api.py:5495
+#: r2/controllers/api.py:5521
 msgid "no such app"
 msgstr "해당 앱이 없습니다"
 
-#: r2/controllers/api.py:5498
+#: r2/controllers/api.py:5524
 msgid "the site's own apps can't be deleted here"
 msgstr "사이트 자체 앱은 여기서 제거할 수 없습니다"
 
-#: r2/controllers/api.py:5541
+#: r2/controllers/api.py:5567
 msgid "give the feed's http(s) address"
 msgstr "http(s) 피드 주소를 입력하세요"
 
-#: r2/controllers/api.py:5550
+#: r2/controllers/api.py:5576
 msgid "pick one of the AI labels"
 msgstr "AI 라벨 중 하나를 고르세요"
 
-#: r2/controllers/api.py:5554
+#: r2/controllers/api.py:5580
 #, python-format
 msgid "/v/%(vault)s doesn't accept %(label)s posts"
 msgstr "/v/%(vault)s 볼트는 %(label)s 게시물을 받지 않습니다"
 
-#: r2/controllers/api.py:5560
+#: r2/controllers/api.py:5586
 msgid "give the bot account a valid username"
 msgstr "봇 계정에 쓸 올바른 사용자 이름을 입력하세요"
 
-#: r2/controllers/api.py:5569
+#: r2/controllers/api.py:5595
 msgid "that account is suspended or deleted"
 msgstr "이 계정은 정지되었거나 삭제되었습니다"
 
-#: r2/controllers/api.py:5576 r2/controllers/api.py:5591
+#: r2/controllers/api.py:5602 r2/controllers/api.py:5617
 msgid "no such feed"
 msgstr "해당 피드가 없습니다"
 
-#: r2/controllers/api.py:5614
+#: r2/controllers/api.py:5640
 msgid "give a domain"
 msgstr "도메인을 입력하세요"
 
-#: r2/controllers/api.py:5620
+#: r2/controllers/api.py:5646
 msgid "choose what the ban does"
 msgstr "차단 방식을 선택하세요"
 
-#: r2/controllers/api.py:5623
+#: r2/controllers/api.py:5649
 msgid "give a reason (members see it when the link is refused)"
 msgstr "사유를 입력하세요(링크가 거부될 때 회원에게 표시됩니다)"
 
-#: r2/controllers/api.py:5628
+#: r2/controllers/api.py:5654
 msgid "that's not a domain"
 msgstr "도메인이 아닙니다"
 
-#: r2/controllers/api.py:5655 r2/controllers/api.py:5674 r2/controllers/api.py:5691 r2/controllers/api.py:5709
+#: r2/controllers/api.py:5681 r2/controllers/api.py:5700 r2/controllers/api.py:5717 r2/controllers/api.py:5735
 msgid "no such ticket"
 msgstr "해당 문의가 없습니다"
 
-#: r2/controllers/api.py:5722
+#: r2/controllers/api.py:5748
 msgid "they can't reply in this category"
 msgstr "이 카테고리에서는 답변할 수 없습니다"
 
-#: r2/controllers/api.py:5742
+#: r2/controllers/api.py:5768
 msgid "not on the employees list"
 msgstr "직원 목록에 없습니다"
 
-#: r2/controllers/api.py:5794
+#: r2/controllers/api.py:5820
 msgid "saved; CleanTalk needs an access key to work"
 msgstr "저장됨. CleanTalk에는 액세스 키가 필요합니다"
 
-#: r2/controllers/api.py:5797
+#: r2/controllers/api.py:5823
 #, python-format
 msgid "saved; CleanTalk says: %(problem)s"
 msgstr "저장됨. CleanTalk 응답: %(problem)s"
 
-#: r2/controllers/api.py:5799
+#: r2/controllers/api.py:5825
 msgid "saved; the CleanTalk key works"
 msgstr "저장됨. CleanTalk 키가 작동합니다"
 
-#: r2/controllers/api.py:5836
+#: r2/controllers/api.py:5862
 msgid "that isn't a release with an installer"
 msgstr "설치 프로그램이 있는 릴리스가 아닙니다"
 
-#: r2/controllers/api.py:5839
+#: r2/controllers/api.py:5865
 msgid "a server is updating now; wait for it to finish"
 msgstr "지금 서버를 업데이트하고 있습니다. 끝날 때까지 기다리세요"
 
-#: r2/controllers/api.py:5941
+#: r2/controllers/api.py:5967
 msgid "Copy the key now; it isn't shown again."
 msgstr "키를 지금 복사하세요. 다시 표시되지 않습니다."
 
-#: r2/controllers/api.py:5950
+#: r2/controllers/api.py:5976
 msgid "tippr-backup isn't installed on this server (re-run the installer)."
 msgstr "이 서버에 tippr-backup이 설치되어 있지 않습니다(설치 프로그램을 다시 실행하세요)."
 
-#: r2/controllers/api.py:5955
+#: r2/controllers/api.py:5981
 msgid "no such backup"
 msgstr "해당 백업이 없습니다"
 
-#: r2/controllers/api.py:5960
+#: r2/controllers/api.py:5986
 #, python-format
 msgid "Type this site's domain (%(domain)s) to confirm."
 msgstr "확인하려면 이 사이트의 도메인(%(domain)s)을 입력하세요."
 
-#: r2/controllers/api.py:5973
+#: r2/controllers/api.py:5999
 msgid "Enter the other server's address and its transfer key."
 msgstr "다른 서버의 주소와 전송 키를 입력하세요."
 
-#: r2/controllers/api.py:5977
+#: r2/controllers/api.py:6003
 msgid "That isn't a backup name."
 msgstr "백업 이름이 아닙니다."
 
-#: r2/controllers/api.py:5998
+#: r2/controllers/api.py:6024
 msgid "tippr test email"
 msgstr "tippr 테스트 이메일"
 
-#: r2/controllers/api.py:5999
+#: r2/controllers/api.py:6025
 #, python-format
 msgid "This is a test message from %(domain)s. Email is working."
 msgstr "%(domain)s에서 보낸 테스트 메시지입니다. 이메일이 작동합니다."
 
-#: r2/controllers/api.py:6003
+#: r2/controllers/api.py:6029
 #, python-format
 msgid "failed: %(error)s"
 msgstr "오류: %(error)s"
 
-#: r2/controllers/api.py:6005
+#: r2/controllers/api.py:6031
 #, python-format
 msgid "sent to %(address)s"
 msgstr "%(address)s(으)로 보냈습니다"
 
-#: r2/controllers/api.py:6038
+#: r2/controllers/api.py:6064
 msgid "no gold to take"
 msgstr "가져갈 골드 없음"
 
-#: r2/controllers/api.py:6202 r2/controllers/api.py:6232
+#: r2/controllers/api.py:6228 r2/controllers/api.py:6258
 msgid "that's as many authenticator apps as an account can have"
 msgstr "한 계정에 둘 수 있는 인증 앱의 최대 개수입니다"
 
-#: r2/controllers/api.py:6280
+#: r2/controllers/api.py:6306
 msgid "That code didn't work. Codes follow the clock, so check that your phone sets its time automatically."
 msgstr ""
 
-#: r2/controllers/api.py:6283
+#: r2/controllers/api.py:6309
 msgid "enter a code from one of your methods first"
 msgstr "먼저 등록한 방법 중 하나의 코드를 입력하세요"
 
-#: r2/controllers/api.py:6286
+#: r2/controllers/api.py:6312
 #, fuzzy
 #| msgid "That code isn't right. Try again."
 msgid "That password isn't right. Try again."
 msgstr "코드가 맞지 않습니다. 다시 시도하세요."
 
-#: r2/controllers/api.py:6287
+#: r2/controllers/api.py:6313
 msgid "enter your password first"
 msgstr "먼저 비밀번호를 입력하세요"
 
-#: r2/controllers/api.py:6305
+#: r2/controllers/api.py:6331
 msgid "that passkey couldn't be added"
 msgstr "그 패스키를 추가하지 못했습니다"
 
-#: r2/controllers/api.py:6343
+#: r2/controllers/api.py:6369
 msgid "that passkey wasn't accepted"
 msgstr "그 패스키가 승인되지 않았습니다"
 
-#: r2/controllers/api.py:6504
+#: r2/controllers/api.py:6530
 #, python-format
 msgid "accounts need to be %(n)d days old"
 msgstr "계정이 생성된 지 %(n)d일 이상이어야 합니다"
 
-#: r2/controllers/api.py:6508
+#: r2/controllers/api.py:6534
 #, python-format
 msgid "accounts need %(n)d karma"
 msgstr "계정에 카르마가 %(n)d 이상 필요합니다"
 
-#: r2/controllers/api.py:6511
+#: r2/controllers/api.py:6537
 msgid "verify your email address first"
 msgstr "먼저 이메일 주소를 인증하세요"
 
-#: r2/controllers/api.py:6553 r2/lib/errors.py:159
+#: r2/controllers/api.py:6579 r2/lib/errors.py:159
 msgid "this app can not be modified from this interface"
 msgstr "이 앱은 이 인터페이스에서 수정할 수 없습니다"
 
-#: r2/controllers/api.py:6560 r2/lib/errors.py:136
+#: r2/controllers/api.py:6586 r2/lib/errors.py:136
 msgid "invalid client id"
 msgstr "올바르지 않은 클라이언트 아이디"
 
-#: r2/controllers/api.py:6563
+#: r2/controllers/api.py:6589
 msgid "cannot update deleted app"
 msgstr "삭제된 앱을 업데이트 할 수 없습니다."
 
-#: r2/controllers/api.py:6566
+#: r2/controllers/api.py:6592
 msgid "app does not belong to you"
 msgstr "앱에 대한 소유권이 없습니다."
 
-#: r2/controllers/api.py:6574
+#: r2/controllers/api.py:6600
 msgid "application updated"
 msgstr "어플리케이션이 업데이트되었습니다."
 
-#: r2/controllers/api.py:6598
+#: r2/controllers/api.py:6624
 msgid "application created"
 msgstr "어플리케이션이 만들어졌습니다."
 
-#: r2/controllers/api.py:6633
+#: r2/controllers/api.py:6659
 msgid "developer added"
 msgstr "개발자가 추가되었습니다."
 
@@ -1450,7 +1450,7 @@ msgstr "인피드 광고 단위 ID"
 msgid "AdSense: Auto ads pages"
 msgstr ""
 
-#: r2/lib/ai_content.py:35 r2/lib/scales.py:49
+#: r2/lib/ai_content.py:35 r2/lib/scales.py:58
 msgid "human-made"
 msgstr "사람이 만듦"
 
@@ -1458,7 +1458,7 @@ msgstr "사람이 만듦"
 msgid "AI-assisted"
 msgstr "AI 지원"
 
-#: r2/lib/ai_content.py:37
+#: r2/lib/ai_content.py:37 r2/lib/scales.py:58
 msgid "AI-generated"
 msgstr "AI 생성"
 
@@ -3280,59 +3280,45 @@ msgid "comment"
 msgid_plural "comments"
 msgstr[0] "댓글"
 
-#: r2/lib/scales.py:48
-#, fuzzy
-#| msgid "help"
-msgid "helpful"
-msgstr "도움말"
+#: r2/lib/scales.py:59
+msgid "quick overview"
+msgstr "빠른 개요"
 
-#: r2/lib/scales.py:48
-#, fuzzy
-#| msgid "help"
-msgid "unhelpful"
-msgstr "도움말"
+#: r2/lib/scales.py:59
+msgid "deep dive"
+msgstr "심층 분석"
 
-#: r2/lib/scales.py:49
-msgid "probably AI"
-msgstr ""
-
-#: r2/lib/scales.py:50
-msgid "beginner-friendly"
-msgstr ""
-
-#: r2/lib/scales.py:50
-msgid "in-depth"
-msgstr ""
-
-#: r2/lib/scales.py:51
+#: r2/lib/scales.py:60
 msgid "practical"
-msgstr ""
+msgstr "실용적"
 
-#: r2/lib/scales.py:51
-#, fuzzy
-#| msgid "just now"
-msgid "just for fun"
-msgstr "방금 전"
+#: r2/lib/scales.py:60
+msgid "thought piece"
+msgstr "생각거리"
 
-#: r2/lib/scales.py:53
-#, fuzzy
-#| msgid "source code"
-msgid "well-sourced"
-msgstr "소스 코드"
+#: r2/lib/scales.py:62
+msgid "data-driven"
+msgstr "데이터 기반"
 
-#: r2/lib/scales.py:53
-msgid "opinion"
-msgstr ""
+#: r2/lib/scales.py:62
+msgid "personal experience"
+msgstr "개인 경험"
 
-#: r2/lib/scales.py:54
-msgid "calm"
-msgstr ""
+#: r2/lib/scales.py:63
+msgid "matter-of-fact"
+msgstr "담담함"
 
-#: r2/lib/scales.py:54
-#, fuzzy
-#| msgid "created"
-msgid "heated"
-msgstr "생성일"
+#: r2/lib/scales.py:63
+msgid "passionate"
+msgstr "열정적"
+
+#: r2/lib/scales.py:64
+msgid "niche"
+msgstr "틈새"
+
+#: r2/lib/scales.py:64
+msgid "broad"
+msgstr "폭넓음"
 
 #: r2/lib/site_info.py:146
 msgid "That isn't an image tippr can read."
@@ -6249,7 +6235,7 @@ msgstr "이 매개변수는 삽입한 뒤에도 변경할 수 있습니다."
 msgid "Copy this code and paste it into your website:"
 msgstr "이 코드를 복사해 웹사이트에 붙여넣으세요:"
 
-#: r2/public/static/js/enhancements.js:87 r2/public/static/js/markdown-toolbar.js:275 r2/public/static/js/scales.js:38
+#: r2/public/static/js/enhancements.js:87 r2/public/static/js/markdown-toolbar.js:275 r2/public/static/js/scales.js:40
 msgid "loading…"
 msgstr "불러오는 중…"
 
@@ -6925,59 +6911,79 @@ msgstr "범주 없음"
 msgid "new category"
 msgstr "새 카테고리"
 
-#: r2/public/static/js/scales.js:37 r2/templates/printablebuttons.html:376
+#: r2/public/static/js/scales.js:39 r2/templates/printablebuttons.html:376
 msgid "scales"
-msgstr ""
+msgstr "저울"
 
-#: r2/public/static/js/scales.js:43 r2/public/static/js/scales.js:54
-#, fuzzy
-#| msgid "an error occurred (status: %(status)s)"
+#: r2/public/static/js/scales.js:45 r2/public/static/js/scales.js:56
 msgid "an error occurred"
-msgstr "오류가 발생했습니다 (상태: %(status)s)"
+msgstr "오류가 발생했습니다"
 
-#: r2/public/static/js/scales.js:81
-#, fuzzy, python-format
-#| msgid "%(num)s month"
-#| msgid_plural "%(num)s months"
-msgid "%(num)s tip"
-msgid_plural "%(num)s tips"
-msgstr[0] "%(num)s개월"
-
-#: r2/public/static/js/scales.js:85
-#, fuzzy
-#| msgid "not yet"
-msgid "no tips yet"
-msgstr "아직"
-
-#: r2/public/static/js/scales.js:97 r2/public/static/js/scales.js:172
-msgid "fewer scales"
-msgstr ""
-
-#: r2/public/static/js/scales.js:97 r2/public/static/js/scales.js:172
-#, fuzzy
-#| msgid "more comments"
-msgid "more scales"
-msgstr "더 많은 댓글"
-
-#: r2/public/static/js/scales.js:102
+#: r2/public/static/js/scales.js:89
 msgid "How others have tipped your post."
-msgstr ""
+msgstr "다른 사람들이 내 게시물을 평가한 결과입니다."
+
+#: r2/public/static/js/scales.js:91
+msgid "As a moderator, you see every scale’s tips without tipping."
+msgstr "모더레이터는 직접 평가하지 않아도 모든 저울의 평가를 볼 수 있습니다."
+
+#: r2/public/static/js/scales.js:93
+msgid "You saw the results, so you can’t tip this post’s scales."
+msgstr "결과를 봤기 때문에 이 게시물의 저울은 더 이상 평가할 수 없습니다."
+
+#: r2/public/static/js/scales.js:97
+msgid "Tip a scale to see how others tipped it, or"
+msgstr "저울을 평가하면 다른 사람들의 평가를 볼 수 있습니다. 또는"
+
+#: r2/public/static/js/scales.js:99
+msgid "see the results"
+msgstr "결과 보기"
+
+#: r2/public/static/js/scales.js:101
+msgid "(you can’t tip after)."
+msgstr "(이후에는 평가할 수 없습니다)."
 
 #: r2/public/static/js/scales.js:104
-msgid "Tip a scale to see how others tipped it."
-msgstr ""
-
-#: r2/public/static/js/scales.js:107
-#, fuzzy
-#| msgid "create rule"
 msgid "Breaks a rule?"
-msgstr "규칙 만들기"
+msgstr "규칙을 어겼나요?"
 
-#: r2/public/static/js/scales.js:109
-#, fuzzy
-#| msgid "report"
+#: r2/public/static/js/scales.js:106
 msgid "report it"
 msgstr "신고하기"
+
+#: r2/public/static/js/scales.js:134
+msgid "no tips yet"
+msgstr "아직 평가가 없습니다"
+
+#: r2/public/static/js/scales.js:136
+#, python-format
+msgid "%(num)s tip"
+msgid_plural "%(num)s tips"
+msgstr[0] "평가 %(num)s개"
+
+#: r2/public/static/js/scales.js:141 r2/public/static/js/scales.js:145
+#, python-format
+msgid "%(num)s %(side)s"
+msgstr "%(side)s %(num)s"
+
+#: r2/public/static/js/scales.js:147
+#, python-format
+msgid "%(num)s tip so far"
+msgid_plural "%(num)s tips so far"
+msgstr[0] "지금까지 평가 %(num)s개"
+
+#: r2/public/static/js/scales.js:151
+msgid "evenly split"
+msgstr "동률"
+
+#: r2/public/static/js/scales.js:155
+#, python-format
+msgid "%(percent)s %(side)s"
+msgstr "%(side)s %(percent)s"
+
+#: r2/public/static/js/scales.js:180
+msgid "See how everyone tipped this post? You won’t be able to tip its scales or change your tips afterwards."
+msgstr "모두의 평가를 보시겠어요? 이후에는 이 게시물의 저울을 평가하거나 내 평가를 바꿀 수 없습니다."
 
 #: r2/public/static/js/sponsored.js:91
 msgid "+ close"

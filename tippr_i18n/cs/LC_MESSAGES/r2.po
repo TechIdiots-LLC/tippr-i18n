@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tippr\n"
 "Report-Msgid-Bugs-To: https://github.com/TechIdiots-LLC/tippr-i18n/issues\n"
-"POT-Creation-Date: 2026-10-25 10:54-0400\n"
+"POT-Creation-Date: 2026-10-25 20:48-0400\n"
 "PO-Revision-Date: 2017-01-23 14:32-0500\n"
 "Last-Translator: tippr translators\n"
 "Language-Team: Czech\n"
@@ -20,7 +20,7 @@ msgstr ""
 msgid "Choose an image of at most 1 MB."
 msgstr "Vyberte obrázek o velikosti nejvýše 1 MB."
 
-#: r2/controllers/api.py:223 r2/controllers/api.py:249 r2/controllers/api.py:4436 r2/controllers/api.py:4506 r2/controllers/listingcontroller.py:766 r2/lib/pages/pages.py:6422
+#: r2/controllers/api.py:223 r2/controllers/api.py:249 r2/controllers/api.py:4462 r2/controllers/api.py:4532 r2/controllers/listingcontroller.py:766 r2/lib/pages/pages.py:6422
 msgid "API"
 msgstr "API"
 
@@ -58,437 +58,437 @@ msgstr "zadejte dvoufázový kód tohoto účtu"
 msgid "that account isn't available to switch to; add it again"
 msgstr "na tento účet nelze přepnout; přidejte ho znovu"
 
-#: r2/controllers/api.py:581
+#: r2/controllers/api.py:607
 msgid "your message has been delivered"
 msgstr "vaše zpráva byla doručena"
 
-#: r2/controllers/api.py:803
+#: r2/controllers/api.py:829
 msgid "no title found"
 msgstr "název nenalezen"
 
-#: r2/controllers/api.py:897 r2/controllers/linked_logins.py:184 r2/controllers/linked_logins.py:232 r2/controllers/linked_logins.py:252 r2/controllers/linked_logins.py:330
+#: r2/controllers/api.py:923 r2/controllers/linked_logins.py:184 r2/controllers/linked_logins.py:232 r2/controllers/linked_logins.py:252 r2/controllers/linked_logins.py:330
 msgid "That sign-in took too long. Please start again."
 msgstr "Přihlášení trvalo příliš dlouho. Začněte prosím znovu."
 
-#: r2/controllers/api.py:902
+#: r2/controllers/api.py:928
 msgid "That account is linked already: sign in with it."
 msgstr "Tento účet je už propojený: přihlaste se jím."
 
-#: r2/controllers/api.py:1436 r2/controllers/api.py:1817 r2/controllers/api.py:2719 r2/controllers/api.py:3019 r2/controllers/api.py:3346 r2/controllers/api.py:4228 r2/controllers/api.py:4284 r2/controllers/api.py:4338 r2/controllers/api.py:4571 r2/controllers/api.py:4576 r2/controllers/api.py:4811 r2/controllers/api.py:4876 r2/controllers/api.py:4954 r2/controllers/api.py:5020 r2/controllers/api.py:5093 r2/controllers/api.py:5184 r2/controllers/api.py:5216 r2/controllers/api.py:5236 r2/controllers/api.py:5750 r2/controllers/api.py:5790 r2/controllers/api.py:6024 r2/controllers/api.py:6042 r2/controllers/api.py:6390 r2/lib/pages/pages.py:6313
+#: r2/controllers/api.py:1462 r2/controllers/api.py:1843 r2/controllers/api.py:2745 r2/controllers/api.py:3045 r2/controllers/api.py:3372 r2/controllers/api.py:4254 r2/controllers/api.py:4310 r2/controllers/api.py:4364 r2/controllers/api.py:4597 r2/controllers/api.py:4602 r2/controllers/api.py:4837 r2/controllers/api.py:4902 r2/controllers/api.py:4980 r2/controllers/api.py:5046 r2/controllers/api.py:5119 r2/controllers/api.py:5210 r2/controllers/api.py:5242 r2/controllers/api.py:5262 r2/controllers/api.py:5776 r2/controllers/api.py:5816 r2/controllers/api.py:6050 r2/controllers/api.py:6068 r2/controllers/api.py:6416 r2/lib/pages/pages.py:6313
 msgid "saved"
 msgstr "uložené"
 
-#: r2/controllers/api.py:1506
+#: r2/controllers/api.py:1532
 msgid "all other sessions have been logged out"
 msgstr "všechny ostatní relace byly odhlášeny"
 
-#: r2/controllers/api.py:1565
+#: r2/controllers/api.py:1591
 msgid "you should be getting a verification email shortly."
 msgstr "za chvíli byste měli dostat e-mail pro ověření."
 
-#: r2/controllers/api.py:1567 r2/controllers/api.py:1580
+#: r2/controllers/api.py:1593 r2/controllers/api.py:1606
 msgid "your email has been updated"
 msgstr "váš e-mail byl změněn"
 
-#: r2/controllers/api.py:1615
+#: r2/controllers/api.py:1641
 msgid "your password has been updated"
 msgstr "vaše heslo bylo změněno"
 
-#: r2/controllers/api.py:2074 r2/lib/menus.py:196 r2/templates/adminserverstatus.html:165
+#: r2/controllers/api.py:2100 r2/lib/menus.py:196 r2/templates/adminserverstatus.html:165
 msgid "reported"
 msgstr "nahlášené"
 
-#: r2/controllers/api.py:2497 r2/lib/support.py:91
+#: r2/controllers/api.py:2523 r2/lib/support.py:91
 msgid "replied"
 msgstr "odpovězeno"
 
-#: r2/controllers/api.py:2702
+#: r2/controllers/api.py:2728
 msgid "validation errors"
 msgstr "chyby ověření"
 
-#: r2/controllers/api.py:2822 r2/controllers/api.py:2849 r2/controllers/api.py:2876 r2/controllers/listingcontroller.py:1048 r2/lib/menus.py:195 r2/public/static/js/tippr.js:235 r2/templates/adminapps.html:51 r2/templates/adminuser.html:59 r2/templates/deleteduserinterstitial.html:34 r2/templates/printablebuttons.html:41 r2/templates/printablebuttons.html:586 r2/templates/vaultstylesheetbase.html:47
+#: r2/controllers/api.py:2848 r2/controllers/api.py:2875 r2/controllers/api.py:2902 r2/controllers/listingcontroller.py:1048 r2/lib/menus.py:195 r2/public/static/js/tippr.js:235 r2/templates/adminapps.html:51 r2/templates/adminuser.html:59 r2/templates/deleteduserinterstitial.html:34 r2/templates/printablebuttons.html:41 r2/templates/printablebuttons.html:586 r2/templates/vaultstylesheetbase.html:47
 msgid "deleted"
 msgstr "smazané"
 
-#: r2/controllers/api.py:2953
+#: r2/controllers/api.py:2979
 msgid "bad image name"
 msgstr "špatný název obrázku"
 
-#: r2/controllers/api.py:2959
+#: r2/controllers/api.py:2985
 #, python-format
 msgid "too many images (you only get %d)"
 msgstr "příliš mnoho obrázků (můžete mít pouze %d)"
 
-#: r2/controllers/api.py:2964 r2/controllers/api.py:2988
+#: r2/controllers/api.py:2990 r2/controllers/api.py:3014
 msgid "Invalid image or general image error"
 msgstr "Neplatný obrázek nebo obecná chyba obrázku"
 
-#: r2/controllers/api.py:2969
+#: r2/controllers/api.py:2995
 #, python-format
 msgid "must be %dx%d pixels"
 msgstr "musí být %dx%d pixelů"
 
-#: r2/controllers/api.py:2973
+#: r2/controllers/api.py:2999
 msgid "10:3 aspect ratio required"
 msgstr "je vyžadován poměr stran 10:3"
 
-#: r2/controllers/api.py:2976
+#: r2/controllers/api.py:3002
 #, python-format
 msgid "max %dx%d pixels"
 msgstr "maximálně %dx%d pixelů"
 
-#: r2/controllers/api.py:2979
+#: r2/controllers/api.py:3005
 #, python-format
 msgid "min %dx%d pixels"
 msgstr "minimálně %dx%d pixelů"
 
-#: r2/controllers/api.py:4040
+#: r2/controllers/api.py:4066
 msgid "an email will be sent to that account's address shortly"
 msgstr "za chvíli bude na adresu účtu odeslán e-mail"
 
-#: r2/controllers/api.py:4043
+#: r2/controllers/api.py:4069
 msgid "try again tomorrow"
 msgstr "zkuste znovu zítra"
 
-#: r2/controllers/api.py:4090
+#: r2/controllers/api.py:4116
 msgid "password updated"
 msgstr "heslo aktualizováno"
 
-#: r2/controllers/api.py:4296 r2/controllers/api.py:4527
+#: r2/controllers/api.py:4322 r2/controllers/api.py:4553
 msgid "invalid css class"
 msgstr "neplatná třída css"
 
-#: r2/controllers/api.py:4299 r2/controllers/api.py:4530
+#: r2/controllers/api.py:4325 r2/controllers/api.py:4556
 msgid "too many css classes"
 msgstr "příliš mnoho tříd css"
 
-#: r2/controllers/api.py:4551
+#: r2/controllers/api.py:4577
 msgid "max flair templates reached"
 msgstr "dosaženo maxima šablon stylu"
 
-#: r2/controllers/api.py:5016
+#: r2/controllers/api.py:5042
 #, python-format
 msgid "saved, but these aren't on until their keys are filled in: %(names)s"
 msgstr "uloženo, ale tyto nebudou fungovat, dokud nevyplníte jejich klíče: %(names)s"
 
-#: r2/controllers/api.py:5038
+#: r2/controllers/api.py:5064
 msgid "the keys work"
 msgstr "klíče fungují"
 
-#: r2/controllers/api.py:5039 r2/controllers/api.py:5056
+#: r2/controllers/api.py:5065 r2/controllers/api.py:5082
 #, python-format
 msgid "didn't work: %(error)s"
 msgstr "nepovedlo se: %(error)s"
 
-#: r2/controllers/api.py:5044
+#: r2/controllers/api.py:5070
 msgid "no such payment"
 msgstr "taková platba neexistuje"
 
-#: r2/controllers/api.py:5059 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminprivacy.html:26 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminuser.html:89 r2/templates/adminusers.html:77 r2/templates/adminvaults.html:50
+#: r2/controllers/api.py:5085 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminprivacy.html:26 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminuser.html:89 r2/templates/adminusers.html:77 r2/templates/adminvaults.html:50
 msgid "status"
 msgstr "stav"
 
-#: r2/controllers/api.py:5084 r2/controllers/linked_logins.py:93 r2/controllers/linked_logins.py:187 r2/lib/pages/pages.py:1388 r2/lib/pages/pages.py:1438 r2/templates/createvault.html:57 r2/templates/goldpayment.html:168 r2/templates/linkedsignin.html:41 r2/templates/listingchooser.html:69 r2/templates/prefapps.html:153 r2/templates/prefapps.html:348
+#: r2/controllers/api.py:5110 r2/controllers/linked_logins.py:93 r2/controllers/linked_logins.py:187 r2/lib/pages/pages.py:1388 r2/lib/pages/pages.py:1438 r2/templates/createvault.html:57 r2/templates/goldpayment.html:168 r2/templates/linkedsignin.html:41 r2/templates/listingchooser.html:69 r2/templates/prefapps.html:153 r2/templates/prefapps.html:348
 msgid "name"
 msgstr "název"
 
-#: r2/controllers/api.py:5089
+#: r2/controllers/api.py:5115
 #, python-format
 msgid "saved, but these aren't on until their ID and secret are filled in: %(names)s"
 msgstr "uloženo, ale tyto nebudou fungovat, dokud nevyplníte jejich ID a tajný klíč: %(names)s"
 
-#: r2/controllers/api.py:5198 r2/controllers/api.py:5224
+#: r2/controllers/api.py:5224 r2/controllers/api.py:5250
 msgid "this site's live config is managed in ZooKeeper"
 msgstr "konfigurace tohoto webu za běhu se spravuje v ZooKeeperu"
 
-#: r2/controllers/api.py:5202
+#: r2/controllers/api.py:5228
 msgid "unknown setting"
 msgstr "neznámé nastavení"
 
-#: r2/controllers/api.py:5210 r2/controllers/api.py:5234
+#: r2/controllers/api.py:5236 r2/controllers/api.py:5260
 #, python-format
 msgid "not saved: %(error)s"
 msgstr "neuloženo: %(error)s"
 
-#: r2/controllers/api.py:5240
+#: r2/controllers/api.py:5266
 #, python-format
 msgid "%(saved)d saved; %(failed)d not saved (see below)"
 msgstr "uloženo: %(saved)d; neuloženo: %(failed)d (viz níže)"
 
-#: r2/controllers/api.py:5246
+#: r2/controllers/api.py:5272
 msgid "nothing changed"
 msgstr "nic se nezměnilo"
 
-#: r2/controllers/api.py:5262
+#: r2/controllers/api.py:5288
 #, python-format
 msgid "couldn't empty: %(servers)s"
 msgstr "nepodařilo se vyprázdnit: %(servers)s"
 
-#: r2/controllers/api.py:5287
+#: r2/controllers/api.py:5313
 msgid "every account has been checked"
 msgstr "všechny účty byly zkontrolovány"
 
-#: r2/controllers/api.py:5299
+#: r2/controllers/api.py:5325
 msgid "select some accounts"
 msgstr "vyberte nějaké účty"
 
-#: r2/controllers/api.py:5346 r2/controllers/api.py:5452
+#: r2/controllers/api.py:5372 r2/controllers/api.py:5478
 msgid "no such account"
 msgstr "takový účet neexistuje"
 
-#: r2/controllers/api.py:5349 r2/controllers/api.py:5444
+#: r2/controllers/api.py:5375 r2/controllers/api.py:5470
 msgid "unknown action"
 msgstr "neznámá akce"
 
-#: r2/controllers/api.py:5363
+#: r2/controllers/api.py:5389
 #, fuzzy
 #| msgid "no permissions"
 msgid "choose a permission"
 msgstr "bez oprávnění"
 
-#: r2/controllers/api.py:5377
+#: r2/controllers/api.py:5403
 msgid "not on admins (take them off the employees list on /admin/config first)"
 msgstr "nelze u administrátorů (nejprve je odeberte ze seznamu zaměstnanců na /admin/config)"
 
-#: r2/controllers/api.py:5381
+#: r2/controllers/api.py:5407
 msgid "the account is deleted"
 msgstr "účet je smazaný"
 
-#: r2/controllers/api.py:5384
+#: r2/controllers/api.py:5410
 msgid "give a reason (it's logged, and a timeout's reason is sent to them)"
 msgstr "uveďte důvod (zaznamená se a důvod časového omezení se uživateli odešle)"
 
-#: r2/controllers/api.py:5388 r2/controllers/api.py:5469
+#: r2/controllers/api.py:5414 r2/controllers/api.py:5495
 msgid "tick the box to confirm"
 msgstr "pro potvrzení zaškrtněte políčko"
 
-#: r2/controllers/api.py:5391
+#: r2/controllers/api.py:5417
 msgid "choose whether to keep or delete their posts"
 msgstr "vyberte, zda jeho příspěvky ponechat, nebo smazat"
 
-#: r2/controllers/api.py:5394
+#: r2/controllers/api.py:5420
 msgid "they have no email address"
 msgstr "uživatel nemá e-mailovou adresu"
 
-#: r2/controllers/api.py:5441 r2/controllers/api.py:5547
+#: r2/controllers/api.py:5467 r2/controllers/api.py:5573
 msgid "no such vault"
 msgstr "takový vault neexistuje"
 
-#: r2/controllers/api.py:5456
+#: r2/controllers/api.py:5482
 msgid "they're already a moderator"
 msgstr "už je moderátor"
 
-#: r2/controllers/api.py:5459
+#: r2/controllers/api.py:5485
 msgid "they're banned from the vault; unban them first"
 msgstr "je ve vaultu zablokován; nejprve zrušte blokování"
 
-#: r2/controllers/api.py:5464
+#: r2/controllers/api.py:5490
 msgid "they aren't a moderator"
 msgstr "není moderátor"
 
-#: r2/controllers/api.py:5476
+#: r2/controllers/api.py:5502
 msgid "unban the vault first"
 msgstr "nejprve zrušte blokování vaultu"
 
-#: r2/controllers/api.py:5495
+#: r2/controllers/api.py:5521
 msgid "no such app"
 msgstr "taková aplikace neexistuje"
 
-#: r2/controllers/api.py:5498
+#: r2/controllers/api.py:5524
 msgid "the site's own apps can't be deleted here"
 msgstr "vlastní aplikace webu zde odebrat nelze"
 
-#: r2/controllers/api.py:5541
+#: r2/controllers/api.py:5567
 msgid "give the feed's http(s) address"
 msgstr "zadejte http(s) adresu kanálu"
 
-#: r2/controllers/api.py:5550
+#: r2/controllers/api.py:5576
 msgid "pick one of the AI labels"
 msgstr "vyberte jeden ze štítků AI"
 
-#: r2/controllers/api.py:5554
+#: r2/controllers/api.py:5580
 #, python-format
 msgid "/v/%(vault)s doesn't accept %(label)s posts"
 msgstr "/v/%(vault)s nepřijímá příspěvky se štítkem %(label)s"
 
-#: r2/controllers/api.py:5560
+#: r2/controllers/api.py:5586
 msgid "give the bot account a valid username"
 msgstr "zadejte platné uživatelské jméno pro účet bota"
 
-#: r2/controllers/api.py:5569
+#: r2/controllers/api.py:5595
 msgid "that account is suspended or deleted"
 msgstr "tento účet je pozastavený nebo smazaný"
 
-#: r2/controllers/api.py:5576 r2/controllers/api.py:5591
+#: r2/controllers/api.py:5602 r2/controllers/api.py:5617
 msgid "no such feed"
 msgstr "takový kanál neexistuje"
 
-#: r2/controllers/api.py:5614
+#: r2/controllers/api.py:5640
 msgid "give a domain"
 msgstr "zadejte doménu"
 
-#: r2/controllers/api.py:5620
+#: r2/controllers/api.py:5646
 msgid "choose what the ban does"
 msgstr "vyberte, co blokování dělá"
 
-#: r2/controllers/api.py:5623
+#: r2/controllers/api.py:5649
 msgid "give a reason (members see it when the link is refused)"
 msgstr "uveďte důvod (členové ho uvidí, když je odkaz odmítnut)"
 
-#: r2/controllers/api.py:5628
+#: r2/controllers/api.py:5654
 msgid "that's not a domain"
 msgstr "to není doména"
 
-#: r2/controllers/api.py:5655 r2/controllers/api.py:5674 r2/controllers/api.py:5691 r2/controllers/api.py:5709
+#: r2/controllers/api.py:5681 r2/controllers/api.py:5700 r2/controllers/api.py:5717 r2/controllers/api.py:5735
 msgid "no such ticket"
 msgstr "takový požadavek na podporu neexistuje"
 
-#: r2/controllers/api.py:5722
+#: r2/controllers/api.py:5748
 msgid "they can't reply in this category"
 msgstr "v této kategorii nemůže odpovídat"
 
-#: r2/controllers/api.py:5742
+#: r2/controllers/api.py:5768
 msgid "not on the employees list"
 msgstr "není na seznamu zaměstnanců"
 
-#: r2/controllers/api.py:5794
+#: r2/controllers/api.py:5820
 msgid "saved; CleanTalk needs an access key to work"
 msgstr "uloženo; CleanTalk potřebuje přístupový klíč"
 
-#: r2/controllers/api.py:5797
+#: r2/controllers/api.py:5823
 #, python-format
 msgid "saved; CleanTalk says: %(problem)s"
 msgstr "uloženo; CleanTalk hlásí: %(problem)s"
 
-#: r2/controllers/api.py:5799
+#: r2/controllers/api.py:5825
 msgid "saved; the CleanTalk key works"
 msgstr "uloženo; klíč CleanTalk funguje"
 
-#: r2/controllers/api.py:5836
+#: r2/controllers/api.py:5862
 msgid "that isn't a release with an installer"
 msgstr "to není vydání s instalátorem"
 
-#: r2/controllers/api.py:5839
+#: r2/controllers/api.py:5865
 msgid "a server is updating now; wait for it to finish"
 msgstr "právě se aktualizuje server; počkejte, až skončí"
 
-#: r2/controllers/api.py:5941
+#: r2/controllers/api.py:5967
 msgid "Copy the key now; it isn't shown again."
 msgstr "Zkopírujte si klíč hned: znovu se už nezobrazí."
 
-#: r2/controllers/api.py:5950
+#: r2/controllers/api.py:5976
 msgid "tippr-backup isn't installed on this server (re-run the installer)."
 msgstr "tippr-backup není na tomto serveru nainstalován (spusťte instalátor znovu)."
 
-#: r2/controllers/api.py:5955
+#: r2/controllers/api.py:5981
 msgid "no such backup"
 msgstr "taková záloha neexistuje"
 
-#: r2/controllers/api.py:5960
+#: r2/controllers/api.py:5986
 #, python-format
 msgid "Type this site's domain (%(domain)s) to confirm."
 msgstr "Pro potvrzení zadejte doménu tohoto webu (%(domain)s)."
 
-#: r2/controllers/api.py:5973
+#: r2/controllers/api.py:5999
 msgid "Enter the other server's address and its transfer key."
 msgstr "Zadejte adresu druhého serveru a jeho přenosový klíč."
 
-#: r2/controllers/api.py:5977
+#: r2/controllers/api.py:6003
 msgid "That isn't a backup name."
 msgstr "To není název zálohy."
 
-#: r2/controllers/api.py:5998
+#: r2/controllers/api.py:6024
 msgid "tippr test email"
 msgstr "testovací e-mail tippr"
 
-#: r2/controllers/api.py:5999
+#: r2/controllers/api.py:6025
 #, python-format
 msgid "This is a test message from %(domain)s. Email is working."
 msgstr "Toto je testovací zpráva z %(domain)s. E-mail funguje."
 
-#: r2/controllers/api.py:6003
+#: r2/controllers/api.py:6029
 #, python-format
 msgid "failed: %(error)s"
 msgstr "chyba: %(error)s"
 
-#: r2/controllers/api.py:6005
+#: r2/controllers/api.py:6031
 #, python-format
 msgid "sent to %(address)s"
 msgstr "odesláno na %(address)s"
 
-#: r2/controllers/api.py:6038
+#: r2/controllers/api.py:6064
 msgid "no gold to take"
 msgstr "žádné zlato ke vzetí"
 
-#: r2/controllers/api.py:6202 r2/controllers/api.py:6232
+#: r2/controllers/api.py:6228 r2/controllers/api.py:6258
 msgid "that's as many authenticator apps as an account can have"
 msgstr "to je nejvíc ověřovacích aplikací, kolik účet může mít"
 
-#: r2/controllers/api.py:6280
+#: r2/controllers/api.py:6306
 msgid "That code didn't work. Codes follow the clock, so check that your phone sets its time automatically."
 msgstr ""
 
-#: r2/controllers/api.py:6283
+#: r2/controllers/api.py:6309
 msgid "enter a code from one of your methods first"
 msgstr "nejprve zadejte kód z jedné ze svých metod"
 
-#: r2/controllers/api.py:6286
+#: r2/controllers/api.py:6312
 #, fuzzy
 #| msgid "That code isn't right. Try again."
 msgid "That password isn't right. Try again."
 msgstr "Tento kód nesedí. Zkuste to znovu."
 
-#: r2/controllers/api.py:6287
+#: r2/controllers/api.py:6313
 msgid "enter your password first"
 msgstr "nejprve zadejte své heslo"
 
-#: r2/controllers/api.py:6305
+#: r2/controllers/api.py:6331
 msgid "that passkey couldn't be added"
 msgstr "tento přístupový klíč se nepodařilo přidat"
 
-#: r2/controllers/api.py:6343
+#: r2/controllers/api.py:6369
 msgid "that passkey wasn't accepted"
 msgstr "tento přístupový klíč nebyl přijat"
 
-#: r2/controllers/api.py:6504
+#: r2/controllers/api.py:6530
 #, python-format
 msgid "accounts need to be %(n)d days old"
 msgstr "účty musí existovat alespoň %(n)d dní"
 
-#: r2/controllers/api.py:6508
+#: r2/controllers/api.py:6534
 #, python-format
 msgid "accounts need %(n)d karma"
 msgstr "účty potřebují %(n)d karmy"
 
-#: r2/controllers/api.py:6511
+#: r2/controllers/api.py:6537
 msgid "verify your email address first"
 msgstr "nejprve ověřte svou e-mailovou adresu"
 
-#: r2/controllers/api.py:6553 r2/lib/errors.py:159
+#: r2/controllers/api.py:6579 r2/lib/errors.py:159
 msgid "this app can not be modified from this interface"
 msgstr "tuto aplikaci nelze upravit přes toto rozhraní"
 
-#: r2/controllers/api.py:6560 r2/lib/errors.py:136
+#: r2/controllers/api.py:6586 r2/lib/errors.py:136
 msgid "invalid client id"
 msgstr "neplatné id klienta"
 
-#: r2/controllers/api.py:6563
+#: r2/controllers/api.py:6589
 msgid "cannot update deleted app"
 msgstr "nelze aktualizovat smazanou aplikaci"
 
-#: r2/controllers/api.py:6566
+#: r2/controllers/api.py:6592
 msgid "app does not belong to you"
 msgstr "aplikace vám nepatří"
 
-#: r2/controllers/api.py:6574
+#: r2/controllers/api.py:6600
 msgid "application updated"
 msgstr "aplikace aktualizována"
 
-#: r2/controllers/api.py:6598
+#: r2/controllers/api.py:6624
 msgid "application created"
 msgstr "aplikace vytvořena"
 
-#: r2/controllers/api.py:6633
+#: r2/controllers/api.py:6659
 msgid "developer added"
 msgstr "vývojář přidán"
 
@@ -1450,7 +1450,7 @@ msgstr "ID jednotky ve výpisu"
 msgid "AdSense: Auto ads pages"
 msgstr ""
 
-#: r2/lib/ai_content.py:35 r2/lib/scales.py:49
+#: r2/lib/ai_content.py:35 r2/lib/scales.py:58
 msgid "human-made"
 msgstr "vytvořeno lidmi"
 
@@ -1458,7 +1458,7 @@ msgstr "vytvořeno lidmi"
 msgid "AI-assisted"
 msgstr "s pomocí AI"
 
-#: r2/lib/ai_content.py:37
+#: r2/lib/ai_content.py:37 r2/lib/scales.py:58
 msgid "AI-generated"
 msgstr "vytvořeno AI"
 
@@ -3282,59 +3282,45 @@ msgstr[0] "komentář"
 msgstr[1] "komentáře"
 msgstr[2] "komentářů"
 
-#: r2/lib/scales.py:48
-#, fuzzy
-#| msgid "help"
-msgid "helpful"
-msgstr "nápověda"
+#: r2/lib/scales.py:59
+msgid "quick overview"
+msgstr "rychlý přehled"
 
-#: r2/lib/scales.py:48
-#, fuzzy
-#| msgid "help"
-msgid "unhelpful"
-msgstr "nápověda"
+#: r2/lib/scales.py:59
+msgid "deep dive"
+msgstr "do hloubky"
 
-#: r2/lib/scales.py:49
-msgid "probably AI"
-msgstr ""
-
-#: r2/lib/scales.py:50
-msgid "beginner-friendly"
-msgstr ""
-
-#: r2/lib/scales.py:50
-msgid "in-depth"
-msgstr ""
-
-#: r2/lib/scales.py:51
+#: r2/lib/scales.py:60
 msgid "practical"
-msgstr ""
+msgstr "praktické"
 
-#: r2/lib/scales.py:51
-#, fuzzy
-#| msgid "just now"
-msgid "just for fun"
-msgstr "právě nyní"
+#: r2/lib/scales.py:60
+msgid "thought piece"
+msgstr "úvaha"
 
-#: r2/lib/scales.py:53
-#, fuzzy
-#| msgid "source code"
-msgid "well-sourced"
-msgstr "zdrojový kód"
+#: r2/lib/scales.py:62
+msgid "data-driven"
+msgstr "podložené daty"
 
-#: r2/lib/scales.py:53
-msgid "opinion"
-msgstr ""
+#: r2/lib/scales.py:62
+msgid "personal experience"
+msgstr "osobní zkušenost"
 
-#: r2/lib/scales.py:54
-msgid "calm"
-msgstr ""
+#: r2/lib/scales.py:63
+msgid "matter-of-fact"
+msgstr "věcné"
 
-#: r2/lib/scales.py:54
-#, fuzzy
-#| msgid "created"
-msgid "heated"
-msgstr "vytvořeno"
+#: r2/lib/scales.py:63
+msgid "passionate"
+msgstr "vášnivé"
+
+#: r2/lib/scales.py:64
+msgid "niche"
+msgstr "úzce zaměřené"
+
+#: r2/lib/scales.py:64
+msgid "broad"
+msgstr "obecné"
 
 #: r2/lib/site_info.py:146
 msgid "That isn't an image tippr can read."
@@ -6305,7 +6291,7 @@ msgstr "Tento parametr lze změnit i po vložení."
 msgid "Copy this code and paste it into your website:"
 msgstr "Zkopírujte tento kód a vložte ho na svůj web:"
 
-#: r2/public/static/js/enhancements.js:87 r2/public/static/js/markdown-toolbar.js:275 r2/public/static/js/scales.js:38
+#: r2/public/static/js/enhancements.js:87 r2/public/static/js/markdown-toolbar.js:275 r2/public/static/js/scales.js:40
 msgid "loading…"
 msgstr "načítání…"
 
@@ -6995,61 +6981,83 @@ msgstr "žádná kategorie"
 msgid "new category"
 msgstr "nová kategorie"
 
-#: r2/public/static/js/scales.js:37 r2/templates/printablebuttons.html:376
+#: r2/public/static/js/scales.js:39 r2/templates/printablebuttons.html:376
 msgid "scales"
-msgstr ""
+msgstr "váhy"
 
-#: r2/public/static/js/scales.js:43 r2/public/static/js/scales.js:54
-#, fuzzy
-#| msgid "an error occurred (status: %(status)s)"
+#: r2/public/static/js/scales.js:45 r2/public/static/js/scales.js:56
 msgid "an error occurred"
-msgstr "nastala chyba (stav: %(status)s)"
+msgstr "Došlo k chybě"
 
-#: r2/public/static/js/scales.js:81
-#, fuzzy, python-format
-#| msgid "%(num)s month"
-#| msgid_plural "%(num)s months"
-msgid "%(num)s tip"
-msgid_plural "%(num)s tips"
-msgstr[0] "%(num)s měsíc"
-msgstr[1] "%(num)s měsíce"
-msgstr[2] "%(num)s měsíců"
-
-#: r2/public/static/js/scales.js:85
-#, fuzzy
-#| msgid "not yet"
-msgid "no tips yet"
-msgstr "zatím ne"
-
-#: r2/public/static/js/scales.js:97 r2/public/static/js/scales.js:172
-msgid "fewer scales"
-msgstr ""
-
-#: r2/public/static/js/scales.js:97 r2/public/static/js/scales.js:172
-#, fuzzy
-#| msgid "more comments"
-msgid "more scales"
-msgstr "další komentáře"
-
-#: r2/public/static/js/scales.js:102
+#: r2/public/static/js/scales.js:89
 msgid "How others have tipped your post."
-msgstr ""
+msgstr "Takto ostatní ohodnotili váš příspěvek."
+
+#: r2/public/static/js/scales.js:91
+msgid "As a moderator, you see every scale’s tips without tipping."
+msgstr "Jako moderátor vidíte hodnocení všech vah, aniž byste hodnotili."
+
+#: r2/public/static/js/scales.js:93
+msgid "You saw the results, so you can’t tip this post’s scales."
+msgstr "Zobrazili jste výsledky, takže už nemůžete hodnotit váhy tohoto příspěvku."
+
+#: r2/public/static/js/scales.js:97
+msgid "Tip a scale to see how others tipped it, or"
+msgstr "Ohodnoťte váhu a uvidíte, jak ji ohodnotili ostatní, nebo"
+
+#: r2/public/static/js/scales.js:99
+msgid "see the results"
+msgstr "zobrazte výsledky"
+
+#: r2/public/static/js/scales.js:101
+msgid "(you can’t tip after)."
+msgstr "(potom už hodnotit nepůjde)."
 
 #: r2/public/static/js/scales.js:104
-msgid "Tip a scale to see how others tipped it."
-msgstr ""
-
-#: r2/public/static/js/scales.js:107
-#, fuzzy
-#| msgid "create rule"
 msgid "Breaks a rule?"
-msgstr "vytvořit pravidlo"
+msgstr "Porušuje pravidlo?"
 
-#: r2/public/static/js/scales.js:109
-#, fuzzy
-#| msgid "report"
+#: r2/public/static/js/scales.js:106
 msgid "report it"
-msgstr "ohlásit"
+msgstr "nahlaste ho"
+
+#: r2/public/static/js/scales.js:134
+msgid "no tips yet"
+msgstr "zatím žádná hodnocení"
+
+#: r2/public/static/js/scales.js:136
+#, python-format
+msgid "%(num)s tip"
+msgid_plural "%(num)s tips"
+msgstr[0] "%(num)s hodnocení"
+msgstr[1] "%(num)s hodnocení"
+msgstr[2] "%(num)s hodnocení"
+
+#: r2/public/static/js/scales.js:141 r2/public/static/js/scales.js:145
+#, python-format
+msgid "%(num)s %(side)s"
+msgstr "%(num)s × %(side)s"
+
+#: r2/public/static/js/scales.js:147
+#, python-format
+msgid "%(num)s tip so far"
+msgid_plural "%(num)s tips so far"
+msgstr[0] "zatím %(num)s hodnocení"
+msgstr[1] "zatím %(num)s hodnocení"
+msgstr[2] "zatím %(num)s hodnocení"
+
+#: r2/public/static/js/scales.js:151
+msgid "evenly split"
+msgstr "vyrovnané"
+
+#: r2/public/static/js/scales.js:155
+#, python-format
+msgid "%(percent)s %(side)s"
+msgstr "%(percent)s %(side)s"
+
+#: r2/public/static/js/scales.js:180
+msgid "See how everyone tipped this post? You won’t be able to tip its scales or change your tips afterwards."
+msgstr "Zobrazit, jak tento příspěvek ohodnotili všichni? Potom už nebudete moci hodnotit jeho váhy ani měnit svá hodnocení."
 
 #: r2/public/static/js/sponsored.js:91
 msgid "+ close"

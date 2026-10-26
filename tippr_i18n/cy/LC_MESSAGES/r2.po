@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tippr\n"
 "Report-Msgid-Bugs-To: https://github.com/TechIdiots-LLC/tippr-i18n/issues\n"
-"POT-Creation-Date: 2026-10-25 10:54-0400\n"
+"POT-Creation-Date: 2026-10-25 20:48-0400\n"
 "PO-Revision-Date: 2017-01-23 14:42-0500\n"
 "Last-Translator: tippr translators\n"
 "Language-Team: Welsh\n"
@@ -20,7 +20,7 @@ msgstr ""
 msgid "Choose an image of at most 1 MB."
 msgstr ""
 
-#: r2/controllers/api.py:223 r2/controllers/api.py:249 r2/controllers/api.py:4436 r2/controllers/api.py:4506 r2/controllers/listingcontroller.py:766 r2/lib/pages/pages.py:6422
+#: r2/controllers/api.py:223 r2/controllers/api.py:249 r2/controllers/api.py:4462 r2/controllers/api.py:4532 r2/controllers/listingcontroller.py:766 r2/lib/pages/pages.py:6422
 msgid "API"
 msgstr ""
 
@@ -62,477 +62,477 @@ msgstr ""
 msgid "that account isn't available to switch to; add it again"
 msgstr ""
 
-#: r2/controllers/api.py:581
+#: r2/controllers/api.py:607
 msgid "your message has been delivered"
 msgstr "Anfonwyd eich neges"
 
-#: r2/controllers/api.py:803
+#: r2/controllers/api.py:829
 msgid "no title found"
 msgstr "ni chanfuwyd teitl"
 
-#: r2/controllers/api.py:897 r2/controllers/linked_logins.py:184 r2/controllers/linked_logins.py:232 r2/controllers/linked_logins.py:252 r2/controllers/linked_logins.py:330
+#: r2/controllers/api.py:923 r2/controllers/linked_logins.py:184 r2/controllers/linked_logins.py:232 r2/controllers/linked_logins.py:252 r2/controllers/linked_logins.py:330
 msgid "That sign-in took too long. Please start again."
 msgstr ""
 
-#: r2/controllers/api.py:902
+#: r2/controllers/api.py:928
 msgid "That account is linked already: sign in with it."
 msgstr ""
 
-#: r2/controllers/api.py:1436 r2/controllers/api.py:1817 r2/controllers/api.py:2719 r2/controllers/api.py:3019 r2/controllers/api.py:3346 r2/controllers/api.py:4228 r2/controllers/api.py:4284 r2/controllers/api.py:4338 r2/controllers/api.py:4571 r2/controllers/api.py:4576 r2/controllers/api.py:4811 r2/controllers/api.py:4876 r2/controllers/api.py:4954 r2/controllers/api.py:5020 r2/controllers/api.py:5093 r2/controllers/api.py:5184 r2/controllers/api.py:5216 r2/controllers/api.py:5236 r2/controllers/api.py:5750 r2/controllers/api.py:5790 r2/controllers/api.py:6024 r2/controllers/api.py:6042 r2/controllers/api.py:6390 r2/lib/pages/pages.py:6313
+#: r2/controllers/api.py:1462 r2/controllers/api.py:1843 r2/controllers/api.py:2745 r2/controllers/api.py:3045 r2/controllers/api.py:3372 r2/controllers/api.py:4254 r2/controllers/api.py:4310 r2/controllers/api.py:4364 r2/controllers/api.py:4597 r2/controllers/api.py:4602 r2/controllers/api.py:4837 r2/controllers/api.py:4902 r2/controllers/api.py:4980 r2/controllers/api.py:5046 r2/controllers/api.py:5119 r2/controllers/api.py:5210 r2/controllers/api.py:5242 r2/controllers/api.py:5262 r2/controllers/api.py:5776 r2/controllers/api.py:5816 r2/controllers/api.py:6050 r2/controllers/api.py:6068 r2/controllers/api.py:6416 r2/lib/pages/pages.py:6313
 msgid "saved"
 msgstr "cadwyd"
 
-#: r2/controllers/api.py:1506
+#: r2/controllers/api.py:1532
 msgid "all other sessions have been logged out"
 msgstr "cawsoch eich allgofnodi o bob sesiwn arall"
 
-#: r2/controllers/api.py:1565
+#: r2/controllers/api.py:1591
 msgid "you should be getting a verification email shortly."
 msgstr "dylech dderbyn ebost dilysu yn fuan."
 
-#: r2/controllers/api.py:1567 r2/controllers/api.py:1580
+#: r2/controllers/api.py:1593 r2/controllers/api.py:1606
 msgid "your email has been updated"
 msgstr "diweddarwyd eich ebost"
 
-#: r2/controllers/api.py:1615
+#: r2/controllers/api.py:1641
 msgid "your password has been updated"
 msgstr "diweddarwyd eich cyfrinair"
 
-#: r2/controllers/api.py:2074 r2/lib/menus.py:196 r2/templates/adminserverstatus.html:165
+#: r2/controllers/api.py:2100 r2/lib/menus.py:196 r2/templates/adminserverstatus.html:165
 msgid "reported"
 msgstr "adroddwyd"
 
-#: r2/controllers/api.py:2497 r2/lib/support.py:91
+#: r2/controllers/api.py:2523 r2/lib/support.py:91
 msgid "replied"
 msgstr "atebwyd"
 
-#: r2/controllers/api.py:2702
+#: r2/controllers/api.py:2728
 msgid "validation errors"
 msgstr "gwallau dilysu"
 
-#: r2/controllers/api.py:2822 r2/controllers/api.py:2849 r2/controllers/api.py:2876 r2/controllers/listingcontroller.py:1048 r2/lib/menus.py:195 r2/public/static/js/tippr.js:235 r2/templates/adminapps.html:51 r2/templates/adminuser.html:59 r2/templates/deleteduserinterstitial.html:34 r2/templates/printablebuttons.html:41 r2/templates/printablebuttons.html:586 r2/templates/vaultstylesheetbase.html:47
+#: r2/controllers/api.py:2848 r2/controllers/api.py:2875 r2/controllers/api.py:2902 r2/controllers/listingcontroller.py:1048 r2/lib/menus.py:195 r2/public/static/js/tippr.js:235 r2/templates/adminapps.html:51 r2/templates/adminuser.html:59 r2/templates/deleteduserinterstitial.html:34 r2/templates/printablebuttons.html:41 r2/templates/printablebuttons.html:586 r2/templates/vaultstylesheetbase.html:47
 msgid "deleted"
 msgstr "dilëwyd"
 
-#: r2/controllers/api.py:2953
+#: r2/controllers/api.py:2979
 msgid "bad image name"
 msgstr "enw llun gwael"
 
-#: r2/controllers/api.py:2959
+#: r2/controllers/api.py:2985
 #, python-format
 msgid "too many images (you only get %d)"
 msgstr "gormod o luniau (rydych ond yn cael %d)"
 
-#: r2/controllers/api.py:2964 r2/controllers/api.py:2988
+#: r2/controllers/api.py:2990 r2/controllers/api.py:3014
 msgid "Invalid image or general image error"
 msgstr "llun annilys neu wall lluniau cyffredinol"
 
-#: r2/controllers/api.py:2969
+#: r2/controllers/api.py:2995
 #, python-format
 msgid "must be %dx%d pixels"
 msgstr "rhaid bod yn %dx%d o bicseli"
 
-#: r2/controllers/api.py:2973
+#: r2/controllers/api.py:2999
 msgid "10:3 aspect ratio required"
 msgstr ""
 
-#: r2/controllers/api.py:2976
+#: r2/controllers/api.py:3002
 #, python-format
 msgid "max %dx%d pixels"
 msgstr "uchafswm %dx%d o bicseli"
 
-#: r2/controllers/api.py:2979
+#: r2/controllers/api.py:3005
 #, python-format
 msgid "min %dx%d pixels"
 msgstr "isafswm %dx%d o bicseli"
 
-#: r2/controllers/api.py:4040
+#: r2/controllers/api.py:4066
 msgid "an email will be sent to that account's address shortly"
 msgstr "anfonir ebost i gyfeiriad y cyfrif hwnnw yn fuan"
 
-#: r2/controllers/api.py:4043
+#: r2/controllers/api.py:4069
 msgid "try again tomorrow"
 msgstr "rhowch gynnig arall arni yfory"
 
-#: r2/controllers/api.py:4090
+#: r2/controllers/api.py:4116
 msgid "password updated"
 msgstr "diweddarwyd y cyfrinair"
 
-#: r2/controllers/api.py:4296 r2/controllers/api.py:4527
+#: r2/controllers/api.py:4322 r2/controllers/api.py:4553
 msgid "invalid css class"
 msgstr "adran css annilys"
 
-#: r2/controllers/api.py:4299 r2/controllers/api.py:4530
+#: r2/controllers/api.py:4325 r2/controllers/api.py:4556
 msgid "too many css classes"
 msgstr "gormod o adrannau css"
 
-#: r2/controllers/api.py:4551
+#: r2/controllers/api.py:4577
 msgid "max flair templates reached"
 msgstr "cyrhaeddwyd uchafswm y patrymluniau dawn"
 
-#: r2/controllers/api.py:5016
+#: r2/controllers/api.py:5042
 #, python-format
 msgid "saved, but these aren't on until their keys are filled in: %(names)s"
 msgstr ""
 
-#: r2/controllers/api.py:5038
+#: r2/controllers/api.py:5064
 msgid "the keys work"
 msgstr ""
 
-#: r2/controllers/api.py:5039 r2/controllers/api.py:5056
+#: r2/controllers/api.py:5065 r2/controllers/api.py:5082
 #, fuzzy, python-format
 #| msgid "error: %(error)s"
 msgid "didn't work: %(error)s"
 msgstr "gwall: %(error)s"
 
-#: r2/controllers/api.py:5044
+#: r2/controllers/api.py:5070
 #, fuzzy
 #| msgid "%s vaults"
 msgid "no such payment"
 msgstr "%s o istipprs"
 
-#: r2/controllers/api.py:5059 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminprivacy.html:26 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminuser.html:89 r2/templates/adminusers.html:77 r2/templates/adminvaults.html:50
+#: r2/controllers/api.py:5085 r2/templates/adminapps.html:66 r2/templates/adminbackups.html:65 r2/templates/adminbackups.html:108 r2/templates/adminbar.html:47 r2/templates/adminpaymentsettings.html:244 r2/templates/adminprivacy.html:26 r2/templates/adminsupport.html:72 r2/templates/adminsupportticket.html:45 r2/templates/adminuser.html:89 r2/templates/adminusers.html:77 r2/templates/adminvaults.html:50
 msgid "status"
 msgstr "statws"
 
-#: r2/controllers/api.py:5084 r2/controllers/linked_logins.py:93 r2/controllers/linked_logins.py:187 r2/lib/pages/pages.py:1388 r2/lib/pages/pages.py:1438 r2/templates/createvault.html:57 r2/templates/goldpayment.html:168 r2/templates/linkedsignin.html:41 r2/templates/listingchooser.html:69 r2/templates/prefapps.html:153 r2/templates/prefapps.html:348
+#: r2/controllers/api.py:5110 r2/controllers/linked_logins.py:93 r2/controllers/linked_logins.py:187 r2/lib/pages/pages.py:1388 r2/lib/pages/pages.py:1438 r2/templates/createvault.html:57 r2/templates/goldpayment.html:168 r2/templates/linkedsignin.html:41 r2/templates/listingchooser.html:69 r2/templates/prefapps.html:153 r2/templates/prefapps.html:348
 msgid "name"
 msgstr "enw"
 
-#: r2/controllers/api.py:5089
+#: r2/controllers/api.py:5115
 #, python-format
 msgid "saved, but these aren't on until their ID and secret are filled in: %(names)s"
 msgstr ""
 
-#: r2/controllers/api.py:5198 r2/controllers/api.py:5224
+#: r2/controllers/api.py:5224 r2/controllers/api.py:5250
 msgid "this site's live config is managed in ZooKeeper"
 msgstr ""
 
-#: r2/controllers/api.py:5202
+#: r2/controllers/api.py:5228
 #, fuzzy
 #| msgid "vault settings"
 msgid "unknown setting"
 msgstr "gosodiadau istipprs"
 
-#: r2/controllers/api.py:5210 r2/controllers/api.py:5234
+#: r2/controllers/api.py:5236 r2/controllers/api.py:5260
 #, fuzzy, python-format
 #| msgid "error: %(error)s"
 msgid "not saved: %(error)s"
 msgstr "gwall: %(error)s"
 
-#: r2/controllers/api.py:5240
+#: r2/controllers/api.py:5266
 #, python-format
 msgid "%(saved)d saved; %(failed)d not saved (see below)"
 msgstr ""
 
-#: r2/controllers/api.py:5246
+#: r2/controllers/api.py:5272
 #, fuzzy
 #| msgid "we need something here"
 msgid "nothing changed"
 msgstr "mae angen rhywbeth arnom yma"
 
-#: r2/controllers/api.py:5262
+#: r2/controllers/api.py:5288
 #, python-format
 msgid "couldn't empty: %(servers)s"
 msgstr ""
 
-#: r2/controllers/api.py:5287
+#: r2/controllers/api.py:5313
 #, fuzzy
 #| msgid "that comment has been deleted"
 msgid "every account has been checked"
 msgstr "dilëwyd y sylw hwnnw"
 
-#: r2/controllers/api.py:5299
+#: r2/controllers/api.py:5325
 #, fuzzy
 #| msgid "create a new account"
 msgid "select some accounts"
 msgstr "creu cyfrif newydd"
 
-#: r2/controllers/api.py:5346 r2/controllers/api.py:5452
+#: r2/controllers/api.py:5372 r2/controllers/api.py:5478
 msgid "no such account"
 msgstr ""
 
-#: r2/controllers/api.py:5349 r2/controllers/api.py:5444
+#: r2/controllers/api.py:5375 r2/controllers/api.py:5470
 msgid "unknown action"
 msgstr ""
 
-#: r2/controllers/api.py:5363
+#: r2/controllers/api.py:5389
 #, fuzzy
 #| msgid "no permissions"
 msgid "choose a permission"
 msgstr "dim caniatâd"
 
-#: r2/controllers/api.py:5377
+#: r2/controllers/api.py:5403
 msgid "not on admins (take them off the employees list on /admin/config first)"
 msgstr ""
 
-#: r2/controllers/api.py:5381
+#: r2/controllers/api.py:5407
 #, fuzzy
 #| msgid "[account deleted]"
 msgid "the account is deleted"
 msgstr "[cyfrif wedi ei dileu]"
 
-#: r2/controllers/api.py:5384
+#: r2/controllers/api.py:5410
 msgid "give a reason (it's logged, and a timeout's reason is sent to them)"
 msgstr ""
 
-#: r2/controllers/api.py:5388 r2/controllers/api.py:5469
+#: r2/controllers/api.py:5414 r2/controllers/api.py:5495
 msgid "tick the box to confirm"
 msgstr ""
 
-#: r2/controllers/api.py:5391
+#: r2/controllers/api.py:5417
 msgid "choose whether to keep or delete their posts"
 msgstr ""
 
-#: r2/controllers/api.py:5394
+#: r2/controllers/api.py:5420
 #, fuzzy
 #| msgid "please enter an email address"
 msgid "they have no email address"
 msgstr "rhowch gyfeiriad ebost"
 
-#: r2/controllers/api.py:5441 r2/controllers/api.py:5547
+#: r2/controllers/api.py:5467 r2/controllers/api.py:5573
 #, fuzzy
 #| msgid "%s vaults"
 msgid "no such vault"
 msgstr "%s o istipprs"
 
-#: r2/controllers/api.py:5456
+#: r2/controllers/api.py:5482
 #, fuzzy
 #| msgid "that user is already a moderator"
 msgid "they're already a moderator"
 msgstr "mae'r defnyddiwr hwnnw eisoes yn gymedrolwr"
 
-#: r2/controllers/api.py:5459
+#: r2/controllers/api.py:5485
 #, fuzzy
 #| msgid "that user is banned from the vault"
 msgid "they're banned from the vault; unban them first"
 msgstr "gwaharddwyd y defnyddiwr hwnnw o'r istippr"
 
-#: r2/controllers/api.py:5464
+#: r2/controllers/api.py:5490
 #, fuzzy
 #| msgid "you are a moderator"
 msgid "they aren't a moderator"
 msgstr "rydych chi'n gymedrolwr"
 
-#: r2/controllers/api.py:5476
+#: r2/controllers/api.py:5502
 #, fuzzy
 #| msgid "Only in the vaults:"
 msgid "unban the vault first"
 msgstr "Ond yn yr istipprau:"
 
-#: r2/controllers/api.py:5495
+#: r2/controllers/api.py:5521
 msgid "no such app"
 msgstr ""
 
-#: r2/controllers/api.py:5498
+#: r2/controllers/api.py:5524
 msgid "the site's own apps can't be deleted here"
 msgstr ""
 
-#: r2/controllers/api.py:5541
+#: r2/controllers/api.py:5567
 msgid "give the feed's http(s) address"
 msgstr ""
 
-#: r2/controllers/api.py:5550
+#: r2/controllers/api.py:5576
 msgid "pick one of the AI labels"
 msgstr ""
 
-#: r2/controllers/api.py:5554
+#: r2/controllers/api.py:5580
 #, python-format
 msgid "/v/%(vault)s doesn't accept %(label)s posts"
 msgstr ""
 
-#: r2/controllers/api.py:5560
+#: r2/controllers/api.py:5586
 msgid "give the bot account a valid username"
 msgstr ""
 
-#: r2/controllers/api.py:5569
+#: r2/controllers/api.py:5595
 #, fuzzy
 #| msgid "that comment has been deleted"
 msgid "that account is suspended or deleted"
 msgstr "dilëwyd y sylw hwnnw"
 
-#: r2/controllers/api.py:5576 r2/controllers/api.py:5591
+#: r2/controllers/api.py:5602 r2/controllers/api.py:5617
 msgid "no such feed"
 msgstr ""
 
-#: r2/controllers/api.py:5614
+#: r2/controllers/api.py:5640
 #, fuzzy
 #| msgid "domain"
 msgid "give a domain"
 msgstr "parth"
 
-#: r2/controllers/api.py:5620
+#: r2/controllers/api.py:5646
 msgid "choose what the ban does"
 msgstr ""
 
-#: r2/controllers/api.py:5623
+#: r2/controllers/api.py:5649
 msgid "give a reason (members see it when the link is refused)"
 msgstr ""
 
-#: r2/controllers/api.py:5628
+#: r2/controllers/api.py:5654
 #, fuzzy
 #| msgid "stats at a glance"
 msgid "that's not a domain"
 msgstr "ystadegau cyflym"
 
-#: r2/controllers/api.py:5655 r2/controllers/api.py:5674 r2/controllers/api.py:5691 r2/controllers/api.py:5709
+#: r2/controllers/api.py:5681 r2/controllers/api.py:5700 r2/controllers/api.py:5717 r2/controllers/api.py:5735
 msgid "no such ticket"
 msgstr ""
 
-#: r2/controllers/api.py:5722
+#: r2/controllers/api.py:5748
 msgid "they can't reply in this category"
 msgstr ""
 
-#: r2/controllers/api.py:5742
+#: r2/controllers/api.py:5768
 msgid "not on the employees list"
 msgstr ""
 
-#: r2/controllers/api.py:5794
+#: r2/controllers/api.py:5820
 msgid "saved; CleanTalk needs an access key to work"
 msgstr ""
 
-#: r2/controllers/api.py:5797
+#: r2/controllers/api.py:5823
 #, python-format
 msgid "saved; CleanTalk says: %(problem)s"
 msgstr ""
 
-#: r2/controllers/api.py:5799
+#: r2/controllers/api.py:5825
 msgid "saved; the CleanTalk key works"
 msgstr ""
 
-#: r2/controllers/api.py:5836
+#: r2/controllers/api.py:5862
 msgid "that isn't a release with an installer"
 msgstr ""
 
-#: r2/controllers/api.py:5839
+#: r2/controllers/api.py:5865
 msgid "a server is updating now; wait for it to finish"
 msgstr ""
 
-#: r2/controllers/api.py:5941
+#: r2/controllers/api.py:5967
 msgid "Copy the key now; it isn't shown again."
 msgstr ""
 
-#: r2/controllers/api.py:5950
+#: r2/controllers/api.py:5976
 msgid "tippr-backup isn't installed on this server (re-run the installer)."
 msgstr ""
 
-#: r2/controllers/api.py:5955
+#: r2/controllers/api.py:5981
 msgid "no such backup"
 msgstr ""
 
-#: r2/controllers/api.py:5960
+#: r2/controllers/api.py:5986
 #, python-format
 msgid "Type this site's domain (%(domain)s) to confirm."
 msgstr ""
 
-#: r2/controllers/api.py:5973
+#: r2/controllers/api.py:5999
 msgid "Enter the other server's address and its transfer key."
 msgstr ""
 
-#: r2/controllers/api.py:5977
+#: r2/controllers/api.py:6003
 msgid "That isn't a backup name."
 msgstr ""
 
-#: r2/controllers/api.py:5998
+#: r2/controllers/api.py:6024
 #, fuzzy
 #| msgid "%(site)s mail"
 msgid "tippr test email"
 msgstr "%(site)s post"
 
-#: r2/controllers/api.py:5999
+#: r2/controllers/api.py:6025
 #, python-format
 msgid "This is a test message from %(domain)s. Email is working."
 msgstr ""
 
-#: r2/controllers/api.py:6003
+#: r2/controllers/api.py:6029
 #, fuzzy, python-format
 #| msgid "error: %(error)s"
 msgid "failed: %(error)s"
 msgstr "gwall: %(error)s"
 
-#: r2/controllers/api.py:6005
+#: r2/controllers/api.py:6031
 #, fuzzy, python-format
 #| msgid "submit to %(sr)s"
 msgid "sent to %(address)s"
 msgstr "cyflwyno i %(sr)s"
 
-#: r2/controllers/api.py:6038
+#: r2/controllers/api.py:6064
 msgid "no gold to take"
 msgstr "dim aur i'w gymryd"
 
-#: r2/controllers/api.py:6202 r2/controllers/api.py:6232
+#: r2/controllers/api.py:6228 r2/controllers/api.py:6258
 msgid "that's as many authenticator apps as an account can have"
 msgstr ""
 
-#: r2/controllers/api.py:6280
+#: r2/controllers/api.py:6306
 msgid "That code didn't work. Codes follow the clock, so check that your phone sets its time automatically."
 msgstr ""
 
-#: r2/controllers/api.py:6283
+#: r2/controllers/api.py:6309
 msgid "enter a code from one of your methods first"
 msgstr ""
 
-#: r2/controllers/api.py:6286
+#: r2/controllers/api.py:6312
 msgid "That password isn't right. Try again."
 msgstr ""
 
-#: r2/controllers/api.py:6287
+#: r2/controllers/api.py:6313
 #, fuzzy
 #| msgid "update your password"
 msgid "enter your password first"
 msgstr "diweddaru eich cyfrinair"
 
-#: r2/controllers/api.py:6305
+#: r2/controllers/api.py:6331
 msgid "that passkey couldn't be added"
 msgstr ""
 
-#: r2/controllers/api.py:6343
+#: r2/controllers/api.py:6369
 #, fuzzy
 #| msgid "that password is unacceptable"
 msgid "that passkey wasn't accepted"
 msgstr "mae'r cyfrinair hwnnw'n annerbyniol"
 
-#: r2/controllers/api.py:6504
+#: r2/controllers/api.py:6530
 #, python-format
 msgid "accounts need to be %(n)d days old"
 msgstr ""
 
-#: r2/controllers/api.py:6508
+#: r2/controllers/api.py:6534
 #, python-format
 msgid "accounts need %(n)d karma"
 msgstr ""
 
-#: r2/controllers/api.py:6511
+#: r2/controllers/api.py:6537
 #, fuzzy
 #| msgid "[tippr] verify your email address"
 msgid "verify your email address first"
 msgstr "[tippr] cadarnhau eich cyfeiriad ebost"
 
-#: r2/controllers/api.py:6553 r2/lib/errors.py:159
+#: r2/controllers/api.py:6579 r2/lib/errors.py:159
 msgid "this app can not be modified from this interface"
 msgstr ""
 
-#: r2/controllers/api.py:6560 r2/lib/errors.py:136
+#: r2/controllers/api.py:6586 r2/lib/errors.py:136
 msgid "invalid client id"
 msgstr "id cleient annilys"
 
-#: r2/controllers/api.py:6563
+#: r2/controllers/api.py:6589
 msgid "cannot update deleted app"
 msgstr "methu diweddaru ap a ddilëwyd"
 
-#: r2/controllers/api.py:6566
+#: r2/controllers/api.py:6592
 msgid "app does not belong to you"
 msgstr "nid chi piau'r ap"
 
-#: r2/controllers/api.py:6574
+#: r2/controllers/api.py:6600
 msgid "application updated"
 msgstr "diweddarwyd y rhaglen"
 
-#: r2/controllers/api.py:6598
+#: r2/controllers/api.py:6624
 msgid "application created"
 msgstr "crëwyd y rhaglen"
 
-#: r2/controllers/api.py:6633
+#: r2/controllers/api.py:6659
 msgid "developer added"
 msgstr "ychwanegwyd datblygwr"
 
@@ -1501,17 +1501,17 @@ msgstr ""
 msgid "AdSense: Auto ads pages"
 msgstr ""
 
-#: r2/lib/ai_content.py:35 r2/lib/scales.py:49
+#: r2/lib/ai_content.py:35 r2/lib/scales.py:58
 msgid "human-made"
-msgstr ""
+msgstr "wedi'i greu gan bobl"
 
 #: r2/lib/ai_content.py:36
 msgid "AI-assisted"
 msgstr ""
 
-#: r2/lib/ai_content.py:37
+#: r2/lib/ai_content.py:37 r2/lib/scales.py:58
 msgid "AI-generated"
-msgstr ""
+msgstr "wedi'i gynhyrchu gan AI"
 
 #: r2/lib/ai_content.py:41
 msgid "made by people, without AI"
@@ -3386,57 +3386,45 @@ msgid_plural "comments"
 msgstr[0] "sylw"
 msgstr[1] "sylw"
 
-#: r2/lib/scales.py:48
-#, fuzzy
-#| msgid "help"
-msgid "helpful"
-msgstr "cymorth"
+#: r2/lib/scales.py:59
+msgid "quick overview"
+msgstr "trosolwg cyflym"
 
-#: r2/lib/scales.py:48
-#, fuzzy
-#| msgid "help"
-msgid "unhelpful"
-msgstr "cymorth"
+#: r2/lib/scales.py:59
+msgid "deep dive"
+msgstr "plymio'n ddwfn"
 
-#: r2/lib/scales.py:49
-msgid "probably AI"
-msgstr ""
-
-#: r2/lib/scales.py:50
-msgid "beginner-friendly"
-msgstr ""
-
-#: r2/lib/scales.py:50
-msgid "in-depth"
-msgstr ""
-
-#: r2/lib/scales.py:51
+#: r2/lib/scales.py:60
 msgid "practical"
-msgstr ""
+msgstr "ymarferol"
 
-#: r2/lib/scales.py:51
-msgid "just for fun"
-msgstr ""
+#: r2/lib/scales.py:60
+msgid "thought piece"
+msgstr "darn myfyriol"
 
-#: r2/lib/scales.py:53
-#, fuzzy
-#| msgid "source code"
-msgid "well-sourced"
-msgstr "cod gwreiddiol"
+#: r2/lib/scales.py:62
+msgid "data-driven"
+msgstr "yn seiliedig ar ddata"
 
-#: r2/lib/scales.py:53
-msgid "opinion"
-msgstr ""
+#: r2/lib/scales.py:62
+msgid "personal experience"
+msgstr "profiad personol"
 
-#: r2/lib/scales.py:54
-msgid "calm"
-msgstr ""
+#: r2/lib/scales.py:63
+msgid "matter-of-fact"
+msgstr "ffeithiol"
 
-#: r2/lib/scales.py:54
-#, fuzzy
-#| msgid "create"
-msgid "heated"
-msgstr "creu"
+#: r2/lib/scales.py:63
+msgid "passionate"
+msgstr "angerddol"
+
+#: r2/lib/scales.py:64
+msgid "niche"
+msgstr "arbenigol"
+
+#: r2/lib/scales.py:64
+msgid "broad"
+msgstr "eang"
 
 #: r2/lib/site_info.py:146
 msgid "That isn't an image tippr can read."
@@ -6325,7 +6313,7 @@ msgstr ""
 msgid "Copy this code and paste it into your website:"
 msgstr ""
 
-#: r2/public/static/js/enhancements.js:87 r2/public/static/js/markdown-toolbar.js:275 r2/public/static/js/scales.js:38
+#: r2/public/static/js/enhancements.js:87 r2/public/static/js/markdown-toolbar.js:275 r2/public/static/js/scales.js:40
 #, fuzzy
 #| msgid "loading..."
 msgid "loading…"
@@ -7102,55 +7090,81 @@ msgstr ""
 msgid "new category"
 msgstr "categori newydd"
 
-#: r2/public/static/js/scales.js:37 r2/templates/printablebuttons.html:376
+#: r2/public/static/js/scales.js:39 r2/templates/printablebuttons.html:376
 msgid "scales"
-msgstr ""
+msgstr "cloriannau"
 
-#: r2/public/static/js/scales.js:43 r2/public/static/js/scales.js:54
+#: r2/public/static/js/scales.js:45 r2/public/static/js/scales.js:56
 msgid "an error occurred"
-msgstr ""
+msgstr "Bu gwall"
 
-#: r2/public/static/js/scales.js:81
-#, fuzzy, python-format
-#| msgid "this month"
-msgid "%(num)s tip"
-msgid_plural "%(num)s tips"
-msgstr[0] "y mis hwn"
-msgstr[1] "y mis hwn"
-
-#: r2/public/static/js/scales.js:85
-#, fuzzy
-#| msgid "not set"
-msgid "no tips yet"
-msgstr "heb ei osod"
-
-#: r2/public/static/js/scales.js:97 r2/public/static/js/scales.js:172
-msgid "fewer scales"
-msgstr ""
-
-#: r2/public/static/js/scales.js:97 r2/public/static/js/scales.js:172
-#, fuzzy
-#| msgid "more comments"
-msgid "more scales"
-msgstr "mwy o sylwadau"
-
-#: r2/public/static/js/scales.js:102
+#: r2/public/static/js/scales.js:89
 msgid "How others have tipped your post."
-msgstr ""
+msgstr "Dyma sut mae eraill wedi pwyso a mesur eich neges."
+
+#: r2/public/static/js/scales.js:91
+msgid "As a moderator, you see every scale’s tips without tipping."
+msgstr "Fel cymedrolwr, rydych chi'n gweld pwysiadau pob clorian heb bwyso eich hun."
+
+#: r2/public/static/js/scales.js:93
+msgid "You saw the results, so you can’t tip this post’s scales."
+msgstr "Rydych chi wedi gweld y canlyniadau, felly allwch chi ddim pwyso cloriannau'r neges hon mwyach."
+
+#: r2/public/static/js/scales.js:97
+msgid "Tip a scale to see how others tipped it, or"
+msgstr "Pwyswch glorian i weld sut mae eraill wedi'i phwyso, neu"
+
+#: r2/public/static/js/scales.js:99
+msgid "see the results"
+msgstr "gweld y canlyniadau"
+
+#: r2/public/static/js/scales.js:101
+msgid "(you can’t tip after)."
+msgstr "(allwch chi ddim pwyso wedyn)."
 
 #: r2/public/static/js/scales.js:104
-msgid "Tip a scale to see how others tipped it."
-msgstr ""
-
-#: r2/public/static/js/scales.js:107
 msgid "Breaks a rule?"
-msgstr ""
+msgstr "Ydy hi'n torri rheol?"
 
-#: r2/public/static/js/scales.js:109
-#, fuzzy
-#| msgid "reports"
+#: r2/public/static/js/scales.js:106
 msgid "report it"
-msgstr "adroddiadau"
+msgstr "adroddwch amdani"
+
+#: r2/public/static/js/scales.js:134
+msgid "no tips yet"
+msgstr "dim pwysiadau eto"
+
+#: r2/public/static/js/scales.js:136
+#, python-format
+msgid "%(num)s tip"
+msgid_plural "%(num)s tips"
+msgstr[0] "%(num)s pwysiad"
+msgstr[1] "%(num)s pwysiad"
+
+#: r2/public/static/js/scales.js:141 r2/public/static/js/scales.js:145
+#, python-format
+msgid "%(num)s %(side)s"
+msgstr "%(num)s × %(side)s"
+
+#: r2/public/static/js/scales.js:147
+#, python-format
+msgid "%(num)s tip so far"
+msgid_plural "%(num)s tips so far"
+msgstr[0] "%(num)s pwysiad hyd yma"
+msgstr[1] "%(num)s pwysiad hyd yma"
+
+#: r2/public/static/js/scales.js:151
+msgid "evenly split"
+msgstr "cyfartal"
+
+#: r2/public/static/js/scales.js:155
+#, python-format
+msgid "%(percent)s %(side)s"
+msgstr "%(percent)s %(side)s"
+
+#: r2/public/static/js/scales.js:180
+msgid "See how everyone tipped this post? You won’t be able to tip its scales or change your tips afterwards."
+msgstr "Gweld sut mae pawb wedi pwyso'r neges hon? Allwch chi ddim pwyso ei chloriannau na newid eich pwysiadau wedyn."
 
 #: r2/public/static/js/sponsored.js:91
 msgid "+ close"
