@@ -44,3 +44,13 @@ Edit a language's r2.po in any PO editor (Poedit, Lokalize, Weblate ...):
 Then check it with `msgfmt --check-format -o /dev/null <file>` and send a
 pull request. A language's display names and plural rules are in its
 catalog's header (Display-Name, Display-Name-en, Plural-Forms).
+
+Where this came from
+--------------------
+
+This is a fork of reddit's translation files
+(https://github.com/reddit-archive/reddit-i18n), which reddit archived along
+with the rest of its open-source code. Those translations were made by
+reddit's volunteer translators through Crowdin; tippr has since moved them to
+its own strings (vaults, scales, AI labels and the rest) and keeps them up to
+date here, so pull requests are welcome. Crowdin isn't used any more.
